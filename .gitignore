@@ -4,3 +4,4 @@ __pycache__/
 
 # third-party skill, reinstall with: npx skills add nutlope/hallmark
 .claude/skills/hallmark/
+HANDOFF.md
