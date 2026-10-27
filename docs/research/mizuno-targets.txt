@@ -1,43 +1,43 @@
-- ALTIUS SONIC (2026) missing: weight
-- Acroforce 300 (2025) missing: weight
-- Acroforce 600 (2025) missing: weight
-- Acrospeed 2 (2025) missing: weight
-- Acrospeed 1 Accel (2024) missing: weight
-- Acrospeed 1 Drive (2024) missing: weight
-- Acrospeed 1 Focus (2024) missing: weight
-- Acrospeed 3 (2024) missing: weight
-- Acrospeed 6 (2024) missing: weight
-- Acrospeed 7 (2024) missing: weight
-- Acrospeed 8 (2024) missing: weight
-- ACROSPEED 0 missing: weight
-- ACROSPEED 1 DRIVE J-EDITION missing: flex, weight, tension
-- ALTIUS VX5 missing: weight
-- ALTRAX 870 missing: weight
-- Acroforce 100 missing: flex, weight
-- Acroforce 200 Power missing: weight
-- Altius N-Feel missing: weight
-- CALIBER S-BOOST missing: weight
-- CALIBER S-BOOST 2 missing: weight
-- CALIBER V-PRO missing: weight
-- CARBO PRO 835 missing: weight
-- Caliber S-Boost 3 missing: weight
-- FIORIA LITE missing: weight
-- FORTIUS 50 SPIRIT missing: weight
-- FORTIUS 52 KS missing: weight
-- FORTIUS 71 VT missing: weight
-- Fortius 10 missing: weight
-- Fortius 77P missing: weight
-- JPX 10.5 CT missing: weight
-- JPX 3.3 RAGE missing: weight
-- JPX 7.0 SP missing: weight
-- JPX Limited Edition missing: weight
-- POWERBLADE 597 missing: weight
-- PROMAX HT1 missing: weight
-- PROTOTYPE X-1i missing: weight
-- PROTOTYPE X-3D missing: weight
-- PROTOTYPE X1.2 missing: weight
-- PROTOTYPE X5 CT missing: weight
-- SPEEDFLEX 9.0 FEEL missing: weight
-- TURBOBLADE 587 missing: weight
-- ZEPHYR ZR8 missing: weight
-- Zephyr missing: weight
+- ALTIUS SONIC (2026) missing: weight, price, level
+- Acroforce 300 (2025) missing: weight, level
+- Acroforce 600 (2025) missing: weight, level
+- Acrospeed 2 (2025) missing: weight, price, level
+- Acrospeed 1 Accel (2024) missing: weight, price, level
+- Acrospeed 1 Drive (2024) missing: weight, price, level
+- Acrospeed 1 Focus (2024) missing: weight, price, level
+- Acrospeed 3 (2024) missing: weight, price, level
+- Acrospeed 6 (2024) missing: weight, price, level
+- Acrospeed 7 (2024) missing: weight, price, level
+- Acrospeed 8 (2024) missing: weight, price, level
+- ACROSPEED 0 missing: weight, price, level
+- ACROSPEED 1 DRIVE J-EDITION missing: flex, weight, tension, price, level
+- ALTIUS VX5 missing: weight, price, level
+- ALTRAX 870 missing: weight, price, level
+- Acroforce 100 missing: flex, weight, price, level
+- Acroforce 200 Power missing: weight, level
+- Altius N-Feel missing: weight, level
+- CALIBER S-BOOST missing: weight, price, level
+- CALIBER S-BOOST 2 missing: weight, price, level
+- CALIBER V-PRO missing: weight, price, level
+- CARBO PRO 835 missing: weight, price, level
+- Caliber S-Boost 3 missing: weight, level
+- FIORIA LITE missing: weight, level
+- FORTIUS 50 SPIRIT missing: weight, price, level
+- FORTIUS 52 KS missing: weight, price, level
+- FORTIUS 71 VT missing: weight, price, level
+- Fortius 10 missing: weight, level
+- Fortius 77P missing: weight, level
+- JPX 10.5 CT missing: weight, price, level
+- JPX 3.3 RAGE missing: weight, price, level
+- JPX 7.0 SP missing: weight, price, level
+- JPX Limited Edition missing: weight, level
+- POWERBLADE 597 missing: weight, price, level
+- PROMAX HT1 missing: weight, price, level
+- PROTOTYPE X-1i missing: weight, price, level
+- PROTOTYPE X-3D missing: weight, price, level
+- PROTOTYPE X1.2 missing: weight, price, level
+- PROTOTYPE X5 CT missing: weight, price, level
+- SPEEDFLEX 9.0 FEEL missing: weight, price, level
+- TURBOBLADE 587 missing: weight, price, level
+- ZEPHYR ZR8 missing: weight, price, level
+- Zephyr missing: weight, price, level

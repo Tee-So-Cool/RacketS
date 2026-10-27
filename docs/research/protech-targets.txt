@@ -1,0 +1,9 @@
+- Aston Pro Ver 2 missing: price, level
+- Aston Tour missing: price, level
+- MAGIC TOUR missing: price, level
+- MAGIC XP BLACK missing: price, level
+- MAGIC XP MINT missing: price, level
+- MAGIC XP WHITE missing: price, level
+- Maxilite Champ missing: price, level
+- Maxilite Pro missing: price, level
+- PREDATOR XP missing: price, level

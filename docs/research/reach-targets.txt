@@ -1,0 +1,8 @@
+- Attack Speed 100 missing: flex, price, level
+- Attack Speed 88 missing: flex, price, level
+- Attack Speed 99 missing: flex, price, level
+- K-Force missing: flex, price, level
+- Kim Duo 55 2 Tone missing: price, level
+- Kim Duo 55 Pro (Two Tone) missing: price, level
+- New T-Rex Pro 3939 missing: balance, flex, weight, tension, price, level
+- T-REX Pro 4949 missing: flex, price, level

@@ -1,53 +1,100 @@
-- Auraspeed 100X (missing: weight, tension)
-- Auraspeed 100X TD (missing: balance)
-- Auraspeed 1JR (missing: balance, flex)
-- Auraspeed 25MACH (missing: flex)
-- Auraspeed 3100 (missing: balance, flex, weight, tension)
-- Auraspeed 3210 (missing: balance)
-- Auraspeed 70K (missing: balance, flex, weight, tension)
-- Auraspeed 90F TD (missing: balance)
-- Auraspeed 90K II TD (missing: weight)
-- Auraspeed Cyber (missing: flex)
-- Auraspeed ETA (missing: balance)
-- Auraspeed Fantome (missing: balance)
-- Auraspeed Fantome F (missing: balance)
-- Auraspeed Hang (missing: flex, weight, tension)
-- Auraspeed Hypersonic (missing: flex, weight, tension)
-- Auraspeed JU (missing: balance, flex)
-- Brave Sword 12 Pro (missing: balance, flex)
-- DriveX 1 (missing: balance, flex)
-- DriveX 12 (missing: balance, weight)
-- DriveX F (missing: balance, flex)
-- DriveX Metallic (missing: balance, flex)
-- DriveX Phecda (missing: balance, flex)
-- Jetspeed S 09L (missing: balance, flex, weight, tension)
-- Jetspeed S 12 II (missing: flex)
-- Mjolnir Metallic (missing: flex, weight, tension)
-- TK-66 (missing: flex, weight, tension)
-- TK-70 (missing: flex, weight, tension)
-- Thruster F C Ultra (missing: flex)
-- Thruster F Claw (missing: flex, weight, tension)
-- Thruster F Falcon Ultra C (missing: flex)
-- Thruster F HS (missing: flex, weight, tension)
-- Thruster HMR Pro (missing: balance, flex)
-- Thruster Hammer Light Extra (missing: flex)
-- Thruster Hawk Pro (missing: balance, flex)
-- Thruster K 15L (missing: flex, weight, tension)
-- Thruster K 280 EX (missing: balance, flex)
-- Thruster K 816CL (missing: balance, flex)
-- Thruster K 817CL (missing: balance, flex)
-- Thruster K Alpha (missing: flex, weight)
-- Thruster K Falcon (missing: weight)
-- Thruster K Onigiri Pro (missing: balance, flex, weight, tension)
-- Thruster Merak (missing: balance, flex)
-- Thruster Ryuga (missing: flex, weight, tension)
-- Thruster Ryuga II (missing: flex, weight, tension)
-- Thruster Ryuga Muse II (missing: balance, flex)
-- Thruster Ryuga TD (missing: balance, flex)
-- Thruster Ryuga TM (missing: balance, flex)
-- Thruster SI (missing: balance, flex)
-- Thruster T300 (missing: balance, flex)
-- Thruster T500 (missing: balance, flex)
-- Thruster TTY (missing: flex, weight, tension)
-- Thruster TTY Ultima (missing: flex, weight, tension)
-- Wrist Enhancer 140 (missing: balance, flex, weight)
+- Auraspeed 100X TD (2025) missing: balance, level
+- Auraspeed 1JR (2025) missing: balance, flex, level
+- Auraspeed 25MACH (2025) missing: flex, level
+- Auraspeed Fantome (2025) missing: balance, level
+- Auraspeed Fantome F (2025) missing: balance, level
+- Auraspeed LJH (2025) missing: level
+- Auraspeed LYC (2025) missing: level
+- DriveX 1 (2025) missing: balance, flex, level
+- DriveX Phecda (2025) missing: balance, flex, level
+- Thruster Hawk Pro (2025) missing: balance, flex, level
+- Thruster K 816CL (2025) missing: balance, flex, level
+- Thruster K 817CL (2025) missing: balance, flex, level
+- Thruster Ryuga TM (2025) missing: balance, flex, level
+- Wrist Enhancer 140 (2025) missing: balance, flex, weight, price, level
+- Auraspeed 100X Ultra (2024) missing: level
+- Auraspeed 3210 (2024) missing: balance, level
+- Auraspeed 9 (2024) missing: level
+- Auraspeed 90F TD (2024) missing: balance, level
+- Auraspeed 90K Metallic (2024) missing: level
+- Auraspeed Cyber (2024) missing: flex, level
+- Auraspeed ETA (2024) missing: balance, level
+- Auraspeed FD (2024) missing: level
+- Auraspeed HS Plus (2024) missing: level
+- Auraspeed JU (2024) missing: balance, flex, level
+- Auraspeed SYN (2024) missing: level
+- DriveX 3H (2024) missing: level
+- DriveX F (2024) missing: balance, flex, level
+- DriveX Metallic (2024) missing: balance, flex, level
+- Thruster HMR Pro (2024) missing: balance, flex, level
+- Thruster Hammer Light Extra (2024) missing: flex, level
+- Thruster Raptor (2024) missing: level
+- Thruster Ryuga CLS (2024) missing: level
+- Thruster Ryuga Muse (2024) missing: level
+- Thruster SI (2024) missing: balance, flex, level
+- Thruster T300 (2024) missing: balance, flex, level
+- Auraspeed 130CL (2023) missing: balance, flex, level
+- Auraspeed 150CL (2023) missing: balance, flex, level
+- Auraspeed 33H (2023) missing: balance, flex, level
+- Auraspeed 90F (2023) missing: balance, level
+- Auraspeed 90K II (2023) missing: balance, flex, level
+- Challenger 9500 Pro (2023) missing: balance, flex, price, level
+- DriveX 10 Metallic (2023) missing: balance, flex, level
+- DriveX 6SP (2023) missing: balance, flex, level
+- DriveX 7SP (2023) missing: balance, flex, level
+- Jetspeed S 800HT (2023) missing: balance, flex, level
+- Jetspeed T1PRO (2023) missing: balance, flex, level
+- Thruster 220H II (2023) missing: balance, flex, level
+- Thruster 66 (2023) missing: balance, flex, level
+- Thruster 8110AL (2023) missing: balance, flex, weight, level
+- Thruster Ryuga II TD (2023) missing: balance, flex, level
+- Thruster Ryuga JR (2023) missing: balance, flex, weight, level
+- Thruster Ryuga Metallic (2023) missing: flex, level
+- Auraspeed 3200 (2022) missing: balance, flex, level
+- Auraspeed 58 (2022) missing: balance, flex, level
+- Auraspeed 8000 (2022) missing: balance, level
+- Auraspeed 9000 (2022) missing: balance, flex, level
+- Jetspeed T1 (2022) missing: balance, flex, level
+- Thruster Hammer (2022) missing: flex, level
+- Thruster K R (2022) missing: flex, level
+- Auraspeed 6000 (2021) missing: balance, flex, level
+- Auraspeed 7000 (2021) missing: balance, flex, level
+- DriveX 09 (2021) missing: balance, flex, level
+- DriveX KT (2021) missing: balance, flex, level
+- Jetspeed S 12TD (2021) missing: balance, flex, level
+- Legend (2021) missing: balance, flex, price, level
+- Thruster HMR Light (2021) missing: balance, flex, level
+- Thruster Hawk (2021) missing: balance, flex, level
+- Auraspeed 100X missing: weight, level
+- Auraspeed 3100 missing: balance, flex, weight, tension, level
+- Auraspeed 70K missing: balance, flex, weight, tension, level
+- Auraspeed 90K II TD missing: weight, level
+- Auraspeed Hang missing: flex, weight, tension, level
+- Auraspeed Hypersonic missing: flex, weight, tension, level
+- Brave Sword 12 missing: level
+- Brave Sword 12 Pro missing: balance, flex, level
+- DriveX 12 missing: balance, weight, level
+- Jetspeed S 09L missing: balance, flex, weight, tension, level
+- Jetspeed S 12 II missing: flex, level
+- Mjolnir Metallic missing: flex, weight, tension, level
+- TK-66 missing: flex, weight, tension, level
+- TK-70 missing: flex, weight, tension, level
+- Thruster F C Ultra missing: flex, level
+- Thruster F Claw missing: flex, weight, tension, level
+- Thruster F Falcon Ultra C missing: flex, level
+- Thruster F HS missing: flex, weight, tension, level
+- Thruster K 15L missing: flex, weight, tension, level
+- Thruster K 280 EX missing: balance, flex, level
+- Thruster K Alpha missing: flex, weight, level
+- Thruster K Falcon missing: weight, level
+- Thruster K HMR Pro X missing: level
+- Thruster K Onigiri Pro missing: balance, flex, weight, tension, level
+- Thruster Merak missing: balance, flex, level
+- Thruster Ryuga missing: flex, weight, tension, level
+- Thruster Ryuga II missing: flex, weight, tension, level
+- Thruster Ryuga III missing: price, level
+- Thruster Ryuga Muse II missing: balance, flex, price, level
+- Thruster Ryuga TD missing: balance, flex, level
+- Thruster T500 missing: balance, flex, level
+- Thruster TTY missing: flex, weight, tension, level
+- Thruster TTY Ultima missing: flex, weight, tension, level

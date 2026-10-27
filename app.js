@@ -58,7 +58,7 @@
     return (s.est || []).includes(field) ? `${esc(s[field])} (ประเมิน)` : esc(s[field]);
   };
   const link = (url, text) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${text}</a>` : '';
-  const sources = x => [link(x.officialUrl, 'ผู้ผลิต'), link(x.specSrc, 'หน้าสินค้า'), link(x.shopUrl, 'ร้านไทย'), link(x.source, 'chobbad')].filter(Boolean).join(', ') || '—';
+  const sources = x => [link(x.officialUrl, 'ผู้ผลิต'), link(x.specSrc, 'หน้าสินค้า'), link(x.shopUrl, 'ร้านไทย'), link(x.bayUrl, 'Badminton Bay'), link(x.priceSrc !== x.bayUrl ? x.priceSrc : '', 'ที่มาราคา'), link(x.source, 'chobbad')].filter(Boolean).join(', ') || '—';
 
   // ---------- profiles (0–10) ----------
   const R_AXES = ['พลังตบ', 'ความคล่องตัว', 'ควบคุม', 'ตีง่าย', 'รับเอ็นตึง', 'หน้าไม้ไว', 'ต้องมีพื้นฐาน'];
@@ -151,7 +151,7 @@
         <div class="nm">${esc(full(r))}</div>
         <div class="meta">${[esc(r.brand), r.year, L.level[r.level]].filter(Boolean).join(', ')}</div>
         <div class="meta">${[lab(r, 'balance'), L.flex[r.flex], r.weights].filter(Boolean).map(esc).join(', ')}</div>
-        ${r.price ? `<div class="price"><b class="fig">${baht(r.price)}</b></div>` : ''}`,
+        ${r.price ? `<div class="price"><b class="fig">${(r.est || []).includes('price') ? '≈' : ''}${baht(r.price)}</b></div>` : ''}`,
       radar: sel => ({ axes: R_AXES, series: sel.map((x, i) => ({ name: full(x), color: COLORS[i], values: racketProfile(x) })), title: 'ภาพรวมบุคลิกไม้', note: 'คำนวณจากสเปก (สมดุล ก้าน น้ำหนัก ระดับ) ไม่ใช่คะแนนจากผู้ผลิต' }),
       bars: [
         { label: 'น้ำหนัก', hint: 'หนักมีแรงส่ง เบาสวิงไว', get: r => Number(r.weight) || NaN, fmt: v => v + ' g' },
@@ -178,7 +178,7 @@
         ['นักกีฬาที่ใช้', r => dash(r.players)],
         ['ผลิตที่', r => dash(r.madeIn)],
         ['เอ็นที่ผู้ผลิตแนะนำ', r => dash(r.recString)],
-        ['ราคาประมาณ', r => baht(r.price)],
+        ['ราคาประมาณ', r => r.price ? `${(r.est || []).includes('price') ? '≈' : ''}${baht(r.price)}${r.priceNote ? `<div class="small muted">${esc(r.priceNote)}</div>` : ''}` : '—'],
         ['หมายเหตุ', r => dash(r.note)],
         ['แหล่งข้อมูล', r => sources(r)],
       ],

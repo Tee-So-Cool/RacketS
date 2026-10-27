@@ -147,26 +147,31 @@ for y in yx:
 
 
 # ---- manual spec lookups (data/spec-overrides.json): "Brand Model" -> fields + src ----
-unmatched = []
+def apply_override(r, o):
+    for f, v in o.items():
+        if f in ('src', 'new', 'brand', 'currency') or v in ('', None): continue
+        if f == 'priceForeign':
+            r['priceForeign'] = {'amount': v, 'currency': o.get('currency', 'USD'), 'src': o.get('src', '')}
+        elif f == 'tmax':
+            r['tension'] = [(r.get('tension') or [None])[0], v]
+        else:
+            r[f] = v
+            if f in r.get('est', []): r['est'].remove(f)
+    r['specSrc'] = o.get('src', '')
+
+# first pass; names the Thai-shop layer creates later get a second pass after it
+deferred = []
 for full_name, o in overrides.items():
     if full_name.startswith('_'): continue
     r = rackets.get(key(full_name))
     if r is None:
-        if not o.get('new'): unmatched.append(full_name); continue
+        if not o.get('new'): deferred.append(full_name); continue
         brand = o.get('brand') or full_name.split()[0]
         r = {'id': slug(full_name), 'brand': brand, 'name': full_name[len(brand):].strip(), 'year': '', 'style': '', 'balance': '',
              'flex': '', 'level': '', 'weights': '', 'weight': '', 'grips': '', 'tension': None, 'price': '', 'frame': '', 'shaft': '',
              'joint': '', 'length': '', 'pattern': '', 'tech': '', 'players': '', 'madeIn': '', 'img': '', 'source': '', 'note': ''}
         rackets[key(full_name)] = r
-    for f, v in o.items():
-        if f in ('src', 'new', 'brand') or v in ('', None): continue
-        if f == 'tmax':
-            lo = (r.get('tension') or [None])[0]
-            r['tension'] = [lo, v]
-        else:
-            r[f] = v
-    r['specSrc'] = o.get('src', '')
-if unmatched: print('override names not found:', unmatched)
+    apply_override(r, o)
 
 # ---- Badminton Plaza (Thai shop): fills empty image, THB price and specs; adds models we lack ----
 import sys
@@ -202,6 +207,50 @@ for pz in plaza:
         if v not in ('', None) and r.get(f) in ('', None): r[f] = v
     if not r.get('shopUrl'): r['shopUrl'] = 'https://www.badmintonplaza.com/product_info.php?products_id=' + str(pz['id'])
 print('plaza matched', plaza_hits, 'added', plaza_new)
+unmatched = []
+for full_name in deferred:
+    r = rackets.get(key(full_name))
+    if r is None: unmatched.append(full_name)
+    else: apply_override(r, overrides[full_name])
+if unmatched: print('override names not found:', unmatched)
+
+
+# ---- Badminton Bay (Malaysia, USD): fills empty specs and images; its price is only a foreign-price candidate ----
+BAY = os.path.join(SRC, 'bay.json')
+bay = json.load(open(BAY, encoding='utf-8')) if os.path.exists(BAY) else []
+def bay_balance(t):
+    t = (t or '').lower()
+    if 'heavy' in t: return 'head-heavy'
+    if 'light' in t: return 'head-light'
+    if 'even' in t: return 'even'
+    m = re.search(r'(\d{3})\s*mm', t)
+    if m: v = int(m.group(1)); return 'head-heavy' if v >= 300 else 'head-light' if v <= 290 else 'even'
+    return ''
+def bay_flex(t):
+    t = (t or '').lower()
+    if 'extra' in t: return 'extra-stiff'
+    if 'stiff' in t: return 'stiff'
+    if 'medium' in t: return 'medium'
+    if 'flex' in t or 'soft' in t: return 'flexible'
+    return ''
+bay_hits = 0
+for bz in bay:
+    pool = {r['name']: r for r in rackets.values() if r['brand'] == bz['brand']}
+    m, _ = pmatch(bz['name'], pool)
+    if not m: continue
+    r = pool[m]; bay_hits += 1
+    ws, g = weights(bz.get('weight', ''))
+    fill = {'balance': bay_balance(bz.get('balance')), 'flex': bay_flex(bz.get('flex')), 'weights': ws, 'weight': g,
+            'tension': tension(bz.get('tension', '')), 'frame': bz.get('frame', ''), 'shaft': bz.get('shaft', ''),
+            'length': bz.get('length', ''), 'img': bz.get('img', '')}
+    for f, v in fill.items():
+        if v not in ('', None) and (r.get(f) in ('', None) or f in r.get('est', [])):
+            r[f] = v
+            if f in r.get('est', []): r['est'].remove(f)
+    if bz.get('price') and not r.get('priceForeign'):
+        r['priceForeign'] = {'amount': bz['price'], 'currency': bz.get('currency', 'USD'), 'src': bz['url']}
+    r.setdefault('bayUrl', bz['url'])
+print('bay matched', bay_hits)
 
 # ---- series-based estimates for missing style/balance (flagged in r['est']) ----
 SERIES = [
@@ -231,8 +280,27 @@ for r in rackets.values():
         st = hit[0] if hit else FROM_BAL.get(r['balance'], '')
         if st: r['style'] = st; est.append('style')
     r['est'] = est
+# ---- foreign price -> THB, only where no Thai price exists; flagged as an estimate with its note ----
+FX = json.load(open(os.path.join(SRC, 'fx.json'))) if os.path.exists(os.path.join(SRC, 'fx.json')) else {'toTHB': {}, 'date': ''}
+SYM = {'VND': '₫', 'USD': 'US$', 'GBP': '£', 'EUR': '€', 'MYR': 'RM', 'SGD': 'S$', 'AUD': 'A$', 'INR': '₹', 'JPY': '¥', 'CNY': 'CN¥'}
+converted = 0
+for r in rackets.values():
+    pf = r.get('priceForeign')
+    if r.get('price') or not pf: continue
+    rate = FX['toTHB'].get(pf['currency'])
+    src_name, src_date = 'ECB', FX['date']
+    if not rate:
+        rate = FX.get('extraToTHB', {}).get(pf['currency']); src_name, src_date = 'open.er-api.com', FX.get('extraDate', '')
+    if not rate: continue
+    r['price'] = int(round(pf['amount'] * rate / 10) * 10)
+    r.setdefault('est', []).append('price')
+    r['priceNote'] = f"แปลงจาก {SYM.get(pf['currency'], pf['currency'] + ' ')}{pf['amount']:,.2f} ที่ 1 {pf['currency']} = {rate:g} บาท ({src_name} {src_date}) ไม่รวมภาษีนำเข้าและค่าส่ง"
+    r['priceSrc'] = pf.get('src', '')
+    converted += 1
+print('prices converted', converted)
+
 order = ['id', 'brand', 'name', 'year', 'style', 'balance', 'flex', 'level', 'weights', 'weight', 'grips', 'tension', 'price',
-         'frame', 'shaft', 'joint', 'length', 'pattern', 'tech', 'players', 'madeIn', 'recString', 'img', 'source', 'officialUrl', 'specSrc', 'shopUrl', 'note', 'est']
+         'frame', 'shaft', 'joint', 'length', 'pattern', 'tech', 'players', 'madeIn', 'recString', 'img', 'source', 'officialUrl', 'specSrc', 'shopUrl', 'bayUrl', 'priceNote', 'priceSrc', 'note', 'est']
 final, seen = [], set()
 for r in sorted(rackets.values(), key=lambda r: (r['brand'], r['name'])):
     while r['id'] in seen: r['id'] += '-2'

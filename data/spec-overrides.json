@@ -661,10 +661,13 @@
   "new": true,
   "brand": "Victor",
   "weights": "5U",
-  "weight": 77,
+  "weight": 78,
   "tmax": 30,
-  "src": "https://www.badmintonwarehouse.com/products/victor-thruster-ryuga-muse-ii-tj-badminton-racket",
-  "img": "https://www.badmintonwarehouse.com/cdn/shop/files/victor-ryuga-muse-ii-tj-02-clean_700x700.jpg?v=1790875934"
+  "src": "https://badmintonclick.com.au/products/new-2026-victor-thruster-ryuga-muse-ii-nightshade-purple-78-grams-badminton-racquet",
+  "img": "https://www.badmintonwarehouse.com/cdn/shop/files/victor-ryuga-muse-ii-tj-02-clean_700x700.jpg?v=1790875934",
+  "balance": "head-heavy",
+  "priceForeign": 269.0,
+  "currency": "AUD"
  },
  "Victor Thruster K Alpha": {
   "new": true,
@@ -683,7 +686,8 @@
   "weight": 82,
   "tmax": 32,
   "price": 5990,
-  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4774"
+  "src": "https://www.badmintonwarehouse.com/collections/badminton-rackets/products/victor-thruster-f-c-ultra-cx-badminton-racket",
+  "flex": "stiff"
  },
  "Victor Thruster F Falcon Ultra C": {
   "new": true,
@@ -749,10 +753,10 @@
   "brand": "Mizuno",
   "balance": "head-heavy",
   "flex": "stiff",
-  "weights": "3U, 4U",
+  "weights": "4U, 3U",
   "tmax": 30,
   "price": 3990,
-  "src": "https://www.badmintonplaza.com/product_info.php?products_id=5078"
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=5077"
  },
  "Mizuno Fortius 10": {
   "new": true,
@@ -760,9 +764,11 @@
   "balance": "head-heavy",
   "flex": "stiff",
   "weights": "4U",
-  "tmax": 28,
+  "tmax": 23,
   "price": 6950,
-  "src": "https://www.badmintonplaza.com/product_info.php?products_id=5129"
+  "src": "https://vnm.mizuno.com/products/bdss-fortius-10-73jtb500-2025ss",
+  "priceForeign": 4900000.0,
+  "currency": "VND"
  },
  "Li-Ning SS 100 Superlight": {
   "new": true,
@@ -780,16 +786,19 @@
   "style": "attack",
   "balance": "head-heavy",
   "flex": "stiff",
-  "weights": "4U, 5U",
+  "weights": "5U, 4U",
   "weight": 82,
   "tmax": 32,
   "src": "https://www.badmintonwarehouse.com/products/victor-thruster-ryuga-iii-cq-badminton-racket",
-  "img": "https://www.badmintonwarehouse.com/cdn/shop/files/victor-ryuga-iii-cq-racket-full_700x700.webp?v=1791997642"
+  "img": "https://www.badmintonwarehouse.com/cdn/shop/files/victor-ryuga-iii-cq-racket-full_700x700.webp?v=1791997642",
+  "priceForeign": 230.0,
+  "currency": "USD"
  },
  "Victor Auraspeed 100X": {
-  "weights": "4U",
+  "weights": "4U, 3U",
   "tmax": 28,
-  "src": "https://www.badmintonwarehouse.com/products/victor-auraspeed-100x-b-badminton-racket-deep-sea-blue"
+  "src": "https://thegodofsports.com/products/victor-auraspeed-100x-badminton-racket",
+  "weight": 83
  },
  "Apacs Cross Court Speed": {
   "balance": "even",
@@ -1092,5 +1101,435 @@
   "weight": 87,
   "tmax": 38,
   "src": "https://www.badmintonbay.com/apacs-ziggler-lhi-proii-red-glossy-badminton-racket.html"
+ },
+ "Victor Auraspeed 1JR": {
+  "balance": "even",
+  "flex": "stiff",
+  "tmax": 18,
+  "priceForeign": 16.95,
+  "currency": "USD",
+  "src": "https://racquetguys.com/products/victor-auraspeed-1-junior-badminton-racquet"
+ },
+ "Victor Auraspeed 3200": {
+  "balance": "head-light",
+  "flex": "medium",
+  "weights": "4U",
+  "tmax": 25,
+  "src": "https://badmintonalley.com/Victor_AuraSpeed_3200_H_4UG5_Badminton_Racket_p/racket-victor-auraspeed-3200-h.htm"
+ },
+ "Victor Auraspeed 6000": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "5U, 4U",
+  "level": "intermediate",
+  "src": "https://badmintonbites.com/the-complete-guide-to-victor-badminton-rackets-auraspeed-series/"
+ },
+ "Victor Auraspeed 7000": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "5U, 4U",
+  "level": "advanced",
+  "src": "https://badmintonbites.com/the-complete-guide-to-victor-badminton-rackets-auraspeed-series/"
+ },
+ "Victor Auraspeed 70K": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "4U, 3U",
+  "weight": 90,
+  "level": "beginner",
+  "src": "https://badmintonbites.com/the-complete-guide-to-victor-badminton-rackets-auraspeed-series/",
+  "new": true,
+  "brand": "Victor"
+ },
+ "Victor Auraspeed 8000": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "5U, 4U",
+  "tmax": 31,
+  "src": "https://www.sportsdirect.com.my/victor-auraspeed-8000-badminton-racket-720115"
+ },
+ "Victor Auraspeed 33H": {
+  "balance": "even",
+  "flex": "medium",
+  "tmax": 31,
+  "src": "https://racquetguys.com/collections/clearance-badminton-racquets/products/victor-auraspeed-33h-badminton-racquet"
+ },
+ "Victor Auraspeed 90K II": {
+  "balance": "head-light",
+  "flex": "stiff",
+  "weights": "4U, 3U",
+  "tmax": 30,
+  "src": "https://www.nydhi.com/products/victor-auraspeed-90k-ii-victor-badminton-rackets"
+ },
+ "Victor Auraspeed Hang": {
+  "flex": "stiff",
+  "weights": "4U, 3U",
+  "tmax": 30,
+  "src": "https://joybadminton.com/mr/products/victor-ars-hang-c",
+  "new": true,
+  "brand": "Victor"
+ },
+ "Victor Auraspeed Hypersonic": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "4U, 3U",
+  "tmax": 28,
+  "src": "https://racquetguys.com/products/victor-auraspeed-hypersonic-badminton-racquet",
+  "new": true,
+  "brand": "Victor"
+ },
+ "Victor Jetspeed S 09L": {
+  "flex": "stiff",
+  "weights": "4U",
+  "weight": 83,
+  "tmax": 24,
+  "src": "https://badmintonclick.com.au/products/victor-jetspeed-s-09l-83-grams-ladies-badminton-racquet",
+  "new": true,
+  "brand": "Victor"
+ },
+ "Victor Mjolnir Metallic": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "tmax": 30,
+  "src": "https://www.badmintonwarehouse.com/products/thruster-k-mjolnir-metallic-m-badminton-racket",
+  "new": true,
+  "brand": "Victor"
+ },
+ "Victor Thruster F Claw": {
+  "flex": "stiff",
+  "weights": "4U",
+  "tmax": 31,
+  "src": "https://www.badmintonwarehouse.com/products/victor-thruster-f-claw-badminton-racket-ltd-a-tai-tzu-ying",
+  "new": true,
+  "brand": "Victor"
+ },
+ "Victor Thruster F HS": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U, 3U",
+  "tmax": 31,
+  "src": "https://badmintoncorner.com/products/victor-thruster-falcon-enhanced-hendra-setiawan-signature-editiontk-fblack-unstrung",
+  "new": true,
+  "brand": "Victor"
+ },
+ "Victor Thruster Hammer": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "tmax": 32,
+  "src": "https://www.sportsdirect.com.my/victor-thruster-hammer-badminton-racket-720116"
+ },
+ "Victor Thruster K Falcon": {
+  "flex": "stiff",
+  "weights": "4U",
+  "weight": 83,
+  "tmax": 32,
+  "src": "https://badmintonclick.com.au/products/victor-thruster-k-falcon-head-heavy-for-power-black-gold-83-grams-badminton-racquet"
+ },
+ "Victor Thruster Ryuga TD": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U, 3U",
+  "weight": 83,
+  "tmax": 29,
+  "src": "https://www.tennisnuts.com/victor-thruster-ryuga-td-d-badminton-racket-1644101.html ; https://badmintoncorner.com/products/victor-thruster-ryuga-td-flame-red-unstrung"
+ },
+ "Victor Thruster TTY": {
+  "balance": "head-heavy",
+  "weights": "4U",
+  "tmax": 31,
+  "priceForeign": 229.99,
+  "currency": "USD",
+  "src": "https://www.nydhi.com/collections/badminton-rackets/products/victor-thruster-tty-a-badminton-racket",
+  "new": true,
+  "brand": "Victor"
+ },
+ "Victor Thruster TTY Ultima": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "tmax": 31,
+  "src": "https://badminton-shop.com/product/victor-thruster-tty-ultima ; https://www.badmintonwarehouse.com/products/victor-thruster-tty-ultima-tribute-series-tk-tty-ultima-a-badminton-racket",
+  "new": true,
+  "brand": "Victor"
+ },
+ "Mizuno Altius Sonic": {
+  "balance": "head-light",
+  "flex": "stiff",
+  "weights": "4U",
+  "level": "beginner",
+  "src": "https://vnm.mizuno.com/products/altius-sonic-73jtb309-2025ss",
+  "priceForeign": 2750000.0,
+  "currency": "VND"
+ },
+ "Mizuno Acroforce 300": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "tmax": 28,
+  "price": 4160,
+  "src": "https://vnm.mizuno.com/products/acroforce-300-73jtb503-2025aw"
+ },
+ "Mizuno Acrospeed 1 Accel": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/acrospeed-1-accel-73jtb402-2024ss",
+  "priceForeign": 4900000.0,
+  "currency": "VND"
+ },
+ "Mizuno Acrospeed 1 Drive": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/acrospeed-1-drive-73jtb451-2024aw",
+  "priceForeign": 4900000.0,
+  "currency": "VND"
+ },
+ "Mizuno Acrospeed 1 Focus": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/acrospeed-1-focus-73jtb401-2024ss",
+  "priceForeign": 4900000.0,
+  "currency": "VND"
+ },
+ "Mizuno Acrospeed 3": {
+  "balance": "head-light",
+  "flex": "stiff",
+  "weights": "5U",
+  "level": "intermediate",
+  "src": "https://vnm.mizuno.com/products/acrospeed-3-73jtb403-2024ss",
+  "priceForeign": 4100000.0,
+  "currency": "VND"
+ },
+ "Mizuno Acrospeed 6": {
+  "balance": "head-light",
+  "flex": "stiff",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/acrospeed-6-73jtb406-2024ss",
+  "priceForeign": 3700000.0,
+  "currency": "VND"
+ },
+ "Mizuno Acrospeed 7": {
+  "balance": "head-light",
+  "flex": "stiff",
+  "weights": "5U",
+  "src": "https://vnm.mizuno.com/products/acrospeed-7-73jtb407-2024aw",
+  "priceForeign": 3150000.0,
+  "currency": "VND"
+ },
+ "Mizuno Acrospeed 8": {
+  "balance": "head-light",
+  "weights": "4U",
+  "level": "beginner",
+  "src": "https://vnm.mizuno.com/products/acrospeed-8-73jtb408-2024aw",
+  "priceForeign": 3150000.0,
+  "currency": "VND"
+ },
+ "Mizuno Acrospeed 0": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/acrospeed-0-73jtb400-2024ss",
+  "priceForeign": 5515000.0,
+  "currency": "VND"
+ },
+ "Mizuno Acrospeed 1 Drive J-Edition": {
+  "balance": "head-heavy",
+  "weights": "4U",
+  "tmax": 28,
+  "src": "https://vnm.mizuno.com/products/acrospeed-1-drive-j-edition-73jtb451-2025aw",
+  "priceForeign": 5515000.0,
+  "currency": "VND"
+ },
+ "Mizuno Altius VX5": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/altius-vx5-73mtb523-2025aw",
+  "priceForeign": 3640000.0,
+  "currency": "VND"
+ },
+ "Mizuno Altrax 870": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/altrax-870-73mtb524-2025aw",
+  "priceForeign": 1550000.0,
+  "currency": "VND"
+ },
+ "Mizuno Acroforce 100": {
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/acroforce-100-73jtb510-2025aw",
+  "priceForeign": 5300000.0,
+  "currency": "VND"
+ },
+ "Mizuno Acroforce 200 Power": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "5U",
+  "weight": 78,
+  "tmax": 30,
+  "price": 6950,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=5123"
+ },
+ "Mizuno Altius N-Feel": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "tmax": 27,
+  "src": "https://vnm.mizuno.com/products/altius-n-feel-73jtb521-2025aw",
+  "priceForeign": 5300000.0,
+  "currency": "VND"
+ },
+ "Mizuno Caliber S-Boost": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/caliber-s-boost-73mtb423-2024ss",
+  "priceForeign": 1849000.0,
+  "currency": "VND"
+ },
+ "Mizuno Caliber S-Boost 2": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/caliber-s-boost-2-73mtb524-2025aw",
+  "priceForeign": 2100000.0,
+  "currency": "VND"
+ },
+ "Mizuno Caliber V-Pro": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/caliber-v-pro-73mtb254-2025aw",
+  "priceForeign": 2650000.0,
+  "currency": "VND"
+ },
+ "Mizuno Carbo Pro 835": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/carbo-pro-835-73mtb423-2024ss",
+  "priceForeign": 1040000.0,
+  "currency": "VND"
+ },
+ "Mizuno Fioria Lite": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "5U",
+  "tmax": 28,
+  "src": "https://vnm.mizuno.com/products/fioria-lite-73mtb524-2025aw",
+  "priceForeign": 1560000.0,
+  "currency": "VND"
+ },
+ "Mizuno Fortius 52 KS": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "5U",
+  "src": "https://vnm.mizuno.com/products/fortius-52-ks-73mtb523-2025aw",
+  "priceForeign": 3300000.0,
+  "currency": "VND"
+ },
+ "Mizuno Fortius 71 VT": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/fortius-71-vt-73mtb523-2025aw",
+  "priceForeign": 2550000.0,
+  "currency": "VND"
+ },
+ "Mizuno JPX 10.5 CT": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/jpx-10-5-ct-control-73mtb523-2025aw",
+  "priceForeign": 2800000.0,
+  "currency": "VND"
+ },
+ "Mizuno JPX 3.3 Rage": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/jpx-3-3-rage-73mtb423-2024ss",
+  "priceForeign": 708000.0,
+  "currency": "VND"
+ },
+ "Mizuno JPX 7.0 SP": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/jpx-7-0-sp-73mtb523-2025aw",
+  "priceForeign": 2300000.0,
+  "currency": "VND"
+ },
+ "Mizuno Powerblade 597": {
+  "balance": "even",
+  "flex": "medium",
+  "src": "https://vnm.mizuno.com/products/powerblade-597-73mtb423-2024ss",
+  "priceForeign": 728000.0,
+  "currency": "VND"
+ },
+ "Mizuno Promax HT1": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/promax-ht1-73mtb524-2025aw",
+  "priceForeign": 2100000.0,
+  "currency": "VND"
+ },
+ "Mizuno Prototype X-1i": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/prototype-x-1i-73mtb423-2024ss",
+  "priceForeign": 3236000.0,
+  "currency": "VND"
+ },
+ "Mizuno Prototype X-3D": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/prototype-x-3d-73mtb423-2024ss",
+  "priceForeign": 2629000.0,
+  "currency": "VND"
+ },
+ "Mizuno Prototype X1.2": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/prototype-x1-2-73mtb523-2025aw",
+  "priceForeign": 3200000.0,
+  "currency": "VND"
+ },
+ "Mizuno Prototype X5 CT": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/prototype-x5-ct-control-73mtb523-2025aw",
+  "priceForeign": 2750000.0,
+  "currency": "VND"
+ },
+ "Mizuno Speedflex 9.0 Feel": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "5U",
+  "src": "https://vnm.mizuno.com/products/speedflex-9-0-feel-73mtb524-2025aw",
+  "priceForeign": 2100000.0,
+  "currency": "VND"
+ },
+ "Mizuno Turboblade 587": {
+  "flex": "medium",
+  "weights": "4U",
+  "src": "https://vnm.mizuno.com/products/turboblade-587-73mtb524-2025aw",
+  "priceForeign": 1250000.0,
+  "currency": "VND"
+ },
+ "Mizuno Zephyr ZR8": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "src": "https://vnm.mizuno.com/products/zephyr-zr8-73mtb524-2025aw",
+  "priceForeign": 1500000.0,
+  "currency": "VND"
  }
 }

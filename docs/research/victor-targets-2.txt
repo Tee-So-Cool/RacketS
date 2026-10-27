@@ -1,0 +1,46 @@
+- Auraspeed 100X TD (2025) missing: balance, level
+- Auraspeed 130CL (2023) missing: balance, flex, level
+- Auraspeed 150CL (2023) missing: balance, flex, level
+- Auraspeed 25MACH (2025) missing: flex, level
+- Auraspeed 3100 missing: balance, flex, weight, tension, level
+- Auraspeed 3210 (2024) missing: balance, level
+- Auraspeed 58 (2022) missing: balance, flex, level
+- Auraspeed 90F TD (2024) missing: balance, level
+- Auraspeed 90K II TD missing: weight, level
+- Auraspeed Cyber (2024) missing: flex, level
+- Auraspeed ETA (2024) missing: balance, level
+- Auraspeed Fantome F (2025) missing: balance, level
+- Auraspeed JU (2024) missing: balance, flex, level
+- Challenger 9500 Pro (2023) missing: balance, flex, price, level
+- DriveX 09 (2021) missing: balance, flex, level
+- DriveX 6SP (2023) missing: balance, flex, level
+- DriveX 7SP (2023) missing: balance, flex, level
+- DriveX F (2024) missing: balance, flex, level
+- DriveX KT (2021) missing: balance, flex, level
+- DriveX Metallic (2024) missing: balance, flex, level
+- DriveX Phecda (2025) missing: balance, flex, level
+- Jetspeed S 12TD (2021) missing: balance, flex, level
+- Jetspeed S 800HT (2023) missing: balance, flex, level
+- Jetspeed T1 (2022) missing: balance, flex, level
+- Jetspeed T1PRO (2023) missing: balance, flex, level
+- Legend (2021) missing: balance, flex, price, level
+- Thruster 220H II (2023) missing: balance, flex, level
+- Thruster 8110AL (2023) missing: balance, flex, weight, level
+- Thruster F Falcon Ultra C missing: flex, level
+- Thruster HMR Pro (2024) missing: balance, flex, level
+- Thruster Hammer Light Extra (2024) missing: flex, level
+- Thruster Hawk Pro (2025) missing: balance, flex, level
+- Thruster K 280 EX missing: balance, flex, level
+- Thruster K 816CL (2025) missing: balance, flex, level
+- Thruster K 817CL (2025) missing: balance, flex, level
+- Thruster K Alpha missing: flex, weight, level
+- Thruster Merak missing: balance, flex, level
+- Thruster Ryuga II missing: flex, weight, tension, level
+- Thruster Ryuga II TD (2023) missing: balance, flex, level
+- Thruster Ryuga JR (2023) missing: balance, flex, weight, level
+- Thruster Ryuga Metallic (2023) missing: flex, level
+- Thruster Ryuga TM (2025) missing: balance, flex, level
+- Thruster SI (2024) missing: balance, flex, level
+- Thruster T300 (2024) missing: balance, flex, level
+- Thruster T500 missing: balance, flex, level
+- Wrist Enhancer 140 (2025) missing: balance, flex, weight, price, level
