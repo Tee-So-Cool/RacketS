@@ -11660,10 +11660,13 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "stiff",
   "level": "",
-  "weights": "",
+  "weights": "4U",
   "weight": "",
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   28
+  ],
   "price": 4700,
   "frame": "High Resilient Modulus Graphite + Nano Fortify TR+",
   "shaft": "",
@@ -11677,7 +11680,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-auraspeed-100x-225x300.jpg",
   "source": "https://chobbad.com/racket/rk-victor-auraspeed-100x/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonwarehouse.com/products/victor-auraspeed-100x-b-badminton-racket-deep-sea-blue",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4085",
   "note": "",
   "est": [

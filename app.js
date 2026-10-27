@@ -45,7 +45,7 @@
   const lab = (r, field) => {
     const v = L[field][r[field]];
     if (!v) return '';
-    return (r.est || []).includes(field) ? `${v} (ประเมิน)` : v;
+    return (r.est || []).includes(field) ? `≈${v}` : v;
   };
   // string rating cell, same estimate marker
   const rate = (s, field) => {
@@ -213,6 +213,7 @@
   const emptyFilter = kind => ({ q: '', brand: '', style: '', balance: '', level: '', material: '', gauge: '', sort: kind === 'r' ? 'year' : 'name' });
   const state = {
     sel: { r: [], s: [] },
+    shown: { r: 48, s: 48 },
     f: { r: emptyFilter('r'), s: emptyFilter('s') },
     m: null,
     mg: { kind: 'r', edit: null, q: '' },
@@ -246,7 +247,7 @@
 
     view.innerHTML = `
       <h1>${cfg.title}</h1>
-      <p class="muted">ติ๊กเลือกได้สูงสุด 3 รุ่นเพื่อเทียบกัน จากทั้งหมด ${items.length} รุ่น</p>
+      <p class="muted">ติ๊กเลือกได้สูงสุด 3 รุ่นเพื่อเทียบกัน (≈ คือค่าประเมิน) จากทั้งหมด ${items.length} รุ่น</p>
       <div id="cmp"></div>
       <div class="filters" id="flt">
         <input type="search" name="q" placeholder="ค้นหารุ่น…" value="${esc(f.q)}">
@@ -256,11 +257,13 @@
         <button class="btn ghost" id="clr" type="button">ล้างตัวกรอง</button>
       </div>
       <div class="count muted small" id="cnt"></div>
-      <div class="grid" id="grid"></div>`;
+      <div class="grid" id="grid"></div>
+      <div class="more-row"><button class="btn" id="more" type="button" hidden></button></div>`;
 
     const flt = view.querySelector('#flt');
-    flt.addEventListener('input', e => { if (e.target.name) { f[e.target.name] = e.target.value; renderGrid(kind); } });
-    view.querySelector('#clr').onclick = () => { state.f[kind] = emptyFilter(kind); viewCompare(kind); };
+    flt.addEventListener('input', e => { if (e.target.name) { f[e.target.name] = e.target.value; state.shown[kind] = PAGE; renderGrid(kind); } });
+    view.querySelector('#more').onclick = () => { state.shown[kind] += PAGE; renderGrid(kind); };
+    view.querySelector('#clr').onclick = () => { state.f[kind] = emptyFilter(kind); state.shown[kind] = PAGE; viewCompare(kind); };
     view.querySelector('#grid').addEventListener('click', e => {
       const el = e.target.closest('.item'); if (el) toggle(kind, el.dataset.id);
     });
@@ -280,9 +283,15 @@
     renderCompare(kind);
   }
 
+  const PAGE = 48;
   function renderGrid(kind) {
-    const list = filtered(kind), sel = state.sel[kind];
-    view.querySelector('#cnt').textContent = `พบ ${list.length} รุ่น`;
+    const all = filtered(kind), sel = state.sel[kind];
+    const list = all.slice(0, state.shown[kind]);
+    view.querySelector('#cnt').textContent = all.length > list.length ? `พบ ${all.length} รุ่น แสดง ${list.length} รุ่นแรก` : `พบ ${all.length} รุ่น`;
+    const more = view.querySelector('#more');
+    const left = all.length - list.length;
+    more.hidden = left <= 0;
+    more.textContent = `ดูเพิ่มอีก ${Math.min(PAGE, left)} รุ่น (เหลือ ${left})`;
     view.querySelector('#grid').innerHTML = list.length ? list.map(x => `
       <div class="item ${sel.includes(x.id) ? 'sel' : ''}" data-id="${esc(x.id)}" role="checkbox" aria-checked="${sel.includes(x.id)}" tabindex="0">
         <div class="tick">✓</div>${KIND[kind].card(x)}
@@ -318,7 +327,7 @@
           <div class="radar"><h3>${rd.title}</h3>${radar(rd.axes, rd.series)}${legend(sel)}<p class="small muted">${rd.note}</p></div>
           <div class="bars"><h3>กราฟเทียบ</h3>${bars(cfg.bars, sel, db[kind])}</div>
         </div>
-        <p class="small muted sheet-key">ช่องที่ขึ้น — คือยังไม่มีข้อมูล ช่องที่ไฮไลต์คือค่าที่ต่างกัน</p>
+        <p class="small muted sheet-key">ช่องที่ขึ้น — คือยังไม่มีข้อมูล ช่องที่ไฮไลต์คือค่าที่ต่างกัน ค่าที่มี ≈ คือค่าประเมินจากซีรีส์</p>
         ${specTable(cfg.spec, sel)}
       </section>`;
     watchSheet();

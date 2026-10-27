@@ -227,3 +227,19 @@ table.spec a:hover { text-decoration-color: var(--color-accent-hi); }
 /* figures: the display face at a quiet weight, tabular */
 .fig { font-family: var(--font-display); font-weight: var(--display-weight); }
 .item .price .fig { font-size: var(--text-lg); }
+
+/* the catalogue pages 48 at a time */
+.more-row { display: flex; justify-content: center; margin-top: var(--space-lg); }
+
+/* on a phone the compare heads stack, so model names never break mid-word */
+@media (max-width: 40rem) {
+  .heads { grid-template-columns: minmax(0, 1fr) !important; gap: var(--space-sm); }
+  .head .nm { overflow-wrap: normal; }
+  .tabs { gap: var(--space-md); font-size: var(--text-sm); }
+}
+@media (max-width: 40rem) {
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .item { padding: var(--space-sm); }
+  .item .thumb { height: 96px; }
+  .item .tick { top: var(--space-sm); right: var(--space-sm); }
+}
