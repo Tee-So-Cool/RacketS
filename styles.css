@@ -176,7 +176,7 @@ table.spec a:hover { text-decoration-color: var(--color-accent-hi); }
 .tray.away { opacity: 0; visibility: hidden; pointer-events: none; }
 
 /* ---------- match ---------- */
-.mgrid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1fr); gap: var(--space-sm); margin: var(--space-lg) 0; }
+.mgrid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 2fr) repeat(3, minmax(0, 1fr)); gap: var(--space-sm); margin: var(--space-lg) 0; }
 @media (max-width: 52rem) { .mgrid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
 @media (max-width: 30rem) { .mgrid { grid-template-columns: minmax(0, 1fr); } }
 .field label { display: block; font-size: var(--text-sm); font-weight: 500; color: var(--color-muted); margin-bottom: var(--space-2xs); }
