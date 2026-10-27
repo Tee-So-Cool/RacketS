@@ -1,6 +1,30 @@
 [
  {
   "mode": "redesign",
+  "depth": "restyle",
+  "scope": "app",
+  "shape": "app screen",
+  "theme": "dusk",
+  "axes": "dark/grotesk-sans/cool",
+  "hero": "none (app)",
+  "nav": "kept top bar",
+  "footer": "none",
+  "imagery": "product photos in white wells",
+  "photos": 0,
+  "entry": "catalogue grid",
+  "signature": "compare sheet in glass",
+  "sections": [
+   "catalogue",
+   "compare sheet",
+   "match",
+   "manage"
+  ],
+  "waived": [],
+  "prompt": "switch theme to dusk",
+  "date": "2026-10-27"
+ },
+ {
+  "mode": "redesign",
   "depth": "full",
   "scope": "app",
   "shape": "app screen",
