@@ -1,3 +1,6 @@
 .DS_Store
 __pycache__/
 *.pyc
+
+# third-party skill, reinstall with: npx skills add nutlope/hallmark
+.claude/skills/hallmark/
