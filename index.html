@@ -4,15 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>เทียบไม้แบด</title>
+  <meta name="description" content="เทียบสเปกไม้แบดและเอ็น ทีละสามรุ่น และจับคู่ไม้กับเอ็นพร้อมปอนด์ที่แนะนำ">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@800&family=Kanit:wght@800&family=IBM+Plex+Sans+Thai:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=__V__">
 </head>
 <body>
   <header class="top">
-    <div class="wrap top-in">
-      <a class="logo" href="#rackets">🏸 <span>เทียบไม้แบด</span></a>
-      <nav class="tabs" id="tabs">
+    <div class="container top-in">
+      <a class="logo" href="#rackets">เทียบไม้แบด</a>
+      <nav class="tabs" id="tabs" aria-label="หน้า">
         <a href="#rackets" data-v="rackets">ไม้แบด</a>
         <a href="#strings" data-v="strings">เอ็น</a>
         <a href="#match" data-v="match">จับคู่ไม้+เอ็น</a>
@@ -20,7 +22,7 @@
       </nav>
     </div>
   </header>
-  <main class="wrap" id="view"></main>
+  <main class="container" id="view"></main>
   <div class="tray" id="tray" hidden></div>
 
   <!-- __V__ is replaced with the commit hash on deploy so browsers fetch fresh data -->

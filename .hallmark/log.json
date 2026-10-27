@@ -1,0 +1,26 @@
+[
+ {
+  "mode": "redesign",
+  "depth": "full",
+  "scope": "app",
+  "shape": "app screen",
+  "theme": "sport",
+  "axes": "light/display-condensed/chromatic-volt",
+  "hero": "none (app)",
+  "nav": "kept top bar",
+  "footer": "none",
+  "imagery": "product photos from data",
+  "photos": 0,
+  "entry": "catalogue grid",
+  "signature": "compare sheet",
+  "sections": [
+   "catalogue",
+   "compare sheet",
+   "match",
+   "manage"
+  ],
+  "waived": [],
+  "prompt": "badminton racket and string comparison tool for Thai players",
+  "date": "2026-10-27"
+ }
+]

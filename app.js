@@ -53,7 +53,7 @@
     return (s.est || []).includes(field) ? `${esc(s[field])} (ประเมิน)` : esc(s[field]);
   };
   const link = (url, text) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${text}</a>` : '';
-  const sources = x => [link(x.officialUrl, 'ผู้ผลิต'), link(x.specSrc, 'หน้าสินค้า'), link(x.source, 'chobbad')].filter(Boolean).join(' · ') || '—';
+  const sources = x => [link(x.officialUrl, 'ผู้ผลิต'), link(x.specSrc, 'หน้าสินค้า'), link(x.source, 'chobbad')].filter(Boolean).join(', ') || '—';
 
   // ---------- profiles (0–10) ----------
   const R_AXES = ['พลังตบ', 'ความคล่องตัว', 'ควบคุม', 'ตีง่าย', 'รับเอ็นตึง', 'ต้องมีพื้นฐาน'];
@@ -83,19 +83,21 @@
     const pt = (i, v) => { const a = -Math.PI / 2 + i * 2 * Math.PI / n; return [c + Math.cos(a) * R * v, c + Math.sin(a) * R * v]; };
     const poly = v => axes.map((_, i) => pt(i, typeof v === 'number' ? v : v[i]).map(x => x.toFixed(1)).join(',')).join(' ');
     let g = '';
-    for (const lv of [0.25, 0.5, 0.75, 1]) g += `<polygon points="${poly(lv)}" style="fill:none;stroke:var(--line)"/>`;
+    for (const lv of [0.25, 0.5, 0.75, 1]) g += `<polygon points="${poly(lv)}" style="fill:none;stroke:var(--color-rule)"/>`;
     axes.forEach((a, i) => {
       const [x, y] = pt(i, 1), [lx, ly] = pt(i, 1.2);
       const anchor = Math.abs(lx - c) < 4 ? 'middle' : (lx > c ? 'start' : 'end');
-      g += `<line x1="${c}" y1="${c}" x2="${x.toFixed(1)}" y2="${y.toFixed(1)}" style="stroke:var(--line)"/>`;
+      g += `<line x1="${c}" y1="${c}" x2="${x.toFixed(1)}" y2="${y.toFixed(1)}" style="stroke:var(--color-rule)"/>`;
       g += `<text x="${lx.toFixed(1)}" y="${ly.toFixed(1)}" text-anchor="${anchor}" dominant-baseline="middle">${esc(a)}</text>`;
     });
-    series.forEach(s => {
-      g += `<polygon points="${poly(s.values.map(v => clamp(v / 10)))}" style="fill:${s.color};fill-opacity:.14;stroke:${s.color};stroke-width:2;stroke-linejoin:round"><title>${esc(s.name)}</title></polygon>`;
+    // each series also gets its own line style so the three stay apart without colour
+    const DASH = ['none', '8 5', '2 4'];
+    series.forEach((s, i) => {
+      g += `<polygon points="${poly(s.values.map(v => clamp(v / 10)))}" style="fill:${s.color};fill-opacity:.1;stroke:${s.color};stroke-width:2.5;stroke-dasharray:${DASH[i] || 'none'};stroke-linejoin:round"><title>${esc(s.name)}</title></polygon>`;
     });
     return `<svg viewBox="-70 0 ${size + 140} ${size}" role="img" aria-label="radar chart">${g}</svg>`;
   }
-  const legend = sel => `<div class="legend">${sel.map((x, i) => `<span><i style="background:${COLORS[i]}"></i>${esc(full(x))}</span>`).join('')}</div>`;
+  const legend = sel => `<div class="legend">${sel.map((x, i) => `<span><i style="color:${COLORS[i]}"></i>${esc(full(x))}</span>`).join('')}</div>`;
 
   function bars(rows, sel, all) {
     return rows.map(row => {
@@ -112,7 +114,7 @@
   }
 
   function specTable(rows, sel) {
-    const head = `<thead><tr><th>หัวข้อ</th>${sel.map((x, i) => `<td style="color:${COLORS[i]}">${esc(full(x))}</td>`).join('')}</tr></thead>`;
+    const head = `<thead><tr><th>หัวข้อ</th>${sel.map((x, i) => `<td style="--c:${COLORS[i]}">${esc(full(x))}</td>`).join('')}</tr></thead>`;
     const body = rows.map(([label, fn]) => {
       const cells = sel.map(x => fn(x));
       const diff = sel.length > 1 && new Set(cells).size > 1;
@@ -130,17 +132,15 @@
       sorts: { name: 'เรียงตามชื่อ', year: 'ใหม่สุดก่อน', priceAsc: 'ราคาต่ำ → สูง', priceDesc: 'ราคาสูง → ต่ำ' },
       match: (x, f) => (!f.style || x.style === f.style) && (!f.balance || x.balance === f.balance) && (!f.level || x.level === f.level),
       card: r => `
-        ${r.img ? `<img class="thumb" src="${esc(r.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ''}
-        ${r.style ? `<span class="tag ${r.style}">${lab(r, 'style')}</span>` : '<span class="tag">—</span>'}
+        ${r.img ? `<img class="thumb" src="${esc(r.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<div class="thumb" aria-hidden="true"></div>'}
+        <span class="tag ${r.style || ''}">${lab(r, 'style') || '—'}</span>
         <div class="nm">${esc(full(r))}</div>
-        <div class="meta">${esc(r.brand)}${r.year ? ' · ' + r.year : ''}${r.level ? ' · ' + L.level[r.level] : ''}</div>
-        <div class="meta">${[lab(r, 'balance'), L.flex[r.flex], r.weights].filter(Boolean).map(esc).join(' · ')}</div>
-        <div class="price">${baht(r.price)}</div>`,
+        <div class="meta">${[esc(r.brand), r.year, L.level[r.level]].filter(Boolean).join(', ')}</div>
+        <div class="meta">${[lab(r, 'balance'), L.flex[r.flex], r.weights].filter(Boolean).map(esc).join(', ')}</div>
+        ${r.price ? `<div class="price"><b class="fig">${baht(r.price)}</b></div>` : ''}`,
       radar: sel => ({ axes: R_AXES, series: sel.map((x, i) => ({ name: full(x), color: COLORS[i], values: racketProfile(x) })), title: 'ภาพรวมบุคลิกไม้', note: 'คำนวณจากสเปก (สมดุล ก้าน น้ำหนัก ระดับ) ไม่ใช่คะแนนจากผู้ผลิต' }),
       bars: [
         { label: 'น้ำหนัก', hint: 'หนักมีแรงส่ง เบาสวิงไว', get: r => Number(r.weight) || NaN, fmt: v => v + ' g' },
-        { label: 'สมดุล', hint: 'หัวหนักตบแรง หัวเบาตั้งรับไว', get: r => ordIdx('balance', r.balance, -1), fmt: (v, r) => L.balance[r.balance], min: 0, max: 2 },
-        { label: 'ความแข็งก้าน', hint: 'ก้านอ่อนช่วยดีด ก้านแข็งคุมแม่น', get: r => ordIdx('flex', r.flex, -1), fmt: (v, r) => L.flex[r.flex], min: 0, max: 3 },
         { label: 'ความตึงสูงสุด', hint: 'เป็นเพดาน ไม่ใช่ค่าที่ควรขึ้น', get: r => r.tension ? Number(r.tension[1]) : NaN, fmt: v => v + ' lbs' },
         { label: 'ราคา', hint: 'ราคาประมาณ เช็กร้านอีกที', get: r => Number(r.price) || NaN, fmt: v => baht(v) },
       ],
@@ -176,12 +176,12 @@
       sorts: { name: 'เรียงตามชื่อ', repulsion: 'ดีดมากสุดก่อน', control: 'คุมดีสุดก่อน', durability: 'ทนสุดก่อน', priceAsc: 'ราคาต่ำ → สูง' },
       match: (x, f) => (!f.material || x.material === f.material) && (!f.gauge || gaugeGroup(x.gauge) === f.gauge),
       card: s => `
-        ${s.img ? `<img class="thumb" src="${esc(s.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ''}
+        ${s.img ? `<img class="thumb" src="${esc(s.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<div class="thumb" aria-hidden="true"></div>'}
         <span class="tag">${esc(gaugeLabel(s))}</span>
         <div class="nm">${esc(full(s))}</div>
         <div class="meta">${esc(L.material[s.material] || '')}</div>
-        <div class="meta">ดีด ${dash(s.repulsion)} · คุม ${dash(s.control)} · ทน ${dash(s.durability)}</div>
-        <div class="price">${s.price ? s.price + ' บาท' : '—'}</div>`,
+        <div class="meta">ดีด ${dash(s.repulsion)}, คุม ${dash(s.control)}, ทน ${dash(s.durability)}</div>
+        ${s.price ? `<div class="price"><b class="fig">${s.price}</b> บาท</div>` : ''}`,
       radar: sel => ({ axes: S_AXES, series: sel.map((x, i) => ({ name: full(x), color: COLORS[i], values: stringProfile(x) })), title: 'บุคลิกเอ็น', note: 'คะแนน 1–10 เป็นค่าประเมิน แก้ได้ในหน้าจัดการข้อมูล' }),
       bars: [
         { label: 'ขนาดเส้น', hint: 'บาง = ดีด / หนา = ทน', get: s => Number(s.gauge) || NaN, fmt: (v, s) => gaugeLabel(s) },
@@ -246,7 +246,7 @@
 
     view.innerHTML = `
       <h1>${cfg.title}</h1>
-      <p class="muted">ติ๊กเลือกได้สูงสุด 3 รุ่นเพื่อเทียบกัน · มีทั้งหมด ${items.length} รุ่น</p>
+      <p class="muted">ติ๊กเลือกได้สูงสุด 3 รุ่นเพื่อเทียบกัน จากทั้งหมด ${items.length} รุ่น</p>
       <div id="cmp"></div>
       <div class="filters" id="flt">
         <input type="search" name="q" placeholder="ค้นหารุ่น…" value="${esc(f.q)}">
@@ -263,6 +263,15 @@
     view.querySelector('#clr').onclick = () => { state.f[kind] = emptyFilter(kind); viewCompare(kind); };
     view.querySelector('#grid').addEventListener('click', e => {
       const el = e.target.closest('.item'); if (el) toggle(kind, el.dataset.id);
+    });
+    // items are role="checkbox": Space and Enter toggle them too
+    view.querySelector('#grid').addEventListener('keydown', e => {
+      const el = e.target.closest('.item');
+      if (el && (e.key === ' ' || e.key === 'Enter')) {
+        e.preventDefault();
+        toggle(kind, el.dataset.id);
+        view.querySelector(`.item[data-id="${CSS.escape(el.dataset.id)}"]`)?.focus();
+      }
     });
     view.querySelector('#cmp').addEventListener('click', e => {
       const x = e.target.closest('[data-rm]'); if (x) toggle(kind, x.dataset.rm);
@@ -293,7 +302,7 @@
     const cfg = KIND[kind], sel = state.sel[kind].map(id => byId(kind, id)).filter(Boolean);
     const box = view.querySelector('#cmp');
     updateTray(kind);
-    if (!sel.length) { box.innerHTML = ''; return; }
+    if (!sel.length) { box.innerHTML = ''; watchSheet(); return; }
     const rd = cfg.radar(sel);
     box.innerHTML = `
       <section class="panel">
@@ -301,20 +310,30 @@
           ${sel.map((x, i) => `<div class="head" style="--c:${COLORS[i]}">
             <button class="x" data-rm="${esc(x.id)}" aria-label="เอาออก">×</button>
             <div class="nm">${esc(full(x))}</div>
-            <div class="small muted">${kind === 'r' ? [lab(x, 'balance'), L.flex[x.flex], x.weights].filter(Boolean).map(esc).join(' · ') : esc(gaugeLabel(x))}</div>
+            <div class="small muted">${kind === 'r' ? [lab(x, 'balance'), L.flex[x.flex], x.weights].filter(Boolean).map(esc).join(', ') : esc(gaugeLabel(x))}</div>
           </div>`).join('')}
         </div>
-        ${sel.length < 2 ? '<p class="small muted" style="margin:10px 0 0">เลือกเพิ่มอีกอย่างน้อย 1 รุ่นเพื่อเทียบ</p>' : ''}
+        ${sel.length < 2 ? '<p class="small muted sheet-key">เลือกเพิ่มอีกอย่างน้อย 1 รุ่นเพื่อเทียบ</p>' : ''}
         <div class="two">
           <div class="radar"><h3>${rd.title}</h3>${radar(rd.axes, rd.series)}${legend(sel)}<p class="small muted">${rd.note}</p></div>
           <div class="bars"><h3>กราฟเทียบ</h3>${bars(cfg.bars, sel, db[kind])}</div>
         </div>
+        <p class="small muted sheet-key">ช่องที่ขึ้น — คือยังไม่มีข้อมูล ช่องที่ไฮไลต์คือค่าที่ต่างกัน</p>
         ${specTable(cfg.spec, sel)}
-        <p class="small muted">ช่องที่ขึ้น — คือยังไม่มีข้อมูล · ช่องที่ไฮไลต์คือค่าที่ต่างกัน</p>
       </section>`;
+    watchSheet();
   }
 
-  let trayTimer;
+  let trayTimer, sheetSeen;
+  // hide the tray while the compare sheet itself is in view; it only points at the sheet
+  function watchSheet() {
+    sheetSeen?.disconnect();
+    const panel = view.querySelector('#cmp .panel');
+    tray.classList.remove('away');
+    if (!panel || !('IntersectionObserver' in window)) return;
+    sheetSeen = new IntersectionObserver(([e]) => tray.classList.toggle('away', e.isIntersecting), { threshold: 0.15 });
+    sheetSeen.observe(panel);
+  }
   function updateTray(kind) {
     const n = state.sel[kind].length;
     if (!n) { tray.hidden = true; return; }
@@ -383,7 +402,7 @@
 
     return { score: Math.round(clamp(sc, 0, 100)), tension: t, range: [tmin, tmax], reasons };
   }
-  const verdict = n => n >= 80 ? ['เข้ากันดีมาก', 'var(--good)'] : n >= 65 ? ['เข้ากันดี', 'var(--good)'] : n >= 50 ? ['พอใช้ได้', 'var(--warn)'] : ['ไม่ค่อยเหมาะ', 'var(--bad)'];
+  const verdict = n => n >= 80 ? ['เข้ากันดีมาก', 'var(--color-accent)'] : n >= 65 ? ['เข้ากันดี', 'var(--color-accent)'] : n >= 50 ? ['พอใช้ได้', 'var(--color-ink)'] : ['ไม่ค่อยเหมาะ', 'var(--color-bad)'];
 
   function viewMatch() {
     if (!state.m) {
@@ -397,7 +416,7 @@
       const by = {};
       [...db[kind]].sort(sortName).forEach(x => (by[x.brand] = by[x.brand] || []).push(x));
       return Object.entries(by).map(([b, xs]) => `<optgroup label="${esc(b)}">${xs.map(x =>
-        `<option value="${esc(x.id)}" ${state.m[kind] === x.id ? 'selected' : ''}>${esc(full(x))}${kind === 's' ? ' · ' + esc(gaugeLabel(x)) : ''}</option>`).join('')}</optgroup>`).join('');
+        `<option value="${esc(x.id)}" ${state.m[kind] === x.id ? 'selected' : ''}>${esc(full(x))}${kind === 's' ? ' (' + esc(gaugeLabel(x)) + ')' : ''}</option>`).join('')}</optgroup>`).join('');
     };
     const opts = (map, cur) => Object.entries(map).map(([k, v]) => `<option value="${k}" ${cur === k ? 'selected' : ''}>${v}</option>`).join('');
 
@@ -412,13 +431,19 @@
       </div>
       <div id="mres"></div>`;
     view.querySelector('#mform').addEventListener('change', e => { state.m[e.target.name] = e.target.value; renderMatch(); });
-    view.querySelector('#mres').addEventListener('click', e => {
-      const a = e.target.closest('[data-pick]'); if (!a) return;
+    const pickAlt = a => {
       const [kind, id] = a.dataset.pick.split(':');
       state.m[kind] = id;
       view.querySelector(`#mform [name=${kind}]`).value = id;
       renderMatch();
       window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+    view.querySelector('#mres').addEventListener('click', e => {
+      const a = e.target.closest('[data-pick]'); if (a) pickAlt(a);
+    });
+    view.querySelector('#mres').addEventListener('keydown', e => {
+      const a = e.target.closest('[data-pick]');
+      if (a && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); pickAlt(a); }
     });
     renderMatch();
   }
@@ -431,10 +456,10 @@
     const altS = db.s.filter(x => x.id !== s.id).map(x => ({ x, ...score(r, x, level, style) })).sort((a, b) => b.score - a.score).slice(0, 3);
     const altR = db.r.filter(x => x.id !== r.id).map(x => ({ x, ...score(x, s, level, style) })).sort((a, b) => b.score - a.score).slice(0, 3);
     const alt = (list, kind) => list.map(a => `
-      <div class="item" data-pick="${kind}:${esc(a.x.id)}">
+      <div class="item" role="button" tabindex="0" data-pick="${kind}:${esc(a.x.id)}">
         <div class="nm">${esc(full(a.x))}</div>
-        <div class="meta">${kind === 's' ? esc(gaugeLabel(a.x)) : [L.style[a.x.style], L.level[a.x.level]].filter(Boolean).join(' · ')}</div>
-        <div class="price">${a.score} คะแนน · ${a.tension} lbs</div>
+        <div class="meta">${kind === 's' ? esc(gaugeLabel(a.x)) : [L.style[a.x.style], L.level[a.x.level]].filter(Boolean).join(', ')}</div>
+        <div class="price"><b class="fig">${a.score}</b> คะแนน, <b class="fig">${a.tension}</b> lbs</div>
       </div>`).join('');
 
     view.querySelector('#mres').innerHTML = `
@@ -442,9 +467,9 @@
         <div class="score">
           <div class="ring" style="--p:${res.score};--rc:${vc}"><div>${res.score}</div></div>
           <div>
-            <div class="verdict" style="color:${vc}">${vt}</div>
-            <div style="font-weight:600">${esc(full(r))} + ${esc(full(s))}</div>
-            <div class="small muted">${[L.style[r.style], L.balance[r.balance], L.flex[r.flex]].filter(Boolean).join(' · ')} — ${esc(gaugeLabel(s))}, ${esc(L.material[s.material] || '')}</div>
+            <div class="verdict">${vt}</div>
+            <div class="pair">${esc(full(r))} + ${esc(full(s))}</div>
+            <div class="small muted">${[L.style[r.style], L.balance[r.balance], L.flex[r.flex], gaugeLabel(s)].filter(Boolean).map(esc).join(', ')}, ${esc(L.material[s.material] || '')}</div>
           </div>
         </div>
         <div class="two">
@@ -452,7 +477,7 @@
           <div>
             <h3>ความตึงที่แนะนำ</h3>
             <div class="tension">${res.tension} lbs</div>
-            <div class="small muted">กรอบทางการของไม้ ${res.range[0] ? res.range[0] + '–' : '≤ '}${res.range[1]} lbs${s.tensionMax ? ` · เพดานเอ็น ${s.tensionMax} lbs` : ''}</div>
+            <div class="small muted">กรอบทางการของไม้ ${res.range[0] ? res.range[0] + '–' : '≤ '}${res.range[1]} lbs${s.tensionMax ? `, เพดานเอ็น ${s.tensionMax} lbs` : ''}</div>
             <ul class="reasons">${res.reasons.map(([k, t]) => `<li><span class="${k}">${k === 'ok' ? '✓' : '!'}</span><span>${esc(t)}</span></li>`).join('') || '<li class="muted">ไม่มีข้อสังเกตเพิ่มเติม</li>'}</ul>
           </div>
         </div>
@@ -506,19 +531,19 @@
       </div>
       <div class="toolbar">
         <button class="btn primary" data-a="new">+ เพิ่ม${kind === 'r' ? 'ไม้' : 'เอ็น'}ใหม่</button>
-        <input type="search" id="mq" placeholder="ค้นหา…" value="${esc(mg.q)}" style="flex:1 1 180px;border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:var(--card)">
+        <input type="search" id="mq" class="input grow" placeholder="ค้นหา…" value="${esc(mg.q)}">
         <span class="sp"></span>
         <button class="btn" data-a="export">Export</button>
         <label class="btn">Import<input type="file" id="imp" accept=".js,.json" hidden></label>
         <button class="btn danger" data-a="reset">รีเซ็ต</button>
       </div>
       <div id="edit">${editing ? formHtml(kind, editing) : ''}</div>
-      <div class="panel" style="padding:6px 8px;overflow-x:auto">
+      <div class="tbl-wrap">
         <table class="list">
           <thead><tr><th>รุ่น</th><th>${kind === 'r' ? 'แนว / ระดับ' : 'ขนาด / วัสดุ'}</th><th>ราคา</th><th></th></tr></thead>
           <tbody>${list.map(x => `<tr>
             <td><b>${esc(full(x))}</b>${x.year ? ` <span class="muted small">${x.year}</span>` : ''}</td>
-            <td class="small">${kind === 'r' ? [L.style[x.style], L.level[x.level]].filter(Boolean).join(' · ') : esc(gaugeLabel(x)) + ' · ' + esc(L.material[x.material] || '')}</td>
+            <td class="small">${kind === 'r' ? [L.style[x.style], L.level[x.level]].filter(Boolean).join(', ') : esc(gaugeLabel(x)) + ', ' + esc(L.material[x.material] || '')}</td>
             <td class="small">${kind === 'r' ? baht(x.price) : (x.price ? x.price + ' บาท' : '—')}</td>
             <td><button class="btn sm" data-ed="${esc(x.id)}">แก้ไข</button> <button class="btn sm" data-dup="${esc(x.id)}">ทำสำเนา</button> <button class="btn sm danger" data-del="${esc(x.id)}">ลบ</button></td>
           </tr>`).join('') || '<tr><td colspan="4" class="empty">ไม่มีรายการ</td></tr>'}</tbody>
