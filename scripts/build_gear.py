@@ -35,7 +35,7 @@ def grams(t):
 
 def height(t):
     t = (t or '').lower()
-    if re.search(r'สั้น|ankle|low|no.?show', t): return 'low'
+    if re.search(r'สั้น|ankle|low|no.?show|quarter|short', t): return 'low'
     if re.search(r'กลาง|crew|mid', t): return 'mid'
     if re.search(r'ยาว|high|knee', t): return 'high'
     return ''
@@ -43,6 +43,20 @@ def height(t):
 def pairs(t):
     m = re.search(r'(\d+)\s*คู่', t or '')
     return int(m.group(1)) if m else ''
+
+FILLER = r"\b(shoes?|socks?|professional|competition|unisex|men'?s|women'?s|ladies|wide|training|indoor|badminton|sport|20\d\d|expansion|expans|sports?|\d\d-\d\d\s*cm\.?)\b"
+ROMAN = {'ii', 'iii', 'iv', 'vi', 'vii', 'se', 'max', 'pro', 'lite'}
+# colourway and edition words the shop puts in titles; they never name a different model
+COLOURWAY = r"\b(fluorescent|sea|neon|grape|burnt|pewter|turtledove|aspen|pearly|gentian|brook|hawaiian|iridescent|copper|obsidian|glow|glory|stormy|weather|royel|natural|ocean|bright|lazull|high|risk|titanium|with|suitcase|camo|snow|tiger|pattern|axelsen|men|women|junior'?s|10th|anniversary|light)\b"
+def model_name(title, brand):
+    from plaza_match import clean
+    if re.search(r'\bx\s+(peanuts|hyq|zsw|doraemon|butterbear|powerpuff)', title, re.I): return ''
+    t = clean(title)
+    t = re.sub(FILLER, ' ', t)
+    t = re.sub(COLOURWAY, ' ', t)
+    t = re.sub(r'^' + re.escape(brand.lower()) + r'\s+', '', t.strip())
+    t = re.sub(r'\s+', ' ', t).strip(' -')
+    return ' '.join(w.upper() if w in ('ii', 'iii', 'iv', 'vi', 'vii', 'se', 'va', 'cn') else (w.upper() if re.search(r'\d', w) and len(w) <= 8 else w.capitalize()) for w in t.split())
 
 KINDS = {
     'shoes': dict(var='SHOES', fields=lambda i: {
@@ -66,11 +80,31 @@ for kind, cfg in KINDS.items():
         items[key(name)] = {'id': slug(name), 'brand': brand, 'name': short, **cfg['fields'](i),
                             'year': int(i['year']) if str(i.get('year', '')).isdigit() else '', 'note': i.get('tech', ''),
                             'img': i.get('img', ''), 'source': i.get('url', ''), 'officialUrl': i.get('source', ''), 'est': []}
-    hits = 0
+    hits = added = 0
     for pz in plaza:
         pool = {v['name']: v for v in items.values() if v['brand'].lower() == pz['brand'].lower()}
         m, _ = pmatch(pz['name'], pool)
-        if not m: continue
+        if not m:
+            # a model the shop sells that chobbad lacks: one entry per model, colours and widths folded together
+            nm = model_name(pz['name'], pz['brand'])
+            if pz['brand'] == 'Other' or not nm or re.search(r'powerpuff|doraemon|ultraman|one piece|pokemon|gift|set\b', pz['name'], re.I):
+                continue
+            k = key(pz['brand'] + ' ' + nm)
+            if k not in items:
+                sp = pz.get('specs', {})
+                items[k] = {'id': slug(pz['brand'] + ' ' + nm), 'brand': pz['brand'], 'name': nm, 'code': '', 'year': '', 'est': [],
+                            'note': sp.get('Features', ''), 'img': pz.get('img', ''), 'source': '', 'officialUrl': '',
+                            'price': int(pz['price']) if pz.get('price') else '',
+                            **({'width': width(sp.get('Shape', '') + ' ' + pz['name']), 'widthText': sp.get('Shape', ''),
+                                'sole': sp.get('Outsole') or sp.get('Sole', ''), 'cushion': sp.get('Midsole', ''),
+                                'upper': sp.get('Upper') or sp.get('Material Upper', ''), 'colors': sp.get('Colour') or sp.get('Color', '')}
+                               if kind == 'shoes' else
+                               {'material': sp.get('Material', ''), 'colors': sp.get('Colour') or sp.get('Color', ''),
+                                'height': height(pz['name'])})}
+                added += 1
+            s = items[k]
+            s.setdefault('shopUrl', 'https://www.badmintonplaza.com/product_info.php?products_id=' + str(pz['id']))
+            continue
         s = pool[m]; hits += 1
         if not s.get('price') and pz.get('price'): s['price'] = int(pz['price'])
         if not s.get('img') and pz.get('img'): s['img'] = pz['img']
@@ -95,4 +129,4 @@ for kind, cfg in KINDS.items():
     head = f"// ข้อมูล{'รองเท้า' if kind == 'shoes' else 'ถุงเท้า'}แบด — สร้างจาก scripts/build_gear.py (อย่าแก้มือ ให้แก้ data/{kind[:-1]}-overrides.json แล้วรันใหม่)\n"
     open(os.path.join(ROOT, 'data', f'{kind}.js'), 'w', encoding='utf-8').write(head + f"window.{cfg['var']} = " + json.dumps(final, ensure_ascii=False, indent=1) + ';\n')
     c = collections.Counter
-    print(kind, len(final), 'plaza matched', hits, 'no price', sum(1 for s in final if not s.get('price')), 'no img', sum(1 for s in final if not s.get('img')), c(s['brand'] for s in final).most_common(8))
+    print(kind, len(final), 'plaza matched', hits, 'added', added, 'no price', sum(1 for s in final if not s.get('price')), 'no img', sum(1 for s in final if not s.get('img')), c(s['brand'] for s in final).most_common(8))
