@@ -1,6 +1,6 @@
 # Merge a research table (docs/research/<brand>-specs.md) into data/spec-overrides.json.
 # Usage: python3 scripts/merge_research.py <brand> <file.md>
-# Skips CONFLICT rows and rows whose notes say the data is from a sibling model; only fills what the row states.
+# Skips CONFLICT cells, and whole rows whose notes say the data is from a sibling model; only fills what the row states.
 import json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,14 +25,20 @@ for l in lines[hdr + 2:]:
         continue
     c = [x.strip() for x in l.strip().strip('|').split('|')]
     model = c[0]; notes = col(c, 'notes').lower()
-    if 'conflict' in l.lower() or 'sibling' in notes:
+    if 'sibling' in notes:
         skipped.append(model); continue
+    # a conflicting cell is left out; the row's other cells still count
+    c = [('' if 'conflict' in x.lower() else x) for x in c[:-1]] + [c[-1]]
     src = next((m.group(0) for x in c for m in [re.search(r'https?://[^\s)\]|]+', x)] if m), '')
     if not src and SLUG:
         m = re.search(r'\b([A-Z])\s+([\w.-]+)', col(c, 'source url'))
         if m and m.group(1) in SLUG: src = SLUG[m.group(1)] + m.group(2)
     if not src: continue
     name = re.sub(r'\s*\(\d{4}\)\s*$', '', model).strip()
+    # tables covering several brands put the brand in the model cell: keep only this brand's rows
+    if re.match(r'(kawasaki|protech|reach|victor|mizuno|apacs|li-ning|yonex|vs)\b', name, re.I):
+        if not name.lower().startswith(brand.lower()): continue
+        name = name[len(brand):].strip()
     e = {}
     b = col(c, 'balance').lower()
     if 'heavy' in b: e['balance'] = 'head-heavy'

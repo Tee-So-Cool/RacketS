@@ -16,7 +16,12 @@
  },
  "Victor Auraspeed 25MACH": {
   "balance": "even",
-  "src": "https://sportano.pl/p/937795/rakieta-do-badmintona-victor-auraspeed-25mach-e"
+  "src": "https://joybadminton.com/products/victor-auraspeed-25mach-ars-25mach-e-racing-yellow",
+  "flex": "stiff",
+  "weights": "4U",
+  "tmax": 30,
+  "priceForeign": 74.99,
+  "currency": "USD"
  },
  "Victor Auraspeed 100X Ultra": {
   "balance": "head-light",
@@ -695,9 +700,10 @@
   "balance": "head-heavy",
   "weights": "4U",
   "weight": 82,
-  "tmax": 31,
+  "tmax": 26,
   "price": 5990,
-  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4223"
+  "src": "https://www.badmintonwarehouse.com/collections/thruster-badminton-rackets/products/thruster-f-ultra-badminton-racket",
+  "flex": "stiff"
  },
  "Victor Brave Sword 12 Pro": {
   "new": true,
@@ -712,10 +718,10 @@
   "new": true,
   "brand": "Victor",
   "flex": "stiff",
-  "weights": "4U",
+  "weights": "4U, 3U",
   "tmax": 32,
   "price": 5990,
-  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4712"
+  "src": "https://www.nydhi.com/collections/all/products/victor-drivex-12-metallic-badminton-racket-2025"
  },
  "Victor Thruster K HMR Pro X": {
   "new": true,
@@ -1069,7 +1075,8 @@
   "flex": "stiff",
   "weight": 72,
   "tmax": 30,
-  "src": "https://www.khelmart.com/apacs-z-ziggler-72-30-lbs-72g-unstrung-badminton-racket"
+  "src": "https://www.khelmart.com/apacs-z-ziggler-72-30-lbs-72g-unstrung-badminton-racket",
+  "level": "intermediate"
  },
  "Apacs Stern 100": {
   "balance": "head-light",
@@ -1077,7 +1084,8 @@
   "weights": "4U",
   "weight": 85,
   "tmax": 35,
-  "src": "https://www.badmintonbay.com/Apacs-Stern-100.html"
+  "src": "https://www.badmintonbay.com/Apacs-Stern-100.html",
+  "level": "intermediate"
  },
  "Apacs Stern 828": {
   "balance": "head-light",
@@ -1185,7 +1193,8 @@
   "tmax": 24,
   "src": "https://badmintonclick.com.au/products/victor-jetspeed-s-09l-83-grams-ladies-badminton-racquet",
   "new": true,
-  "brand": "Victor"
+  "brand": "Victor",
+  "level": "beginner"
  },
  "Victor Mjolnir Metallic": {
   "balance": "head-heavy",
@@ -1232,7 +1241,7 @@
   "weights": "4U, 3U",
   "weight": 83,
   "tmax": 29,
-  "src": "https://www.tennisnuts.com/victor-thruster-ryuga-td-d-badminton-racket-1644101.html ; https://badmintoncorner.com/products/victor-thruster-ryuga-td-flame-red-unstrung"
+  "src": "https://www.tennisnuts.com/victor-thruster-ryuga-td-d-badminton-racket-1644101.html"
  },
  "Victor Thruster TTY": {
   "balance": "head-heavy",
@@ -1242,14 +1251,15 @@
   "currency": "USD",
   "src": "https://www.nydhi.com/collections/badminton-rackets/products/victor-thruster-tty-a-badminton-racket",
   "new": true,
-  "brand": "Victor"
+  "brand": "Victor",
+  "level": "advanced"
  },
  "Victor Thruster TTY Ultima": {
   "balance": "head-heavy",
   "flex": "stiff",
   "weights": "4U",
   "tmax": 31,
-  "src": "https://badminton-shop.com/product/victor-thruster-tty-ultima ; https://www.badmintonwarehouse.com/products/victor-thruster-tty-ultima-tribute-series-tk-tty-ultima-a-badminton-racket",
+  "src": "https://badminton-shop.com/product/victor-thruster-tty-ultima",
   "new": true,
   "brand": "Victor"
  },
@@ -1531,5 +1541,277 @@
   "src": "https://vnm.mizuno.com/products/zephyr-zr8-73mtb524-2025aw",
   "priceForeign": 1500000.0,
   "currency": "VND"
+ },
+ "Kawasaki Dream Galaxy": {
+  "weights": "5U",
+  "weight": 78,
+  "tmax": 30,
+  "level": "beginner",
+  "src": "https://chrissports.com/products/kawasaki-dream-galaxy-badminton-racket"
+ },
+ "Kawasaki High Tension G7": {
+  "flex": "medium",
+  "weights": "5U",
+  "weight": 78,
+  "tmax": 32,
+  "level": "beginner",
+  "src": "https://www.eliteshuttler.com/products/kawasaki-high-tension-g7"
+ },
+ "Kawasaki King K9": {
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 84,
+  "tmax": 32,
+  "level": "pro",
+  "src": "https://www.eliteshuttler.com/products/kawasaki-king-k9"
+ },
+ "Kawasaki Porcelain Q5": {
+  "tmax": 28,
+  "price": 2032,
+  "src": "https://www.thairath.co.th/shopping/sport/1000440"
+ },
+ "Kawasaki Passion P25": {
+  "priceForeign": 48.0,
+  "currency": "EUR",
+  "src": "https://www.kaina24.lt/s/kawasaki-rakete/"
+ },
+ "Kawasaki Passion P38": {
+  "priceForeign": 63.0,
+  "currency": "EUR",
+  "src": "https://www.kaina24.lt/s/kawasaki-rakete/"
+ },
+ "ProTech Aston Pro Ver 2": {
+  "flex": "stiff",
+  "weights": "4U, 3U",
+  "weight": 83,
+  "tmax": 38,
+  "priceForeign": 210.0,
+  "currency": "USD",
+  "src": "https://www.badmintonavenue.com/cdn/shop/files/protech-aston-pro-v2-badminton-racket-dark-blue-teal-frame.jpg?v=1791192674&width=1200"
+ },
+ "Victor Auraspeed 90F TD": {
+  "flex": "stiff",
+  "weights": "4U",
+  "tmax": 28,
+  "level": "intermediate",
+  "src": "https://www.badmintonalley.com/Victor_AuraSpeed_90F_TD_M_4UG5_Light_Blue_Racket_p/racket-victor-auraspeed-90td-m.htm"
+ },
+ "Victor Auraspeed 58": {
+  "balance": "head-light",
+  "flex": "medium",
+  "weights": "4U",
+  "src": "https://joybadminton.com/products/victor-auraspeed-58m-4u5-steel-blue"
+ },
+ "Victor DriveX 09": {
+  "flex": "medium",
+  "weights": "4U",
+  "src": "https://www.tennisnuts.com/victor-drivex-09-m-badminton-racket-strung-1564095.html"
+ },
+ "Victor DriveX 6SP": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "tmax": 26,
+  "level": "intermediate",
+  "src": "https://thegodofsports.com/products/victor-drivex-6-sp-badminton-racket"
+ },
+ "Victor Legend": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "src": "https://badmintonalley.com/Victor_Thruster_Legend_TK_LEGEND_Badminton_Racket_p/racket-victor-thruster-legend.htm"
+ },
+ "Victor Thruster K 280 EX": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "5U, 4U",
+  "tmax": 27,
+  "level": "intermediate",
+  "src": "https://www.badmintonwarehouse.com/products/victor-thruster-k-280-ex-badminton-racket"
+ },
+ "Victor Thruster Ryuga JR": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "tmax": 20,
+  "priceForeign": 42.99,
+  "currency": "USD",
+  "src": "https://racquetguys.com/products/victor-thruster-k-ryuga-junior-factory-strung"
+ },
+ "Victor Thruster Ryuga Metallic": {
+  "balance": "head-heavy",
+  "weights": "4U, 3U",
+  "tmax": 31,
+  "level": "pro",
+  "priceForeign": 229.99,
+  "currency": "USD",
+  "src": "https://joybadminton.com/products/victor-thruster-ryuga-metallic-tk-ryuga-metallic-c-blaze-red-2023"
+ },
+ "Victor Auraspeed 9000": {
+  "balance": "even",
+  "src": "https://racquetguys.com/products/victor-auraspeed-9000c-badminton-racquet-factory-strung"
+ },
+ "Victor Auraspeed 90F": {
+  "weights": "5U",
+  "src": "https://joybadminton.com/products/victor-auraspeed-90f-ars-90f-purple"
+ },
+ "Victor DriveX 10 Metallic": {
+  "flex": "stiff",
+  "weights": "4U, 3U",
+  "tmax": 28,
+  "src": "https://smashuk.co/products/victor-drivex-10-metallic-b-badminton-racket-frame-only"
+ },
+ "Victor Jetspeed S 12 II": {
+  "flex": "stiff",
+  "src": "https://www.nydhi.com/collections/all/products/victor-jetspeed-s-12-ii-f-badminton-racket"
+ },
+ "Victor TK-66": {
+  "balance": "head-heavy",
+  "weights": "6U",
+  "weight": 66,
+  "src": "https://www.badmintonwarehouse.com/products/thruster-tk66-superlight-badminton-racket"
+ },
+ "Victor TK-70": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "src": "https://thegodofsports.com/products/victor-thruster-70-superlight-badminton-racket"
+ },
+ "Victor Thruster K 15L": {
+  "balance": "head-heavy",
+  "weights": "6U",
+  "weight": 73,
+  "priceForeign": 119.99,
+  "currency": "USD",
+  "src": "https://www.nydhi.com/products/thruster-k-15l-victor-badminton-racket"
+ },
+ "Victor Thruster K Onigiri Pro": {
+  "flex": "medium",
+  "weights": "4U",
+  "tmax": 29,
+  "priceForeign": 205.0,
+  "currency": "USD",
+  "src": "https://www.badmintonwarehouse.com/products/thruster-onigiri-pro-badminton-racket"
+ },
+ "Victor Thruster K R": {
+  "balance": "head-heavy",
+  "weights": "4U",
+  "weight": 83,
+  "tmax": 31,
+  "src": "https://www.nydhi.com/products/victor-thruster-k-r-badminton-racket-white"
+ },
+ "Victor Thruster Ryuga": {
+  "balance": "head-heavy",
+  "weights": "4U",
+  "level": "advanced",
+  "src": "https://www.nydhi.com/collections/latest-badminton-products/products/victor-thruster-ryuga-badminton-rackets"
+ },
+ "Victor Thruster Hawk": {
+  "balance": "head-heavy",
+  "weights": "4U",
+  "weight": 83,
+  "tmax": 27,
+  "level": "intermediate",
+  "src": "https://thegodofsports.com/products/victor-thruster-hawk-badminton-racket"
+ },
+ "Victor Auraspeed Fantome F": {
+  "flex": "stiff",
+  "weights": "4U",
+  "weight": 83,
+  "src": "https://www.badmintonwarehouse.com/products/victor-auraspeed-fantome-f-ac-badminton-racket"
+ },
+ "Victor DriveX KT": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "4U",
+  "weight": 83,
+  "tmax": 27,
+  "src": "https://badmintoncorner.com/products/victor-x-hello-kitty-dx-kt-i-badminton-racket-limited-edition-unstrung"
+ },
+ "Victor Jetspeed S 800HT": {
+  "weights": "4U",
+  "src": "https://topcricketstore.com/products/victor-jetspeed-s-800ht-a-badminton-racket"
+ },
+ "Victor Thruster 220H II": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "src": "https://sportsdirect.com.my/victor-tk-220h-ii-sn44-720118"
+ },
+ "Kawasaki High Tension G30": {
+  "balance": "head-heavy",
+  "weights": "4U",
+  "weight": 84,
+  "tmax": 35,
+  "priceForeign": 3699.0,
+  "currency": "INR",
+  "src": "https://shop.kibisports.com/collections/brand-kawasaki/products/high-tension-g30-unstrung-badminton-racketgreen-4ug1"
+ },
+ "Kawasaki NEZHA 35": {
+  "tmax": 35,
+  "level": "beginner",
+  "price": 2567,
+  "src": "https://www.thairath.co.th/shopping/sport/1000440"
+ },
+ "Mizuno Acroforce 600": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "5U",
+  "tmax": 27,
+  "price": 3600,
+  "src": "https://vnm.mizuno.com/products/acroforce-600-blackxgreen-73jtb506-2025aw"
+ },
+ "Mizuno Acrospeed 2": {
+  "balance": "even",
+  "weights": "4U",
+  "priceForeign": 4500000.0,
+  "currency": "VND",
+  "src": "https://vnm.mizuno.com/products/acrospeed-2-73jtb422-2025ss"
+ },
+ "Apacs Blizzard Pro ZZ": {
+  "flex": "stiff",
+  "weights": "4U",
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-blizzard-pro-zz-black-4u-badminton-racket.html"
+ },
+ "Apacs Fantala Pro 101": {
+  "flex": "stiff",
+  "weights": "4U, 3U",
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-fantala-pro-101-4u-badminton-racket.html"
+ },
+ "Apacs Finapi 232 Reborn": {
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 86,
+  "tmax": 42,
+  "level": "intermediate",
+  "src": "https://www.khelmart.com/apacs-finapi-232-reborn-badminton-racket"
+ },
+ "Apacs Hard Hitter Pro": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "weight": 84,
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-hard-hitter-pro-navy-blue-4u-badminton-racket.html"
+ },
+ "Apacs Stardom 800": {
+  "flex": "medium",
+  "weights": "4U",
+  "tmax": 35,
+  "src": "https://centralsports.co.uk/products/apacs-stardom-800-strung-racket"
+ },
+ "Apacs Z-Ziggler": {
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 85,
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/Apacs-Z-Ziggler.html"
+ },
+ "Apacs Thunderdome 6.2": {
+  "flex": "stiff",
+  "weights": "5U",
+  "weight": 81,
+  "tmax": 35,
+  "src": "https://www.badmintonbay.com/apacs-thunderdome-6-pt-2-badminton-racket.html"
  }
 }
