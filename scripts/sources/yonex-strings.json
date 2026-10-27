@@ -1,0 +1,136 @@
+[
+ {
+  "url": "https://www.yonex.com/badminton/strings/bg65",
+  "name": "BG65",
+  "Color(s)": "Yellow, Orange, Black, White, Amber, Lavender, Violet, Royal Blue, Turquoise",
+  "Gauge": "0.70 mm",
+  "Length": "10 m (33 ft) / 200 m (656 ft) / 500 m (1,640 ft)",
+  "Core": "High Polymer Nylon Multifilament Outer Special Braided High Polymer Nylon",
+  "Made In": "Japan",
+  "Item Code": "BG65"
+ },
+ {
+  "url": "https://www.yonex.com/badminton/strings/bg65ti",
+  "name": "BG65 TITANIUM",
+  "Color(s)": "Red, Blue, Black, White, Pink",
+  "Gauge": "0.70 mm",
+  "Length": "10 m (33 ft) / 200 m (656 ft)",
+  "Core": "High Polymer Nylon Multifilament Outer Special Braided High Polymer Nylon",
+  "Coating": "Compound Titanium Hydride",
+  "Made In": "Japan",
+  "Item Code": "BG65TI"
+ },
+ {
+  "url": "https://www.yonex.com/badminton/strings/bg66f",
+  "name": "BG66 FORCE",
+  "Color(s)": "White",
+  "Gauge": "0.65 mm",
+  "Length": "10 m (33 ft) / 200 m (656 ft)",
+  "Core": "High Polymer Nylon Multifilament",
+  "Coating": "Special Nylon Coating",
+  "Made In": "Japan",
+  "Item Code": "BG66F"
+ },
+ {
+  "url": "https://www.yonex.com/badminton/strings/bg66um",
+  "name": "BG66 ULTIMAX",
+  "Color(s)": "Red, Yellow, Orange, Black, Metallic White, Neon Pink, Pearl Navy, Pastel Green, Blue",
+  "Gauge": "0.65 mm",
+  "Length": "10 m (33 ft) / 200 m (656 ft)",
+  "Core": "High-Intensity Nylon Multifilament Outer Special Braided High Polymer Nylon",
+  "Made In": "Japan",
+  "Item Code": "BG66UM"
+ },
+ {
+  "url": "https://www.yonex.com/badminton/strings/bg80",
+  "name": "BG80",
+  "Color(s)": "Yellow, Black, White, Sky Blue, Violet, Royal Blue, Neon Pink",
+  "Gauge": "0.68 mm",
+  "Length": "10 m (33 ft) / 200 m (656 ft)",
+  "Core": "High Polymer Nylon Multifilament with Vectran™ Outer Special Braided Oval Shaped High Polymer Nylon",
+  "Made In": "Japan",
+  "Item Code": "BG80"
+ },
+ {
+  "url": "https://www.yonex.com/badminton/strings/bg80p",
+  "name": "BG80 POWER",
+  "Color(s)": "White",
+  "Gauge": "0.68 mm",
+  "Length": "10 m (33 ft) / 200 m (656 ft)",
+  "Core": "High-Intensity Nylon Multifilament with Vectran™ Outer Special Braided High Polymer Nylon",
+  "Made In": "Japan",
+  "Item Code": "BG80P"
+ },
+ {
+  "url": "https://www.yonex.com/badminton/strings/bgab",
+  "name": "AEROBITE",
+  "Color(s)": "White / Red, White / Green, White / Blue",
+  "Gauge": "mains - 0.67 mm; crosses - 0.61 mm",
+  "Length": "10.5m / mains-5.5m(18ft); crosses-5m(16ft); 200m / mains-105m(344ft); crosses-95m(311ft)",
+  "Core": "mains - High-Intensity Nylon Multifilament crosses - High-Intensity Nylon Multifilament Outer Special Braided High Polymer Nylon",
+  "Coating": "Mains - Polyurethane Coating",
+  "Made In": "Japan",
+  "Item Code": "BGAB"
+ },
+ {
+  "url": "https://www.yonex.com/badminton/strings/bgabbt",
+  "name": "AEROBITE BOOST",
+  "Color(s)": "Gray / Yellow, Gray /Red",
+  "Gauge": "mains - 0.72 mm; crosses - 0.61 mm",
+  "Length": "mains - 5.5 m (18 ft) / crosses - 5 m (16 ft)",
+  "Core": "mains - High-Intensity Nylon Multifilament, With Vectran™ crosses -  High-Intensity Nylon Multifilament Outer mains - Special Braided High Polymer Nylon, Oval Shaped crosses - Special Braided High Polymer Nylon",
+  "Coating": "Mains - Polyurethane Coating",
+  "Made In": "Japan",
+  "Item Code": "BGABBT"
+ },
+ {
+  "url": "https://www.yonex.com/badminton/strings/bgas",
+  "name": "AEROSONIC",
+  "Color(s)": "White",
+  "Gauge": "0.61 mm",
+  "Length": "10 m (33 ft) / 200 m (656 ft)",
+  "Core": "High-Intensity Nylon Multifilament Outer Special Braided High Polymer Nylon",
+  "Made In": "Japan",
+  "Item Code": "BGAS"
+ },
+ {
+  "url": "https://www.yonex.com/badminton/strings/bgsky",
+  "name": "SKYARC",
+  "Color(s)": "White",
+  "Gauge": "0.69 mm",
+  "Length": "10 m (33 ft)",
+  "Core": "High-Intensity Nylon Multifilament, Hi-sling Fiber Outer Special Braided High Polymer Nylon",
+  "Made In": "Japan",
+  "Item Code": "BGSKY"
+ },
+ {
+  "url": "https://www.yonex.com/badminton/strings/bgxb63",
+  "name": "EXBOLT 63",
+  "Color(s)": "Lavender, Ruby Red, Mint, Light Pink, Yellow, Black, White",
+  "Gauge": "0.63 mm",
+  "Length": "10 m (33 ft) / 200 m (656 ft)",
+  "Core": "High-Intensity Nylon Multifilament Outer Special Braided Forged Fiber",
+  "Item Code": "BGXB63"
+ },
+ {
+  "url": "https://www.yonex.com/badminton/strings/bgxb65",
+  "name": "EXBOLT 65",
+  "Color(s)": "Green, Red, Blue, Purple, White, Black, Yellow",
+  "Gauge": "0.65 mm",
+  "Length": "10 m (33 ft) / 200 m (656 ft)",
+  "Core": "High-Intensity Nylon Multifilament Outer Special Braided Forged Fiber",
+  "Coating": "Elasticity Outer",
+  "Made In": "Japan",
+  "Item Code": "BGXB65"
+ },
+ {
+  "url": "https://www.yonex.com/badminton/strings/bgxb68",
+  "name": "EXBOLT 68",
+  "Color(s)": "Flash Orange, Lime Green, Turquoise, Flash Red, Yellow, Black, White",
+  "Gauge": "0.68 mm",
+  "Length": "10 m (33 ft) / 200 m (656 ft)",
+  "Core": "High-Intensity Nylon Multifilament Outer Special Braided Oval Forged Fiber",
+  "Coating": "Elasticity Outer",
+  "Item Code": "BGXB68"
+ }
+]

@@ -1,0 +1,12 @@
+{
+ "_readme": "เอ็นที่ค้นเพิ่มทีละรุ่น key = 'แบรนด์ รุ่น'. ช่องที่ใส่ได้: gauge, gaugeText, material, repulsion, control, durability, sound, shock, tensionMax, price, colors, year, note, src. รุ่นใหม่ใส่ \"new\": true. แก้แล้วรัน python3 scripts/build_strings.py",
+ "Li-Ning No.1 Boost": { "new": true, "brand": "Li-Ning", "gauge": 0.66, "material": "braided", "note": "No.1 รุ่นปรับปรุง นุ่มขึ้น ทนขึ้น", "src": "https://thegodofsports.com/products/li-ning-no-1-boost-badminton-string" },
+ "Li-Ning Accupower 62": { "new": true, "brand": "Li-Ning", "gauge": 0.62, "material": "braided", "src": "https://www.badmintonavenue.com/products/li-ning-accupower-62-silver-ap62-axje012" },
+ "Mizuno M-Smooth 65H": { "new": true, "brand": "Mizuno", "gauge": 0.65, "material": "multi", "note": "เน้นคอนโทรล เกาะลูก", "src": "https://vnm.mizuno.com/en/blogs/news/badminton-strings" },
+ "Mizuno M-Smooth 66H": { "new": true, "brand": "Mizuno", "material": "multi", "note": "เน้นดีดเร็ว", "src": "https://vnm.mizuno.com/en/blogs/news/badminton-strings" },
+ "Mizuno M-Smooth 65R": { "new": true, "brand": "Mizuno", "material": "hybrid", "note": "ใยเวคทราน เน้นตบหนัก", "src": "https://vnm.mizuno.com/en/blogs/news/badminton-strings" },
+ "Kizuna Z58": { "new": true, "brand": "Kizuna", "gauge": 0.58, "material": "multi", "note": "เน้นแรงดีด", "src": "https://www.rakuten.co.jp/auc-nissin-spo-shop/contents/string-reel/" },
+ "Kizuna Z63X": { "new": true, "brand": "Kizuna", "gauge": 0.63, "material": "multi", "src": "https://www.rakuten.co.jp/auc-nissin-spo-shop/contents/string-reel/" },
+ "Kizuna Z65X": { "new": true, "brand": "Kizuna", "gauge": 0.65, "material": "multi", "src": "https://www.rakuten.co.jp/auc-nissin-spo-shop/contents/string-reel/" },
+ "Kizuna Z69T": { "new": true, "brand": "Kizuna", "gauge": 0.69, "material": "coated", "note": "Z69 Titanium", "src": "https://www.rakuten.co.jp/auc-nissin-spo-shop/contents/string-reel/" }
+}

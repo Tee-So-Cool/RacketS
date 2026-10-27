@@ -6176,6 +6176,41 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "li-ning-ss-100-superlight",
+  "brand": "Li-Ning",
+  "name": "SS 100 Superlight",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "medium",
+  "level": "",
+  "weights": "",
+  "weight": 83,
+  "grips": "",
+  "tension": [
+   20,
+   28
+  ],
+  "price": 1890,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4055",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
   "id": "li-ning-tectonic-1s",
   "brand": "Li-Ning",
   "name": "Tectonic 1S",
@@ -7164,6 +7199,41 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "mizuno-caliber-s-boost-3",
+  "brand": "Mizuno",
+  "name": "Caliber S-Boost 3",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "",
+  "weights": "4U",
+  "weight": "",
+  "grips": "",
+  "tension": [
+   22,
+   30
+  ],
+  "price": 2400,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=5136",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
   "id": "mizuno-fioria-lite",
   "brand": "Mizuno",
   "name": "FIORIA LITE",
@@ -7304,6 +7374,76 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "mizuno-fortius-10",
+  "brand": "Mizuno",
+  "name": "Fortius 10",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "",
+  "weights": "4U",
+  "weight": "",
+  "grips": "",
+  "tension": [
+   20,
+   28
+  ],
+  "price": 6950,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=5129",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "mizuno-fortius-77p",
+  "brand": "Mizuno",
+  "name": "Fortius 77P",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "",
+  "weights": "4U",
+  "weight": "",
+  "grips": "",
+  "tension": [
+   22,
+   30
+  ],
+  "price": 2400,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=5126",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
   "id": "mizuno-jpx-10-5-ct",
   "brand": "Mizuno",
   "name": "JPX 10.5 CT",
@@ -7403,6 +7543,41 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-jpx-7-0-sp/",
   "officialUrl": "",
   "specSrc": "",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "mizuno-jpx-limited-edition",
+  "brand": "Mizuno",
+  "name": "JPX Limited Edition",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "",
+  "weights": "3U, 4U",
+  "weight": "",
+  "grips": "",
+  "tension": [
+   22,
+   30
+  ],
+  "price": 3990,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=5078",
   "note": "",
   "est": [
    "style"
@@ -8350,7 +8525,7 @@ window.RACKETS = [
    22,
    35
   ],
-  "price": "",
+  "price": 1590,
   "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
@@ -8363,7 +8538,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-ace-power-11-max-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-ace-power-11-max/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3901",
   "note": "",
   "est": [
    "balance"
@@ -8385,7 +8560,7 @@ window.RACKETS = [
    22,
    30
   ],
-  "price": "",
+  "price": 1990,
   "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
@@ -8398,7 +8573,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-assassin-47-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-assassin-47/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4358",
   "note": "",
   "est": []
  },
@@ -8436,6 +8611,146 @@ window.RACKETS = [
   "est": []
  },
  {
+  "id": "vs-blade-7500",
+  "brand": "VS",
+  "name": "Blade 7500",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "medium",
+  "level": "",
+  "weights": "4U",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   22,
+   30
+  ],
+  "price": 1190,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3802",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "vs-blade-7600",
+  "brand": "VS",
+  "name": "Blade 7600",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "medium",
+  "level": "",
+  "weights": "4U",
+  "weight": "",
+  "grips": "",
+  "tension": [
+   22,
+   30
+  ],
+  "price": 1190,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3259",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "vs-blade-8000",
+  "brand": "VS",
+  "name": "Blade 8000",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "medium",
+  "level": "",
+  "weights": "",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   22,
+   30
+  ],
+  "price": 1190,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3779",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "vs-blade-8100",
+  "brand": "VS",
+  "name": "Blade 8100",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "medium",
+  "level": "",
+  "weights": "4U",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   22,
+   30
+  ],
+  "price": 1190,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3772",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
   "id": "vs-blade-8300",
   "brand": "VS",
   "name": "Blade 8300",
@@ -8451,7 +8766,7 @@ window.RACKETS = [
    22,
    35
   ],
-  "price": "",
+  "price": 1190,
   "frame": "MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
@@ -8464,9 +8779,79 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-vs-blade-8300-169x300.webp",
   "source": "https://chobbad.com/racket/vs-blade-8300/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3771",
   "note": "",
   "est": []
+ },
+ {
+  "id": "vs-blade-9000",
+  "brand": "VS",
+  "name": "Blade 9000",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "",
+  "weights": "4U",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   22,
+   30
+  ],
+  "price": 1290,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4850",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "vs-blade-9100",
+  "brand": "VS",
+  "name": "Blade 9100",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "",
+  "weights": "4U",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   22,
+   30
+  ],
+  "price": 1290,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4851",
+  "note": "",
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "vs-chibi",
@@ -8517,7 +8902,7 @@ window.RACKETS = [
    22,
    30
   ],
-  "price": "",
+  "price": 1990,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "",
   "joint": "",
@@ -8530,7 +8915,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-dark-knight-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-dark-knight/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4050",
   "note": "",
   "est": []
  },
@@ -8550,7 +8935,7 @@ window.RACKETS = [
    24,
    32
   ],
-  "price": "",
+  "price": 2190,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "",
   "joint": "",
@@ -8563,7 +8948,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-dragon-max-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-dragon-max/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=5036",
   "note": "",
   "est": []
  },
@@ -8583,7 +8968,7 @@ window.RACKETS = [
    24,
    32
   ],
-  "price": "",
+  "price": 2190,
   "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
@@ -8596,7 +8981,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-dragon-p-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-dragon-p/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4165",
   "note": "",
   "est": [
    "balance"
@@ -8618,7 +9003,7 @@ window.RACKETS = [
    24,
    35
   ],
-  "price": "",
+  "price": 4490,
   "frame": "46T MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
@@ -8631,7 +9016,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-dragon-subduing-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-dragon-subduing/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4343",
   "note": "",
   "est": []
  },
@@ -8651,7 +9036,7 @@ window.RACKETS = [
    24,
    35
   ],
-  "price": "",
+  "price": 4490,
   "frame": "46T MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
@@ -8664,7 +9049,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-dragon-subduing-ii-300x297.jpg",
   "source": "https://chobbad.com/racket/vs-dragon-subduing-ii/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4989",
   "note": "",
   "est": []
  },
@@ -8684,7 +9069,7 @@ window.RACKETS = [
    24,
    36
   ],
-  "price": "",
+  "price": 1990,
   "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
@@ -8697,7 +9082,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-fire-1000-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-fire-1000/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4048",
   "note": "",
   "est": []
  },
@@ -8717,7 +9102,7 @@ window.RACKETS = [
    22,
    32
   ],
-  "price": "",
+  "price": 2990,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -8730,7 +9115,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-fire-demon-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-fire-demon/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4356",
   "note": "",
   "est": [
    "balance"
@@ -8785,7 +9170,7 @@ window.RACKETS = [
    24,
    30
   ],
-  "price": "",
+  "price": 1590,
   "frame": "24T MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
@@ -8798,7 +9183,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-vs-flora-169x300.webp",
   "source": "https://chobbad.com/racket/vs-flora/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4002",
   "note": "",
   "est": [
    "style"
@@ -8820,7 +9205,7 @@ window.RACKETS = [
    22,
    30
   ],
-  "price": "",
+  "price": 2190,
   "frame": "30T Hot-Melt Mitsubishi Carbon Sheet",
   "shaft": "",
   "joint": "",
@@ -8833,7 +9218,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-fortex-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-fortex/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4538",
   "note": "",
   "est": []
  },
@@ -8853,7 +9238,7 @@ window.RACKETS = [
    24,
    28
   ],
-  "price": "",
+  "price": 2390,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "",
   "joint": "",
@@ -8866,7 +9251,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-goddess-7-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-goddess-7/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3361",
   "note": "",
   "est": []
  },
@@ -8900,6 +9285,39 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-goddess-8/",
   "officialUrl": "",
   "specSrc": "",
+  "note": "",
+  "est": []
+ },
+ {
+  "id": "vs-hc-1000",
+  "brand": "VS",
+  "name": "HC 1000",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "",
+  "weights": "4U",
+  "weight": 84,
+  "grips": "",
+  "tension": [
+   27,
+   35
+  ],
+  "price": 5390,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=5106",
   "note": "",
   "est": []
  },
@@ -8952,7 +9370,7 @@ window.RACKETS = [
    22,
    28
   ],
-  "price": "",
+  "price": 2590,
   "frame": "30T Japan High Modulus Graphite （Mitsubishi）",
   "shaft": "",
   "joint": "",
@@ -8965,7 +9383,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-hc880-ii-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-hc880-ii/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4893",
   "note": "",
   "est": [
    "style"
@@ -8987,7 +9405,7 @@ window.RACKETS = [
    22,
    28
   ],
-  "price": "",
+  "price": 2590,
   "frame": "30T Japan High Modulus Graphite （Mitsubishi）",
   "shaft": "",
   "joint": "",
@@ -9000,7 +9418,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-hc890-ii-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-hc890-ii/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4865",
   "note": "",
   "est": [
    "style"
@@ -9022,7 +9440,7 @@ window.RACKETS = [
    24,
    30
   ],
-  "price": "",
+  "price": 2990,
   "frame": "Japan High Modulus Graphite （Mitsubishi）",
   "shaft": "",
   "joint": "",
@@ -9035,7 +9453,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-hc898-ii-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-hc898-ii/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4864",
   "note": "",
   "est": [
    "style"
@@ -9057,7 +9475,7 @@ window.RACKETS = [
    24,
    30
   ],
-  "price": "",
+  "price": 3790,
   "frame": "40T Mitsubishi Carbon Sheet + Torayca M40",
   "shaft": "",
   "joint": "",
@@ -9070,9 +9488,114 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-hc900ii-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-hc900ii/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4883",
   "note": "",
   "est": []
+ },
+ {
+  "id": "vs-high-carbon-890",
+  "brand": "VS",
+  "name": "High Carbon 890",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "",
+  "weights": "6U",
+  "weight": 73,
+  "grips": "",
+  "tension": [
+   20,
+   28
+  ],
+  "price": 2190,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=2628",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "vs-high-carbon-900",
+  "brand": "VS",
+  "name": "High Carbon 900",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "",
+  "weights": "4U",
+  "weight": 84,
+  "grips": "",
+  "tension": [
+   22,
+   30
+  ],
+  "price": 2990,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=2815",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "vs-high-carbon-990p",
+  "brand": "VS",
+  "name": "High Carbon 990P",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "",
+  "weights": "4U",
+  "weight": 84,
+  "grips": "",
+  "tension": [
+   27,
+   35
+  ],
+  "price": 2990,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3676",
+  "note": "",
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "vs-hunter",
@@ -9120,7 +9643,7 @@ window.RACKETS = [
    22,
    30
   ],
-  "price": "",
+  "price": 2390,
   "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
@@ -9133,7 +9656,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-j-speed-700-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-j-speed-700/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4399",
   "note": "",
   "est": []
  },
@@ -9183,7 +9706,7 @@ window.RACKETS = [
    22,
    32
   ],
-  "price": "",
+  "price": 1990,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "",
   "joint": "",
@@ -9196,7 +9719,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-king-kong-x1-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-king-kong-x1/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4214",
   "note": "",
   "est": []
  },
@@ -9216,7 +9739,7 @@ window.RACKETS = [
    22,
    30
   ],
-  "price": "",
+  "price": 2190,
   "frame": "30T Mitsubushi Carbon Sheet",
   "shaft": "",
   "joint": "",
@@ -9229,9 +9752,79 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-king-kong-x2-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-king-kong-x2/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3781",
   "note": "",
   "est": []
+ },
+ {
+  "id": "vs-kirin-70",
+  "brand": "VS",
+  "name": "Kirin 70",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "",
+  "weights": "4U",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   27,
+   35
+  ],
+  "price": 2590,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4722",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "vs-kirin-80",
+  "brand": "VS",
+  "name": "Kirin 80",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "",
+  "weights": "4U",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   30,
+   38
+  ],
+  "price": 2990,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3401",
+  "note": "",
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "vs-koi",
@@ -9249,7 +9842,7 @@ window.RACKETS = [
    22,
    30
   ],
-  "price": "",
+  "price": 1290,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -9262,7 +9855,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-koi-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-koi/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4401",
   "note": "",
   "est": []
  },
@@ -9282,7 +9875,7 @@ window.RACKETS = [
    22,
    30
   ],
-  "price": "",
+  "price": 1990,
   "frame": "MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
@@ -9295,7 +9888,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-vs-kongfu-rabbit-169x300.webp",
   "source": "https://chobbad.com/racket/vs-kongfu-rabbit/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3931",
   "note": "",
   "est": [
    "balance"
@@ -9317,7 +9910,7 @@ window.RACKETS = [
    24,
    30
   ],
-  "price": "",
+  "price": 3990,
   "frame": "40T Mitsubushi Carbon Sheet",
   "shaft": "",
   "joint": "",
@@ -9330,7 +9923,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-kriss-sword-k6-light-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-kriss-sword-k6-light/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3115",
   "note": "",
   "est": []
  },
@@ -9366,6 +9959,41 @@ window.RACKETS = [
   "specSrc": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "vs-kriss-sword-k6l",
+  "brand": "VS",
+  "name": "Kriss Sword K6L",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "",
+  "tension": [
+   22,
+   30
+  ],
+  "price": 3990,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4747",
+  "note": "",
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "vs-kriss-sword-k6p",
@@ -9482,7 +10110,7 @@ window.RACKETS = [
    26,
    38
   ],
-  "price": "",
+  "price": 5390,
   "frame": "46T Mitsubishi Carbon Sheet + Torayca M40X",
   "shaft": "",
   "joint": "",
@@ -9495,7 +10123,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-kriss-sword-xp-pro-1-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-kriss-sword-xp-pro/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4794",
   "note": "",
   "est": []
  },
@@ -9548,7 +10176,7 @@ window.RACKETS = [
    27,
    35
   ],
-  "price": "",
+  "price": 1990,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "",
   "joint": "",
@@ -9561,7 +10189,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-mighty-lion-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-mighty-lion/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4598",
   "note": "",
   "est": []
  },
@@ -9614,7 +10242,7 @@ window.RACKETS = [
    24,
    32
   ],
-  "price": "",
+  "price": 2590,
   "frame": "30T Mitsubishi Carbon Sheet เฟรม 30T ก้าน 40T (Mitsubishi）",
   "shaft": "",
   "joint": "",
@@ -9627,7 +10255,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-panlong-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-panlong/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3488",
   "note": "",
   "est": []
  },
@@ -9715,7 +10343,7 @@ window.RACKETS = [
    22,
    30
   ],
-  "price": "",
+  "price": 2590,
   "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
@@ -9728,9 +10356,79 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-razor-70-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-razor-70/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4987",
   "note": "",
   "est": []
+ },
+ {
+  "id": "vs-razor-7040",
+  "brand": "VS",
+  "name": "Razor 7040",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "",
+  "weights": "4U",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   20,
+   28
+  ],
+  "price": 3490,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4190",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "vs-soul-sword",
+  "brand": "VS",
+  "name": "Soul Sword",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "",
+  "weights": "4U",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   22,
+   30
+  ],
+  "price": 1590,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3417",
+  "note": "",
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "vs-swordsman-77",
@@ -9748,7 +10446,7 @@ window.RACKETS = [
    24,
    30
   ],
-  "price": "",
+  "price": 1190,
   "frame": "MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
@@ -9761,7 +10459,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-swordsman-77-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-swordsman-77/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4645",
   "note": "",
   "est": [
    "balance"
@@ -9799,6 +10497,41 @@ window.RACKETS = [
   "specSrc": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "vs-titan-10-special",
+  "brand": "VS",
+  "name": "Titan 10 Special",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "medium",
+  "level": "",
+  "weights": "4U",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   27,
+   35
+  ],
+  "price": 1290,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4292",
+  "note": "",
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "vs-titan-6",
@@ -9948,7 +10681,7 @@ window.RACKETS = [
    22,
    30
   ],
-  "price": "",
+  "price": 1090,
   "frame": "24T MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
@@ -9961,7 +10694,42 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-vs-turbo-300-169x300.webp",
   "source": "https://chobbad.com/racket/vs-turbo-300/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4376",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "vs-ultra-woven-30",
+  "brand": "VS",
+  "name": "Ultra Woven 30",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "stiff",
+  "level": "",
+  "weights": "",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   22,
+   30
+  ],
+  "price": 1590,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4749",
   "note": "",
   "est": [
    "style"
@@ -9983,7 +10751,7 @@ window.RACKETS = [
    24,
    30
   ],
-  "price": "",
+  "price": 3490,
   "frame": "40T Japan High Modulus Graphite（Mitsubishi）",
   "shaft": "",
   "joint": "",
@@ -9996,7 +10764,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-ultra-woven-88s-300x300.png",
   "source": "https://chobbad.com/racket/vs-ultra-woven-88s/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3461",
   "note": "",
   "est": [
    "style"
@@ -10038,6 +10806,41 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "vs-wind-speed-f35",
+  "brand": "VS",
+  "name": "Wind Speed F35",
+  "year": "",
+  "style": "speed",
+  "balance": "even",
+  "flex": "medium",
+  "level": "",
+  "weights": "",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   20,
+   28
+  ],
+  "price": 2190,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=2943",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
   "id": "vs-wind-speed-f35-ii",
   "brand": "VS",
   "name": "Wind Speed F35 II",
@@ -10053,7 +10856,7 @@ window.RACKETS = [
    24,
    28
   ],
-  "price": "",
+  "price": 2190,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "",
   "joint": "",
@@ -10066,7 +10869,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-wind-speed-f35-ii-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-wind-speed-f35-ii/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3780",
   "note": "",
   "est": []
  },
@@ -10102,6 +10905,41 @@ window.RACKETS = [
   "specSrc": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "vs-wind-speed-f9x",
+  "brand": "VS",
+  "name": "Wind Speed F9X",
+  "year": "",
+  "style": "speed",
+  "balance": "even",
+  "flex": "medium",
+  "level": "",
+  "weights": "5U",
+  "weight": 77,
+  "grips": "",
+  "tension": [
+   20,
+   28
+  ],
+  "price": 1590,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3376",
+  "note": "",
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "vs-woven-70x",
@@ -10152,7 +10990,7 @@ window.RACKETS = [
    24,
    36
   ],
-  "price": "",
+  "price": 2990,
   "frame": "40T Mitsubishi Carbon Sheet",
   "shaft": "",
   "joint": "",
@@ -10165,7 +11003,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-youlong-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-youlong/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4314",
   "note": "",
   "est": []
  },
@@ -11335,6 +12173,42 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "victor-brave-sword-12-pro",
+  "brand": "Victor",
+  "name": "Brave Sword 12 Pro",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "",
+  "level": "",
+  "weights": "4U",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   22,
+   30
+  ],
+  "price": 4990,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4378",
+  "note": "",
+  "est": [
+   "balance",
+   "style"
+  ]
+ },
+ {
   "id": "victor-challenger-9500-pro",
   "brand": "Victor",
   "name": "Challenger 9500 Pro",
@@ -11470,6 +12344,42 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance"
+  ]
+ },
+ {
+  "id": "victor-drivex-12",
+  "brand": "Victor",
+  "name": "DriveX 12",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "stiff",
+  "level": "",
+  "weights": "4U",
+  "weight": "",
+  "grips": "",
+  "tension": [
+   24,
+   32
+  ],
+  "price": 5990,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4712",
+  "note": "",
+  "est": [
+   "balance",
+   "style"
   ]
  },
  {
@@ -12029,6 +12939,76 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "victor-thruster-f-c-ultra",
+  "brand": "Victor",
+  "name": "Thruster F C Ultra",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "3U, 4U, 5U",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   24,
+   32
+  ],
+  "price": 5990,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4774",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "victor-thruster-f-falcon-ultra-c",
+  "brand": "Victor",
+  "name": "Thruster F Falcon Ultra C",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "4U",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   23,
+   31
+  ],
+  "price": 5990,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4223",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
   "id": "victor-thruster-hmr-light",
   "brand": "Victor",
   "name": "Thruster HMR Light",
@@ -12342,6 +13322,41 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "victor-thruster-k-alpha",
+  "brand": "Victor",
+  "name": "Thruster K Alpha",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "4U",
+  "weight": "",
+  "grips": "",
+  "tension": [
+   21,
+   29
+  ],
+  "price": 1790,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=5076",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
   "id": "victor-thruster-k-falcon",
   "brand": "Victor",
   "name": "Thruster K Falcon",
@@ -12371,6 +13386,41 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-victor-thruster-k-falcon/",
   "officialUrl": "",
   "specSrc": "",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "victor-thruster-k-hmr-pro-x",
+  "brand": "Victor",
+  "name": "Thruster K HMR Pro X",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "",
+  "weights": "4U",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   24,
+   32
+  ],
+  "price": 2190,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4272",
   "note": "",
   "est": [
    "style"
@@ -12682,6 +13732,42 @@ window.RACKETS = [
   "specSrc": "https://www.badmintonwarehouse.com/products/thruster-ryuga-muse-badminton-racket-blue",
   "note": "",
   "est": []
+ },
+ {
+  "id": "victor-thruster-ryuga-muse-ii",
+  "brand": "Victor",
+  "name": "Thruster Ryuga Muse II",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "5U",
+  "weight": 77,
+  "grips": "",
+  "tension": [
+   22,
+   30
+  ],
+  "price": "",
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonwarehouse.com/products/victor-thruster-ryuga-muse-ii-tj-badminton-racket",
+  "note": "",
+  "est": [
+   "balance",
+   "style"
+  ]
  },
  {
   "id": "victor-thruster-ryuga-td",

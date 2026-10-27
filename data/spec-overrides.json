@@ -314,5 +314,459 @@
   "weights": "4U",
   "tmax": 38,
   "src": "https://www.badmintonbay.com/Badminton-Racket/pro-series-badminton-racket/apacs-imperial-pro-dark-grey-badminton-racket.html"
+ },
+ "VS HC 1000": {
+  "new": true,
+  "brand": "VS",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "weight": 84,
+  "tmax": 35,
+  "price": 5390,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=5106",
+  "style": "attack"
+ },
+ "VS Kirin 70": {
+  "new": true,
+  "brand": "VS",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 35,
+  "price": 2590,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4722"
+ },
+ "VS Kirin 80": {
+  "new": true,
+  "brand": "VS",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 38,
+  "price": 2990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3401"
+ },
+ "VS High Carbon 900": {
+  "new": true,
+  "brand": "VS",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 84,
+  "tmax": 30,
+  "price": 2990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=2815"
+ },
+ "VS High Carbon 890": {
+  "new": true,
+  "brand": "VS",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "6U",
+  "weight": 73,
+  "tmax": 28,
+  "price": 2190,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=2628"
+ },
+ "VS High Carbon 990P": {
+  "new": true,
+  "brand": "VS",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 84,
+  "tmax": 35,
+  "price": 2990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3676"
+ },
+ "VS Razor 7040": {
+  "new": true,
+  "brand": "VS",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 28,
+  "price": 3490,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4190"
+ },
+ "VS Titan 10 Special": {
+  "new": true,
+  "brand": "VS",
+  "balance": "head-light",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 35,
+  "price": 1290,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4292"
+ },
+ "VS Ultra Woven 30": {
+  "new": true,
+  "brand": "VS",
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "",
+  "weight": 82,
+  "tmax": 30,
+  "price": 1590,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4749"
+ },
+ "VS Wind Speed F35": {
+  "new": true,
+  "brand": "VS",
+  "balance": "even",
+  "flex": "medium",
+  "weights": "",
+  "weight": 82,
+  "tmax": 28,
+  "price": 2190,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=2943"
+ },
+ "VS Wind Speed F9X": {
+  "new": true,
+  "brand": "VS",
+  "balance": "even",
+  "flex": "medium",
+  "weights": "5U",
+  "weight": 77,
+  "tmax": 28,
+  "price": 1590,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3376"
+ },
+ "VS Soul Sword": {
+  "new": true,
+  "brand": "VS",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 30,
+  "price": 1590,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3417"
+ },
+ "VS Kriss Sword K6L": {
+  "new": true,
+  "brand": "VS",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "5U",
+  "weight": 78,
+  "tmax": 30,
+  "price": 3990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4747"
+ },
+ "VS Blade 7500": {
+  "new": true,
+  "brand": "VS",
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 30,
+  "price": 1190,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3802"
+ },
+ "VS Blade 7600": {
+  "new": true,
+  "brand": "VS",
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": "",
+  "tmax": 30,
+  "price": 1190,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3259"
+ },
+ "VS Blade 8000": {
+  "new": true,
+  "brand": "VS",
+  "balance": "even",
+  "flex": "medium",
+  "weights": "",
+  "weight": 82,
+  "tmax": 30,
+  "price": 1190,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3779"
+ },
+ "VS Blade 8100": {
+  "new": true,
+  "brand": "VS",
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 30,
+  "price": 1190,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3772"
+ },
+ "VS Blade 9000": {
+  "new": true,
+  "brand": "VS",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 30,
+  "price": 1290,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4850"
+ },
+ "VS Blade 9100": {
+  "new": true,
+  "brand": "VS",
+  "balance": "even",
+  "flex": "flexible",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 30,
+  "price": 1290,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4851"
+ },
+ "VS Assassin 47": {
+  "price": 1990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4358"
+ },
+ "VS Ace Power 11 Max": {
+  "price": 1590,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3901"
+ },
+ "VS Blade 8300": {
+  "price": 1190,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3771"
+ },
+ "VS Flora": {
+  "price": 1590,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4002"
+ },
+ "VS Fortex": {
+  "price": 2190,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4538"
+ },
+ "VS J Speed 700": {
+  "price": 2390,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4399"
+ },
+ "VS King Kong X1": {
+  "price": 1990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4214"
+ },
+ "VS King Kong X2": {
+  "price": 2190,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3781"
+ },
+ "VS Koi": {
+  "price": 1290,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4401"
+ },
+ "VS Mighty Lion": {
+  "price": 1990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4598"
+ },
+ "VS Turbo 300": {
+  "price": 1090,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4376"
+ },
+ "VS Razor 70": {
+  "price": 2590,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4987"
+ },
+ "VS Swordsman 77": {
+  "price": 1190,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4645"
+ },
+ "VS Ultra Woven 88S": {
+  "price": 3490,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3461"
+ },
+ "VS Wind Speed F35 II": {
+  "price": 2190,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3780"
+ },
+ "VS Dark Knight": {
+  "price": 1990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4050"
+ },
+ "VS Dragon Max": {
+  "price": 2190,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=5036"
+ },
+ "VS Dragon P": {
+  "price": 2190,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4165"
+ },
+ "VS Dragon Subduing II": {
+  "price": 4490,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4989"
+ },
+ "VS Dragon Subduing": {
+  "price": 4490,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4343"
+ },
+ "VS Fire Demon": {
+  "price": 2990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4356"
+ },
+ "VS Goddess 7": {
+  "price": 2390,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3361"
+ },
+ "VS HC890-II": {
+  "price": 2590,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4865"
+ },
+ "VS HC898-II": {
+  "price": 2990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4864"
+ },
+ "VS HC880-II": {
+  "price": 2590,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4893"
+ },
+ "VS HC900II": {
+  "price": 3790,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4883"
+ },
+ "VS Kongfu Rabbit": {
+  "price": 1990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3931"
+ },
+ "VS Kriss Sword K6 Light": {
+  "price": 3990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3115"
+ },
+ "VS Kriss Sword XP Pro": {
+  "price": 5390,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4794"
+ },
+ "VS Panlong": {
+  "price": 2590,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3488"
+ },
+ "VS Fire 1000": {
+  "price": 1990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4048"
+ },
+ "VS Youlong": {
+  "price": 2990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4314"
+ },
+ "Victor Thruster Ryuga Muse II": {
+  "new": true,
+  "brand": "Victor",
+  "weights": "5U",
+  "weight": 77,
+  "tmax": 30,
+  "src": "https://www.badmintonwarehouse.com/products/victor-thruster-ryuga-muse-ii-tj-badminton-racket"
+ },
+ "Victor Thruster K Alpha": {
+  "new": true,
+  "brand": "Victor",
+  "balance": "head-heavy",
+  "weights": "4U",
+  "tmax": 29,
+  "price": 1790,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=5076"
+ },
+ "Victor Thruster F C Ultra": {
+  "new": true,
+  "brand": "Victor",
+  "balance": "head-heavy",
+  "weights": "3U, 4U, 5U",
+  "weight": 82,
+  "tmax": 32,
+  "price": 5990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4774"
+ },
+ "Victor Thruster F Falcon Ultra C": {
+  "new": true,
+  "brand": "Victor",
+  "balance": "head-heavy",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 31,
+  "price": 5990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4223"
+ },
+ "Victor Brave Sword 12 Pro": {
+  "new": true,
+  "brand": "Victor",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 30,
+  "price": 4990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4378"
+ },
+ "Victor DriveX 12": {
+  "new": true,
+  "brand": "Victor",
+  "flex": "stiff",
+  "weights": "4U",
+  "tmax": 32,
+  "price": 5990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4712"
+ },
+ "Victor Thruster K HMR Pro X": {
+  "new": true,
+  "brand": "Victor",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 32,
+  "price": 2190,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4272"
+ },
+ "Mizuno Caliber S-Boost 3": {
+  "new": true,
+  "brand": "Mizuno",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "tmax": 30,
+  "price": 2400,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=5136"
+ },
+ "Mizuno Fortius 77P": {
+  "new": true,
+  "brand": "Mizuno",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "tmax": 30,
+  "price": 2400,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=5126"
+ },
+ "Mizuno JPX Limited Edition": {
+  "new": true,
+  "brand": "Mizuno",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "3U, 4U",
+  "tmax": 30,
+  "price": 3990,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=5078"
+ },
+ "Mizuno Fortius 10": {
+  "new": true,
+  "brand": "Mizuno",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "tmax": 28,
+  "price": 6950,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=5129"
+ },
+ "Li-Ning SS 100 Superlight": {
+  "new": true,
+  "brand": "Li-Ning",
+  "balance": "even",
+  "flex": "medium",
+  "weight": 83,
+  "tmax": 28,
+  "price": 1890,
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4055"
  }
 }

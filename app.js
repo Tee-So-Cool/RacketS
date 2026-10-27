@@ -47,6 +47,13 @@
     if (!v) return '';
     return (r.est || []).includes(field) ? `${v} (ประเมิน)` : v;
   };
+  // string rating cell, same estimate marker
+  const rate = (s, field) => {
+    if (s[field] === '' || s[field] == null) return '—';
+    return (s.est || []).includes(field) ? `${esc(s[field])} (ประเมิน)` : esc(s[field]);
+  };
+  const link = (url, text) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${text}</a>` : '';
+  const sources = x => [link(x.officialUrl, 'ผู้ผลิต'), link(x.specSrc, 'หน้าสินค้า'), link(x.source, 'chobbad')].filter(Boolean).join(' · ') || '—';
 
   // ---------- profiles (0–10) ----------
   const R_AXES = ['พลังตบ', 'ความคล่องตัว', 'ควบคุม', 'ตีง่าย', 'รับเอ็นตึง', 'ต้องมีพื้นฐาน'];
@@ -159,9 +166,7 @@
         ['เอ็นที่ผู้ผลิตแนะนำ', r => dash(r.recString)],
         ['ราคาประมาณ', r => baht(r.price)],
         ['หมายเหตุ', r => dash(r.note)],
-        ['แหล่งข้อมูล', r => [r.officialUrl && `<a href="${esc(r.officialUrl)}" target="_blank" rel="noopener">ผู้ผลิต</a>`,
-          r.specSrc && `<a href="${esc(r.specSrc)}" target="_blank" rel="noopener">หน้าสินค้า</a>`,
-          r.source && `<a href="${esc(r.source)}" target="_blank" rel="noopener">chobbad</a>`].filter(Boolean).join(' · ') || '—'],
+        ['แหล่งข้อมูล', r => sources(r)],
       ],
     },
     s: {
@@ -171,6 +176,7 @@
       sorts: { name: 'เรียงตามชื่อ', repulsion: 'ดีดมากสุดก่อน', control: 'คุมดีสุดก่อน', durability: 'ทนสุดก่อน', priceAsc: 'ราคาต่ำ → สูง' },
       match: (x, f) => (!f.material || x.material === f.material) && (!f.gauge || gaugeGroup(x.gauge) === f.gauge),
       card: s => `
+        ${s.img ? `<img class="thumb" src="${esc(s.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ''}
         <span class="tag">${esc(gaugeLabel(s))}</span>
         <div class="nm">${esc(full(s))}</div>
         <div class="meta">${esc(L.material[s.material] || '')}</div>
@@ -188,15 +194,17 @@
         ['แบรนด์', s => esc(s.brand)],
         ['ขนาดเส้น', s => esc(gaugeLabel(s))],
         ['วัสดุ', s => L.material[s.material] || '—'],
-        ['แรงดีด', s => dash(s.repulsion)],
-        ['ควบคุม', s => dash(s.control)],
-        ['ความทน', s => dash(s.durability)],
-        ['เสียงกระทบ', s => dash(s.sound)],
-        ['ซับแรง', s => dash(s.shock)],
+        ['แรงดีด', s => rate(s, 'repulsion')],
+        ['ควบคุม', s => rate(s, 'control')],
+        ['ความทน', s => rate(s, 'durability')],
+        ['เสียงกระทบ', s => rate(s, 'sound')],
+        ['ซับแรง', s => rate(s, 'shock')],
         ['ความตึงสูงสุด', s => s.tensionMax ? s.tensionMax + ' lbs' : '—'],
         ['สีที่มี', s => dash(s.colors)],
+        ['ผลิตที่', s => dash(s.madeIn)],
         ['ราคา', s => s.price ? s.price + ' บาท' : '—'],
         ['หมายเหตุ', s => dash(s.note)],
+        ['แหล่งข้อมูล', s => sources(s)],
       ],
     },
   };

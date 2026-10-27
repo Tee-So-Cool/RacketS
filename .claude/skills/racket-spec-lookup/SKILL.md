@@ -46,6 +46,19 @@ Entry format, keyed by "Brand Model" exactly as shown on the site:
 
 For a model that is not on the site yet, add `"new": true`, plus `year` and `style` when known.
 
+## Finding models the site lacks
+
+- badmintonplaza.com (Thai shop, THB prices) lists rackets per brand, newest first: `index.php?cPath=53_<brand>&sort=4d`.
+  Brand ids: Li-Ning 54, Victor 168, Yonex 192, Mizuno 238, Apacs 266, VS 296.
+- Each product page (`product_info.php?products_id=<id>`) shows weight, balance (mm), flex, tension and price in THB.
+- Fetch pages one by one with `WebFetch`, asking for one line of JSON. Skip anime/collab editions of a model we already have.
+
+## Strings
+
+Same flow with `data/string-overrides.json` and `python3 scripts/build_strings.py`.
+Sources: `scripts/sources/chobbad-strings.json`, `yonex-strings.json` (refresh: `scripts/fetch_yonex_strings.py`), and `manual-strings.json` (old hand estimates, used only to fill gaps and flagged in `est`).
+Rating fields (repulsion, control, durability, sound, shock) go in only when the source gives a score.
+
 ## 4. Rebuild and check
 
 ```bash
