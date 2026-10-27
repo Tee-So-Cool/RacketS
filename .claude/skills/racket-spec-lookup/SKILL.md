@@ -48,6 +48,10 @@ For a model that is not on the site yet, add `"new": true`, plus `year` and `sty
 
 ## Finding models the site lacks
 
+- `python3 scripts/fetch_plaza.py` crawls every Badminton Plaza racket (6 brands, one request per second) into `scripts/sources/plaza.json`.
+  The build matches each listing to our models by name tokens (`scripts/plaza_match.py`) and fills only empty image, THB price and specs.
+- Listings that match nothing print as unmatched. Add a real model to `NEW_NAMES` in `plaza_match.py`; collabs, gift sets and other brands go in `SKIP`.
+
 - badmintonplaza.com (Thai shop, THB prices) lists rackets per brand, newest first: `index.php?cPath=53_<brand>&sort=4d`.
   Brand ids: Li-Ning 54, Victor 168, Yonex 192, Mizuno 238, Apacs 266, VS 296.
 - Each product page (`product_info.php?products_id=<id>`) shows weight, balance (mm), flex, tension and price in THB.

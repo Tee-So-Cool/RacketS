@@ -31,6 +31,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-aero-light-700/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -63,6 +64,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-altair-ms-20/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -93,6 +95,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-assailant-control/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -125,6 +128,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-assailant-power/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -160,6 +164,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-assailant-pro/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-assailant-pro-white-4u-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -192,6 +197,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-assailant-speed/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -227,6 +233,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-astral-9000/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-astral-9000-navy-grey-4u-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -259,6 +266,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-blizzard-2500/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -289,6 +297,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-blizzard-pro/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -319,6 +328,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-blizzard-pro-zz/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -349,6 +359,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-braid-woven/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -379,6 +390,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-carbo-8000/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -409,6 +421,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-carbo-9000/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -439,6 +452,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-carbo-x/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -472,6 +486,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-cross-court-control/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-cross-court-control-maroon-silver-4u-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -505,6 +520,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-cross-court-power/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-cross-court-power-black-maroon-4u-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -535,6 +551,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-cross-court-pro/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -568,6 +585,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-cross-court-pro-6-2/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/pro-series-badminton-racket/apacs-cross-court-pro-6.2-black-4u-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -600,6 +618,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-cross-court-pro-6-4/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -630,6 +649,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-cross-court-speed/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -665,6 +685,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-dominator-808/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-dominator-808-white-4u-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -697,6 +718,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-duplex-power-55/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -732,6 +754,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-energetic-horse/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-energetic-horse-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -764,6 +787,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-energy-groove-power/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -796,6 +820,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-energy-groove-speed/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -828,6 +853,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-fantala-6-0-control/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -860,6 +886,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-fantala-6-0-speed/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -892,6 +919,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-fantala-6-2-control/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -924,6 +952,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-fantala-6-2-power/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -956,6 +985,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-fantala-6-2-speed/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -988,6 +1018,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-fantala-pro-101/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -1018,6 +1049,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-feather-weight-500/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -1050,6 +1082,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-feather-weight-55/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -1082,6 +1115,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-feather-weight-x-ii/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -1114,6 +1148,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-finapi-232-reborn/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -1144,6 +1179,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-grand-tour/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -1177,6 +1213,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-hard-hitter-control/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-hard-hitter-control-green-4u-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -1210,6 +1247,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-hard-hitter-power/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-hard-hitter-power-red-4u-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -1240,6 +1278,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-hard-hitter-pro/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -1275,6 +1314,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-hard-hitter-pro-6-4/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-hard-hitter-pro-navy-blue-4u-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -1308,6 +1348,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-hard-hitter-speed/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-hard-hitter-speed-white-4u-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -1338,6 +1379,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-honor-pro/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -1368,6 +1410,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-honor-pro-6-4/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -1398,6 +1441,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-hyper-power/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -1430,6 +1474,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-hyper-speed/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -1465,6 +1510,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-imperial-pro/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/pro-series-badminton-racket/apacs-imperial-pro-dark-grey-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -1497,6 +1543,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-imperial-pro-6-2/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -1530,6 +1577,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-legacy-909/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-legacy-909-metallic-light-blue-4u-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -1562,6 +1610,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-lethal-10-control/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -1594,6 +1643,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-lethal-10-power/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -1626,6 +1676,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-lethal-10-speed/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -1658,6 +1709,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-lethal-60-light/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -1690,6 +1742,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-lethal-7/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -1720,6 +1773,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-lethal-9/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -1753,6 +1807,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-maelstrom/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-maelstrom-silver-5u-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -1785,8 +1840,42 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-nano-blade-110/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "apacs-nano-fusion-speed-722",
+  "brand": "Apacs",
+  "name": "Nano Fusion Speed 722",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "medium",
+  "level": "",
+  "weights": "6U",
+  "weight": 73,
+  "grips": "G1",
+  "tension": null,
+  "price": 1390,
+  "frame": "Japan High Modulus Graphite",
+  "shaft": "",
+  "joint": "",
+  "length": "672 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/NFS722-BKLB-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4982",
+  "note": "",
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-nano-fusion-speed-722-dura-pro",
@@ -1815,6 +1904,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-nano-fusion-speed-722-dura-pro/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -1847,6 +1937,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-nano-fusion-speed-777-force/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -1879,6 +1970,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-nano-fusion-speed-822/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -1911,6 +2003,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-nano-fusion-speed-xr/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -1943,6 +2036,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-nano-smash/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -1975,6 +2069,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-nano-tubes-99/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2005,6 +2100,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-precision-1-0/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2035,6 +2131,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-pro-commander-6-4/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2065,6 +2162,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-razor-800/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2095,6 +2193,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-resona-speed-66/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -2130,6 +2229,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-resona-speed-88/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-resona-speed-88-black-5u-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2160,6 +2260,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-speed-pro-900/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -2192,6 +2293,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-stardom-800/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2222,6 +2324,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-stardom-pro-iii/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2252,6 +2355,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-stern-100/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2282,6 +2386,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-stern-828/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2312,6 +2417,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-stern-878/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2342,6 +2448,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-stern-899/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2372,6 +2479,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-stern-90-offensive/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -2407,6 +2515,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-super-speed/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/pro-series-badminton-racket/apacs-super-speed-black-4u-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2437,6 +2546,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-tantrum-300-iii/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2470,6 +2580,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-tempesta/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-tempesta-black-5u-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -2502,6 +2613,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-thunderdome-6-2/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2532,6 +2644,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-thunderdome-pro-6-2/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2565,6 +2678,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-thunderdome-pro-6-4/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-thunderdome-pro-6-pt-4-dark-grey-4u-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2595,6 +2709,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-tweet-8000-international/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2625,6 +2740,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-tyro-55/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2658,6 +2774,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-valiant-8000/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-valiant-8000-black-4u-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -2690,6 +2807,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-vanguard-77/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2720,6 +2838,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-versus-pro/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2750,6 +2869,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-versus-pro-6-2/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2780,6 +2900,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-versus-pro-6-4/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2788,19 +2909,19 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Woven Gold",
   "year": 2022,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
   "level": "advanced",
-  "weights": "",
-  "weight": "",
-  "grips": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5",
   "tension": null,
-  "price": "",
+  "price": 2490,
   "frame": "",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -2810,8 +2931,11 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-woven-gold/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3940",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-woven-platinium",
@@ -2840,6 +2964,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-woven-platinium/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2870,6 +2995,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-woven-ruby/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2900,6 +3026,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-x-tech-even/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -2932,6 +3059,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-x-tech-lite/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -2962,6 +3090,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-x-tech-power/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -2994,6 +3123,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-z-power-800-rp/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -3026,6 +3156,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-z-power-900-rp-lite/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -3058,8 +3189,42 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-z-woven/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "apacs-z-ziggler",
+  "brand": "Apacs",
+  "name": "Z-Ziggler",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G2, G4",
+  "tension": null,
+  "price": 1590,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/Z-Ziggler-GR-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4705",
+  "note": "",
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-z-ziggler-72",
@@ -3088,6 +3253,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-z-ziggler-72/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -3118,6 +3284,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-z-ziggler-75/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -3148,6 +3315,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-z-ziggler-77/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -3178,6 +3346,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-z-ziggler-lite/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -3208,6 +3377,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-ziggler-lhi-pro-ii/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -3238,6 +3408,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-ziggler-lhi-pro-iii/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -3271,6 +3442,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/apacs-ziggler-pro-6-2/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/pro-series-badminton-racket/apacs-ziggler-PRO-6.2-black-red-4u-badminton-racket.html",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3306,6 +3478,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-aurora-7/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3341,6 +3514,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-dream-galaxy/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3376,6 +3550,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-high-tension-g30/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3411,6 +3586,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-high-tension-g7/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3446,6 +3622,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-honor-galaxy/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3481,6 +3658,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-honor-speed-ultra-7/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3516,6 +3694,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-ice-cream/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3551,6 +3730,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-king-k8-ii/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3586,6 +3766,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-king-k9/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3621,6 +3802,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-master-cross-space/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3656,6 +3838,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-master-mao-19/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3691,6 +3874,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-nezha-35/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3726,6 +3910,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-passion-p25/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3761,6 +3946,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-passion-p26/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3796,6 +3982,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-passion-p29/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3831,6 +4018,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-passion-p38/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3866,6 +4054,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-porcelain-q5/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3901,6 +4090,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-porcelain-qingguo/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3936,6 +4126,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-spider/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -3971,6 +4162,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-super-light-alpha/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -4006,6 +4198,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-super-light-k5/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -4041,6 +4234,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-traverse-galaxy/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -4076,6 +4270,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-kawasaki-yujian-galaxy/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -4111,6 +4306,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-3d-calibar-300/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -4143,6 +4339,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-3d-calibar-600b/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -4176,8 +4373,43 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-3d-calibar-900/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=2195",
   "note": "",
   "est": []
+ },
+ {
+  "id": "li-ning-3d-calibar-x-boost",
+  "brand": "Li-Ning",
+  "name": "3D Calibar X Boost",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": 2490,
+  "frame": "Commercial Grade Carbon Fiber",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm.",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/AYPR166-4S-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3782",
+  "note": "",
+  "est": [
+   "balance",
+   "style"
+  ]
  },
  {
   "id": "li-ning-aeronaut-6000",
@@ -4206,6 +4438,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-aeronaut-6000/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -4236,6 +4469,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-aeronaut-6000c/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -4266,6 +4500,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-aeronaut-7000-boost/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -4278,8 +4513,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "pro",
-  "weights": "",
-  "weight": "",
+  "weights": "3U, 4U",
+  "weight": 83,
   "grips": "G6",
   "tension": [
    null,
@@ -4289,7 +4524,7 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675 mm.",
   "pattern": "",
   "tech": "Turbo Charging",
   "players": "",
@@ -4299,6 +4534,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-aeronaut-9000/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=2472",
   "note": "",
   "est": []
  },
@@ -4332,6 +4568,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-aeronaut-9000-combat/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -4365,6 +4602,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-10/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4516",
   "note": "",
   "est": []
  },
@@ -4398,6 +4636,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-100/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4887",
   "note": "",
   "est": []
  },
@@ -4428,6 +4667,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-100-ii/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -4461,6 +4701,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-20/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4185",
   "note": "",
   "est": []
  },
@@ -4494,6 +4735,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-30/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5130",
   "note": "",
   "est": []
  },
@@ -4527,6 +4769,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-40/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -4560,6 +4803,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-50/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -4593,6 +4837,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-60/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4981",
   "note": "",
   "est": []
  },
@@ -4626,6 +4871,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-70/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -4659,6 +4905,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-80/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4107",
   "note": "",
   "est": []
  },
@@ -4692,6 +4939,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-80-jr/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -4722,6 +4970,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-80-light/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -4752,6 +5001,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-9/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -4785,6 +5035,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-90/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4701",
   "note": "",
   "est": []
  },
@@ -4818,6 +5069,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-90-dragon-max/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -4851,6 +5103,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-lining-axforce-90-max-dragon/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3412",
   "note": "",
   "est": []
  },
@@ -4884,6 +5137,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-90-new/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -4917,6 +5171,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-90-tiger-max/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -4947,6 +5202,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-big-bang/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -4980,6 +5236,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-cannon/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4951",
   "note": "",
   "est": []
  },
@@ -5013,6 +5270,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-cannon-light/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4952",
   "note": "",
   "est": []
  },
@@ -5046,6 +5304,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-cannon-pro/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -5062,20 +5321,21 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
-  "price": "",
-  "frame": "",
+  "price": 1590,
+  "frame": "Carbon Fiber",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675 mm.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/AYPW059-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://thegodofsports.com/products/li-ning-axforce-tiger-badminton-racket-white-lime",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5122",
   "note": "",
   "est": []
  },
@@ -5109,6 +5369,7 @@ window.RACKETS = [
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.eliteshuttler.com/products/li-ning-axforce-warrior",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -5139,6 +5400,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-bladex-100/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -5172,6 +5434,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-bladex-200/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -5205,6 +5468,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-bladex-500/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -5238,6 +5502,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-bladex-600/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -5271,6 +5536,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-bladex-700/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -5301,6 +5567,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-bladex-73-light/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -5313,8 +5580,8 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "stiff",
   "level": "pro",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 83,
   "grips": "G5",
   "tension": [
    null,
@@ -5324,7 +5591,7 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675 mm.",
   "pattern": "",
   "tech": "Turbo Charging",
   "players": "",
@@ -5334,6 +5601,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-bladex-800/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3467",
   "note": "",
   "est": []
  },
@@ -5357,7 +5625,7 @@ window.RACKETS = [
   "frame": "M46X Carbon Fibre",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675 mm.",
   "pattern": "",
   "tech": "Turbo Charging",
   "players": "",
@@ -5367,6 +5635,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-bladex-800-power/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4974",
   "note": "",
   "est": []
  },
@@ -5400,6 +5669,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-bladex-800-speed/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -5430,6 +5700,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-lining-bladex-880-shida/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -5453,7 +5724,7 @@ window.RACKETS = [
   ],
   "price": 9718,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "6.6mm.",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -5465,6 +5736,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-bladex-900/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3622",
   "note": "",
   "est": []
  },
@@ -5495,6 +5767,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-bladex-900-moon-max/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -5525,6 +5798,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-bladex-900-sun-max/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -5548,7 +5822,7 @@ window.RACKETS = [
   "frame": "Carbon Fiber",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675 mm.",
   "pattern": "",
   "tech": "Turbo Charging · Carbon Fiber",
   "players": "",
@@ -5558,6 +5832,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-bladex-assassin/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4947",
   "note": "",
   "est": []
  },
@@ -5591,6 +5866,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-bladex-sonar/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -5624,6 +5900,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-bladex-spiral/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -5654,6 +5931,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-g-force-3800-superlite/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -5686,6 +5964,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-g-force-3900-superlite/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -5721,6 +6000,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-g-force-3900-superlite-ii/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -5756,6 +6036,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-halbertec-2000/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -5791,6 +6072,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-halbertec-3000/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -5826,6 +6108,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-halbertec-4000/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -5861,6 +6144,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-halbertec-5000/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -5884,7 +6168,7 @@ window.RACKETS = [
   ],
   "price": 6246,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Ultra High-Modulus Graphite",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -5896,6 +6180,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-halbertec-6000/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4036",
   "note": "",
   "est": [
    "style"
@@ -5931,6 +6216,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-halbertec-7000/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4013",
   "note": "",
   "est": [
    "style"
@@ -5966,6 +6252,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-halbertec-7000-ii/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -5999,6 +6286,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-halbertec-8000/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -6034,6 +6322,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-lining-halbertec-9000/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -6069,6 +6358,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-halbertec-9000-power/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5098",
   "note": "",
   "est": []
  },
@@ -6098,10 +6388,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://thegodofsports.com/cdn/shop/files/Li-NingHalbertecMageBadmintonRacket-1.jpg?v=1791965292&width=1000",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://thegodofsports.com/products/li-ning-halbertec-mage-badminton-racket-4u",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -6135,6 +6426,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-halbertec-motor/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4283",
   "note": "",
   "est": [
    "style"
@@ -6170,6 +6462,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-halbertec-motor-pro/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -6192,7 +6485,7 @@ window.RACKETS = [
    28
   ],
   "price": 1890,
-  "frame": "",
+  "frame": "Full Carbon Graphite",
   "shaft": "",
   "joint": "",
   "length": "",
@@ -6201,10 +6494,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/AYPS225-1S-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4055",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4055",
   "note": "",
   "est": [
    "style"
@@ -6240,6 +6534,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-tectonic-1s/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -6266,10 +6561,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://shop.kibisports.com/cdn/shop/products/AYPS197-4-02.webp?v=1704316004&width=1500",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://shop.kibisports.com/products/badminton-racket-tectonic-3r-4u",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -6299,10 +6595,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://thegodofsports.com/cdn/shop/files/Tectonic-7-white-gold-1.png?v=1783375168&width=1000",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://centralsports.co.uk/products/li-ning-tectonic-7-white-gold",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -6333,8 +6630,42 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-tectonic-9/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "li-ning-windstorm-700",
+  "brand": "Li-Ning",
+  "name": "Windstorm 700",
+  "year": "",
+  "style": "speed",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "G6",
+  "tension": null,
+  "price": 2890,
+  "frame": "Commercial Grade Carbon Fiber",
+  "shaft": "",
+  "joint": "",
+  "length": "675mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/AYPR046-4S-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3765",
+  "note": "",
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "li-ning-windstorm-72",
@@ -6366,6 +6697,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-windstorm-72/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -6399,6 +6731,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-windstorm-72-power/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -6432,6 +6765,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-windstorm-72-speed/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -6465,6 +6799,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-windstorm-79-h/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -6498,6 +6833,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-windstorm-79-s/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -6531,6 +6867,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-seaacrospeed-0/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -6561,6 +6898,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-acrospeed-1-drive-j-edition/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -6594,6 +6932,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-bdssaltius-sonic/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -6629,6 +6968,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-altius-vx5/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -6664,6 +7004,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-altrax-870/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -6699,8 +7040,45 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/mizuno-acroforce-100/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "mizuno-acroforce-200-power",
+  "brand": "Mizuno",
+  "name": "Acroforce 200 Power",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 6950,
+  "frame": "Japan HMG T46",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/AcroForce-200CC-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5123",
+  "note": "",
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "mizuno-acroforce-300",
@@ -6709,13 +7087,16 @@ window.RACKETS = [
   "year": 2025,
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "",
   "weight": "",
   "grips": "",
-  "tension": null,
-  "price": "",
+  "tension": [
+   null,
+   28
+  ],
+  "price": 4160,
   "frame": "High modulus graphite, graphite",
   "shaft": "",
   "joint": "",
@@ -6729,6 +7110,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/mizuno-acroforce-300/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5141",
   "note": "",
   "est": []
  },
@@ -6739,13 +7121,16 @@ window.RACKETS = [
   "year": 2025,
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "",
   "weight": "",
   "grips": "",
-  "tension": null,
-  "price": "",
+  "tension": [
+   null,
+   28
+  ],
+  "price": 3600,
   "frame": "High modulus graphite, graphite",
   "shaft": "",
   "joint": "",
@@ -6759,6 +7144,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/mizuno-acroforce-600/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5140",
   "note": "",
   "est": []
  },
@@ -6792,6 +7178,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/mizuno-acrospeed-1-accel/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -6825,6 +7212,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/mizuno-acrospeed-1-drive/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -6858,6 +7246,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/mizuno-acrospeed-1-focus/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -6891,6 +7280,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/mizuno-acrospeed-2/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -6924,6 +7314,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/mizuno-acrospeed-3/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -6957,6 +7348,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/mizuno-acrospeed-6/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -6990,6 +7382,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/mizuno-acrospeed-7/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -7023,6 +7416,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/mizuno-acrospeed-8/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -7038,8 +7432,11 @@ window.RACKETS = [
   "weights": "",
   "weight": "",
   "grips": "",
-  "tension": null,
-  "price": "",
+  "tension": [
+   23,
+   27
+  ],
+  "price": 6952,
   "frame": "VA POLYMER, High Modulus Graphite, Graphite",
   "shaft": "",
   "joint": "",
@@ -7053,6 +7450,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/mizuno-altius-n-feel/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5075",
   "note": "",
   "est": [
    "style"
@@ -7088,6 +7486,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-caliber-s-boost/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -7123,6 +7522,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-caliber-s-boost-2/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -7158,6 +7558,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-caliber-v-pro/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -7193,6 +7594,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-carbo-pro-835/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -7215,19 +7617,20 @@ window.RACKETS = [
    30
   ],
   "price": 2400,
-  "frame": "",
+  "frame": "Japanese Ultra Carbon",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/CALIBER-S-BOOST3-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=5136",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5136",
   "note": "",
   "est": [
    "style"
@@ -7249,7 +7652,7 @@ window.RACKETS = [
    null,
    28
   ],
-  "price": "",
+  "price": 1600,
   "frame": "Japan HM Graphite",
   "shaft": "",
   "joint": "",
@@ -7263,6 +7666,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-fioria-lite/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5178",
   "note": "",
   "est": [
    "style"
@@ -7298,6 +7702,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-fortius-50-spirit/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -7333,6 +7738,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-fortius-52-ks/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -7368,6 +7774,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-fortius-71-vt/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -7390,19 +7797,20 @@ window.RACKETS = [
    28
   ],
   "price": 6950,
-  "frame": "",
+  "frame": "High Modulus Graphite + Graphite",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/FORTIUS-10-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=5129",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5129",
   "note": "",
   "est": [
    "style"
@@ -7425,19 +7833,20 @@ window.RACKETS = [
    30
   ],
   "price": 2400,
-  "frame": "",
+  "frame": "High Modulus Graphite",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/FORTIUS-77P-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=5126",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5126",
   "note": "",
   "est": [
    "style"
@@ -7473,6 +7882,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-jpx-10-5-ct-kiem-soat/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -7508,6 +7918,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-jpx-3-3-rage/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -7543,6 +7954,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-jpx-7-0-sp/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -7565,19 +7977,20 @@ window.RACKETS = [
    30
   ],
   "price": 3990,
-  "frame": "",
+  "frame": "Japan HMG T46",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/JPX-LTD-CT-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=5078",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5078",
   "note": "",
   "est": [
    "style"
@@ -7613,6 +8026,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-powerblade-597/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -7646,6 +8060,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-promax-ht1/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -7681,6 +8096,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-prototype-x-1i/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -7716,6 +8132,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-prototype-x-3d/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -7751,6 +8168,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-prototype-x1-2/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -7786,6 +8204,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-prototype-x5-ct-kiem-soat/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -7821,6 +8240,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-speedflex-9-0-feel/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -7854,6 +8274,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-turboblade-587/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -7889,6 +8310,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-zephyr-zr8/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -7924,6 +8346,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/mizuno-zephyr/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -7959,6 +8382,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/protech-aston-pro-ver-2/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -7992,6 +8416,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/protech-aston-tour/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -8025,6 +8450,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-protech-magic-tour/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -8060,6 +8486,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-protech-magic-xp-black/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -8093,6 +8520,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-protech-magic-xp-mint/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -8126,6 +8554,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-protech-magic-xp-white/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -8159,6 +8588,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/protech-maxilite-champ/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -8194,6 +8624,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/protech-maxilite-pro/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -8229,6 +8660,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-protech-predator-xp/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -8264,6 +8696,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-reach-attack-speed-100/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -8299,6 +8732,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-reach-attack-speed-88/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -8334,6 +8768,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-reach-attack-speed-99/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -8369,6 +8804,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-reach-k-force/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -8404,6 +8840,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-reach-kim-duo-55-pro/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -8439,6 +8876,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-reach-kim-duo-55-pro-two-tone/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -8471,6 +8909,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-reach-new-t-rex-pro-3939/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -8504,6 +8943,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-reach-t-rex-pro-4949/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -8515,8 +8955,8 @@ window.RACKETS = [
   "name": "Ace Power 11 Max",
   "year": "",
   "style": "control",
-  "balance": "head-heavy",
-  "flex": "",
+  "balance": "even",
+  "flex": "medium",
   "level": "",
   "weights": "4U",
   "weight": 83,
@@ -8539,10 +8979,9 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-ace-power-11-max/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3901",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4578",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "vs-assassin-47",
@@ -8551,7 +8990,7 @@ window.RACKETS = [
   "year": "",
   "style": "speed",
   "balance": "even",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "4U",
   "weight": 83,
@@ -8574,6 +9013,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-assassin-47/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4358",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4615",
   "note": "",
   "est": []
  },
@@ -8607,6 +9047,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-blade-520/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -8621,25 +9062,26 @@ window.RACKETS = [
   "level": "",
   "weights": "4U",
   "weight": 82,
-  "grips": "",
+  "grips": "G5",
   "tension": [
    null,
    30
   ],
   "price": 1190,
-  "frame": "",
+  "frame": "Japan High Modulus Graphite",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675 mm.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/BL-7500W-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3802",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3802",
   "note": "",
   "est": [
    "style"
@@ -8655,26 +9097,27 @@ window.RACKETS = [
   "flex": "medium",
   "level": "",
   "weights": "4U",
-  "weight": "",
-  "grips": "",
+  "weight": 83,
+  "grips": "G5",
   "tension": [
    null,
    30
   ],
   "price": 1190,
-  "frame": "",
+  "frame": "Japan High Modulus Graphite",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675mm.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/BL-7600-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3259",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3259",
   "note": "",
   "est": [
    "style"
@@ -8689,27 +9132,28 @@ window.RACKETS = [
   "balance": "even",
   "flex": "medium",
   "level": "",
-  "weights": "",
+  "weights": "4U",
   "weight": 82,
-  "grips": "",
+  "grips": "G5",
   "tension": [
    null,
    30
   ],
   "price": 1190,
-  "frame": "",
+  "frame": "Japan High Modulus Graphite",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675mm.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/BL-8000-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3779",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3779",
   "note": "",
   "est": [
    "style"
@@ -8726,25 +9170,26 @@ window.RACKETS = [
   "level": "",
   "weights": "4U",
   "weight": 82,
-  "grips": "",
+  "grips": "G5",
   "tension": [
    null,
    30
   ],
   "price": 1190,
-  "frame": "",
+  "frame": "Japan High Modulus Graphite",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675mm.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/BL-8100-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3772",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3772",
   "note": "",
   "est": [
    "style"
@@ -8757,7 +9202,7 @@ window.RACKETS = [
   "year": "",
   "style": "speed",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "4U",
   "weight": 83,
@@ -8780,6 +9225,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-blade-8300/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3771",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3771",
   "note": "",
   "est": []
  },
@@ -8794,25 +9240,26 @@ window.RACKETS = [
   "level": "",
   "weights": "4U",
   "weight": 82,
-  "grips": "",
+  "grips": "G6",
   "tension": [
    null,
    30
   ],
   "price": 1290,
-  "frame": "",
+  "frame": "30T Mitsubushi Carbon Sheet",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675 mm.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/BL-9000-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4850",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4850",
   "note": "",
   "est": [
    "style"
@@ -8829,25 +9276,62 @@ window.RACKETS = [
   "level": "",
   "weights": "4U",
   "weight": 82,
-  "grips": "",
+  "grips": "G6",
   "tension": [
    null,
    30
   ],
   "price": 1290,
-  "frame": "",
+  "frame": "30T Mitsubushi Carbon Sheet",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675 mm.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/BL-9100-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4851",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4851",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "vs-blade-9300",
+  "brand": "VS",
+  "name": "Blade 9300",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G6",
+  "tension": [
+   22,
+   30
+  ],
+  "price": 1290,
+  "frame": "30T Mitsubushi Carbon Sheet",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm.",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/BL-9300-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4852",
   "note": "",
   "est": [
    "style"
@@ -8883,6 +9367,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-chibi/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -8893,7 +9378,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "5U",
   "weight": 78,
@@ -8916,6 +9401,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-dark-knight/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4050",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4050",
   "note": "",
   "est": []
  },
@@ -8926,7 +9412,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "4U",
   "weight": 83,
@@ -8949,6 +9435,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-dragon-max/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=5036",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5036",
   "note": "",
   "est": []
  },
@@ -8958,8 +9445,8 @@ window.RACKETS = [
   "name": "Dragon P",
   "year": "",
   "style": "speed",
-  "balance": "head-light",
-  "flex": "",
+  "balance": "head-heavy",
+  "flex": "medium",
   "level": "",
   "weights": "4U",
   "weight": 83,
@@ -8982,10 +9469,9 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-dragon-p/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4165",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4165",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "vs-dragon-subduing",
@@ -8994,7 +9480,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "4U",
   "weight": 83,
@@ -9017,6 +9503,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-dragon-subduing/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4343",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4343",
   "note": "",
   "est": []
  },
@@ -9027,7 +9514,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "4U",
   "weight": 83,
@@ -9050,8 +9537,45 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-dragon-subduing-ii/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4989",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4989",
   "note": "",
   "est": []
+ },
+ {
+  "id": "vs-energetic-horse",
+  "brand": "VS",
+  "name": "Energetic Horse",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G6",
+  "tension": [
+   24,
+   35
+  ],
+  "price": 2590,
+  "frame": "30T Mitsibishi Carbon Sheet",
+  "shaft": "",
+  "joint": "",
+  "length": "675mm.",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/R-ENERGETIC-B-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4921",
+  "note": "",
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "vs-fire-1000",
@@ -9060,7 +9584,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "4U",
   "weight": 83,
@@ -9083,6 +9607,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-fire-1000/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4048",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4355",
   "note": "",
   "est": []
  },
@@ -9092,7 +9617,7 @@ window.RACKETS = [
   "name": "Fire Demon",
   "year": "",
   "style": "control",
-  "balance": "even",
+  "balance": "head-heavy",
   "flex": "medium",
   "level": "",
   "weights": "4U",
@@ -9103,7 +9628,7 @@ window.RACKETS = [
    32
   ],
   "price": 2990,
-  "frame": "",
+  "frame": "40T HIGH MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
   "length": "675mm",
@@ -9116,10 +9641,9 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-fire-demon/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4356",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4790",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "vs-flexus700",
@@ -9151,6 +9675,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-flexus700/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -9184,6 +9709,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-flora/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4002",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4002",
   "note": "",
   "est": [
    "style"
@@ -9196,7 +9722,7 @@ window.RACKETS = [
   "year": "",
   "style": "speed",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "4U",
   "weight": 83,
@@ -9219,6 +9745,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-fortex/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4538",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4538",
   "note": "",
   "est": []
  },
@@ -9229,7 +9756,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "5U",
   "weight": 78,
@@ -9252,6 +9779,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-goddess-7/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3361",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3361",
   "note": "",
   "est": []
  },
@@ -9285,6 +9813,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-goddess-8/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -9299,25 +9828,26 @@ window.RACKETS = [
   "level": "",
   "weights": "4U",
   "weight": 84,
-  "grips": "",
+  "grips": "G6",
   "tension": [
    null,
    35
   ],
   "price": 5390,
-  "frame": "",
+  "frame": "46T Mitsubishi Carbon Sheet",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675mm.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/HC-1000-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=5106",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5106",
   "note": "",
   "est": []
  },
@@ -9351,6 +9881,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-hc-898/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -9365,7 +9896,7 @@ window.RACKETS = [
   "level": "",
   "weights": "5U",
   "weight": 78,
-  "grips": "",
+  "grips": "G6",
   "tension": [
    22,
    28
@@ -9384,6 +9915,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-hc880-ii/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4893",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4893",
   "note": "",
   "est": [
    "style"
@@ -9400,7 +9932,7 @@ window.RACKETS = [
   "level": "",
   "weights": "6U",
   "weight": 73,
-  "grips": "",
+  "grips": "G6",
   "tension": [
    22,
    28
@@ -9419,6 +9951,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-hc890-ii/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4865",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4865",
   "note": "",
   "est": [
    "style"
@@ -9435,7 +9968,7 @@ window.RACKETS = [
   "level": "",
   "weights": "7U",
   "weight": 68,
-  "grips": "",
+  "grips": "G6",
   "tension": [
    24,
    30
@@ -9454,6 +9987,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-hc898-ii/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4864",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4864",
   "note": "",
   "est": [
    "style"
@@ -9466,7 +10000,7 @@ window.RACKETS = [
   "year": "",
   "style": "control",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "4U",
   "weight": 83,
@@ -9489,6 +10023,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-hc900ii/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4883",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4883",
   "note": "",
   "est": []
  },
@@ -9509,19 +10044,20 @@ window.RACKETS = [
    28
   ],
   "price": 2190,
-  "frame": "",
+  "frame": "Japan High Modulus Graphite",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675MM.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/HC-890-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=2628",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=2628",
   "note": "",
   "est": [
    "style"
@@ -9544,19 +10080,20 @@ window.RACKETS = [
    30
   ],
   "price": 2990,
-  "frame": "",
+  "frame": "Japan High Modulus Graphite Mitsubishi",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675mm.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/HC-900-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=2815",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=2815",
   "note": "",
   "est": [
    "style"
@@ -9582,16 +10119,17 @@ window.RACKETS = [
   "frame": "",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675mm.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/HC-990P-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3676",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3676",
   "note": "",
   "est": [
    "style"
@@ -9624,6 +10162,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-hunter/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -9634,7 +10173,7 @@ window.RACKETS = [
   "year": "",
   "style": "speed",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "4U",
   "weight": 83,
@@ -9657,6 +10196,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-j-speed-700/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4399",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4400",
   "note": "",
   "est": []
  },
@@ -9687,6 +10227,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-joyz/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -9697,7 +10238,7 @@ window.RACKETS = [
   "year": "",
   "style": "control",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "4U",
   "weight": 83,
@@ -9720,6 +10261,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-king-kong-x1/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4214",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4215",
   "note": "",
   "est": []
  },
@@ -9753,6 +10295,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-king-kong-x2/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3781",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4783",
   "note": "",
   "est": []
  },
@@ -9776,16 +10319,17 @@ window.RACKETS = [
   "frame": "",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675mm.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/KIRIN70BOX-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4722",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4722",
   "note": "",
   "est": [
    "style"
@@ -9811,16 +10355,17 @@ window.RACKETS = [
   "frame": "",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675mm.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/KIRIN-80W-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3401",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3401",
   "note": "",
   "est": [
    "style"
@@ -9833,7 +10378,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "5U",
   "weight": 78,
@@ -9843,7 +10388,7 @@ window.RACKETS = [
    30
   ],
   "price": 1290,
-  "frame": "",
+  "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
   "length": "675mm",
@@ -9856,6 +10401,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-koi/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4401",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4401",
   "note": "",
   "est": []
  },
@@ -9865,8 +10411,8 @@ window.RACKETS = [
   "name": "Kongfu Rabbit",
   "year": "",
   "style": "speed",
-  "balance": "head-light",
-  "flex": "",
+  "balance": "head-heavy",
+  "flex": "medium",
   "level": "",
   "weights": "4U",
   "weight": 83,
@@ -9889,10 +10435,9 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-kongfu-rabbit/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3931",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3931",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "vs-kriss-sword-k6-light",
@@ -9924,6 +10469,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-kriss-sword-k6-light/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3115",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3115",
   "note": "",
   "est": []
  },
@@ -9957,6 +10503,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-kriss-sword-k6-r/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -9971,25 +10518,26 @@ window.RACKETS = [
   "level": "",
   "weights": "5U",
   "weight": 78,
-  "grips": "",
+  "grips": "G5",
   "tension": [
    null,
    30
   ],
   "price": 3990,
-  "frame": "",
+  "frame": "40T Mitsubishi Carbon Sheet",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675mm.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/K6P-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4747",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4747",
   "note": "",
   "est": [
    "style"
@@ -10025,6 +10573,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-kriss-sword-k6p/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -10058,6 +10607,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-kriss-sword-x-limited/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -10091,6 +10641,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-kriss-sword-xp/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -10101,7 +10652,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "4U",
   "weight": 83,
@@ -10124,6 +10675,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-kriss-sword-xp-pro/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4794",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4884",
   "note": "",
   "est": []
  },
@@ -10157,6 +10709,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-magic-planet/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -10167,7 +10720,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "4U",
   "weight": 83,
@@ -10190,6 +10743,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-mighty-lion/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4598",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4599",
   "note": "",
   "est": []
  },
@@ -10223,6 +10777,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-np-7900/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -10256,6 +10811,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-panlong/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3488",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3488",
   "note": "",
   "est": []
  },
@@ -10289,6 +10845,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-rabbit-920/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -10322,6 +10879,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-razor/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -10334,7 +10892,7 @@ window.RACKETS = [
   "year": "",
   "style": "speed",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "4U",
   "weight": 83,
@@ -10357,6 +10915,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-razor-70/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4987",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4988",
   "note": "",
   "est": []
  },
@@ -10371,25 +10930,26 @@ window.RACKETS = [
   "level": "",
   "weights": "4U",
   "weight": 82,
-  "grips": "",
+  "grips": "G5",
   "tension": [
    null,
    28
   ],
   "price": 3490,
-  "frame": "",
+  "frame": "TRIPLE MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675mm.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/RAZOR-G-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4190",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4190",
   "note": "",
   "est": [
    "style"
@@ -10406,25 +10966,26 @@ window.RACKETS = [
   "level": "",
   "weights": "4U",
   "weight": 82,
-  "grips": "",
+  "grips": "G5",
   "tension": [
    null,
    30
   ],
   "price": 1590,
-  "frame": "",
+  "frame": "30T Japan High Modulus Graphite",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675mm.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/SSW-B-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3417",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3417",
   "note": "",
   "est": [
    "style"
@@ -10437,7 +10998,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "5U",
   "weight": 78,
@@ -10460,10 +11021,9 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-swordsman-77/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4645",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4648",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "vs-thor80",
@@ -10495,6 +11055,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-thor80/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -10509,25 +11070,26 @@ window.RACKETS = [
   "level": "",
   "weights": "4U",
   "weight": 82,
-  "grips": "",
+  "grips": "G5",
   "tension": [
    null,
    35
   ],
   "price": 1290,
-  "frame": "",
+  "frame": "MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675mm.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/TITAN-10S-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4292",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4817",
   "note": "",
   "est": [
    "style"
@@ -10563,6 +11125,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-titan-6/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -10596,6 +11159,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-titan-7/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -10629,6 +11193,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-titan-8/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -10662,6 +11227,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-titan-9/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -10672,7 +11238,7 @@ window.RACKETS = [
   "year": "",
   "style": "allround",
   "balance": "even",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "4U",
   "weight": 83,
@@ -10695,6 +11261,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-turbo-300/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4376",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4377",
   "note": "",
   "est": [
    "style"
@@ -10709,27 +11276,28 @@ window.RACKETS = [
   "balance": "even",
   "flex": "stiff",
   "level": "",
-  "weights": "",
+  "weights": "4U",
   "weight": 82,
-  "grips": "",
+  "grips": "G5",
   "tension": [
    null,
    30
   ],
   "price": 1590,
-  "frame": "",
+  "frame": "24T MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675MM.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/WOVEN-30-BL-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4749",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4750",
   "note": "",
   "est": [
    "style"
@@ -10765,6 +11333,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-ultra-woven-88s/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3461",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5138",
   "note": "",
   "est": [
    "style"
@@ -10800,6 +11369,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-v-dragon/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -10822,19 +11392,20 @@ window.RACKETS = [
    28
   ],
   "price": 2190,
-  "frame": "",
+  "frame": "Japan High Modulus Graphite",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675MM.",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/F35-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=2943",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=2943",
   "note": "",
   "est": [
    "style"
@@ -10870,6 +11441,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-wind-speed-f35-ii/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3780",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3780",
   "note": "",
   "est": []
  },
@@ -10903,6 +11475,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-wind-speed-f9/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -10917,25 +11490,26 @@ window.RACKETS = [
   "level": "",
   "weights": "5U",
   "weight": 77,
-  "grips": "",
+  "grips": "G6",
   "tension": [
    null,
    28
   ],
   "price": 1590,
-  "frame": "",
+  "frame": "30T Japan High Modulus Graphite",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/WS-F9X-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3376",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3376",
   "note": "",
   "est": [
    "style"
@@ -10971,6 +11545,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-woven-70x/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -10981,7 +11556,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "4U, 5U",
   "weight": 83,
@@ -11004,6 +11579,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-youlong/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4314",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4315",
   "note": "",
   "est": []
  },
@@ -11037,6 +11613,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-youlong-pro/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -11070,6 +11647,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-youth/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -11100,6 +11678,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-victor-auraspeed-100x/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4085",
   "note": "",
   "est": [
    "style"
@@ -11135,6 +11714,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-100x-td/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -11160,7 +11740,7 @@ window.RACKETS = [
   "frame": "High Resilience Modulus Graphite+Nano Fortify TR＋+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+Metallic Carbon Fiber+PYROFIL+5.8 SHAFT",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "PYROFIL · NANO FORTIFY TR+ · HIGH RESILIENCE MODULUS GRAPHITE",
   "players": "",
@@ -11170,6 +11750,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-victor-auraspeed-100x-ultra/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonwarehouse.com/products/victor-auraspeed-100x-ultra-badminton-racket",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4432",
   "note": "",
   "est": []
  },
@@ -11203,6 +11784,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-130cl/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -11238,6 +11820,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-150cl/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -11273,6 +11856,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-1jr/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -11308,8 +11892,43 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-25mach/",
   "officialUrl": "",
   "specSrc": "https://sportano.pl/p/937795/rakieta-do-badmintona-victor-auraspeed-25mach-e",
+  "shopUrl": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "victor-auraspeed-3100",
+  "brand": "Victor",
+  "name": "Auraspeed 3100",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": 1390,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/ARS-3100M-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3735",
+  "note": "",
+  "est": [
+   "balance",
+   "style"
+  ]
  },
  {
   "id": "victor-auraspeed-3200",
@@ -11341,6 +11960,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-3200/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -11376,6 +11996,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-3210/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -11411,6 +12032,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-33h/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -11446,6 +12068,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-58/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -11481,6 +12104,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-6000/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -11516,9 +12140,44 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-7000/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
+  ]
+ },
+ {
+  "id": "victor-auraspeed-70k",
+  "brand": "Victor",
+  "name": "Auraspeed 70K",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": 3990,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/ARS-70K-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=2013",
+  "note": "",
+  "est": [
+   "balance",
+   "style"
   ]
  },
  {
@@ -11551,6 +12210,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-8000/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3954",
   "note": "",
   "est": [
    "balance"
@@ -11586,6 +12246,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-9/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonwarehouse.com/collections/victor-auraspeed-badminton-rackets/products/victor-auraspeed-9-badminton-racket",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4063",
   "note": "",
   "est": []
  },
@@ -11619,6 +12280,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-9000/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5191",
   "note": "",
   "est": [
    "balance"
@@ -11644,7 +12306,7 @@ window.RACKETS = [
   "frame": "High Resilience Modulus Graphite+Nano Fortify TR＋",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "FREE CORE · PYROFIL · NANO FORTIFY TR+ · HIGH RESILIENCE MODULUS GRAPHITE · 6.8 SHAFT",
   "players": "",
@@ -11654,6 +12316,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-90f/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3848",
   "note": "",
   "est": [
    "balance"
@@ -11689,6 +12352,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-90f-td/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -11724,6 +12388,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-90k-ii/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -11759,6 +12424,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-victor-auraspeed-90k-ii-td/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -11770,7 +12436,7 @@ window.RACKETS = [
   "name": "Auraspeed 90K Metallic",
   "year": 2024,
   "style": "speed",
-  "balance": "head-light",
+  "balance": "head-heavy",
   "flex": "stiff",
   "level": "",
   "weights": "3U, 4U",
@@ -11784,7 +12450,7 @@ window.RACKETS = [
   "frame": "High Resilience Modulus Graphite+Metallic Carbon Fiber+Nano Fortify TR+",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "PYROFIL · NANO FORTIFY TR+ · HIGH RESILIENCE MODULUS GRAPHITE · 6.8 SHAFT",
   "players": "",
@@ -11794,10 +12460,9 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-90k-metallic/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonwarehouse.com/products/victor-auraspeed-90k-metallic-badminton-racket-1",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4168",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "victor-auraspeed-cyber",
@@ -11829,6 +12494,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-cyber/",
   "officialUrl": "",
   "specSrc": "https://joybadminton.com/products/victor-auraspeed-cyber-ars-cyber-c",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -11862,6 +12528,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-eta/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -11897,6 +12564,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-fd/",
   "officialUrl": "",
   "specSrc": "https://joybadminton.com/products/victor-auraspeed-fd-ars-fd-a-white-pre-strung",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -11920,7 +12588,7 @@ window.RACKETS = [
   "frame": "High ResilienceModulus Graphite+NANO AEROGEL+PBO High Performance Fiber+HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite+PBO High Performance Fiber+PYROFIL+6.8 SHAFT",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "PYROFIL · 6.8 SHAFT",
   "players": "",
@@ -11930,6 +12598,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-fantome/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4713",
   "note": "",
   "est": [
    "balance"
@@ -11965,6 +12634,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-fantome-f/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -12000,8 +12670,75 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-hs-plus/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonwarehouse.com/products/victor-auraspeed-hs-plus-c-badminton-racket",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4487",
   "note": "",
   "est": []
+ },
+ {
+  "id": "victor-auraspeed-hang",
+  "brand": "Victor",
+  "name": "Auraspeed Hang",
+  "year": "",
+  "style": "speed",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": 4700,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/ARS-HANG-C-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3502",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "victor-auraspeed-hypersonic",
+  "brand": "Victor",
+  "name": "Auraspeed Hypersonic",
+  "year": "",
+  "style": "speed",
+  "balance": "even",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": 4400,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/ARS-HS-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3269",
+  "note": "",
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "victor-auraspeed-ju",
@@ -12033,6 +12770,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-ju/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -12068,6 +12806,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-ljh/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonwarehouse.com/products/victor-auraspeed-ljh-badminton-racket",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -12101,6 +12840,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-lyc/",
   "officialUrl": "",
   "specSrc": "https://centralsports.co.uk/products/victor-auraspeed-lyc-b-badminton-racket",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -12134,6 +12874,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-syn/",
   "officialUrl": "",
   "specSrc": "https://joybadminton.com/products/victor-auraspeed-syn-ars-syn-s",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -12146,14 +12887,14 @@ window.RACKETS = [
   "balance": "even",
   "flex": "stiff",
   "level": "",
-  "weights": "",
-  "weight": "",
-  "grips": "",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5",
   "tension": [
    null,
    30
   ],
-  "price": "",
+  "price": 4190,
   "frame": "Ultra High Modulus Graphite + Nano Resin",
   "shaft": "",
   "joint": "",
@@ -12167,6 +12908,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-victor-brave-sword-12/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=832",
   "note": "",
   "est": [
    "style"
@@ -12183,7 +12925,7 @@ window.RACKETS = [
   "level": "",
   "weights": "4U",
   "weight": 82,
-  "grips": "",
+  "grips": "G5",
   "tension": [
    null,
    30
@@ -12192,16 +12934,17 @@ window.RACKETS = [
   "frame": "",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/BRS-12-PRO-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4378",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4378",
   "note": "",
   "est": [
    "balance",
@@ -12238,6 +12981,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-challenger-9500-pro/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -12271,6 +13015,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-drivex-09/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -12306,6 +13051,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-drivex-1/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -12341,6 +13087,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-drivex-10-metallic/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -12372,10 +13119,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/DriveX-12-ZSW-J-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4712",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4712",
   "note": "",
   "est": [
    "balance",
@@ -12412,6 +13160,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-drivex-3h/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonwarehouse.com/collections/all/products/victor-drivex-3h-badminton-racket-pre-strung",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -12445,6 +13194,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-drivex-6sp/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -12480,6 +13230,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-drivex-7sp/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -12515,6 +13266,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-drivex-f/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -12550,6 +13302,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-drivex-kt/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -12585,6 +13338,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-drivex-metallic/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4304",
   "note": "",
   "est": [
    "balance"
@@ -12620,9 +13374,44 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-drivex-phecda/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
+  ]
+ },
+ {
+  "id": "victor-jetspeed-s-09l",
+  "brand": "Victor",
+  "name": "Jetspeed S 09L",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": 2690,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/JS-09LQ-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=2594",
+  "note": "",
+  "est": [
+   "balance",
+   "style"
   ]
  },
  {
@@ -12631,7 +13420,7 @@ window.RACKETS = [
   "name": "Jetspeed S 12 II",
   "year": "",
   "style": "speed",
-  "balance": "head-light",
+  "balance": "head-heavy",
   "flex": "",
   "level": "",
   "weights": "3U, 4U",
@@ -12645,7 +13434,7 @@ window.RACKETS = [
   "frame": "High Resilience Modulus Graphite ＋Nano Fortify TR＋",
   "shaft": "High Resilience Modulus Graphite +PYROFIL + 6.6 SHAFT",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "AERO-SWORD · FREE CORE · PYROFIL · NANO FORTIFY TR+ · HIGH RESILIENCE MODULUS GRAPHITE",
   "players": "",
@@ -12655,10 +13444,9 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-jetspeed-s-12-ii/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4986",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "victor-jetspeed-s-12td",
@@ -12690,6 +13478,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-jetspeed-s-12td/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -12725,6 +13514,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-jetspeed-s-800ht/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -12760,6 +13550,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-jetspeed-t1/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -12795,6 +13586,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-jetspeed-t1pro/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -12830,8 +13622,108 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-legend/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "victor-mjolnir-metallic",
+  "brand": "Victor",
+  "name": "Mjolnir Metallic",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": 6190,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/MJOLNIR-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4121",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "victor-tk-66",
+  "brand": "Victor",
+  "name": "TK-66",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": 2190,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/TK-66Y-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4191",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "victor-tk-70",
+  "brand": "Victor",
+  "name": "TK-70",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": 2190,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/TK-70U-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3733",
+  "note": "",
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "victor-thruster-220h-ii",
@@ -12863,6 +13755,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-220h-ii/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -12898,6 +13791,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-66/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -12933,6 +13827,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-8110al/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -12958,16 +13853,50 @@ window.RACKETS = [
   "frame": "",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/TK-F-C-ULTRA-X-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4774",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4774",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "victor-thruster-f-claw",
+  "brand": "Victor",
+  "name": "Thruster F Claw",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": 5390,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/TK-FC-A-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3302",
   "note": "",
   "est": [
    "style"
@@ -12993,16 +13922,50 @@ window.RACKETS = [
   "frame": "",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/TK-F-ULTRA-C-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4223",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4223",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "victor-thruster-f-hs",
+  "brand": "Victor",
+  "name": "Thruster F HS",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": 5490,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/TK-F-HS-C-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3904",
   "note": "",
   "est": [
    "style"
@@ -13038,6 +14001,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-hmr-light/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -13073,6 +14037,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-hmr-pro/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -13098,7 +14063,7 @@ window.RACKETS = [
   "frame": "Graphite+Resin+Fiber Reinforced System (FRS)",
   "shaft": "Graphite + Nano Resin + 7.0 SHAFT",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -13108,10 +14073,9 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-hammer/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4757",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "victor-thruster-hammer-light-extra",
@@ -13143,6 +14107,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-hammer-light-extra/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonwarehouse.com/products/victor-thruster-tk-hammer-light-ex-badminton-racket-pre-strung",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -13176,6 +14141,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-hawk/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -13211,9 +14177,43 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-hawk-pro/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
+  ]
+ },
+ {
+  "id": "victor-thruster-k-15l",
+  "brand": "Victor",
+  "name": "Thruster K 15L",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": 2690,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/TK-15L-U-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3729",
+  "note": "",
+  "est": [
+   "style"
   ]
  },
  {
@@ -13246,6 +14246,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-k-280-ex/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -13281,6 +14282,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-k-816cl/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -13316,6 +14318,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-k-817cl/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -13341,16 +14344,17 @@ window.RACKETS = [
   "frame": "",
   "shaft": "",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/TK-Alpha-M-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=5076",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5076",
   "note": "",
   "est": [
    "style"
@@ -13386,6 +14390,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-victor-thruster-k-falcon/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -13417,12 +14422,47 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonplaza.com/images/TK-HMR-PROX-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4272",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4272",
   "note": "",
   "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "victor-thruster-k-onigiri-pro",
+  "brand": "Victor",
+  "name": "Thruster K Onigiri Pro",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": 4700,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/TK-ONIGIRI-PRO-U-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4120",
+  "note": "",
+  "est": [
+   "balance",
    "style"
   ]
  },
@@ -13446,7 +14486,7 @@ window.RACKETS = [
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.6 SHAFT",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "PYROFIL · HIGH RESILIENCE MODULUS GRAPHITE",
   "players": "",
@@ -13456,10 +14496,9 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-k-r/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3490",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "victor-thruster-merak",
@@ -13491,6 +14530,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-merak/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -13526,8 +14566,42 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-raptor/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonwarehouse.com/products/victor-thruster-tk-raptor-c-badminton-racket",
+  "shopUrl": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "victor-thruster-ryuga",
+  "brand": "Victor",
+  "name": "Thruster Ryuga",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": 4900,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/TK-RYUKA-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3079",
+  "note": "",
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "victor-thruster-ryuga-cls",
@@ -13559,8 +14633,42 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-ryuga-cls/",
   "officialUrl": "",
   "specSrc": "https://badmintoncorner.com/products/victor-thruster-ryuga-cls-d-flame-red-pre-strung",
+  "shopUrl": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "victor-thruster-ryuga-ii",
+  "brand": "Victor",
+  "name": "Thruster Ryuga II",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": 5590,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/TK-RYUGA-II-J-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3448",
+  "note": "",
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "victor-thruster-ryuga-ii-pro",
@@ -13592,6 +14700,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-ryuga-ii-pro/",
   "officialUrl": "",
   "specSrc": "https://www.decathlon.co.uk/p/mp/victor-thruster-ryuga-ii-pro-b-badminton-racket-2024-unstrung/1560e5dd-9415-48e0-be50-6f9ea7082902/c1c16c249",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4665",
   "note": "",
   "est": []
  },
@@ -13625,6 +14734,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-ryuga-ii-td/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -13656,10 +14766,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonwarehouse.com/cdn/shop/files/victor-ryuga-iii-cq-racket-full_700x700.webp?v=1791997642",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonwarehouse.com/products/victor-thruster-ryuga-iii-cq-badminton-racket",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -13693,6 +14804,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-ryuga-jr/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -13718,7 +14830,7 @@ window.RACKETS = [
   "frame": "High ResilienceModulus Graphite + HARD CORED TECHNOLOGY + Metallic Carbon Fiber",
   "shaft": "High ResilienceModulus Graphite + PYROFIL + 6.8 SHAFT",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "PYROFIL · 6.8 SHAFT",
   "players": "",
@@ -13728,10 +14840,9 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-victor-thruster-ryuga-metallic/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3933",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "victor-thruster-ryuga-muse",
@@ -13763,6 +14874,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-ryuga-muse/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonwarehouse.com/products/thruster-ryuga-muse-badminton-racket-blue",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -13792,10 +14904,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.badmintonwarehouse.com/cdn/shop/files/victor-ryuga-muse-ii-tj-02-clean_700x700.jpg?v=1790875934",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonwarehouse.com/products/victor-thruster-ryuga-muse-ii-tj-badminton-racket",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance",
@@ -13832,6 +14945,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-ryuga-td/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -13867,6 +14981,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-ryuga-tm/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -13902,6 +15017,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-si/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -13937,6 +15053,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-t300/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -13972,9 +15089,76 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-t500/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
+  ]
+ },
+ {
+  "id": "victor-thruster-tty",
+  "brand": "Victor",
+  "name": "Thruster TTY",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": 5490,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/TK-TTY-A-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3847",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "victor-thruster-tty-ultima",
+  "brand": "Victor",
+  "name": "Thruster TTY Ultima",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": 5990,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonplaza.com/images/TK-TTY-ULTIMA-A-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4379",
+  "note": "",
+  "est": [
+   "style"
   ]
  },
  {
@@ -14007,6 +15191,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-wrist-enhancer-140/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -14040,6 +15225,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-arcsaber-11-play/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/arc11-pl",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4544",
   "note": "",
   "est": []
  },
@@ -14073,6 +15259,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-arcsaber-11-pro/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/arc11-p",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3261",
   "note": "",
   "est": []
  },
@@ -14106,6 +15293,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-arcsaber-11-tour/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/arc11-t",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -14135,10 +15323,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "China",
   "recString": "Control Players: NANOGY 98 Hard Hitters: NANOGY 95",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/i/n/int_arc2a_750-1.jpg",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/arcsaber-2-ability",
   "specSrc": "",
+  "shopUrl": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -14172,6 +15361,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-arcsaber-2-clear/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/arcsaber-2-clear",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -14201,10 +15391,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "China",
   "recString": "Control Players: NANOGY 98 Hard Hitters: NANOGY 95",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/i/n/int_arc2f_011-1.jpg",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/arcsaber-2-feel",
   "specSrc": "",
+  "shopUrl": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -14238,6 +15429,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-arcsaber-7-play/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/arc7-pl",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3471",
   "note": "",
   "est": []
  },
@@ -14271,6 +15463,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-arcsaber-7-pro/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/arc7-p",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -14304,6 +15497,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-arcsaber-7-tour/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/arc7-t",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5055",
   "note": "",
   "est": []
  },
@@ -14337,6 +15531,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-arcsaber7-play-2026/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -14370,6 +15565,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-arcsaber7-tour-2026/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -14389,7 +15585,7 @@ window.RACKETS = [
    20,
    28
   ],
-  "price": "",
+  "price": 1490,
   "frame": "Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -14399,10 +15595,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/i/n/int_ax01a_062-1_02.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-01-ability",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4425",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -14422,7 +15619,7 @@ window.RACKETS = [
    20,
    28
   ],
-  "price": "",
+  "price": 1490,
   "frame": "Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -14432,10 +15629,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/i/n/int_ax01c_188-1_02.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-01-clear",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4426",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -14469,6 +15667,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-01-feel/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-01-feel",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4424",
   "note": "",
   "est": []
  },
@@ -14488,7 +15687,7 @@ window.RACKETS = [
    20,
    30
   ],
-  "price": "",
+  "price": 1760,
   "frame": "HT Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -14498,10 +15697,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "China",
   "recString": "Control Players: NANOGY 98 Hard Hitters: NANOGY 95",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/i/n/int_ax02a_062-1_1_1.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/ax02a",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4978",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -14531,10 +15731,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "China",
   "recString": "Control Players: NANOGY 98 Hard Hitters: NANOGY 95",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/i/n/int_ax02c_207-1.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/ax02c",
   "specSrc": "",
+  "shopUrl": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -14564,10 +15765,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "China",
   "recString": "Control Players: NANOGY 98 Hard Hitters: NANOGY 95",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/i/n/int_ax02f_136-1_1.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/ax02f",
   "specSrc": "",
+  "shopUrl": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -14597,10 +15799,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/a/s/astrox_1dg.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-1-dg",
   "specSrc": "",
+  "shopUrl": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -14634,6 +15837,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-100-game/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/ax100g",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -14667,6 +15871,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-100-tour/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/ax100t",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -14696,10 +15901,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "Control Players: AEROBITE Hard Hitters: BG66 FORCE",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/a/l/all_ax100gva_452-1.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-100va-game-sports-gear-yonex",
   "specSrc": "",
+  "shopUrl": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -14729,10 +15935,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "Control Players: AEROBITE Hard Hitters: BG66 FORCE",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/a/l/all_ax100tva_328-1.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-100va-tour",
   "specSrc": "",
+  "shopUrl": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -14766,6 +15973,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-yonex-astrox-100va-zz/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-100va-zz",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -14801,6 +16009,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-yonex-astrox-100zz/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/ax100zz",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -14820,7 +16029,7 @@ window.RACKETS = [
    20,
    28
   ],
-  "price": "",
+  "price": 2000,
   "frame": "HM Graphite, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
   "joint": "Built-in T-Joint",
@@ -14830,10 +16039,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "Control Players: NANOGY95 Hard Hitters: SKYARC",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/a/x/ax22lt_rx.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-22-rx",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4698",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -14863,10 +16073,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/a/x/ax3dg_hf.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/ax3dg-hf",
   "specSrc": "",
+  "shopUrl": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -14896,10 +16107,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/a/x/ax3dg-st.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/ax3dg-st",
   "specSrc": "",
+  "shopUrl": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -14929,10 +16141,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/a/s/astrox_7dg.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-7-dg",
   "specSrc": "",
+  "shopUrl": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -14966,6 +16179,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-70/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/ax70",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -14999,6 +16213,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-77-play/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-77-play",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4075",
   "note": "",
   "est": []
  },
@@ -15032,6 +16247,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-77-pro/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-77-pro",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3525",
   "note": "",
   "est": []
  },
@@ -15065,6 +16281,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-77-tour/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-77-tour",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -15086,7 +16303,7 @@ window.RACKETS = [
    20,
    28
   ],
-  "price": "",
+  "price": 2200,
   "frame": "Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -15096,10 +16313,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/3/a/3ax88-pl_076_1_02.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/3ax88-pl",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4083",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -15133,6 +16351,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-88d-game/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/3ax88d-g",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -15166,6 +16385,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-yonex-astrox-88d-pro/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/3ax88d-p",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4081",
   "note": "",
   "est": []
  },
@@ -15199,6 +16419,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-88d-tour/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/3ax88d-t",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -15232,6 +16453,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-88s-game/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/3ax88s-g",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -15265,6 +16487,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-88s-pro/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/3ax88s-p",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4082",
   "note": "",
   "est": []
  },
@@ -15298,6 +16521,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-88s-tour/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/3ax88s-t",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -15331,6 +16555,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-99-game/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-99-game-3ax99-g",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -15364,6 +16589,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-99-play/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-99-play-3ax99-pl",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3229",
   "note": "",
   "est": []
  },
@@ -15397,6 +16623,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-yonex-astrox-99-pro/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-99-pro-3ax99-p",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4819",
   "note": "",
   "est": []
  },
@@ -15430,6 +16657,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-99-tour/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-99-tour-3ax99-t",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -15463,6 +16691,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-attack-9/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -15496,6 +16725,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-e13/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/axe13",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -15529,6 +16759,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-nextage/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/axnt",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4980",
   "note": "",
   "est": []
  },
@@ -15558,10 +16789,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/a/l/all_b4000g_011-1__1.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/b4000g",
   "specSrc": "",
+  "shopUrl": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -15595,6 +16827,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-b7000mdm/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/b7000mdm",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -15628,6 +16861,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-duora-z-strike/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/duo-zs",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -15660,6 +16894,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-gr-303i/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -15693,6 +16928,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-isometric-lite-3/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/isol3",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -15726,6 +16962,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-isometric-tr0/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/iso-tr0",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -15759,6 +16996,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-isometric-tr1/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/iso-tr1",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -15792,6 +17030,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-muscle-power-1/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/mp1",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -15827,6 +17066,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-muscle-power-2/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/mp2",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -15858,10 +17098,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/a/l/all_mp2jr_501-1.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/muscle-power-2-junior-mp2jr",
   "specSrc": "",
+  "shopUrl": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
    "balance",
@@ -15894,10 +17135,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "2U (93g) G5",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/m/p/mp5ltg_2023_a.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/mp5lt",
   "specSrc": "",
+  "shopUrl": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
    "balance",
@@ -15934,6 +17176,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-muscle-power-8-lt/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/mp8lt",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "balance"
@@ -15955,7 +17198,7 @@ window.RACKETS = [
    20,
    27
   ],
-  "price": "",
+  "price": 1100,
   "frame": "Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -15965,10 +17208,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/i/n/int_nf-001a_187-1_02.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nanoflare-001-ability",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4692",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -15988,7 +17232,7 @@ window.RACKETS = [
    20,
    27
   ],
-  "price": "",
+  "price": 1100,
   "frame": "Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -15998,10 +17242,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/i/n/int_nf-001c_063-1_02.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nanoflare-001-clear",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4691",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -16035,6 +17280,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-nanoflare-001-feel/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nanoflare-001-feel",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4396",
   "note": "",
   "est": []
  },
@@ -16054,7 +17300,7 @@ window.RACKETS = [
    20,
    30
   ],
-  "price": "",
+  "price": 1690,
   "frame": "HT Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -16064,10 +17310,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "China",
   "recString": "Control Players: NANOGY95 / Hard Hitters: NANOGY98",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/i/n/int_nf-002a_181-1_1.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-002a",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4948",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -16087,7 +17334,7 @@ window.RACKETS = [
    20,
    30
   ],
-  "price": "",
+  "price": 1690,
   "frame": "HT Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -16097,10 +17344,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "China",
   "recString": "Control Players: NANOGY95 / Hard Hitters: NANOGY98",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/i/n/int_nf-002c_188-1.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-002c",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4950",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -16120,7 +17368,7 @@ window.RACKETS = [
    20,
    30
   ],
-  "price": "",
+  "price": 1690,
   "frame": "HT Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -16130,10 +17378,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "China",
   "recString": "Control Players: NANOGY95 / Hard Hitters: NANOGY98",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/i/n/int_nf-002f_503-1_1.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-002f",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4949",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -16167,6 +17416,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-nanoflare-1000-game/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-1000g",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -16200,6 +17450,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-nanoflare-1000-play/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-1000p",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3839",
   "note": "",
   "est": []
  },
@@ -16233,6 +17484,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-nanoflare-1000-tour/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-1000t",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3783",
   "note": "",
   "est": []
  },
@@ -16266,6 +17518,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-yonex-nanoflare-1000z/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-1000z",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -16299,6 +17552,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-yonex-nanoflare-555/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nanoflare-555",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": [
    "style"
@@ -16330,10 +17584,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "Japan",
   "recString": "",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/n/f/nf-70.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-70",
   "specSrc": "",
+  "shopUrl": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -16367,6 +17622,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-nanoflare-700-game/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/2nf-700g",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4977",
   "note": "",
   "est": []
  },
@@ -16400,6 +17656,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-nanoflare-700-play/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/2nf700pl",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4976",
   "note": "",
   "est": []
  },
@@ -16433,6 +17690,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-yonex-nanoflare-700-pro/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nanoflare-700-pro",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -16466,6 +17724,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-nanoflare-700-tour/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/2nf-700t",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5054",
   "note": "",
   "est": []
  },
@@ -16499,6 +17758,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-nanoflare-800-game/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-800g",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -16532,6 +17792,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-nanoflare-800-play/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf800-play",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -16565,6 +17826,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-yonex-nanoflare-800-pro/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-800pr",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3977",
   "note": "",
   "est": []
  },
@@ -16598,6 +17860,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-nanoflare-800-tour/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-800t",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -16631,6 +17894,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-nanoflare-e13/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-e13",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  },
@@ -16660,10 +17924,11 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "",
+  "img": "https://www.yonex.com/media/catalog/product/n/f/nf-jr_cyan.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-jr",
   "specSrc": "",
+  "shopUrl": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": []
  },
@@ -16697,6 +17962,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-nanoflare-nextage/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-nt",
   "specSrc": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4979",
   "note": "",
   "est": []
  },
@@ -16730,6 +17996,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-nanoflare-speed-7/",
   "officialUrl": "",
   "specSrc": "",
+  "shopUrl": "",
   "note": "",
   "est": []
  }

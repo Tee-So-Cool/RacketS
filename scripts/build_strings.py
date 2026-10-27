@@ -60,6 +60,7 @@ for y in yx:
     s = strings.get(k) or {'id': slug('yonex ' + nm), 'brand': 'Yonex', 'note': '', 'img': '', 'source': ''}
     s.update({'name': nm, 'gauge': g, 'gaugeText': gt, 'officialUrl': y['url'], 'madeIn': y.get('Made In', '')})
     if y.get('Color(s)'): s['colors'] = y['Color(s)']
+    if not s.get('img'): s['img'] = y.get('img', '')
     mat = material(' '.join((y.get('Core', ''), y.get('Coating', ''))))
     if not s.get('material') or mat in ('hybrid', 'braided'): s['material'] = mat or s.get('material', '')
     strings[k] = s

@@ -133,15 +133,17 @@ for y in yx:
         r = rackets[k]
         for f, v in off.items():
             if v not in ('', None): r[f] = v
+        if not r.get('img'): r['img'] = y.get('img', '')
         updated += 1
     else:
         r = {'id': slug('yonex ' + nm), 'brand': 'Yonex', 'name': nm, 'year': '',
              'style': {'ASTROX': 'attack', 'NANOFLARE': 'speed', 'ARCSABER': 'control', 'DUORA': 'attack'}.get(series, ''),
              'balance': {'ASTROX': 'head-heavy', 'NANOFLARE': 'head-light', 'ARCSABER': 'even', 'DUORA': 'head-heavy'}.get(series, ''),
-             'level': ylevel(y['name']), 'price': '', 'pattern': '', 'tech': '', 'players': '', 'img': '', 'source': '',
+             'level': ylevel(y['name']), 'price': '', 'pattern': '', 'tech': '', 'players': '', 'img': y.get('img', ''), 'source': '',
              'note': 'ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)', **off}
         rackets[k] = r
         added.append(nm)
+
 
 
 # ---- manual spec lookups (data/spec-overrides.json): "Brand Model" -> fields + src ----
@@ -165,6 +167,41 @@ for full_name, o in overrides.items():
             r[f] = v
     r['specSrc'] = o.get('src', '')
 if unmatched: print('override names not found:', unmatched)
+
+# ---- Badminton Plaza (Thai shop): fills empty image, THB price and specs; adds models we lack ----
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from plaza_match import match as pmatch, clean as pclean, skip as pskip, NEW_NAMES
+PLAZA = os.path.join(SRC, 'plaza.json')
+plaza = json.load(open(PLAZA, encoding='utf-8')) if os.path.exists(PLAZA) else []
+plaza_hits = plaza_new = 0
+for pz in plaza:
+    pool = {r['name']: r for r in rackets.values() if r['brand'] == pz['brand']}
+    m, _ = pmatch(pz['name'], pool)
+    if m:
+        r = pool[m]; plaza_hits += 1
+    elif not pskip(pz['name']) and pclean(pz['name']) in NEW_NAMES:
+        nm = NEW_NAMES[pclean(pz['name'])]
+        k = key(pz['brand'] + ' ' + nm)
+        r = rackets.get(k)
+        if r is None:
+            r = rackets[k] = {'id': slug(pz['brand'] + ' ' + nm), 'brand': pz['brand'], 'name': nm, 'year': '', 'style': '', 'balance': '',
+                              'flex': '', 'level': '', 'weights': '', 'weight': '', 'grips': '', 'tension': None, 'price': '', 'frame': '',
+                              'shaft': '', 'joint': '', 'length': '', 'pattern': '', 'tech': '', 'players': '', 'madeIn': '', 'img': '',
+                              'source': '', 'note': ''}
+            plaza_new += 1
+    else:
+        continue
+    bal_raw = (pz.get('balance') or '').replace('Headvy', 'Heavy').replace('headvy', 'heavy')
+    ws, g = weights(pz.get('weight', ''))
+    fill = {'img': pz.get('img', ''), 'price': int(pz['price']) if pz.get('price') else '', 'balance': balance(bal_raw, ''),
+            'flex': flex(pz.get('flex', '')), 'weights': ws, 'weight': g, 'grips': grips(pz.get('weight', '') + ' ' + pz.get('grip', '')),
+            'tension': tension(pz.get('tension', '')), 'frame': pz.get('frame') or pz.get('material', ''), 'shaft': pz.get('shaft', ''),
+            'length': pz.get('length', '')}
+    for f, v in fill.items():
+        if v not in ('', None) and r.get(f) in ('', None): r[f] = v
+    if not r.get('shopUrl'): r['shopUrl'] = 'https://www.badmintonplaza.com/product_info.php?products_id=' + str(pz['id'])
+print('plaza matched', plaza_hits, 'added', plaza_new)
 
 # ---- series-based estimates for missing style/balance (flagged in r['est']) ----
 SERIES = [
@@ -195,7 +232,7 @@ for r in rackets.values():
         if st: r['style'] = st; est.append('style')
     r['est'] = est
 order = ['id', 'brand', 'name', 'year', 'style', 'balance', 'flex', 'level', 'weights', 'weight', 'grips', 'tension', 'price',
-         'frame', 'shaft', 'joint', 'length', 'pattern', 'tech', 'players', 'madeIn', 'recString', 'img', 'source', 'officialUrl', 'specSrc', 'note', 'est']
+         'frame', 'shaft', 'joint', 'length', 'pattern', 'tech', 'players', 'madeIn', 'recString', 'img', 'source', 'officialUrl', 'specSrc', 'shopUrl', 'note', 'est']
 final, seen = [], set()
 for r in sorted(rackets.values(), key=lambda r: (r['brand'], r['name'])):
     while r['id'] in seen: r['id'] += '-2'

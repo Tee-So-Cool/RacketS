@@ -616,5 +616,15 @@
   "durability": 6,
   "sound": 8,
   "shock": 6
+ },
+ {
+  "id": "",
+  "brand": "Mizuno",
+  "name": "M-Smooth 68S",
+  "repulsion": 7,
+  "control": 8,
+  "durability": 8,
+  "sound": 7,
+  "shock": 6
  }
 ]

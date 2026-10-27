@@ -2,6 +2,7 @@
  {
   "url": "https://www.yonex.com/badminton/strings/bg65",
   "name": "BG65",
+  "img": "https://www.yonex.com/media/catalog/product/b/g/bg65yx_004-1.png",
   "Color(s)": "Yellow, Orange, Black, White, Amber, Lavender, Violet, Royal Blue, Turquoise",
   "Gauge": "0.70 mm",
   "Length": "10 m (33 ft) / 200 m (656 ft) / 500 m (1,640 ft)",
@@ -12,6 +13,7 @@
  {
   "url": "https://www.yonex.com/badminton/strings/bg65ti",
   "name": "BG65 TITANIUM",
+  "img": "https://www.yonex.com/media/catalog/product/b/g/bg65ti_ex_pac_221006.png",
   "Color(s)": "Red, Blue, Black, White, Pink",
   "Gauge": "0.70 mm",
   "Length": "10 m (33 ft) / 200 m (656 ft)",
@@ -23,6 +25,7 @@
  {
   "url": "https://www.yonex.com/badminton/strings/bg66f",
   "name": "BG66 FORCE",
+  "img": "https://www.yonex.com/media/catalog/product/b/g/bg66f_ex_pac.png",
   "Color(s)": "White",
   "Gauge": "0.65 mm",
   "Length": "10 m (33 ft) / 200 m (656 ft)",
@@ -34,6 +37,7 @@
  {
   "url": "https://www.yonex.com/badminton/strings/bg66um",
   "name": "BG66 ULTIMAX",
+  "img": "https://www.yonex.com/media/catalog/product/b/g/bg66um_001-1.png",
   "Color(s)": "Red, Yellow, Orange, Black, Metallic White, Neon Pink, Pearl Navy, Pastel Green, Blue",
   "Gauge": "0.65 mm",
   "Length": "10 m (33 ft) / 200 m (656 ft)",
@@ -44,6 +48,7 @@
  {
   "url": "https://www.yonex.com/badminton/strings/bg80",
   "name": "BG80",
+  "img": "https://www.yonex.com/media/catalog/product/b/g/bg80yx_004-1.png",
   "Color(s)": "Yellow, Black, White, Sky Blue, Violet, Royal Blue, Neon Pink",
   "Gauge": "0.68 mm",
   "Length": "10 m (33 ft) / 200 m (656 ft)",
@@ -54,6 +59,7 @@
  {
   "url": "https://www.yonex.com/badminton/strings/bg80p",
   "name": "BG80 POWER",
+  "img": "https://www.yonex.com/media/catalog/product/b/g/bg80p_ex_pac_221006.png",
   "Color(s)": "White",
   "Gauge": "0.68 mm",
   "Length": "10 m (33 ft) / 200 m (656 ft)",
@@ -64,6 +70,7 @@
  {
   "url": "https://www.yonex.com/badminton/strings/bgab",
   "name": "AEROBITE",
+  "img": "https://www.yonex.com/media/catalog/product/b/g/bgab_114_ex_pac_1_1.png",
   "Color(s)": "White / Red, White / Green, White / Blue",
   "Gauge": "mains - 0.67 mm; crosses - 0.61 mm",
   "Length": "10.5m / mains-5.5m(18ft); crosses-5m(16ft); 200m / mains-105m(344ft); crosses-95m(311ft)",
@@ -75,6 +82,7 @@
  {
   "url": "https://www.yonex.com/badminton/strings/bgabbt",
   "name": "AEROBITE BOOST",
+  "img": "https://www.yonex.com/media/catalog/product/b/g/bgabbt_661_ex_pac_1.png",
   "Color(s)": "Gray / Yellow, Gray /Red",
   "Gauge": "mains - 0.72 mm; crosses - 0.61 mm",
   "Length": "mains - 5.5 m (18 ft) / crosses - 5 m (16 ft)",
@@ -86,6 +94,7 @@
  {
   "url": "https://www.yonex.com/badminton/strings/bgas",
   "name": "AEROSONIC",
+  "img": "https://www.yonex.com/media/catalog/product/b/g/bgas_011_ex_pac.png",
   "Color(s)": "White",
   "Gauge": "0.61 mm",
   "Length": "10 m (33 ft) / 200 m (656 ft)",
@@ -96,6 +105,7 @@
  {
   "url": "https://www.yonex.com/badminton/strings/bgsky",
   "name": "SKYARC",
+  "img": "https://www.yonex.com/media/catalog/product/b/g/bgsky_skyark.png",
   "Color(s)": "White",
   "Gauge": "0.69 mm",
   "Length": "10 m (33 ft)",
@@ -106,6 +116,7 @@
  {
   "url": "https://www.yonex.com/badminton/strings/bgxb63",
   "name": "EXBOLT 63",
+  "img": "https://www.yonex.com/media/catalog/product/b/g/bgxb63_ex_pac_022.png",
   "Color(s)": "Lavender, Ruby Red, Mint, Light Pink, Yellow, Black, White",
   "Gauge": "0.63 mm",
   "Length": "10 m (33 ft) / 200 m (656 ft)",
@@ -115,6 +126,7 @@
  {
   "url": "https://www.yonex.com/badminton/strings/bgxb65",
   "name": "EXBOLT 65",
+  "img": "https://www.yonex.com/media/catalog/product/b/g/bgxb65_ex_pac_003.png",
   "Color(s)": "Green, Red, Blue, Purple, White, Black, Yellow",
   "Gauge": "0.65 mm",
   "Length": "10 m (33 ft) / 200 m (656 ft)",
@@ -126,6 +138,7 @@
  {
   "url": "https://www.yonex.com/badminton/strings/bgxb68",
   "name": "EXBOLT 68",
+  "img": "https://www.yonex.com/media/catalog/product/b/g/bgxb68_ex_pac_686.png",
   "Color(s)": "Flash Orange, Lime Green, Turquoise, Flash Red, Yellow, Black, White",
   "Gauge": "0.68 mm",
   "Length": "10 m (33 ft) / 200 m (656 ft)",

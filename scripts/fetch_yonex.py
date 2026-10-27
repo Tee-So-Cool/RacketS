@@ -1,12 +1,17 @@
 import re, html, json, sys, time, urllib.request
-src = sys.argv[1]
-urls = [u.strip() for u in open(f'{src}/yx_urls.txt') if u.strip()]
+# Fetch Yonex official racquet specs into scripts/sources/yonex-official.json
+import os
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_get = lambda u: urllib.request.urlopen(urllib.request.Request(u, headers={'User-Agent': 'Mozilla/5.0 (Macintosh)'}), timeout=30).read().decode('utf-8', 'ignore')
+_list = _get('https://www.yonex.com/badminton/racquets') + _get('https://www.yonex.com/badminton/racquets?p=2')
+urls = sorted(set(re.findall(r'https://www\.yonex\.com/badminton/racquets/[a-z0-9-]+', _list)))
 KEYS = ['Flex','Frame','Shaft','Joint','Length','Weight / Grip','Stringing Advice','Recommended String','Color(s)','Item Code','Made In','Balance']
 out = []
 for u in urls:
     try:
         req = urllib.request.Request(u, headers={'User-Agent': 'Mozilla/5.0 (Macintosh)'})
         t = urllib.request.urlopen(req, timeout=30).read().decode('utf-8', 'ignore')
+        im = re.search(r'https://[^"\' ]*media/catalog/product[^"\' ]*\.(?:jpg|png|webp)', t)
     except Exception as e:
         print('ERR', u, e); continue
     t = re.sub(r'<script.*?</script>|<style.*?</style>', '', t, flags=re.S)
@@ -22,8 +27,8 @@ for u in urls:
         if l.startswith('MAIN START') or l == 'Description': break
         if k: spec[k].append(l)
     spec = {k: ' '.join(v) for k, v in spec.items()}
-    out.append({'url': u, 'name': name, **spec})
+    out.append({'url': u, 'name': name, 'img': im.group(0) if im else '', **spec})
     print(name, '|', spec.get('Flex'), '|', spec.get('Stringing Advice'))
     time.sleep(0.4)
-json.dump(out, open(f'{src}/yonex.json', 'w'), ensure_ascii=False, indent=1)
+json.dump(out, open(os.path.join(ROOT, 'scripts', 'sources', 'yonex-official.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print(len(out))

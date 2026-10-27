@@ -9,7 +9,9 @@ urls = sorted(set(re.findall(r'https://www\.yonex\.com/badminton/strings/[a-z0-9
 KEYS = ['Color(s)', 'Gauge', 'Length', 'Core', 'Coating', 'Made In', 'Item Code']
 out = []
 for u in urls:
-    t = re.sub(r'<script.*?</script>|<style.*?</style>', '', get(u), flags=re.S)
+    raw = get(u)
+    im = re.search(r'https://[^"\' ]*media/catalog/product[^"\' ]*\.(?:jpg|png|webp)', raw)
+    t = re.sub(r'<script.*?</script>|<style.*?</style>', '', raw, flags=re.S)
     L = [l.strip() for l in html.unescape(re.sub(r'<[^>]+>', '\n', t)).split('\n') if l.strip()]
     if 'Specs' not in L: continue
     i = L.index('Specs')
@@ -21,7 +23,7 @@ for u in urls:
     spec = {k: ' '.join(v) for k, v in spec.items()}
     m = re.search(r'Skip to the beginning of the images gallery\s*\n?', '\n'.join(L))
     name = L[L.index('Skip to the beginning of the images gallery') + 1] if 'Skip to the beginning of the images gallery' in L else spec.get('Item Code', u)
-    out.append({'url': u, 'name': name, **spec})
+    out.append({'url': u, 'name': name, 'img': im.group(0) if im else '', **spec})
     print(name, '|', spec.get('Gauge'))
     time.sleep(0.4)
 json.dump(out, open(os.path.join(ROOT, 'scripts', 'sources', 'yonex-strings.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)

@@ -115,7 +115,8 @@
   "level": "intermediate",
   "weights": "4U, 5U",
   "tmax": 30,
-  "src": "https://thegodofsports.com/products/li-ning-halbertec-mage-badminton-racket-4u"
+  "src": "https://thegodofsports.com/products/li-ning-halbertec-mage-badminton-racket-4u",
+  "img": "https://thegodofsports.com/cdn/shop/files/Li-NingHalbertecMageBadmintonRacket-1.jpg?v=1791965292&width=1000"
  },
  "Li-Ning Axforce Tiger": {
   "new": true,
@@ -145,7 +146,8 @@
   "flex": "flexible",
   "level": "pro",
   "weights": "4U, 5U",
-  "src": "https://shop.kibisports.com/products/badminton-racket-tectonic-3r-4u"
+  "src": "https://shop.kibisports.com/products/badminton-racket-tectonic-3r-4u",
+  "img": "https://shop.kibisports.com/cdn/shop/products/AYPS197-4-02.webp?v=1704316004&width=1500"
  },
  "Li-Ning Tectonic 7": {
   "new": true,
@@ -154,7 +156,8 @@
   "flex": "flexible",
   "weight": 82,
   "tmax": 32,
-  "src": "https://centralsports.co.uk/products/li-ning-tectonic-7-white-gold"
+  "src": "https://centralsports.co.uk/products/li-ning-tectonic-7-white-gold",
+  "img": "https://thegodofsports.com/cdn/shop/files/Tectonic-7-white-gold-1.png?v=1783375168&width=1000"
  },
  "Apacs Assailant Pro": {
   "balance": "head-heavy",
@@ -659,7 +662,8 @@
   "weights": "5U",
   "weight": 77,
   "tmax": 30,
-  "src": "https://www.badmintonwarehouse.com/products/victor-thruster-ryuga-muse-ii-tj-badminton-racket"
+  "src": "https://www.badmintonwarehouse.com/products/victor-thruster-ryuga-muse-ii-tj-badminton-racket",
+  "img": "https://www.badmintonwarehouse.com/cdn/shop/files/victor-ryuga-muse-ii-tj-02-clean_700x700.jpg?v=1790875934"
  },
  "Victor Thruster K Alpha": {
   "new": true,
@@ -778,6 +782,7 @@
   "weights": "4U, 5U",
   "weight": 82,
   "tmax": 32,
-  "src": "https://www.badmintonwarehouse.com/products/victor-thruster-ryuga-iii-cq-badminton-racket"
+  "src": "https://www.badmintonwarehouse.com/products/victor-thruster-ryuga-iii-cq-badminton-racket",
+  "img": "https://www.badmintonwarehouse.com/cdn/shop/files/victor-ryuga-iii-cq-racket-full_700x700.webp?v=1791997642"
  }
 }
