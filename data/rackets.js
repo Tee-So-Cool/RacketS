@@ -162,11 +162,11 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 6180,
+  "frame": "30T Japan HM Graphite + Speed Power Combined Frame",
+  "shaft": "40T Japan High Modulus Graphite + Extra Slim Shaft",
   "joint": "",
-  "length": "",
+  "length": "675mm +/- 3",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -177,12 +177,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-assailant-pro-white-4u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-assailant-pro-white-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$182.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-assailant-pro-white-4u-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -237,11 +238,11 @@ window.RACKETS = [
    null,
    35
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 2500,
+  "frame": "24-Tonne Japan HM Graphite + Aero-Box + Compact Frame",
+  "shaft": "24-Tonne Japan HM Graphite + Super Slim Shaft 6.4mm",
   "joint": "",
-  "length": "",
+  "length": "675mm +/- 3mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -252,12 +253,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-astral-9000-navy-grey-4u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-astral-9000-navy-grey-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$73.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-astral-9000-navy-grey-4u-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -333,22 +335,22 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Blizzard Pro ZZ",
   "year": 2022,
-  "style": "",
-  "balance": "",
+  "style": "attack",
+  "balance": "head-heavy",
   "flex": "stiff",
   "level": "advanced",
   "weights": "4U",
-  "weight": "",
+  "weight": 85,
   "grips": "",
   "tension": [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 6180,
+  "frame": "30T Japan HM Graphite + Quad Balance + Hexagon Throat",
+  "shaft": "40T Japan HM Graphite + Super Slim Shaft 6.2mm",
   "joint": "",
-  "length": "",
+  "length": "672mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -359,11 +361,14 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-blizzard-pro-zz-black-4u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-blizzard-pro-zz-black-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$182.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-blizzard-pro-zz-black-4u-badminton-racket.html",
   "note": "",
-  "est": []
+  "est": [
+   "style",
+   "price"
+  ]
  },
  {
   "id": "apacs-braid-woven",
@@ -522,11 +527,11 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 2530,
+  "frame": "DuraPlus Carbon + Slim Aero Frame",
+  "shaft": "DuraPlus Carbon + Super Slim Shaft 6.4mm",
   "joint": "",
-  "length": "",
+  "length": "672mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -537,11 +542,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-cross-court-control-maroon-silver-4u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-control-maroon-silver-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$74.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-control-maroon-silver-4u-badminton-racket.html",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "apacs-cross-court-power",
@@ -559,11 +566,11 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 2530,
+  "frame": "DuraPlus Carbon + Slim Aero Frame",
+  "shaft": "DuraPlus Carbon + Super Slim Shaft 6.4mm",
   "joint": "",
-  "length": "",
+  "length": "672mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -574,11 +581,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-cross-court-power-black-maroon-4u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-power-black-maroon-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$74.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-power-black-maroon-4u-badminton-racket.html",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "apacs-cross-court-pro",
@@ -630,11 +639,11 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 6750,
+  "frame": "30T Japan HM Graphite + Slim Aero Frame",
+  "shaft": "50T Japan HM Graphite + CCT + T-Joint + Super Slim Shaft 6.2mm",
   "joint": "",
-  "length": "",
+  "length": "672mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -645,12 +654,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/pro-series-badminton-racket/apacs-cross-court-pro-6.2-black-4u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-pro-6.2-black-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$199.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-pro-6.2-black-4u-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -703,11 +713,11 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 2530,
+  "frame": "DuraPlus Carbon + Slim Aero Frame",
+  "shaft": "DuraPlus Carbon + Super Slim Shaft 6.4mm",
   "joint": "",
-  "length": "",
+  "length": "672mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -718,11 +728,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-speed-white-4u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-speed-white-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$74.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-speed-white-4u-badminton-racket.html",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "apacs-dominator-808",
@@ -740,11 +752,11 @@ window.RACKETS = [
    null,
    35
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 2500,
+  "frame": "DuraPlus Carbon + High Speed Frame",
+  "shaft": "DuraPlus Carbon + Super Slim Shaft 6.4mm + Hexagon Throat",
   "joint": "",
-  "length": "",
+  "length": "675mm +/- 3mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -755,12 +767,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-dominator-808-white-4u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-dominator-808-white-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$73.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-dominator-808-white-4u-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -779,11 +792,11 @@ window.RACKETS = [
    null,
    32
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 4390,
+  "frame": "30 Tonne Japan HM Graphite",
+  "shaft": "24 Tonne Japan HM Graphite + CCT + Extra Slim Shaft 6.7mm",
   "joint": "",
-  "length": "",
+  "length": "670mm +/- 2",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -794,11 +807,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-duplex-power-55-black-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-duplex-power-55-black-badminton-racket.html",
+  "priceNote": "แปลงจาก US$129.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-duplex-power-55-black-badminton-racket.html",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "apacs-energetic-horse",
@@ -816,11 +831,11 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 3340,
+  "frame": "DuraPrime Carbon + Armor Speed Frame",
+  "shaft": "DuraPrime Carbon + Hexagon Throat + Super Slim Shaft 6.4mm",
   "joint": "",
-  "length": "",
+  "length": "675mm +/- 3mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -831,12 +846,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-energetic-horse-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energetic-horse-badminton-racket.html",
+  "priceNote": "แปลงจาก US$98.80 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energetic-horse-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -855,11 +871,11 @@ window.RACKETS = [
    null,
    35
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 3710,
+  "frame": "30T Japan High Modulus Graphite + Grommetless System + Slim Box",
+  "shaft": "24T Japan High Modulus Graphite + Extra Slim Shaft",
   "joint": "",
-  "length": "",
+  "length": "675mm +/- 3mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -870,11 +886,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energy-groove-power-black-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energy-groove-power-black-badminton-racket.html",
+  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energy-groove-power-black-badminton-racket.html",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "apacs-energy-groove-speed",
@@ -892,11 +910,11 @@ window.RACKETS = [
    null,
    35
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 3710,
+  "frame": "30T Japan High Modulus Graphite + Grommetless System + Slim Box",
+  "shaft": "24T Japan High Modulus Graphite + Extra Slim Shaft",
   "joint": "",
-  "length": "",
+  "length": "675mm +/- 3mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -907,11 +925,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energy-groove-speed-white-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energy-groove-speed-white-badminton-racket-df.html",
+  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energy-groove-speed-white-badminton-racket-df.html",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "apacs-fantala-6-0-control",
@@ -1100,22 +1120,22 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Fantala Pro 101",
   "year": 2022,
-  "style": "",
-  "balance": "",
+  "style": "attack",
+  "balance": "head-heavy",
   "flex": "stiff",
   "level": "advanced",
   "weights": "4U, 3U",
-  "weight": "",
+  "weight": 84,
   "grips": "",
   "tension": [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 6720,
+  "frame": "40 Tonne  Japan HM Graphite, Compact Power Quad Voltaic",
+  "shaft": "50 Tonne Japan HM Graphite, Extra Slim Shaft",
   "joint": "",
-  "length": "",
+  "length": "673mm +/- 2",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -1126,11 +1146,14 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-fantala-pro-101-4u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-fantala-pro-101-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$199.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-fantala-pro-101-4u-badminton-racket.html",
   "note": "",
-  "est": []
+  "est": [
+   "style",
+   "price"
+  ]
  },
  {
   "id": "apacs-feather-weight-500",
@@ -1148,11 +1171,11 @@ window.RACKETS = [
    null,
    30
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 3710,
+  "frame": "30 Tonne Japan Graphite + AHSF + Hexagon Throat + IPN",
+  "shaft": "30 Tonne Graphite",
   "joint": "",
-  "length": "",
+  "length": "672 mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -1163,11 +1186,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-500-grey-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-500-grey-badminton-racket.html",
+  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-500-grey-badminton-racket.html",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "apacs-feather-weight-55",
@@ -1185,11 +1210,11 @@ window.RACKETS = [
    null,
    28
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 3710,
+  "frame": "30 Tonne Japan Graphite + AHSF + Hexagon Throat + IPN",
+  "shaft": "24 Tonne Graphite",
   "joint": "",
-  "length": "",
+  "length": "670mm +/- 2",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -1200,11 +1225,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-55-black-red-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-55-black-red-badminton-racket.html",
+  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-55-black-red-badminton-racket.html",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "apacs-feather-weight-x-ii",
@@ -1222,11 +1249,11 @@ window.RACKETS = [
    null,
    28
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 3710,
+  "frame": "30 Tonne Japan Graphite + AHSF + Hexagon Throat + IPN",
+  "shaft": "24 Tonne Graphite",
   "joint": "",
-  "length": "",
+  "length": "670mm +/- 2",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -1237,11 +1264,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-x-ii-red-gold-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-x-ii-red-gold-badminton-racket.html",
+  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-x-ii-red-gold-badminton-racket.html",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "apacs-finapi-232-reborn",
@@ -1296,11 +1325,11 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 2290,
+  "frame": "30T Japan High Modulus Graphite + High Speed Frame",
+  "shaft": "24T Japan High Modulus Graphite",
   "joint": "",
-  "length": "",
+  "length": "672mm +/- 2mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -1311,12 +1340,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-grand-tour-light-yellow-white-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-grand-tour-light-yellow-white-badminton-racket.html",
+  "priceNote": "แปลงจาก US$67.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-grand-tour-light-yellow-white-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -1335,11 +1365,11 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 2500,
+  "frame": "30T Japan HM Graphite + DuraMax Carbon + Wide Aero Frame",
+  "shaft": "30T Japan HM Graphite + Super Slim Shaft 6.4mm",
   "joint": "",
-  "length": "",
+  "length": "672mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -1350,11 +1380,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-hard-hitter-control-green-4u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hard-hitter-control-green-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$73.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hard-hitter-control-green-4u-badminton-racket.html",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "apacs-hard-hitter-power",
@@ -1372,11 +1404,11 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 2500,
+  "frame": "30T Japan HM Graphite + DuraMax Carbon + Wide Aero Frame",
+  "shaft": "30T Japan HM Graphite + Super Slim Shaft 6.4mm",
   "joint": "",
-  "length": "",
+  "length": "672mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -1387,11 +1419,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-hard-hitter-power-red-4u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hard-hitter-power-red-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$73.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hard-hitter-power-red-4u-badminton-racket.html",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "apacs-hard-hitter-pro",
@@ -1483,11 +1517,11 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 2500,
+  "frame": "30T Japan HM Graphite + DuraMax Carbon + Wide Aero Frame",
+  "shaft": "30T Japan HM Graphite + Super Slim Shaft 6.4mm",
   "joint": "",
-  "length": "",
+  "length": "672mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -1498,11 +1532,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-hard-hitter-speed-white-4u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hard-hitter-speed-white-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$73.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hard-hitter-speed-white-4u-badminton-racket.html",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "apacs-honor-pro",
@@ -1520,11 +1556,11 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 6720,
+  "frame": "40T Japan HM Graphite + T-Throat + Compact Power Quad Voltaic",
+  "shaft": "50T Japan HM Graphite + Super Slim Shaft 6.4mm",
   "joint": "",
-  "length": "",
+  "length": "675mm +/- 2",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -1535,12 +1571,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-honor-pro-dark-grey-neon-green-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-honor-pro-dark-grey-neon-green-3u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$199.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-honor-pro-dark-grey-neon-green-3u-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -1593,11 +1630,11 @@ window.RACKETS = [
    null,
    35
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 2390,
+  "frame": "30T Japan High Modulus Graphite + Aero Armor (Hi-Tension)",
+  "shaft": "24T Japan High Modulus Graphite + Extra Slim Shaft 6.8mm",
   "joint": "",
-  "length": "",
+  "length": "672mm +/- 2mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -1608,11 +1645,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-power-light-peach-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-power-cream-light-peach-badminton-racket.html",
+  "priceNote": "แปลงจาก US$70.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-power-cream-light-peach-badminton-racket.html",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "apacs-hyper-speed",
@@ -1630,11 +1669,11 @@ window.RACKETS = [
    null,
    35
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 2390,
+  "frame": "30T Japan High Modulus Graphite + Aero Armor (Hi-Tension)",
+  "shaft": "24T Japan High Modulus Graphite + Extra Slim Shaft 6.8mm",
   "joint": "",
-  "length": "",
+  "length": "672mm +/- 2mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -1645,11 +1684,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-speed-white-light-peach-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-speed-white-light-peach-badminton-racket.html",
+  "priceNote": "แปลงจาก US$70.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-speed-white-light-peach-badminton-racket.html",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "apacs-imperial-pro",
@@ -1667,11 +1708,11 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 6720,
+  "frame": "40T Japan HM Graphite + Balance Quad System",
+  "shaft": "50T Japan HM Graphite + Super Slim Shaft 6.2mm + Hexagon Throat",
   "joint": "",
-  "length": "",
+  "length": "675mm +/- 2",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -1682,12 +1723,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/pro-series-badminton-racket/apacs-imperial-pro-dark-grey-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-imperial-pro-dark-grey-badminton-racket.html",
+  "priceNote": "แปลงจาก US$199.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-imperial-pro-dark-grey-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -1740,11 +1782,11 @@ window.RACKETS = [
    null,
    35
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 2360,
+  "frame": "24-Tonne Japan HM Graphite + DuraTech Carbon New Power Speed Frame",
+  "shaft": "24-Tonne Japan HM Graphite + Super Slim Shaft 6.4mm",
   "joint": "",
-  "length": "",
+  "length": "675mm +/- 3mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -1755,12 +1797,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-legacy-909-metallic-light-blue-4u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-legacy-909-metallic-light-blue-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$69.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-legacy-909-metallic-light-blue-4u-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -1957,11 +2000,11 @@ window.RACKETS = [
    null,
    35
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 2360,
+  "frame": "Hi Modulus Graphite + High Speed Frame + CNT",
+  "shaft": "Hi Modulus Graphite + CNT",
   "joint": "",
-  "length": "",
+  "length": "675mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -1972,12 +2015,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-lethal-9-red-blue-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-lethal-9-red-blue-badminton-racket.html",
+  "priceNote": "แปลงจาก US$69.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-lethal-9-red-blue-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -1996,11 +2040,11 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 2230,
+  "frame": "Japan High Modulus Graphite + Aero Frame",
+  "shaft": "Japan High Modulus Graphite + Super Slim Shaft 6.4mm",
   "joint": "",
-  "length": "",
+  "length": "675mm +/- 3mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -2011,12 +2055,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-maelstrom-silver-5u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-maelstrom-silver-5u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$65.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-maelstrom-silver-5u-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -2035,11 +2080,11 @@ window.RACKETS = [
    null,
    35
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 2290,
+  "frame": "30T Japan High Modulus Graphite + Whip Slim Frame",
+  "shaft": "24T Japan High Modulus Graphite",
   "joint": "",
-  "length": "",
+  "length": "672mm +/- 2mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -2050,12 +2095,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-blade-110-grey-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-blade-110-grey-badminton-racket.html",
+  "priceNote": "แปลงจาก US$67.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-blade-110-grey-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -2076,7 +2122,7 @@ window.RACKETS = [
   ],
   "price": 1390,
   "frame": "Japan High Modulus Graphite",
-  "shaft": "",
+  "shaft": "DuraPro Carbon + CCT + Taper Shaft",
   "joint": "",
   "length": "672 mm",
   "pattern": "",
@@ -2089,7 +2135,7 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/Apacs-Nano-Fusion-722.html",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4982",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-fusion-speed-722-pro-durapro-cct-white-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -2296,11 +2342,11 @@ window.RACKETS = [
    null,
    35
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 2290,
+  "frame": "30T Japan High Modulus Graphite + Whip Slim Frame",
+  "shaft": "24T Japan High Modulus Graphite",
   "joint": "",
-  "length": "",
+  "length": "672mm +/- 2mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -2311,12 +2357,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-tubes-99-blue-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-tubes-99-blue-badminton-racket.html",
+  "priceNote": "แปลงจาก US$67.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-tubes-99-blue-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -2335,11 +2382,11 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 3710,
+  "frame": "30T Japan High Modulus Graphite +Armor Speed Frame",
+  "shaft": "24T Japan High Modulus Graphite + Hexagon throat",
   "joint": "",
-  "length": "",
+  "length": "675mm +/- 3mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -2350,12 +2397,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-precision-1-pt-0-black-matte-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-precision-1-pt-0-black-matte-badminton-racket.html",
+  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-precision-1-pt-0-black-matte-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -2773,12 +2821,15 @@ window.RACKETS = [
   "weights": "6U",
   "weight": 78,
   "grips": "",
-  "tension": null,
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2020,
+  "frame": "Armor",
+  "shaft": "Hi Modulus Graphite",
   "joint": "",
-  "length": "",
+  "length": "675mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -2789,11 +2840,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/Apacs-Stern-90-Offensive.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/Apacs-Stern-90-Offensive.html",
+  "priceNote": "แปลงจาก US$59.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/Apacs-Stern-90-Offensive.html",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "apacs-super-speed",
@@ -2811,11 +2864,11 @@ window.RACKETS = [
    null,
    32
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 4960,
+  "frame": "30T Japan HM Graphite + Aero Box Frame",
+  "shaft": "DuraPro Carbon + Power Booster + Super Slim Shaft 5.5mm",
   "joint": "",
-  "length": "",
+  "length": "672mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -2826,11 +2879,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/pro-series-badminton-racket/apacs-super-speed-black-4u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-super-speed-black-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$146.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-super-speed-black-4u-badminton-racket.html",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "apacs-tantrum-300-iii",
@@ -2882,11 +2937,11 @@ window.RACKETS = [
    null,
    35
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 2230,
+  "frame": "Japan High Modulus Graphite + Aero Frame",
+  "shaft": "Japan High Modulus Graphite + Super Slim Shaft 6.4mm",
   "joint": "",
-  "length": "",
+  "length": "675mm +/- 3mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -2897,12 +2952,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-tempesta-black-5u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-tempesta-black-5u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$65.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-tempesta-black-5u-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -2997,11 +3053,11 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 6750,
+  "frame": "30T Japan HM Graphite + Speed Power Combined Frame",
+  "shaft": "40T Japan HM Graphite + Super Slim Shaft + Hexagon Throat",
   "joint": "",
-  "length": "",
+  "length": "675mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -3012,12 +3068,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-thunderdome-pro-6-pt-4-dark-grey-4u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-thunderdome-pro-6-pt-4-dark-grey-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$199.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-thunderdome-pro-6-pt-4-dark-grey-4u-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -3109,11 +3166,11 @@ window.RACKETS = [
    null,
    35
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 2360,
+  "frame": "24-Tonne Japan HM Graphite + Aero Frame",
+  "shaft": "24-Tonne Japan HM Graphite + Super Slim Shaft 6.4mm",
   "joint": "",
-  "length": "",
+  "length": "675mm +/- 3mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -3124,12 +3181,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/apacs-valiant-8000-black-4u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-valiant-8000-black-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$69.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-valiant-8000-black-4u-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -3285,8 +3343,8 @@ window.RACKETS = [
    35
   ],
   "price": 2490,
-  "frame": "",
-  "shaft": "",
+  "frame": "30 Tonne Japan Graphite + High Speed + Inner Muscle",
+  "shaft": "24 Tonne Japan Graphite + Slim Shaft",
   "joint": "",
   "length": "675 mm",
   "pattern": "",
@@ -3299,7 +3357,7 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-woven-gold-black-gold-badminton-racket.html",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3940",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-woven-control-black-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -3357,11 +3415,11 @@ window.RACKETS = [
    null,
    35
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 3710,
+  "frame": "30 Tonne Japan Graphite + Woven 1K + Compact Aero Box",
+  "shaft": "24 Tonne Japan Graphite + Woven 1K + Hexagon Throat",
   "joint": "",
-  "length": "",
+  "length": "672mm +/- 2",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -3372,12 +3430,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-woven-ruby-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-woven-ruby-badminton-racket.html",
+  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-woven-ruby-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -3576,11 +3635,11 @@ window.RACKETS = [
    null,
    35
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 3040,
+  "frame": "30 Tonne Japan Graphite + Woven 1K + Compact Aero Box",
+  "shaft": "24 Tonne Japan Graphite + Extra slim shaft 6.6mm",
   "joint": "",
-  "length": "",
+  "length": "672mm +/- 2",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -3591,12 +3650,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-z-woven-maroon-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-z-woven-maroon-badminton-racket.html",
+  "priceNote": "แปลงจาก US$89.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-z-woven-maroon-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -3834,11 +3894,11 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 6180,
+  "frame": "30T Japan HM Graphite + T-Throat + Compact Quad Voltaic",
+  "shaft": "40T Japan HM Graphite + Ultra Slim Shaft 6.2mm",
   "joint": "",
-  "length": "",
+  "length": "673mm +/- 2",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -3849,12 +3909,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-ziggler-lhi-proiii-navy-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-ziggler-lhi-proiii-navy-badminton-racket.html",
+  "priceNote": "แปลงจาก US$182.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-ziggler-lhi-proiii-navy-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -3873,11 +3934,11 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": "",
-  "frame": "",
-  "shaft": "",
+  "price": 6350,
+  "frame": "DuraMax Carbon + Power Fused Grommet System+ Compact Power Quad Voltaic",
+  "shaft": "DuraPro Carbon + CCT + Ultra Slim Shaft 6.2mm",
   "joint": "",
-  "length": "",
+  "length": "672mm +/- 2",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -3888,12 +3949,13 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/pro-series-badminton-racket/apacs-ziggler-PRO-6.2-black-red-4u-badminton-racket.html",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-ziggler-PRO-6.2-black-red-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$187.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-ziggler-PRO-6.2-black-red-4u-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -7231,8 +7293,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "pro",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 85,
   "grips": "G6",
   "tension": [
    null,
@@ -7240,9 +7302,9 @@ window.RACKETS = [
   ],
   "price": 2184,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Full High Carbon Fiber + High Tensile Soft Slim Shaft",
   "joint": "",
-  "length": "",
+  "length": "675mm +/- 2",
   "pattern": "",
   "tech": "Turbo Charging",
   "players": "",
@@ -7253,7 +7315,7 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "",
   "shopUrl": "",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Li-Ning-Badminton-Racket/li-ning-tectonic-1s-blue-black-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -16742,7 +16804,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/arc11-pl",
   "specSrc": "",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4544",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-arcsaber-11-play-grayish-pearl-4ug5-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -16831,14 +16893,14 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 84,
   "grips": "",
   "tension": [
    20,
    30
   ],
-  "price": "",
+  "price": 2630,
   "frame": "HT Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -16853,11 +16915,13 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/arcsaber-2-ability",
   "specSrc": "",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-arcsaber-2-ability-black-pink-4ug5-badminton-racket.html",
+  "priceNote": "แปลงจาก US$77.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-arcsaber-2-ability-black-pink-4ug5-badminton-racket.html",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "yonex-arcsaber-2-clear",
@@ -16890,7 +16954,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/arcsaber-2-clear",
   "specSrc": "",
   "shopUrl": "",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-arcsaber-2-clear-black-blue-4ug5-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -16905,14 +16969,14 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 82,
   "grips": "",
   "tension": [
    20,
    30
   ],
-  "price": "",
+  "price": 2630,
   "frame": "HT Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -16927,11 +16991,13 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/arcsaber-2-feel",
   "specSrc": "",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-arcsaber-2-feel-black-green-4ug5-badminton-racket.html",
+  "priceNote": "แปลงจาก US$77.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-arcsaber-2-feel-black-green-4ug5-badminton-racket.html",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "yonex-arcsaber-7-play",
@@ -17001,7 +17067,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/arc7-p",
   "specSrc": "",
   "shopUrl": "",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-arcsaber-7-pro-grey-yellow-4ug5-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -17149,7 +17215,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-01-ability",
   "specSrc": "",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4425",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-01-ability-white-pink-4ug5-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
@@ -17467,7 +17533,7 @@ window.RACKETS = [
    20,
    29
   ],
-  "price": "",
+  "price": 6410,
   "frame": "HM Graphite, NANOMESH NEO, VOLUME CUT RESIN, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
   "joint": "Built-in T-Joint",
@@ -17482,11 +17548,13 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-100va-game-sports-gear-yonex",
   "specSrc": "",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-100va-game-grayish-beige-4ug5-badminton-racket.html",
+  "priceNote": "แปลงจาก US$189.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-100va-game-grayish-beige-4ug5-badminton-racket.html",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "yonex-astrox-100va-tour",
@@ -17541,7 +17609,7 @@ window.RACKETS = [
    20,
    29
   ],
-  "price": "",
+  "price": 11010,
   "frame": "HM Graphite, Namd, Tungsten, Black Micro Core, Nanometric",
   "shaft": "HM Graphite, Namd™",
   "joint": "Built-in T-Joint",
@@ -17556,12 +17624,13 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-100va-zz",
   "specSrc": "",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-100va-zz-pro-grayish-beige-4ug5-badminton-racket.html",
+  "priceNote": "แปลงจาก US$325.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-100va-zz-pro-grayish-beige-4ug5-badminton-racket.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -17654,7 +17723,7 @@ window.RACKETS = [
    20,
    35
   ],
-  "price": "",
+  "price": 5060,
   "frame": "HM Graphite, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
   "joint": "Built-in T-Joint",
@@ -17669,11 +17738,13 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/ax3dg-hf",
   "specSrc": "",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-3dg-hf-blue-white-4ug5-badminton-racket.html",
+  "priceNote": "แปลงจาก US$149.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-3dg-hf-blue-white-4ug5-badminton-racket.html",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "yonex-astrox-3-dg-st",
@@ -17728,7 +17799,7 @@ window.RACKETS = [
    20,
    35
   ],
-  "price": "",
+  "price": 5400,
   "frame": "HM Graphite, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
   "joint": "Built-in T-Joint",
@@ -17743,11 +17814,13 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-7-dg",
   "specSrc": "",
   "shopUrl": "",
-  "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-7dg-black-blue-4ug5-badminton-racket.html",
+  "priceNote": "แปลงจาก US$159.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-7dg-black-blue-4ug5-badminton-racket.html",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "yonex-astrox-70",
@@ -17817,7 +17890,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-77-play",
   "specSrc": "",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4075",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-77-play-high-orange-4ug5-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -17930,7 +18003,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/3ax88-pl",
   "specSrc": "",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4083",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-88-play-black-silver-4ug5-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
@@ -18115,7 +18188,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/3ax88s-p",
   "specSrc": "",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4082",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-88s-pro-silver-black-4ug5-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -18226,7 +18299,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-99-play-3ax99-pl",
   "specSrc": "",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3229",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-99-play-black-green-4ug5-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -18263,7 +18336,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-99-pro-3ax99-p",
   "specSrc": "",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4819",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-99-pro-black-green-4ug5-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -18411,7 +18484,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/axnt",
   "specSrc": "",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4980",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-nextage-black-green-4ug5-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -18903,7 +18976,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/nanoflare-001-ability",
   "specSrc": "",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4692",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-nanoflare-001-ability-black-red-5ug5-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
@@ -19125,7 +19198,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-1000g",
   "specSrc": "",
   "shopUrl": "",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-nanoflare-1000-game-lightning-yellow-4u-g5-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -19162,7 +19235,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-1000p",
   "specSrc": "",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3839",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-nanoflare-1000-play-lightning-yellow-4u-g5-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -19236,7 +19309,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-1000z",
   "specSrc": "",
   "shopUrl": "",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-nanoflare-1000-z-lightning-yellow-4u-g5-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -19349,7 +19422,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/2nf-700g",
   "specSrc": "",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4977",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/Yonex-nanoflare-700-game-midnight-purple-4ug5-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -19364,8 +19437,8 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 84,
   "grips": "",
   "tension": [
    20,
@@ -19386,7 +19459,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/2nf700pl",
   "specSrc": "",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4976",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/Yonex-nanoflare-700-play-midnight-purple-4ug5-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -19497,7 +19570,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-800g",
   "specSrc": "",
   "shopUrl": "",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/Yonex-nanoflare-800-game-deep-green-4ug5.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -19534,7 +19607,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf800-play",
   "specSrc": "",
   "shopUrl": "",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/Yonex-nanoflare-800-play-deep-green-4ug5.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -19571,7 +19644,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-800pr",
   "specSrc": "",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3977",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/Yonex-nanoflare-800-pro-deep-green-4ug5.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -19719,7 +19792,7 @@ window.RACKETS = [
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-nt",
   "specSrc": "",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4979",
-  "bayUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-nanoflare-nextage-dark-grey-4ug5-badminton-racket.html",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
