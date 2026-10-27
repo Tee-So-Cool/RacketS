@@ -1,0 +1,39 @@
+- Axforce Tiger (2026) missing: weight, tension
+- Halbertec Mage (2026) missing: weight
+- Tectonic 3R (2026) missing: weight, tension
+- Axforce 100 II (2025) missing: tension
+- Axforce 90 Dragon Max (2023) missing: weight
+- Axforce 90 Tiger Max (2023) missing: weight
+- BladeX 900 Moon Max (2023) missing: tension
+- BladeX 900 Sun Max (2023) missing: tension
+- 3D Calibar 300 missing: weight
+- 3D Calibar 600B missing: weight, tension
+- 3D Calibar 900 missing: weight
+- 3D Calibar X Boost missing: balance, weight, tension
+- Aeronaut 6000 missing: weight, tension
+- Aeronaut 6000C missing: weight, tension
+- Aeronaut 7000 Boost missing: weight, tension
+- Aeronaut 9000 Combat missing: weight
+- Axforce 20 missing: weight
+- Axforce 50 missing: weight
+- Axforce 80 JR missing: weight
+- Axforce 80 Light missing: weight, tension
+- Axforce 9 missing: weight, tension
+- Axforce 90 Max Dragon missing: weight
+- Axforce Big Bang missing: tension
+- BladeX 100 missing: tension
+- BladeX 200 missing: weight
+- BladeX 500 missing: weight
+- BladeX 700 missing: weight
+- BladeX 73 Light missing: weight, tension
+- BladeX 880 Shida missing: weight, tension
+- G-Force 3800 Superlite missing: weight, tension
+- G-Force 3900 Superlite missing: weight, tension
+- Tectonic 1S missing: weight
+- Tectonic 9 missing: weight, tension
+- Windstorm 700 missing: weight, tension
+- Windstorm 72 missing: weight
+- Windstorm 72 Power missing: weight
+- Windstorm 72 Speed missing: weight
+- Windstorm 79-H missing: weight
+- Windstorm 79-S missing: weight

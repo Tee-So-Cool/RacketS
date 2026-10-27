@@ -1,6 +1,7 @@
 /* Hallmark · shape: app screen · genre: modern-minimal · theme: Dusk (by request) · redesign: restyle
  * nav: kept (top bar, four hash routes) · signature: the compare sheet in smoked glass, each model a series drawn in its own line · states: empty, full (data is local, no loading or error paths) · dusk: fog/periwinkle-apricot/glass
  * axes: dark/grotesk-sans/cool · posture: committed · contrast: pass · v2.0.0 */
+/* Hallmark · pushed by request: darker paper, red/blue/amber series and style chips beyond the two Dusk signals, raised catalogue cards, axis top-10 panel */
 /* Hallmark · pre-emit critique: P4 H4 E4 S4 R5 V4 · weakest: P, a spec tool argues little; the sheet sits in glass on slate so it reads as the product, and racket photos sit in bone wells instead of fighting the dark */
 /* Hallmark · answered: 29 glass is the Dusk material (smoked glass with its lit edge, never glass on glass) · no hero photograph, app scope has no hero · F7 inputs share one recipe because they are one role · Thai: IBM Plex Sans Thai follows Wix Madefor in both stacks (Wix has no Thai) */
 @import url("./tokens.css");
@@ -243,3 +244,88 @@ table.spec a:hover { text-decoration-color: var(--color-accent-hi); }
   .item .thumb { height: 96px; }
   .item .tick { top: var(--space-sm); right: var(--space-sm); }
 }
+
+/* =====================================================================
+   Pushed Dusk: darker base, hotter series, raised cards, axis rankings
+   ===================================================================== */
+:root {
+  --color-paper: oklch(14% 0.016 268); --color-paper-2: oklch(19.5% 0.018 268); --color-paper-3: oklch(25% 0.02 268);
+  --display-weight: 600;
+  --s1: oklch(66% 0.21 25);
+  --s2: oklch(70% 0.16 252);
+  --s3: oklch(82% 0.14 85);
+  --style-attack: oklch(70% 0.19 25); --style-speed: oklch(74% 0.14 252); --style-control: oklch(78% 0.14 160); --style-allround: oklch(84% 0.13 85);
+  --medal-1: oklch(84% 0.15 88); --medal-2: oklch(82% 0.02 262); --medal-3: oklch(72% 0.09 55);
+  --radar-well: color-mix(in oklab, var(--color-light) 3%, transparent);
+  --glow: 0 0 0 4px color-mix(in oklab, var(--color-accent) 22%, transparent), 0 12px 32px -12px color-mix(in oklab, var(--color-accent) 45%, transparent);
+}
+h1 { font-size: clamp(2rem, 1.4rem + 2vw, 2.75rem); }
+h1, h2, .head .nm, .verdict, .tension, .logo { font-weight: var(--display-weight); }
+
+/* catalogue: raised cards instead of a ruled sheet */
+.grid { gap: var(--space-sm); border-top: 0; margin-top: var(--space-xs); }
+.item {
+  border: var(--rule-hair) solid var(--line-soft); border-radius: var(--radius-card); background: var(--color-paper-2);
+  transition: background-color var(--dur-micro) var(--ease-out), border-color var(--dur-micro) var(--ease-out), transform var(--dur-short) var(--ease-out), box-shadow var(--dur-short) var(--ease-out);
+}
+.item:hover { background: var(--color-paper-3); border-color: color-mix(in oklab, var(--color-accent) 40%, transparent); transform: translateY(-2px); }
+.item:active { transform: translateY(0); }
+.item.sel { background: var(--color-paper-3); border-color: var(--color-accent); box-shadow: var(--glow); }
+.item .nm { font-size: var(--text-md); }
+.item .price .fig { color: var(--color-ink); font-size: var(--text-xl); }
+.alts .item, .alts .item:hover { transform: none; border-radius: 0; border-width: 0 0 var(--rule-hair); background: transparent; }
+.alts .item:hover { background: var(--color-paper-2); }
+
+/* play style as a tinted chip */
+.tag { display: inline-flex; align-self: flex-start; align-items: center; min-height: 0; padding: var(--space-3xs) var(--space-xs); border-radius: var(--radius-pill); background: var(--fill-soft); }
+.tag.attack { color: var(--style-attack); background: color-mix(in oklab, var(--style-attack) 16%, transparent); }
+.tag.speed { color: var(--style-speed); background: color-mix(in oklab, var(--style-speed) 16%, transparent); }
+.tag.control { color: var(--style-control); background: color-mix(in oklab, var(--style-control) 16%, transparent); }
+.tag.allround { color: var(--style-allround); background: color-mix(in oklab, var(--style-allround) 16%, transparent); }
+
+/* radar: clickable axis names */
+.radar text { font-size: 15px; font-weight: 500; fill: var(--color-ink-2); }
+.radar text.ax { cursor: pointer; transition: fill var(--dur-micro) var(--ease-out); }
+.radar text.ax:hover { fill: var(--color-accent-hi); text-decoration: underline; }
+.radar text.ax:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; fill: var(--color-accent-hi); }
+
+/* compare figures read big */
+.bar b { font-family: var(--font-display); font-weight: var(--display-weight); font-size: var(--text-md); color: var(--color-ink); }
+.bar .track { height: 8px; }
+.tension { font-size: clamp(2.75rem, 2rem + 2vw, 3.5rem); color: var(--color-accent-hi); }
+
+/* top 10 for one axis */
+.rank { margin-top: var(--space-xl); padding: var(--space-lg); background: var(--color-paper-2); border-radius: var(--radius-card); box-shadow: inset 0 0 0 1px var(--line-soft); }
+.rank-head { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-xs); margin-bottom: var(--space-sm); }
+.rank-head h3 { flex: 1 1 auto; font-family: var(--font-display); font-weight: var(--display-weight); font-size: var(--text-lg); margin: 0; }
+.x-btn { width: var(--control-h-sm); padding: 0; font-size: var(--text-lg); }
+.rank-list { list-style: none; margin: 0; padding: 0; }
+.rank-list li {
+  display: grid; grid-template-columns: 32px minmax(0, 1fr) minmax(80px, 200px) 40px; align-items: center; gap: var(--space-sm);
+  min-height: 44px; padding: var(--space-2xs) var(--space-xs); border-radius: var(--radius-inner); cursor: pointer;
+  transition: background-color var(--dur-micro) var(--ease-out);
+}
+.rank-list li:hover { background: var(--color-paper-3); }
+.rank-list li:active { background: var(--fill-soft); }
+.rank-list li:focus-visible { outline: 2px solid var(--color-focus); outline-offset: -2px; }
+.rank-list li.sel { box-shadow: inset 0 0 0 1px var(--color-accent); }
+.rank-list .nm { font-weight: 500; overflow-wrap: break-word; min-width: 0; }
+.rank-list .fig { text-align: right; font-size: var(--text-lg); }
+.pos { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--color-paper-3); color: var(--color-ink-2); font-size: var(--text-sm); font-weight: 600; font-variant-numeric: tabular-nums; }
+.pos-1 { background: var(--medal-1); color: var(--color-accent-ink); }
+.pos-2 { background: var(--medal-2); color: var(--color-accent-ink); }
+.pos-3 { background: var(--medal-3); color: var(--color-accent-ink); }
+.rank-list .track { height: 8px; background: var(--color-paper-3); border-radius: var(--radius-pill); overflow: hidden; }
+.rank-list .fill { display: block; height: 100%; border-radius: var(--radius-pill); background: linear-gradient(90deg, color-mix(in oklab, var(--s1) 55%, var(--color-light)), var(--s1)); }
+.rank > p { margin-top: var(--space-sm); }
+@media (max-width: 40rem) {
+  .rank { padding: var(--space-md); }
+  .rank-list li { grid-template-columns: 28px minmax(0, 1fr) 36px; }
+  .rank-list .track { display: none; }
+}
+.two { grid-template-columns: minmax(0, 460px) minmax(0, 1fr); }
+.radar svg { max-width: 460px; }
+.radar text { font-size: 16px; }
+.rank-head h3 { max-width: none; }
+.tag:not(.attack):not(.speed):not(.control):not(.allround) { visibility: hidden; }
+.reasons li > span:last-child { min-width: 0; overflow-wrap: anywhere; }

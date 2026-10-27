@@ -56,7 +56,7 @@
   const sources = x => [link(x.officialUrl, 'ผู้ผลิต'), link(x.specSrc, 'หน้าสินค้า'), link(x.shopUrl, 'ร้านไทย'), link(x.source, 'chobbad')].filter(Boolean).join(', ') || '—';
 
   // ---------- profiles (0–10) ----------
-  const R_AXES = ['พลังตบ', 'ความคล่องตัว', 'ควบคุม', 'ตีง่าย', 'รับเอ็นตึง', 'ต้องมีพื้นฐาน'];
+  const R_AXES = ['พลังตบ', 'ความคล่องตัว', 'ควบคุม', 'ตีง่าย', 'รับเอ็นตึง', 'หน้าไม้ไว', 'ต้องมีพื้นฐาน'];
   function racketProfile(r) {
     const bal = ordIdx('balance', r.balance, 1) / 2;
     const fx = ordIdx('flex', r.flex, 1.5) / 3;
@@ -70,6 +70,7 @@
       0.5 * st + 0.3 * (1 - Math.abs(bal - 0.5) * 2) + 0.2 * fx,
       0.5 * (1 - fx) + 0.35 * (1 - lv) + 0.15 * (1 - w),
       tmax,
+      0.45 * (1 - bal) + 0.35 * (1 - w) + 0.2 * fx,
       0.55 * fx + 0.45 * lv,
     ].map(v => Math.round(clamp(v) * 100) / 10);
   }
@@ -78,23 +79,30 @@
   const stringProfile = s => S_KEYS.map(k => Number(s[k]) || 0);
 
   // ---------- small renderers ----------
-  function radar(axes, series, size = 340) {
+  function radar(axes, series, size = 340, clickable = false) {
     const c = size / 2, R = size / 2 - 58, n = axes.length;
     const pt = (i, v) => { const a = -Math.PI / 2 + i * 2 * Math.PI / n; return [c + Math.cos(a) * R * v, c + Math.sin(a) * R * v]; };
     const poly = v => axes.map((_, i) => pt(i, typeof v === 'number' ? v : v[i]).map(x => x.toFixed(1)).join(',')).join(' ');
     let g = '';
-    for (const lv of [0.25, 0.5, 0.75, 1]) g += `<polygon points="${poly(lv)}" style="fill:none;stroke:var(--color-rule)"/>`;
+    g += `<polygon points="${poly(1)}" style="fill:var(--radar-well);stroke:var(--color-rule)"/>`;
+    for (const lv of [0.25, 0.5, 0.75]) g += `<polygon points="${poly(lv)}" style="fill:none;stroke:var(--color-rule)"/>`;
     axes.forEach((a, i) => {
       const [x, y] = pt(i, 1), [lx, ly] = pt(i, 1.2);
       const anchor = Math.abs(lx - c) < 4 ? 'middle' : (lx > c ? 'start' : 'end');
       g += `<line x1="${c}" y1="${c}" x2="${x.toFixed(1)}" y2="${y.toFixed(1)}" style="stroke:var(--color-rule)"/>`;
-      g += `<text x="${lx.toFixed(1)}" y="${ly.toFixed(1)}" text-anchor="${anchor}" dominant-baseline="middle">${esc(a)}</text>`;
+      g += clickable
+        ? `<text class="ax" x="${lx.toFixed(1)}" y="${ly.toFixed(1)}" text-anchor="${anchor}" dominant-baseline="middle" data-axis="${i}" role="button" tabindex="0">${esc(a)}</text>`
+        : `<text x="${lx.toFixed(1)}" y="${ly.toFixed(1)}" text-anchor="${anchor}" dominant-baseline="middle">${esc(a)}</text>`;
     });
     // each series also gets its own line style so the three stay apart without colour
     const DASH = ['none', '8 5', '2 4'];
     series.forEach((s, i) => {
-      g += `<polygon points="${poly(s.values.map(v => clamp(v / 10)))}" style="fill:${s.color};fill-opacity:.1;stroke:${s.color};stroke-width:2.5;stroke-dasharray:${DASH[i] || 'none'};stroke-linejoin:round"><title>${esc(s.name)}</title></polygon>`;
+      g += `<polygon points="${poly(s.values.map(v => clamp(v / 10)))}" style="fill:${s.color};fill-opacity:.18;stroke:${s.color};stroke-width:2.5;stroke-dasharray:${DASH[i] || 'none'};stroke-linejoin:round"><title>${esc(s.name)}</title></polygon>`;
     });
+    series.forEach(s => s.values.forEach((v, i) => {
+      const [x, y] = pt(i, clamp(v / 10));
+      g += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="5" style="fill:${s.color};stroke:var(--color-paper);stroke-width:2"><title>${esc(s.name)}: ${esc(axes[i])} ${Math.round(v * 10)}</title></circle>`;
+    }));
     return `<svg viewBox="-70 0 ${size + 140} ${size}" role="img" aria-label="radar chart">${g}</svg>`;
   }
   const legend = sel => `<div class="legend">${sel.map((x, i) => `<span><i style="color:${COLORS[i]}"></i>${esc(full(x))}</span>`).join('')}</div>`;
@@ -214,6 +222,7 @@
   const state = {
     sel: { r: [], s: [] },
     shown: { r: 48, s: 48 },
+    rank: { r: null, s: null },
     f: { r: emptyFilter('r'), s: emptyFilter('s') },
     m: null,
     mg: { kind: 'r', edit: null, q: '' },
@@ -276,8 +285,24 @@
         view.querySelector(`.item[data-id="${CSS.escape(el.dataset.id)}"]`)?.focus();
       }
     });
+    // axis label opens its top 10; flip, close, and a ranked row toggles that model
+    const rankAction = el => {
+      if (el.dataset.axis != null) {
+        state.rank[kind] = { axis: +el.dataset.axis, low: false };
+        renderRank(kind);
+        view.querySelector('#rank')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      } else if (el.dataset.rk === 'flip') { state.rank[kind].low = !state.rank[kind].low; renderRank(kind); }
+      else if (el.dataset.rk === 'close') { state.rank[kind] = null; renderRank(kind); }
+      else if (el.dataset.add) toggle(kind, el.dataset.add);
+    };
     view.querySelector('#cmp').addEventListener('click', e => {
+      const el = e.target.closest('[data-axis], [data-rk], [data-add]');
+      if (el) { rankAction(el); return; }
       const x = e.target.closest('[data-rm]'); if (x) toggle(kind, x.dataset.rm);
+    });
+    view.querySelector('#cmp').addEventListener('keydown', e => {
+      const el = e.target.closest('[data-axis], [data-add]');
+      if (el && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); rankAction(el); }
     });
     renderGrid(kind);
     renderCompare(kind);
@@ -324,13 +349,50 @@
         </div>
         ${sel.length < 2 ? '<p class="small muted sheet-key">เลือกเพิ่มอีกอย่างน้อย 1 รุ่นเพื่อเทียบ</p>' : ''}
         <div class="two">
-          <div class="radar"><h3>${rd.title}</h3>${radar(rd.axes, rd.series)}${legend(sel)}<p class="small muted">${rd.note}</p></div>
+          <div class="radar"><h3>${rd.title}</h3>${radar(rd.axes, rd.series, 340, true)}${legend(sel)}<p class="small muted">กดที่ชื่อแกน เพื่อดูว่ารุ่นไหนสุดทางด้านนั้น</p><p class="small muted">${rd.note}</p></div>
           <div class="bars"><h3>กราฟเทียบ</h3>${bars(cfg.bars, sel, db[kind])}</div>
         </div>
+        <div id="rank"></div>
         <p class="small muted sheet-key">ช่องที่ขึ้น — คือยังไม่มีข้อมูล ช่องที่ไฮไลต์คือค่าที่ต่างกัน ค่าที่มี ≈ คือค่าประเมินจากซีรีส์</p>
         ${specTable(cfg.spec, sel)}
       </section>`;
+    renderRank(kind);
     watchSheet();
+  }
+
+  // ---------- top 10 per radar axis ----------
+  // a model counts only when the specs behind the axis are known (rackets: balance and flex; strings: that rating)
+  const rankable = {
+    r: x => x.balance && x.flex,
+    s: (x, i) => x[S_KEYS[i]] !== '' && x[S_KEYS[i]] != null,
+  };
+  const profileOf = kind => kind === 'r' ? racketProfile : stringProfile;
+  function renderRank(kind) {
+    const box = view.querySelector('#rank');
+    if (!box) return;
+    const rk = state.rank[kind];
+    if (rk == null) { box.innerHTML = ''; return; }
+    const axes = kind === 'r' ? R_AXES : S_AXES;
+    const prof = profileOf(kind);
+    const pool = db[kind].filter(x => rankable[kind](x, rk.axis)).map(x => ({ x, v: Math.round(prof(x)[rk.axis] * 10) }));
+    pool.sort((a, b) => rk.low ? a.v - b.v : b.v - a.v);
+    const top = pool.slice(0, 10), sel = state.sel[kind];
+    box.innerHTML = `
+      <section class="rank" aria-live="polite">
+        <div class="rank-head">
+          <h3>${esc(axes[rk.axis])}, ${rk.low ? 'ต่ำสุด' : 'สูงสุด'} 10 อันดับ</h3>
+          <button class="btn sm" type="button" data-rk="flip">${rk.low ? 'สลับดูสูงสุด' : 'สลับดูต่ำสุด'}</button>
+          <button class="btn sm ghost x-btn" type="button" data-rk="close" aria-label="ปิด">×</button>
+        </div>
+        <ol class="rank-list">${top.map((o, i) => `
+          <li class="${sel.includes(o.x.id) ? 'sel' : ''}" data-add="${esc(o.x.id)}" role="button" tabindex="0">
+            <span class="pos pos-${i + 1}">${i + 1}</span>
+            <span class="nm">${esc(full(o.x))}</span>
+            <span class="track"><span class="fill" style="width:${o.v}%"></span></span>
+            <b class="fig">${o.v}</b>
+          </li>`).join('')}</ol>
+        <p class="small muted">นับจาก ${pool.length} รุ่นที่มีข้อมูลพอ กดชื่อรุ่นเพื่อเพิ่มหรือเอาออกจากการเทียบ คะแนนคำนวณจากสเปก ไม่ใช่คะแนนผู้ผลิต</p>
+      </section>`;
   }
 
   let trayTimer, sheetSeen;

@@ -1,0 +1,87 @@
+- Assailant Control (2026) missing: balance, flex, weight, tension
+- Assailant Power (2026) missing: balance, flex, weight, tension
+- Assailant Speed (2026) missing: balance, flex, weight, tension
+- Blizzard Pro (2026) missing: balance, flex, weight, tension
+- Braid Woven (2026) missing: balance, flex, weight, tension
+- Cross Court Speed (2026) missing: balance, flex, weight, tension
+- Nano Fusion Speed 722 Dura Pro (2026) missing: balance, flex, weight, tension
+- Pro Commander 6.4 (2026) missing: balance, flex, weight, tension
+- Tweet 8000 International (2026) missing: balance, flex, weight, tension
+- Cross Court Pro (2025) missing: balance, flex, weight, tension
+- Cross Court Pro 6.4 (2025) missing: balance, flex, weight, tension
+- Finapi 232 Reborn (2025) missing: balance, flex, weight, tension
+- Honor Pro 6.4 (2025) missing: balance, flex, weight, tension
+- Imperial Pro 6.2 (2025) missing: balance, flex, weight, tension
+- Lethal 7 (2025) missing: balance, flex, weight, tension
+- Resona Speed 66 (2025) missing: balance, flex, weight, tension
+- Versus Pro 6.2 (2025) missing: balance, flex, weight, tension
+- Versus Pro 6.4 (2025) missing: balance, flex, weight, tension
+- Carbo 8000 (2024) missing: balance, flex, weight, tension
+- Carbo 9000 (2024) missing: balance, flex, weight, tension
+- Duplex Power 55 (2024) missing: balance, flex, weight, tension
+- Energy Groove Power (2024) missing: balance, flex, weight, tension
+- Energy Groove Speed (2024) missing: balance, flex, weight, tension
+- Grand Tour (2024) missing: balance, flex, weight, tension
+- Hard Hitter Pro (2024) missing: balance, flex, weight, tension
+- Hyper Power (2024) missing: balance, flex, weight, tension
+- Hyper Speed (2024) missing: balance, flex, weight, tension
+- Lethal 60 Light (2024) missing: balance, flex, weight, tension
+- Nano Blade 110 (2024) missing: balance, flex, weight, tension
+- Nano Tubes 99 (2024) missing: balance, flex, weight, tension
+- Razor 800 (2024) missing: balance, flex, weight, tension
+- Speed Pro 900 (2024) missing: balance, flex, weight, tension
+- Stern 90 Offensive (2024) missing: balance, flex, weight, tension
+- Thunderdome Pro 6.2 (2024) missing: balance, flex, weight, tension
+- Thunderdome Pro 6.4 (2024) missing: balance
+- Tyro 55 (2024) missing: balance, flex, weight, tension
+- Fantala 6.2 Control (2023) missing: balance, flex, weight, tension
+- Fantala 6.2 Power (2023) missing: balance, flex, weight, tension
+- Fantala 6.2 Speed (2023) missing: balance, flex, weight, tension
+- Lethal 10 Control (2023) missing: balance, flex, weight, tension
+- Lethal 10 Power (2023) missing: balance, flex, weight, tension
+- Lethal 10 Speed (2023) missing: balance, flex, weight, tension
+- Lethal 9 (2023) missing: balance, flex, weight, tension
+- Nano Fusion Speed 777 Force (2023) missing: balance, flex, weight, tension
+- Nano Smash (2023) missing: balance, flex, weight, tension
+- Precision 1.0 (2023) missing: balance, flex, weight, tension
+- Stardom Pro III (2023) missing: balance, flex, weight, tension
+- Tantrum 300 III (2023) missing: balance, flex, weight, tension
+- Versus Pro (2023) missing: balance, flex, weight, tension
+- Woven Ruby (2023) missing: balance, flex, weight, tension
+- X Tech Even (2023) missing: balance, flex, weight, tension
+- X Tech Lite (2023) missing: balance, flex, weight, tension
+- X Tech Power (2023) missing: balance, flex, weight, tension
+- Z Power 800 RP+ (2023) missing: balance, flex, weight, tension
+- Z Power 900 RP+ Lite (2023) missing: balance, flex, weight, tension
+- Aero Light 700 (2022) missing: balance, flex, weight, tension
+- Altair MS-20 (2022) missing: balance, flex, weight, tension
+- Blizzard 2500 (2022) missing: balance, flex, weight, tension
+- Blizzard Pro ZZ (2022) missing: balance, flex, weight, tension
+- Carbo X (2022) missing: balance, flex, weight, tension
+- Fantala 6.0 Control (2022) missing: balance, flex, weight, tension
+- Fantala 6.0 Speed (2022) missing: balance, flex, weight, tension
+- Fantala Pro 101 (2022) missing: balance, flex, weight, tension
+- Feather Weight 500 (2022) missing: balance, flex, weight, tension
+- Feather Weight X II (2022) missing: balance, flex, weight, tension
+- Honor Pro (2022) missing: balance, flex, weight, tension
+- Nano Fusion Speed 822 (2022) missing: balance, flex, weight, tension
+- Nano Fusion Speed XR (2022) missing: balance, flex, weight, tension
+- Stardom 800 (2022) missing: balance, flex, weight, tension
+- Stern 878 (2022) missing: balance, flex, weight, tension
+- Woven Gold (2022) missing: tension
+- Woven Platinium (2022) missing: balance, flex, weight, tension
+- Z-Woven (2022) missing: balance, flex, weight, tension
+- Z-Ziggler 72 (2022) missing: balance, flex, weight, tension
+- Z-Ziggler 75 (2022) missing: balance, flex, weight, tension
+- Z-Ziggler 77 (2022) missing: balance, flex, weight, tension
+- Feather Weight 55 (2021) missing: balance, flex, weight, tension
+- Stern 100 (2021) missing: balance, flex, weight, tension
+- Stern 828 (2021) missing: balance, flex, weight, tension
+- Stern 899 (2021) missing: balance, flex, weight, tension
+- Thunderdome 6.2 (2021) missing: balance, flex, weight, tension
+- Vanguard 77 (2021) missing: balance, flex, weight, tension
+- Z-Ziggler Lite (2021) missing: balance, flex, weight, tension
+- Ziggler LHI Pro II (2021) missing: balance, flex, weight, tension
+- Ziggler LHI Pro III (2021) missing: balance, flex, weight, tension
+- Nano Fusion Speed 722 missing: tension
+- Z-Ziggler missing: tension
