@@ -2,14 +2,14 @@
   'use strict';
 
   // ---------- data ----------
-  const KEYS = { r: 'rs.rackets.v1', s: 'rs.strings.v1', h: 'rs.shuttles.v1' };
-  const BASE = { r: window.RACKETS || [], s: window.STRINGS || [], h: window.SHUTTLES || [] };
+  const KEYS = { r: 'rs.rackets.v1', s: 'rs.strings.v1', h: 'rs.shuttles.v1', o: 'rs.shoes.v1', k: 'rs.socks.v1' };
+  const BASE = { r: window.RACKETS || [], s: window.STRINGS || [], h: window.SHUTTLES || [], o: window.SHOES || [], k: window.SOCKS || [] };
   const clone = v => JSON.parse(JSON.stringify(v));
   function load(kind) {
     try { const v = localStorage.getItem(KEYS[kind]); if (v) return JSON.parse(v); } catch (e) {}
     return clone(BASE[kind]);
   }
-  const db = { r: load('r'), s: load('s'), h: load('h') };
+  const db = { r: load('r'), s: load('s'), h: load('h'), o: load('o'), k: load('k') };
   function persist(kind) { try { localStorage.setItem(KEYS[kind], JSON.stringify(db[kind])); } catch (e) {} }
   function isCustom(kind) { try { return !!localStorage.getItem(KEYS[kind]); } catch (e) { return false; } }
 
@@ -23,6 +23,9 @@
     gauge: { thin: 'บาง (≤ 0.63)', mid: 'กลาง (0.64–0.67)', thick: 'หนา (≥ 0.68)' },
     type: { goose: 'ขนห่าน', duck: 'ขนเป็ด', natural: 'ขนธรรมชาติ', hybrid: 'ขนผสมไนลอน', synthetic: 'ขนสังเคราะห์', nylon: 'ไนลอน' },
     grade: { tournament: 'ระดับแข่งขัน', club: 'ระดับชมรม', training: 'ระดับซ้อม' },
+    spd: { 75: 'สปีด 75', 76: 'สปีด 76', 77: 'สปีด 77', 78: 'สปีด 78', 79: 'สปีด 79', slow: 'ช้า (Slow)', medium: 'กลาง (Medium)', fast: 'เร็ว (Fast)' },
+    width: { normal: 'หน้าเท้าปกติ', wide: 'หน้าเท้ากว้าง', narrow: 'หน้าเท้าแคบ' },
+    height: { low: 'ข้อสั้น', mid: 'ข้อกลาง', high: 'ข้อยาว' },
   };
   const ORD = {
     balance: ['head-light', 'even', 'head-heavy'],
@@ -222,10 +225,10 @@
     h: {
       title: 'เทียบลูกแบด',
       sub: x => [L.type[x.type], L.grade[x.grade], x.speedText || (x.speed ? 'สปีด ' + x.speed : '')].filter(Boolean).map(esc).join(', '),
-      filters: ['type', 'grade'],
-      filterAll: { type: 'ทุกชนิดขน', grade: 'ทุกเกรด' },
+      filters: ['type', 'grade', 'spd'],
+      filterAll: { type: 'ทุกชนิดขน', grade: 'ทุกเกรด', spd: 'ทุกสปีด' },
       sorts: { name: 'เรียงตามชื่อ', priceAsc: 'ราคาต่ำ → สูง', priceDesc: 'ราคาสูง → ต่ำ' },
-      match: (x, f) => (!f.type || x.type === f.type) && (!f.grade || x.grade === f.grade),
+      match: (x, f) => (!f.type || x.type === f.type) && (!f.grade || x.grade === f.grade) && (!f.spd || x.spd === f.spd),
       card: h => `
         ${h.img ? `<img class="thumb" src="${esc(h.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<div class="thumb" aria-hidden="true"></div>'}
         <span class="tag ${h.type === 'nylon' ? 'speed' : h.type === 'goose' ? 'control' : h.type ? 'allround' : ''}">${lab(h, 'type') || '—'}</span>
@@ -252,15 +255,84 @@
         ['แหล่งข้อมูล', h => sources(h)],
       ],
     },
+    o: {
+      title: 'เทียบรองเท้าแบด',
+      sub: x => [L.width[x.width], x.weight ? x.weight + ' g' : '', x.code].filter(Boolean).map(esc).join(', '),
+      filters: ['width'],
+      filterAll: { width: 'ทุกหน้าเท้า' },
+      sorts: { name: 'เรียงตามชื่อ', year: 'ใหม่สุดก่อน', priceAsc: 'ราคาต่ำ → สูง', priceDesc: 'ราคาสูง → ต่ำ' },
+      match: (x, f) => (!f.width || x.width === f.width),
+      card: o => `
+        ${o.img ? `<img class="thumb" src="${esc(o.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<div class="thumb" aria-hidden="true"></div>'}
+        <span class="tag ${o.width === 'wide' ? 'control' : o.width ? 'speed' : ''}">${L.width[o.width] || '—'}</span>
+        <div class="nm">${esc(full(o))}</div>
+        <div class="meta">${[o.brand, o.year, o.weight ? o.weight + ' g' : ''].filter(Boolean).map(esc).join(', ')}</div>
+        <div class="meta">${esc((o.cushion || '').split('+')[0].trim())}</div>
+        ${o.price ? `<div class="price"><b class="fig">${baht(o.price)}</b></div>` : ''}`,
+      radar: null,
+      bars: [
+        { label: 'ราคา', hint: 'ราคาร้าน ตรวจอีกที', get: o => Number(o.price) || NaN, fmt: v => baht(v) },
+        { label: 'น้ำหนัก', hint: 'ต่อข้าง ยิ่งเบายิ่งคล่อง', get: o => Number(o.weight) || NaN, fmt: v => v + ' g' },
+      ],
+      spec: [
+        ['แบรนด์', o => esc(o.brand)],
+        ['รหัสรุ่น', o => dash(o.code)],
+        ['ปี', o => dash(o.year)],
+        ['หน้าเท้า', o => dash(o.widthText || L.width[o.width])],
+        ['พื้นรองเท้า', o => dash(o.sole)],
+        ['ระบบกันกระแทก', o => dash(o.cushion)],
+        ['วัสดุตัวรองเท้า', o => dash(o.upper)],
+        ['น้ำหนัก', o => o.weight ? o.weight + ' g' : '—'],
+        ['ไซซ์', o => dash(o.sizes)],
+        ['สีที่มี', o => dash(o.colors)],
+        ['ราคา', o => o.price ? baht(o.price) : dash(o.priceText)],
+        ['จุดเด่น', o => dash(o.note)],
+        ['แหล่งข้อมูล', o => sources(o)],
+      ],
+    },
+    k: {
+      title: 'เทียบถุงเท้าแบด',
+      sub: x => [L.height[x.height], x.pack ? x.pack + ' คู่' : '', x.code].filter(Boolean).map(esc).join(', '),
+      filters: ['height'],
+      filterAll: { height: 'ทุกความสูง' },
+      sorts: { name: 'เรียงตามชื่อ', year: 'ใหม่สุดก่อน', priceAsc: 'ราคาต่ำ → สูง' },
+      match: (x, f) => (!f.height || x.height === f.height),
+      card: k => `
+        ${k.img ? `<img class="thumb" src="${esc(k.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<div class="thumb" aria-hidden="true"></div>'}
+        <span class="tag ${k.height ? 'allround' : ''}">${L.height[k.height] || '—'}</span>
+        <div class="nm">${esc(full(k))}</div>
+        <div class="meta">${[k.brand, k.year, k.pack ? k.pack + ' คู่' : ''].filter(Boolean).map(esc).join(', ')}</div>
+        <div class="meta">${esc(k.material || '')}</div>
+        ${k.price ? `<div class="price"><b class="fig">${baht(k.price)}</b></div>` : ''}`,
+      radar: null,
+      bars: [
+        { label: 'ราคา', hint: 'ราคาร้าน ตรวจอีกที', get: k => Number(k.price) || NaN, fmt: v => baht(v) },
+      ],
+      spec: [
+        ['แบรนด์', k => esc(k.brand)],
+        ['รหัสรุ่น', k => dash(k.code)],
+        ['ปี', k => dash(k.year)],
+        ['ความสูง', k => dash(k.heightText || L.height[k.height])],
+        ['ความหนา', k => dash(k.thickness)],
+        ['วัสดุ', k => dash(k.material)],
+        ['จุดบุกันกระแทก', k => dash(k.cushion)],
+        ['ไซซ์', k => dash(k.sizes)],
+        ['จำนวนต่อแพ็ก', k => k.pack ? k.pack + ' คู่' : '—'],
+        ['สีที่มี', k => dash(k.colors)],
+        ['ราคา', k => k.price ? baht(k.price) : dash(k.priceText)],
+        ['จุดเด่น', k => dash(k.note)],
+        ['แหล่งข้อมูล', k => sources(k)],
+      ],
+    },
   };
 
   // ---------- compare views ----------
-  const emptyFilter = kind => ({ q: '', brand: '', style: '', balance: '', level: '', material: '', gauge: '', type: '', grade: '', sort: kind === 'r' ? 'year' : 'name' });
+  const emptyFilter = kind => ({ q: '', brand: '', style: '', balance: '', level: '', material: '', gauge: '', type: '', grade: '', spd: '', width: '', height: '', sort: kind === 'r' ? 'year' : 'name' });
   const state = {
-    sel: { r: [], s: [], h: [] },
-    shown: { r: 48, s: 48, h: 48 },
-    rank: { r: null, s: null, h: null },
-    f: { r: emptyFilter('r'), s: emptyFilter('s'), h: emptyFilter('h') },
+    sel: { r: [], s: [], h: [], o: [], k: [] },
+    shown: { r: 48, s: 48, h: 48, o: 48, k: 48 },
+    rank: { r: null, s: null, h: null, o: null, k: null },
+    f: { r: emptyFilter('r'), s: emptyFilter('s'), h: emptyFilter('h'), o: emptyFilter('o'), k: emptyFilter('k') },
     m: null,
     mg: { kind: 'r', edit: null, q: '' },
   };
@@ -284,6 +356,7 @@
 
   function viewCompare(kind) {
     const cfg = KIND[kind], f = state.f[kind], items = db[kind];
+    if (state.linkSel) { state.sel[kind] = state.linkSel.split(',').slice(0, 3); state.linkSel = null; }
     state.sel[kind] = state.sel[kind].filter(id => byId(kind, id));
     const brands = [...new Set(items.map(x => x.brand))].sort();
     const countOf = (key, val) => items.filter(x => key === 'gauge' ? gaugeGroup(x.gauge) === val : x[key] === val).length;
@@ -294,6 +367,7 @@
     view.innerHTML = `
       <h1>${cfg.title}</h1>
       <p class="muted">ติ๊กเลือกได้สูงสุด 3 รุ่นเพื่อเทียบกัน (≈ คือค่าประเมิน) จากทั้งหมด ${items.length} รุ่น</p>
+      <div id="hist"></div>
       <div id="cmp"></div>
       <div class="filters" id="flt">
         <input type="search" name="q" placeholder="ค้นหารุ่น…" value="${esc(f.q)}">
@@ -332,7 +406,19 @@
       else if (el.dataset.rk === 'close') { state.rank[kind] = null; renderRank(kind); }
       else if (el.dataset.add) toggle(kind, el.dataset.add);
     };
+    view.querySelector('#hist').addEventListener('click', e => {
+      const b = e.target.closest('[data-hist]'); if (!b) return;
+      state.sel[kind] = b.dataset.hist.split(',');
+      renderGrid(kind); renderCompare(kind);
+      view.querySelector('#cmp').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
     view.querySelector('#cmp').addEventListener('click', e => {
+      const sh = e.target.closest('[data-share]');
+      if (sh) {
+        const done = () => { sh.textContent = 'คัดลอกแล้ว'; setTimeout(() => { sh.textContent = 'คัดลอกลิงก์เทียบ'; }, 1600); };
+        navigator.clipboard?.writeText(location.href).then(done, () => { prompt('คัดลอกลิงก์นี้', location.href); });
+        return;
+      }
       const el = e.target.closest('[data-axis], [data-rk], [data-add]');
       if (el) { rankAction(el); return; }
       const x = e.target.closest('[data-rm]'); if (x) toggle(kind, x.dataset.rm);
@@ -373,7 +459,7 @@
     const cfg = KIND[kind], sel = state.sel[kind].map(id => byId(kind, id)).filter(Boolean);
     const box = view.querySelector('#cmp');
     updateTray(kind);
-    if (!sel.length) { box.innerHTML = ''; watchSheet(); return; }
+    if (!sel.length) { box.innerHTML = ''; watchSheet(); remember(kind); return; }
     const rd = cfg.radar ? cfg.radar(sel) : null;
     box.innerHTML = `
       <section class="panel">
@@ -384,7 +470,10 @@
             <div class="small muted">${KIND[kind].sub(x)}</div>
           </div>`).join('')}
         </div>
-        ${sel.length < 2 ? '<p class="small muted sheet-key">เลือกเพิ่มอีกอย่างน้อย 1 รุ่นเพื่อเทียบ</p>' : ''}
+        <div class="sheet-tools">
+          ${sel.length < 2 ? '<p class="small muted">เลือกเพิ่มอีกอย่างน้อย 1 รุ่นเพื่อเทียบ</p>' : '<span></span>'}
+          <button class="btn sm" type="button" data-share>คัดลอกลิงก์เทียบ</button>
+        </div>
         <div class="two${rd ? '' : ' solo'}">
           ${rd ? `<div class="radar"><h3>${rd.title}</h3>${radar(rd.axes, rd.series, 340, true)}${legend(sel)}<p class="small muted">กดที่ชื่อแกน เพื่อดูว่ารุ่นไหนสุดทางด้านนั้น</p><p class="small muted">${rd.note}</p></div>` : ''}
           <div class="bars"><h3>กราฟเทียบ</h3>${rd ? '' : legend(sel)}${bars(cfg.bars, sel, db[kind])}</div>
@@ -395,6 +484,30 @@
       </section>`;
     renderRank(kind);
     watchSheet();
+    remember(kind);
+  }
+
+  // ---------- shareable link and recent comparisons ----------
+  const ROUTE = { r: 'rackets', s: 'strings', h: 'shuttles', o: 'shoes', k: 'socks' };
+  const HIST_KEY = 'rs.history.v1';
+  const readHist = () => { try { return JSON.parse(localStorage.getItem(HIST_KEY)) || []; } catch (e) { return []; } };
+  function remember(kind) {
+    const ids = state.sel[kind];
+    history.replaceState(null, '', '#' + ROUTE[kind] + (ids.length ? '?c=' + ids.join(',') : ''));
+    if (ids.length >= 2) {
+      const sig = kind + ':' + [...ids].sort().join(',');
+      const h = readHist().filter(e => e.sig !== sig);
+      h.unshift({ sig, kind, ids: [...ids] });
+      try { localStorage.setItem(HIST_KEY, JSON.stringify(h.slice(0, 10))); } catch (e) {}
+    }
+    renderHist(kind);
+  }
+  function renderHist(kind) {
+    const box = view.querySelector('#hist');
+    if (!box) return;
+    const h = readHist().filter(e => e.kind === kind && e.ids.every(id => byId(kind, id))).slice(0, 5);
+    box.innerHTML = h.length ? `<div class="hist"><span class="small muted">เทียบล่าสุด</span>${h.map(e =>
+      `<button class="btn sm ghost" type="button" data-hist="${esc(e.ids.join(','))}">${e.ids.map(id => esc(byId(kind, id).name)).join(' กับ ')}</button>`).join('')}</div>` : '';
   }
 
   // ---------- top 10 per radar axis ----------
@@ -812,12 +925,16 @@
 
   // ---------- router ----------
   function route() {
-    const v = location.hash.slice(1) || 'rackets';
+    const [v0, qs] = location.hash.slice(1).split('?');
+    const v = v0 || 'rackets';
+    state.linkSel = new URLSearchParams(qs || '').get('c');
     document.querySelectorAll('#tabs a').forEach(a => a.classList.toggle('on', a.dataset.v === v));
     tray.hidden = true;
     view.onclick = null;
     if (v === 'strings') viewCompare('s');
     else if (v === 'shuttles') viewCompare('h');
+    else if (v === 'shoes') viewCompare('o');
+    else if (v === 'socks') viewCompare('k');
     else if (v === 'match') viewMatch();
     else if (v === 'manage') viewManage();
     else viewCompare('r');

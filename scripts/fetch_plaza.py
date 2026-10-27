@@ -1,15 +1,19 @@
 # Fetch racket listings and product pages from badmintonplaza.com (Thai shop, THB prices)
 # into scripts/sources/plaza.json. Polite: one request per second.
 # Run: python3 scripts/fetch_plaza.py            (rackets  -> scripts/sources/plaza.json)
-#      python3 scripts/fetch_plaza.py shuttles   (shuttles -> scripts/sources/plaza-shuttles.json)
+#      python3 scripts/fetch_plaza.py shuttles|shoes|socks  (-> scripts/sources/plaza-<mode>.json)
 import html, json, os, re, sys, time, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = 'https://www.badmintonplaza.com/'
 MODE = sys.argv[1] if len(sys.argv) > 1 else 'rackets'
-BRANDS = ({'Li-Ning': '53_54', 'Victor': '53_168', 'Yonex': '53_192', 'Mizuno': '53_238', 'Apacs': '53_266', 'VS': '53_296'} if MODE == 'rackets'
-          else {'Victor': '71_191', 'Yonex': '71_277', 'Li-Ning': '71_72', 'RSL': '71_73', 'Other': '71_106'})
-OUT = 'plaza.json' if MODE == 'rackets' else 'plaza-shuttles.json'
+BRANDS = {
+    'rackets': {'Li-Ning': '53_54', 'Victor': '53_168', 'Yonex': '53_192', 'Mizuno': '53_238', 'Apacs': '53_266', 'VS': '53_296'},
+    'shuttles': {'Victor': '71_191', 'Yonex': '71_277', 'Li-Ning': '71_72', 'RSL': '71_73', 'Other': '71_106'},
+    'shoes': {'Victor': '61_160', 'Yonex': '61_246', 'Mizuno': '61_253', 'VS': '61_295', 'Hundred': '61_339', 'Asics': '61_371', 'Li-Ning': '61_97', 'Other': '61_203'},
+    'socks': {'Yonex': '79_103', 'Victor': '79_126', 'VS': '79_299', 'Li-Ning': '79_87', 'Other': '79_133'},
+}[MODE]
+OUT = 'plaza.json' if MODE == 'rackets' else f'plaza-{MODE}.json'
 SPEC_KEYS = {'Weight/Grip Size': 'weight', 'Weight': 'weight', 'Balance': 'balance', 'Flexibility': 'flex', 'Flex': 'flex',
              'String Tension': 'tension', 'Tension': 'tension', 'Length': 'length', 'Material': 'material',
              'Frame': 'frame', 'Shaft': 'shaft', 'Player Type': 'player', 'Grip': 'grip', 'Grip Size': 'grip'}

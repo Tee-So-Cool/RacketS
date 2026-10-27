@@ -107,7 +107,16 @@ for full, o in overrides.items():
     s['specSrc'] = o.get('src', '')
 if unmatched: print('override names not found:', unmatched)
 
-ORDER = ['id', 'brand', 'name', 'code', 'type', 'grade', 'speed', 'speedText', 'cork', 'perTube', 'price', 'year', 'note',
+def spd(s):
+    # one filter value per shuttle: the first number 75-79, else slow/medium/fast from the text
+    if s.get('speed'): return str(s['speed'])
+    tx = (s.get('speedText') or '').lower()
+    for w, v in (('slow', 'slow'), ('ช้า', 'slow'), ('medium', 'medium'), ('กลาง', 'medium'), ('fast', 'fast'), ('เร็ว', 'fast')):
+        if w in tx: return v
+    return ''
+for s in shuttles.values(): s['spd'] = spd(s)
+
+ORDER = ['id', 'brand', 'name', 'code', 'type', 'grade', 'speed', 'speedText', 'spd', 'cork', 'perTube', 'price', 'year', 'note',
          'img', 'source', 'officialUrl', 'shopUrl', 'specSrc', 'est']
 final, seen = [], set()
 for s in sorted(shuttles.values(), key=lambda s: (s['brand'], s['name'])):

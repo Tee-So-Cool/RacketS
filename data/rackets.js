@@ -399,14 +399,17 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Carbo 9000",
   "year": 2024,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "medium",
   "level": "intermediate",
   "weights": "",
-  "weight": "",
+  "weight": 85,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   38
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -420,10 +423,12 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-carbo-9000-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-carbo-9000/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.khelmart.com/apacs-carbo-9000-nano-fusion-silver-unstrung-badminton-racket",
   "shopUrl": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-carbo-x",
@@ -628,13 +633,16 @@ window.RACKETS = [
   "name": "Cross Court Speed",
   "year": 2026,
   "style": "speed",
-  "balance": "head-light",
-  "flex": "",
+  "balance": "even",
+  "flex": "medium",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 84,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   38
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -648,12 +656,10 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-cross-court-speed-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-cross-court-speed/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-speed-white-4u-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "apacs-dominator-808",
@@ -698,12 +704,15 @@ window.RACKETS = [
   "year": 2024,
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
-  "weights": "",
-  "weight": "",
+  "weights": "10U",
+  "weight": 56,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   32
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -717,12 +726,10 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-duplex-power-55-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-duplex-power-55/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-duplex-power-55-black-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "apacs-energetic-horse",
@@ -767,12 +774,15 @@ window.RACKETS = [
   "year": 2024,
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 84,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   35
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -786,12 +796,10 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-energy-groove-power-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-energy-groove-power/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energy-groove-power-black-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "apacs-energy-groove-speed",
@@ -799,13 +807,16 @@ window.RACKETS = [
   "name": "Energy Groove Speed",
   "year": 2024,
   "style": "speed",
-  "balance": "head-light",
-  "flex": "",
+  "balance": "head-heavy",
+  "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "5U",
+  "weight": 81,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   35
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -819,12 +830,10 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-energy-groove-speed-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-energy-groove-speed/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energy-groove-speed-white-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "apacs-fantala-6-0-control",
@@ -832,13 +841,16 @@ window.RACKETS = [
   "name": "Fantala 6.0 Control",
   "year": 2022,
   "style": "control",
-  "balance": "even",
-  "flex": "",
+  "balance": "head-heavy",
+  "flex": "medium",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "5U",
+  "weight": 82,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   38
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -852,12 +864,10 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-fantala-6-0-control-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-fantala-6-0-control/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/apacs-fantala-6-pt-0-control-black-gold-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "apacs-fantala-6-0-speed",
@@ -865,13 +875,16 @@ window.RACKETS = [
   "name": "Fantala 6.0 Speed",
   "year": 2022,
   "style": "speed",
-  "balance": "head-light",
-  "flex": "",
+  "balance": "head-heavy",
+  "flex": "medium",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "5U",
+  "weight": 82,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   38
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -885,12 +898,10 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-fantala-6-0-speed-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-fantala-6-0-speed/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/apacs-fantala-6-pt-0-speed-blue-black-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "apacs-fantala-6-2-control",
@@ -1028,13 +1039,16 @@ window.RACKETS = [
   "name": "Feather Weight 500",
   "year": 2022,
   "style": "speed",
-  "balance": "head-light",
-  "flex": "",
+  "balance": "head-heavy",
+  "flex": "medium",
   "level": "",
-  "weights": "",
-  "weight": "",
+  "weights": "7U",
+  "weight": 63,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   30
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -1048,12 +1062,10 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-feather-weight-500-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-feather-weight-500/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-500-grey-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "apacs-feather-weight-55",
@@ -1061,13 +1073,16 @@ window.RACKETS = [
   "name": "Feather Weight 55",
   "year": 2021,
   "style": "speed",
-  "balance": "head-light",
-  "flex": "",
+  "balance": "head-heavy",
+  "flex": "flexible",
   "level": "",
-  "weights": "",
-  "weight": "",
+  "weights": "8U",
+  "weight": 58,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   28
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -1081,12 +1096,10 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-feather-weight-55-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-feather-weight-55/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-55-black-red-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "apacs-feather-weight-x-ii",
@@ -1094,13 +1107,16 @@ window.RACKETS = [
   "name": "Feather Weight X II",
   "year": 2022,
   "style": "speed",
-  "balance": "head-light",
-  "flex": "",
+  "balance": "head-heavy",
+  "flex": "flexible",
   "level": "",
-  "weights": "",
-  "weight": "",
+  "weights": "8U",
+  "weight": 58,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   28
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -1114,12 +1130,10 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-feather-weight-x-ii-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-feather-weight-x-ii/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-x-ii-red-gold-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "apacs-finapi-232-reborn",
@@ -1157,14 +1171,17 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Grand Tour",
   "year": 2024,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "5U",
+  "weight": 81,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   38
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -1178,10 +1195,12 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-grand-tour-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-grand-tour/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-grand-tour-light-yellow-white-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-hard-hitter-control",
@@ -1357,14 +1376,17 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Honor Pro",
   "year": 2022,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
   "level": "advanced",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 86,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   38
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -1378,10 +1400,12 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-honor-pro-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-honor-pro/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-honor-pro-dark-grey-neon-green-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-honor-pro-6-4",
@@ -1420,13 +1444,16 @@ window.RACKETS = [
   "name": "Hyper Power",
   "year": 2024,
   "style": "attack",
-  "balance": "head-heavy",
-  "flex": "",
+  "balance": "even",
+  "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "5U",
+  "weight": 81,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   35
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -1440,12 +1467,10 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-hyper-power-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-hyper-power/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-power-light-peach-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "apacs-hyper-speed",
@@ -1453,13 +1478,16 @@ window.RACKETS = [
   "name": "Hyper Speed",
   "year": 2024,
   "style": "speed",
-  "balance": "head-light",
-  "flex": "",
+  "balance": "even",
+  "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "5U",
+  "weight": 81,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   35
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -1473,12 +1501,10 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-hyper-speed-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-hyper-speed/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-speed-white-light-peach-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "apacs-imperial-pro",
@@ -1751,14 +1777,17 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Lethal 9",
   "year": 2023,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "medium",
   "level": "",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 85,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   35
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -1772,10 +1801,12 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-lethal-9-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-lethal-9/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-lethal-9-red-blue-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-maelstrom",
@@ -1818,14 +1849,17 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Nano Blade 110",
   "year": 2024,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 84,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   35
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -1839,10 +1873,12 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-nano-blade-110-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-nano-blade-110/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-blade-110-grey-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-nano-fusion-speed-722",
@@ -1854,9 +1890,12 @@ window.RACKETS = [
   "flex": "medium",
   "level": "",
   "weights": "6U",
-  "weight": 73,
+  "weight": 78,
   "grips": "G1",
-  "tension": null,
+  "tension": [
+   null,
+   30
+  ],
   "price": 1390,
   "frame": "Japan High Modulus Graphite",
   "shaft": "",
@@ -1870,7 +1909,7 @@ window.RACKETS = [
   "img": "https://www.badmintonplaza.com/images/NFS722-BKLB-A.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/Apacs-Nano-Fusion-722.html",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4982",
   "note": "",
   "est": [
@@ -1883,13 +1922,16 @@ window.RACKETS = [
   "name": "Nano Fusion Speed 722 Dura Pro",
   "year": 2026,
   "style": "speed",
-  "balance": "head-light",
-  "flex": "",
+  "balance": "head-heavy",
+  "flex": "medium",
   "level": "advanced",
-  "weights": "",
-  "weight": "",
+  "weights": "6U",
+  "weight": 77,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   33
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -1903,12 +1945,10 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-nano-fusion-speed-722-dura-pro-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-nano-fusion-speed-722-dura-pro/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-fusion-speed-722-pro-durapro-cct-white-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "apacs-nano-fusion-speed-777-force",
@@ -1916,13 +1956,16 @@ window.RACKETS = [
   "name": "Nano Fusion Speed 777 Force",
   "year": 2023,
   "style": "speed",
-  "balance": "head-light",
-  "flex": "",
+  "balance": "even",
+  "flex": "medium",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "6U",
+  "weight": 78,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   32
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -1936,12 +1979,10 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-nano-fusion-speed-777-force-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-nano-fusion-speed-777-force/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/apacs-nano-fusion-777-force-black-gold-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "apacs-nano-fusion-speed-822",
@@ -1983,12 +2024,15 @@ window.RACKETS = [
   "year": 2022,
   "style": "speed",
   "balance": "head-light",
-  "flex": "",
+  "flex": "medium",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "6U",
+  "weight": 78,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   30
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2002,12 +2046,10 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-nano-fusion-speed-xr-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-nano-fusion-speed-xr/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/apacs-nano-fusion-speed-xr-black-red-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "apacs-nano-smash",
@@ -2047,14 +2089,17 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Nano Tubes 99",
   "year": 2024,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "5U",
+  "weight": 81,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   35
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2068,24 +2113,29 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-nano-tubes-99-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-nano-tubes-99/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-tubes-99-blue-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-precision-1-0",
   "brand": "Apacs",
   "name": "Precision 1.0",
   "year": 2023,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "5U",
+  "weight": 82,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   38
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2099,10 +2149,12 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-precision-1-0-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-precision-1-0/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-precision-1-pt-0-black-matte-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-pro-commander-6-4",
@@ -2172,13 +2224,16 @@ window.RACKETS = [
   "name": "Resona Speed 66",
   "year": 2025,
   "style": "speed",
-  "balance": "head-light",
-  "flex": "",
+  "balance": "head-heavy",
+  "flex": "medium",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "5U",
+  "weight": 81,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   38
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2192,12 +2247,10 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-resona-speed-66-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-resona-speed-66/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/apacs-resona-speed-66-silver-5u-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "apacs-resona-speed-88",
@@ -2302,14 +2355,17 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Stardom Pro III",
   "year": 2023,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "medium",
   "level": "advanced",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 86,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   38
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2323,24 +2379,29 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-stardom-pro-iii-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-stardom-pro-iii/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/apacs-stardom-pro-ii-black-blue-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-stern-100",
   "brand": "Apacs",
   "name": "Stern 100",
   "year": 2021,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "medium",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 85,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   35
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2354,24 +2415,29 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-stern-100-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-stern-100/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Apacs-Stern-100.html",
   "shopUrl": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-stern-828",
   "brand": "Apacs",
   "name": "Stern 828",
   "year": 2021,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 85,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   38
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2385,10 +2451,12 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-stern-828-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-stern-828/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/apacs-stern-828.html",
   "shopUrl": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-stern-878",
@@ -2428,12 +2496,15 @@ window.RACKETS = [
   "year": 2021,
   "style": "",
   "balance": "",
-  "flex": "",
+  "flex": "medium",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 85,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   38
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2447,7 +2518,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-stern-899-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-stern-899/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/apacs-stern-899.html",
   "shopUrl": "",
   "note": "",
   "est": []
@@ -2458,11 +2529,11 @@ window.RACKETS = [
   "name": "Stern 90 Offensive",
   "year": 2024,
   "style": "attack",
-  "balance": "head-heavy",
-  "flex": "",
+  "balance": "head-light",
+  "flex": "medium",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "6U",
+  "weight": 78,
   "grips": "",
   "tension": null,
   "price": "",
@@ -2478,12 +2549,10 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-stern-90-offensive-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-stern-90-offensive/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/Apacs-Stern-90-Offensive.html",
   "shopUrl": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "apacs-super-speed",
@@ -2622,14 +2691,17 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Thunderdome Pro 6.2",
   "year": 2024,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
   "level": "advanced",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 84,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   38
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2643,18 +2715,20 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-thunderdome-pro-6-2-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-thunderdome-pro-6-2/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/apacs-thunderdome-pro-6-pt-2-dark-grey-4u-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-thunderdome-pro-6-4",
   "brand": "Apacs",
   "name": "Thunderdome Pro 6.4",
   "year": 2024,
-  "style": "",
-  "balance": "",
+  "style": "attack",
+  "balance": "head-heavy",
   "flex": "stiff",
   "level": "advanced",
   "weights": "4U",
@@ -2677,24 +2751,29 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-thunderdome-pro-6-4-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-thunderdome-pro-6-4/",
   "officialUrl": "",
-  "specSrc": "https://www.badmintonbay.com/apacs-thunderdome-pro-6-pt-4-dark-grey-4u-badminton-racket.html",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-thunderdome-pro-6-pt-4-dark-grey-4u-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-tweet-8000-international",
   "brand": "Apacs",
   "name": "Tweet 8000 International",
   "year": 2026,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "stiff",
   "level": "advanced",
-  "weights": "",
-  "weight": "",
+  "weights": "3U",
+  "weight": 88,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   38
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2708,10 +2787,12 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-tweet-8000-international-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-tweet-8000-international/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Apacs-Tweet-8000.html",
   "shopUrl": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-tyro-55",
@@ -2913,10 +2994,13 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "medium",
   "level": "advanced",
-  "weights": "4U",
-  "weight": 83,
+  "weights": "5U",
+  "weight": 81,
   "grips": "G5",
-  "tension": null,
+  "tension": [
+   null,
+   35
+  ],
   "price": 2490,
   "frame": "",
   "shaft": "",
@@ -2930,7 +3014,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-woven-gold-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-woven-gold/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-woven-gold-black-gold-badminton-racket.html",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3940",
   "note": "",
   "est": [
@@ -2973,14 +3057,17 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Woven Ruby",
   "year": 2023,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
   "level": "advanced",
-  "weights": "",
-  "weight": "",
+  "weights": "5U",
+  "weight": 81,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   35
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2994,10 +3081,12 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-woven-ruby-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-woven-ruby/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-woven-ruby-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-x-tech-even",
@@ -3103,12 +3192,15 @@ window.RACKETS = [
   "year": 2023,
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 85,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   38
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3122,12 +3214,10 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-z-power-800-rp-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-z-power-800-rp/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.khelmart.com/apacs-z-power-800-rp-badminton-racket",
   "shopUrl": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "apacs-z-power-900-rp-lite",
@@ -3135,13 +3225,16 @@ window.RACKETS = [
   "name": "Z Power 900 RP+ Lite",
   "year": 2023,
   "style": "attack",
-  "balance": "head-heavy",
-  "flex": "",
+  "balance": "even",
+  "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "6U",
+  "weight": 78,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   35
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3155,26 +3248,27 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-z-power-900-rp-lite-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-z-power-900-rp-lite/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/apacs-z-power-900-rp-lite-blue-light-yellow-6u-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "apacs-z-woven",
   "brand": "Apacs",
   "name": "Z-Woven",
   "year": 2022,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 84,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   35
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3188,10 +3282,12 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-z-woven-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-z-woven/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-z-woven-maroon-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-z-ziggler",
@@ -3231,14 +3327,17 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Z-Ziggler 72",
   "year": 2022,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
   "level": "intermediate",
   "weights": "",
-  "weight": "",
+  "weight": 72,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   30
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3252,10 +3351,12 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-z-ziggler-72-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-z-ziggler-72/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.khelmart.com/apacs-z-ziggler-72-30-lbs-72g-unstrung-badminton-racket",
   "shopUrl": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-z-ziggler-75",
@@ -3355,14 +3456,17 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Ziggler LHI Pro II",
   "year": 2021,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
   "level": "advanced",
-  "weights": "",
-  "weight": "",
+  "weights": "3U",
+  "weight": 87,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   38
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3376,24 +3480,29 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-ziggler-lhi-pro-ii-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-ziggler-lhi-pro-ii/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/apacs-ziggler-lhi-proii-red-glossy-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-ziggler-lhi-pro-iii",
   "brand": "Apacs",
   "name": "Ziggler LHI Pro III",
   "year": 2021,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "stiff",
   "level": "advanced",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 85,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   38
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3407,10 +3516,12 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-ziggler-lhi-pro-iii-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-ziggler-lhi-pro-iii/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-ziggler-lhi-proiii-navy-badminton-racket.html",
   "shopUrl": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-ziggler-pro-6-2",

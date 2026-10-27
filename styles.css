@@ -2,6 +2,7 @@
  * nav: kept (top bar, four hash routes) · signature: the compare sheet in smoked glass, each model a series drawn in its own line · states: empty, full (data is local, no loading or error paths) · dusk: fog/periwinkle-apricot/glass
  * axes: dark/grotesk-sans/cool · posture: committed · contrast: pass · v2.0.0 */
 /* Hallmark · pushed by request: darker paper, red/blue/amber series and style chips beyond the two Dusk signals, raised catalogue cards, axis top-10 panel */
+/* Hallmark · reworded "บุคลิกเอ็น Apacs Lethal 63" to the default string BG66 Ultimax (a data default, not a dropped heading) · catalogue pages 48 at a time, so fewer figures render per screen */
 /* Hallmark · pre-emit critique: P4 H4 E4 S4 R5 V4 · weakest: P, a spec tool argues little; the sheet sits in glass on slate so it reads as the product, and racket photos sit in bone wells instead of fighting the dark */
 /* Hallmark · answered: 29 glass is the Dusk material (smoked glass with its lit edge, never glass on glass) · no hero photograph, app scope has no hero · F7 inputs share one recipe because they are one role · Thai: IBM Plex Sans Thai follows Wix Madefor in both stacks (Wix has no Thai) */
 @import url("./tokens.css");
@@ -331,3 +332,8 @@ h1, h2, .head .nm, .verdict, .tension, .logo { font-weight: var(--display-weight
 .reasons li > span:last-child { min-width: 0; overflow-wrap: anywhere; }
 .two.solo { grid-template-columns: minmax(0, 1fr); }
 .two.solo .legend { margin-bottom: var(--space-md); }
+
+/* compare tools: copy link, recent comparisons */
+.sheet-tools { display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm); margin-top: var(--space-md); flex-wrap: wrap; }
+.hist { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-xs); margin-top: var(--space-md); }
+.hist .btn { max-width: 100%; white-space: normal; text-align: left; box-shadow: inset 0 0 0 1px var(--line-soft); }

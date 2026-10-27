@@ -28,6 +28,7 @@ jobs:
           python3 scripts/build_rackets.py
           python3 scripts/build_strings.py
           python3 scripts/build_shuttles.py
+          python3 scripts/build_gear.py
 
       - name: Collect site files
         run: |

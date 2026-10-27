@@ -284,7 +284,8 @@
   "weight": 84,
   "weights": "4U",
   "tmax": 38,
-  "src": "https://www.badmintonbay.com/apacs-thunderdome-pro-6-pt-4-dark-grey-4u-badminton-racket.html"
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-thunderdome-pro-6-pt-4-dark-grey-4u-badminton-racket.html",
+  "balance": "head-heavy"
  },
  "Apacs Cross Court Pro 6.2": {
   "balance": "head-heavy",
@@ -789,5 +790,307 @@
   "weights": "4U",
   "tmax": 28,
   "src": "https://www.badmintonwarehouse.com/products/victor-auraspeed-100x-b-badminton-racket-deep-sea-blue"
+ },
+ "Apacs Cross Court Speed": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 84,
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-speed-white-4u-badminton-racket.html"
+ },
+ "Apacs Nano Fusion Speed 722 Dura Pro": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "6U",
+  "weight": 77,
+  "tmax": 33,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-fusion-speed-722-pro-durapro-cct-white-badminton-racket.html"
+ },
+ "Apacs Lethal 9": {
+  "balance": "head-light",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 85,
+  "tmax": 35,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-lethal-9-red-blue-badminton-racket.html"
+ },
+ "Apacs Duplex Power 55": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "10U",
+  "weight": 56,
+  "tmax": 32,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-duplex-power-55-black-badminton-racket.html"
+ },
+ "Apacs Energy Groove Power": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "4U",
+  "weight": 84,
+  "tmax": 35,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energy-groove-power-black-badminton-racket.html"
+ },
+ "Apacs Energy Groove Speed": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "5U",
+  "weight": 81,
+  "tmax": 35,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energy-groove-speed-white-badminton-racket.html"
+ },
+ "Apacs Grand Tour": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "5U",
+  "weight": 81,
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-grand-tour-light-yellow-white-badminton-racket.html"
+ },
+ "Apacs Hyper Power": {
+  "balance": "even",
+  "flex": "flexible",
+  "weights": "5U",
+  "weight": 81,
+  "tmax": 35,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-power-light-peach-badminton-racket.html"
+ },
+ "Apacs Hyper Speed": {
+  "balance": "even",
+  "flex": "flexible",
+  "weights": "5U",
+  "weight": 81,
+  "tmax": 35,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-speed-white-light-peach-badminton-racket.html"
+ },
+ "Apacs Nano Blade 110": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "4U",
+  "weight": 84,
+  "tmax": 35,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-blade-110-grey-badminton-racket.html"
+ },
+ "Apacs Nano Tubes 99": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "5U",
+  "weight": 81,
+  "tmax": 35,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-tubes-99-blue-badminton-racket.html"
+ },
+ "Apacs Stern 90 Offensive": {
+  "balance": "head-light",
+  "flex": "medium",
+  "weights": "6U",
+  "weight": 78,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/Apacs-Stern-90-Offensive.html"
+ },
+ "Apacs Nano Fusion Speed 722": {
+  "balance": "head-light",
+  "flex": "medium",
+  "weights": "6U",
+  "weight": 78,
+  "tmax": 30,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/Apacs-Nano-Fusion-722.html",
+  "new": true,
+  "brand": "Apacs"
+ },
+ "Apacs Precision 1.0": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "5U",
+  "weight": 82,
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-precision-1-pt-0-black-matte-badminton-racket.html"
+ },
+ "Apacs Woven Ruby": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "5U",
+  "weight": 81,
+  "tmax": 35,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-woven-ruby-badminton-racket.html"
+ },
+ "Apacs Woven Gold": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "5U",
+  "weight": 81,
+  "tmax": 35,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-woven-gold-black-gold-badminton-racket.html"
+ },
+ "Apacs Feather Weight 500": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "7U",
+  "weight": 63,
+  "tmax": 30,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-500-grey-badminton-racket.html"
+ },
+ "Apacs Feather Weight 55": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "8U",
+  "weight": 58,
+  "tmax": 28,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-55-black-red-badminton-racket.html"
+ },
+ "Apacs Feather Weight X II": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "8U",
+  "weight": 58,
+  "tmax": 28,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-x-ii-red-gold-badminton-racket.html"
+ },
+ "Apacs Honor Pro": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "weight": 86,
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-honor-pro-dark-grey-neon-green-badminton-racket.html"
+ },
+ "Apacs Z-Woven": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "4U",
+  "weight": 84,
+  "tmax": 35,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-z-woven-maroon-badminton-racket.html"
+ },
+ "Apacs Ziggler LHI Pro III": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "4U",
+  "weight": 85,
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-ziggler-lhi-proiii-navy-badminton-racket.html"
+ },
+ "Apacs Tweet 8000 International": {
+  "balance": "head-light",
+  "flex": "stiff",
+  "weights": "3U",
+  "weight": 88,
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/Apacs-Tweet-8000.html"
+ },
+ "Apacs Resona Speed 66": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "5U",
+  "weight": 81,
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-resona-speed-66-silver-5u-badminton-racket.html"
+ },
+ "Apacs Thunderdome Pro 6.2": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "weight": 84,
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-thunderdome-pro-6-pt-2-dark-grey-4u-badminton-racket.html"
+ },
+ "Apacs Carbo 9000": {
+  "balance": "even",
+  "flex": "medium",
+  "weight": 85,
+  "tmax": 38,
+  "src": "https://www.khelmart.com/apacs-carbo-9000-nano-fusion-silver-unstrung-badminton-racket"
+ },
+ "Apacs Fantala 6.0 Control": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "5U",
+  "weight": 82,
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-fantala-6-pt-0-control-black-gold-badminton-racket.html"
+ },
+ "Apacs Fantala 6.0 Speed": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "5U",
+  "weight": 82,
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-fantala-6-pt-0-speed-blue-black-badminton-racket.html"
+ },
+ "Apacs Nano Fusion Speed 777 Force": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "6U",
+  "weight": 78,
+  "tmax": 32,
+  "src": "https://www.badmintonbay.com/apacs-nano-fusion-777-force-black-gold-badminton-racket.html"
+ },
+ "Apacs Stardom Pro III": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 86,
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-stardom-pro-ii-black-blue-badminton-racket.html"
+ },
+ "Apacs Z Power 900 RP+ Lite": {
+  "balance": "even",
+  "flex": "flexible",
+  "weights": "6U",
+  "weight": 78,
+  "tmax": 35,
+  "src": "https://www.badmintonbay.com/apacs-z-power-900-rp-lite-blue-light-yellow-6u-badminton-racket.html"
+ },
+ "Apacs Z Power 800 RP+": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "4U",
+  "weight": 85,
+  "tmax": 38,
+  "src": "https://www.khelmart.com/apacs-z-power-800-rp-badminton-racket"
+ },
+ "Apacs Nano Fusion Speed XR": {
+  "balance": "head-light",
+  "flex": "medium",
+  "weights": "6U",
+  "weight": 78,
+  "tmax": 30,
+  "src": "https://www.badmintonbay.com/apacs-nano-fusion-speed-xr-black-red-badminton-racket.html"
+ },
+ "Apacs Z-Ziggler 72": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weight": 72,
+  "tmax": 30,
+  "src": "https://www.khelmart.com/apacs-z-ziggler-72-30-lbs-72g-unstrung-badminton-racket"
+ },
+ "Apacs Stern 100": {
+  "balance": "head-light",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 85,
+  "tmax": 35,
+  "src": "https://www.badmintonbay.com/Apacs-Stern-100.html"
+ },
+ "Apacs Stern 828": {
+  "balance": "head-light",
+  "flex": "flexible",
+  "weights": "4U",
+  "weight": 85,
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-stern-828.html"
+ },
+ "Apacs Stern 899": {
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 85,
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-stern-899.html"
+ },
+ "Apacs Ziggler LHI Pro II": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "3U",
+  "weight": 87,
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-ziggler-lhi-proii-red-glossy-badminton-racket.html"
  }
 }
