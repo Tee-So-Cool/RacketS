@@ -329,3 +329,5 @@ h1, h2, .head .nm, .verdict, .tension, .logo { font-weight: var(--display-weight
 .rank-head h3 { max-width: none; }
 .tag:not(.attack):not(.speed):not(.control):not(.allround) { visibility: hidden; }
 .reasons li > span:last-child { min-width: 0; overflow-wrap: anywhere; }
+.two.solo { grid-template-columns: minmax(0, 1fr); }
+.two.solo .legend { margin-bottom: var(--space-md); }

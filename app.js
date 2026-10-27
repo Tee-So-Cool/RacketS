@@ -2,14 +2,14 @@
   'use strict';
 
   // ---------- data ----------
-  const KEYS = { r: 'rs.rackets.v1', s: 'rs.strings.v1' };
-  const BASE = { r: window.RACKETS || [], s: window.STRINGS || [] };
+  const KEYS = { r: 'rs.rackets.v1', s: 'rs.strings.v1', h: 'rs.shuttles.v1' };
+  const BASE = { r: window.RACKETS || [], s: window.STRINGS || [], h: window.SHUTTLES || [] };
   const clone = v => JSON.parse(JSON.stringify(v));
   function load(kind) {
     try { const v = localStorage.getItem(KEYS[kind]); if (v) return JSON.parse(v); } catch (e) {}
     return clone(BASE[kind]);
   }
-  const db = { r: load('r'), s: load('s') };
+  const db = { r: load('r'), s: load('s'), h: load('h') };
   function persist(kind) { try { localStorage.setItem(KEYS[kind], JSON.stringify(db[kind])); } catch (e) {} }
   function isCustom(kind) { try { return !!localStorage.getItem(KEYS[kind]); } catch (e) { return false; } }
 
@@ -21,6 +21,8 @@
     level: { beginner: 'มือใหม่', intermediate: 'ระดับกลาง', advanced: 'ระดับสูง', pro: 'โปร' },
     material: { multi: 'มัลติฟิลาเมนต์', mono: 'โมโนฟิลาเมนต์', braided: 'ถัก / Braided', hybrid: 'ไฮบริด', coated: 'เคลือบผิว' },
     gauge: { thin: 'บาง (≤ 0.63)', mid: 'กลาง (0.64–0.67)', thick: 'หนา (≥ 0.68)' },
+    type: { goose: 'ขนห่าน', duck: 'ขนเป็ด', natural: 'ขนธรรมชาติ', hybrid: 'ขนผสมไนลอน', synthetic: 'ขนสังเคราะห์', nylon: 'ไนลอน' },
+    grade: { tournament: 'ระดับแข่งขัน', club: 'ระดับชมรม', training: 'ระดับซ้อม' },
   };
   const ORD = {
     balance: ['head-light', 'even', 'head-heavy'],
@@ -135,6 +137,7 @@
   const KIND = {
     r: {
       title: 'เทียบไม้แบด',
+      sub: x => [lab(x, 'balance'), L.flex[x.flex], x.weights].filter(Boolean).map(esc).join(', '),
       filters: ['style', 'balance', 'level'],
       filterAll: { style: 'ทุกแนวการเล่น', balance: 'ทุกสมดุล', level: 'ทุกระดับ' },
       sorts: { name: 'เรียงตามชื่อ', year: 'ใหม่สุดก่อน', priceAsc: 'ราคาต่ำ → สูง', priceDesc: 'ราคาสูง → ต่ำ' },
@@ -179,6 +182,7 @@
     },
     s: {
       title: 'เทียบเอ็นไม้แบด',
+      sub: x => esc(gaugeLabel(x)),
       filters: ['material', 'gauge'],
       filterAll: { material: 'ทุกวัสดุ', gauge: 'ทุกขนาดเส้น' },
       sorts: { name: 'เรียงตามชื่อ', repulsion: 'ดีดมากสุดก่อน', control: 'คุมดีสุดก่อน', durability: 'ทนสุดก่อน', priceAsc: 'ราคาต่ำ → สูง' },
@@ -215,15 +219,48 @@
         ['แหล่งข้อมูล', s => sources(s)],
       ],
     },
+    h: {
+      title: 'เทียบลูกแบด',
+      sub: x => [L.type[x.type], L.grade[x.grade], x.speedText || (x.speed ? 'สปีด ' + x.speed : '')].filter(Boolean).map(esc).join(', '),
+      filters: ['type', 'grade'],
+      filterAll: { type: 'ทุกชนิดขน', grade: 'ทุกเกรด' },
+      sorts: { name: 'เรียงตามชื่อ', priceAsc: 'ราคาต่ำ → สูง', priceDesc: 'ราคาสูง → ต่ำ' },
+      match: (x, f) => (!f.type || x.type === f.type) && (!f.grade || x.grade === f.grade),
+      card: h => `
+        ${h.img ? `<img class="thumb" src="${esc(h.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<div class="thumb" aria-hidden="true"></div>'}
+        <span class="tag ${h.type === 'nylon' ? 'speed' : h.type === 'goose' ? 'control' : h.type ? 'allround' : ''}">${lab(h, 'type') || '—'}</span>
+        <div class="nm">${esc(full(h))}</div>
+        <div class="meta">${[lab(h, 'grade'), h.speedText || (h.speed ? 'สปีด ' + h.speed : '')].filter(Boolean).map(esc).join(', ')}</div>
+        <div class="meta">${[h.cork, h.perTube ? h.perTube + ' ลูก/หลอด' : ''].filter(Boolean).map(esc).join(', ')}</div>
+        ${h.price ? `<div class="price"><b class="fig">${baht(h.price)}</b> ต่อหลอด</div>` : ''}`,
+      radar: null,
+      bars: [
+        { label: 'ราคาต่อหลอด', hint: 'ราคาร้าน ตรวจอีกที', get: h => Number(h.price) || NaN, fmt: v => baht(v) },
+        { label: 'ราคาต่อลูก', get: h => (Number(h.price) && Number(h.perTube)) ? Math.round(h.price / h.perTube) : NaN, fmt: v => baht(v) },
+        { label: 'สปีด', hint: 'ยิ่งเลขมาก ลูกยิ่งเร็ว', get: h => Number(h.speed) || NaN, fmt: v => String(v), min: 74, max: 79 },
+      ],
+      spec: [
+        ['แบรนด์', h => esc(h.brand)],
+        ['รหัสสินค้า', h => dash(h.code)],
+        ['ชนิดขน', h => lab(h, 'type') || '—'],
+        ['เกรด', h => lab(h, 'grade') || '—'],
+        ['สปีด', h => dash(h.speedText || h.speed)],
+        ['หัวคอร์ก', h => dash(h.cork)],
+        ['จำนวนต่อหลอด', h => h.perTube ? h.perTube + ' ลูก' : '—'],
+        ['ราคาต่อหลอด', h => baht(h.price)],
+        ['หมายเหตุ', h => dash(h.note)],
+        ['แหล่งข้อมูล', h => sources(h)],
+      ],
+    },
   };
 
   // ---------- compare views ----------
-  const emptyFilter = kind => ({ q: '', brand: '', style: '', balance: '', level: '', material: '', gauge: '', sort: kind === 'r' ? 'year' : 'name' });
+  const emptyFilter = kind => ({ q: '', brand: '', style: '', balance: '', level: '', material: '', gauge: '', type: '', grade: '', sort: kind === 'r' ? 'year' : 'name' });
   const state = {
-    sel: { r: [], s: [] },
-    shown: { r: 48, s: 48 },
-    rank: { r: null, s: null },
-    f: { r: emptyFilter('r'), s: emptyFilter('s') },
+    sel: { r: [], s: [], h: [] },
+    shown: { r: 48, s: 48, h: 48 },
+    rank: { r: null, s: null, h: null },
+    f: { r: emptyFilter('r'), s: emptyFilter('s'), h: emptyFilter('h') },
     m: null,
     mg: { kind: 'r', edit: null, q: '' },
   };
@@ -337,20 +374,20 @@
     const box = view.querySelector('#cmp');
     updateTray(kind);
     if (!sel.length) { box.innerHTML = ''; watchSheet(); return; }
-    const rd = cfg.radar(sel);
+    const rd = cfg.radar ? cfg.radar(sel) : null;
     box.innerHTML = `
       <section class="panel">
         <div class="heads" style="grid-template-columns:repeat(${sel.length},minmax(0,1fr))">
           ${sel.map((x, i) => `<div class="head" style="--c:${COLORS[i]}">
             <button class="x" data-rm="${esc(x.id)}" aria-label="เอาออก">×</button>
             <div class="nm">${esc(full(x))}</div>
-            <div class="small muted">${kind === 'r' ? [lab(x, 'balance'), L.flex[x.flex], x.weights].filter(Boolean).map(esc).join(', ') : esc(gaugeLabel(x))}</div>
+            <div class="small muted">${KIND[kind].sub(x)}</div>
           </div>`).join('')}
         </div>
         ${sel.length < 2 ? '<p class="small muted sheet-key">เลือกเพิ่มอีกอย่างน้อย 1 รุ่นเพื่อเทียบ</p>' : ''}
-        <div class="two">
-          <div class="radar"><h3>${rd.title}</h3>${radar(rd.axes, rd.series, 340, true)}${legend(sel)}<p class="small muted">กดที่ชื่อแกน เพื่อดูว่ารุ่นไหนสุดทางด้านนั้น</p><p class="small muted">${rd.note}</p></div>
-          <div class="bars"><h3>กราฟเทียบ</h3>${bars(cfg.bars, sel, db[kind])}</div>
+        <div class="two${rd ? '' : ' solo'}">
+          ${rd ? `<div class="radar"><h3>${rd.title}</h3>${radar(rd.axes, rd.series, 340, true)}${legend(sel)}<p class="small muted">กดที่ชื่อแกน เพื่อดูว่ารุ่นไหนสุดทางด้านนั้น</p><p class="small muted">${rd.note}</p></div>` : ''}
+          <div class="bars"><h3>กราฟเทียบ</h3>${rd ? '' : legend(sel)}${bars(cfg.bars, sel, db[kind])}</div>
         </div>
         <div id="rank"></div>
         <p class="small muted sheet-key">ช่องที่ขึ้น — คือยังไม่มีข้อมูล ช่องที่ไฮไลต์คือค่าที่ต่างกัน ค่าที่มี ≈ คือค่าประเมินจากซีรีส์</p>
@@ -742,6 +779,7 @@
     tray.hidden = true;
     view.onclick = null;
     if (v === 'strings') viewCompare('s');
+    else if (v === 'shuttles') viewCompare('h');
     else if (v === 'match') viewMatch();
     else if (v === 'manage') viewManage();
     else viewCompare('r');

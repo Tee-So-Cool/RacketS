@@ -23,10 +23,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Rebuild racket and string data
+      - name: Rebuild racket, string and shuttle data
         run: |
           python3 scripts/build_rackets.py
           python3 scripts/build_strings.py
+          python3 scripts/build_shuttles.py
 
       - name: Collect site files
         run: |

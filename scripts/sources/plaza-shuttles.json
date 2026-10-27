@@ -1,0 +1,109 @@
+[
+ {
+  "id": "5200",
+  "name": "VICTOR x Butterbear Synthetic Shuttlecock Gift Set NCS (Max_BTB-GB)",
+  "price": 1180.0,
+  "img": "https://www.badmintonplaza.com/images/Max_BTB-GB-A.jpg",
+  "specs": {
+   "Stem": "Carbon Fiber",
+   "Feather Material": "LDPE",
+   "Head Material": "Composite Cork",
+   "Quantity": "1 Box = 4 Tubes (3 pcs per tube)",
+   "Origin": "Taiwan"
+  },
+  "brand": "Victor",
+  "listed": "More..."
+ },
+ {
+  "id": "5067",
+  "name": "VICTOR NEW CARBONSONIC MAX (12 PCS) Shuttlecock (NCS-MAX-12)",
+  "price": 780.0,
+  "img": "https://www.badmintonplaza.com/images/NCS-MAX-12-A.jpg",
+  "specs": {
+   "Feather Material": "LDPE",
+   "Head Material": "Composite Cork",
+   "Skirt": "Composite Carbon Fiber Material",
+   "Quantity": "1 Tubes (12 pcs)",
+   "Speed": "75, 76",
+   "Origin": "Taiwan"
+  },
+  "brand": "Victor",
+  "listed": "More..."
+ },
+ {
+  "id": "4669",
+  "name": "VICTOR NEW CARBONSONIC PRO (12 PCS) Shuttlecock (NCS-PRO)",
+  "price": 730.0,
+  "img": "https://www.badmintonplaza.com/images/NCS-PRO-12-A.jpg",
+  "specs": {
+   "Feather Material": "LDPE",
+   "Head Material": "Composite Cork",
+   "Skirt": "Composite Carbon Fiber Material",
+   "Quantity": "1 Tubes (12 pcs)",
+   "Speed": "76",
+   "Origin": "Taiwan"
+  },
+  "brand": "Victor",
+  "listed": "More..."
+ },
+ {
+  "id": "3674",
+  "name": "RSL D.TL. 81 Training Shuttlecocks Speed 76 (DTL-81)",
+  "price": 760.0,
+  "img": "https://www.badmintonplaza.com/images/DTL-81-A.jpg",
+  "specs": {
+   "Material": "High Quality Duck Feather + Full Cork",
+   "features": "Good Price",
+   ": Good Price": "Training, Practice, Recreational Play",
+   "Speed": "Speed: 76"
+  },
+  "material": "High Quality Duck Feather + Full Cork",
+  "brand": "RSL",
+  "listed": "More..."
+ },
+ {
+  "id": "4909",
+  "name": "BULLETS DIAMOND Shuttlecock Green (BULLETS-DIAMON)",
+  "price": 760.0,
+  "img": "https://www.badmintonplaza.com/images/Bullets-Diamond-A.jpg",
+  "specs": {
+   "Package": "1 tube of 12 shuttlecocks",
+   "Feather": "Goose Feather",
+   "Speed": "75 / 76"
+  },
+  "brand": "Other",
+  "listed": "More..."
+ },
+ {
+  "id": "3014",
+  "name": "VS Nylon Shuttlecock Yellow (NL-500)",
+  "price": 330.0,
+  "img": "https://www.badmintonplaza.com/images/NL-500-A.jpg",
+  "specs": {
+   "Material": "Nylon / Natural cork wood",
+   "Colour": "Yellow",
+   "Speed": "Slow Speed",
+   "Features": "Stable",
+   ": Stable": "Durable",
+   ": Durable": "Good Feeling",
+   ": Good Feeling": "Excellent Control",
+   "Package": "1 tube of 6 shuttlecocks"
+  },
+  "material": "Nylon / Natural cork wood",
+  "brand": "Other",
+  "listed": "More..."
+ },
+ {
+  "id": "2564",
+  "name": "BULLETS TOURNAMENT NO. 1 Shuttlecock (BULLETS-001)",
+  "price": 1050.0,
+  "img": "https://www.badmintonplaza.com/images/BULLETS-A.jpg",
+  "specs": {
+   "Package": "1 tube of 12 shuttlecocks",
+   "Feather": "Duck Feather",
+   "Speed": "75 / 76"
+  },
+  "brand": "Other",
+  "listed": "More..."
+ }
+]

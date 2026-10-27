@@ -1,11 +1,15 @@
 # Fetch racket listings and product pages from badmintonplaza.com (Thai shop, THB prices)
 # into scripts/sources/plaza.json. Polite: one request per second.
-# Run: python3 scripts/fetch_plaza.py
-import html, json, os, re, time, urllib.request
+# Run: python3 scripts/fetch_plaza.py            (rackets  -> scripts/sources/plaza.json)
+#      python3 scripts/fetch_plaza.py shuttles   (shuttles -> scripts/sources/plaza-shuttles.json)
+import html, json, os, re, sys, time, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = 'https://www.badmintonplaza.com/'
-BRANDS = {'Li-Ning': 54, 'Victor': 168, 'Yonex': 192, 'Mizuno': 238, 'Apacs': 266, 'VS': 296}
+MODE = sys.argv[1] if len(sys.argv) > 1 else 'rackets'
+BRANDS = ({'Li-Ning': '53_54', 'Victor': '53_168', 'Yonex': '53_192', 'Mizuno': '53_238', 'Apacs': '53_266', 'VS': '53_296'} if MODE == 'rackets'
+          else {'Victor': '71_191', 'Yonex': '71_277', 'Li-Ning': '71_72', 'RSL': '71_73', 'Other': '71_106'})
+OUT = 'plaza.json' if MODE == 'rackets' else 'plaza-shuttles.json'
 SPEC_KEYS = {'Weight/Grip Size': 'weight', 'Weight': 'weight', 'Balance': 'balance', 'Flexibility': 'flex', 'Flex': 'flex',
              'String Tension': 'tension', 'Tension': 'tension', 'Length': 'length', 'Material': 'material',
              'Frame': 'frame', 'Shaft': 'shaft', 'Player Type': 'player', 'Grip': 'grip', 'Grip Size': 'grip'}
@@ -22,7 +26,7 @@ def lines(t):
 def listing(cat):
     ids = {}
     for page in range(1, 20):
-        t = get(f'{BASE}index.php?cPath=53_{cat}&sort=4d&page={page}')
+        t = get(f'{BASE}index.php?cPath={cat}&sort=4d&page={page}')
         found = re.findall(r'product_info\.php\?(?:[^"]*&amp;|[^"]*&)?products_id=(\d+)"[^>]*>([^<]{4,})</a>', t)
         new = [(i, n) for i, n in found if i not in ids]
         for i, n in new: ids[i] = html.unescape(n).strip()
@@ -37,14 +41,16 @@ def product(pid):
     name = L[k0 - 1] if k0 else ''
     after = ' '.join(L[k0:k0 + 6]) if k0 else ''
     prices = [float(p.replace(',', '')) for p in re.findall(r'฿([\d,]+\.\d\d)', after.split('You save')[0])]
-    spec = {}
+    spec, allspec = {}, {}
     for k, l in enumerate(L[:-1]):
+        if L[k + 1].startswith(':') and len(l) <= 40 and l not in allspec:
+            allspec[l] = L[k + 1].lstrip(': ').strip()
         if l in SPEC_KEYS and L[k + 1].startswith(':') and SPEC_KEYS[l] not in spec:
             spec[SPEC_KEYS[l]] = L[k + 1].lstrip(': ').strip()
     imgs = re.findall(r'(?:src|href)="(images/[A-Za-z0-9_.()-]+\.(?:jpg|jpeg|png|webp))"', t)
     imgs = [i for i in imgs if not re.search(r'icons|logo|buttons|/z\d|more/', i)]
     a = next((i for i in imgs if re.search(r'-A\.(jpg|jpeg|png|webp)$', i, re.I)), imgs[0] if imgs else '')
-    return {'id': pid, 'name': name, 'price': prices[-1] if prices else '', 'img': BASE + a if a else '', **spec}
+    return {'id': pid, 'name': name, 'price': prices[-1] if prices else '', 'img': BASE + a if a else '', 'specs': allspec, **spec}
 
 out = []
 for brand, cat in BRANDS.items():
@@ -58,5 +64,5 @@ for brand, cat in BRANDS.items():
         p['brand'] = brand
         p['listed'] = listed
         out.append(p)
-json.dump(out, open(os.path.join(ROOT, 'scripts', 'sources', 'plaza.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+json.dump(out, open(os.path.join(ROOT, 'scripts', 'sources', OUT), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print('products', len(out), 'with img', sum(1 for p in out if p['img']), 'with balance', sum(1 for p in out if p.get('balance')))
