@@ -12,7 +12,10 @@
   "balance": "head-heavy",
   "flex": "stiff",
   "weights": "4U",
-  "src": "https://www.badmintonwarehouse.com/products/victor-auraspeed-ljh-badminton-racket"
+  "src": "https://thegodofsports.com/products/victor-auraspeed-ljh-badminton-racket",
+  "level": "intermediate",
+  "priceForeign": 8443.0,
+  "currency": "INR"
  },
  "Victor Auraspeed 25MACH": {
   "balance": "even",
@@ -28,11 +31,18 @@
   "flex": "stiff",
   "weights": "3U, 4U",
   "tmax": 30,
-  "src": "https://www.badmintonwarehouse.com/products/victor-auraspeed-100x-ultra-badminton-racket"
+  "src": "https://thegodofsports.com/products/victor-auraspeed-100x-ultra-enhanced-badminton-racket",
+  "level": "advanced",
+  "price": 5990
  },
  "Victor Auraspeed 90K Metallic": {
   "flex": "stiff",
-  "src": "https://www.badmintonwarehouse.com/products/victor-auraspeed-90k-metallic-badminton-racket-1"
+  "src": "https://www.badmintonwarehouse.com/products/victor-auraspeed-90k-metallic-badminton-racket-1",
+  "balance": "head-light",
+  "weights": "4U, 3U",
+  "tmax": 30,
+  "level": "advanced",
+  "price": 5590
  },
  "Victor Thruster Ryuga II Pro": {
   "balance": "head-heavy",
@@ -74,14 +84,20 @@
   "balance": "even",
   "flex": "stiff",
   "tmax": 30,
-  "src": "https://www.badmintonwarehouse.com/collections/all/products/victor-drivex-3h-badminton-racket-pre-strung"
+  "src": "https://www.badmintonwarehouse.com/products/victor-drivex-3h-badminton-racket-pre-strung",
+  "level": "intermediate",
+  "priceForeign": 89.99,
+  "currency": "USD"
  },
  "Victor Thruster Hammer Light Extra": {
   "balance": "head-heavy",
-  "weights": "5U, 6U",
+  "weights": "6U, 5U",
   "weight": 77,
   "tmax": 28,
-  "src": "https://www.badmintonwarehouse.com/products/victor-thruster-tk-hammer-light-ex-badminton-racket-pre-strung"
+  "src": "https://www.badmintonwarehouse.com/products/victor-thruster-tk-hammer-light-ex-badminton-racket-pre-strung",
+  "flex": "flexible",
+  "priceForeign": 120.0,
+  "currency": "USD"
  },
  "Victor Thruster Ryuga CLS": {
   "balance": "head-heavy",
@@ -92,11 +108,14 @@
   "src": "https://badmintoncorner.com/products/victor-thruster-ryuga-cls-d-flame-red-pre-strung"
  },
  "Victor Auraspeed 9": {
-  "balance": "even",
+  "balance": "head-light",
   "flex": "flexible",
   "weights": "4U",
   "weight": 82,
-  "src": "https://www.badmintonwarehouse.com/collections/victor-auraspeed-badminton-rackets/products/victor-auraspeed-9-badminton-racket"
+  "src": "https://thegodofsports.com/products/victor-auraspeed-9-badminton-racket-lime-green",
+  "tmax": 24,
+  "level": "intermediate",
+  "price": 1390
  },
  "Victor Auraspeed SYN": {
   "balance": "even",
@@ -117,11 +136,12 @@
   "style": "control",
   "balance": "even",
   "flex": "medium",
-  "level": "intermediate",
-  "weights": "4U, 5U",
+  "weights": "5U, 4U",
   "tmax": 30,
-  "src": "https://thegodofsports.com/products/li-ning-halbertec-mage-badminton-racket-4u",
-  "img": "https://thegodofsports.com/cdn/shop/files/Li-NingHalbertecMageBadmintonRacket-1.jpg?v=1791965292&width=1000"
+  "src": "https://in.lining.studio/products/halbertec-mage-4u-1",
+  "img": "https://thegodofsports.com/cdn/shop/files/Li-NingHalbertecMageBadmintonRacket-1.jpg?v=1791965292&width=1000",
+  "priceForeign": 6490.0,
+  "currency": "INR"
  },
  "Li-Ning Axforce Tiger": {
   "new": true,
@@ -129,8 +149,11 @@
   "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
-  "weights": "4U, 5U",
-  "src": "https://thegodofsports.com/products/li-ning-axforce-tiger-badminton-racket-white-lime"
+  "weights": "5U, 4U",
+  "src": "https://in.lining.studio/products/axforce-tiger-4u",
+  "tmax": 30,
+  "priceForeign": 2490.0,
+  "currency": "INR"
  },
  "Li-Ning Axforce Warrior": {
   "new": true,
@@ -138,12 +161,12 @@
   "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
-  "weights": "4U, 5U",
+  "weights": "5U, 4U",
   "weight": 82,
   "tmax": 30,
-  "src": "https://www.shopnings.com/li-ning-axforce-warrior-badminton-racket/",
-  "priceForeign": 99.99,
-  "currency": "USD"
+  "src": "https://in.lining.studio/products/axforce-warrior",
+  "priceForeign": 6490.0,
+  "currency": "INR"
  },
  "Li-Ning Tectonic 3R": {
   "new": true,
@@ -151,24 +174,26 @@
   "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
-  "level": "pro",
   "weights": "5U, 4U",
-  "src": "https://in.lining.studio/product/tectonic-3r-4u",
+  "src": "https://sg.lining.studio/products/tectonic-3r-4u",
   "img": "https://shop.kibisports.com/cdn/shop/products/AYPS197-4-02.webp?v=1704316004&width=1500",
   "weight": 83,
-  "priceForeign": 4990.0,
-  "currency": "INR"
+  "priceForeign": 109.0,
+  "currency": "SGD",
+  "tmax": 30
  },
  "Li-Ning Tectonic 7": {
   "new": true,
   "style": "allround",
   "balance": "even",
   "flex": "flexible",
-  "weight": 82,
+  "weight": 84,
   "tmax": 32,
-  "src": "https://smashuk.co/products/li-ning-tectonic-badminton-racket-frame-only",
+  "src": "https://sg.lining.studio/products/tectonic-7",
   "img": "https://thegodofsports.com/cdn/shop/files/Tectonic-7-white-gold-1.png?v=1783375168&width=1000",
-  "weights": "4U"
+  "weights": "4U",
+  "priceForeign": 259.0,
+  "currency": "SGD"
  },
  "Apacs Assailant Pro": {
   "balance": "head-heavy",
@@ -727,7 +752,8 @@
   "weights": "4U, 3U",
   "tmax": 32,
   "price": 5990,
-  "src": "https://www.nydhi.com/collections/all/products/victor-drivex-12-metallic-badminton-racket-2025"
+  "src": "https://www.badmintonwarehouse.com/products/victor-drivex-12-o-metallic-badminton-racket",
+  "balance": "even"
  },
  "Victor Thruster K HMR Pro X": {
   "new": true,
@@ -810,7 +836,9 @@
   "weights": "4U, 3U",
   "tmax": 28,
   "src": "https://thegodofsports.com/products/victor-auraspeed-100x-badminton-racket",
-  "weight": 83
+  "weight": 83,
+  "level": "advanced",
+  "price": 5390
  },
  "Apacs Cross Court Speed": {
   "balance": "even",
@@ -1129,7 +1157,10 @@
   "flex": "medium",
   "weights": "4U",
   "tmax": 25,
-  "src": "https://badmintonalley.com/Victor_AuraSpeed_3200_H_4UG5_Badminton_Racket_p/racket-victor-auraspeed-3200-h.htm"
+  "src": "https://thegodofsports.com/products/victor-auraspeed-3200-badminton-racket-white",
+  "level": "beginner",
+  "priceForeign": 2392.0,
+  "currency": "INR"
  },
  "Victor Auraspeed 6000": {
   "balance": "even",
@@ -1173,15 +1204,19 @@
   "flex": "stiff",
   "weights": "4U, 3U",
   "tmax": 30,
-  "src": "https://www.nydhi.com/products/victor-auraspeed-90k-ii-victor-badminton-rackets"
+  "src": "https://www.nydhi.com/products/victor-auraspeed-90k-ii-victor-badminton-rackets",
+  "level": "advanced",
+  "priceForeign": 229.99,
+  "currency": "USD"
  },
  "Victor Auraspeed Hang": {
   "flex": "stiff",
   "weights": "4U, 3U",
   "tmax": 30,
-  "src": "https://joybadminton.com/mr/products/victor-ars-hang-c",
+  "src": "https://www.badmintonplaza.com/index.php?cPath=53_168&currency=THB",
   "new": true,
-  "brand": "Victor"
+  "brand": "Victor",
+  "price": 4700
  },
  "Victor Auraspeed Hypersonic": {
   "balance": "even",
@@ -1207,17 +1242,20 @@
   "flex": "stiff",
   "weights": "4U",
   "tmax": 30,
-  "src": "https://www.badmintonwarehouse.com/products/thruster-k-mjolnir-metallic-m-badminton-racket",
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4121",
   "new": true,
-  "brand": "Victor"
+  "brand": "Victor",
+  "price": 6190
  },
  "Victor Thruster F Claw": {
   "flex": "stiff",
   "weights": "4U",
   "tmax": 31,
-  "src": "https://www.badmintonwarehouse.com/products/victor-thruster-f-claw-badminton-racket-ltd-a-tai-tzu-ying",
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3302",
   "new": true,
-  "brand": "Victor"
+  "brand": "Victor",
+  "balance": "head-heavy",
+  "price": 5390
  },
  "Victor Thruster F HS": {
   "balance": "head-heavy",
@@ -1239,7 +1277,10 @@
   "weights": "4U",
   "weight": 83,
   "tmax": 32,
-  "src": "https://badmintonclick.com.au/products/victor-thruster-k-falcon-head-heavy-for-power-black-gold-83-grams-badminton-racquet"
+  "src": "https://www.badmintonwarehouse.com/products/victor-thruster-f-badminton-racket",
+  "level": "advanced",
+  "priceForeign": 230.0,
+  "currency": "USD"
  },
  "Victor Thruster Ryuga TD": {
   "balance": "head-heavy",
@@ -1247,7 +1288,10 @@
   "weights": "4U, 3U",
   "weight": 83,
   "tmax": 29,
-  "src": "https://www.tennisnuts.com/victor-thruster-ryuga-td-d-badminton-racket-1644101.html"
+  "src": "https://thegodofsports.com/products/victor-thruster-ryuga-td-badminton-racket",
+  "level": "advanced",
+  "priceForeign": 6743.0,
+  "currency": "INR"
  },
  "Victor Thruster TTY": {
   "balance": "head-heavy",
@@ -1255,10 +1299,12 @@
   "tmax": 31,
   "priceForeign": 229.99,
   "currency": "USD",
-  "src": "https://www.nydhi.com/collections/badminton-rackets/products/victor-thruster-tty-a-badminton-racket",
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3847",
   "new": true,
   "brand": "Victor",
-  "level": "advanced"
+  "level": "advanced",
+  "flex": "stiff",
+  "price": 5490
  },
  "Victor Thruster TTY Ultima": {
   "balance": "head-heavy",
@@ -1600,7 +1646,11 @@
   "weights": "4U",
   "tmax": 28,
   "level": "intermediate",
-  "src": "https://www.badmintonalley.com/Victor_AuraSpeed_90F_TD_M_4UG5_Light_Blue_Racket_p/racket-victor-auraspeed-90td-m.htm"
+  "src": "https://www.badmintonalley.com/Victor_AuraSpeed_90F_TD_M_4UG5_Light_Blue_Racket_p/racket-victor-auraspeed-90td-m.htm",
+  "balance": "head-light",
+  "weight": 84,
+  "priceForeign": 169.99,
+  "currency": "USD"
  },
  "Victor Auraspeed 58": {
   "balance": "head-light",
@@ -1650,11 +1700,15 @@
   "level": "pro",
   "priceForeign": 229.99,
   "currency": "USD",
-  "src": "https://joybadminton.com/products/victor-thruster-ryuga-metallic-tk-ryuga-metallic-c-blaze-red-2023"
+  "src": "https://www.badmintonwarehouse.com/products/thruster-tk-ryuga-metallic-badminton-racket",
+  "flex": "stiff",
+  "price": 5790
  },
  "Victor Auraspeed 9000": {
   "balance": "even",
-  "src": "https://racquetguys.com/products/victor-auraspeed-9000c-badminton-racquet-factory-strung"
+  "src": "https://www.badmintonplaza.com/index.php?cPath=53_168&currency=THB",
+  "weights": "5U, 4U",
+  "price": 1990
  },
  "Victor Auraspeed 90F": {
   "weights": "5U",
@@ -1664,7 +1718,11 @@
   "flex": "stiff",
   "weights": "4U, 3U",
   "tmax": 28,
-  "src": "https://smashuk.co/products/victor-drivex-10-metallic-b-badminton-racket-frame-only"
+  "src": "https://www.badmintonwarehouse.com/products/victor-drivex-10-metallic-badminton-racket",
+  "balance": "even",
+  "level": "advanced",
+  "priceForeign": 229.99,
+  "currency": "USD"
  },
  "Victor Jetspeed S 12 II": {
   "flex": "stiff",
@@ -1672,43 +1730,59 @@
  },
  "Victor TK-66": {
   "balance": "head-heavy",
-  "weights": "6U",
+  "weights": "7U",
   "weight": 66,
-  "src": "https://www.badmintonwarehouse.com/products/thruster-tk66-superlight-badminton-racket"
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=2965",
+  "flex": "medium",
+  "tmax": 30,
+  "price": 2190
  },
  "Victor TK-70": {
   "balance": "head-heavy",
   "flex": "medium",
-  "src": "https://thegodofsports.com/products/victor-thruster-70-superlight-badminton-racket"
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3733",
+  "weights": "6U",
+  "tmax": 31,
+  "level": "intermediate",
+  "price": 2190
  },
  "Victor Thruster K 15L": {
   "balance": "head-heavy",
-  "weights": "6U",
+  "weights": "6U, 5U",
   "weight": 73,
   "priceForeign": 119.99,
   "currency": "USD",
-  "src": "https://www.nydhi.com/products/thruster-k-15l-victor-badminton-racket"
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3729",
+  "flex": "medium",
+  "tmax": 31,
+  "level": "intermediate",
+  "price": 2690
  },
  "Victor Thruster K Onigiri Pro": {
   "flex": "medium",
-  "weights": "4U",
+  "weights": "5U, 4U",
   "tmax": 29,
   "priceForeign": 205.0,
   "currency": "USD",
-  "src": "https://www.badmintonwarehouse.com/products/thruster-onigiri-pro-badminton-racket"
+  "src": "https://ca.victorsport.com/product/tk-onigiri-pro",
+  "price": 4700
  },
  "Victor Thruster K R": {
   "balance": "head-heavy",
-  "weights": "4U",
+  "weights": "4U, 3U",
   "weight": 83,
-  "tmax": 31,
-  "src": "https://www.nydhi.com/products/victor-thruster-k-r-badminton-racket-white"
+  "tmax": 29,
+  "src": "https://www.nydhi.com/products/victor-thruster-k-r-badminton-racket-white",
+  "level": "intermediate",
+  "price": 4900
  },
  "Victor Thruster Ryuga": {
   "balance": "head-heavy",
-  "weights": "4U",
+  "weights": "5U, 4U, 3U",
   "level": "advanced",
-  "src": "https://www.nydhi.com/collections/latest-badminton-products/products/victor-thruster-ryuga-badminton-rackets"
+  "src": "https://shop.au.victorsport.com/products/tk-ryuga",
+  "tmax": 31,
+  "price": 4900
  },
  "Victor Thruster Hawk": {
   "balance": "head-heavy",
@@ -1722,7 +1796,11 @@
   "flex": "stiff",
   "weights": "4U",
   "weight": 83,
-  "src": "https://www.badmintonwarehouse.com/products/victor-auraspeed-fantome-f-ac-badminton-racket"
+  "src": "https://www.badmintonwarehouse.com/products/victor-auraspeed-fantome-f-hyq-a-badminton-racket",
+  "tmax": 28,
+  "level": "advanced",
+  "priceForeign": 220.0,
+  "currency": "USD"
  },
  "Victor DriveX KT": {
   "balance": "even",
@@ -1740,7 +1818,10 @@
   "balance": "head-heavy",
   "flex": "medium",
   "weights": "4U",
-  "src": "https://sportsdirect.com.my/victor-tk-220h-ii-sn44-720118"
+  "src": "https://thegodofsports.com/products/victor-thruster-k-220-h-ii-superlight-badminton-racket",
+  "level": "intermediate",
+  "priceForeign": 3743.0,
+  "currency": "INR"
  },
  "Kawasaki High Tension G30": {
   "balance": "head-heavy",
@@ -1825,12 +1906,20 @@
   "flex": "flexible",
   "weight": 83,
   "tmax": 30,
-  "src": "https://sg.lining.studio/product/3d-calibar-x-boost"
+  "src": "https://sg.lining.studio/products/3d-calibar-x-boost",
+  "weights": "4U",
+  "priceForeign": 104.0,
+  "currency": "SGD"
  },
  "Li-Ning Aeronaut 9000 Combat": {
   "tmax": 32,
-  "src": "https://thegodofsports.com/products/li-ning-aeronaut-9000c-combat-badminton-racket-4u",
-  "weights": "4U"
+  "src": "https://sg.lining.studio/products/aeronaut-9000-combat-3u",
+  "weights": "3U",
+  "balance": "even",
+  "flex": "flexible",
+  "weight": 88,
+  "priceForeign": 499.0,
+  "currency": "SGD"
  },
  "Li-Ning Axforce 100 II": {
   "tmax": 30,
@@ -1861,18 +1950,22 @@
  },
  "Li-Ning Axforce 90 Tiger Max": {
   "balance": "head-heavy",
-  "flex": "medium",
-  "src": "https://sg.lining.studio/products/axforce-90-tiger-max",
-  "weights": "4U, 3U"
+  "flex": "flexible",
+  "src": "https://sg.lining.studio/products/axforce-90-tiger-max-4u",
+  "weights": "4U, 3U",
+  "weight": 83,
+  "tmax": 30,
+  "priceForeign": 349.0,
+  "currency": "SGD"
  },
  "Li-Ning BladeX 880 Shida": {
   "balance": "head-light",
   "weight": 83,
-  "tmax": 32,
-  "src": "https://badmintonclick.com.au/products/li-ning-bladex-880-shida-chiharu-83-grams-badminton-racquet",
+  "tmax": 30,
+  "src": "https://in.lining.studio/products/bladex-880-shida",
   "weights": "4U",
-  "priceForeign": 238.99,
-  "currency": "AUD"
+  "priceForeign": 19990.0,
+  "currency": "INR"
  },
  "Li-Ning Tectonic 1S": {
   "balance": "head-heavy",
@@ -1904,16 +1997,19 @@
  "VS Kriss Sword XP": {
   "balance": "head-heavy",
   "tmax": 38,
-  "src": "https://samimsports.bdsite.net/products/744191",
+  "src": "https://vssportsthailand.com/products/kriss-sword-xp",
   "weights": "4U",
   "priceForeign": 11500.0,
-  "currency": "BDT"
+  "currency": "BDT",
+  "flex": "medium",
+  "weight": 82,
+  "price": 5250
  },
  "VS Titan 6": {
-  "balance": "even",
-  "flex": "stiff",
+  "balance": "head-heavy",
+  "flex": "medium",
   "tmax": 35,
-  "src": "https://samimsports.bdsite.net/products/735974",
+  "src": "https://vssportsthailand.com/products/titan-6",
   "weights": "4U",
   "priceForeign": 2800.0,
   "currency": "BDT"
@@ -1921,10 +2017,12 @@
  "VS Titan 8": {
   "balance": "head-heavy",
   "tmax": 35,
-  "src": "https://samimsports.bdsite.net/products/740785",
+  "src": "https://vssportsthailand.com/products/titan-8",
   "weights": "4U",
   "priceForeign": 2800.0,
-  "currency": "BDT"
+  "currency": "BDT",
+  "weight": 82,
+  "price": 1390
  },
  "VS Titan 9": {
   "balance": "head-heavy",
@@ -2014,8 +2112,14 @@
   "weights": "5U"
  },
  "Li-Ning Axforce 20": {
-  "weights": "4U",
-  "src": "https://badmintonhq.co.uk/products/li-ning-axforce-20-4u-badminton-racket-gulf-blue"
+  "weights": "4U, 3U",
+  "src": "https://sg.lining.studio/products/axforce-20-4u",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weight": 84,
+  "tmax": 26,
+  "priceForeign": 89.0,
+  "currency": "SGD"
  },
  "Li-Ning BladeX 900 Moon Max": {
   "priceForeign": 159.99,
@@ -2031,11 +2135,20 @@
   "weights": "5U, 4U, 3U",
   "priceForeign": 329.9,
   "currency": "SGD",
-  "src": "https://sg.lining.studio/products/tectonic-9-4u"
+  "src": "https://sg.lining.studio/products/tectonic-9-4u",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weight": 83,
+  "tmax": 32
  },
  "Li-Ning Windstorm 72 Power": {
   "weights": "6U",
-  "src": "https://badmintonhq.co.uk/products/li-ning-windstorm-72-power-6u-badminton-racket-purple"
+  "src": "https://sg.lining.studio/products/windstorm-72-power",
+  "balance": "head-heavy",
+  "weight": 72,
+  "tmax": 30,
+  "priceForeign": 194.9,
+  "currency": "SGD"
  },
  "Yonex Astrox 02 Clear": {
   "price": 1299,
@@ -2092,5 +2205,399 @@
   "priceForeign": 55.99,
   "currency": "GBP",
   "src": "https://www.tennisnuts.com/yonex-nanoflare-junior-graphite-badminton-racket-1458238.html"
+ },
+ "Victor Auraspeed 100X TD": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "4U, 3U",
+  "tmax": 27,
+  "src": "https://ca.victorsport.com/product/ars-100x-td"
+ },
+ "Victor Auraspeed 3100": {
+  "weights": "4U",
+  "price": 1390,
+  "src": "https://www.badmintonplaza.com/index.php?cPath=53_168&currency=THB"
+ },
+ "Victor Auraspeed 90K II TD": {
+  "balance": "head-light",
+  "flex": "stiff",
+  "weights": "4U",
+  "tmax": 30,
+  "level": "intermediate",
+  "priceForeign": 6592.0,
+  "currency": "INR",
+  "src": "https://thegodofsports.com/victor-aursapeed-90k-ii-td-badminton-racket/"
+ },
+ "Victor Brave Sword 12": {
+  "balance": "even",
+  "level": "advanced",
+  "price": 4190,
+  "src": "https://www.nydhi.com/products/victor-brave-sword-12-badminton-racket"
+ },
+ "Victor Challenger 9500 Pro": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "tmax": 26,
+  "level": "intermediate",
+  "priceForeign": 69.99,
+  "currency": "USD",
+  "src": "https://thegodofsports.com/products/victor-challenger-pro-9500-badminton-racket-blue"
+ },
+ "Victor DriveX 7SP": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "tmax": 26,
+  "level": "intermediate",
+  "priceForeign": 139.99,
+  "currency": "USD",
+  "src": "https://thegodofsports.com/products/victor-drivex-7-sp-badminton-racket"
+ },
+ "Victor DriveX Metallic": {
+  "flex": "stiff",
+  "weights": "4U, 3U",
+  "price": 4390,
+  "src": "https://www.badmintonplaza.com/index.php?cPath=53_168&currency=THB"
+ },
+ "Victor DriveX Phecda": {
+  "balance": "even",
+  "weights": "4U, 3U",
+  "priceForeign": 139.99,
+  "currency": "USD",
+  "src": "https://joybadminton.com/products/victor-drivex-phecda-dx-phecda-a-white-4ug5"
+ },
+ "Victor Jetspeed S 12TD": {
+  "balance": "head-light",
+  "weights": "4U",
+  "priceForeign": 109.99,
+  "currency": "USD",
+  "src": "https://joybadminton.com/products/victor-jetspeed-s-12td-js-12td-r-horizon-green"
+ },
+ "Victor Thruster HMR Pro": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "4U",
+  "tmax": 32,
+  "level": "intermediate",
+  "priceForeign": 89.99,
+  "currency": "USD",
+  "src": "https://thegodofsports.com/products/victor-thruster-hmr-pro-badminton-racket-gold"
+ },
+ "Victor Thruster Ryuga II": {
+  "balance": "head-heavy",
+  "weights": "4U, 3U",
+  "tmax": 31,
+  "price": 5590,
+  "src": "https://ca.victorsport.com/product/thruster-ryuga-ii-j"
+ },
+ "Victor Thruster Ryuga II TD": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U, 3U",
+  "tmax": 29,
+  "level": "advanced",
+  "priceForeign": 6743.0,
+  "currency": "INR",
+  "src": "https://th.victorsport.com/product/thruster-ryuga-ii-td-j"
+ },
+ "VS Blade 520": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "5U",
+  "weight": 79,
+  "tmax": 30,
+  "price": 1150,
+  "src": "https://vssportsthailand.com/products/blade-520"
+ },
+ "VS Chibi": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "5U, 4U",
+  "weight": 82,
+  "tmax": 30,
+  "price": 1150,
+  "src": "https://vssportsthailand.com/products/chibi"
+ },
+ "VS Flexus700": {
+  "balance": "head-heavy",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 32,
+  "price": 2720,
+  "src": "https://vssportsthailand.com/products/flexus700"
+ },
+ "VS Goddess 8": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "5U, 4U",
+  "weight": 82,
+  "tmax": 32,
+  "price": 1590,
+  "src": "https://vssportsthailand.com/products/goddess-8"
+ },
+ "VS HC 898": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "7U",
+  "weight": 67,
+  "tmax": 30,
+  "price": 2510,
+  "src": "https://vssportsthailand.com/products/hc-898"
+ },
+ "VS Hunter": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "5U, 4U",
+  "weight": 82,
+  "tmax": 30,
+  "price": 1355,
+  "src": "https://vssportsthailand.com/products/hunter"
+ },
+ "VS JOYZ": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "5U",
+  "weight": 79,
+  "tmax": 30,
+  "level": "beginner",
+  "price": 1190,
+  "src": "https://vssportsthailand.com/products/joyz"
+ },
+ "VS Kriss Sword K6 R": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "3U",
+  "weight": 87,
+  "tmax": 30,
+  "price": 4190,
+  "src": "https://vssportsthailand.com/products/krisssword-k6-r"
+ },
+ "VS Kriss Sword K6P": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 84,
+  "tmax": 30,
+  "price": 4190,
+  "src": "https://vssportsthailand.com/products/kriss-sword-k6p"
+ },
+ "VS Kriss Sword X Limited": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 30,
+  "price": 4190,
+  "src": "https://vssportsthailand.com/products/krisssword-x-limited"
+ },
+ "VS Magic Planet": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 30,
+  "price": 1150,
+  "src": "https://vssportsthailand.com/products/magic-planet"
+ },
+ "VS NP 7900": {
+  "balance": "head-heavy",
+  "weights": "5U",
+  "weight": 77,
+  "tmax": 28,
+  "price": 1390,
+  "src": "https://vssportsthailand.com/products/np-7900"
+ },
+ "VS Rabbit 920": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 31,
+  "price": 1390,
+  "src": "https://vssportsthailand.com/products/rabbit-920"
+ },
+ "VS Razor": {
+  "balance": "head-heavy",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 28,
+  "price": 2590,
+  "src": "https://vssportsthailand.com/products/razor"
+ },
+ "VS Titan 7": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 35,
+  "price": 1390,
+  "src": "https://vssportsthailand.com/products/titan-7"
+ },
+ "VS Wind Speed F9": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "6U",
+  "weight": 72,
+  "tmax": 28,
+  "level": "beginner",
+  "price": 1690,
+  "src": "https://vssportsthailand.com/products/wind-speed-f9"
+ },
+ "VS Woven 70X": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 30,
+  "price": 2090,
+  "src": "https://vssportsthailand.com/products/woven-70x"
+ },
+ "VS Youlong Pro": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 36,
+  "price": 2490,
+  "src": "https://vssportsthailand.com/products/youlong-pro"
+ },
+ "VS Youth": {
+  "balance": "head-heavy",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 24,
+  "level": "beginner",
+  "price": 730,
+  "src": "https://vssportsthailand.com/products/youth"
+ },
+ "Li-Ning 3D Calibar 300": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "4U",
+  "weight": 83,
+  "priceForeign": 139.0,
+  "currency": "SGD",
+  "src": "https://sg.lining.studio/products/3d-calibar-300"
+ },
+ "Li-Ning 3D Calibar 900": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "weight": 83,
+  "priceForeign": 349.0,
+  "currency": "SGD",
+  "src": "https://sg.lining.studio/products/3d-calibar-900"
+ },
+ "Li-Ning Aeronaut 6000": {
+  "balance": "head-light",
+  "flex": "flexible",
+  "weights": "3U",
+  "weight": 87,
+  "tmax": 32,
+  "src": "https://sg.lining.studio/products/aeronaut-6000"
+ },
+ "Li-Ning Aeronaut 7000 Boost": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "3U",
+  "weight": 87,
+  "tmax": 32,
+  "src": "https://sg.lining.studio/products/aeronaut-7000-boost"
+ },
+ "Li-Ning Axforce 80 JR": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weight": 80,
+  "src": "https://ae.lining.studio/products/axforce-80-jr"
+ },
+ "Li-Ning Axforce 90 Dragon Max": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "4U, 3U",
+  "weight": 83,
+  "tmax": 30,
+  "priceForeign": 349.0,
+  "currency": "SGD",
+  "src": "https://sg.lining.studio/products/axforce-90-dragon-max-4u"
+ },
+ "Li-Ning Axforce Big Bang": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "5U, 4U",
+  "tmax": 28,
+  "priceForeign": 179.9,
+  "currency": "SGD",
+  "src": "https://sg.lining.studio/products/axforce-big-bang-4u-1"
+ },
+ "Li-Ning BladeX 100": {
+  "weights": "5U, 4U",
+  "tmax": 26,
+  "priceForeign": 4290.0,
+  "currency": "INR",
+  "src": "https://in.lining.studio/products/bladex-100-4u"
+ },
+ "Li-Ning BladeX 200": {
+  "balance": "head-light",
+  "flex": "stiff",
+  "weights": "4U, 3U",
+  "tmax": 27,
+  "priceForeign": 89.0,
+  "currency": "SGD",
+  "src": "https://sg.lining.studio/products/bladex-200-4u"
+ },
+ "Li-Ning BladeX 500": {
+  "balance": "head-light",
+  "flex": "stiff",
+  "weights": "4U, 3U",
+  "tmax": 29,
+  "priceForeign": 169.0,
+  "currency": "SGD",
+  "src": "https://sg.lining.studio/products/bladex-500-4u"
+ },
+ "Li-Ning BladeX 700": {
+  "balance": "head-light",
+  "flex": "stiff",
+  "weights": "5U, 4U, 3U",
+  "weight": 84,
+  "priceForeign": 259.0,
+  "currency": "SGD",
+  "src": "https://sg.lining.studio/products/bladex-700-4u"
+ },
+ "Li-Ning G-Force 3800 Superlite": {
+  "flex": "flexible",
+  "weights": "5U",
+  "weight": 79,
+  "tmax": 30,
+  "priceForeign": 79.0,
+  "currency": "SGD",
+  "src": "https://sg.lining.studio/products/g-force-superlite-79-grams"
+ },
+ "Li-Ning G-Force 3900 Superlite": {
+  "flex": "flexible",
+  "weights": "5U",
+  "weight": 79,
+  "tmax": 30,
+  "priceForeign": 79.0,
+  "currency": "SGD",
+  "src": "https://sg.lining.studio/products/g-force-3900-superlite"
+ },
+ "Li-Ning Windstorm 700": {
+  "balance": "even",
+  "flex": "flexible",
+  "weights": "5U",
+  "weight": 79,
+  "tmax": 30,
+  "priceForeign": 199.0,
+  "currency": "SGD",
+  "src": "https://sg.lining.studio/products/windstorm-700-iv"
+ },
+ "Li-Ning Windstorm 72 Speed": {
+  "balance": "head-heavy",
+  "weight": 72,
+  "tmax": 30,
+  "priceForeign": 194.9,
+  "currency": "SGD",
+  "src": "https://sg.lining.studio/products/windstorm-72-speed"
  }
 }
