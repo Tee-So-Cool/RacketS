@@ -49,7 +49,7 @@ for l in lines[hdr + 2:]:
     elif 'stiff' in f: e['flex'] = 'stiff'
     elif 'medium' in f: e['flex'] = 'medium'
     elif 'flex' in f: e['flex'] = 'flexible'
-    ws = re.findall(r'(?<![\d.])([2-9]|10)U(?=\d|\b)', col(c, 'weights'))
+    ws = re.findall(r'(?<![\d.])([2-9]|10)U(?=\d|\b)', col(c, 'weights') or col(c, 'weight'))
     if ws: e['weights'] = ', '.join(sorted({w + 'U' for w in ws}, key=lambda u: -int(u[:-1])))
     g = re.fullmatch(r'(\d{2})(?:\.\d)?(?:\s*\(4U\))?', col(c, 'avg g'))
     if g: e['weight'] = int(g.group(1))
@@ -64,6 +64,8 @@ for l in lines[hdr + 2:]:
     # prices may list several currencies "a / b / c" against "VND / THB / MYR": prefer THB, then the others ECB covers
     prs = [x.strip() for x in col(c, 'price').split(' / ')]
     curs = [x.strip().upper() for x in col(c, 'currency').split('/')]
+    # without a currency column each price carries its own code ("2,300 BDT")
+    if 'currency' not in cols: curs = [(re.findall(r'\b([A-Z]{3})\b', x) or [''])[-1] for x in prs]
     opts = {}
     for pr, cur in zip(prs, curs):
         if not re.fullmatch(r'[A-Z]{3}', cur): continue
@@ -75,7 +77,7 @@ for l in lines[hdr + 2:]:
         opts[cur] = float(s)
     if 'THB' in opts: e['price'] = int(opts['THB'])
     else:
-        for cur in ('MYR', 'USD', 'GBP', 'EUR', 'SGD', 'AUD', 'INR', 'JPY', 'VND'):
+        for cur in ('MYR', 'USD', 'GBP', 'EUR', 'SGD', 'AUD', 'INR', 'JPY', 'VND', 'BDT'):
             if cur in opts: e['priceForeign'] = opts[cur]; e['currency'] = cur; break
     if not e: continue
     e['src'] = src

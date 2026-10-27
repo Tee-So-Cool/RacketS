@@ -17,7 +17,7 @@ for c in CUR:
 extra, extra_date = {}, ''
 try:
     d = json.loads(urllib.request.urlopen(urllib.request.Request('https://open.er-api.com/v6/latest/THB', headers={'User-Agent': 'Mozilla/5.0'}), timeout=30).read())
-    for c in ('VND', 'TWD', 'KRW'):
+    for c in ('VND', 'TWD', 'KRW', 'BDT'):
         if c in d.get('rates', {}) and c not in rates: extra[c] = round(1 / d['rates'][c], 6)
     extra_date = d.get('time_last_update_utc', '')[:16]
 except Exception as e:

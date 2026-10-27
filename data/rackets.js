@@ -4975,12 +4975,15 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "medium",
+  "flex": "flexible",
   "level": "",
   "weights": "",
-  "weight": "",
+  "weight": 83,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   30
+  ],
   "price": 2490,
   "frame": "Commercial Grade Carbon Fiber",
   "shaft": "",
@@ -4994,14 +4997,13 @@ window.RACKETS = [
   "img": "https://www.badmintonplaza.com/images/AYPR166-4S-A.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://sg.lining.studio/product/3d-calibar-x-boost",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3782",
   "bayUrl": "",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance",
    "style"
   ]
  },
@@ -5153,7 +5155,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "pro",
-  "weights": "",
+  "weights": "4U",
   "weight": "",
   "grips": "G6",
   "tension": [
@@ -5173,7 +5175,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-aeronaut-9000-combat-169x300.webp",
   "source": "https://chobbad.com/racket/lining-aeronaut-9000-combat/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://thegodofsports.com/products/li-ning-aeronaut-9000c-combat-badminton-racket-4u",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
@@ -5267,8 +5269,11 @@ window.RACKETS = [
   "weights": "3U, 4U",
   "weight": 84,
   "grips": "",
-  "tension": null,
-  "price": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 8440,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -5281,13 +5286,15 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/li-ning-axforce-100-ii-300x300.png",
   "source": "https://chobbad.com/racket/lining-axforce-100-ii/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://joybadminton.com/products/li-ning-axforce-100-ii-green-4ug5",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก US$249.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/li-ning-axforce-100-ii-green-4ug5",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "li-ning-axforce-20",
@@ -5298,7 +5305,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "pro",
-  "weights": "",
+  "weights": "4U",
   "weight": "",
   "grips": "G5",
   "tension": [
@@ -5318,7 +5325,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-axforce-20-169x300.webp",
   "source": "https://chobbad.com/racket/lining-axforce-20/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://badmintonhq.co.uk/products/li-ning-axforce-20-4u-badminton-racket-gulf-blue",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4185",
   "bayUrl": "",
   "priceNote": "",
@@ -5409,8 +5416,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "pro",
-  "weights": "",
-  "weight": "",
+  "weights": "5U",
+  "weight": 79,
   "grips": "G5",
   "tension": [
    null,
@@ -5429,7 +5436,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-axforce-50-169x300.webp",
   "source": "https://chobbad.com/racket/lining-axforce-50/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://badmintonhq.co.uk/products/li-ning-axforce-50-5u-badminton-racket-dark-purple-blue",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
@@ -5592,13 +5599,16 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "medium",
+  "flex": "stiff",
   "level": "pro",
-  "weights": "",
+  "weights": "5U, 4U",
   "weight": "",
   "grips": "",
-  "tension": null,
-  "price": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 7730,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -5611,13 +5621,15 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/li-ning-axforce-80-light-300x300.jpg",
   "source": "https://chobbad.com/racket/lining-axforce-80-light/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://joybadminton.com/products/li-ning-axforce-80-light-white-blue-4ug6",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก US$229.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/li-ning-axforce-80-light-white-blue-4ug6",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "li-ning-axforce-9",
@@ -5628,11 +5640,14 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": "",
   "grips": "",
-  "tension": null,
-  "price": "",
+  "tension": [
+   null,
+   22
+  ],
+  "price": 1400,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -5645,13 +5660,15 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/li-ning-axforce-9-300x300.jpg",
   "source": "https://chobbad.com/racket/lining-axforce-9/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.tennisnuts.com/li-ning-axforce-9-badminton-racket-strung-1627447.html",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก US$41.59 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.tennisnuts.com/li-ning-axforce-9-badminton-racket-strung-1627447.html",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "li-ning-axforce-90",
@@ -5808,9 +5825,9 @@ window.RACKETS = [
   "year": 2023,
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
-  "weights": "",
+  "weights": "4U, 3U",
   "weight": "",
   "grips": "G5",
   "tension": [
@@ -5830,7 +5847,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-axforce-90-tiger-max-169x300.webp",
   "source": "https://chobbad.com/racket/lining-axforce-90-tiger-max/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://sg.lining.studio/products/axforce-90-tiger-max",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
@@ -6033,7 +6050,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "price": "",
+  "price": 3380,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -6046,13 +6063,15 @@ window.RACKETS = [
   "img": "",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://www.eliteshuttler.com/products/li-ning-axforce-warrior",
+  "specSrc": "https://www.shopnings.com/li-ning-axforce-warrior-badminton-racket/",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก US$99.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.shopnings.com/li-ning-axforce-warrior-badminton-racket/",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "li-ning-bladex-100",
@@ -6390,11 +6409,14 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "stiff",
   "level": "",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 83,
   "grips": "",
-  "tension": null,
-  "price": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 5680,
   "frame": "M46X + ULTRA Carbon Fibre / T1100 Shaft",
   "shaft": "",
   "joint": "",
@@ -6407,14 +6429,15 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/li-ning-bladex-880-shida-300x300.jpg",
   "source": "https://chobbad.com/racket/rk-lining-bladex-880-shida/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://badmintonclick.com.au/products/li-ning-bladex-880-shida-chiharu-83-grams-badminton-racquet",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก A$238.99 ที่ 1 AUD = 23.747 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonclick.com.au/products/li-ning-bladex-880-shida-chiharu-83-grams-badminton-racquet",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -6467,7 +6490,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": null,
-  "price": "",
+  "price": 7200,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -6480,13 +6503,15 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/li-ning-bladex-900-moon-max-300x300.jpg",
   "source": "https://chobbad.com/racket/lining-bladex-900-moon-max/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://centralsports.co.uk/products/li-ning-bladex-900-moon-max",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก £159.99 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://centralsports.co.uk/products/li-ning-bladex-900-moon-max",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "li-ning-bladex-900-sun-max",
@@ -6501,7 +6526,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": null,
-  "price": "",
+  "price": 7200,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -6514,13 +6539,15 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/li-ning-bladex-900-sun-max-300x300.jpg",
   "source": "https://chobbad.com/racket/lining-bladex-900-sun-max/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://badmintonhq.co.uk/products/li-ning-bladex-900-sun-max-4u-badminton-racket-rose-gold",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก £159.99 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonhq.co.uk/products/li-ning-bladex-900-sun-max-4u-badminton-racket-rose-gold",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "li-ning-bladex-assassin",
@@ -7294,7 +7321,7 @@ window.RACKETS = [
   "flex": "flexible",
   "level": "pro",
   "weights": "4U",
-  "weight": 85,
+  "weight": 83,
   "grips": "G6",
   "tension": [
    null,
@@ -7313,7 +7340,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-tectonic-1s-169x300.webp",
   "source": "https://chobbad.com/racket/lining-tectonic-1s/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://sg.lining.studio/product/tectonic-1s",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Li-Ning-Badminton-Racket/li-ning-tectonic-1s-blue-black-badminton-racket.html",
   "priceNote": "",
@@ -7330,11 +7357,11 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "pro",
-  "weights": "4U, 5U",
-  "weight": "",
+  "weights": "5U, 4U",
+  "weight": 83,
   "grips": "",
   "tension": null,
-  "price": "",
+  "price": 1770,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -7347,13 +7374,15 @@ window.RACKETS = [
   "img": "https://shop.kibisports.com/cdn/shop/products/AYPS197-4-02.webp?v=1704316004&width=1500",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://shop.kibisports.com/products/badminton-racket-tectonic-3r-4u",
+  "specSrc": "https://in.lining.studio/product/tectonic-3r-4u",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก ₹4,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/product/tectonic-3r-4u",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "li-ning-tectonic-7",
@@ -7364,7 +7393,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "",
-  "weights": "",
+  "weights": "4U",
   "weight": 82,
   "grips": "",
   "tension": [
@@ -7384,7 +7413,7 @@ window.RACKETS = [
   "img": "https://thegodofsports.com/cdn/shop/files/Tectonic-7-white-gold-1.png?v=1783375168&width=1000",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://centralsports.co.uk/products/li-ning-tectonic-7-white-gold",
+  "specSrc": "https://smashuk.co/products/li-ning-tectonic-badminton-racket-frame-only",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
@@ -7401,7 +7430,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "pro",
-  "weights": "",
+  "weights": "5U, 4U, 3U",
   "weight": "",
   "grips": "",
   "tension": null,
@@ -7418,7 +7447,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-tectonic-9-169x300.webp",
   "source": "https://chobbad.com/racket/lining-tectonic-9/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://sg.lining.studio/products/tectonic-9-4u",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
@@ -7471,8 +7500,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "pro",
-  "weights": "",
-  "weight": "",
+  "weights": "6U",
+  "weight": 72,
   "grips": "",
   "tension": [
    null,
@@ -7491,7 +7520,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-windstorm-72-169x300.webp",
   "source": "https://chobbad.com/racket/lining-windstorm-72/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://smashuk.co/products/li-ning-windstorm-72-badminton-racket-frame-only",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
@@ -7508,7 +7537,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "pro",
-  "weights": "",
+  "weights": "6U",
   "weight": "",
   "grips": "G6",
   "tension": [
@@ -7528,7 +7557,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-windstorm-72-power-169x300.webp",
   "source": "https://chobbad.com/racket/lining-windstorm-72-power/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://badmintonhq.co.uk/products/li-ning-windstorm-72-power-6u-badminton-racket-purple",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
@@ -7582,8 +7611,8 @@ window.RACKETS = [
   "balance": "even",
   "flex": "stiff",
   "level": "pro",
-  "weights": "",
-  "weight": "",
+  "weights": "5U",
+  "weight": 79,
   "grips": "G6",
   "tension": [
    null,
@@ -7602,7 +7631,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-windstorm-79-h-169x300.webp",
   "source": "https://chobbad.com/racket/lining-windstorm-79-h/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://thegodofsports.com/products/li-ning-windstorm-79-h-badminton-racket-black",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
@@ -7619,8 +7648,8 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "pro",
-  "weights": "",
-  "weight": "",
+  "weights": "5U",
+  "weight": 79,
   "grips": "G6",
   "tension": [
    null,
@@ -7639,7 +7668,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-windstorm-79-s-169x300.webp",
   "source": "https://chobbad.com/racket/lining-windstorm-79-s/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://smashuk.co/products/li-ning-windstorm-79s-badminton-racket-frame-only-white",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
@@ -11811,7 +11840,7 @@ window.RACKETS = [
    26,
    38
   ],
-  "price": "",
+  "price": 3140,
   "frame": "46T Mitsubishi Carbon Sheet",
   "shaft": "",
   "joint": "",
@@ -11824,13 +11853,15 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-kriss-sword-xp-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-kriss-sword-xp/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://samimsports.bdsite.net/products/744191",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก ৳11,500.00 ที่ 1 BDT = 0.272872 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://samimsports.bdsite.net/products/744191",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "vs-kriss-sword-xp-pro",
@@ -12327,8 +12358,8 @@ window.RACKETS = [
   "name": "Titan 6",
   "year": "",
   "style": "control",
-  "balance": "head-heavy",
-  "flex": "medium",
+  "balance": "even",
+  "flex": "stiff",
   "level": "",
   "weights": "4U",
   "weight": 83,
@@ -12337,7 +12368,7 @@ window.RACKETS = [
    24,
    35
   ],
-  "price": "",
+  "price": 760,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "",
   "joint": "",
@@ -12350,13 +12381,15 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-titan-6-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-titan-6/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://samimsports.bdsite.net/products/735974",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก ৳2,800.00 ที่ 1 BDT = 0.272872 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://samimsports.bdsite.net/products/735974",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "vs-titan-7",
@@ -12401,7 +12434,7 @@ window.RACKETS = [
   "name": "Titan 8",
   "year": "",
   "style": "control",
-  "balance": "even",
+  "balance": "head-heavy",
   "flex": "",
   "level": "",
   "weights": "4U",
@@ -12411,7 +12444,7 @@ window.RACKETS = [
    22,
    35
   ],
-  "price": "",
+  "price": 760,
   "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
@@ -12424,13 +12457,15 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-titan-8-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-titan-8/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://samimsports.bdsite.net/products/740785",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก ৳2,800.00 ที่ 1 BDT = 0.272872 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://samimsports.bdsite.net/products/740785",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "vs-titan-9",
@@ -12439,16 +12474,16 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "",
   "weights": "4U",
-  "weight": 83,
+  "weight": 82,
   "grips": "G5",
   "tension": [
    22,
    35
   ],
-  "price": "",
+  "price": 760,
   "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "",
   "joint": "",
@@ -12461,13 +12496,15 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-titan-9-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-titan-9/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://samimsports.bdsite.net/products/740826",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก ৳2,800.00 ที่ 1 BDT = 0.272872 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://samimsports.bdsite.net/products/740826",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "vs-turbo-300",
@@ -12602,7 +12639,7 @@ window.RACKETS = [
    22,
    30
   ],
-  "price": "",
+  "price": 650,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -12615,14 +12652,14 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-v-dragon-225x300.jpg",
   "source": "https://chobbad.com/racket/vs-v-dragon/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://samimsports.bdsite.net/products/897934",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก ৳2,400.00 ที่ 1 BDT = 0.272872 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://samimsports.bdsite.net/products/897934",
   "note": "",
   "est": [
-   "balance"
+   "price"
   ]
  },
  {
@@ -16900,7 +16937,7 @@ window.RACKETS = [
    20,
    30
   ],
-  "price": 2630,
+  "price": 2090,
   "frame": "HT Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -16913,11 +16950,11 @@ window.RACKETS = [
   "img": "https://www.yonex.com/media/catalog/product/i/n/int_arc2a_750-1.jpg",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/arcsaber-2-ability",
-  "specSrc": "",
+  "specSrc": "https://www.nydhi.com/collections/new-products/products/yonex-arcsaber-2-ability-badminton-racket",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-arcsaber-2-ability-black-pink-4ug5-badminton-racket.html",
-  "priceNote": "แปลงจาก US$77.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-arcsaber-2-ability-black-pink-4ug5-badminton-racket.html",
+  "priceNote": "แปลงจาก US$62.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.nydhi.com/collections/new-products/products/yonex-arcsaber-2-ability-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
    "price"
@@ -16976,7 +17013,7 @@ window.RACKETS = [
    20,
    30
   ],
-  "price": 2630,
+  "price": 1650,
   "frame": "HT Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -16989,11 +17026,11 @@ window.RACKETS = [
   "img": "https://www.yonex.com/media/catalog/product/i/n/int_arc2f_011-1.jpg",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/arcsaber-2-feel",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/yonex-arcsaber-2-feel-black-green-4ug5-badminton-racket.html",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-arcsaber-2-feel-black-green-4ug5-badminton-racket.html",
-  "priceNote": "แปลงจาก US$77.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-arcsaber-2-feel-black-green-4ug5-badminton-racket.html",
+  "priceNote": "แปลงจาก RM199.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/yonex-arcsaber-2-feel-black-green-4ug5-badminton-racket.html",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
    "price"
@@ -17348,7 +17385,7 @@ window.RACKETS = [
    20,
    30
   ],
-  "price": "",
+  "price": 1299,
   "frame": "HT Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -17361,7 +17398,7 @@ window.RACKETS = [
   "img": "https://www.yonex.com/media/catalog/product/i/n/int_ax02c_207-1.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/ax02c",
-  "specSrc": "",
+  "specSrc": "https://www.supersports.co.th/en/products/yonex-badminton-basic-yo136sp400enth-ax02-clear",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
@@ -17385,7 +17422,7 @@ window.RACKETS = [
    20,
    30
   ],
-  "price": "",
+  "price": 2340,
   "frame": "HT Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -17398,13 +17435,15 @@ window.RACKETS = [
   "img": "https://www.yonex.com/media/catalog/product/i/n/int_ax02f_136-1_1.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/ax02f",
-  "specSrc": "",
+  "specSrc": "https://centralsports.co.uk/products/yonex-astrox-02-feel-badminton-racket",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก £52.00 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://centralsports.co.uk/products/yonex-astrox-02-feel-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "yonex-astrox-1-dg",
@@ -17422,7 +17461,7 @@ window.RACKETS = [
    20,
    35
   ],
-  "price": "",
+  "price": 1600,
   "frame": "HM Graphite, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
   "joint": "Built-in T-Joint",
@@ -17435,13 +17474,15 @@ window.RACKETS = [
   "img": "https://www.yonex.com/media/catalog/product/a/s/astrox_1dg.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-1-dg",
-  "specSrc": "",
+  "specSrc": "https://shop.kibisports.com/collections/yonex-copy?page=2",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก ₹4,499.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://shop.kibisports.com/collections/yonex-copy?page=2",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "yonex-astrox-100-game",
@@ -17572,7 +17613,7 @@ window.RACKETS = [
    20,
    29
   ],
-  "price": "",
+  "price": 7430,
   "frame": "HM Graphite, NANOMESH NEO, VOLUME CUT RESIN, Tungsten",
   "shaft": "HM Graphite, Namd™",
   "joint": "Built-in T-Joint",
@@ -17585,13 +17626,15 @@ window.RACKETS = [
   "img": "https://www.yonex.com/media/catalog/product/a/l/all_ax100tva_328-1.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-100va-tour",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonwarehouse.com/collections/frontpage/products/yonex-astrox-100va-tour-badminton-racket",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก US$220.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonwarehouse.com/collections/frontpage/products/yonex-astrox-100va-tour-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "yonex-astrox-100va-zz",
@@ -17609,7 +17652,7 @@ window.RACKETS = [
    20,
    29
   ],
-  "price": 11010,
+  "price": 9960,
   "frame": "HM Graphite, Namd, Tungsten, Black Micro Core, Nanometric",
   "shaft": "HM Graphite, Namd™",
   "joint": "Built-in T-Joint",
@@ -17622,11 +17665,11 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/yonex-astrox-100va-zz-200x300.png",
   "source": "https://chobbad.com/racket/rk-yonex-astrox-100va-zz/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-100va-zz",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonwarehouse.com/products/yonex-astrox-100va-zz-badminton-racket",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-100va-zz-pro-grayish-beige-4ug5-badminton-racket.html",
-  "priceNote": "แปลงจาก US$325.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-100va-zz-pro-grayish-beige-4ug5-badminton-racket.html",
+  "priceNote": "แปลงจาก US$295.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonwarehouse.com/products/yonex-astrox-100va-zz-badminton-racket",
   "note": "",
   "est": [
    "style",
@@ -17723,7 +17766,7 @@ window.RACKETS = [
    20,
    35
   ],
-  "price": 5060,
+  "price": 1490,
   "frame": "HM Graphite, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
   "joint": "Built-in T-Joint",
@@ -17736,11 +17779,11 @@ window.RACKETS = [
   "img": "https://www.yonex.com/media/catalog/product/a/x/ax3dg_hf.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/ax3dg-hf",
-  "specSrc": "",
+  "specSrc": "https://scssports.in/collections/yonex/products/yonex-astrox-3-dg-hf-badminton-racket",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-3dg-hf-blue-white-4ug5-badminton-racket.html",
-  "priceNote": "แปลงจาก US$149.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-3dg-hf-blue-white-4ug5-badminton-racket.html",
+  "priceNote": "แปลงจาก ₹4,199.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://scssports.in/collections/yonex/products/yonex-astrox-3-dg-hf-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
    "price"
@@ -17962,15 +18005,13 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-astrox-77-tour-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-astrox-77-tour/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-77-tour",
-  "specSrc": "",
+  "specSrc": "https://www.tennisnuts.com/yonex-astrox-77-tour-badminton-racket-1621163.html",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "yonex-astrox-88-play",
@@ -18314,12 +18355,12 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "pro",
-  "weights": "",
-  "weight": "",
+  "weights": "4U, 3U",
+  "weight": 83,
   "grips": "",
   "tension": [
    20,
-   29
+   28
   ],
   "price": 9672,
   "frame": "HM Graphite + CFR + Tungsten + 2G-Namd FLEX FORCE",
@@ -18334,7 +18375,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-rk-yonex-astrox-99-pro-169x300.webp",
   "source": "https://chobbad.com/racket/rk-yonex-astrox-99-pro/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-99-pro-3ax99-p",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonwarehouse.com/collections/best-selling-badminton-rackets/products/yonex-astrox-99-pro-badminton-racket-2025-version",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4819",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-99-pro-black-green-4ug5-badminton-racket.html",
   "priceNote": "",
@@ -18388,7 +18429,7 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": "",
   "grips": "G4",
   "tension": [
@@ -18408,7 +18449,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-astrox-attack-9-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-astrox-attack-9/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://sportsgalaxy.in/product/yonex-astrox-attack-9-graphite-racket/",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
@@ -18423,7 +18464,7 @@ window.RACKETS = [
   "year": 2023,
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "advanced",
   "weights": "3U",
   "weight": 88,
@@ -18445,7 +18486,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-astrox-e13-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-astrox-e13/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/axe13",
-  "specSrc": "",
+  "specSrc": "https://gasports.com.au/products/yonex-astrox-e13-badminton-racquet-3u5-strung-black-red",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
@@ -18532,11 +18573,11 @@ window.RACKETS = [
   "brand": "Yonex",
   "name": "B7000MDM",
   "year": "",
-  "style": "",
-  "balance": "",
+  "style": "speed",
+  "balance": "head-light",
   "flex": "medium",
   "level": "advanced",
-  "weights": "",
+  "weights": "3U",
   "weight": "",
   "grips": "G4",
   "tension": [
@@ -18556,13 +18597,15 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-b7000mdm-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-b7000mdm/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/b7000mdm",
-  "specSrc": "",
+  "specSrc": "https://centralsports.co.uk/zh/products/yonex-b7000mdm-badminton-racket-red",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "yonex-duora-z-strike",
@@ -18573,7 +18616,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "extra-stiff",
   "level": "advanced",
-  "weights": "2U, 3U",
+  "weights": "3U",
   "weight": 88,
   "grips": "G4, G5",
   "tension": [
@@ -18593,7 +18636,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-duora-z-strike-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-duora-z-strike/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/duo-zs",
-  "specSrc": "",
+  "specSrc": "https://badmintonbay.com/yonex-duora-z-strike-3ug5-badminton-racket.html",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
@@ -18642,8 +18685,8 @@ window.RACKETS = [
   "brand": "Yonex",
   "name": "Isometric Lite 3",
   "year": "",
-  "style": "",
-  "balance": "",
+  "style": "allround",
+  "balance": "even",
   "flex": "medium",
   "level": "advanced",
   "weights": "3U",
@@ -18666,13 +18709,15 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-isometric-lite-3-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-isometric-lite-3/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/isol3",
-  "specSrc": "",
+  "specSrc": "https://globallinker.com/products/isometric-lite-3-887846",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "yonex-isometric-tr0",
@@ -18754,7 +18799,7 @@ window.RACKETS = [
   "name": "Muscle Power 1",
   "year": "",
   "style": "attack",
-  "balance": "head-heavy",
+  "balance": "even",
   "flex": "medium",
   "level": "beginner",
   "weights": "",
@@ -18777,15 +18822,13 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-muscle-power-1-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-muscle-power-1/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/mp1",
-  "specSrc": "",
+  "specSrc": "https://centralsports.co.uk/zh/products/yonex-muscle-power-1-badminton-racket-blue",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "yonex-muscle-power-2",
@@ -18793,7 +18836,7 @@ window.RACKETS = [
   "name": "Muscle Power 2",
   "year": "",
   "style": "attack",
-  "balance": "head-heavy",
+  "balance": "even",
   "flex": "extra-stiff",
   "level": "beginner",
   "weights": "",
@@ -18816,15 +18859,13 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-muscle-power-2-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-muscle-power-2/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/mp2",
-  "specSrc": "",
+  "specSrc": "https://badmintonhq.co.uk/products/yonex-muscle-power-2-badminton-racket-white-red",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "yonex-muscle-power-2-junior",
@@ -18832,8 +18873,8 @@ window.RACKETS = [
   "name": "Muscle Power 2 Junior",
   "year": "",
   "style": "attack",
-  "balance": "head-heavy",
-  "flex": "",
+  "balance": "even",
+  "flex": "stiff",
   "level": "beginner",
   "weights": "4U",
   "weight": 83,
@@ -18855,14 +18896,13 @@ window.RACKETS = [
   "img": "https://www.yonex.com/media/catalog/product/a/l/all_mp2jr_501-1.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/muscle-power-2-junior-mp2jr",
-  "specSrc": "",
+  "specSrc": "https://www.tennisnuts.com/shop/badminton/badminton-rackets/yonex-badminton-rackets/yonex-muscle-power-2-junior-badminton-racket-light-blue-1662049.html",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
   "priceSrc": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
-   "balance",
    "style"
   ]
  },
@@ -18873,7 +18913,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "stiff",
   "level": "beginner",
   "weights": "",
   "weight": "",
@@ -18895,7 +18935,7 @@ window.RACKETS = [
   "img": "https://www.yonex.com/media/catalog/product/m/p/mp5ltg_2023_a.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/mp5lt",
-  "specSrc": "",
+  "specSrc": "https://racquetnetwork.com/product/yonex-muscle-power-5lt-badminton-racquet/",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
@@ -18912,7 +18952,7 @@ window.RACKETS = [
   "name": "Muscle Power 8 LT",
   "year": "",
   "style": "attack",
-  "balance": "head-heavy",
+  "balance": "even",
   "flex": "medium",
   "level": "beginner",
   "weights": "3U",
@@ -18935,15 +18975,13 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-muscle-power-8-lt-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-muscle-power-8-lt/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/mp8lt",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplanet.eu/yonex-muscle-power-8-lt",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "balance"
-  ]
+  "est": []
  },
  {
   "id": "yonex-nanoflare-001-ability",
@@ -19331,7 +19369,7 @@ window.RACKETS = [
    20,
    28
   ],
-  "price": "",
+  "price": 6420,
   "frame": "HM Graphite, Nanocell NEO, EX-HMG, Solid Titanium",
   "shaft": "HM Graphite",
   "joint": "Built-in T-Joint",
@@ -19344,14 +19382,15 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/yonex-nanoflare-555-200x300.png",
   "source": "https://chobbad.com/racket/rk-yonex-nanoflare-555/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nanoflare-555",
-  "specSrc": "",
+  "specSrc": "https://www.tennisnuts.com/yonex-nanoflare-555-badminton-racket-1545541.html",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก US$189.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.tennisnuts.com/yonex-nanoflare-555-badminton-racket-1545541.html",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -19370,7 +19409,7 @@ window.RACKETS = [
    18,
    26
   ],
-  "price": "",
+  "price": 8100,
   "frame": "HM Graphite, M40X, SUPER HMG, VDM",
   "shaft": "HM Graphite",
   "joint": "NEW Built-in T-Joint",
@@ -19383,13 +19422,15 @@ window.RACKETS = [
   "img": "https://www.yonex.com/media/catalog/product/n/f/nf-70.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-70",
-  "specSrc": "",
+  "specSrc": "https://racquetguys.ca/products/yonex-nanoflare-70-badminton-racquet",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก US$239.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://racquetguys.ca/products/yonex-nanoflare-70-badminton-racquet",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "yonex-nanoflare-700-game",
@@ -19457,7 +19498,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-nanoflare-700-play-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-nanoflare-700-play/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/2nf700pl",
-  "specSrc": "",
+  "specSrc": "https://badmintonhq.co.uk/products/yonex-nanoflare-700-game-4u-badminton-racket-silver-sky-blue",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4976",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/Yonex-nanoflare-700-play-midnight-purple-4ug5-badminton-racket.html",
   "priceNote": "",
@@ -19474,8 +19515,8 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "medium",
   "level": "pro",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 83,
   "grips": "",
   "tension": [
    19,
@@ -19494,7 +19535,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-rk-yonex-nanoflare-700-pro-169x300.webp",
   "source": "https://chobbad.com/racket/rk-yonex-nanoflare-700-pro/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nanoflare-700-pro",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonwarehouse.com/collections/badminton-rackets-for-speed/products/yonex-nanoflare-700-pro-badminton-racket",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",
@@ -19740,7 +19781,7 @@ window.RACKETS = [
    17,
    22
   ],
-  "price": "",
+  "price": 2520,
   "frame": "Graphite, Nanocell NEO, HM Graphite",
   "shaft": "Graphite",
   "joint": "Built-in T-Joint",
@@ -19753,13 +19794,15 @@ window.RACKETS = [
   "img": "https://www.yonex.com/media/catalog/product/n/f/nf-jr_cyan.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/nf-jr",
-  "specSrc": "",
+  "specSrc": "https://www.tennisnuts.com/yonex-nanoflare-junior-graphite-badminton-racket-1458238.html",
   "shopUrl": "",
   "bayUrl": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก £55.99 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.tennisnuts.com/yonex-nanoflare-junior-graphite-badminton-racket-1458238.html",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "yonex-nanoflare-nextage",
@@ -19807,8 +19850,8 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
-  "weight": "",
+  "weights": "5U",
+  "weight": 78,
   "grips": "G4",
   "tension": [
    20,
@@ -19827,7 +19870,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-nanoflare-speed-7-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-nanoflare-speed-7/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://thegodofsports.com/products/yonex-nanoflare-speed-7-badminton-racket-blue",
   "shopUrl": "",
   "bayUrl": "",
   "priceNote": "",

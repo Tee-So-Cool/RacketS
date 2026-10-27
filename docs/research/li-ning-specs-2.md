@@ -1,0 +1,32 @@
+# Li-Ning specs round 2 (gap fill)
+
+Values from WebSearch summaries of retailer pages plus one fetch of in.lining.studio (official Li-Ning India store; only used for Axforce Cannon Pro, not a gap model). Most rows are retailer-sourced. Level skipped. Prices are snapshots, often sale. "sibling" = data belongs to a related variant.
+
+| model | balance | flex | weight | avg g | max lbs | level | price | sources | notes |
+|---|---|---|---|---|---|---|---|---|---|
+| 3D Calibar 300 |  |  | 4U |  |  |  |  | https://thegodofsports.com/products/li-ning-3d-calibar-300b-boost-badminton-racket | sibling: data is for 3D Calibar 300B Boost (83g 4U, head-heavy 300mm, medium, 30 lbs; single source for tension) |
+| 3D Calibar 600B |  | medium | 3U |  |  |  |  | https://smashuk.co/products/li-ning-3d-calibar-600-boost-badminton-racket-frame-only | sibling: listing is 3D Calibar 600 Boost (3U 85-89g, head-heavy, medium); provisional |
+| 3D Calibar 900 |  |  | 3U |  | 32 (3U) |  |  | https://badmintonhq.co.uk/products/li-ning-3d-calibar-900-boost-badminton-racket / https://achivr.in/products/li-ning-3d-calibar-900-boost | sibling: 900 Boost; another listing says 87g head-heavy vs even 292mm; 32 lbs from one page only |
+| 3D Calibar X Boost | head-heavy | flexible |  | 83 | 30 |  |  | https://sg.lining.studio/product/3d-calibar-x-boost / https://shop.kibisports.com/products/li-ning-3d-calibar-x-boost-carbon-graphite-strung-racquet-83-grams-30-lbs-string-tension-and-free-full-cover-kibi-sports | 305mm balance point; U class not stated |
+| Aeronaut 7000 Boost |  |  | 4U |  | 30 (4U) |  |  | https://badmintonhq.co.uk/products/li-ning-aeronaut-7000-badminton-racket-blue-green | sibling: page is Aeronaut 7000 (non-Boost, discontinued), 20-30 lbs |
+| Aeronaut 9000 Combat |  |  | 4U |  | 32 (4U) |  |  | https://thegodofsports.com/products/li-ning-aeronaut-9000c-combat-badminton-racket-4u / https://centralsports.co.uk/products/li-ning-aeronaut-9000c-aypt405 | Pages mix 9000 and 9000C; head-heavy 298mm |
+| Axforce 100 II |  |  |  |  | 31 (3U) 30 (4U) |  | 249.99 USD / 399 AUD | https://joybadminton.com/products/li-ning-axforce-100-ii-green-4ug5 / https://gemsports.com.au/products/li-ning-2025-axforce-100-ii-green-badminton-racquet-unstrung-free-grip | Stiff head-heavy; retailer price varies 259.99 USD to 249.99 USD sale |
+| Axforce 20 |  |  | 4U |  |  |  |  | https://badmintonhq.co.uk/products/li-ning-axforce-20-4u-badminton-racket-gulf-blue | 80-84g; also 3U version mentioned |
+| Axforce 50 |  |  | 5U | 79 |  |  |  | https://badmintonhq.co.uk/products/li-ning-axforce-50-5u-badminton-racket-dark-purple-blue | Single source |
+| Axforce 80 Light | head-heavy | stiff | 4U 5U | conflict | 30 (4U) 29 (5U) |  | 229 USD | https://joybadminton.com/products/li-ning-axforce-80-light-white-blue-4ug6 / https://gemsports.com.au/products/li-ning-2025-axforce-80-light-white-blue-badminton-racquet-unstrung-free-grip | Avg 78g (one shop) vs 83g (another); one listing gives 28 lbs max; USD is sale (was 297.70) |
+| Axforce 9 |  |  | 4U |  | 22 (4U) |  | 41.59 USD | https://www.tennisnuts.com/li-ning-axforce-9-badminton-racket-strung-1627447.html | Discontinued; tension range 17-22 lbs; sale price (RRP 66 USD), listing currency not verified |
+| Axforce 90 Tiger Max | head-heavy | medium | 3U 4U | conflict |  |  |  | https://sg.lining.studio/products/axforce-90-tiger-max / https://badmintonhq.co.uk/products/li-ning-axforce-90-tiger-max-badminton-racket-molten-lava | 4U listed 83g vs 85.5g |
+| Axforce Warrior |  |  |  |  |  |  | 99.99 USD | https://www.shopnings.com/li-ning-axforce-warrior-badminton-racket/ | Sale price (was 149.99); page claims "Launch 2026"; balance point 310-313mm |
+| BladeX 880 Shida | head-light |  | 4U | 83 | 32 (4U) |  | 238.99 AUD | https://badmintonclick.com.au/products/li-ning-bladex-880-shida-chiharu-83-grams-badminton-racquet | Sale price (listed 399 AUD elsewhere); currency assumed from Australian shop |
+| BladeX 900 Moon Max |  |  |  |  |  |  | 159.99 GBP | https://centralsports.co.uk/products/li-ning-bladex-900-moon-max | Sale (was 190 GBP) |
+| BladeX 900 Sun Max |  |  |  |  |  |  | 159.99 GBP / 269 AUD | https://badmintonhq.co.uk/products/li-ning-bladex-900-sun-max-4u-badminton-racket-rose-gold / https://gemsports.com.au/products/li-ning-blade-x-900-sun-max-badminton-racquet-gold | Sale prices |
+| G-Force 3800 Superlite |  |  | 5U |  | 30 (5U) |  |  | https://www.houseofracket.in/products/g-force-3800-superlite-ii | sibling: listing is G-Force 3800 II Superlite; low-quality host |
+| Tectonic 1S | head-heavy |  | 4U | 83 | 26 (4U) |  | 69.90 SGD | https://sg.lining.studio/product/tectonic-1s / https://shop.kibisports.com/products/badminton-racket-tectonic-1s | Another shop lists 85g; ~301mm |
+| Tectonic 3R |  |  | 4U 5U | 83 | conflict |  | 4,990 INR | https://in.lining.studio/product/tectonic-3r-4u / https://shop.kibisports.com/products/tectonic-3r-4u | avg 83 is 4U (5U 79g); max 26 (Li-Ning India) vs 30 (Kibi); INR sale price (regular 7,690) |
+| Tectonic 7 |  |  | 4U |  |  |  |  | https://smashuk.co/products/li-ning-tectonic-badminton-racket-frame-only | 80-84g, single source |
+| Tectonic 9 |  |  | 3U 4U 5U |  | conflict |  | 329.90 SGD | https://sg.lining.studio/products/tectonic-9-4u / https://centralsports.co.uk/products/li-ning-tectonic-9 | Max 32 (4U, Li-Ning SG, JWave) vs 30 (Central Sports); SGD sale price (regular 399) |
+| Windstorm 700 |  |  | 5U | 79 |  |  |  | https://shop.kibisports.com/products/windstorm-700-special-edition | sibling: data is Windstorm 700 Special Edition |
+| Windstorm 72 |  |  | 6U | 72 |  |  |  | https://smashuk.co/products/li-ning-windstorm-72-badminton-racket-frame-only | Flexible, head-heavy per two shops; 22-30 lbs |
+| Windstorm 72 Power |  |  | 6U |  |  |  |  | https://badmintonhq.co.uk/products/li-ning-windstorm-72-power-6u-badminton-racket-purple | From URL/title 6U |
+| Windstorm 79-H | conflict | conflict | 5U | 79 | 30 (5U) |  |  | https://thegodofsports.com/products/li-ning-windstorm-79-h-badminton-racket-black / https://www.tennisnuts.com/li-ning-windstorm-79-h-badminton-racket-frame-only-1627411.html | Balance even vs head-heavy; flex stiff vs medium vs flexible across shops |
+| Windstorm 79-S |  | flexible | 5U | 79 | 30 (5U) |  |  | https://smashuk.co/products/li-ning-windstorm-79s-badminton-racket-frame-only-white / https://badmintonhq.co.uk/products/li-ning-windstorm-79s-5u-badminton-racket-pearl-white | Tension range 21-30 lbs |

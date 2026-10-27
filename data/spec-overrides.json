@@ -141,7 +141,9 @@
   "weights": "4U, 5U",
   "weight": 82,
   "tmax": 30,
-  "src": "https://www.eliteshuttler.com/products/li-ning-axforce-warrior"
+  "src": "https://www.shopnings.com/li-ning-axforce-warrior-badminton-racket/",
+  "priceForeign": 99.99,
+  "currency": "USD"
  },
  "Li-Ning Tectonic 3R": {
   "new": true,
@@ -150,9 +152,12 @@
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "pro",
-  "weights": "4U, 5U",
-  "src": "https://shop.kibisports.com/products/badminton-racket-tectonic-3r-4u",
-  "img": "https://shop.kibisports.com/cdn/shop/products/AYPS197-4-02.webp?v=1704316004&width=1500"
+  "weights": "5U, 4U",
+  "src": "https://in.lining.studio/product/tectonic-3r-4u",
+  "img": "https://shop.kibisports.com/cdn/shop/products/AYPS197-4-02.webp?v=1704316004&width=1500",
+  "weight": 83,
+  "priceForeign": 4990.0,
+  "currency": "INR"
  },
  "Li-Ning Tectonic 7": {
   "new": true,
@@ -161,8 +166,9 @@
   "flex": "flexible",
   "weight": 82,
   "tmax": 32,
-  "src": "https://centralsports.co.uk/products/li-ning-tectonic-7-white-gold",
-  "img": "https://thegodofsports.com/cdn/shop/files/Tectonic-7-white-gold-1.png?v=1783375168&width=1000"
+  "src": "https://smashuk.co/products/li-ning-tectonic-badminton-racket-frame-only",
+  "img": "https://thegodofsports.com/cdn/shop/files/Tectonic-7-white-gold-1.png?v=1783375168&width=1000",
+  "weights": "4U"
  },
  "Apacs Assailant Pro": {
   "balance": "head-heavy",
@@ -1813,5 +1819,278 @@
   "weight": 81,
   "tmax": 35,
   "src": "https://www.badmintonbay.com/apacs-thunderdome-6-pt-2-badminton-racket.html"
+ },
+ "Li-Ning 3D Calibar X Boost": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weight": 83,
+  "tmax": 30,
+  "src": "https://sg.lining.studio/product/3d-calibar-x-boost"
+ },
+ "Li-Ning Aeronaut 9000 Combat": {
+  "tmax": 32,
+  "src": "https://thegodofsports.com/products/li-ning-aeronaut-9000c-combat-badminton-racket-4u",
+  "weights": "4U"
+ },
+ "Li-Ning Axforce 100 II": {
+  "tmax": 30,
+  "src": "https://joybadminton.com/products/li-ning-axforce-100-ii-green-4ug5",
+  "priceForeign": 249.99,
+  "currency": "USD"
+ },
+ "Li-Ning Axforce 50": {
+  "weight": 79,
+  "src": "https://badmintonhq.co.uk/products/li-ning-axforce-50-5u-badminton-racket-dark-purple-blue",
+  "weights": "5U"
+ },
+ "Li-Ning Axforce 80 Light": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "tmax": 30,
+  "src": "https://joybadminton.com/products/li-ning-axforce-80-light-white-blue-4ug6",
+  "weights": "5U, 4U",
+  "priceForeign": 229.0,
+  "currency": "USD"
+ },
+ "Li-Ning Axforce 9": {
+  "tmax": 22,
+  "src": "https://www.tennisnuts.com/li-ning-axforce-9-badminton-racket-strung-1627447.html",
+  "weights": "4U",
+  "priceForeign": 41.59,
+  "currency": "USD"
+ },
+ "Li-Ning Axforce 90 Tiger Max": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "src": "https://sg.lining.studio/products/axforce-90-tiger-max",
+  "weights": "4U, 3U"
+ },
+ "Li-Ning BladeX 880 Shida": {
+  "balance": "head-light",
+  "weight": 83,
+  "tmax": 32,
+  "src": "https://badmintonclick.com.au/products/li-ning-bladex-880-shida-chiharu-83-grams-badminton-racquet",
+  "weights": "4U",
+  "priceForeign": 238.99,
+  "currency": "AUD"
+ },
+ "Li-Ning Tectonic 1S": {
+  "balance": "head-heavy",
+  "weight": 83,
+  "tmax": 26,
+  "src": "https://sg.lining.studio/product/tectonic-1s",
+  "weights": "4U",
+  "priceForeign": 69.9,
+  "currency": "SGD"
+ },
+ "Li-Ning Windstorm 72": {
+  "weight": 72,
+  "src": "https://smashuk.co/products/li-ning-windstorm-72-badminton-racket-frame-only",
+  "weights": "6U"
+ },
+ "Li-Ning Windstorm 79-H": {
+  "weight": 79,
+  "tmax": 30,
+  "src": "https://thegodofsports.com/products/li-ning-windstorm-79-h-badminton-racket-black",
+  "weights": "5U"
+ },
+ "Li-Ning Windstorm 79-S": {
+  "flex": "flexible",
+  "weight": 79,
+  "tmax": 30,
+  "src": "https://smashuk.co/products/li-ning-windstorm-79s-badminton-racket-frame-only-white",
+  "weights": "5U"
+ },
+ "VS Kriss Sword XP": {
+  "balance": "head-heavy",
+  "tmax": 38,
+  "src": "https://samimsports.bdsite.net/products/744191",
+  "weights": "4U",
+  "priceForeign": 11500.0,
+  "currency": "BDT"
+ },
+ "VS Titan 6": {
+  "balance": "even",
+  "flex": "stiff",
+  "tmax": 35,
+  "src": "https://samimsports.bdsite.net/products/735974",
+  "weights": "4U",
+  "priceForeign": 2800.0,
+  "currency": "BDT"
+ },
+ "VS Titan 8": {
+  "balance": "head-heavy",
+  "tmax": 35,
+  "src": "https://samimsports.bdsite.net/products/740785",
+  "weights": "4U",
+  "priceForeign": 2800.0,
+  "currency": "BDT"
+ },
+ "VS Titan 9": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weight": 82,
+  "tmax": 35,
+  "src": "https://samimsports.bdsite.net/products/740826",
+  "priceForeign": 2800.0,
+  "currency": "BDT"
+ },
+ "VS V-Dragon": {
+  "balance": "head-heavy",
+  "tmax": 30,
+  "src": "https://samimsports.bdsite.net/products/897934",
+  "weights": "4U",
+  "priceForeign": 2400.0,
+  "currency": "BDT"
+ },
+ "Yonex Arcsaber 2 Ability": {
+  "balance": "even",
+  "src": "https://www.nydhi.com/collections/new-products/products/yonex-arcsaber-2-ability-badminton-racket",
+  "weights": "4U",
+  "priceForeign": 62.0,
+  "currency": "USD"
+ },
+ "Yonex Arcsaber 2 Feel": {
+  "balance": "even",
+  "src": "https://www.badmintonbay.com/yonex-arcsaber-2-feel-black-green-4ug5-badminton-racket.html",
+  "weights": "4U",
+  "priceForeign": 199.9,
+  "currency": "MYR"
+ },
+ "Yonex Astrox 77 Tour": {
+  "balance": "head-heavy",
+  "src": "https://www.tennisnuts.com/yonex-astrox-77-tour-badminton-racket-1621163.html"
+ },
+ "Yonex Astrox 99 Pro": {
+  "weight": 83,
+  "tmax": 28,
+  "src": "https://www.badmintonwarehouse.com/collections/best-selling-badminton-rackets/products/yonex-astrox-99-pro-badminton-racket-2025-version",
+  "weights": "4U, 3U"
+ },
+ "Yonex Astrox E13": {
+  "flex": "medium",
+  "src": "https://gasports.com.au/products/yonex-astrox-e13-badminton-racquet-3u5-strung-black-red",
+  "weights": "3U"
+ },
+ "Yonex B7000MDM": {
+  "balance": "head-light",
+  "src": "https://centralsports.co.uk/zh/products/yonex-b7000mdm-badminton-racket-red",
+  "weights": "3U"
+ },
+ "Yonex Isometric Lite 3": {
+  "balance": "even",
+  "src": "https://globallinker.com/products/isometric-lite-3-887846"
+ },
+ "Yonex Muscle Power 1": {
+  "balance": "even",
+  "src": "https://centralsports.co.uk/zh/products/yonex-muscle-power-1-badminton-racket-blue"
+ },
+ "Yonex Muscle Power 2": {
+  "balance": "even",
+  "src": "https://badmintonhq.co.uk/products/yonex-muscle-power-2-badminton-racket-white-red"
+ },
+ "Yonex Muscle Power 2 Junior": {
+  "balance": "even",
+  "flex": "stiff",
+  "src": "https://www.tennisnuts.com/shop/badminton/badminton-rackets/yonex-badminton-rackets/yonex-muscle-power-2-junior-badminton-racket-light-blue-1662049.html",
+  "weights": "4U"
+ },
+ "Yonex Muscle Power 5 LT": {
+  "flex": "stiff",
+  "src": "https://racquetnetwork.com/product/yonex-muscle-power-5lt-badminton-racquet/"
+ },
+ "Yonex Muscle Power 8 LT": {
+  "balance": "even",
+  "src": "https://www.badmintonplanet.eu/yonex-muscle-power-8-lt"
+ },
+ "Yonex Nanoflare 700 Pro": {
+  "weight": 83,
+  "src": "https://www.badmintonwarehouse.com/collections/badminton-rackets-for-speed/products/yonex-nanoflare-700-pro-badminton-racket",
+  "weights": "4U"
+ },
+ "Yonex Nanoflare Speed 7": {
+  "weight": 78,
+  "src": "https://thegodofsports.com/products/yonex-nanoflare-speed-7-badminton-racket-blue",
+  "weights": "5U"
+ },
+ "Li-Ning Axforce 20": {
+  "weights": "4U",
+  "src": "https://badmintonhq.co.uk/products/li-ning-axforce-20-4u-badminton-racket-gulf-blue"
+ },
+ "Li-Ning BladeX 900 Moon Max": {
+  "priceForeign": 159.99,
+  "currency": "GBP",
+  "src": "https://centralsports.co.uk/products/li-ning-bladex-900-moon-max"
+ },
+ "Li-Ning BladeX 900 Sun Max": {
+  "priceForeign": 159.99,
+  "currency": "GBP",
+  "src": "https://badmintonhq.co.uk/products/li-ning-bladex-900-sun-max-4u-badminton-racket-rose-gold"
+ },
+ "Li-Ning Tectonic 9": {
+  "weights": "5U, 4U, 3U",
+  "priceForeign": 329.9,
+  "currency": "SGD",
+  "src": "https://sg.lining.studio/products/tectonic-9-4u"
+ },
+ "Li-Ning Windstorm 72 Power": {
+  "weights": "6U",
+  "src": "https://badmintonhq.co.uk/products/li-ning-windstorm-72-power-6u-badminton-racket-purple"
+ },
+ "Yonex Astrox 02 Clear": {
+  "price": 1299,
+  "src": "https://www.supersports.co.th/en/products/yonex-badminton-basic-yo136sp400enth-ax02-clear"
+ },
+ "Yonex Astrox 02 Feel": {
+  "priceForeign": 52.0,
+  "currency": "GBP",
+  "src": "https://centralsports.co.uk/products/yonex-astrox-02-feel-badminton-racket"
+ },
+ "Yonex Astrox 1 DG": {
+  "priceForeign": 4499.0,
+  "currency": "INR",
+  "src": "https://shop.kibisports.com/collections/yonex-copy?page=2"
+ },
+ "Yonex Astrox 100VA Tour": {
+  "priceForeign": 220.0,
+  "currency": "USD",
+  "src": "https://www.badmintonwarehouse.com/collections/frontpage/products/yonex-astrox-100va-tour-badminton-racket"
+ },
+ "Yonex Astrox 100VA ZZ": {
+  "priceForeign": 295.0,
+  "currency": "USD",
+  "src": "https://www.badmintonwarehouse.com/products/yonex-astrox-100va-zz-badminton-racket"
+ },
+ "Yonex Astrox 3 DG HF": {
+  "priceForeign": 4199.0,
+  "currency": "INR",
+  "src": "https://scssports.in/collections/yonex/products/yonex-astrox-3-dg-hf-badminton-racket"
+ },
+ "Yonex Astrox Attack 9": {
+  "weights": "4U",
+  "src": "https://sportsgalaxy.in/product/yonex-astrox-attack-9-graphite-racket/"
+ },
+ "Yonex Duora Z-Strike": {
+  "weights": "3U",
+  "src": "https://badmintonbay.com/yonex-duora-z-strike-3ug5-badminton-racket.html"
+ },
+ "Yonex Nanoflare 555": {
+  "priceForeign": 189.99,
+  "currency": "USD",
+  "src": "https://www.tennisnuts.com/yonex-nanoflare-555-badminton-racket-1545541.html"
+ },
+ "Yonex Nanoflare 70": {
+  "priceForeign": 239.99,
+  "currency": "USD",
+  "src": "https://racquetguys.ca/products/yonex-nanoflare-70-badminton-racquet"
+ },
+ "Yonex Nanoflare 700 Play": {
+  "weights": "4U",
+  "src": "https://badmintonhq.co.uk/products/yonex-nanoflare-700-game-4u-badminton-racket-silver-sky-blue"
+ },
+ "Yonex Nanoflare Junior": {
+  "priceForeign": 55.99,
+  "currency": "GBP",
+  "src": "https://www.tennisnuts.com/yonex-nanoflare-junior-graphite-badminton-racket-1458238.html"
  }
 }

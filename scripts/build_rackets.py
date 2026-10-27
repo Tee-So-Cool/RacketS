@@ -282,7 +282,7 @@ for r in rackets.values():
     r['est'] = est
 # ---- foreign price -> THB, only where no Thai price exists; flagged as an estimate with its note ----
 FX = json.load(open(os.path.join(SRC, 'fx.json'))) if os.path.exists(os.path.join(SRC, 'fx.json')) else {'toTHB': {}, 'date': ''}
-SYM = {'VND': '₫', 'USD': 'US$', 'GBP': '£', 'EUR': '€', 'MYR': 'RM', 'SGD': 'S$', 'AUD': 'A$', 'INR': '₹', 'JPY': '¥', 'CNY': 'CN¥'}
+SYM = {'VND': '₫', 'USD': 'US$', 'GBP': '£', 'EUR': '€', 'MYR': 'RM', 'SGD': 'S$', 'AUD': 'A$', 'INR': '₹', 'JPY': '¥', 'CNY': 'CN¥', 'BDT': '৳'}
 converted = 0
 for r in rackets.values():
     pf = r.get('priceForeign')
