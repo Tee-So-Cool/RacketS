@@ -154,7 +154,7 @@
         ['น้ำหนัก', r => dash(r.weights)],
         ['น้ำหนักเฉลี่ย', r => r.weight ? r.weight + ' g' : '—'],
         ['ขนาดด้าม', r => dash(r.grips)],
-        ['ความตึงที่รับได้', r => r.tension ? `${r.tension[0]}–${r.tension[1]} lbs` : '—'],
+        ['ความตึงที่รับได้', r => !r.tension ? '—' : r.tension[0] ? `${r.tension[0]}–${r.tension[1]} lbs` : `≤ ${r.tension[1]} lbs`],
         ['วัสดุเฟรม', r => dash(r.frame)],
         ['วัสดุก้าน', r => dash(r.shaft)],
         ['ข้อต่อเฟรม-ก้าน', r => dash(r.joint)],
@@ -452,7 +452,7 @@
           <div>
             <h3>ความตึงที่แนะนำ</h3>
             <div class="tension">${res.tension} lbs</div>
-            <div class="small muted">กรอบทางการของไม้ ${res.range[0]}–${res.range[1]} lbs${s.tensionMax ? ` · เพดานเอ็น ${s.tensionMax} lbs` : ''}</div>
+            <div class="small muted">กรอบทางการของไม้ ${res.range[0] ? res.range[0] + '–' : '≤ '}${res.range[1]} lbs${s.tensionMax ? ` · เพดานเอ็น ${s.tensionMax} lbs` : ''}</div>
             <ul class="reasons">${res.reasons.map(([k, t]) => `<li><span class="${k}">${k === 'ok' ? '✓' : '!'}</span><span>${esc(t)}</span></li>`).join('') || '<li class="muted">ไม่มีข้อสังเกตเพิ่มเติม</li>'}</ul>
           </div>
         </div>

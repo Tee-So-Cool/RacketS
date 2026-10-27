@@ -6,7 +6,7 @@
   <title>เทียบไม้แบด</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=__V__">
 </head>
 <body>
   <header class="top">
@@ -23,8 +23,9 @@
   <main class="wrap" id="view"></main>
   <div class="tray" id="tray" hidden></div>
 
-  <script src="data/rackets.js"></script>
-  <script src="data/strings.js"></script>
-  <script src="app.js"></script>
+  <!-- __V__ is replaced with the commit hash on deploy so browsers fetch fresh data -->
+  <script src="data/rackets.js?v=__V__"></script>
+  <script src="data/strings.js?v=__V__"></script>
+  <script src="app.js?v=__V__"></script>
 </body>
 </html>

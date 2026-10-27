@@ -143,7 +143,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   30,
+   null,
    38
   ],
   "price": "",
@@ -210,7 +210,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   27,
+   null,
    35
   ],
   "price": "",
@@ -455,7 +455,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   30,
+   null,
    38
   ],
   "price": "",
@@ -488,7 +488,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   30,
+   null,
    38
   ],
   "price": "",
@@ -551,7 +551,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   30,
+   null,
    38
   ],
   "price": "",
@@ -648,7 +648,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   27,
+   null,
    35
   ],
   "price": "",
@@ -715,7 +715,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   30,
+   null,
    38
   ],
   "price": "",
@@ -1160,7 +1160,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   30,
+   null,
    38
   ],
   "price": "",
@@ -1193,7 +1193,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   30,
+   null,
    38
   ],
   "price": "",
@@ -1258,7 +1258,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   30,
+   null,
    38
   ],
   "price": "",
@@ -1291,7 +1291,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   30,
+   null,
    38
   ],
   "price": "",
@@ -1448,7 +1448,7 @@ window.RACKETS = [
   "weight": 86,
   "grips": "",
   "tension": [
-   30,
+   null,
    38
   ],
   "price": "",
@@ -1513,7 +1513,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   27,
+   null,
    35
   ],
   "price": "",
@@ -1736,7 +1736,7 @@ window.RACKETS = [
   "weight": 81,
   "grips": "",
   "tension": [
-   30,
+   null,
    38
   ],
   "price": "",
@@ -2113,7 +2113,7 @@ window.RACKETS = [
   "weight": 81,
   "grips": "",
   "tension": [
-   30,
+   null,
    38
   ],
   "price": "",
@@ -2390,7 +2390,7 @@ window.RACKETS = [
   "weight": 79,
   "grips": "",
   "tension": [
-   24,
+   null,
    32
   ],
   "price": "",
@@ -2453,7 +2453,7 @@ window.RACKETS = [
   "weight": 81,
   "grips": "",
   "tension": [
-   27,
+   null,
    35
   ],
   "price": "",
@@ -2548,7 +2548,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   30,
+   null,
    38
   ],
   "price": "",
@@ -2641,7 +2641,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   27,
+   null,
    35
   ],
   "price": "",
@@ -3254,7 +3254,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   30,
+   null,
    38
   ],
   "price": "",
@@ -3674,7 +3674,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   27,
+   null,
    35
   ],
   "price": "",
@@ -3709,7 +3709,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": "",
@@ -3779,7 +3779,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": "",
@@ -3849,7 +3849,7 @@ window.RACKETS = [
   "weight": 79,
   "grips": "",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": "",
@@ -3884,7 +3884,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": "",
@@ -3989,7 +3989,7 @@ window.RACKETS = [
   "weight": 76,
   "grips": "",
   "tension": [
-   18,
+   null,
    26
   ],
   "price": "",
@@ -4094,7 +4094,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 3573,
@@ -4159,7 +4159,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   24,
+   null,
    32
   ],
   "price": 8329,
@@ -4282,7 +4282,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G6",
   "tension": [
-   24,
+   null,
    32
   ],
   "price": 8295,
@@ -4315,7 +4315,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G6",
   "tension": [
-   24,
+   null,
    32
   ],
   "price": 8295,
@@ -4348,7 +4348,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "G6",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 1976,
@@ -4381,7 +4381,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G5",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 6990,
@@ -4444,7 +4444,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G5",
   "tension": [
-   18,
+   null,
    26
   ],
   "price": 2601,
@@ -4477,7 +4477,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G5",
   "tension": [
-   27,
+   null,
    35
   ],
   "price": 2982,
@@ -4510,7 +4510,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G6",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 4024,
@@ -4543,7 +4543,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G5",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 4614,
@@ -4576,7 +4576,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G5",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 6593,
@@ -4609,7 +4609,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "G6",
   "tension": [
-   21,
+   null,
    29
   ],
   "price": 7635,
@@ -4642,7 +4642,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 5690,
@@ -4675,7 +4675,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G6",
   "tension": [
-   19,
+   null,
    27
   ],
   "price": 4337,
@@ -4768,7 +4768,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "G6",
   "tension": [
-   21,
+   null,
    29
   ],
   "price": 8677,
@@ -4801,7 +4801,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G5",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 6290,
@@ -4834,7 +4834,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G5",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 8677,
@@ -4867,7 +4867,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G4, G5",
   "tension": [
-   23,
+   null,
    31
   ],
   "price": "",
@@ -4900,7 +4900,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G5",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 6290,
@@ -4963,7 +4963,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "G6",
   "tension": [
-   23,
+   null,
    31
   ],
   "price": 2080,
@@ -4996,7 +4996,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "G6",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 2080,
@@ -5029,7 +5029,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G5",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 4337,
@@ -5092,7 +5092,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -5155,7 +5155,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G5",
   "tension": [
-   19,
+   null,
    27
   ],
   "price": 2149,
@@ -5188,7 +5188,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G6",
   "tension": [
-   21,
+   null,
    29
   ],
   "price": 4718,
@@ -5221,7 +5221,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 4390,
@@ -5254,7 +5254,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 4823,
@@ -5317,7 +5317,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G5",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 7190,
@@ -5350,7 +5350,7 @@ window.RACKETS = [
   "weight": 79,
   "grips": "G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 7982,
@@ -5383,7 +5383,7 @@ window.RACKETS = [
   "weight": 79,
   "grips": "G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 7982,
@@ -5448,7 +5448,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 9718,
@@ -5541,7 +5541,7 @@ window.RACKETS = [
   "weight": 79,
   "grips": "G6",
   "tension": [
-   21,
+   null,
    29
   ],
   "price": 3121,
@@ -5574,7 +5574,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G6",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 4684,
@@ -5607,7 +5607,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "G6",
   "tension": [
-   17,
+   null,
    25
   ],
   "price": 2080,
@@ -5704,7 +5704,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 1698,
@@ -5739,7 +5739,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G5",
   "tension": [
-   18,
+   null,
    26
   ],
   "price": 2531,
@@ -5774,7 +5774,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "G6",
   "tension": [
-   19,
+   null,
    27
   ],
   "price": 2948,
@@ -5809,7 +5809,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G5",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 4163,
@@ -5844,7 +5844,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G5",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 5205,
@@ -5879,7 +5879,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "G5",
   "tension": [
-   21,
+   null,
    29
   ],
   "price": 6246,
@@ -5914,7 +5914,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G5",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 4990,
@@ -5949,7 +5949,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G4, G5, G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -5982,7 +5982,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G5",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 7189,
@@ -6017,7 +6017,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G5",
   "tension": [
-   23,
+   null,
    31
   ],
   "price": 6890,
@@ -6052,7 +6052,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G5",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 9371,
@@ -6085,7 +6085,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -6118,7 +6118,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G5",
   "tension": [
-   23,
+   null,
    31
   ],
   "price": 2670,
@@ -6153,7 +6153,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G5",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 4337,
@@ -6188,7 +6188,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 1890,
@@ -6223,7 +6223,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G6",
   "tension": [
-   18,
+   null,
    26
   ],
   "price": 2184,
@@ -6286,7 +6286,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   24,
+   null,
    32
   ],
   "price": "",
@@ -6349,7 +6349,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 3590,
@@ -6382,7 +6382,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 5211,
@@ -6415,7 +6415,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 5309,
@@ -6448,7 +6448,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 2890,
@@ -6481,7 +6481,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 2890,
@@ -6612,7 +6612,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -6647,7 +6647,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": "",
@@ -6682,7 +6682,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -7071,7 +7071,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -7106,7 +7106,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -7141,7 +7141,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -7176,7 +7176,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -7211,7 +7211,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 2400,
@@ -7246,7 +7246,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": "",
@@ -7281,7 +7281,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -7316,7 +7316,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -7351,7 +7351,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -7386,7 +7386,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 6950,
@@ -7421,7 +7421,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 2400,
@@ -7456,7 +7456,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -7491,7 +7491,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -7526,7 +7526,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -7561,7 +7561,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 3990,
@@ -7596,7 +7596,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": "",
@@ -7629,7 +7629,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   25,
+   null,
    33
   ],
   "price": "",
@@ -7664,7 +7664,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -7699,7 +7699,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -7734,7 +7734,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -7769,7 +7769,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -7804,7 +7804,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -7837,7 +7837,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": "",
@@ -7872,7 +7872,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -7907,7 +7907,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -8247,7 +8247,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "",
   "tension": [
-   28,
+   null,
    36
   ],
   "price": "",
@@ -8282,7 +8282,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "",
   "tension": [
-   28,
+   null,
    36
   ],
   "price": "",
@@ -8317,7 +8317,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "",
   "tension": [
-   28,
+   null,
    36
   ],
   "price": "",
@@ -8352,7 +8352,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "",
   "tension": [
-   28,
+   null,
    36
   ],
   "price": "",
@@ -8387,7 +8387,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "",
   "tension": [
-   28,
+   null,
    36
   ],
   "price": "",
@@ -8422,7 +8422,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "",
   "tension": [
-   28,
+   null,
    36
   ],
   "price": "",
@@ -8487,7 +8487,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "",
   "tension": [
-   28,
+   null,
    36
   ],
   "price": "",
@@ -8623,7 +8623,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 1190,
@@ -8658,7 +8658,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 1190,
@@ -8693,7 +8693,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 1190,
@@ -8728,7 +8728,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 1190,
@@ -8796,7 +8796,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 1290,
@@ -8831,7 +8831,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 1290,
@@ -9134,7 +9134,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G6",
   "tension": [
-   24,
+   null,
    32
   ],
   "price": "",
@@ -9301,7 +9301,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   27,
+   null,
    35
   ],
   "price": 5390,
@@ -9505,7 +9505,7 @@ window.RACKETS = [
   "weight": 73,
   "grips": "",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 2190,
@@ -9540,7 +9540,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 2990,
@@ -9575,7 +9575,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   27,
+   null,
    35
   ],
   "price": 2990,
@@ -9769,7 +9769,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   27,
+   null,
    35
   ],
   "price": 2590,
@@ -9804,7 +9804,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   30,
+   null,
    38
   ],
   "price": 2990,
@@ -9973,7 +9973,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 3990,
@@ -10173,7 +10173,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G6",
   "tension": [
-   27,
+   null,
    35
   ],
   "price": 1990,
@@ -10373,7 +10373,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 3490,
@@ -10408,7 +10408,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 1590,
@@ -10478,7 +10478,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -10511,7 +10511,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   27,
+   null,
    35
   ],
   "price": 1290,
@@ -10713,7 +10713,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 1590,
@@ -10818,7 +10818,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 2190,
@@ -10919,7 +10919,7 @@ window.RACKETS = [
   "weight": 77,
   "grips": "",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 1590,
@@ -11118,7 +11118,7 @@ window.RACKETS = [
   "weight": 88,
   "grips": "G5",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 2990,
@@ -11153,7 +11153,7 @@ window.RACKETS = [
   "weight": 88,
   "grips": "G5",
   "tension": [
-   23,
+   null,
    30
   ],
   "price": 5990,
@@ -11186,7 +11186,7 @@ window.RACKETS = [
   "weight": 95,
   "grips": "G5",
   "tension": [
-   15,
+   null,
    20
   ],
   "price": 1999,
@@ -11221,7 +11221,7 @@ window.RACKETS = [
   "weight": 95,
   "grips": "G5",
   "tension": [
-   15,
+   null,
    20
   ],
   "price": 750,
@@ -11256,7 +11256,7 @@ window.RACKETS = [
   "weight": 90,
   "grips": "G6",
   "tension": [
-   15,
+   null,
    20
   ],
   "price": 430,
@@ -11291,7 +11291,7 @@ window.RACKETS = [
   "weight": 88,
   "grips": "G5",
   "tension": [
-   23,
+   null,
    31
   ],
   "price": 2190,
@@ -11324,7 +11324,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   19,
+   null,
    27
   ],
   "price": 1380,
@@ -11359,7 +11359,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   18,
+   null,
    26
   ],
   "price": 1090,
@@ -11394,7 +11394,7 @@ window.RACKETS = [
   "weight": 88,
   "grips": "G5, G6",
   "tension": [
-   24,
+   null,
    32
   ],
   "price": 2690,
@@ -11429,7 +11429,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 3800,
@@ -11464,7 +11464,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 1390,
@@ -11499,7 +11499,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 1390,
@@ -11534,7 +11534,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5, G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 1790,
@@ -11569,7 +11569,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "G5",
   "tension": [
-   18,
+   null,
    26
   ],
   "price": 990,
@@ -11602,7 +11602,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5, G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 1790,
@@ -11637,7 +11637,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5, G6",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 4890,
@@ -11672,7 +11672,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 2983,
@@ -11707,7 +11707,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 4900,
@@ -11742,7 +11742,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 2200,
@@ -11777,7 +11777,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   23,
+   null,
    31
   ],
   "price": 5390,
@@ -11812,7 +11812,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   21,
+   null,
    28
   ],
   "price": 4240,
@@ -11845,7 +11845,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 3915,
@@ -11880,7 +11880,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5, G6",
   "tension": [
-   24,
+   null,
    31
   ],
   "price": 2100,
@@ -11913,7 +11913,7 @@ window.RACKETS = [
   "weight": 88,
   "grips": "G5",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 5390,
@@ -11948,7 +11948,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 5590,
@@ -11983,7 +11983,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   21,
+   null,
    28
   ],
   "price": 5390,
@@ -12016,7 +12016,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   23,
+   null,
    31
   ],
   "price": 3500,
@@ -12051,7 +12051,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "G6",
   "tension": [
-   21,
+   null,
    29
   ],
   "price": 5400,
@@ -12084,7 +12084,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 6450,
@@ -12117,7 +12117,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 2600,
@@ -12150,7 +12150,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -12185,7 +12185,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 4990,
@@ -12221,7 +12221,7 @@ window.RACKETS = [
   "weight": 88,
   "grips": "G5, G6",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": "",
@@ -12254,7 +12254,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5",
   "tension": [
-   18,
+   null,
    26
   ],
   "price": 1100,
@@ -12289,7 +12289,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   19,
+   null,
    27
   ],
   "price": 1500,
@@ -12324,7 +12324,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5",
   "tension": [
-   21,
+   null,
    29
   ],
   "price": 5290,
@@ -12359,7 +12359,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   24,
+   null,
    32
   ],
   "price": 5990,
@@ -12395,7 +12395,7 @@ window.RACKETS = [
   "weight": 88,
   "grips": "G5",
   "tension": [
-   23,
+   null,
    30
   ],
   "price": 2500,
@@ -12428,7 +12428,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 1920,
@@ -12463,7 +12463,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 2000,
@@ -12498,7 +12498,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5, G6",
   "tension": [
-   21,
+   null,
    29
   ],
   "price": 3575,
@@ -12533,7 +12533,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 1373,
@@ -12568,7 +12568,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   21,
+   null,
    29
   ],
   "price": 4990,
@@ -12603,7 +12603,7 @@ window.RACKETS = [
   "weight": 88,
   "grips": "G5",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 4600,
@@ -12638,7 +12638,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 4990,
@@ -12673,7 +12673,7 @@ window.RACKETS = [
   "weight": 88,
   "grips": "G5, G6",
   "tension": [
-   19,
+   null,
    27
   ],
   "price": 2890,
@@ -12708,7 +12708,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   23,
+   null,
    31
   ],
   "price": 1810,
@@ -12743,7 +12743,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 3300,
@@ -12778,7 +12778,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 4249,
@@ -12813,7 +12813,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   23,
+   null,
    31
   ],
   "price": "",
@@ -12846,7 +12846,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   28,
+   null,
    36
   ],
   "price": 2064,
@@ -12881,7 +12881,7 @@ window.RACKETS = [
   "weight": 66,
   "grips": "G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 2190,
@@ -12916,7 +12916,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G5",
   "tension": [
-   15,
+   null,
    20
   ],
   "price": 650,
@@ -12951,7 +12951,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   24,
+   null,
    32
   ],
   "price": 5990,
@@ -12986,7 +12986,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   23,
+   null,
    31
   ],
   "price": 5990,
@@ -13021,7 +13021,7 @@ window.RACKETS = [
   "weight": 73,
   "grips": "G5, G6",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 1500,
@@ -13056,7 +13056,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   24,
+   null,
    32
   ],
   "price": 1800,
@@ -13091,7 +13091,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5, G6",
   "tension": [
-   24,
+   null,
    32
   ],
   "price": 1900,
@@ -13126,7 +13126,7 @@ window.RACKETS = [
   "weight": 77,
   "grips": "G5, G6",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 2000,
@@ -13159,7 +13159,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5, G6",
   "tension": [
-   19,
+   null,
    27
   ],
   "price": 2500,
@@ -13194,7 +13194,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5, G6",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 2500,
@@ -13229,7 +13229,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5, G6",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 1677,
@@ -13264,7 +13264,7 @@ window.RACKETS = [
   "weight": 95,
   "grips": "G5",
   "tension": [
-   15,
+   null,
    20
   ],
   "price": 660,
@@ -13299,7 +13299,7 @@ window.RACKETS = [
   "weight": 95,
   "grips": "G5",
   "tension": [
-   15,
+   null,
    20
   ],
   "price": 704,
@@ -13334,7 +13334,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": [
-   21,
+   null,
    29
   ],
   "price": 1790,
@@ -13404,7 +13404,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   24,
+   null,
    32
   ],
   "price": 2190,
@@ -13439,7 +13439,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5, G6",
   "tension": [
-   23,
+   null,
    31
   ],
   "price": 4080,
@@ -13474,7 +13474,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   20,
+   null,
    28
   ],
   "price": 4300,
@@ -13509,7 +13509,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   24,
+   null,
    31
   ],
   "price": 3690,
@@ -13542,7 +13542,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   24,
+   null,
    30
   ],
   "price": 1990,
@@ -13575,7 +13575,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   24,
+   null,
    32
   ],
   "price": 5590,
@@ -13608,7 +13608,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 2790,
@@ -13631,6 +13631,39 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "victor-thruster-ryuga-iii",
+  "brand": "Victor",
+  "name": "Thruster Ryuga III",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "",
+  "weights": "4U, 5U",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": "",
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintonwarehouse.com/products/victor-thruster-ryuga-iii-cq-badminton-racket",
+  "note": "",
+  "est": []
+ },
+ {
   "id": "victor-thruster-ryuga-jr",
   "brand": "Victor",
   "name": "Thruster Ryuga JR",
@@ -13643,7 +13676,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G5",
   "tension": [
-   15,
+   null,
    20
   ],
   "price": 900,
@@ -13678,7 +13711,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5",
   "tension": [
-   24,
+   null,
    32
   ],
   "price": 5590,
@@ -13713,7 +13746,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 5590,
@@ -13746,7 +13779,7 @@ window.RACKETS = [
   "weight": 77,
   "grips": "",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": "",
@@ -13782,7 +13815,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5, G6",
   "tension": [
-   22,
+   null,
    30
   ],
   "price": 2890,
@@ -13817,7 +13850,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   23,
+   null,
    31
   ],
   "price": 3500,
@@ -13852,7 +13885,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5, G6",
   "tension": [
-   28,
+   null,
    36
   ],
   "price": 4500,
@@ -13887,7 +13920,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   24,
+   null,
    32
   ],
   "price": 2400,
@@ -13922,7 +13955,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   24,
+   null,
    32
   ],
   "price": 2890,
@@ -13957,7 +13990,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G5",
   "tension": [
-   16,
+   null,
    24
   ],
   "price": "",

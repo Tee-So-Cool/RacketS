@@ -98,6 +98,7 @@ ORDER = ['id', 'brand', 'name', 'year', 'gauge', 'gaugeText', 'material'] + RATI
     'tensionMax', 'price', 'colors', 'madeIn', 'note', 'img', 'source', 'officialUrl', 'specSrc', 'est']
 final, seen = [], set()
 for s in sorted(strings.values(), key=lambda s: (s['brand'], s['name'])):
+    s['id'] = s.get('id') or slug(s['brand'] + ' ' + s['name'])
     while s['id'] in seen: s['id'] += '-2'
     seen.add(s['id'])
     final.append({k: s.get(k, [] if k == 'est' else '') for k in ORDER})

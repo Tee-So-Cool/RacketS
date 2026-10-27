@@ -12,9 +12,9 @@ window.STRINGS = [
   "material": "multi",
   "repulsion": 8,
   "control": 10,
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "durability": 5,
+  "sound": 9,
+  "shock": 5,
   "tensionMax": "",
   "price": "",
   "colors": "ดำ น้ำเงิน ชมพู แดง ม่วง เหลือง ขาว ส้ม",
@@ -24,7 +24,11 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/apacs-lethal-63/",
   "officialUrl": "",
   "specSrc": "",
-  "est": []
+  "est": [
+   "durability",
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "apacs-lethal-66-offensive",
@@ -38,7 +42,7 @@ window.STRINGS = [
   "control": 10,
   "durability": 9,
   "sound": 10,
-  "shock": "",
+  "shock": 7,
   "tensionMax": "",
   "price": "",
   "colors": "ดำ ขาว ฟ้าอ่อน เหลือง แดง",
@@ -48,7 +52,9 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/apacs-lethal-66-offensive/",
   "officialUrl": "",
   "specSrc": "",
-  "est": []
+  "est": [
+   "shock"
+  ]
  },
  {
   "id": "apacs-nano-fusion-63",
@@ -60,9 +66,9 @@ window.STRINGS = [
   "material": "multi",
   "repulsion": 8,
   "control": 10,
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "durability": 5,
+  "sound": 8,
+  "shock": 5,
   "tensionMax": "",
   "price": "",
   "colors": "ดำ น้ำเงิน ชมพู แดง ม่วง เหลือง ขาว",
@@ -72,7 +78,11 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/apacs-nano-fusion-63/",
   "officialUrl": "",
   "specSrc": "",
-  "est": []
+  "est": [
+   "durability",
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "apacs-power-66",
@@ -84,9 +94,9 @@ window.STRINGS = [
   "material": "multi",
   "repulsion": 8,
   "control": 9,
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "durability": 8,
+  "sound": 7,
+  "shock": 6,
   "tensionMax": "",
   "price": "",
   "colors": "ขาว เหลือง ส้ม แดง ชมพู ม่วง ฟ้า มิ้นต์ ดำ",
@@ -96,7 +106,11 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/apacs-power-66/",
   "officialUrl": "",
   "specSrc": "",
-  "est": []
+  "est": [
+   "durability",
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "apacs-pro-commander",
@@ -106,11 +120,11 @@ window.STRINGS = [
   "gauge": "",
   "gaugeText": "",
   "material": "",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 7,
+  "control": 7,
+  "durability": 7,
+  "sound": 7,
+  "shock": 6,
   "tensionMax": "",
   "price": "",
   "colors": "",
@@ -120,7 +134,13 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/apacs-pro-commander/",
   "officialUrl": "",
   "specSrc": "",
-  "est": []
+  "est": [
+   "repulsion",
+   "control",
+   "durability",
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "apacs-signature-pro-66",
@@ -133,8 +153,8 @@ window.STRINGS = [
   "repulsion": 10,
   "control": 10,
   "durability": 9,
-  "sound": "",
-  "shock": "",
+  "sound": 8,
+  "shock": 6,
   "tensionMax": "",
   "price": "",
   "colors": "ขาว เหลือง",
@@ -144,7 +164,10 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/apacs-signature-pro-66/",
   "officialUrl": "",
   "specSrc": "",
-  "est": []
+  "est": [
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "apacs-signature-pro-70",
@@ -157,8 +180,8 @@ window.STRINGS = [
   "repulsion": 9,
   "control": 9,
   "durability": 10,
-  "sound": "",
-  "shock": "",
+  "sound": 6,
+  "shock": 8,
   "tensionMax": "",
   "price": "",
   "colors": "ขาว ดำ",
@@ -168,7 +191,10 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/apacs-signature-pro-70/",
   "officialUrl": "",
   "specSrc": "",
-  "est": []
+  "est": [
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "kizuna-z58",
@@ -178,11 +204,11 @@ window.STRINGS = [
   "gauge": 0.58,
   "gaugeText": "",
   "material": "multi",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 10,
+  "control": 7,
+  "durability": 3,
+  "sound": 9,
+  "shock": 5,
   "tensionMax": "",
   "price": "",
   "colors": "",
@@ -192,7 +218,13 @@ window.STRINGS = [
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.rakuten.co.jp/auc-nissin-spo-shop/contents/string-reel/",
-  "est": []
+  "est": [
+   "repulsion",
+   "control",
+   "durability",
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "kizuna-z63x",
@@ -202,11 +234,11 @@ window.STRINGS = [
   "gauge": 0.63,
   "gaugeText": "",
   "material": "multi",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 9,
+  "control": 8,
+  "durability": 5,
+  "sound": 9,
+  "shock": 5,
   "tensionMax": "",
   "price": "",
   "colors": "",
@@ -216,7 +248,13 @@ window.STRINGS = [
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.rakuten.co.jp/auc-nissin-spo-shop/contents/string-reel/",
-  "est": []
+  "est": [
+   "repulsion",
+   "control",
+   "durability",
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "kizuna-z65x",
@@ -226,11 +264,11 @@ window.STRINGS = [
   "gauge": 0.65,
   "gaugeText": "",
   "material": "multi",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 8,
+  "control": 8,
+  "durability": 6,
+  "sound": 8,
+  "shock": 6,
   "tensionMax": "",
   "price": "",
   "colors": "",
@@ -240,7 +278,13 @@ window.STRINGS = [
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.rakuten.co.jp/auc-nissin-spo-shop/contents/string-reel/",
-  "est": []
+  "est": [
+   "repulsion",
+   "control",
+   "durability",
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "kizuna-z69t",
@@ -250,11 +294,11 @@ window.STRINGS = [
   "gauge": 0.69,
   "gaugeText": "",
   "material": "coated",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 7,
+  "control": 8,
+  "durability": 8,
+  "sound": 8,
+  "shock": 5,
   "tensionMax": "",
   "price": "",
   "colors": "",
@@ -264,7 +308,13 @@ window.STRINGS = [
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.rakuten.co.jp/auc-nissin-spo-shop/contents/string-reel/",
-  "est": []
+  "est": [
+   "repulsion",
+   "control",
+   "durability",
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "li-ning-accupower-62",
@@ -274,11 +324,11 @@ window.STRINGS = [
   "gauge": 0.62,
   "gaugeText": "",
   "material": "braided",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 9,
+  "control": 8,
+  "durability": 4,
+  "sound": 9,
+  "shock": 5,
   "tensionMax": "",
   "price": "",
   "colors": "",
@@ -288,7 +338,13 @@ window.STRINGS = [
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonavenue.com/products/li-ning-accupower-62-silver-ap62-axje012",
-  "est": []
+  "est": [
+   "repulsion",
+   "control",
+   "durability",
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "li-ning-n68",
@@ -442,11 +498,11 @@ window.STRINGS = [
   "gauge": 0.66,
   "gaugeText": "",
   "material": "braided",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 8,
+  "control": 7,
+  "durability": 7,
+  "sound": 8,
+  "shock": 7,
   "tensionMax": "",
   "price": "",
   "colors": "",
@@ -456,7 +512,13 @@ window.STRINGS = [
   "source": "",
   "officialUrl": "",
   "specSrc": "https://thegodofsports.com/products/li-ning-no-1-boost-badminton-string",
-  "est": []
+  "est": [
+   "repulsion",
+   "control",
+   "durability",
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "li-ning-no-3",
@@ -538,11 +600,11 @@ window.STRINGS = [
   "gauge": 0.65,
   "gaugeText": "",
   "material": "multi",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 7,
+  "control": 9,
+  "durability": 6,
+  "sound": 7,
+  "shock": 7,
   "tensionMax": "",
   "price": "",
   "colors": "",
@@ -552,7 +614,13 @@ window.STRINGS = [
   "source": "",
   "officialUrl": "",
   "specSrc": "https://vnm.mizuno.com/en/blogs/news/badminton-strings",
-  "est": []
+  "est": [
+   "repulsion",
+   "control",
+   "durability",
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "mizuno-m-smooth-65r",
@@ -562,11 +630,11 @@ window.STRINGS = [
   "gauge": "",
   "gaugeText": "",
   "material": "hybrid",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 8,
+  "control": 7,
+  "durability": 7,
+  "sound": 9,
+  "shock": 5,
   "tensionMax": "",
   "price": "",
   "colors": "",
@@ -576,7 +644,13 @@ window.STRINGS = [
   "source": "",
   "officialUrl": "",
   "specSrc": "https://vnm.mizuno.com/en/blogs/news/badminton-strings",
-  "est": []
+  "est": [
+   "repulsion",
+   "control",
+   "durability",
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "mizuno-m-smooth-66h",
@@ -586,11 +660,11 @@ window.STRINGS = [
   "gauge": "",
   "gaugeText": "",
   "material": "multi",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 9,
+  "control": 7,
+  "durability": 6,
+  "sound": 8,
+  "shock": 6,
   "tensionMax": "",
   "price": "",
   "colors": "",
@@ -600,7 +674,13 @@ window.STRINGS = [
   "source": "",
   "officialUrl": "",
   "specSrc": "https://vnm.mizuno.com/en/blogs/news/badminton-strings",
-  "est": []
+  "est": [
+   "repulsion",
+   "control",
+   "durability",
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "vs-bg65",
@@ -874,11 +954,11 @@ window.STRINGS = [
   "gauge": 0.58,
   "gaugeText": "",
   "material": "multi",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 10,
+  "control": 7,
+  "durability": 4,
+  "sound": 9,
+  "shock": 6,
   "tensionMax": "",
   "price": "",
   "colors": "ขาว เหลือง ชมพูซากุระ ฟ้าอ่อน ชมพู ม่วง",
@@ -888,7 +968,13 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/victor-vbs-58n/",
   "officialUrl": "",
   "specSrc": "",
-  "est": []
+  "est": [
+   "repulsion",
+   "control",
+   "durability",
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "victor-vbs-61",
@@ -1014,11 +1100,11 @@ window.STRINGS = [
   "gauge": 0.69,
   "gaugeText": "",
   "material": "",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 7,
+  "control": 7,
+  "durability": 8,
+  "sound": 6,
+  "shock": 8,
   "tensionMax": "",
   "price": "",
   "colors": "ขาว ดำ เหลือง น้ำเงิน ส้ม ทองแชมเปญ",
@@ -1028,7 +1114,13 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/victor-vbs-69n/",
   "officialUrl": "",
   "specSrc": "",
-  "est": []
+  "est": [
+   "repulsion",
+   "control",
+   "durability",
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "victor-vbs-70",
@@ -1068,11 +1160,11 @@ window.STRINGS = [
   "gauge": 0.68,
   "gaugeText": "",
   "material": "braided",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 7,
+  "control": 8,
+  "durability": 9,
+  "sound": 7,
+  "shock": 7,
   "tensionMax": "",
   "price": "",
   "colors": "ขาว ดำ น้ำเงิน เขียวลูซิเฟอร์",
@@ -1082,7 +1174,13 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/victor-vs-850/",
   "officialUrl": "",
   "specSrc": "",
-  "est": []
+  "est": [
+   "repulsion",
+   "control",
+   "durability",
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "victor-vs-890",
@@ -1092,11 +1190,11 @@ window.STRINGS = [
   "gauge": 0.68,
   "gaugeText": "",
   "material": "mono",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 9,
+  "control": 8,
+  "durability": 6,
+  "sound": 9,
+  "shock": 4,
   "tensionMax": "",
   "price": "",
   "colors": "ขาว เขียวลูซิเฟอร์ ส้ม แดง ม่วง",
@@ -1106,7 +1204,13 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/victor-vs-890/",
   "officialUrl": "",
   "specSrc": "",
-  "est": []
+  "est": [
+   "repulsion",
+   "control",
+   "durability",
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "yonex-aerobite",
@@ -1236,11 +1340,11 @@ window.STRINGS = [
   "gauge": 0.65,
   "gaugeText": "",
   "material": "coated",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 9,
+  "control": 7,
+  "durability": 6,
+  "sound": 8,
+  "shock": 6,
   "tensionMax": "",
   "price": "",
   "colors": "White",
@@ -1250,7 +1354,13 @@ window.STRINGS = [
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/strings/bg66f",
   "specSrc": "",
-  "est": []
+  "est": [
+   "repulsion",
+   "control",
+   "durability",
+   "sound",
+   "shock"
+  ]
  },
  {
   "id": "yonex-bg66-ultimax",

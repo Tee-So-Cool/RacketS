@@ -406,5 +406,215 @@
   "price": 300,
   "colors": "",
   "note": ""
+ },
+ {
+  "id": "",
+  "brand": "Apacs",
+  "name": "Lethal 63",
+  "repulsion": 8,
+  "control": 10,
+  "durability": 5,
+  "sound": 9,
+  "shock": 5
+ },
+ {
+  "id": "",
+  "brand": "Apacs",
+  "name": "Lethal 66 Offensive",
+  "repulsion": 9,
+  "control": 10,
+  "durability": 9,
+  "sound": 10,
+  "shock": 7
+ },
+ {
+  "id": "",
+  "brand": "Apacs",
+  "name": "Nano Fusion 63",
+  "repulsion": 8,
+  "control": 10,
+  "durability": 5,
+  "sound": 8,
+  "shock": 5
+ },
+ {
+  "id": "",
+  "brand": "Apacs",
+  "name": "Power 66",
+  "repulsion": 8,
+  "control": 9,
+  "durability": 8,
+  "sound": 7,
+  "shock": 6
+ },
+ {
+  "id": "",
+  "brand": "Apacs",
+  "name": "Pro Commander",
+  "repulsion": 7,
+  "control": 7,
+  "durability": 7,
+  "sound": 7,
+  "shock": 6
+ },
+ {
+  "id": "",
+  "brand": "Apacs",
+  "name": "Signature Pro 66",
+  "repulsion": 10,
+  "control": 10,
+  "durability": 9,
+  "sound": 8,
+  "shock": 6
+ },
+ {
+  "id": "",
+  "brand": "Apacs",
+  "name": "Signature Pro 70",
+  "repulsion": 9,
+  "control": 9,
+  "durability": 10,
+  "sound": 6,
+  "shock": 8
+ },
+ {
+  "id": "",
+  "brand": "Kizuna",
+  "name": "Z58",
+  "repulsion": 10,
+  "control": 7,
+  "durability": 3,
+  "sound": 9,
+  "shock": 5
+ },
+ {
+  "id": "",
+  "brand": "Kizuna",
+  "name": "Z63X",
+  "repulsion": 9,
+  "control": 8,
+  "durability": 5,
+  "sound": 9,
+  "shock": 5
+ },
+ {
+  "id": "",
+  "brand": "Kizuna",
+  "name": "Z65X",
+  "repulsion": 8,
+  "control": 8,
+  "durability": 6,
+  "sound": 8,
+  "shock": 6
+ },
+ {
+  "id": "",
+  "brand": "Kizuna",
+  "name": "Z69T",
+  "repulsion": 7,
+  "control": 8,
+  "durability": 8,
+  "sound": 8,
+  "shock": 5
+ },
+ {
+  "id": "",
+  "brand": "Li-Ning",
+  "name": "Accupower 62",
+  "repulsion": 9,
+  "control": 8,
+  "durability": 4,
+  "sound": 9,
+  "shock": 5
+ },
+ {
+  "id": "",
+  "brand": "Li-Ning",
+  "name": "No.1 Boost",
+  "repulsion": 8,
+  "control": 7,
+  "durability": 7,
+  "sound": 8,
+  "shock": 7
+ },
+ {
+  "id": "",
+  "brand": "Mizuno",
+  "name": "M-Smooth 65H",
+  "repulsion": 7,
+  "control": 9,
+  "durability": 6,
+  "sound": 7,
+  "shock": 7
+ },
+ {
+  "id": "",
+  "brand": "Mizuno",
+  "name": "M-Smooth 65R",
+  "repulsion": 8,
+  "control": 7,
+  "durability": 7,
+  "sound": 9,
+  "shock": 5
+ },
+ {
+  "id": "",
+  "brand": "Mizuno",
+  "name": "M-Smooth 66H",
+  "repulsion": 9,
+  "control": 7,
+  "durability": 6,
+  "sound": 8,
+  "shock": 6
+ },
+ {
+  "id": "",
+  "brand": "Victor",
+  "name": "VBS-58N",
+  "repulsion": 10,
+  "control": 7,
+  "durability": 4,
+  "sound": 9,
+  "shock": 6
+ },
+ {
+  "id": "",
+  "brand": "Victor",
+  "name": "VBS-69N",
+  "repulsion": 7,
+  "control": 7,
+  "durability": 8,
+  "sound": 6,
+  "shock": 8
+ },
+ {
+  "id": "",
+  "brand": "Victor",
+  "name": "VS-850",
+  "repulsion": 7,
+  "control": 8,
+  "durability": 9,
+  "sound": 7,
+  "shock": 7
+ },
+ {
+  "id": "",
+  "brand": "Victor",
+  "name": "VS-890",
+  "repulsion": 9,
+  "control": 8,
+  "durability": 6,
+  "sound": 9,
+  "shock": 4
+ },
+ {
+  "id": "",
+  "brand": "Yonex",
+  "name": "BG66 Force",
+  "repulsion": 9,
+  "control": 7,
+  "durability": 6,
+  "sound": 8,
+  "shock": 6
  }
 ]

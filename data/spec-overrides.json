@@ -768,5 +768,16 @@
   "tmax": 28,
   "price": 1890,
   "src": "https://www.badmintonplaza.com/product_info.php?products_id=4055"
+ },
+ "Victor Thruster Ryuga III": {
+  "new": true,
+  "brand": "Victor",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U, 5U",
+  "weight": 82,
+  "tmax": 32,
+  "src": "https://www.badmintonwarehouse.com/products/victor-thruster-ryuga-iii-cq-badminton-racket"
  }
 }

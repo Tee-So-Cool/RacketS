@@ -77,7 +77,7 @@ def tension(t):
     rs = [(int(a), int(b)) for a, b in re.findall(r'(\d{2})\s*(?:[-–~]|to)\s*(\d{2})', t) if 10 <= int(a) <= int(b) <= 40]
     if rs: return [min(a for a, _ in rs), max(b for _, b in rs)]
     ns = [int(n) for n in re.findall(r'(\d{2})\s*(?:lbs?|ปอนด์|lb)', t, re.I) if 15 <= int(n) <= 40]
-    if ns: return [max(15, max(ns) - 8), max(ns)]
+    if ns: return [None, max(ns)]  # only a ceiling is known
     return None
 
 def price(t):
@@ -159,7 +159,7 @@ for full_name, o in overrides.items():
     for f, v in o.items():
         if f in ('src', 'new', 'brand') or v in ('', None): continue
         if f == 'tmax':
-            lo = (r.get('tension') or [None])[0] or max(15, v - 8)
+            lo = (r.get('tension') or [None])[0]
             r['tension'] = [lo, v]
         else:
             r[f] = v
