@@ -1,0 +1,318 @@
+{
+ "_readme": "สเปกที่ค้นเพิ่มทีละรุ่น key = 'แบรนด์ รุ่น' ตรงกับชื่อในเว็บ. ช่องที่ใส่ได้: balance, flex, level, style, weights, weight, tmax, year, price, note, src (ลิงก์แหล่ง). รุ่นใหม่ที่ยังไม่มีให้ใส่ \"new\": true. แก้แล้วรัน python3 scripts/build_rackets.py",
+ "Victor Auraspeed LYC": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "weight": 83,
+  "tmax": 28,
+  "src": "https://centralsports.co.uk/products/victor-auraspeed-lyc-b-badminton-racket"
+ },
+ "Victor Auraspeed LJH": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "src": "https://www.badmintonwarehouse.com/products/victor-auraspeed-ljh-badminton-racket"
+ },
+ "Victor Auraspeed 25MACH": {
+  "balance": "even",
+  "src": "https://sportano.pl/p/937795/rakieta-do-badmintona-victor-auraspeed-25mach-e"
+ },
+ "Victor Auraspeed 100X Ultra": {
+  "balance": "head-light",
+  "flex": "stiff",
+  "weights": "3U, 4U",
+  "tmax": 30,
+  "src": "https://www.badmintonwarehouse.com/products/victor-auraspeed-100x-ultra-badminton-racket"
+ },
+ "Victor Auraspeed 90K Metallic": {
+  "flex": "stiff",
+  "src": "https://www.badmintonwarehouse.com/products/victor-auraspeed-90k-metallic-badminton-racket-1"
+ },
+ "Victor Thruster Ryuga II Pro": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "pro",
+  "weights": "3U, 4U",
+  "src": "https://www.decathlon.co.uk/p/mp/victor-thruster-ryuga-ii-pro-b-badminton-racket-2024-unstrung/1560e5dd-9415-48e0-be50-6f9ea7082902/c1c16c249"
+ },
+ "Victor Thruster Ryuga Muse": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "5U",
+  "weight": 78,
+  "tmax": 30,
+  "src": "https://www.badmintonwarehouse.com/products/thruster-ryuga-muse-badminton-racket-blue"
+ },
+ "Victor Auraspeed HS Plus": {
+  "balance": "head-light",
+  "flex": "stiff",
+  "weights": "3U, 4U",
+  "tmax": 28,
+  "src": "https://www.badmintonwarehouse.com/products/victor-auraspeed-hs-plus-c-badminton-racket"
+ },
+ "Victor Thruster Raptor": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "tmax": 31,
+  "src": "https://www.badmintonwarehouse.com/products/victor-thruster-tk-raptor-c-badminton-racket"
+ },
+ "Victor Auraspeed Cyber": {
+  "balance": "even",
+  "weights": "4U",
+  "tmax": 28,
+  "src": "https://joybadminton.com/products/victor-auraspeed-cyber-ars-cyber-c"
+ },
+ "Victor DriveX 3H": {
+  "balance": "even",
+  "flex": "stiff",
+  "tmax": 30,
+  "src": "https://www.badmintonwarehouse.com/collections/all/products/victor-drivex-3h-badminton-racket-pre-strung"
+ },
+ "Victor Thruster Hammer Light Extra": {
+  "balance": "head-heavy",
+  "weights": "5U, 6U",
+  "weight": 77,
+  "tmax": 28,
+  "src": "https://www.badmintonwarehouse.com/products/victor-thruster-tk-hammer-light-ex-badminton-racket-pre-strung"
+ },
+ "Victor Thruster Ryuga CLS": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 83,
+  "tmax": 30,
+  "src": "https://badmintoncorner.com/products/victor-thruster-ryuga-cls-d-flame-red-pre-strung"
+ },
+ "Victor Auraspeed 9": {
+  "balance": "even",
+  "flex": "flexible",
+  "weights": "4U",
+  "weight": 82,
+  "src": "https://www.badmintonwarehouse.com/collections/victor-auraspeed-badminton-rackets/products/victor-auraspeed-9-badminton-racket"
+ },
+ "Victor Auraspeed SYN": {
+  "balance": "even",
+  "weights": "4U",
+  "tmax": 28,
+  "src": "https://joybadminton.com/products/victor-auraspeed-syn-ars-syn-s"
+ },
+ "Victor Auraspeed FD": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "tmax": 31,
+  "src": "https://joybadminton.com/products/victor-auraspeed-fd-ars-fd-a-white-pre-strung"
+ },
+ "Li-Ning Halbertec Mage": {
+  "new": true,
+  "year": 2026,
+  "style": "control",
+  "balance": "even",
+  "flex": "medium",
+  "level": "intermediate",
+  "weights": "4U, 5U",
+  "tmax": 30,
+  "src": "https://thegodofsports.com/products/li-ning-halbertec-mage-badminton-racket-4u"
+ },
+ "Li-Ning Axforce Tiger": {
+  "new": true,
+  "year": 2026,
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "4U, 5U",
+  "src": "https://thegodofsports.com/products/li-ning-axforce-tiger-badminton-racket-white-lime"
+ },
+ "Li-Ning Axforce Warrior": {
+  "new": true,
+  "year": 2026,
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "4U, 5U",
+  "weight": 82,
+  "tmax": 30,
+  "src": "https://www.eliteshuttler.com/products/li-ning-axforce-warrior"
+ },
+ "Li-Ning Tectonic 3R": {
+  "new": true,
+  "year": 2026,
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "pro",
+  "weights": "4U, 5U",
+  "src": "https://shop.kibisports.com/products/badminton-racket-tectonic-3r-4u"
+ },
+ "Li-Ning Tectonic 7": {
+  "new": true,
+  "style": "allround",
+  "balance": "even",
+  "flex": "flexible",
+  "weight": 82,
+  "tmax": 32,
+  "src": "https://centralsports.co.uk/products/li-ning-tectonic-7-white-gold"
+ },
+ "Apacs Assailant Pro": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weight": 84,
+  "weights": "4U",
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-assailant-pro-white-4u-badminton-racket.html"
+ },
+ "Apacs Astral 9000": {
+  "balance": "even",
+  "flex": "medium",
+  "weight": 84,
+  "weights": "4U",
+  "tmax": 35,
+  "src": "https://www.badmintonbay.com/apacs-astral-9000-navy-grey-4u-badminton-racket.html"
+ },
+ "Apacs Cross Court Control": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weight": 84,
+  "weights": "4U",
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-cross-court-control-maroon-silver-4u-badminton-racket.html"
+ },
+ "Apacs Cross Court Power": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weight": 84,
+  "weights": "4U",
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-cross-court-power-black-maroon-4u-badminton-racket.html"
+ },
+ "Apacs Maelstrom": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weight": 81,
+  "weights": "5U",
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-maelstrom-silver-5u-badminton-racket.html"
+ },
+ "Apacs Tempesta": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weight": 81,
+  "weights": "5U",
+  "tmax": 35,
+  "src": "https://www.badmintonbay.com/apacs-tempesta-black-5u-badminton-racket.html"
+ },
+ "Apacs Hard Hitter Speed": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weight": 84,
+  "weights": "4U",
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-hard-hitter-speed-white-4u-badminton-racket.html"
+ },
+ "Apacs Hard Hitter Power": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weight": 84,
+  "weights": "4U",
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-hard-hitter-power-red-4u-badminton-racket.html"
+ },
+ "Apacs Hard Hitter Control": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weight": 84,
+  "weights": "4U",
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-hard-hitter-control-green-4u-badminton-racket.html"
+ },
+ "Apacs Hard Hitter Pro 6.4": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weight": 84,
+  "weights": "4U",
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-hard-hitter-pro-navy-blue-4u-badminton-racket.html"
+ },
+ "Apacs Valiant 8000": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weight": 84,
+  "weights": "4U",
+  "tmax": 35,
+  "src": "https://www.badmintonbay.com/apacs-valiant-8000-black-4u-badminton-racket.html"
+ },
+ "Apacs Legacy 909": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weight": 84,
+  "weights": "4U",
+  "tmax": 35,
+  "src": "https://www.badmintonbay.com/apacs-legacy-909-metallic-light-blue-4u-badminton-racket.html"
+ },
+ "Apacs Energetic Horse": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weight": 84,
+  "weights": "4U",
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-energetic-horse-badminton-racket.html"
+ },
+ "Apacs Dominator 808": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weight": 84,
+  "weights": "4U",
+  "tmax": 35,
+  "src": "https://www.badmintonbay.com/apacs-dominator-808-white-4u-badminton-racket.html"
+ },
+ "Apacs Resona Speed 88": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weight": 81,
+  "weights": "5U",
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-resona-speed-88-black-5u-badminton-racket.html"
+ },
+ "Apacs Thunderdome Pro 6.4": {
+  "flex": "stiff",
+  "weight": 84,
+  "weights": "4U",
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/apacs-thunderdome-pro-6-pt-4-dark-grey-4u-badminton-racket.html"
+ },
+ "Apacs Cross Court Pro 6.2": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weight": 84,
+  "weights": "4U",
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/pro-series-badminton-racket/apacs-cross-court-pro-6.2-black-4u-badminton-racket.html"
+ },
+ "Apacs Super Speed": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weight": 79,
+  "weights": "6U",
+  "tmax": 32,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/pro-series-badminton-racket/apacs-super-speed-black-4u-badminton-racket.html"
+ },
+ "Apacs Ziggler Pro 6.2": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weight": 84,
+  "weights": "4U",
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/pro-series-badminton-racket/apacs-ziggler-PRO-6.2-black-red-4u-badminton-racket.html"
+ },
+ "Apacs Imperial Pro": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weight": 86,
+  "weights": "4U",
+  "tmax": 38,
+  "src": "https://www.badmintonbay.com/Badminton-Racket/pro-series-badminton-racket/apacs-imperial-pro-dark-grey-badminton-racket.html"
+ }
+}

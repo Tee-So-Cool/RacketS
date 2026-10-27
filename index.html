@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>เทียบไม้แบด</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-in">
+      <a class="logo" href="#rackets">🏸 <span>เทียบไม้แบด</span></a>
+      <nav class="tabs" id="tabs">
+        <a href="#rackets" data-v="rackets">ไม้แบด</a>
+        <a href="#strings" data-v="strings">เอ็น</a>
+        <a href="#match" data-v="match">จับคู่ไม้+เอ็น</a>
+        <a href="#manage" data-v="manage">จัดการข้อมูล</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap" id="view"></main>
+  <div class="tray" id="tray" hidden></div>
+
+  <script src="data/rackets.js"></script>
+  <script src="data/strings.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
