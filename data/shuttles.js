@@ -252,6 +252,70 @@ window.SHUTTLES = [
   "est": []
  },
  {
+  "id": "apacs-flight-10",
+  "brand": "Apacs",
+  "name": "Flight 10",
+  "code": "",
+  "type": "natural",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": 12,
+  "price": 300,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0747/3535/3946/files/Apacs-Flight-1-FL10-Feather-Badminton-Shuttlecock-Online-1-1.png?v=1783375062",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/apacs-flight-10-fl10-feather-badminton-shuttlecock"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹858.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/apacs-flight-10-fl10-feather-badminton-shuttlecock",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "apacs-flight-20",
+  "brand": "Apacs",
+  "name": "Flight 20",
+  "code": "",
+  "type": "natural",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 340,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0747/3535/3946/files/Apacs-aFlight-20-FL20-Feather-Badminton-Shuttlecock-3.png?v=1783375052",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/apacs-flight-20-fl20-feather-badminton-shuttlecock"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹949.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/apacs-flight-20-fl20-feather-badminton-shuttlecock",
+  "est": [
+   "price"
+  ]
+ },
+ {
   "id": "apacs-flight-30",
   "brand": "Apacs",
   "name": "Flight 30",
@@ -377,6 +441,66 @@ window.SHUTTLES = [
   "est": []
  },
  {
+  "id": "bullets-commander",
+  "brand": "Bullets",
+  "name": "Commander",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 1190,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/9f1ea48babdc4677a5e966f77216dc35.jpg?v=1786441154",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/bullets-commander"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
+ },
+ {
+  "id": "bullets-conqueror",
+  "brand": "Bullets",
+  "name": "Conqueror",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 1250,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/LINE_NOTE_250804_1.jpg?v=1786441176",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/bullets-conqueror"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
+ },
+ {
   "id": "bullets-diamond",
   "brand": "Bullets",
   "name": "Diamond",
@@ -441,6 +565,138 @@ window.SHUTTLES = [
   "est": []
  },
  {
+  "id": "hundred-f10",
+  "brand": "Hundred",
+  "name": "F10",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": 12,
+  "price": 1000,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/Screenshot2025-09-16at3.41.59PM.png?v=1758008594",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/hundred-f10-shuttlecock-speed-77-tube-of-12"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-f10-feather-badminton-shuttlecock-speed-76"
+   }
+  ],
+  "priceNote": "แปลงจาก S$38.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/hundred-f10-shuttlecock-speed-77-tube-of-12",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-f7",
+  "brand": "Hundred",
+  "name": "F7",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 900,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0747/3535/3946/files/Hundred-F7-Feather-Badminton-Shuttlecock-1.jpg?v=1783376735",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-f7-feather-badminton-shuttlecock-speed-76"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹2,543.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-f7-feather-badminton-shuttlecock-speed-76",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-h-100",
+  "brand": "Hundred",
+  "name": "H+100",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": 77,
+  "speedText": "",
+  "spd": "77",
+  "cork": "",
+  "perTube": 12,
+  "price": 1560,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/link_01_b28fa77773.webp?v=1758007773",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/hundred-h-100-shuttlecock-speed-77-tube-of-12"
+   }
+  ],
+  "priceNote": "แปลงจาก S$59.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/hundred-h-100-shuttlecock-speed-77-tube-of-12",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-s40",
+  "brand": "Hundred",
+  "name": "S40",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 520,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0747/3535/3946/files/Hundred-S40-Badminton-Feather-Shuttlecock-1.jpg?v=1783376573",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-s40-badminton-feather-shuttlecock"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,472.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-s40-badminton-feather-shuttlecock",
+  "est": [
+   "price"
+  ]
+ },
+ {
   "id": "li-ning-a-300",
   "brand": "Li-Ning",
   "name": "A+300",
@@ -492,7 +748,7 @@ window.SHUTTLES = [
   "spd": "76",
   "cork": "คอร์กธรรมชาติ",
   "perTube": 12,
-  "price": 3140,
+  "price": 1170,
   "year": "",
   "note": "ขนห่าน · ระดับ World Competition สูงสุด · ขนห่านคัดพิเศษ วิถีลูกแม่นและทนทาน",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/li-ning-a600-300x300.jpg",
@@ -510,8 +766,8 @@ window.SHUTTLES = [
     "url": "https://in.lining.studio/products/a-600"
    }
   ],
-  "priceNote": "แปลงจาก S$119.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://sg.lining.studio/products/a-600",
+  "priceNote": "แปลงจาก ₹3,290.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/a-600",
   "est": [
    "price"
   ]
@@ -650,6 +906,82 @@ window.SHUTTLES = [
   ]
  },
  {
+  "id": "li-ning-attack",
+  "brand": "Li-Ning",
+  "name": "Attack",
+  "code": "",
+  "type": "nylon",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 500,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/attack_white_slow_01_c74686fd2b.jpg?v=1752146812",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/attack"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/attack"
+   }
+  ],
+  "priceNote": "แปลงจาก S$19.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/attack",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-bolt-boost",
+  "brand": "Li-Ning",
+  "name": "Bolt Boost",
+  "code": "",
+  "type": "nylon",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 160,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/bolt_boost_2d2561de2f.webp?v=1752146922",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/bolt-boost"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/bolt-boost"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/li-ning-bolt-boost-6-in-1-nylon-shuttlecock-yellow-kibi-sports"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹449.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/bolt-boost",
+  "est": [
+   "price"
+  ]
+ },
+ {
   "id": "li-ning-bolt-gold",
   "brand": "Li-Ning",
   "name": "Bolt Gold",
@@ -730,6 +1062,42 @@ window.SHUTTLES = [
   ]
  },
  {
+  "id": "li-ning-bolt-max",
+  "brand": "Li-Ning",
+  "name": "Bolt Max",
+  "code": "",
+  "type": "",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 500,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/bolt_max_6_in_1_ea3fa63fe3.jpg?v=1752146785",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/bolt-max"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/bolt-max"
+   }
+  ],
+  "priceNote": "แปลงจาก S$19.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/bolt-max",
+  "est": [
+   "price"
+  ]
+ },
+ {
   "id": "li-ning-bolt-neo",
   "brand": "Li-Ning",
   "name": "Bolt Neo",
@@ -761,6 +1129,42 @@ window.SHUTTLES = [
   ],
   "priceNote": "แปลงจาก S$19.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/bolt-neo",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-bolt-pro",
+  "brand": "Li-Ning",
+  "name": "Bolt Pro",
+  "code": "",
+  "type": "nylon",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 500,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/bolt_pro_3_in_1_9823ed20e4.jpg?v=1752146802",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/bolt-pro"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/bolt-pro"
+   }
+  ],
+  "priceNote": "แปลงจาก S$19.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/bolt-pro",
   "est": [
    "price"
   ]
@@ -877,6 +1281,42 @@ window.SHUTTLES = [
   ],
   "priceNote": "แปลงจาก S$27.90 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sportsshop.asia/products/li-ning-champ-shuttlecock-speed-77-tube-of-12",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-champion-pro",
+  "brand": "Li-Ning",
+  "name": "Champion Pro",
+  "code": "",
+  "type": "duck",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 320,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/champion_pro_6e59cbde7f.jpg?v=1752146891",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/champion-pro"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/champion-pro"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹890.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/champion-pro",
   "est": [
    "price"
   ]
@@ -1038,6 +1478,38 @@ window.SHUTTLES = [
   ]
  },
  {
+  "id": "li-ning-future-10-extra-durable",
+  "brand": "Li-Ning",
+  "name": "Future 10-Extra Durable",
+  "code": "",
+  "type": "nylon",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 670,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/1_15.jpg?v=1776428340",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/future-10-extra-durable-pack-of-3"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,890.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/future-10-extra-durable-pack-of-3",
+  "est": [
+   "price"
+  ]
+ },
+ {
   "id": "li-ning-future-9",
   "brand": "Li-Ning",
   "name": "Future 9",
@@ -1097,6 +1569,70 @@ window.SHUTTLES = [
   ],
   "priceNote": "แปลงจาก ₹1,899.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/g200",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-g300",
+  "brand": "Li-Ning",
+  "name": "G300",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 1080,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0723/9035/products/LiNING_a_70_badminton-shuttlecocks-AYQF032-3_YumoProShop_3d5f3d57-40dd-4701-b454-6f9c4cdf48a5.jpg?v=1634145586",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-a-70-75-speed-feather-shuttle"
+   }
+  ],
+  "priceNote": "แปลงจาก C$44.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/li-ning-a-70-75-speed-feather-shuttle",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-g300s",
+  "brand": "Li-Ning",
+  "name": "G300S",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 1080,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0723/9035/files/Li-Ning-G300S-77-speed-Feather-Shuttle_YumoProShop.png?v=1792527223",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-g300s-77-speed-feather-shuttle"
+   }
+  ],
+  "priceNote": "แปลงจาก C$44.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/li-ning-g300s-77-speed-feather-shuttle",
   "est": [
    "price"
   ]
@@ -1218,6 +1754,74 @@ window.SHUTTLES = [
   ]
  },
  {
+  "id": "li-ning-g700",
+  "brand": "Li-Ning",
+  "name": "G700",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": 12,
+  "price": 1420,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/h3cN6fgEThE.jpg?v=1757338251",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/li-ning-g700-shuttlecock-bwf-approved-speed-77-tube-of-12"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-a-100-77-speed-feather-shuttle-yumo-pro-shop"
+   }
+  ],
+  "priceNote": "แปลงจาก S$54.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/li-ning-g700-shuttlecock-bwf-approved-speed-77-tube-of-12",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-g800",
+  "brand": "Li-Ning",
+  "name": "G800",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 1530,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/AYQR_004_4_S_a3523220ab.jpg?v=1752148589",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/g800"
+   }
+  ],
+  "priceNote": "แปลงจาก S$58.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/g800",
+  "est": [
+   "price"
+  ]
+ },
+ {
   "id": "li-ning-g900",
   "brand": "Li-Ning",
   "name": "G900",
@@ -1228,16 +1832,20 @@ window.SHUTTLES = [
   "speedText": "",
   "spd": "",
   "cork": "",
-  "perTube": "",
+  "perTube": 12,
   "price": 1790,
   "year": "",
   "note": "",
-  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/AYQR_002_10_97114c3cde.jpg?v=1752148581",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/AYQR_002_10_97114c3cde.webp?v=1757337911",
   "source": "",
   "officialUrl": "",
   "shopUrl": "",
   "specSrc": "",
   "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/li-ning-g900-shuttlecock-speed-77-tube-of-12"
+   },
    {
     "shop": "sg.lining.studio",
     "url": "https://sg.lining.studio/products/g900"
@@ -1248,7 +1856,79 @@ window.SHUTTLES = [
    }
   ],
   "priceNote": "แปลงจาก S$68.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://sg.lining.studio/products/g900",
+  "priceSrc": "https://sportsshop.asia/products/li-ning-g900-shuttlecock-speed-77-tube-of-12",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-gold-medal",
+  "brand": "Li-Ning",
+  "name": "Gold Medal",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 950,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/gold_medal_ae983d02c0.jpg?v=1752146848",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/gold-medal"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/gold-medal"
+   }
+  ],
+  "priceNote": "แปลงจาก S$36.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/gold-medal",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-icon",
+  "brand": "Li-Ning",
+  "name": "Icon",
+  "code": "",
+  "type": "duck",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 320,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/icon_feather_shuttle_01_1_1d79c5fa64.jpg?v=1752146899",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/icon"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/icon"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹890.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/icon",
   "est": [
    "price"
   ]
@@ -1294,6 +1974,78 @@ window.SHUTTLES = [
   ]
  },
  {
+  "id": "li-ning-smash",
+  "brand": "Li-Ning",
+  "name": "Smash",
+  "code": "",
+  "type": "nylon",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 500,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/smash_white_slow_01_9b80aa44a0.jpg?v=1752146821",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/smash"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/smash"
+   }
+  ],
+  "priceNote": "แปลงจาก S$19.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/smash",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-strike",
+  "brand": "Li-Ning",
+  "name": "Strike",
+  "code": "",
+  "type": "duck",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 400,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/strike_dbaad34269.jpg?v=1752146907",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/strike"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/strike"
+   }
+  ],
+  "priceNote": "แปลงจาก S$15.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/strike",
+  "est": [
+   "price"
+  ]
+ },
+ {
   "id": "li-ning-swiftx-100",
   "brand": "Li-Ning",
   "name": "Swiftx 100",
@@ -1325,6 +2077,38 @@ window.SHUTTLES = [
   ],
   "priceNote": "แปลงจาก S$9.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/swiftx-100",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "ling-mei-10",
+  "brand": "Ling Mei",
+  "name": "10",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": 77,
+  "speedText": "",
+  "spd": "77",
+  "cork": "",
+  "perTube": 12,
+  "price": 780,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/LingMei10Shuttlecock.png?v=1768004455",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/lingmei-10-shuttlecock"
+   }
+  ],
+  "priceNote": "แปลงจาก US$22.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/lingmei-10-shuttlecock",
   "est": [
    "price"
   ]
@@ -1598,6 +2382,102 @@ window.SHUTTLES = [
   "est": []
  },
  {
+  "id": "mizuno-ms-club-5",
+  "brand": "Mizuno",
+  "name": "MS Club-5",
+  "code": "",
+  "type": "duck",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": 12,
+  "price": 470,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/products/711e69_228d9bdd8ebb4c95b488d2e563734867_mv2.webp?v=1676720162",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/mizuno-ms-club-5-duck-feather-shuttlecock-1-tube-of-12-pieces"
+   }
+  ],
+  "priceNote": "แปลงจาก S$18.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/mizuno-ms-club-5-duck-feather-shuttlecock-1-tube-of-12-pieces",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "mizuno-ms60",
+  "brand": "Mizuno",
+  "name": "MS60",
+  "code": "",
+  "type": "duck",
+  "grade": "",
+  "speed": 76,
+  "speedText": "",
+  "spd": "76",
+  "cork": "",
+  "perTube": 12,
+  "price": 840,
+  "year": "",
+  "note": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/mizuno-ms60-duck-feather-shuttlecock-1-tube-of-12-pieces"
+   }
+  ],
+  "priceNote": "แปลงจาก S$32.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/mizuno-ms60-duck-feather-shuttlecock-1-tube-of-12-pieces",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "rsl-11",
+  "brand": "RSL",
+  "name": "11",
+  "code": "",
+  "type": "duck",
+  "grade": "",
+  "speed": 77,
+  "speedText": "",
+  "spd": "77",
+  "cork": "",
+  "perTube": "",
+  "price": 580,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/products/0c08cefc341eec19fede47acb57b2c0b.jpg?v=1679055519",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/rsl-11-shuttlecock-1-tube-of-12"
+   }
+  ],
+  "priceNote": "แปลงจาก S$22.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/rsl-11-shuttlecock-1-tube-of-12",
+  "est": [
+   "price"
+  ]
+ },
+ {
   "id": "rsl-a9",
   "brand": "RSL",
   "name": "A9",
@@ -1645,7 +2525,7 @@ window.SHUTTLES = [
   "spd": "77",
   "cork": "",
   "perTube": 12,
-  "price": "",
+  "price": 1590,
   "year": "",
   "note": "ขนห่านฤดูหนาว · Elite tournament grade · ขนห่านฤดูหนาว ทนทานและวิถีนิ่งที่สุด รับรองโดย BWF",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/rsl-century-tourney-300x260.jpg",
@@ -1653,10 +2533,81 @@ window.SHUTTLES = [
   "officialUrl": "",
   "shopUrl": "",
   "specSrc": "",
-  "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
-  "est": []
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/rsl-century-shuttlecock"
+   }
+  ],
+  "priceNote": "แปลงจาก US$46.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/rsl-century-shuttlecock",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "rsl-classic-academy",
+  "brand": "RSL",
+  "name": "Classic Academy",
+  "code": "",
+  "type": "natural",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 1180,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0614/7761/7916/files/Untitled_design_-_2026-06-16T165642.302.png?v=1781600233",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/rsl-classic-academy"
+   }
+  ],
+  "priceNote": "แปลงจาก £26.11 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://centralsports.co.uk/products/rsl-classic-academy",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "rsl-classic-club",
+  "brand": "RSL",
+  "name": "Classic Club",
+  "code": "",
+  "type": "natural",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 970,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0614/7761/7916/files/Untitleddesign-2026-10-09T160103.244.png?v=1791532881",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/rsl-classic-club"
+   }
+  ],
+  "priceNote": "แปลงจาก £21.55 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://centralsports.co.uk/products/rsl-classic-club",
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "rsl-classic-tourney",
@@ -1695,9 +2646,9 @@ window.SHUTTLES = [
   ]
  },
  {
-  "id": "rsl-d-tl-81-training",
+  "id": "rsl-d-tl-81",
   "brand": "RSL",
-  "name": "D.TL. 81 Training",
+  "name": "D.TL. 81",
   "code": "",
   "type": "duck",
   "grade": "",
@@ -1723,6 +2674,238 @@ window.SHUTTLES = [
   "priceNote": "",
   "priceSrc": "",
   "est": []
+ },
+ {
+  "id": "rsl-dtl-82",
+  "brand": "RSL",
+  "name": "Dtl 82",
+  "code": "",
+  "type": "natural",
+  "grade": "",
+  "speed": 77,
+  "speedText": "",
+  "spd": "77",
+  "cork": "",
+  "perTube": 12,
+  "price": 880,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/RSLDTL82Shuttlecock_eafa8e60-8b36-4cb3-8383-6ea1c3231212.png?v=1768335751",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/rsl-dtl-82-shuttlecock-77"
+   }
+  ],
+  "priceNote": "แปลงจาก US$25.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/rsl-dtl-82-shuttlecock-77",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "rsl-dtl-85",
+  "brand": "RSL",
+  "name": "Dtl 85",
+  "code": "",
+  "type": "natural",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 830,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0614/7761/7916/files/Untitleddesign-2026-06-16T165150.130.png?v=1781599924",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/rsl-dtl-85-speed-78"
+   }
+  ],
+  "priceNote": "แปลงจาก £18.46 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://centralsports.co.uk/products/rsl-dtl-85-speed-78",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "rsl-dtl-8a",
+  "brand": "RSL",
+  "name": "Dtl 8A",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 510,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0614/7761/7916/files/Untitled_design_-_2026-06-16T165043.330.png?v=1781599863",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/rsl-dtl-8"
+   }
+  ],
+  "priceNote": "แปลงจาก £11.34 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://centralsports.co.uk/products/rsl-dtl-8",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "rsl-elite",
+  "brand": "RSL",
+  "name": "Elite",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": 77,
+  "speedText": "",
+  "spd": "77",
+  "cork": "",
+  "perTube": "",
+  "price": 920,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/rsl-elite-300x300.webp?v=1758586521",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/rsl-elite-shuttlecock-1-tube-of-12"
+   }
+  ],
+  "priceNote": "แปลงจาก S$34.90 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/rsl-elite-shuttlecock-1-tube-of-12",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "rsl-hybird-5",
+  "brand": "RSL",
+  "name": "Hybird 5",
+  "code": "",
+  "type": "hybrid",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 880,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0614/7761/7916/files/Untitleddesign-2026-10-09T155933.324.png?v=1791532789",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/rsl-hybird-5"
+   }
+  ],
+  "priceNote": "แปลงจาก £19.66 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://centralsports.co.uk/products/rsl-hybird-5",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "rsl-mk-8",
+  "brand": "RSL",
+  "name": "MK-8",
+  "code": "",
+  "type": "duck",
+  "grade": "",
+  "speed": 77,
+  "speedText": "",
+  "spd": "77",
+  "cork": "",
+  "perTube": "",
+  "price": 450,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/products/0355eea06142a30ea80f3f7b6085d956.jpg?v=1679055762",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/rsl-mk-8-shuttlecock-1-tube-of-12"
+   }
+  ],
+  "priceNote": "แปลงจาก S$17.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/rsl-mk-8-shuttlecock-1-tube-of-12",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "rsl-no-3",
+  "brand": "RSL",
+  "name": "No.3",
+  "code": "",
+  "type": "duck",
+  "grade": "",
+  "speed": 77,
+  "speedText": "",
+  "spd": "77",
+  "cork": "",
+  "perTube": 12,
+  "price": 1150,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/RSLNo.3Shuttlecock_f788cdbc-14f9-478c-a35b-e5d23337ba17.png?v=1768334486",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/rsl-no-3-shuttlecock"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/rsl-tourney-no3-feather-shuttle"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/rsl-tourney-no-3-badminton-feather-shuttlecock"
+   }
+  ],
+  "priceNote": "แปลงจาก US$33.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/rsl-no-3-shuttlecock",
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "rsl-no-4",
@@ -1792,10 +2975,78 @@ window.SHUTTLES = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/rsl-no-5-shuttlecock-1-tube-of-12"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/rsl-tourney-no-5-badminton-feather-shuttlecock"
    }
   ],
   "priceNote": "แปลงจาก US$29.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/rsl-no-5-shuttlecock",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "rsl-no-7",
+  "brand": "RSL",
+  "name": "No.7",
+  "code": "",
+  "type": "natural",
+  "grade": "",
+  "speed": 77,
+  "speedText": "",
+  "spd": "77",
+  "cork": "",
+  "perTube": 12,
+  "price": 950,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/RSLNo.7Shuttlecock_b490f5ae-091b-455d-b0c4-13b51817d6cf.png?v=1768335627",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/rsl-no-7-shuttlecock"
+   }
+  ],
+  "priceNote": "แปลงจาก US$27.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/rsl-no-7-shuttlecock",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "rsl-platinum",
+  "brand": "RSL",
+  "name": "Platinum",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": 77,
+  "speedText": "",
+  "spd": "77",
+  "cork": "",
+  "perTube": "",
+  "price": 1320,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/rsl-platinum.png?v=1758592183",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/rsl-platinum-shuttlecock-1-tube-of-12"
+   }
+  ],
+  "priceNote": "แปลงจาก S$49.90 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/rsl-platinum-shuttlecock-1-tube-of-12",
   "est": [
    "price"
   ]
@@ -1824,6 +3075,102 @@ window.SHUTTLES = [
   "priceNote": "",
   "priceSrc": "",
   "est": []
+ },
+ {
+  "id": "rsl-s-treme",
+  "brand": "RSL",
+  "name": "S-treme",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": 77,
+  "speedText": "",
+  "spd": "77",
+  "cork": "",
+  "perTube": "",
+  "price": 900,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/products/shopping.webp?v=1679054492",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/rsl-s-treme-shuttlecock-1-tube-of-12"
+   }
+  ],
+  "priceNote": "แปลงจาก S$34.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/rsl-s-treme-shuttlecock-1-tube-of-12",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "rsl-silver",
+  "brand": "RSL",
+  "name": "Silver",
+  "code": "",
+  "type": "natural",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 920,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/my-11134207-7qul5-lf3v946uxf9x39.jpg?v=1731411488",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/rsl-silver-shuttlecock-1-tube-of-12-copy"
+   }
+  ],
+  "priceNote": "แปลงจาก S$35.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/rsl-silver-shuttlecock-1-tube-of-12-copy",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "rsl-smash",
+  "brand": "RSL",
+  "name": "Smash",
+  "code": "",
+  "type": "natural",
+  "grade": "",
+  "speed": 77,
+  "speedText": "",
+  "spd": "77",
+  "cork": "",
+  "perTube": 12,
+  "price": 760,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/products/my-11134207-23020-llhgqobszbnvcb.jpg?v=1679055291",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/rsl-smash-shuttlecock-1-tube-of-12"
+   }
+  ],
+  "priceNote": "แปลงจาก S$29.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/rsl-smash-shuttlecock-1-tube-of-12",
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "rsl-supreme",
@@ -1906,21 +3253,21 @@ window.SHUTTLES = [
   ]
  },
  {
-  "id": "rsl-tourney-no-3",
+  "id": "rsl-tourney-no-2",
   "brand": "RSL",
-  "name": "Tourney No.3",
+  "name": "Tourney No.2",
   "code": "",
-  "type": "duck",
+  "type": "goose",
   "grade": "",
   "speed": "",
   "speedText": "",
   "spd": "",
   "cork": "",
-  "perTube": "",
-  "price": 1280,
+  "perTube": 12,
+  "price": 1380,
   "year": "",
   "note": "",
-  "img": "https://cdn.shopify.com/s/files/1/0614/7761/7916/files/rsl_no.3.png?v=1778161997",
+  "img": "https://cdn.shopify.com/s/files/1/0614/7761/7916/files/Untitleddesign-2026-06-16T170451.121.png?v=1781600702",
   "source": "",
   "officialUrl": "",
   "shopUrl": "",
@@ -1928,15 +3275,75 @@ window.SHUTTLES = [
   "shopLinks": [
    {
     "shop": "centralsports.co.uk",
-    "url": "https://centralsports.co.uk/products/rsl-tourney-no3-feather-shuttle"
-   },
-   {
-    "shop": "thegodofsports.com",
-    "url": "https://thegodofsports.com/products/rsl-tourney-no-3-badminton-feather-shuttlecock"
+    "url": "https://centralsports.co.uk/products/rsl-tourney-no2-feather-shuttle"
    }
   ],
-  "priceNote": "แปลงจาก £28.53 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://centralsports.co.uk/products/rsl-tourney-no3-feather-shuttle",
+  "priceNote": "แปลงจาก £30.55 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://centralsports.co.uk/products/rsl-tourney-no2-feather-shuttle",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "rsl-tourney-no-6",
+  "brand": "RSL",
+  "name": "Tourney No.6",
+  "code": "",
+  "type": "natural",
+  "grade": "",
+  "speed": 77,
+  "speedText": "",
+  "spd": "77",
+  "cork": "",
+  "perTube": "",
+  "price": 440,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0747/3535/3946/files/RSL-Tourney-NO.6-Badminton-Feather-Shuttlecock.png?v=1783375065",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/rsl-tourney-no-6-badminton-feather-shuttlecock"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,229.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/rsl-tourney-no-6-badminton-feather-shuttlecock",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "rsl-ultimate-tournament",
+  "brand": "RSL",
+  "name": "Ultimate Tournament",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": 12,
+  "price": 1450,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/RSLUltimateTournamentShuttlecock_1e53a9b5-0dd1-4608-87a6-a59b8d794c3b.png?v=1768332550",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/rsl-ultimate-tournament-shuttlecock"
+   }
+  ],
+  "priceNote": "แปลงจาก US$42.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/rsl-ultimate-tournament-shuttlecock",
   "est": [
    "price"
   ]
@@ -1976,6 +3383,36 @@ window.SHUTTLES = [
   "est": []
  },
  {
+  "id": "vs-kirin",
+  "brand": "VS",
+  "name": "Kirin",
+  "code": "",
+  "type": "duck",
+  "grade": "",
+  "speed": 75,
+  "speedText": "",
+  "spd": "75",
+  "cork": "",
+  "perTube": 12,
+  "price": 990,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/LINE_NOTE_260811_1.jpg?v=1786441077",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs-kirin"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
+ },
+ {
   "id": "victor-as-airshuttle-ii",
   "brand": "Victor",
   "name": "AS-AirShuttle II",
@@ -2007,6 +3444,70 @@ window.SHUTTLES = [
   ],
   "priceNote": "แปลงจาก C$11.95 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://tenniszon.com/products/victor-as-airshuttle-ii",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "victor-as-air",
+  "brand": "Victor",
+  "name": "As-air",
+  "code": "",
+  "type": "natural",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 370,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/VictorAS-AirSyntheticShuttleShuttlecock.png?v=1766784743",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-as-airshuttle-shuttlecock"
+   }
+  ],
+  "priceNote": "แปลงจาก US$10.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/victor-as-airshuttle-shuttlecock",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "victor-carbon-sonic-2",
+  "brand": "Victor",
+  "name": "Carbon Sonic #2",
+  "code": "",
+  "type": "synthetic",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 420,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0613/9599/2800/files/CSNO2.webp?v=1714575479",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-carbon-sonic-2"
+   }
+  ],
+  "priceNote": "แปลงจาก C$17.49 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://tenniszon.com/products/victor-carbon-sonic-2",
   "est": [
    "price"
   ]
@@ -2138,11 +3639,43 @@ window.SHUTTLES = [
    },
    {
     "shop": "thegodofsports.com",
-    "url": "https://thegodofsports.com/products/victor-champion-1-badminton-feather-shuttlecock-speed-77-pack-of-5"
+    "url": "https://thegodofsports.com/products/victor-champion-5-badminton-feather-shuttlecock-speed-77-pack-of-10"
    }
   ],
   "priceNote": "แปลงจาก US$32.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/victor-champion-no-5-feather-shuttlecock",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "victor-gold-champion",
+  "brand": "Victor",
+  "name": "Gold Champion",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": 79,
+  "speedText": "",
+  "spd": "79",
+  "cork": "",
+  "perTube": "",
+  "price": 1170,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0614/7761/7916/products/Screenshot-2022-08-31-at-08-08-32-Victor-Gold-Champion-Feather-Shuttlecocks-Victor-Feather-Shuttlecocks-Direct-Badminton.jpg?v=1778101129",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/victor-gold-champion-feather-shuttle"
+   }
+  ],
+  "priceNote": "แปลงจาก £25.98 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://centralsports.co.uk/products/victor-gold-champion-feather-shuttle",
   "est": [
    "price"
   ]
@@ -2214,6 +3747,38 @@ window.SHUTTLES = [
   ]
  },
  {
+  "id": "victor-lark-4",
+  "brand": "Victor",
+  "name": "Lark 4",
+  "code": "",
+  "type": "hybrid",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 580,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0747/3535/3946/files/Victor-Lark-4-Feather-Badminton-Shuttlecock-1.jpg?v=1783376484",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-lark-4-feather-badminton-shuttlecock"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,643.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/victor-lark-4-feather-badminton-shuttlecock",
+  "est": [
+   "price"
+  ]
+ },
+ {
   "id": "victor-master-ace",
   "brand": "Victor",
   "name": "Master Ace",
@@ -2265,6 +3830,62 @@ window.SHUTTLES = [
   ],
   "priceNote": "แปลงจาก US$48.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/victor-master-ace-shuttlecock",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "victor-master-base",
+  "brand": "Victor",
+  "name": "Master Base",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": 78,
+  "speedText": "",
+  "spd": "78",
+  "cork": "",
+  "perTube": 12,
+  "price": 1150,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/VictorMasterBaseShuttlecock.png?v=1768348011",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-master-base-shuttlecock"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/victor-master-base-feather-shuttlecocks"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-master-no-7-goose-feather-badminton-shuttlecocks-12-pack"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-master-7-feather-badminton-shuttlecock-speed-77"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-master-no-7-feather-shuttle"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-feather-shuttlecocks-master-no-7"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-master-8-feather-badminton-shuttlecock"
+   }
+  ],
+  "priceNote": "แปลงจาก US$33.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/victor-master-base-shuttlecock",
   "est": [
    "price"
   ]
@@ -2427,54 +4048,6 @@ window.SHUTTLES = [
   "est": []
  },
  {
-  "id": "victor-master-no-7",
-  "brand": "Victor",
-  "name": "Master No.7",
-  "code": "",
-  "type": "goose",
-  "grade": "",
-  "speed": 78,
-  "speedText": "",
-  "spd": "78",
-  "cork": "",
-  "perTube": 12,
-  "price": 1010,
-  "year": "",
-  "note": "",
-  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/VICTORMasterNO.7FeatherShuttlecock.png?v=1768344887",
-  "source": "",
-  "officialUrl": "",
-  "shopUrl": "",
-  "specSrc": "",
-  "shopLinks": [
-   {
-    "shop": "joybadminton.com",
-    "url": "https://joybadminton.com/products/victor-master-no-7-feather-shuttlecock"
-   },
-   {
-    "shop": "badmintonwarehouse.com",
-    "url": "https://badmintonwarehouse.com/products/victor-master-no-7-goose-feather-badminton-shuttlecocks-12-pack"
-   },
-   {
-    "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/victor-master-7-feather-badminton-shuttlecock-speed-77"
-   },
-   {
-    "shop": "yumo.ca",
-    "url": "https://yumo.ca/products/victor-master-no-7-feather-shuttle"
-   },
-   {
-    "shop": "tenniszon.com",
-    "url": "https://tenniszon.com/products/victor-feather-shuttlecocks-master-no-7"
-   }
-  ],
-  "priceNote": "แปลงจาก US$29.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://joybadminton.com/products/victor-master-no-7-feather-shuttlecock",
-  "est": [
-   "price"
-  ]
- },
- {
   "id": "victor-new-carbonsonic-max",
   "brand": "Victor",
   "name": "New Carbonsonic Max",
@@ -2512,12 +4085,28 @@ window.SHUTTLES = [
     "url": "https://racquetguys.com/products/victor-new-carbon-sonic-max-synthetic-badminton-shuttlecock-speed-78-dozen-tube"
    },
    {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-ncs-new-carbonsonic-max-synthetic-badminton-shuttlecock-ncs-max"
+   },
+   {
     "shop": "tenniszon.com",
     "url": "https://tenniszon.com/products/victor-new-carbonsonic-max-12"
    },
    {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/victor-new-carbonsonic-max-shuttles-ncs-456025"
+   },
+   {
     "shop": "thegodofsports.com",
     "url": "https://thegodofsports.com/products/victor-ncs-max-badminton-shuttlecock-12-shuttle-speed-76"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-carbonsonic-ncs-max-hybrid-shuttlecock"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/victor-new-carbonsonic-max-shuttlecocks-ncs-max-12-pcs"
    }
   ],
   "priceNote": "",
@@ -2691,10 +4280,146 @@ window.SHUTTLES = [
    {
     "shop": "yumo.ca",
     "url": "https://yumo.ca/products/victor-special-feather-shuttle"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-shuttlecocks-special-training"
    }
   ],
   "priceNote": "แปลงจาก US$29.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/victor-special-feather-shuttlecock",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "victor-swan",
+  "brand": "Victor",
+  "name": "Swan",
+  "code": "",
+  "type": "hybrid",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 670,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0747/3535/3946/files/Victor-Swan-Feather-Badminton-Shuttlecock-1.jpg?v=1783376484",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-swan-feather-badminton-shuttlecock"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,892.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/victor-swan-feather-badminton-shuttlecock",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "victor-tourney",
+  "brand": "Victor",
+  "name": "Tourney",
+  "code": "",
+  "type": "duck",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 1150,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/VictorTourneyFeatherShuttlecockfront.png?v=1768346905",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-tourney-shuttlecock"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-tourney-feather-shuttle"
+   }
+  ],
+  "priceNote": "แปลงจาก US$33.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/victor-tourney-shuttlecock",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "victor-wsc-503",
+  "brand": "Victor",
+  "name": "WSC-503",
+  "code": "",
+  "type": "natural",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 130,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/VICTOR_WSC-503_Nylon_Shuttlecock.png?v=1753470524",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-wsc-503-nylon-shuttlecock"
+   }
+  ],
+  "priceNote": "แปลงจาก US$3.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/victor-wsc-503-nylon-shuttlecock",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "yonex-aeroclear-20",
+  "brand": "Yonex",
+  "name": "Aeroclear 20",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 1180,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/YonexAeroclear20GooseFeatherBadmintonShuttlecock.png?v=1770772544",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-aeroclear-20-goose-feather-badminton-shuttlecock"
+   }
+  ],
+  "priceNote": "แปลงจาก US$35.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/yonex-aeroclear-20-goose-feather-badminton-shuttlecock",
   "est": [
    "price"
   ]
@@ -2743,6 +4468,10 @@ window.SHUTTLES = [
    {
     "shop": "tenniszon.com",
     "url": "https://tenniszon.com/products/yonex-aeroclear-30-feather-shuttlecocks"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-aeroclear-30-feather-shuttlecocks"
    }
   ],
   "priceNote": "แปลงจาก US$45.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -2879,6 +4608,38 @@ window.SHUTTLES = [
   ]
  },
  {
+  "id": "yonex-aerosensa-01-tough",
+  "brand": "Yonex",
+  "name": "Aerosensa 01 Tough",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 1160,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/aerosensa01tough.jpg?v=1791618893",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/yonex-league-7-badminton-shuttlecocks-feather"
+   }
+  ],
+  "priceNote": "แปลงจาก A$49.00 ที่ 1 AUD = 23.747 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonclick.com.au/products/yonex-league-7-badminton-shuttlecocks-feather",
+  "est": [
+   "price"
+  ]
+ },
+ {
   "id": "yonex-aerosensa-10",
   "brand": "Yonex",
   "name": "Aerosensa 10",
@@ -2926,6 +4687,38 @@ window.SHUTTLES = [
   ],
   "priceNote": "แปลงจาก US$45.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/yonex-feather-shuttles-aerosensa-10",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "yonex-aerosensa-2",
+  "brand": "Yonex",
+  "name": "Aerosensa 2",
+  "code": "",
+  "type": "nylon",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 1380,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0747/3535/3946/files/yonex-Aerosensa-2-1.png?v=1783375077",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-aerosensa-2-as2-feather-badminton-shuttlecock"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,892.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/yonex-aerosensa-2-as2-feather-badminton-shuttlecock",
   "est": [
    "price"
   ]
@@ -3151,6 +4944,38 @@ window.SHUTTLES = [
   ]
  },
  {
+  "id": "yonex-attack",
+  "brand": "Yonex",
+  "name": "Attack",
+  "code": "",
+  "type": "duck",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 600,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0565/6317/1537/files/product-jpeg-1000x1000.webp?v=1781178990",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-attack-feather-shuttlecock-kibi-sports"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,700.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://shop.kibisports.com/products/yonex-attack-feather-shuttlecock-kibi-sports",
+  "est": [
+   "price"
+  ]
+ },
+ {
   "id": "yonex-crosswind-70",
   "brand": "Yonex",
   "name": "Crosswind 70",
@@ -3174,6 +4999,38 @@ window.SHUTTLES = [
   "priceNote": "",
   "priceSrc": "",
   "est": []
+ },
+ {
+  "id": "yonex-f-80",
+  "brand": "Yonex",
+  "name": "F-80",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 2300,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/YonexNewOfficialF-80Shuttlecock.png?v=1768337928",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-f-80-new-official-shuttlecock"
+   }
+  ],
+  "priceNote": "แปลงจาก US$67.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/yonex-f-80-new-official-shuttlecock",
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "yonex-league-7",
@@ -3467,11 +5324,11 @@ window.SHUTTLES = [
    },
    {
     "shop": "tenniszon.com",
-    "url": "https://tenniszon.com/products/yonex-mavis-300-yellow-case-10-cans-of-6"
+    "url": "https://tenniszon.com/products/yonex-mavis-300-yellow-medium-blue"
    },
    {
     "shop": "centralsports.co.uk",
-    "url": "https://centralsports.co.uk/products/yonex-mavis-300-synthetic-shuttles-1-2-doz"
+    "url": "https://centralsports.co.uk/products/yonex-mavis-300-fast-1-2-dozen-white-o-s"
    },
    {
     "shop": "thegodofsports.com",
@@ -3515,7 +5372,7 @@ window.SHUTTLES = [
    },
    {
     "shop": "nydhi.com",
-    "url": "https://nydhi.com/products/yonex-mavis-350-nylon-birdies-10-tubes-free-shipping"
+    "url": "https://nydhi.com/products/yonex-nylon-shuttlecock-mavis-350-yellow"
    },
    {
     "shop": "sportsshop.asia",
@@ -3699,5 +5556,35 @@ window.SHUTTLES = [
   "est": [
    "price"
   ]
+ },
+ {
+  "id": "yonex-young-wings-20",
+  "brand": "Yonex",
+  "name": "Young Wings 20",
+  "code": "",
+  "type": "duck",
+  "grade": "",
+  "speed": 76,
+  "speedText": "",
+  "spd": "76",
+  "cork": "",
+  "perTube": 12,
+  "price": "",
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0747/3535/3946/files/Young-Wings-20-Duck-Feather-Speed-76-Badminton-Shuttlecock-1-1.png?v=1783375056",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/young-wings-20-duck-feather-badminton-shuttlecock-speed-76"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
  }
 ];

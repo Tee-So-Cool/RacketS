@@ -114,7 +114,14 @@ import gear_shop
 def clean_title(t, strip_brand=''):
     # "VICTOR NEW CARBONSONIC MAX (12 PCS) Shuttlecock (NCS-MAX-12)" -> "New Carbonsonic Max"
     t = re.sub(r'\(.*?\)|\[.*?\]', ' ', t)
-    if strip_brand: t = re.sub(re.escape(strip_brand) + r'|li[- ]?ning', ' ', t, flags=re.I)
+    if strip_brand: t = re.sub(re.escape(strip_brand) + r'|li[- ]?ning|ling ?mei', ' ', t, flags=re.I)
+    # shop framing: prices ("From £37.62"), approvals, speed words, pack counts ("Mavis 350-5", "1/2 dozen")
+    t = re.sub(r'\b(?:pack|box|set|tube|carton)s?\s+of\s+\d+\b|[-–\s]*from\s*[£$€]?[\d.,]+|\bbwf approved\b|\bpremium\b|\b(?:medium|fast|slow)(?: speed)?\b|\b1/2\b|'
+               r'\b(?:practice|training|plastic|official)\b|(?<=\w )\b7[5-9]\b|\bnew\b(?! carbon)|[-\s]speed\b', ' ', t, flags=re.I)
+    t = re.sub(r'(\d)\s*[-–]\s*\d{1,2}\b(?!\.)', r'\1', t)  # "Mavis 350-5", "Champion 5-5": a pack count
+    # a code that repeats the model number ("Flight 10 FL10", "Aerosensa 2 AS2") goes
+    ws = t.split()
+    t = ' '.join(w for w in ws if not ((m := re.fullmatch(r'[A-Za-z]{1,3}-?(\d{1,3})', w)) and m.group(1) in ws))
     t = re.sub(r'\b(badminton|shuttlecocks?|shuttles?|feather|tube|dozen|pack|box|carton|of|\d+\s?(?:pcs|pieces|tubes?)|pcs|'
                r'speed\s?\d+|\d{2}\s?speed|20\d\d|white|yellow|green|blue|red|orange|small|single|goose|duck|nylon|synthetic)\b|\b\d+\s?(?:pcs|pieces|tubes?)\b', ' ', t, flags=re.I)
     t = re.sub(r'\s*-\s*', '-', re.sub(r'\s+', ' ', t))
@@ -133,9 +140,9 @@ def extract(it):
     return {'speed': int(sp) if sp else '', 'perTube': int(n.group(1)) if n else '',
             'type': feather(' '.join(l for l in it['lines'] if re.search(r'feather|skirt|material|ขน', l, re.I)) or it['title'])}
 
-def new_model(brand, name, shops=2):
-    # a name with no number ("Special", "Gold") needs three shops, or a Thai one, to count as a model
-    if not name or len(name) > 30 or (not re.search(r'\d', name) and shops < 3): return None
+def new_model(brand, name, shops=1):
+    # a name that is only the brand or a code fragment ("Lingmei", "Vns") is not a model
+    if not name or len(name) > 30 or len(name) < 2 or re.fullmatch(r'(?i)lingmei|vns|vsn|ns|nylon|basic', name): return None
     return {'id': slug(brand + ' ' + name), 'brand': brand, 'name': name, 'note': '', 'source': '', 'est': []}
 
 had_speed = {id(s) for s in shuttles.values() if s.get('speed')}

@@ -218,6 +218,124 @@ window.STRINGS = [
   ]
  },
  {
+  "id": "hundred-jp-58-magnite",
+  "brand": "Hundred",
+  "name": "JP 58 Magnite",
+  "year": "",
+  "gauge": 0.58,
+  "gaugeText": "",
+  "material": "mono",
+  "repulsion": "",
+  "control": "",
+  "durability": "",
+  "sound": "",
+  "shock": "",
+  "tensionMax": "",
+  "price": 400,
+  "colors": "",
+  "madeIn": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0723/9035/files/Hundred_JP58_Magnite_Badminton_String_HBAA-4M009_Black_YumoProShop.png?v=1792004756",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/hundred-jp-58-magnite-badminton-string"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-jp58-magnite-hbaa-4m009-2"
+   }
+  ],
+  "priceNote": "แปลงจาก C$16.50 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/hundred-jp-58-magnite-badminton-string",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-jp-70-hunter",
+  "brand": "Hundred",
+  "name": "JP 70 Hunter",
+  "year": "",
+  "gauge": "",
+  "gaugeText": "",
+  "material": "coated",
+  "repulsion": "",
+  "control": "",
+  "durability": "",
+  "sound": "",
+  "shock": "",
+  "tensionMax": "",
+  "price": 350,
+  "colors": "",
+  "madeIn": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0723/9035/files/Hundred_JP70_Hunter_Badminton_String__IceWhiteYumoProShop.png?v=1792007764",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/hundred-jp-70-hunter-badminton-string"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-jp70-hunter-hbaa-4m133-2"
+   }
+  ],
+  "priceNote": "แปลงจาก C$14.50 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/hundred-jp-70-hunter-badminton-string",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-jp65-magnite",
+  "brand": "Hundred",
+  "name": "JP65 Magnite",
+  "year": "",
+  "gauge": "",
+  "gaugeText": "",
+  "material": "",
+  "repulsion": "",
+  "control": "",
+  "durability": "",
+  "sound": "",
+  "shock": "",
+  "tensionMax": "",
+  "price": 440,
+  "colors": "",
+  "madeIn": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/HundredJP65Magnite10mBadmintonStringwhite.png?v=1756169485",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/hundred-jp65-magnite-10m-badminton-string"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/hundred-jp-65-magnite-badminton-string"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-jp65-magnite-hbaa-4m008-4"
+   }
+  ],
+  "priceNote": "แปลงจาก US$12.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/hundred-jp65-magnite-10m-badminton-string",
+  "est": [
+   "price"
+  ]
+ },
+ {
   "id": "kizuna-z58",
   "brand": "Kizuna",
   "name": "Z58",
@@ -410,7 +528,7 @@ window.STRINGS = [
   "brand": "Li-Ning",
   "name": "AP66",
   "year": "",
-  "gauge": "",
+  "gauge": 0.66,
   "gaugeText": "",
   "material": "mono",
   "repulsion": "",
@@ -439,44 +557,6 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก S$9.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/ap66-rainbow",
-  "est": [
-   "price"
-  ]
- },
- {
-  "id": "li-ning-ap66-turbo",
-  "brand": "Li-Ning",
-  "name": "AP66-Turbo",
-  "year": "",
-  "gauge": 0.66,
-  "gaugeText": "",
-  "material": "mono",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
-  "tensionMax": 26,
-  "price": 240,
-  "colors": "",
-  "madeIn": "",
-  "note": "",
-  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/01_83bb3b8896.jpg?v=1752148671",
-  "source": "",
-  "officialUrl": "",
-  "specSrc": "",
-  "shopLinks": [
-   {
-    "shop": "sg.lining.studio",
-    "url": "https://sg.lining.studio/products/ap66-turbo"
-   },
-   {
-    "shop": "in.lining.studio",
-    "url": "https://in.lining.studio/products/a66-turbo"
-   }
-  ],
-  "priceNote": "แปลงจาก S$9.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://sg.lining.studio/products/ap66-turbo",
   "est": [
    "price"
   ]

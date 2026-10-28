@@ -119,7 +119,9 @@ def extract(it):
     return {'gauge': gs[0] if len(gs) == 1 else '', 'tensionMax': tmax_of(lab) if lab else '',
             'material': material(' '.join(l for l in it['lines'] if re.search(r'core|outer|material|construction|วัสดุ', l, re.I)))}
 
-def new_model(brand, name, shops=2):
+def new_model(brand, name, shops=1):
+    # strings come in colourways and shop codes that read like models ("70 Z HBAA-2M044-5"): two shops, or a Thai one
+    if shops < 2: return None
     if not name or len(name) > 30 or not re.search(r'\d', name): return None  # a model name carries its number
     return {'id': slug(brand + ' ' + name), 'brand': brand, 'name': name, 'note': '', 'source': '', 'est': []}
 

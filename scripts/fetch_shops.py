@@ -2,7 +2,7 @@
 # into scripts/sources/shops.json. One feed page of 250 products every 3 s per shop.
 # Each product keeps its description lines, variant options and tags; build_rackets.py reads specs from them
 # (labelled lines first, then the prose), so a page without a spec table still counts.
-# Run: python3 scripts/fetch_shops.py [--kind=strings|shuttles] [domain ...]
+# Run: python3 scripts/fetch_shops.py [--kind=strings|shuttles|shoes|socks] [domain ...]
 #   (with domains, only those shops are refetched; the rest are kept). Strings go to shop-strings.json and
 #   shuttles to shop-shuttles.json; string reels (100/200 m) are left out, since their price is not a set's.
 import html, json, os, re, sys, time, urllib.request
@@ -41,6 +41,8 @@ WANT, SKIP = {
     'rackets': (r'racket|racquet|ไม้แบด', r'\b(bag|string|grip|cover|shoe|shirt|sock|shuttle|tennis|squash|pickleball|padel|table)\b|bundle|ไม้เทนนิส'),
     'strings': (r'\bstrings?\b|เอ็น', r'\b(tennis|squash|pickleball|padel|racket|racquet|machine|stringer|clamp|grip|bag|shoe)\b|\b(?:100|200|500)\s?m\b|\breel\b|\bcoil\b'),
     'shuttles': (r'shuttle|ลูกแบด|ลูกขนไก่', r'\b(holder|tube bag|machine|launcher|keychain|key chain|toy|sticker|towel|shirt|bag)\b'),
+    'shoes': (r'\bshoes?\b|footwear|รองเท้า', r'\b(socks?|insoles?|laces?|shoelaces?|bag|spray|cleaner|deodori[sz]er|tennis|padel|pickleball|squash|running|sandals?|slides?|slippers?)\b'),
+    'socks': (r'\bsocks?\b|ถุงเท้า', r'\b(shoes?|wristband|grip|towel|bag)\b'),
 }[KIND]
 RACKET, NOT_RACKET = re.compile(WANT, re.I), re.compile(SKIP, re.I)
 

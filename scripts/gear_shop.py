@@ -2,18 +2,19 @@
 # Sources: Badminton Plaza (THB, scripts/sources/plaza-<kind>.json) and the public Shopify feeds
 # (scripts/sources/shop-<kind>.json, from fetch_shops.py --kind=<kind>).
 # Each listing is matched to a model already in the data; a listing that matches none becomes a new model
-# when a Thai shop sells it or at least two shops do, so a one-off regional item does not slip in.
+# (new_model in each builder decides what counts as a model name), so every model a shop sells is listed.
 import json, os, re, collections
 from plaza_match import match as pmatch, tokens
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, 'scripts', 'sources')
 THAI = {'badmintonplaza.com', 'vssportsthailand.com'}
-BRANDS = {'yonex': 'Yonex', 'victor': 'Victor', 'li-ning': 'Li-Ning', 'li ning': 'Li-Ning', 'lining': 'Li-Ning', 'vs': 'VS',
+BRANDS = {'asics': 'Asics', 'hundred': 'Hundred', 'fz forza': 'FZ Forza', 'forza': 'FZ Forza', 'yonex': 'Yonex', 'victor': 'Victor', 'li-ning': 'Li-Ning', 'li ning': 'Li-Ning', 'lining': 'Li-Ning', 'vs': 'VS',
           'venson': 'VS', 'bullets': 'Bullets', 'rsl': 'RSL', 'apacs': 'Apacs', 'kizuna': 'Kizuna', 'mizuno': 'Mizuno', 'ling mei': 'Ling Mei', 'lingmei': 'Ling Mei'}
 # character tie-ins, gift sets and tennis lines are not models to list
-NOT_MODEL = re.compile(r'doraemon|dragon ball|crayon|shin ?chan|hello kitty|care bears|one piece|pokemon|butterbear|stencil|'
-                       r'gift|combo|\bkit\b|polytour|tennis|squash|sample|bundle|\bx\b', re.I)
+NOT_MODEL = re.compile(r'doraemon|dragon ball|crayon|shin ?chan|hello kitty|care bears|one piece|pokemon|butterbear|stencil|avenger|'
+                       r'gift|combo|\bkit\b|polytour|tennis|squash|sample|bundle|\bx\b|\bmini\b|ornament|\bcase\b|\bbulk\b|box ?set|'
+                       r'wristband|keychain|key chain|\bholder\b', re.I)
 FX = json.load(open(os.path.join(SRC, 'fx.json'))) if os.path.exists(os.path.join(SRC, 'fx.json')) else {'toTHB': {}, 'date': ''}
 SYM = {'USD': 'US$', 'GBP': '£', 'EUR': '€', 'SGD': 'S$', 'AUD': 'A$', 'INR': '₹', 'CAD': 'C$', 'MYR': 'RM'}
 
@@ -58,19 +59,26 @@ def apply(db, kind, wanted, clean_title, extract, new_model):
         if not name:
             nm = clean_title(it['title'], strip_brand=it['brand'])
             # one model however the shops space or spell it: "AP - 7" = "AP7", "VBS-70 Power" = "VBS-70P"
-            if nm: found[(it['brand'], ' '.join(tokens(nm)).replace(' ', ''))].append(it)
+            # repeated words fold too: "NCS New Carbonsonic Max" = "New Carbonsonic Max"
+            tk = [w for i, w in enumerate(tokens(nm)) if i == 0 or w != tokens(nm)[i - 1]]
+            if nm: found[(it['brand'], ''.join(tk))].append(it)
             continue
         hits += 1
         fill(pool[name], it, extract, kind)
     added = 0
     for (brand, _), its in found.items():
         shops = {i['shop'] for i in its}
-        if len(shops) < 2 and not shops & THAI: continue
+        if os.environ.get('GEAR_DEBUG'): print('candidate', brand, '|', clean_title(its[0]['title'], strip_brand=brand), '|', len(shops), sorted(shops)[:3])
         # the name as a Thai shop writes it, else as most shops do
         names = collections.Counter(clean_title(i['title'], strip_brand=brand) for i in its if i['shop'] in THAI) or \
                 collections.Counter(clean_title(i['title'], strip_brand=brand) for i in its)
         m = new_model(brand, names.most_common(1)[0][0], len(shops) + (1 if shops & THAI else 0))
         if not m: continue
+        # a listing that only now finds a model added a moment ago (another spelling of it) joins that model
+        twin, _ = pmatch(m['name'], {o['name']: o for o in db.values() if o['brand'] == brand})
+        if twin:
+            for it in its: fill(next(o for o in db.values() if o['brand'] == brand and o['name'] == twin), it, extract, kind)
+            continue
         # a bare series name ("Mavis", "Gold") when numbered models of that series are listed: not one model
         if any(o['brand'] == brand and o['name'].lower().startswith(m['name'].lower() + ' ') for o in db.values()): continue
         db[m['id']] = m; added += 1
@@ -86,7 +94,8 @@ def apply(db, kind, wanted, clean_title, extract, new_model):
         m.setdefault('est', []).append('price'); converted += 1
     print(kind, 'shop listings matched', hits, 'models added', added, 'prices converted', converted)
 
-MIN_BAHT = {'strings': 80, 'shuttles': 100}
+MIN_BAHT = {'strings': 80, 'shuttles': 100, 'shoes': 500, 'socks': 40}
+MAX_BAHT = {'strings': 1500, 'shuttles': 3000, 'shoes': 15000, 'socks': 1500}  # above it the price is for a box or a reel
 
 UNANIMOUS = {'speed'}  # a model sold in several speeds gets none
 
@@ -107,7 +116,7 @@ def fill(m, it, extract, kind):
     if price in (999, 9999): price = 0  # Li-Ning's stores use S$999 as a placeholder
     # below the floor it is a single shuttle, a sample or an accessory, not a set or a tube
     baht = price if it['currency'] == 'THB' else (thb(price, it['currency'])[0] if price else None)
-    if baht is not None and baht < MIN_BAHT[kind]: price = 0
+    if baht is not None and not MIN_BAHT[kind] <= baht <= MAX_BAHT[kind]: price = 0
     if price and it['currency'] == 'THB':
         # a Thai shop's baht price; a converted one it replaces is no longer an estimate
         if not m.get('price') or 'price' in m.get('est', []):
