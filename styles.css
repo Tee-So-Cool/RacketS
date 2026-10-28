@@ -402,3 +402,7 @@ h1, h2, .head .nm, .verdict, .tension, .logo { font-weight: var(--display-weight
 }
 .two.why { grid-template-columns: minmax(0, 1fr) minmax(0, 380px); }
 @media (max-width: 52rem) { .two.why, .two { grid-template-columns: minmax(0, 1fr); } }
+
+/* smaller type by request: every rem size scales from a 15px root, spacing (px) stays */
+html { font-size: 93.75%; }
+body { font-size: var(--text-md); }
