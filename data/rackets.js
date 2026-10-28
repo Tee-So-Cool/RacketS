@@ -16688,7 +16688,7 @@ window.RACKETS = [
   "year": 2024,
   "style": "speed",
   "balance": "even",
-  "flex": "",
+  "flex": "stiff",
   "level": "advanced",
   "weights": "4U",
   "weight": 83,
@@ -18189,7 +18189,7 @@ window.RACKETS = [
   "year": 2021,
   "style": "speed",
   "balance": "head-light",
-  "flex": "",
+  "flex": "medium",
   "level": "intermediate",
   "weights": "4U",
   "weight": 88,
@@ -18229,6 +18229,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "flex",
    "level"
   ]
  },
@@ -19231,9 +19232,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "flex"
-  ]
+  "est": []
  },
  {
   "id": "victor-thruster-hawk-pro",
@@ -19286,7 +19285,6 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "flex",
    "level"
   ]
  },
@@ -20541,7 +20539,7 @@ window.RACKETS = [
   "year": 2025,
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "stiff",
   "level": "advanced",
   "weights": "4U",
   "weight": 83,
@@ -20588,7 +20586,7 @@ window.RACKETS = [
   "year": 2024,
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "stiff",
   "level": "advanced",
   "weights": "3U, 4U, 5U",
   "weight": 83,
@@ -20635,7 +20633,7 @@ window.RACKETS = [
   "year": 2024,
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "stiff",
   "level": "intermediate",
   "weights": "3U, 4U",
   "weight": 83,

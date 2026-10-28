@@ -264,6 +264,13 @@ def from_shop(p):
     # the spec table from the product page itself (scripts/fetch_pages.py) goes first: it is the labelled source
     lines = PAGES.get(p['url'], []) + lines
     sp = parse_spec(lines, p.get('options', []))
+    # Victor's slider image (response-<series><1-10>, 10 = stiffest). Against 39 models whose flex is stated elsewhere:
+    # 7-10 were all stiff (21 of 21), 6 medium (6 of 7), 5 and below mixed; so 6 and below stay estimates
+    ind = p.get('indicator')
+    if ind and not sp['flex']:
+        lv = ind['level']
+        sp['flex'] = 'stiff' if lv >= 7 else 'medium' if lv >= 5 else 'flexible'
+        if lv <= 6: sp['fromProse'].append('flex')
     return {'src': 'shop', 'shop': p['shop'], 'brand': brand, 'name': nm, 'url': p['url'], 'img': p.get('img', ''),
             'price': p.get('price'), 'currency': p.get('currency'), 'parsed': sp}
 # Victor's official Thai pages (scripts/fetch_victor.py) come first, so the maker's figures win over shops'

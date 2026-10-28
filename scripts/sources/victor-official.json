@@ -21,7 +21,8 @@
    "Stiffness",
    "S●○○○○F"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -48,7 +49,8 @@
    "S○○○○●F",
    "The box-shaped design effectively increases the stability and anti-torque, can stand higher string tension."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -84,7 +86,11 @@
    "The shaft is key to power transmission, and that’s why VICTOR has been committed to developing better shafts. Through the combination of highly resilient materials and innovative design, VICTOR has created the best shaft ever with incredible anti-torsion performance and resilience.",
    "Different frame structures—including POWER-BOX, DIAMOND, AERO, and AERODYNAMIC—are rearranged and integrated based on computer simulation to optimize the hitting, frame characteristics, and overall performance."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 7
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -115,7 +121,11 @@
    "The shaft is key to power transmission, and that’s why VICTOR has been committed to developing better shafts. Through the combination of highly resilient materials and innovative design, VICTOR has created the best shaft ever with incredible anti-torsion performance and resilience.",
    "Different frame structures—including POWER-BOX, DIAMOND, AERO, and AERODYNAMIC—are rearranged and integrated based on computer simulation to optimize the hitting, frame characteristics, and overall performance."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 7
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -142,7 +152,8 @@
    "S○○○ ●F",
    "The box-shaped design effectively increases the stability and anti-torque, can stand higher string tension."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -169,7 +180,8 @@
    "S○○○ ●F",
    "The box-shaped design effectively increases the stability and anti-torque, can stand higher string tension."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -194,7 +206,11 @@
    "The box-shaped design effectively increases the stability and anti-torque, can stand higher string tension.",
    "The NANO TEC technology works by evenly distributing nano-sized particles in the vacant space between carbon fiber bundles, this highly increases the overall stiffness of the carbon composite fibers, and reduces the distortion of the frame."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 5
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -222,7 +238,8 @@
    "Inspired by military helicopter, multi-layered structure made by carbon fiber and composites, minimize material size, reinforce handling feel and performance at a critical standard.",
    "Different frame structures—including POWER-BOX, DIAMOND, AERO, and AERODYNAMIC—are rearranged and integrated based on computer simulation to optimize the hitting, frame characteristics, and overall performance."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -249,7 +266,11 @@
    "Inspired by military helicopter, multi-layered structure made by carbon fiber and composites, minimize material size, reinforce handling feel and performance at a critical standard.",
    "Different frame structures—including POWER-BOX, DIAMOND, AERO, and AERODYNAMIC—are rearranged and integrated based on computer simulation to optimize the hitting, frame characteristics, and overall performance."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 7
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -277,7 +298,8 @@
    "PYROFIL carbon fiber and its composites, are advanced high-performance materials from Japan. The characteristic of high intensity bonds ultra-light offers racket excellent shock-absorption and enhances control.",
    "Inspired by military helicopter, multi-layered structure made by carbon fiber and composites, minimize material size, reinforce handling feel and performance at a critical standard."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -307,7 +329,11 @@
    "Inspired by military helicopter, multi-layered structure made by carbon fiber and composites, minimize material size, reinforce handling feel and performance at a critical standard.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "speed",
+   "level": 6
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -331,7 +357,8 @@
    "3U:≤ 26 lbs (11.5kg)",
    "4U:≤24 lbs(10.5Kg)"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -355,7 +382,8 @@
    "3U:≤ 26 lbs (11.5kg)",
    "4U:≤24 lbs(10.5Kg)"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -382,7 +410,8 @@
    "PYROFIL carbon fiber and its composites, are advanced high-performance materials from Japan. The characteristic of high intensity bonds ultra-light offers racket excellent shock-absorption and enhances control.",
    "Inspired by military helicopter, multi-layered structure made by carbon fiber and composites, minimize material size, reinforce handling feel and performance at a critical standard."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -408,7 +437,8 @@
    "Stiffness",
    "S○○○○●F"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -434,7 +464,8 @@
    "Stiffness",
    "S○○○○●F"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -459,7 +490,8 @@
    "5U:≤29 lbs(13Kg)",
    "Innovative technology combining the two popular frame structure SWORD and AERODYNAMIC, the AERO-SWORD can efficiently reduce air resistance and allowing a faster and greater hitback."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -484,7 +516,8 @@
    "5U:≤29 lbs(13Kg)",
    "Innovative technology combining the two popular frame structure SWORD and AERODYNAMIC, the AERO-SWORD can efficiently reduce air resistance and allowing a faster and greater hitback."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -514,7 +547,11 @@
    "Based on the principles of aerodynamics, the DYNAMIC-SWORD is further upgraded from the SWORD by adjusting different positions on the frame accordingly: 12 and 6 o'clock positions are made inward; 3 and 9 o'clock positions are made outward. The blade-like frame structure has a larger sectional area to direct airflow, making returns faster and smoother.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "speed",
+   "level": 5
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -536,7 +573,8 @@
    "String tension LBS",
    "H≦20 lbs V≦20 lbs"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -558,7 +596,8 @@
    "String tension LBS",
    "H≦20 lbs V≦20 lbs"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -586,7 +625,11 @@
    "Inspired by military helicopter, multi-layered structure made by carbon fiber and composites, minimize material size, reinforce handling feel and performance at a critical standard.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 6
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -614,7 +657,11 @@
    "Inspired by military helicopter, multi-layered structure made by carbon fiber and composites, minimize material size, reinforce handling feel and performance at a critical standard.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 6
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -641,7 +688,11 @@
    "Innovative technology combining the two popular frame structure SWORD and AERODYNAMIC, the AERO-SWORD can efficiently reduce air resistance and allowing a faster and greater hitback.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 3
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -668,7 +719,11 @@
    "Innovative technology combining the two popular frame structure SWORD and AERODYNAMIC, the AERO-SWORD can efficiently reduce air resistance and allowing a faster and greater hitback.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "speed",
+   "level": 3
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -694,7 +749,8 @@
    "Stiffness",
    "S○○○●○F"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -720,7 +776,8 @@
    "Stiffness",
    "S○○○●○F"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -746,7 +803,8 @@
    "Stiffness",
    "S○○○●○F"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -773,7 +831,8 @@
    "Stiffness",
    "S○○○●○F"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -799,7 +858,8 @@
    "Stiffness",
    "S○○○●○F"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -826,7 +886,8 @@
    "Stiffness",
    "S○○○●○F"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -852,7 +913,8 @@
    "Stiffness",
    "S○○○●○F"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -881,7 +943,11 @@
    "A design breakthrough—ULTRA-THIN FRAME is 7% thinner than the frame of traditional rackets, helping improve the player’s swing speed while maintaining the stiffness and anti-torsion performance of the frame.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 6
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -909,7 +975,8 @@
    "Innovative technology combining the two popular frame structure SWORD and AERODYNAMIC, the AERO-SWORD can efficiently reduce air resistance and allowing a faster and greater hitback.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -937,7 +1004,8 @@
    "Combining the controllability of “diamond-shape” structure with the stability and smoothness of “sword-shape” structure, AERO-DIAMOND frame minimizes air-resistance and improves handling stability during each game.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -965,7 +1033,8 @@
    "Innovative technology combining the two popular frame structure SWORD and AERODYNAMIC, the AERO-SWORD can efficiently reduce air resistance and allowing a faster and greater hitback.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -992,7 +1061,11 @@
    "Innovative technology combining the two popular frame structure SWORD and AERODYNAMIC, the AERO-SWORD can efficiently reduce air resistance and allowing a faster and greater hitback.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "speed",
+   "level": 9
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -1022,7 +1095,11 @@
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience.",
    "The combination of thin metal sheet and high-strength carbon fiber which fused into Metallic Carbon Fiber. This ensures a unique and elastic feeling, guaranteeing an unparalleled hitting experience. The introduction of Metallic Carbon Fiber into the frame helps boost the power of smashes and the strength of the frame. The introduction of Metallic Carbon Fiber into the shaft brings highly elastic hitting feel and better force transmission. Elavating the speed of shots and precise directivity."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "speed",
+   "level": 7
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -1051,7 +1128,11 @@
    "A design breakthrough—ULTRA-THIN FRAME is 7% thinner than the frame of traditional rackets, helping improve the player’s swing speed while maintaining the stiffness and anti-torsion performance of the frame.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "speed",
+   "level": 6
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -1080,7 +1161,11 @@
    "A design breakthrough—ULTRA-THIN FRAME is 7% thinner than the frame of traditional rackets, helping improve the player’s swing speed while maintaining the stiffness and anti-torsion performance of the frame.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "speed",
+   "level": 6
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -1108,7 +1193,11 @@
    "Combining the controllability of “diamond-shape” structure with the stability and smoothness of “sword-shape” structure, AERO-DIAMOND frame minimizes air-resistance and improves handling stability during each game.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "allaround",
+   "level": 6
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -1136,7 +1225,11 @@
    "Combining the controllability of “diamond-shape” structure with the stability and smoothness of “sword-shape” structure, AERO-DIAMOND frame minimizes air-resistance and improves handling stability during each game.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "allaround",
+   "level": 5
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -1164,7 +1257,8 @@
    "The box-shaped design effectively increases the stability and anti-torque, can stand higher string tension.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1192,7 +1286,8 @@
    "The box-shaped design effectively increases the stability and anti-torque, can stand higher string tension.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1222,7 +1317,11 @@
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience.",
    "The innovative carbon fiber layering design has improved the anti-torsion performance, further making the racket flex faster with better force transmission. As a redefinition of “whipping effect,” WES 2.0 allows the players to drive the shuttle at a sharp downward angle when attacking."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "speed",
+   "level": 7
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -1244,7 +1343,8 @@
    "String tension LBS",
    "H≦20 lbs V≦20 lbs"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1266,7 +1366,8 @@
    "String tension LBS",
    "H≦20 lbs V≦20 lbs"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1295,7 +1396,11 @@
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience.",
    "The innovative carbon fiber layering design has improved the anti-torsion performance, further making the racket flex faster with better force transmission. As a redefinition of “whipping effect,” WES 2.0 allows the players to drive the shuttle at a sharp downward angle when attacking."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 7
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -1317,7 +1422,8 @@
    "String tension LBS",
    "H≦20 lbs V≦20 lbs"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1341,7 +1447,8 @@
    "Length",
    "665mm"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1369,7 +1476,11 @@
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience.",
    "The integrated force of the shaft and FREE CORE creates a sturdy handling and phenomenal elasticity."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "speed",
+   "level": 7
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -1394,7 +1505,8 @@
    "S○○○○●F",
    "Innovative technology combining the two popular frame structure SWORD and AERODYNAMIC, the AERO-SWORD can efficiently reduce air resistance and allowing a faster and greater hitback."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1419,7 +1531,8 @@
    "S○○○○●F",
    "Innovative technology combining the two popular frame structure SWORD and AERODYNAMIC, the AERO-SWORD can efficiently reduce air resistance and allowing a faster and greater hitback."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1444,7 +1557,8 @@
    "S○○○○●F",
    "Innovative technology combining the two popular frame structure SWORD and AERODYNAMIC, the AERO-SWORD can efficiently reduce air resistance and allowing a faster and greater hitback."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1474,7 +1588,11 @@
    "Inspired by military helicopter, multi-layered structure made by carbon fiber and composites, minimize material size, reinforce handling feel and performance at a critical standard.",
    "The combination of thin metal sheet and high-strength carbon fiber which fused into Metallic Carbon Fiber. This ensures a unique and elastic feeling, guaranteeing an unparalleled hitting experience. The introduction of Metallic Carbon Fiber into the frame helps boost the power of smashes and the strength of the frame. The introduction of Metallic Carbon Fiber into the shaft brings highly elastic hitting feel and better force transmission. Elavating the speed of shots and precise directivity."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 9
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -1506,7 +1624,11 @@
    "The innovative carbon fiber layering design has improved the anti-torsion performance, further making the racket flex faster with better force transmission. As a redefinition of “whipping effect,” WES 2.0 allows the players to drive the shuttle at a sharp downward angle when attacking.",
    "The technology seamlessly integrates the shaft with FREE CORE, elevating the elasticity to another level and bringing out the full potential of the racket."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 8
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -1538,7 +1660,11 @@
    "The integrated force of the shaft and FREE CORE creates a sturdy handling and phenomenal elasticity.",
    "Brand new shaft layering design with more directly force transmission, a steeper downward angle, and advanced whipping effect."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "speed",
+   "level": 9
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -1566,7 +1692,11 @@
    "Based on the principles of aerodynamics, the DYNAMIC-SWORD is further upgraded from the SWORD by adjusting different positions on the frame accordingly: 12 and 6 o'clock positions are made inward; 3 and 9 o'clock positions are made outward. The blade-like frame structure has a larger sectional area to direct airflow, making returns faster and smoother.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "speed",
+   "level": 5
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -1597,7 +1727,11 @@
    "The adoption of the single-wall carbon nanotube (SWCNT) effectively enhances racket intensity, elasticity, and fatigue resistance. The lightweight enhanced material enables both strength and smooth handling.",
    "The innovative carbon fiber layering design has improved the anti-torsion performance, further making the racket flex faster with better force transmission. As a redefinition of “whipping effect,” WES 2.0 allows the players to drive the shuttle at a sharp downward angle when attacking."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "speed",
+   "level": 6
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -1626,7 +1760,8 @@
    "The NANO TEC technology works by evenly distributing nano-sized particles in the vacant space between carbon fiber bundles, this highly increases the overall stiffness of the carbon composite fibers, and reduces the distortion of the frame.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1653,7 +1788,8 @@
    "The NANO TEC technology works by evenly distributing nano-sized particles in the vacant space between carbon fiber bundles, this highly increases the overall stiffness of the carbon composite fibers, and reduces the distortion of the frame.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1680,7 +1816,8 @@
    "The NANO TEC technology works by evenly distributing nano-sized particles in the vacant space between carbon fiber bundles, this highly increases the overall stiffness of the carbon composite fibers, and reduces the distortion of the frame.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1709,7 +1846,11 @@
    "Built on the strengths of the NANO FORTIFY TR, the NANO FORTIFY TR+ is engineered with an advanced, more durable carbon-fiber that is firm but offers pleasing resilience and hand-feel.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "allaround",
+   "level": 5
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -1737,7 +1878,8 @@
    "The NANO TEC technology works by evenly distributing nano-sized particles in the vacant space between carbon fiber bundles, this highly increases the overall stiffness of the carbon composite fibers, and reduces the distortion of the frame.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1765,7 +1907,8 @@
    "The NANO TEC technology works by evenly distributing nano-sized particles in the vacant space between carbon fiber bundles, this highly increases the overall stiffness of the carbon composite fibers, and reduces the distortion of the frame.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1796,7 +1939,11 @@
    "Based on the principles of aerodynamics, the DYNAMIC-SWORD is further upgraded from the SWORD by adjusting different positions on the frame accordingly: 12 and 6 o'clock positions are made inward; 3 and 9 o'clock positions are made outward. The blade-like frame structure has a larger sectional area to direct airflow, making returns faster and smoother.",
    "The combination of thin metal sheet and high-strength carbon fiber which fused into Metallic Carbon Fiber. This ensures a unique and elastic feeling, guaranteeing an unparalleled hitting experience. The introduction of Metallic Carbon Fiber into the frame helps boost the power of smashes and the strength of the frame. The introduction of Metallic Carbon Fiber into the shaft brings highly elastic hitting feel and better force transmission. Elavating the speed of shots and precise directivity."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "speed",
+   "level": 9
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -1821,7 +1968,8 @@
    "Stiffness",
    "S○○○●○F"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1846,7 +1994,8 @@
    "Stiffness",
    "S○○○●○F"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1871,7 +2020,8 @@
    "Stiffness",
    "S○○○●○F"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1896,7 +2046,8 @@
    "Stiffness",
    "S○○○●○F"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1923,7 +2074,11 @@
    "Based on the principles of aerodynamics, the DYNAMIC-SWORD is further upgraded from the SWORD by adjusting different positions on the frame accordingly: 12 and 6 o'clock positions are made inward; 3 and 9 o'clock positions are made outward. The blade-like frame structure has a larger sectional area to direct airflow, making returns faster and smoother.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "speed",
+   "level": 7
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -1950,7 +2105,8 @@
    "A design breakthrough—ULTRA-THIN FRAME is 7% thinner than the frame of traditional rackets, helping improve the player’s swing speed while maintaining the stiffness and anti-torsion performance of the frame.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -1976,7 +2132,8 @@
    "A design breakthrough—ULTRA-THIN FRAME is 7% thinner than the frame of traditional rackets, helping improve the player’s swing speed while maintaining the stiffness and anti-torsion performance of the frame.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -2004,7 +2161,11 @@
    "Inspired by military helicopter, multi-layered structure made by carbon fiber and composites, minimize material size, reinforce handling feel and performance at a critical standard.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 7
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -2031,7 +2192,11 @@
    "Inspired by military helicopter, multi-layered structure made by carbon fiber and composites, minimize material size, reinforce handling feel and performance at a critical standard.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 7
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -2057,7 +2222,11 @@
    "The NANO TEC technology works by evenly distributing nano-sized particles in the vacant space between carbon fiber bundles, this highly increases the overall stiffness of the carbon composite fibers, and reduces the distortion of the frame.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 8
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -2084,7 +2253,11 @@
    "Inspired by military helicopter, multi-layered structure made by carbon fiber and composites, minimize material size, reinforce handling feel and performance at a critical standard.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 9
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -2112,7 +2285,8 @@
    "The box-shaped design effectively increases the stability and anti-torque, can stand higher string tension.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -2140,7 +2314,8 @@
    "The box-shaped design effectively increases the stability and anti-torque, can stand higher string tension.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -2165,7 +2340,8 @@
    "S○○○○●F",
    "The box-shaped design effectively increases the stability and anti-torque, can stand higher string tension."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -2190,7 +2366,8 @@
    "S○○○○●F",
    "The box-shaped design effectively increases the stability and anti-torque, can stand higher string tension."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -2217,7 +2394,8 @@
    "S○○○○●F",
    "The box-shaped design effectively increases the stability and anti-torque, can stand higher string tension."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -2244,7 +2422,11 @@
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience.",
    "The combination of thin metal sheet and high-strength carbon fiber which fused into Metallic Carbon Fiber. This ensures a unique and elastic feeling, guaranteeing an unparalleled hitting experience. The introduction of Metallic Carbon Fiber into the frame helps boost the power of smashes and the strength of the frame. The introduction of Metallic Carbon Fiber into the shaft brings highly elastic hitting feel and better force transmission. Elavating the speed of shots and precise directivity."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "allaround",
+   "level": 7
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -2271,7 +2453,11 @@
    "Innovative technology combining the two popular frame structure SWORD and AERODYNAMIC, the AERO-SWORD can efficiently reduce air resistance and allowing a faster and greater hitback.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "speed",
+   "level": 3
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -2304,7 +2490,11 @@
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience.",
    "The combination of thin metal sheet and high-strength carbon fiber which fused into Metallic Carbon Fiber. This ensures a unique and elastic feeling, guaranteeing an unparalleled hitting experience. The introduction of Metallic Carbon Fiber into the frame helps boost the power of smashes and the strength of the frame. The introduction of Metallic Carbon Fiber into the shaft brings highly elastic hitting feel and better force transmission. Elavating the speed of shots and precise directivity."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "speed",
+   "level": 7
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -2334,7 +2524,11 @@
    "Different frame structures—including POWER-BOX, DIAMOND, AERO, and AERODYNAMIC—are rearranged and integrated based on computer simulation to optimize the hitting, frame characteristics, and overall performance.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 8
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -2360,7 +2554,11 @@
    "Inspired by military helicopter, multi-layered structure made by carbon fiber and composites, minimize material size, reinforce handling feel and performance at a critical standard.",
    "The innovative carbon fiber layering design has improved the anti-torsion performance, further making the racket flex faster with better force transmission. As a redefinition of “whipping effect,” WES 2.0 allows the players to drive the shuttle at a sharp downward angle when attacking."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 7
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -2389,7 +2587,11 @@
    "The adoption of the single-wall carbon nanotube (SWCNT) effectively enhances racket intensity, elasticity, and fatigue resistance. The lightweight enhanced material enables both strength and smooth handling.",
    "The innovative carbon fiber layering design has improved the anti-torsion performance, further making the racket flex faster with better force transmission. As a redefinition of “whipping effect,” WES 2.0 allows the players to drive the shuttle at a sharp downward angle when attacking."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 7
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -2415,7 +2617,11 @@
    "PYROFIL carbon fiber and its composites, are advanced high-performance materials from Japan. The characteristic of high intensity bonds ultra-light offers racket excellent shock-absorption and enhances control.",
    "Inspired by military helicopter, multi-layered structure made by carbon fiber and composites, minimize material size, reinforce handling feel and performance at a critical standard."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 9
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -2438,7 +2644,8 @@
    "0 lbs(13.5kg) ≦28 lbs(12.5kg)",
    "The box-shaped design effectively increases the stability and anti-torque, can stand higher string tension."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -2461,7 +2668,8 @@
    "30 lbs(13.5kg) ≦28 lbs(12.5kg)",
    "The box-shaped design effectively increases the stability and anti-torque, can stand higher string tension."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -2483,7 +2691,8 @@
    "String tension LBS",
    "H≦20 lbs V≦20 lbs"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -2505,7 +2714,8 @@
    "String tension LBS",
    "H≦20 lbs V≦20 lbs"
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -2530,7 +2740,8 @@
    "S○○○○●F",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -2558,7 +2769,11 @@
    "Built on the strengths of the NANO FORTIFY TR, the NANO FORTIFY TR+ is engineered with an advanced, more durable carbon-fiber that is firm but offers pleasing resilience and hand-feel.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "speed",
+   "level": 7
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -2584,7 +2799,11 @@
    "PYROFIL carbon fiber and its composites, are advanced high-performance materials from Japan. The characteristic of high intensity bonds ultra-light offers racket excellent shock-absorption and enhances control.",
    "Inspired by military helicopter, multi-layered structure made by carbon fiber and composites, minimize material size, reinforce handling feel and performance at a critical standard."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 7
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -2613,7 +2832,8 @@
    "A design breakthrough—ULTRA-THIN FRAME is 7% thinner than the frame of traditional rackets, helping improve the player’s swing speed while maintaining the stiffness and anti-torsion performance of the frame.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -2644,7 +2864,11 @@
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience.",
    "The integrated force of the shaft and FREE CORE creates a sturdy handling and phenomenal elasticity."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 8
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -2675,7 +2899,11 @@
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience.",
    "The integrated force of the shaft and FREE CORE creates a sturdy handling and phenomenal elasticity."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "power",
+   "level": 6
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -2701,7 +2929,11 @@
    "Response Indicator",
    "The box-shaped design effectively increases the stability and anti-torque, can stand higher string tension."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "allaround",
+   "level": 5
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -2731,7 +2963,11 @@
    "The integrated force of the shaft and FREE CORE creates a sturdy handling and phenomenal elasticity.",
    "Brand new shaft layering design with more directly force transmission, a steeper downward angle, and advanced whipping effect."
   ],
-  "options": []
+  "options": [],
+  "indicator": {
+   "kind": "speed",
+   "level": 9
+  }
  },
  {
   "shop": "th.victorsport.com",
@@ -2759,7 +2995,8 @@
    "The box-shaped design effectively increases the stability and anti-torque, can stand higher string tension.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -2787,7 +3024,8 @@
    "The box-shaped design effectively increases the stability and anti-torque, can stand higher string tension.",
    "Designed by computer simulation and aided with the adoption of injection moulding technique, this revolutionized handle style allows the shaft to move more freely, which can not only make swings smoother but also improve overall handling experience."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  },
  {
   "shop": "th.victorsport.com",
@@ -2824,6 +3062,7 @@
    "The technology seamlessly integrates the shaft with FREE CORE, elevating the elasticity to another level and bringing out the full potential of the racket.",
    "NANO AEROGEL, the world's lightest solid, is infused into the frame. By reallocating the weight balance of the frame and increasing the use of carbon fiber, both the frame's strength and hitting feel are effectively elevated."
   ],
-  "options": []
+  "options": [],
+  "indicator": null
  }
 ]
