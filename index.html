@@ -11,8 +11,18 @@
   <link rel="stylesheet" href="styles.css?v=__V__">
   <link rel="stylesheet" href="themes.css?v=__V__">
   <link rel="stylesheet" href="layouts.css?v=__V__">
-  <script>try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t;
-    var l = localStorage.getItem('style'); if (l) document.documentElement.dataset.style = l; } catch (e) {}</script>
+  <script>
+    // ?style=store&theme=court picks a look from a link (choose.html); a saved choice applies otherwise
+    (function () {
+      var q = new URLSearchParams(location.search), d = document.documentElement, ls = null;
+      try { ls = window.localStorage; } catch (e) {}
+      ['style', 'theme'].forEach(function (k) {
+        var v = q.has(k) ? q.get(k) : (ls ? ls.getItem(k) : null);
+        if (q.has(k) && q.has('save') && ls) { try { v ? ls.setItem(k, v) : ls.removeItem(k); } catch (e) {} }
+        if (v) d.dataset[k] = v;
+      });
+    })();
+  </script>
 </head>
 <body>
   <header class="top">

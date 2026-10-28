@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>เลือกหน้าตาเว็บ</title>
+  <meta name="description" content="ดูหน้าตาเว็บเทียบไม้แบดทุกแบบเทียบกัน แล้วเลือกแบบที่ชอบ">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500&family=Wix+Madefor+Text:wght@400;500&family=IBM+Plex+Sans+Thai:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tokens.css?v=__V__">
+  <link rel="stylesheet" href="base.css?v=__V__">
+  <style>
+    /* Hallmark · shape: app screen · scope: app · a chooser: each layout live in a desktop and a phone frame */
+    :root { --frame-scale: 0.42; }
+    body { padding-block: var(--space-xl); }
+    .head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: var(--space-md); }
+    .head p { color: var(--color-muted); margin-top: var(--space-xs); }
+    .themes { display: flex; flex-wrap: wrap; gap: var(--space-2xs); }
+    .themes button, .use { min-height: 36px; padding: 0 var(--space-md); border: var(--rule-hair) solid var(--color-rule); border-radius: 999px;
+      background: transparent; color: var(--color-ink-2); font: inherit; font-size: var(--text-sm); cursor: pointer;
+      transition: background-color var(--dur-micro) var(--ease-out), color var(--dur-micro) var(--ease-out); }
+    .themes button:hover, .use:hover { color: var(--color-ink); border-color: var(--color-muted); }
+    .themes button[aria-pressed="true"] { background: var(--color-ink); color: var(--color-paper); border-color: var(--color-ink); }
+    .themes button:focus-visible, .use:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; transition: none; }
+    .use { background: var(--color-accent); color: var(--color-accent-ink); border-color: var(--color-accent); text-decoration: none; display: inline-flex; align-items: center; }
+    .use:hover { background: var(--color-accent-hi); color: var(--color-accent-ink); }
+    .opt { margin-top: var(--space-2xl); padding-top: var(--space-lg); border-top: var(--rule-hair) solid var(--color-rule); }
+    .opt-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: var(--space-sm); }
+    .opt-head p { color: var(--color-muted); max-width: 60ch; margin-top: var(--space-2xs); }
+    .frames { display: flex; gap: var(--space-lg); align-items: start; margin-top: var(--space-md); overflow-x: auto; padding-bottom: var(--space-xs); }
+    .frame { flex: none; border-radius: 10px; overflow: hidden; border: var(--rule-hair) solid var(--color-rule); background: var(--color-paper-2); }
+    .frame.desk { width: calc(1280px * var(--frame-scale)); height: calc(800px * var(--frame-scale)); }
+    .frame.phone { width: calc(390px * var(--frame-scale)); height: calc(800px * var(--frame-scale)); }
+    .frame iframe { border: 0; transform: scale(var(--frame-scale)); transform-origin: 0 0; }
+    .frame.desk iframe { width: 1280px; height: 800px; }
+    .frame.phone iframe { width: 390px; height: 800px; }
+    .cap { font-size: var(--text-xs); color: var(--color-muted); margin-top: var(--space-2xs); }
+    @media (min-width: 90rem) { :root { --frame-scale: 0.55; } }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="head">
+      <div>
+        <h1>เลือกหน้าตาเว็บ</h1>
+        <p>แต่ละแบบด้านล่างคือเว็บจริงที่ใช้งานได้ ลองเลื่อนหรือกดในกรอบได้เลย</p>
+      </div>
+      <div class="themes" id="themes" role="group" aria-label="สีของทุกกรอบ">
+        <button type="button" data-t="" aria-pressed="true">ค่ำ</button>
+        <button type="button" data-t="court" aria-pressed="false">สนาม</button>
+        <button type="button" data-t="volt" aria-pressed="false">โวลต์</button>
+        <button type="button" data-t="paper" aria-pressed="false">กระดาษ</button>
+        <button type="button" data-t="sky" aria-pressed="false">ฟ้า</button>
+      </div>
+    </div>
+    <div id="opts"></div>
+  </main>
+  <script>
+    var OPTS = [
+      ['store', 'ร้านกีฬา', 'รูปสินค้าใหญ่ ไม่มีกรอบ ชื่อรุ่นตัวใหญ่ ตัวกรองเป็นปุ่มเรียงแนวนอน'],
+      ['table', 'ตารางสเปก', 'แถวละรุ่น สเปกและราคาเรียงคอลัมน์ ดูทีละหลายรุ่นได้เร็ว'],
+      ['app', 'แอป', 'ตัวกรองอยู่แถบซ้ายค้างไว้ การ์ดเล็กกระชับ (แถบซ้ายขึ้นบนจอกว้าง)'],
+      ['', 'เดิม', 'หน้าตาเดิมก่อนปรับ'],
+    ];
+    var theme = '';
+    var url = function (s, extra) { return 'index.html?style=' + s + (theme ? '&theme=' + theme : '') + (extra || '') + '#rackets'; };
+    function render() {
+      document.getElementById('opts').innerHTML = OPTS.map(function (o) {
+        return '<section class="opt"><div class="opt-head"><div><h2>' + o[1] + '</h2><p>' + o[2] + '</p></div>' +
+          '<a class="use" href="' + url(o[0], '&save=1') + '">ใช้แบบนี้</a></div>' +
+          '<div class="frames"><div><div class="frame desk"><iframe loading="lazy" title="' + o[1] + ' บนคอม" src="' + url(o[0]) + '"></iframe></div><div class="cap">คอม</div></div>' +
+          '<div><div class="frame phone"><iframe loading="lazy" title="' + o[1] + ' บนมือถือ" src="' + url(o[0]) + '"></iframe></div><div class="cap">มือถือ</div></div></div></section>';
+      }).join('');
+    }
+    document.getElementById('themes').addEventListener('click', function (e) {
+      var b = e.target.closest('[data-t]'); if (!b) return;
+      theme = b.dataset.t;
+      document.querySelectorAll('#themes button').forEach(function (x) { x.setAttribute('aria-pressed', x === b); });
+      render();
+    });
+    render();
+  </script>
+</body>
+</html>
