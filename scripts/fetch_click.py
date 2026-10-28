@@ -7,7 +7,11 @@ import html, json, os, re, time, urllib.request
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FEED = 'https://badmintonclick.com.au/products.json?limit=250&page={}'  # the racket collection misses some models
 KEYS = {'Shaft Flexibility': 'flex', 'Flex': 'flex', 'Balance Point': 'balance', 'Balance': 'balance', 'Weight': 'weight',
-        'Max Tension': 'tension', 'Maximum Tension': 'tension', 'Frame Material': 'frame', 'Shaft Material': 'shaft', 'Length': 'length'}
+        'Max Tension': 'tension', 'Maximum Tension': 'tension', 'Max tension': 'tension', 'Maximum Stringing Tension': 'tension',
+        'Frame Material': 'frame', 'Frame Composition': 'frame', 'Shaft Material': 'shaft', 'Length': 'length',
+        'Shaft Stiffness': 'flex', 'Flexibility': 'flex', 'Grip Size': 'grips',
+        # the "Recommended String" block lists one control and one power string
+        'Control': 'strControl', 'Power': 'strPower'}
 
 def get(url):
     time.sleep(3)

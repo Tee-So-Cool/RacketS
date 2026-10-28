@@ -256,7 +256,9 @@ for bz in bay + click:
     ws, g = weights(bz.get('weight', ''))
     fill = {'balance': bay_balance(bz.get('balance')), 'flex': bay_flex(bz.get('flex')), 'weights': ws, 'weight': g,
             'tension': tension(bz.get('tension', '')), 'frame': bz.get('frame', ''), 'shaft': bz.get('shaft', ''),
-            'length': bz.get('length', ''), 'img': bz.get('img', ''), 'level': one_level(bz.get('level'))}
+            'length': bz.get('length', ''), 'img': bz.get('img', ''), 'level': one_level(bz.get('level')),
+            'grips': re.sub(r'\s*\(.*?\)', '', bz.get('grips', '')),
+            'recString': ', '.join(f'{v} ({k})' for k, v in (('คุม', bz.get('strControl')), ('พลัง', bz.get('strPower'))) if v)}
     for f, v in fill.items():
         if v not in ('', None) and (r.get(f) in ('', None) or f in r.get('est', [])):
             r[f] = v

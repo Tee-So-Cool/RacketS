@@ -22,12 +22,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/100_GAME_VA.png?v=1758258470",
   "level": "Beginner - Intermediate",
+  "strControl": "Aerobite",
+  "strPower": "Exbolt 65",
   "flex": "Medium",
   "balance": "Rotational",
   "frame": "HM Graphite, NANOMESH NEO, VOLUME CUT RESIN, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
   "weight": "4U (83 grams)",
-  "tension": "28 lbs"
+  "tension": "28 lbs",
+  "grips": "G6 (Very Small)"
  },
  {
   "name": "NEW 2027 Victor Thruster Ryuga 3 (78 grams) Badminton Racquet",
@@ -37,12 +40,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/ryuga3-1.png?v=1790336679",
   "level": "",
+  "strControl": "Aerobite",
+  "strPower": "BG80",
   "flex": "Stiff",
   "balance": "Head Heavy",
   "frame": "High Resilience Modulus Graphite + Hard Cored Technology + 46T Pyrofil + Nano Fortify TR+ + Metallic Carbon Fiber + Nano Aerogel",
   "shaft": "High Resilience Modulus Graphite + 46T Pyrofil + Metallic Carbon Fiber + 6.5 Shaft",
   "weight": "5U (78 grams)",
-  "tension": "31 lbs"
+  "tension": "31 lbs",
+  "grips": "G6 (small)"
  },
  {
   "name": "NEW 2027 Victor Thruster Ryuga 3 (83 grams) Badminton Racquet",
@@ -52,12 +58,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/ryuga3-1.png?v=1790336679",
   "level": "",
+  "strControl": "Aerobite",
+  "strPower": "BG80",
   "flex": "Stiff",
   "balance": "Head Heavy",
   "frame": "High Resilience Modulus Graphite + Hard Cored Technology + 46T Pyrofil + Nano Fortify TR+ + Metallic Carbon Fiber + Nano Aerogel",
   "shaft": "High Resilience Modulus Graphite + 46T Pyrofil + Metallic Carbon Fiber + 6.5 Shaft",
   "weight": "4U (83 grams)",
-  "tension": "32 lbs"
+  "tension": "32 lbs",
+  "grips": "G5 (small)"
  },
  {
   "name": "Li Ning AxForce 80 Gen 2 (83 grams) Badminton Racquet",
@@ -66,7 +75,9 @@
   "price": 399.0,
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/639246337549770000_3.jpg?v=1790333927",
-  "level": ""
+  "level": "",
+  "strControl": "Aerobite",
+  "strPower": "BG80"
  },
  {
   "name": "Li Ning Halbertec 8000 (83 grams) Badminton Racquet",
@@ -76,6 +87,9 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/products/halbertec8000-1.jpg?v=1674040356",
   "level": "Intermediate - Advanced",
+  "strControl": "BG",
+  "strPower": "BG Exbolt 63",
+  "frame": "Carbon Fiber",
   "flex": "Stiff",
   "balance": "Even Balanced",
   "tension": "30",
@@ -89,12 +103,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/fantomehyq-1.jpg?v=1789462517",
   "level": "Intermediate - Advanced",
+  "strControl": "BG Aerobite",
+  "strPower": "BG 80",
   "flex": "Medium-Stiff",
   "balance": "Head Heavy",
   "frame": "High Resilience Modulus Graphite + NANO AEROGEL + PBO High Performance Fiber + HARD CORED TECHNOLOGY (5.0mm frame)",
   "shaft": "High Resilience Modulus Graphite + PBO High Performance Fiber + PYROFIL + 6.6mm Mid-Shaft",
   "weight": "4U (80-84.9 grams)",
-  "tension": "≤28 lbs (12.5kg)"
+  "tension": "≤28 lbs (12.5kg)",
+  "grips": "G5 (small)"
  },
  {
   "name": "Yonex Arcsaber TX Navy Blue (83 grams) Badminton Racquet [CLEARANCE]",
@@ -104,6 +121,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/ArcsaberTX_0f7dfa49-2b72-4540-814e-cb71ed4cd4c6.jpg?v=1724058191",
   "level": "Beginner - Intermediate",
+  "strControl": "BG Aerobite",
+  "strPower": "BG Exbolt 68",
   "flex": "Medium",
   "balance": "Even Balanced",
   "frame": "Graphite",
@@ -136,7 +155,9 @@
   "price": 79.0,
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/int_nf-001c_063-1_02_1.jpg?v=1787299548",
-  "level": "Beginner - Intermediate"
+  "level": "Beginner - Intermediate",
+  "strControl": "BG Exbolt 68",
+  "strPower": "BG Exbolt 65"
  },
  {
   "name": "Victor Drive X 12 Metallic (83 grams) Badminton Racquet",
@@ -146,6 +167,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/135144_4_20250508103509.jpg?v=1747126640",
   "level": "Beginner - Intermediate",
+  "strControl": "BG Aerobite",
+  "strPower": "BG Exbolt 65",
   "flex": "Stiff",
   "balance": "Even Balanced",
   "frame": "High-Modulus carbon fiber + 46T PYROFIL carbon fiber + TR reinforced nano carbon tube + Nano Aerogel + Strong Core Filling Technology",
@@ -161,6 +184,7 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/bladex880squarebanner.jpg?v=1786952122",
   "level": "Advanced",
+  "frame": "M46X + Ultra High-Elastic Carbon Fiber",
   "shaft": "T1100 Carbon Fiber + High-Density Shock-Absorbing Material",
   "flex": "Medium-Stiff",
   "balance": "Head-Light",
@@ -176,8 +200,13 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/halbertec9000-1.jpg?v=1708578543",
   "level": "Intermediate - Advanced",
+  "strControl": "BG",
+  "strPower": "BG Exbolt 65",
   "weight": "83 grams",
-  "balance": "298 mm (Head Balance)"
+  "grips": "S2 (Extra Small)",
+  "balance": "298 mm (Head Balance)",
+  "flex": "Hard Flexible Shaft",
+  "tension": "32 lbs"
  },
  {
   "name": "Victor Thruster K 66 White (66 grams) Badminton Racquet",
@@ -187,12 +216,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/tk66-1_1a243a49-289f-4721-8c73-7902bb17b9b5.jpg?v=1786866000",
   "level": "Beginner - Intermediate",
+  "strControl": "Aerobite",
+  "strPower": "Exbolt 65",
   "flex": "Flexible",
   "balance": "Head Heavy",
   "frame": "High Resilience Graphite, Nano Resin, Fiber Reinforced System",
   "shaft": "High Resilience Graphite, Nano Resin, 6.8 Shaft",
   "weight": "66g±2",
-  "tension": "30 lbs"
+  "tension": "30 lbs",
+  "grips": "G6 (Small)"
  },
  {
   "name": "NEW 2026 Victor Thruster F C Ultra CX (Black/Gold) 83 grams Badminton Racquet",
@@ -202,12 +234,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/tkultracx-1.jpg?v=1786101143",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG80",
   "flex": "Stiff",
   "balance": "Head Heavy",
   "frame": "High Resilience Modulus Graphite, 46T PYROFIL, Nano Fortify TR, Nano Aerogel, Hard Cored Technology",
   "shaft": "High Resilience Modulus Graphite, 46T PYROFIL, Metallic Carbon Fiber, 6.0 Shaft",
   "weight": "4U (83 grams)",
-  "tension": "31 lbs"
+  "tension": "31 lbs",
+  "grips": "G5 (Medium)"
  },
  {
   "name": "Victor Thruster Ryuga Muse 2 (78 grams) Badminton Racquet",
@@ -217,12 +252,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/ryugamuse2-1.png?v=1786096523",
   "level": "Beginners - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG80",
   "flex": "Stiff",
   "balance": "Head Heavy",
   "frame": "High Resilience Modulus Graphite, Hard Cored Technology",
   "shaft": "High Resilience Modulus Graphite, PYROFIL, 6.6 Shaft",
   "weight": "5U (78 grams)",
-  "tension": "30 lbs"
+  "tension": "30 lbs",
+  "grips": "G6 (Small)"
  },
  {
   "name": "Yonex Nanoflare 800 PRO (88 grams) Badminton Racquet",
@@ -232,6 +270,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/ALL_NF-800P_269-1_6c21d950-b567-4cfd-89dd-65bf80339df7.jpg?v=1698064677",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG Exbolt 65",
   "flex": "Stiff",
   "balance": "Head Light",
   "frame": "HM Graphite, M40X, SUPER HMG, Copper",
@@ -247,6 +287,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/products/ax77-p_79e51bbd-b635-4dc7-a49b-565b73988e77.jpg?v=1666774683",
   "level": "Intermediate - Advanced",
+  "strControl": "BG Aerobite",
+  "strPower": "BG Exbolt 63",
   "flex": "Medium",
   "balance": "Rotational",
   "frame": "HM Graphite",
@@ -262,6 +304,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/products/astrox100zz_kurenai_a350b7b3-f9ba-4253-82e0-0d9836270a28.png?v=1621418724",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG80",
   "flex": "Stiff",
   "balance": "Rotational",
   "frame": "M Graphite / Namd / Tungsten / Black Micro Core / Nanometric",
@@ -277,6 +321,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/astrox100vatour-1.jpg?v=1773556469",
   "level": "Beginner - Intermediate",
+  "strControl": "BG Aerobite Boost",
+  "strPower": "BG 80 Power",
   "flex": "Stiff",
   "balance": "Rotational/Hybrid",
   "frame": "HM Graphite, NANOMESH NEO, VOLUME CUT RESIN, Tungsten",
@@ -292,7 +338,10 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/IMG_4695.jpg?v=1781762354",
   "level": "Beginner - Intermediate",
+  "strControl": "Aerobite",
+  "strPower": "BG80",
   "weight": "80 grams",
+  "flex": "Medium Flex",
   "balance": "292 (Head Balance)",
   "tension": "30 lbs"
  },
@@ -304,7 +353,10 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/IMG_4708.jpg?v=1781761862",
   "level": "Beginner - Intermediate",
+  "strControl": "Aerobite",
+  "strPower": "BG 80",
   "weight": "80 grams",
+  "flex": "Medium Flex",
   "balance": "292 (Head Balance)",
   "tension": "30 lbs"
  },
@@ -316,6 +368,7 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/axforce80light-1_10b35fce-8feb-418a-9f73-01f9bd0eb0d7.jpg?v=1781501270",
   "level": "Intermediate - Advanced",
+  "frame": "Carbon Fibre",
   "flex": "Flexible",
   "balance": "Head Heavy",
   "tension": "28",
@@ -329,9 +382,14 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/h9000power-1.webp?v=1779356302",
   "level": "Intermediate - Advanced",
+  "strControl": "BG",
+  "strPower": "BG Exbolt 65",
   "frame": "Ultra High Modulus Carbon Fiber",
   "shaft": "Ultra High Modulus Carbon Fiber + High-density Dampening Material + Polyimide Fiber",
-  "weight": "83 grams"
+  "weight": "83 grams",
+  "grips": "G5",
+  "flex": "Hard Flexible Shaft",
+  "tension": "30 lbs"
  },
  {
   "name": "Yonex Astrox 70 (83 grams) Ladies Badminton Racquet",
@@ -346,7 +404,8 @@
   "frame": "HM Graphite / VDM / Tungsten",
   "shaft": "HM Graphite / Namd",
   "weight": "4U (83 grams)",
-  "tension": "26 lbs"
+  "tension": "26 lbs",
+  "grips": "G5 (Small)"
  },
  {
   "name": "Yonex Astrox 88 S GAME Badminton Racquet (Control)",
@@ -356,12 +415,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/astrox88sgame.jpg?v=1712129370",
   "level": "Beginner - Intermediate",
+  "strControl": "BG Aerobite",
+  "strPower": "BG 80",
   "flex": "Medium",
   "balance": "Rotational",
   "frame": "HM Graphite, CSR, Tungsten",
   "shaft": "HM Graphite, 2G-NANOMESH NEO",
   "weight": "4U (83 grams)",
-  "tension": "28 lbs"
+  "tension": "28 lbs",
+  "grips": "G5 (Small)"
  },
  {
   "name": "NEW 2026 Li Ning Blade X 800 SPEED (83 grams) Badminton Racquet",
@@ -371,6 +433,7 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/bladex800speed-1.jpg?v=1777179038",
   "level": "Beginner - Intermediate",
+  "frame": "M46X + ULTRA High Elastic Carbon Fiber",
   "flex": "Stiff",
   "balance": "Head Light",
   "tension": "30 lbs",
@@ -384,12 +447,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/thrusterfclawultra-1.webp?v=1768786333",
   "level": "Beginner - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG Exbolt 63",
   "flex": "Stiff",
   "balance": "Head Heavy",
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR + 46T PYROFIL + NANO AEROGEL + HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite + 46TPYROFIL + Metallic Carbon Fiber + 5.6 SHAFT",
   "weight": "5U (78 grams)",
-  "tension": "30 lbs"
+  "tension": "30 lbs",
+  "grips": "G6 (small)"
  },
  {
   "name": "Yonex Nanoflare 1000Z (88 grams) Badminton Racquet",
@@ -399,6 +465,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/nf1000z_5d3a182a-549c-4d50-bf8d-7a8da94d5234.png?v=1684117308",
   "level": "Intermediate - Advanced",
+  "strControl": "BG",
+  "strPower": "BG",
   "flex": "Extra Stiff",
   "balance": "Head Light",
   "frame": "H.M. Graphite, Nanometric DR, M40X,EX-HYPER MG",
@@ -414,6 +482,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/products/arc11-p_fb403992-67bf-44eb-b0aa-c52efdf2abb4.png?v=1642836706",
   "level": "Beginner - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG Exbolt 63",
   "flex": "Stiff",
   "balance": "Head Balance",
   "frame": "HM Graphite + POCKETING BOOSTER",
@@ -429,8 +499,11 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/300efb51-4d45-4f60-a59d-9c6324033066_21649fdc-1bd3-4a5c-8d9a-b40d97a62916.webp?v=1775031125",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG80",
   "frame": "High Resilience Modulus Graphite + NANO AEROGEL + PBO High Performance Fiber + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PBO High Performance Fiber + PYROFIL + 6.8 SHAFT",
+  "grips": "G5 (Small)",
   "tension": "28 lbs"
  },
  {
@@ -441,8 +514,11 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/7b86c257-642a-4640-90ce-f8522f72f18b_c2d6de31-48f4-40a5-9ebb-a87f0fa06198.webp?v=1775030628",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG80",
   "frame": "High Resilience Modulus Graphite + NANO AEROGEL + PBO High Performance Fiber + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PBO High Performance Fiber + PYROFIL + 6.8 SHAFT",
+  "grips": "G5 (Small)",
   "tension": "29 lbs"
  },
  {
@@ -453,6 +529,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/all_2nf-700g_343-1.png?v=1774575464",
   "level": "Beginner - Intermediate",
+  "strControl": "Aerobite Boost",
+  "strPower": "BG80 Power",
   "flex": "Hi-Flex",
   "balance": "Head Light",
   "frame": "Graphite, Nanocell NEO, HM Graphite, SERVO FILTER",
@@ -468,12 +546,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/ax88dgame.jpg?v=1712128939",
   "level": "Beginner - Intermediate",
+  "strControl": "BG Aerobite",
+  "strPower": "BG 80",
   "flex": "Medium",
   "balance": "Rotational",
   "frame": "HM Graphite, CSR, Tungsten",
   "shaft": "HM Graphite, 2G-NANOMESH NEO",
   "weight": "4U (83 grams)",
-  "tension": "28 lbs"
+  "tension": "28 lbs",
+  "grips": "G5 (Small)"
  },
  {
   "name": "NEW 2026 Victor Auraspeed 99 BAC Limited Edition (83 grams) Badminton Racquet",
@@ -483,12 +564,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/auraspeed99BAC-1.webp?v=1773380625",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite Boost",
+  "strPower": "BG 80 Power",
   "flex": "Stiff",
   "balance": "Head Heavy",
   "frame": "High Resilience Modulus Graphite+Metallic Carbon Fiber+NANO AEROGEL+Nano Fortify TR++HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+Metallic Carbon Fiber+PYROFIL+6.8 SHAFT",
   "weight": "4U (83 grams)",
-  "tension": "31 lbs"
+  "tension": "31 lbs",
+  "grips": "G5"
  },
  {
   "name": "NEW 2026 Victor Auraspeed 99 (83 grams) Badminton Racquet",
@@ -498,12 +582,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/auraspeed99-1.webp?v=1773379786",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite Boost",
+  "strPower": "BG 80 Power",
   "flex": "Stiff",
   "balance": "Head Heavy",
   "frame": "High Resilience Modulus Graphite+Metallic Carbon Fiber+NANO AEROGEL+Nano Fortify TR++HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+Metallic Carbon Fiber+PYROFIL+6.8 SHAFT",
   "weight": "4U (83 grams)",
-  "tension": "31 lbs"
+  "tension": "31 lbs",
+  "grips": "G5"
  },
  {
   "name": "Li Ning AxForce 100 (Gen 2) Storm Green 83 grams Badminton Racquet",
@@ -513,6 +600,9 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/axforce100gen2-1_d72c93b6-f35e-4e1d-b894-05f124dcd2c0.jpg?v=1769675534",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG80",
+  "frame": "Ultra high-elastic carbon + damping matrix; Shaft: M46 + T1100 + Ultra high-elastic carbon",
   "flex": "Stiff",
   "balance": "Head Heavy",
   "tension": "30",
@@ -526,12 +616,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/thrusterfclawultra-1.webp?v=1768786333",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite Boost",
+  "strPower": "BG 80 Power",
   "flex": "Stiff",
   "balance": "Head Heavy",
   "frame": "High ResilienceModulus Graphite + Nano Fortify TR + 46T PYROFIL + NANO AEROGEL + HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite + 46TPYROFIL + Metallic Carbon Fiber + 5.8 SHAFT",
   "weight": "4U (83 grams)",
-  "tension": "31 lbs"
+  "tension": "31 lbs",
+  "grips": "G5 (small)"
  },
  {
   "name": "Li Ning Windstorm 76 Navy (76 grams Lightweight) Badminton Racquet",
@@ -541,7 +634,10 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/windstorm76navy-1.jpg?v=1763286283",
   "level": "Beginner - Intermediate",
+  "strControl": "Aerobite",
+  "strPower": "BG80 Power",
   "weight": "76 grams",
+  "flex": "Medium Flex",
   "balance": "322mm (Head Heavy)",
   "tension": "30 lbs"
  },
@@ -553,7 +649,10 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/windstorm76white-1_5b3be842-0d2c-4196-9bca-c314c010a3d3.jpg?v=1763286070",
   "level": "Beginner - Intermediate",
+  "strControl": "Aerobite",
+  "strPower": "BG80 Power",
   "weight": "76 grams",
+  "flex": "Medium Flex",
   "balance": "322mm (Head Heavy)",
   "tension": "30 lbs"
  },
@@ -565,7 +664,10 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/ws76whiteblack-1.jpg?v=1763285639",
   "level": "Beginner - Intermediate",
+  "strControl": "Aerobite",
+  "strPower": "BG80 Power",
   "weight": "76 grams",
+  "flex": "Medium Flex",
   "balance": "322mm (Head Heavy)",
   "tension": "30 lbs"
  },
@@ -577,8 +679,12 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/ax88play.jpg?v=1712127661",
   "level": "Beginner - Intermediate",
+  "strControl": "BG Aerobite",
+  "strPower": "BG Exbolt 63",
+  "flex": "Medium",
   "balance": "Rotational (Hybrid)",
-  "weight": "4"
+  "weight": "4",
+  "tension": "28 lbs"
  },
  {
   "name": "Yonex Nanoflare 700 Play (Silver) 83 grams Badminton Racquet",
@@ -588,6 +694,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/NF700PLAY.png?v=1740641252",
   "level": "Beginner - Intermediate",
+  "strControl": "Aerobite",
+  "strPower": "BG Exbolt 65",
   "flex": "Flexible",
   "balance": "Rotational / Hybrid",
   "frame": "Graphite",
@@ -603,6 +711,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/NF700PLPurple.jpg?v=1743049905",
   "level": "Beginner - Intermediate",
+  "strControl": "Aerobite",
+  "strPower": "BG Exbolt 65",
   "flex": "Flexible",
   "balance": "Rotational / Hybrid",
   "frame": "Graphite",
@@ -618,12 +728,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/100ZZ_VA.png?v=1758263396",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "Exbolt 65",
   "flex": "Stiff",
   "balance": "Rotational",
   "frame": "HM Graphite, Namd, VOLUME CUT RESIN, Tungsten",
   "shaft": "HM Graphite, Namd™",
   "weight": "3U (88 grams)",
-  "tension": "29 lbs"
+  "tension": "29 lbs",
+  "grips": "G5 (Small)"
  },
  {
   "name": "Yonex Astrox 100VA ZZ (83 grams) Limited Edition Badminton Racquet",
@@ -633,12 +746,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/100ZZ_VA.png?v=1758263396",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "Exbolt 65",
   "flex": "Stiff",
   "balance": "Rotational",
   "frame": "HM Graphite, Namd, VOLUME CUT RESIN, Tungsten",
   "shaft": "HM Graphite, Namd™",
   "weight": "4U (83 grams)",
-  "tension": "28 lbs"
+  "tension": "28 lbs",
+  "grips": "G6 (Very Small)"
  },
  {
   "name": "Yonex Astrox 99 PLAY (Gen 3) 83 grams Badminton Racquet",
@@ -648,6 +764,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/99_Play.png?v=1756707465",
   "level": "Beginner - Intermediate",
+  "strControl": "BG Aerobite",
+  "strPower": "Exbolt 65",
   "flex": "Medium",
   "balance": "Rotational",
   "frame": "Graphite",
@@ -663,6 +781,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/99_Pro.png?v=1756702161",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "Exbolt 68",
   "flex": "Stiff",
   "balance": "Rotational",
   "frame": "HM Graphite + CFR + Tungsten + 2G-Namd FLEX FORCE",
@@ -678,6 +798,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/99_Pro.png?v=1756702161",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "Exbolt 68",
   "flex": "Stiff",
   "balance": "Rotational",
   "frame": "HM Graphite + CFR + Tungsten + 2G-Namd FLEX FORCE",
@@ -693,6 +815,7 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/image.jpg?v=1744007301",
   "level": "Intermediate - Advanced",
+  "frame": "Military Grade",
   "flex": "Stiff",
   "balance": "Head Heavy",
   "tension": "30",
@@ -706,8 +829,11 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/TK-HMRPROU5.jpg?v=1754314585",
   "level": "Beginner - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG Exbolt 63",
   "frame": "Carbon fiber + resin + strong laminate system",
-  "shaft": "Carbon fiber + resin + 6.8 SHAFT"
+  "shaft": "Carbon fiber + resin + 6.8 SHAFT",
+  "grips": "G5 (Medium)"
  },
  {
   "name": "Victor Thruster HMR Pro (Gold) 83 Grams Badminton Racquet",
@@ -717,8 +843,11 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/TK-HMRPROX5.jpg?v=1754316869",
   "level": "Beginner - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG Exbolt 63",
   "frame": "Carbon fiber + resin + strong laminate system",
-  "shaft": "Carbon fiber + resin + 6.8 SHAFT"
+  "shaft": "Carbon fiber + resin + 6.8 SHAFT",
+  "grips": "G5 (Medium)"
  },
  {
   "name": "Yonex Nanoflare 1000 PLAY (83 grams) Badminton Racquet",
@@ -728,6 +857,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/nanoflare_1000play.png?v=1704871434",
   "level": "Beginner - Intermediate",
+  "strControl": "BG",
+  "strPower": "BG Exbolt 65",
   "flex": "Medium",
   "balance": "Head Light",
   "frame": "Graphite",
@@ -743,6 +874,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/4xumex2qo0d-768x768.jpg?v=1695616939",
   "level": "Beginner - Intermediate",
+  "strControl": "BG Aerobite BOOST",
+  "strPower": "BG 80 Power",
   "flex": "Medium",
   "balance": "Head Light",
   "frame": "Graphite,Nanocell NEO,HM Graphite",
@@ -758,6 +891,9 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/products/axforce-80-cl-limited-edition-set-1_457535ea-f462-4370-906a-10af27489e13.jpg?v=1642572209",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG66 Ultimax",
+  "frame": "Carbon Fiber",
   "flex": "Soft",
   "balance": "Head Heavy",
   "tension": "30",
@@ -771,12 +907,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/Fantome1_88145d2b-b163-4923-96f3-9eef4f6c4d72.webp?v=1741738364",
   "level": "Intermediate - Advanced",
+  "strControl": "BG Aerobite",
+  "strPower": "BG 80",
   "flex": "Stiff",
   "balance": "Head Heavy",
   "frame": "High ResilienceModulus Graphite+NANO AEROGEL+PBO High Performance Fiber+HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite+PBO High Performance Fiber+PYROFIL+6.8 SHAFT",
   "weight": "4U (83 grams)",
-  "tension": "29 lbs"
+  "tension": "29 lbs",
+  "grips": "G5 (small)"
  },
  {
   "name": "Victor Auraspeed Fantome (88 grams) Badminton Racquet",
@@ -786,12 +925,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/Fantome1.webp?v=1741738149",
   "level": "Intermediate - Advanced",
+  "strControl": "BG Aerobite",
+  "strPower": "BG 80",
   "flex": "Stiff",
   "balance": "Head Heavy",
   "frame": "High ResilienceModulus Graphite+NANO AEROGEL+PBO High Performance Fiber+HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite+PBO High Performance Fiber+PYROFIL+6.8 SHAFT",
   "weight": "3U (88 grams)",
-  "tension": "30 lbs"
+  "tension": "30 lbs",
+  "grips": "G5 (small)"
  },
  {
   "name": "Victor X Doraemon Drive X (83 grams) Badminton Racquet Gift Box [CLEARANCE]",
@@ -801,6 +943,9 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/DRMGiftBox5.jpg?v=1789807098",
   "level": "Intermediate - Advanced",
+  "strControl": "BG Aerobite",
+  "strPower": "BG Exbolt 65",
+  "grips": "G5 (Small)",
   "tension": "26 lbs"
  },
  {
@@ -811,12 +956,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/astroxnextagelightgray.jpg?v=1746522849",
   "level": "Beginner - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG80 Power",
   "flex": "Medium",
   "balance": "Rotational",
   "frame": "H.M. GRAPHITE + VDM + Tungsten",
   "shaft": "Graphite + Nanomesh NEO",
   "weight": "4U (83 grams)",
-  "tension": "28 lbs"
+  "tension": "28 lbs",
+  "grips": "G5 (Small)"
  },
  {
   "name": "Yonex Nanoflare Nextage (83 grams) White Badminton Racquet",
@@ -826,6 +974,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/nfnextage.png?v=1705491719",
   "level": "Beginner - Advanced",
+  "strControl": "BG Aerobite",
+  "strPower": "BG Exbolt 65",
   "flex": "Medium",
   "balance": "Head Light",
   "frame": "HT Graphite,Nanocell NEO",
@@ -841,6 +991,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/products/arc11-pl.png?v=1651462173",
   "level": "Beginner - Intermediate",
+  "strControl": "BG Aerobite",
+  "strPower": "Exbolt 65",
   "flex": "Medium",
   "balance": "Head Balance",
   "frame": "Graphite",
@@ -856,6 +1008,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/nf700pro_f474b6d5-4fc0-4691-be8b-7481c1b18ee1.jpg?v=1724392740",
   "level": "Intermediate - Advanced",
+  "strControl": "BG Aerobite",
+  "strPower": "BG Exbolt 65",
   "flex": "MEDIUM",
   "balance": "290mm (Head Light)",
   "frame": "HM Graphite, NANOMETRIC DR, M40X, EX-HYPER MG",
@@ -871,6 +1025,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/nf700pro.jpg?v=1724392547",
   "level": "Intermediate - Advanced",
+  "strControl": "BG Aerobite",
+  "strPower": "BG Exbolt 65",
   "flex": "MEDIUM",
   "balance": "290mm (Head Light)",
   "frame": "HM Graphite, NANOMETRIC DR, M40X, EX-HYPER MG",
@@ -886,6 +1042,9 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/119495_4_20240715095824.jpg?v=1724060001",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG Exbolt 65",
+  "grips": "G6 (Extra Small)",
   "tension": "30 lbs"
  },
  {
@@ -896,12 +1055,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/zz-3AX88D-P_076-1_ec6662dd-f1b0-4f86-a602-dde389feadce.jpg?v=1709630500",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG80 Power",
   "flex": "Stiff",
   "balance": "Rotational",
   "frame": "HM Graphite, CFR, Tungsten",
   "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE, Ultra PE Fibe",
   "weight": "3U (88 grams)",
-  "tension": "28 lbs"
+  "tension": "28 lbs",
+  "grips": "G5 (Small)"
  },
  {
   "name": "Yonex Astrox 88 S PRO (Gen 3) 88 grams Badminton Racquet",
@@ -911,12 +1073,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/zz-3AX88S-P_417-1_d0a5a738-14f5-4e29-95db-0f28425fa016.jpg?v=1709629865",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite Boost",
+  "strPower": "BG80 Power",
   "flex": "Stiff",
   "balance": "Rotational",
   "frame": "HM Graphite, CFR, Tungsten",
   "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE, Ultra PE Fibe",
   "weight": "3U (88 grams)",
-  "tension": "29 lbs"
+  "tension": "29 lbs",
+  "grips": "G5 (Small)"
  },
  {
   "name": "Victor Thruster Ryuga Metallic (83 grams) Badminton Racquet",
@@ -926,12 +1091,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/TK-RYUGAMETALLICC-4_1024x1024_2x_7b8837d2-8729-4b2d-b114-fa49090bb28f.png?v=1700377660",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite Boost",
+  "strPower": "BG 80 Power",
   "flex": "Extra Stiff",
   "balance": "Head Heavy",
   "frame": "High Resilience Modulus Graphite + Pyrofil+6.8 SHAFT",
   "shaft": "High Resilience Modulus Graphite/",
   "weight": "4U (83 grams)",
-  "tension": "31 lbs"
+  "tension": "31 lbs",
+  "grips": "G5 (small)"
  },
  {
   "name": "Yonex Arcsaber 11 PRO (83 grams) Badminton Racquet",
@@ -941,6 +1109,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/products/arc11-p.png?v=1642836516",
   "level": "Beginner - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG Exbolt 63",
   "flex": "Stiff",
   "balance": "Head Balance",
   "frame": "HM Graphite + POCKETING BOOSTER",
@@ -956,6 +1126,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/ALL_NF-800P_269-1.jpg?v=1698064470",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG Exbolt 65",
   "flex": "Stiff",
   "balance": "Head Light",
   "frame": "HM Graphite, M40X, SUPER HMG, Copper",
@@ -971,6 +1143,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/nf1000z.png?v=1684117229",
   "level": "Intermediate - Advanced",
+  "strControl": "BG",
+  "strPower": "BG",
   "flex": "Extra Stiff",
   "balance": "Head Light",
   "frame": "H.M. Graphite, Nanometric DR, M40X,EX-HYPER MG",
@@ -986,6 +1160,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/products/ax77-p.jpg?v=1666774274",
   "level": "Intermediate - Advanced",
+  "strControl": "BG Aerobite",
+  "strPower": "BG Exbolt 63",
   "flex": "Medium",
   "balance": "Rotational",
   "frame": "HM Graphite",
@@ -1001,6 +1177,8 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/products/arc7pro-1.jpg?v=1660652822",
   "level": "Intermediate - Advanced",
+  "strControl": "BG Aerobite",
+  "strPower": "BG Exbolt 65",
   "flex": "Medium",
   "balance": "Even Balance",
   "frame": "H.M. Graphite, POCKETING BOOSTER",
@@ -1016,8 +1194,12 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/products/astrox100zz_kurenai.png?v=1621418505",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG80 Power",
+  "flex": "Extra",
   "balance": "Rotational (Hybrid)",
-  "weight": "4"
+  "weight": "4",
+  "grips": "G6"
  },
  {
   "name": "Yonex Astrox 88 D PRO (Gen 3) 83 grams Badminton Racquet",
@@ -1027,12 +1209,15 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/zz-3AX88D-P_076-1.jpg?v=1709630311",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite",
+  "strPower": "BG80 Power",
   "flex": "Stiff",
   "balance": "Rotational",
   "frame": "HM Graphite, CFR, Tungsten",
   "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE, Ultra PE Fibe",
   "weight": "4U (83 grams)",
-  "tension": "28 lbs"
+  "tension": "28 lbs",
+  "grips": "G6 (Small)"
  },
  {
   "name": "Yonex Astrox 88 S PRO (Gen 3) 83 grams Badminton Racquet",
@@ -1042,11 +1227,14 @@
   "currency": "AUD",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/zz-3AX88S-P_417-1.jpg?v=1709629597",
   "level": "Intermediate - Advanced",
+  "strControl": "Aerobite Boost",
+  "strPower": "BG80 Power",
   "flex": "Stiff",
   "balance": "Rotational",
   "frame": "HM Graphite, CFR, Tungsten",
   "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE, Ultra PE Fibe",
   "weight": "4U (83 grams)",
-  "tension": "28 lbs"
+  "tension": "28 lbs",
+  "grips": "G6 (Small)"
  }
 ]
