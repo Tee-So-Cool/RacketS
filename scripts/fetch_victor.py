@@ -3,8 +3,8 @@
 # gives weight/grip, frame and shaft material and max tension per weight class as text.
 # Where the stiffness is drawn as a stiff-to-flexible slider ("Response Indicator"), the image name carries
 # its level (response-speed1 = most flexible ... response-speed10 = stiffest); it is saved as "indicator".
-# One page every 3 s. Run: python3 scripts/fetch_victor.py [--refetch]
-import html, json, os, re, time, urllib.request
+# One page every 3 s. Run: python3 scripts/fetch_victor.py [--refetch] [--all]
+import html, json, os, re, sys, time, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'scripts', 'sources', 'victor-official.json')
@@ -19,12 +19,14 @@ names = re.findall(r'"brand": "Victor",\s*"name": "([^"]+)"', txt)
 urls = re.findall(r'<loc>([^<]+/product/[^<]+)</loc>', get('https://th.victorsport.com/sitemap_products.xml'))
 # a page counts when its slug is a model slug, optionally followed by one colour or edition word ("-b", "-metallic")
 want = []
+# with --all, every racket page (by its series slug) is fetched, so models this data lacks are found too
+RACKET_SLUG = r'^(auraspeed|thruster|jetspeed|drivex|drive-x|brave-?sword|hypernano|wrist|challenger|mjolnir|arrow|light-fighter|ultramate|meteor|tk-|ars-|js-|dx-|brs-)'
 for u in urls:
     s = u.rsplit('/', 1)[1]
-    if any(s == slug(n) or re.fullmatch(re.escape(slug(n)) + r'-[a-z0-9]{1,10}', s) for n in names): want.append(u)
+    if any(s == slug(n) or re.fullmatch(re.escape(slug(n)) + r'-[a-z0-9]{1,10}', s) for n in names) or ('--all' in sys.argv and re.match(RACKET_SLUG, s)):
+        want.append(u)
 print('pages to fetch', len(want), flush=True)
 
-import sys
 out = json.load(open(OUT, encoding='utf-8')) if os.path.exists(OUT) and '--refetch' not in sys.argv else []
 done = {o['url'] for o in out}
 for u in want:

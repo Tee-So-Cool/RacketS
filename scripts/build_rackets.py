@@ -286,6 +286,66 @@ shop_pages[len(json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) e
                 'price': '', 'currency': 'THB', 'img': '', 'lines': [f'{k}: {v}' for k, v in pz['specs'].items()], 'options': []}
                for pz in plaza if pz.get('specs')]
 shops = [x for x in (from_shop(p) for p in shop_pages) if x]
+
+# ---- models the shops sell that this data lacks ----
+# A listing that matches no model becomes one when the maker's own site lists it (Victor TH, Li-Ning SG/IN,
+# VS Thailand), a Thai shop sells it, or two shops do. Gift sets, packs and character tie-ins are not models;
+# a bare series name ("Thruster") is not one either.
+from plaza_match import tokens as ptokens
+OFFICIAL = {'th.victorsport.com', 'sg.lining.studio', 'in.lining.studio', 'vssportsthailand.com', 'badmintonplaza.com'}
+NOT_RACKET_MODEL = re.compile(r'\b(set|combo|pack|duo|kit|bundle|gift|box|vip|merchandise|poster|frame only|training|trainer)\b|diwali|boxset|hwqkl|chinese\s+(?:new\s+)?year|'
+                              r'^yonex (?:astrox|nanoflare) (?:clear|feel|ability)\b|^yonex astrox 88 (?:tour|play|pro|game)\b|'
+                              r'\bseries\s*$|'
+                              r'doraemon|dragon ball|ultraman|one piece|pokemon|butterbear|baby milo|care bears|hello kitty|crayon|marvel|'
+                              r'avenger|peanuts|demon slayer|\bx\b', re.I)
+def display_name(t, brand):
+    import unicodedata
+    t = ''.join(c for c in unicodedata.normalize('NFKD', t) if not unicodedata.combining(c))
+    t = re.sub(r'[\u3000-\u9fff]+', ' ', t)
+    t = re.sub(r'\([^)]*\)|\[[^\]]*\]|free!.*$|\b(badminton|racket|racquet|unstrung|strung|pre-?strung|new|20\d\d)\b|'
+               r'\b[2-8]u\d?\b|\bg[4-6]\b|\d+\s*grams?|ไม้แบด\S*', ' ', t, flags=re.I)
+    t = re.sub(re.escape(brand) + r'|li[- ]?ning|venson', ' ', t, flags=re.I)
+    t = re.sub(r'\s*/.*$', '', t)  # "Ex-light / Pink": a colour after the slash
+    from plaza_match import COLOURS
+    t = re.sub(r'\b(?:' + COLOURS + r')\b|\bgen ?\d\b|\bbravesword\b', lambda m: 'Brave Sword' if m.group(0).lower() == 'bravesword' else ' ', t, flags=re.I)
+    t = re.sub(r'^js-(?=\d)', 'Jetspeed S ', t.strip(), flags=re.I)
+    t = re.sub(r'\s+[A-Za-z]$', '', re.sub(r'\s+', ' ', t).strip(' -|/'))  # Victor's colour letter: "AURASPEED 130CL U"
+    if brand == 'Li-Ning':  # Li-Ning SG writes its variants as letters: "Tectonic 7C" = Tectonic 7 Combat
+        t = re.sub(r'(\d)([CDIB])$', lambda m: m.group(1) + ' ' + {'C': 'Combat', 'D': 'Drive', 'I': 'Instinct', 'B': 'Boost'}[m.group(2)], t)
+    t = re.sub(r'(?<=[A-Za-z]) ([2-4])\b(?! ?[\d.])', lambda m: ' ' + {'2': 'II', '3': 'III', '4': 'IV'}[m.group(1)], t)
+    return ' '.join(w if re.search(r'\d', w) or w in ('II', 'III', 'IV') or len(w) <= 2 else w.capitalize() for w in t.split())
+groups = collections.defaultdict(list)
+for bz in shops:
+    if bz['brand'] not in ('Victor', 'Li-Ning', 'VS', 'Yonex') or NOT_RACKET_MODEL.search(bz['name']): continue
+    pool = {r['name']: r for r in rackets.values() if r['brand'] == bz['brand']}
+    if pmatch(bz['name'], pool)[0]: continue
+    nm = display_name(bz['name'], bz['brand'])
+    tk = ptokens(nm)
+    if not tk: continue
+    groups[(bz['brand'], ' '.join(sorted(dict.fromkeys(tk))))].append((nm, bz))
+shop_new = []
+for (brand, _), its in groups.items():
+    shopset = {b['shop'] for _, b in its}
+    if not (shopset & OFFICIAL or len(shopset) >= 2): continue
+    names = collections.Counter(n for n, b in its if b['shop'] in OFFICIAL) or collections.Counter(n for n, _ in its)
+    nm = names.most_common(1)[0][0]
+    tk = ptokens(nm)
+    # a bare series name, or a name the listed models start with, is a series, not a model
+    if len(tk) < 2 and not re.search(r'\d', nm): continue
+    if not re.search(r'\d', nm) and any(r['brand'] == brand and ptokens(r['name'])[:len(tk)] == tk and len(ptokens(r['name'])) > len(tk) for r in rackets.values()): continue
+    # a colour letter glued to a listed model's number ("Auraspeed 9000G Free Core Green") is that model
+    base = re.match(r'(.*\d)[A-Za-z]\b', nm)
+    if base and any(r['brand'] == brand and ptokens(r['name']) == ptokens(base.group(1)) for r in rackets.values()) and \
+            re.search(r'\b(green|blue|red|black|white|gold|silver|pink|purple|yellow|orange)\b', ' '.join(b['name'] for _, b in its), re.I): continue
+    if len(nm) > 32: continue
+    k = key(brand + ' ' + nm)
+    if k in rackets: continue
+    rackets[k] = {'id': slug(brand + ' ' + nm), 'brand': brand, 'name': nm, 'year': '', 'style': '', 'balance': '', 'flex': '', 'level': '',
+                  'weights': '', 'weight': '', 'grips': '', 'tension': None, 'price': '', 'frame': '', 'shaft': '', 'joint': '', 'length': '',
+                  'pattern': '', 'tech': '', 'players': '', 'madeIn': '', 'img': '', 'source': '', 'note': ''}
+    shop_new.append(brand + ' ' + nm)
+print('models added from shops', len(shop_new))
+if os.environ.get('AUDIT'): print('  ' + ' | '.join(sorted(shop_new)))
 bay_hits = {'bay': 0, 'click': 0, 'shop': 0}
 AUDIT = {'matched': collections.defaultdict(list), 'unmatched': []}  # AUDIT=<path> writes every shop value per model
 cands = collections.defaultdict(lambda: collections.defaultdict(list))  # model -> field -> [(value, from prose, shop, rank)] in source order
@@ -337,8 +397,9 @@ for bz in bay + click + shops:
     if bz.get('price') in (999, 999.0, 9999, 9999.0): bz = {**bz, 'price': ''}
     if bz.get('price') and bz.get('currency') == 'THB' and not r.get('price'):
         r['price'] = int(bz['price'])  # a Thai shop's price is a real baht price
-    elif bz.get('price') and not r.get('priceForeign'):
-        r['priceForeign'] = {'amount': bz['price'], 'currency': bz.get('currency', 'USD'), 'src': bz['url']}
+    elif bz.get('price'):
+        # every shop's foreign price is kept; the conversion below takes the lowest believable one
+        r.setdefault('_pfs', []).append({'amount': bz['price'], 'currency': bz.get('currency', 'USD'), 'src': bz['url']})
     if bz.get('src') == 'shop':
         links = r.setdefault('shopLinks', [])
         if bz['shop'] not in [l['shop'] for l in links]: links.append({'shop': bz['shop'], 'url': bz['url']})
@@ -414,15 +475,23 @@ for r in rackets.values():
 FX = json.load(open(os.path.join(SRC, 'fx.json'))) if os.path.exists(os.path.join(SRC, 'fx.json')) else {'toTHB': {}, 'date': ''}
 SYM = {'VND': '₫', 'USD': 'US$', 'GBP': '£', 'EUR': '€', 'MYR': 'RM', 'SGD': 'S$', 'AUD': 'A$', 'INR': '₹', 'JPY': '¥', 'CNY': 'CN¥', 'BDT': '৳'}
 converted = 0
-for r in rackets.values():
-    pf = r.get('priceForeign')
-    if r.get('price') or not pf: continue
+def to_thb(pf):
     rate = FX['toTHB'].get(pf['currency'])
     src_name, src_date = 'ECB', FX['date']
     if not rate:
         rate = FX.get('extraToTHB', {}).get(pf['currency']); src_name, src_date = 'open.er-api.com', FX.get('extraDate', '')
-    if not rate: continue
-    r['price'] = int(round(pf['amount'] * rate / 10) * 10)
+    return (int(round(pf['amount'] * rate / 10) * 10), rate, src_name, src_date) if rate else None
+for r in rackets.values():
+    # a price set by hand (override) wins; otherwise the lowest shop price at or above 500 baht, since some stores
+    # park old models at round placeholder prices (Li-Ning SG: S$499 for an Aeronaut 7000)
+    cands = ([r['priceForeign']] if r.get('priceForeign') else []) or r.get('_pfs', [])
+    r.pop('_pfs', None)
+    if r.get('price') or not cands: continue
+    conv = sorted((c for c in ((to_thb(pf), pf) for pf in cands) if c[0] and c[0][0] >= 500), key=lambda c: c[0][0])
+    if not conv: continue
+    (thb_price, rate, src_name, src_date), pf = conv[0]
+    r['priceForeign'] = pf
+    r['price'] = thb_price
     r.setdefault('est', []).append('price')
     r['priceNote'] = f"แปลงจาก {SYM.get(pf['currency'], pf['currency'] + ' ')}{pf['amount']:,.2f} ที่ 1 {pf['currency']} = {rate:g} บาท ({src_name} {src_date}) ไม่รวมภาษีนำเข้าและค่าส่ง"
     r['priceSrc'] = pf.get('src', '')

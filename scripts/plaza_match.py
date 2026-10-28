@@ -15,11 +15,17 @@ ALIASES = [(r'high carbon', 'hc'), (r'sward', 'sword'), (r"lee zii jia'?s( game)
            (r'\b(champion|master|gold|tourney) (\d)\b', r'\1 no \2'), (r'#\s?(\d)\b', r'no \1'), (r'\bcarbon ?sonic\b', 'carbonsonic'),
            (r'\bmavis (\d{3})i\b', r'mavis \1'), (r'\b(?:vns|vsn|ns)-?(2000|3000)\b', r'nylon \1'), (r'\bacb\b', 'aeroclub'),
            (r'\bas[- ]?(10|20|30|40|50)\b', r'aerosensa \1'), (r'\bbg ?66 ?um\b', 'bg66 ultimax'), (r'\b1/2 doz\w*', ' '), (r'\b(?:pack|box|tube|carton)s? of \d+\b', ' '),
-           (r'\bcentury tournament\b', 'century tourney')]
+           (r'\bcentury tournament\b', 'century tourney'), (r'\bthruster (?:k )?(\d+) light\b', r'thruster \1l'), (r'\bjs-(?=\d)', 'jetspeed s '),
+           (r'(?<!ultra )\bwoven ?(\d{2})\b', r'ultra woven \1'), (r'\bgforce\b', 'g-force'), (r'\bturbocharging\b', 'turbo charging'),
+           (r'\bbigbang\b', 'big bang'), (r'(\d)\+', r'\1 plus')]
 SKIP = r'^x |\bx (doraemon|ultraman|one piece|demon slayer|pokemon|butterbear|dragon ball|b\.duck)|merchandise|world tour finals|china open|training|felet|kumpoo|starbucks|^all|^flare$|^woven$|^$|drm set|gb$|^astrox (clear|feel)$|hmr light mi|hwqkl|^astrox 88 tour$'
 
+import unicodedata
 def clean(title):
-    t = re.sub(r'\(.*?\)', ' ', title or '')
+    # accents and CJK marks do not name a model: "Fantôme" = "Fantome", "Thruster F 隼 Ultra" = "Thruster F Ultra"
+    t = ''.join(c for c in unicodedata.normalize('NFKD', title or '') if not unicodedata.combining(c))
+    t = re.sub(r'[\u3000-\u9fff]+', ' ', t)
+    t = re.sub(r'\(.*?\)', ' ', t)
     t = t.lower()
     for a, b in ALIASES: t = re.sub(a, b, t)
     t = re.sub(NOISE, ' ', t)

@@ -364,7 +364,7 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": 6180,
+  "price": 4010,
   "frame": "30T Japan HM Graphite + Quad Balance + Hexagon Throat",
   "shaft": "40T Japan HM Graphite + Super Slim Shaft 6.2mm",
   "joint": "",
@@ -391,8 +391,8 @@ window.RACKETS = [
     "url": "https://centralsports.co.uk/products/apacs-blizzard-pro-zz"
    }
   ],
-  "priceNote": "แปลงจาก US$182.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-blizzard-pro-zz-black-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก £89.00 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://centralsports.co.uk/products/apacs-blizzard-pro-zz",
   "note": "",
   "est": [
    "style",
@@ -1216,7 +1216,7 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": 6720,
+  "price": 3820,
   "frame": "40 Tonne  Japan HM Graphite, Compact Power Quad Voltaic",
   "shaft": "50 Tonne Japan HM Graphite, Extra Slim Shaft",
   "joint": "",
@@ -1243,8 +1243,8 @@ window.RACKETS = [
     "url": "https://centralsports.co.uk/products/apacs-fantala-pro-101-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก US$199.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-fantala-pro-101-4u-badminton-racket.html",
+  "priceNote": "แปลงจาก £84.95 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://centralsports.co.uk/products/apacs-fantala-pro-101-badminton-racket",
   "note": "",
   "est": [
    "style",
@@ -1259,7 +1259,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-heavy",
   "flex": "medium",
-  "level": "advanced",
+  "level": "intermediate",
   "weights": "7U",
   "weight": 63,
   "grips": "G2",
@@ -1267,7 +1267,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "price": 3710,
+  "price": 2430,
   "frame": "30 Tonne Japan Graphite + AHSF + Hexagon Throat + IPN",
   "shaft": "30 Tonne Graphite",
   "joint": "",
@@ -1290,8 +1290,8 @@ window.RACKETS = [
     "url": "https://centralsports.co.uk/products/apacs-feather-weight-500-racket-grey-7u1"
    }
   ],
-  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-500-grey-badminton-racket.html",
+  "priceNote": "แปลงจาก £53.93 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://centralsports.co.uk/products/apacs-feather-weight-500-racket-grey-7u1",
   "note": "",
   "est": [
    "price",
@@ -1306,7 +1306,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-heavy",
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "beginner",
   "weights": "8U",
   "weight": 58,
   "grips": "G2",
@@ -1314,7 +1314,7 @@ window.RACKETS = [
    null,
    28
   ],
-  "price": 3710,
+  "price": 1360,
   "frame": "30 Tonne Japan Graphite + AHSF + Hexagon Throat + IPN",
   "shaft": "24 Tonne Graphite",
   "joint": "",
@@ -1341,8 +1341,8 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/apacs-feather-weight-55-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-55-black-red-badminton-racket.html",
+  "priceNote": "แปลงจาก ₹3,843.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/apacs-feather-weight-55-badminton-racket",
   "note": "",
   "est": [
    "price",
@@ -1698,7 +1698,7 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": 6720,
+  "price": 2870,
   "frame": "40T Japan HM Graphite + T-Throat + Compact Power Quad Voltaic",
   "shaft": "50T Japan HM Graphite + Super Slim Shaft 6.4mm",
   "joint": "",
@@ -1725,8 +1725,8 @@ window.RACKETS = [
     "url": "https://centralsports.co.uk/products/apacs-honor-pro-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก US$199.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-honor-pro-dark-grey-neon-green-3u-badminton-racket.html",
+  "priceNote": "แปลงจาก US$85.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/apacs-honor-pro-badminton-racquet-pre-strung",
   "note": "",
   "est": [
    "style",
@@ -1873,7 +1873,7 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": 6720,
+  "price": 2870,
   "frame": "40T Japan HM Graphite + Balance Quad System",
   "shaft": "50T Japan HM Graphite + Super Slim Shaft 6.2mm + Hexagon Throat",
   "joint": "",
@@ -1896,8 +1896,8 @@ window.RACKETS = [
     "url": "https://badmintonwarehouse.com/products/apacs-imperial-pro-badminton-racquet-pre-strung"
    }
   ],
-  "priceNote": "แปลงจาก US$199.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-imperial-pro-dark-grey-badminton-racket.html",
+  "priceNote": "แปลงจาก US$85.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/apacs-imperial-pro-badminton-racquet-pre-strung",
   "note": "",
   "est": [
    "style",
@@ -4266,7 +4266,7 @@ window.RACKETS = [
    null,
    38
   ],
-  "price": 6180,
+  "price": 3280,
   "frame": "30T Japan HM Graphite + T-Throat + Compact Quad Voltaic",
   "shaft": "40T Japan HM Graphite + Ultra Slim Shaft 6.2mm",
   "joint": "",
@@ -4289,8 +4289,8 @@ window.RACKETS = [
     "url": "https://centralsports.co.uk/products/apacs-z-ziggler-lhi-pro-iii-badminton-rkt-blue"
    }
   ],
-  "priceNote": "แปลงจาก US$182.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-ziggler-lhi-proiii-navy-badminton-racket.html",
+  "priceNote": "แปลงจาก £72.95 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://centralsports.co.uk/products/apacs-z-ziggler-lhi-pro-iii-badminton-rkt-blue",
   "note": "",
   "est": [
    "style",
@@ -5306,6 +5306,262 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "li-ning-3d-breakfree-n90-iv",
+  "brand": "Li-Ning",
+  "name": "3D Breakfree N90 IV",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "",
+  "weight": 87,
+  "grips": "G6",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4610,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/1_b4681c58ff.jpg?v=1749893194",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/3d-breakfree-n90-iv"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹12,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/3d-breakfree-n90-iv",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-3d-calibar-009",
+  "brand": "Li-Ning",
+  "name": "3D Calibar 009",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "beginner",
+  "weights": "",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1680,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypn234_4_01_1_fe74b1adc5.jpg?v=1752147846",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/3d-calibar-009"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/3d-calibar-009"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,730.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/3d-calibar-009",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-3d-calibar-009-boost",
+  "brand": "Li-Ning",
+  "name": "3D Calibar 009 Boost",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "beginner",
+  "weights": "",
+  "weight": 84,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1680,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypn222_4_01_1_21b0b3212c.jpg?v=1752147857",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/3d-calibar-009-boost"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/3d-calibar-009-boost"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,730.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/3d-calibar-009-boost",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-3d-calibar-009-combat",
+  "brand": "Li-Ning",
+  "name": "3D Calibar 009 Combat",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "beginner",
+  "weights": "",
+  "weight": 86,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1680,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypn238_4_01_1_70e1241fc6.jpg?v=1752143851",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/3d-calibar-009-combat"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/3d-calibar-009-combat"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,730.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/3d-calibar-009-combat",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-3d-calibar-200",
+  "brand": "Li-Ning",
+  "name": "3D Calibar 200",
+  "year": "",
+  "style": "attack",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 83,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2170,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm394_4_01_11576fc5aa.jpg?v=1752147836",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/3d-calibar-200"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/3d-calibar-200"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹6,110.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/3d-calibar-200",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
   "id": "li-ning-3d-calibar-300",
   "brand": "Li-Ning",
   "name": "3D Calibar 300",
@@ -5357,6 +5613,334 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style"
+  ]
+ },
+ {
+  "id": "li-ning-3d-calibar-300-boost",
+  "brand": "Li-Ning",
+  "name": "3D Calibar 300 Boost",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "3U, 4U, 5U, 6U",
+  "weight": 83,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2290,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypp026_4_01_1_2988b6a022.jpg?v=1752147813",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/3d-calibar-300-boost"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/3d-calibar-300-boost"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-3d-calibar-300b-boost-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹6,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-300b-boost-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-3d-calibar-300-combat",
+  "brand": "Li-Ning",
+  "name": "3D Calibar 300 Combat",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "3U, 4U, 5U",
+  "weight": 85,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2290,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypp014_4_01_1_f4aeff83c3.jpg?v=1752147824",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/3d-calibar-300-combat"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/3d-calibar-300-combat"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-3d-calibar-300c-combat-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹6,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-300c-combat-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-3d-calibar-300-instinct",
+  "brand": "Li-Ning",
+  "name": "3D Calibar 300 Instinct",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "3U, 4U, 5U, 6U",
+  "weight": 79,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2290,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypp006_4_01_4c8b8481b3.jpg?v=1752143841",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/3d-calibar-300-instinct"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/3d-calibar-300-instinct"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-3d-calibar-300i-instinct-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹6,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-300i-instinct-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-3d-calibar-600",
+  "brand": "Li-Ning",
+  "name": "3D Calibar 600",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "3U, 4U",
+  "weight": 84,
+  "grips": "",
+  "tension": [
+   24,
+   30
+  ],
+  "price": 3510,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypp016_4_01_f6c1d0a0eb.jpg?v=1752147780",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/3d-calibar-600"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-3d-calibar-600-badminton-racket-gold-grey-aypp016"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-3d-calibar-600-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹9,899.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-600-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-3d-calibar-600-boost",
+  "brand": "Li-Ning",
+  "name": "3D Calibar 600 Boost",
+  "year": "",
+  "style": "attack",
+  "balance": "head-light",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "",
+  "weight": 87,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 3540,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm402_4_01_07e0b476d1.jpg?v=1752147792",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/3d-calibar-600-boost"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/3d-calibar-600-boost"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹9,980.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/3d-calibar-600-boost",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-3d-calibar-600-combat",
+  "brand": "Li-Ning",
+  "name": "3D Calibar 600 Combat",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "",
+  "weight": 86,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 4430,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm386_4_01_95319308a6.jpg?v=1752147803",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/3d-calibar-600-combat"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/3d-calibar-600-combat"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹12,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/3d-calibar-600-combat",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
   ]
  },
  {
@@ -5456,6 +6040,174 @@ window.RACKETS = [
   "est": []
  },
  {
+  "id": "li-ning-3d-calibar-900-boost",
+  "brand": "Li-Ning",
+  "name": "3D Calibar 900 Boost",
+  "year": "",
+  "style": "attack",
+  "balance": "head-light",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "3U, 4U, 5U",
+  "weight": 87,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4770,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm428_4_01_45273f7421.jpg?v=1752147747",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/3d-calibar-900-boost"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/3d-calibar-900-boost"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-3d-calibar-900b-boost-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹13,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-900b-boost-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-3d-calibar-900-combat",
+  "brand": "Li-Ning",
+  "name": "3D Calibar 900 Combat",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "extra-stiff",
+  "level": "pro",
+  "weights": "3U, 4U",
+  "weight": 89,
+  "grips": "G5",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4770,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm438_4_01_37ed9a83f0.jpg?v=1752147758",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/3d-calibar-900-combat"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/3d-calibar-900-combat"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-3d-calibar-900c-combat-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹13,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-900c-combat-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-3d-calibar-900-instinct",
+  "brand": "Li-Ning",
+  "name": "3D Calibar 900 Instinct",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "3U, 4U, 5U",
+  "weight": 79,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4770,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypp002_4_01_19f453d3d3.jpg?v=1752147769",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/3d-calibar-900-instinct"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/3d-calibar-900-instinct"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-3d-calibar-900i-instinct-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹13,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-900i-instinct-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
   "id": "li-ning-3d-calibar-x-boost",
   "brand": "Li-Ning",
   "name": "3D Calibar X Boost",
@@ -5515,6 +6267,214 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "li-ning-aeronaut-4000",
+  "brand": "Li-Ning",
+  "name": "Aeronaut 4000",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 83,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 3050,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm448_4_01_1_9cb73f5261.jpg?v=1752147954",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/aeronaut-4000"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/aeronaut-4000"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹8,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/aeronaut-4000",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-aeronaut-4000-boost",
+  "brand": "Li-Ning",
+  "name": "Aeronaut 4000 Boost",
+  "year": "",
+  "style": "attack",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 86,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 3050,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypp042_4_01_aa8a9bcbc9.jpg?v=1752147976",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/aeronaut-4000-boost"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/aeronaut-4000-boost"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹8,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/aeronaut-4000-boost",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-aeronaut-4000-combat",
+  "brand": "Li-Ning",
+  "name": "Aeronaut 4000 Combat",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 85,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 3050,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm444_4_01_ca48a895af.jpg?v=1752147965",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/aeronaut-4000-combat"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/aeronaut-4000-combat"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹8,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/aeronaut-4000-combat",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-aeronaut-5000",
+  "brand": "Li-Ning",
+  "name": "Aeronaut 5000",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 87,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 3040,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aeronaut_5000_01_e296e42085.jpg?v=1752147943",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/aeronaut-5000"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/aeronaut-5000"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹8,560.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/aeronaut-5000",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
   "id": "li-ning-aeronaut-6000",
   "brand": "Li-Ning",
   "name": "Aeronaut 6000",
@@ -5565,6 +6525,158 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "li-ning-aeronaut-6000-combat",
+  "brand": "Li-Ning",
+  "name": "Aeronaut 6000 Combat",
+  "year": "",
+  "style": "attack",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "",
+  "weight": 87,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 3550,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_110_52_19a09c042c.jpg?v=1752144567",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/aeronaut-6000-combat"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/aeronaut-6000-combat"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹9,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/aeronaut-6000-combat",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-aeronaut-6000-drive",
+  "brand": "Li-Ning",
+  "name": "Aeronaut 6000 Drive",
+  "year": "",
+  "style": "attack",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "",
+  "weight": 85,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 3550,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypq014_4_01_e2649b9089.jpg?v=1752147932",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/aeronaut-6000-drive"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/aeronaut-6000-drive"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹9,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/aeronaut-6000-drive",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-aeronaut-6000-instinct",
+  "brand": "Li-Ning",
+  "name": "Aeronaut 6000 Instinct",
+  "year": "",
+  "style": "attack",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "",
+  "weight": 79,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 3550,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/1_d252aa7261.jpg?v=1749898348",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/aeronaut-6000-instinct"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹9,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/aeronaut-6000-instinct",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
   "id": "li-ning-aeronaut-6000c",
   "brand": "Li-Ning",
   "name": "Aeronaut 6000C",
@@ -5599,6 +6711,62 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "li-ning-aeronaut-7000",
+  "brand": "Li-Ning",
+  "name": "Aeronaut 7000",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "3U, 4U, 5U",
+  "weight": 84,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 3970,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aeronaut_7000_01_73381795d2.jpg?v=1752144089",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/aeronaut-7000"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/aeronaut-7000"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-aeronaut-7000-unstrung-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹11,190.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-7000-unstrung-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
  },
  {
   "id": "li-ning-aeronaut-7000-boost",
@@ -5652,6 +6820,286 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price"
+  ]
+ },
+ {
+  "id": "li-ning-aeronaut-7000-combat",
+  "brand": "Li-Ning",
+  "name": "Aeronaut 7000 Combat",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "3U, 4U, 5U",
+  "weight": 89,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4110,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm442_4_01_03569922ec.jpg?v=1752147890",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/aeronaut-7000-combat"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/aeronaut-7000-combat"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-aeronaut-7000-combat-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹11,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/aeronaut-7000-combat",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-aeronaut-7000-instinct",
+  "brand": "Li-Ning",
+  "name": "Aeronaut 7000 Instinct",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "4U, 5U",
+  "weight": 79,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 3970,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_110_53_e987472123.jpg?v=1752147911",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/aeronaut-7000-instinct"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/aeronaut-7000-instinct"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-aeronaut-7000-instinct-badminton-racket-pink"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹11,190.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-7000-instinct-badminton-racket-pink",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-aeronaut-8000",
+  "brand": "Li-Ning",
+  "name": "Aeronaut 8000",
+  "year": "",
+  "style": "attack",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "3U, 4U",
+  "weight": 88,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4970,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypn218_4_01_80ec190ad3.jpg?v=1752144059",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/aeronaut-8000"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/aeronaut-8000"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-aeronaut-8000-unstrung-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹13,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-8000-unstrung-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-aeronaut-8000-combat",
+  "brand": "Li-Ning",
+  "name": "Aeronaut 8000 Combat",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "3U, 4U",
+  "weight": 87,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4420,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypn216_4_01_b7c90ff59b.jpg?v=1752144069",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/aeronaut-8000-combat"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/aeronaut-8000-combat"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-aeronaut-8000-combat-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹12,449.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-8000-combat-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-aeronaut-8000-drive",
+  "brand": "Li-Ning",
+  "name": "Aeronaut 8000 Drive",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "3U, 4U, 5U",
+  "weight": 86,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4970,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypn214_4_03_be3819aa78.jpg?v=1752144079",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/aeronaut-8000-drive"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/aeronaut-8000-drive"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-aeronaut-8000-drive-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹13,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-8000-drive-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
   ]
  },
  {
@@ -5773,6 +7221,271 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "li-ning-aeronaut-9000-drive",
+  "brand": "Li-Ning",
+  "name": "Aeronaut 9000 Drive",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "",
+  "weight": 86,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 5110,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypp118_4_01_23b2f44333.jpg?v=1752144047",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/aeronaut-9000-drive"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/aeronaut-9000-drive"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹14,390.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/aeronaut-9000-drive",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-aeronaut-9000-instinct",
+  "brand": "Li-Ning",
+  "name": "Aeronaut 9000 Instinct",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "4U, 5U",
+  "weight": 79,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4970,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/07_01_1_7fe42dbad2.jpg?v=1752144691",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/aeronaut-9000-instinct"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/aeronaut-9000-instinct"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-aeronaut-9000i-instinct-badminton-racket-4u"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹13,992.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-9000i-instinct-badminton-racket-4u",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-air-force-g3",
+  "brand": "Li-Ning",
+  "name": "Air Force G3",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1170,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1_abe43e9437.jpg?v=1752149242",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/air-force-g3-78-grams"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/air-force-g3-78-grams"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,290.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/air-force-g3-78-grams",
+  "note": "",
+  "est": [
+   "weight",
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-air-stream-n99",
+  "brand": "Li-Ning",
+  "name": "Air Stream N99",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "",
+  "weight": 88,
+  "grips": "G6",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4610,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/cs_2_01_1_deecec2988.jpg?v=1749893207",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/air-stream-n99"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹12,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/air-stream-n99",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-air-force-g2",
+  "brand": "Li-Ning",
+  "name": "Air-force G2",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "4U, 5U",
+  "weight": 77,
+  "grips": "G2",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1030,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1_01_15_5_67b859c72d.jpg?v=1752144498",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/air-force-g2-77-grams"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/air-force-g2-77-grams"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-air-force-g2-badminton-racket-78-grams-black-silver"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹2,890.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/air-force-g2-80-lite",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
  },
  {
   "id": "li-ning-axforce-10",
@@ -5957,6 +7670,55 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "li-ning-axforce-100-max",
+  "brand": "Li-Ning",
+  "name": "Axforce 100 Max",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "pro",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 8020,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/1_874b41b5-4c21-4bc2-b9ba-b12a3e33ed4e.jpg?v=1788775968",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/axforce-100-max"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹22,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/axforce-100-max",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
   "id": "li-ning-axforce-20",
   "brand": "Li-Ning",
   "name": "Axforce 20",
@@ -6063,6 +7825,58 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "li-ning-axforce-30-ex-light",
+  "brand": "Li-Ning",
+  "name": "Axforce 30 Ex-light",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   28
+  ],
+  "price": 2350,
+  "frame": "High Modulus Graphite",
+  "shaft": "High Modulus Graphite",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "Sonic Boom System",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/7_9381acbd63.webp?v=1757228557",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5130"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/li-ning-axforce-30-ex-light-badminton-racket-unstrung-neon-pink"
+   }
+  ],
+  "priceNote": "แปลงจาก S$89.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/li-ning-axforce-30-ex-light-badminton-racket-unstrung-neon-pink",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "weight"
+  ]
  },
  {
   "id": "li-ning-axforce-40",
@@ -6331,6 +8145,58 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "li-ning-axforce-80-cl",
+  "brand": "Li-Ning",
+  "name": "Axforce 80 CL",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "advanced",
+  "weights": "",
+  "weight": 88,
+  "grips": "",
+  "tension": [
+   null,
+   31
+  ],
+  "price": 8520,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/8_e1322a4cb7.jpg?v=1752144954",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/axforce-80-cl"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/axforce-80-cl"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹23,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/axforce-80-cl",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
  },
  {
   "id": "li-ning-axforce-80-jr",
@@ -6757,9 +8623,9 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
-  "tech": "",
+  "tech": "Lightest in the Axforce range",
   "players": "",
   "madeIn": "",
   "recString": "",
@@ -6772,18 +8638,83 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/li-ning-axforce-bigbang-4u-badminton-racket-unstrung-pearl-white-neon-iridescent-pink"
+   },
+   {
     "shop": "sg.lining.studio",
     "url": "https://sg.lining.studio/products/axforce-big-bang-7u"
    },
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/axforce-big-bang-6u"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/li-ning-axforce-bigbang-aypt291-1"
    }
   ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "li-ning-axforce-blast",
+  "brand": "Li-Ning",
+  "name": "Axforce Blast",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "4U, 5U, 6U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 1770,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/Template_01_b14e7d98f9_881788515b.jpg?v=1752149421",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/axforce-blast-4u"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/axforce-blast-4u-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-axforce-blast-badminton-racket-6u-white-blue"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,992.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-axforce-blast-badminton-racket-6u-white-blue",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
  },
  {
   "id": "li-ning-axforce-cannon",
@@ -6952,6 +8883,55 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "li-ning-axforce-jr",
+  "brand": "Li-Ning",
+  "name": "Axforce JR",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   25
+  ],
+  "price": 1770,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/template_01_bf381f3692.jpg?v=1749899738",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/axforce-jr"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/axforce-jr",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
  },
  {
   "id": "li-ning-axforce-tiger",
@@ -7913,6 +9893,323 @@ window.RACKETS = [
   "est": []
  },
  {
+  "id": "li-ning-bladex-200r",
+  "brand": "Li-Ning",
+  "name": "Bladex 200R",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "stiff",
+  "level": "beginner",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G6",
+  "tension": [
+   null,
+   27
+  ],
+  "price": 1400,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/AYPS_209_4_01_107f4e4e97.jpg?v=1752147688",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/bladex-200r"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/bladex-200r"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-bladex-200r-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,943.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-bladex-200r-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-bladex-73",
+  "brand": "Li-Ning",
+  "name": "Bladex 73",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "6U",
+  "weight": 73,
+  "grips": "G6",
+  "tension": [
+   null,
+   26
+  ],
+  "price": 2900,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/01_5f24937200.jpg?v=1752148073",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/bladex-73"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/bladex-73"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-bladex-73-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹8,162.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-bladex-73-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-blaze-100",
+  "brand": "Li-Ning",
+  "name": "Blaze 100",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 84,
+  "grips": "G6",
+  "tension": [
+   null,
+   28
+  ],
+  "price": 1100,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/Template_01_9849b6915c_4eb4ba44-64ba-4d30-9d1b-309ba87c7844.jpg?v=1749896723",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/blaze-100-84-grams"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,090.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/blaze-100-84-grams",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-challenger-boost",
+  "brand": "Li-Ning",
+  "name": "Challenger Boost",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 84,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 810,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/01_5bd578237b.jpg?v=1752148265",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/challenger-15-boost"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/challenger-15-boost"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹2,290.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/challenger-15-boost",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-combat-z8",
+  "brand": "Li-Ning",
+  "name": "Combat Z8",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 84,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1130,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/AYPS_357_1_01_8eef517372.jpg?v=1752149000",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/combat-z8-84-grams"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/combat-z8-80-grams"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,190.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/combat-z8-80-grams",
+  "note": "",
+  "est": [
+   "weight",
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-g-force-extra-strong-9000",
+  "brand": "Li-Ning",
+  "name": "G Force Extra Strong 9000",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 84,
+  "grips": "",
+  "tension": [
+   null,
+   35
+  ],
+  "price": 1310,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1_10_2_d519f2c3d4.jpg?v=1752144862",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/g-force-extra-strong-9000"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-force-extra-strong-9000"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,690.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/g-force-extra-strong-9000",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
   "id": "li-ning-g-force-3800-superlite",
   "brand": "Li-Ning",
   "name": "G-Force 3800 Superlite",
@@ -7953,6 +10250,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/g-force-superlite-79-grams"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-gforce-3800-superlite-badminton-racket-black-purple"
    }
   ],
   "priceNote": "",
@@ -8003,6 +10304,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/g-force-3900-superlite"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-gforce-3900-superlite-badminton-racket-black-gold"
    }
   ],
   "priceNote": "",
@@ -8056,6 +10361,998 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style"
+  ]
+ },
+ {
+  "id": "li-ning-g-force-3500-superlite",
+  "brand": "Li-Ning",
+  "name": "G-force 3500 Superlite",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 78,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 740,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/g_force_superlite_3600_01_1_1_8017d9f5a8.jpg?v=1752144407",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/g-force-superlite-78-grams"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-force-superlite-78-grams"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹2,090.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/g-force-superlite-78-grams",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-g-force-3600-superlite",
+  "brand": "Li-Ning",
+  "name": "G-force 3600 Superlite",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "4U, 5U",
+  "weight": 79,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 650,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/g_force_super_lite_3600_dark_grey_gold_01_b0bd6daab9.jpg?v=1752148318",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/g-force-3600-superlite"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-force-3600-superlite"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-gforce-3600-superlite-badminton-racket-dark-grey-gold"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,829.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-gforce-3600-superlite-badminton-racket-dark-grey-gold",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-g-force-3700-superlite",
+  "brand": "Li-Ning",
+  "name": "G-force 3700 Superlite",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "4U, 5U",
+  "weight": 79,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 660,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/g_force_superlite_3700_navy_orange_01_239ba666ca.jpg?v=1752148330",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/g-force-3700-superlite"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-force-3700-superlite"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-gforce-3700-superlite-badminton-racket-black-amber"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,849.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-gforce-3700-superlite-badminton-racket-black-amber",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-g-force-3800-superlite-ii",
+  "brand": "Li-Ning",
+  "name": "G-force 3800 Superlite II",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 990,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/Template_01_06e113377f.jpg?v=1749900062",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-force-3800-superlite-ii"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹2,790.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/g-force-3800-superlite-ii",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "li-ning-g-force-5800-superlite",
+  "brand": "Li-Ning",
+  "name": "G-force 5800 Superlite",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 850,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/1_64c2f9e9f9.jpg?v=1749898626",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-force-5800-superlite"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹2,390.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/g-force-5800-superlite",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-g-force-5900-superlite",
+  "brand": "Li-Ning",
+  "name": "G-force 5900 Superlite",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 79,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 850,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/1_15cbfa297d.jpg?v=1749898646",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-force-5900-superlite"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹2,390.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/g-force-5900-superlite",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-g-force-6800-superlite",
+  "brand": "Li-Ning",
+  "name": "G-force 6800 Superlite",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 780,
+  "frame": "High Carbon Graphite",
+  "shaft": "High Carbon Graphite",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/Artboard1-100_a1d23290-a9e4-4d32-beab-de9cbbe6a9e0.jpg?v=1789561487",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-force-6800-superlite"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹2,190.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/g-force-6800-superlite",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "li-ning-g-force-6900-superlite",
+  "brand": "Li-Ning",
+  "name": "G-force 6900 Superlite",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 780,
+  "frame": "High Carbon Graphite",
+  "shaft": "High Carbon Graphite",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/Artboard1-100_babae1e8-f89b-4ec9-9fcb-aae2e61dea02.jpg?v=1789564260",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-force-6900-superlite"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹2,190.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/g-force-6900-superlite",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "li-ning-g-force-8200-extra-strong",
+  "brand": "Li-Ning",
+  "name": "G-force 8200 Extra Strong",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "3U",
+  "weight": 88,
+  "grips": "G6",
+  "tension": [
+   null,
+   35
+  ],
+  "price": 1880,
+  "frame": "Carbon Graphite",
+  "shaft": "Carbon Graphite",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_7a099042f2.jpg?v=1757348050",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/g-force-8200-extra-strong"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-force-8200-extra-strong"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹5,290.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/g-force-8200-extra-strong",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "li-ning-g-force-8800-extra-strong",
+  "brand": "Li-Ning",
+  "name": "G-force 8800 Extra Strong",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "3U",
+  "weight": 88,
+  "grips": "G6",
+  "tension": [
+   null,
+   35
+  ],
+  "price": 1880,
+  "frame": "Carbon Graphite",
+  "shaft": "Carbon Graphite",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_7d0b24e5c0.jpg?v=1757348475",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/g-force-8800-extra-strong"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-force-8800-extra-strong"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹5,290.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/g-force-8800-extra-strong",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "li-ning-g-force-8900-extra-strong",
+  "brand": "Li-Ning",
+  "name": "G-force 8900 Extra Strong",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "3U",
+  "weight": 88,
+  "grips": "G6",
+  "tension": [
+   null,
+   35
+  ],
+  "price": 1880,
+  "frame": "Carbon Graphite",
+  "shaft": "Carbon Graphite",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_b5484dd0b4.jpg?v=1757393954",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/g-force-8900-extra-strong"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-force-8900-extra-strong"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹5,290.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/g-force-8900-extra-strong",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "li-ning-g-force-extra-strong-9500",
+  "brand": "Li-Ning",
+  "name": "G-force Extra Strong 9500",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 84,
+  "grips": "G6",
+  "tension": [
+   null,
+   35
+  ],
+  "price": 1670,
+  "frame": "Carbon Graphite",
+  "shaft": "Carbon Graphite",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/3_AYPS_021_1_Black_Gold_01_1c6b2fc025.jpg?v=1752147658",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/g-force-extra-strong-9500"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-force-extra-strong-9500"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,690.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/g-force-extra-strong-9500",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-g-force-lite-100",
+  "brand": "Li-Ning",
+  "name": "G-force Lite 100",
+  "year": "",
+  "style": "allround",
+  "balance": "head-light",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 78,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 670,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypp088_4_01_2_6568dbd4bd.jpg?v=1752148004",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/g-force-lite"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-force-lite"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,890.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/g-force-lite",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-g-force-superlite-max-10",
+  "brand": "Li-Ning",
+  "name": "G-force Superlite Max 10",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 80,
+  "grips": "G6",
+  "tension": [
+   null,
+   28
+  ],
+  "price": 1030,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/AYPS_319_4_01_8e034787bb.jpg?v=1749897402",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-force-superlite-ma-10"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹2,890.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/g-force-superlite-ma-10",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-g-force-superlite-max-9",
+  "brand": "Li-Ning",
+  "name": "G-force Superlite Max 9",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "pro",
+  "weights": "",
+  "weight": 80,
+  "grips": "",
+  "tension": [
+   null,
+   28
+  ],
+  "price": 780,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_2_5_7a61599a80.jpg?v=1752144720",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/g-force-superlite-max-9"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-force-superlite-max-9"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/badminton-racket-g-force-superlite-max-9"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹2,190.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/g-force-superlite-max-9",
+  "note": "",
+  "est": [
+   "tension",
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-g-force-x5",
+  "brand": "Li-Ning",
+  "name": "G-force X5",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 79,
+  "grips": "G6",
+  "tension": [
+   null,
+   28
+  ],
+  "price": 1310,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/Template_01_7d983f38fa.jpg?v=1752148912",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/g-force-x5-79-grams"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-force-x5-82-grams"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,690.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/g-force-x5-82-grams",
+  "note": "",
+  "est": [
+   "weight",
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-g-tek-gx",
+  "brand": "Li-Ning",
+  "name": "G-tek GX",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 88,
+  "grips": "",
+  "tension": [
+   null,
+   26
+  ],
+  "price": 1030,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypp284_5_01_1_f4344dd3d5.jpg?v=1752144311",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/g-tek-gx"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-tek-gx"
+   }
+  ],
+  "priceNote": "แปลงจาก S$39.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/g-tek-gx",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-g-tek-ii",
+  "brand": "Li-Ning",
+  "name": "G-tek II",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 88,
+  "grips": "",
+  "tension": [
+   null,
+   26
+  ],
+  "price": 1030,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypj164_5_01_9f14ca756d.jpg?v=1752144324",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/g-tek-ii"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/g-tek-ii"
+   }
+  ],
+  "priceNote": "แปลงจาก S$39.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/g-tek-ii",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-halbertec-1000",
+  "brand": "Li-Ning",
+  "name": "Halbertec 1000",
+  "year": "",
+  "style": "control",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "4U, 5U",
+  "weight": 83,
+  "grips": "G6",
+  "tension": [
+   null,
+   25
+  ],
+  "price": 1400,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/template_Recovered_-01_79191adc-7b46-460b-bbdc-d195918e9022_1.webp?v=1756810769",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/li-ning-halbertec-1000-4u-unstrung"
+   },
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/halbertec-1000-5u"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/halbertec-1000-5u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-halbertec-1000-badminton-racket-5u"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,943.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-halbertec-1000-badminton-racket-5u",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "weight"
   ]
  },
  {
@@ -8784,6 +12081,327 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "li-ning-ignite-7",
+  "brand": "Li-Ning",
+  "name": "Ignite 7",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "4U, 5U",
+  "weight": 77,
+  "grips": "G2",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1020,
+  "frame": "Carbon Fiber",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_41_447fab4022.jpg?v=1752144737",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/ignite-7"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/ignite-7"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-ignite-7-badminton-racket-dark-grey-red"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/li-ning-ignite-7-speed-racket-77-grams-kibi-sports"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹2,879.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-ignite-7-badminton-racket-dark-grey-red",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-ignite-8",
+  "brand": "Li-Ning",
+  "name": "Ignite 8",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "4U, 5U",
+  "weight": 77,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1100,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/Template_01_37966329be.jpg?v=1749898829",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/ignite-8-unstrung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-ignite-8-badminton-racket-cool-gray-bull-red"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,092.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-ignite-8-badminton-racket-cool-gray-bull-red",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-mega-power",
+  "brand": "Li-Ning",
+  "name": "Mega Power",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 80,
+  "grips": "G5",
+  "tension": [
+   null,
+   25
+  ],
+  "price": 500,
+  "frame": "Aluminium",
+  "shaft": "Aluminium",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/mp5_02_1_1_b5655f7f41.jpg?v=1752144835",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/mega-power"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/mega-power"
+   }
+  ],
+  "priceNote": "แปลงจาก S$19.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/mega-power",
+  "note": "",
+  "est": [
+   "weight",
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-n-9-ii",
+  "brand": "Li-Ning",
+  "name": "N-9-II",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "",
+  "weight": 88,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 3900,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1_01_30_7_0650c0e697.jpg?v=1752144217",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/n-9-ii"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/n-9-ii"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹10,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/n-9-ii",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-n-90-iv",
+  "brand": "Li-Ning",
+  "name": "N-90-IV",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "",
+  "weight": 88,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4690,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/cs_1_01_1_eb4e3cc3d4.jpg?v=1752144227",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/n-90-iv"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/n-90-iv"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹13,200.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/n-90-iv",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-n99",
+  "brand": "Li-Ning",
+  "name": "N99",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "",
+  "weight": 88,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4440,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/5_0_01_2_d58a6c802c.jpg?v=1752144206",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/n99-gold-medal"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/n99-gold-medal"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹12,500.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/n99-gold-medal",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
   "id": "li-ning-ss-100-superlight",
   "brand": "Li-Ning",
   "name": "SS 100 Superlight",
@@ -8840,6 +12458,222 @@ window.RACKETS = [
   "est": [
    "style",
    "level"
+  ]
+ },
+ {
+  "id": "li-ning-smash-xp-pro",
+  "brand": "Li-Ning",
+  "name": "Smash XP Pro",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "2U",
+  "weight": 93,
+  "grips": "G5",
+  "tension": [
+   null,
+   20
+  ],
+  "price": "",
+  "frame": "Aluminium",
+  "shaft": "Aluminium",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/Template_01_b4cdacb435.jpg?v=1749900237",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/smash-xp-pro"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "li-ning-super-series-medal",
+  "brand": "Li-Ning",
+  "name": "Super Series Medal",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 87,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 710,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/2_20_3290bac1c5.jpg?v=1752145025",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/super-series-gold-medal"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/super-series-gold-medal"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/super-series-gold-medal",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-super-series-ss-900",
+  "brand": "Li-Ning",
+  "name": "Super Series SS 900",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 84,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 710,
+  "frame": "Military Grade Carbon Fiber",
+  "shaft": "Military Grade Carbon Fiber",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "Aerobite (คุม), BG80 (พลัง)",
+  "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/IMG_4695.jpg?v=1781762354",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "https://badmintonclick.com.au/products/li-ning-super-series-ss900-red-grey-aypr114-5",
+  "shopLinks": [
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/li-ning-super-series-ss900-red-grey-aypr114-5"
+   },
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/super-series-ss-900"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/super-series-ss-900"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/super-series-ss-900",
+  "note": "",
+  "est": [
+   "tension",
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-tectonic-1",
+  "brand": "Li-Ning",
+  "name": "Tectonic 1",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "pro",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   26
+  ],
+  "price": 1380,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/AYPS_015_1_06_44b3ef05dd_18a3d6de-ddd9-4890-b864-ced136569979.webp?v=1757240444",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/li-ning-tectonic-1-4u-badminton-racket-unstrung-orange-yellow"
+   },
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/tectonic-1-3u"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/tectonic-1-4u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-tectonic-1-3u-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,892.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-tectonic-1-3u-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price"
   ]
  },
  {
@@ -8950,6 +12784,63 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "li-ning-tectonic-6",
+  "brand": "Li-Ning",
+  "name": "Tectonic 6",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "intermediate",
+  "weights": "5U",
+  "weight": 83,
+  "grips": "G6",
+  "tension": [
+   null,
+   27
+  ],
+  "price": 2980,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/Template_01_a8f5a0d289.jpg?v=1752147013",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/tecctonic-6-4u"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/tecctonic-6-4u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-tectonic-6-4u-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹8,382.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-tectonic-6-4u-badminton-racket",
+  "note": "",
+  "est": [
+   "tension",
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
   "id": "li-ning-tectonic-7",
   "brand": "Li-Ning",
   "name": "Tectonic 7",
@@ -9005,6 +12896,154 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "li-ning-tectonic-7-combat",
+  "brand": "Li-Ning",
+  "name": "Tectonic 7 Combat",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "",
+  "weight": 85,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4440,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/tectonic_7c_01_af9b0883b2.jpg?v=1749892552",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/tectonic-7-combat"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-tectonic-7-combat-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹12,499.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-tectonic-7-combat-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-tectonic-7-drive",
+  "brand": "Li-Ning",
+  "name": "Tectonic 7 Drive",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "",
+  "weight": 81,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4610,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/aypq018_4_01_0cc00acc97.jpg?v=1749892499",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/tectonic-7-drive"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹12,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/tectonic-7-drive",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-tectonic-7-instinct",
+  "brand": "Li-Ning",
+  "name": "Tectonic 7 Instinct",
+  "year": "",
+  "style": "allround",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "",
+  "weight": 78,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4610,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/tectonic_7i_01_4d93c097c5.jpg?v=1749892539",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/tectonic-7-instinct"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹12,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/tectonic-7-instinct",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
   "id": "li-ning-tectonic-9",
   "brand": "Li-Ning",
   "name": "Tectonic 9",
@@ -9055,6 +13094,1854 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "li-ning-turbo-99",
+  "brand": "Li-Ning",
+  "name": "Turbo 99",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "",
+  "weight": 84,
+  "grips": "G6",
+  "tension": [
+   null,
+   28
+  ],
+  "price": 670,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypr022_4_01_1_b27e51c20f.jpg?v=1752144679",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-99"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-99"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/badminton-racket-turbo-99"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,890.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-99",
+  "note": "",
+  "est": [
+   "tension",
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-08",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 08",
+  "year": "",
+  "style": "attack",
+  "balance": "even",
+  "flex": "stiff",
+  "level": "beginner",
+  "weights": "",
+  "weight": 84,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1630,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypn248_4_06_e6472ead10.jpg?v=1752143993",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-08"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-08"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-08",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-08-combat",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 08 Combat",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "beginner",
+  "weights": "",
+  "weight": 85,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1630,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypn244_4_01_1_6ddc22164c.jpg?v=1752144004",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-08-combat"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-08-combat"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-08-combat",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-08-drive",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 08 Drive",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "beginner",
+  "weights": "",
+  "weight": 81,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1630,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypn246_4_01_1_d2147f24fb.jpg?v=1752144014",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-08-drive"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-08-drive"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-08-drive",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-10",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 10",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "intermediate",
+  "weights": "",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2120,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm406_4_01_1208c65f9a.jpg?v=1752143939",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-10"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-10"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹5,980.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-10",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-20",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 20",
+  "year": "",
+  "style": "attack",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 86,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2120,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm436_4_01_1_cdd87c97f1.jpg?v=1752143949",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-20"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-20"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹5,980.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-20",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-20-combat",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 20 Combat",
+  "year": "",
+  "style": "attack",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 87,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2120,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypp022_4_01_1_cf32c53b06.jpg?v=1752143960",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-20-combat"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-20-combat"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹5,980.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-20-combat",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-20-drive",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 20 Drive",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 81,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2120,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypp024_4_01_1_684cba3243.jpg?v=1752143972",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-20-drive"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-20-drive"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹5,980.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-20-drive",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-20-instinct",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 20 Instinct",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 79,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2120,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypp004_4_01_1_75c6ba3b76.jpg?v=1752143983",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-20-instinct"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-20-instinct"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹5,980.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-20-instinct",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-40",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 40",
+  "year": "",
+  "style": "attack",
+  "balance": "head-light",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 88,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2800,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm422_4_01_9adee65474.jpg?v=1752143906",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-40"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-40"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹7,880.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-40",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-50",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 50",
+  "year": "",
+  "style": "attack",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 86,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2800,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm408_4_01_1_40ee55d5df.jpg?v=1752143917",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-50"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-50"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹7,880.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-50",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-50-combat",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 50 Combat",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 86,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2800,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_110_50_8a65d1b753.jpg?v=1752144579",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-50-combat"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-50-combat"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹7,880.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-50-combat",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-50-drive",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 50 Drive",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 83,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2800,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypp036_4_01_1_c2001cb528.jpg?v=1752143928",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-50-drive"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-50-drive"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹7,880.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-50-drive",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-70",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 70",
+  "year": "",
+  "style": "attack",
+  "balance": "even",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "4U, 5U",
+  "weight": 87,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4020,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm434_4_01_4395c498b9.jpg?v=1752147868",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-70"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-70"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-turbo-charging-70-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹11,320.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-70",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-70-boost",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 70 Boost",
+  "year": "",
+  "style": "attack",
+  "balance": "head-light",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "4U, 5U",
+  "weight": 88,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 3720,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm398_4_01_f50908f8a9.jpg?v=1752147879",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-70-boost"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-70-boost"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-turbo-charging-70-boost-badminton-racket-purple"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹10,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-turbo-charging-70-boost-badminton-racket-purple",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-70-combat",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 70 Combat",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "",
+  "weight": 87,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4020,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_110_49_8f5705a1fa.jpg?v=1752144590",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-70-combat"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-70-combat"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹11,320.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-70-combat",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-70-instinct",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 70 Instinct",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "4U, 5U",
+  "weight": 79,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 3400,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm414_4_01_edd73f3407.jpg?v=1752143862",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-70-instinct"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-70-instinct"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-turbo-charging-70-instinct-badminton-racket-pink"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹9,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-turbo-charging-70-instinct-badminton-racket-pink",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-75",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 75",
+  "year": "",
+  "style": "attack",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "4U",
+  "weight": 88,
+  "grips": "G5",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 3720,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm412_4_01_1286ba0826.jpg?v=1752143873",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-75"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-75"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-turbocharging-75-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹10,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-turbocharging-75-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-75-combat",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 75 Combat",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "pro",
+  "weights": "",
+  "weight": 87,
+  "grips": "",
+  "tension": null,
+  "price": 8670,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm392_4_01_93d1e76b7e.jpg?v=1752143883",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-75-combat"
+   }
+  ],
+  "priceNote": "แปลงจาก S$329.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/turbo-charging-75-combat",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-75-drive",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 75 Drive",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4020,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm424_4_01_8913f4029e.jpg?v=1752143895",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-75-drive"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-75-drive"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹11,320.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-75-drive",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-75-ex",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 75 EX",
+  "year": "",
+  "style": "attack",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "4U, 5U",
+  "weight": 88,
+  "grips": "",
+  "tension": [
+   null,
+   35
+  ],
+  "price": 3900,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypr228_4_01_37b7ad3393.png?v=1752147521",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-75-ex"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-75-ex"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-turbo-charging-75-ex-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹10,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-75-ex",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-75-instinct",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 75 Instinct",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "",
+  "weight": 88,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4260,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/Template_01_ac73e71c4a.jpg?v=1752146766",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-75-instinct"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-75-instinct"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹11,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-75-instinct",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-80",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging 80",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "3U, 4U",
+  "weight": 87,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4260,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1_01_16_5_a5296a32f6.jpg?v=1752144601",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-80"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-80"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-turbocharging-80-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹11,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-80",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-marshal",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging Marshal",
+  "year": "",
+  "style": "attack",
+  "balance": "head-light",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "3U",
+  "weight": 88,
+  "grips": "G5",
+  "tension": [
+   null,
+   29
+  ],
+  "price": 3000,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/Template_01_5_44d198c667.jpg?v=1752149367",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-marshal-3u"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-marshal-3u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-turbo-charging-marshal-badminton-racket-white-4u"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹8,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-turbo-charging-marshal-badminton-racket-white-4u",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-n9-ii",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging N9 II",
+  "year": "",
+  "style": "attack",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "",
+  "weight": 88,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4260,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/cs_3_01_1_1_a179a3f5da.jpg?v=1752144993",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-88-grams"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-88-grams"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹11,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-88-grams",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-z-boost",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging Z Boost",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 83,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1670,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_13_57_4242c592cf.jpg?v=1752144929",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-z-boost"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-z-boost-strung"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,690.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-z-boost",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-z-combat",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging Z Combat",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 85,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1670,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_13_60_ed40f41aa7.jpg?v=1752144942",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-z-combat"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-z-combat"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,690.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-z-combat",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-charging-z-drive",
+  "brand": "Li-Ning",
+  "name": "Turbo Charging Z Drive",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1670,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_13_58_3c07608595.jpg?v=1752148404",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-charging-z-driveaypr190-4"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-charging-z-driveaypr190-4"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,690.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-charging-z-driveaypr190-4",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-wind-lite-700",
+  "brand": "Li-Ning",
+  "name": "Wind Lite 700",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 78,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1240,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/windlite_700_01_5_9ee297debb.jpg?v=1752144484",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/wind-lite-700"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/wind-lite-700"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/wind-lite-700",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-wind-lite-700-ii",
+  "brand": "Li-Ning",
+  "name": "Wind Lite 700 II",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 77,
+  "grips": "G6",
+  "tension": [
+   null,
+   28
+  ],
+  "price": 1350,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1-01_81ed1ac7-b684-4c5b-a0ab-6ed821a67dd1.jpg?v=1753387264",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/wind-lite-700-ii"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/wind-lite-700-ii"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,790.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/wind-lite-700-ii",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-wind-lite-800",
+  "brand": "Li-Ning",
+  "name": "Wind Lite 800",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 79,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1240,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/windlite_800_01_2_d64f5dc579.jpg?v=1752144470",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/wind-lite-800"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/wind-lite-800"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/wind-lite-800",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-wind-lite-800-ii",
+  "brand": "Li-Ning",
+  "name": "Wind Lite 800 II",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   28
+  ],
+  "price": 1350,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1-01_2_1_2000x2000_4b6bc585-3c24-41df-a799-0d6355148343_1.jpg?v=1753693433",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/wind-lite-800-ii"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/wind-lite-800-ii"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,790.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/wind-lite-800-ii",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-wind-lite-900",
+  "brand": "Li-Ning",
+  "name": "Wind Lite 900",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 80,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1240,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/windlite_900_01_3_8e4c4646b1.jpg?v=1752144456",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/wind-lite-900"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/wind-lite-900"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/wind-lite-900",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-wind-lite-900-ii",
+  "brand": "Li-Ning",
+  "name": "Wind Lite 900 II",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 79,
+  "grips": "G6",
+  "tension": [
+   null,
+   28
+  ],
+  "price": 1350,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1-01_1_1.jpg?v=1753694219",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/wind-lite-900-ii"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/wind-lite-900-ii"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,790.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/wind-lite-900-ii",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-wind-lite-stealth",
+  "brand": "Li-Ning",
+  "name": "Wind Lite Stealth",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 78,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1420,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_13_19_24b823c1dd.jpg?v=1752144890",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/wind-lite-stealth-78-grams"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/wind-lite-stealth"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/wind-lite-stealth",
+  "note": "",
+  "est": [
+   "weight",
+   "style",
+   "price",
+   "level"
+  ]
  },
  {
   "id": "li-ning-windstorm-700",
@@ -9115,6 +15002,107 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "li-ning-windstorm-700-iv",
+  "brand": "Li-Ning",
+  "name": "Windstorm 700 IV",
+  "year": "",
+  "style": "speed",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 79,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2480,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1_01_31_40_e1602b2241.jpg?v=1752144192",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/windstorm-700-iv"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/windstorm-700-iv"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹6,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/windstorm-700-iv",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-windstorm-700-plus",
+  "brand": "Li-Ning",
+  "name": "Windstorm 700 Plus",
+  "year": "",
+  "style": "speed",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2800,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/1_b8b55c0dfc.jpg?v=1749899258",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/windstorm-700-plus"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹7,890.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/windstorm-700-plus",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
   "id": "li-ning-windstorm-72",
   "brand": "Li-Ning",
   "name": "Windstorm 72",
@@ -9125,7 +15113,7 @@ window.RACKETS = [
   "level": "pro",
   "weights": "6U",
   "weight": 72,
-  "grips": "G6",
+  "grips": "",
   "tension": [
    null,
    30
@@ -9166,7 +15154,7 @@ window.RACKETS = [
    },
    {
     "shop": "thegodofsports.com",
-    "url": "https://thegodofsports.com/products/li-ning-windstorm-72-s-badminton-racket-dark-grey-gold-blue"
+    "url": "https://thegodofsports.com/products/li-ning-windstorm-72-badminton-racket-black-charcoal-peach"
    }
   ],
   "priceNote": "",
@@ -9287,6 +15275,347 @@ window.RACKETS = [
   "est": []
  },
  {
+  "id": "li-ning-windstorm-72s",
+  "brand": "Li-Ning",
+  "name": "Windstorm 72S",
+  "year": "",
+  "style": "speed",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "pro",
+  "weights": "6U",
+  "weight": 72,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 3160,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "DYNAMIC-OPTIMUM FRAME",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/Template_06_59caecf524.webp?v=1757331429",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/li-ning-windstorm-72-s-badminton-racket-unstrung-assorted-colours"
+   },
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/windstorm-72-s"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/windstorm-72-s"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-extra-skill-windstorm-72s-unstrung-badminton-racket-pink-blue-green"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-windstorm-72-s-badminton-racket-dark-grey-gold-blue"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹8,892.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-windstorm-72-s-badminton-racket-dark-grey-gold-blue",
+  "note": "",
+  "est": [
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-windstorm-74",
+  "brand": "Li-Ning",
+  "name": "Windstorm 74",
+  "year": "",
+  "style": "speed",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "6U",
+  "weight": 74,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 3270,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "DYNAMIC-OPTIMUM FRAME",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypp112_4_01_ea0215ec15.jpg?v=1752144134",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/windstorm-74"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/windstorm-74"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-extra-skill-windstorm-74-strung-badminton-racket-pink-aypq134-3"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-windstorm-74-bluegold-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹9,199.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-windstorm-74-bluegold-badminton-racket",
+  "note": "",
+  "est": [
+   "tension",
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-windstorm-75",
+  "brand": "Li-Ning",
+  "name": "Windstorm 75",
+  "year": "",
+  "style": "speed",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 75,
+  "grips": "G5",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 3050,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypn102_4_01_1_1_7d48ea5d63.jpg?v=1752144148",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/windstorm-75"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/windstorm-75"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹8,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/windstorm-75",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-windstorm-76",
+  "brand": "Li-Ning",
+  "name": "Windstorm 76",
+  "year": "",
+  "style": "speed",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "intermediate",
+  "weights": "",
+  "weight": 76,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 3370,
+  "frame": "Military Grade Carbon Fiber",
+  "shaft": "Military Grade Carbon Fiber",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "Aerobite (คุม), BG80 Power (พลัง)",
+  "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/windstorm76navy-1.jpg?v=1763286283",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "https://badmintonclick.com.au/products/li-ning-windstorm-76-navy-76-grams-lightweight-badminton-racquet",
+  "shopLinks": [
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/li-ning-windstorm-76-navy-76-grams-lightweight-badminton-racquet"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/windstorm-76"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹9,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/windstorm-76",
+  "note": "",
+  "est": [
+   "flex",
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-windstorm-78",
+  "brand": "Li-Ning",
+  "name": "Windstorm 78",
+  "year": "",
+  "style": "speed",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2150,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/AYPS_157_4_01_b645e71028.jpg?v=1752147478",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/windstorm-78-s"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/windstorm-78-s"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-windstorm-78sl-iv-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 89.10 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/li-ning-windstorm-78sl-iv-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-windstorm-78-plus",
+  "brand": "Li-Ning",
+  "name": "Windstorm 78 Plus",
+  "year": "",
+  "style": "speed",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 78,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2290,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypp506_4_01_2_fe17e18bb5.jpg?v=1752144177",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/windstorm-78-plus"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/windstorm-78-pluss"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-windstorm-78-white-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹6,449.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-windstorm-78-white-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
   "id": "li-ning-windstorm-79-h",
   "brand": "Li-Ning",
   "name": "Windstorm 79-H",
@@ -9397,6 +15726,382 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "li-ning-windstorm-lite",
+  "brand": "Li-Ning",
+  "name": "Windstorm Lite",
+  "year": "",
+  "style": "speed",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 78,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1880,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1_02_01_b1d8081ecf.jpg?v=1752144238",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/windstorm-lite"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/windstorm-lite"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹5,290.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/windstorm-lite",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-windstorm-nano-73",
+  "brand": "Li-Ning",
+  "name": "Windstorm Nano 73",
+  "year": "",
+  "style": "speed",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 73,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 3190,
+  "frame": "High Modulus Carbon Fiber",
+  "shaft": "Slim Carbon Shaft",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "Nano Reinforcement",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/lining-nano-73-badminton-racket-5.png?v=1787048940",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/li-ning-windtorm-nano-73-badminton-racket-unstrung-black-green"
+   },
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/windstorm-nano-73"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/windstorm-nano-73"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹8,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/windstorm-nano-73",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-windstorm-nano-74",
+  "brand": "Li-Ning",
+  "name": "Windstorm Nano 74",
+  "year": "",
+  "style": "speed",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "4U, 5U",
+  "weight": 74,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2830,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypp482_4_01_eb6bad4a91.jpg?v=1752144102",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/windstorm-nano-74"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/windstorm-nano-74"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-windstorm-nano-74-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹7,962.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-windstorm-nano-74-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-windstorm-nano-lite",
+  "brand": "Li-Ning",
+  "name": "Windstorm Nano Lite",
+  "year": "",
+  "style": "speed",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 78,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1950,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1_01_31_47_baf5392971.jpg?v=1752144616",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/windstorm-nano-lite"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/windstorm-nano-lite"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹5,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/windstorm-nano-lite",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-xp-900",
+  "brand": "Li-Ning",
+  "name": "XP 900",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "beginner",
+  "weights": "",
+  "weight": 90,
+  "grips": "",
+  "tension": [
+   null,
+   24
+  ],
+  "price": 500,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1_01_19_52e5a5eac5.jpg?v=1752144642",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/xp-900"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/xp-900"
+   }
+  ],
+  "priceNote": "แปลงจาก S$19.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/xp-900",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-xp-iv",
+  "brand": "Li-Ning",
+  "name": "XP IV",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "",
+  "weight": 90,
+  "grips": "",
+  "tension": [
+   null,
+   24
+  ],
+  "price": 500,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypp236_3_01_114ef4ef8e.jpg?v=1752144341",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/xp-iv"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/xp-iv"
+   }
+  ],
+  "priceNote": "แปลงจาก S$19.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/xp-iv",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "li-ning-xi-phos-x1",
+  "brand": "Li-Ning",
+  "name": "Xi-phos X1",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "intermediate",
+  "weights": "",
+  "weight": 87,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 3710,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/AYPJ_192_1_01_c44b796870.jpg?v=1752144762",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/xi-phos-x1"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/xi-phos-x1-nihs"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-xi-phos-x1-badminton-racket-silver"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹10,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-xi-phos-x1-badminton-racket-silver",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
  },
  {
   "id": "mizuno-acrospeed-0",
@@ -10501,7 +17206,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "price": 6040,
+  "price": 4010,
   "frame": "Nhật Bản HMG T46",
   "shaft": "",
   "joint": "",
@@ -10528,8 +17233,8 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/mizuno-fortius-50-spirit-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก S$229.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://sportsshop.asia/products/mizuno-fortius-50-spirit-2024-badminton-racket-unstrung",
+  "priceNote": "แปลงจาก ₹11,299.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/mizuno-fortius-50-spirit-badminton-racket",
   "note": "",
   "est": [
    "style",
@@ -14974,6 +21679,60 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "vs-star-wish",
+  "brand": "VS",
+  "name": "Star Wish",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "5U",
+  "weight": 77,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 2300,
+  "frame": "Japan High Modulus Graphite (Mitsubishi)",
+  "shaft": "Japan High Modulus Graphite (Mitsubishi)",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "2 in 1 Frame,MITSUBISHI CARBON TUBE  ,Special reinforced medium tube",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/Gemini_Generated_Image_pmh1ahpmh1ahpmh1_7_11zon.webp?v=1790333887",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4032"
+   },
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/star-wish"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "flex",
+   "weight",
+   "tension",
+   "style",
+   "level"
+  ]
+ },
+ {
   "id": "vs-swordsman-77",
   "brand": "VS",
   "name": "Swordsman 77",
@@ -15062,6 +21821,54 @@ window.RACKETS = [
   "note": "",
   "est": [
    "level"
+  ]
+ },
+ {
+  "id": "vs-titan-10",
+  "brand": "VS",
+  "name": "Titan 10",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "",
+  "level": "beginner",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   22,
+   35
+  ],
+  "price": 1390,
+  "frame": "MITSUBISHI CARBON SHEET",
+  "shaft": "MITSUBISHI CARBON SHEET",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "6840 TUBE,2 IN 1 FRAME,35MAX TENSION",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/Gemini_Generated_Image_r9cs0dr9cs0dr9cs.webp?v=1790331287",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/titan-10"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "style",
+   "level",
+   "weight"
   ]
  },
  {
@@ -15388,6 +22195,10 @@ window.RACKETS = [
    {
     "shop": "badmintonplaza.com",
     "url": "https://www.badmintonplaza.com/product_info.php?products_id=4750"
+   },
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/woven30"
    }
   ],
   "priceNote": "",
@@ -15880,6 +22691,159 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "victor-ars-80x",
+  "brand": "Victor",
+  "name": "ARS-80X",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 4330,
+  "frame": "High Resilient Modulus Graphite + HARD CORED TECHNOLOGY",
+  "shaft": "High Resilient Modulus Graphite + 6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "Rebound-Transition Construction, Sonic-Rebound Technology, Hard-Cored Technology, SeventySix-76, Made in China, | ARS | 神速 | VICTOR勝利 |",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2019082011310094935.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/ars-80x-c"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-80x-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 179.98 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-auraspeed-80x-badminton-racket",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-ars-punch-h",
+  "brand": "Victor",
+  "name": "Ars-punch H",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "",
+  "level": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": null,
+  "price": "",
+  "frame": "High Resilience Modulus Graphite+NANO FORTIFY FR",
+  "shaft": "High Resilience Modulus Graphite+NANO FORTIFY FR+6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2019082210193260526.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/ars-punch-h-f"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-auraspeed-10",
+  "brand": "Victor",
+  "name": "Auraspeed 10",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   24
+  ],
+  "price": 1120,
+  "frame": "Graphite+Resin",
+  "shaft": "Graphite+Resin+6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2019101616252841127.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-10-e"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-auraspeed-10-badminton-racket-purple"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,143.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/victor-auraspeed-10-badminton-racket-purple",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
   "id": "victor-auraspeed-100x",
   "brand": "Victor",
   "name": "Auraspeed 100X",
@@ -15984,6 +22948,10 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/ars-100x-td"
+   },
+   {
     "shop": "yumo.ca",
     "url": "https://yumo.ca/products/victor-auraspeed-100x-td-unstrung-badminton-racket-black-orange-ars-100x-td-co"
    },
@@ -16074,6 +23042,53 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "victor-auraspeed-1120al",
+  "brand": "Victor",
+  "name": "Auraspeed 1120AL",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "G5",
+  "tension": [
+   null,
+   20
+  ],
+  "price": "",
+  "frame": "Aluminum",
+  "shaft": "Steel",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-71439_0_20200608160624.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-1120al-fo"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style"
+  ]
  },
  {
   "id": "victor-auraspeed-130cl",
@@ -16263,6 +23278,64 @@ window.RACKETS = [
   "note": "",
   "est": [
    "level"
+  ]
+ },
+ {
+  "id": "victor-auraspeed-30h",
+  "brand": "Victor",
+  "name": "Auraspeed 30H",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "medium",
+  "level": "beginner",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 1400,
+  "frame": "Graphite+Nano Resin+ Fiber Reinforced System(FRS)",
+  "shaft": "Graphite+ Nano Resin +6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2018110211572257128.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-30h-d"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-30h-strung-badminton-racket-dark-purple"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-auraspeed-30-h-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,943.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/victor-auraspeed-30-h-badminton-racket",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "price",
+   "level",
+   "weight"
   ]
  },
  {
@@ -16468,6 +23541,55 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "victor-auraspeed-50",
+  "brand": "Victor",
+  "name": "Auraspeed 50",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5",
+  "tension": [
+   null,
+   28
+  ],
+  "price": "",
+  "frame": "High Modulus Graphite+ Nano Resin+ HARD CORED TECHNOLOGY",
+  "shaft": "High Modulus Graphite+ Nano Resin +6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2018110211442338824.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-50-c"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
   "id": "victor-auraspeed-58",
   "brand": "Victor",
   "name": "Auraspeed 58",
@@ -16602,6 +23724,56 @@ window.RACKETS = [
   "est": []
  },
  {
+  "id": "victor-auraspeed-70f",
+  "brand": "Victor",
+  "name": "Auraspeed 70F",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "medium",
+  "level": "intermediate",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": "",
+  "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
+  "shaft": "High Resilience Modulus Graphite + 6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2018052509321955583.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-70f"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "flex",
+   "balance",
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
   "id": "victor-auraspeed-70k",
   "brand": "Victor",
   "name": "Auraspeed 70K",
@@ -16637,6 +23809,60 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style"
+  ]
+ },
+ {
+  "id": "victor-auraspeed-77f",
+  "brand": "Victor",
+  "name": "Auraspeed 77F",
+  "year": "",
+  "style": "speed",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   29
+  ],
+  "price": 5200,
+  "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
+  "shaft": "High Resilience Modulus Graphite + 6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "FREE CORE, ARS frame, Playability, Additional details, Summary",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/Auraspeed77F_Badminton_Racket_Frame.jpg?v=1688776817",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-auraspeed-77f-badminton-racket"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-77f-unstrung-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 215.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-auraspeed-77f-unstrung-badminton-racket",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "price",
+   "level",
+   "weight"
   ]
  },
  {
@@ -16907,6 +24133,59 @@ window.RACKETS = [
   "est": []
  },
  {
+  "id": "victor-auraspeed-90k",
+  "brand": "Victor",
+  "name": "Auraspeed 90K",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "stiff",
+  "level": "pro",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 6590,
+  "frame": "High Resilience Modulus Graphite+Nano Fortify TR＋+HARD CORED TECHNOLOGY",
+  "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2019062616164128475.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-90k-h"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-auraspeed-90k-ars-90k-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก US$195.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/victor-auraspeed-90k-ars-90k-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
   "id": "victor-auraspeed-90k-ii",
   "brand": "Victor",
   "name": "Auraspeed 90K II",
@@ -17084,6 +24363,128 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "victor-auraspeed-90s",
+  "brand": "Victor",
+  "name": "Auraspeed 90S",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 6080,
+  "frame": "High Resilience Modulus Graphite + Nano Fortify TR＋+HARD CORED TECHNOLOGY",
+  "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "Taiwan",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2018102311254956535.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-90s-j"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-auraspeed-90s-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก US$180.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/victor-auraspeed-90s-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-auraspeed-99",
+  "brand": "Victor",
+  "name": "Auraspeed 99",
+  "year": "",
+  "style": "speed",
+  "balance": "even",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   31
+  ],
+  "price": 6020,
+  "frame": "High Resilience Modulus Graphite+Metallic Carbon Fiber+NANO AEROGEL+Nano Fortify TR++HARD CORED TECHNOLOGY",
+  "shaft": "High Resilience Modulus Graphite+Metallic Carbon Fiber+PYROFIL+6.8 SHAFT",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "NANO AEROGEL",
+  "players": "Used by world-class players including Anders Antonsen and Lee Yang — trusted at the highest level of competitive badminton.",
+  "madeIn": "",
+  "recString": "Aerobite Boost (คุม), BG 80 Power (พลัง)",
+  "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/auraspeed99BAC-1.webp?v=1773380625",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "https://badmintonclick.com.au/products/new-2026-victor-auraspeed-99-bac-limited-edition-83-grams-badminton-racquet",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-auraspeed-99-badminton-racket"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/new-2026-victor-auraspeed-99-bac-limited-edition-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-auraspeed-99-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-99-unstrung-badminton-racket-pink-ars-99"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-auraspeed-99-j-unstrung-violet"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/victor-auraspeed-99-j-badminton-racket-450190"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 249.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-auraspeed-99-unstrung-badminton-racket-pink-ars-99",
+  "note": "",
+  "est": [
+   "tension",
+   "style",
+   "price",
+   "level"
+  ]
  },
  {
   "id": "victor-auraspeed-cyber",
@@ -17270,6 +24671,10 @@ window.RACKETS = [
   "clickUrl": "https://badmintonclick.com.au/products/victor-auraspeed-fantome-83-grams-badminton-racquet",
   "shopLinks": [
    {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-fant-me-j"
+   },
+   {
     "shop": "badmintonplaza.com",
     "url": "https://www.badmintonplaza.com/product_info.php?products_id=4713"
    },
@@ -17292,6 +24697,10 @@ window.RACKETS = [
    {
     "shop": "racquetguys.com",
     "url": "https://racquetguys.com/products/victor-auraspeed-fantome-used"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-fantome-unstrung-badminton-racket-ars-fantome-j"
    },
    {
     "shop": "tenniszon.com",
@@ -17345,12 +24754,16 @@ window.RACKETS = [
   "clickUrl": "https://badmintonclick.com.au/products/victor-auraspeed-fantome-f-huang-yaqiong-2-0-edition-83-grams-badminton-racquet",
   "shopLinks": [
    {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-fantme-f-ac"
+   },
+   {
     "shop": "joybadminton.com",
     "url": "https://joybadminton.com/products/victor-x-hyq-collection-2-0-auraspeed-fantome-f-racket-pearly-white"
    },
    {
     "shop": "badmintonwarehouse.com",
-    "url": "https://badmintonwarehouse.com/products/victor-auraspeed-fantome-f-ac-badminton-racket"
+    "url": "https://badmintonwarehouse.com/products/victor-auraspeed-fantome-f-hyq-m-badminton-racket"
    },
    {
     "shop": "badmintonclick.com.au",
@@ -17883,6 +25296,306 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "victor-brave-sword-12-se",
+  "brand": "Victor",
+  "name": "Brave Sword 12 SE",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "",
+  "level": "advanced",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   28
+  ],
+  "price": 4980,
+  "frame": "High Resilience Modulus Graphite + Nano Resin + Hardcoded Technology",
+  "shaft": "High Resilience Modulus Graphite + Pyrofil + Nano Resin + 6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "SWORD, FREE CORE, Hard Cored Technology, NANO TEC",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/Bravesword12SE_Frame.jpg?v=1684332323",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-bravesword-12-se-brs-12-se-b-badminton-racket"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-brave-sword-12-se-unstrung-badminton-racket-midnight-blue"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-brave-sword-12-se-b-brs-12-se-b-unstrung"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 206.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-brave-sword-12-se-unstrung-badminton-racket-midnight-blue",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-brave-sword-1633",
+  "brand": "Victor",
+  "name": "Brave Sword 1633",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "G5",
+  "tension": null,
+  "price": "",
+  "frame": "Aluminum",
+  "shaft": "Steel",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2015112014554095656.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/brave-sword-14"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style"
+  ]
+ },
+ {
+  "id": "victor-brave-sword-1800c",
+  "brand": "Victor",
+  "name": "Brave Sword 1800C",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5",
+  "tension": [
+   null,
+   24
+  ],
+  "price": "",
+  "frame": "Graphite + Resin",
+  "shaft": "Graphite + Resin + 7.0 SHAFT",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-29707_0_20230203142343.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/brave-sword-1800-c"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-brave-sword-1800d",
+  "brand": "Victor",
+  "name": "Brave Sword 1800D",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5",
+  "tension": [
+   null,
+   24
+  ],
+  "price": "",
+  "frame": "Graphite + Resin",
+  "shaft": "Graphite + Resin + 7.0 SHAFT",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-29705_0_20230203140511.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/brave-sword-1800-d"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-brave-sword-ltd-pro",
+  "brand": "Victor",
+  "name": "Brave Sword Ltd Pro",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "medium",
+  "level": "pro",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 7430,
+  "frame": "High strength carbon fiber + nano-resin + strong core filling technology",
+  "shaft": "High strength carbon fiber + nano-resin + strong core filling technology",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "Nano Resin Technology, Hard Cored Technology, Ultra-Slim 6.8 Shaft, Playability",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/Bravesword_12_Pro_Frame.jpg?v=1712028755",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-bravesword-ltd-pro-badminton-racket"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/victor-brave-sword-ltd-pro-badminton-racket-red-silver"
+   }
+  ],
+  "priceNote": "แปลงจาก US$220.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/victor-bravesword-ltd-pro-badminton-racket",
+  "note": "",
+  "est": [
+   "tension",
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-challenger-9500-cd",
+  "brand": "Victor",
+  "name": "Challenger 9500 CD",
+  "year": "",
+  "style": "",
+  "balance": "",
+  "flex": "medium",
+  "level": "intermediate",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   26
+  ],
+  "price": "",
+  "frame": "Graphite+ Resin",
+  "shaft": "Graphite+ Resin+6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-107579_0_20231128165934.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/challenger-9500-cd"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "level",
+   "weight"
+  ]
+ },
+ {
   "id": "victor-challenger-9500-pro",
   "brand": "Victor",
   "name": "Challenger 9500 Pro",
@@ -18068,6 +25781,10 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/drivex-10metallic"
+   },
+   {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/victor-drivex-10-metallic-badminton-racket"
    },
@@ -18118,8 +25835,8 @@ window.RACKETS = [
    32
   ],
   "price": 5990,
-  "frame": "High Resilience Modulus Graphite + 46T PYROFIL + Nano Fortify TR + NANO AEROGEL + HARD CORED TECHNOLOGY",
-  "shaft": "High Resilience Modulus Graphite + Metallic Carbon Fiber + PYROFIL + 6.6 SHAFT",
+  "frame": "High Resilience Modulus Graphite+PYROFIL 46T+Nano Fortify TR+NANO AEROGEL+HARD CORED TECHNOLOGY",
+  "shaft": "High Resilience Modulus Graphite+Metallic Carbon Fiber+PYROFIL+6.6 SHAFT",
   "joint": "",
   "length": "675 mm",
   "pattern": "",
@@ -18135,6 +25852,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "https://badmintonclick.com.au/products/new-2026-victor-drivex-12-zswing-2-0-83-grams-badminton-racquet",
   "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/drivex"
+   },
    {
     "shop": "badmintonplaza.com",
     "url": "https://www.badmintonplaza.com/product_info.php?products_id=4712"
@@ -18525,6 +26246,363 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "victor-drivex-5h",
+  "brand": "Victor",
+  "name": "Drivex 5H",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "",
+  "level": "",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   33
+  ],
+  "price": "",
+  "frame": "High Resilience Modulus Graphite + PYROFIL + HARD CORED TECHNOLOGY",
+  "shaft": "High Resilience Modulus Graphite + PYROFIL + 7.0 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2019101614275341562.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/drivex-5h-d"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-drivex-8k",
+  "brand": "Victor",
+  "name": "Drivex 8K",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "",
+  "level": "",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   28
+  ],
+  "price": "",
+  "frame": "High Resilience Modulus Graphite + NANO FORTIFY TR + HARD CORED TECHNOLOGY",
+  "shaft": "High Resilience Modulus Graphite + PYROFIL+7.0 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-71473_0_20200519092125.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/drivex-8k-f"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-drivex-9x",
+  "brand": "Victor",
+  "name": "Drivex 9X",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   28
+  ],
+  "price": 2840,
+  "frame": "High Resilience Modulus Graphite + Nano Fortify TR + HARD CORED TECHNOLOGY",
+  "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.6 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "Taiwan",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2019102816300412908.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/drivex-9x-b"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-drivex-9x"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-drive-x-9x-unstrung-navy-blue-4u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-drivex-9x-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 117.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-drivex-9x",
+  "note": "",
+  "est": [
+   "flex",
+   "style",
+   "price",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-drivex-lf-60",
+  "brand": "Victor",
+  "name": "Drivex LF 60",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "medium",
+  "level": "intermediate",
+  "weights": "6U",
+  "weight": 73,
+  "grips": "G5",
+  "tension": [
+   null,
+   28
+  ],
+  "price": 3040,
+  "frame": "High Resilience Modulus Graphite",
+  "shaft": "High Modulus Graphite + 7.0 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "Material and Construction",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2019102816311047720.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/drivex-lf-60-e"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-dx-lf60-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก US$90.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/victor-dx-lf60-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-dx-kt",
+  "brand": "Victor",
+  "name": "Dx-kt",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "",
+  "level": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   28
+  ],
+  "price": "",
+  "frame": "High Resilience Modulus Graphite + NANO FORTIFY TR",
+  "shaft": "High Resilience Modulus Graphite +NANO FORTIFY TR+6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-75097_0_20201120103622.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/drive-x-kt-a"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-jetspeed-s-06jr",
+  "brand": "Victor",
+  "name": "Jetspeed S 06JR",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "4U, 5U",
+  "weight": 83,
+  "grips": "G6",
+  "tension": [
+   null,
+   22
+  ],
+  "price": "",
+  "frame": "Graphite+Resin",
+  "shaft": "Graphite+Resin+7.0 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2018052117381553338.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/jetspeed-s-06jr-e"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-jetspeed-s-08",
+  "brand": "Victor",
+  "name": "Jetspeed S 08",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "medium",
+  "level": "intermediate",
+  "weights": "4U, 5U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   27
+  ],
+  "price": "",
+  "frame": "High Modulus Graphite +Core Shell Rubber",
+  "shaft": "High Modulus Graphite+Nano Resin+6.8 SHAFT",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2019061211482011739.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/jetspeed-s-08-b"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "flex",
+   "balance",
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
   "id": "victor-jetspeed-s-09l",
   "brand": "Victor",
   "name": "Jetspeed S 09L",
@@ -18569,6 +26647,211 @@ window.RACKETS = [
   "est": [
    "balance",
    "style"
+  ]
+ },
+ {
+  "id": "victor-jetspeed-s-10",
+  "brand": "Victor",
+  "name": "Jetspeed S 10",
+  "year": "",
+  "style": "speed",
+  "balance": "even",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5",
+  "tension": [
+   null,
+   28
+  ],
+  "price": 3610,
+  "frame": "High Resilient Modulus Graphite +Nano Fortify",
+  "shaft": "High Resilient Modulus Graphite＋PYROFIL＋6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "NANO FORTIFY, PYROFIL, 極速 | 勝利",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2017121218301428942.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/jetspeed-s-10-q"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/jetspeed-s-10-c"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-jetspeed-s-10-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 149.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/jetspeed-s-10-c",
+  "note": "",
+  "est": [
+   "tension",
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-jetspeed-s-11",
+  "brand": "Victor",
+  "name": "Jetspeed S 11",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 5300,
+  "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
+  "shaft": "High Resilience Modulus Graphite + 6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2018012514595591346.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/jetspeed-s-11-q"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-jetspeed-s-11-d-unstrung-red-4u"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 219.95 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://tenniszon.com/products/victor-jetspeed-s-11-d-unstrung-red-4u",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-jetspeed-s-1111al",
+  "brand": "Victor",
+  "name": "Jetspeed S 1111AL",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "G5",
+  "tension": null,
+  "price": "",
+  "frame": "Aluminum",
+  "shaft": "Steel",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-52784_0_20200608170346.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/jetspeed-s-1111al-o"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style"
+  ]
+ },
+ {
+  "id": "victor-jetspeed-s-12",
+  "brand": "Victor",
+  "name": "Jetspeed S 12",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5",
+  "tension": [
+   null,
+   30
+  ],
+  "price": "",
+  "frame": "High Resilient Modulus Graphite +  HARD CORED TECHNOLOGY + TERS",
+  "shaft": "High Resilient Modulus Graphite + PYROFIL + TERS + 6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2018012514594542257.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/jetspeed-s-12-m"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "level",
+   "weight"
   ]
  },
  {
@@ -18639,6 +26922,116 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "victor-jetspeed-s-12f",
+  "brand": "Victor",
+  "name": "Jetspeed S 12F",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "medium",
+  "level": "advanced",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 5400,
+  "frame": "High Resilience Modulus Graphite +TERS+HARD CORED TECHNOLOGY",
+  "shaft": "High Resilience Modulus Graphite ＋PYROFIL＋TERS+6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "Aero-Sonic Frame",
+  "players": "",
+  "madeIn": "",
+  "recString": "BG66 Ultimax",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2017091211095283356.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/jetspeed-s-12f-j"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-jetspeed-s12f-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก US$160.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/victor-jetspeed-s12f-badminton-racket",
+  "note": "",
+  "est": [
+   "flex",
+   "balance",
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-jetspeed-s-12ftd",
+  "brand": "Victor",
+  "name": "Jetspeed S 12FTD",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "medium",
+  "level": "intermediate",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   26
+  ],
+  "price": 2870,
+  "frame": "High Resilience Graphite + HARD CORED TECHNOLOGY",
+  "shaft": "High Resilience Graphite + PYROFIL + 6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "NANO TEC, SEVEN SIX, AERO-SWORD, PYROFIL, Hard Cored Technology",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-71269_0_20200507151734.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/jetspeed-s-12ftd-j"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-jetspeed-s-12ftd-badminton-racket-light-rose-violet-js-12ftd-j"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 118.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-jetspeed-s-12ftd-badminton-racket-light-rose-violet-js-12ftd-j",
+  "note": "",
+  "est": [
+   "flex",
+   "balance",
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
   "id": "victor-jetspeed-s-12td",
   "brand": "Victor",
   "name": "Jetspeed S 12TD",
@@ -18663,7 +27056,7 @@ window.RACKETS = [
   "tech": "Nano Tec, Seven Six, AERO-SWORD, PYROFIL, HARD CORED TECHNOLOGY, jetspeed s 12 td |",
   "players": "",
   "madeIn": "",
-  "recString": "BG66 Ultimax",
+  "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-jetspeed-s-12td-169x300.webp",
   "source": "https://chobbad.com/racket/victor-jetspeed-s-12td/",
   "officialUrl": "",
@@ -18677,10 +27070,6 @@ window.RACKETS = [
     "url": "https://th.victorsport.com/product/jetspeed-s-12td-f"
    },
    {
-    "shop": "badmintonwarehouse.com",
-    "url": "https://badmintonwarehouse.com/products/victor-jetspeed-s12f-badminton-racket"
-   },
-   {
     "shop": "yumo.ca",
     "url": "https://yumo.ca/products/victor-jetspeed-s-12td-f-badminton-racket-blue-js-12td-f"
    }
@@ -18691,6 +27080,284 @@ window.RACKETS = [
   "est": [
    "flex",
    "level"
+  ]
+ },
+ {
+  "id": "victor-jetspeed-s-2sp",
+  "brand": "Victor",
+  "name": "Jetspeed S 2SP",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": "",
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2017101715114339645.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/jetspeed-s-2sp-c"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style"
+  ]
+ },
+ {
+  "id": "victor-jetspeed-s-5133",
+  "brand": "Victor",
+  "name": "Jetspeed S 5133",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "G5",
+  "tension": null,
+  "price": "",
+  "frame": "Aluminum",
+  "shaft": "Graphite + Resin",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2016062013072139120.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/jetspeed-s-10"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style"
+  ]
+ },
+ {
+  "id": "victor-jetspeed-s-520",
+  "brand": "Victor",
+  "name": "Jetspeed S 520",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "medium",
+  "level": "intermediate",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   28
+  ],
+  "price": "",
+  "frame": "High Resilience Modulus Graphite + Nano Resin",
+  "shaft": "High Resilience Modulus Graphite + Nano Tube + 6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-94331_0_20220722162609.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/js-520-a"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "flex",
+   "balance",
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-jetspeed-s-5233",
+  "brand": "Victor",
+  "name": "Jetspeed S 5233",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "G5",
+  "tension": null,
+  "price": "",
+  "frame": "Aluminum",
+  "shaft": "Graphite + Resin",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2016052514543351451.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/jetspeed-s-11"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style"
+  ]
+ },
+ {
+  "id": "victor-jetspeed-s-6000",
+  "brand": "Victor",
+  "name": "Jetspeed S 6000",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "",
+  "level": "",
+  "weights": "4U, 5U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   30
+  ],
+  "price": "",
+  "frame": "Graphite+Resin",
+  "shaft": "Graphite+Resin+7.0 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-71320_0_20200522172549.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/jetspeed-s-6000-a"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-jetspeed-s-7000",
+  "brand": "Victor",
+  "name": "Jetspeed S 7000",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "",
+  "level": "",
+  "weights": "4U, 5U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   30
+  ],
+  "price": "",
+  "frame": "Graphite+Resin",
+  "shaft": "Graphite+Resin+7.0 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-71354_0_20200522172636.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/jetspeed-s-7000-c"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "weight"
   ]
  },
  {
@@ -18960,6 +27627,141 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "victor-st-1800",
+  "brand": "Victor",
+  "name": "ST 1800",
+  "year": "",
+  "style": "",
+  "balance": "",
+  "flex": "",
+  "level": "beginner",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": 680,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/Victor-ST-1800-Pre-Strung-Badminton-Racket_-43345774.png?v=1774378458",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-st-1800-badminton-racket"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-st-1800-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก US$19.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/victor-st-1800-badminton-racket",
+  "note": "",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "victor-tk-41031",
+  "brand": "Victor",
+  "name": "TK-41031",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": "",
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-113228_0_20231229004413.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/tk-41031-b"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style"
+  ]
+ },
+ {
+  "id": "victor-tk-41032",
+  "brand": "Victor",
+  "name": "TK-41032",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": "",
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-113262_0_20231229005025.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/tk-41032-i"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style"
+  ]
+ },
+ {
   "id": "victor-tk-66",
   "brand": "Victor",
   "name": "TK-66",
@@ -19212,6 +28014,103 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "victor-thruster-bxr",
+  "brand": "Victor",
+  "name": "Thruster Bxr",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "4U, 5U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   31
+  ],
+  "price": "",
+  "frame": "High Resilience Modulus Graphite+HARD CORED TECHNOLOGY",
+  "shaft": "High Resilience Modulus Graphite +Nano Resin+6.6 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2018110211395124348.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-bxr"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-thruster-dong",
+  "brand": "Victor",
+  "name": "Thruster Dong",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   30
+  ],
+  "price": "",
+  "frame": "High Resilient Modulus Graphite + CSR",
+  "shaft": "High Resilient Modulus Graphite + 6.4SHAFT",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2015112011293097418.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-dong"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "weight"
+  ]
+ },
+ {
   "id": "victor-thruster-f-c-ultra",
   "brand": "Victor",
   "name": "Thruster F C Ultra",
@@ -19347,6 +28246,58 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "victor-thruster-f-enhanced-edition",
+  "brand": "Victor",
+  "name": "Thruster F Enhanced Edition",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   31
+  ],
+  "price": "",
+  "frame": "High Resilient Modulus Graphite + PYROFIL + Hard Cored Technology",
+  "shaft": "High Resilient Modulus Graphite + PYROFIL + 6.5 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "SEVEN SIX",
+  "players": "",
+  "madeIn": "Taiwan",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-74209_0_20201015100928.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-f-c"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/thruster-falcon-enhanced-edition-black-victor-badminton-rackets"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
   "id": "victor-thruster-f-falcon-ultra-c",
   "brand": "Victor",
   "name": "Thruster F Falcon Ultra C",
@@ -19438,6 +28389,78 @@ window.RACKETS = [
   "est": [
    "style",
    "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-thruster-f-ultra",
+  "brand": "Victor",
+  "name": "Thruster F Ultra",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 4440,
+  "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
+  "shaft": "High Resilience Modulus Graphite + Metallic Carbon Fiber + PYROFIL + 5.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "METALLIC CARBON FIBER",
+  "players": "Mohammad Ahsan, Tan Kian Meng, Jonatan Christie",
+  "madeIn": "Taiwan",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-119478_0_20240713162147.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-f--ultra-c"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/thruster-f-ultra-badminton-racket"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/victor-thruster-f-ultra-badminton-racket-moonless-night"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/victor-thruster-f-ultra-badminton-racket-unstrung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-f-ultra-unstrung-racket-black"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-tk-f-隼-ultra-c-unstrung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-f-ultra-enhanced-edition-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹12,492.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/victor-thruster-f-ultra-enhanced-edition-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
    "weight"
   ]
  },
@@ -19796,6 +28819,153 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "victor-thruster-k-100",
+  "brand": "Victor",
+  "name": "Thruster K 100",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "intermediate",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5",
+  "tension": [
+   null,
+   24
+  ],
+  "price": "",
+  "frame": "Graphite + Resin",
+  "shaft": "Graphite + Resin + 7.0 SHAFT",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2015052716390552950.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-k-11"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-thruster-k-100f",
+  "brand": "Victor",
+  "name": "Thruster K 100F",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5",
+  "tension": [
+   null,
+   24
+  ],
+  "price": "",
+  "frame": "Graphite + Resin",
+  "shaft": "Graphite + Resin + 7.0 SHAFT",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2016122117494188593.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-k-100f-j"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-thruster-k-110",
+  "brand": "Victor",
+  "name": "Thruster K 110",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5",
+  "tension": [
+   null,
+   24
+  ],
+  "price": "",
+  "frame": "Graphite + Resin",
+  "shaft": "Graphite + Resin + 7.0 SHAFT",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2015052716343466973.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-k-13"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
   "id": "victor-thruster-k-15l",
   "brand": "Victor",
   "name": "Thruster K 15L",
@@ -19815,7 +28985,7 @@ window.RACKETS = [
   "frame": "High Resilience Graphite + Core Shell Rubber",
   "shaft": "High Resilience Graphite + Nano Resin + 6.8 SHAFT",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "Power Box",
   "players": "",
@@ -19834,12 +29004,20 @@ window.RACKETS = [
     "url": "https://www.badmintonplaza.com/product_info.php?products_id=3729"
    },
    {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/thruster-k-15l-victor-badminton-racket"
+   },
+   {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-thruster-k-15l-badminton-racket-tk-15l-unstrung"
    },
    {
     "shop": "yumo.ca",
     "url": "https://yumo.ca/products/victor-thruster-k-15l-pre-strung-badminton-racquet-tk-15l-u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-k-15-light-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -19847,6 +29025,55 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style"
+  ]
+ },
+ {
+  "id": "victor-thruster-k-220h",
+  "brand": "Victor",
+  "name": "Thruster K 220H",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "intermediate",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   36
+  ],
+  "price": "",
+  "frame": "Graphite+Resin+Fiber Reinforced System(FRS)",
+  "shaft": "Graphite+Resin+7.0 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2019101616253629935.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-k-220h-f"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "level",
+   "weight"
   ]
  },
  {
@@ -19896,6 +29123,199 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "victor-thruster-k-30",
+  "brand": "Victor",
+  "name": "Thruster K 30",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "intermediate",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   28
+  ],
+  "price": "",
+  "frame": "High Modulus Graphite + CSR",
+  "shaft": "High Modulus Graphite + 6.6SHAFT",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2016033014433013527.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-k-18"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "flex",
+   "balance",
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-thruster-k-330",
+  "brand": "Victor",
+  "name": "Thruster K 330",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": "",
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2017101715112060291.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-k-330-r"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style"
+  ]
+ },
+ {
+  "id": "victor-thruster-k-520",
+  "brand": "Victor",
+  "name": "Thruster K 520",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "intermediate",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G5",
+  "tension": [
+   null,
+   28
+  ],
+  "price": "",
+  "frame": "High Resilience Modulus Graphite + Nano Resin",
+  "shaft": "High Resilience Modulus Graphite + Nano Resin + 6.6 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-94314_0_20220722162717.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/tk-520-t"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "flex",
+   "balance",
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-thruster-k-770ht",
+  "brand": "Victor",
+  "name": "Thruster K 770HT",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5",
+  "tension": [
+   null,
+   33
+  ],
+  "price": "",
+  "frame": "High Resilience Modulus Graphite + Nano Resin + Fiber Reinforced System(FRS) + HARD CORED TECHNOLOGY",
+  "shaft": "High Modulus Graphite  + Nano Resin + 7.0SHAFT",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2016050314552738531.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-k-770ht"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "level",
+   "weight"
+  ]
  },
  {
   "id": "victor-thruster-k-816cl",
@@ -19996,6 +29416,55 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "victor-thruster-k-9000jr",
+  "brand": "Victor",
+  "name": "Thruster K 9000JR",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   23
+  ],
+  "price": "",
+  "frame": "Graphite + Resin",
+  "shaft": "Graphite + Resin + 7.0 SHAFT",
+  "joint": "",
+  "length": "620 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2016122117494923257.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-k-9000jr"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
   "id": "victor-thruster-k-alpha",
   "brand": "Victor",
   "name": "Thruster K Alpha",
@@ -20039,6 +29508,64 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-thruster-k-boom",
+  "brand": "Victor",
+  "name": "Thruster K Boom",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "beginner",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   30
+  ],
+  "price": 1520,
+  "frame": "Graphite + Resin",
+  "shaft": "Graphite + Resin + 6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0723/9035/files/Victor_TK-BOOM_Badminton_Racket_YumoProShop.png?v=1710449178",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/victor-thruster-k-boom-badminton-racket"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-tk-boom-strung-badminton-racket"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-k-boom-strung-white-4u"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 62.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-tk-boom-strung-badminton-racket",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "price",
    "level",
    "weight"
   ]
@@ -20267,6 +29794,103 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "victor-thruster-korea",
+  "brand": "Victor",
+  "name": "Thruster Korea",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "intermediate",
+  "weights": "4U, 5U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   29
+  ],
+  "price": "",
+  "frame": "High Resilient Modulus Graphite  + CSR",
+  "shaft": "High Resilient Modulus Graphite  + 6.4 SHAFT",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2015070617213489050.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-korea"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-thruster-lf-30",
+  "brand": "Victor",
+  "name": "Thruster LF 30",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "",
+  "weights": "6U",
+  "weight": 73,
+  "grips": "G5",
+  "tension": [
+   null,
+   28
+  ],
+  "price": "",
+  "frame": "High Modulus Graphite",
+  "shaft": "High Modulus Graphite + 7.0 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2019102816255414113.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/tk-lf-30-f"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "weight"
+  ]
  },
  {
   "id": "victor-thruster-merak",
@@ -21171,6 +30795,56 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "victor-thruster-syn",
+  "brand": "Victor",
+  "name": "Thruster Syn",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "intermediate",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   31
+  ],
+  "price": "",
+  "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
+  "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.6 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-119716_0_20240713180824.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-k-syn-c"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "flex",
+   "balance",
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
   "id": "victor-thruster-t300",
   "brand": "Victor",
   "name": "Thruster T300",
@@ -21402,6 +31076,55 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "victor-thruster-yin",
+  "brand": "Victor",
+  "name": "Thruster Yin",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "4U, 5U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   31
+  ],
+  "price": "",
+  "frame": "High Resilient Modulus Graphite +Nano Resin+HARD CORED TECHNOLOGY",
+  "shaft": "High Resilient Modulus Graphite +Nano Resin + 6.4 SHAFT",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-56904_0_20181107173338.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-yin"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
   "id": "victor-wrist-enhancer-140",
   "brand": "Victor",
   "name": "Wrist Enhancer 140",
@@ -21454,6 +31177,56 @@ window.RACKETS = [
   "est": [
    "price",
    "level"
+  ]
+ },
+ {
+  "id": "yonex-arcsaber-11",
+  "brand": "Yonex",
+  "name": "Arcsaber 11",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "3U",
+  "weight": 88,
+  "grips": "G4",
+  "tension": null,
+  "price": 3660,
+  "frame": "",
+  "shaft": "H.M. Graphite, Ultra PEF",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "Japan",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/products/ArcSaber_11_Badminton_Racket_Frame.jpg?v=1591208526",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex_arc11_badminton_rkt_3ug4"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-arcsaber-11-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹10,299.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/yonex-arcsaber-11-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
   ]
  },
  {
@@ -22078,6 +31851,64 @@ window.RACKETS = [
   "est": []
  },
  {
+  "id": "yonex-arcsaber-73-light",
+  "brand": "Yonex",
+  "name": "Arcsaber 73 Light",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "5U",
+  "weight": 77,
+  "grips": "G5",
+  "tension": [
+   20,
+   30
+  ],
+  "price": 690,
+  "frame": "H.M. Graphite",
+  "shaft": "HM Graphite with Slim Shaft",
+  "joint": "",
+  "length": "10mm longer",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/ARC73-AQBL-rotated.jpg?v=1723004442",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/yonex-arcsaber-73-light-badminton-racket-aqua-blue-unstrung"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-arcsaber-73-light-arc73lt"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-arcsaber-73-light-badminton-racket-leaf-green"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,949.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/yonex-arcsaber-73-light-badminton-racket-leaf-green",
+  "note": "",
+  "est": [
+   "balance",
+   "weight",
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
   "id": "yonex-arcsaber7-play-2026",
   "brand": "Yonex",
   "name": "Arcsaber7 Play (2026)",
@@ -22548,6 +32379,61 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "yonex-astrox-10",
+  "brand": "Yonex",
+  "name": "Astrox 10",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "4U",
+  "weight": 84,
+  "grips": "G5",
+  "tension": [
+   20,
+   28
+  ],
+  "price": 1800,
+  "frame": "HM Graphite",
+  "shaft": "Graphite",
+  "joint": "",
+  "length": "675 mm",
+  "pattern": "76",
+  "tech": "AERO+BOX Frame",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://www.badmintonbay.com/image/cache/data/yonex/astrox-10-navy-blue/yonex-astrox-10-navy-blue-badminton-racket-01-700x800.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-10-navy-blue-4ug5-badminton-racket.html",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-astrox-10-badminton-racket-olive-green"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-10-2026-badminton-racket-1"
+   }
+  ],
+  "priceNote": "แปลงจาก £39.99 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://centralsports.co.uk/products/yonex-astrox-10-2026-badminton-racket-1",
+  "note": "",
+  "est": [
+   "balance",
+   "flex",
+   "tension",
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
   "id": "yonex-astrox-100-game",
   "brand": "Yonex",
   "name": "Astrox 100 Game",
@@ -22723,7 +32609,7 @@ window.RACKETS = [
    20,
    29
   ],
-  "price": 6410,
+  "price": 4090,
   "frame": "HM Graphite, NANOMESH NEO, VOLUME CUT RESIN, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
   "joint": "Built-in T-Joint",
@@ -22758,8 +32644,8 @@ window.RACKETS = [
     "url": "https://yumo.ca/products/yonex-x-viktor-axelsen-astrox-100va-game-unstrung-badminton-racket-limited-edition-greyish-beige"
    }
   ],
-  "priceNote": "แปลงจาก US$189.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-100va-game-grayish-beige-4ug5-badminton-racket.html",
+  "priceNote": "แปลงจาก CAD 169.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/yonex-x-viktor-axelsen-astrox-100va-game-unstrung-badminton-racket-limited-edition-greyish-beige",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
    "price"
@@ -23036,6 +32922,66 @@ window.RACKETS = [
   "est": []
  },
  {
+  "id": "yonex-astrox-22f",
+  "brand": "Yonex",
+  "name": "Astrox 22F",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "level": "intermediate",
+  "weights": "4U",
+  "weight": 63,
+  "grips": "G5",
+  "tension": [
+   19,
+   26
+  ],
+  "price": 3370,
+  "frame": "HM Graphite, NANOMETRIC DR, Tungsten",
+  "shaft": "HM Graphite, NANOMESH NEO",
+  "joint": "Built-in T-Joint",
+  "length": "10 mm longer",
+  "pattern": "The single-pass grommet hole construction provides more grommet holes for a more high-performance stringing pattern.",
+  "tech": "NANOMESH NEO (Generates Maximum Power)",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/Yonex_Astrox_22F_Black_Lime.png?v=1752695695",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-astrox-22f-black-lime"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-astrox-22f-black-lime"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-astrox-22f-pre-strung-badminton-racket-black-lime"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-2021-astrox-22f-strung-badminton-racket-black-lime"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 139.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/yonex-2021-astrox-22f-strung-badminton-racket-black-lime",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
   "id": "yonex-astrox-3-dg-hf",
   "brand": "Yonex",
   "name": "Astrox 3 DG HF",
@@ -23101,7 +33047,7 @@ window.RACKETS = [
    20,
    35
   ],
-  "price": 2080,
+  "price": 1560,
   "frame": "HM Graphite, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
   "joint": "Built-in T-Joint",
@@ -23128,8 +33074,8 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-astrox-3dg-st-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก S$79.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://sportsshop.asia/products/yonex-astrox-3-dg-st-badminton-racket",
+  "priceNote": "แปลงจาก ₹4,392.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/yonex-astrox-3dg-st-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
    "price"
@@ -23151,7 +33097,7 @@ window.RACKETS = [
    20,
    35
   ],
-  "price": 5400,
+  "price": 1990,
   "frame": "HM Graphite, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
   "joint": "Built-in T-Joint",
@@ -23174,8 +33120,8 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-astrox-7-dg-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก US$159.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-7dg-black-blue-4ug5-badminton-racket.html",
+  "priceNote": "แปลงจาก ₹5,592.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/yonex-astrox-7-dg-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
    "price"
@@ -24450,6 +34396,212 @@ window.RACKETS = [
   "est": []
  },
  {
+  "id": "yonex-astrox-lite-27i",
+  "brand": "Yonex",
+  "name": "Astrox Lite 27i",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G5",
+  "tension": null,
+  "price": 670,
+  "frame": "HM Graphite",
+  "shaft": "HM Graphite",
+  "joint": "Moulded deep into the layers of graphite where the frame connects with the shaft, the YONEX Built-in T-Joint creates a durable and high-strength one-piece, torque-free frame.",
+  "length": "",
+  "pattern": "",
+  "tech": "Nanomesh Neo: The YONEX Astro lite 27i Badminton Racquet is built with Nanomesh Neo, a material that promotes quicker shaft take-back. Once the racquet has made contact with the shuttle, the Nanomesh Neo helps the frame to return to its original state in order for you to be able to play your next shot for that attaching edge. The racket ensures a stronger, more flexible frame, while increased shaft flex creates maximum power.",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/Yonex-Astrox-Lite-27i-Badminton-Racket-Full.jpg?v=1753012160",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/yonex-astrox-lite-27i-badminton-racket-dark-navy-strung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-lite-27i-badminton-racket"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-astrox-lite-27i-graphite-badminton-racquet-kibi-sports"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,899.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/yonex-astrox-lite-27i-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "yonex-astrox-lite-37i",
+  "brand": "Yonex",
+  "name": "Astrox Lite 37i",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G5",
+  "tension": null,
+  "price": 640,
+  "frame": "HM Graphite",
+  "shaft": "HM Graphite Shaft",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "ISOMETRIC™️",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/11833_GO_1694137751387.jpg?v=1713263687",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/yonex-astrox-lite-37i-badminton-racket-black-unstrung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-lite-37i-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,792.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/yonex-astrox-lite-37i-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "yonex-astrox-lite-43i",
+  "brand": "Yonex",
+  "name": "Astrox Lite 43i",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G5",
+  "tension": null,
+  "price": 640,
+  "frame": "HM Graphite",
+  "shaft": "HM Graphite",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "The",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://www.badmintonbay.com/image/cache/data/yonex/astrox-lite/43i-dark-green/yonex-astrox-lite-43i-dark-green-badminton-racket-01-700x800.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-lite-43i-iseries-dark-green-badminton-racket.html",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/yonex-astrox-lite-43i-badminton-racket-dark-green"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-lite-43i-badminton-racket"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-astrox-lite-45i-badminton-racket-kibi-sports-copy"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,792.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/yonex-astrox-lite-43i-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "yonex-astrox-lite-45i",
+  "brand": "Yonex",
+  "name": "Astrox Lite 45i",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G5",
+  "tension": null,
+  "price": 640,
+  "frame": "HM Graphite",
+  "shaft": "HM Graphite",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "ISOMETRIC™️",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonbay.com/image/cache/data/yonex/astrox-lite/45i-Blue-Silver/yonex-astrox-lite-45i-blue-silver-badminton-racket-01-700x800.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-lite-45i-iseries-blue-silver-badminton-racket.html",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/yonex-astrox-lite-45i-badminton-racket-black-strung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-lite-45i-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,792.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/yonex-astrox-lite-45i-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
   "id": "yonex-astrox-nextage",
   "brand": "Yonex",
   "name": "Astrox Nextage",
@@ -24732,6 +34884,55 @@ window.RACKETS = [
   "est": []
  },
  {
+  "id": "yonex-gr303",
+  "brand": "Yonex",
+  "name": "GR303",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "extra-stiff",
+  "level": "pro",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "price": "",
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "Aluminum frame, high-tensile steel shaft, Isometric head geometry, and pre-strung for immediate action.",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0747/3535/3946/files/yonex-gr-303-yellow-1.png?v=1783375253",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-gr303-badminton-racket-set-of-2-yellow"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-gr-303-badminton-racquet"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "flex",
+   "style",
+   "level"
+  ]
+ },
+ {
   "id": "yonex-isometric-lite-3",
   "brand": "Yonex",
   "name": "Isometric Lite 3",
@@ -25005,7 +35206,7 @@ window.RACKETS = [
    14,
    18
   ],
-  "price": 950,
+  "price": 600,
   "frame": "Aluminum",
   "shaft": "Steel",
   "joint": "",
@@ -25036,8 +35237,8 @@ window.RACKETS = [
     "url": "https://tenniszon.com/products/yonex-muscle-power-2-junior-strung-white-lime-yellow"
    }
   ],
-  "priceNote": "แปลงจาก US$27.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://racquetguys.com/products/yonex-muscle-power-2-junior-white-lime-yellow-factory-strung",
+  "priceNote": "แปลงจาก CAD 24.95 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://tenniszon.com/products/yonex-muscle-power-2-junior-strung-white-lime-yellow",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
    "style",
@@ -25821,6 +36022,60 @@ window.RACKETS = [
   "est": []
  },
  {
+  "id": "yonex-nanoflare-270-speed",
+  "brand": "Yonex",
+  "name": "Nanoflare 270 Speed",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "stiff",
+  "level": "beginner",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   20,
+   27
+  ],
+  "price": 1890,
+  "frame": "",
+  "shaft": "High Modulus (H.M.) Graphite",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/products/Nanoflare_270_Speed_Badminton_Racket_Frame.jpg?v=1630972156",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-nanoflare-270-speed-badminton-racket"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-nanoflare-270-speed-badminton-racket-kibi-sports"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹5,325.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://shop.kibisports.com/products/yonex-nanoflare-270-speed-badminton-racket-kibi-sports",
+  "note": "",
+  "est": [
+   "flex",
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
   "id": "yonex-nanoflare-555",
   "brand": "Yonex",
   "name": "Nanoflare 555",
@@ -25927,6 +36182,58 @@ window.RACKETS = [
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
    "price"
+  ]
+ },
+ {
+  "id": "yonex-nanoflare-700",
+  "brand": "Yonex",
+  "name": "Nanoflare 700",
+  "year": "",
+  "style": "",
+  "balance": "",
+  "flex": "medium",
+  "level": "advanced",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "",
+  "tension": [
+   20,
+   28
+  ],
+  "price": 4580,
+  "frame": "High Modulus Graphite, M40X, Super High Modulus Graphite",
+  "shaft": "High Modulus Graphite",
+  "joint": "Built-in T-Joint",
+  "length": "+10mm",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "Japan",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/products/nf-700_cyan_product_02-edited.png?v=1679465189",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/yonex-nanoflare-700-badminton-racket-cyan"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-700-magenta-new-color-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹12,899.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/yonex-nanoflare-700-magenta-new-color-badminton-racket",
+  "note": "",
+  "est": [
+   "price",
+   "level",
+   "weight"
   ]
  },
  {
@@ -26244,6 +36551,55 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "yonex-nanoflare-800",
+  "brand": "Yonex",
+  "name": "Nanoflare 800",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G5",
+  "tension": null,
+  "price": 5890,
+  "frame": "HM Graphite / M40X / EX-HMG / VDM",
+  "shaft": "HM Graphite / NANOMETRIC",
+  "joint": "NEW Built-in T-Joint",
+  "length": "10 mm longer",
+  "pattern": "The single-pass grommet hole construction provides more grommet holes for a more high-performance stringing pattern.",
+  "tech": "NANOMETRIC",
+  "players": "",
+  "madeIn": "Japan",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/products/nf-800lt.png?v=1674014528",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/yonex-nanoflare-800-lt-badminton-racket-black-ice-blue"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-800-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹16,599.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/yonex-nanoflare-800-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
  },
  {
   "id": "yonex-nanoflare-800-game",
@@ -26788,5 +37144,412 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": []
+ },
+ {
+  "id": "yonex-nanoray-70-light",
+  "brand": "Yonex",
+  "name": "Nanoray 70 Light",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "medium",
+  "level": "beginner",
+  "weights": "",
+  "weight": "",
+  "grips": "G5",
+  "tension": null,
+  "price": 670,
+  "frame": "Graphite",
+  "shaft": "Graphite",
+  "joint": "Moulded deep into the layers of graphite where the frame connects with the shaft, the YONEX Built-in T-Joint creates a durable and high-strength one-piece, torque-free frame.",
+  "length": "",
+  "pattern": "",
+  "tech": "Nanomesh Neo: The YONEX Nanoray 70 Light Badminton Racquet is built with Nanomesh Neo, a material that promotes quicker shaft take-back. Once the racquet has made contact with the shuttle, the Nanomesh Neo helps the frame to return to its original state so you can play your next shot for that attaching edge. The racket ensures a stronger, more flexible frame, while increased shaft flex creates maximum power.",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/YonexNanoray70Light_DeepPurple_NO.png?v=1727991811",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/nanoray-70-light-deep-purple"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoray-70-light-purple-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,899.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/yonex-nanoray-70-light-purple-badminton-racket",
+  "note": "",
+  "est": [
+   "flex",
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "yonex-nanoray-7000i",
+  "brand": "Yonex",
+  "name": "Nanoray 7000I",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "medium",
+  "level": "beginner",
+  "weights": "4U",
+  "weight": 89,
+  "grips": "G4",
+  "tension": null,
+  "price": 510,
+  "frame": "Aluminum-Alloy",
+  "shaft": "Aluminum-Alloy",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0747/3535/3946/files/yonex-Nanoray-7000i-1.png?v=1783375269",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoray-7000i-badminton-racket"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-nanoray-7000i-g4-2u-badminton-racquet-kibi-sports"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,449.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://shop.kibisports.com/products/yonex-nanoray-7000i-g4-2u-badminton-racquet-kibi-sports",
+  "note": "",
+  "est": [
+   "flex",
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "yonex-nanoray-72-light",
+  "brand": "Yonex",
+  "name": "Nanoray 72 Light",
+  "year": "",
+  "style": "",
+  "balance": "",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G5",
+  "tension": null,
+  "price": 640,
+  "frame": "Frame Material : HM Graphite",
+  "shaft": "HM Graphite.Flexible shaft",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "Isometric, Aero-box Frame, Built-in T-joint, Control Support Cap,Nanomesh NEO",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/badminton-racquet-nanoray-72-light-nr72ltex-dark-red-5u5-strung-yonex-5e3288ad-db7e-443a-8773-b6c5d8f3ba03.jpg?v=1722932489",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/yonex-nanoray-72-light-badminton-racket"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoray-72-light-badminton-racket-ruby-red"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,799.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/yonex-nanoray-72-light-badminton-racket-ruby-red",
+  "note": "",
+  "est": [
+   "flex",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "yonex-voltric-21dg-slim",
+  "brand": "Yonex",
+  "name": "Voltric 21DG Slim",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "level": "intermediate",
+  "weights": "3U",
+  "weight": 88,
+  "grips": "G5",
+  "tension": [
+   null,
+   35
+  ],
+  "price": 2270,
+  "frame": "High Modulus Graphite",
+  "shaft": "High Modulus Graphite",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "High Modulus Graphite construction, Slim Shaft technology, and High Tension Support.",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/products/Voltric_21DG_Badminton_Racket_Frame.jpg?v=1591284786",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/voltric-21dg-badminton-racket"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-voltric-21-dg-slim-badminton-racket-kibi-sports"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹6,399.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://shop.kibisports.com/products/yonex-voltric-21-dg-slim-badminton-racket-kibi-sports",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "yonex-voltric-lite",
+  "brand": "Yonex",
+  "name": "Voltric Lite",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   18,
+   24
+  ],
+  "price": 640,
+  "frame": "Graphite / Tungsten",
+  "shaft": "Graphite",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "Tri-Voltage System, Voltric is Power",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://www.badmintonbay.com/image/cache/data/yonex/voltric-lite/35i-blue/yonex-voltric-lite-35i-blue-badminton-racket-01-700x800.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-voltric-lite-35i-iseries-blue-badminton-racket.html",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-voltric-lite-black-yellow"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-voltric-lite-badminton-racket-black-yellow-pre-strung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-voltric-lite-40i-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,799.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/yonex-voltric-lite-40i-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "yonex-voltric-lite-20i",
+  "brand": "Yonex",
+  "name": "Voltric Lite 20i",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "",
+  "level": "beginner",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "",
+  "tension": null,
+  "price": 600,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "+10 mm (ยาวกว่ามาตรฐาน)",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://www.badmintonbay.com/image/cache/data/yonex/voltric-lite-20i-dark-blue/yonex-voltric-lite-20i-dark-blue-badminton-racket-01-700x800.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-voltric-lite-20i-iseries-blue-badminton-racket.html",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/yonex-voltric-20i-badminton-racket"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-voltric-lite-20i-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,699.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/yonex-voltric-lite-20i-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "yonex-voltric-lite-25i",
+  "brand": "Yonex",
+  "name": "Voltric Lite 25i",
+  "year": "",
+  "style": "",
+  "balance": "",
+  "flex": "",
+  "level": "beginner",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "",
+  "tension": null,
+  "price": 640,
+  "frame": "",
+  "shaft": "",
+  "joint": "Moulded deep into the layers of graphite where the frame connects with the shaft, the YONEX Built-in T-Joint creates a durable and high-strength one-piece, torque-free frame.",
+  "length": "",
+  "pattern": "",
+  "tech": "Nanomesh Neo: The YONEX Voltric Lite 25i Badminton Racquet is built with Nanomesh Neo, a material that promotes quicker shaft take-back. Once the Racquet has made contact with the shuttle, the Nanomesh Neo helps the frame to return to its original state in order for you to be able to play your next shot for that attaching edge. Ensures a stronger, more flexible frame, while increased shaft flex creates maximum power.",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/8070_GO_1613622941572.jpg?v=1696836199",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/yonex-voltric-lite-25i-badminton-racket-unstrung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-voltric-lite-25i-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,792.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/yonex-voltric-lite-25i-badminton-racket",
+  "note": "",
+  "est": [
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "yonex-voltric-lite-47i",
+  "brand": "Yonex",
+  "name": "Voltric Lite 47i",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "level": "beginner",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "",
+  "tension": null,
+  "price": 640,
+  "frame": "Frame Material : HM Graphite",
+  "shaft": "HM Graphite",
+  "joint": "",
+  "length": "",
+  "pattern": "",
+  "tech": "Voltric Frame,Isometric, Aero-box Frame, Built-in T-joint, Control Support Cap, Nanomesh NEO.",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonbay.com/image/cache/data/yonex/voltric-lite/47i-graphite/yonex-voltric-lite-47i-graphite-badminton-racket-01-700x800.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-voltric-lite-47i-iseries-graphite-badminton-racket.html",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/yonex-voltric-lite-47i-badminton-racket-strung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-voltric-lite-47i-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,799.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/yonex-voltric-lite-47i-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
  }
 ];
