@@ -6,7 +6,7 @@ NOISE = r'badminton|racket|recket|racquet|free!?.*$|limited edition|limited|ltd|
 BRAND_WORDS = r'yonex|victor|li-?ning|mizuno|apacs|vs'
 
 ALIASES = [(r'high carbon', 'hc'), (r'sward', 'sword'), (r"lee zii jia'?s( game)?", ' '), (r'tai tzu ying( tribute)?', ' '),
-           (r'pre-?string', ' '), (r'\bseries\b', ' '), (r'\bjin hong\b', ' '), (r'\bgen ?3\b', ' '), (r'\btk-(?=[a-z])', 'thruster '), (r'\bthruster k\b', 'thruster'), (r'\bars-', 'auraspeed '), (r'\bastrox 22\b(?! rx)', 'astrox 22 rx'), (r'\bdragon primer\b', 'dragon p'), (r'\bhammer light\b', 'hmr light'), (r'\bkrisssword\b', 'kriss sword'),
+           (r'pre-?string', ' '), (r'\bseries\b', ' '), (r'\bjin hong\b', ' '), (r'\bgen ?3\b', ' '), (r'\btk-(?=[a-z])', 'thruster '), (r'\bthruster tk\b', 'thruster'), (r'\bthruster k\b', 'thruster'), (r'\bars-', 'auraspeed '), (r'\bastrox 22\b(?! rx)', 'astrox 22 rx'), (r'\bdragon primer\b', 'dragon p'), (r'\bhammer light\b', 'hmr light'), (r'\bkrisssword\b', 'kriss sword'),
            (r'\bblade x\b', 'bladex'), (r'\bdrive x\b', 'drivex'), (r'\bbravesword\b', 'brave sword'), (r'\bkingkong\b', 'king kong'), (r'\bwindspeed\b', 'wind speed')]
 SKIP = r'^x |\bx (doraemon|ultraman|one piece|demon slayer|pokemon|butterbear|dragon ball|b\.duck)|merchandise|world tour finals|china open|training|felet|kumpoo|starbucks|^all|^flare$|^woven$|^$|drm set|gb$|^astrox (clear|feel)$|hmr light mi|hwqkl|^astrox 88 tour$'
 
@@ -44,6 +44,8 @@ def variant_after(title, name):
         if nxt in VARIANT and re.search(r'\b' + nxt + LIGHT_COLOUR + r'|light in the dark', title.lower()): return False
         # "K6L Light": the L already says light
         if nxt in ('light', 'lite') and re.fullmatch(r'\w*\dl', nt[-1] if len(nt[-1]) > 1 else ''.join(nt[-2:])): return False
+        # "Gen III" is Yonex's current Astrox generation, the one this data lists
+        if nxt == 'gen' and after == '3': return False
         if nxt in VARIANT: return True
         # a generation after the name ("Windstorm 700 IV", "Superlite II"), but not "3rd Gen" or a code like "3AX99"
         if nxt and nxt.isdigit() and len(nxt) == 1 and (after is None or after in VARIANT or after.isdigit()): return True
@@ -62,6 +64,22 @@ def match(title, names):
     fwd = [n for n in names if tokens(n) and not (len(tokens(n)) == 1 and re.search(NOISE, n.lower())) and ' ' + ' '.join(tokens(n)) + ' ' in tt]
     best = max(fwd, key=lambda n: len(tokens(n))) if fwd else None
     if best and variant_after(title, best): best = None
+    if not best and not fwd:
+        # a nickname between the words ("HC SURFERNO 1000" for HC 1000): the model's words in order with at most one
+        # word between each, the model number included, and nothing after the name that marks a variant
+        tl = tokens(title)
+        def gapped(n):
+            nt, i = tokens(n), 0
+            if len(nt) < 2 or not any(w.isdigit() for w in nt): return False
+            pos = []
+            for w in nt:
+                j = next((k for k in range(i, len(tl)) if tl[k] == w), None)
+                if j is None or (pos and j - pos[-1] > 2): return False
+                pos.append(j); i = j + 1
+            nxt = tl[pos[-1] + 1] if pos[-1] + 1 < len(tl) else None
+            return nxt not in VARIANT and not (nxt and nxt.isdigit() and len(nxt) == 1)
+        gap = [n for n in names if gapped(n)]
+        if len(gap) == 1: best = gap[0]
     return best, key(clean(title))
 
 def skip(title):

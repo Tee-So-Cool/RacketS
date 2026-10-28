@@ -58,8 +58,11 @@ def flex_of(t):
     if m and m.group(1).count('●') == 1: return SCALE_FLEX[m.group(1).index('●') + 1]
     t = (t or '').lower()
     if re.search('[ก-๙]', t):
-        # "กลางค่อนแข็ง" / "กลางค่อนอ่อน" sit between two grades: medium, kept as an estimate by parse()
+        # "กลางค่อนแข็ง" / "กลางค่อนอ่อน" sit between two grades: medium; "ค่อนแข็ง" / "ค่อนอ่อน" (fairly stiff / soft)
+        # lean to that side; parse() keeps all of them as estimates
         if 'กลาง' in t and ('แข็ง' in t or 'อ่อน' in t): return 'medium'
+        if 'ค่อนแข็ง' in t: return 'stiff'
+        if 'ค่อนอ่อน' in t: return 'flexible'
         return 'extra-stiff' if 'แข็งมาก' in t else 'stiff' if 'แข็ง' in t else 'medium' if 'กลาง' in t else 'flexible' if 'อ่อน' in t else ''
     hits = set()
     if re.search(r'(extra|very|super|ultra)[\s-]*stiff|hard\s*\+|extra hard', t): hits.add('extra-stiff')
@@ -82,13 +85,15 @@ def weights_of(t):
     us = sorted(set(re.findall(r'(?<![\w.])([2-7])\s?U(?![a-z])', t or '')), key=int)
     return ', '.join(u + 'U' for u in us)
 
-def grams_of(t):
+def grams_of(t, labelled=False):
     # a range ("4U (80-84g)") is the weight class, not a figure: its ends are not the racket's weight
     t = re.sub(r'\d{2}(?:[.,]\d)?\s*(?:-|–|~|to)\s*\d{2}(?:[.,]\d)?\s*(?:g|grams?|กรัม)', ' ', t or '')
     # the 4U figure when the text gives several, else the only one
     m = re.search(r'4U[^0-9]{0,6}\(?\s*(?:avg\.?\s*)?(\d{2})(?:[.,]\d)?\s*(?:g|grams?|กรัม)?', t or '')
     if m and 70 <= int(m.group(1)) <= 95: return int(m.group(1))
-    gs = {int(g) for g in re.findall(r'(?<!\d)(\d{2})(?:[.,]\d)?\s*(?:g|grams?|กรัม)\b', t or '') if 70 <= int(g) <= 95}
+    # under a weight label a training racket's 118 g is real; in prose only a playing racket's weight is believed
+    lo, hi = (60, 160) if labelled else (70, 95)
+    gs = {int(g) for g in re.findall(r'(?<!\d)(\d{2,3})(?:[.,]\d)?\s*(?:g|grams?|กรัม)\b', t or '') if lo <= int(g) <= hi}
     return gs.pop() if len(gs) == 1 else ''
 
 def tmax_of(t, prose=False):
@@ -104,7 +109,8 @@ def tmax_of(t, prose=False):
     return max(ns) if ns else ''
 
 def grips_of(t):
-    return ', '.join(sorted({'G' + g for g in re.findall(r'\bG\s?([1-7])\b', t or '')}))
+    # "4UG5": the grip can sit right after the weight class
+    return ', '.join(sorted({'G' + g for g in re.findall(r'(?:\b|(?<=\dU))G\s?([1-7])\b', t or '')}))
 
 COUNTRY = {'china': 'China', 'japan': 'Japan', 'taiwan': 'Taiwan', 'vietnam': 'Vietnam', 'indonesia': 'Indonesia', 'malaysia': 'Malaysia',
            'thailand': 'Thailand', 'india': 'India', 'korea': 'Korea', 'bangladesh': 'Bangladesh', 'philippines': 'Philippines',
@@ -140,6 +146,17 @@ def expand(lines):
         out += split_line(l)
     return out
 
+def tech_list(lines):
+    # a "VS TECHNOLOGY" / "Technology" heading followed by feature names, each usually trailed by a description:
+    # keep the short Latin names up to the spec table
+    i = next((k for k, l in enumerate(lines) if re.fullmatch(r'(?:\w+\s)?technolog(?:y|ies)|product technology:?', l.strip(), re.I)), None)
+    if i is None: return ''
+    names = []
+    for l in lines[i + 1:i + 40]:
+        if re.fullmatch(r'spec(?:ification)?s?:?|-{5,}', l.strip(), re.I) or re.search(r'[:：]\s*\S', l): break
+        if 2 < len(l) <= 50 and not re.search('[ก-๙]', l) and len(l.split()) <= 7 and not l.endswith('.'): names.append(l.strip().rstrip(':： '))
+    return ', '.join(dict.fromkeys(names)) if 2 <= len(names) <= 10 else ''
+
 def parse(lines, options=()):
     out = {}
     lines = expand(lines)
@@ -154,7 +171,8 @@ def parse(lines, options=()):
         # "MADE IN JAPAN." holds its own value
         elif re.match(r'made in\b', l, re.I): lab, val = 'made in', l[7:]
         # a label on its own line takes the next line as its value, unless that line is itself a "Label:" line
-        elif i < len(lines) and len(l.split()) <= 4 and not re.search(r'\d(?!\s*mm\))', l) and label_field(l) and not VALUE_LINE.search(l) and not re.search(r'[:：]\s*$', lines[i]) \
+        # (Thai has no spaces, so a long Thai sentence counts as one word: the length cap catches it)
+        elif i < len(lines) and len(l.split()) <= 4 and len(l) <= 30 and not re.search(r'\d(?!\s*mm\))', l) and label_field(l) and not VALUE_LINE.search(l) and not re.search(r'[:：]\s*$', lines[i]) \
                 and (label_field(l) not in ('frame', 'shaft', 'joint', 'tech') or BARE_LABEL.fullmatch(l.strip(' :：').lower())):
             lab, val = l, lines[i]; i += 1
         else: continue
@@ -168,7 +186,7 @@ def parse(lines, options=()):
         out['flex'] = out.pop('shaft')
     res = {
         'balance': balance_of(out.get('balance')), 'flex': flex_of(out.get('flex')),
-        'weights': weights_of(out.get('weight', '')), 'weight': grams_of(out.get('weight', '')),
+        'weights': weights_of(out.get('weight', '')), 'weight': grams_of(out.get('weight', ''), labelled=True),
         'tmax': tmax_of(out.get('tension', '')) or (int(out['tension'][:2]) if re.match(r'\d{2}\b', out.get('tension', '')) else ''),
         'grips': grips_of(out.get('grips', '') + ' ' + out.get('weight', '')), 'length': length_of(out.get('length', '')) or out.get('length', ''),
         **{f: out.get(f, '') for f in ('frame', 'shaft', 'joint', 'madeIn', 'tech', 'players', 'level', 'recText', 'pattern')},
@@ -176,8 +194,9 @@ def parse(lines, options=()):
         'tech': out.get('highlights') or out.get('tech', ''),
     }
     res['madeIn'] = country_of(res['madeIn'])
-    between = bool(res['flex']) and bool(re.search(r'กลางค่อน|medium[\s-]*(?:to[\s-]*)?(?:stiff|flex)', out.get('flex', ''), re.I))
+    between = bool(res['flex']) and bool(re.search(r'ค่อน|medium[\s-]*(?:to[\s-]*)?(?:stiff|flex)', out.get('flex', ''), re.I))
     if res['shaft'] and not re.search(r'[a-zก-๙]{3}', res['shaft'], re.I): res['shaft'] = ''  # "6.8mm" is a diameter
+    if not res['tech']: res['tech'] = tech_list(lines)
     # pass 2: the prose, for what the labels left empty
     text = ' \n'.join(lines)
     made = {country_of(m) for m in re.findall(r'made in ([A-Za-z]+)', text, re.I)} - {''}

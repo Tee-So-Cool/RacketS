@@ -1051,7 +1051,7 @@ window.RACKETS = [
   "level": "intermediate",
   "weights": "5U",
   "weight": 82,
-  "grips": "",
+  "grips": "G2",
   "tension": [
    null,
    38
@@ -1879,7 +1879,7 @@ window.RACKETS = [
   "joint": "",
   "length": "675mm +/- 2",
   "pattern": "Increases power and extra kick on impact.",
-  "tech": "",
+  "tech": "Isometric head frame, 76 grommet systems, Quad Balance System, Reinforced Structure Frame, Super Slim Shaft 6.2mm, Fused Grommets, Hexagon Throat, Playability, Summary",
   "players": "",
   "madeIn": "",
   "recString": "",
@@ -12785,6 +12785,10 @@ window.RACKETS = [
    {
     "shop": "vssportsthailand.com",
     "url": "https://vssportsthailand.com/products/fire-1000"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/vs-fire-tmr-1000-badminton-racket-white-pink-unstrung"
    }
   ],
   "priceNote": "",
@@ -13089,11 +13093,11 @@ window.RACKETS = [
   ],
   "price": 5390,
   "frame": "46T Mitsubishi Carbon Sheet",
-  "shaft": "",
+  "shaft": "46T Mitsubishi Carbon Sheet",
   "joint": "",
   "length": "675mm.",
   "pattern": "",
-  "tech": "",
+  "tech": "205° Precision Curve Frame, UltraCell Foam, Triple Matrix Core + M40X, Anti-Torsion Cone Cap + Ergonomic Thumb Fit",
   "players": "",
   "madeIn": "",
   "recString": "",
@@ -13104,7 +13108,12 @@ window.RACKETS = [
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5106",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/hc1000-surferno"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -16588,7 +16597,7 @@ window.RACKETS = [
   "joint": "",
   "length": "675 mm",
   "pattern": "",
-  "tech": "",
+  "tech": "PYROFIL, HARD CORED TECHNOLOGY",
   "players": "",
   "madeIn": "China",
   "recString": "",
@@ -17419,7 +17428,7 @@ window.RACKETS = [
   "joint": "",
   "length": "675 mm",
   "pattern": "",
-  "tech": "",
+  "tech": "SWORD, Inner Waves, NANO TEC, FREE CORE",
   "players": "",
   "madeIn": "China",
   "recString": "",
@@ -17626,7 +17635,7 @@ window.RACKETS = [
   "length": "675 mm",
   "pattern": "",
   "tech": "PYROFIL · NANO FORTIFY TR · HIGH RESILIENCE MODULUS GRAPHITE",
-  "players": "",
+  "players": "Wang Tzu Wei (Men's Singles Superstar)",
   "madeIn": "Taiwan",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-drivex-10-metallic-169x300.webp",
@@ -17637,6 +17646,14 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-drivex-10-metallic-badminton-racket"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/victor-drivex-10-metallic-b-badminton-racket"
+   },
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-drivex-10-metallic-badminton-racket"
@@ -18204,10 +18221,10 @@ window.RACKETS = [
   "joint": "",
   "length": "",
   "pattern": "",
-  "tech": "",
+  "tech": "Aero-Sonic Frame",
   "players": "",
   "madeIn": "",
-  "recString": "",
+  "recString": "BG66 Ultimax",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-jetspeed-s-12td-169x300.webp",
   "source": "https://chobbad.com/racket/victor-jetspeed-s-12td/",
   "officialUrl": "",
@@ -18219,6 +18236,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/jetspeed-s-12td-f"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-jetspeed-s12f-badminton-racket"
    },
    {
     "shop": "yumo.ca",
@@ -18461,7 +18482,7 @@ window.RACKETS = [
   "joint": "",
   "length": "675 mm",
   "pattern": "",
-  "tech": "",
+  "tech": "POWERBOX, SEVEN SIX, Hard Cored Technology, FREE CORE, METALLIC CARBON FIBER",
   "players": "",
   "madeIn": "China",
   "recString": "",
@@ -18971,8 +18992,8 @@ window.RACKETS = [
   "shaft": "Graphite+Resin+7.0 SHAFT",
   "joint": "",
   "length": "675 mm",
-  "pattern": "",
-  "tech": "Power Box",
+  "pattern": "Victor’s single-pass",
+  "tech": "Aero-Dynamic Frame, Pyrofil Technology, Energy Bow Structure, Ultra-Thin Shaft, High Tension Frame, Playability, Summary",
   "players": "",
   "madeIn": "China",
   "recString": "",
@@ -18987,6 +19008,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/thruster-hmr-light-g"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-thruster-tk-hammer-light-hmr-l-badminton-racket-pre-strung-chocolate"
    },
    {
     "shop": "sportsshop.asia",
@@ -19049,6 +19074,10 @@ window.RACKETS = [
     "url": "https://th.victorsport.com/product/thruster-hmr-pro-u"
    },
    {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-thruster-tk-hmr-pro-badminton-racket-factory-strung"
+   },
+   {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/victor-thruster-hmr-pro-u-turquoise-83-grams-badminton-racquet"
    },
@@ -19103,6 +19132,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/thruster-hammer-u"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-thruster-tk-hammer-hmr-badminton-racket"
    },
    {
     "shop": "thegodofsports.com",
@@ -19646,7 +19679,7 @@ window.RACKETS = [
   "joint": "",
   "length": "675 mm",
   "pattern": "Takes up the wind and increase the swing speed, and prevent the frame from damaging by the strings while in high stringing tension.",
-  "tech": "",
+  "tech": "Pyrofil, Hard Cored Technology, FREE CORE, tkonigiripro | tk onigiri pro | tk-onigiri-pro",
   "players": "",
   "madeIn": "",
   "recString": "",
@@ -19999,7 +20032,7 @@ window.RACKETS = [
   "joint": "",
   "length": "675 mm",
   "pattern": "",
-  "tech": "Inspired by military helicopter, multi-layered structure made by carbon fiber and composites, minimize material size, reinforce handling feel and performance at a critical standard.",
+  "tech": "Power BOX, Seven Six, Pyrofil, Hard Cored Technology, Free Core",
   "players": "",
   "madeIn": "China",
   "recString": "",
@@ -20171,7 +20204,7 @@ window.RACKETS = [
   "joint": "",
   "length": "675 mm",
   "pattern": "",
-  "tech": "",
+  "tech": "NANO AEROGEL, Hard Cored Technology, METALLIC CARBON FIBER, Nano Fortify TR+, VICTOR ANTI-TORSION SYSTEM, PYROFIL by Mitsubishi, WHIPPING ENHANCE SYSTEM 3.0, FREE CORE 2.0, DYNAMIC BOX",
   "players": "",
   "madeIn": "",
   "recString": "Aerobite (คุม), BG80 (พลัง)",
@@ -20859,7 +20892,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "intermediate",
   "weights": "",
-  "weight": "",
+  "weight": 140,
   "grips": "G5",
   "tension": [
    null,
@@ -21135,7 +21168,7 @@ window.RACKETS = [
   "level": "beginner",
   "weights": "4U",
   "weight": 84,
-  "grips": "",
+  "grips": "G5",
   "tension": [
    20,
    30
@@ -21673,7 +21706,7 @@ window.RACKETS = [
   "joint": "",
   "length": "10 mm longer",
   "pattern": "",
-  "tech": "AERO+BOX Frame",
+  "tech": "AERO Frame, Isometric™, Sonic Flare System, Max Acceleration, Control Support CAP, Sharp Maneuverability, Slim Shafts, Rotational Generator System, Counterbalanced Weight Distribution",
   "players": "",
   "madeIn": "China",
   "recString": "- 5U: 20 - 27 lbs",
@@ -21935,7 +21968,7 @@ window.RACKETS = [
   "joint": "Built-in T-Joint",
   "length": "10 mm longer",
   "pattern": "",
-  "tech": "",
+  "tech": "enabling, 35 lbs string tension",
   "players": "",
   "madeIn": "",
   "recString": "",
@@ -22948,6 +22981,10 @@ window.RACKETS = [
     "url": "https://tenniszon.com/products/yonex-astrox-88-play-strung-black-silver"
    },
    {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-88-play-black-silver-4u5"
+   },
+   {
     "shop": "thegodofsports.com",
     "url": "https://thegodofsports.com/products/yonex-astrox-88-play-badminton-racket-3rd-gen"
    }
@@ -23018,6 +23055,10 @@ window.RACKETS = [
    {
     "shop": "tenniszon.com",
     "url": "https://tenniszon.com/products/yonex-astrox-88-d-game-strung-black-silver"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-88d-game-black-silver-4u5"
    },
    {
     "shop": "thegodofsports.com",
@@ -23092,6 +23133,10 @@ window.RACKETS = [
     "url": "https://tenniszon.com/products/yonex-astrox-88-d-pro-unstrung-black-silver"
    },
    {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-88d-pro-free-restring-upgrades-unstrung-4u5"
+   },
+   {
     "shop": "thegodofsports.com",
     "url": "https://thegodofsports.com/products/yonex-astrox-88d-pro-badminton-racket-3rd-gen"
    }
@@ -23154,6 +23199,10 @@ window.RACKETS = [
    {
     "shop": "tenniszon.com",
     "url": "https://tenniszon.com/products/yonex-astrox-88-d-tour-unstrung-black-silver"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-88d-tour-black-silver-4u5-free-restring-strung"
    },
    {
     "shop": "thegodofsports.com",
@@ -23572,7 +23621,7 @@ window.RACKETS = [
   "level": "pro",
   "weights": "4U, 3U",
   "weight": 83,
-  "grips": "G5",
+  "grips": "G4, G5",
   "tension": [
    20,
    28
@@ -24209,7 +24258,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "advanced",
   "weights": "",
-  "weight": "",
+  "weight": 118,
   "grips": "G4, G5",
   "tension": [
    20,
@@ -24375,7 +24424,7 @@ window.RACKETS = [
   "joint": "",
   "length": "21 in.",
   "pattern": "",
-  "tech": "",
+  "tech": "ISOMETRIC, Muscle Power Frame, MP2JR, | 2026",
   "players": "",
   "madeIn": "",
   "recString": "",
@@ -24430,7 +24479,7 @@ window.RACKETS = [
   "joint": "",
   "length": "",
   "pattern": "",
-  "tech": "",
+  "tech": "ISOMETRIC, Enlarged Sweet Spot, MUSCLE POWER Frame, Unity of String & Frame",
   "players": "",
   "madeIn": "",
   "recString": "2U (93g) G5",
@@ -24582,7 +24631,7 @@ window.RACKETS = [
   "joint": "",
   "length": "10 mm longer",
   "pattern": "",
-  "tech": "AERO Frame",
+  "tech": "Aero Frame Technology, Isometric Head Design, Built-in T-Joint, Control Support Cap, Playability, Summary",
   "players": "",
   "madeIn": "China",
   "recString": "BG Exbolt 68 (คุม), BG Exbolt 65 (พลัง)",
@@ -25424,7 +25473,7 @@ window.RACKETS = [
   "level": "pro",
   "weights": "4U",
   "weight": 83,
-  "grips": "G5",
+  "grips": "G5, G6",
   "tension": [
    19,
    28
