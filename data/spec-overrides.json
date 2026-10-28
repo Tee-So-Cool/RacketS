@@ -1212,9 +1212,10 @@
   "weights": "4U, 3U",
   "weight": 90,
   "level": "beginner",
-  "src": "https://badmintonbites.com/the-complete-guide-to-victor-badminton-rackets-auraspeed-series/",
+  "src": "https://shop.kibisports.com/en-intl/collections/brand-victor/products/auraspeed-70k-unstrung-badminton-racket-blue",
   "new": true,
-  "brand": "Victor"
+  "brand": "Victor",
+  "price": 3990
  },
  "Victor Auraspeed 8000": {
   "balance": "even",
@@ -1246,7 +1247,8 @@
   "src": "https://www.badmintonplaza.com/index.php?cPath=53_168&currency=THB",
   "new": true,
   "brand": "Victor",
-  "price": 4700
+  "price": 4700,
+  "balance": "head-heavy"
  },
  "Victor Auraspeed Hypersonic": {
   "balance": "even",
@@ -1705,7 +1707,10 @@
  "Victor DriveX 09": {
   "flex": "medium",
   "weights": "4U",
-  "src": "https://www.tennisnuts.com/victor-drivex-09-m-badminton-racket-strung-1564095.html"
+  "src": "https://shop.kibisports.com/en-intlnd/products/drive-x-09-m-strung-badminton-racket",
+  "level": "beginner",
+  "priceForeign": 3192.0,
+  "currency": "INR"
  },
  "Victor DriveX 6SP": {
   "balance": "even",
@@ -1750,9 +1755,12 @@
  },
  "Victor Auraspeed 9000": {
   "balance": "even",
-  "src": "https://www.badmintonplaza.com/index.php?cPath=53_168&currency=THB",
+  "src": "https://www.sakurasport.com/en/1483-auraspeed-9000-g-badminton-racket-victor-4711499038523.html",
   "weights": "5U, 4U",
-  "price": 1990
+  "price": 1990,
+  "tmax": 30,
+  "priceForeign": 97.9,
+  "currency": "EUR"
  },
  "Victor Auraspeed 90F": {
   "weights": "5U",
@@ -1784,11 +1792,12 @@
  "Victor TK-70": {
   "balance": "head-heavy",
   "flex": "medium",
-  "src": "https://www.badmintonplaza.com/product_info.php?products_id=3733",
+  "src": "https://www.badmintonplaza.com/index.php?cPath=53_168&currency=THB&sort=1a&page=2",
   "weights": "6U",
   "tmax": 31,
   "level": "intermediate",
-  "price": 2190
+  "price": 2190,
+  "weight": 70
  },
  "Victor Thruster K 15L": {
   "balance": "head-heavy",
@@ -1840,11 +1849,11 @@
   "flex": "stiff",
   "weights": "4U",
   "weight": 83,
-  "src": "https://www.badmintonwarehouse.com/products/victor-auraspeed-fantome-f-hyq-a-badminton-racket",
+  "src": "https://www.sakurasport.com/en/2124-badminton-racket-auraspeed-fantome-f-ac-4ug5-victor-4711581155381.html",
   "tmax": 28,
   "level": "advanced",
-  "priceForeign": 220.0,
-  "currency": "USD"
+  "priceForeign": 186.92,
+  "currency": "EUR"
  },
  "Victor DriveX KT": {
   "balance": "even",
@@ -1856,7 +1865,10 @@
  },
  "Victor Jetspeed S 800HT": {
   "weights": "4U",
-  "src": "https://topcricketstore.com/products/victor-jetspeed-s-800ht-a-badminton-racket"
+  "src": "https://www.sakurasport.com/en/971-jetspeed-s-800ht-badminton-racket-victor.html",
+  "balance": "even",
+  "priceForeign": 50.92,
+  "currency": "EUR"
  },
  "Victor Thruster 220H II": {
   "balance": "head-heavy",
@@ -2270,12 +2282,12 @@
  "Victor Auraspeed 90K II TD": {
   "balance": "head-light",
   "flex": "stiff",
-  "weights": "4U",
-  "tmax": 30,
+  "weights": "4U, 3U",
+  "tmax": 27,
   "level": "intermediate",
   "priceForeign": 6592.0,
   "currency": "INR",
-  "src": "https://thegodofsports.com/victor-aursapeed-90k-ii-td-badminton-racket/"
+  "src": "https://yumo.ca/products/victor-auraspeed-90k-ii-td-unstrung-badminton-racket-midnight-blue"
  },
  "Victor Brave Sword 12": {
   "balance": "even",
@@ -2307,14 +2319,19 @@
   "flex": "stiff",
   "weights": "4U, 3U",
   "price": 4390,
-  "src": "https://www.badmintonplaza.com/index.php?cPath=53_168&currency=THB"
+  "src": "https://www.sakurasport.com/en/1726-drivex-metallic-c-badminton-racket-victor-4711499043473.html",
+  "tmax": 28,
+  "priceForeign": 127.42,
+  "currency": "EUR"
  },
  "Victor DriveX Phecda": {
   "balance": "even",
   "weights": "4U, 3U",
   "priceForeign": 139.99,
   "currency": "USD",
-  "src": "https://joybadminton.com/products/victor-drivex-phecda-dx-phecda-a-white-4ug5"
+  "src": "https://gemsports.com.au/products/victor-drivex-phecda-white-badminton-racquet-unstrung-free-grip",
+  "flex": "stiff",
+  "tmax": 29
  },
  "Victor Jetspeed S 12TD": {
   "balance": "head-light",
@@ -2678,5 +2695,97 @@
   "priceForeign": 330.0,
   "currency": "MYR",
   "src": "https://www.badmintonbay.com.my/Badminton-Racket/Apacs-Badminton-Racket/apacs-honor-pro-dark-grey-neon-green-badminton-racket.html"
+ },
+ "Victor Auraspeed ETA": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "3U",
+  "priceForeign": 119.9,
+  "currency": "EUR",
+  "src": "https://sakurasport.com/en/1295-auraspeed-eta-c-badminton-racket-victor-4711393259291.html"
+ },
+ "Victor Auraspeed Fantome": {
+  "flex": "stiff",
+  "weights": "4U, 3U",
+  "tmax": 32,
+  "priceForeign": 177.65,
+  "currency": "EUR",
+  "src": "https://www.sakurasport.com/en/1756-badminton-racket-auraspeed-fantome-j-4ug5-victor-4005543023239.html"
+ },
+ "Victor Auraspeed JU": {
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 83,
+  "tmax": 30,
+  "priceForeign": 109.0,
+  "currency": "SGD",
+  "src": "https://sportsshop.asia/products/victor-auraspeed-ju-c-badminton-racket-unstrung"
+ },
+ "Victor DriveX F": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "5U",
+  "priceForeign": 118.15,
+  "currency": "EUR",
+  "src": "https://www.sakurasport.com/en/1274-drivex-f-t-badminton-racket-victor-4005543021952.html"
+ },
+ "Victor Jetspeed T1": {
+  "weights": "4U",
+  "tmax": 28,
+  "priceForeign": 118.92,
+  "currency": "EUR",
+  "src": "https://www.sakurasport.com/en/778-jetspeed-t1-h-badminton-racket-victor-4713436389941.html"
+ },
+ "Victor Jetspeed T1PRO": {
+  "flex": "stiff",
+  "weights": "4U",
+  "tmax": 28,
+  "level": "intermediate",
+  "priceForeign": 110.42,
+  "currency": "EUR",
+  "src": "https://www.sakurasport.com/en/1019-jetspeed-t1-pro-c-badminton-racket-victor-4711393240428.html"
+ },
+ "Victor Thruster Merak": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "priceForeign": 112.97,
+  "currency": "EUR",
+  "src": "https://www.sakurasport.com/en/1666-thruster-merak-b-badminton-racket-victor-4005543023260.html"
+ },
+ "Victor Thruster T500": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U, 3U",
+  "tmax": 31,
+  "priceForeign": 159.0,
+  "currency": "SGD",
+  "src": "https://sportsshop.asia/products/victor-thruster-k-t500-badminton-racket-unstrung-tk-t500"
+ },
+ "Victor Thruster HMR Light": {
+  "balance": "head-heavy",
+  "weights": "6U, 5U",
+  "tmax": 28,
+  "level": "beginner",
+  "price": 2190,
+  "src": "https://www.badmintonplaza.com/index.php?cPath=53_168&currency=THB&sort=1a&page=2"
+ },
+ "Victor Thruster K 816CL": {
+  "tmax": 20,
+  "src": "https://yumo.ca/products/victor-thruster-k-816cl-strung-badminton-racket-green-tk-816cl-r"
+ },
+ "Victor DriveX 1": {
+  "balance": "even",
+  "flex": "flexible",
+  "tmax": 27,
+  "priceForeign": 119.0,
+  "currency": "EUR",
+  "src": "https://sportano.com/p/729934/badminton-racket-victor-drivex-moonlight-white"
+ },
+ "Victor Auraspeed 3210": {
+  "flex": "medium",
+  "weights": "4U",
+  "tmax": 26,
+  "src": "https://24h.pchome.com.tw/prod/DXCD05-A900J5PHA"
  }
 }

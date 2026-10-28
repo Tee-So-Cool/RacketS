@@ -14885,7 +14885,7 @@ window.RACKETS = [
   "year": 2024,
   "style": "speed",
   "balance": "head-light",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "beginner",
   "weights": "4U",
   "weight": 83,
@@ -14907,7 +14907,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-3210-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-3210/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://24h.pchome.com.tw/prod/DXCD05-A900J5PHA",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -15106,7 +15106,7 @@ window.RACKETS = [
   "img": "https://www.badmintonplaza.com/images/ARS-70K-A.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://badmintonbites.com/the-complete-guide-to-victor-badminton-rackets-auraspeed-series/",
+  "specSrc": "https://shop.kibisports.com/en-intl/collections/brand-victor/products/auraspeed-70k-unstrung-badminton-racket-blue",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=2013",
   "bayUrl": "",
   "clickUrl": "",
@@ -15237,7 +15237,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-9000-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-9000/",
   "officialUrl": "",
-  "specSrc": "https://www.badmintonplaza.com/index.php?cPath=53_168&currency=THB",
+  "specSrc": "https://www.sakurasport.com/en/1483-auraspeed-9000-g-badminton-racket-victor-4711499038523.html",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5191",
   "bayUrl": "",
   "clickUrl": "",
@@ -15401,12 +15401,12 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "stiff",
   "level": "intermediate",
-  "weights": "4U",
+  "weights": "4U, 3U",
   "weight": "",
   "grips": "",
   "tension": [
    null,
-   30
+   27
   ],
   "price": 2200,
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR + Hard Cored Technology",
@@ -15421,7 +15421,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-auraspeed-90k-ii-td-300x225.webp",
   "source": "https://chobbad.com/racket/rk-victor-auraspeed-90k-ii-td/",
   "officialUrl": "",
-  "specSrc": "https://thegodofsports.com/victor-aursapeed-90k-ii-td-badminton-racket/",
+  "specSrc": "https://yumo.ca/products/victor-auraspeed-90k-ii-td-unstrung-badminton-racket-midnight-blue",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -15529,10 +15529,10 @@ window.RACKETS = [
   "name": "Auraspeed ETA",
   "year": 2024,
   "style": "speed",
-  "balance": "head-light",
+  "balance": "even",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "3U, 4U",
+  "weights": "3U",
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
@@ -15552,7 +15552,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-eta-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-eta/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://sakurasport.com/en/1295-auraspeed-eta-c-badminton-racket-victor-4711393259291.html",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -15561,7 +15561,6 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance",
    "level"
   ]
  },
@@ -15620,12 +15619,12 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "3U",
+  "weights": "4U, 3U",
   "weight": 88,
   "grips": "G5",
   "tension": [
    null,
-   30
+   32
   ],
   "price": 5390,
   "frame": "High ResilienceModulus Graphite+NANO AEROGEL+PBO High Performance Fiber+HARD CORED TECHNOLOGY",
@@ -15640,7 +15639,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-fantome-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-fantome/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.sakurasport.com/en/1756-badminton-racket-auraspeed-fantome-j-4ug5-victor-4005543023239.html",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4713",
   "bayUrl": "",
   "clickUrl": "https://badmintonclick.com.au/products/victor-auraspeed-fantome-83-grams-badminton-racquet",
@@ -15694,7 +15693,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-fantome-f-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-fantome-f/",
   "officialUrl": "",
-  "specSrc": "https://www.badmintonwarehouse.com/products/victor-auraspeed-fantome-f-hyq-a-badminton-racket",
+  "specSrc": "https://www.sakurasport.com/en/2124-badminton-racket-auraspeed-fantome-f-ac-4ug5-victor-4711581155381.html",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "https://badmintonclick.com.au/products/victor-auraspeed-fantome-f-huang-yaqiong-2-0-edition-83-grams-badminton-racquet",
@@ -15858,14 +15857,14 @@ window.RACKETS = [
   "year": 2024,
   "style": "speed",
   "balance": "even",
-  "flex": "stiff",
+  "flex": "medium",
   "level": "advanced",
-  "weights": "3U, 4U",
+  "weights": "4U",
   "weight": 83,
   "grips": "G5",
   "tension": [
    null,
-   31
+   30
   ],
   "price": 3500,
   "frame": "Graphite + Resin + Fiber Reinforced System",
@@ -15880,7 +15879,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-ju-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-ju/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://sportsshop.asia/products/victor-auraspeed-ju-c-badminton-racket-unstrung",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -16191,7 +16190,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-drivex-09-169x300.webp",
   "source": "https://chobbad.com/racket/victor-drivex-09/",
   "officialUrl": "",
-  "specSrc": "https://www.tennisnuts.com/victor-drivex-09-m-badminton-racket-strung-1564095.html",
+  "specSrc": "https://shop.kibisports.com/en-intlnd/products/drive-x-09-m-strung-badminton-racket",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -16200,8 +16199,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance",
-   "level"
+   "balance"
   ]
  },
  {
@@ -16211,7 +16209,7 @@ window.RACKETS = [
   "year": 2025,
   "style": "allround",
   "balance": "even",
-  "flex": "",
+  "flex": "flexible",
   "level": "beginner",
   "weights": "4U, 5U",
   "weight": 83,
@@ -16233,7 +16231,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-drivex-1-169x300.webp",
   "source": "https://chobbad.com/racket/victor-drivex-1/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://sportano.com/p/729934/badminton-racket-victor-drivex-moonlight-white",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -16242,7 +16240,6 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance",
    "level"
   ]
  },
@@ -16476,10 +16473,10 @@ window.RACKETS = [
   "name": "DriveX F",
   "year": 2024,
   "style": "allround",
-  "balance": "even",
-  "flex": "",
+  "balance": "head-heavy",
+  "flex": "stiff",
   "level": "advanced",
-  "weights": "4U, 5U",
+  "weights": "5U",
   "weight": 83,
   "grips": "G5, G6",
   "tension": [
@@ -16499,7 +16496,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-drivex-f-169x300.webp",
   "source": "https://chobbad.com/racket/victor-drivex-f/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.sakurasport.com/en/1274-drivex-f-t-badminton-racket-victor-4005543021952.html",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -16508,7 +16505,6 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance",
    "level"
   ]
  },
@@ -16567,7 +16563,7 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   29
+   28
   ],
   "price": 4390,
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
@@ -16582,7 +16578,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-drivex-metallic-169x300.webp",
   "source": "https://chobbad.com/racket/victor-drivex-metallic/",
   "officialUrl": "",
-  "specSrc": "https://www.badmintonplaza.com/index.php?cPath=53_168&currency=THB",
+  "specSrc": "https://www.sakurasport.com/en/1726-drivex-metallic-c-badminton-racket-victor-4711499043473.html",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4304",
   "bayUrl": "",
   "clickUrl": "",
@@ -16602,14 +16598,14 @@ window.RACKETS = [
   "year": 2025,
   "style": "allround",
   "balance": "even",
-  "flex": "",
+  "flex": "stiff",
   "level": "advanced",
   "weights": "4U, 3U",
   "weight": 88,
   "grips": "G5",
   "tension": [
    null,
-   30
+   29
   ],
   "price": 4600,
   "frame": "High Resilience Graphite + Nano Fortify SR + HARD CORED TECHNOLOGY",
@@ -16624,7 +16620,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-drivex-phecda-169x300.webp",
   "source": "https://chobbad.com/racket/victor-drivex-phecda/",
   "officialUrl": "",
-  "specSrc": "https://joybadminton.com/products/victor-drivex-phecda-dx-phecda-a-white-4ug5",
+  "specSrc": "https://gemsports.com.au/products/victor-drivex-phecda-white-badminton-racquet-unstrung-free-grip",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -16775,7 +16771,7 @@ window.RACKETS = [
   "name": "Jetspeed S 800HT",
   "year": 2023,
   "style": "speed",
-  "balance": "head-light",
+  "balance": "even",
   "flex": "",
   "level": "beginner",
   "weights": "4U",
@@ -16798,7 +16794,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-jetspeed-s-800ht-169x300.webp",
   "source": "https://chobbad.com/racket/victor-jetspeed-s-800ht/",
   "officialUrl": "",
-  "specSrc": "https://topcricketstore.com/products/victor-jetspeed-s-800ht-a-badminton-racket",
+  "specSrc": "https://www.sakurasport.com/en/971-jetspeed-s-800ht-badminton-racket-victor.html",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -16807,7 +16803,6 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance",
    "level"
   ]
  },
@@ -16840,7 +16835,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-jetspeed-t1-169x300.webp",
   "source": "https://chobbad.com/racket/victor-jetspeed-t1/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.sakurasport.com/en/778-jetspeed-t1-h-badminton-racket-victor-4713436389941.html",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -16868,8 +16863,8 @@ window.RACKETS = [
   "year": 2023,
   "style": "speed",
   "balance": "head-light",
-  "flex": "",
-  "level": "advanced",
+  "flex": "stiff",
+  "level": "intermediate",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -16890,7 +16885,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-jetspeed-t1pro-169x300.webp",
   "source": "https://chobbad.com/racket/victor-jetspeed-t1pro/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.sakurasport.com/en/1019-jetspeed-t1-pro-c-badminton-racket-victor-4711393240428.html",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -16899,8 +16894,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance",
-   "level"
+   "balance"
   ]
  },
  {
@@ -17049,7 +17043,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "intermediate",
   "weights": "6U",
-  "weight": "",
+  "weight": 70,
   "grips": "",
   "tension": [
    null,
@@ -17068,7 +17062,7 @@ window.RACKETS = [
   "img": "https://www.badmintonplaza.com/images/TK-70U-A.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3733",
+  "specSrc": "https://www.badmintonplaza.com/index.php?cPath=53_168&currency=THB&sort=1a&page=2",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3733",
   "bayUrl": "",
   "clickUrl": "",
@@ -17400,14 +17394,14 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "",
   "level": "beginner",
-  "weights": "5U, 6U",
+  "weights": "6U, 5U",
   "weight": 73,
   "grips": "G5, G6",
   "tension": [
    null,
    28
   ],
-  "price": 1500,
+  "price": 2190,
   "frame": "Graphite+Resin",
   "shaft": "Graphite+Resin+7.0 SHAFT",
   "joint": "",
@@ -17420,7 +17414,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-thruster-hmr-light-169x300.webp",
   "source": "https://chobbad.com/racket/victor-thruster-hmr-light/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com/index.php?cPath=53_168&currency=THB&sort=1a&page=2",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -17428,10 +17422,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "balance",
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "victor-thruster-hmr-pro",
@@ -17764,7 +17755,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-thruster-k-816cl-169x300.webp",
   "source": "https://chobbad.com/racket/victor-thruster-k-816cl/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://yumo.ca/products/victor-thruster-k-816cl-strung-badminton-racket-green-tk-816cl-r",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -18047,9 +18038,9 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "stiff",
   "level": "advanced",
-  "weights": "3U, 4U",
+  "weights": "4U",
   "weight": 83,
   "grips": "G5",
   "tension": [
@@ -18069,7 +18060,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-thruster-merak-169x300.webp",
   "source": "https://chobbad.com/racket/victor-thruster-merak/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.sakurasport.com/en/1666-thruster-merak-b-badminton-racket-victor-4005543023260.html",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -18078,7 +18069,6 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance",
    "level"
   ]
  },
@@ -18782,12 +18772,12 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "intermediate",
-  "weights": "3U, 4U",
+  "weights": "4U, 3U",
   "weight": 83,
   "grips": "G5",
   "tension": [
    null,
-   32
+   31
   ],
   "price": 2890,
   "frame": "High Resilience Graphite + NanoResin HARD CORED TECHNOLOGY",
@@ -18802,7 +18792,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-thruster-t500-169x300.webp",
   "source": "https://chobbad.com/racket/victor-thruster-t500/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://sportsshop.asia/products/victor-thruster-k-t500-badminton-racket-unstrung-tk-t500",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
