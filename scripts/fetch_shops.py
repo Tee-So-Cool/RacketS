@@ -1,6 +1,7 @@
 # Fetch racket spec blocks from shops whose Shopify product feed is public and allowed by robots.txt,
 # into scripts/sources/shops.json. One feed page of 250 products every 3 s per shop.
-# Labels are kept raw ({label: value}); build_rackets.py maps them to fields.
+# Each product keeps its description lines, variant options and tags; build_rackets.py reads specs from them
+# (labelled lines first, then the prose), so a page without a spec table still counts.
 # Run: python3 scripts/fetch_shops.py
 import html, json, os, re, time, urllib.request
 
@@ -12,6 +13,9 @@ SHOPS = [
     ('badmintonwarehouse.com', 'USD', ''),
     ('nydhi.com', 'INR', ''),
     ('sportsshop.asia', 'SGD', ''),
+    ('badmintonclick.com.au', 'AUD', ''),
+    ('sg.lining.studio', 'SGD', 'Li-Ning'),
+    ('in.lining.studio', 'INR', 'Li-Ning'),
 ]
 # the labels shops use for a spec; a line that equals one of these takes the next line as its value
 LABELS = ['balance', 'balance point', 'flex', 'flexibility', 'shaft flexibility', 'shaft stiffness', 'stiffness',
@@ -30,9 +34,11 @@ def get(url):
     time.sleep(3)
     return json.loads(urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'}), timeout=40).read())
 
-def spec_of(body):
+def lines_of(body):
     body = re.sub(r'<style.*?</style>|<script.*?</script>', '', body or '', flags=re.S)
-    L = [l.strip() for l in html.unescape(re.sub(r'<[^>]+>', '\n', body)).replace('\xa0', ' ').split('\n') if l.strip()]
+    return [l.strip() for l in html.unescape(re.sub(r'<[^>]+>', '\n', body)).replace('\xa0', ' ').split('\n') if l.strip()]
+
+def spec_of(L):
     spec = {}
     for i, l in enumerate(L):
         m = re.match(r'^-?\s*([^:：]{2,30}?)\s*[:：]\s*(.+)$', l)
@@ -54,12 +60,14 @@ for dom, cur, brand in SHOPS:
         for p in ps:
             if not RACKET.search(p['title'] + ' ' + (p.get('product_type') or '')) or NOT_RACKET.search(p['title'] + ' ' + (p.get('product_type') or '')):
                 continue
-            spec = spec_of(p.get('body_html'))
-            if not spec: continue
+            L = lines_of(p.get('body_html'))
+            if not L: continue
             price = min((float(v['price']) for v in p['variants'] if v.get('price') and float(v['price']) > 0), default='')
             out.append({'shop': dom, 'brand': brand or p.get('vendor', ''), 'name': p['title'], 'url': f'https://{dom}/products/{p["handle"]}',
-                        'price': price, 'currency': cur, 'img': (p.get('images') or [{}])[0].get('src', ''), 'spec': spec})
+                        'price': price, 'currency': cur, 'img': (p.get('images') or [{}])[0].get('src', ''), 'spec': spec_of(L), 'lines': L,
+                        'options': sorted({v['title'] for v in p['variants'] if v.get('title') and v['title'] != 'Default Title'}),
+                        'tags': p.get('tags', [])})
             n += 1
-    print(dom, 'rackets with specs', n, flush=True)
+    print(dom, 'rackets', n, flush=True)
     json.dump(out, open(os.path.join(ROOT, 'scripts', 'sources', 'shops.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print('total', len(out))
