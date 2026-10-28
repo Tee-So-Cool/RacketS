@@ -6,7 +6,7 @@ NOISE = r'badminton|racket|recket|racquet|free!?.*$|limited edition|limited|ltd|
 BRAND_WORDS = r'yonex|victor|li-?ning|mizuno|apacs|vs'
 
 ALIASES = [(r'high carbon', 'hc'), (r'sward', 'sword'), (r"lee zii jia'?s( game)?", ' '), (r'tai tzu ying( tribute)?', ' '),
-           (r'pre-?string', ' '), (r'\bseries\b', ' '), (r'\bjin hong\b', ' '), (r'\bgen ?3\b', ' '), (r'\btk-(?=[a-z])', 'thruster '), (r'\bthruster k\b', 'thruster'), (r'\bars-', 'auraspeed '), (r'\bastrox 22\b(?! rx)', 'astrox 22 rx'), (r'\bdragon primer\b', 'dragon p'), (r'\bhammer light\b', 'hmr light')]
+           (r'pre-?string', ' '), (r'\bseries\b', ' '), (r'\bjin hong\b', ' '), (r'\bgen ?3\b', ' '), (r'\btk-(?=[a-z])', 'thruster '), (r'\bthruster k\b', 'thruster'), (r'\bars-', 'auraspeed '), (r'\bastrox 22\b(?! rx)', 'astrox 22 rx'), (r'\bdragon primer\b', 'dragon p'), (r'\bhammer light\b', 'hmr light'), (r'\bkrisssword\b', 'kriss sword')]
 SKIP = r'^x |\bx (doraemon|ultraman|one piece|demon slayer|pokemon|butterbear|dragon ball|b\.duck)|merchandise|world tour finals|china open|training|felet|kumpoo|starbucks|^all|^flare$|^woven$|^$|drm set|gb$|^astrox (clear|feel)$|hmr light mi|hwqkl|^astrox 88 tour$'
 
 def clean(title):

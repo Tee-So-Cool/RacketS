@@ -28,6 +28,8 @@ LABEL_RULES = [
 ]
 # a short line that is itself a value ("Flexible Feel", "Head Heavy") is not a label, even though it holds a label word
 VALUE_LINE = re.compile(r'flexible|\bstiff\b|\bmedium\b|head[\s-]*(?:heavy|light)|even[\s-]*balance', re.I)
+# a heading on its own line ("DIAMOND FRAME", "VS TECHNOLOGY") names a feature, not the material or tech label
+BARE_LABEL = re.compile(r'(?:frame|shaft|joint)(?: material| composition)?|(?:key |main )?technolog(?:y|ies)|วัสดุ(?:เฟรม|ก้าน)?|เฟรม|ก้าน|ข้อต่อ|เทคโนโลยี')
 SKIP_LABEL = re.compile(r'recommended tension|stringing advice|suggested tension|colou?r|^size$|ไซส์|^สี|shape|thickness|product (?:type|range)|player type|net quantity', re.I)
 
 def label_field(lab):
@@ -108,10 +110,10 @@ def length_of(t):
     return m.group(1) + ' mm' if m else ''
 
 # label phrases that start a new "Label: value" inside one line, longest first so "Shaft Material" beats "Shaft"
-SPLIT_AT = re.compile(r'(?<![A-Za-z])(frame material|frame composition|shaft material|shaft flexibility|shaft stiffness|racket balance|'
+SPLIT_AT = re.compile(r'(?:(?<![A-Za-z])|(?=[ก-๙]))(frame material|frame composition|shaft material|shaft flexibility|shaft stiffness|racket balance|'
                       r'balance point|max(?:imum)?\.? (?:string(?:ing)? )?tension|string(?:ing)? tension|weight ?/ ?grip(?: size)?|grip size|'
                       r'made in|country of origin|recommended strings?|balance|flexibility|flex|stiffness|weight|frame|shaft|joint|length|'
-                      r'technology|technologies|tension|วัสดุเฟรม|วัสดุก้าน|จุดสมดุล|น้ำหนัก|ความยาว|ขึ้นเอ็น|ด้าม|ก้าน)\s*[:：]', re.I)
+                      r'technology|technologies|tension|จุดเด่น|สีของไม้|ประเภทไม้|วัสดุเฟรม|วัสดุก้าน|จุดสมดุล|น้ำหนัก|ความยาว|ขึ้นเอ็น|ด้าม|ก้าน)\s*[:：]', re.I)
 def split_line(l):
     # "Frame Material : HM Graphite Shaft Material: HM Graphite Flex: Medium" -> one "Label: value" per label
     cuts = [m.start(1) for m in SPLIT_AT.finditer(l)]
@@ -143,7 +145,8 @@ def parse(lines, options=()):
         # "MADE IN JAPAN." holds its own value
         elif re.match(r'made in\b', l, re.I): lab, val = 'made in', l[7:]
         # a label on its own line takes the next line as its value, unless that line is itself a "Label:" line
-        elif i < len(lines) and len(l.split()) <= 4 and not re.search(r'\d(?!\s*mm\))', l) and label_field(l) and not VALUE_LINE.search(l) and not re.search(r'[:：]\s*$', lines[i]):
+        elif i < len(lines) and len(l.split()) <= 4 and not re.search(r'\d(?!\s*mm\))', l) and label_field(l) and not VALUE_LINE.search(l) and not re.search(r'[:：]\s*$', lines[i]) \
+                and (label_field(l) not in ('frame', 'shaft', 'joint', 'tech') or BARE_LABEL.fullmatch(l.strip(' :：').lower())):
             lab, val = l, lines[i]; i += 1
         else: continue
         f = label_field(lab)

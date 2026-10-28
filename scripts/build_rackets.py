@@ -62,7 +62,8 @@ def weights(*txt):
     t = ' '.join(txt)
     us = sorted(set(re.findall(r'\b([2-7]U)\b', t)), key=lambda u: -int(u[0]))
     g = None
-    m = re.search(r'4U[^)]*?(\d{2})(?:\.\d)?\s*g', t) or re.search(r'(\d{2})(?:\.\d)?\s*g\b', t)
+    # "4U (82±2 g)": the tolerance sits between the figure and the unit
+    m = re.search(r'4U[^)]*?(\d{2})(?:\.\d)?\s*(?:(?:±|\+-|\+/-)\s*\d\s*)?g', t) or re.search(r'(\d{2})(?:\.\d)?\s*(?:(?:±|\+-|\+/-)\s*\d\s*)?g\b', t)
     if m and 60 <= int(m.group(1)) <= 100: g = int(m.group(1))
     elif us: g = UW['4U'] if '4U' in us else UW[us[0]]
     return ', '.join(us[::-1]) if us else '', g or ''
