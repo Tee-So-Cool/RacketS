@@ -333,10 +333,8 @@ h1, h2, .head .nm, .verdict, .tension, .logo { font-weight: var(--display-weight
 .two.solo { grid-template-columns: minmax(0, 1fr); }
 .two.solo .legend { margin-bottom: var(--space-md); }
 
-/* compare tools: copy link, recent comparisons */
+/* compare tools: copy link */
 .sheet-tools { display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm); margin-top: var(--space-md); flex-wrap: wrap; }
-.hist { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-xs); margin-top: var(--space-md); }
-.hist .btn { max-width: 100%; white-space: normal; text-align: left; box-shadow: inset 0 0 0 1px var(--line-soft); }
 
 /* usability pass: a labelled pick button, spec chips on cards, picks listed in the tray */
 .item .tick {

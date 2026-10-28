@@ -371,7 +371,6 @@
     view.innerHTML = `
       <h1>${cfg.title}</h1>
       <p class="muted">กดที่การ์ด 2–3 รุ่น แล้วกดปุ่มเทียบด้านล่าง (≈ คือค่าประเมิน) จากทั้งหมด ${items.length} รุ่น</p>
-      <div id="hist"></div>
       <div id="cmp"></div>
       <div class="filters" id="flt">
         <input type="search" name="q" placeholder="ค้นหารุ่น…" value="${esc(f.q)}">
@@ -410,13 +409,6 @@
       else if (el.dataset.rk === 'close') { state.rank[kind] = null; renderRank(kind); }
       else if (el.dataset.add) toggle(kind, el.dataset.add);
     };
-    view.querySelector('#hist').addEventListener('click', e => {
-      const b = e.target.closest('[data-hist]'); if (!b) return;
-      state.sel[kind] = b.dataset.hist.split(',');
-      state.open[kind] = true;
-      renderGrid(kind); renderCompare(kind);
-      view.querySelector('#cmp').scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
     view.querySelector('#cmp').addEventListener('click', e => {
       const sh = e.target.closest('[data-share]');
       if (sh) {
@@ -495,28 +487,11 @@
     remember(kind);
   }
 
-  // ---------- shareable link and recent comparisons ----------
+  // ---------- shareable link ----------
   const ROUTE = { r: 'rackets', s: 'strings', h: 'shuttles', o: 'shoes', k: 'socks' };
-  const HIST_KEY = 'rs.history.v1';
-  const readHist = () => { try { return JSON.parse(localStorage.getItem(HIST_KEY)) || []; } catch (e) { return []; } };
   function remember(kind) {
     const ids = state.sel[kind];
     history.replaceState(null, '', '#' + ROUTE[kind] + (ids.length ? '?c=' + ids.join(',') : ''));
-    // saved only once the sheet is opened, so picking alone never adds a row above the grid
-    if (ids.length >= 2 && state.open[kind]) {
-      const sig = kind + ':' + [...ids].sort().join(',');
-      const h = readHist().filter(e => e.sig !== sig);
-      h.unshift({ sig, kind, ids: [...ids] });
-      try { localStorage.setItem(HIST_KEY, JSON.stringify(h.slice(0, 10))); } catch (e) {}
-    }
-    renderHist(kind);
-  }
-  function renderHist(kind) {
-    const box = view.querySelector('#hist');
-    if (!box) return;
-    const h = readHist().filter(e => e.kind === kind && e.ids.every(id => byId(kind, id))).slice(0, 5);
-    box.innerHTML = h.length ? `<div class="hist"><span class="small muted">เทียบล่าสุด</span>${h.map(e =>
-      `<button class="btn sm ghost" type="button" data-hist="${esc(e.ids.join(','))}">${e.ids.map(id => esc(byId(kind, id).name)).join(' กับ ')}</button>`).join('')}</div>` : '';
   }
 
   // ---------- top 10 per radar axis ----------
