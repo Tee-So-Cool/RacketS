@@ -370,7 +370,7 @@
 
     view.innerHTML = `
       <h1>${cfg.title}</h1>
-      <p class="muted">กด “+ เทียบ” ที่การ์ด 2–3 รุ่น แล้วกดปุ่มเทียบด้านล่าง (≈ คือค่าประเมิน) จากทั้งหมด ${items.length} รุ่น</p>
+      <p class="muted">กดที่การ์ด 2–3 รุ่น แล้วกดปุ่มเทียบด้านล่าง (≈ คือค่าประเมิน) จากทั้งหมด ${items.length} รุ่น</p>
       <div id="hist"></div>
       <div id="cmp"></div>
       <div class="filters" id="flt">
@@ -448,7 +448,7 @@
     more.textContent = `ดูเพิ่มอีก ${Math.min(PAGE, left)} รุ่น (เหลือ ${left})`;
     view.querySelector('#grid').innerHTML = list.length ? list.map(x => `
       <div class="item ${sel.includes(x.id) ? 'sel' : ''}" data-id="${esc(x.id)}" role="checkbox" aria-checked="${sel.includes(x.id)}" tabindex="0">
-        <div class="tick" aria-hidden="true">${sel.includes(x.id) ? '✓ เลือกแล้ว' : '+ เทียบ'}</div>${KIND[kind].card(x)}
+        ${sel.includes(x.id) ? '<div class="tick" aria-hidden="true">✓ เลือกแล้ว</div>' : ''}${KIND[kind].card(x)}
       </div>`).join('') : '<div class="empty">ไม่พบรุ่นที่ตรงกับตัวกรอง</div>';
   }
 
@@ -684,30 +684,45 @@
     if (!db.r.length || !db.s.length) { view.innerHTML = '<h1>จับคู่ไม้ + เอ็น</h1><p class="empty">ต้องมีข้อมูลไม้และเอ็นอย่างน้อยอย่างละ 1 รายการ</p>'; return; }
     if (!byId('r', state.m.r)) state.m.r = db.r[0].id;
     if (!byId('s', state.m.s)) state.m.s = db.s[0].id;
-    const grouped = kind => {
-      const by = {};
-      [...db[kind]].sort(sortName).forEach(x => (by[x.brand] = by[x.brand] || []).push(x));
-      return Object.entries(by).map(([b, xs]) => `<optgroup label="${esc(b)}">${xs.map(x =>
-        `<option value="${esc(x.id)}" ${state.m[kind] === x.id ? 'selected' : ''}>${esc(full(x))}${kind === 's' ? ' (' + esc(gaugeLabel(x)) + ')' : ''}</option>`).join('')}</optgroup>`).join('');
-    };
-    const opts = (map, cur) => Object.entries(map).map(([k, v]) => `<option value="${k}" ${cur === k ? 'selected' : ''}>${v}</option>`).join('');
+    // racket and string are typed and searched (hundreds of models), level, style and shuttle are one tap each
+    const pickName = (kind, x) => full(x) + (kind === 's' ? ` (${gaugeLabel(x)})` : '');
+    const names = { r: {}, s: {} };
+    ['r', 's'].forEach(k => db[k].forEach(x => { names[k][pickName(k, x)] = x.id; }));
+    const finder = (kind, label) => `<div class="field"><label for="m-${kind}">${label}</label>
+      <input id="m-${kind}" class="finder" name="${kind}" list="m-${kind}-list" autocomplete="off" placeholder="พิมพ์ชื่อรุ่นเพื่อค้นหา" value="${esc(pickName(kind, byId(kind, state.m[kind])))}">
+      <datalist id="m-${kind}-list">${[...db[kind]].sort(sortName).map(x => `<option value="${esc(pickName(kind, x))}">`).join('')}</datalist></div>`;
+    const seg = (name, label, map, cur) => `<fieldset class="seg"><legend>${label}</legend>${Object.entries(map).map(([k, v]) =>
+      `<label><input type="radio" name="${name}" value="${k}" ${cur === k ? 'checked' : ''}><span>${v}</span></label>`).join('')}</fieldset>`;
 
     view.innerHTML = `
       <h1>จับคู่ไม้ + เอ็น</h1>
       <p class="muted">เลือกไม้ เอ็น ระดับมือ และสไตล์ เพื่อดูว่าเข้ากันแค่ไหน และควรขึ้นเอ็นกี่ปอนด์</p>
-      <div class="mgrid" id="mform">
-        <div class="field"><label>ไม้แบด</label><select name="r">${grouped('r')}</select></div>
-        <div class="field"><label>เอ็น</label><select name="s">${grouped('s')}</select></div>
-        <div class="field"><label>ระดับมือ</label><select name="level">${opts(L.level, state.m.level)}</select></div>
-        <div class="field"><label>สไตล์</label><select name="style">${opts(L.style, state.m.style)}</select></div>
-        <div class="field"><label>ลูกที่ใช้</label><select name="shuttle">${opts({ feather: 'ลูกขนไก่/ขนเป็ด', nylon: 'ลูกไนลอน' }, state.m.shuttle || 'feather')}</select></div>
+      <div class="mform" id="mform">
+        <div class="pair-in">${finder('r', 'ไม้แบด')}${finder('s', 'เอ็น')}</div>
+        <div class="segs">
+          ${seg('level', 'ระดับมือ', L.level, state.m.level)}
+          ${seg('style', 'สไตล์', L.style, state.m.style)}
+          ${seg('shuttle', 'ลูกที่ใช้', { feather: 'ขนไก่/ขนเป็ด', nylon: 'ไนลอน' }, state.m.shuttle || 'feather')}
+        </div>
       </div>
       <div id="mres"></div>`;
-    view.querySelector('#mform').addEventListener('change', e => { state.m[e.target.name] = e.target.value; renderMatch(); });
+    const form = view.querySelector('#mform');
+    // a typed name counts once it matches a model exactly; anything else snaps back to the current pick
+    const take = (el, final) => {
+      const id = names[el.name][el.value];
+      if (id) { if (id !== state.m[el.name]) { state.m[el.name] = id; renderMatch(); } el.setCustomValidity(''); }
+      else if (final) el.value = pickName(el.name, byId(el.name, state.m[el.name]));
+    };
+    form.addEventListener('input', e => { if (e.target.classList.contains('finder')) take(e.target, false); });
+    form.addEventListener('change', e => {
+      if (e.target.classList.contains('finder')) take(e.target, true);
+      else { state.m[e.target.name] = e.target.value; renderMatch(); }
+    });
+    form.addEventListener('focusin', e => { if (e.target.classList.contains('finder')) e.target.select(); });
     const pickAlt = a => {
       const [kind, id] = a.dataset.pick.split(':');
       state.m[kind] = id;
-      view.querySelector(`#mform [name=${kind}]`).value = id;
+      view.querySelector(`#mform [name=${kind}]`).value = pickName(kind, byId(kind, id));
       renderMatch();
       window.scrollTo({ top: 0, behavior: 'smooth' });
     };
@@ -737,23 +752,28 @@
 
     view.querySelector('#mres').innerHTML = `
       <section class="panel">
-        <div class="score">
-          <div class="ring" style="--p:${res.score};--rc:${vc}"><div>${res.score}</div></div>
-          <div>
-            <div class="verdict">${vt}</div>
-            <div class="pair">${esc(full(r))} + ${esc(full(s))}</div>
-            <div class="small muted">${[L.style[r.style], L.balance[r.balance], L.flex[r.flex], gaugeLabel(s)].filter(Boolean).map(esc).join(', ')}, ${esc(L.material[s.material] || '')}</div>
+        <div class="answer">
+          <div class="score">
+            <div class="ring" style="--p:${res.score};--rc:${vc}"><div>${res.score}</div></div>
+            <div>
+              <div class="verdict">${vt}</div>
+              <div class="pair">${esc(full(r))} + ${esc(full(s))}</div>
+              <div class="small muted">${[L.style[r.style], L.balance[r.balance], L.flex[r.flex], gaugeLabel(s), L.material[s.material]].filter(Boolean).map(esc).join(', ')}</div>
+            </div>
+          </div>
+          <div class="tension-box">
+            <div class="small muted">ขึ้นเอ็นที่</div>
+            <div class="tension">${res.tension} lbs</div>
+            <div class="small muted">ช่วงที่เหมาะกับ${L.level[level]} ${res.band[0]}–${res.band[1]} lbs</div>
           </div>
         </div>
-        <div class="two">
-          <div class="radar"><h3>บุคลิกเอ็น ${esc(full(s))}</h3>${radar(S_AXES, [{ name: full(s), color: COLORS[1], values: stringProfile(s) }])}</div>
+        <div class="two why">
           <div>
-            <h3>ความตึงที่แนะนำ</h3>
-            <div class="tension">${res.tension} lbs</div>
-            <div class="small muted">ช่วงที่เหมาะกับ${L.level[level]} ${res.band[0]}–${res.band[1]} lbs ตึงน้อยลง = ดีดง่ายขึ้นและ sweet spot ใหญ่ขึ้น ตึงมากขึ้น = คุมลูกแม่นขึ้น</div>
-            <div class="small muted">กรอบทางการของไม้ ${res.range[0] ? res.range[0] + '–' : '≤ '}${res.range[1]} lbs${s.tensionMax ? `, เพดานเอ็น ${s.tensionMax} lbs` : ''}</div>
+            <h3>เหตุผล</h3>
             <ul class="reasons">${res.reasons.map(([k, t]) => `<li><span class="${k}">${k === 'ok' ? '✓' : '!'}</span><span>${esc(t)}</span></li>`).join('') || '<li class="muted">ไม่มีข้อสังเกตเพิ่มเติม</li>'}</ul>
+            <p class="small muted">ตึงน้อยลง ดีดง่ายขึ้นและ sweet spot ใหญ่ขึ้น ตึงมากขึ้น คุมลูกแม่นขึ้น กรอบทางการของไม้ ${res.range[0] ? res.range[0] + '–' : '≤ '}${res.range[1]} lbs${s.tensionMax ? `, เพดานเอ็น ${s.tensionMax} lbs` : ''}</p>
           </div>
+          <div class="radar"><h3>บุคลิกเอ็น ${esc(full(s))}</h3>${radar(S_AXES, [{ name: full(s), color: COLORS[1], values: stringProfile(s) }])}</div>
         </div>
       </section>
       <h2>เอ็นอื่นที่น่าสนใจกับไม้นี้</h2>
