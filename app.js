@@ -149,7 +149,7 @@
         ${r.img ? `<img class="thumb" src="${esc(r.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<div class="thumb" aria-hidden="true"></div>'}
         <span class="tag ${r.style || ''}">${lab(r, 'style') || '—'}</span>
         <div class="nm">${esc(full(r))}</div>
-        <div class="meta">${[esc(r.brand), r.year, L.level[r.level]].filter(Boolean).join(', ')}</div>
+        <div class="meta">${[esc(r.brand), r.year, lab(r, 'level')].filter(Boolean).join(', ')}</div>
         <div class="chips">${[lab(r, 'balance'), L.flex[r.flex], r.weights].filter(Boolean).map(v => `<span>${esc(v)}</span>`).join('')}</div>
         <div class="price">${r.price ? `<b class="fig">${(r.est || []).includes('price') ? '≈' : ''}${baht(r.price)}</b>` : '<span class="small muted">ยังไม่มีราคา</span>'}</div>`,
       radar: sel => ({ axes: R_AXES, series: sel.map((x, i) => ({ name: full(x), color: COLORS[i], values: racketProfile(x) })), title: 'ภาพรวมบุคลิกไม้', note: 'คำนวณจากสเปก (สมดุล ก้าน น้ำหนัก ระดับ) ไม่ใช่คะแนนจากผู้ผลิต' }),
@@ -162,7 +162,7 @@
         ['แบรนด์', r => esc(r.brand)],
         ['ปีที่ออก', r => dash(r.year)],
         ['แนวการเล่น', r => lab(r, 'style') || '—'],
-        ['ระดับผู้เล่น', r => L.level[r.level] || '—'],
+        ['ระดับผู้เล่น', r => lab(r, 'level') || '—'],
         ['สมดุล', r => lab(r, 'balance') || '—'],
         ['ความแข็งก้าน', r => L.flex[r.flex] || '—'],
         ['น้ำหนัก', r => dash(r.weights)],
@@ -479,7 +479,7 @@
           <div class="bars"><h3>กราฟเทียบ</h3>${rd ? '' : legend(sel)}${bars(cfg.bars, sel, db[kind])}</div>
         </div>
         <div id="rank"></div>
-        <p class="small muted sheet-key">ช่องที่ขึ้น — คือยังไม่มีข้อมูล ช่องที่ไฮไลต์คือค่าที่ต่างกัน ค่าที่มี ≈ คือค่าประเมินจากซีรีส์</p>
+        <p class="small muted sheet-key">ช่องที่ขึ้น — คือยังไม่มีข้อมูล ช่องที่ไฮไลต์คือค่าที่ต่างกัน ค่าที่มี ≈ คือค่าประเมิน (จากซีรีส์ ราคา หรือความแข็งก้าน) ไม่ใช่ค่าที่ผู้ผลิตประกาศ</p>
         ${specTable(cfg.spec, sel)}
       </section>`;
     renderRank(kind);

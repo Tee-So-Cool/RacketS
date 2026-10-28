@@ -298,6 +298,26 @@ for r in rackets.values():
     r['priceSrc'] = pf.get('src', '')
     converted += 1
 print('prices converted', converted)
+# ---- player level, where no source states one: from price tier, nudged by shaft flex (flagged in r['est']) ----
+# price tiers follow the stated levels in this data: under 2,000 baht mostly beginner, 6,500 and up mostly pro
+LV = ['beginner', 'intermediate', 'advanced', 'pro']
+FLEX_STEP = {'flexible': -1, 'extra-stiff': 1}
+FLEX_ONLY = {'flexible': 0, 'medium': 1, 'stiff': 2, 'extra-stiff': 3}
+leveled = 0
+for r in rackets.values():
+    if r.get('level'): continue
+    p = r.get('price')
+    if p:
+        i = 0 if p < 2000 else 1 if p < 3500 else 2 if p < 6500 else 3
+        i += FLEX_STEP.get(r.get('flex'), 0)
+    elif r.get('flex') in FLEX_ONLY:
+        i = FLEX_ONLY[r['flex']]
+    else:
+        continue
+    r['level'] = LV[max(0, min(3, i))]
+    r.setdefault('est', []).append('level')
+    leveled += 1
+print('levels estimated', leveled)
 
 order = ['id', 'brand', 'name', 'year', 'style', 'balance', 'flex', 'level', 'weights', 'weight', 'grips', 'tension', 'price',
          'frame', 'shaft', 'joint', 'length', 'pattern', 'tech', 'players', 'madeIn', 'recString', 'img', 'source', 'officialUrl', 'specSrc', 'shopUrl', 'bayUrl', 'priceNote', 'priceSrc', 'note', 'est']
