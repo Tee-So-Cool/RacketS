@@ -381,6 +381,7 @@
         <select name="sort">${Object.entries(cfg.sorts).map(([k, v]) => `<option value="${k}" ${f.sort === k ? 'selected' : ''}>${v}</option>`).join('')}</select>
         <button class="btn ghost" id="clr" type="button">ล้างตัวกรอง</button>
       </div>
+      <div class="chipbar" id="chips"></div>
       <div class="count muted small" id="cnt"></div>
       <div class="grid" id="grid"></div>
       <div class="more-row"><button class="btn" id="more" type="button" hidden></button></div>`;
@@ -427,6 +428,25 @@
       const el = e.target.closest('[data-axis], [data-add]');
       if (el && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); rankAction(el); }
     });
+    // the same filters as chips: a row of buttons per filter (store style) or a sidebar list (app style)
+    const chips = view.querySelector('#chips');
+    const renderChips = () => {
+      const groups = [['brand', 'แบรนด์', Object.fromEntries(brands.map(b => [b, b]))], ...cfg.filters.map(k => [k, cfg.filterAll[k].replace(/^ทุก/, ''), L[k]])];
+      chips.innerHTML = groups.map(([key, label, map]) => `
+        <div class="chipgroup"><span class="chiplabel">${esc(label)}</span><div class="chiprow">
+          <button type="button" class="chip ${f[key] ? '' : 'on'}" data-ck="${key}" data-cv="" aria-pressed="${!f[key]}">ทั้งหมด</button>
+          ${Object.entries(map).filter(([k]) => key === 'brand' || countOf(key, k)).map(([k, v]) =>
+            `<button type="button" class="chip ${f[key] === k ? 'on' : ''}" data-ck="${key}" data-cv="${esc(k)}" aria-pressed="${f[key] === k}">${esc(v)}</button>`).join('')}
+        </div></div>`).join('');
+    };
+    chips.addEventListener('click', e => {
+      const b = e.target.closest('[data-ck]'); if (!b) return;
+      f[b.dataset.ck] = f[b.dataset.ck] === b.dataset.cv ? '' : b.dataset.cv;
+      const s = flt.querySelector(`[name="${b.dataset.ck}"]`); if (s) s.value = f[b.dataset.ck];
+      state.shown[kind] = PAGE; renderChips(); renderGrid(kind);
+    });
+    flt.addEventListener('change', renderChips);
+    renderChips();
     renderGrid(kind);
     renderCompare(kind);
   }
@@ -985,6 +1005,17 @@
   }
   window.addEventListener('hashchange', route);
   route();
+
+  // style picker: the layout lives on <html data-style>, remembered on this device only
+  const styleSel = document.getElementById('style');
+  if (styleSel) {
+    styleSel.value = document.documentElement.dataset.style || '';
+    styleSel.addEventListener('change', () => {
+      const t = styleSel.value;
+      if (t) document.documentElement.dataset.style = t; else delete document.documentElement.dataset.style;
+      try { t ? localStorage.setItem('style', t) : localStorage.removeItem('style'); } catch (e) {}
+    });
+  }
 
   // theme picker: the choice lives on <html data-theme>, remembered on this device only
   const themeSel = document.getElementById('theme');

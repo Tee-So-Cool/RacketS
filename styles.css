@@ -386,5 +386,5 @@ body { font-size: var(--text-md); }
 .part .bar i { display: block; height: 100%; width: calc(var(--w) * 1%); background: var(--color-accent); }
 .part b { text-align: right; }
 .steps { list-style: none; padding: 0; margin: var(--space-sm) 0; max-width: 24rem; }
-.steps li { display: flex; justify-content: space-between; gap: var(--space-sm); padding: 2px 0; font-size: var(--text-sm); }
+.steps li { display: flex; justify-content: space-between; gap: var(--space-sm); padding: var(--space-3xs) 0; font-size: var(--text-sm); }
 .steps li b { flex: none; }

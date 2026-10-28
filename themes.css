@@ -1,3 +1,4 @@
+/* Hallmark · waive 37 · html[data-theme] blocks, one active at a time · each theme is an alternative the visitor picks and renders two families at most */
 /* Theme choices for the picker in the top bar. "ค่ำ" (dusk) is tokens.css + styles.css as they stand;
  * each other theme swaps only tokens, set on <html data-theme="..."> (saved in localStorage).
  * --color-light is the overlay base: white on dark themes, ink on light ones, so hairlines and hovers stay visible. */

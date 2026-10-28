@@ -10,7 +10,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500&family=Wix+Madefor+Text:wght@400;500&family=IBM+Plex+Sans+Thai:wght@400;500&family=Anuphan:wght@400;500;600&family=Kanit:wght@500;600&family=Noto+Serif+Thai:wght@600&family=Prompt:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=__V__">
   <link rel="stylesheet" href="themes.css?v=__V__">
-  <script>try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+  <link rel="stylesheet" href="layouts.css?v=__V__">
+  <script>try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t;
+    var l = localStorage.getItem('style'); if (l) document.documentElement.dataset.style = l; } catch (e) {}</script>
 </head>
 <body>
   <header class="top">
@@ -26,6 +28,13 @@
         <a href="#manage" data-v="manage">จัดการข้อมูล</a>
       </nav>
       <div class="theme-pick">
+        <label for="style">สไตล์</label>
+        <select id="style">
+          <option value="">เดิม</option>
+          <option value="store">ร้านกีฬา</option>
+          <option value="table">ตารางสเปก</option>
+          <option value="app">แอป</option>
+        </select>
         <label for="theme">ธีม</label>
         <select id="theme">
           <option value="">ค่ำ</option>

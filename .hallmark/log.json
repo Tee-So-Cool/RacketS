@@ -1,6 +1,17 @@
 [
  {
   "mode": "redesign",
+  "depth": "full",
+  "scope": "app",
+  "shape": "app screen",
+  "theme": "project (Dusk + themes.css)",
+  "entry": "catalogue",
+  "signature": "three switchable catalogue layouts: store, table, app",
+  "prompt": "badminton gear comparison catalogue, three layouts to choose from",
+  "date": "2026-10-28"
+ },
+ {
+  "mode": "redesign",
   "depth": "restyle",
   "scope": "app",
   "shape": "app screen",
