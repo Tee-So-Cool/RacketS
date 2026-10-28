@@ -141,17 +141,17 @@
     r: {
       title: 'เทียบไม้แบด',
       sub: x => [lab(x, 'balance'), L.flex[x.flex], x.weights].filter(Boolean).map(esc).join(', '),
-      filters: ['style', 'balance', 'level'],
-      filterAll: { style: 'ทุกแนวการเล่น', balance: 'ทุกสมดุล', level: 'ทุกระดับ' },
+      filters: ['style', 'balance', 'flex', 'level'],
+      filterAll: { style: 'ทุกแนวการเล่น', balance: 'ทุกสมดุล', flex: 'ทุกความแข็งก้าน', level: 'ทุกระดับ' },
       sorts: { name: 'เรียงตามชื่อ', year: 'ใหม่สุดก่อน', priceAsc: 'ราคาต่ำ → สูง', priceDesc: 'ราคาสูง → ต่ำ' },
-      match: (x, f) => (!f.style || x.style === f.style) && (!f.balance || x.balance === f.balance) && (!f.level || x.level === f.level),
+      match: (x, f) => (!f.style || x.style === f.style) && (!f.balance || x.balance === f.balance) && (!f.flex || x.flex === f.flex) && (!f.level || x.level === f.level),
       card: r => `
         ${r.img ? `<img class="thumb" src="${esc(r.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<div class="thumb" aria-hidden="true"></div>'}
         <span class="tag ${r.style || ''}">${lab(r, 'style') || '—'}</span>
         <div class="nm">${esc(full(r))}</div>
         <div class="meta">${[esc(r.brand), r.year, L.level[r.level]].filter(Boolean).join(', ')}</div>
-        <div class="meta">${[lab(r, 'balance'), L.flex[r.flex], r.weights].filter(Boolean).map(esc).join(', ')}</div>
-        ${r.price ? `<div class="price"><b class="fig">${(r.est || []).includes('price') ? '≈' : ''}${baht(r.price)}</b></div>` : ''}`,
+        <div class="chips">${[lab(r, 'balance'), L.flex[r.flex], r.weights].filter(Boolean).map(v => `<span>${esc(v)}</span>`).join('')}</div>
+        <div class="price">${r.price ? `<b class="fig">${(r.est || []).includes('price') ? '≈' : ''}${baht(r.price)}</b>` : '<span class="small muted">ยังไม่มีราคา</span>'}</div>`,
       radar: sel => ({ axes: R_AXES, series: sel.map((x, i) => ({ name: full(x), color: COLORS[i], values: racketProfile(x) })), title: 'ภาพรวมบุคลิกไม้', note: 'คำนวณจากสเปก (สมดุล ก้าน น้ำหนัก ระดับ) ไม่ใช่คะแนนจากผู้ผลิต' }),
       bars: [
         { label: 'น้ำหนัก', hint: 'หนักมีแรงส่ง เบาสวิงไว', get: r => Number(r.weight) || NaN, fmt: v => v + ' g' },
@@ -327,16 +327,19 @@
   };
 
   // ---------- compare views ----------
-  const emptyFilter = kind => ({ q: '', brand: '', style: '', balance: '', level: '', material: '', gauge: '', type: '', grade: '', spd: '', width: '', height: '', sort: kind === 'r' ? 'year' : 'name' });
+  const emptyFilter = kind => ({ q: '', brand: '', style: '', balance: '', flex: '', level: '', material: '', gauge: '', type: '', grade: '', spd: '', width: '', height: '', sort: kind === 'r' ? 'year' : 'name' });
   const state = {
     sel: { r: [], s: [], h: [], o: [], k: [] },
     shown: { r: 48, s: 48, h: 48, o: 48, k: 48 },
     rank: { r: null, s: null, h: null, o: null, k: null },
+    // the compare sheet opens on request, so picking models never shifts the grid under the pointer
+    open: { r: false, s: false, h: false, o: false, k: false },
     f: { r: emptyFilter('r'), s: emptyFilter('s'), h: emptyFilter('h'), o: emptyFilter('o'), k: emptyFilter('k') },
     m: null,
     mg: { kind: 'r', edit: null, q: '' },
   };
 
+  const known = x => ['balance', 'flex', 'weight', 'price', 'level', 'img'].filter(k => x[k] !== '' && x[k] != null && !(x.est || []).includes(k)).length;
   function filtered(kind) {
     const f = state.f[kind], cfg = KIND[kind], q = f.q.trim().toLowerCase();
     const list = db[kind].filter(x =>
@@ -344,7 +347,8 @@
     const num = (v, d) => (v === '' || v == null || isNaN(v)) ? d : Number(v);
     const sorters = {
       name: sortName,
-      year: (a, b) => num(b.year, 0) - num(a.year, 0) || sortName(a, b),
+      // same year: the models with more known specs first, so the first screen is not a wall of blanks
+      year: (a, b) => num(b.year, 0) - num(a.year, 0) || known(b) - known(a) || sortName(a, b),
       priceAsc: (a, b) => num(a.price, 1e9) - num(b.price, 1e9),
       priceDesc: (a, b) => num(b.price, -1) - num(a.price, -1),
       repulsion: (a, b) => num(b.repulsion, 0) - num(a.repulsion, 0),
@@ -356,7 +360,7 @@
 
   function viewCompare(kind) {
     const cfg = KIND[kind], f = state.f[kind], items = db[kind];
-    if (state.linkSel) { state.sel[kind] = state.linkSel.split(',').slice(0, 3); state.linkSel = null; }
+    if (state.linkSel) { state.sel[kind] = state.linkSel.split(',').slice(0, 3); state.linkSel = null; state.open[kind] = true; }
     state.sel[kind] = state.sel[kind].filter(id => byId(kind, id));
     const brands = [...new Set(items.map(x => x.brand))].sort();
     const countOf = (key, val) => items.filter(x => key === 'gauge' ? gaugeGroup(x.gauge) === val : x[key] === val).length;
@@ -366,7 +370,7 @@
 
     view.innerHTML = `
       <h1>${cfg.title}</h1>
-      <p class="muted">ติ๊กเลือกได้สูงสุด 3 รุ่นเพื่อเทียบกัน (≈ คือค่าประเมิน) จากทั้งหมด ${items.length} รุ่น</p>
+      <p class="muted">กด “+ เทียบ” ที่การ์ด 2–3 รุ่น แล้วกดปุ่มเทียบด้านล่าง (≈ คือค่าประเมิน) จากทั้งหมด ${items.length} รุ่น</p>
       <div id="hist"></div>
       <div id="cmp"></div>
       <div class="filters" id="flt">
@@ -409,6 +413,7 @@
     view.querySelector('#hist').addEventListener('click', e => {
       const b = e.target.closest('[data-hist]'); if (!b) return;
       state.sel[kind] = b.dataset.hist.split(',');
+      state.open[kind] = true;
       renderGrid(kind); renderCompare(kind);
       view.querySelector('#cmp').scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
@@ -421,6 +426,7 @@
       }
       const el = e.target.closest('[data-axis], [data-rk], [data-add]');
       if (el) { rankAction(el); return; }
+      if (e.target.closest('[data-close]')) { state.open[kind] = false; renderCompare(kind); view.querySelector('#flt').scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
       const x = e.target.closest('[data-rm]'); if (x) toggle(kind, x.dataset.rm);
     });
     view.querySelector('#cmp').addEventListener('keydown', e => {
@@ -442,7 +448,7 @@
     more.textContent = `ดูเพิ่มอีก ${Math.min(PAGE, left)} รุ่น (เหลือ ${left})`;
     view.querySelector('#grid').innerHTML = list.length ? list.map(x => `
       <div class="item ${sel.includes(x.id) ? 'sel' : ''}" data-id="${esc(x.id)}" role="checkbox" aria-checked="${sel.includes(x.id)}" tabindex="0">
-        <div class="tick">✓</div>${KIND[kind].card(x)}
+        <div class="tick" aria-hidden="true">${sel.includes(x.id) ? '✓ เลือกแล้ว' : '+ เทียบ'}</div>${KIND[kind].card(x)}
       </div>`).join('') : '<div class="empty">ไม่พบรุ่นที่ตรงกับตัวกรอง</div>';
   }
 
@@ -459,7 +465,8 @@
     const cfg = KIND[kind], sel = state.sel[kind].map(id => byId(kind, id)).filter(Boolean);
     const box = view.querySelector('#cmp');
     updateTray(kind);
-    if (!sel.length) { box.innerHTML = ''; watchSheet(); remember(kind); return; }
+    if (!sel.length) state.open[kind] = false;
+    if (!sel.length || !state.open[kind]) { box.innerHTML = ''; watchSheet(); remember(kind); return; }
     const rd = cfg.radar ? cfg.radar(sel) : null;
     box.innerHTML = `
       <section class="panel">
@@ -472,7 +479,8 @@
         </div>
         <div class="sheet-tools">
           ${sel.length < 2 ? '<p class="small muted">เลือกเพิ่มอีกอย่างน้อย 1 รุ่นเพื่อเทียบ</p>' : '<span></span>'}
-          <button class="btn sm" type="button" data-share>คัดลอกลิงก์เทียบ</button>
+          <span class="tools-r"><button class="btn sm" type="button" data-share>คัดลอกลิงก์เทียบ</button>
+          <button class="btn sm ghost" type="button" data-close>ปิดผลเทียบ</button></span>
         </div>
         <div class="two${rd ? '' : ' solo'}">
           ${rd ? `<div class="radar"><h3>${rd.title}</h3>${radar(rd.axes, rd.series, 340, true)}${legend(sel)}<p class="small muted">กดที่ชื่อแกน เพื่อดูว่ารุ่นไหนสุดทางด้านนั้น</p><p class="small muted">${rd.note}</p></div>` : ''}
@@ -494,7 +502,8 @@
   function remember(kind) {
     const ids = state.sel[kind];
     history.replaceState(null, '', '#' + ROUTE[kind] + (ids.length ? '?c=' + ids.join(',') : ''));
-    if (ids.length >= 2) {
+    // saved only once the sheet is opened, so picking alone never adds a row above the grid
+    if (ids.length >= 2 && state.open[kind]) {
       const sig = kind + ':' + [...ids].sort().join(',');
       const h = readHist().filter(e => e.sig !== sig);
       h.unshift({ sig, kind, ids: [...ids] });
@@ -559,12 +568,18 @@
     const n = state.sel[kind].length;
     if (!n) { tray.hidden = true; return; }
     tray.hidden = false;
-    tray.innerHTML = `<span>เลือกแล้ว ${n}/3 รุ่น</span>
-      <button class="btn primary sm" data-a="go">ดูผลเทียบ</button>
+    tray.innerHTML = `<span class="picks">${state.sel[kind].map((id, i) => {
+        const x = byId(kind, id);
+        return `<span class="pick" style="--c:${COLORS[i]}"><span class="pn">${esc(x ? x.name : id)}</span><button type="button" data-rm="${esc(id)}" aria-label="เอา ${esc(x ? full(x) : id)} ออก">×</button></span>`;
+      }).join('')}</span>
+      ${n < 2 ? `<span class="small muted need">เลือกอีก ${2 - n} รุ่น</span>` : ''}
+      <button class="btn primary sm" data-a="go" ${n < 2 ? 'disabled' : ''}>เทียบ ${n} รุ่น</button>
       <button class="btn ghost sm" data-a="clear">ล้าง</button>`;
     tray.onclick = e => {
-      const a = e.target.dataset.a;
-      if (a === 'go') view.querySelector('#cmp').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const rm = e.target.closest('[data-rm]');
+      if (rm) { toggle(kind, rm.dataset.rm); return; }
+      const a = e.target.closest('[data-a]')?.dataset.a;
+      if (a === 'go') { state.open[kind] = true; renderCompare(kind); view.querySelector('#cmp').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
       if (a === 'clear') { state.sel[kind] = []; renderGrid(kind); renderCompare(kind); }
     };
   }
