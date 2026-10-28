@@ -111,6 +111,29 @@ window.SOCKS = [
   "est": []
  },
  {
+  "id": "hundred-hbas-5m311-max-stride-ankle",
+  "brand": "Hundred",
+  "name": "Hbas-5m311 Max Stride Ankle",
+  "code": "",
+  "year": "",
+  "est": [],
+  "note": "",
+  "img": "https://www.badmintonplaza.com/images/HBAS-5M311-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "price": 160,
+  "material": "",
+  "colors": "White/Black (-1), White/Blue(-2)",
+  "height": "low",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5189",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5189"
+   }
+  ]
+ },
+ {
   "id": "li-ning-5-star-socks",
   "brand": "Li-Ning",
   "name": "5 Star Socks",
@@ -147,7 +170,13 @@ window.SOCKS = [
   "material": "",
   "colors": "White/Blue (-1), White/Maroon (-2), White/Grey (-3), Black (-4)",
   "height": "low",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5184"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5184",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5184"
+   }
+  ]
  },
  {
   "id": "li-ning-awst057-mid-cut",
@@ -164,7 +193,13 @@ window.SOCKS = [
   "material": "",
   "colors": "",
   "height": "mid",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4879"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4879",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4879"
+   }
+  ]
  },
  {
   "id": "li-ning-awsw242-chiharu-shida-mid-calf",
@@ -181,7 +216,13 @@ window.SOCKS = [
   "material": "",
   "colors": "",
   "height": "mid",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5233"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5233",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5233"
+   }
+  ]
  },
  {
   "id": "li-ning-awss401-600f-ankle",
@@ -198,7 +239,13 @@ window.SOCKS = [
   "material": "",
   "colors": "",
   "height": "low",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5209"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5209",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5209"
+   }
+  ]
  },
  {
   "id": "li-ning-balance-socks",
@@ -281,7 +328,13 @@ window.SOCKS = [
   "material": "80% Cotton",
   "colors": "",
   "height": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3212"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3212",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3212"
+   }
+  ]
  },
  {
   "id": "vs-1125",
@@ -298,7 +351,13 @@ window.SOCKS = [
   "material": "73% Cotton",
   "colors": "",
   "height": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4195"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4195",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4195"
+   }
+  ]
  },
  {
   "id": "vs-1130-tournament",
@@ -315,7 +374,13 @@ window.SOCKS = [
   "material": "49% Cotton",
   "colors": "",
   "height": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3709"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3709",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3709"
+   }
+  ]
  },
  {
   "id": "vs-1141",
@@ -332,7 +397,13 @@ window.SOCKS = [
   "material": "53.5% Cotton",
   "colors": "White / Yellow",
   "height": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3974"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3974",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3974"
+   }
+  ]
  },
  {
   "id": "vs-1160",
@@ -349,7 +420,29 @@ window.SOCKS = [
   "material": "61% Cotton",
   "colors": "",
   "height": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=2769"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=2769",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=2769"
+   }
+  ]
+ },
+ {
+  "id": "vs-1180",
+  "brand": "VS",
+  "name": "1180",
+  "note": "",
+  "source": "",
+  "est": [],
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/ChatGPTImageAug20_2026_02_41_56PM.png?v=1787219670",
+  "price": 170,
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs1180"
+   }
+  ]
  },
  {
   "id": "vs-1181-tournament",
@@ -366,7 +459,61 @@ window.SOCKS = [
   "material": "53.5% Cotton",
   "colors": "",
   "height": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3585"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3585",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3585"
+   }
+  ]
+ },
+ {
+  "id": "vs-1190",
+  "brand": "VS",
+  "name": "1190",
+  "note": "",
+  "source": "",
+  "est": [],
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/vs1190-04.webp?v=1788258645",
+  "price": 170,
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs-1190"
+   }
+  ]
+ },
+ {
+  "id": "vs-1226",
+  "brand": "VS",
+  "name": "1226",
+  "note": "",
+  "source": "",
+  "est": [],
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/509432585_1293759405995042_1538651482280237190_n.jpg?v=1788344029",
+  "price": 110,
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs-1226"
+   }
+  ]
+ },
+ {
+  "id": "vs-1327",
+  "brand": "VS",
+  "name": "1327",
+  "note": "",
+  "source": "",
+  "est": [],
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/SO3-00006.jpg?v=1788344496",
+  "price": 110,
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs-1327"
+   }
+  ]
  },
  {
   "id": "vs-1500-ultra-soft-short",
@@ -383,7 +530,13 @@ window.SOCKS = [
   "material": "87.4% Cotton + 11.2%Polymide  + 1.4%Elastane",
   "colors": "White (W), Gray (C)",
   "height": "low",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4726"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4726",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4726"
+   }
+  ]
  },
  {
   "id": "vs-1520-ultra-soft-1250",
@@ -400,7 +553,13 @@ window.SOCKS = [
   "material": "87.4% Cotton + 11.2%Polymide  + 1.4%Elastane",
   "colors": "",
   "height": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4422"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4422",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4422"
+   }
+  ]
  },
  {
   "id": "vs-1550-ultra-soft",
@@ -417,7 +576,13 @@ window.SOCKS = [
   "material": "87.4% Cotton + 11.2%Polymide  + 1.4%Elastane",
   "colors": "",
   "height": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4725"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4725",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4725"
+   }
+  ]
  },
  {
   "id": "vs-anti-slip",
@@ -434,7 +599,13 @@ window.SOCKS = [
   "material": "74% Cotton + 23% Polyester + 3% Spandex",
   "colors": "White",
   "height": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3411"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3411",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3411"
+   }
+  ]
  },
  {
   "id": "vs-protective",
@@ -451,7 +622,13 @@ window.SOCKS = [
   "material": "71% Cotton + 10.7% Nylon + 12.3% Polyester + 4.8% Rubber + 1.2% Spandex",
   "colors": "White/Blue (W), White/Khaki (C), White/Black (A)",
   "height": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=2790"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=2790",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=2790"
+   }
+  ]
  },
  {
   "id": "vs-silicone-dotted-non-slip",
@@ -468,7 +645,13 @@ window.SOCKS = [
   "material": "82% Cotton + 16% Polyester + 2% Spandex",
   "colors": "White (W), Green (G), Black (A)",
   "height": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=2903"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=2903",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=2903"
+   }
+  ]
  },
  {
   "id": "victor-bwf-sudirman-cup-finals-2025-merchandise-junior-sports-socks-sksc2510jr",
@@ -887,7 +1070,17 @@ window.SOCKS = [
   "source": "https://chobbad.com/socks/victor-sk0015-%e0%b8%96%e0%b8%b8%e0%b8%87%e0%b9%80%e0%b8%97%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%94%e0%b9%87%e0%b8%81/",
   "officialUrl": "https://th.victorsport.com/product/sk0015-i",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4552"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4552",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4552"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-junior-sport-socks-sk0015-i-s-pink"
+   }
+  ]
  },
  {
   "id": "victor-sk0016",
@@ -910,7 +1103,17 @@ window.SOCKS = [
   "source": "https://chobbad.com/socks/victor-sk0016/",
   "officialUrl": "https://th.victorsport.com/product/sk0016-r",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4546"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4546",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4546"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-junior-sport-socks-sk0016-r-s-aqua-green"
+   }
+  ]
  },
  {
   "id": "victor-sk0017",
@@ -933,7 +1136,17 @@ window.SOCKS = [
   "source": "https://chobbad.com/socks/victor-sk0017/",
   "officialUrl": "https://th.victorsport.com/product/sk0017-i",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4547"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4547",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4547"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-junior-sport-socks-sk0017-a-s-white"
+   }
+  ]
  },
  {
   "id": "victor-sk0018",
@@ -956,7 +1169,17 @@ window.SOCKS = [
   "source": "https://chobbad.com/socks/victor-sk0018/",
   "officialUrl": "https://th.victorsport.com/product/sk0018-i",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4480"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4480",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4480"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-junior-sport-socks-sk0018-i-s-cradle-pink"
+   }
+  ]
  },
  {
   "id": "victor-sk0022",
@@ -1149,7 +1372,13 @@ window.SOCKS = [
   "material": "84.4% Cotton",
   "colors": "I / A",
   "height": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4683"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4683",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4683"
+   }
+  ]
  },
  {
   "id": "victor-sk1006m",
@@ -1188,7 +1417,13 @@ window.SOCKS = [
   "material": "69.8% Cotton",
   "colors": "J / M / B",
   "height": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4684"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4684",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4684"
+   }
+  ]
  },
  {
   "id": "victor-sk1007m",
@@ -1225,14 +1460,24 @@ window.SOCKS = [
   "sizes": "L:25-28 cmM:22-25 cm",
   "pack": 1,
   "colors": "มี 2 สี",
-  "price": "",
+  "price": 270,
   "priceText": "",
   "year": 2024,
   "note": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-sk1009-300x300.jpg",
   "source": "https://chobbad.com/socks/victor-sk1009/",
   "officialUrl": "https://th.victorsport.com/product/sk1009-c",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-womens-sport-socks-sk1009-a-m-white"
+   }
+  ],
+  "priceNote": "แปลงจาก US$7.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/victor-womens-sport-socks-sk1009-a-m-white"
  },
  {
   "id": "victor-sk1015",
@@ -1247,14 +1492,24 @@ window.SOCKS = [
   "sizes": "M (22-25cm)",
   "pack": 1,
   "colors": "มี 6 สี",
-  "price": "",
+  "price": 270,
   "priceText": "",
   "year": 2024,
   "note": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-sk1015-300x300.jpg",
   "source": "https://chobbad.com/socks/victor-sk1015/",
   "officialUrl": "https://th.victorsport.com/product/sk1015-f",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-mens-sport-socks-sk1015-h-l-gray"
+   }
+  ],
+  "priceNote": "แปลงจาก US$7.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/victor-mens-sport-socks-sk1015-h-l-gray"
  },
  {
   "id": "victor-sk1016",
@@ -1277,7 +1532,17 @@ window.SOCKS = [
   "source": "https://chobbad.com/socks/victor-sk1016/",
   "officialUrl": "https://th.victorsport.com/product/sk1016-j",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4696"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4696",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4696"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-womens-sport-socks-sk1016-r-m-aqua-green"
+   }
+  ]
  },
  {
   "id": "victor-sk1017",
@@ -1306,7 +1571,7 @@ window.SOCKS = [
   "brand": "Victor",
   "name": "SK1018",
   "code": "SK1018",
-  "height": "",
+  "height": "low",
   "heightText": "",
   "thickness": "",
   "material": "Cotton + Polyester + Spandex",
@@ -1314,14 +1579,24 @@ window.SOCKS = [
   "sizes": "22cm-25cm",
   "pack": 1,
   "colors": "มี 4 สี",
-  "price": "",
+  "price": 270,
   "priceText": "",
   "year": "",
   "note": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-sk1018-300x300.jpg",
   "source": "https://chobbad.com/socks/victor-sk1018/",
   "officialUrl": "https://th.victorsport.com/product/sk1018-e",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-womens-sport-socks-sk1018-e-m-fennel-yellow"
+   }
+  ],
+  "priceNote": "แปลงจาก US$7.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/victor-womens-sport-socks-sk1018-e-m-fennel-yellow"
  },
  {
   "id": "victor-sk1020",
@@ -1652,7 +1927,13 @@ window.SOCKS = [
   "source": "https://chobbad.com/socks/victor-sk190/",
   "officialUrl": "https://th.victorsport.com/product/sk190-g",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=1230"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=1230",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=1230"
+   }
+  ]
  },
  {
   "id": "victor-sk192",
@@ -1667,14 +1948,28 @@ window.SOCKS = [
   "sizes": "M(22~25cm)",
   "pack": 1,
   "colors": "มี 2 สี",
-  "price": "",
+  "price": 270,
   "priceText": "",
   "year": 2025,
   "note": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-sk192-300x300.jpg",
   "source": "https://chobbad.com/socks/victor-sk192/",
   "officialUrl": "https://th.victorsport.com/product/sk192-h-m",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-womens-sport-socks-sk192-c-m-black"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/victor-sk192-socks-pink"
+   }
+  ],
+  "priceNote": "แปลงจาก US$7.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/victor-womens-sport-socks-sk192-c-m-black"
  },
  {
   "id": "victor-sk194",
@@ -1697,7 +1992,13 @@ window.SOCKS = [
   "source": "https://chobbad.com/socks/victor-sk194/",
   "officialUrl": "https://th.victorsport.com/product/sk194-m-a",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3849"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3849",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3849"
+   }
+  ]
  },
  {
   "id": "victor-sk195",
@@ -1954,14 +2255,24 @@ window.SOCKS = [
   "sizes": "22-25 cm",
   "pack": 1,
   "colors": "มี 1 สี",
-  "price": "",
+  "price": 300,
   "priceText": "",
   "year": 2016,
   "note": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-sk235-e0b89ce0b8b9e0b989e0b8abe0b88de0b8b4e0b887-300x300.jpg",
   "source": "https://chobbad.com/socks/victor-sk235-%e0%b8%9c%e0%b8%b9%e0%b9%89%e0%b8%ab%e0%b8%8d%e0%b8%b4%e0%b8%87/",
   "officialUrl": "https://th.victorsport.com/product/sk235-acamai",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-sports-socks-medium-sk235-white-black"
+   }
+  ],
+  "priceNote": "แปลงจาก US$8.92 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/victor-sports-socks-medium-sk235-white-black"
  },
  {
   "id": "victor-sk244",
@@ -1976,14 +2287,24 @@ window.SOCKS = [
   "sizes": "22-25 cm",
   "pack": 1,
   "colors": "มี 1 สี",
-  "price": "",
+  "price": 290,
   "priceText": "",
   "year": 2015,
   "note": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-sk244-e0b8abe0b88de0b8b4e0b887-300x300.jpg",
   "source": "https://chobbad.com/socks/victor-sk244-%e0%b8%ab%e0%b8%8d%e0%b8%b4%e0%b8%87/",
   "officialUrl": "https://th.victorsport.com/product/sk244-cmq",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-sport-socks-medium-sk244c-rose-red"
+   }
+  ],
+  "priceNote": "แปลงจาก US$8.70 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/victor-sport-socks-medium-sk244c-rose-red"
  },
  {
   "id": "victor-sk290",
@@ -1998,14 +2319,24 @@ window.SOCKS = [
   "sizes": "M(22-25cm)",
   "pack": 1,
   "colors": "มี 3 สี",
-  "price": "",
+  "price": 270,
   "priceText": "",
   "year": 2025,
   "note": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-sk290-300x300.jpg",
   "source": "https://chobbad.com/socks/victor-sk290/",
   "officialUrl": "https://th.victorsport.com/product/sk290-m",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-womens-sport-socks-sk290-d-m-red"
+   }
+  ],
+  "priceNote": "แปลงจาก US$7.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/victor-womens-sport-socks-sk290-d-m-red"
  },
  {
   "id": "victor-sk506cny",
@@ -2020,14 +2351,24 @@ window.SOCKS = [
   "sizes": "M:22cm -25cm / L:25cm -28cm",
   "pack": 1,
   "colors": "มี 2 สี",
-  "price": "",
+  "price": 340,
   "priceText": "",
   "year": 2024,
   "note": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-sk506cny-300x300.jpg",
   "source": "https://chobbad.com/socks/victor-sk506cny/",
   "officialUrl": "https://th.victorsport.com/product/sk506cny-a",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-2025-chinese-new-year-mens-socks-sk506cny-d-l-lava-red"
+   }
+  ],
+  "priceNote": "แปลงจาก US$9.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/victor-2025-chinese-new-year-mens-socks-sk506cny-d-l-lava-red"
  },
  {
   "id": "victor-sk507cny",
@@ -2066,7 +2407,13 @@ window.SOCKS = [
   "material": "83.1% Cotton + 15.4% Polyester + 1.5% Spandex",
   "colors": "White (A)/ Navy (B)",
   "height": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5053"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5053",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5053"
+   }
+  ]
  },
  {
   "id": "victor-x-crayon-shinchan-sport-socks-sk-410cs",
@@ -2531,72 +2878,29 @@ window.SOCKS = [
   "est": []
  },
  {
-  "id": "yonex-29120th-crew",
+  "id": "yonex-19256ex-3-pack-crew",
   "brand": "Yonex",
-  "name": "29120TH Crew",
-  "code": "",
-  "year": "",
-  "est": [],
+  "name": "19256EX 3-PACK Crew",
   "note": "",
-  "img": "https://www.badmintonplaza.com/images/29120TH-A.jpg",
   "source": "",
-  "officialUrl": "",
-  "price": 180,
-  "material": "",
-  "colors": "Light Blue, Yellow, Pink",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0723/9035/files/Yonex_19256ex_White_3pack_Quarter_Socks_YumoProShop.png?v=1771616150",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-19256ex-3-pack-sport-crew-socks"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-sport-crew-socks-3pk-unisex-19256ex"
+   }
+  ],
   "height": "mid",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5146"
- },
- {
-  "id": "yonex-29121",
-  "brand": "Yonex",
-  "name": "29121",
-  "code": "",
-  "year": "",
-  "est": [],
-  "note": "",
-  "img": "https://www.badmintonplaza.com/images/YX29121TH-A.jpg",
-  "source": "",
-  "officialUrl": "",
-  "price": 160,
-  "material": "",
-  "colors": "Black/White",
-  "height": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3160"
- },
- {
-  "id": "yonex-29121-low-cut",
-  "brand": "Yonex",
-  "name": "29121 Low Cut",
-  "code": "",
-  "year": "",
-  "est": [],
-  "note": "",
-  "img": "https://www.badmintonplaza.com/images/YX29121TH-3-A.jpg",
-  "source": "",
-  "officialUrl": "",
-  "price": 160,
-  "material": "",
-  "colors": "Red, Navy, Green",
-  "height": "low",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4880"
- },
- {
-  "id": "yonex-29127th-quarter",
-  "brand": "Yonex",
-  "name": "29127TH Quarter",
-  "code": "",
-  "year": "",
-  "est": [],
-  "note": "Seamless, Spandex",
-  "img": "https://www.badmintonplaza.com/images/29127TH-A.jpg",
-  "source": "",
-  "officialUrl": "",
-  "price": 180,
-  "material": "",
-  "colors": "White, Light Blue, Pink",
-  "height": "low",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5147"
+  "price": 720,
+  "priceNote": "แปลงจาก C$29.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/yonex-19256ex-3-pack-sport-crew-socks"
  },
  {
   "id": "yonex-core-crew-socks-3",
@@ -2619,6 +2923,35 @@ window.SOCKS = [
   "source": "https://chobbad.com/socks/yonex-core-crew-socks-3-%e0%b8%84%e0%b8%b9%e0%b9%88/",
   "officialUrl": "https://us.yonex.com/products/crew-socks-3-pairs",
   "est": []
+ },
+ {
+  "id": "yonex-crew-19120",
+  "brand": "Yonex",
+  "name": "Crew 19120",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/19120_011_2__1.webp?v=1786938132",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-19120-sport-crew-socks"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-sport-crew-socks-19120-fresh-lime"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-sport-crew-socks-19120-white"
+   }
+  ],
+  "height": "mid",
+  "price": 610,
+  "priceNote": "แปลงจาก US$18.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/yonex-19120-sport-crew-socks"
  },
  {
   "id": "yonex-ergo-fit-athletic-stripe-crew-socks",
@@ -2685,6 +3018,31 @@ window.SOCKS = [
   "source": "https://chobbad.com/socks/yonex-ergo-fit-performance-crew-socks/",
   "officialUrl": "https://us.yonex.com/products/sport-crew-socks",
   "est": []
+ },
+ {
+  "id": "yonex-low-cut-19121",
+  "brand": "Yonex",
+  "name": "Low-cut 19121",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/19121_007_2__2_1.webp?v=1741147643",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-19121-sport-low-cut-socks"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-low-cut-socks-navy-citrus-green-19121"
+   }
+  ],
+  "height": "low",
+  "price": 680,
+  "priceNote": "แปลงจาก US$20.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/yonex-19121-sport-low-cut-socks"
  },
  {
   "id": "yonex-quarter-length-socks-3",

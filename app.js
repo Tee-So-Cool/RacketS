@@ -270,7 +270,7 @@
         <div class="nm">${esc(full(o))}</div>
         <div class="meta">${[o.brand, o.year, o.weight ? o.weight + ' g' : ''].filter(Boolean).map(esc).join(', ')}</div>
         <div class="meta">${esc((o.cushion || '').split('+')[0].trim())}</div>
-        ${o.price ? `<div class="price"><b class="fig">${baht(o.price)}</b></div>` : ''}`,
+        ${o.price ? `<div class="price"><b class="fig">${est(o, 'price')}${baht(o.price)}</b></div>` : '<div class="price"><span class="small muted">ยังไม่มีราคา</span></div>'}`,
       radar: null,
       bars: [
         { label: 'ราคา', hint: 'ราคาร้าน ตรวจอีกที', get: o => Number(o.price) || NaN, fmt: v => baht(v) },
@@ -287,7 +287,7 @@
         ['น้ำหนัก', o => o.weight ? o.weight + ' g' : '—'],
         ['ไซซ์', o => dash(o.sizes)],
         ['สีที่มี', o => dash(o.colors)],
-        ['ราคา', o => o.price ? baht(o.price) : dash(o.priceText)],
+        ['ราคา', o => o.price ? priceCell(o) : dash(o.priceText)],
         ['จุดเด่น', o => dash(o.note)],
         ['แหล่งข้อมูล', o => sources(o)],
       ],
@@ -305,7 +305,7 @@
         <div class="nm">${esc(full(k))}</div>
         <div class="meta">${[k.brand, k.year, k.pack ? k.pack + ' คู่' : ''].filter(Boolean).map(esc).join(', ')}</div>
         <div class="meta">${esc(k.material || '')}</div>
-        ${k.price ? `<div class="price"><b class="fig">${baht(k.price)}</b></div>` : ''}`,
+        ${k.price ? `<div class="price"><b class="fig">${est(k, 'price')}${baht(k.price)}</b></div>` : '<div class="price"><span class="small muted">ยังไม่มีราคา</span></div>'}`,
       radar: null,
       bars: [
         { label: 'ราคา', hint: 'ราคาร้าน ตรวจอีกที', get: k => Number(k.price) || NaN, fmt: v => baht(v) },
@@ -321,7 +321,7 @@
         ['ไซซ์', k => dash(k.sizes)],
         ['จำนวนต่อแพ็ก', k => k.pack ? k.pack + ' คู่' : '—'],
         ['สีที่มี', k => dash(k.colors)],
-        ['ราคา', k => k.price ? baht(k.price) : dash(k.priceText)],
+        ['ราคา', k => k.price ? priceCell(k) : dash(k.priceText)],
         ['จุดเด่น', k => dash(k.note)],
         ['แหล่งข้อมูล', k => sources(k)],
       ],

@@ -14,7 +14,7 @@ BRANDS = {'asics': 'Asics', 'hundred': 'Hundred', 'fz forza': 'FZ Forza', 'forza
 # character tie-ins, gift sets and tennis lines are not models to list
 NOT_MODEL = re.compile(r'doraemon|dragon ball|crayon|shin ?chan|hello kitty|care bears|one piece|pokemon|butterbear|stencil|avenger|'
                        r'gift|combo|\bkit\b|polytour|tennis|squash|sample|bundle|\bx\b|\bmini\b|ornament|\bcase\b|\bbulk\b|box ?set|'
-                       r'wristband|keychain|key chain|\bholder\b', re.I)
+                       r'wristband|keychain|key chain|\bholder\b|\b\d+th\b|anniversary', re.I)
 FX = json.load(open(os.path.join(SRC, 'fx.json'))) if os.path.exists(os.path.join(SRC, 'fx.json')) else {'toTHB': {}, 'date': ''}
 SYM = {'USD': 'US$', 'GBP': '£', 'EUR': '€', 'SGD': 'S$', 'AUD': 'A$', 'INR': '₹', 'CAD': 'C$', 'MYR': 'RM'}
 
@@ -60,8 +60,9 @@ def apply(db, kind, wanted, clean_title, extract, new_model):
             nm = clean_title(it['title'], strip_brand=it['brand'])
             # one model however the shops space or spell it: "AP - 7" = "AP7", "VBS-70 Power" = "VBS-70P"
             # repeated words fold too: "NCS New Carbonsonic Max" = "New Carbonsonic Max"
+            # and word order does not split one model: "300 Youlong" = "Youlong 300"
             tk = [w for i, w in enumerate(tokens(nm)) if i == 0 or w != tokens(nm)[i - 1]]
-            if nm: found[(it['brand'], ''.join(tk))].append(it)
+            if nm: found[(it['brand'], ' '.join(sorted(tk)))].append(it)
             continue
         hits += 1
         fill(pool[name], it, extract, kind)
@@ -76,6 +77,10 @@ def apply(db, kind, wanted, clean_title, extract, new_model):
         if not m: continue
         # a listing that only now finds a model added a moment ago (another spelling of it) joins that model
         twin, _ = pmatch(m['name'], {o['name']: o for o in db.values() if o['brand'] == brand})
+        # or a listed model whose name ends with this one: shops drop "Power Cushion" from "Power Cushion Aerus Z2"
+        nt = tokens(m['name'])
+        twin = twin or next((o['name'] for o in db.values() if o['brand'] == brand and len(tokens(o['name'])) > len(nt)
+                             and tokens(o['name'])[-len(nt):] == nt and len(nt) >= 2), None)
         if twin:
             for it in its: fill(next(o for o in db.values() if o['brand'] == brand and o['name'] == twin), it, extract, kind)
             continue

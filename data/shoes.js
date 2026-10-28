@@ -284,7 +284,17 @@ window.SHOES = [
   "img": "https://chobbad.com/wp-content/uploads/2026/10/asics-blade-ff-2-300x300.jpg",
   "source": "https://chobbad.com/shoes/asics-blade-ff-2/",
   "officialUrl": "https://www.asics.com/th/th-th/blade-ff-2/p/1071A117-103.html",
-  "est": []
+  "est": [],
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/asics-blade-ff-2-womens-indoor-court-shoe-white-dahlia-1072a120-103"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/asics-blade-ff-2-mens-indoor-1071a117-100"
+   }
+  ]
  },
  {
   "id": "asics-court-control-ff-3",
@@ -303,10 +313,16 @@ window.SHOES = [
   "priceText": "4,900 บาท",
   "year": "",
   "note": "",
-  "img": false,
+  "img": "https://cdn.shopify.com/s/files/1/0747/3535/3946/files/ff3-blue-1.jpg?v=1783375306",
   "source": "https://chobbad.com/shoes/asics-court-control-ff-3/",
   "officialUrl": "https://www.asics.com/th/th-th/court-control-ff-3/p/1071A098-100.html",
-  "est": []
+  "est": [],
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/asics-court-control-ff-3-badminton-shoes-french-blue-white"
+   }
+  ]
  },
  {
   "id": "asics-court-control-ff-4",
@@ -373,7 +389,13 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/asics-court-hunter-ff/",
   "officialUrl": "https://www.asics.com/th/th-th/court-hunter-ff/p/1071A111-402.html",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4753"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4753",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4753"
+   }
+  ]
  },
  {
   "id": "asics-gel-court-hunter-3-expanse",
@@ -393,7 +415,37 @@ window.SHOES = [
   "cushion": "",
   "upper": "Breathable mesh",
   "colors": "White/Blue Expanse",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4291"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4291",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4291"
+   }
+  ]
+ },
+ {
+  "id": "asics-gel-rocket-11",
+  "brand": "Asics",
+  "name": "Gel Rocket 11",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0747/3535/3946/files/gelrocket11white-1.jpg?v=1783375304",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/asics-gel-rocket-11-white-badminton-shoes"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/asics-gel-rocket-11-m-indigo-fog-nova-orange"
+   }
+  ],
+  "price": 1860,
+  "priceNote": "แปลงจาก ₹5,239.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/asics-gel-rocket-11-white-badminton-shoes"
  },
  {
   "id": "asics-gel-rocket-12",
@@ -415,7 +467,25 @@ window.SHOES = [
   "img": "https://chobbad.com/wp-content/uploads/2026/10/asics-gel-rocket-12-300x300.jpg",
   "source": "https://chobbad.com/shoes/asics-gel-rocket-12/",
   "officialUrl": "https://www.asics.com/th/th-th/gel-rocket-12/p/1071A116-403.html",
-  "est": []
+  "est": [],
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/asics-gel-rocket-12-womens-indoor-court-shoe-white-dahlia-1072a119-106"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/asics-gel-rocket-12-wide-mens-court-shoes"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/asics-gel-rocket-12-mens-indoor-1071a116-404"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/asics-gel-rocket-12-indoor-shoes-dark-teal-yamabuki"
+   }
+  ]
  },
  {
   "id": "asics-gel-rocket-12-wide",
@@ -481,7 +551,17 @@ window.SHOES = [
   "img": "https://chobbad.com/wp-content/uploads/2026/10/asics-gel-tactic-13-300x300.jpg",
   "source": "https://chobbad.com/shoes/asics-gel-tactic-13/",
   "officialUrl": "https://www.asics.com/th/th-th/gel-tactic-13/p/1071A114-103.html",
-  "est": []
+  "est": [],
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/asics-gel-tactic-13-womens-indoor-court-shoe-concrete-illuminate-mint-1072a118-020"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/asics-gel-tactic-13-womens-indoor-1072a118-020"
+   }
+  ]
  },
  {
   "id": "asics-gel-tactic-13-wide",
@@ -525,7 +605,41 @@ window.SHOES = [
   "img": "https://chobbad.com/wp-content/uploads/2026/10/asics-powerbreak-ff-300x300.jpg",
   "source": "https://chobbad.com/shoes/asics-powerbreak-ff/",
   "officialUrl": "https://www.asics.com/th/th-th/powerbreak-ff/p/1071A101-400.html",
-  "est": []
+  "est": [],
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/asics-powerbreak-ff-womens-indoor-court-shoe-white-foggy-teal-1072a104-103"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/asics-powerbreak-ff-womens-indoor-1072a104-102"
+   }
+  ]
+ },
+ {
+  "id": "asics-upcourt-5",
+  "brand": "Asics",
+  "name": "Upcourt 5",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0747/3535/3946/files/Pure-Silver-Badminton-Shoes-4-4.png?v=1783375083",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/asics-upcourt-5-peacoat-pure-silver-badminton-shoes"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/asics-upcourt-5-indoor-shoes-peacoat-shocking-orange"
+   }
+  ],
+  "price": 1510,
+  "priceNote": "แปลงจาก ₹4,249.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/asics-upcourt-5-peacoat-pure-silver-badminton-shoes"
  },
  {
   "id": "asics-upcourt-6",
@@ -548,7 +662,21 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/asics-upcourt-6/",
   "officialUrl": "https://www.asics.com/th/th-th/upcourt-6/p/1071A104-406.html",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4731"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4731",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4731"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/asics-upcourt-6-gs-junior-indoor-court-shoe-white-pure-silver-1074a045-104"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/asics-gel-upcourt-6-gs-junior-indoor-1074a045-001"
+   }
+  ]
  },
  {
   "id": "fz-forza-s-180",
@@ -700,7 +828,76 @@ window.SHOES = [
   "cushion": "PHYLON+TPU",
   "upper": "TPU + MESH + SYNTHETIC LEATHER",
   "colors": "Light Blue/ Dark Blue/ White",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4644"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4644",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4644"
+   }
+  ]
+ },
+ {
+  "id": "hundred-phenom",
+  "brand": "Hundred",
+  "name": "Phenom",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/hundred_phenom_white_green.webp?v=1768489188",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hundred-phenom-unisex-badminton-shoes-white-green"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/hundred-phenom-unisex-badminton-shoes-white-blue"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-phenom-hbfs-5m243-5"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-phenom-badminton-shoes-white-grey-green"
+   }
+  ],
+  "width": "wide",
+  "weight": 320,
+  "price": 4050,
+  "priceNote": "แปลงจาก US$120.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/hundred-phenom-unisex-badminton-shoes-white-green"
+ },
+ {
+  "id": "hundred-velocity-elite",
+  "brand": "Hundred",
+  "name": "Velocity Elite",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/Velocity_Elite_Navy_4_fs.png?v=1778528491",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hundred-velocity-elite-badminton-shoes-blue"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/hundred-velocity-elite-unisex-badminton-shoes-white-black"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-velocity-elite-hbfs-4m003-2"
+   }
+  ],
+  "weight": 310,
+  "price": 2360,
+  "priceNote": "แปลงจาก US$70.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/hundred-velocity-elite-badminton-shoes-blue"
  },
  {
   "id": "li-ning-ayzt009",
@@ -720,7 +917,13 @@ window.SHOES = [
   "cushion": "Textile + EVA",
   "upper": "Textile + TPU",
   "colors": "Standard White/Fluorescent begonia Red",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3869"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3869",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3869"
+   }
+  ]
  },
  {
   "id": "li-ning-aero-speed-2-0",
@@ -735,14 +938,28 @@ window.SHOES = [
   "weight": 330,
   "sizes": "EUR 34-47 (UK 1-12, 21.4-30 cm)",
   "colors": "ขาว/ดำ/ทอง ขาว/แดง/กรมท่า ขาว/กรมท่า/เขียวมะนาว",
-  "price": "",
+  "price": 2110,
   "priceText": "SGD 74.00 (ราคาสิงคโปร์, ป้าย SGD 79.00)",
   "year": "",
   "note": "ปรับพื้นกลางใหม่ให้เปลี่ยนจังหวะลื่นและเบาขึ้น ส่วนบนตาข่ายผสม TPU ยึดเท้าแน่น",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/li-ning-aero-speed-2-0-300x300.jpg",
   "source": "https://chobbad.com/shoes/li-ning-aero-speed-2-0/",
   "officialUrl": "https://sg.lining.studio/products/aero-speed-2-0",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/li-ning-aero-speed-2-0-badminton-court-shoes-white-navy-lime"
+   },
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/aero-speed-2-0"
+   }
+  ],
+  "priceNote": "แปลงจาก S$79.90 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/li-ning-aero-speed-2-0-badminton-court-shoes-white-navy-lime"
  },
  {
   "id": "li-ning-aero-storm",
@@ -762,14 +979,28 @@ window.SHOES = [
   "cushion": "Phylon",
   "upper": "Synthetic Leather+Mesh",
   "colors": "Light Blue/Light Green",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4589"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4589",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4589"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/li-ning-aero-storm-badminton-court-shoes-light-blue-light-green"
+   },
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/aero-storm"
+   }
+  ]
  },
  {
   "id": "li-ning-all-round",
   "brand": "Li-Ning",
   "name": "All Round",
   "code": "AYTW021",
-  "width": "",
+  "width": "wide",
   "widthText": "",
   "sole": "พื้นยางไม่ทิ้งรอย (Non-marking)",
   "cushion": "พื้นกลางคืนพลังงาน (energy return)",
@@ -777,14 +1008,28 @@ window.SHOES = [
   "weight": 300,
   "sizes": "UK 3-11 (EUR 35⅔-46⅓, 21.5-29.5 cm)",
   "colors": "ขาว/เขียว ขาว/ม่วง ฟ้า เหลือง (Cockatoo) ดำ น้ำเงิน",
-  "price": "",
+  "price": 1590,
   "priceText": "₹4,490 (ราคาอินเดีย, ป้าย ₹7,490)",
   "year": "",
   "note": "น้ำหนักไม่เกิน 300 g ระบายอากาศดี พื้นกลางคืนพลังงาน สำหรับผู้เล่นระดับกลางถึงสูง",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/li-ning-all-round-300x300.jpg",
   "source": "https://chobbad.com/shoes/li-ning-all-round/",
   "officialUrl": "https://in.lining.studio/products/all-round",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/all-round"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-all-round-badminton-shoes-standard-white-violet-tulip"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/all-round"
  },
  {
   "id": "li-ning-almighty-v",
@@ -798,20 +1043,42 @@ window.SHOES = [
   "source": "",
   "officialUrl": "",
   "price": 1990,
-  "width": "",
+  "width": "wide",
   "widthText": "",
   "sole": "Rubber+EVA",
   "cushion": "",
   "upper": "Synthetic Leather + Textile",
   "colors": "Navy/Blue",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3718"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3718",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3718"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/li-ning-almighty-v2-court-shoe-white-blue"
+   },
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/almighty-v"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/almight-v-jr"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-badminton-shoe-kids-white-aytt010-pre-order"
+   }
+  ]
  },
  {
   "id": "li-ning-almighty-v-2-0",
   "brand": "Li-Ning",
   "name": "Almighty V 2.0",
   "code": "AYTU001",
-  "width": "",
+  "width": "wide",
   "widthText": "",
   "sole": "พื้นยางไม่ทิ้งรอย (Non-marking)",
   "cushion": "",
@@ -827,7 +1094,77 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/li-ning-almighty-v-2-0/",
   "officialUrl": "https://sg.lining.studio/products/almighty-v-2-0",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4154"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4154",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4154"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/li-ning-almighty-v2-0-court-shoe-white-silver"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/li-ning-almighty-v2-0-badminton-shoe"
+   },
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/almighty-v-2-0"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/almighty-v-2-0"
+   }
+  ]
+ },
+ {
+  "id": "li-ning-attack-g7",
+  "brand": "Li-Ning",
+  "name": "Attack G7",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/01_20_15_8aa4ecdea9.jpg?v=1752146110",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/attack-g7"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/attack-g7"
+   }
+  ],
+  "price": 1820,
+  "priceNote": "แปลงจาก S$69.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/attack-g7"
+ },
+ {
+  "id": "li-ning-attack-g8",
+  "brand": "Li-Ning",
+  "name": "Attack G8",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/t_01_3_3_8522577488.jpg?v=1752146097",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/attack-g8"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/attack-g8"
+   }
+  ],
+  "price": 1820,
+  "priceNote": "แปลงจาก S$69.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/attack-g8"
  },
  {
   "id": "li-ning-blade-lite",
@@ -842,14 +1179,28 @@ window.SHOES = [
   "weight": 320,
   "sizes": "",
   "colors": "ขาว น้ำเงิน/ชมพู ขาว/ดำ ขาว/แดง",
-  "price": "",
+  "price": 3400,
   "priceText": "SGD 129.00 (ราคาสิงคโปร์) / ₹7,590 (ราคาอินเดีย)",
   "year": "",
   "note": "มี Probar Loc และหัวรองเท้า Tuff tip ปกป้องทั้งเท้า ช่วยลดความล้าระหว่างเล่น",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/li-ning-blade-lite-300x300.jpg",
   "source": "https://chobbad.com/shoes/li-ning-blade-lite/",
   "officialUrl": "https://in.lining.studio/products/blade-lite/",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/blade-lite"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/blade-lite"
+   }
+  ],
+  "priceNote": "แปลงจาก S$129.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/blade-lite"
  },
  {
   "id": "li-ning-blade-pro",
@@ -864,14 +1215,28 @@ window.SHOES = [
   "weight": 320,
   "sizes": "",
   "colors": "ขาว น้ำเงิน (Estate Blue) ขาว/ดำ ขาว/แดง ดำ",
-  "price": "",
+  "price": 5250,
   "priceText": "₹12,990 (ราคาอินเดีย, ป้าย ₹13,990)",
   "year": "",
   "note": "รวม Probar Loc, Tuff tip และพื้นกลาง Boom ลดการสูญเสียพลังงานขณะเคลื่อนที่",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/li-ning-blade-pro-300x300.jpg",
   "source": "https://chobbad.com/shoes/li-ning-blade-pro/",
   "officialUrl": "https://in.lining.studio/products/blade-pro/",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/blade-pro"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/blade-pro"
+   }
+  ],
+  "priceNote": "แปลงจาก S$199.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/blade-pro"
  },
  {
   "id": "li-ning-blast-se",
@@ -886,14 +1251,28 @@ window.SHOES = [
   "weight": 278,
   "sizes": "EUR 34-47 (UK 1-12)",
   "colors": "ดำ ขาว ขาว/ดำ",
-  "price": "",
+  "price": 5250,
   "priceText": "SGD 199.00 (ราคาสิงคโปร์)",
   "year": "",
   "note": "ส้นแข็งจาก TPU เพิ่มความมั่นคงของส้น ตัวรองเท้าระบายอากาศ มีห่วงดึงส้น",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/li-ning-blast-se-300x300.jpg",
   "source": "https://chobbad.com/shoes/li-ning-blast-se/",
   "officialUrl": "https://sg.lining.studio/products/blast-se",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/blast-se"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/blast-se"
+   }
+  ],
+  "priceNote": "แปลงจาก S$199.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/blast-se"
  },
  {
   "id": "li-ning-energy-10",
@@ -908,14 +1287,28 @@ window.SHOES = [
   "weight": 310,
   "sizes": "",
   "colors": "ดำ/ทอง แดง/ทอง ขาว/กรมท่า กรมท่า/ทอง น้ำเงิน/เงิน ขาว/ทอง/ดำ",
-  "price": "",
+  "price": 2610,
   "priceText": "₹4,490 (ราคาอินเดีย, ป้าย ₹5,990)",
   "year": "",
   "note": "แผ่นรองเท้า Bounce คืนพลังงาน และ Cushion+ ช่วยซับแรงแล้วดีดกลับ",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/li-ning-energy-10-300x300.jpg",
   "source": "https://chobbad.com/shoes/li-ning-energy-10/",
   "officialUrl": "https://in.lining.studio/products/energy-10/",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/energy-10"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/energy-10"
+   }
+  ],
+  "priceNote": "แปลงจาก S$99.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/energy-10"
  },
  {
   "id": "li-ning-gyrfalcon-hy-05",
@@ -935,7 +1328,37 @@ window.SHOES = [
   "cushion": "",
   "upper": "",
   "colors": "White/Pink",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4532"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4532",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4532"
+   }
+  ]
+ },
+ {
+  "id": "li-ning-halberd-2-lite",
+  "brand": "Li-Ning",
+  "name": "Halberd 2 Lite",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1_75f3d44109.jpg?v=1752146201",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/halberd-ii-lite"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/halberd-ii-lite"
+   }
+  ],
+  "price": 3930,
+  "priceNote": "แปลงจาก S$149.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/halberd-ii-lite"
  },
  {
   "id": "li-ning-halberd-2-0",
@@ -955,7 +1378,13 @@ window.SHOES = [
   "cushion": "",
   "upper": "",
   "colors": "White/Pink",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4611"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4611",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4611"
+   }
+  ]
  },
  {
   "id": "li-ning-halberd-3",
@@ -970,21 +1399,59 @@ window.SHOES = [
   "weight": 380,
   "sizes": "",
   "colors": "ขาว ดำ/ขาว แดง (Flame Red)",
-  "price": "",
+  "price": 8940,
   "priceText": "₹15,290 (ราคาอินเดีย, ป้าย ₹16,990)",
   "year": "",
   "note": "ใช้โฟม Boom ร่วมกับแผ่นคาร์บอน TPU เพิ่มความมั่นคง ระดับผู้เล่นมืออาชีพ",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/li-ning-halberd-3-300x300.jpg",
   "source": "https://chobbad.com/shoes/li-ning-halberd-3/",
   "officialUrl": "https://in.lining.studio/products/halberd-3",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/halberd-3"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/halberd-3"
+   }
+  ],
+  "priceNote": "แปลงจาก S$339.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/halberd-3"
+ },
+ {
+  "id": "li-ning-halberd-3-lite",
+  "brand": "Li-Ning",
+  "name": "Halberd 3 Lite",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_60_21_341c0c12ec.jpg?v=1752145922",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/halberd-3-lite"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/halberd-3-lite"
+   }
+  ],
+  "price": 4190,
+  "priceNote": "แปลงจาก S$159.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/halberd-3-lite"
  },
  {
   "id": "li-ning-halberd-strike",
   "brand": "Li-Ning",
   "name": "Halberd Strike",
   "code": "AYTV021",
-  "width": "",
+  "width": "wide",
   "widthText": "",
   "sole": "พื้นยางไม่ทิ้งรอย (Non-marking rubber)",
   "cushion": "LN Cloud + ProbarLoc",
@@ -992,21 +1459,35 @@ window.SHOES = [
   "weight": 300,
   "sizes": "UK 3-11 (EUR 35⅔-46⅓, 21.5-29.5 cm)",
   "colors": "เขียว (Blue Jade) ดำ/ขาว ฟ้า/น้ำเงิน ขาว น้ำเงิน/เหลือง",
-  "price": "",
+  "price": 1880,
   "priceText": "₹5,290 (ราคาอินเดีย, ป้าย ₹8,990)",
   "year": 2024,
   "note": "พื้นกลาง LN Cloud มีแผ่น ProbarLoc ใต้อุ้งเท้า ส่วนบนเป็นตาข่ายระบายอากาศ",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/li-ning-halberd-strike-300x300.jpg",
   "source": "https://chobbad.com/shoes/li-ning-halberd-strike/",
   "officialUrl": "https://in.lining.studio/products/halberd-strike",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/halberd-strike"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-halberd-strike-badminton-shoes-black-standard-white"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹5,290.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/halberd-strike"
  },
  {
   "id": "li-ning-hunting",
   "brand": "Li-Ning",
   "name": "Hunting",
   "code": "AYZT009",
-  "width": "",
+  "width": "normal",
   "widthText": "",
   "sole": "พื้นยางไม่ทิ้งรอย (Non-marking)",
   "cushion": "LIGHT FOAM",
@@ -1014,14 +1495,32 @@ window.SHOES = [
   "weight": 345,
   "sizes": "",
   "colors": "ขาว/น้ำเงิน ขาว/ชมพู",
-  "price": "",
+  "price": 3800,
   "priceText": "₹7,490 (ราคาอินเดีย, ป้าย ₹8,690)",
   "year": "",
   "note": "มี Probar Loc รองรับกลางเท้า ยางหุ้มส้นด้านนอก และหัวรองเท้า TUFF TIP กันสึก",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/li-ning-hunting-300x300.jpg",
   "source": "https://chobbad.com/shoes/li-ning-hunting/",
   "officialUrl": "https://in.lining.studio/products/hun-ting/",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/li-ning-hunting-ii-badminton-court-shoes-neon-industry-yellow"
+   },
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/hunting"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/hun-ting"
+   }
+  ],
+  "priceNote": "แปลงจาก S$144.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/li-ning-hunting-ii-badminton-court-shoes-neon-industry-yellow"
  },
  {
   "id": "li-ning-hypersonic-iv",
@@ -1036,14 +1535,28 @@ window.SHOES = [
   "weight": 310,
   "sizes": "EUR 34-47 (UK 1-12, 21.4-30 cm)",
   "colors": "ขาว/ดำ/ส้ม/น้ำเงิน ดำ/น้ำเงิน/ทอง/แดง",
-  "price": "",
+  "price": 2580,
   "priceText": "SGD 95.90 (ราคาสิงคโปร์, ป้าย SGD 99.90)",
   "year": "",
   "note": "แผ่น TPU เพิ่มความแข็งของฐานช่วยออกตัวเร็ว ส้นมีพ็อดซับแรงกระแทก",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/li-ning-hypersonic-iv-300x300.jpg",
   "source": "https://chobbad.com/shoes/li-ning-hypersonic-iv/",
   "officialUrl": "https://sg.lining.studio/products/hypersonic-iv",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/li-ning-hypersonic-iv-badminton-court-shoes-black-blue-gold-red"
+   },
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/hypersonic-iv"
+   }
+  ],
+  "priceNote": "แปลงจาก S$98.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/li-ning-hypersonic-iv-badminton-court-shoes-black-blue-gold-red"
  },
  {
   "id": "li-ning-hypersonic-se",
@@ -1063,7 +1576,13 @@ window.SHOES = [
   "cushion": "Phylon+TPU",
   "upper": "TPU+MESH",
   "colors": "White/Black/Orange/Sea Blue",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5150"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5150",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5150"
+   }
+  ]
  },
  {
   "id": "li-ning-invincible-ace",
@@ -1083,7 +1602,13 @@ window.SHOES = [
   "cushion": "TPU",
   "upper": "Synthetic Leather + Textile",
   "colors": "Tiger Pattern",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4737"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4737",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4737"
+   }
+  ]
  },
  {
   "id": "li-ning-lt-01",
@@ -1098,14 +1623,28 @@ window.SHOES = [
   "weight": 300,
   "sizes": "",
   "colors": "ดำ ขาว ชมพู",
-  "price": "",
+  "price": 6300,
   "priceText": "₹9,990 (ราคาอินเดีย, ป้าย ₹11,990)",
   "year": "",
   "note": "ทรงข้อต่ำ พื้นกลางรวมโฟม Boom, Light Foam และ Bounce+",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/li-ning-lt-01-300x300.jpg",
   "source": "https://chobbad.com/shoes/li-ning-lt-01/",
   "officialUrl": "https://in.lining.studio/products/lt-01",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/lt-01"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/lt-01"
+   }
+  ],
+  "priceNote": "แปลงจาก S$239.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/lt-01"
  },
  {
   "id": "li-ning-lei-ting",
@@ -1119,20 +1658,30 @@ window.SHOES = [
   "source": "",
   "officialUrl": "",
   "price": 3690,
-  "width": "",
+  "width": "normal",
   "widthText": "",
   "sole": "Rubber+EVA+TPU",
   "cushion": "",
   "upper": "",
   "colors": "Black",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3224"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3224",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3224"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-badminton-shoe-kids-white-blue-aytt014-3"
+   }
+  ]
  },
  {
   "id": "li-ning-ranger-force",
   "brand": "Li-Ning",
   "name": "Ranger Force",
   "code": "AYTV079",
-  "width": "",
+  "width": "wide",
   "widthText": "",
   "sole": "พื้นยางไม่ทิ้งรอย (Non-marking)",
   "cushion": "พื้นกลางคืนตัวสูง (high-bounce cushioning)",
@@ -1140,14 +1689,52 @@ window.SHOES = [
   "weight": 300,
   "sizes": "UK 3-11 (EUR 35⅔-46⅓)",
   "colors": "ฟ้า/น้ำเงิน ขาว/ส้ม ขาว ขาว/ฟ้า ดำ น้ำเงิน (Olympics Blue)",
-  "price": "",
+  "price": 2230,
   "priceText": "₹6,290 (ราคาอินเดีย, ป้าย ₹10,990)",
   "year": "",
   "note": "ออกแบบพื้นเพื่อการยึดเกาะและความมั่นคงเวลาลงน้ำหนักแรงหรือก้าวกว้าง",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/li-ning-ranger-force-300x300.jpg",
   "source": "https://chobbad.com/shoes/li-ning-ranger-force/",
   "officialUrl": "https://in.lining.studio/products/ranger-force",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/ranger-force"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-ranger-force-badminton-shoes-pastel-blue-tropic-storm-blue"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹6,290.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/ranger-force"
+ },
+ {
+  "id": "li-ning-ranger-lite-z1",
+  "brand": "Li-Ning",
+  "name": "Ranger Lite Z1",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/AYTS_075_1_01_541ad98544.jpg?v=1752147705",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/ranger-lite-z1"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/ranger-lite-z1"
+   }
+  ],
+  "price": 2610,
+  "priceNote": "แปลงจาก S$99.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/ranger-lite-z1"
  },
  {
   "id": "li-ning-ranger-vi-lite",
@@ -1167,7 +1754,21 @@ window.SHOES = [
   "cushion": "Phylon",
   "upper": "Textile + TPU + Synthetic Leather",
   "colors": "Pink",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3406"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3406",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3406"
+   },
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/ranger-vi-lite"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/ranger-vi-lite"
+   }
+  ]
  },
  {
   "id": "li-ning-saga-ii-lite",
@@ -1187,7 +1788,21 @@ window.SHOES = [
   "cushion": "",
   "upper": "Synthetic Leather + Textile",
   "colors": "Black/Standard White",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4106"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4106",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4106"
+   },
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/saga-ii-lite"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/saga-ii-lite"
+   }
+  ]
  },
  {
   "id": "li-ning-saga-ii-max",
@@ -1207,7 +1822,17 @@ window.SHOES = [
   "cushion": "Pylon (LI-NING BOOM 45)",
   "upper": "TPU + Synthetic Leather + Textile",
   "colors": "ฺBlack",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4919"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4919",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4919"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/saga-ii-max"
+   }
+  ]
  },
  {
   "id": "li-ning-saga-ii-se",
@@ -1227,7 +1852,22 @@ window.SHOES = [
   "cushion": "Pylon (LI-NING BOOM 45)",
   "upper": "TPU + Synthetic + Textile",
   "colors": "Black",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4148"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4148",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4148"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/saga-ii-se"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-saga-ii-se-badminton-shoe-unisex-black-ayzu001-4"
+   }
+  ],
+  "weight": 374
  },
  {
   "id": "li-ning-saga-iii-pro",
@@ -1247,7 +1887,42 @@ window.SHOES = [
   "cushion": "Pylon (LI-NING BOOM 45)",
   "upper": "Thermoplastic polyurethane (TPU) + Textile",
   "colors": "Multi",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4767"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4767",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4767"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-saga-iii-pro-badminton-shoe-unisex"
+   }
+  ],
+  "weight": 248
+ },
+ {
+  "id": "li-ning-saga-lite-4",
+  "brand": "Li-Ning",
+  "name": "Saga Lite 4",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_33_4_4c63e9c9e6.jpg?v=1752145932",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/saga-lite-4"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/saga-lite-4"
+   }
+  ],
+  "price": 3140,
+  "priceNote": "แปลงจาก S$119.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/saga-lite-4"
  },
  {
   "id": "li-ning-saga-lite-x",
@@ -1289,7 +1964,13 @@ window.SHOES = [
   "cushion": "Pylon (LI-NING BOOM 45)",
   "upper": "Thermoplastic polyurethane (TPU) + Textile",
   "colors": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4814"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4814",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4814"
+   }
+  ]
  },
  {
   "id": "li-ning-saga-se",
@@ -1304,14 +1985,28 @@ window.SHOES = [
   "weight": 320,
   "sizes": "",
   "colors": "ขาว/ดำ น้ำเงินเข้ม ขาว",
-  "price": "",
+  "price": 7880,
   "priceText": "₹9,990 (ราคาอินเดีย, ป้าย ₹12,990)",
   "year": "",
   "note": "ใช้โฟม Boom และ Light Foam ในพื้นกลาง ระดับผู้เล่นมืออาชีพ",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/li-ning-saga-se-300x300.jpg",
   "source": "https://chobbad.com/shoes/li-ning-saga-se/",
   "officialUrl": "https://in.lining.studio/products/saga-se",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/saga-se"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/saga-se"
+   }
+  ],
+  "priceNote": "แปลงจาก S$299.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/saga-se"
  },
  {
   "id": "li-ning-solid-ii-pro",
@@ -1331,7 +2026,13 @@ window.SHOES = [
   "cushion": "PHYLON+Boom45",
   "upper": "",
   "colors": "Black/Neon Grape",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5180"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5180",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5180"
+   }
+  ]
  },
  {
   "id": "li-ning-sound-wave-ii",
@@ -1351,7 +2052,21 @@ window.SHOES = [
   "cushion": "",
   "upper": "",
   "colors": "Black",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3470"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3470",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3470"
+   },
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/sound-wave-ii"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/sound-wave-ii"
+   }
+  ]
  },
  {
   "id": "li-ning-sound-wave-iv",
@@ -1371,7 +2086,43 @@ window.SHOES = [
   "cushion": "Phylon (lightweight cushioning)",
   "upper": "Synthetic Leather+Textile",
   "colors": "White/Glory Red",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4906"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4906",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4906"
+   }
+  ]
+ },
+ {
+  "id": "li-ning-ultra-fly",
+  "brand": "Li-Ning",
+  "name": "Ultra Fly",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_106_1_5f955ffb16.jpg?v=1752146022",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/ultra-fly"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/ultra-fly"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-ultra-fly-red-badminton-shoes"
+   }
+  ],
+  "weight": 310,
+  "width": "wide",
+  "price": 2160,
+  "priceNote": "แปลงจาก S$82.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/ultra-fly"
  },
  {
   "id": "li-ning-ultra-power",
@@ -1386,14 +2137,52 @@ window.SHOES = [
   "weight": 330,
   "sizes": "",
   "colors": "",
-  "price": "",
+  "price": 1450,
   "priceText": "₹3,690 (ราคาอินเดีย, ป้าย ₹4,590)",
   "year": "",
   "note": "มีโครงเสริมด้านข้างและส้นเพิ่มความแข็งและการรองรับ สำหรับผู้เล่นระดับกลาง",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/li-ning-ultra-power-300x300.jpg",
   "source": "https://chobbad.com/shoes/li-ning-ultra-power/",
   "officialUrl": "https://in.lining.studio/products/ultra-power",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/ultra-power"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/ultra-power"
+   }
+  ],
+  "priceNote": "แปลงจาก S$55.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/ultra-power"
+ },
+ {
+  "id": "li-ning-yt-01",
+  "brand": "Li-Ning",
+  "name": "Yt 01",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_50_27_7df9c32688.jpg?v=1752146012",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/yt-01"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/yt-01"
+   }
+  ],
+  "price": 6300,
+  "priceNote": "แปลงจาก S$239.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/yt-01"
  },
  {
   "id": "li-ning-yun-ting",
@@ -1413,7 +2202,17 @@ window.SHOES = [
   "cushion": "",
   "upper": "",
   "colors": "Green",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4579"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4579",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4579"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-cloud-thunder-yun-ting-badminton-shoe-unisex-ayzu017"
+   }
+  ]
  },
  {
   "id": "mizuno-blaster-cn",
@@ -1433,7 +2232,13 @@ window.SHOES = [
   "cushion": "",
   "upper": "Synthetic leather + fabric",
   "colors": "White/Purple",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4230"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4230",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4230"
+   }
+  ]
  },
  {
   "id": "mizuno-blaster-cn-2",
@@ -1453,7 +2258,13 @@ window.SHOES = [
   "cushion": "",
   "upper": "Synthetic leather + fabric",
   "colors": "White/Blue/Red",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5018"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5018",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5018"
+   }
+  ]
  },
  {
   "id": "mizuno-gate-sky-plus-4",
@@ -1490,14 +2301,24 @@ window.SHOES = [
   "weight": 280,
   "sizes": "US 7–11",
   "colors": "น้ำเงิน/ฟ้า",
-  "price": "",
+  "price": 2500,
   "priceText": "S$109 (ราคาสิงคโปร์)",
   "year": 2025,
   "note": "รุ่นเริ่มต้น ปรับการระบายอากาศ พื้นงอง่าย หนังสังเคราะห์ส่วนบนใช้วัสดุรีไซเคิลมากกว่า 50%",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/mizuno-sky-blaster-4-300x300.jpg",
   "source": "https://chobbad.com/shoes/mizuno-sky-blaster-4/",
   "officialUrl": "https://sgp.mizuno.com/collections/badminton-shoes/products/sky-blaster-4-71ga2533-2025ss",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/mizuno-sky-blaster-4-badminton-shoes"
+   }
+  ],
+  "priceNote": "แปลงจาก S$95.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/mizuno-sky-blaster-4-badminton-shoes"
  },
  {
   "id": "mizuno-wave-claw-3",
@@ -1520,7 +2341,12 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/mizuno-wave-claw-3/",
   "officialUrl": "https://tha.mizuno.com/products/wave-claw-3-71ga2443-2025ss",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4693"
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/mizuno-wave-claw-3-2024-unisex-badminton-shoes-white-gold"
+   }
+  ]
  },
  {
   "id": "mizuno-wave-claw-4",
@@ -1543,7 +2369,21 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/mizuno-wave-claw-4/",
   "officialUrl": "https://sgp.mizuno.com/collections/badminton/products/wave-claw-4-71ga2643-2026aw",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5163"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5163",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5163"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/mizuno-wave-claw-4-wide-shoe-white-blue"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/mizuno-wave-claw-4-badminton-shoe-2026-black-mp-gold-black-sand"
+   }
+  ]
  },
  {
   "id": "mizuno-wave-claw-el-2",
@@ -1566,7 +2406,16 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/mizuno-wave-claw-el-2/",
   "officialUrl": "https://tha.mizuno.com/products/71ga2583-wave-claw-el-2-2026ss",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5157"
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/mizuno-wave-claw-el-2-2024-unisex-badminton-shoes-india-ink-hint-of-mint-white"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/mizuno-wave-claw-el-2-white-orange-dahlia-unisex-badminton-shoes"
+   }
+  ]
  },
  {
   "id": "mizuno-wave-claw-neo-3",
@@ -1589,27 +2438,12 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/mizuno-wave-claw-neo-3/",
   "officialUrl": "https://tha.mizuno.com/th/products/71ga2473-wave-claw-neo-3-2026ss",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5156"
- },
- {
-  "id": "mizuno-wave-claw-pro-2",
-  "brand": "Mizuno",
-  "name": "Wave Claw Pro 2",
-  "code": "",
-  "year": "",
-  "est": [],
-  "note": "",
-  "img": "https://www.badmintonplaza.com/images/71GA245220-A.jpg",
-  "source": "",
-  "officialUrl": "",
-  "price": 3540,
-  "width": "normal",
-  "widthText": "Men's-D (Standard)",
-  "sole": "Rubber (85%) + Plastic (10%) + EVA (5%)",
-  "cushion": "",
-  "upper": "Synthetic (75%) + Textile (25%)",
-  "colors": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4668"
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/mizuno-wave-claw-neo-3-unisex-badminton-shoe-2026-white-ultramarine-ice-water"
+   }
+  ]
  },
  {
   "id": "mizuno-wave-claw-pro-3",
@@ -1631,8 +2465,7 @@ window.SHOES = [
   "img": "https://chobbad.com/wp-content/uploads/2026/10/mizuno-wave-claw-pro-3-300x300.jpg",
   "source": "https://chobbad.com/shoes/mizuno-wave-claw-pro-3/",
   "officialUrl": "https://tha.mizuno.com/products/71ga2652-wave-claw-pro-3-2026ss",
-  "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5164"
+  "est": []
  },
  {
   "id": "mizuno-wave-fang-2",
@@ -1654,7 +2487,13 @@ window.SHOES = [
   "img": "https://chobbad.com/wp-content/uploads/2026/10/mizuno-wave-fang-2-300x300.jpg",
   "source": "https://chobbad.com/shoes/mizuno-wave-fang-2/",
   "officialUrl": "https://tha.mizuno.com/products/wave-fang-2-71ga2313-2025ss",
-  "est": []
+  "est": [],
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/mizuno-wave-fang-2-unisex-badminton-shoes-2025-white-pink-tetra-all-aboard"
+   }
+  ]
  },
  {
   "id": "mizuno-wave-fang-3",
@@ -1677,7 +2516,17 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/mizuno-wave-fang-3/",
   "officialUrl": "https://sgp.mizuno.com/collections/badminton/products/wave-fang-3-71ga2613-2026aw",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5159"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5159",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5159"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/mizuno-wave-fang-3-beacon-blue-unisex-badminton-shoes"
+   }
+  ]
  },
  {
   "id": "mizuno-wave-fang-el-2",
@@ -1700,7 +2549,12 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/mizuno-wave-fang-el-2/",
   "officialUrl": "https://tha.mizuno.com/products/wave-fang-el-2-2024aw",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5158"
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/mizuno-wave-fang-el-2-2025-unisex-badminton-shoes-white-baritone-blue-calypso-coral"
+   }
+  ]
  },
  {
   "id": "mizuno-wave-fang-pro",
@@ -1722,7 +2576,13 @@ window.SHOES = [
   "img": "https://chobbad.com/wp-content/uploads/2026/10/mizuno-wave-fang-pro-300x300.jpg",
   "source": "https://chobbad.com/shoes/mizuno-wave-fang-pro/",
   "officialUrl": "https://tha.mizuno.com/products/wave-fang-pro-71ga2100-2025ss",
-  "est": []
+  "est": [],
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/mizuno-wave-fang-pro-2025-unisex-badminton-shoes-white-baritone-blue-calypso-coral"
+   }
+  ]
  },
  {
   "id": "mizuno-wave-fang-st",
@@ -1737,14 +2597,41 @@ window.SHOES = [
   "weight": 340,
   "sizes": "US 6.5–11",
   "colors": "ขาว/เงิน",
-  "price": "",
+  "price": 6060,
   "priceText": "S$239 (ราคาสิงคโปร์)",
   "year": 2025,
   "note": "พื้นกลาง ENERZY CORE ร่วมกับ PoWnCe แผ่นรองพื้น ENERZY และส่วนบน Dynamotion Fit",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/mizuno-wave-fang-st-300x300.jpg",
   "source": "https://chobbad.com/shoes/mizuno-wave-fang-st/",
   "officialUrl": "https://sgp.mizuno.com/collections/badminton-shoes/products/wave-fang-st-71ga2563-2025aw",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/mizuno-wave-fang-st-2025-unisex-badminton-shoes-white-silver"
+   }
+  ],
+  "priceNote": "แปลงจาก S$229.90 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/mizuno-wave-fang-st-2025-unisex-badminton-shoes-white-silver"
+ },
+ {
+  "id": "vs-1100-candy",
+  "brand": "VS",
+  "name": "1100 Candy",
+  "note": "",
+  "source": "",
+  "est": [],
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/Gemini_Generated_Image_5hx6vl5hx6vl5hx6.png?v=1786095594",
+  "price": 1790,
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs-1100-2"
+   }
+  ],
+  "width": "wide"
  },
  {
   "id": "vs-166",
@@ -1764,7 +2651,17 @@ window.SHOES = [
   "cushion": "Carbon Fiber Plate",
   "upper": "PU+Mesh vent",
   "colors": "Grey",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4673"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4673",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4673"
+   },
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs-166"
+   }
+  ]
  },
  {
   "id": "vs-166-flash",
@@ -1784,7 +2681,13 @@ window.SHOES = [
   "cushion": "Carbon Fiber Plate",
   "upper": "PU+Mesh vent",
   "colors": "Lake Blue",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4904"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4904",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4904"
+   }
+  ]
  },
  {
   "id": "vs-169",
@@ -1804,7 +2707,13 @@ window.SHOES = [
   "cushion": "Carbon Fiber Plate",
   "upper": "TPU+Mesh vent",
   "colors": "White",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4000"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4000",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4000"
+   }
+  ]
  },
  {
   "id": "vs-176w",
@@ -1824,7 +2733,13 @@ window.SHOES = [
   "cushion": "",
   "upper": "",
   "colors": "White",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3307"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3307",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3307"
+   }
+  ]
  },
  {
   "id": "vs-177",
@@ -1844,7 +2759,13 @@ window.SHOES = [
   "cushion": "",
   "upper": "PU+Breathable mesh",
   "colors": "White",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3962"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3962",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3962"
+   }
+  ]
  },
  {
   "id": "vs-178",
@@ -1864,7 +2785,33 @@ window.SHOES = [
   "cushion": "",
   "upper": "PU+Breathable mesh+Flyknit Fabric",
   "colors": "Black",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4674"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4674",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4674"
+   },
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs-178"
+   }
+  ]
+ },
+ {
+  "id": "vs-200-kirin",
+  "brand": "VS",
+  "name": "200 Kirin",
+  "note": "",
+  "source": "",
+  "est": [],
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/Gemini_Generated_Image_r60y9r60y9r60y9r.png?v=1786096662",
+  "price": 2090,
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs-200"
+   }
+  ]
  },
  {
   "id": "vs-210",
@@ -1884,7 +2831,78 @@ window.SHOES = [
   "cushion": "",
   "upper": "PU+Breathable mesh+Flyknit Fabric",
   "colors": "White/Purple",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4327"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4327",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4327"
+   }
+  ]
+ },
+ {
+  "id": "vs-210p",
+  "brand": "VS",
+  "name": "210P",
+  "note": "",
+  "source": "",
+  "est": [],
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/Gemini_Generated_Image_9705xs9705xs9705.png?v=1786096357",
+  "price": 2950,
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs-210-p"
+   }
+  ]
+ },
+ {
+  "id": "vs-220",
+  "brand": "VS",
+  "name": "220",
+  "note": "",
+  "source": "",
+  "est": [],
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/sp1_0.jpg?v=1786096151",
+  "price": 2790,
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs-220"
+   }
+  ]
+ },
+ {
+  "id": "vs-6000",
+  "brand": "VS",
+  "name": "6000",
+  "note": "",
+  "source": "",
+  "est": [],
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/Gemini_Generated_Image_s49457s49457s494.png?v=1786093328",
+  "price": 2990,
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs-6000"
+   }
+  ]
+ },
+ {
+  "id": "vs-6001",
+  "brand": "VS",
+  "name": "6001",
+  "note": "",
+  "source": "",
+  "est": [],
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/Gemini_Generated_Image_mqxyatmqxyatmqxy.png?v=1786095140",
+  "price": 2690,
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs6001"
+   }
+  ],
+  "width": "wide"
  },
  {
   "id": "vs-6002",
@@ -1904,7 +2922,17 @@ window.SHOES = [
   "cushion": "Dynamic Flow Foam/Carbon Sheet",
   "upper": "Durable PU Leather / Tripple Layer Breathable Mesh",
   "colors": "White/Navy Blue",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5057"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5057",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5057"
+   },
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs6002"
+   }
+  ]
  },
  {
   "id": "vs-6100s",
@@ -1924,7 +2952,51 @@ window.SHOES = [
   "cushion": "Dynamic Flow Foam/Carbon Sheet",
   "upper": "Durable PU Leather / Tripple Layer Breathable Mesh",
   "colors": "Blue",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5116"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5116",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5116"
+   },
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs6100"
+   }
+  ]
+ },
+ {
+  "id": "vs-610w",
+  "brand": "VS",
+  "name": "610W",
+  "note": "",
+  "source": "",
+  "est": [],
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/LINE_NOTE_250819_2_b3dd4a97-42bc-48bb-bb28-5ed889112783.jpg?v=1786095742",
+  "price": 1590,
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs-610-w"
+   }
+  ],
+  "width": "wide"
+ },
+ {
+  "id": "vs-620",
+  "brand": "VS",
+  "name": "620",
+  "note": "",
+  "source": "",
+  "est": [],
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/LINE_NOTE_250819_6.jpg?v=1786091917",
+  "price": 1490,
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs-620"
+   }
+  ],
+  "width": "wide"
  },
  {
   "id": "vs-630",
@@ -1944,7 +3016,34 @@ window.SHOES = [
   "cushion": "",
   "upper": "KPU+Fabric",
   "colors": "Black/White",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4458"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4458",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4458"
+   },
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs-630"
+   }
+  ]
+ },
+ {
+  "id": "vs-711s-zoro",
+  "brand": "VS",
+  "name": "711S Zoro",
+  "note": "",
+  "source": "",
+  "est": [],
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/rjqua4nikzuzttpduhsc.webp?v=1789626765",
+  "price": 2720,
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs711s-zoro"
+   }
+  ],
+  "width": "wide"
  },
  {
   "id": "vs-assassin",
@@ -1964,7 +3063,30 @@ window.SHOES = [
   "cushion": "",
   "upper": "KPU+Fabric",
   "colors": "Purple/Black",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4421"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4421",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4421"
+   }
+  ]
+ },
+ {
+  "id": "vs-c7700-clonyx",
+  "brand": "VS",
+  "name": "C7700 Clonyx",
+  "note": "",
+  "source": "",
+  "est": [],
+  "img": "https://cdn.shopify.com/s/files/1/0785/9788/2101/files/kg3urgsc9463oe38nzvg_6_11zon.webp?v=1790318871",
+  "price": 3455,
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/c7700-clonyx"
+   }
+  ],
+  "width": "normal"
  },
  {
   "id": "vs-chameleon",
@@ -1984,7 +3106,13 @@ window.SHOES = [
   "cushion": "EVA + ESS Technology",
   "upper": "Composite Technology Mesh",
   "colors": "Pink",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4848"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4848",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4848"
+   }
+  ]
  },
  {
   "id": "vs-junior-159b",
@@ -2004,7 +3132,13 @@ window.SHOES = [
   "cushion": "",
   "upper": "TPU+Mesh vent",
   "colors": "Light Blue",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3959"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3959",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3959"
+   }
+  ]
  },
  {
   "id": "vs-junior-159w",
@@ -2024,7 +3158,13 @@ window.SHOES = [
   "cushion": "",
   "upper": "TPU+Mesh vent",
   "colors": "White",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3958"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3958",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3958"
+   }
+  ]
  },
  {
   "id": "vs-junior-2300s",
@@ -2044,7 +3184,17 @@ window.SHOES = [
   "cushion": "",
   "upper": "TPU+Mesh vent",
   "colors": "White/Dark Purple",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5207"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5207",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5207"
+   },
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vs2300s"
+   }
+  ]
  },
  {
   "id": "vs-phoenix",
@@ -2064,7 +3214,13 @@ window.SHOES = [
   "cushion": "",
   "upper": "PU+Fabric",
   "colors": "White/Blue",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4842"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4842",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4842"
+   }
+  ]
  },
  {
   "id": "vs-you-long-300",
@@ -2084,7 +3240,33 @@ window.SHOES = [
   "cushion": "EVA High Elastic+Anti-Twist",
   "upper": "One-piece molding KPU",
   "colors": "Red",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4261"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4261",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4261"
+   }
+  ]
+ },
+ {
+  "id": "vs-youlong-300",
+  "brand": "VS",
+  "name": "Youlong 300",
+  "note": "",
+  "source": "",
+  "est": [],
+  "img": "https://www.badmintonplaza.com/images/VS300G-A.jpg",
+  "price": 2390,
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4227"
+   },
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/youlong-vs-300"
+   }
+  ]
  },
  {
   "id": "victor-a-cnyt",
@@ -2187,14 +3369,24 @@ window.SHOES = [
   "weight": "",
   "sizes": "220mm -305mm",
   "colors": "มี 3 สี",
-  "price": "",
+  "price": 2870,
   "priceText": "",
   "year": 2019,
   "note": "รุ่นใช้งานรอบด้าน — แผ่นไนลอนช่วยลดการบิดตัวของพื้น, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-a110-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-a110/",
   "officialUrl": "https://th.victorsport.com/product/a110-ac",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-a110-ca-unisex-badminton-court-shoes"
+   }
+  ],
+  "priceNote": "แปลงจาก US$85.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/victor-a110-ca-unisex-badminton-court-shoes"
  },
  {
   "id": "victor-a170-iii",
@@ -2214,7 +3406,13 @@ window.SHOES = [
   "cushion": "",
   "upper": "",
   "colors": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5238"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5238",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5238"
+   }
+  ]
  },
  {
   "id": "victor-a170ii",
@@ -2237,14 +3435,32 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/victor-a170ii/",
   "officialUrl": "https://th.victorsport.com/product/a170ii-lr",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4995"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4995",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4995"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/victor-a170ii-badminton-court-shoes-unisex-white-green"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/victor-a170ii-ah-white-grey-wide-badminton-shoes"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a170ii-ad-unisex-wide-court-shoe-white-high-risk-rede"
+   }
+  ]
  },
  {
   "id": "victor-a170iijr",
   "brand": "Victor",
   "name": "A170IIJR (เด็ก)",
   "code": "A170IIJR",
-  "width": "",
+  "width": "normal",
   "widthText": "",
   "sole": "ยาง (Rubber)",
   "cushion": "EVA + ENERGYMAX + Nylon Sheet",
@@ -2252,14 +3468,24 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR28-35 / 170-220mm",
   "colors": "มี 5 สี",
-  "price": "",
+  "price": 1950,
   "priceText": "",
   "year": 2025,
   "note": "แผ่นไนลอนช่วยลดการบิดตัวของพื้น, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-a170iijr-e0b980e0b894e0b987e0b881-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-a170iijr-%e0%b9%80%e0%b8%94%e0%b9%87%e0%b8%81/",
   "officialUrl": "https://th.victorsport.com/product/a170iijr-lm",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a170iijr-junior-court-shoes"
+   }
+  ],
+  "priceNote": "แปลงจาก C$80.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-a170iijr-junior-court-shoes"
  },
  {
   "id": "victor-a170jr",
@@ -2274,14 +3500,28 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 28-35 170-220mm",
   "colors": "มี 3 สี",
-  "price": "",
+  "price": 1690,
   "priceText": "",
   "year": 2024,
   "note": "แผ่นไนลอนช่วยลดการบิดตัวของพื้น, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-a170jr-e0b980e0b894e0b987e0b881-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-a170jr-%e0%b9%80%e0%b8%94%e0%b9%87%e0%b8%81/",
   "officialUrl": "https://th.victorsport.com/product/a170jr-b",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-a170jr-fm"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/a170jr-af-junior-badminton-shoes"
+   }
+  ],
+  "priceNote": "แปลงจาก US$49.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/victor-a170jr-fm"
  },
  {
   "id": "victor-a171",
@@ -2345,7 +3585,17 @@ window.SHOES = [
   "cushion": "EVA+ENERGYMAX+Nylon Sheet",
   "upper": "PU Leather + Mesh",
   "colors": "Blue",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4178"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4178",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4178"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a172-af-court-shoes-white-blue"
+   }
+  ]
  },
  {
   "id": "victor-a190",
@@ -2421,7 +3671,7 @@ window.SHOES = [
   "year": "",
   "est": [],
   "note": "",
-  "img": "https://www.badmintonplaza.com/images/A230-FM-A.jpg",
+  "img": "https://www.badmintonplaza.com/images/A230-AC-A.jpg",
   "source": "",
   "officialUrl": "",
   "price": 1590,
@@ -2430,8 +3680,22 @@ window.SHOES = [
   "sole": "Rubber",
   "cushion": "EVA+ENERGYMAX+Nylon Stabilizer",
   "upper": "PU Synthetic Leather + Breathable Mesh",
-  "colors": "Blue",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3807"
+  "colors": "White",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3805",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3805"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a230-ac-court-shoes"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-a230-badminton-shoes-black-red"
+   }
+  ]
  },
  {
   "id": "victor-a240",
@@ -2454,7 +3718,13 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/victor-a240/",
   "officialUrl": "https://th.victorsport.com/product/a240-i",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4461"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4461",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4461"
+   }
+  ]
  },
  {
   "id": "victor-a301",
@@ -2469,14 +3739,28 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 35-47.5 / 220-310mm",
   "colors": "มี 2 สี",
-  "price": "",
+  "price": 1260,
   "priceText": "",
   "year": 2024,
   "note": "แผ่นไนลอนช่วยลดการบิดตัวของพื้น, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-a301-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-a301/",
   "officialUrl": "https://th.victorsport.com/product/a301-b",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-a301-in-badminton-shoes-medieval-blue"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/a301-b-all-around-badminton-shoes"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,543.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/victor-a301-in-badminton-shoes-medieval-blue"
  },
  {
   "id": "victor-a310",
@@ -2521,14 +3805,84 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/victor-a311/",
   "officialUrl": "https://th.victorsport.com/product/a311-lg",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4194"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3569",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3569"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-a311-mens-indoor-court-shoe-black"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a311-c-badminton-court-shoe"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-unisex-indoor-a311-c"
+   }
+  ]
+ },
+ {
+  "id": "victor-a311f",
+  "brand": "Victor",
+  "name": "A311F",
+  "code": "",
+  "year": "",
+  "est": [],
+  "note": "",
+  "img": "https://www.badmintonplaza.com/images/A311F-A-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "price": 1890,
+  "width": "normal",
+  "widthText": "Standard U Shape 2.5",
+  "sole": "Rubber",
+  "cushion": "EVA+ENERGYMAX+Nylon Sheet",
+  "upper": "PU Leather+Double Mesh",
+  "colors": "White",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3316",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3316"
+   }
+  ]
+ },
+ {
+  "id": "victor-a311f-gardenia",
+  "brand": "Victor",
+  "name": "A311F Gardenia",
+  "code": "",
+  "year": "",
+  "est": [],
+  "note": "",
+  "img": "https://www.badmintonplaza.com/images/A311F-L-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "price": 1890,
+  "width": "normal",
+  "widthText": "Standard U Shape 2.5",
+  "sole": "Rubber",
+  "cushion": "EVA+ENERGYMAX+Nylon Sheet",
+  "upper": "PU Leather+Double Mesh",
+  "colors": "Gardenia",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3568",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3568"
+   }
+  ]
  },
  {
   "id": "victor-a311jr",
   "brand": "Victor",
   "name": "A311JR (เด็ก)",
   "code": "A311JR",
-  "width": "",
+  "width": "normal",
   "widthText": "",
   "sole": "ยาง (Rubber)",
   "cushion": "EVA + ENERGYMAX + Nylon Sheet",
@@ -2536,14 +3890,24 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR28-35 / 170-220mm",
   "colors": "มี 2 สี",
-  "price": "",
+  "price": 1840,
   "priceText": "",
   "year": 2025,
   "note": "แผ่นไนลอนช่วยลดการบิดตัวของพื้น, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-a311jr-e0b980e0b894e0b987e0b881-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-a311jr-%e0%b9%80%e0%b8%94%e0%b9%87%e0%b8%81/",
   "officialUrl": "https://th.victorsport.com/product/a311jr-am",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a311jr-junior-court-shoes"
+   }
+  ],
+  "priceNote": "แปลงจาก C$76.49 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-a311jr-junior-court-shoes"
  },
  {
   "id": "victor-a331",
@@ -2599,7 +3963,7 @@ window.SHOES = [
   "sole": "ยาง (Rubber)",
   "cushion": "Resilient EVA + ENERGYMAX 3.0 + Nylon Sheet + Solid EVA",
   "upper": "PU Leather + Double Mesh",
-  "weight": "",
+  "weight": 281,
   "sizes": "EUR 35-45.5 220mm-295mm",
   "colors": "มี 8 สี",
   "price": 1790,
@@ -2610,14 +3974,71 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/victor-a362/",
   "officialUrl": "https://th.victorsport.com/product/a362-vj",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4296"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3564",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4296"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-sh-a-362-badminton-shoe-fr"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-a362-junior-indoor-court-shoe-white"
+   }
+  ]
+ },
+ {
+  "id": "victor-a362ii-plus-aquarius",
+  "brand": "Victor",
+  "name": "A362II Plus Aquarius",
+  "code": "",
+  "year": "",
+  "est": [],
+  "note": "",
+  "img": "https://www.badmintonplaza.com/images/A362IIPLUS-AM-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "price": 1890,
+  "width": "",
+  "widthText": "",
+  "sole": "VSR Rubber",
+  "cushion": "EVA+ENERGYMAX 3.0+TPU",
+  "upper": "PU Leather+Double Mesh",
+  "colors": "Pearly White/Aquarius",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3816",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3816"
+   }
+  ]
+ },
+ {
+  "id": "victor-a362iii",
+  "brand": "Victor",
+  "name": "A362III",
+  "note": "",
+  "source": "",
+  "est": [],
+  "img": "https://www.badmintonplaza.com/images/A362III-C-A.jpg",
+  "price": 1790,
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3564"
+   }
+  ],
+  "width": "normal"
  },
  {
   "id": "victor-a362jr",
   "brand": "Victor",
   "name": "A362JR (เด็ก)",
   "code": "A362JR",
-  "width": "",
+  "width": "normal",
   "widthText": "",
   "sole": "ยาง (Rubber)",
   "cushion": "EVA + ENERGYMAX + Nylon Sheet",
@@ -2633,7 +4054,21 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/victor-a362jr-%e0%b9%80%e0%b8%94%e0%b9%87%e0%b8%81/",
   "officialUrl": "https://th.victorsport.com/product/a362jr-lj",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4991"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4991",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4991"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/victor-a362jr-cs-junior-badminton-shoes-silver"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a362jr-junior-court-shoes"
+   }
+  ]
  },
  {
   "id": "victor-a362lt",
@@ -2656,7 +4091,25 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/victor-a362lt/",
   "officialUrl": "https://th.victorsport.com/product/a362lt-v",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4886"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4886",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4886"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-a362lt-q-court-shoe-sparkling-cosmo"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/victor-a362lt-badminton-shoe"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a362lt-unisex-court-shoes"
+   }
+  ]
  },
  {
   "id": "victor-a370",
@@ -2715,14 +4168,36 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 35-46 220mm-300mm",
   "colors": "มี 2 สี",
-  "price": "",
+  "price": 3380,
   "priceText": "",
   "year": 2024,
   "note": "รุ่นใช้งานรอบด้าน / รุ่นเด็ก — TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-a391-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-a391/",
   "officialUrl": "https://th.victorsport.com/product/a391-ab",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-a391-mens-indoor-court-shoe-black"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a391-professional-badminton-court-shoe"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-a391-badminton-shoes-blue"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/a391-c-all-around-badminton-shoes"
+   }
+  ],
+  "priceNote": "แปลงจาก US$99.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://racquetguys.com/products/victor-a391-mens-indoor-court-shoe-black"
  },
  {
   "id": "victor-a396",
@@ -2803,14 +4278,28 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 39.5-45.5 / 250-295mm",
   "colors": "มี 2 สี",
-  "price": "",
+  "price": 2380,
   "priceText": "",
   "year": 2024,
   "note": "รุ่นเด็ก — TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-a531w-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-a531w/",
   "officialUrl": "https://th.victorsport.com/product/a531w-ar",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a531w-wide-unisex-court-shoes"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-unisex-indoor-wide-a531w-cx"
+   }
+  ],
+  "priceNote": "แปลงจาก C$98.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-a531w-wide-unisex-court-shoes"
  },
  {
   "id": "victor-a550",
@@ -2825,14 +4314,24 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 35-47 / 220-305mm",
   "colors": "มี 4 สี",
-  "price": "",
+  "price": 2600,
   "priceText": "",
   "year": 2025,
   "note": "TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, แผ่นไนลอนช่วยลดการบิดตัวของพื้น, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-a550-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-a550/",
   "officialUrl": "https://th.victorsport.com/product/a550-am",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a550-court-shoes"
+   }
+  ],
+  "priceNote": "แปลงจาก C$107.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-a550-court-shoes"
  },
  {
   "id": "victor-a555",
@@ -2869,21 +4368,39 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR35-41 / 220-265mm",
   "colors": "มี 4 สี",
-  "price": "",
+  "price": 4010,
   "priceText": "",
   "year": 2025,
   "note": "รุ่นใช้งานรอบด้าน — TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-a600f-e0b89ce0b8b9e0b989e0b8abe0b88de0b8b4e0b887-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-a600f-%e0%b8%9c%e0%b8%b9%e0%b9%89%e0%b8%ab%e0%b8%8d%e0%b8%b4%e0%b8%87/",
   "officialUrl": "https://th.victorsport.com/product/a600f-lv",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/victor-a600f-at-pearly-white-ladies-badminton-shoe"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a600f-professional-court-shoes"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-womens-indoor-a600f-at"
+   }
+  ],
+  "priceNote": "แปลงจาก A$169.00 ที่ 1 AUD = 23.747 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonclick.com.au/products/victor-a600f-at-pearly-white-ladies-badminton-shoe"
  },
  {
   "id": "victor-a610",
   "brand": "Victor",
   "name": "A610",
   "code": "A610",
-  "width": "",
+  "width": "normal",
   "widthText": "",
   "sole": "ยาง VSR Rubber (สูตรยึดเกาะพื้นสนามของ Victor)",
   "cushion": "Resilient EVA + ENERGYMAX 3.0 + Nylon Sheet + Solid EVA",
@@ -2899,7 +4416,30 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/victor-a610/",
   "officialUrl": "https://th.victorsport.com/product/a610-ii-c",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4062"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4062",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-a610fiii-womens-badminton-shoes"
+   }
+  ]
+ },
+ {
+  "id": "victor-a610-iv",
+  "brand": "Victor",
+  "name": "A610 IV",
+  "note": "",
+  "source": "",
+  "est": [],
+  "img": "https://www.badmintonplaza.com/images/A610IVF-J-A.jpg",
+  "price": 2590,
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4062"
+   }
+  ],
+  "width": "normal"
  },
  {
   "id": "victor-a610plus",
@@ -2936,14 +4476,28 @@ window.SHOES = [
   "weight": "",
   "sizes": "220mm – 305mm",
   "colors": "มี 2 สี",
-  "price": "",
+  "price": 2360,
   "priceText": "",
   "year": 2019,
   "note": "รุ่นใช้งานรอบด้าน — แผ่นไนลอนช่วยลดการบิดตัวของพื้น, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-a630-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-a630/",
   "officialUrl": "https://th.victorsport.com/product/a630-af",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-a630-hr-iron-gate-ceramic"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-a630-af-unisex-badminton-shoe-white-sodalite-blue"
+   }
+  ],
+  "priceNote": "แปลงจาก US$69.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/victor-a630-hr-iron-gate-ceramic"
  },
  {
   "id": "victor-a650",
@@ -3024,14 +4578,24 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR35-45.5 / 220-295mm",
   "colors": "มี 3 สี",
-  "price": "",
+  "price": 3470,
   "priceText": "",
   "year": 2025,
   "note": "รุ่นระดับแข่งขัน — TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, แผ่นไนลอนช่วยลดการบิดตัวของพื้น · มีรุ่นผู้หญิง A770F",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-a770-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-a770/",
   "officialUrl": "https://th.victorsport.com/product/a770-v",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a770-professional-court-shoes"
+   }
+  ],
+  "priceNote": "แปลงจาก C$143.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-a770-professional-court-shoes"
  },
  {
   "id": "victor-a810",
@@ -3134,15 +4698,36 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 39-45.5 245mm-295mm",
   "colors": "มี 2 สี",
-  "price": 3990,
+  "price": 6420,
   "priceText": "",
   "year": 2024,
   "note": "รุ่นระดับแข่งขัน / รุ่นใช้งานรอบด้าน — แผ่นคาร์บอนช่วยให้พื้นมั่นคงไม่บิดตัว, TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, พื้นโฟม NitroLite เบาและเด้งคืนตัวดี",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-a830nitrolite-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-a830nitrolite/",
   "officialUrl": "https://th.victorsport.com/product/a830nitrolite-ca",
-  "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4643"
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-a830nitrolite-wide-shoe-a830nlite-af-white-mykonosblue"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/victor-a830-nitrolite-ca-badminton-shoes-black-white"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a830nitrolite-professional-court-shoes"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-mens-indoor-a830nitrolite-ca"
+   }
+  ],
+  "priceNote": "แปลงจาก US$189.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/victor-a830nitrolite-wide-shoe-a830nlite-af-white-mykonosblue"
  },
  {
   "id": "victor-a900f",
@@ -3157,14 +4742,32 @@ window.SHOES = [
   "weight": "",
   "sizes": "220mm – 265mm",
   "colors": "มี 1 สี",
-  "price": "",
+  "price": 4220,
   "priceText": "",
   "year": 2022,
   "note": "รุ่นระดับแข่งขัน / รุ่นใช้งานรอบด้าน — TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-a900f-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-a900f/",
   "officialUrl": "https://th.victorsport.com/product/a900f-ma",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-a900f-unisex-badminton-shoe-bright-white-cockatoo-green"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-a900f-womens-indoor-court-shoe-white-cockatoo-green"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a900f-ar-badminton-ladies-court-shoes-bright-white-cockatoo-green"
+   }
+  ],
+  "priceNote": "แปลงจาก US$125.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/victor-a900f-unisex-badminton-shoe-bright-white-cockatoo-green"
  },
  {
   "id": "victor-a922",
@@ -3215,7 +4818,7 @@ window.SHOES = [
   "brand": "Victor",
   "name": "A930",
   "code": "A930",
-  "width": "",
+  "width": "normal",
   "widthText": "",
   "sole": "ยาง VSR Rubber (สูตรยึดเกาะพื้นสนามของ Victor)",
   "cushion": "Feather Resilient EVA + E-TPU + Carbon Power + TPU + Solid EVA",
@@ -3223,14 +4826,24 @@ window.SHOES = [
   "weight": "",
   "sizes": "220mm – 310mm",
   "colors": "มี 2 สี",
-  "price": "",
+  "price": 2820,
   "priceText": "",
   "year": "",
   "note": "รุ่นระดับแข่งขัน / รุ่นใช้งานรอบด้าน — แผ่นคาร์บอนช่วยให้พื้นมั่นคงไม่บิดตัว, TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-a930-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-a930/",
   "officialUrl": "https://th.victorsport.com/product/a930-d",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a930-af-court-shoes-white-blue"
+   }
+  ],
+  "priceNote": "แปลงจาก C$116.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-a930-af-court-shoes-white-blue"
  },
  {
   "id": "victor-a950",
@@ -3355,14 +4968,53 @@ window.SHOES = [
   "weight": 344,
   "sizes": "EUR 35-48 / 220-315mm",
   "colors": "มี 7 สี",
-  "price": "",
+  "price": 5910,
   "priceText": "",
   "year": 2025,
   "note": "รุ่นระดับแข่งขัน / รุ่นใช้งานรอบด้าน — แผ่นคาร์บอนช่วยให้พื้นมั่นคงไม่บิดตัว, TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, พื้นโฟม NitroLite เบาและเด้งคืนตัวดี",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-a970-nitro-lite-capsule-collection-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-a970-nitro-lite-capsule-collection/",
   "officialUrl": "https://th.victorsport.com/product/victor-capsule-collection-badminton-shoes-a970nitrolite-cps-m",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/victor-a970-nitro-lite-cadv-white-2026-new-model-unisex-badminton-shoes"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-a970-nitro-lite-a-indoor-shoes"
+   }
+  ],
+  "priceNote": "แปลงจาก A$249.00 ที่ 1 AUD = 23.747 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonclick.com.au/products/victor-a970-nitro-lite-cadv-white-2026-new-model-unisex-badminton-shoes"
+ },
+ {
+  "id": "victor-a970chp-court",
+  "brand": "Victor",
+  "name": "A970CHP Court",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0009/8235/1923/files/Victor_A970cHP_Men_s_Indoor_Court_Shoe_White_Blue_1.jpg?v=1779899712",
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-a970chp-mens-indoor-court-shoe-white-blue"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a970chp-professional-court-shoes"
+   }
+  ],
+  "width": "normal",
+  "price": 6080,
+  "priceNote": "แปลงจาก US$179.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://racquetguys.com/products/victor-a970chp-mens-indoor-court-shoe-white-blue"
  },
  {
   "id": "victor-a970td",
@@ -3385,7 +5037,21 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/victor-a970td/",
   "officialUrl": "https://th.victorsport.com/product/a970td-am",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3791"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3791",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3791"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a970td-ax-unisex-court-shoes-white-gold"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-a970-td-in-ax-badminton-shoes-white"
+   }
+  ]
  },
  {
   "id": "victor-a970cadv",
@@ -3408,7 +5074,25 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/victor-a970cadv/",
   "officialUrl": "https://th.victorsport.com/product/a970cadv-b",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4771"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4771",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4771"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-a970cadv-am-court-shoe-white-corydalis-blue"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-a970cadv-professional-court-shoes"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-unisex-indoor-a970cadv-am"
+   }
+  ]
  },
  {
   "id": "victor-as-12w",
@@ -3418,7 +5102,7 @@ window.SHOES = [
   "year": "",
   "est": [],
   "note": "",
-  "img": "https://www.badmintonplaza.com/images/AS-12W-AC-A.jpg",
+  "img": "https://www.badmintonplaza.com/images/AS-12W-CX-A.jpg",
   "source": "",
   "officialUrl": "",
   "price": 1590,
@@ -3427,8 +5111,18 @@ window.SHOES = [
   "sole": "Rubber",
   "cushion": "EVA+ENERGYMAX+Nylon Sheet",
   "upper": "PU Leather + Mesh",
-  "colors": "White/Black",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4285"
+  "colors": "Black/Gold",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4280",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4280"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-as-12w"
+   }
+  ]
  },
  {
   "id": "victor-all-around-a970ace-u",
@@ -3448,27 +5142,13 @@ window.SHOES = [
   "cushion": "HYPEREVA + E-TPU + TPU + Carbon Power + Solid EVA",
   "upper": "V-Durable+ + Double Mesh + Microfiber PU Leather",
   "colors": "U",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3579"
- },
- {
-  "id": "victor-all-around-a970nitrolite",
-  "brand": "Victor",
-  "name": "All-around A970nitrolite",
-  "code": "",
-  "year": "",
-  "est": [],
-  "note": "",
-  "img": "https://www.badmintonplaza.com/images/A970NitroLite-AG-A.jpg",
-  "source": "",
-  "officialUrl": "",
-  "price": 3990,
-  "width": "normal",
-  "widthText": "V-SHAPE 2.5",
-  "sole": "VSR Rubber",
-  "cushion": "NitroLite+ E-TPU + TPU + Carbon Power + Solid EVA",
-  "upper": "V-Durable+ + Double Mesh + Microfiber PU Leather",
-  "colors": "White/Brook Green",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4307"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3579",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3579"
+   }
+  ]
  },
  {
   "id": "victor-c90-ii",
@@ -3488,7 +5168,21 @@ window.SHOES = [
   "cushion": "NitroLite Midsole  + HYPEREVA + TPU + Carbon Power  2.0",
   "upper": "Microfiber PU Leather +  V-Durable+ +  Double Mesh",
   "colors": "Iridescent Copper",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5152"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5152",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5152"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-c90ii-badminton-court-shoe"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-unisex-indoor-c90ii-w"
+   }
+  ]
  },
  {
   "id": "victor-c90-nitrolite",
@@ -3511,7 +5205,13 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/victor-c90-nitrolite/",
   "officialUrl": "https://th.victorsport.com/product/c90nlite-jc",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4541"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4541",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4541"
+   }
+  ]
  },
  {
   "id": "victor-c90hp",
@@ -3666,7 +5366,29 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/victor-p8500cls/",
   "officialUrl": "https://th.victorsport.com/product/p8500cls-lf",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4641"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4641",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4641"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-p8500cls-lf-court-shoe-star-white-ash-blue"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/victor-p8500cls-a-white-unisex-badminton-shoes"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-p8500cls-mens-indoor-court-shoe-white"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-p8500cls-professional-shoes-white-cream-p-8500cls-al"
+   }
+  ]
  },
  {
   "id": "victor-p8500cny",
@@ -3689,7 +5411,21 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/victor-p8500cny/",
   "officialUrl": "https://th.victorsport.com/product/p8500cny-r",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4460"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4460",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4460"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-2025-chinese-new-year-court-shoe-p8500cny-r-clear-green"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-p8500cny-r-badminton-shoes-1"
+   }
+  ]
  },
  {
   "id": "victor-p8500ii",
@@ -3712,7 +5448,17 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/victor-p8500ii/",
   "officialUrl": "https://th.victorsport.com/product/p8500ii-aj",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4006"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4006",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4006"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-p8500ii-court-shoes"
+   }
+  ]
  },
  {
   "id": "victor-p8500jr",
@@ -3749,14 +5495,24 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 36-46 / 225-300mm",
   "colors": "มี 3 สี",
-  "price": "",
+  "price": 4770,
   "priceText": "",
   "year": "",
   "note": "รุ่นระดับแข่งขัน — แผ่นคาร์บอนช่วยให้พื้นมั่นคงไม่บิดตัว, TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, พื้นโฟม NitroLite เบาและเด้งคืนตัวดี",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-p8500nlite-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-p8500nlite/",
   "officialUrl": "https://th.victorsport.com/product/p8500nlite-af",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-p8500nlite-at-badminton-shoes-white-teal"
+   }
+  ],
+  "priceNote": "แปลงจาก C$197.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-p8500nlite-at-badminton-shoes-white-teal"
  },
  {
   "id": "victor-p8500td",
@@ -3779,7 +5535,21 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/victor-p8500td/",
   "officialUrl": "https://th.victorsport.com/product/p8500td-ai",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4517"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4517",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4517"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-p8500td-ai-court-shoes-white-pink"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-p8500-td-in-badminton-shoes-black-gold"
+   }
+  ]
  },
  {
   "id": "victor-p8510",
@@ -3826,26 +5596,6 @@ window.SHOES = [
   "est": []
  },
  {
-  "id": "victor-p9200",
-  "brand": "Victor",
-  "name": "P9200",
-  "code": "",
-  "year": "",
-  "est": [],
-  "note": "",
-  "img": "https://www.badmintonplaza.com/images/P9200cXLTD-A.jpg",
-  "source": "",
-  "officialUrl": "",
-  "price": 5390,
-  "width": "normal",
-  "widthText": "Standard V Shape 2.5",
-  "sole": "VSR Rubber",
-  "cushion": "NitroLite Midsole+TPU+EzCiclo Carbon+Solid EVA",
-  "upper": "Microfiber PU Leather+V-Tough+Double Mesh",
-  "colors": "x Titanium",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5041"
- },
- {
   "id": "victor-p9200-hang",
   "brand": "Victor",
   "name": "P9200 Hang",
@@ -3866,26 +5616,6 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/victor-p9200-hang/",
   "officialUrl": "https://th.victorsport.com/product/p9200-a",
   "est": []
- },
- {
-  "id": "victor-p9200cx",
-  "brand": "Victor",
-  "name": "P9200CX",
-  "code": "",
-  "year": "",
-  "est": [],
-  "note": "",
-  "img": "https://www.badmintonplaza.com/images/P9200cX-A-A.jpg",
-  "source": "",
-  "officialUrl": "",
-  "price": 3690,
-  "width": "normal",
-  "widthText": "Standard V Shape 2.5",
-  "sole": "VSR Rubber",
-  "cushion": "NitroLite Midsole+TPU+EzCiclo Carbon+Solid EVA",
-  "upper": "Microfiber PU Leather+V-Tough+Double Mesh",
-  "colors": "Pearly White",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5069"
  },
  {
   "id": "victor-p9200ii",
@@ -3944,14 +5674,24 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR35-47 / 220-305mm",
   "colors": "มี 3 สี",
-  "price": "",
+  "price": 3250,
   "priceText": "",
   "year": 2025,
   "note": "แผ่นคาร์บอนช่วยให้พื้นมั่นคงไม่บิดตัว, TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-p9200ntd-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-p9200ntd/",
   "officialUrl": "https://th.victorsport.com/product/p9200ntd-a",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-p9200ntd-professional-court-shoes-white-blue-wing-teal"
+   }
+  ],
+  "priceNote": "แปลงจาก C$134.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-p9200ntd-professional-court-shoes-white-blue-wing-teal"
  },
  {
   "id": "victor-p9200td",
@@ -3966,14 +5706,32 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 35-47 / 220-305mm",
   "colors": "มี 4 สี",
-  "price": "",
+  "price": 3980,
   "priceText": "",
   "year": 2025,
   "note": "รุ่นเด็ก — แผ่นไนลอนช่วยลดการบิดตัวของพื้น, ชั้น ENERGYMAX ช่วยซับแรงกระแทก · มีรุ่นผู้หญิง P9200TDF",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-p9200td-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-p9200td/",
   "officialUrl": "https://th.victorsport.com/product/p9200td-mi",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-p9200iii-td-mens-indoor-court-shoe-white-black"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-p9200td-aj-court-shoes-white-liberty"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-p9200-iii-td-badminton-shoes-red"
+   }
+  ],
+  "priceNote": "แปลงจาก US$117.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://racquetguys.com/products/victor-p9200iii-td-mens-indoor-court-shoe-white-black"
  },
  {
   "id": "victor-p9200chp",
@@ -3988,14 +5746,62 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR37-45.5 / 230-295mm",
   "colors": "มี 3 สี",
-  "price": "",
+  "price": 4900,
   "priceText": "",
   "year": 2025,
   "note": "รุ่นระดับแข่งขัน — แผ่นคาร์บอนช่วยให้พื้นมั่นคงไม่บิดตัว, TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-p9200chp-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-p9200chp/",
   "officialUrl": "https://th.victorsport.com/product/p9200chp-b",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-p9200chp-ab-court-shoe-bright-white-medival-blue"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-p9200chp-professional-court-shoes"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-unisex-indoor-p9200chp-a"
+   }
+  ],
+  "priceNote": "แปลงจาก US$144.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/victor-p9200chp-ab-court-shoe-bright-white-medival-blue"
+ },
+ {
+  "id": "victor-p9200iiitd",
+  "brand": "Victor",
+  "name": "P9200iiitd",
+  "code": "",
+  "year": "",
+  "est": [],
+  "note": "",
+  "img": "https://www.badmintonplaza.com/images/P9200IIITD-AC-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "price": 2190,
+  "width": "normal",
+  "widthText": "U-Shape 2.5",
+  "sole": "VSR Rubber",
+  "cushion": "HYPEREVA + Solid EVA",
+  "upper": "Microfiber PU Leather + V-Tough + Double Mesh",
+  "colors": "White",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3866",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3866"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/victor-p9200iiitd-55-af-badminton-shoes-451016"
+   }
+  ]
  },
  {
   "id": "victor-p9210",
@@ -4054,14 +5860,24 @@ window.SHOES = [
   "weight": "",
   "sizes": "230-295 mm",
   "colors": "ฟ้าอมเขียว (Blue Wing Teal) ขาว",
-  "price": "",
+  "price": 3680,
   "priceText": "",
   "year": 2022,
   "note": "รองเท้าแบดหน้ากว้างพื้นหนารุ่นแรกของ Victor ขยายหน้าเท้าด้านข้างเพื่อความมั่นคงเวลาเคลื่อนที่ด้านข้าง",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-p9600-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-p9600/",
   "officialUrl": "https://ca.victorsport.com/product/p9600-a",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-p9600-bj-court-shoes-blue-wing-teal-purple"
+   }
+  ],
+  "priceNote": "แปลงจาก C$152.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-p9600-bj-court-shoes-blue-wing-teal-purple"
  },
  {
   "id": "victor-r702",
@@ -4152,6 +5968,31 @@ window.SHOES = [
   "est": []
  },
  {
+  "id": "victor-s70-a-court",
+  "brand": "Victor",
+  "name": "S70 A Court",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/products/VictorS701.jpg?v=1642350389",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-s70-a-unisex-badminton-court-shoe-white"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-s70-a-badminton-shoes-white"
+   }
+  ],
+  "width": "normal",
+  "price": 4020,
+  "priceNote": "แปลงจาก US$119.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/victor-s70-a-unisex-badminton-court-shoe-white"
+ },
+ {
   "id": "victor-s82",
   "brand": "Victor",
   "name": "S82",
@@ -4164,21 +6005,43 @@ window.SHOES = [
   "weight": "",
   "sizes": "230mm - 295mm",
   "colors": "มี 5 สี",
-  "price": "",
+  "price": 3210,
   "priceText": "",
   "year": "",
   "note": "รุ่นระดับแข่งขัน / รุ่นเน้นความเร็ว — แผ่นคาร์บอนช่วยให้พื้นมั่นคงไม่บิดตัว, TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-s82-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-s82/",
   "officialUrl": "https://th.victorsport.com/product/s82-be",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/of-victor-s82iim-ac-unisex-badminton-court-shoe"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/victor-s82ii-b-badminton-shoes-mazarine-blue"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-s82ii-as-mens-indoor-court-shoe-bright-white-glossy-silver-blue-light"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-s82iim-ac-court-shoe-bright-white"
+   }
+  ],
+  "priceNote": "แปลงจาก US$95.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/of-victor-s82iim-ac-unisex-badminton-court-shoe"
  },
  {
   "id": "victor-s82-iii",
   "brand": "Victor",
   "name": "S82 III",
   "code": "S82III AF",
-  "width": "",
+  "width": "normal",
   "widthText": "",
   "sole": "ยาง VSR Rubber (กันลื่นดีขึ้น 21% บนพื้น PU แห้ง)",
   "cushion": "HYPEREVA + ENERGYMAX V + Carbon Power + TPU + Solid EVA",
@@ -4194,7 +6057,33 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/victor-s82-iii/",
   "officialUrl": "https://ca.victorsport.com/product/s82iii-af",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4381"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4381",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4381"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-s82iii-nitrolite-court-shoe-s82iiinl-l-moonlight-white"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/victor-s82iii-nitrolite-badminton-shoes-lunar-white"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/victor-s82iii-badminton-court-shoes-unisex-black"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-s82iii-nitrolite-badminton-shoe-lunar-white"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-mens-indoor-s82iii-nitrolite-l"
+   }
+  ]
  },
  {
   "id": "victor-s82iiinitrolite",
@@ -4239,7 +6128,17 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/victor-s82td/",
   "officialUrl": "https://th.victorsport.com/product/s82td-bo",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4306"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4306",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4306"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-s82td-court-shoe-medieval-blue-neon-orange"
+   }
+  ]
  },
  {
   "id": "victor-sh-9200jr",
@@ -4447,7 +6346,7 @@ window.SHOES = [
   "year": "",
   "est": [],
   "note": "",
-  "img": "https://www.badmintonplaza.com/images/STORM-F-A.jpg",
+  "img": "https://www.badmintonplaza.com/images/STORM-A-A.jpg",
   "source": "",
   "officialUrl": "",
   "price": 2390,
@@ -4456,8 +6355,14 @@ window.SHOES = [
   "sole": "Rubber",
   "cushion": "Resilient EVA + ENERGYMAX + Nylon Sheet + Solid EVA",
   "upper": "PU Leather + Double Mesh",
-  "colors": "Lazull Blue",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3451"
+  "colors": "Bright White",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3449",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3449"
+   }
+  ]
  },
  {
   "id": "victor-tai-tzu-ying-tribute-collection-badminton-shoes-p9200tty-nlite",
@@ -4499,7 +6404,13 @@ window.SHOES = [
   "cushion": "HYPEREVA + ENERGYMAX 3.0 + Solid EVA + Nylon Stabilizing Sheet",
   "upper": "TPU Film + PU Synthetic Leather + Double Layer Breathable Mesh",
   "colors": "Pearly White",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3907"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3907",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3907"
+   }
+  ]
  },
  {
   "id": "victor-vg21",
@@ -4558,14 +6469,32 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 37-46 / 230-300mm",
   "colors": "มี 2 สี",
-  "price": "",
+  "price": 3250,
   "priceText": "",
   "year": 2024,
   "note": "รุ่นระดับแข่งขัน / รุ่นใช้งานรอบด้าน — TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-vg2ace-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-vg2ace/",
   "officialUrl": "https://th.victorsport.com/product/vg2ace-a",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/victor-vg2ace-unisex-professional-badminton-shoes-black"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-vg2ace-badminton-shoes"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-vg2-ace-badminton-shoes-white"
+   }
+  ],
+  "priceNote": "แปลงจาก C$134.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-vg2ace-badminton-shoes"
  },
  {
   "id": "victor-vg2nitrolite",
@@ -4588,7 +6517,25 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/victor-vg2nitrolite/",
   "officialUrl": "https://th.victorsport.com/product/vg2nitrolite-f",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4382"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4382",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4382"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-vg2-nitrolite-court-shoe-vg2nl-f-turkey-blue"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/victor-vg2-nitrolite-f-badminton-shoes-turkish-tile"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-mens-indoor-vg2nitrolite-f"
+   }
+  ]
  },
  {
   "id": "victor-x-care-bears-badminton-shoes-a-cbc",
@@ -4647,15 +6594,14 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 37-46 / 230-300mm",
   "colors": "มี 1 สี",
-  "price": 3690,
+  "price": "",
   "priceText": "",
   "year": 2025,
   "note": "รุ่นระดับแข่งขัน —",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/victor-x-dragon-ball-z-300x300.jpg",
   "source": "https://chobbad.com/shoes/victor-x-dragon-ball-z/",
   "officialUrl": "https://th.victorsport.com/product/victor-x-dragon-ball-z-badminton-shoes",
-  "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4577"
+  "est": []
  },
  {
   "id": "victor-x-dragon-ball-z-badminton-shoes-p-dbz",
@@ -4790,6 +6736,40 @@ window.SHOES = [
   "est": []
  },
  {
+  "id": "yonex-aerus-z",
+  "brand": "Yonex",
+  "name": "Aerus Z",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/YonexAerusZWomen_sShoe_PastelPink.png?v=1726180611",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-aerus-z-pastel-pink"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-aerus-z-womens-badminton-shoe-dark-gray"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/yonex-aerus-z-men-white-blue-2026-colorway-badminton-shoes-pre-order"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-aerus-z-badminton-shoes-white"
+   }
+  ],
+  "width": "wide",
+  "weight": 250,
+  "price": 4730,
+  "priceNote": "แปลงจาก US$139.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/yonex-aerus-z-pastel-pink"
+ },
+ {
   "id": "yonex-cushion-101-junior",
   "brand": "Yonex",
   "name": "Cushion 101 Junior",
@@ -4807,7 +6787,13 @@ window.SHOES = [
   "cushion": "",
   "upper": "PU+Breathable mesh",
   "colors": "White/Green",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4964"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4964",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4964"
+   }
+  ]
  },
  {
   "id": "yonex-junior-mach-2",
@@ -4827,7 +6813,13 @@ window.SHOES = [
   "cushion": "",
   "upper": "Synthetic Leather/Fabric",
   "colors": "White/Burnt Orange",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4628"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4628",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4628"
+   }
+  ]
  },
  {
   "id": "yonex-junior-mach-3",
@@ -4847,7 +6839,13 @@ window.SHOES = [
   "cushion": "",
   "upper": "Synthetic Leather/Fabric",
   "colors": "White/Navy",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5065"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5065",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5065"
+   }
+  ]
  },
  {
   "id": "yonex-mach-3",
@@ -4867,27 +6865,66 @@ window.SHOES = [
   "cushion": "Phylon",
   "upper": "Synthetic Leather/Fabric",
   "colors": "White/Deep Teal",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4858"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4858",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4858"
+   }
+  ]
  },
  {
   "id": "yonex-power-cushion-65-z-va",
   "brand": "Yonex",
   "name": "Power Cushion 65 Z VA",
-  "code": "",
-  "year": "",
-  "est": [],
-  "note": "POWER CUSHION +, Power Graphite Lite, Seameless Upper, Inner Bootie, Ergonomic Shaped Outsole, Radial Blade Sole, Lateral Shell, Toe Assist Shape, Synchro-Fit Insole, Double Raschel Mesh, Round sole",
-  "img": "https://www.badmintonplaza.com/images/SHBVAZWEX-SIN-A.jpg",
+  "note": "",
   "source": "",
-  "officialUrl": "",
-  "price": 4590,
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/yonex-65-z-va-women-silver-navy-1.webp?v=1790826821",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-power-cushion-65-z-va-womens-badminton-shoes-silver-navy"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/yonex-power-cushion-65-z-va-wide-badminton-shoe"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/yonex-power-cushion-65-z-va-2026-silver-navy-men-badminton-shoes"
+   }
+  ],
   "width": "wide",
-  "widthText": "Wide",
-  "sole": "Rubber Sole",
-  "cushion": "Synthetic Resin",
-  "upper": "Synthetic Leather",
-  "colors": "Silver/Navy",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5204"
+  "price": 4730,
+  "priceNote": "แปลงจาก US$140.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/yonex-power-cushion-65-z-va-womens-badminton-shoes-silver-navy"
+ },
+ {
+  "id": "yonex-power-cushion-65-z3",
+  "brand": "Yonex",
+  "name": "Power Cushion 65 Z3",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/Yonex_Power_Cushion_65_Z3_Women_s_Shoe_Navy_Saxe.png?v=1753229415",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-power-cushion-65-z3-womens-shoe-navy-saxe"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-power-cushion-65-z3-badminton-shoes-black"
+   }
+  ],
+  "price": 4220,
+  "priceNote": "แปลงจาก US$124.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/yonex-power-cushion-65-z3-womens-shoe-navy-saxe"
  },
  {
   "id": "yonex-power-cushion-65-z4",
@@ -4902,15 +6939,52 @@ window.SHOES = [
   "weight": "",
   "sizes": "22.0–29.0 cm (WOMEN 22.0–26.0 cm, SLIM 20.0–29.0 cm)",
   "colors": "ขาว",
-  "price": 4290,
+  "price": 4560,
   "priceText": "¥18,700 (ราคาญี่ปุ่น) / $135 (ราคาสหรัฐฯ)",
   "year": 2025,
   "note": "แกนกลางเท้า Power Carbon Light (คาร์บอน + EVA แข็ง) อัปเปอร์แบบไร้ตะเข็บ โครงสร้าง Inner Bootie ลิ้นรองเท้าต่อเป็นชิ้นเดียวกับขอบข้อ",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/yonex-power-cushion-65-z4-300x300.jpg",
   "source": "https://chobbad.com/shoes/yonex-power-cushion-65-z4/",
   "officialUrl": "https://www.yonex.co.jp/news/2025/2687.html",
-  "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4998"
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-power-cushion-65-z4-mens-shoe-white"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-power-cushion-va-65-z4-2026-wide-fit-badminton-court-shoes"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-power-cushion-65-z4-va-wide-badminton-shoes-viktor-axelsen-limited-edition-silver-navy"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/new-2025-yonex-power-cushion-65-z-gen-4-white-men-badminton-shoes"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-power-cushion-65-z4-va-mens-indoor-court-shoe-silver-navy"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-power-cushion-shb65z4w-unisex-wide-court-shoes-white"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-power-cushion-shb-65z-4-womens-indoor-viktor-axelsen-collection-silver-navy"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-pc-65-z-va-men-badminton-shoes-shbvazm"
+   }
+  ],
+  "priceNote": "แปลงจาก US$135.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/yonex-power-cushion-65-z4-mens-shoe-white"
  },
  {
   "id": "yonex-power-cushion-65x-va",
@@ -4924,13 +6998,27 @@ window.SHOES = [
   "source": "",
   "officialUrl": "",
   "price": 3690,
-  "width": "",
+  "width": "wide",
   "widthText": "",
   "sole": "Rubber",
   "cushion": "",
   "upper": "Synthetic Leather/Fabric",
   "colors": "Gray Beige",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4924"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4924",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4924"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-power-cushion-65x-va-silver-navy-unisex-badminton-shoes-viktor-axelsen-limited-edition"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-pc-65-x-va-badminton-shoes-shbvax"
+   }
+  ]
  },
  {
   "id": "yonex-power-cushion-88-dial-3",
@@ -4945,15 +7033,24 @@ window.SHOES = [
   "weight": 285,
   "sizes": "US M 4–13",
   "colors": "เหลือง เขียวเข้ม ฟ้าอ่อน",
-  "price": 4130,
+  "price": 4900,
   "priceText": "$146 (ราคาสหรัฐฯ)",
   "year": 2024,
   "note": "ระบบหมุนปรับความกระชับ BOA Fit System แทนเชือก แผ่นกราไฟต์ Power Graphite Lite ที่มิดโซลลดการบิดตัว โครงสร้าง Inner Bootie",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/yonex-power-cushion-88-dial-3-300x300.jpg",
   "source": "https://chobbad.com/shoes/yonex-power-cushion-88-dial-3/",
   "officialUrl": "https://us.yonex.com/products/power-cushion-88-dial-3rd-gen",
-  "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5137"
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-power-cushion-88-dial-3-wide-shoe-light-beige"
+   }
+  ],
+  "priceNote": "แปลงจาก US$145.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/yonex-power-cushion-88-dial-3-wide-shoe-light-beige"
  },
  {
   "id": "yonex-power-cushion-aerus-x2",
@@ -4968,14 +7065,28 @@ window.SHOES = [
   "weight": 288,
   "sizes": "US M 5–13",
   "colors": "น้ำเงินคราม",
-  "price": "",
+  "price": 3030,
   "priceText": "$110 (ราคาสหรัฐฯ)",
   "year": "",
   "note": "รุ่นเบาทรงหน้าเท้ากว้าง มีแผ่น 3D Power Graphite และพื้นรองใน Synchro-Fit Insole",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/yonex-power-cushion-aerus-x2-300x300.jpg",
   "source": "https://chobbad.com/shoes/yonex-power-cushion-aerus-x2/",
   "officialUrl": "https://us.yonex.com/products/power-cushion-aerus-x-2nd-gen",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-power-cushion-aerus-x2-men-court-shoes-navy-blue"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-aerus-x2-shbax2ex"
+   }
+  ],
+  "priceNote": "แปลงจาก C$125.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/yonex-power-cushion-aerus-x2-men-court-shoes-navy-blue"
  },
  {
   "id": "yonex-power-cushion-aerus-z2",
@@ -4990,35 +7101,44 @@ window.SHOES = [
   "weight": 240,
   "sizes": "22.0–29.0 cm (WOMEN 22.0–26.0 cm)",
   "colors": "เขียว กรมท่า เทาฟ้า ส้มแดง ชมพูคอรัล ฟ้าอ่อน",
-  "price": 4390,
+  "price": 4900,
   "priceText": "¥16,500 (ราคาญี่ปุ่น) / $145 (ราคาสหรัฐฯ)",
   "year": 2022,
   "note": "รุ่นน้ำหนักเบาของ Yonex ใช้ Featherlight X ที่มิดโซล อัปเปอร์ไร้ตะเข็บ ชิ้นคาร์บอน 3D Power Carbon กลางเท้า",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/yonex-power-cushion-aerus-z2-300x300.jpg",
   "source": "https://chobbad.com/shoes/yonex-power-cushion-aerus-z2/",
   "officialUrl": "https://www.yonex.co.jp/badminton/news/2022/10/2210141300.html",
-  "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4937"
- },
- {
-  "id": "yonex-power-cushion-cascade-accel",
-  "brand": "Yonex",
-  "name": "Power Cushion Cascade Accel",
-  "code": "",
-  "year": "",
-  "est": [],
-  "note": "",
-  "img": "https://www.badmintonplaza.com/images/SHBCA1EX-100-A.jpg",
-  "source": "",
-  "officialUrl": "",
-  "price": 3290,
-  "width": "",
-  "widthText": "U-Shape",
-  "sole": "Rubber Sole",
-  "cushion": "Synthetic Resin",
-  "upper": "Synthetic Fiber",
-  "colors": "White/Navy",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4650"
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-power-cushion-aerus-z2-womens-shoe-flash-green"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-power-cushion-aerus-z2-wide-unisex-badminton-shoes-navy"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-power-cushion-aerus-z2-mens-indoor-court-shoe-white-blue"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-power-cushion-aerus-z2-ladies"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-power-cushion-aerus-z2-wide-mens-indoor-indigo"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-aerus-z2-women-shbaz2lex-1"
+   }
+  ],
+  "priceNote": "แปลงจาก US$144.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/yonex-power-cushion-aerus-z2-womens-shoe-flash-green"
  },
  {
   "id": "yonex-power-cushion-cascade-accel-2",
@@ -5033,34 +7153,28 @@ window.SHOES = [
   "weight": "",
   "sizes": "US M 6–13",
   "colors": "ส้มขาว น้ำเงิน",
-  "price": "",
+  "price": 3370,
   "priceText": "$100 (ราคาสหรัฐฯ)",
   "year": "",
   "note": "อัปเปอร์ฟิล์มไร้ตะเข็บประกบตาข่ายน้ำหนักเบา ทรงหัว Toe Assist Shape ช่วยการเปลี่ยนทิศทางเร็ว",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/yonex-power-cushion-cascade-accel-2-300x300.jpg",
   "source": "https://chobbad.com/shoes/yonex-power-cushion-cascade-accel-2/",
   "officialUrl": "https://us.yonex.com/products/cascade-accel-2",
-  "est": []
- },
- {
-  "id": "yonex-power-cushion-cascade-drive",
-  "brand": "Yonex",
-  "name": "Power Cushion Cascade Drive",
-  "code": "",
-  "year": "",
-  "est": [],
-  "note": "",
-  "img": "https://www.badmintonplaza.com/images/SHB-CD1EX-OCN-A.jpg",
-  "source": "",
-  "officialUrl": "",
-  "price": 3290,
-  "width": "",
-  "widthText": "",
-  "sole": "Rubber, EVA",
-  "cushion": "Synthetic Resin",
-  "upper": "Durable Skin",
-  "colors": "Ocean",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3559"
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-cascade-accel-2-wide"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-power-cushion-cascade-accel-2-wide-womens-indoor-white-light-blue"
+   }
+  ],
+  "priceNote": "แปลงจาก C$139.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/yonex-cascade-accel-2-wide"
  },
  {
   "id": "yonex-power-cushion-cascade-drive-2",
@@ -5075,15 +7189,32 @@ window.SHOES = [
   "weight": "",
   "sizes": "US M 5–13",
   "colors": "ขาวด้าน ฟ้าใส",
-  "price": 3390,
+  "price": 3710,
   "priceText": "$105 (ราคาสหรัฐฯ)",
   "year": "",
   "note": "โครงสร้าง Inner Bootie สวมกระชับ ทรงหัวรองเท้า Toe Assist Shape",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/yonex-power-cushion-cascade-drive-2-300x300.jpg",
   "source": "https://chobbad.com/shoes/yonex-power-cushion-cascade-drive-2/",
   "officialUrl": "https://us.yonex.com/products/power-cushion-cascade-drive-2nd-gen",
-  "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4362"
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-power-cushion-cascade-drive-2-unisex-badminton-court-shoe"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-power-cushion-cascade-drive-2-mens-indoor-court-shoe-clear-black"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-power-cushion-cascade-drive-2-mens-clear-black"
+   }
+  ],
+  "priceNote": "แปลงจาก US$110.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/yonex-power-cushion-cascade-drive-2-unisex-badminton-court-shoe"
  },
  {
   "id": "yonex-power-cushion-comfort-z3",
@@ -5098,15 +7229,73 @@ window.SHOES = [
   "weight": 330,
   "sizes": "22.0–29.0 cm",
   "colors": "ดำ ขาว ดำมิ้นต์",
-  "price": 4390,
+  "price": 4050,
   "priceText": "¥19,360 (ราคาญี่ปุ่น) / $160 (ราคาสหรัฐฯ)",
   "year": 2022,
   "note": "รุ่นเน้นการรองรับแรงกระแทก ใช้โฟมหลายชั้นร่วมกับแผ่น 3D Power Carbon Drive ช่วยความมั่นคง",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/yonex-power-cushion-comfort-z3-300x300.jpg",
   "source": "https://chobbad.com/shoes/yonex-power-cushion-comfort-z3/",
   "officialUrl": "https://www.yonex.co.jp/badminton/news/2022/05/2205241300.html",
-  "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4593"
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-power-cushion-comfort-z3-black-mint"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-power-cushion-comfort-z3-womens-badminton-shoe-black-mint"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-power-cushion-comfort-z3-mens-badminton-shoes-black"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-power-cushion-comfort-z3-mens-court-shoes-dark-grey"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-power-cushion-comfort-z3-womens-indoor-black-mint"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-power-cushion-shb-comfort-z3-badminton-shoes-for-women-white"
+   }
+  ],
+  "priceNote": "แปลงจาก US$119.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/yonex-power-cushion-comfort-z3-black-mint"
+ },
+ {
+  "id": "yonex-power-cushion-eclipsion-x3",
+  "brand": "Yonex",
+  "name": "Power Cushion Eclipsion X3",
+  "note": "",
+  "source": "",
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0065/5592/6572/files/shbelx3_navy-blue.webp?v=1701882206",
+  "shopLinks": [
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-power-cushion-eclipsion-x3-mens-badminton-shoes-navy-blue"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-power-cushion-eclipsion-x3-mens-indoor-white-gold"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-pc-eclipsion-x3-badminton-shoe-unisex"
+   }
+  ],
+  "width": "normal",
+  "price": 3730,
+  "priceNote": "แปลงจาก C$154.95 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://tenniszon.com/products/yonex-power-cushion-eclipsion-x3-mens-indoor-white-gold"
  },
  {
   "id": "yonex-power-cushion-eclipsion-z3",
@@ -5121,95 +7310,52 @@ window.SHOES = [
   "weight": 320,
   "sizes": "22.0–29.0 cm (WOMEN 22.0–26.0 cm)",
   "colors": "กรมท่า ขาว ขาวดำ ขาวทอง",
-  "price": 4290,
+  "price": 5070,
   "priceText": "¥17,600 (ราคาญี่ปุ่น) / $150 (ราคาสหรัฐฯ)",
   "year": 2023,
   "note": "เน้นความมั่นคง มี Lateral Shell และ Stability Reinforcement กันเท้าบิดออกด้านข้างเวลาเปลี่ยนทิศทาง",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/yonex-power-cushion-eclipsion-z3-300x300.jpg",
   "source": "https://chobbad.com/shoes/yonex-power-cushion-eclipsion-z3/",
   "officialUrl": "https://www.yonex.co.jp/badminton/news/2023/01/2301111000.html",
-  "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4481"
- },
- {
-  "id": "yonex-power-cushion-graphite-throttle",
-  "brand": "Yonex",
-  "name": "Power Cushion Graphite Throttle",
-  "code": "",
-  "year": "",
-  "est": [],
-  "note": "",
-  "img": "https://www.badmintonplaza.com/images/SH-GT1MEX-NA-A.jpg",
-  "source": "",
-  "officialUrl": "",
-  "price": 5390,
-  "width": "",
-  "widthText": "",
-  "sole": "Rubber Sole",
-  "cushion": "Synthetic Resin",
-  "upper": "Synthetic Fiber",
-  "colors": "Natural",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4782"
- },
- {
-  "id": "yonex-power-cushion-shb101cr",
-  "brand": "Yonex",
-  "name": "Power Cushion SHB101CR",
-  "code": "",
-  "year": "",
-  "est": [],
-  "note": "",
-  "img": "https://www.badmintonplaza.com/images/SHB101CR-115-A.jpg",
-  "source": "",
-  "officialUrl": "",
-  "price": 1890,
-  "width": "",
-  "widthText": "",
-  "sole": "Rubber",
-  "cushion": "",
-  "upper": "Synthetic Leather/Fabric",
-  "colors": "White/Purple",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4390"
- },
- {
-  "id": "yonex-power-cushion-shb220cr",
-  "brand": "Yonex",
-  "name": "Power Cushion SHB220CR",
-  "code": "",
-  "year": "",
-  "est": [],
-  "note": "",
-  "img": "https://www.badmintonplaza.com/images/SHB220CR-619-A.jpg",
-  "source": "",
-  "officialUrl": "",
-  "price": 2190,
-  "width": "",
-  "widthText": "",
-  "sole": "Rubber",
-  "cushion": "",
-  "upper": "Synthetic Leather/Fabric",
-  "colors": "White/Light Blue",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5174"
- },
- {
-  "id": "yonex-power-cushion-shb220jr",
-  "brand": "Yonex",
-  "name": "Power Cushion SHB220JR",
-  "code": "",
-  "year": "",
-  "est": [],
-  "note": "",
-  "img": "https://www.badmintonplaza.com/images/SHB220JRCR-602-A.jpg",
-  "source": "",
-  "officialUrl": "",
-  "price": 1790,
-  "width": "",
-  "widthText": "",
-  "sole": "Rubber",
-  "cushion": "",
-  "upper": "Synthetic Leather/Fabric",
-  "colors": "Mint Green",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5066"
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-power-cushion-eclipsion-z3-wide-mens-badminton-court-shoe-light-blue"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-power-cushion-eclipsion-z3-wide-badminton-shoes-light-blue"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-power-cushion-eclipsion-z3-womens-indoor-court-shoe-white-purple"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-power-cushion-eclipsion-z3-wide-mens-court-shoes-light-blue"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-power-cushion-eclipsion-z3-womens-indoor-white-purple"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-pc-eclipsion-z3-badminton-shoe-womens"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-power-cushion-eclipsion-z3-wide-badminton-shoes-white-black"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-eclipsion-z3-wide-shoes-light-blue"
+   }
+  ],
+  "priceNote": "แปลงจาก US$150.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/yonex-power-cushion-eclipsion-z3-wide-mens-badminton-court-shoe-light-blue"
  },
  {
   "id": "yonex-power-cushion-shb470cr",
@@ -5229,7 +7375,13 @@ window.SHOES = [
   "cushion": "",
   "upper": "PU + Synthetic Leather + Fabric",
   "colors": "Blue/Gray (168)",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4855"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4855",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4855"
+   }
+  ]
  },
  {
   "id": "yonex-power-cushion-shb57ex",
@@ -5249,67 +7401,49 @@ window.SHOES = [
   "cushion": "",
   "upper": "PU + Synthetic Leather + Fabric",
   "colors": "Royel Blue (066)",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4818"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4818",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4818"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-power-cushion-shb-57-ex-badminton-shoes-black"
+   }
+  ]
  },
  {
-  "id": "yonex-power-cushion-shb220jrcr",
+  "id": "yonex-power-cushion-strider-beat",
   "brand": "Yonex",
-  "name": "Power Cushion Shb220jrcr",
-  "code": "",
-  "year": "",
-  "est": [],
+  "name": "Power Cushion Strider Beat",
   "note": "",
-  "img": "https://www.badmintonplaza.com/images/SHB220JRCR-161-A.jpg",
   "source": "",
-  "officialUrl": "",
-  "price": 1790,
-  "width": "",
-  "widthText": "",
-  "sole": "Rubber",
-  "cushion": "",
-  "upper": "Synthetic Leather/Fabric",
-  "colors": "Light Blue",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4497"
- },
- {
-  "id": "yonex-power-cushion-shb220wcr",
-  "brand": "Yonex",
-  "name": "Power Cushion Shb220wcr",
-  "code": "",
-  "year": "",
-  "est": [],
-  "note": "",
-  "img": "https://www.badmintonplaza.com/images/SHB220WCR-100-A.jpg",
-  "source": "",
-  "officialUrl": "",
-  "price": 2190,
-  "width": "wide",
-  "widthText": "",
-  "sole": "Rubber",
-  "cushion": "",
-  "upper": "Synthetic Leather/Fabric",
-  "colors": "White/Navy",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4614"
- },
- {
-  "id": "yonex-power-cushion-strider-flaw-1",
-  "brand": "Yonex",
-  "name": "Power Cushion Strider Flaw 1",
-  "code": "",
-  "year": "",
-  "est": [],
-  "note": "Power Cushion, Ergoshape, Lateral Shell, Round Sole, RADIAL BLADE SOLE, One Piece Outsole, 3E",
-  "img": "https://www.badmintonplaza.com/images/SHBSF1JREX-175-A.jpg",
-  "source": "",
-  "officialUrl": "",
-  "price": 1990,
-  "width": "",
-  "widthText": "",
-  "sole": "Rubber",
-  "cushion": "",
-  "upper": "Synthetic Leather/Fabric",
-  "colors": "White/Sky Blue",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4498"
+  "est": [
+   "price"
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0065/5592/6572/files/int_shbsb1ex_212-1.png?v=1710900631",
+  "shopLinks": [
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-power-cushion-strider-beat-badminton-shoes-bright-red"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/yonex-strider-beat-badminton-shoe-mens"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-power-cushion-strider-beat-womens-indoor-natural"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-power-cushion-strider-beat-black-white-kibi-sports-copy"
+   }
+  ],
+  "price": 2580,
+  "priceNote": "แปลงจาก S$98.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/yonex-strider-beat-badminton-shoe-mens"
  },
  {
   "id": "yonex-power-cushion-strider-flow",
@@ -5324,15 +7458,44 @@ window.SHOES = [
   "weight": 320,
   "sizes": "US M 5–13",
   "colors": "เทาอ่อน ดำ ขาวทอง เบจ กรมท่าทอง",
-  "price": 2080,
+  "price": 2190,
   "priceText": "$65 (ราคาสหรัฐฯ)",
   "year": "",
   "note": "รุ่นราคาประหยัด มี Lateral Shell ช่วยประคองเท้าด้านข้าง",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/yonex-power-cushion-strider-flow-300x300.jpg",
   "source": "https://chobbad.com/shoes/yonex-power-cushion-strider-flow/",
   "officialUrl": "https://us.yonex.com/products/power-cushion-strider-flow",
-  "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4956"
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-power-cushion-strider-flow-unisex-court-shoe-white-mint"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-power-cushion-strider-flow-wide-badminton-shoes-white-red"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/yonex-power-cushion-strider-flow-kids-junior-badminton-shoe-black-blue"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/yonex-power-cushion-strider-flow-white-lime-wide-badminton-shoes"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-power-cushion-strider-flow-wide-mens-white-red"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-power-cushion-strider-flow-womens-indoor-light-grey"
+   }
+  ],
+  "priceNote": "แปลงจาก US$64.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/yonex-power-cushion-strider-flow-unisex-court-shoe-white-mint"
  },
  {
   "id": "yonex-power-cushion-strider-flow-junior",
@@ -5347,14 +7510,32 @@ window.SHOES = [
   "weight": "",
   "sizes": "ไซซ์เด็ก US 1–7",
   "colors": "ขาวมิ้นต์",
-  "price": "",
+  "price": 2700,
   "priceText": "$65 (ราคาสหรัฐฯ)",
   "year": "",
   "note": "รองเท้าแบดมินตันสำหรับเด็ก มีทั้งแบบผูกเชือกและแบบสายรัด (Belt) มี Lateral Shell",
   "img": "https://chobbad.com/wp-content/uploads/2026/10/yonex-power-cushion-strider-flow-junior-300x300.jpg",
   "source": "https://chobbad.com/shoes/yonex-power-cushion-strider-flow-junior/",
   "officialUrl": "https://us.yonex.com/products/power-cushion-strider-flow-junior-lace",
-  "est": []
+  "est": [
+   "price"
+  ],
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-power-cushion-strider-flow-junior-indoor-court-shoe-black-blue"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-power-cushion-strider-flow-junior-court-shoes-black-blue"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-power-cushion-strider-flow-junior-indoor-black-blue"
+   }
+  ],
+  "priceNote": "แปลงจาก US$79.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://racquetguys.com/products/yonex-power-cushion-strider-flow-junior-indoor-court-shoe-black-blue"
  },
  {
   "id": "yonex-subaxia-gt",
@@ -5377,6 +7558,44 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/yonex-subaxia-gt/",
   "officialUrl": "https://us.yonex.com/products/subaxia-gt-mens",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5101"
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5101",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5101"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-subaxia-gt-wide-shoe-dark-green"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-subaxia-gt-wide-fit-badminton-court-shoes-dark-green"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-subaxia-gt-wide-badminton-shoes-dark-green-2026"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/new-2026-yonex-subaxia-gt-grayish-green-ladies-badminton-shoes"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-subaxia-gt-wide-mens-indoor-shoe-dark-green"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-subaxia-gt-ladies-shoe"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-mens-subaxia-gt-wide-dark-green"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-subaxia-gt-2026-badminton-shoes-men"
+   }
+  ]
  }
 ];

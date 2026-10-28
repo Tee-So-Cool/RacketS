@@ -1,6 +1,7 @@
 # Build data/shoes.js and data/socks.js from scripts/sources/chobbad-{shoes,socks}.json,
 # Badminton Plaza (scripts/sources/plaza-{shoes,socks}.json, THB prices and images where empty)
-# and data/{shoe,sock}-overrides.json.
+# and data/{shoe,sock}-overrides.json, then the shop feeds (gear_shop.py: price, width, weight, height,
+# links; models several shops sell; foreign prices converted and flagged).
 # Run from anywhere: python3 scripts/build_gear.py
 import json, os, re, sys, collections
 
@@ -8,6 +9,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, 'scripts', 'sources')
 sys.path.insert(0, os.path.join(ROOT, 'scripts'))
 from plaza_match import match as pmatch
+import gear_shop
 
 def load(p, default):
     return json.load(open(p, encoding='utf-8')) if os.path.exists(p) else default
@@ -82,6 +84,10 @@ for kind, cfg in KINDS.items():
                             'img': i.get('img', ''), 'source': i.get('url', ''), 'officialUrl': i.get('source', ''), 'est': []}
     hits = added = 0
     for pz in plaza:
+        # a Plaza brand page also lists sidebar products (other brands' shoes, sprays): keep this kind only, under
+        # the brand its title names
+        if not re.search({'shoes': r'shoe|รองเท้า', 'socks': r'sock|ถุงเท้า'}[kind], pz['name'], re.I) or gear_shop.NOT_MODEL.search(pz['name']): continue
+        pz = {**pz, 'brand': gear_shop.brand_of(pz['brand'], pz['name']) or pz['brand']}
         pool = {v['name']: v for v in items.values() if v['brand'].lower() == pz['brand'].lower()}
         m, _ = pmatch(pz['name'], pool)
         if not m:
@@ -109,6 +115,22 @@ for kind, cfg in KINDS.items():
         if not s.get('price') and pz.get('price'): s['price'] = int(pz['price'])
         if not s.get('img') and pz.get('img'): s['img'] = pz['img']
         s.setdefault('shopUrl', 'https://www.badmintonplaza.com/product_info.php?products_id=' + str(pz['id']))
+    # ---- shops (gear_shop.py); a new model needs a number in its name or three shops ----
+    def clean_title(t, strip_brand=''):
+        return model_name(t, strip_brand or gear_shop.brand_of('', t) or '')
+    def extract(it):
+        text = ' '.join([it['title']] + it['lines'])
+        if kind == 'shoes':
+            g = [int(x) for x in re.findall(r'(?<!\d)(2[2-9]\d|3[0-9]\d)\s?(?:g|grams?)\b', text)]
+            return {'width': width(it['title'] + ' ' + ' '.join(l for l in it['lines'] if re.search(r'width|last|shape|fit|wide', l, re.I))),
+                    'weight': g[0] if len(set(g)) == 1 else ''}
+        return {'height': height(it['title']), 'pack': pairs(text)}
+    def new_model(brand, name, shops=1):
+        # shoe and sock titles carry colourways that read like models: two shops, or a Thai one; a name without a number, three
+        if shops < 2 or not name or len(name) > 30 or (not re.search(r'\d', name) and shops < 3): return None
+        return {'id': slug(brand + ' ' + name), 'brand': brand, 'name': name, 'note': '', 'source': '', 'est': []}
+    gear_shop.apply(items, kind, {'shoes': r'shoe|รองเท้า', 'socks': r'sock|ถุงเท้า'}[kind], clean_title, extract, new_model)
+
     unmatched = []
     for full, o in ovr.items():
         if full.startswith('_'): continue
