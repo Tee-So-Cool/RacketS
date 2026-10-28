@@ -804,7 +804,7 @@
   "weights": "4U",
   "tmax": 23,
   "price": 6950,
-  "src": "https://vnm.mizuno.com/products/bdss-fortius-10-73jtb500-2025ss",
+  "src": "https://jpn.mizuno.com/badminton/shop/products/FT10/",
   "priceForeign": 4900000.0,
   "currency": "VND"
  },
@@ -1330,64 +1330,75 @@
   "weights": "4U",
   "tmax": 28,
   "price": 4160,
-  "src": "https://vnm.mizuno.com/products/acroforce-300-73jtb503-2025aw"
+  "src": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB503/",
+  "weight": 83,
+  "level": "intermediate",
+  "priceForeign": 25300.0,
+  "currency": "JPY"
  },
  "Mizuno Acrospeed 1 Accel": {
   "balance": "even",
   "flex": "stiff",
   "weights": "4U",
-  "src": "https://vnm.mizuno.com/products/acrospeed-1-accel-73jtb402-2024ss",
-  "priceForeign": 4900000.0,
-  "currency": "VND"
+  "src": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB402/",
+  "priceForeign": 29700.0,
+  "currency": "JPY",
+  "weight": 83
  },
  "Mizuno Acrospeed 1 Drive": {
   "balance": "head-heavy",
   "flex": "stiff",
   "weights": "4U",
-  "src": "https://vnm.mizuno.com/products/acrospeed-1-drive-73jtb451-2024aw",
-  "priceForeign": 4900000.0,
-  "currency": "VND"
+  "src": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB451/",
+  "priceForeign": 29700.0,
+  "currency": "JPY",
+  "weight": 83
  },
  "Mizuno Acrospeed 1 Focus": {
   "balance": "even",
   "flex": "stiff",
   "weights": "4U",
-  "src": "https://vnm.mizuno.com/products/acrospeed-1-focus-73jtb401-2024ss",
-  "priceForeign": 4900000.0,
-  "currency": "VND"
+  "src": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB401/",
+  "priceForeign": 29700.0,
+  "currency": "JPY",
+  "weight": 83
  },
  "Mizuno Acrospeed 3": {
-  "balance": "head-light",
+  "balance": "even",
   "flex": "stiff",
   "weights": "5U",
   "level": "intermediate",
-  "src": "https://vnm.mizuno.com/products/acrospeed-3-73jtb403-2024ss",
-  "priceForeign": 4100000.0,
-  "currency": "VND"
+  "src": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB403/",
+  "priceForeign": 25300.0,
+  "currency": "JPY",
+  "weight": 78
  },
  "Mizuno Acrospeed 6": {
   "balance": "head-light",
   "flex": "stiff",
   "weights": "4U",
-  "src": "https://vnm.mizuno.com/products/acrospeed-6-73jtb406-2024ss",
-  "priceForeign": 3700000.0,
-  "currency": "VND"
+  "src": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB406/",
+  "priceForeign": 23100.0,
+  "currency": "JPY",
+  "weight": 83
  },
  "Mizuno Acrospeed 7": {
   "balance": "head-light",
   "flex": "stiff",
   "weights": "5U",
-  "src": "https://vnm.mizuno.com/products/acrospeed-7-73jtb407-2024aw",
-  "priceForeign": 3150000.0,
-  "currency": "VND"
+  "src": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB407/",
+  "priceForeign": 18700.0,
+  "currency": "JPY",
+  "weight": 78
  },
  "Mizuno Acrospeed 8": {
   "balance": "head-light",
   "weights": "4U",
   "level": "beginner",
-  "src": "https://vnm.mizuno.com/products/acrospeed-8-73jtb408-2024aw",
-  "priceForeign": 3150000.0,
-  "currency": "VND"
+  "src": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB408/",
+  "priceForeign": 14300.0,
+  "currency": "JPY",
+  "weight": 83
  },
  "Mizuno Acrospeed 0": {
   "balance": "head-heavy",
@@ -1423,9 +1434,10 @@
  },
  "Mizuno Acroforce 100": {
   "weights": "4U",
-  "src": "https://vnm.mizuno.com/products/acroforce-100-73jtb510-2025aw",
+  "src": "https://jpn.mizuno.com/badminton/shop/products/ACROFORCE100/",
   "priceForeign": 5300000.0,
-  "currency": "VND"
+  "currency": "VND",
+  "balance": "head-heavy"
  },
  "Mizuno Acroforce 200 Power": {
   "balance": "head-heavy",
@@ -1440,7 +1452,7 @@
   "balance": "head-heavy",
   "flex": "medium",
   "tmax": 27,
-  "src": "https://vnm.mizuno.com/products/altius-n-feel-73jtb521-2025aw",
+  "src": "https://jpn.mizuno.com/badminton/shop/products/Nfeel/",
   "priceForeign": 5300000.0,
   "currency": "VND"
  },
@@ -1615,7 +1627,9 @@
   "weight": 84,
   "tmax": 32,
   "level": "pro",
-  "src": "https://www.eliteshuttler.com/products/kawasaki-king-k9"
+  "src": "https://www.sakurasport.com/en/1538-king-k9-badminton-racket-kawasaki-6940671123964.html",
+  "priceForeign": 199.9,
+  "currency": "EUR"
  },
  "Kawasaki Porcelain Q5": {
   "tmax": 28,
@@ -1844,14 +1858,19 @@
   "weights": "5U",
   "tmax": 27,
   "price": 3600,
-  "src": "https://vnm.mizuno.com/products/acroforce-600-blackxgreen-73jtb506-2025aw"
+  "src": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB506/",
+  "weight": 78,
+  "level": "intermediate",
+  "priceForeign": 23100.0,
+  "currency": "JPY"
  },
  "Mizuno Acrospeed 2": {
   "balance": "even",
   "weights": "4U",
-  "priceForeign": 4500000.0,
-  "currency": "VND",
-  "src": "https://vnm.mizuno.com/products/acrospeed-2-73jtb422-2025ss"
+  "priceForeign": 27500.0,
+  "currency": "JPY",
+  "src": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB422/",
+  "weight": 83
  },
  "Apacs Blizzard Pro ZZ": {
   "flex": "stiff",
@@ -2599,5 +2618,24 @@
   "priceForeign": 194.9,
   "currency": "SGD",
   "src": "https://sg.lining.studio/products/windstorm-72-speed"
+ },
+ "Mizuno ACROSPEED 0": {
+  "balance": "head-heavy",
+  "weights": "4U",
+  "src": "https://jpn.mizuno.com/badminton/shop/products/acrospeed0/"
+ },
+ "Mizuno FIORIA LITE": {
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "weights": "5U",
+  "level": "intermediate",
+  "priceForeign": 439.0,
+  "currency": "MYR",
+  "src": "https://mys.mizuno.com/products/fioria-lite"
+ },
+ "Kawasaki King K8 II": {
+  "priceForeign": 184.9,
+  "currency": "EUR",
+  "src": "https://www.sakurasport.com/en/1539-king-k8-ii-blue-raquette-de-badminton-kawasaki-6940671193936.html"
  }
 }

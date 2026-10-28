@@ -233,24 +233,38 @@ def bay_flex(t):
     if 'medium' in t: return 'medium'
     if 'flex' in t or 'soft' in t: return 'flexible'
     return ''
-bay_hits = 0
-for bz in bay:
+# Badminton Click (Australia, AUD) has the same text spec block plus a recommended level; it runs through the same layer
+CLICK = os.path.join(SRC, 'click.json')
+click = json.load(open(CLICK, encoding='utf-8')) if os.path.exists(CLICK) else []
+for c in click: c['src'] = 'click'
+LEVEL_WORD = {'beginner': 'beginner', 'beginners': 'beginner', 'intermediate': 'intermediate', 'advanced': 'advanced', 'professional': 'pro', 'pro': 'pro'}
+def one_level(t):
+    # "Intermediate - Advanced" is a range, not a level; only a single word counts
+    w = (t or '').strip().lower()
+    return LEVEL_WORD.get(w, '')
+bay_hits = {'bay': 0, 'click': 0}
+for bz in bay + click:
+    if bz.get('src') == 'click':
+        # "NEW 2027 Victor Thruster Ryuga 3 (78 grams) Badminton Racquet": drop the shop's framing before matching
+        bz = {**bz, 'name': re.sub(r'\b(new|20\d\d)\b|\(\d+ g\w*\)|\d+ g\w*|\[[^\]]*\]|\([^)]*edition\)', ' ', bz['name'], flags=re.I)}
+        # the shop writes generations as digits ("Ryuga Muse 2"), this data as numerals ("Ryuga Muse II")
+        bz['name'] = re.sub(r'(?<=[A-Za-z]) ([2-4])\b(?! ?[\d.])', lambda m: ' ' + {'2': 'II', '3': 'III', '4': 'IV'}[m.group(1)], bz['name'])
     pool = {r['name']: r for r in rackets.values() if r['brand'] == bz['brand']}
     m, _ = pmatch(bz['name'], pool)
     if not m: continue
-    r = pool[m]; bay_hits += 1
+    r = pool[m]; bay_hits[bz.get('src', 'bay')] += 1
     ws, g = weights(bz.get('weight', ''))
     fill = {'balance': bay_balance(bz.get('balance')), 'flex': bay_flex(bz.get('flex')), 'weights': ws, 'weight': g,
             'tension': tension(bz.get('tension', '')), 'frame': bz.get('frame', ''), 'shaft': bz.get('shaft', ''),
-            'length': bz.get('length', ''), 'img': bz.get('img', '')}
+            'length': bz.get('length', ''), 'img': bz.get('img', ''), 'level': one_level(bz.get('level'))}
     for f, v in fill.items():
         if v not in ('', None) and (r.get(f) in ('', None) or f in r.get('est', [])):
             r[f] = v
             if f in r.get('est', []): r['est'].remove(f)
     if bz.get('price') and not r.get('priceForeign'):
         r['priceForeign'] = {'amount': bz['price'], 'currency': bz.get('currency', 'USD'), 'src': bz['url']}
-    r.setdefault('bayUrl', bz['url'])
-print('bay matched', bay_hits)
+    r.setdefault('clickUrl' if bz.get('src') == 'click' else 'bayUrl', bz['url'])
+print('shop spec layers matched', bay_hits)
 
 # ---- series-based estimates for missing style/balance (flagged in r['est']) ----
 SERIES = [
@@ -320,7 +334,7 @@ for r in rackets.values():
 print('levels estimated', leveled)
 
 order = ['id', 'brand', 'name', 'year', 'style', 'balance', 'flex', 'level', 'weights', 'weight', 'grips', 'tension', 'price',
-         'frame', 'shaft', 'joint', 'length', 'pattern', 'tech', 'players', 'madeIn', 'recString', 'img', 'source', 'officialUrl', 'specSrc', 'shopUrl', 'bayUrl', 'priceNote', 'priceSrc', 'note', 'est']
+         'frame', 'shaft', 'joint', 'length', 'pattern', 'tech', 'players', 'madeIn', 'recString', 'img', 'source', 'officialUrl', 'specSrc', 'shopUrl', 'bayUrl', 'clickUrl', 'priceNote', 'priceSrc', 'note', 'est']
 final, seen = [], set()
 for r in sorted(rackets.values(), key=lambda r: (r['brand'], r['name'])):
     while r['id'] in seen: r['id'] += '-2'
