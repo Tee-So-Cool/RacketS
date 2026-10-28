@@ -179,6 +179,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from plaza_match import match as pmatch, clean as pclean, skip as pskip, NEW_NAMES
 PLAZA = os.path.join(SRC, 'plaza.json')
+BASE_PLAZA = 'https://www.badmintonplaza.com/product_info.php?products_id='
 plaza = json.load(open(PLAZA, encoding='utf-8')) if os.path.exists(PLAZA) else []
 plaza_hits = plaza_new = 0
 for pz in plaza:
@@ -200,13 +201,16 @@ for pz in plaza:
         continue
     bal_raw = (pz.get('balance') or '').replace('Headvy', 'Heavy').replace('headvy', 'heavy')
     ws, g = weights(pz.get('weight', ''))
-    fill = {'img': pz.get('img', ''), 'price': int(pz['price']) if pz.get('price') else '', 'balance': balance(bal_raw, ''),
-            'flex': flex(pz.get('flex', '')), 'weights': ws, 'weight': g, 'grips': grips(pz.get('weight', '') + ' ' + pz.get('grip', '')),
-            'tension': tension(pz.get('tension', '')), 'frame': pz.get('frame') or pz.get('material', ''), 'shaft': pz.get('shaft', ''),
-            'length': pz.get('length', '')}
+    fill = {'img': pz.get('img', ''), 'price': int(pz['price']) if pz.get('price') else ''}
+    # a page without the full spec table (older plaza.json) still gives its listed specs here; otherwise the
+    # product page's table goes through the shop layer below, with the same parser and vote as other shops
+    if not pz.get('specs'):
+        fill.update({'balance': balance(bal_raw, ''), 'flex': flex(pz.get('flex', '')), 'weights': ws, 'weight': g,
+                     'grips': grips(pz.get('weight', '') + ' ' + pz.get('grip', '')), 'tension': tension(pz.get('tension', '')),
+                     'frame': pz.get('frame') or pz.get('material', ''), 'shaft': pz.get('shaft', ''), 'length': pz.get('length', '')})
     for f, v in fill.items():
         if v not in ('', None) and r.get(f) in ('', None): r[f] = v
-    if not r.get('shopUrl'): r['shopUrl'] = 'https://www.badmintonplaza.com/product_info.php?products_id=' + str(pz['id'])
+    if not r.get('shopUrl'): r['shopUrl'] = BASE_PLAZA + str(pz['id'])
 print('plaza matched', plaza_hits, 'added', plaza_new)
 unmatched = []
 for full_name in deferred:
@@ -251,7 +255,7 @@ def one_level(t):
 SHOPS = os.path.join(SRC, 'shops.json')
 BRAND_OF = {'victor': 'Victor', 'yonex': 'Yonex', 'li-ning': 'Li-Ning', 'li ning': 'Li-Ning', 'lining': 'Li-Ning', 'vs': 'VS',
             'apacs': 'Apacs', 'mizuno': 'Mizuno', 'kawasaki': 'Kawasaki'}
-from spec_text import parse as parse_spec, country_of
+from spec_text import parse as parse_spec, country_of, is_material
 PAGES = json.load(open(os.path.join(SRC, 'pages.json'), encoding='utf-8')) if os.path.exists(os.path.join(SRC, 'pages.json')) else {}
 def from_shop(p):
     brand = BRAND_OF.get(p['brand'].strip().lower(), '')
@@ -276,10 +280,15 @@ def from_shop(p):
 # Victor's official Thai pages (scripts/fetch_victor.py) come first, so the maker's figures win over shops'
 VOFF = os.path.join(SRC, 'victor-official.json')
 shop_pages = (json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) else []) + (json.load(open(SHOPS, encoding='utf-8')) if os.path.exists(SHOPS) else [])
+# Badminton Plaza's product-page tables ("Weight : 82±2g (4U)", "String Tension : 26-38 lbs", "Features : ..."),
+# right after Victor's own pages, so the Thai shop keeps first say on free text as before; its THB price was set above
+shop_pages[len(json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) else []):0] = [{'shop': 'badmintonplaza.com', 'brand': pz['brand'], 'name': pz['name'] or pz.get('listed', ''), 'url': BASE_PLAZA + str(pz['id']),
+                'price': '', 'currency': 'THB', 'img': '', 'lines': [f'{k}: {v}' for k, v in pz['specs'].items()], 'options': []}
+               for pz in plaza if pz.get('specs')]
 shops = [x for x in (from_shop(p) for p in shop_pages) if x]
 bay_hits = {'bay': 0, 'click': 0, 'shop': 0}
 AUDIT = {'matched': collections.defaultdict(list), 'unmatched': []}  # AUDIT=<path> writes every shop value per model
-cands = collections.defaultdict(lambda: collections.defaultdict(list))  # model id -> field -> [(value, from prose)] in source order
+cands = collections.defaultdict(lambda: collections.defaultdict(list))  # model -> field -> [(value, from prose, shop, rank)] in source order
 for bz in bay + click + shops:
     if bz.get('src') == 'click':
         # "NEW 2027 Victor Thruster Ryuga 3 (78 grams) Badminton Racquet": drop the shop's framing before matching
@@ -295,7 +304,7 @@ for bz in bay + click + shops:
     if bz.get('src') == 'shop':
         ps = bz['parsed']
         fill = {'balance': ps['balance'], 'flex': ps['flex'], 'weights': ps['weights'], 'weight': ps['weight'],
-                'tension': [None, ps['tmax']] if ps['tmax'] else None, 'grips': ps['grips'], 'img': bz.get('img', ''),
+                'tension': [ps.get('tmin') or None, ps['tmax']] if ps['tmax'] else None, 'grips': ps['grips'], 'img': bz.get('img', ''),
                 # Li-Ning's own stores tag even entry rackets "Professional", so their level is not used
                 'level': '' if 'lining.studio' in bz['shop'] else one_level(ps['level']), 'recString': ps['recText'],
                 **{f: ps[f] for f in ('frame', 'shaft', 'length', 'joint', 'madeIn', 'tech', 'players', 'pattern')}}
@@ -317,7 +326,13 @@ for bz in bay + click + shops:
         src = {'click': 'badmintonclick.com.au'}.get(bz.get('src'), bz.get('shop') or bz.get('src', 'bay'))
         # one vote per shop, however many colourway pages it lists
         if src not in [c[2] for c in cands[id(r)][f]]:
-            cands[id(r)][f].append((v, {'flex': 'flex', 'tension': 'tmax'}.get(f) in prose, src))
+            # free-text rank: 0 a value under its own label, 1 from a whole-racket "Material" line,
+            # 2 not a material at all (a Thai sentence, a frame shape, "Unstrung")
+            rank = 0
+            if f in ('frame', 'shaft'):
+                if f in bz['parsed'].get('generic', []) if bz.get('src') == 'shop' else False: rank = 1
+                if not is_material(str(v)): rank = 2
+            cands[id(r)][f].append((v, {'flex': 'flex', 'tension': 'tmax'}.get(f) in prose, src, rank))
     # a placeholder price (S$999 on Li-Ning's store) is not a price
     if bz.get('price') in (999, 999.0, 9999, 9999.0): bz = {**bz, 'price': ''}
     if bz.get('price') and bz.get('currency') == 'THB' and not r.get('price'):
@@ -340,7 +355,7 @@ for rid, fields in cands.items():
         if not (r.get(f) in ('', None) or f in r.get('est', []) or f in r.get('proseEst', [])):
             # three or more shops' labelled specs agreeing (3 in 4 at least) outweigh one aggregator's balance or flex;
             # Yonex's own site is the source for Yonex, so it stays
-            lab = [json.dumps(v) for v, p, _ in vs if not p]
+            lab = [json.dumps(v) for v, p, _, _ in vs if not p]
             top = collections.Counter(lab).most_common(1)
             if f in ('balance', 'flex') and r['brand'] != 'Yonex' and top and top[0][1] >= 3 and top[0][1] >= 0.75 * len(lab) \
                     and json.loads(top[0][0]) != r[f]:
@@ -349,11 +364,15 @@ for rid, fields in cands.items():
             continue
         if f == 'weight' and '4U' in str(fields.get('weights', [('',)])[0][0]):
             pool = [x for x in pool if 80 <= x[0] <= 84] or pool
-        # free text (materials, tech) is rarely written the same way twice, so the first source keeps it
-        if f in ('frame', 'shaft', 'joint', 'tech', 'players', 'pattern', 'recString', 'img'): pool = pool[:1]
-        n = collections.Counter(json.dumps(v) for v, _, _ in pool)
+        # free text (materials, tech) is rarely written the same way twice: the best-ranked value, earliest source first
+        if f in ('frame', 'shaft', 'joint', 'tech', 'players', 'pattern', 'recString', 'img'):
+            pool = [x for x in pool if x[3] < 2]
+            if not pool: continue
+            # tech: the fullest list wins (Plaza often lists only the first feature)
+            pool = [max(pool, key=lambda x: len(re.split(r'[,/]', str(x[0]))))] if f == 'tech' else [min(pool, key=lambda x: x[3])]
+        n = collections.Counter(json.dumps(v) for v, _, _, _ in pool)
         top = max(n.values())
-        v, from_prose, _ = next(x for x in pool if n[json.dumps(x[0])] == top)
+        v, from_prose, _, _ = next(x for x in pool if n[json.dumps(x[0])] == top)
         if len(n) > 1: voted += 1
         r[f] = v
         if f in r.get('est', []): r['est'].remove(f)
@@ -434,6 +453,15 @@ print('levels estimated', leveled)
 from_class = 0
 for r in rackets.values():
     r['madeIn'] = country_of(r.get('madeIn', ''))
+    # a degree sign lost in the shop's encoding: "205? Precision Curve Frame"
+    if r.get('tech'): r['tech'] = re.sub(r'(\d)\?(?=\s)', r'\1°', r['tech'])
+    # Mizuno Vietnam's spec text, where it filled a material: "Than chì Nhật Bản HM" = "Japan HM Graphite"
+    for f in ('frame', 'shaft'):
+        v = r.get(f) or ''
+        if re.search(r'Than chì|mô[- ]đun', v):
+            v = re.sub(r'(?:Graphite|Grafit) mô[- ]đun cao', 'High Modulus Graphite', v)
+            v = re.sub(r'Than chì mô[- ]đun cao', 'High Modulus Graphite', v).replace('Than chì Nhật Bản', 'Japan Graphite').replace('Than chì', 'Graphite')
+            r[f] = v.replace('polyme', 'polymer')
     us = re.findall(r'[2-7]U', r.get('weights', ''))
     if not r.get('weight') and us:
         r['weight'] = UW['4U'] if '4U' in us else UW[us[0]]

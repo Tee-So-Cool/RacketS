@@ -18,7 +18,7 @@ LABEL_RULES = [
     (r'joint|ข้อต่อ', 'joint'),
     (r'length|ความยาว', 'length'),
     (r'made in|origin|ผลิต', 'madeIn'),
-    (r'technolog|เทคโนโลยี', 'tech'),
+    (r'technolog|เทคโนโลยี|^features?$', 'tech'),
     (r'player level|playing level|^level$|^grade$|ระดับ', 'level'),
     (r'used by|endorse|^players?$|นักกีฬา', 'players'),
     (r'recommended string|เอ็นแนะนำ', 'recText'),
@@ -87,7 +87,11 @@ def weights_of(t):
 
 def grams_of(t, labelled=False):
     # a range ("4U (80-84g)") is the weight class, not a figure: its ends are not the racket's weight
-    t = re.sub(r'\d{2}(?:[.,]\d)?\s*(?:-|–|~|to)\s*\d{2}(?:[.,]\d)?\s*(?:g|grams?|กรัม)', ' ', t or '')
+    t = re.sub(r'\d{2,3}(?:[.,]\d)?\s*(?:-|–|~|to)\s*\d{2,3}(?:[.,]\d)?\s*(?:g|grams?|กรัม)', ' ', t or '')
+    # a ceiling ("105g and below", "≤ 90 g") is not the weight either
+    t = re.sub(r'(?:≤|≦|<=?|max\.?|under)\s*\d{2,3}\s*(?:g|grams?)|\d{2,3}\s*(?:g|grams?)\s*(?:and|or)\s*(?:below|less|under)', ' ', t, flags=re.I)
+    # "82±2g": the tolerance sits between the figure and the unit
+    t = re.sub(r'(\d{2,3})(?:[.,]\d)?\s*(?:±|\+-|\+/-)\s*\d(?:[.,]\d)?\s*(g|grams?|กรัม)', r'\1\2', t)
     # the 4U figure when the text gives several, else the only one
     m = re.search(r'4U[^0-9]{0,6}\(?\s*(?:avg\.?\s*)?(\d{2})(?:[.,]\d)?\s*(?:g|grams?|กรัม)?', t or '')
     if m and 70 <= int(m.group(1)) <= 95: return int(m.group(1))
@@ -119,6 +123,11 @@ def country_of(t):
     # a made-in value counts only when it names one country ("MADE IN JAPAN.", "Taiwan"); anything else is not an origin
     cs = {c for k, c in COUNTRY.items() if re.search(r'(?<![a-z])' + k + r'(?![a-z])', (t or '').lower())}
     return cs.pop() if len(cs) == 1 else ''
+
+MATERIAL = re.compile(r'graphite|carbon|fib(?:re|er)|resin|alumin|steel|titan|nano|pyrofil|toray|mitsubishi|\b[MT]\d{2,4}\b|\d{2}T\b|kevlar|boron|tungsten|composite|hmg|modulus|คาร์บอน|กราไฟต์|อะลูมิเนียม', re.I)
+def is_material(t):
+    # a material name, not a Thai sentence or a frame shape
+    return bool(t) and bool(MATERIAL.search(t)) and not re.search('[ก-๙]{12}', t)
 
 def length_of(t):
     m = re.search(r'(6[5-9]\d)\s*(?:±\s*\d+\s*)?mm', t or '')
@@ -180,21 +189,33 @@ def parse(lines, options=()):
         # one value per weight class on the following lines ("3U:≦30 lbs" then "4U:≦29 lbs") belongs to the same label
         while f in ('tension', 'weight', 'grips') and i < len(lines) and re.match(r'\d\s?U\b', lines[i]):
             val += ' | ' + lines[i]; i += 1
+        # "Shaft: Hi-Flex" then "Shaft: Graphite": a shaft line holding a stiffness is the flex, and leaves the
+        # shaft label free for the material line that follows
+        if f == 'shaft' and not is_material(val) and flex_of(val):
+            out.setdefault('flex', val.strip()); continue
         if f and f not in out: out[f] = val.strip()
     # normalise the labelled values; a "shaft" label holding a stiffness word is the flex, not the material
     if out.get('shaft') and not out.get('flex') and flex_of(out['shaft']) and not re.search(r'graphite|carbon|fib|nano|titan', out['shaft'], re.I):
         out['flex'] = out.pop('shaft')
     res = {
         'balance': balance_of(out.get('balance')), 'flex': flex_of(out.get('flex')),
-        'weights': weights_of(out.get('weight', '')), 'weight': grams_of(out.get('weight', ''), labelled=True),
+        # "Weight/Grip Size: 82±2g (4U) / G6" lands under grips (the earlier rule); its weight is read from there too
+        'weights': weights_of(out.get('weight') or out.get('grips', '')), 'weight': grams_of(out.get('weight') or out.get('grips', ''), labelled=True),
         'tmax': tmax_of(out.get('tension', '')) or (int(out['tension'][:2]) if re.match(r'\d{2}\b', out.get('tension', '')) else ''),
+        # the low end of a labelled range ("26-38 lbs") is the racket's minimum
+        'tmin': (lambda m: int(m.group(1)) if m and 15 <= int(m.group(1)) < int(m.group(2)) <= 40 else '')(
+            re.search(r'(\d{2})\s*(?:-|–|~|to)\s*(\d{2})\s*(?:lbs?|ปอนด์)', out.get('tension', ''), re.I)),
         'grips': grips_of(out.get('grips', '') + ' ' + out.get('weight', '')), 'length': length_of(out.get('length', '')) or out.get('length', ''),
         **{f: out.get(f, '') for f in ('frame', 'shaft', 'joint', 'madeIn', 'tech', 'players', 'level', 'recText', 'pattern')},
-        'frame': out.get('frame') or out.get('material', ''), 'shaft': out.get('shaft') or out.get('material', ''),
+        # a frame or shaft label that holds no material ("4MM Blade frame + Triangular bayonet") gives way to the
+        # page's whole-racket "Material" line, which is true but less specific than a shaft label elsewhere
+        'frame': out.get('frame') if is_material(out.get('frame')) else out.get('material', ''),
+        'shaft': out.get('shaft') if is_material(out.get('shaft')) else out.get('material', ''),
+        'generic': [f for f in ('frame', 'shaft') if not is_material(out.get(f)) and out.get('material')],
         'tech': out.get('highlights') or out.get('tech', ''),
     }
     res['madeIn'] = country_of(res['madeIn'])
-    between = bool(res['flex']) and bool(re.search(r'ค่อน|medium[\s-]*(?:to[\s-]*)?(?:stiff|flex)', out.get('flex', ''), re.I))
+    between = bool(res['flex']) and bool(re.search(r'ค่อน|medium[\s-]*(?:to[\s-]*)?(?:stiff|flex|soft|hard)', out.get('flex', ''), re.I))
     if res['shaft'] and not re.search(r'[a-zก-๙]{3}', res['shaft'], re.I): res['shaft'] = ''  # "6.8mm" is a diameter
     if not res['tech']: res['tech'] = tech_list(lines)
     # pass 2: the prose, for what the labels left empty
