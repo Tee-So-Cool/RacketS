@@ -2,8 +2,8 @@
 # into scripts/sources/shops.json. One feed page of 250 products every 3 s per shop.
 # Each product keeps its description lines, variant options and tags; build_rackets.py reads specs from them
 # (labelled lines first, then the prose), so a page without a spec table still counts.
-# Run: python3 scripts/fetch_shops.py
-import html, json, os, re, time, urllib.request
+# Run: python3 scripts/fetch_shops.py [domain ...]   (with domains, only those shops are refetched; the rest are kept)
+import html, json, os, re, sys, time, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # domain, currency, brand when the shop sells one brand (else the product vendor)
@@ -16,6 +16,12 @@ SHOPS = [
     ('badmintonclick.com.au', 'AUD', ''),
     ('sg.lining.studio', 'SGD', 'Li-Ning'),
     ('in.lining.studio', 'INR', 'Li-Ning'),
+    ('racquetguys.com', 'USD', ''),
+    ('yumo.ca', 'CAD', ''),
+    ('tenniszon.com', 'CAD', ''),
+    ('centralsports.co.uk', 'GBP', ''),
+    ('thegodofsports.com', 'INR', ''),
+    ('shop.kibisports.com', 'INR', ''),
 ]
 # the labels shops use for a spec; a line that equals one of these takes the next line as its value
 LABELS = ['balance', 'balance point', 'flex', 'flexibility', 'shaft flexibility', 'shaft stiffness', 'stiffness',
@@ -48,8 +54,11 @@ def spec_of(L):
             spec.setdefault(l.rstrip(':：').strip().lower(), L[i + 1])
     return spec
 
-out = []
+OUT = os.path.join(ROOT, 'scripts', 'sources', 'shops.json')
+only = set(sys.argv[1:])
+out = [p for p in json.load(open(OUT, encoding='utf-8')) if p['shop'] not in only] if only and os.path.exists(OUT) else []
 for dom, cur, brand in SHOPS:
+    if only and dom not in only: continue
     n = 0
     for page in range(1, 40):
         try:
@@ -69,5 +78,5 @@ for dom, cur, brand in SHOPS:
                         'tags': p.get('tags', [])})
             n += 1
     print(dom, 'rackets', n, flush=True)
-    json.dump(out, open(os.path.join(ROOT, 'scripts', 'sources', 'shops.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    json.dump(out, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print('total', len(out))

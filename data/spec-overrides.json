@@ -2155,8 +2155,10 @@
   "weights": "4U"
  },
  "Yonex Muscle Power 5 LT": {
-  "flex": "stiff",
-  "src": "https://racquetnetwork.com/product/yonex-muscle-power-5lt-badminton-racquet/"
+  "weights": "2U",
+  "weight": 93,
+  "grips": "G5",
+  "src": "https://www.yonex.com/badminton/racquets/mp5lt"
  },
  "Yonex Muscle Power 8 LT": {
   "balance": "even",

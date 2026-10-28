@@ -48,7 +48,9 @@ def variant_after(title, name):
         # a generation after the name ("Windstorm 700 IV", "Superlite II"), but not "3rd Gen" or a code like "3AX99"
         if nxt and nxt.isdigit() and len(nxt) == 1 and (after is None or after in VARIANT or after.isdigit()): return True
         # a letter glued to the model number ("900B", "9F", "72S") is another model
-        if nt[-1].isdigit() and re.search(r'(?<![\d.])' + nt[-1] + r'[a-z]\b', clean(title)): return True
+        # unless the title also writes the plain number: then "ARS-9000G" is a colour code beside "Auraspeed 9000"
+        ct = clean(title)
+        if nt[-1].isdigit() and re.search(r'(?<![\d.])' + nt[-1] + r'[a-z]\b', ct) and not re.search(r'(?<![\d.])' + nt[-1] + r'(?![\w.])', ct): return True
         return False
     return False
 

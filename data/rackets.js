@@ -370,7 +370,7 @@ window.RACKETS = [
   "joint": "",
   "length": "672mm",
   "pattern": "",
-  "tech": "",
+  "tech": "Graphite/carbon fibre frame",
   "players": "",
   "madeIn": "Vietnam",
   "recString": "",
@@ -385,6 +385,10 @@ window.RACKETS = [
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/apacs-blizzard-pro-zz-badminton-racket"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/apacs-blizzard-pro-zz"
    }
   ],
   "priceNote": "แปลงจาก US$182.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -1218,7 +1222,7 @@ window.RACKETS = [
   "joint": "",
   "length": "673mm +/- 2",
   "pattern": "76",
-  "tech": "",
+  "tech": "Head-Heavy Balance",
   "players": "",
   "madeIn": "Vietnam",
   "recString": "",
@@ -1233,6 +1237,10 @@ window.RACKETS = [
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/apacs-fantala-pro-101-badminton-racket"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/apacs-fantala-pro-101-badminton-racket"
    }
   ],
   "priceNote": "แปลงจาก US$199.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -1254,7 +1262,7 @@ window.RACKETS = [
   "level": "advanced",
   "weights": "7U",
   "weight": 63,
-  "grips": "",
+  "grips": "G2",
   "tension": [
    null,
    30
@@ -1265,7 +1273,7 @@ window.RACKETS = [
   "joint": "",
   "length": "672 mm",
   "pattern": "",
-  "tech": "",
+  "tech": "Ultra-lightweight 7U frame (67–68 g)",
   "players": "",
   "madeIn": "",
   "recString": "",
@@ -1276,7 +1284,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-500-grey-badminton-racket.html",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/apacs-feather-weight-500-racket-grey-7u1"
+   }
+  ],
   "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-500-grey-badminton-racket.html",
   "note": "",
@@ -1296,7 +1309,7 @@ window.RACKETS = [
   "level": "intermediate",
   "weights": "8U",
   "weight": 58,
-  "grips": "",
+  "grips": "G2",
   "tension": [
    null,
    28
@@ -1307,9 +1320,9 @@ window.RACKETS = [
   "joint": "",
   "length": "670mm +/- 2",
   "pattern": "",
-  "tech": "",
+  "tech": "Ultra-lightweight design (61g)",
   "players": "",
-  "madeIn": "",
+  "madeIn": "Taiwan",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-feather-weight-55-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-feather-weight-55/",
@@ -1318,7 +1331,16 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-55-black-red-badminton-racket.html",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/apacs-feather-weight-55"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/apacs-feather-weight-55-badminton-racket"
+   }
+  ],
   "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-55-black-red-badminton-racket.html",
   "note": "",
@@ -1385,7 +1407,7 @@ window.RACKETS = [
    null,
    42
   ],
-  "price": "",
+  "price": 960,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -1402,11 +1424,18 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/apacs-finapi-232-reborn-badminton-racket-white"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹2,692.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/apacs-finapi-232-reborn-badminton-racket-white",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "apacs-grand-tour",
@@ -1664,7 +1693,7 @@ window.RACKETS = [
   "level": "advanced",
   "weights": "4U",
   "weight": 86,
-  "grips": "",
+  "grips": "G2",
   "tension": [
    null,
    38
@@ -1675,9 +1704,9 @@ window.RACKETS = [
   "joint": "",
   "length": "675mm +/- 2",
   "pattern": "",
-  "tech": "",
+  "tech": "Head-heavy balance",
   "players": "",
-  "madeIn": "",
+  "madeIn": "Malaysia",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-honor-pro-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-honor-pro/",
@@ -1690,6 +1719,10 @@ window.RACKETS = [
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/apacs-honor-pro-badminton-racquet-pre-strung"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/apacs-honor-pro-badminton-racket"
    }
   ],
   "priceNote": "แปลงจาก US$199.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -2297,7 +2330,12 @@ window.RACKETS = [
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4982",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/apacs-nano-fusion-speed-722-badminton-racket-blue"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -3441,13 +3479,16 @@ window.RACKETS = [
   "year": 2021,
   "style": "",
   "balance": "",
-  "flex": "",
+  "flex": "medium",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "4U, 5U, 6U",
+  "weight": 84,
   "grips": "",
-  "tension": null,
-  "price": "",
+  "tension": [
+   null,
+   35
+  ],
+  "price": 760,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -3464,11 +3505,20 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/apacs-vanguard-77grey-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹2,149.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/apacs-vanguard-77grey-badminton-racket",
   "note": "",
-  "est": []
+  "est": [
+   "flex",
+   "tension",
+   "price"
+  ]
  },
  {
   "id": "apacs-versus-pro",
@@ -3864,7 +3914,7 @@ window.RACKETS = [
    null,
    35
   ],
-  "price": "",
+  "price": 810,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -3881,11 +3931,18 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/apacs-z-power-900-rp-lite-badminton-racket-maroon-matte"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹2,292.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/apacs-z-power-900-rp-lite-badminton-racket-maroon-matte",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "apacs-z-woven",
@@ -3962,7 +4019,12 @@ window.RACKETS = [
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4705",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/apacs-z-ziggler-badminton-racket-white"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -4089,15 +4151,18 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Z-Ziggler Lite",
   "year": 2021,
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "medium",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "weights": "4U, 6U, 7U",
+  "weight": 83,
   "grips": "",
-  "tension": null,
-  "price": "",
+  "tension": [
+   null,
+   32
+  ],
+  "price": 890,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -4114,11 +4179,22 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/apacs-z-ziggler-lite-badminton-racket-6u-white"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹2,502.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/apacs-z-ziggler-lite-badminton-racket-6u-white",
   "note": "",
-  "est": []
+  "est": [
+   "flex",
+   "tension",
+   "style",
+   "price",
+   "weight"
+  ]
  },
  {
   "id": "apacs-ziggler-lhi-pro-ii",
@@ -4172,7 +4248,7 @@ window.RACKETS = [
   "level": "advanced",
   "weights": "4U",
   "weight": 85,
-  "grips": "",
+  "grips": "G1",
   "tension": [
    null,
    38
@@ -4182,8 +4258,8 @@ window.RACKETS = [
   "shaft": "40T Japan HM Graphite + Ultra Slim Shaft 6.2mm",
   "joint": "",
   "length": "673mm +/- 2",
-  "pattern": "",
-  "tech": "",
+  "pattern": "76 holes",
+  "tech": "Compact Quad Voltaic frame",
   "players": "",
   "madeIn": "",
   "recString": "",
@@ -4194,7 +4270,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-ziggler-lhi-proiii-navy-badminton-racket.html",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/apacs-z-ziggler-lhi-pro-iii-badminton-rkt-blue"
+   }
+  ],
   "priceNote": "แปลงจาก US$182.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-ziggler-lhi-proiii-navy-badminton-racket.html",
   "note": "",
@@ -5252,6 +5333,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/3d-calibar-300"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-3d-calibar-300-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -5317,7 +5402,7 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "Turbo Charging",
   "players": "",
@@ -5342,6 +5427,14 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/3d-calibar-900"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-3d-calibar-900-badminton-racket-grey-gold-aypm426"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-3d-calibar-900-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -5390,6 +5483,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/3d-calibar-x-boost-strung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-3d-calibar-x-boost-red-black-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -5527,6 +5624,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/aeronaut-7000-boost"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-aeronaut-7000-boost-badminton-racket"
    }
   ],
   "priceNote": "แปลงจาก ₹11,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -5546,7 +5647,7 @@ window.RACKETS = [
   "flex": "flexible",
   "level": "pro",
   "weights": "3U, 4U",
-  "weight": 87,
+  "weight": 80,
   "grips": "G6",
   "tension": [
    null,
@@ -5560,7 +5661,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "Turbo Charging",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-aeronaut-9000-169x300.webp",
   "source": "https://chobbad.com/racket/lining-aeronaut-9000/",
@@ -5581,14 +5682,20 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/aeronaut-9000-4u"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-aeronaut-9000-aypp124"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-aeronaut-9000-badminton-racket-4u"
    }
   ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "weight"
-  ]
+  "est": []
  },
  {
   "id": "li-ning-aeronaut-9000-combat",
@@ -5631,6 +5738,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/aeronaut-9000-combat-4u-fm6q"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-aeronaut-9000-combat-x-watanabe-edition-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -5683,6 +5794,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/axforce-10-5u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-axforce-10-badminton-racket-5u-navy"
    }
   ],
   "priceNote": "",
@@ -5710,11 +5825,11 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "Turbo Charging",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "Aerobite (คุม), BG80 (พลัง)",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-axforce-100-169x300.webp",
   "source": "https://chobbad.com/racket/lining-axforce-100/",
@@ -5739,6 +5854,18 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/axforce-100-3u"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-axforce-100-unstrung-badminton-racket"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/li-ning-axforce-100-aypt235"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-axforce-100-badminton-racket-black-gold-4u"
    }
   ],
   "priceNote": "",
@@ -5764,13 +5891,13 @@ window.RACKETS = [
   ],
   "price": 8440,
   "frame": "Ultra High-Elastic Carbon + Damping Matrix",
-  "shaft": "",
+  "shaft": "NEW!",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/li-ning-axforce-100-ii-300x300.png",
   "source": "https://chobbad.com/racket/lining-axforce-100-ii/",
@@ -5783,6 +5910,10 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/li-ning-axforce-100-3u-badminton-racket-unstrung-storm-green"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-axforce-100-ii-unstrung-badminton-racket"
    }
   ],
   "priceNote": "แปลงจาก US$249.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -5833,6 +5964,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/axforce-20-4u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-axforce-20-r-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -5881,6 +6016,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/axforce-30-4u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-axforce-30-badminton-racket-neon-pink-4u"
    }
   ],
   "priceNote": "",
@@ -5929,6 +6068,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/axforce-40-4u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-axforce-40-4u-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -6004,11 +6147,11 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "Wing Stabilizer · Turbo Charging",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-axforce-60-169x300.webp",
   "source": "https://chobbad.com/racket/lining-axforce-60/",
@@ -6021,6 +6164,14 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/axforce-60-limited-edition-5u"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-axforce-60-unstrung-badminton-racket-pearly-white-aypt055-5u"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/li-ning-axforce-60-4ug6-aypt281"
    }
   ],
   "priceNote": "",
@@ -6092,7 +6243,7 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "Wing Stabilizer · Turbo Charging",
   "players": "",
@@ -6121,6 +6272,14 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/axforce-80-4u-g5"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-axforce-80-badminton-racket-ayps004-1-4u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-axforce-80-badminton-racket-white-4u"
    }
   ],
   "priceNote": "",
@@ -6280,11 +6439,11 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "Wing Stabilizer · Turbo Charging",
   "players": "Loh Kean Yew",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-axforce-90-169x300.webp",
   "source": "https://chobbad.com/racket/lining-axforce-90/",
@@ -6309,6 +6468,14 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/axforce-90-lky-special-edition-4u-bag-2-strings"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-axforce-90-long-max-unstrung-badminton-racket-ayps067-1-3u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/lining-axforce-90-3u-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -6361,6 +6528,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/axforce-90-dragon-max-vip-set"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-axforce-90-dragon-max-3u-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -6466,11 +6637,11 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "Wing Stabilizer · Turbo Charging",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-axforce-90-tiger-max-169x300.webp",
   "source": "https://chobbad.com/racket/lining-axforce-90-tiger-max/",
@@ -6491,6 +6662,18 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/axforce-90-tiger-max-vip-set"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-axforce-90-tiger-max-unstrung-badminton-racket-ayps073-1-4u"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/li-ning-axforce-90-tiger-max-aypt243"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-axforce-90-tiger-max-3u-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -6566,7 +6749,7 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
-  "length": "",
+  "length": "and easier back-court recovery",
   "pattern": "",
   "tech": "Turbo Charging · Carbon Fiber",
   "players": "",
@@ -6591,6 +6774,14 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/axforce-cannon-4u-copy"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/li-ning-axforce-cannon-aypt307-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-axforce-cannon-badminton-racket-5u-neon-pink"
    }
   ],
   "priceNote": "",
@@ -6616,9 +6807,9 @@ window.RACKETS = [
   ],
   "price": 2080,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "High-elastic carbon fibre",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "Turbo Charging · Carbon Fiber",
   "players": "",
@@ -6631,7 +6822,12 @@ window.RACKETS = [
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4952",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/li-ning-axforce-cannon-light-6u-badminton-racket-white"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -6682,6 +6878,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/axforce-cannon-pro-limited-edition-4u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-axforce-cannon-pro-limited-edition-badminton-racket-4u"
    }
   ],
   "priceNote": "",
@@ -6726,6 +6926,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/axforce-tiger-5u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-axforce-tiger-badminton-racket-white-lime"
    }
   ],
   "priceNote": "",
@@ -6839,7 +7043,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "pro",
   "weights": "4U, 3U",
-  "weight": 88,
+  "weight": 83,
   "grips": "G5",
   "tension": [
    null,
@@ -6870,6 +7074,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/bladex-200-3u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-bladex-200-4u-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -6897,11 +7105,11 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "TB Nano · Turbo Charging",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-bladex-500-169x300.webp",
   "source": "https://chobbad.com/racket/lining-bladex-500/",
@@ -6918,12 +7126,22 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/bladex-500-4u"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-bladex-500-unstrung-badminton-racket-3u-purple-black"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-bladex-500-4u-badminton-racket"
    }
   ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "weight"
+  ]
  },
  {
   "id": "li-ning-bladex-600",
@@ -6962,6 +7180,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/bladex-600-4u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-bladex-600-4u-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -6989,11 +7211,11 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "Turbo Charging",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-bladex-700-169x300.webp",
   "source": "https://chobbad.com/racket/lining-bladex-700/",
@@ -7010,6 +7232,14 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/bladex-700-3u"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-bladex-700-un-strung-badminton-racket-yellow-aypu015-3"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-bladex-700-5u-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -7026,19 +7256,22 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "flexible",
   "level": "pro",
-  "weights": "",
-  "weight": "",
+  "weights": "6U",
+  "weight": 73,
   "grips": "G6",
-  "tension": null,
+  "tension": [
+   null,
+   31
+  ],
   "price": 4666,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Military Grade Carbon Fiber",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/li-ning-bladex-73-light-300x300.jpg",
   "source": "https://chobbad.com/racket/lining-bladex-73-light/",
@@ -7047,11 +7280,19 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-bladex-73-light-un-strung-badminton-racket-6u-blue"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "tension",
+   "weight"
+  ]
  },
  {
   "id": "li-ning-bladex-800",
@@ -7077,7 +7318,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "Turbo Charging",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-bladex-800-169x300.webp",
   "source": "https://chobbad.com/racket/lining-bladex-800/",
@@ -7094,6 +7335,18 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/bladex-800-3u"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-bladex-800-un-strung-badminton-racket-4u-black-red-aypr266-1"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/li-ning-bladex-800-aypt331-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-bladex-800-3u-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -7146,6 +7399,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/bladex-800-power-5u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-bladex-800-power-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -7202,6 +7459,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/bladex-800-speed-5u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-bladex-800-speed-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -7284,11 +7545,11 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "TB Nano · Turbo Charging · Carbon Fiber",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-bladex-900-169x300.webp",
   "source": "https://chobbad.com/racket/lining-bladex-900/",
@@ -7305,6 +7566,14 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/bladex-900-sun-max-set-3u"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-bladex-900-un-strung-badminton-racket"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/lining-bladex-900-4u-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -7323,17 +7592,20 @@ window.RACKETS = [
   "level": "pro",
   "weights": "3U, 4U",
   "weight": 84,
-  "grips": "",
-  "tension": null,
+  "grips": "G6",
+  "tension": [
+   null,
+   31
+  ],
   "price": 7200,
-  "frame": "",
-  "shaft": "",
+  "frame": "Military Grade Carbon Fiber",
+  "shaft": "Military Grade Carbon Fiber",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
-  "tech": "",
-  "players": "",
-  "madeIn": "",
+  "tech": "1. Head-light balance for speed",
+  "players": "Mathias Christiansen",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/li-ning-bladex-900-moon-max-300x300.jpg",
   "source": "https://chobbad.com/racket/lining-bladex-900-moon-max/",
@@ -7342,11 +7614,25 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-bladex-900-moon-max-un-strung-badminton-racket-4u-blue-black-aypt027-1"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/li-ning-bladex-900-moon-max-aypt027"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/lining-bladex-900-moon-max-set-4u-badminton-racket"
+   }
+  ],
   "priceNote": "แปลงจาก £159.99 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://centralsports.co.uk/products/li-ning-bladex-900-moon-max",
   "note": "",
   "est": [
+   "tension",
    "price"
   ]
  },
@@ -7361,17 +7647,20 @@ window.RACKETS = [
   "level": "pro",
   "weights": "3U, 4U",
   "weight": 84,
-  "grips": "",
-  "tension": null,
+  "grips": "G5",
+  "tension": [
+   null,
+   31
+  ],
   "price": 7200,
-  "frame": "",
-  "shaft": "",
+  "frame": "Military Grade Carbon Fiber",
+  "shaft": "Military Grade Carbon Fiber",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
-  "tech": "",
-  "players": "",
-  "madeIn": "",
+  "tech": "Head-Light Balance – Maximum Speed & Maneuverability",
+  "players": "🏆 Used by",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/li-ning-bladex-900-sun-max-300x300.jpg",
   "source": "https://chobbad.com/racket/lining-bladex-900-sun-max/",
@@ -7380,11 +7669,21 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-bladex-900-sun-max-un-strung-badminton-racket-3u-black-gold-orange-aypt021-1"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/li-ning-bladex-900-sun-max-aypt323"
+   }
+  ],
   "priceNote": "แปลงจาก £159.99 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonhq.co.uk/products/li-ning-bladex-900-sun-max-4u-badminton-racket-rose-gold",
   "note": "",
   "est": [
+   "tension",
    "price"
   ]
  },
@@ -7469,6 +7768,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/bladex-sonar-4u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-bladex-sonar-3u-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -7517,6 +7820,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/bladex-spiral-5"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-bladex-spiral-5u-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -7852,6 +8159,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/halbertec-5000-3u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-halbertec-5000-4u-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -7902,6 +8213,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/halbertec-6000-4u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-halbertec-6000-badminton-racket-4u"
    }
   ],
   "priceNote": "",
@@ -7918,7 +8233,7 @@ window.RACKETS = [
   "year": 2024,
   "style": "control",
   "balance": "even",
-  "flex": "medium",
+  "flex": "stiff",
   "level": "pro",
   "weights": "4U",
   "weight": 84,
@@ -7931,11 +8246,11 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "Turbo Charging · Carbon Fiber",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-halbertec-7000-169x300.webp",
   "source": "https://chobbad.com/racket/lining-halbertec-7000/",
@@ -7952,6 +8267,14 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/halbertec-7000-4u-g6"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-halbertec-7000-unstrung-badminton-racket-aypu013"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/lining-halbertec-7000-3u-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -7977,7 +8300,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "price": "",
+  "price": 6720,
   "frame": "Carbon Fibre (M46X + ULTRA)",
   "shaft": "ULTRA High-Elastic Carbon + High-Density Shock Absorption",
   "joint": "",
@@ -7994,11 +8317,18 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-halbertec-7000-ii-unstrung-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 278.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/li-ning-halbertec-7000-ii-unstrung-badminton-racket",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "li-ning-halbertec-8000",
@@ -8020,11 +8350,11 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "Turbo Charging",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "BG (คุม), BG Exbolt 63 (พลัง)",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-halbertec-8000-169x300.webp",
   "source": "https://chobbad.com/racket/lining-halbertec-8000/",
@@ -8049,6 +8379,14 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/halbertec-8000-vip-set"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-halbertec-8000-unstrung-badminton-racket-yumo-pro-shop"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-halbertec-8000-3u-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -8082,7 +8420,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "Turbo Charging",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "BG (คุม), BG Exbolt 65 (พลัง)",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/li-ning-halbertec-9000-300x300.jpg",
   "source": "https://chobbad.com/racket/rk-lining-halbertec-9000/",
@@ -8103,6 +8441,18 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/halbertec-9000-3u"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-halbertec-9000-un-strung-badminton-racket"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/li-ning-halbertec-9000-badminton-racket-copy"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-halbertec-9000-badminton-racket-3u"
    }
   ],
   "priceNote": "",
@@ -8132,11 +8482,11 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Ultra High Modulus Carbon Fiber + High-density Dampening Material + Polyimide Fiber",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "Turbo Charging",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "BG (คุม), BG Exbolt 65 (พลัง)",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-halbertec-9000-power-169x300.webp",
   "source": "https://chobbad.com/racket/lining-halbertec-9000-power/",
@@ -8157,6 +8507,14 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/halbertec-9000-power-g6-4u"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-halbertec-9000-power-un-strung-badminton-racket"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-halbertec-9000-power-badminton-racket-4u-g6"
    }
   ],
   "priceNote": "",
@@ -8201,6 +8559,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/halbertec-mage-4u-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-halbertec-mage-badminton-racket-5u"
    }
   ],
   "priceNote": "แปลงจาก ₹6,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -8257,6 +8619,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/halbertec-motor-3u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-halbertec-motor-3u-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -8329,7 +8695,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "medium",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 83,
   "grips": "G6",
   "tension": [
@@ -8361,6 +8727,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/super-series-ss-100"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-super-series-ss-100-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -8416,6 +8786,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/tectonic-1s"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-tectonic-1s-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -8496,7 +8870,7 @@ window.RACKETS = [
   "joint": "",
   "length": "",
   "pattern": "",
-  "tech": "",
+  "tech": "Li-Ning takes up racquet production to a new level & reduces the chances of imperfections.",
   "players": "",
   "madeIn": "",
   "recString": "",
@@ -8515,6 +8889,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/tectonic-7"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-tectonic-7-badminton-racket-unstrung-white-gold"
    }
   ],
   "priceNote": "แปลงจาก S$259.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -8566,6 +8944,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/tectonic-9-vip-set"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-tectonic-9-badminton-racket-4u"
    }
   ],
   "priceNote": "",
@@ -8647,11 +9029,11 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "Turbo Charging",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-windstorm-72-169x300.webp",
   "source": "https://chobbad.com/racket/lining-windstorm-72/",
@@ -8672,6 +9054,14 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/windstorm-72"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-extra-skill-windstorm-72-unstrung-badminton-racket-navy-aypq124-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-windstorm-72-s-badminton-racket-dark-grey-gold-blue"
    }
   ],
   "priceNote": "",
@@ -8724,6 +9114,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/windstorm-72-power"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-windstorm-72-power-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -8776,6 +9170,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/windstorm-72-speed"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-windstorm-72-speed-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -8828,6 +9226,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/windstorm-79-h"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-windstorm-79-h-badminton-racket-black"
    }
   ],
   "priceNote": "",
@@ -8855,7 +9257,7 @@ window.RACKETS = [
   "frame": "Carbon Graphite",
   "shaft": "Carbon Graphite",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "Turbo Charging",
   "players": "",
@@ -8880,6 +9282,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/windstorm-79-s"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-windstorm-79s-badminton-racket-white-aypr136-1"
    }
   ],
   "priceNote": "",
@@ -9968,11 +10374,11 @@ window.RACKETS = [
   ],
   "price": 6040,
   "frame": "Nhật Bản HMG T46",
-  "shaft": "",
+  "shaft": "Slim Shaft reduces drag and enables the racquet to be highly responsive. The thickness of the shaft reduces overall racquet weight and thus creates a high-speed smash with ease.",
   "joint": "",
   "length": "675 mm",
   "pattern": "",
-  "tech": "",
+  "tech": "Revolutionary Titanium T-Joint: A precision-tooled Titanium barrel connecting the frame to the shaft is embedded with carbon particles to reduce vibration and strengthen the fusing of the two. This construction reduces torque from both frame & shaft as well as the lateral twisting of the frame in off-centre shots for a better transfer of power and control.",
   "players": "",
   "madeIn": "Taiwan",
   "recString": "",
@@ -9987,6 +10393,10 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/mizuno-fortius-50-spirit-2024-badminton-racket-unstrung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/mizuno-fortius-50-spirit-badminton-racket"
    }
   ],
   "priceNote": "แปลงจาก S$229.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -9995,8 +10405,7 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
-   "weight"
+   "level"
   ]
  },
  {
@@ -10794,14 +11203,14 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
-  "weight": "",
+  "weights": "6U",
+  "weight": 73,
   "grips": "",
   "tension": [
    null,
    30
   ],
-  "price": "",
+  "price": 2800,
   "frame": "Japan HHMG T40",
   "shaft": "",
   "joint": "",
@@ -10818,13 +11227,20 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/mizuno-zephyr-zl-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹7,890.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/mizuno-zephyr-zl-badminton-racket",
   "note": "",
   "est": [
    "style",
-   "level"
+   "price",
+   "level",
+   "weight"
   ]
  },
  {
@@ -14054,7 +14470,7 @@ window.RACKETS = [
   "year": "",
   "style": "speed",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "intermediate",
   "weights": "4U",
   "weight": 82,
@@ -14090,6 +14506,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "flex",
    "level"
   ]
  },
@@ -14455,7 +14872,7 @@ window.RACKETS = [
   "year": "",
   "style": "control",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "beginner",
   "weights": "4U",
   "weight": 82,
@@ -14491,6 +14908,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "flex",
    "level"
   ]
  },
@@ -15050,7 +15468,7 @@ window.RACKETS = [
   "year": "",
   "style": "control",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "beginner",
   "weights": "4U",
   "weight": 82,
@@ -15085,7 +15503,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "victor-auraspeed-100x",
@@ -15132,6 +15552,18 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/victor-auraspeed-100x-b-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-100x-unstrung-badminton-racket-deep-sea-blue-ars-100x-b"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-auraspeed-100x-b-unstrung-blue"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-auraspeed-100x-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -15174,7 +15606,16 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-100x-td-unstrung-badminton-racket-black-orange-ars-100x-td-co"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-auraspeed-100x-td-co-unstrung"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -15231,6 +15672,22 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-hsbc-bwf-world-tour-finals-2024-auraspeed-100x-ultra-badminton-racket-unstrung"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-auraspeed-100x-ultra-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-100x-ultra-unstrung-badminton-racket"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-auraspeed-100x-ultra-g-unstrung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-auraspeed-100x-ultra-enhanced-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -15341,7 +15798,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "stiff",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 90,
   "grips": "G6",
   "tension": [
@@ -15356,7 +15813,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-1jr-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-1jr/",
@@ -15369,6 +15826,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/auraspeed-1jr-m"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-1jr-strung-badminton-racket-ars-1jr"
    }
   ],
   "priceNote": "",
@@ -15502,6 +15963,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/auraspeed-3200-r"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-auraspeed-3200-badminton-racket-black"
    }
   ],
   "priceNote": "",
@@ -15576,11 +16041,11 @@ window.RACKETS = [
   "frame": "High Resilience Graphite + HARD CORED TECHNOLOGY + Nano Resin + Fiber Reinforced System",
   "shaft": "High Resilience Graphite + Nano Resin + 6.8 SHAFT",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "6.8 SHAFT",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-33h-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-33h/",
@@ -15593,6 +16058,18 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/auraspeed-33h-c"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-auraspeed-33h-badminton-racquet-used"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-33h-c-unstrung-badminton-racket-moonlessnight"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-auraspeed-33-h-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -15848,7 +16325,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "6.8 SHAFT",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-9-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-9/",
@@ -15861,6 +16338,14 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/auraspeed-9-t"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-9-strung-badminton-racket-ars-9"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-auraspeed-9-badminton-racket-pastel-green"
    }
   ],
   "priceNote": "",
@@ -15875,7 +16360,7 @@ window.RACKETS = [
   "year": 2022,
   "style": "speed",
   "balance": "even",
-  "flex": "",
+  "flex": "medium",
   "level": "beginner",
   "weights": "5U, 4U",
   "weight": 83,
@@ -15905,6 +16390,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/auraspeed-9000-c"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-9000-pre-strung-badminton-racket-green-ars-9000g"
    }
   ],
   "priceNote": "",
@@ -16006,6 +16495,10 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-auraspeed-90ftd-badminton-racket-unstrung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-90f-td-unstrung-badminton-racket-blue"
    }
   ],
   "priceNote": "",
@@ -16058,6 +16551,14 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-auraspeed-90k-ii-b-badminton-racket"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-90k-ii-b-unstrung-badminton-racket"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-auraspeed-90k-ii-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -16089,7 +16590,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-auraspeed-90k-ii-td-300x225.webp",
   "source": "https://chobbad.com/racket/rk-victor-auraspeed-90k-ii-td/",
@@ -16102,6 +16603,14 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/auraspeed-90k-ii-td"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-90k-ii-td-unstrung-badminton-racket-midnight-blue"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-aursapeed-90k-ii-td-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -16136,7 +16645,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "PYROFIL · NANO FORTIFY TR+ · HIGH RESILIENCE MODULUS GRAPHITE · 6.8 SHAFT",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-90k-metallic-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-90k-metallic/",
@@ -16153,6 +16662,18 @@ window.RACKETS = [
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/victor-auraspeed-90k-metallic-badminton-racket-1"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-90k-metallic-unstrung-badminton-racket-pale-turquoise"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-auraspeed-90k-metallic-unstrung-4u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-auraspeed-90k-metallic-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -16184,7 +16705,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "PYROFIL · HIGH RESILIENCE MODULUS GRAPHITE · 6.8 SHAFT",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-cyber-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-cyber/",
@@ -16201,6 +16722,10 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-auraspeed-cyber-badminton-racket-unstrung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-cyber-c-unstrung-badminton-racket-ars-cyber-c"
    }
   ],
   "priceNote": "",
@@ -16312,7 +16837,7 @@ window.RACKETS = [
   "name": "Auraspeed Fantome",
   "year": 2025,
   "style": "speed",
-  "balance": "head-light",
+  "balance": "head-heavy",
   "flex": "stiff",
   "level": "advanced",
   "weights": "4U, 3U",
@@ -16355,12 +16880,25 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/victor-auraspeed-fantome-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-auraspeed-fantome-used"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-auraspeed-fantome-j-unstrung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-auraspeed-fantome-j-badminton-racket"
    }
   ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
   "est": [
+   "balance",
    "level"
   ]
  },
@@ -16384,7 +16922,7 @@ window.RACKETS = [
   "frame": "High ResilienceModulus Graphite + NANO AEROGEL + PBO High Performance Fiber + HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite + PBO High Performance Fiber + PYROFIL + 6.6 SHAFT",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "Single-pass grommets reduce friction to help",
   "tech": "PYROFIL",
   "players": "",
@@ -16409,12 +16947,26 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/victor-auraspeed-fantome-f-huang-yaqiong-2-0-edition-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-x-huang-yaqiong-auraspeed-fantome-f-unstrung-badminton-racket-pearly-white-ars-fantome-f-hyq-a"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-x-2026-huang-ya-qiong-collection-2-0-auraspeed-fantome-f-hyq-a-unstrung-blue-white"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-auraspeed-fantome-f-ac-badminton-racket-4u"
    }
   ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "balance"
+  ]
  },
  {
   "id": "victor-auraspeed-hs-plus",
@@ -16440,7 +16992,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "FREE CORE · PYROFIL · HIGH RESILIENCE MODULUS GRAPHITE · 6.8 SHAFT",
   "players": "",
-  "madeIn": "",
+  "madeIn": "Taiwan",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-auraspeed-hs-plus-226x300.jpg",
   "source": "https://chobbad.com/racket/victor-auraspeed-hs-plus/",
@@ -16465,6 +17017,10 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-auraspeed-hs-plus-badminton-racket"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-hs-plus-unstrung-badminton-racket-dull-black"
    }
   ],
   "priceNote": "",
@@ -16528,20 +17084,20 @@ window.RACKETS = [
   "level": "advanced",
   "weights": "4U, 3U",
   "weight": 83,
-  "grips": "",
+  "grips": "G5",
   "tension": [
    null,
    28
   ],
   "price": 4400,
-  "frame": "",
-  "shaft": "",
+  "frame": "High ResilienceModulus Graphite+Nano Fortify SR+HARD CORED TECHNOLOGY",
+  "shaft": "High ResilienceModulus Graphite +PYROFIL+6.8SHAFT",
   "joint": "",
   "length": "675 mm",
   "pattern": "",
-  "tech": "",
+  "tech": "PYROFIL",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://www.badmintonplaza.com/images/ARS-HS-A.jpg",
   "source": "",
@@ -16550,7 +17106,16 @@ window.RACKETS = [
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3269",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-auraspeed-hypersonic-badminton-racquet"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-hypersonic-b-pre-strung-badminton-racket-ars-hs"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -16601,6 +17166,10 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-auraspeed-ju-c-badminton-racket-unstrung"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-auraspeed-ju-c-strung-4u"
    }
   ],
   "priceNote": "",
@@ -16634,7 +17203,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "PYROFIL · NANO FORTIFY TR+ · HIGH RESILIENCE MODULUS GRAPHITE",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-ljh-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-ljh/",
@@ -16655,6 +17224,14 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-auraspeed-li-junhui-ars-ljh-e-yellow-badminton-racket-limited-edition-unstrung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-ars-ljh-e-unstrung-badminton-racket-yellow"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-auraspeed-ljh-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -16699,6 +17276,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/auraspeed-lyc-b"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-ars-lyc-b-unstrung-badminton-racket-blue"
    }
   ],
   "priceNote": "",
@@ -16778,7 +17359,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "Sword",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-brave-sword-12-1-226x300.png",
   "source": "https://chobbad.com/racket/rk-victor-brave-sword-12/",
@@ -16795,6 +17376,18 @@ window.RACKETS = [
    {
     "shop": "nydhi.com",
     "url": "https://nydhi.com/products/brave-sword-12n-victor-badminton-rackets"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-brave-sword-12-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-brave-sword-12-new-badminton-racket"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-brave-sword-12-unstrung-blue-4u"
    }
   ],
   "priceNote": "",
@@ -16828,7 +17421,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://www.badmintonplaza.com/images/BRS-12-PRO-A.jpg",
   "source": "",
@@ -16841,6 +17434,14 @@ window.RACKETS = [
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/victor-bravesword-12-pro-badminton-racket"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-brave-sword-12-pro-unstrung-badminton-racket-blue-brs-12-pro"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-brave-sword-12-pro-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -16888,6 +17489,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/challenger-9500-pro-a"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-challenger-9500-pro-badminton-racket-cha-9500pro"
    }
   ],
   "priceNote": "แปลงจาก US$69.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -16968,7 +17573,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "6.8 SHAFT",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-drivex-1-169x300.webp",
   "source": "https://chobbad.com/racket/victor-drivex-1/",
@@ -16981,6 +17586,14 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/drivex-1-a"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-drivex-1a-badminton-racket-white-dx-1-a"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-drive-x-1-a-strung"
    }
   ],
   "priceNote": "",
@@ -17010,11 +17623,11 @@ window.RACKETS = [
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR＋ + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.6 SHAFT METALLIC CARBON SHAFT",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "PYROFIL · NANO FORTIFY TR · HIGH RESILIENCE MODULUS GRAPHITE",
   "players": "",
-  "madeIn": "",
+  "madeIn": "Taiwan",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-drivex-10-metallic-169x300.webp",
   "source": "https://chobbad.com/racket/victor-drivex-10-metallic/",
@@ -17027,6 +17640,22 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-drivex-10-metallic-badminton-racket"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-drivex-10-metallic-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-drivex-10metallic-b-unstrung-badminton-racket-limoges-blue"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-drivex-10-metallic-b-unstrung-midnight-blue"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-drivex-10-metallic-badminton-racket-4u"
    }
   ],
   "priceNote": "",
@@ -17087,6 +17716,18 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/new-2026-victor-drivex-12-zswing-2-0-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-drivex-12-zsw-2-0-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-x-zswing-2-0-drivex-12-unstrung-badminton-racket-white-violet-tulip-dx-12-zsw2-aj"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-x-2026-zswing-collection-2-0-drivex-12-aj-unstrung"
    }
   ],
   "priceNote": "",
@@ -17182,6 +17823,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/drivex-6sp-w"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-drivex-6-sp-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -17213,7 +17858,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "HIGH RESILIENCE MODULUS GRAPHITE · 6.8 SHAFT",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-victor-drivex-7sp-169x300.webp",
   "source": "https://chobbad.com/racket/victor-drivex-7sp/",
@@ -17226,6 +17871,14 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/drivex-7sp-v"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-drivex-7sp-strung-badminton-racket"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-drivex-7-sp-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -17344,7 +17997,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "PYROFIL · HIGH RESILIENCE MODULUS GRAPHITE",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-drivex-metallic-169x300.webp",
   "source": "https://chobbad.com/racket/victor-drivex-metallic/",
@@ -17357,6 +18010,14 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/drivex-metallic-c"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-drivex-metallic-c-unstrung-badminton-racket-starshine-black"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-x-marvel-iron-man-drivex-metallic-limited-edition-gift-box-set-iron-red"
    }
   ],
   "priceNote": "",
@@ -17404,6 +18065,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/drivex-phecda-a"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-drivex-phecda-a-unstrung"
    }
   ],
   "priceNote": "",
@@ -17479,7 +18144,7 @@ window.RACKETS = [
   "pattern": "The racket has a high-quality grommet system, which helps to protect the strings and increase the durability of the racket. The grommets are made of a durable material that can withstand the tension of the strings and the impact of the shuttlecock.",
   "tech": "AERO-SWORD · FREE CORE · PYROFIL · NANO FORTIFY TR+ · HIGH RESILIENCE MODULUS GRAPHITE",
   "players": "",
-  "madeIn": "",
+  "madeIn": "Taiwan",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-jetspeed-s-12-ii-169x300.webp",
   "source": "https://chobbad.com/racket/victor-jetspeed-s-12-ii/",
@@ -17500,6 +18165,14 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-jetspeed-js12ii-badminton-racket-unstrung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-jetspeed-s-12-ii-js-12ii-r-unstrung-badminton-racket-blue"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-jetspeed-s12-ii-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -17546,6 +18219,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/jetspeed-s-12td-f"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-jetspeed-s-12td-f-badminton-racket-blue-js-12td-f"
    }
   ],
   "priceNote": "",
@@ -17562,7 +18239,7 @@ window.RACKETS = [
   "year": 2023,
   "style": "speed",
   "balance": "even",
-  "flex": "",
+  "flex": "flexible",
   "level": "beginner",
   "weights": "4U",
   "weight": 83,
@@ -17592,6 +18269,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/jetspeed-s-800ht-a"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-jetspeed-s-800ht-c-strung-badminton-racket-black-js-800ht-c"
    }
   ],
   "priceNote": "",
@@ -17646,6 +18327,10 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-jetspeed-t1-r-badminton-racket-unstrung-js-t1-r"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-jetspeed-t1-strung-badminton-racket-white-js-t1-h"
    }
   ],
   "priceNote": "",
@@ -17693,6 +18378,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/jetspeed-t1pro-c"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-jetspeed-t1-pro-unstrung-badminton-racket-moonless-night"
    }
   ],
   "priceNote": "",
@@ -17773,7 +18462,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://www.badmintonplaza.com/images/MJOLNIR-A.jpg",
   "source": "",
@@ -17786,6 +18475,14 @@ window.RACKETS = [
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/thruster-k-mjolnir-metallic-m-badminton-racket"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-mjolnir-metallic-limited-racket"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-x-marvel-mjolnir-metallic-limited-unstrung"
    }
   ],
   "priceNote": "",
@@ -17922,6 +18619,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/thruster-220h-ii-a"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-k-220h-ii-badminton-racket-blue"
    }
   ],
   "priceNote": "",
@@ -17938,7 +18639,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "advanced",
-  "weights": "",
+  "weights": "4U, 5U, 7U",
   "weight": 66,
   "grips": "G6",
   "tension": [
@@ -17953,7 +18654,7 @@ window.RACKETS = [
   "pattern": "The single-pass grommet hole construction creates less friction between strings reducing tension loss and extends string life",
   "tech": "",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "Aerobite (คุม), Exbolt 65 (พลัง)",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-thruster-66-169x300.webp",
   "source": "https://chobbad.com/racket/victor-thruster-66/",
@@ -17974,6 +18675,14 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/new-2026-victor-thruster-k-66-aj-white-66-grams-badminton-racquet"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-k-66-ultra-light-66-grams-tk-66-q-yellow-pink"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-k-66-superlight-badminton-racket-rose-pink"
    }
   ],
   "priceNote": "",
@@ -18077,6 +18786,18 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/new-2026-victor-thruster-f-c-ultra-cx-black-gold-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-f-c-ultra-cx-unstrung-racket-black-gold"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-f-c-ultra-cx-unstrung-black-gold"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-f-c-ultra-badminton-racket-5u-fortuna-gold"
    }
   ],
   "priceNote": "",
@@ -18252,7 +18973,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "Power Box",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-thruster-hmr-light-169x300.webp",
   "source": "https://chobbad.com/racket/victor-thruster-hmr-light/",
@@ -18269,6 +18990,18 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-thruster-k-hammer-light-jelly-badminton-racket-tk-hmrl-unstrung"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-thruster-k-hmr-light-jelly-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-2019-thruster-k-hmr-light-badminton-racket"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-hmr-light-badminton-racket-green"
    }
   ],
   "priceNote": "",
@@ -18317,6 +19050,14 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/victor-thruster-hmr-pro-u-turquoise-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-k-hmr-pro-strung-badminton-racket-tk-hmr-pro"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-hmr-pro-badminton-racket-gold"
    }
   ],
   "priceNote": "",
@@ -18361,6 +19102,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/thruster-hammer-u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-hammer-m-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -18390,11 +19135,11 @@ window.RACKETS = [
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 6.8 SHAFT",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "6.8 SHAFT",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-thruster-hammer-light-extra-169x300.webp",
   "source": "https://chobbad.com/racket/victor-thruster-hammer-light-extra/",
@@ -18407,6 +19152,18 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/thruster-hammer-light-extra-a"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-thruster-k-hmr-light-extra-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-k-hammer-light-extra-strung-badminton-racket-tk-hmrl-ex"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-hammer-light-extra-b-strung-navy-blue"
    }
   ],
   "priceNote": "",
@@ -18423,7 +19180,7 @@ window.RACKETS = [
   "year": 2021,
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "stiff",
   "level": "intermediate",
   "weights": "4U",
   "weight": 83,
@@ -18457,12 +19214,26 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-thruster-k-hawk-badminton-racket-black-unstrung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/thruster-k-hawk-unstrung-badminton-racket-pearly-white"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-hawk-x-unstrung-gold-white"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-hawk-badminton-racket"
    }
   ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "victor-thruster-hawk-pro",
@@ -18471,7 +19242,7 @@ window.RACKETS = [
   "year": 2025,
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "stiff",
   "level": "intermediate",
   "weights": "4U",
   "weight": 83,
@@ -18484,7 +19255,7 @@ window.RACKETS = [
   "frame": "High ResilienceModulus Graphite + PYROFIL + HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite + PYROFIL + 6.6 SHAFT",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "FREE CORE · PYROFIL",
   "players": "",
@@ -18501,13 +19272,21 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/thruster-hawk-pro-s"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-thruster-k-hawk-pro-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/thruster-k-hawk-pro-unstrung-badminton-racket-purple-tk-hawk-pro-j"
    }
   ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance",
+   "flex",
    "level"
   ]
  },
@@ -18535,7 +19314,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "Power Box",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://www.badmintonplaza.com/images/TK-15L-U-A.jpg",
   "source": "",
@@ -18548,6 +19327,10 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-thruster-k-15l-badminton-racket-tk-15l-unstrung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-k-15l-pre-strung-badminton-racquet-tk-15l-u"
    }
   ],
   "priceNote": "",
@@ -18629,7 +19412,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-thruster-k-816cl-169x300.webp",
   "source": "https://chobbad.com/racket/victor-thruster-k-816cl/",
@@ -18642,6 +19425,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/thruster-k-816cl"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-k-816cl-strung-badminton-racket-green-tk-816cl-r"
    }
   ],
   "priceNote": "",
@@ -18753,20 +19540,20 @@ window.RACKETS = [
   "level": "advanced",
   "weights": "4U",
   "weight": 83,
-  "grips": "",
+  "grips": "G5",
   "tension": [
    20,
    32
   ],
   "price": 5700,
   "frame": "HRM Graphite / PYROFIL / Hard Cored Technology",
-  "shaft": "",
+  "shaft": "High Resilient Modulus Graphite + PYROFIL + 6.5 SHAFT",
   "joint": "",
   "length": "675 mm",
   "pattern": "",
   "tech": "",
   "players": "",
-  "madeIn": "",
+  "madeIn": "Taiwan",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-thruster-k-falcon-300x225.jpg",
   "source": "https://chobbad.com/racket/rk-victor-thruster-k-falcon/",
@@ -18775,7 +19562,16 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-f-enhanced-edition-racket-black-yumo-pro-shop"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-k-falcon-claw-ultra-x-unstrung-5u"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -18867,6 +19663,14 @@ window.RACKETS = [
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/thruster-onigiri-pro-badminton-racket"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-k-onigiri-pro-badminton-racket-tk-onigiri-pro-u"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-k-onigiri-pro-u-unstrung"
    }
   ],
   "priceNote": "",
@@ -18923,6 +19727,14 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-thruster-k-r-badminton-racket-unstrung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-k-r-unstrung-badminton-racket-white-tk-r"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-k-r-unstrung-white-4u"
    }
   ],
   "priceNote": "",
@@ -18967,6 +19779,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/thruster-merak-b"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-merak-b-unstrung"
    }
   ],
   "priceNote": "",
@@ -19017,6 +19833,14 @@ window.RACKETS = [
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/victor-thruster-tk-raptor-c-badminton-racket"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-thruster-k-raptor-demo-rental"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-raptor-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -19071,6 +19895,22 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-thruster-ryuga-badminton-racket-unstrung"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-thruster-k-ryuga-junior-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-ryuga-unstrung-badminton-racket-flame-red-yumo-pro-shop"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-ryuga-d-unstrung-red-4u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-ryuga-chosen-one-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -19122,6 +19962,14 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-thruster-ryuga-cls-badminton-racket-unstrung-tk-ryuga-cls"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-ryuga-cls-i-strung-purple-white"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-ryuga-cls-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -19153,9 +20001,9 @@ window.RACKETS = [
   "joint": "",
   "length": "675 mm",
   "pattern": "",
-  "tech": "",
+  "tech": "Inspired by military helicopter, multi-layered structure made by carbon fiber and composites, minimize material size, reinforce handling feel and performance at a critical standard.",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://www.badmintonplaza.com/images/TK-RYUGA-II-J-A.jpg",
   "source": "",
@@ -19168,6 +20016,14 @@ window.RACKETS = [
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/thruster-tk-ryuga-ii-badminton-racket"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-ryuga-ii-unstrung-badminton-racket-purple-black-tk-ryuga-ii-j"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-ryuga-ii-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -19203,7 +20059,7 @@ window.RACKETS = [
   "pattern": "Separate passages reduce friction between strings.",
   "tech": "Power Box",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-thruster-ryuga-ii-pro-300x225.webp",
   "source": "https://chobbad.com/racket/victor-thruster-ryuga-ii-pro/",
@@ -19228,6 +20084,18 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-thruster-ryuga-ii-pro-badminton-racket-unstrung-free-string"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-ryuga-ii-pro-cps-unstrung-badminton-racket-grape"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-ryuga-ii-pro-cps-unstrung-purple"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-ryuga-ii-pro-badminton-racket-capsule-collection-grape-purple"
    }
   ],
   "priceNote": "",
@@ -19272,6 +20140,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/thruster-ryuga-ii-td-j"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-ryuga-ii-td-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -19290,7 +20162,7 @@ window.RACKETS = [
   "level": "pro",
   "weights": "5U, 4U",
   "weight": 82,
-  "grips": "G6",
+  "grips": "G5",
   "tension": [
    null,
    32
@@ -19299,7 +20171,7 @@ window.RACKETS = [
   "frame": "High Resilience Modulus Graphite + Hard Cored Technology + 46T Pyrofil + Nano Fortify TR+ + Metallic Carbon Fiber + Nano Aerogel",
   "shaft": "High Resilience Modulus Graphite + 46T Pyrofil + Metallic Carbon Fiber + 6.5 Shaft",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -19320,6 +20192,18 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/new-2027-victor-thruster-ryuga-3-78-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-thruster-k-ryuga-iii"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-ryuga-iii-unstrung-badminton-racket-armor-black-tk-ryuga-iii-cq"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-ryuga-iii-cq-unstrung-black-red"
    }
   ],
   "priceNote": "แปลงจาก US$230.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -19367,6 +20251,10 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/thruster-ryuga-jr-j"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-ryuga-junior-strung-badminton-racket-purple-tk-ryuga-jr-j"
    }
   ],
   "priceNote": "",
@@ -19429,6 +20317,22 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/new-2023-victor-thruster-ryuga-metallic-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-thruster-k-ryuga-metallic-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-ryuga-metallic-cps-unstrung-badminton-racket-flamingo"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-ryuga-metallic-c-unstrung-black-red-3u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-ryuga-metallic-badminton-racket-capsule-collection-flamingo-pink"
    }
   ],
   "priceNote": "",
@@ -19489,6 +20393,18 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/victor-thruster-k-ryuga-muse-78-grams-badminton-racquet"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-ryuga-muse-unstrung-badminton-racket-f"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-ryuga-muse-f-unstrung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-ryuga-muse-i-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -19539,6 +20455,18 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/new-2026-victor-thruster-ryuga-muse-ii-nightshade-purple-78-grams-badminton-racquet"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-tk-ryuga-muse-ii-tj-unstrung-badminton-racket"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-ryuga-muse-ii-tj-unstrung-purple-pink"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/victor-thruster-ryuga-muse-ii-tj-badminton-racket-450142"
    }
   ],
   "priceNote": "แปลงจาก A$269.00 ที่ 1 AUD = 23.747 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -19574,7 +20502,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "HIGH RESILIENCE MODULUS GRAPHITE · 6.8 SHAFT",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-thruster-ryuga-td-169x300.webp",
   "source": "https://chobbad.com/racket/victor-thruster-ryuga-td/",
@@ -19587,6 +20515,18 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/thruster-ryuga-td-c"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-k-ryuga-td-d-unstrung-badminton-racket-flame-red"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-ryuga-td-d-orange-white-unstrung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-ryuga-td-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -19759,7 +20699,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "PYROFIL",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-thruster-t500-169x300.webp",
   "source": "https://chobbad.com/racket/victor-thruster-t500/",
@@ -19776,6 +20716,14 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-thruster-k-t500-badminton-racket-unstrung-tk-t500"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-k-500-strung-badminton-racket-black-tk-t500-c"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-t500-c-unstrung"
    }
   ],
   "priceNote": "",
@@ -19809,7 +20757,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "POWER BOX",
   "players": "",
-  "madeIn": "",
+  "madeIn": "Taiwan",
   "recString": "",
   "img": "https://www.badmintonplaza.com/images/TK-TTY-A-A.jpg",
   "source": "",
@@ -19826,6 +20774,14 @@ window.RACKETS = [
    {
     "shop": "nydhi.com",
     "url": "https://nydhi.com/products/victor-thruster-tty-a-badminton-racket"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-thruster-k-tty-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-tty-a-badminton-unstrung-racket-white-tk-tty-a"
    }
   ],
   "priceNote": "",
@@ -19860,7 +20816,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "",
   "players": "",
-  "madeIn": "",
+  "madeIn": "Taiwan",
   "recString": "",
   "img": "https://www.badmintonplaza.com/images/TK-TTY-ULTIMA-A-A.jpg",
   "source": "",
@@ -19877,6 +20833,14 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-thruster-tty-ultima-badminton-racket-unstrung-free-string"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-thruster-tty-a-ultima-badminton-unstrung-racket-pearly-white"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-tty-ultima-unstrung-white-4u"
    }
   ],
   "priceNote": "",
@@ -19884,7 +20848,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -19895,8 +20858,8 @@ window.RACKETS = [
   "year": 2025,
   "style": "",
   "balance": "",
-  "flex": "",
-  "level": "",
+  "flex": "stiff",
+  "level": "intermediate",
   "weights": "",
   "weight": "",
   "grips": "G5",
@@ -19904,15 +20867,15 @@ window.RACKETS = [
    null,
    24
   ],
-  "price": "",
+  "price": 2170,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.5 SHAFT",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
   "tech": "",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-wrist-enhancer-140-169x300.webp",
   "source": "https://chobbad.com/racket/victor-wrist-enhancer-140/",
@@ -19925,12 +20888,23 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/wrist-enhancer-140-m"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-wrist-enhancer"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-wrist-enhancer-140-strung"
    }
   ],
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก CAD 89.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-wrist-enhancer",
   "note": "",
-  "est": []
+  "est": [
+   "price",
+   "level"
+  ]
  },
  {
   "id": "yonex-arcsaber-11-play",
@@ -19981,6 +20955,26 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-arcsaber-11-play-lightweight-beginner-friendly-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-arcsaber-11-play-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-2022-arcsaber-11-play-strung-badminton-racket-red"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-arc-saber-11-play-grayish-pearl"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-arcsaber-11-play-badminton-racket"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-arcsaber-11-play-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -20037,6 +21031,26 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-arcsaber-11-pro-88-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-arcsaber-11-pro-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-2022-arcsaber-11-pro-badminton-racket-red"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-arc-saber-11-pro-grayish-pearl"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-arcsaber-11-pro-free-restring-upgrades-unstrung-copy"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-arcsaber-11-pro-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -20089,6 +21103,22 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-arcsaber-11-tour-badminton-racket-unstrung"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-arcsaber-11-tour-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-2022-arcsaber-11-tour-badminton-racket-red"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-arc-saber-11-tour-strung-grayish-pearl"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-arcsaber-11-tour-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -20137,6 +21167,10 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-arcsaber-2-ability-badminton-racket-black-pink-unstrung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-arcsaber-2-ability-pre-strung-badminton-racket"
    }
   ],
   "priceNote": "แปลงจาก US$62.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -20187,6 +21221,14 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-arcsaber-2-clear-badminton-racket-black-blue-unstrung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-arcsaber-2-clear-pre-strung-badminton-racket"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-arcsaber-2-clear-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -20235,6 +21277,10 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-arcsaber-2-feel-badminton-racket-black-green-unstrung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-arcsaber-2-feel-pre-strung-badminton-racket"
    }
   ],
   "priceNote": "แปลงจาก RM199.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -20290,6 +21336,26 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-arcsaber-7-play-light-beige-unstrung"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-arcsaber-7-play-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-arcsaber-7-play-strung-badminton-racket-light-beige"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-arcsaber-7-play-strung-light-beige-4u"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-arcsaber-7-play-2026-badminton-racket"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-arcsaber-7-play-badminton-racquet"
    }
   ],
   "priceNote": "",
@@ -20350,6 +21416,30 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/new-2022-yonex-arcsaber-7-pro-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-arcsaber-7-pro-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-arcsaber-7-pro-unstrung-badminton-racket-greyish-yellow"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-arc-saber-7-pro-grey-yellow"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-arcsaber-pro"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-arcsaber-7-pro-badminton-racquet"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-arcsaber-7-pro-badminton-racket-full-graphite-best-control-racket-probadmintonin"
    }
   ],
   "priceNote": "",
@@ -20394,6 +21484,26 @@ window.RACKETS = [
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/yonex-arcsaber-7-tour-badminton-racket"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-arcsaber-7-tour-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-arcsaber-7-tour-unstrung-badminton-racket-light-beige"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-arcsaber-7-tour-light-beige-4u"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-arcsaber-7-tour"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-arcsaber-7-tour-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -20524,6 +21634,18 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-astrox-01-ability-white-pink-badminton-racquet"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-2022-astrox-01-ability-pre-strung-badminton-racket-red"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-01-ability-badminton-racket"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/badminton-racket-kibi-sports-4"
    }
   ],
   "priceNote": "",
@@ -20572,6 +21694,18 @@ window.RACKETS = [
    {
     "shop": "nydhi.com",
     "url": "https://nydhi.com/products/astrox-01-clear-blue-yonex-badminton-racket-pre-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-2022-astrox-01-clear-pre-strung-badminton-racket-blue"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-01-clear-badminton-racket"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-graphite-astrox-01-clear-g44u-badminton-racquet-kibi-sports"
    }
   ],
   "priceNote": "",
@@ -20620,6 +21754,18 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-astrox-01-feel-badminton-racket-black-yellow-unstrung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-2022-astrox-01-feel-pre-strung-badminton-racket-lime"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-01-feel-badminton-racket"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-01-feel-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -20708,6 +21854,10 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-astrox-02-feel-badminton-racket-royal-blue-unstrung"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-02-clear-royal-blue-4u5"
    }
   ],
   "priceNote": "",
@@ -20752,6 +21902,10 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-astrox-02-feel-badminton-racket-turquoise-unstrung"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-02-feel-badminton-racket"
    }
   ],
   "priceNote": "แปลงจาก £52.00 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -20798,6 +21952,10 @@ window.RACKETS = [
    {
     "shop": "joybadminton.com",
     "url": "https://joybadminton.com/products/yonex-astrox-1-dg-blue-black"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-1-dg-badminton-racket"
    }
   ],
   "priceNote": "แปลงจาก ₹4,499.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -20856,6 +22014,30 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-astrox-100-va-game-83-grams-limited-edition-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-100-game-viktor-axelsen-greyish-beige-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-2021-astrox-100-game-prestrung-badminton-racket-kurenai"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-100-game-viktor-axelsen-strung-greyish-beige"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-100-game-4u-badminton-racket-kurenai"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-100-game-va-badminton-racket-viktor-axelsen-edition"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-astrox-100-game-badminton-racket-kibi-sports"
    }
   ],
   "priceNote": "",
@@ -20886,7 +22068,7 @@ window.RACKETS = [
   "length": "10 mm longer",
   "pattern": "22 X 21",
   "tech": "ISOMETRIC · Rotational Generator System · Namd · Energy Boost Cap PLUS · AERO+BOX Frame · Built-in T-Joint · Solid Feel Core · NANOMETRIC · Tungsten",
-  "players": "",
+  "players": "Viktor Axelsen",
   "madeIn": "Taiwan",
   "recString": "Control Players: AEROBITE BOOST Hard Hitters: BG66 FORCE",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-astrox-100-tour-169x300.webp",
@@ -20912,6 +22094,30 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-astrox-100-tour-va-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-100-tour-viktor-axelsen-olive-green-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-2021-astrox-100-tour-unstrung-badminton-racket-kurenai"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-100-tour-viktor-axelsen-olive-green"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-100-tour-va-unstrung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-100-tour-va-badminton-racket-viktor-axelsen-edition"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-astrox-100-tour-badminton-racket-kibi-sports"
    }
   ],
   "priceNote": "",
@@ -20964,6 +22170,10 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-astrox-100va-game-badminton-racket-unstrung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-x-viktor-axelsen-astrox-100va-game-unstrung-badminton-racket-limited-edition-greyish-beige"
    }
   ],
   "priceNote": "แปลงจาก US$189.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -21018,6 +22228,10 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-astrox-100va-tour-badminton-racket-unstrung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-x-viktor-axelsen-astrox-100va-tour-unstrung-badminton-racket-limited-edition-dark-olive"
    }
   ],
   "priceNote": "แปลงจาก US$220.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -21076,6 +22290,10 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-astrox-100zz-va-88-grams-limited-edition-badminton-racquet"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-x-viktor-axelsen-astrox-100va-zz-unstrung-badminton-racket-limited-edition-grayish-beige"
    }
   ],
   "priceNote": "แปลงจาก US$295.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -21136,6 +22354,30 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-astrox-100-zz-88-grams-2021-kurenai-colorway-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-100-zz-viktor-axelsen-greyish-beige-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-2021-astrox-100-zz-unstrung-badminton-racket-kurenai"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-100-zz-viktor-axelsen-frame-greyish-beige"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-100-zz-va-unstrung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-100-zz-unstrung-badminton-racket"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-astrox-100-zz-badminton-racket-kibi-sports"
    }
   ],
   "priceNote": "",
@@ -21164,7 +22406,7 @@ window.RACKETS = [
   "shaft": "HM Graphite, NANOMESH NEO",
   "joint": "Built-in T-Joint",
   "length": "10 mm longer",
-  "pattern": "",
+  "pattern": "High-Performance",
   "tech": "NANOMESH NEO",
   "players": "",
   "madeIn": "",
@@ -21180,6 +22422,26 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-astrox-22-rx-badminton-racket-black-gold-unstrung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-astrox-22-rx-strung-badminton-racket-black-gold"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-22-lt-strung-black-red"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-22-lt-black-red"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-22-rx-badminton-racket"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-astrox-22-lt-badminton-racket-kibi-sports"
    }
   ],
   "priceNote": "",
@@ -21224,6 +22486,10 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/copy-of-yonex-astrox-e13-badminton-racket-black-blue"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-3dg-hf-badminton-racket"
    }
   ],
   "priceNote": "แปลงจาก ₹4,199.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -21270,6 +22536,10 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-astrox-3-dg-st-badminton-racket"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-3dg-st-badminton-racket"
    }
   ],
   "priceNote": "แปลงจาก S$79.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -21312,7 +22582,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-7dg-black-blue-4ug5-badminton-racket.html",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-7-dg-badminton-racket"
+   }
+  ],
   "priceNote": "แปลงจาก US$159.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-7dg-black-blue-4ug5-badminton-racket.html",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
@@ -21361,6 +22636,18 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-astrox-70-83-grams-ladies-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-70-badminton-racquet"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-astrox-70-unstrung-badminton-racket-sax"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-70-unstrung-saxe-4u"
    }
   ],
   "priceNote": "",
@@ -21417,6 +22704,30 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-astrox-77-play-light-beige-unstrung"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-77-play-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-astrox-77-play-strung-badminton-racket-light-beige"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-77-play-strung-light-beige-4u"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-77-play-badminton-racket-high-orange-4u5"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-77-play-badminton-racket"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/badminton-racket-kibi-sports"
    }
   ],
   "priceNote": "",
@@ -21477,6 +22788,26 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-astrox-77-pro-88-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-77-pro-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-astrox-77-pro-unstrung-badminton-racket-high-orange"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-77-pro-3u"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-77-pro-badminton-racket-high-orange-4u5"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-77-pro-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -21525,6 +22856,30 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-astrox-77-tour-badminton-racket-high-orange"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-77-tour-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-astrox-77-tour-unstrung-badminton-racket-light-beige"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-77-tour-light-beige-4u"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-77-tour-badminton-racket-high-orange-4u5"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-77-tour-badminton-racket"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/astrox-77-tour-badminton-racket-kibi-sports"
    }
   ],
   "priceNote": "",
@@ -21581,6 +22936,22 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-astrox-88-play-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-88-play-3rd-gen-black-silver-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-astrox-88-play-strung-badminton-racket-black-silver"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-88-play-strung-black-silver"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-88-play-badminton-racket-3rd-gen"
    }
   ],
   "priceNote": "",
@@ -21637,6 +23008,22 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-astrox-88-d-game-badminton-racquet-attack"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-88d-game-3rd-gen-black-silver-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-astrox-88d-game-strung-badminton-racket-black-silver"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-88-d-game-strung-black-silver"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-88d-game-badminton-racket-3rd-gen-black-silver"
    }
   ],
   "priceNote": "",
@@ -21693,6 +23080,22 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/new-2024-yonex-astrox-88-d-pro-gen-3-88-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-88d-pro-3rd-gen-black-silver-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-astrox-88d-pro-unstrung-badminton-racket-black-silver"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-88-d-pro-unstrung-black-silver"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-88d-pro-badminton-racket-3rd-gen"
    }
   ],
   "priceNote": "",
@@ -21741,6 +23144,26 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-astrox-88d-tour-black-silver-unstrung"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-88d-tour-3rd-gen-black-silver-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-astrox-88d-tour-unstrung-badminton-racket-black-silver"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-88-d-tour-unstrung-black-silver"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-88d-tour-badminton-racket-3rd-gen-black-silver"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/astrox-88-d-tour-black-silver-badminton-racket-kibi-sports"
    }
   ],
   "priceNote": "",
@@ -21797,6 +23220,30 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-astrox-88-s-game-badminton-racquet-control"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-88s-game-3rd-gen-silver-black-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-astrox-88s-game-strung-badminton-racket-silver-black"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-88-s-game-strung-silver-black"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-88s-game-silver-black-4u5"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-88s-game-badminton-racket-3rd-gen-black-silver"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-astrox-88-s-game-badminton-racket-kibi-sports"
    }
   ],
   "priceNote": "",
@@ -21853,6 +23300,30 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/new-2024-yonex-astrox-88-s-pro-gen-3-88-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-88s-pro-3rd-gen-silver-black-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-astrox-88s-pro-unstrung-badminton-racket-black-silver"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-88-s-pro-unstrung-silver-black"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-88-s-pro-free-restring-upgrades-unstrung-3u4"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-88s-pro-badminton-racket-3rd-gen"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-astrox-88-s-pro-badminton-racket-kibi-sports"
    }
   ],
   "priceNote": "",
@@ -21905,6 +23376,30 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-astrox-88-s-tour-silver-black-unstrung"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-88s-tour-3rd-gen-silver-black-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-astrox-88s-tour-unstrung-badminton-racket-black-silver"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-88-s-tour-unstrung-silver-black"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-88s-tour-silver-black-4ug5-free-restring-strung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-88s-tour-badminton-racket-3rd-gen-black-silver"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-astrox-88-s-tour-badminton-racket-kibi-sports"
    }
   ],
   "priceNote": "",
@@ -21957,6 +23452,26 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-astrox-99-game-badminton-racket-black-green-unstrung"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-99-game-3rd-gen-dark-green-factory-strung-used"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-astrox-99-game-strung-badminton-racket-black-green"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-99-game-strung-dark-green"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-99-game-strung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-99-game-badminton-racket-3rd-gen"
    }
   ],
   "priceNote": "",
@@ -21983,7 +23498,7 @@ window.RACKETS = [
   "price": 3669,
   "frame": "Graphite",
   "shaft": "Graphite",
-  "joint": "",
+  "joint": "Built-in T-Joint",
   "length": "10 mm longer",
   "pattern": "22 X 21",
   "tech": "Rotational Generator System · Namd",
@@ -22017,6 +23532,30 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-astrox-99-play-3rd-gen-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-99-play-3rd-gen-dark-green-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-2021-astrox-99-play-strung-badminton-racket-white"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-99-play-strung-dark-green"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-99-play-strung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-99-play-badminton-racket-3rd-gen"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-astrox-99-play-badminton-racket-kibi-sports"
    }
   ],
   "priceNote": "",
@@ -22073,6 +23612,30 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-astrox-99-pro-3rd-gen-88-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-99-pro-white-tiger-used"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-astrox-99-pro-unstrung-badminton-racket-black-green"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-99-pro-unstrung-dark-green"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-99-pro-unstrung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-99-pro-badminton-racket-3rd-gen"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-astrox-99-pro-badminton-racket-kibi-sports"
    }
   ],
   "priceNote": "",
@@ -22125,6 +23688,30 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-astrox-99-tour-badminton-racket-white-tiger-unstrung"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-99-tour-3rd-gen-dark-green-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-astrox-99-tour-unstrung-badminton-racket-black-green"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-99-tour-unstrung-dark-green"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-99-tour-strung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-99-tour-badminton-racket-3rd-gen"
+   },
+   {
+    "shop": "shop.kibisports.com",
+    "url": "https://shop.kibisports.com/products/yonex-astrox-99-tour-badminton-racket-kibi-sports"
    }
   ],
   "priceNote": "",
@@ -22169,6 +23756,10 @@ window.RACKETS = [
    {
     "shop": "nydhi.com",
     "url": "https://nydhi.com/products/yonex-astrox-attack-9-badminton-racket-turquoise"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-attack-9-badminton-racket-black"
    }
   ],
   "priceNote": "",
@@ -22213,6 +23804,14 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-astrox-e13-badminton-racket-black-bright-red"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-astrox-e13-pre-strung-badminton-racket-black-red"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-e13-badminton-racket-strung-black-bright-red"
    }
   ],
   "priceNote": "",
@@ -22273,6 +23872,26 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-astrox-nextage-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-astrox-nextage-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-astrox-nextage-strung-badminton-racket-black-green"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-astrox-nextage-unstrung-grey-4u"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-astrox-nextage-badminton-racket-strung-black-green"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-astrox-nextage-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -22285,12 +23904,12 @@ window.RACKETS = [
   "brand": "Yonex",
   "name": "B 4000",
   "year": "",
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "medium",
   "level": "beginner",
   "weights": "",
-  "weight": "",
+  "weight": 95,
   "grips": "G4",
   "tension": [
    16,
@@ -22302,9 +23921,9 @@ window.RACKETS = [
   "joint": "",
   "length": "",
   "pattern": "",
-  "tech": "",
+  "tech": "Mid-weight design",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://www.yonex.com/media/catalog/product/a/l/all_b4000g_011-1__1.png",
   "source": "",
@@ -22317,12 +23936,25 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-b-4000-badminton-racket-strung-white-coral-orange"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-b4000-badminton-racket"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-b4000-strung-coral-orange"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-b4000-badminton-racket-mint"
    }
   ],
   "priceNote": "แปลงจาก S$22.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sportsshop.asia/products/yonex-b-4000-badminton-racket-strung-white-coral-orange",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
+   "style",
    "price"
   ]
  },
@@ -22359,7 +23991,16 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-b-7000-mdm-strung-badminton-racket-red"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-b7000mdm-badminton-racket-red"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -22409,6 +24050,10 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-duora-z-strike-badminton-racket-black-ice-blue"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-duora-z-strike-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -22534,12 +24179,25 @@ window.RACKETS = [
    {
     "shop": "nydhi.com",
     "url": "https://nydhi.com/products/yonex-isometric-tr0-training-pre-strung-badminton-racket-green"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-isometric-tr0-150g-green-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-2022-isometric-tr0-badminton-training-racket-strung-green"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-isometric-tr0-training-racquet-150g"
    }
   ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
   "est": [
+   "balance",
    "style"
   ]
  },
@@ -22548,8 +24206,8 @@ window.RACKETS = [
   "brand": "Yonex",
   "name": "Isometric TR1",
   "year": "",
-  "style": "",
-  "balance": "",
+  "style": "allround",
+  "balance": "even",
   "flex": "medium",
   "level": "advanced",
   "weights": "",
@@ -22576,11 +24234,26 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-isometric-tr1-118g-blue-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-isometric-tr1-badminton-training-racket-strung-blue"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-isometric-tr1-training-racquet-blue-118g"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "yonex-muscle-power-1",
@@ -22591,8 +24264,8 @@ window.RACKETS = [
   "balance": "even",
   "flex": "medium",
   "level": "beginner",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 83,
   "grips": "G4",
   "tension": [
    16,
@@ -22615,11 +24288,22 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-muscle-power-1-badminton-racket-strung"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-muscle-power-1"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "weight"
+  ]
  },
  {
   "id": "yonex-muscle-power-2",
@@ -22630,8 +24314,8 @@ window.RACKETS = [
   "balance": "even",
   "flex": "extra-stiff",
   "level": "beginner",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 83,
   "grips": "G4",
   "tension": [
    16,
@@ -22654,11 +24338,22 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-2022-muscle-power-2-badminton-racket-strung-white-blue"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-muscle-power-3"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "weight"
+  ]
  },
  {
   "id": "yonex-muscle-power-2-junior",
@@ -22676,7 +24371,7 @@ window.RACKETS = [
    14,
    18
   ],
-  "price": "",
+  "price": 950,
   "frame": "Aluminum",
   "shaft": "Steel",
   "joint": "",
@@ -22693,12 +24388,26 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-muscle-power-2-junior-white-lime-yellow-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-muscle-power-2-junior-badminton-racket-strung"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-muscle-power-2-junior-strung-white-lime-yellow"
+   }
+  ],
+  "priceNote": "แปลงจาก US$27.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://racquetguys.com/products/yonex-muscle-power-2-junior-white-lime-yellow-factory-strung",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -22708,16 +24417,16 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "stiff",
+  "flex": "",
   "level": "beginner",
-  "weights": "",
-  "weight": "",
-  "grips": "",
+  "weights": "2U",
+  "weight": 93,
+  "grips": "G5",
   "tension": [
    16,
    20
   ],
-  "price": "",
+  "price": 1200,
   "frame": "Aluminum",
   "shaft": "Steel",
   "joint": "",
@@ -22730,17 +24439,23 @@ window.RACKETS = [
   "img": "https://www.yonex.com/media/catalog/product/m/p/mp5ltg_2023_a.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/mp5lt",
-  "specSrc": "https://racquetnetwork.com/product/yonex-muscle-power-5lt-badminton-racquet/",
+  "specSrc": "https://www.yonex.com/badminton/racquets/mp5lt",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-muscle-power-5-lt-badminton-racket-strung-white-turquoise"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 49.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/yonex-muscle-power-5-lt-badminton-racket-strung-white-turquoise",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
    "balance",
-   "style"
+   "style",
+   "price"
   ]
  },
  {
@@ -22776,7 +24491,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-muscle-power-8-lt-badminton-racket-strung-orange"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -22827,6 +24547,14 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-nanoflare-001-ability-badminton-racket-grayish-pearl"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-001-ability-pre-strung-badminton-racket-flash-red"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-001-ability-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -22883,6 +24611,18 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-nanoflare-001-clear-white-sax-badminton-racquet"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-001-clear-pre-strung-badminton-racket-cyan"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-nanoflare-001-clear-badminton-racket"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-001-clear-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -22935,6 +24675,14 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-nanoflare-001-feel-badminton-racket-cyan"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-001-feel-pre-strung-badminton-racket-green"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-001-feel-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -22979,6 +24727,10 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-nanoflare-002-ability-badminton-racket-unstrung-lime"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-001-ability-pre-strung-badminton-racket-flash-red-1"
    }
   ],
   "priceNote": "",
@@ -23023,6 +24775,14 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-nanoflare-002-clear-badminton-racket-unstrung-yellow"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-001-clear-pre-strung-badminton-racket-cyan-1"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-nanoflare-002-clear-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -23067,6 +24827,14 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-nanoflare-002-feel-badminton-racket-unstrung-magenta"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-001-feel-pre-strung-badminton-racket-green-1"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-nanoflare-002-feel-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -23127,6 +24895,26 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-nanoflare-1000-game"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-nanoflare-1000-game-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-1000-game-strung-badminton-racket-lightning-yellow"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-nanoflare-1000-game-lightning-yellow-strung-4u"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-nanoflare-1000-game"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-1000-game-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -23187,6 +24975,26 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-nanoflare-1000-play-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-nanoflare-1000-play-factory-strung-used"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-1000-play-strung-badminton-racket-lightning-yellow"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-nanoflare-1000-play-lightning-yellow-strung-4u"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-nanoflare-1000-play"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-1000-play-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -23243,6 +25051,26 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-nanoflare-1000-tour-2023-badminton-racket-unstrung"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-nanoflare-1000-tour-used"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-1000-tour-strung-badminton-racket-lightning-yellow"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-nanoflare-1000-tour-strung-lightning-yellow-4u"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-nanoflare-1000-tour"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-1000-tour-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -23299,6 +25127,26 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/new-2023-yonex-nanoflare-1000z-88-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-nanoflare-1000z-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-1000z-unstrung-badminton-racket-lightning-yellow"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-nanoflare-1000-z-unstrung-lightning-yellow"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-nanoflare-1000-pro-unstrung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-1000-z-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -23347,6 +25195,10 @@ window.RACKETS = [
    {
     "shop": "nydhi.com",
     "url": "https://nydhi.com/products/yonex-nanoflare-555-badminton-racket-matte-white"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-555-strung-badminton-racket"
    }
   ],
   "priceNote": "แปลงจาก US$189.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -23390,7 +25242,20 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-nanoflare-70-used"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-70-unstrung-badminton-racket-coral-pink"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-nanoflare-70-coral-pink-unstrung-4u"
+   }
+  ],
   "priceNote": "แปลงจาก US$239.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://racquetguys.ca/products/yonex-nanoflare-70-badminton-racquet",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
@@ -23447,6 +25312,26 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-nanoflare-700-game-light-beige-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-nanoflare-700-game-silver-sky-blue-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-700-game-strung-badminton-racket-light-beige"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-nanoflare-700-game-strung-light-beige"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-nanoflare-700-game-badminton-racket-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-700-game-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -23503,6 +25388,26 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-nanoflare-700-play-silver-sky-blue-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-nanoflare-700-play-silver-sky-blue-factory-strung-copy"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-700-play-strung-badminton-racket-light-beige"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-nanoflare-700-play-strung-light-beige-4u"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-nanoflare-700-play-badminton-racket-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-700-play-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -23559,6 +25464,26 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/2024-yonex-nanoflare-700-pro-78-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-nanoflare-700-pro-midnight-purple-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-700-pro-unstrung-badminton-racket-midnight-purple"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-nanoflare-700-pro-unstrung-midnight-purple"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-nanoflare-700-pro-4u-badminton-racket-midnight-purple-copy"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-700-pro-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -23611,6 +25536,26 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-nanoflare-700-tour-badminton-racket-silver-sky-blue-unstrung"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-nanoflare-700-tour-midnight-purple-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-700-tour-unstrung-badminton-racket-light-beige"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-nanoflare-700-tour-unstrung-light-beige-4u"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-nanoflare-700-tour-badminton-racket-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-700-tour-badminton-racket-silver-sky-blue"
    }
   ],
   "priceNote": "",
@@ -23667,6 +25612,26 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-nanoflare-800-game-badminton-racket-unstrung"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-nanoflare-800-game-deep-green-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-800-game-strung-badminton-racket-deep-green"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-nanoflare-800-game-strung-deep-green"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-nanoflare-800-game"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-800-game-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -23723,6 +25688,26 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-nanoflare-800-play-badminton-racket-deep-green-unstrung"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-nanoflare-800-play-deep-green-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-800-play-strung-badminton-racket-deep-green"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-nanoflare-800-play-strung-deep-green"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-nanoflare-800-play-deep-green-4u5"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-800-play-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -23783,6 +25768,26 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/new-2023-yonex-nanoflare-800-pro-88-grams-badminton-racquet-pre-order"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-nanoflare-800-pro-deep-green-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-800-pro-unstrung-badminton-racket-deep-green"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-nanoflare-800-pro-unstrung-deep-green"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-nanoflare-800-pro-3u-badminton-racket-deep-green-copy"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-800-pro-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -23831,6 +25836,22 @@ window.RACKETS = [
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/yonex-nanoflare-800-tour-badminton-racket"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-nanoflare-800-tour-deep-green-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-800-tour-unstrung-badminton-racket-deep-green"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-nanoflare-800-tour-unstrung-deep-green"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-nanoflare-800-tour"
    }
   ],
   "priceNote": "",
@@ -23845,7 +25866,7 @@ window.RACKETS = [
   "year": 2023,
   "style": "speed",
   "balance": "head-light",
-  "flex": "",
+  "flex": "medium",
   "level": "advanced",
   "weights": "3U",
   "weight": 88,
@@ -23862,7 +25883,7 @@ window.RACKETS = [
   "pattern": "22 X 22",
   "tech": "ISOMETRIC · Control Support Cap · Sonic Flare System",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-nanoflare-e13-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-nanoflare-e13/",
@@ -23875,12 +25896,22 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-nanoflare-e13-badminton-racket-turquoise-yellow"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-e13-pre-strung-badminton-racket-turquoise-yellow"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-nanoflare-e13-badminton-racket-strung-blue-red"
    }
   ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "yonex-nanoflare-junior",
@@ -23902,7 +25933,7 @@ window.RACKETS = [
   "frame": "Graphite, Nanocell NEO, HM Graphite",
   "shaft": "Graphite",
   "joint": "Built-in T-Joint",
-  "length": "",
+  "length": "665 mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -23919,6 +25950,18 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-nanoflare-junior-badminton-racket"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-nanoflare-junior-cyan-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-junior-strung-racket-cyan"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-nanoflare-junior-strung-cyan-1"
    }
   ],
   "priceNote": "แปลงจาก £55.99 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -23981,6 +26024,26 @@ window.RACKETS = [
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-nanoflare-nextage-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-nanoflare-nextage-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanoflare-nextage-unstrung-badminton-racket-white-gray"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-nanoflare-nextage-strung-white-4u"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-nanoflare-nextage-badminton-racket"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-nextage-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -24025,6 +26088,10 @@ window.RACKETS = [
    {
     "shop": "nydhi.com",
     "url": "https://nydhi.com/products/yonex-nanoflare-speed-7-badminton-racket-blue"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanoflare-speed-7-badminton-racket-black-white"
    }
   ],
   "priceNote": "",

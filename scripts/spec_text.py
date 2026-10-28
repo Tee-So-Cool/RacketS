@@ -8,7 +8,7 @@ import re
 # label words -> field; the first rule that matches the label wins
 LABEL_RULES = [
     (r'จุดเด่น|key features?', 'highlights'),
-    (r'balance|สมดุล|บาลานซ์', 'balance'),
+    (r'balance|สมดุ|บาลานซ์', 'balance'),  # "จุดสมดุ" is a common typo
     (r'flex|stiff|ความแข็ง', 'flex'),
     (r'tension|ขึ้นเอ็น|ความตึง|ปอนด์', 'tension'),
     (r'grip|ด้าม', 'grips'),
@@ -49,10 +49,17 @@ def balance_of(t, prose=False):
     if re.search(r'even[\s-]*balance' if prose else r'\beven\b|even[\s-]*balance|\bbalanced\b|neutral|สมดุลกลาง|^สมดุล$|neutre', t): hits.add('even')
     return hits.pop() if len(hits) == 1 else ''
 
+# Victor's stiffness scale, stiff (S) on the left to flexible (F) on the right: "S○○○●○F".
+# Checked against 39 Victor models whose flex other sources state: dots 1-2 stiff, 3-4 medium, 5 flexible.
+SCALE_FLEX = {1: 'stiff', 2: 'stiff', 3: 'medium', 4: 'medium', 5: 'flexible'}
+
 def flex_of(t):
+    m = re.search(r'S\s*([○●]{5})\s*F', t or '')
+    if m and m.group(1).count('●') == 1: return SCALE_FLEX[m.group(1).index('●') + 1]
     t = (t or '').lower()
     if re.search('[ก-๙]', t):
-        if 'กลาง' in t and ('แข็ง' in t or 'อ่อน' in t): return ''
+        # "กลางค่อนแข็ง" / "กลางค่อนอ่อน" sit between two grades: medium, kept as an estimate by parse()
+        if 'กลาง' in t and ('แข็ง' in t or 'อ่อน' in t): return 'medium'
         return 'extra-stiff' if 'แข็งมาก' in t else 'stiff' if 'แข็ง' in t else 'medium' if 'กลาง' in t else 'flexible' if 'อ่อน' in t else ''
     hits = set()
     if re.search(r'(extra|very|super|ultra)[\s-]*stiff|hard\s*\+|extra hard', t): hits.add('extra-stiff')
@@ -169,6 +176,7 @@ def parse(lines, options=()):
         'tech': out.get('highlights') or out.get('tech', ''),
     }
     res['madeIn'] = country_of(res['madeIn'])
+    between = bool(res['flex']) and bool(re.search(r'กลางค่อน|medium[\s-]*(?:to[\s-]*)?(?:stiff|flex)', out.get('flex', ''), re.I))
     if res['shaft'] and not re.search(r'[a-zก-๙]{3}', res['shaft'], re.I): res['shaft'] = ''  # "6.8mm" is a diameter
     # pass 2: the prose, for what the labels left empty
     text = ' \n'.join(lines)
@@ -186,5 +194,6 @@ def parse(lines, options=()):
     for f, v in prose.items():
         if not res.get(f) and v not in ('', None):
             res[f] = v; from_prose.append(f)
+    if between: from_prose.append('flex')  # an in-between grade is shown as an estimate, like a prose value
     res['fromProse'] = from_prose
     return res
