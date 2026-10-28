@@ -572,8 +572,7 @@
         const x = byId(kind, id);
         return `<span class="pick" style="--c:${COLORS[i]}"><span class="pn">${esc(x ? x.name : id)}</span><button type="button" data-rm="${esc(id)}" aria-label="เอา ${esc(x ? full(x) : id)} ออก">×</button></span>`;
       }).join('')}</span>
-      ${n < 2 ? `<span class="small muted need">เลือกอีก ${2 - n} รุ่น</span>` : ''}
-      <button class="btn primary sm" data-a="go" ${n < 2 ? 'disabled' : ''}>เทียบ ${n} รุ่น</button>
+      <button class="btn primary sm" data-a="go">${n < 2 ? 'ดูข้อมูล' : `เทียบ ${n} รุ่น`}</button>
       <button class="btn ghost sm" data-a="clear">ล้าง</button>`;
     tray.onclick = e => {
       const rm = e.target.closest('[data-rm]');
