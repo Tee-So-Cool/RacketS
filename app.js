@@ -58,7 +58,7 @@
     return (s.est || []).includes(field) ? `${esc(s[field])} (ประเมิน)` : esc(s[field]);
   };
   const link = (url, text) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${text}</a>` : '';
-  const sources = x => [link(x.officialUrl, 'ผู้ผลิต'), link(x.specSrc, 'หน้าสินค้า'), link(x.shopUrl, 'ร้านไทย'), link(x.bayUrl, 'Badminton Bay'), link(x.clickUrl, 'Badminton Click'), link(x.priceSrc !== x.bayUrl && x.priceSrc !== x.clickUrl ? x.priceSrc : '', 'ที่มาราคา'), link(x.source, 'chobbad')].filter(Boolean).join(', ') || '—';
+  const sources = x => [link(x.officialUrl, 'ผู้ผลิต'), link(x.specSrc, 'หน้าสินค้า'), link(x.shopUrl, 'ร้านไทย'), link(x.bayUrl, 'Badminton Bay'), link(x.clickUrl, 'Badminton Click'), ...(Array.isArray(x.shopLinks) ? x.shopLinks.map(l => link(l.url, esc(l.shop))) : []), link(x.priceSrc !== x.bayUrl && x.priceSrc !== x.clickUrl ? x.priceSrc : '', 'ที่มาราคา'), link(x.source, 'chobbad')].filter(Boolean).join(', ') || '—';
 
   // ---------- profiles (0–10) ----------
   const R_AXES = ['พลังตบ', 'ความคล่องตัว', 'ควบคุม', 'ตีง่าย', 'รับเอ็นตึง', 'หน้าไม้ไว', 'ต้องมีพื้นฐาน'];

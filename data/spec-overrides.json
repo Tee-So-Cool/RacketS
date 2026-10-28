@@ -241,7 +241,8 @@
   "weight": 81,
   "weights": "5U",
   "tmax": 35,
-  "src": "https://www.badmintonbay.com/apacs-tempesta-black-5u-badminton-racket.html"
+  "src": "https://www.badmintonbay.com.my/Badminton-Racket/Apacs-Badminton-Racket/apacs-tempesta-black-5u-badminton-racket.html",
+  "level": "beginner"
  },
  "Apacs Hard Hitter Speed": {
   "balance": "head-heavy",
@@ -273,7 +274,9 @@
   "weight": 84,
   "weights": "4U",
   "tmax": 38,
-  "src": "https://www.badmintonbay.com/apacs-hard-hitter-pro-navy-blue-4u-badminton-racket.html"
+  "src": "https://www.badmintonbay.com.my/apacs-hard-hitter-pro-navy-blue-4u-badminton-racket.html",
+  "priceForeign": 665.9,
+  "currency": "MYR"
  },
  "Apacs Valiant 8000": {
   "balance": "head-heavy",
@@ -313,7 +316,9 @@
   "weight": 81,
   "weights": "5U",
   "tmax": 38,
-  "src": "https://www.badmintonbay.com/apacs-resona-speed-88-black-5u-badminton-racket.html"
+  "src": "https://www.badmintonbay.com.my/apacs-resona-speed-88-black-5u-badminton-racket.html",
+  "priceForeign": 108.0,
+  "currency": "MYR"
  },
  "Apacs Thunderdome Pro 6.4": {
   "flex": "stiff",
@@ -329,7 +334,9 @@
   "weight": 84,
   "weights": "4U",
   "tmax": 38,
-  "src": "https://www.badmintonbay.com/Badminton-Racket/pro-series-badminton-racket/apacs-cross-court-pro-6.2-black-4u-badminton-racket.html"
+  "src": "https://www.badmintonbay.com.my/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-pro-6.2-black-4u-badminton-racket.html",
+  "priceForeign": 459.0,
+  "currency": "MYR"
  },
  "Apacs Super Speed": {
   "balance": "head-heavy",
@@ -854,7 +861,9 @@
   "weights": "6U",
   "weight": 77,
   "tmax": 33,
-  "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-fusion-speed-722-pro-durapro-cct-white-badminton-racket.html"
+  "src": "https://www.badmintonbay.com.my/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-fusion-speed-722-pro-durapro-cct-white-badminton-racket.html",
+  "priceForeign": 447.0,
+  "currency": "MYR"
  },
  "Apacs Lethal 9": {
   "balance": "head-light",
@@ -1031,7 +1040,9 @@
   "weights": "5U",
   "weight": 81,
   "tmax": 38,
-  "src": "https://www.badmintonbay.com/apacs-resona-speed-66-silver-5u-badminton-racket.html"
+  "src": "https://www.badmintonbay.com.my/apacs-resona-speed-66-silver-5u-badminton-racket.html",
+  "priceForeign": 169.9,
+  "currency": "MYR"
  },
  "Apacs Thunderdome Pro 6.2": {
   "balance": "head-heavy",
@@ -1039,7 +1050,9 @@
   "weights": "4U",
   "weight": 84,
   "tmax": 38,
-  "src": "https://www.badmintonbay.com/apacs-thunderdome-pro-6-pt-2-dark-grey-4u-badminton-racket.html"
+  "src": "https://www.badmintonbay.com.my/apacs-thunderdome-pro-6-pt-2-dark-grey-4u-badminton-racket.html",
+  "priceForeign": 665.9,
+  "currency": "MYR"
  },
  "Apacs Carbo 9000": {
   "balance": "even",
@@ -1054,7 +1067,9 @@
   "weights": "5U",
   "weight": 82,
   "tmax": 38,
-  "src": "https://www.badmintonbay.com/apacs-fantala-6-pt-0-control-black-gold-badminton-racket.html"
+  "src": "https://www.badmintonbay.com.my/apacs-fantala-6-pt-0-control-black-gold-badminton-racket.html",
+  "priceForeign": 299.9,
+  "currency": "MYR"
  },
  "Apacs Fantala 6.0 Speed": {
   "balance": "head-heavy",
@@ -1062,7 +1077,9 @@
   "weights": "5U",
   "weight": 82,
   "tmax": 38,
-  "src": "https://www.badmintonbay.com/apacs-fantala-6-pt-0-speed-blue-black-badminton-racket.html"
+  "src": "https://www.badmintonbay.com.my/apacs-fantala-6-pt-0-speed-blue-black-badminton-racket.html",
+  "priceForeign": 299.9,
+  "currency": "MYR"
  },
  "Apacs Nano Fusion Speed 777 Force": {
   "balance": "even",
@@ -1070,7 +1087,9 @@
   "weights": "6U",
   "weight": 78,
   "tmax": 32,
-  "src": "https://www.badmintonbay.com/apacs-nano-fusion-777-force-black-gold-badminton-racket.html"
+  "src": "https://www.badmintonbay.com.my/apacs-nano-fusion-777-force-black-mint-green-badminton-racket.html",
+  "priceForeign": 299.9,
+  "currency": "MYR"
  },
  "Apacs Stardom Pro III": {
   "balance": "even",
@@ -1078,7 +1097,9 @@
   "weights": "4U",
   "weight": 86,
   "tmax": 38,
-  "src": "https://www.badmintonbay.com/apacs-stardom-pro-ii-black-blue-badminton-racket.html"
+  "src": "https://www.badmintonbay.com/apacs-stardom-pro-ii-black-blue-badminton-racket.html",
+  "priceForeign": 146.9,
+  "currency": "USD"
  },
  "Apacs Z Power 900 RP+ Lite": {
   "balance": "even",
@@ -1102,7 +1123,9 @@
   "weights": "6U",
   "weight": 78,
   "tmax": 30,
-  "src": "https://www.badmintonbay.com/apacs-nano-fusion-speed-xr-black-red-badminton-racket.html"
+  "src": "https://www.badmintonbay.com.my/apacs-nano-fusion-speed-xr-black-red-badminton-racket.html",
+  "priceForeign": 199.9,
+  "currency": "MYR"
  },
  "Apacs Z-Ziggler 72": {
   "balance": "head-heavy",
@@ -1118,8 +1141,10 @@
   "weights": "4U",
   "weight": 85,
   "tmax": 35,
-  "src": "https://www.badmintonbay.com/Apacs-Stern-100.html",
-  "level": "intermediate"
+  "src": "https://www.badmintonbay.com.my/Apacs-Stern-100.html",
+  "level": "intermediate",
+  "priceForeign": 239.9,
+  "currency": "MYR"
  },
  "Apacs Stern 828": {
   "balance": "head-light",
@@ -1127,14 +1152,19 @@
   "weights": "4U",
   "weight": 85,
   "tmax": 38,
-  "src": "https://www.badmintonbay.com/apacs-stern-828.html"
+  "src": "https://www.badmintonbay.com.my/Apacs-Stern-828.html",
+  "priceForeign": 199.9,
+  "currency": "MYR"
  },
  "Apacs Stern 899": {
   "flex": "medium",
   "weights": "4U",
   "weight": 85,
   "tmax": 38,
-  "src": "https://www.badmintonbay.com/apacs-stern-899.html"
+  "src": "https://www.badmintonbay.com.my/Apacs-Stern-899.html",
+  "balance": "head-heavy",
+  "priceForeign": 199.9,
+  "currency": "MYR"
  },
  "Apacs Ziggler LHI Pro II": {
   "balance": "head-heavy",
@@ -2637,5 +2667,16 @@
   "priceForeign": 184.9,
   "currency": "EUR",
   "src": "https://www.sakurasport.com/en/1539-king-k8-ii-blue-raquette-de-badminton-kawasaki-6940671193936.html"
+ },
+ "Apacs Honor Pro 6.4": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "weight": 86,
+  "tmax": 38,
+  "level": "intermediate",
+  "priceForeign": 330.0,
+  "currency": "MYR",
+  "src": "https://www.badmintonbay.com.my/Badminton-Racket/Apacs-Badminton-Racket/apacs-honor-pro-dark-grey-neon-green-badminton-racket.html"
  }
 }

@@ -228,6 +228,10 @@ def bay_balance(t):
     return ''
 def bay_flex(t):
     t = (t or '').lower()
+    if re.search('[ก-๙]', t):
+        # "กลางค่อนแข็ง" sits between two classes, so it stays empty
+        if 'กลาง' in t and ('แข็ง' in t or 'อ่อน' in t): return ''
+        return 'extra-stiff' if 'แข็งมาก' in t else 'stiff' if 'แข็ง' in t else 'medium' if 'กลาง' in t else 'flexible' if 'อ่อน' in t else ''
     if 'extra' in t: return 'extra-stiff'
     if 'stiff' in t: return 'stiff'
     if 'medium' in t: return 'medium'
@@ -242,8 +246,32 @@ def one_level(t):
     # "Intermediate - Advanced" is a range, not a level; only a single word counts
     w = (t or '').strip().lower()
     return LEVEL_WORD.get(w, '')
-bay_hits = {'bay': 0, 'click': 0}
-for bz in bay + click:
+# Other shops with a public product feed (scripts/fetch_shops.py): raw {label: value} spec blocks, mapped here
+SHOPS = os.path.join(SRC, 'shops.json')
+BRAND_OF = {'victor': 'Victor', 'yonex': 'Yonex', 'li-ning': 'Li-Ning', 'li ning': 'Li-Ning', 'lining': 'Li-Ning', 'vs': 'VS',
+            'apacs': 'Apacs', 'mizuno': 'Mizuno', 'kawasaki': 'Kawasaki'}
+def from_shop(p):
+    sp = p['spec']
+    g = lambda *ks: next((sp[k] for k in ks if sp.get(k)), '')
+    brand = BRAND_OF.get(p['brand'].strip().lower(), '')
+    if not brand: return None
+    # drop colourways, sizes and the shop's framing; digits for generations become numerals as in this data
+    nm = re.sub(r'\([^)]*\)|\[[^\]]*\]|\b(new|20\d\d|badminton|racket|racquet|unstrung|strung|pre-strung)\b|ไม้แบด|\s-\s.*$', ' ', p['name'], flags=re.I)
+    nm = re.sub(r'(?<=[A-Za-z]) ([2-4])\b(?! ?[\d.])', lambda m: ' ' + {'2': 'II', '3': 'III', '4': 'IV'}[m.group(1)], nm)
+    wt = g('weight', 'weight / grip', 'weight/grip', 'weight / grip size', 'weight & grip', 'น้ำหนัก')
+    return {'src': 'shop', 'shop': p['shop'], 'brand': brand, 'name': nm, 'url': p['url'], 'img': p.get('img', ''),
+            'price': p.get('price'), 'currency': p.get('currency'),
+            'weight': wt, 'balance': g('balance', 'balance point', 'จุดสมดุล', 'ความสมดุล', 'บาลานซ์'),
+            'flex': g('flex', 'flexibility', 'shaft flexibility', 'shaft stiffness', 'stiffness', 'ความแข็งก้าน', 'ก้าน'),
+            'tension': g('max tension', 'maximum tension', 'max. tension', 'string tension', 'stringing tension', 'ขึ้นเอ็น', 'ความตึงสูงสุด', 'ความตึง', 'tension'),
+            'frame': g('frame material', 'frame composition', 'frame', 'วัสดุเฟรม', 'วัสดุ'), 'shaft': g('shaft material', 'วัสดุก้าน') or (sp.get('shaft', '') if re.search(r'graphite|carbon|nano|fib|titan|resin|คาร์บอน', sp.get('shaft', ''), re.I) else ''),
+            'length': g('length', 'total length', 'ความยาว'), 'joint': g('joint'), 'madeIn': g('made in', 'country of origin', 'origin', 'ผลิตที่', 'ผลิตใน'),
+            'tech': g('technology', 'technologies'), 'players': g('player', 'players'), 'pattern': g('string pattern'),
+            'level': g('player level', 'playing level', 'level', 'grade'), 'grips': g('grip size', 'grip', 'ด้าม') or ' '.join(re.findall(r'G\d', wt)),
+            'recText': g('recommended string', 'recommended strings')}
+shops = [x for x in (from_shop(p) for p in (json.load(open(SHOPS, encoding='utf-8')) if os.path.exists(SHOPS) else [])) if x]
+bay_hits = {'bay': 0, 'click': 0, 'shop': 0}
+for bz in bay + click + shops:
     if bz.get('src') == 'click':
         # "NEW 2027 Victor Thruster Ryuga 3 (78 grams) Badminton Racquet": drop the shop's framing before matching
         bz = {**bz, 'name': re.sub(r'\b(new|20\d\d)\b|\(\d+ g\w*\)|\d+ g\w*|\[[^\]]*\]|\([^)]*edition\)', ' ', bz['name'], flags=re.I)}
@@ -258,14 +286,22 @@ for bz in bay + click:
             'tension': tension(bz.get('tension', '')), 'frame': bz.get('frame', ''), 'shaft': bz.get('shaft', ''),
             'length': bz.get('length', ''), 'img': bz.get('img', ''), 'level': one_level(bz.get('level')),
             'grips': re.sub(r'\s*\(.*?\)', '', bz.get('grips', '')),
-            'recString': ', '.join(f'{v} ({k})' for k, v in (('คุม', bz.get('strControl')), ('พลัง', bz.get('strPower'))) if v)}
+            'recString': bz.get('recText') or ', '.join(f'{v} ({k})' for k, v in (('คุม', bz.get('strControl')), ('พลัง', bz.get('strPower'))) if v),
+            'joint': bz.get('joint', ''), 'madeIn': bz.get('madeIn', ''), 'tech': bz.get('tech', ''), 'players': bz.get('players', ''),
+            'pattern': bz.get('pattern', '')}
     for f, v in fill.items():
         if v not in ('', None) and (r.get(f) in ('', None) or f in r.get('est', [])):
             r[f] = v
             if f in r.get('est', []): r['est'].remove(f)
-    if bz.get('price') and not r.get('priceForeign'):
+    if bz.get('price') and bz.get('currency') == 'THB' and not r.get('price'):
+        r['price'] = int(bz['price'])  # a Thai shop's price is a real baht price
+    elif bz.get('price') and not r.get('priceForeign'):
         r['priceForeign'] = {'amount': bz['price'], 'currency': bz.get('currency', 'USD'), 'src': bz['url']}
-    r.setdefault('clickUrl' if bz.get('src') == 'click' else 'bayUrl', bz['url'])
+    if bz.get('src') == 'shop':
+        links = r.setdefault('shopLinks', [])
+        if bz['shop'] not in [l['shop'] for l in links]: links.append({'shop': bz['shop'], 'url': bz['url']})
+    else:
+        r.setdefault('clickUrl' if bz.get('src') == 'click' else 'bayUrl', bz['url'])
 print('shop spec layers matched', bay_hits)
 
 # ---- series-based estimates for missing style/balance (flagged in r['est']) ----
@@ -336,7 +372,7 @@ for r in rackets.values():
 print('levels estimated', leveled)
 
 order = ['id', 'brand', 'name', 'year', 'style', 'balance', 'flex', 'level', 'weights', 'weight', 'grips', 'tension', 'price',
-         'frame', 'shaft', 'joint', 'length', 'pattern', 'tech', 'players', 'madeIn', 'recString', 'img', 'source', 'officialUrl', 'specSrc', 'shopUrl', 'bayUrl', 'clickUrl', 'priceNote', 'priceSrc', 'note', 'est']
+         'frame', 'shaft', 'joint', 'length', 'pattern', 'tech', 'players', 'madeIn', 'recString', 'img', 'source', 'officialUrl', 'specSrc', 'shopUrl', 'bayUrl', 'clickUrl', 'shopLinks', 'priceNote', 'priceSrc', 'note', 'est']
 final, seen = [], set()
 for r in sorted(rackets.values(), key=lambda r: (r['brand'], r['name'])):
     while r['id'] in seen: r['id'] += '-2'
