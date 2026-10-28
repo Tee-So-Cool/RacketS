@@ -584,69 +584,99 @@
   };
   const S_NAME = { repulsion: 'แรงดีด', control: 'การควบคุม', durability: 'ความทน', sound: 'เสียงกระทบ', shock: 'การซับแรง' };
 
-  function score(r, s, level, style, shuttle = 'feather') {
+  // The score is three parts, each 0–100: the string for this player, the racket for this player, and the racket with the string.
+  const PARTS = [['player', 'เอ็นกับผู้เล่น', 0.45], ['racket', 'ไม้กับผู้เล่น', 0.3], ['pair', 'ไม้กับเอ็น', 0.25]];
+  const norm = t => String(t || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+
+  function score(r, s, level, style, shuttle = 'feather', climate = 'normal') {
     const reasons = [];
     const ok = t => reasons.push(['ok', t]);
     const wn = t => reasons.push(['wn', t]);
-    let sc = 50;
     const lv = ordIdx('level', level, 1);
     const low = lv <= 1; // beginner or intermediate
     const g = Number(s.gauge) || 0.66;
     const bal = r.balance, fx = ordIdx('flex', r.flex, 1);
+    const shock = Number(s.shock) || 5, rep = Number(s.repulsion) || 5;
 
-    // string fit: half what the level needs, half what the style wants
+    // 1. string for the player: half what the level needs, half what the style wants
     const W = {};
     for (const [k, w] of Object.entries(LEVEL_W[level])) W[k] = (W[k] || 0) + w / 2;
     for (const [k, w] of Object.entries(STYLE_W[style])) W[k] = (W[k] || 0) + w / 2;
     const fit = Object.entries(W).reduce((a, [k, w]) => a + w * (Number(s[k]) || 5), 0);
-    sc += (fit - 6.5) * 6;
+    let pP = (fit - 4) * 20; // fit 6.5 of 10 -> 50, 9 -> 100
     const best = Object.keys(W).sort((a, b) => W[b] * (Number(s[b]) || 0) - W[a] * (Number(s[a]) || 0))[0];
     if (fit >= 7.5) ok(`เอ็นเด่นเรื่อง${S_NAME[best]} ซึ่ง${L.level[level]}สาย${L.style[style]}ให้ความสำคัญ`);
     else if (fit < 6.2) wn(`คุณสมบัติเอ็นไม่ค่อยตรงกับ${L.level[level]}สาย${L.style[style]}`);
-
-    // racket style and level
-    if (r.style === style) { sc += 8; ok(`ไม้เป็นสาย${L.style[r.style]} ตรงกับสไตล์ที่เลือก`); }
-    else if (r.style === 'allround' || style === 'allround') sc += 3;
-    else if (r.style) { sc -= 4; wn(`ไม้เป็นสาย${L.style[r.style]} แต่เลือกสไตล์${L.style[style]}`); }
-    const d = ordIdx('level', r.level, -9) - lv;
-    if (d === 0) { sc += 10; ok(`ผู้ผลิตออกแบบไม้รุ่นนี้สำหรับ${L.level[r.level]} ตรงกับระดับที่เลือก`); }
-    else if (d === 1) { sc += 2; wn(`ไม้ออกแบบมาสำหรับ${L.level[r.level]} สูงกว่าระดับที่เลือกหนึ่งขั้น อาจต้องใช้แรงมากขึ้น`); }
-    else if (d >= 2) { sc -= 10; wn(`ไม้ออกแบบมาสำหรับ${L.level[r.level]} อาจตีหนักมือสำหรับ${L.level[level]}`); }
-    else if (d === -1) sc -= 1;
-    else if (d > -9) { sc -= 5; wn(`ไม้ออกแบบมาสำหรับ${L.level[r.level]} เล่นสบายแต่อาจไม่ตอบโจทย์${L.level[level]}`); }
-
     // gauge for beginners [high direction: thin strings break sooner]
-    if (level === 'beginner' && g <= 0.63) { sc -= 5; wn('เอ็นบาง ขาดง่าย มือใหม่ควรเริ่มที่ 0.66–0.70'); }
-    else if (level === 'beginner' && g >= 0.66) { sc += 2; ok('เอ็นขนาดกลางถึงหนา เหมาะกับมือใหม่'); }
-    if (level === 'beginner' && Number(s.durability) >= 8) { sc += 4; ok('เอ็นทนทาน คุ้มสำหรับมือใหม่ที่ตีบ่อย'); }
+    if (level === 'beginner' && g <= 0.63) { pP -= 12; wn('เอ็นบาง ขาดง่าย มือใหม่ควรเริ่มที่ 0.66–0.70'); }
+    else if (level === 'beginner' && g >= 0.66) { pP += 5; ok('เอ็นขนาดกลางถึงหนา เหมาะกับมือใหม่'); }
+    if (level === 'beginner' && Number(s.durability) >= 8) { pP += 8; ok('เอ็นทนทาน คุ้มสำหรับมือใหม่ที่ตีบ่อย'); }
+    // advanced players trade durability for feel [medium: S3]
+    if (lv >= 2 && g >= 0.68) { pP -= 6; wn('เอ็นหนา ทนแต่ความรู้สึกและแรงดีดน้อยกว่าที่ผู้เล่นระดับนี้มักต้องการ'); }
 
-    // racket interactions [low: judgement, no published pairing tables]
-    if (fx >= 2 && Number(s.shock) >= 7) { sc += 3; ok('เอ็นซับแรงช่วยลดแรงสะเทือนจากก้านแข็ง'); }
-    if (fx >= 2 && Number(s.shock) <= 4 && low) { sc -= 4; wn('ก้านแข็งกับเอ็นแข็ง อาจสะเทือนข้อมือสำหรับระดับนี้'); }
-    if (bal === 'head-heavy' && low && g <= 0.63) { sc -= 4; wn('ไม้หัวหนักกับเอ็นบาง สะเทือนและขาดง่ายสำหรับระดับนี้'); }
-    if ((bal === 'head-light' || fx === 0) && (style === 'attack' || style === 'speed') && Number(s.repulsion) >= 8 && g <= 0.65) {
-      sc += 3; ok('ไม้หัวเบาหรือก้านอ่อน ได้เอ็นบางดีดสูงช่วยเพิ่มแรงส่ง');
+    // 2. racket for the player: style and the level the maker built it for
+    let pR = 60;
+    if (r.style === style) { pR += 25; ok(`ไม้เป็นสาย${L.style[r.style]} ตรงกับสไตล์ที่เลือก`); }
+    else if (r.style === 'allround' || style === 'allround') pR += 10;
+    else if (r.style) { pR -= 15; wn(`ไม้เป็นสาย${L.style[r.style]} แต่เลือกสไตล์${L.style[style]}`); }
+    const d = ordIdx('level', r.level, -9) - lv;
+    if (d === 0) { pR += 15; ok(`ไม้รุ่นนี้ทำมาสำหรับ${L.level[r.level]} ตรงกับระดับที่เลือก`); }
+    else if (d === 1) { pR -= 5; wn(`ไม้ทำมาสำหรับ${L.level[r.level]} สูงกว่าระดับที่เลือกหนึ่งขั้น อาจต้องใช้แรงมากขึ้น`); }
+    else if (d >= 2) { pR -= 30; wn(`ไม้ทำมาสำหรับ${L.level[r.level]} อาจตีหนักมือสำหรับ${L.level[level]}`); }
+    else if (d === -1) pR -= 5;
+    else if (d > -9) { pR -= 20; wn(`ไม้ทำมาสำหรับ${L.level[r.level]} เล่นสบายแต่อาจไม่ตอบโจทย์${L.level[level]}`); }
+    // a stiff or head-heavy racket asks for a fast swing [medium: Yonex on ASTROX 77, retail copy]
+    if (level === 'beginner' && fx >= 2 && bal === 'head-heavy') { pR -= 10; wn('ไม้ก้านแข็งและหัวหนัก ต้องใช้แรงเหวี่ยงมาก มือใหม่จะตีหนักมือ'); }
+
+    // 3. racket with string [low: judgement, no published pairing tables]
+    let pS = 60;
+    if (r.recString && norm(s.name).length >= 3 && norm(r.recString).includes(norm(s.name))) { pS += 25; ok('ผู้ผลิตหรือร้านแนะนำเอ็นนี้คู่กับไม้รุ่นนี้'); }
+    if (fx >= 2 && shock >= 7) { pS += 15; ok('เอ็นซับแรงช่วยลดแรงสะเทือนจากก้านแข็ง'); }
+    if (fx >= 2 && shock <= 4 && low) { pS -= 20; wn('ก้านแข็งกับเอ็นแข็ง อาจสะเทือนข้อมือสำหรับระดับนี้'); }
+    if (bal === 'head-heavy' && low && g <= 0.63) { pS -= 20; wn('ไม้หัวหนักกับเอ็นบาง สะเทือนและขาดง่ายสำหรับระดับนี้'); }
+    if ((bal === 'head-light' || fx === 0) && (style === 'attack' || style === 'speed') && rep >= 8 && g <= 0.65) {
+      pS += 15; ok('ไม้หัวเบาหรือก้านอ่อน ได้เอ็นบางดีดสูงช่วยเพิ่มแรงส่ง');
     }
+    if (fx === 0 && style === 'control' && Number(s.control) >= 8) { pS += 10; ok('ก้านอ่อนกับเอ็นคุมลูกดี เหมาะกับการเล่นคอนโทรล'); }
 
-    // tension: start at the level default, nudge, keep inside the band, then inside the racket and string limits
+    // tension: start at the level default, nudge, keep inside the band, then inside the racket and string limits.
+    // Each step is kept so the page can show how the number was reached.
     const [bLo, bHi, bDef] = LVL_BAND[level];
+    const steps = [[`ค่าเริ่มของ${L.level[level]}`, bDef]];
     let t = bDef;
-    if (style === 'control') t += level === 'pro' ? 2 : 1;                       // [medium] higher = more control
-    else if ((style === 'attack' || style === 'speed') && low) t -= 1;            // [medium] lower = more rebound for amateurs
-    if (g <= 0.63) t -= 1;                                                        // [medium] thin strings break above ~24 lbs
-    if (level === 'beginner' && (fx >= 2 || bal === 'head-heavy')) t -= 1;        // [low] the racket already asks for strength
-    t = clamp(t, bLo, bHi);
-    if (shuttle === 'nylon') { t -= 2; ok('ใช้ลูกไนลอน ลดความตึงลง 2 ปอนด์'); }  // [medium, two sources]
+    const nudge = (dv, why) => { if (dv) { t += dv; steps.push([why, dv]); } };
+    if (style === 'control') nudge(level === 'pro' ? 2 : 1, 'สายคอนโทรล ตึงขึ้นเพื่อคุมลูก');              // [medium] higher = more control
+    else if ((style === 'attack' || style === 'speed') && low) nudge(-1, 'สายบุก/สปีดระดับนี้ หย่อนลงให้ดีดง่าย'); // [medium] lower = more rebound
+    if (g <= 0.63) nudge(-1, 'เอ็นบาง ขาดง่ายเมื่อตึงสูง');                                                  // [medium]
+    if (level === 'beginner' && (fx >= 2 || bal === 'head-heavy')) nudge(-1, 'ไม้ต้องใช้แรงอยู่แล้ว');       // [low]
+    const inBand = clamp(t, bLo, bHi);
+    if (inBand !== t) { steps.push([`ให้อยู่ในช่วงของ${L.level[level]}`, inBand - t]); t = inBand; }
+    if (climate === 'hot') nudge(1, 'สนามร้อนชื้น (ความเชื่อของช่าง ยังไม่มีหลักฐานยืนยัน)');               // [low, T7]
+    if (shuttle === 'nylon') nudge(-2, 'ลูกไนลอน');                                                          // [medium, two sources]
     const [tmin, tmax] = r.tension || [null, 30];
     const cap = Math.min(tmax || 30, Number(s.tensionMax) || 99);
     if (t > cap - 1) {                                                            // [low, convention] keep a 1 lb margin
+      steps.push([`ต่ำกว่าเพดาน ${cap} lbs ของ${(tmax || 30) <= (Number(s.tensionMax) || 99) ? 'ไม้' : 'เอ็น'} 1 ปอนด์`, cap - 1 - t]);
       t = cap - 1;
-      wn(`ปรับลงให้ต่ำกว่าเพดาน ${cap} lbs ของไม้/เอ็นอย่างน้อย 1 ปอนด์`);
+      if (cap - 1 < bLo) { pS -= 15; wn(`เพดาน ${cap} lbs ต่ำกว่าช่วงที่${L.level[level]}มักใช้ (${bLo}–${bHi} lbs)`); }
     }
-    if (tmin && t < tmin) t = Math.min(tmin, cap);
-    if (low && Number(s.shock) <= 4 && t >= bHi) wn('เอ็นแข็งที่ตึงสูง อาจสะเทือนข้อมือ ลองลดลง 1–2 ปอนด์');
+    if (tmin && t < tmin) { steps.push([`ไม่ต่ำกว่าค่าต่ำสุดของไม้ ${tmin} lbs`, Math.min(tmin, cap) - t]); t = Math.min(tmin, cap); }
+    if (low && shock <= 4 && t >= bHi) wn('เอ็นแข็งที่ตึงสูง อาจสะเทือนข้อมือ ลองลดลง 1–2 ปอนด์');
 
-    return { score: Math.round(clamp(sc, 0, 100)), tension: t, band: [bLo, bHi], range: [tmin, tmax], reasons };
+    const parts = { player: Math.round(clamp(pP, 0, 100)), racket: Math.round(clamp(pR, 0, 100)), pair: Math.round(clamp(pS, 0, 100)) };
+    const total = PARTS.reduce((a, [k, , w]) => a + w * parts[k], 0);
+
+    // how sure: the inputs that weigh most, counted when they are estimates or missing
+    const guess = [];
+    const sEst = s.est || [], rEst = r.est || [];
+    Object.entries(W).filter(([, w]) => w >= 0.1).forEach(([k]) => { if (sEst.includes(k) || s[k] === '' || s[k] == null) guess.push(`${S_NAME[k]}ของเอ็น`); });
+    [['style', 'แนวของไม้'], ['level', 'ระดับของไม้'], ['balance', 'สมดุลไม้'], ['flex', 'ความแข็งก้าน']].forEach(([k, n]) => {
+      if (rEst.includes(k) || !r[k]) guess.push(n);
+    });
+    if (!r.tension) guess.push('ความตึงสูงสุดของไม้');
+    const conf = guess.length <= 1 ? 'สูง' : guess.length <= 3 ? 'ปานกลาง' : 'ต่ำ';
+
+    return { score: Math.round(clamp(total, 0, 100)), parts, tension: t, steps, band: [bLo, bHi], range: [tmin, tmax], reasons, conf, guess };
   }
   const verdict = n => n >= 80 ? ['เข้ากันดีมาก', 'var(--color-accent)'] : n >= 65 ? ['เข้ากันดี', 'var(--color-accent)'] : n >= 50 ? ['พอใช้ได้', 'var(--color-ink)'] : ['ไม่ค่อยเหมาะ', 'var(--color-bad)'];
 
@@ -675,6 +705,7 @@
         <div class="field"><label>ระดับมือ</label><select name="level">${opts(L.level, state.m.level)}</select></div>
         <div class="field"><label>สไตล์</label><select name="style">${opts(L.style, state.m.style)}</select></div>
         <div class="field"><label>ลูกที่ใช้</label><select name="shuttle">${opts({ feather: 'ลูกขนไก่/ขนเป็ด', nylon: 'ลูกไนลอน' }, state.m.shuttle || 'feather')}</select></div>
+        <div class="field"><label>สนาม</label><select name="climate">${opts({ normal: 'ปกติ/ห้องแอร์', hot: 'ร้อนชื้น' }, state.m.climate || 'normal')}</select></div>
       </div>
       <div id="mres"></div>`;
     view.querySelector('#mform').addEventListener('change', e => { state.m[e.target.name] = e.target.value; renderMatch(); });
@@ -696,18 +727,34 @@
   }
 
   function renderMatch() {
-    const { level, style } = state.m, shuttle = state.m.shuttle || 'feather';
+    const { level, style } = state.m, shuttle = state.m.shuttle || 'feather', climate = state.m.climate || 'normal';
     const r = byId('r', state.m.r), s = byId('s', state.m.s);
-    const res = score(r, s, level, style, shuttle);
+    const res = score(r, s, level, style, shuttle, climate);
     const [vt, vc] = verdict(res.score);
-    const altS = db.s.filter(x => x.id !== s.id).map(x => ({ x, ...score(r, x, level, style, shuttle) })).sort((a, b) => b.score - a.score).slice(0, 3);
-    const altR = db.r.filter(x => x.id !== r.id).map(x => ({ x, ...score(x, s, level, style, shuttle) })).sort((a, b) => b.score - a.score).slice(0, 3);
-    const alt = (list, kind) => list.map(a => `
+    const allS = db.s.filter(x => x.id !== s.id).map(x => ({ x, ...score(r, x, level, style, shuttle, climate) })).sort((a, b) => b.score - a.score || a.guess.length - b.guess.length);
+    const altR = db.r.filter(x => x.id !== r.id).map(x => ({ x, ...score(x, s, level, style, shuttle, climate) })).sort((a, b) => b.score - a.score || a.guess.length - b.guess.length).slice(0, 3);
+    // strings by goal, among those that still fit well (within 10 points of the best match)
+    const good = allS.filter(a => a.score >= (allS[0] ? allS[0].score - 10 : 0));
+    const top = (list, f) => list.length ? list.reduce((a, b) => f(b) > f(a) ? b : a) : null;
+    const goals = [
+      ['เข้ากันที่สุด', allS[0]],
+      ['ดีดที่สุด', top(good, a => Number(a.x.repulsion) || 0)],
+      ['คุมลูกที่สุด', top(good, a => Number(a.x.control) || 0)],
+      ['ทนที่สุด', top(good, a => Number(a.x.durability) || 0)],
+      ['คุ้มที่สุด', top(good.filter(a => Number(a.x.price) > 0), a => a.score / Number(a.x.price))],
+    ].filter(([, a]) => a).reduce((acc, [tag, a]) => {
+      // one row per string; a string that wins several goals lists them together
+      const hit = acc.find(([, b]) => b.x.id === a.x.id);
+      if (hit) hit[0] += ', ' + tag; else acc.push([tag, a]);
+      return acc;
+    }, []);
+    const altRow = (a, kind, tag) => `
       <div class="item" role="button" tabindex="0" data-pick="${kind}:${esc(a.x.id)}">
-        <div class="nm">${esc(full(a.x))}</div>
-        <div class="meta">${kind === 's' ? esc(gaugeLabel(a.x)) : [L.style[a.x.style], L.level[a.x.level]].filter(Boolean).join(', ')}</div>
+        <div class="nm">${tag ? `<span class="small muted">${esc(tag)}</span><br>` : ''}${esc(full(a.x))}</div>
+        <div class="meta">${kind === 's' ? [gaugeLabel(a.x), a.x.price ? baht(a.x.price) : ''].filter(Boolean).map(esc).join(', ') : [L.style[a.x.style], L.level[a.x.level]].filter(Boolean).join(', ')}</div>
         <div class="price"><b class="fig">${a.score}</b> คะแนน, <b class="fig">${a.tension}</b> lbs</div>
-      </div>`).join('');
+      </div>`;
+    const sign = v => v > 0 ? '+' + v : String(v);
 
     view.querySelector('#mres').innerHTML = `
       <section class="panel">
@@ -719,11 +766,16 @@
             <div class="small muted">${[L.style[r.style], L.balance[r.balance], L.flex[r.flex], gaugeLabel(s)].filter(Boolean).map(esc).join(', ')}, ${esc(L.material[s.material] || '')}</div>
           </div>
         </div>
+        <div class="parts">${PARTS.map(([k, n, w]) => `
+          <div class="part"><span>${n} <span class="muted">(${Math.round(w * 100)}%)</span></span><span class="bar"><i style="--w:${res.parts[k]}"></i></span><b class="fig">${res.parts[k]}</b></div>`).join('')}
+        </div>
+        <p class="small muted">ความมั่นใจของคะแนน: <b>${res.conf}</b>${res.guess.length ? `, ค่าที่เป็นค่าประเมินหรือยังไม่มีข้อมูล: ${esc(res.guess.join(', '))}` : ''}</p>
         <div class="two">
           <div class="radar"><h3>บุคลิกเอ็น ${esc(full(s))}</h3>${radar(S_AXES, [{ name: full(s), color: COLORS[1], values: stringProfile(s) }])}</div>
           <div>
             <h3>ความตึงที่แนะนำ</h3>
             <div class="tension">${res.tension} lbs</div>
+            <ul class="steps">${res.steps.map(([why, v], i) => `<li><span>${esc(why)}</span><b class="fig">${i ? sign(v) : v}</b></li>`).join('')}</ul>
             <div class="small muted">ช่วงที่เหมาะกับ${L.level[level]} ${res.band[0]}–${res.band[1]} lbs ตึงน้อยลง = ดีดง่ายขึ้นและ sweet spot ใหญ่ขึ้น ตึงมากขึ้น = คุมลูกแม่นขึ้น</div>
             <div class="small muted">กรอบทางการของไม้ ${res.range[0] ? res.range[0] + '–' : '≤ '}${res.range[1]} lbs${s.tensionMax ? `, เพดานเอ็น ${s.tensionMax} lbs` : ''}</div>
             <ul class="reasons">${res.reasons.map(([k, t]) => `<li><span class="${k}">${k === 'ok' ? '✓' : '!'}</span><span>${esc(t)}</span></li>`).join('') || '<li class="muted">ไม่มีข้อสังเกตเพิ่มเติม</li>'}</ul>
@@ -731,9 +783,9 @@
         </div>
       </section>
       <h2>เอ็นอื่นที่น่าสนใจกับไม้นี้</h2>
-      <div class="alts">${alt(altS, 's')}</div>
+      <div class="alts">${goals.map(([tag, a]) => altRow(a, 's', tag)).join('')}</div>
       <h2 style="margin-top:20px">ไม้อื่นที่เข้ากับเอ็นนี้ + ระดับ/สไตล์ของคุณ</h2>
-      <div class="alts">${alt(altR, 'r')}</div>
+      <div class="alts">${altR.map(a => altRow(a, 'r')).join('')}</div>
       <p class="note">คะแนนและปอนด์ที่แนะนำคำนวณจากสเปกไม้ คะแนนเอ็น และระดับ/สไตล์ที่เลือก ไม่ใช่ตัวเลขที่ผู้ผลิตประกาศ ควรปรึกษาช่างขึงเอ็นประกอบ</p>`;
   }
 

@@ -6,7 +6,8 @@ NOISE = r'badminton|racket|recket|racquet|free!?.*$|limited edition|limited|ltd|
 BRAND_WORDS = r'yonex|victor|li-?ning|mizuno|apacs|vs'
 
 ALIASES = [(r'high carbon', 'hc'), (r'sward', 'sword'), (r"lee zii jia'?s( game)?", ' '), (r'tai tzu ying( tribute)?', ' '),
-           (r'pre-?string', ' '), (r'\bseries\b', ' '), (r'\bjin hong\b', ' '), (r'\bgen ?3\b', ' '), (r'\btk-(?=[a-z])', 'thruster '), (r'\bthruster k\b', 'thruster'), (r'\bars-', 'auraspeed '), (r'\bastrox 22\b(?! rx)', 'astrox 22 rx'), (r'\bdragon primer\b', 'dragon p'), (r'\bhammer light\b', 'hmr light'), (r'\bkrisssword\b', 'kriss sword')]
+           (r'pre-?string', ' '), (r'\bseries\b', ' '), (r'\bjin hong\b', ' '), (r'\bgen ?3\b', ' '), (r'\btk-(?=[a-z])', 'thruster '), (r'\bthruster k\b', 'thruster'), (r'\bars-', 'auraspeed '), (r'\bastrox 22\b(?! rx)', 'astrox 22 rx'), (r'\bdragon primer\b', 'dragon p'), (r'\bhammer light\b', 'hmr light'), (r'\bkrisssword\b', 'kriss sword'),
+           (r'\bblade x\b', 'bladex'), (r'\bdrive x\b', 'drivex'), (r'\bbravesword\b', 'brave sword'), (r'\bkingkong\b', 'king kong'), (r'\bwindspeed\b', 'wind speed')]
 SKIP = r'^x |\bx (doraemon|ultraman|one piece|demon slayer|pokemon|butterbear|dragon ball|b\.duck)|merchandise|world tour finals|china open|training|felet|kumpoo|starbucks|^all|^flare$|^woven$|^$|drm set|gb$|^astrox (clear|feel)$|hmr light mi|hwqkl|^astrox 88 tour$'
 
 def clean(title):
@@ -22,14 +23,44 @@ def clean(title):
 def key(s):
     return re.sub(r'[^a-z0-9]', '', s.lower())
 
+ROMAN = {'ii': '2', 'iii': '3', 'iv': '4'}
 def tokens(s):
-    return re.findall(r'[a-z]+|\d+(?:\.\d+)?', clean(s))
+    # generations compare as digits on both sides: "Astrox III DG" = "Astrox 3 DG", "Ryuga Muse 2" = "Ryuga Muse II"
+    return [ROMAN.get(w, w) for w in re.findall(r'[a-z]+|\d+(?:\.\d+)?', clean(s))]
+
+# a word right after the model name that makes it another model: "Axforce 30 Ex-Light", "Calibar 300 Combat", "F Claw Ultra"
+VARIANT = {'boost', 'combat', 'instinct', 'drive', 'ex', 'gen', 'plus', 'ultra', 'metallic', 'max', 'cl', 'se', 'light', 'lite', 'pro', 'speed', 'power'}
+# "Light Beige", "Metallic Light Blue": a variant word followed by a colour is part of the colourway
+LIGHT_COLOUR = r'(?:\s+(?:light|metallic|grayish|peach|' + COLOURS + r'))*\s+(?:' + COLOURS + r'|peach|grayish|beige)\b'
+
+def variant_after(title, name):
+    """True when the title names a variant of name rather than name itself."""
+    tt, nt = tokens(title), tokens(name)
+    for i in range(len(tt) - len(nt) + 1):
+        if tt[i:i + len(nt)] != nt: continue
+        nxt = tt[i + len(nt)] if i + len(nt) < len(tt) else None
+        after = tt[i + len(nt) + 1] if i + len(nt) + 1 < len(tt) else None
+        # "Light Beige" is a colour, not the light version
+        if nxt in VARIANT and re.search(r'\b' + nxt + LIGHT_COLOUR + r'|light in the dark', title.lower()): return False
+        # "K6L Light": the L already says light
+        if nxt in ('light', 'lite') and re.fullmatch(r'\w*\dl', nt[-1] if len(nt[-1]) > 1 else ''.join(nt[-2:])): return False
+        if nxt in VARIANT: return True
+        # a generation after the name ("Windstorm 700 IV", "Superlite II"), but not "3rd Gen" or a code like "3AX99"
+        if nxt and nxt.isdigit() and len(nxt) == 1 and (after is None or after in VARIANT or after.isdigit()): return True
+        # a letter glued to the model number ("900B", "9F", "72S") is another model
+        if nt[-1].isdigit() and re.search(r'(?<![\d.])' + nt[-1] + r'[a-z]\b', clean(title)): return True
+        return False
+    return False
 
 def match(title, names):
-    """names: {model name: model}. The longest model name whose tokens run, in order, inside the title's tokens wins."""
+    """names: {model name: model}. The longest model name whose tokens run, in order, inside the title's tokens wins,
+    unless the title goes on to name a variant of it."""
     tt = ' ' + ' '.join(tokens(title)) + ' '
-    fwd = [n for n in names if tokens(n) and ' ' + ' '.join(tokens(n)) + ' ' in tt]
-    return (max(fwd, key=lambda n: len(tokens(n))) if fwd else None), key(clean(title))
+    # a name that cleaning cuts to one word ("JPX Limited Edition" -> "jpx") would match the whole series
+    fwd = [n for n in names if tokens(n) and not (len(tokens(n)) == 1 and re.search(NOISE, n.lower())) and ' ' + ' '.join(tokens(n)) + ' ' in tt]
+    best = max(fwd, key=lambda n: len(tokens(n))) if fwd else None
+    if best and variant_after(title, best): best = None
+    return best, key(clean(title))
 
 def skip(title):
     return bool(re.search(SKIP, clean(title))) or bool(re.search(r'maxbolt|felet|kumpoo|training racket|gift box|box set|merchandise', (title or '').lower()))

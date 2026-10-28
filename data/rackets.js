@@ -358,7 +358,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "advanced",
   "weights": "4U",
-  "weight": 85,
+  "weight": 84,
   "grips": "G1",
   "tension": [
    null,
@@ -2282,7 +2282,7 @@ window.RACKETS = [
   ],
   "price": 1390,
   "frame": "Japan High Modulus Graphite",
-  "shaft": "DuraPro Carbon + CCT + Taper Shaft",
+  "shaft": "",
   "joint": "",
   "length": "672 mm",
   "pattern": "",
@@ -2295,7 +2295,7 @@ window.RACKETS = [
   "officialUrl": "",
   "specSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/Apacs-Nano-Fusion-722.html",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4982",
-  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-fusion-speed-722-pro-durapro-cct-white-badminton-racket.html",
+  "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
   "priceNote": "",
@@ -5308,7 +5308,7 @@ window.RACKETS = [
   "level": "pro",
   "weights": "4U",
   "weight": 83,
-  "grips": "G5",
+  "grips": "",
   "tension": [
    null,
    32
@@ -5333,7 +5333,7 @@ window.RACKETS = [
   "shopLinks": [
    {
     "shop": "sportsshop.asia",
-    "url": "https://sportsshop.asia/products/li-ning-3d-calibar-900i-badminton-racket-unstrung-black-gold"
+    "url": "https://sportsshop.asia/products/li-ning-3d-calibar-900-badminton-racket-unstrung-gold-grey"
    },
    {
     "shop": "sg.lining.studio",
@@ -5411,12 +5411,12 @@ window.RACKETS = [
   "level": "pro",
   "weights": "3U",
   "weight": 87,
-  "grips": "G6",
+  "grips": "",
   "tension": [
    null,
    32
   ],
-  "price": 5250,
+  "price": 3550,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -5436,15 +5436,15 @@ window.RACKETS = [
   "shopLinks": [
    {
     "shop": "sg.lining.studio",
-    "url": "https://sg.lining.studio/products/aeronaut-6000-combat"
+    "url": "https://sg.lining.studio/products/aeronaut-6000"
    },
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/aeronaut-6000"
    }
   ],
-  "priceNote": "แปลงจาก S$199.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://sg.lining.studio/products/aeronaut-6000-combat",
+  "priceNote": "แปลงจาก ₹9,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/aeronaut-6000",
   "note": "",
   "est": [
    "price"
@@ -5502,7 +5502,7 @@ window.RACKETS = [
    null,
    32
   ],
-  "price": 26330,
+  "price": 4110,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -5529,8 +5529,8 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/aeronaut-7000-boost"
    }
   ],
-  "priceNote": "แปลงจาก S$999.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://sg.lining.studio/products/aeronaut-7000-boost",
+  "priceNote": "แปลงจาก ₹11,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/aeronaut-7000-boost",
   "note": "",
   "est": [
    "price"
@@ -5546,7 +5546,7 @@ window.RACKETS = [
   "flex": "flexible",
   "level": "pro",
   "weights": "3U, 4U",
-  "weight": 83,
+  "weight": 87,
   "grips": "G6",
   "tension": [
    null,
@@ -5572,7 +5572,7 @@ window.RACKETS = [
   "shopLinks": [
    {
     "shop": "sportsshop.asia",
-    "url": "https://sportsshop.asia/products/li-ning-aeronaut-9000c-3u-badminton-racket-unstrung-navy-red"
+    "url": "https://sportsshop.asia/products/li-ning-aeronaut-9000-4u-badminton-racket-unstrung-golden"
    },
    {
     "shop": "sg.lining.studio",
@@ -5586,7 +5586,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "weight"
+  ]
  },
  {
   "id": "li-ning-aeronaut-9000-combat",
@@ -5736,7 +5738,7 @@ window.RACKETS = [
    },
    {
     "shop": "in.lining.studio",
-    "url": "https://in.lining.studio/products/axforce-100-max"
+    "url": "https://in.lining.studio/products/axforce-100-3u"
    }
   ],
   "priceNote": "",
@@ -5868,14 +5870,10 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-axforce-30/",
   "officialUrl": "",
   "specSrc": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5130",
+  "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
-   {
-    "shop": "sportsshop.asia",
-    "url": "https://sportsshop.asia/products/li-ning-axforce-30-ex-light-badminton-racket-unstrung-neon-pink"
-   },
    {
     "shop": "sg.lining.studio",
     "url": "https://sg.lining.studio/products/axforce-30-5u"
@@ -6094,10 +6092,10 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
-  "length": "675 mm",
+  "length": "",
   "pattern": "",
   "tech": "Wing Stabilizer · Turbo Charging",
-  "players": "Launched in August 2026, the Li-Ning Axforce 80 Gen 2 is a new-generation attacking racquet endorsed by Olympic Champion Chen Long. It combines powerful performance with improved stability and control for modern attacking play.",
+  "players": "",
   "madeIn": "Japan",
   "recString": "Aerobite (คุม), BG66 Ultimax (พลัง)",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-axforce-80-169x300.webp",
@@ -6114,11 +6112,11 @@ window.RACKETS = [
    },
    {
     "shop": "badmintonclick.com.au",
-    "url": "https://badmintonclick.com.au/products/li-ning-axforce-80-gen-2-83-grams-badminton-racquet"
+    "url": "https://badmintonclick.com.au/products/new-2022-li-ning-axforce-80-83-grams-badminton-racquet"
    },
    {
     "shop": "sg.lining.studio",
-    "url": "https://sg.lining.studio/products/axforce-80-cl"
+    "url": "https://sg.lining.studio/products/axforce-80-3u"
    },
    {
     "shop": "in.lining.studio",
@@ -6841,7 +6839,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "pro",
   "weights": "4U, 3U",
-  "weight": 83,
+  "weight": 88,
   "grips": "G5",
   "tension": [
    null,
@@ -7162,7 +7160,7 @@ window.RACKETS = [
   "year": "",
   "style": "speed",
   "balance": "head-light",
-  "flex": "medium",
+  "flex": "stiff",
   "level": "pro",
   "weights": "5U",
   "weight": 79,
@@ -7187,11 +7185,15 @@ window.RACKETS = [
   "specSrc": "",
   "shopUrl": "",
   "bayUrl": "",
-  "clickUrl": "",
+  "clickUrl": "https://badmintonclick.com.au/products/li-ning-blade-x-800-speed-83-grams-badminton-racquet",
   "shopLinks": [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/li-ning-bladex-800-speed-badminton-racket-unstrung-storm-blue"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/li-ning-blade-x-800-speed-83-grams-badminton-racquet"
    },
    {
     "shop": "sg.lining.studio",
@@ -7215,7 +7217,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "stiff",
-  "level": "pro",
+  "level": "advanced",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -7225,7 +7227,7 @@ window.RACKETS = [
   ],
   "price": 7100,
   "frame": "M46X + ULTRA Carbon Fibre / T1100 Shaft",
-  "shaft": "T1100 high-modulus carbon fibre + ULTRA high-elastic carbon fibre + HDF shock absorption layer",
+  "shaft": "T1100 Carbon Fiber + High-Density Shock-Absorbing Material",
   "joint": "",
   "length": "675 mm",
   "pattern": "",
@@ -7239,11 +7241,15 @@ window.RACKETS = [
   "specSrc": "https://in.lining.studio/products/bladex-880-shida",
   "shopUrl": "",
   "bayUrl": "",
-  "clickUrl": "",
+  "clickUrl": "https://badmintonclick.com.au/products/li-ning-bladex-880-shida-chiharu-83-grams-badminton-racquet",
   "shopLinks": [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/li-ning-bladex-880-shida-badminton-racket-unstrung-pearl-white"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/li-ning-bladex-880-shida-chiharu-83-grams-badminton-racquet"
    },
    {
     "shop": "in.lining.studio",
@@ -7276,7 +7282,7 @@ window.RACKETS = [
   ],
   "price": 9718,
   "frame": "Carbon Fibre",
-  "shaft": "6.6mm.",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -7288,7 +7294,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/lining-bladex-900/",
   "officialUrl": "",
   "specSrc": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3622",
+  "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
@@ -7529,7 +7535,7 @@ window.RACKETS = [
   "level": "intermediate",
   "weights": "5U",
   "weight": 79,
-  "grips": "G6",
+  "grips": "",
   "tension": [
    null,
    30
@@ -7712,7 +7718,7 @@ window.RACKETS = [
   "year": 2024,
   "style": "control",
   "balance": "even",
-  "flex": "medium",
+  "flex": "stiff",
   "level": "pro",
   "weights": "5U",
   "weight": 78,
@@ -8001,7 +8007,7 @@ window.RACKETS = [
   "year": 2023,
   "style": "control",
   "balance": "even",
-  "flex": "medium",
+  "flex": "stiff",
   "level": "pro",
   "weights": "4U",
   "weight": 84,
@@ -8504,11 +8510,11 @@ window.RACKETS = [
   "shopLinks": [
    {
     "shop": "sg.lining.studio",
-    "url": "https://sg.lining.studio/products/tectonic-7d"
+    "url": "https://sg.lining.studio/products/tectonic-7"
    },
    {
     "shop": "in.lining.studio",
-    "url": "https://in.lining.studio/products/tectonic-7-drive"
+    "url": "https://in.lining.studio/products/tectonic-7"
    }
   ],
   "priceNote": "แปลงจาก S$259.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -8607,11 +8613,11 @@ window.RACKETS = [
    },
    {
     "shop": "sg.lining.studio",
-    "url": "https://sg.lining.studio/products/windstorm-700-iv"
+    "url": "https://sg.lining.studio/products/windstorm-700-special-edition"
    },
    {
     "shop": "in.lining.studio",
-    "url": "https://in.lining.studio/products/windstorm-700-iv"
+    "url": "https://in.lining.studio/products/windstorm-700-special-edition"
    }
   ],
   "priceNote": "",
@@ -9025,7 +9031,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "advanced",
   "weights": "4U",
-  "weight": 85,
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -9060,7 +9066,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -9635,7 +9642,7 @@ window.RACKETS = [
    null,
    27
   ],
-  "price": 6952,
+  "price": 6930,
   "frame": "VA POLYMER, High Modulus Graphite, Graphite",
   "shaft": "",
   "joint": "",
@@ -9649,15 +9656,16 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/mizuno-altius-n-feel/",
   "officialUrl": "",
   "specSrc": "https://jpn.mizuno.com/badminton/shop/products/Nfeel/",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5075",
+  "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก ₫5,300,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://jpn.mizuno.com/badminton/shop/products/Nfeel/",
   "note": "",
   "est": [
    "style",
+   "price",
    "level"
   ]
  },
@@ -9671,7 +9679,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "intermediate",
   "weights": "4U",
-  "weight": 85,
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -9683,7 +9691,7 @@ window.RACKETS = [
   "joint": "",
   "length": "675 mm",
   "pattern": "",
-  "tech": "V-Frame",
+  "tech": "Power Balance Grommet",
   "players": "",
   "madeIn": "",
   "recString": "",
@@ -9697,7 +9705,7 @@ window.RACKETS = [
   "shopLinks": [
    {
     "shop": "sportsshop.asia",
-    "url": "https://sportsshop.asia/products/mizuno-caliber-s-boost-2-badminton-racket-unstrung-silver-metallic-powder-orange-glow"
+    "url": "https://sportsshop.asia/products/mizuno-caliber-s-boost-badminton-racket-unstrung"
    }
   ],
   "priceNote": "แปลงจาก ₫1,849,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -9706,7 +9714,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -9731,7 +9740,7 @@ window.RACKETS = [
   "joint": "",
   "length": "675 mm",
   "pattern": "",
-  "tech": "",
+  "tech": "V-Frame",
   "players": "",
   "madeIn": "",
   "recString": "",
@@ -9742,7 +9751,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/mizuno-caliber-s-boost-2-badminton-racket-unstrung-silver-metallic-powder-orange-glow"
+   }
+  ],
   "priceNote": "แปลงจาก ₫2,100,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/caliber-s-boost-2-73mtb524-2025aw",
   "note": "",
@@ -9763,7 +9777,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "intermediate",
   "weights": "4U",
-  "weight": 85,
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -9798,7 +9812,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -9898,7 +9913,7 @@ window.RACKETS = [
   "flex": "flexible",
   "level": "intermediate",
   "weights": "5U",
-  "weight": 80,
+  "weight": 78,
   "grips": "",
   "tension": [
    null,
@@ -9931,7 +9946,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weight"
   ]
  },
  {
@@ -10265,7 +10281,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "intermediate",
   "weights": "4U",
-  "weight": 85,
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -10300,7 +10316,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -10313,41 +10330,37 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "advanced",
   "weights": "4U, 3U",
-  "weight": 90,
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
    30
   ],
   "price": 3990,
-  "frame": "Japan HMG T46",
-  "shaft": "Japan HMG T30",
+  "frame": "",
+  "shaft": "",
   "joint": "",
-  "length": "675 mm",
+  "length": "",
   "pattern": "",
-  "tech": "3D Power Matrix",
+  "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "https://www.badmintonplaza.com/images/JPX-LTD-CT-A.jpg",
+  "img": "",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=5077",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5078",
+  "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": [
-   {
-    "shop": "sportsshop.asia",
-    "url": "https://sportsshop.asia/products/mizuno-jpx-10-5-at-mz-bf2394-badminton-racket-steel-grey-black-red-unstrung"
-   }
-  ],
+  "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
   "est": [
    "style",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -10451,7 +10464,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "advanced",
   "weights": "4U",
-  "weight": 85,
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -10486,7 +10499,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -10499,7 +10513,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "intermediate",
   "weights": "4U",
-  "weight": 85,
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -10534,7 +10548,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -10645,7 +10660,7 @@ window.RACKETS = [
   "flex": "flexible",
   "level": "beginner",
   "weights": "5U",
-  "weight": 80,
+  "weight": 78,
   "grips": "",
   "tension": [
    null,
@@ -10679,7 +10694,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -13211,11 +13227,11 @@ window.RACKETS = [
   ],
   "price": 1990,
   "frame": "30T Mitsubishi Carbon Sheet",
-  "shaft": "",
+  "shaft": "30T Mitsubishi Carbon Sheet",
   "joint": "",
   "length": "675mm",
   "pattern": "",
-  "tech": "",
+  "tech": "2 in 1 Frame ,New Octagon Medium Tube,C60-Fullerene",
   "players": "",
   "madeIn": "",
   "recString": "",
@@ -13226,7 +13242,12 @@ window.RACKETS = [
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4215",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/kingkong-x1"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -13252,11 +13273,11 @@ window.RACKETS = [
   ],
   "price": 2190,
   "frame": "30T Mitsubushi Carbon Sheet",
-  "shaft": "",
+  "shaft": "40T Mitsubishi Carbon Sheet",
   "joint": "",
   "length": "675mm",
   "pattern": "",
-  "tech": "",
+  "tech": "3 in 1 Frame ,Octagon Medium Tube ,Homogeneous Tech ,High Carbon Grip",
   "players": "",
   "madeIn": "",
   "recString": "",
@@ -13267,7 +13288,12 @@ window.RACKETS = [
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4783",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/kingkong-x2-ltd"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -14850,11 +14876,11 @@ window.RACKETS = [
   ],
   "price": 1590,
   "frame": "30T Japan High Modulus Graphite",
-  "shaft": "",
+  "shaft": "30T Mitsubishi Carbon Sheet",
   "joint": "",
   "length": "675 mm",
   "pattern": "",
-  "tech": "",
+  "tech": "Wind Cutting Frame,Nano Carbon Tube",
   "players": "",
   "madeIn": "",
   "recString": "",
@@ -14865,7 +14891,12 @@ window.RACKETS = [
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3376",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/windspeed-f9x"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -15830,10 +15861,6 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/auraspeed-9-t"
-   },
-   {
-    "shop": "badmintonwarehouse.com",
-    "url": "https://badmintonwarehouse.com/products/victor-auraspeed-9-badminton-racket"
    }
   ],
   "priceNote": "",
@@ -15871,7 +15898,7 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-auraspeed-9000/",
   "officialUrl": "",
   "specSrc": "https://www.sakurasport.com/en/1483-auraspeed-9000-g-badminton-racket-victor-4711499038523.html",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5191",
+  "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
@@ -16285,7 +16312,7 @@ window.RACKETS = [
   "name": "Auraspeed Fantome",
   "year": 2025,
   "style": "speed",
-  "balance": "head-heavy",
+  "balance": "head-light",
   "flex": "stiff",
   "level": "advanced",
   "weights": "4U, 3U",
@@ -16767,7 +16794,7 @@ window.RACKETS = [
    },
    {
     "shop": "nydhi.com",
-    "url": "https://nydhi.com/products/brave-sword-12-light-victor-badminton-rackets"
+    "url": "https://nydhi.com/products/brave-sword-12n-victor-badminton-rackets"
    }
   ],
   "priceNote": "",
@@ -16783,8 +16810,8 @@ window.RACKETS = [
   "name": "Brave Sword 12 Pro",
   "year": "",
   "style": "allround",
-  "balance": "even",
-  "flex": "",
+  "balance": "head-light",
+  "flex": "medium",
   "level": "advanced",
   "weights": "4U",
   "weight": 82,
@@ -16794,8 +16821,8 @@ window.RACKETS = [
    30
   ],
   "price": 4990,
-  "frame": "",
-  "shaft": "",
+  "frame": "High Modulus Graphite",
+  "shaft": "Ultra Elastic Graphite",
   "joint": "",
   "length": "675 mm",
   "pattern": "",
@@ -16810,12 +16837,16 @@ window.RACKETS = [
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4378",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-bravesword-12-pro-badminton-racket"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance",
    "style",
    "level"
   ]
@@ -17013,7 +17044,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "pro",
   "weights": "4U, 3U",
-  "weight": 84,
+  "weight": 83,
   "grips": "G5",
   "tension": [
    null,
@@ -17062,7 +17093,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weight"
   ]
  },
  {
@@ -17620,6 +17652,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "flex",
    "level"
   ]
  },
@@ -17726,7 +17759,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "advanced",
   "weights": "4U",
-  "weight": 80,
+  "weight": 83,
   "grips": "G5",
   "tension": [
    null,
@@ -17760,7 +17793,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -18063,29 +18097,29 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "advanced",
   "weights": "4U",
-  "weight": 78,
-  "grips": "G6",
+  "weight": 83,
+  "grips": "G5",
   "tension": [
    null,
    31
   ],
   "price": 5390,
-  "frame": "High Resilience Modulus Graphite + Nano Fortify TR + 46T PYROFIL + NANO AEROGEL + HARD CORED TECHNOLOGY",
-  "shaft": "High ResilienceModulus Graphite + 46TPYROFIL + Metallic Carbon Fiber + 5.6 SHAFT",
+  "frame": "High Resilience Modulus Graphite +PYROFIL +HARD CORED TECHNOLOGY",
+  "shaft": "High Resilience Modulus Graphite + PYROFIL  + 6.4 SHAFT",
   "joint": "",
   "length": "675 mm",
   "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "",
-  "recString": "Aerobite (คุม), BG Exbolt 63 (พลัง)",
+  "recString": "",
   "img": "https://www.badmintonplaza.com/images/TK-FC-A-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=3302",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3302",
   "bayUrl": "",
-  "clickUrl": "https://badmintonclick.com.au/products/victor-thruster-f-claw-ultra-78-grams-badminton-racquet",
+  "clickUrl": "",
   "shopLinks": [
    {
     "shop": "th.victorsport.com",
@@ -18098,10 +18132,6 @@ window.RACKETS = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-thruster-f-claw-ltd-badminton-racket-unstrung"
-   },
-   {
-    "shop": "badmintonclick.com.au",
-    "url": "https://badmintonclick.com.au/products/victor-thruster-f-claw-ultra-78-grams-badminton-racquet"
    }
   ],
   "priceNote": "",
@@ -18109,7 +18139,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -19764,7 +19795,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "advanced",
   "weights": "4U",
-  "weight": 80,
+  "weight": 83,
   "grips": "G5",
   "tension": [
    null,
@@ -19801,7 +19832,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weight"
   ]
  },
  {
@@ -19814,7 +19846,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "advanced",
   "weights": "4U",
-  "weight": 80,
+  "weight": 83,
   "grips": "G5",
   "tension": [
    null,
@@ -19852,7 +19884,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -20082,10 +20115,10 @@ window.RACKETS = [
   "price": 2090,
   "frame": "HT Graphite",
   "shaft": "Graphite",
-  "joint": "",
+  "joint": "NEW Built-In T-Joint, T-ANCHOR",
   "length": "10 mm longer",
   "pattern": "",
-  "tech": "",
+  "tech": "AERO + BOX Frame",
   "players": "",
   "madeIn": "China",
   "recString": "Control Players: NANOGY 98 Hard Hitters: NANOGY 95",
@@ -20096,7 +20129,16 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-arcsaber-2-ability-black-pink-4ug5-badminton-racket.html",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-arcsaber-2-ability-badminton-racket"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/yonex-arcsaber-2-ability-badminton-racket-black-pink-unstrung"
+   }
+  ],
   "priceNote": "แปลงจาก US$62.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.nydhi.com/collections/new-products/products/yonex-arcsaber-2-ability-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
@@ -20137,7 +20179,16 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-arcsaber-2-clear-black-blue-4ug5-badminton-racket.html",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-arcsaber-2-clear-badminton-racket"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/yonex-arcsaber-2-clear-badminton-racket-black-blue-unstrung"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -20154,7 +20205,7 @@ window.RACKETS = [
   "level": "beginner",
   "weights": "4U",
   "weight": 82,
-  "grips": "",
+  "grips": "G5",
   "tension": [
    20,
    30
@@ -20165,7 +20216,7 @@ window.RACKETS = [
   "joint": "",
   "length": "10 mm longer",
   "pattern": "",
-  "tech": "",
+  "tech": "AERO + BOX Frame",
   "players": "",
   "madeIn": "China",
   "recString": "Control Players: NANOGY 98 Hard Hitters: NANOGY 95",
@@ -20176,11 +20227,21 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-arcsaber-2-feel-black-green-4ug5-badminton-racket.html",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-arcsaber-2-feel-badminton-racket"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/yonex-arcsaber-2-feel-badminton-racket-black-green-unstrung"
+   }
+  ],
   "priceNote": "แปลงจาก RM199.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/yonex-arcsaber-2-feel-black-green-4ug5-badminton-racket.html",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
+   "weight",
    "price"
   ]
  },
@@ -21159,7 +21220,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-3dg-hf-blue-white-4ug5-badminton-racket.html",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/copy-of-yonex-astrox-e13-badminton-racket-black-blue"
+   }
+  ],
   "priceNote": "แปลงจาก ₹4,199.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://scssports.in/collections/yonex/products/yonex-astrox-3-dg-hf-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
@@ -21183,7 +21249,7 @@ window.RACKETS = [
    20,
    35
   ],
-  "price": "",
+  "price": 2080,
   "frame": "HM Graphite, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
   "joint": "Built-in T-Joint",
@@ -21200,11 +21266,18 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/yonex-astrox-3-dg-st-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก S$79.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/yonex-astrox-3-dg-st-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "yonex-astrox-7-dg",
@@ -22430,7 +22503,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "advanced",
   "weights": "",
-  "weight": 90,
+  "weight": 150,
   "grips": "G4, G5",
   "tension": [
    20,
@@ -22449,7 +22522,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-isometric-tr0-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-isometric-tr0/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/iso-tr0",
-  "specSrc": "",
+  "specSrc": "https://badmintonwarehouse.com/products/yonex-isometric-tr0-training-badminton-racket",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -23391,7 +23464,7 @@ window.RACKETS = [
   "flex": "flexible",
   "level": "beginner",
   "weights": "4U",
-  "weight": 84,
+  "weight": 83,
   "grips": "G5",
   "tension": [
    20,

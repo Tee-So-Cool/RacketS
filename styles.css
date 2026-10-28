@@ -177,7 +177,7 @@ table.spec a:hover { text-decoration-color: var(--color-accent-hi); }
 .tray.away { opacity: 0; visibility: hidden; pointer-events: none; }
 
 /* ---------- match ---------- */
-.mgrid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 2fr) repeat(3, minmax(0, 1fr)); gap: var(--space-sm); margin: var(--space-lg) 0; }
+.mgrid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 2fr) repeat(4, minmax(0, 1fr)); gap: var(--space-sm); margin: var(--space-lg) 0; }
 @media (max-width: 52rem) { .mgrid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
 @media (max-width: 30rem) { .mgrid { grid-template-columns: minmax(0, 1fr); } }
 .field label { display: block; font-size: var(--text-sm); font-weight: 500; color: var(--color-muted); margin-bottom: var(--space-2xs); }
@@ -331,6 +331,8 @@ h1, h2, .head .nm, .verdict, .tension, .logo { font-weight: var(--display-weight
 .tag:not(.attack):not(.speed):not(.control):not(.allround) { visibility: hidden; }
 .reasons li > span:last-child { min-width: 0; overflow-wrap: anywhere; }
 .two.solo { grid-template-columns: minmax(0, 1fr); }
+@media (max-width: 52rem) { .two { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 30rem) { .part { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 2rem; } }
 .two.solo .legend { margin-bottom: var(--space-md); }
 
 /* compare tools: copy link */
@@ -376,3 +378,13 @@ h1, h2, .head .nm, .verdict, .tension, .logo { font-weight: var(--display-weight
 /* smaller type by request: every rem size scales from a 15px root, spacing (px) stays */
 html { font-size: 93.75%; }
 body { font-size: var(--text-md); }
+
+/* match score parts and tension steps */
+.parts { display: grid; gap: var(--space-2xs); margin-top: var(--space-lg); max-width: 36rem; }
+.part { display: grid; grid-template-columns: minmax(0, 11rem) minmax(0, 1fr) 2.5rem; align-items: center; gap: var(--space-sm); }
+.part .bar { height: 6px; border-radius: 3px; background: var(--color-paper-3); overflow: hidden; }
+.part .bar i { display: block; height: 100%; width: calc(var(--w) * 1%); background: var(--color-accent); }
+.part b { text-align: right; }
+.steps { list-style: none; padding: 0; margin: var(--space-sm) 0; max-width: 24rem; }
+.steps li { display: flex; justify-content: space-between; gap: var(--space-sm); padding: 2px 0; font-size: var(--text-sm); }
+.steps li b { flex: none; }

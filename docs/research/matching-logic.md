@@ -164,3 +164,13 @@ Inputs: `level`, `style`, racket (`balance`, `flex`, `weight`, `tension [min,max
 - `STYLE_W` is a plain weighted mean with equal weight regardless of level, so a pro is rewarded for durability the same as a beginner.
 - Racket balance, frame weight and head shape are ignored, though they are the main racket-side inputs experts cite (even though the sources for specific pairings are weak).
 - Tension is only reduced for thin gauge; it never goes up for thick strings, and it is floored at the racket minimum even when that exceeds the cap.
+
+## Implemented in app.js (2026-10-28)
+
+- The score is three weighted parts, each 0-100 and shown on the page: string for the player (45%), racket for the player (30%), racket with string (25%).
+- Racket with string adds two rules on top of R1-R3: +25 when the racket's `recString` (maker or shop advice) names the string, and +10 for a flexible shaft with a high-control string in control play. The pair part loses 15 when the racket or string ceiling sits below the level's band (T1, T2).
+- Beginners lose 10 on the racket part for a stiff, head-heavy racket (Q4 retail and Yonex ASTROX 77 text). Advanced and pro players lose 6 on the string part for a gauge of 0.68 or more (S3).
+- The recommended tension is built step by step and every step is shown. The optional hot-humid court toggle adds 1 lb and is labelled as unverified (T7, low).
+- Confidence: the page counts the heavily weighted inputs that are estimates or missing: string ratings with weight 0.1 or more, and racket style, level, balance, flex and max tension. 0-1 such inputs reads "high", 2-3 "medium", more "low".
+- String suggestions by goal come from strings within 10 points of the best match: best overall, most repulsion, most control, most durable, and best value (score per baht, priced strings only). When scores tie, the item with fewer estimated inputs ranks first.
+- Makers do not publish a recommended tension per string. Yonex's Japan string page returned 404, and Victor's product pages give no figure; only retailers quote ranges. So no per-string tension band is used beyond `tensionMax`.

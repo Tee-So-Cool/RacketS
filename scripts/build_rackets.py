@@ -271,6 +271,8 @@ VOFF = os.path.join(SRC, 'victor-official.json')
 shop_pages = (json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) else []) + (json.load(open(SHOPS, encoding='utf-8')) if os.path.exists(SHOPS) else [])
 shops = [x for x in (from_shop(p) for p in shop_pages) if x]
 bay_hits = {'bay': 0, 'click': 0, 'shop': 0}
+AUDIT = {'matched': collections.defaultdict(list), 'unmatched': []}  # AUDIT=<path> writes every shop value per model
+cands = collections.defaultdict(lambda: collections.defaultdict(list))  # model id -> field -> [(value, from prose)] in source order
 for bz in bay + click + shops:
     if bz.get('src') == 'click':
         # "NEW 2027 Victor Thruster Ryuga 3 (78 grams) Badminton Racquet": drop the shop's framing before matching
@@ -279,7 +281,8 @@ for bz in bay + click + shops:
         bz['name'] = re.sub(r'(?<=[A-Za-z]) ([2-4])\b(?! ?[\d.])', lambda m: ' ' + {'2': 'II', '3': 'III', '4': 'IV'}[m.group(1)], bz['name'])
     pool = {r['name']: r for r in rackets.values() if r['brand'] == bz['brand']}
     m, _ = pmatch(bz['name'], pool)
-    if not m: continue
+    if not m:
+        AUDIT['unmatched'].append({'brand': bz['brand'], 'name': bz['name'], 'url': bz['url'], 'src': bz.get('src', 'bay')}); continue
     r = pool[m]; bay_hits[bz.get('src', 'bay')] += 1
     ws, g = weights(bz.get('weight', ''))
     if bz.get('src') == 'shop':
@@ -297,15 +300,19 @@ for bz in bay + click + shops:
             'recString': bz.get('recText') or ', '.join(f'{v} ({k})' for k, v in (('คุม', bz.get('strControl')), ('พลัง', bz.get('strPower'))) if v),
             'joint': bz.get('joint', ''), 'madeIn': bz.get('madeIn', ''), 'tech': bz.get('tech', ''), 'players': bz.get('players', ''),
             'pattern': bz.get('pattern', '')}
+    AUDIT['matched'][r['brand'] + ' ' + r['name']].append({'src': bz.get('shop') or bz.get('src', 'bay'), 'title': bz['name'], 'url': bz['url'],
+        'fill': {f: v for f, v in fill.items() if v not in ('', None) and f != 'img'}})
+    prose = bz['parsed']['fromProse'] if bz.get('src') == 'shop' else []
     for f, v in fill.items():
-        if v not in ('', None) and (r.get(f) in ('', None) or f in r.get('est', []) or f in r.get('proseEst', [])):
-            r[f] = v
-            if f in r.get('est', []): r['est'].remove(f)
-            if f in r.get('proseEst', []): r['proseEst'].remove(f)
-            # flex read from a shop's prose agreed with other sources only about 3 times in 4, so it stays an estimate
-            # prose max tension agreed 61% (often another weight class), so it stays an estimate too
-            if bz.get('src') == 'shop' and {'flex': 'flex', 'tension': 'tmax'}.get(f) in bz['parsed']['fromProse']:
-                r.setdefault('proseEst', []).append(f)
+        if v in ('', None): continue
+        # flex read from a shop's prose agreed with other sources only about 3 times in 4, so it stays an estimate
+        # prose max tension agreed 61% (often another weight class), so it stays an estimate too
+        src = {'click': 'badmintonclick.com.au'}.get(bz.get('src'), bz.get('shop') or bz.get('src', 'bay'))
+        # one vote per shop, however many colourway pages it lists
+        if src not in [c[2] for c in cands[id(r)][f]]:
+            cands[id(r)][f].append((v, {'flex': 'flex', 'tension': 'tmax'}.get(f) in prose, src))
+    # a placeholder price (S$999 on Li-Ning's store) is not a price
+    if bz.get('price') in (999, 999.0, 9999, 9999.0): bz = {**bz, 'price': ''}
     if bz.get('price') and bz.get('currency') == 'THB' and not r.get('price'):
         r['price'] = int(bz['price'])  # a Thai shop's price is a real baht price
     elif bz.get('price') and not r.get('priceForeign'):
@@ -315,7 +322,39 @@ for bz in bay + click + shops:
         if bz['shop'] not in [l['shop'] for l in links]: links.append({'shop': bz['shop'], 'url': bz['url']})
     else:
         r.setdefault('clickUrl' if bz.get('src') == 'click' else 'bayUrl', bz['url'])
-print('shop spec layers matched', bay_hits)
+# when shops disagree, the value most of them give wins; a tie goes to the earlier source (the maker's own pages come first).
+# A labelled value outvotes prose. For grams, the 4U figure counts over a 3U one when the model comes in 4U.
+by_id = {id(r): r for r in rackets.values()}
+voted = 0
+for rid, fields in cands.items():
+    r = by_id[rid]
+    for f, vs in fields.items():
+        pool = [x for x in vs if not x[1]] or vs
+        if not (r.get(f) in ('', None) or f in r.get('est', []) or f in r.get('proseEst', [])):
+            # three or more shops' labelled specs agreeing (3 in 4 at least) outweigh one aggregator's balance or flex;
+            # Yonex's own site is the source for Yonex, so it stays
+            lab = [json.dumps(v) for v, p, _ in vs if not p]
+            top = collections.Counter(lab).most_common(1)
+            if f in ('balance', 'flex') and r['brand'] != 'Yonex' and top and top[0][1] >= 3 and top[0][1] >= 0.75 * len(lab) \
+                    and json.loads(top[0][0]) != r[f]:
+                print('shops outvote', r['brand'], r['name'], f, r[f], '->', json.loads(top[0][0]), dict(collections.Counter(lab)))
+                r[f] = json.loads(top[0][0]); voted += 1
+            continue
+        if f == 'weight' and '4U' in str(fields.get('weights', [('',)])[0][0]):
+            pool = [x for x in pool if 80 <= x[0] <= 84] or pool
+        # free text (materials, tech) is rarely written the same way twice, so the first source keeps it
+        if f in ('frame', 'shaft', 'joint', 'tech', 'players', 'pattern', 'recString', 'img'): pool = pool[:1]
+        n = collections.Counter(json.dumps(v) for v, _, _ in pool)
+        top = max(n.values())
+        v, from_prose, _ = next(x for x in pool if n[json.dumps(x[0])] == top)
+        if len(n) > 1: voted += 1
+        r[f] = v
+        if f in r.get('est', []): r['est'].remove(f)
+        if f in r.get('proseEst', []): r['proseEst'].remove(f)
+        # no majority (1 against 1, or 2 against 2): the pick is a guess, so it shows as an estimate
+        if from_prose or (f in ('balance', 'flex', 'weight', 'tension') and top * 2 <= len(pool)): r.setdefault('proseEst', []).append(f)
+print('shop spec layers matched', bay_hits, 'fields settled by vote', voted)
+if os.environ.get('AUDIT'): json.dump(AUDIT, open(os.environ['AUDIT'], 'w'), ensure_ascii=False, indent=1)
 
 # ---- series-based estimates for missing style/balance (flagged in r['est']) ----
 SERIES = [

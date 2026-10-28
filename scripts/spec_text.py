@@ -76,6 +76,8 @@ def weights_of(t):
     return ', '.join(u + 'U' for u in us)
 
 def grams_of(t):
+    # a range ("4U (80-84g)") is the weight class, not a figure: its ends are not the racket's weight
+    t = re.sub(r'\d{2}(?:[.,]\d)?\s*(?:-|–|~|to)\s*\d{2}(?:[.,]\d)?\s*(?:g|grams?|กรัม)', ' ', t or '')
     # the 4U figure when the text gives several, else the only one
     m = re.search(r'4U[^0-9]{0,6}\(?\s*(?:avg\.?\s*)?(\d{2})(?:[.,]\d)?\s*(?:g|grams?|กรัม)?', t or '')
     if m and 70 <= int(m.group(1)) <= 95: return int(m.group(1))
