@@ -295,7 +295,9 @@ for bz in bay + click + shops:
             if f in r.get('est', []): r['est'].remove(f)
             if f in r.get('proseEst', []): r['proseEst'].remove(f)
             # flex read from a shop's prose agreed with other sources only about 3 times in 4, so it stays an estimate
-            if bz.get('src') == 'shop' and f == 'flex' and f in bz['parsed']['fromProse']: r.setdefault('proseEst', []).append(f)
+            # prose max tension agreed 61% (often another weight class), so it stays an estimate too
+            if bz.get('src') == 'shop' and {'flex': 'flex', 'tension': 'tmax'}.get(f) in bz['parsed']['fromProse']:
+                r.setdefault('proseEst', []).append(f)
     if bz.get('price') and bz.get('currency') == 'THB' and not r.get('price'):
         r['price'] = int(bz['price'])  # a Thai shop's price is a real baht price
     elif bz.get('price') and not r.get('priceForeign'):
