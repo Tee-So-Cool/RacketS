@@ -8,7 +8,13 @@ BRAND_WORDS = r'yonex|victor|li-?ning|mizuno|apacs|vs'
 ALIASES = [(r'high carbon', 'hc'), (r'sward', 'sword'), (r"lee zii jia'?s( game)?", ' '), (r'tai tzu ying( tribute)?', ' '),
            (r'pre-?string', ' '), (r'\bseries\b', ' '), (r'\bjin hong\b', ' '), (r'\bgen ?3\b', ' '), (r'\btk-(?=[a-z])', 'thruster '), (r'\bthruster tk\b', 'thruster'), (r'\bthruster k\b', 'thruster'), (r'\bars-', 'auraspeed '), (r'\bastrox 22\b(?! rx)', 'astrox 22 rx'), (r'\bdragon primer\b', 'dragon p'), (r'\bhammer light\b', 'hmr light'), (r'\bkrisssword\b', 'kriss sword'),
            (r'\bblade x\b', 'bladex'), (r'\bdrive x\b', 'drivex'), (r'\bbravesword\b', 'brave sword'), (r'\bkingkong\b', 'king kong'), (r'\bwindspeed\b', 'wind speed'),
-           (r'\bmax (moon|sun)\b', r'\1 max')]
+           (r'\bmax (moon|sun)\b', r'\1 max'),
+           # strings and shuttles: "VBS 66 Nano" = VBS-66N, "VBS 68 Power" = VBS-68P, NCS = New Carbonsonic,
+           # "Champion 1" = Champion No.1
+           (r'\bvbs[- ]?(\d{2}) ?nano\b', r'vbs \1n'), (r'\bvbs[- ]?(\d{2}) ?power\b', r'vbs \1p'), (r'\bncs\b', 'carbonsonic'),
+           (r'\b(champion|master|gold|tourney) (\d)\b', r'\1 no \2'), (r'#\s?(\d)\b', r'no \1'), (r'\bcarbon ?sonic\b', 'carbonsonic'),
+           (r'\bmavis (\d{3})i\b', r'mavis \1'), (r'\b(?:vns|vsn|ns)-?(2000|3000)\b', r'nylon \1'), (r'\bacb\b', 'aeroclub'),
+           (r'\bas[- ]?(10|20|30|40|50)\b', r'aerosensa \1'), (r'\bbg ?66 ?um\b', 'bg66 ultimax'), (r'\b1/2 doz\w*', ' ')]
 SKIP = r'^x |\bx (doraemon|ultraman|one piece|demon slayer|pokemon|butterbear|dragon ball|b\.duck)|merchandise|world tour finals|china open|training|felet|kumpoo|starbucks|^all|^flare$|^woven$|^$|drm set|gb$|^astrox (clear|feel)$|hmr light mi|hwqkl|^astrox 88 tour$'
 
 def clean(title):

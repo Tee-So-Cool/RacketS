@@ -24,6 +24,9 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/apacs-lethal-63/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "durability",
    "sound",
@@ -52,6 +55,9 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/apacs-lethal-66-offensive/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "shock"
   ]
@@ -78,6 +84,9 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/apacs-nano-fusion-63/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "durability",
    "sound",
@@ -106,6 +115,9 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/apacs-power-66/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "durability",
    "sound",
@@ -134,6 +146,9 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/apacs-pro-commander/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "repulsion",
    "control",
@@ -164,6 +179,9 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/apacs-signature-pro-66/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "sound",
    "shock"
@@ -191,6 +209,9 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/apacs-signature-pro-70/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "sound",
    "shock"
@@ -218,6 +239,9 @@ window.STRINGS = [
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.rakuten.co.jp/auc-nissin-spo-shop/contents/string-reel/",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "repulsion",
    "control",
@@ -240,20 +264,29 @@ window.STRINGS = [
   "sound": 9,
   "shock": 5,
   "tensionMax": "",
-  "price": "",
+  "price": 540,
   "colors": "",
   "madeIn": "",
   "note": "",
-  "img": "",
+  "img": "https://cdn.shopify.com/s/files/1/0009/8235/1923/files/Z63X-10-C-F.jpg?v=1749746742",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.rakuten.co.jp/auc-nissin-spo-shop/contents/string-reel/",
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/kizuna-z63x-badminton-string-cyan"
+   }
+  ],
+  "priceNote": "แปลงจาก US$16.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://racquetguys.com/products/kizuna-z63x-badminton-string-cyan",
   "est": [
    "repulsion",
    "control",
    "durability",
    "sound",
-   "shock"
+   "shock",
+   "price"
   ]
  },
  {
@@ -270,20 +303,29 @@ window.STRINGS = [
   "sound": 8,
   "shock": 6,
   "tensionMax": "",
-  "price": "",
+  "price": 540,
   "colors": "",
   "madeIn": "",
   "note": "",
-  "img": "",
+  "img": "https://cdn.shopify.com/s/files/1/0009/8235/1923/files/Z65X-10-GN-F.jpg?v=1790054574",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.rakuten.co.jp/auc-nissin-spo-shop/contents/string-reel/",
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/kizuna-z65x-badminton-string-light-green"
+   }
+  ],
+  "priceNote": "แปลงจาก US$16.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://racquetguys.com/products/kizuna-z65x-badminton-string-light-green",
   "est": [
    "repulsion",
    "control",
    "durability",
    "sound",
-   "shock"
+   "shock",
+   "price"
   ]
  },
  {
@@ -300,20 +342,221 @@ window.STRINGS = [
   "sound": 8,
   "shock": 5,
   "tensionMax": "",
-  "price": "",
+  "price": 470,
   "colors": "",
   "madeIn": "",
   "note": "Z69 Titanium",
-  "img": "",
+  "img": "https://cdn.shopify.com/s/files/1/0009/8235/1923/files/Z69T-10-RD-F.jpg?v=1749745605",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.rakuten.co.jp/auc-nissin-spo-shop/contents/string-reel/",
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/kizuna-z69t-badminton-string-red"
+   }
+  ],
+  "priceNote": "แปลงจาก US$13.95 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://racquetguys.com/products/kizuna-z69t-badminton-string-red",
   "est": [
    "repulsion",
    "control",
    "durability",
    "sound",
-   "shock"
+   "shock",
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-ap-6",
+  "brand": "Li-Ning",
+  "name": "AP-6",
+  "year": "",
+  "gauge": "",
+  "gaugeText": "",
+  "material": "",
+  "repulsion": "",
+  "control": "",
+  "durability": "",
+  "sound": "",
+  "shock": "",
+  "tensionMax": "",
+  "price": 160,
+  "colors": "",
+  "madeIn": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/axjl054_1_01_01_1_1_5e1e54cfdd.jpg?v=1752145860",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/ap-6-badminton"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/ap-6-badminton"
+   }
+  ],
+  "priceNote": "แปลงจาก S$6.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/ap-6-badminton",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-ap66",
+  "brand": "Li-Ning",
+  "name": "AP66",
+  "year": "",
+  "gauge": "",
+  "gaugeText": "",
+  "material": "mono",
+  "repulsion": "",
+  "control": "",
+  "durability": "",
+  "sound": "",
+  "shock": "",
+  "tensionMax": 26,
+  "price": 240,
+  "colors": "",
+  "madeIn": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/01_c093faef68.jpg?v=1752148661",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/ap66-rainbow"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/ap66-rainbow"
+   }
+  ],
+  "priceNote": "แปลงจาก S$9.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/ap66-rainbow",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-ap66-turbo",
+  "brand": "Li-Ning",
+  "name": "AP66-Turbo",
+  "year": "",
+  "gauge": 0.66,
+  "gaugeText": "",
+  "material": "mono",
+  "repulsion": "",
+  "control": "",
+  "durability": "",
+  "sound": "",
+  "shock": "",
+  "tensionMax": 26,
+  "price": 240,
+  "colors": "",
+  "madeIn": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/01_83bb3b8896.jpg?v=1752148671",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/ap66-turbo"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/a66-turbo"
+   }
+  ],
+  "priceNote": "แปลงจาก S$9.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/ap66-turbo",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-ap7",
+  "brand": "Li-Ning",
+  "name": "AP7",
+  "year": "",
+  "gauge": 0.7,
+  "gaugeText": "",
+  "material": "mono",
+  "repulsion": "",
+  "control": "",
+  "durability": "",
+  "sound": "",
+  "shock": "",
+  "tensionMax": "",
+  "price": 240,
+  "colors": "",
+  "madeIn": "",
+  "note": "",
+  "img": "https://www.badmintonplaza.com/images/AP70-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=222"
+   },
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/ap-7-badminton"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/ap-7-badminton"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
+ },
+ {
+  "id": "li-ning-ap70",
+  "brand": "Li-Ning",
+  "name": "AP70",
+  "year": "",
+  "gauge": "",
+  "gaugeText": "",
+  "material": "braided",
+  "repulsion": "",
+  "control": "",
+  "durability": "",
+  "sound": "",
+  "shock": "",
+  "tensionMax": "",
+  "price": 110,
+  "colors": "",
+  "madeIn": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1_2c45c1bdd9.jpg?v=1752147338",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/ap70-rainbow"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/ap70-rainbow"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹299.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/ap70-rainbow",
+  "est": [
+   "price"
   ]
  },
  {
@@ -338,12 +581,91 @@ window.STRINGS = [
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonavenue.com/products/li-ning-accupower-62-silver-ap62-axje012",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "repulsion",
    "control",
    "durability",
    "sound",
    "shock"
+  ]
+ },
+ {
+  "id": "li-ning-n58",
+  "brand": "Li-Ning",
+  "name": "N58",
+  "year": "",
+  "gauge": "",
+  "gaugeText": "",
+  "material": "multi",
+  "repulsion": "",
+  "control": "",
+  "durability": "",
+  "sound": "",
+  "shock": "",
+  "tensionMax": "",
+  "price": 400,
+  "colors": "",
+  "madeIn": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1.png?v=1755327346",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/n58"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/n58"
+   }
+  ],
+  "priceNote": "แปลงจาก S$15.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/n58",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-n61",
+  "brand": "Li-Ning",
+  "name": "N61",
+  "year": "",
+  "gauge": "",
+  "gaugeText": "",
+  "material": "multi",
+  "repulsion": "",
+  "control": "",
+  "durability": "",
+  "sound": "",
+  "shock": "",
+  "tensionMax": "",
+  "price": 370,
+  "colors": "",
+  "madeIn": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1_6d3e7acb27_1.jpg?v=1757393926",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/n61"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/n61"
+   }
+  ],
+  "priceNote": "แปลงจาก S$14.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/n61",
+  "est": [
+   "price"
   ]
  },
  {
@@ -360,7 +682,7 @@ window.STRINGS = [
   "sound": 8,
   "shock": 7,
   "tensionMax": "",
-  "price": "",
+  "price": 220,
   "colors": "ขาวไข่ เหลืองอ่อน ชมพูสตรอเบอร์รี่ น้ำเงินแคริบเบียน ม่วง",
   "madeIn": "",
   "note": "ไสํไนลอนหลายเส้น ถักโพลิเมอร์ · แข็ง แน่นมือ · ควบคุม 7/10 เสียง 8/10 ซับแรง 7/10",
@@ -368,7 +690,21 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/li-ning-n68/",
   "officialUrl": "",
   "specSrc": "",
-  "est": []
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/n68"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-badminton-string-n68-rebound-axjs014-single"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹625.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/n68",
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "li-ning-n69",
@@ -384,7 +720,7 @@ window.STRINGS = [
   "sound": 7,
   "shock": 7,
   "tensionMax": "",
-  "price": "",
+  "price": 210,
   "colors": "ขาวหงส์ เหลืองอ่อน แดงสด น้ำเงินแคริบเบียน ชมพูนีออน ส้ม เขียวเทอร์ควอยส์",
   "madeIn": "",
   "note": "ไสํไนลอนความเหนียวสูง ถักโพลิเมอร์ · สมดุลทุกด้าน · ควบคุม 7/10 เสียง 7/10 ซับแรง 7/10",
@@ -392,7 +728,17 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/li-ning-n69/",
   "officialUrl": "",
   "specSrc": "",
-  "est": []
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/n69"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹599.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/n69",
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "li-ning-n70",
@@ -416,6 +762,14 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/li-ning-n70/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/n70"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -432,7 +786,7 @@ window.STRINGS = [
   "sound": 8,
   "shock": 8,
   "tensionMax": "",
-  "price": "",
+  "price": 270,
   "colors": "น้ำเงิน เหลืองเรืองแสง ดำ",
   "madeIn": "",
   "note": "แกน Nano Braided หุ้มไนลอน 3D-Knit · เน้นควบคุมและแรงดีด · ควบคุม 9/10 เสียง 8/10 ซับแรง 8/10",
@@ -440,7 +794,17 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/li-ning-ns70/",
   "officialUrl": "",
   "specSrc": "",
-  "est": []
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/ns70"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹749.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/ns70",
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "li-ning-ns95",
@@ -456,7 +820,7 @@ window.STRINGS = [
   "sound": 8,
   "shock": 8,
   "tensionMax": "",
-  "price": "",
+  "price": 270,
   "colors": "ขาว น้ำเงิน เหลืองเรืองแสง ดำ เงิน",
   "madeIn": "",
   "note": "แกน Nano Braided หุ้มไนลอน 3D-Knit · สมดุลครบทุกด้าน · ควบคุม 9/10 เสียง 8/10 ซับแรง 8/10",
@@ -464,7 +828,17 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/li-ning-ns95/",
   "officialUrl": "",
   "specSrc": "",
-  "est": []
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/ns95"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹749.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/ns95",
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "li-ning-no-1",
@@ -488,6 +862,26 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/li-ning-no-1/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/no-1-rebound"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/no-1-rebound"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-badminton-string-no-1-axjj018-1-single-roll"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-no-1-rebound-badminton-string-2"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -503,8 +897,8 @@ window.STRINGS = [
   "durability": 7,
   "sound": 8,
   "shock": 7,
-  "tensionMax": "",
-  "price": "",
+  "tensionMax": 30,
+  "price": 350,
   "colors": "",
   "madeIn": "",
   "note": "No.1 รุ่นปรับปรุง นุ่มขึ้น ทนขึ้น",
@@ -512,6 +906,26 @@ window.STRINGS = [
   "source": "",
   "officialUrl": "",
   "specSrc": "https://thegodofsports.com/products/li-ning-no-1-boost-badminton-string",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=2655"
+   },
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/no-1-boost"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/no-1-boost"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-no-1-boost-badminton-string"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "repulsion",
    "control",
@@ -534,7 +948,7 @@ window.STRINGS = [
   "sound": 10,
   "shock": 8,
   "tensionMax": "",
-  "price": "",
+  "price": 500,
   "colors": "ขาว เหลือง ดำ แดง ชมพู ส้ม น้ำเงิน เขียวอ่อน ทอง",
   "madeIn": "",
   "note": "ไสํไนลอนหลายเส้น หุ้มไนลอนทนความร้อนบางพิเศษ · ดีดสูง เส้นบางมาก · ควบคุม 9/10 เสียง 10/10 ซับแรง 8/10",
@@ -542,7 +956,59 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/li-ning-no-3/",
   "officialUrl": "",
   "specSrc": "",
-  "est": []
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/no-3"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/no-3"
+   }
+  ],
+  "priceNote": "แปลงจาก S$19.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/no-3",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-no-3-boost",
+  "brand": "Li-Ning",
+  "name": "No.3 Boost",
+  "year": "",
+  "gauge": "",
+  "gaugeText": "",
+  "material": "braided",
+  "repulsion": "",
+  "control": "",
+  "durability": "",
+  "sound": "",
+  "shock": "",
+  "tensionMax": "",
+  "price": 320,
+  "colors": "",
+  "madeIn": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/axjp044_1_01_a114797995.png?v=1752145902",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/no-3-boost"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/no-3-boost"
+   }
+  ],
+  "priceNote": "แปลงจาก S$12.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/no-3-boost",
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "li-ning-no-5",
@@ -566,6 +1032,22 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/li-ning-no-5/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/no-5"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/no-5"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-badminton-string-no-5-axjj006-4-single-roll"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -581,8 +1063,8 @@ window.STRINGS = [
   "durability": 10,
   "sound": 7,
   "shock": 8,
-  "tensionMax": "",
-  "price": "",
+  "tensionMax": 30,
+  "price": 260,
   "colors": "เหลือง ดำ ขาว น้ำเงิน ชมพู ทอง ม่วง ส้ม แดง ฟ้า",
   "madeIn": "",
   "note": "ไสํไนลอนโพลิเมอร์ ชุบเคลือบซ้ำ Deep Re-Dipping · นุ่มมือ ทนทานสูง · ทนทานสูงสุด 10/10 ควบคุม 8/10 ซับแรง 8/10",
@@ -590,7 +1072,71 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/li-ning-no-7/",
   "officialUrl": "",
   "specSrc": "",
-  "est": []
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/no-7"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/no-7"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-badminton-string-no-7-axjj014-1-single-roll"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-no-7-rebound-badminton-string-2"
+   }
+  ],
+  "priceNote": "แปลงจาก S$10.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/no-7",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-no-7-boost",
+  "brand": "Li-Ning",
+  "name": "No.7 Boost",
+  "year": "",
+  "gauge": "",
+  "gaugeText": "",
+  "material": "coated",
+  "repulsion": "",
+  "control": "",
+  "durability": "",
+  "sound": "",
+  "shock": "",
+  "tensionMax": 30,
+  "price": 320,
+  "colors": "",
+  "madeIn": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/string_format_01_16_1_60016f09f7.jpg?v=1752145800",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/no-7-boost"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/no-7-boost"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-no-7-boost-badminton-string-2"
+   }
+  ],
+  "priceNote": "แปลงจาก S$12.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/no-7-boost",
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "mizuno-m-smooth-65h",
@@ -614,6 +1160,9 @@ window.STRINGS = [
   "source": "",
   "officialUrl": "",
   "specSrc": "https://vnm.mizuno.com/en/blogs/news/badminton-strings",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "repulsion",
    "control",
@@ -644,6 +1193,9 @@ window.STRINGS = [
   "source": "",
   "officialUrl": "",
   "specSrc": "https://vnm.mizuno.com/en/blogs/news/badminton-strings",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "repulsion",
    "control",
@@ -674,6 +1226,9 @@ window.STRINGS = [
   "source": "",
   "officialUrl": "",
   "specSrc": "https://vnm.mizuno.com/en/blogs/news/badminton-strings",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "repulsion",
    "control",
@@ -704,6 +1259,9 @@ window.STRINGS = [
   "source": "",
   "officialUrl": "",
   "specSrc": "https://vnm.mizuno.com/en/blogs/news/badminton-strings",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "repulsion",
    "control",
@@ -734,6 +1292,9 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/vs-bg65/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -758,6 +1319,18 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/vs-bg66/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3726"
+   },
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/bg66"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -782,6 +1355,9 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/vs-bg7/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -806,6 +1382,18 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/vs-goddess/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3696"
+   },
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/goddess"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -830,6 +1418,14 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/vs-kirin/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3697"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -854,6 +1450,18 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/vs-v3/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3714"
+   },
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/v3"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -878,6 +1486,18 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/vs-v5/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3114"
+   },
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/v5"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -902,6 +1522,14 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/vs-vx61/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vx61"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -926,6 +1554,14 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/vs-vx63/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vx63"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -950,6 +1586,14 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/vs-vx66/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vx66"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -974,6 +1618,14 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/vs-vx68p/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/vx68p"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -989,8 +1641,8 @@ window.STRINGS = [
   "durability": 4,
   "sound": 9,
   "shock": 6,
-  "tensionMax": "",
-  "price": "",
+  "tensionMax": 30,
+  "price": 430,
   "colors": "ขาว เหลือง ชมพูซากุระ ฟ้าอ่อน ชมพู ม่วง",
   "madeIn": "",
   "note": "แกนนาโน หุ้มไนลอนหลายเส้น · กลาง (Medium) · บางมากแต่ยังทน คืนตัวดี เสียงกระทบคม",
@@ -998,12 +1650,25 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/victor-vbs-58n/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/victor-vbs-58-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-vbs-58-nano-10m-white"
+   }
+  ],
+  "priceNote": "แปลงจาก C$18.00 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://tenniszon.com/products/victor-vbs-58-nano-10m-white",
   "est": [
    "repulsion",
    "control",
    "durability",
    "sound",
-   "shock"
+   "shock",
+   "price"
   ]
  },
  {
@@ -1028,6 +1693,38 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/victor-vbs-61/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4514"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-vbs-61-badminton-string"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/victor-vbs-61-badminton-string"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-vbs-61-badminton-string-lavender"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-vbs-61-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-vbs-61-10m-white"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-vbs-61-badminton-string-2"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "shock"
   ]
@@ -1054,6 +1751,42 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/victor-vbs-63/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=2386"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-vbs-63-badminton-string"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/victor-vbs-63-badminton-string"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-vbs-63-badminton-string-white"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-vbs-68-badminton-string-1"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-vbs-63-10m-white"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/victor-vbs-63-10m-accessory"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-vbs-63-badminton-string"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "repulsion",
    "control",
@@ -1084,12 +1817,82 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/victor-vbs-66-nano/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=1929"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-vbs-66n-badminton-string"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/vbs-66-nano-victor-badminton-string"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-vbs-66-nano-badminton-string-white"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-vbs-66n-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-vbs-66-nano-10m-pink-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-vbs-66-nano-badminton-string"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "repulsion",
    "control",
    "durability",
    "sound",
    "shock"
+  ]
+ },
+ {
+  "id": "victor-vbs-68",
+  "brand": "Victor",
+  "name": "VBS-68",
+  "year": "",
+  "gauge": 0.68,
+  "gaugeText": "",
+  "material": "",
+  "repulsion": "",
+  "control": "",
+  "durability": "",
+  "sound": "",
+  "shock": "",
+  "tensionMax": "",
+  "price": 510,
+  "colors": "",
+  "madeIn": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0009/8235/1923/files/VBS-66-control-white.jpg?v=1692637347",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-vbs-68-badminton-string-white"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-vbs-68-badminton-string"
+   }
+  ],
+  "priceNote": "แปลงจาก US$15.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://racquetguys.com/products/victor-vbs-68-badminton-string-white",
+  "est": [
+   "price"
   ]
  },
  {
@@ -1114,6 +1917,30 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/victor-vbs-68p/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=2385"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/victor-vbs-68-power-badminton-string"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-vbs-68-power-badminton-string-yellow"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-vbs-68p-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-vbs-68-power-10m-blue"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "repulsion",
    "control",
@@ -1129,14 +1956,14 @@ window.STRINGS = [
   "year": "",
   "gauge": 0.69,
   "gaugeText": "",
-  "material": "",
+  "material": "multi",
   "repulsion": 7,
   "control": 7,
   "durability": 8,
   "sound": 6,
   "shock": 8,
-  "tensionMax": "",
-  "price": "",
+  "tensionMax": 29,
+  "price": 290,
   "colors": "ขาว ดำ เหลือง น้ำเงิน ส้ม ทองแชมเปญ",
   "madeIn": "",
   "note": "นุ่ม (Soft) · แข็งกว่า VBS-70 เล็กน้อย ยืดหยุ่นดี เหมาะสายบุก",
@@ -1144,6 +1971,34 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/victor-vbs-69n/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=2384"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-vbs-69n-nano-badminton-string"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-vbs-69-nano-badminton-string-yellow"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-vbs-69n-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-vbs-69-nano-10m-yellow"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-vbs-69-nano-badminton-string-2"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "repulsion",
    "control",
@@ -1174,12 +2029,94 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/victor-vbs-70/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3862"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-vbs-70-badminton-string-2-colors"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/vbs-70-victor-badminton-string"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/victor-vbs-70-badminton-string-yellow"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-vbs-70-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-vbs-70-10m-blue"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/victor-vbs-70-10m-accessory"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-vbs-70-badminton-string-2"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "repulsion",
    "control",
    "durability",
    "sound",
    "shock"
+  ]
+ },
+ {
+  "id": "victor-vbs-70-power",
+  "brand": "Victor",
+  "name": "VBS-70 Power",
+  "year": "",
+  "gauge": "",
+  "gaugeText": "",
+  "material": "",
+  "repulsion": "",
+  "control": "",
+  "durability": "",
+  "sound": "",
+  "shock": "",
+  "tensionMax": "",
+  "price": 400,
+  "colors": "",
+  "madeIn": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/VictorVBS-70PBadmintonString.png?v=1728434298",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/victor-vbs-70p-badminton-string"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/vbs-70-power-victor-badminton-string"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-vbs-70p-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-vbs-70-power-10m-black"
+   }
+  ],
+  "priceNote": "แปลงจาก US$11.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/victor-vbs-70p-badminton-string",
+  "est": [
+   "price"
   ]
  },
  {
@@ -1204,6 +2141,9 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/victor-vs-850/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "repulsion",
    "control",
@@ -1234,6 +2174,9 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/victor-vs-890/",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "repulsion",
    "control",
@@ -1264,6 +2207,42 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/yonex-aerobite/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bgab",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-aerobite-10m-badminton-string-3-colors"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-bg-aerobite-badminton-string"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/aerobite-yonex-badminton-string"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/yonex-aerobite-hybrid-badminton-string"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-bg-aerobite-hybrid-badminton-string-white-green"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-bg-aerobite-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-aerobite-white-green"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-aerobite-string-set-10m-white-green"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -1288,6 +2267,42 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/yonex-aerobite-boost/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bgabbt",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-aerobite-boost-10m-badminton-string"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/aerobite-boost"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-aerobite-boost-badminton-string"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/yonex-bg-aerobite-boost-hybrid-badminton-string"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-bg-aerobite-boost-hybrid-badminton-string-grey-yellow"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-bg-aerobite-boost-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-aerobite-boost-dark-grey-yellow"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-aerobite-boost-accessory"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -1312,6 +2327,38 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/yonex-aerosonic/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bgas",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-aerosonic-10m-badminton-string-3-colors"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex_bgas_aerosonic_string"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-aerosonic-string-set-abgasw-10m-badminton-string"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-bg-aerosonic-badminton-string-white"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-badminton-string-aerosonic-bg-as"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-bg-aerosonic-10m-white"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-bg-aerosonic-10m-set-accessory"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -1336,6 +2383,50 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/yonex-bg65/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bg65",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=964"
+   },
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-bg-65-ti-10m-badminton-string-5-colors"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/strbg65ti"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-bg-65-titanium-10m-badminton-string"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/yonex-bg-65-badminton-string"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-bg-65ti-badminton-string-black"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/add-on-yonex-bg-65-ti-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-bg65-10m-amber"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-bg-65-string-accessory"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-bg65-badminton-string"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -1360,6 +2451,26 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/yonex-bg65-titanium/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bg65ti",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/yonex-bg-65-titanium-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-bg65-titanium-10m-pink"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-bg65-ti-string-set-10m-red"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-bg65-titanium-badminton-string"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -1376,7 +2487,7 @@ window.STRINGS = [
   "sound": 8,
   "shock": 6,
   "tensionMax": "",
-  "price": "",
+  "price": 440,
   "colors": "White",
   "madeIn": "Japan",
   "note": "",
@@ -1384,12 +2495,45 @@ window.STRINGS = [
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/strings/bg66f",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-bg-66-force-10m-badminton-string-3-colors"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-bg-66-force-badminton-string-white"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/bg66-force-yonex-badminton-string"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-bg-66-force-badminton-string-white"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-bg-66-force-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-bg-66-force-10m-white"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-bg66-force-10m-set-yellow-accessory"
+   }
+  ],
+  "priceNote": "แปลงจาก US$13.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/yonex-bg-66-force-10m-badminton-string-3-colors",
   "est": [
    "repulsion",
    "control",
    "durability",
    "sound",
-   "shock"
+   "shock",
+   "price"
   ]
  },
  {
@@ -1414,6 +2558,46 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/yonex-bg66-ultimax/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bg66um",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-bg-66-ultimax-10m-badminton-string-7-colors-1"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-bg-66-badminton-ultimax-string"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/bg66-ultimax-yonex-badminton-string"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/yonex-bg-66-ultimax-badminton-string"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-bg-66-ultimax-badminton-string-red"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-bg-66u-ultimax-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-bg66-ultimax-10m-red"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-bg66-ultimax-string-set-10m-orange"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-bg66-ultimax-badminton-string"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -1438,6 +2622,42 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/yonex-bg80/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bg80",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-bg-80-10m-badminton-string-6-colors"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-bg-80-badminton-string"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-bg-80-badminton-string"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/yonex-bg-80-badminton-string"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-bg-80-badminton-string-neon-pink"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/add-on-yonex-bg-80-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-bg80-10m-neon-pink"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-bg80-string-set-10m-yellow"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -1462,6 +2682,46 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/yonex-bg80-power/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bg80p",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-bg-80-power-10m-badminton-string-2-colors"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-bg80-power-badminton-string"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-bg-80-power-badminton-string"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/yonex-bg-80-power-badminton-string"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-bg-80-power-badminton-string-white"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-bg-80-power-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-bg80-power-10m-white"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-bg80-power-badminton-string"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-bg80-power-badminton-string"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -1486,6 +2746,46 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/yonex-exbolt-63/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bgxb63",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-exbolt63-10m-badminton-string-white-1"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/exbolt-63-badminton-string"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-exbolt-63-bgxb63-10m-badminton-string"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/yonex-bg-exbolt-63-badminton-string"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-bg-exbolt-63-badminton-string-mint"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-bg-exbolt-63-10m-badminton-string-yumo-pro-shop"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-bg-exbolt-63-10m-ruby-red"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-exbolt-63-0-63mm-10m-set"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-exbolt-63-badminton-string"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -1510,6 +2810,46 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/yonex-exbolt-65/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bgxb65",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-exbolt-65-10m-badminton-string-yellow"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-exbolt-65-10m-badminton-string"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-exbolt-65-string-set-10m-badminton-string"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/yonex-bg-exbolt-65-badminton-string-single-pack"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-bg-exbolt-65-badminton-string-purple"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-bg-exbolt-65-10m-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-bg-exbolt-65-10m-green"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-exbolt-65-badminton-string-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-exbolt-65-badminton-string"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -1534,6 +2874,42 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/yonex-exbolt-68/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bgxb68",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-exbolt-68-10m-badminton-string-3-colors"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-exbolt-68-badminton-string"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-exbolt-68-badminton-string-set-10m"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-bg-exbolt-68-badminton-string-turquoise"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-bg-exbolt-68-10m-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-bg-exbolt-68-10m-orange"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-exbolt-68-badminton-string"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-exbolt-68-badminton-string"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  },
  {
@@ -1554,10 +2930,38 @@ window.STRINGS = [
   "colors": "ขาว, ดำ",
   "madeIn": "",
   "note": "",
-  "img": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/products/yonex-nanogy-95-badminton-string-1.jpg?v=1579725917",
   "source": "",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/nanogy-95-badminton-string"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/nanogy-95-yonex-badminton-string"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-nanogy-bg-95-badminton-string-red"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanogy-nbg-95-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-nanogy-95-10m-gold"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/yonex-nanogy-95-badminton-string"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "repulsion",
    "control",
@@ -1584,10 +2988,34 @@ window.STRINGS = [
   "colors": "ทอง, ดำ, ฟ้า",
   "madeIn": "",
   "note": "",
-  "img": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/A2E67343-FC66-4096-96BE-8E4E593BFA54.jpg?v=1731539590",
   "source": "",
   "officialUrl": "",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/strnanogy9"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/yonex-nanogy-98-badminton-string"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/yonex-nanogy-bg-98-badminton-string-cosmic-gold"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-nanogy-nbg-98-badminton-string"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-nanogy-98-10m-cosmic-gold"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": [
    "repulsion",
    "control",
@@ -1618,6 +3046,34 @@ window.STRINGS = [
   "source": "https://chobbad.com/string/yonex-skyarc/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bgsky",
   "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "joybadminton.com",
+    "url": "https://joybadminton.com/products/yonex-aerosonic-10m-3-colors"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/yonex-bg-sky-skyarc-badminton-string-white"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/skyarc-yonex-badminton-string"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/yonex-skyarc"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/yonex-bg-skyarc-10m-white"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-skyarc-accessory"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "est": []
  }
 ];

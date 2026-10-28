@@ -1,7 +1,8 @@
 # Build data/strings.js from scripts/sources/* plus data/string-overrides.json.
-# Order: chobbad -> Yonex official -> manual-strings (fills gaps, ratings flagged as estimates) -> overrides.
+# Order: chobbad -> Yonex official -> manual-strings (fills gaps, ratings flagged as estimates) -> overrides
+#        -> shops (gear_shop.py: Thai price, gauge, max tension, links; models several shops sell; foreign prices converted).
 # Run from anywhere: python3 scripts/build_strings.py
-import json, os, re, collections
+import json, os, re, sys, collections
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, 'scripts', 'sources')
@@ -95,8 +96,37 @@ for full, o in overrides.items():
     s['specSrc'] = o.get('src', '')
 if unmatched: print('override names not found:', unmatched)
 
+# ---- shops: Badminton Plaza and the Shopify feeds ----
+sys.path.insert(0, os.path.join(ROOT, 'scripts'))
+import gear_shop
+from spec_text import tmax_of
+
+def clean_title(t, strip_brand=''):
+    # "Victor VBS-70P Badminton String 10m (White)" -> "VBS-70P"
+    t = re.sub(r'\(.*?\)|\[.*?\]', ' ', t)
+    if strip_brand: t = re.sub(re.escape(strip_brand) + r'|li[- ]?ning', ' ', t, flags=re.I)
+    t = re.sub(r'\b(badminton|strings?|set|single|10\s?m|0\.\d\d\s?mm|\d\.\d\d\s?mm|mm|gauge|new|20\d\d|colou?r\w*|white|black|yellow|'
+               r'red|blue|green|pink|orange|purple|gold|silver|navy|lime|grey|gray|neon|turquoise|mint|cyan|metallic|royal|ivory|violet|'
+               r'lavender|amber|natural|coral|clear|rainbow)\b', ' ', t, flags=re.I)
+    t = re.sub(r'\s*-\s*', '-', re.sub(r'\s+', ' ', t))  # "AP - 7" -> "AP-7"
+    t = re.sub(r'\b(No)\. (\d)', r'\1.\2', re.sub(r'\b(BG|AP|VBS|VS) (\d)', r'\1\2', t))  # "No. 3" -> "No.3", "BG 66" -> "BG66"
+    return re.sub(r'^[\s\-–|,/.]+|[\s\-–|,/.]+$', '', t)
+
+def extract(it):
+    text = ' '.join([it['title']] + it['lines'])
+    gs = sorted({float(g) for g in re.findall(r'\b0\.(?:5[5-9]|6\d|7[0-3])\b', text)})
+    lab = ' | '.join(l for l in it['lines'] if re.search(r'tension|lbs|ปอนด์', l, re.I))
+    return {'gauge': gs[0] if len(gs) == 1 else '', 'tensionMax': tmax_of(lab) if lab else '',
+            'material': material(' '.join(l for l in it['lines'] if re.search(r'core|outer|material|construction|วัสดุ', l, re.I)))}
+
+def new_model(brand, name, shops=2):
+    if not name or len(name) > 30 or not re.search(r'\d', name): return None  # a model name carries its number
+    return {'id': slug(brand + ' ' + name), 'brand': brand, 'name': name, 'note': '', 'source': '', 'est': []}
+
+gear_shop.apply(strings, 'strings', r'string|เอ็น', clean_title, extract, new_model)
+
 ORDER = ['id', 'brand', 'name', 'year', 'gauge', 'gaugeText', 'material'] + RATINGS + [
-    'tensionMax', 'price', 'colors', 'madeIn', 'note', 'img', 'source', 'officialUrl', 'specSrc', 'est']
+    'tensionMax', 'price', 'colors', 'madeIn', 'note', 'img', 'source', 'officialUrl', 'specSrc', 'shopLinks', 'priceNote', 'priceSrc', 'est']
 final, seen = [], set()
 for s in sorted(strings.values(), key=lambda s: (s['brand'], s['name'])):
     s['id'] = s.get('id') or slug(s['brand'] + ' ' + s['name'])

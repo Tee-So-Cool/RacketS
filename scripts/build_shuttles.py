@@ -1,6 +1,7 @@
 # Build data/shuttles.js from scripts/sources/* plus data/shuttle-overrides.json.
 # Order: chobbad -> Yonex official (names, images, count per tube; adds models chobbad lacks)
 #        -> Badminton Plaza (THB price, image, specs where empty) -> overrides.
+#        -> shops (gear_shop.py: Thai price, speed, count per tube, links; models several shops sell; foreign prices converted).
 # Run from anywhere: python3 scripts/build_shuttles.py
 import json, os, re, sys, collections
 
@@ -107,6 +108,42 @@ for full, o in overrides.items():
     s['specSrc'] = o.get('src', '')
 if unmatched: print('override names not found:', unmatched)
 
+# ---- shops: Badminton Plaza and the Shopify feeds (gear_shop.py) ----
+import gear_shop
+
+def clean_title(t, strip_brand=''):
+    # "VICTOR NEW CARBONSONIC MAX (12 PCS) Shuttlecock (NCS-MAX-12)" -> "New Carbonsonic Max"
+    t = re.sub(r'\(.*?\)|\[.*?\]', ' ', t)
+    if strip_brand: t = re.sub(re.escape(strip_brand) + r'|li[- ]?ning', ' ', t, flags=re.I)
+    t = re.sub(r'\b(badminton|shuttlecocks?|shuttles?|feather|tube|dozen|pack|box|carton|of|\d+\s?(?:pcs|pieces|tubes?)|pcs|'
+               r'speed\s?\d+|\d{2}\s?speed|20\d\d|white|yellow|green|blue|red|orange|small|single|goose|duck|nylon|synthetic)\b|\b\d+\s?(?:pcs|pieces|tubes?)\b', ' ', t, flags=re.I)
+    t = re.sub(r'\s*-\s*', '-', re.sub(r'\s+', ' ', t))
+    t = re.sub(r'\b[Nn][Oo]\.\s?(\d)', r'No.\1', t)  # "NO. 1" -> "No.1"
+    t = re.sub(r'^[\s\-–|,/.]+|[\s\-–|,/.]+$', '', t)
+    # model codes keep their case ("No.1", "VSN-3000", "D.TL."); words get title case, short codes stay upper ("SG")
+    return ' '.join(w if re.search(r'[\d.]', w) else w.upper() if len(w) <= 2 else w.capitalize() for w in t.split())
+
+def extract(it):
+    text = ' '.join([it['title']] + it['lines'])
+    # a speed only when the listing names one (Aerosensa is sold in 76, 77 and 78)
+    sps = {a or b for a, b in re.findall(r'speed\s*[:：]?\s*(7[5-9])\b|\b(7[5-9])\s*speed', text, re.I)}
+    sp = sps.pop() if len(sps) == 1 else ''
+    # count per tube only from "12 pcs" / "6 shuttles" (not "No.1 Shuttlecock")
+    n = re.search(r'\b(3|6|10|12)\s*(?:pcs|pieces|shuttles\b|ลูก)', text, re.I)
+    return {'speed': int(sp) if sp else '', 'perTube': int(n.group(1)) if n else '',
+            'type': feather(' '.join(l for l in it['lines'] if re.search(r'feather|skirt|material|ขน', l, re.I)) or it['title'])}
+
+def new_model(brand, name, shops=2):
+    # a name with no number ("Special", "Gold") needs three shops, or a Thai one, to count as a model
+    if not name or len(name) > 30 or (not re.search(r'\d', name) and shops < 3): return None
+    return {'id': slug(brand + ' ' + name), 'brand': brand, 'name': name, 'note': '', 'source': '', 'est': []}
+
+had_speed = {id(s) for s in shuttles.values() if s.get('speed')}
+gear_shop.apply(shuttles, 'shuttles', r'shuttle|ลูกแบด|ลูกขนไก่', clean_title, extract, new_model)
+# a model sold in a range of grades ("Temp Grade 1-5") has no one speed, whatever a single listing says
+for s in shuttles.values():
+    if id(s) not in had_speed and re.search(r'grade|\d\s*[-–]\s*\d', s.get('speedText') or '', re.I): s['speed'] = ''
+
 def spd(s):
     # one filter value per shuttle: the first number 75-79, else slow/medium/fast from the text
     if s.get('speed'): return str(s['speed'])
@@ -117,7 +154,7 @@ def spd(s):
 for s in shuttles.values(): s['spd'] = spd(s)
 
 ORDER = ['id', 'brand', 'name', 'code', 'type', 'grade', 'speed', 'speedText', 'spd', 'cork', 'perTube', 'price', 'year', 'note',
-         'img', 'source', 'officialUrl', 'shopUrl', 'specSrc', 'est']
+         'img', 'source', 'officialUrl', 'shopUrl', 'specSrc', 'shopLinks', 'priceNote', 'priceSrc', 'est']
 final, seen = [], set()
 for s in sorted(shuttles.values(), key=lambda s: (s['brand'], s['name'])):
     while s['id'] in seen: s['id'] += '-2'

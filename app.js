@@ -57,6 +57,8 @@
     if (s[field] === '' || s[field] == null) return '—';
     return (s.est || []).includes(field) ? `${esc(s[field])} (ประเมิน)` : esc(s[field]);
   };
+  const est = (x, f) => (x.est || []).includes(f) ? '≈' : '';
+  const priceCell = x => x.price ? `${est(x, 'price')}${baht(x.price)}${x.priceNote ? `<div class="small muted">${esc(x.priceNote)}</div>` : ''}` : '—';
   const link = (url, text) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${text}</a>` : '';
   const sources = x => [link(x.officialUrl, 'ผู้ผลิต'), link(x.specSrc, 'หน้าสินค้า'), link(x.shopUrl, 'ร้านไทย'), link(x.bayUrl, 'Badminton Bay'), link(x.clickUrl, 'Badminton Click'), ...(Array.isArray(x.shopLinks) ? x.shopLinks.map(l => link(l.url, esc(l.shop))) : []), link(x.priceSrc !== x.bayUrl && x.priceSrc !== x.clickUrl ? x.priceSrc : '', 'ที่มาราคา'), link(x.source, 'chobbad')].filter(Boolean).join(', ') || '—';
 
@@ -178,7 +180,7 @@
         ['นักกีฬาที่ใช้', r => dash(r.players)],
         ['ผลิตที่', r => dash(r.madeIn)],
         ['เอ็นที่ผู้ผลิตแนะนำ', r => dash(r.recString)],
-        ['ราคาประมาณ', r => r.price ? `${(r.est || []).includes('price') ? '≈' : ''}${baht(r.price)}${r.priceNote ? `<div class="small muted">${esc(r.priceNote)}</div>` : ''}` : '—'],
+        ['ราคาประมาณ', priceCell],
         ['หมายเหตุ', r => dash(r.note)],
         ['แหล่งข้อมูล', r => sources(r)],
       ],
@@ -196,7 +198,7 @@
         <div class="nm">${esc(full(s))}</div>
         <div class="meta">${esc(L.material[s.material] || '')}</div>
         <div class="meta">ดีด ${dash(s.repulsion)}, คุม ${dash(s.control)}, ทน ${dash(s.durability)}</div>
-        ${s.price ? `<div class="price"><b class="fig">${s.price}</b> บาท</div>` : ''}`,
+        ${s.price ? `<div class="price"><b class="fig">${est(s, 'price')}${baht(s.price)}</b></div>` : '<div class="price"><span class="small muted">ยังไม่มีราคา</span></div>'}`,
       radar: sel => ({ axes: S_AXES, series: sel.map((x, i) => ({ name: full(x), color: COLORS[i], values: stringProfile(x) })), title: 'บุคลิกเอ็น', note: 'คะแนน 1–10 เป็นค่าประเมิน แก้ได้ในหน้าจัดการข้อมูล' }),
       bars: [
         { label: 'ขนาดเส้น', hint: 'บาง = ดีด / หนา = ทน', get: s => Number(s.gauge) || NaN, fmt: (v, s) => gaugeLabel(s) },
@@ -217,7 +219,7 @@
         ['ความตึงสูงสุด', s => s.tensionMax ? s.tensionMax + ' lbs' : '—'],
         ['สีที่มี', s => dash(s.colors)],
         ['ผลิตที่', s => dash(s.madeIn)],
-        ['ราคา', s => s.price ? s.price + ' บาท' : '—'],
+        ['ราคา', priceCell],
         ['หมายเหตุ', s => dash(s.note)],
         ['แหล่งข้อมูล', s => sources(s)],
       ],
@@ -235,7 +237,7 @@
         <div class="nm">${esc(full(h))}</div>
         <div class="meta">${[lab(h, 'grade'), h.speedText || (h.speed ? 'สปีด ' + h.speed : '')].filter(Boolean).map(esc).join(', ')}</div>
         <div class="meta">${[h.cork, h.perTube ? h.perTube + ' ลูก/หลอด' : ''].filter(Boolean).map(esc).join(', ')}</div>
-        ${h.price ? `<div class="price"><b class="fig">${baht(h.price)}</b> ต่อหลอด</div>` : ''}`,
+        ${h.price ? `<div class="price"><b class="fig">${est(h, 'price')}${baht(h.price)}</b> ต่อหลอด</div>` : '<div class="price"><span class="small muted">ยังไม่มีราคา</span></div>'}`,
       radar: null,
       bars: [
         { label: 'ราคาต่อหลอด', hint: 'ราคาร้าน ตรวจอีกที', get: h => Number(h.price) || NaN, fmt: v => baht(v) },
@@ -250,7 +252,7 @@
         ['สปีด', h => dash(h.speedText || h.speed)],
         ['หัวคอร์ก', h => dash(h.cork)],
         ['จำนวนต่อหลอด', h => h.perTube ? h.perTube + ' ลูก' : '—'],
-        ['ราคาต่อหลอด', h => baht(h.price)],
+        ['ราคาต่อหลอด', priceCell],
         ['หมายเหตุ', h => dash(h.note)],
         ['แหล่งข้อมูล', h => sources(h)],
       ],

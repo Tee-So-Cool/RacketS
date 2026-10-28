@@ -2,7 +2,9 @@
 # into scripts/sources/shops.json. One feed page of 250 products every 3 s per shop.
 # Each product keeps its description lines, variant options and tags; build_rackets.py reads specs from them
 # (labelled lines first, then the prose), so a page without a spec table still counts.
-# Run: python3 scripts/fetch_shops.py [domain ...]   (with domains, only those shops are refetched; the rest are kept)
+# Run: python3 scripts/fetch_shops.py [--kind=strings|shuttles] [domain ...]
+#   (with domains, only those shops are refetched; the rest are kept). Strings go to shop-strings.json and
+#   shuttles to shop-shuttles.json; string reels (100/200 m) are left out, since their price is not a set's.
 import html, json, os, re, sys, time, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -33,8 +35,14 @@ LABELS = ['balance', 'balance point', 'flex', 'flexibility', 'shaft flexibility'
           'วัสดุ', 'วัสดุเฟรม', 'วัสดุก้าน', 'จุดสมดุล', 'ความสมดุล', 'บาลานซ์', 'ก้าน', 'ความแข็งก้าน', 'ความยาว',
           'ขึ้นเอ็น', 'ความตึง', 'ความตึงสูงสุด', 'น้ำหนัก', 'ด้าม', 'ผลิตที่', 'ผลิตใน']
 LSET = set(LABELS)
-RACKET = re.compile(r'racket|racquet|ไม้แบด', re.I)
-NOT_RACKET = re.compile(r'\b(bag|string|grip|cover|shoe|shirt|sock|shuttle|tennis|squash|pickleball|padel|table)\b|bundle|ไม้เทนนิส', re.I)
+KIND = next((a.split('=', 1)[1] for a in sys.argv[1:] if a.startswith('--kind=')), 'rackets')
+# what counts as one product of this kind, and what does not
+WANT, SKIP = {
+    'rackets': (r'racket|racquet|ไม้แบด', r'\b(bag|string|grip|cover|shoe|shirt|sock|shuttle|tennis|squash|pickleball|padel|table)\b|bundle|ไม้เทนนิส'),
+    'strings': (r'\bstrings?\b|เอ็น', r'\b(tennis|squash|pickleball|padel|racket|racquet|machine|stringer|clamp|grip|bag|shoe)\b|\b(?:100|200|500)\s?m\b|\breel\b|\bcoil\b'),
+    'shuttles': (r'shuttle|ลูกแบด|ลูกขนไก่', r'\b(holder|tube bag|machine|launcher|keychain|key chain|toy|sticker|towel|shirt|bag)\b'),
+}[KIND]
+RACKET, NOT_RACKET = re.compile(WANT, re.I), re.compile(SKIP, re.I)
 
 def get(url):
     time.sleep(3)
@@ -54,8 +62,8 @@ def spec_of(L):
             spec.setdefault(l.rstrip(':：').strip().lower(), L[i + 1])
     return spec
 
-OUT = os.path.join(ROOT, 'scripts', 'sources', 'shops.json')
-only = set(sys.argv[1:])
+OUT = os.path.join(ROOT, 'scripts', 'sources', {'rackets': 'shops.json'}.get(KIND, f'shop-{KIND}.json'))
+only = {a for a in sys.argv[1:] if not a.startswith('--')}
 out = [p for p in json.load(open(OUT, encoding='utf-8')) if p['shop'] not in only] if only and os.path.exists(OUT) else []
 for dom, cur, brand in SHOPS:
     if only and dom not in only: continue
@@ -77,6 +85,6 @@ for dom, cur, brand in SHOPS:
                         'options': sorted({v['title'] for v in p['variants'] if v.get('title') and v['title'] != 'Default Title'}),
                         'tags': p.get('tags', [])})
             n += 1
-    print(dom, 'rackets', n, flush=True)
+    print(dom, KIND, n, flush=True)
     json.dump(out, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print('total', len(out))
