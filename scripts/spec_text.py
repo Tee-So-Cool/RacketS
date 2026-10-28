@@ -7,6 +7,7 @@ import re
 
 # label words -> field; the first rule that matches the label wins
 LABEL_RULES = [
+    (r'จุดเด่น|key features?', 'highlights'),
     (r'balance|สมดุล|บาลานซ์', 'balance'),
     (r'flex|stiff|ความแข็ง', 'flex'),
     (r'tension|ขึ้นเอ็น|ความตึง|ปอนด์', 'tension'),
@@ -22,7 +23,8 @@ LABEL_RULES = [
     (r'used by|endorse|^players?$|นักกีฬา', 'players'),
     (r'recommended string|เอ็นแนะนำ', 'recText'),
     (r'string pattern|grommet', 'pattern'),
-    (r'^material$|วัสดุ$', 'frame'),
+    # one material for the whole racket ("วัสดุ") counts for frame and shaft alike
+    (r'^material$|^วัสดุ$', 'material'),
 ]
 SKIP_LABEL = re.compile(r'recommended tension|stringing advice|suggested tension|colou?r|size$|ไซส์|สี', re.I)
 
@@ -76,10 +78,12 @@ def grams_of(t):
     gs = {int(g) for g in re.findall(r'(?<!\d)(\d{2})(?:[.,]\d)?\s*(?:g|grams?|กรัม)\b', t or '') if 70 <= int(g) <= 95}
     return gs.pop() if len(gs) == 1 else ''
 
-def tmax_of(t):
+def tmax_of(t, prose=False):
     t = t or ''
     ns = [int(n) for n in re.findall(r'(?:max(?:imum)?\.?|up to|≤|<=|สูงสุด)[^0-9]{0,25}(\d{2})\s*(?:lbs?|ปอนด์|lb)?', t, re.I)]
-    ns += [int(b) for a, b in re.findall(r'(\d{2})\s*(?:-|–|~|to)\s*(\d{2})\s*(?:lbs?|ปอนด์)', t, re.I)]
+    ns += [int(n) for n in re.findall(r'(\d{2})\s*(?:lbs?|ปอนด์)\.?\s*(?:tension\s*)?(?:ceiling|max)', t, re.I)]
+    # a range ("22-27 lbs") under a tension label is the racket's range; in prose it is usually stringing advice
+    if not prose: ns += [int(b) for a, b in re.findall(r'(\d{2})\s*(?:-|–|~|to)\s*(\d{2})\s*(?:lbs?|ปอนด์)', t, re.I)]
     ns = [n for n in ns if 20 <= n <= 40]
     return max(ns) if ns else ''
 
@@ -90,8 +94,31 @@ def length_of(t):
     m = re.search(r'(6[5-9]\d)\s*(?:±\s*\d+\s*)?mm', t or '')
     return m.group(1) + ' mm' if m else ''
 
+# label phrases that start a new "Label: value" inside one line, longest first so "Shaft Material" beats "Shaft"
+SPLIT_AT = re.compile(r'(?<![A-Za-z])(frame material|frame composition|shaft material|shaft flexibility|shaft stiffness|racket balance|'
+                      r'balance point|max(?:imum)?\.? (?:string(?:ing)? )?tension|string(?:ing)? tension|weight ?/ ?grip(?: size)?|grip size|'
+                      r'made in|country of origin|recommended strings?|balance|flexibility|flex|stiffness|weight|frame|shaft|joint|length|'
+                      r'technology|technologies|tension|วัสดุเฟรม|วัสดุก้าน|จุดสมดุล|น้ำหนัก|ความยาว|ขึ้นเอ็น|ด้าม|ก้าน)\s*[:：]', re.I)
+def split_line(l):
+    # "Frame Material : HM Graphite Shaft Material: HM Graphite Flex: Medium" -> one "Label: value" per label
+    cuts = [m.start(1) for m in SPLIT_AT.finditer(l)]
+    if len(cuts) < 2: return [l]
+    return [seg for a, b in zip(cuts, cuts[1:] + [len(l)]) if (seg := l[a:b].strip(' .,|/'))]
+
+def expand(lines):
+    out = []
+    for l in lines:
+        # "30T Carbon (Frame) / 30T Carbon (Shaft)": the label follows its value in brackets
+        pairs = re.findall(r'([^/()]{3,80}?)\s*\((frame|shaft|joint)\)', l, re.I)
+        if len(pairs) >= 1 and len(l) < 200:
+            out += [f'{lab}: {val.strip(" 🔹-•")}' for val, lab in pairs]
+            continue
+        out += split_line(l)
+    return out
+
 def parse(lines, options=()):
     out = {}
+    lines = expand(lines)
     # pass 1: labelled lines, "Label: value" or a label line followed by its value
     i = 0
     while i < len(lines):
@@ -113,12 +140,18 @@ def parse(lines, options=()):
         'tmax': tmax_of(out.get('tension', '')) or (int(out['tension'][:2]) if re.match(r'\d{2}\b', out.get('tension', '')) else ''),
         'grips': grips_of(out.get('grips', '') + ' ' + out.get('weight', '')), 'length': length_of(out.get('length', '')) or out.get('length', ''),
         **{f: out.get(f, '') for f in ('frame', 'shaft', 'joint', 'madeIn', 'tech', 'players', 'level', 'recText', 'pattern')},
+        'frame': out.get('frame') or out.get('material', ''), 'shaft': out.get('shaft') or out.get('material', ''),
+        'tech': out.get('highlights') or out.get('tech', ''),
     }
     if res['shaft'] and not re.search(r'[a-zก-๙]{3}', res['shaft'], re.I): res['shaft'] = ''  # "6.8mm" is a diameter
     # pass 2: the prose, for what the labels left empty
     text = ' \n'.join(lines)
+    made = re.findall(r'made in ([A-Z][a-z]+)', text)
+    longer = re.search(r'\+\s?(\d{1,2})\s?mm\b[^.]{0,20}(?:length|longer)|(\d{1,2})\s?mm longer', text, re.I)
     prose = {'balance': balance_of(text, prose=True), 'flex': flex_prose(text), 'weights': weights_of(text), 'weight': grams_of(text),
-             'tmax': tmax_of(text), 'grips': grips_of(text), 'length': length_of(text)}
+             'tmax': tmax_of(text, prose=True), 'grips': grips_of(text),
+             'length': length_of(text) or (f'+{longer.group(1) or longer.group(2)} mm (ยาวกว่ามาตรฐาน)' if longer else ''),
+             'madeIn': made[0] if len(set(made)) == 1 else ''}
     # pass 3: variant options ("4U / G5")
     opt = ' '.join(options)
     prose['weights'] = prose['weights'] or weights_of(opt)
