@@ -2793,5 +2793,25 @@
  "Yonex Isometric TR0": {
   "weight": 150,
   "src": "https://badmintonwarehouse.com/products/yonex-isometric-tr0-training-badminton-racket"
+ },
+ "Victor Auraspeed Aurora Ultra": {
+  "new": true,
+  "brand": "Victor",
+  "year": 2026,
+  "style": "speed",
+  "balance": "head-light",
+  "flex": "stiff",
+  "weights": "3U, 4U",
+  "grips": "G5",
+  "tmax": 30,
+  "length": "675 mm",
+  "price": 2990,
+  "frame": "High Resilience Modulus Graphite + Nano Fortify TR+",
+  "tech": "5.8 mm shaft",
+  "note": "ARS-AURORA Ultra เปิดตัวในไทย 16 ต.ค. 2026 (VICTOR SPORT THAILAND) ร้านเล่าว่าผสมระหว่าง 100X Ultra กับ HS Plus; ความตึงสูงสุด: Kenwu Sports ระบุ 3U ≤31 / 4U ≤30 lbs อีกร้านระบุ ≤29 lbs",
+  "src": "https://www.google.com/search?q=%22AURORA+ULTRA%22+victor+%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%81%E0%B8%82%E0%B9%87%E0%B8%87",
+  "proseEst": [
+   "tension"
+  ]
  }
 }
