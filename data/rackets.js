@@ -372,7 +372,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "Ultra Slim Shaft (6.2mm)",
   "players": "",
-  "madeIn": "Made in Vietnam",
+  "madeIn": "Vietnam",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-blizzard-pro-zz-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-blizzard-pro-zz/",
@@ -1220,7 +1220,7 @@ window.RACKETS = [
   "pattern": "76",
   "tech": "Compact Power Quad Voltaic Frame",
   "players": "",
-  "madeIn": "Made in Vietnam",
+  "madeIn": "Vietnam",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-fantala-pro-101-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-fantala-pro-101/",
@@ -2791,7 +2791,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "intermediate",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -2818,7 +2818,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "weight"
+  ]
  },
  {
   "id": "apacs-stardom-pro-iii",
@@ -3248,7 +3250,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "Aero Hex Frame",
   "players": "",
-  "madeIn": "Made in Vietnam",
+  "madeIn": "Vietnam",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-thunderdome-pro-6-2-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-thunderdome-pro-6-2/",
@@ -6228,7 +6230,7 @@ window.RACKETS = [
   "flex": "flexible",
   "level": "beginner",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -6256,7 +6258,8 @@ window.RACKETS = [
   "priceSrc": "https://www.tennisnuts.com/li-ning-axforce-9-badminton-racket-strung-1627447.html",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -6698,7 +6701,7 @@ window.RACKETS = [
   "flex": "flexible",
   "level": "beginner",
   "weights": "5U, 4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -6731,7 +6734,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -8164,7 +8168,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "intermediate",
   "weights": "5U, 4U",
-  "weight": "",
+  "weight": 83,
   "grips": "G5",
   "tension": [
    null,
@@ -8198,7 +8202,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -8886,7 +8891,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "pro",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    22,
@@ -8900,7 +8905,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "TORQUE TECHNOLOGY",
   "players": "",
-  "madeIn": "Equipped with Mizuno",
+  "madeIn": "Japan",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-rk-mizuno-seaacrospeed-0-169x300.webp",
   "source": "https://chobbad.com/racket/rk-mizuno-seaacrospeed-0/",
@@ -8920,7 +8925,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -8933,7 +8939,7 @@ window.RACKETS = [
   "flex": "",
   "level": "pro",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -8962,7 +8968,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -8975,7 +8982,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "beginner",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    15,
@@ -9004,7 +9011,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -9065,7 +9073,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "intermediate",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -9095,7 +9103,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -9108,7 +9117,7 @@ window.RACKETS = [
   "flex": "",
   "level": "pro",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -9137,7 +9146,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -9284,7 +9294,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "Energy frame",
   "players": "",
-  "madeIn": "The",
+  "madeIn": "Japan",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-mizuno-acrospeed-1-accel-169x300.webp",
   "source": "https://chobbad.com/racket/mizuno-acrospeed-1-accel/",
@@ -9331,7 +9341,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "Energy frame",
   "players": "",
-  "madeIn": "The",
+  "madeIn": "Japan",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-mizuno-acrospeed-1-drive-169x300.webp",
   "source": "https://chobbad.com/racket/mizuno-acrospeed-1-drive/",
@@ -9378,7 +9388,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "Energy frame",
   "players": "",
-  "madeIn": "The",
+  "madeIn": "Japan",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-mizuno-acrospeed-1-focus-169x300.webp",
   "source": "https://chobbad.com/racket/mizuno-acrospeed-1-focus/",
@@ -9709,7 +9719,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "intermediate",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -9739,7 +9749,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -9800,7 +9811,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "beginner",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -9830,7 +9841,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -9843,7 +9855,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "intermediate",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -9872,7 +9884,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -9931,7 +9944,7 @@ window.RACKETS = [
   "flex": "flexible",
   "level": "intermediate",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -9945,7 +9958,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "",
   "players": "",
-  "madeIn": "",
+  "madeIn": "Taiwan",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-rk-mizuno-fortius-50-spirit-169x300.webp",
   "source": "https://chobbad.com/racket/rk-mizuno-fortius-50-spirit/",
@@ -9966,7 +9979,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -9979,7 +9993,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "advanced",
   "weights": "5U",
-  "weight": "",
+  "weight": 78,
   "grips": "",
   "tension": [
    null,
@@ -10009,7 +10023,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -10022,7 +10037,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "intermediate",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -10052,7 +10067,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -10065,11 +10081,11 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "pro",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
-   23
+   28
   ],
   "price": 6950,
   "frame": "High Modulus Graphite + Graphite",
@@ -10079,7 +10095,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "",
   "players": "",
-  "madeIn": "Comes unstrung with a drawstring bag.",
+  "madeIn": "Japan",
   "recString": "",
   "img": "https://www.badmintonplaza.com/images/FORTIUS-10-A.jpg",
   "source": "",
@@ -10099,7 +10115,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -10112,7 +10129,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "intermediate",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -10141,7 +10158,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -10154,7 +10172,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "advanced",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -10184,7 +10202,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -10197,7 +10216,7 @@ window.RACKETS = [
   "flex": "flexible",
   "level": "beginner",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -10232,7 +10251,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -10382,7 +10402,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "intermediate",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -10417,7 +10437,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -10526,7 +10547,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "advanced",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -10561,7 +10582,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -10574,7 +10596,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "advanced",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -10609,7 +10631,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -10669,7 +10692,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "beginner",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -10699,7 +10722,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -15022,7 +15046,7 @@ window.RACKETS = [
   "pattern": "76",
   "tech": "POWER RING",
   "players": "",
-  "madeIn": "Specifications",
+  "madeIn": "Taiwan",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-auraspeed-100x-225x300.jpg",
   "source": "https://chobbad.com/racket/rk-victor-auraspeed-100x/",
@@ -15117,7 +15141,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "PYROFIL · NANO FORTIFY TR+ · HIGH RESILIENCE MODULUS GRAPHITE",
   "players": "",
-  "madeIn": "",
+  "madeIn": "Taiwan",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-rk-victor-auraspeed-100x-ultra-169x300.webp",
   "source": "https://chobbad.com/racket/rk-victor-auraspeed-100x-ultra/",
@@ -15345,7 +15369,7 @@ window.RACKETS = [
   "flex": "",
   "level": "beginner",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": null,
   "price": 1390,
@@ -15372,7 +15396,8 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -15758,7 +15783,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "6.8 SHAFT",
   "players": "",
-  "madeIn": "China",
+  "madeIn": "",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-9-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-9/",
@@ -15951,7 +15976,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "PYROFIL · NANO FORTIFY TR · HIGH RESILIENCE MODULUS GRAPHITE · 6.8 SHAFT",
   "players": "Anders Antonsen (Danish Men's Singles Star) & Hendra Setiawan (Indonesian Doubles Legend)",
-  "madeIn": "Made in Taiwan",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-90k-ii-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-90k-ii/",
@@ -15989,7 +16014,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "intermediate",
   "weights": "4U, 3U",
-  "weight": "",
+  "weight": 83,
   "grips": "G5, G6",
   "tension": [
    null,
@@ -16022,7 +16047,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weight"
   ]
  },
  {
@@ -16243,7 +16269,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "PYROFIL · 6.8 SHAFT",
   "players": "Shevon Jemie Lai, Huang Ya Qiong",
-  "madeIn": "Made in Taiwan",
+  "madeIn": "Taiwan",
   "recString": "BG Aerobite (คุม), BG 80 (พลัง)",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-fantome-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-fantome/",
@@ -16301,7 +16327,7 @@ window.RACKETS = [
   "pattern": "Single-pass grommets reduce friction to help",
   "tech": "PYROFIL",
   "players": "",
-  "madeIn": "Made in Taiwan",
+  "madeIn": "Taiwan",
   "recString": "BG Aerobite (คุม), BG 80 (พลัง)",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-fantome-f-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-fantome-f/",
@@ -16353,7 +16379,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "FREE CORE · PYROFIL · HIGH RESILIENCE MODULUS GRAPHITE · 6.8 SHAFT",
   "players": "",
-  "madeIn": "Taiwan",
+  "madeIn": "",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-auraspeed-hs-plus-226x300.jpg",
   "source": "https://chobbad.com/racket/victor-auraspeed-hs-plus/",
@@ -16397,7 +16423,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "advanced",
   "weights": "4U, 3U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -16426,7 +16452,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -16439,7 +16466,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "advanced",
   "weights": "4U, 3U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -16468,7 +16495,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -16958,14 +16986,14 @@ window.RACKETS = [
    32
   ],
   "price": 5990,
-  "frame": "High Resilience Modulus Graphite, 46T PYROFIL, NANO AEROGEL, HARD CORED TECHNOLOGY",
+  "frame": "High Resilience Modulus Graphite + 46T PYROFIL + Nano Fortify TR + NANO AEROGEL + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + Metallic Carbon Fiber + PYROFIL + 6.6 SHAFT",
   "joint": "",
   "length": "675 mm",
   "pattern": "",
   "tech": "Inspired by military helicopter, multi-layered structure made by carbon fiber and composites, minimize material size, reinforce handling feel and performance at a critical standard.",
   "players": "",
-  "madeIn": "China",
+  "madeIn": "Taiwan",
   "recString": "Yonex Bg 80",
   "img": "https://www.badmintonplaza.com/images/DriveX-12-ZSW-J-A.jpg",
   "source": "",
@@ -17027,7 +17055,7 @@ window.RACKETS = [
   "pattern": "Victor’s single-pass",
   "tech": "FREE CORE · 6.8 SHAFT",
   "players": "",
-  "madeIn": "Manufactured in Asia (Victor overseas factory)",
+  "madeIn": "",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-drivex-3h-169x300.webp",
   "source": "https://chobbad.com/racket/victor-drivex-3h/",
@@ -18102,7 +18130,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "advanced",
   "weights": "4U, 3U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -18131,7 +18159,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -18141,7 +18170,7 @@ window.RACKETS = [
   "year": 2021,
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "flexible",
   "level": "beginner",
   "weights": "6U, 5U",
   "weight": 73,
@@ -18154,9 +18183,9 @@ window.RACKETS = [
   "frame": "Graphite+Resin",
   "shaft": "Graphite+Resin+7.0 SHAFT",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "pattern": "",
-  "tech": "",
+  "tech": "Power Box",
   "players": "",
   "madeIn": "",
   "recString": "",
@@ -18164,13 +18193,17 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-hmr-light/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/index.php?cPath=53_168&currency=THB&sort=1a&page=2",
-  "shopUrl": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4757",
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/thruster-hmr-light-g"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/victor-thruster-k-hammer-light-jelly-badminton-racket-tk-hmrl-unstrung"
    }
   ],
   "priceNote": "",
@@ -18246,9 +18279,9 @@ window.RACKETS = [
   "frame": "Graphite+Resin+Fiber Reinforced System (FRS)",
   "shaft": "Graphite + Nano Resin + 7.0 SHAFT",
   "joint": "",
-  "length": "675 mm",
+  "length": "",
   "pattern": "",
-  "tech": "Power Box",
+  "tech": "",
   "players": "",
   "madeIn": "",
   "recString": "",
@@ -18256,17 +18289,13 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/victor-thruster-hammer/",
   "officialUrl": "",
   "specSrc": "https://www.sportsdirect.com.my/victor-thruster-hammer-badminton-racket-720116",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4757",
+  "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/thruster-hammer-u"
-   },
-   {
-    "shop": "sportsshop.asia",
-    "url": "https://sportsshop.asia/products/victor-thruster-k-hammer-light-jelly-badminton-racket-tk-hmrl-unstrung"
    }
   ],
   "priceNote": "",
@@ -18487,7 +18516,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "⚙️",
   "players": "",
-  "madeIn": "China",
+  "madeIn": "",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-thruster-k-280-ex-169x300.webp",
   "source": "https://chobbad.com/racket/victor-thruster-k-280-ex/",
@@ -18615,7 +18644,7 @@ window.RACKETS = [
   "flex": "",
   "level": "beginner",
   "weights": "4U",
-  "weight": "",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -18644,7 +18673,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -18745,7 +18775,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "advanced",
   "weights": "5U, 4U",
-  "weight": "",
+  "weight": 83,
   "grips": "G5",
   "tension": [
    null,
@@ -18779,7 +18809,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -18806,7 +18837,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "PYROFIL · HIGH RESILIENCE MODULUS GRAPHITE",
   "players": "",
-  "madeIn": "Made in China",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-thruster-k-r-169x300.webp",
   "source": "https://chobbad.com/racket/victor-thruster-k-r/",
@@ -18940,7 +18971,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "advanced",
   "weights": "5U, 4U, 3U",
-  "weight": "",
+  "weight": 83,
   "grips": "G5",
   "tension": [
    null,
@@ -18981,7 +19012,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weight"
   ]
  },
  {
@@ -19044,7 +19076,7 @@ window.RACKETS = [
   "flex": "",
   "level": "advanced",
   "weights": "4U, 3U",
-  "weight": "",
+  "weight": 83,
   "grips": "G5",
   "tension": [
    null,
@@ -19078,7 +19110,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -19362,7 +19395,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "PYROFIL · 6.8 SHAFT",
   "players": "Mixed Doubles Superstar Huang Ya Qiong",
-  "madeIn": "Victor",
+  "madeIn": "",
   "recString": "Aerobite (คุม), BG Exbolt 65 (พลัง)",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-thruster-ryuga-muse-169x300.webp",
   "source": "https://chobbad.com/racket/victor-thruster-ryuga-muse/",
@@ -19856,7 +19889,7 @@ window.RACKETS = [
   "pattern": "22 X 21",
   "tech": "ISOMETRIC · Box Frame",
   "players": "",
-  "madeIn": "Made in China",
+  "madeIn": "China",
   "recString": "BG Aerobite (คุม), Exbolt 65 (พลัง)",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-arcsaber-11-play-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-arcsaber-11-play/",
@@ -20253,7 +20286,7 @@ window.RACKETS = [
   "pattern": "22 X 21",
   "tech": "ISOMETRIC · Energy Boost Cap PLUS · Super Slim Shaft · Built-in T-Joint · Pocketing Booster · Box Frame",
   "players": "",
-  "madeIn": "Made in Taiwan",
+  "madeIn": "Taiwan",
   "recString": "Control Players: EXBOLT 63 Hard Hitters: EXBOLT 65",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-arcsaber-7-tour-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-arcsaber-7-tour/",
@@ -20375,7 +20408,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "AERO+BOX Frame",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "Yonex Exbolt 65",
   "img": "https://www.yonex.com/media/catalog/product/i/n/int_ax01a_062-1_02.png",
   "source": "",
@@ -20427,7 +20460,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "AERO Frame",
   "players": "",
-  "madeIn": "Recommended Skill Level: Intermediate",
+  "madeIn": "China",
   "recString": "- 5U: 20 - 27 lbs",
   "img": "https://www.yonex.com/media/catalog/product/i/n/int_ax01c_188-1_02.png",
   "source": "",
@@ -20475,7 +20508,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "ISOMETRIC · Rotational Generator System · Namd · Control Support Cap · Box Frame",
   "players": "",
-  "madeIn": "Item Code: AX01F",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-astrox-01-feel-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-astrox-01-feel/",
@@ -20703,7 +20736,7 @@ window.RACKETS = [
   "pattern": "22 X 21",
   "tech": "ISOMETRIC · Rotational Generator System · Namd · Energy Boost Cap · AERO+BOX Frame · Built-in T-Joint · Tungsten",
   "players": "",
-  "madeIn": "",
+  "madeIn": "Japan",
   "recString": "Control Players: AEROBITE BOOST Hard Hitters: BG66 FORCE",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-astrox-100-game-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-astrox-100-game/",
@@ -20759,7 +20792,7 @@ window.RACKETS = [
   "pattern": "22 X 21",
   "tech": "ISOMETRIC · Rotational Generator System · Namd · Energy Boost Cap PLUS · AERO+BOX Frame · Built-in T-Joint · Solid Feel Core · NANOMETRIC · Tungsten",
   "players": "",
-  "madeIn": "PRODUCT TECHNOLOGY",
+  "madeIn": "Taiwan",
   "recString": "Control Players: AEROBITE BOOST Hard Hitters: BG66 FORCE",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-astrox-100-tour-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-astrox-100-tour/",
@@ -20815,7 +20848,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "🧪 Confidence-building power & control",
   "players": "",
-  "madeIn": "Made in Taiwan",
+  "madeIn": "Taiwan",
   "recString": "Control Players: AEROBITE Hard Hitters: BG66 FORCE",
   "img": "https://www.yonex.com/media/catalog/product/a/l/all_ax100gva_452-1.png",
   "source": "",
@@ -20869,7 +20902,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "🧪 Advanced-level engineering",
   "players": "",
-  "madeIn": "Made in Taiwan",
+  "madeIn": "Taiwan",
   "recString": "Control Players: AEROBITE Hard Hitters: BG66 FORCE",
   "img": "https://www.yonex.com/media/catalog/product/a/l/all_ax100tva_328-1.png",
   "source": "",
@@ -21204,7 +21237,7 @@ window.RACKETS = [
   "pattern": "22 X 21",
   "tech": "ISOMETRIC · Rotational Generator System · Namd · Energy Boost Cap PLUS · Super Slim Shaft · Solid Feel Core · Box Frame · Tungsten",
   "players": "",
-  "madeIn": "",
+  "madeIn": "Japan",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-astrox-70-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-astrox-70/",
@@ -21368,7 +21401,7 @@ window.RACKETS = [
   "pattern": "22 X 21",
   "tech": "ISOMETRIC · Rotational Generator System · Energy Boost Cap PLUS · Super Slim Shaft · Built-in T-Joint",
   "players": "",
-  "madeIn": "Made in Taiwan",
+  "madeIn": "Taiwan",
   "recString": "Control Players: AEROBITE Hard Hitters: EXBOLT65",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-astrox-77-tour-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-astrox-77-tour/",
@@ -21416,7 +21449,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "Rotational Generator System",
   "players": "",
-  "madeIn": "Made in China",
+  "madeIn": "China",
   "recString": "BG Aerobite (คุม), BG Exbolt 63 (พลัง)",
   "img": "https://www.yonex.com/media/catalog/product/3/a/3ax88-pl_076_1_02.png",
   "source": "",
@@ -21472,7 +21505,7 @@ window.RACKETS = [
   "pattern": "22 X 21",
   "tech": "ISOMETRIC · Rotational Generator System · Energy Boost Cap PLUS · AERO+BOX Frame · Built-in T-Joint · Power Assist Bumper · Tungsten",
   "players": "",
-  "madeIn": "Made in Taiwan",
+  "madeIn": "Taiwan",
   "recString": "BG Aerobite (คุม), BG 80 (พลัง)",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-astrox-88d-game-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-astrox-88d-game/",
@@ -21584,7 +21617,7 @@ window.RACKETS = [
   "pattern": "22 X 21",
   "tech": "ISOMETRIC · Rotational Generator System · Namd · Energy Boost Cap PLUS · AERO+BOX Frame · Built-in T-Joint · Power Assist Bumper · Tungsten",
   "players": "",
-  "madeIn": "Made in Taiwan",
+  "madeIn": "Taiwan",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-astrox-88d-tour-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-astrox-88d-tour/",
@@ -21632,7 +21665,7 @@ window.RACKETS = [
   "pattern": "22 X 21",
   "tech": "ISOMETRIC · Rotational Generator System · Energy Boost Cap PLUS · AERO+BOX Frame · Super Slim Shaft · Built-in T-Joint · Tungsten",
   "players": "",
-  "madeIn": "Made in Taiwan",
+  "madeIn": "Taiwan",
   "recString": "BG Aerobite (คุม), BG 80 (พลัง)",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-astrox-88s-game-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-astrox-88s-game/",
@@ -21744,7 +21777,7 @@ window.RACKETS = [
   "pattern": "22 X 21",
   "tech": "ISOMETRIC · Rotational Generator System · Namd · Energy Boost Cap PLUS · AERO+BOX Frame · Super Slim Shaft · Built-in T-Joint · Power Assist Bumper · Tungsten",
   "players": "",
-  "madeIn": "Tour-level Yonex construction designed for strong performance at a more accessible price point than the Pro model.",
+  "madeIn": "Taiwan",
   "recString": "Yonex AEROBITE",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-astrox-88s-tour-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-astrox-88s-tour/",
@@ -22016,7 +22049,7 @@ window.RACKETS = [
   "pattern": "22 X 22",
   "tech": "ISOMETRIC · Energy Boost Cap PLUS · Control Support Cap · Built-in T-Joint · Sonic Flare System · Aero Frame",
   "players": "",
-  "madeIn": "Item Code: AX-ATK-9",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-astrox-attack-9-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-astrox-attack-9/",
@@ -22060,7 +22093,7 @@ window.RACKETS = [
   "pattern": "22 X 22",
   "tech": "ISOMETRIC · Rotational Generator System · Namd · Control Support Cap",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-astrox-e13-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-astrox-e13/",
@@ -22104,7 +22137,7 @@ window.RACKETS = [
   "pattern": "22 X 21",
   "tech": "ISOMETRIC · Super Slim Shaft · Built-in T-Joint · Sonic Flare System · Aero Frame · Tungsten",
   "players": "",
-  "madeIn": "Made in Taiwan",
+  "madeIn": "Taiwan",
   "recString": "Control Players: BG66 ULTIMAX Hard Hitters: BG80",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-astrox-nextage-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-astrox-nextage/",
@@ -22196,7 +22229,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "advanced",
   "weights": "3U",
-  "weight": "",
+  "weight": 88,
   "grips": "G4",
   "tension": [
    16,
@@ -22224,7 +22257,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weight"
   ]
  },
  {
@@ -22376,7 +22410,7 @@ window.RACKETS = [
   "pattern": "22 X 22",
   "tech": "ISOMETRIC · Box Frame",
   "players": "",
-  "madeIn": "Recommended Skill Level: Beginner / Intermediate",
+  "madeIn": "",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-isometric-tr0-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-isometric-tr0/",
@@ -22665,7 +22699,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "AERO Frame",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://www.yonex.com/media/catalog/product/i/n/int_nf-001a_187-1_02.png",
   "source": "",
@@ -22717,7 +22751,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "AERO Frame",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "BG Exbolt 68 (คุม), BG Exbolt 65 (พลัง)",
   "img": "https://www.yonex.com/media/catalog/product/i/n/int_nf-001c_063-1_02.png",
   "source": "",
@@ -22773,7 +22807,7 @@ window.RACKETS = [
   "pattern": "22 X 22",
   "tech": "ISOMETRIC · Energy Boost Cap PLUS · Control Support Cap · Sonic Flare System · Aero Frame",
   "players": "",
-  "madeIn": "Item Code: NF-001F",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-nanoflare-001-feel-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-nanoflare-001-feel/",
@@ -23017,7 +23051,7 @@ window.RACKETS = [
   "pattern": "22 X 21",
   "tech": "ISOMETRIC · Sonic Flare System · Aero Frame",
   "players": "",
-  "madeIn": "Made in China",
+  "madeIn": "China",
   "recString": "BG (คุม), BG Exbolt 65 (พลัง)",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-nanoflare-1000-play-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-nanoflare-1000-play/",
@@ -23133,7 +23167,7 @@ window.RACKETS = [
   "pattern": "22 X 21",
   "tech": "ISOMETRIC · Energy Boost Cap PLUS · Super Slim Shaft · Built-in T-Joint · Sonic Flare System · Solid Feel Core · NANOMETRIC · EX-HYPER MG · Aero Frame",
   "players": "CAROLINA MARIN (Spain)",
-  "madeIn": "Premium Yonex construction built for serious competitive badminton players.",
+  "madeIn": "Japan",
   "recString": "Control Players: AEROBITE Hard Hitters: EXBOLT65",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-rk-yonex-nanoflare-1000z-169x300.webp",
   "source": "https://chobbad.com/racket/rk-yonex-nanoflare-1000z/",
@@ -23189,7 +23223,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "ISOMETRIC",
   "players": "",
-  "madeIn": "",
+  "madeIn": "Taiwan",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/yonex-nanoflare-555-200x300.png",
   "source": "https://chobbad.com/racket/rk-yonex-nanoflare-555/",
@@ -23871,7 +23905,7 @@ window.RACKETS = [
   "pattern": "22 X 22",
   "tech": "ISOMETRIC · Energy Boost Cap PLUS · Control Support Cap · Built-in T-Joint · Sonic Flare System · Aero Frame",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-nanoflare-speed-7-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-nanoflare-speed-7/",

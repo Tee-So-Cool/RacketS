@@ -250,7 +250,7 @@ def one_level(t):
 SHOPS = os.path.join(SRC, 'shops.json')
 BRAND_OF = {'victor': 'Victor', 'yonex': 'Yonex', 'li-ning': 'Li-Ning', 'li ning': 'Li-Ning', 'lining': 'Li-Ning', 'vs': 'VS',
             'apacs': 'Apacs', 'mizuno': 'Mizuno', 'kawasaki': 'Kawasaki'}
-from spec_text import parse as parse_spec
+from spec_text import parse as parse_spec, country_of
 PAGES = json.load(open(os.path.join(SRC, 'pages.json'), encoding='utf-8')) if os.path.exists(os.path.join(SRC, 'pages.json')) else {}
 def from_shop(p):
     brand = BRAND_OF.get(p['brand'].strip().lower(), '')
@@ -382,6 +382,16 @@ for r in rackets.values():
     r.setdefault('est', []).append('level')
     leveled += 1
 print('levels estimated', leveled)
+
+# ---- tidy-up: an origin is one country name; a weight class with no gram figure gets the class midpoint (flagged) ----
+from_class = 0
+for r in rackets.values():
+    r['madeIn'] = country_of(r.get('madeIn', ''))
+    us = re.findall(r'[2-7]U', r.get('weights', ''))
+    if not r.get('weight') and us:
+        r['weight'] = UW['4U'] if '4U' in us else UW[us[0]]
+        r.setdefault('est', []).append('weight'); from_class += 1
+print('weight from class', from_class)
 
 order = ['id', 'brand', 'name', 'year', 'style', 'balance', 'flex', 'level', 'weights', 'weight', 'grips', 'tension', 'price',
          'frame', 'shaft', 'joint', 'length', 'pattern', 'tech', 'players', 'madeIn', 'recString', 'img', 'source', 'officialUrl', 'specSrc', 'shopUrl', 'bayUrl', 'clickUrl', 'shopLinks', 'priceNote', 'priceSrc', 'note', 'est']

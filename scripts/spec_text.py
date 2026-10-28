@@ -26,6 +26,8 @@ LABEL_RULES = [
     # one material for the whole racket ("วัสดุ") counts for frame and shaft alike
     (r'^material$|^วัสดุ$', 'material'),
 ]
+# a short line that is itself a value ("Flexible Feel", "Head Heavy") is not a label, even though it holds a label word
+VALUE_LINE = re.compile(r'flexible|\bstiff\b|\bmedium\b|head[\s-]*(?:heavy|light)|even[\s-]*balance', re.I)
 SKIP_LABEL = re.compile(r'recommended tension|stringing advice|suggested tension|colou?r|^size$|ไซส์|^สี|shape|thickness|product (?:type|range)|player type|net quantity', re.I)
 
 def label_field(lab):
@@ -93,6 +95,14 @@ def tmax_of(t, prose=False):
 def grips_of(t):
     return ', '.join(sorted({'G' + g for g in re.findall(r'\bG\s?([1-7])\b', t or '')}))
 
+COUNTRY = {'china': 'China', 'japan': 'Japan', 'taiwan': 'Taiwan', 'vietnam': 'Vietnam', 'indonesia': 'Indonesia', 'malaysia': 'Malaysia',
+           'thailand': 'Thailand', 'india': 'India', 'korea': 'Korea', 'bangladesh': 'Bangladesh', 'philippines': 'Philippines',
+           'จีน': 'China', 'ญี่ปุ่น': 'Japan', 'ไต้หวัน': 'Taiwan', 'เวียดนาม': 'Vietnam', 'อินโดนีเซีย': 'Indonesia', 'มาเลเซีย': 'Malaysia', 'ไทย': 'Thailand'}
+def country_of(t):
+    # a made-in value counts only when it names one country ("MADE IN JAPAN.", "Taiwan"); anything else is not an origin
+    cs = {c for k, c in COUNTRY.items() if re.search(r'(?<![a-z])' + k + r'(?![a-z])', (t or '').lower())}
+    return cs.pop() if len(cs) == 1 else ''
+
 def length_of(t):
     m = re.search(r'(6[5-9]\d)\s*(?:±\s*\d+\s*)?mm', t or '')
     return m.group(1) + ' mm' if m else ''
@@ -130,8 +140,10 @@ def parse(lines, options=()):
         # a label we do not use ("frame shape") on its own line: skip its value too, so the value is not read as a label
         if not m and len(l.split()) <= 4 and SKIP_LABEL.search(l) and i < len(lines): i += 1; continue
         if m: lab, val = m.group(1), m.group(2)
+        # "MADE IN JAPAN." holds its own value
+        elif re.match(r'made in\b', l, re.I): lab, val = 'made in', l[7:]
         # a label on its own line takes the next line as its value, unless that line is itself a "Label:" line
-        elif i < len(lines) and len(l.split()) <= 4 and not re.search(r'\d(?!\s*mm\))', l) and label_field(l) and not re.search(r'[:：]\s*$', lines[i]):
+        elif i < len(lines) and len(l.split()) <= 4 and not re.search(r'\d(?!\s*mm\))', l) and label_field(l) and not VALUE_LINE.search(l) and not re.search(r'[:：]\s*$', lines[i]):
             lab, val = l, lines[i]; i += 1
         else: continue
         f = label_field(lab)
@@ -151,15 +163,16 @@ def parse(lines, options=()):
         'frame': out.get('frame') or out.get('material', ''), 'shaft': out.get('shaft') or out.get('material', ''),
         'tech': out.get('highlights') or out.get('tech', ''),
     }
+    res['madeIn'] = country_of(res['madeIn'])
     if res['shaft'] and not re.search(r'[a-zก-๙]{3}', res['shaft'], re.I): res['shaft'] = ''  # "6.8mm" is a diameter
     # pass 2: the prose, for what the labels left empty
     text = ' \n'.join(lines)
-    made = re.findall(r'made in ([A-Z][a-z]+)', text)
+    made = {country_of(m) for m in re.findall(r'made in ([A-Za-z]+)', text, re.I)} - {''}
     longer = re.search(r'\+\s?(\d{1,2})\s?mm\b[^.]{0,20}(?:length|longer)|(\d{1,2})\s?mm longer', text, re.I)
     prose = {'balance': balance_of(text, prose=True), 'flex': flex_prose(text), 'weights': weights_of(text), 'weight': grams_of(text),
              'tmax': tmax_of(text, prose=True), 'grips': grips_of(text),
              'length': length_of(text) or (f'+{longer.group(1) or longer.group(2)} mm (ยาวกว่ามาตรฐาน)' if longer else ''),
-             'madeIn': made[0] if len(set(made)) == 1 else ''}
+             'madeIn': made.pop() if len(made) == 1 else ''}
     # pass 3: variant options ("4U / G5")
     opt = ' '.join(options)
     prose['weights'] = prose['weights'] or weights_of(opt)

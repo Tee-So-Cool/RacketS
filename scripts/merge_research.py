@@ -55,7 +55,8 @@ for l in lines[hdr + 2:]:
     if g: e['weight'] = int(g.group(1))
     mx = col(c, 'max lbs')
     if 'n/s' in mx.lower(): mx = ''  # unit not stated: do not assume lbs
-    m = re.search(r'(\d{2})\s*\(4U\)', mx) or re.match(r'(\d{2})\b', mx)
+    # "23-28" is a range: its top is the max, not its first number
+    m = re.search(r'(\d{2})\s*\(4U\)', mx) or re.match(r'\d{2}\s*[-–~]\s*(\d{2})\b', mx) or re.match(r'(\d{2})\b', mx)
     if m: e['tmax'] = int(m.group(1))
     lv = col(c, 'level').lower()
     if ' to ' not in lv and 'partial' not in lv:
