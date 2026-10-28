@@ -8,9 +8,10 @@ from plaza_match import match as pmatch, tokens
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, 'scripts', 'sources')
-THAI = {'badmintonplaza.com', 'vssportsthailand.com'}
+THAI = {'badmintonplaza.com', 'vssportsthailand.com', 'luxebadminton.com'}
 BRANDS = {'asics': 'Asics', 'hundred': 'Hundred', 'fz forza': 'FZ Forza', 'forza': 'FZ Forza', 'yonex': 'Yonex', 'victor': 'Victor', 'li-ning': 'Li-Ning', 'li ning': 'Li-Ning', 'lining': 'Li-Ning', 'vs': 'VS',
-          'venson': 'VS', 'bullets': 'Bullets', 'rsl': 'RSL', 'apacs': 'Apacs', 'kizuna': 'Kizuna', 'mizuno': 'Mizuno', 'ling mei': 'Ling Mei', 'lingmei': 'Ling Mei'}
+          'venson': 'VS', 'bullets': 'Bullets', 'rsl': 'RSL', 'forehand': 'Forehand', 'parrot': 'Parrot', 'นกแก้ว': 'Parrot',
+          'kawasaki': 'Kawasaki', 'fighter': 'Fighter', 'excella': 'Excella', 'smasher': 'Smasher', 'apacs': 'Apacs', 'kizuna': 'Kizuna', 'mizuno': 'Mizuno', 'ling mei': 'Ling Mei', 'lingmei': 'Ling Mei'}
 # character tie-ins, gift sets and tennis lines are not models to list
 NOT_MODEL = re.compile(r'doraemon|dragon ball|crayon|shin ?chan|hello kitty|care bears|one piece|pokemon|butterbear|stencil|avenger|'
                        r'gift|combo|\bkit\b|polytour|tennis|squash|sample|bundle|\bx\b|\bmini\b|ornament|\bcase\b|\bbulk\b|box ?set|'
@@ -19,9 +20,10 @@ FX = json.load(open(os.path.join(SRC, 'fx.json'))) if os.path.exists(os.path.joi
 SYM = {'USD': 'US$', 'GBP': '£', 'EUR': '€', 'SGD': 'S$', 'AUD': 'A$', 'INR': '₹', 'CAD': 'C$', 'MYR': 'RM'}
 
 def brand_of(vendor, title):
-    # the brand the title opens with wins ("BULLETS DIAMOND" sold by VS Thailand is a Bullets shuttle), then the vendor
-    t = re.sub(r'^(?:new|vs x)\s+', '', title.lower())
-    b = next((b for k, b in BRANDS.items() if re.match(re.escape(k) + r'\b', t)), '')
+    # the brand the title opens with wins ("BULLETS DIAMOND" sold by VS Thailand is a Bullets shuttle), then the vendor;
+    # Thai titles put the kind first ("ลูกแบดมินตัน Forehand รุ่น Spirit"), so that framing goes first
+    t = re.sub(r'^(?:new|vs x)\s+|^(?:ลูกแบดมินตัน(?:พลาสติก)?|ลูกแบด(?:พลาสติก)?|เอ็นแบด(?:มินตัน)?|รองเท้าแบดมินตัน|ถุงเท้า)\s*', '', title.lower())
+    b = next((b for k, b in BRANDS.items() if re.match(re.escape(k) + r'(?![a-z])', t)), '')
     return b or BRANDS.get((vendor or '').strip().lower(), '')
 
 def items(kind, wanted):
@@ -34,8 +36,9 @@ def items(kind, wanted):
         out.append({'brand': brand_of(p['brand'], p['name']), 'title': p['name'], 'shop': 'badmintonplaza.com',
                     'url': 'https://www.badmintonplaza.com/product_info.php?products_id=' + str(p['id']), 'price': p.get('price'),
                     'currency': 'THB', 'lines': [f'{k}: {v}' for k, v in p.get('specs', {}).items()], 'img': p.get('img', '')})
-    sp = os.path.join(SRC, f'shop-{kind}.json')
-    for p in json.load(open(sp, encoding='utf-8')) if os.path.exists(sp) else []:
+    # Shopify feeds (fetch_shops.py) and Thai WooCommerce shops (fetch_woo.py)
+    feeds = [os.path.join(SRC, f'{pre}-{kind}.json') for pre in ('shop', 'woo')]
+    for p in [p for f in feeds if os.path.exists(f) for p in json.load(open(f, encoding='utf-8'))]:
         out.append({'brand': brand_of(p['brand'], p['name']), 'title': p['name'], 'shop': p['shop'], 'url': p['url'],
                     'price': p.get('price'), 'currency': p.get('currency'), 'lines': p.get('lines', []) + p.get('options', []),
                     'img': p.get('img', '')})
@@ -62,7 +65,8 @@ def apply(db, kind, wanted, clean_title, extract, new_model):
             # repeated words fold too: "NCS New Carbonsonic Max" = "New Carbonsonic Max"
             # and word order does not split one model: "300 Youlong" = "Youlong 300"
             tk = [w for i, w in enumerate(tokens(nm)) if i == 0 or w != tokens(nm)[i - 1]]
-            if nm: found[(it['brand'], ' '.join(sorted(tk)))].append(it)
+            # a name made only of colour words ("RSL Red") has no tokens left: its plain spelling keys it
+            if nm: found[(it['brand'], ' '.join(sorted(tk)) or nm.lower())].append(it)
             continue
         hits += 1
         fill(pool[name], it, extract, kind)

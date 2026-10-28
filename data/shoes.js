@@ -6870,6 +6870,10 @@ window.SHOES = [
    {
     "shop": "badmintonplaza.com",
     "url": "https://www.badmintonplaza.com/product_info.php?products_id=4858"
+   },
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/yonex-power-cushion-mach-3/"
    }
   ]
  },

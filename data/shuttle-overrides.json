@@ -1,0 +1,11 @@
+{
+ "_readme": "ลูกแบดที่ไม่มีในร้านที่ดึงได้ (ขายบน Shopee/Lazada เป็นหลัก) key = 'แบรนด์ รุ่น'. ช่อง: type, grade, speed, perTube, price, note, img, src; รุ่นใหม่ใส่ \"new\": true. ราคาจากบทความเป็นราคาอ้างอิง จึงใส่ est และ priceNote. แก้แล้วรัน python3 scripts/build_shuttles.py",
+ "Fighter Gen 2": {"new": true, "brand": "Fighter", "type": "duck", "speed": 75, "perTube": 12, "price": 1150, "est": ["price"],
+  "priceNote": "ราคาอ้างอิงจาก my-best (ต.ค. 2026) ร้านบน Shopee/Lazada ขาย 1,150-1,185 บาท", "note": "ขนเป็ด หัวไม้ก๊อก", "src": "https://th.my-best.com/49874"},
+ "Excella EX-77": {"new": true, "brand": "Excella", "type": "goose", "speed": 76, "perTube": 12, "price": 1089, "est": ["price"],
+  "priceNote": "ราคาอ้างอิงจาก my-best (ต.ค. 2026)", "note": "ขนห่าน หลอดสีดำ", "src": "https://th.my-best.com/49874"},
+ "Excella EX-55 V.6": {"new": true, "brand": "Excella", "type": "goose", "speedText": "75, 76", "perTube": 12, "price": 710, "est": ["price"],
+  "priceNote": "ราคาจากหน้าร้าน itmoamun.com ราคาอาจเปลี่ยนตามหน้าร้าน", "src": "https://www.itmoamun.com/store/product_detail.php?id=580237"},
+ "Smasher Silver Series": {"new": true, "brand": "Smasher", "type": "goose", "speed": 75, "perTube": 12, "price": 819, "est": ["price"],
+  "priceNote": "ราคาอ้างอิงจาก my-best (ต.ค. 2026)", "src": "https://th.my-best.com/49874"}
+}

@@ -535,11 +535,11 @@ window.SHUTTLES = [
   "est": []
  },
  {
-  "id": "bullets-tournament-no-1",
+  "id": "bullets-tournament",
   "brand": "Bullets",
-  "name": "Tournament No.1",
+  "name": "Tournament",
   "code": "",
-  "type": "duck",
+  "type": "goose",
   "grade": "",
   "speed": 75,
   "speedText": "",
@@ -558,6 +558,215 @@ window.SHUTTLES = [
    {
     "shop": "badmintonplaza.com",
     "url": "https://www.badmintonplaza.com/product_info.php?products_id=2564"
+   },
+   {
+    "shop": "vssportsthailand.com",
+    "url": "https://vssportsthailand.com/products/bullets-tournament"
+   },
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/bullets-tournament/"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
+ },
+ {
+  "id": "excella-ex-55-v-6",
+  "brand": "Excella",
+  "name": "EX-55 V.6",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": "",
+  "speedText": "75, 76",
+  "spd": "",
+  "cork": "",
+  "perTube": 12,
+  "price": 710,
+  "year": "",
+  "note": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "https://www.itmoamun.com/store/product_detail.php?id=580237",
+  "shopLinks": "",
+  "priceNote": "ราคาจากหน้าร้าน itmoamun.com ราคาอาจเปลี่ยนตามหน้าร้าน",
+  "priceSrc": "",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "excella-ex-77",
+  "brand": "Excella",
+  "name": "EX-77",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": 76,
+  "speedText": "",
+  "spd": "76",
+  "cork": "",
+  "perTube": 12,
+  "price": 1089,
+  "year": "",
+  "note": "ขนห่าน หลอดสีดำ",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "https://th.my-best.com/49874",
+  "shopLinks": "",
+  "priceNote": "ราคาอ้างอิงจาก my-best (ต.ค. 2026)",
+  "priceSrc": "",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "fighter-gen-2",
+  "brand": "Fighter",
+  "name": "Gen 2",
+  "code": "",
+  "type": "duck",
+  "grade": "",
+  "speed": 75,
+  "speedText": "",
+  "spd": "75",
+  "cork": "",
+  "perTube": 12,
+  "price": 1150,
+  "year": "",
+  "note": "ขนเป็ด หัวไม้ก๊อก",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "https://th.my-best.com/49874",
+  "shopLinks": "",
+  "priceNote": "ราคาอ้างอิงจาก my-best (ต.ค. 2026) ร้านบน Shopee/Lazada ขาย 1,150-1,185 บาท",
+  "priceSrc": "",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "forehand-premium",
+  "brand": "Forehand",
+  "name": "Premium",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": 75,
+  "speedText": "",
+  "spd": "75",
+  "cork": "",
+  "perTube": 12,
+  "price": 890,
+  "year": "",
+  "note": "",
+  "img": "https://luxebadminton.com/wp-content/uploads/2025/03/Forehand-PM.png",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/forehand-premium/"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
+ },
+ {
+  "id": "forehand-spirit",
+  "brand": "Forehand",
+  "name": "Spirit",
+  "code": "",
+  "type": "duck",
+  "grade": "",
+  "speed": 75,
+  "speedText": "",
+  "spd": "75",
+  "cork": "",
+  "perTube": 12,
+  "price": 760,
+  "year": "",
+  "note": "",
+  "img": "https://luxebadminton.com/wp-content/uploads/2026/03/Forehand-รุ่น-Spirit-หลอดสีน้ำเงิน.jpg",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/forehand-spirit/"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
+ },
+ {
+  "id": "forehand-the-master",
+  "brand": "Forehand",
+  "name": "The Master",
+  "code": "",
+  "type": "natural",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 1130,
+  "year": "",
+  "note": "",
+  "img": "https://luxebadminton.com/wp-content/uploads/2026/03/The-Master.jpg",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/forehand-the-master-badminton-shuttlecock/"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
+ },
+ {
+  "id": "forehand-tournament",
+  "brand": "Forehand",
+  "name": "Tournament",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": 12,
+  "price": 1030,
+  "year": "",
+  "note": "",
+  "img": "https://luxebadminton.com/wp-content/uploads/2026/01/Forehand-Tournament.jpg",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/forehand-tournament/"
    }
   ],
   "priceNote": "",
@@ -695,6 +904,156 @@ window.SHUTTLES = [
   "est": [
    "price"
   ]
+ },
+ {
+  "id": "kawasaki-king-8e",
+  "brand": "Kawasaki",
+  "name": "King 8E",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": 76,
+  "speedText": "",
+  "spd": "76",
+  "cork": "",
+  "perTube": 12,
+  "price": 850,
+  "year": "",
+  "note": "",
+  "img": "https://luxebadminton.com/wp-content/uploads/2025/09/KING-8Eสต็อกในไทย.jpg",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%81%e0%b8%9a%e0%b8%94%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%95%e0%b8%b1%e0%b8%99-kawasaki-%e0%b8%a3%e0%b8%b8%e0%b9%88%e0%b8%99-king-8e/"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
+ },
+ {
+  "id": "kawasaki-king-kong-10",
+  "brand": "Kawasaki",
+  "name": "King Kong 10",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": 75,
+  "speedText": "",
+  "spd": "75",
+  "cork": "",
+  "perTube": 12,
+  "price": 650,
+  "year": "",
+  "note": "",
+  "img": "https://luxebadminton.com/wp-content/uploads/2025/11/Kawasaki-King-Kong-10.jpg",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/kawasaki-king-kong-10/"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
+ },
+ {
+  "id": "kawasaki-king-kong-500",
+  "brand": "Kawasaki",
+  "name": "King Kong 500",
+  "code": "",
+  "type": "hybrid",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": 12,
+  "price": 790,
+  "year": "",
+  "note": "",
+  "img": "https://luxebadminton.com/wp-content/uploads/2025/06/Kawasaki-King-Kong-500-1.jpg",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/kawasaki-kingkong500/"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
+ },
+ {
+  "id": "kawasaki-king-kong-l800",
+  "brand": "Kawasaki",
+  "name": "King Kong L800",
+  "code": "",
+  "type": "hybrid",
+  "grade": "",
+  "speed": 75,
+  "speedText": "",
+  "spd": "75",
+  "cork": "",
+  "perTube": 12,
+  "price": 450,
+  "year": "",
+  "note": "",
+  "img": "https://luxebadminton.com/wp-content/uploads/2025/11/Kawasaki-King-Kong-L800-01.jpg",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/kawasaki-king-kong-l800/"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
+ },
+ {
+  "id": "kawasaki-queen-500s",
+  "brand": "Kawasaki",
+  "name": "Queen 500S",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": 6,
+  "price": 360,
+  "year": "",
+  "note": "",
+  "img": "https://luxebadminton.com/wp-content/uploads/2025/06/Artboard-1.jpg",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/kawasaki-queen-500s/"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
  },
  {
   "id": "li-ning-a-300",
@@ -2382,6 +2741,38 @@ window.SHUTTLES = [
   "est": []
  },
  {
+  "id": "ling-mei-red",
+  "brand": "Ling Mei",
+  "name": "Red",
+  "code": "",
+  "type": "duck",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": "",
+  "price": 950,
+  "year": "",
+  "note": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/products/LingMei_Red_Badminton_Shuttlecock.jpg?v=1631301253",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/lingmei-red-badminton-shuttlecocks"
+   }
+  ],
+  "priceNote": "แปลงจาก US$28.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://badmintonwarehouse.com/products/lingmei-red-badminton-shuttlecocks",
+  "est": [
+   "price"
+  ]
+ },
+ {
   "id": "mizuno-ms-club-5",
   "brand": "Mizuno",
   "name": "MS Club-5",
@@ -2444,6 +2835,66 @@ window.SHUTTLES = [
   "est": [
    "price"
   ]
+ },
+ {
+  "id": "parrot-super",
+  "brand": "Parrot",
+  "name": "Super",
+  "code": "",
+  "type": "natural",
+  "grade": "",
+  "speed": 75,
+  "speedText": "",
+  "spd": "75",
+  "cork": "",
+  "perTube": 12,
+  "price": 690,
+  "year": "",
+  "note": "",
+  "img": "https://luxebadminton.com/wp-content/uploads/2025/10/PARROT-SUPER-GRADE.jpg",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/parrot-super-speed-75/"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
+ },
+ {
+  "id": "parrot-tournament",
+  "brand": "Parrot",
+  "name": "Tournament",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": 75,
+  "speedText": "",
+  "spd": "75",
+  "cork": "",
+  "perTube": 12,
+  "price": 820,
+  "year": "",
+  "note": "",
+  "img": "https://luxebadminton.com/wp-content/uploads/2025/09/PARROT.jpg",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/parrot-tournament/"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
  },
  {
   "id": "rsl-11",
@@ -2804,6 +3255,36 @@ window.SHUTTLES = [
   ]
  },
  {
+  "id": "rsl-g3",
+  "brand": "RSL",
+  "name": "G3",
+  "code": "",
+  "type": "duck",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": 12,
+  "price": 1005,
+  "year": "",
+  "note": "",
+  "img": "https://luxebadminton.com/wp-content/uploads/2025/02/ลูกแบดมินตัน-RSL-รุ่น-G3.jpg",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%81%e0%b8%9a%e0%b8%94%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%95%e0%b8%b1%e0%b8%99-rsl-%e0%b8%a3%e0%b8%b8%e0%b9%88%e0%b8%99-g3/"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
+ },
+ {
   "id": "rsl-hybird-5",
   "brand": "RSL",
   "name": "Hybird 5",
@@ -3077,6 +3558,36 @@ window.SHUTTLES = [
   "est": []
  },
  {
+  "id": "rsl-red",
+  "brand": "RSL",
+  "name": "Red",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": 76,
+  "speedText": "",
+  "spd": "76",
+  "cork": "",
+  "perTube": 12,
+  "price": 890,
+  "year": "",
+  "note": "",
+  "img": "https://luxebadminton.com/wp-content/uploads/2025/03/Artboard-1.jpg",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/rsl-red/"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
+ },
+ {
   "id": "rsl-s-treme",
   "brand": "RSL",
   "name": "S-treme",
@@ -3115,12 +3626,12 @@ window.SHUTTLES = [
   "code": "",
   "type": "natural",
   "grade": "",
-  "speed": "",
+  "speed": 75,
   "speedText": "",
-  "spd": "",
+  "spd": "75",
   "cork": "",
-  "perTube": "",
-  "price": 920,
+  "perTube": 12,
+  "price": 650,
   "year": "",
   "note": "",
   "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/my-11134207-7qul5-lf3v946uxf9x39.jpg?v=1731411488",
@@ -3132,13 +3643,15 @@ window.SHUTTLES = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/rsl-silver-shuttlecock-1-tube-of-12-copy"
+   },
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/rsl-silver-speed-75/"
    }
   ],
-  "priceNote": "แปลงจาก S$35.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://sportsshop.asia/products/rsl-silver-shuttlecock-1-tube-of-12-copy",
-  "est": [
-   "price"
-  ]
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
  },
  {
   "id": "rsl-smash",
@@ -3259,12 +3772,12 @@ window.SHUTTLES = [
   "code": "",
   "type": "goose",
   "grade": "",
-  "speed": "",
+  "speed": 76,
   "speedText": "",
-  "spd": "",
+  "spd": "76",
   "cork": "",
   "perTube": 12,
-  "price": 1380,
+  "price": 1050,
   "year": "",
   "note": "",
   "img": "https://cdn.shopify.com/s/files/1/0614/7761/7916/files/Untitleddesign-2026-06-16T170451.121.png?v=1781600702",
@@ -3276,13 +3789,15 @@ window.SHUTTLES = [
    {
     "shop": "centralsports.co.uk",
     "url": "https://centralsports.co.uk/products/rsl-tourney-no2-feather-shuttle"
+   },
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/rsl-%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%81%e0%b8%9a%e0%b8%94%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%95%e0%b8%b1%e0%b8%99-%e0%b8%a3%e0%b8%b8%e0%b9%88%e0%b8%99-tourney-no-2-speed-76/"
    }
   ],
-  "priceNote": "แปลงจาก £30.55 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://centralsports.co.uk/products/rsl-tourney-no2-feather-shuttle",
-  "est": [
-   "price"
-  ]
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
  },
  {
   "id": "rsl-tourney-no-6",
@@ -3349,11 +3864,68 @@ window.SHUTTLES = [
   ]
  },
  {
+  "id": "rsl-ultra",
+  "brand": "RSL",
+  "name": "Ultra",
+  "code": "",
+  "type": "natural",
+  "grade": "",
+  "speed": 76,
+  "speedText": "",
+  "spd": "76",
+  "cork": "",
+  "perTube": 12,
+  "price": 990,
+  "year": "",
+  "note": "",
+  "img": "https://luxebadminton.com/wp-content/uploads/2025/03/FB_IMG_1742530847812.jpg",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/rsl-%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%81%e0%b8%9a%e0%b8%94%e0%b8%a1%e0%b8%b4%e0%b8%99%e0%b8%95%e0%b8%b1%e0%b8%99-%e0%b8%a3%e0%b8%b8%e0%b9%88%e0%b8%99-ultra-speed-76-%e0%b8%82%e0%b8%ad%e0%b8%87/"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
+ },
+ {
+  "id": "smasher-silver-series",
+  "brand": "Smasher",
+  "name": "Silver Series",
+  "code": "",
+  "type": "goose",
+  "grade": "",
+  "speed": 75,
+  "speedText": "",
+  "spd": "75",
+  "cork": "",
+  "perTube": 12,
+  "price": 819,
+  "year": "",
+  "note": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "https://th.my-best.com/49874",
+  "shopLinks": "",
+  "priceNote": "ราคาอ้างอิงจาก my-best (ต.ค. 2026)",
+  "priceSrc": "",
+  "est": [
+   "price"
+  ]
+ },
+ {
   "id": "vs-a7",
   "brand": "VS",
   "name": "A7",
   "code": "",
-  "type": "duck",
+  "type": "goose",
   "grade": "",
   "speed": 76,
   "speedText": "",
@@ -3376,6 +3948,10 @@ window.SHUTTLES = [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/vs-a7-shuttlecock-speed-77"
+   },
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/vs-a7/"
    }
   ],
   "priceNote": "",
@@ -3406,6 +3982,36 @@ window.SHUTTLES = [
    {
     "shop": "vssportsthailand.com",
     "url": "https://vssportsthailand.com/products/vs-kirin"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
+ },
+ {
+  "id": "vs-nl500",
+  "brand": "VS",
+  "name": "NL500",
+  "code": "",
+  "type": "",
+  "grade": "",
+  "speed": "",
+  "speedText": "",
+  "spd": "",
+  "cork": "",
+  "perTube": 6,
+  "price": "",
+  "year": "",
+  "note": "",
+  "img": "https://luxebadminton.com/wp-content/uploads/2026/05/ลูกแบด-NL500-1.jpg",
+  "source": "",
+  "officialUrl": "",
+  "shopUrl": "",
+  "specSrc": "",
+  "shopLinks": [
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/%e0%b8%a5%e0%b8%b9%e0%b8%81%e0%b9%81%e0%b8%9a%e0%b8%94%e0%b8%9e%e0%b8%a5%e0%b8%b2%e0%b8%aa%e0%b8%95%e0%b8%b4%e0%b8%81-vs-%e0%b8%a3%e0%b8%b8%e0%b9%88%e0%b8%99-nl500/"
    }
   ],
   "priceNote": "",
@@ -3524,7 +4130,7 @@ window.SHUTTLES = [
   "spd": "",
   "cork": "Composite Cork",
   "perTube": 12,
-  "price": 1350,
+  "price": 1100,
   "year": "",
   "note": "ขนเป็ด · ระดับแข่งขันนานาชาติ · ได้รับการรับรองจาก BWF",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-champion-no-1-300x225.webp",
@@ -3552,13 +4158,15 @@ window.SHUTTLES = [
    {
     "shop": "thegodofsports.com",
     "url": "https://thegodofsports.com/products/victor-champion-1-badminton-feather-shuttlecock-speed-77-pack-of-10"
+   },
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/victor-no1/"
    }
   ],
-  "priceNote": "แปลงจาก US$39.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://joybadminton.com/products/victor-champion-no-1-feather-shuttlecock",
-  "est": [
-   "price"
-  ]
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
  },
  {
   "id": "victor-champion-no-3",
@@ -5293,7 +5901,7 @@ window.SHUTTLES = [
   "spd": "78",
   "cork": "คอร์กธรรมชาติ",
   "perTube": 6,
-  "price": 440,
+  "price": 310,
   "year": "",
   "note": "ไนลอน · ระดับชมรม · วิถีใกล้เคียงลูกขน ทนกว่าไนลอนทั่วไป 4-5 เท่า",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/yonex-mavis-300-200x300.png",
@@ -5333,13 +5941,15 @@ window.SHUTTLES = [
    {
     "shop": "thegodofsports.com",
     "url": "https://thegodofsports.com/products/yonex-mavis-300-badminton-nylon-shuttlecock-green-cap"
+   },
+   {
+    "shop": "luxebadminton.com",
+    "url": "https://luxebadminton.com/product/yonex-mavis300/"
    }
   ],
-  "priceNote": "แปลงจาก US$13.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://joybadminton.com/products/yonex-mavis-300-yellow-middle",
-  "est": [
-   "price"
-  ]
+  "priceNote": "",
+  "priceSrc": "",
+  "est": []
  },
  {
   "id": "yonex-mavis-350",

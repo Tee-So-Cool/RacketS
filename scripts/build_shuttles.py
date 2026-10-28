@@ -113,17 +113,20 @@ import gear_shop
 
 def clean_title(t, strip_brand=''):
     # "VICTOR NEW CARBONSONIC MAX (12 PCS) Shuttlecock (NCS-MAX-12)" -> "New Carbonsonic Max"
-    t = re.sub(r'\(.*?\)|\[.*?\]', ' ', t)
+    t = re.sub(r'\(.*?\)|\[.*?\]|—.*$', ' ', t)
+    t = re.sub(r'\d+\s*(?=(?:หลอด|ลูก))|มี\s*\d+', ' ', t)  # counts: "25 หลอด", "1 หลอด มี 12 ลูก"
+    t = re.sub(r'[ก-๙]+', ' ', t)  # Thai framing: "ลูกแบดมินตัน Forehand รุ่น Spirit"
+    t = re.sub(r'(?i)\b(tournament) no\.?\s?1\b', r'\1', t) if re.search(r'(?i)bullets', t + strip_brand) else t  # Bullets "Tournament No.1" = "Tournament"
     if strip_brand: t = re.sub(re.escape(strip_brand) + r'|li[- ]?ning|ling ?mei', ' ', t, flags=re.I)
     # shop framing: prices ("From £37.62"), approvals, speed words, pack counts ("Mavis 350-5", "1/2 dozen")
-    t = re.sub(r'\b(?:pack|box|set|tube|carton)s?\s+of\s+\d+\b|[-–\s]*from\s*[£$€]?[\d.,]+|\bbwf approved\b|\bpremium\b|\b(?:medium|fast|slow)(?: speed)?\b|\b1/2\b|'
-               r'\b(?:practice|training|plastic|official)\b|(?<=\w )\b7[5-9]\b|\bnew\b(?! carbon)|[-\s]speed\b', ' ', t, flags=re.I)
+    t = re.sub(r'\b(?:pack|box|set|tube|carton)s?\s+of\s+\d+\b|[-–\s]*from\s*[£$€]?[\d.,]+|\bbwf approved\b|\b(?:medium|fast|slow)(?: speed)?\b|\b1/2\b|'
+               r'\b(?:practice|training|plastic|official)\b|(?<=\w )\b7[5-9]\b|\s*[,/]\s*7[5-9]\b|\bnew\b(?! carbon)|[-\s]speed\b', ' ', t, flags=re.I)
     t = re.sub(r'(\d)\s*[-–]\s*\d{1,2}\b(?!\.)', r'\1', t)  # "Mavis 350-5", "Champion 5-5": a pack count
     # a code that repeats the model number ("Flight 10 FL10", "Aerosensa 2 AS2") goes
     ws = t.split()
     t = ' '.join(w for w in ws if not ((m := re.fullmatch(r'[A-Za-z]{1,3}-?(\d{1,3})', w)) and m.group(1) in ws))
     t = re.sub(r'\b(badminton|shuttlecocks?|shuttles?|feather|tube|dozen|pack|box|carton|of|\d+\s?(?:pcs|pieces|tubes?)|pcs|'
-               r'speed\s?\d+|\d{2}\s?speed|20\d\d|white|yellow|green|blue|red|orange|small|single|goose|duck|nylon|synthetic)\b|\b\d+\s?(?:pcs|pieces|tubes?)\b', ' ', t, flags=re.I)
+               r'speed\s?\d+|\d{2}\s?speed|20\d\d|white|yellow|green|blue|small|single|goose|duck|nylon|synthetic)\b|\b\d+\s?(?:pcs|pieces|tubes?)\b', ' ', t, flags=re.I)
     t = re.sub(r'\s*-\s*', '-', re.sub(r'\s+', ' ', t))
     t = re.sub(r'\b[Nn][Oo]\.\s?(\d)', r'No.\1', t)  # "NO. 1" -> "No.1"
     t = re.sub(r'^[\s\-–|,/.]+|[\s\-–|,/.]+$', '', t)
