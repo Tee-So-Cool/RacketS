@@ -5227,7 +5227,7 @@ window.RACKETS = [
   ],
   "price": 3573,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -5313,7 +5313,7 @@ window.RACKETS = [
   ],
   "price": 8329,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -5365,7 +5365,7 @@ window.RACKETS = [
   ],
   "price": 2490,
   "frame": "Commercial Grade Carbon Fiber",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "675 mm.",
   "pattern": "",
@@ -5416,7 +5416,7 @@ window.RACKETS = [
   ],
   "price": 5250,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -5552,7 +5552,7 @@ window.RACKETS = [
   ],
   "price": 8295,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "675 mm.",
   "pattern": "",
@@ -5604,7 +5604,7 @@ window.RACKETS = [
   ],
   "price": 8295,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -5652,7 +5652,7 @@ window.RACKETS = [
   ],
   "price": 1976,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -5704,7 +5704,7 @@ window.RACKETS = [
   ],
   "price": 6990,
   "frame": "Carbon Fibre",
-  "shaft": "Featuring a",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -5854,7 +5854,7 @@ window.RACKETS = [
   ],
   "price": 2982,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -5906,7 +5906,7 @@ window.RACKETS = [
   ],
   "price": 4024,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -6090,7 +6090,7 @@ window.RACKETS = [
   ],
   "price": 5690,
   "frame": "Carbon Fibre",
-  "shaft": "The hard-elastic shaft recovers quickly after impact, providing strong repulsion and supporting continuous attacks, fast drives, and quick follow-up shots.",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "675 mm",
   "pattern": "",
@@ -6277,7 +6277,7 @@ window.RACKETS = [
   ],
   "price": 8677,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -6333,7 +6333,7 @@ window.RACKETS = [
   ],
   "price": 6290,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -6463,7 +6463,7 @@ window.RACKETS = [
   ],
   "price": 6290,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -6515,7 +6515,7 @@ window.RACKETS = [
   ],
   "price": 4666,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -6563,7 +6563,7 @@ window.RACKETS = [
   ],
   "price": 2080,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -6654,7 +6654,7 @@ window.RACKETS = [
   ],
   "price": 4337,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -6845,7 +6845,7 @@ window.RACKETS = [
   ],
   "price": 2149,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -6893,7 +6893,7 @@ window.RACKETS = [
   ],
   "price": 4718,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -7069,7 +7069,7 @@ window.RACKETS = [
   ],
   "price": 7190,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "675 mm.",
   "pattern": "",
@@ -7532,7 +7532,7 @@ window.RACKETS = [
   ],
   "price": 2477,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -7719,7 +7719,7 @@ window.RACKETS = [
   ],
   "price": 2948,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -7919,7 +7919,7 @@ window.RACKETS = [
   ],
   "price": 4990,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -8008,7 +8008,7 @@ window.RACKETS = [
   ],
   "price": 7189,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -8066,7 +8066,7 @@ window.RACKETS = [
   ],
   "price": 6890,
   "frame": "T1100 Carbon Fibre + TB Nano",
-  "shaft": "Military Grade Carbon Fiber",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "675 mm",
   "pattern": "",
@@ -8219,7 +8219,7 @@ window.RACKETS = [
   ],
   "price": 2670,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -8273,7 +8273,7 @@ window.RACKETS = [
   ],
   "price": 4337,
   "frame": "Carbon Fiber",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -8480,8 +8480,8 @@ window.RACKETS = [
    32
   ],
   "price": 6830,
-  "frame": "",
-  "shaft": "",
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -8532,7 +8532,7 @@ window.RACKETS = [
   ],
   "price": 10402,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -8580,7 +8580,7 @@ window.RACKETS = [
   ],
   "price": 2890,
   "frame": "Commercial Grade Carbon Fiber",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "675mm",
   "pattern": "",
@@ -8634,7 +8634,7 @@ window.RACKETS = [
   ],
   "price": 3590,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -8686,7 +8686,7 @@ window.RACKETS = [
   ],
   "price": 5211,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -8738,7 +8738,7 @@ window.RACKETS = [
   ],
   "price": 5309,
   "frame": "Carbon Fibre",
-  "shaft": "",
+  "shaft": "Carbon Fibre",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -8790,7 +8790,7 @@ window.RACKETS = [
   ],
   "price": 2890,
   "frame": "Carbon Graphite",
-  "shaft": "",
+  "shaft": "Carbon Graphite",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -8842,7 +8842,7 @@ window.RACKETS = [
   ],
   "price": 2890,
   "frame": "Carbon Graphite",
-  "shaft": "",
+  "shaft": "Carbon Graphite",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -15128,6 +15128,10 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-100x-ultra-c"
+   },
+   {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/victor-auraspeed-100x-ultra-badminton-racket"
    },
@@ -15178,7 +15182,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-130cl-u"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -15220,7 +15229,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-150cl-s"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -15262,7 +15276,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-1jr-m"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -15303,7 +15322,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-25mach"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -15384,7 +15408,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-3200-r"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -15423,7 +15452,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-3210-s"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -15465,7 +15499,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-33h-c"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -15506,7 +15545,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-58-m"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -15547,7 +15591,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-6000-a"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -15586,7 +15635,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-7000-b"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -15665,6 +15719,10 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-8000-a"
+   },
+   {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-auraspeed-8000-badminton-racket-unstrung"
    }
@@ -15711,6 +15769,10 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-9-t"
+   },
+   {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/victor-auraspeed-9-badminton-racket"
    }
@@ -15753,7 +15815,12 @@ window.RACKETS = [
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5191",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-9000-c"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -15795,6 +15862,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-90f"
+   },
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-auraspeed-90f-badminton-racket-unstrung"
@@ -15842,6 +15913,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-90f-td"
+   },
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-auraspeed-90ftd-badminton-racket-unstrung"
@@ -15915,14 +15990,14 @@ window.RACKETS = [
   "level": "intermediate",
   "weights": "4U, 3U",
   "weight": "",
-  "grips": "",
+  "grips": "G5, G6",
   "tension": [
    null,
    27
   ],
   "price": 2200,
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR + Hard Cored Technology",
-  "shaft": "",
+  "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
   "joint": "",
   "length": "675 mm",
   "pattern": "",
@@ -15937,7 +16012,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-90k-ii-td"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -15979,6 +16059,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-90k-metallic-r"
+   },
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/victor-auraspeed-90k-metallic-badminton-racket-1"
@@ -16024,6 +16108,10 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-cyber-c"
+   },
+   {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-auraspeed-cyber-badminton-racket-unstrung"
    }
@@ -16068,7 +16156,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-eta-c"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -16110,6 +16203,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-fd-a"
+   },
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-auraspeed-fd-a-badminton-racket-strung"
@@ -16267,6 +16364,10 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-hs-plus-c"
+   },
+   {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/victor-auraspeed-hs-plus-c-badminton-racket"
    },
@@ -16405,6 +16506,10 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-ju-c"
+   },
+   {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-auraspeed-ju-c-badminton-racket-unstrung"
    }
@@ -16450,6 +16555,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-ljh-e"
+   },
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/victor-auraspeed-ljh-badminton-racket"
@@ -16497,7 +16606,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-lyc-b"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -16538,7 +16652,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-syn-s"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -16672,7 +16791,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/challenger-9500-pro-a"
+   }
+  ],
   "priceNote": "แปลงจาก US$69.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/victor-challenger-pro-9500-badminton-racket-blue",
   "note": "",
@@ -16714,7 +16838,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/drivex-09-i"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -16755,7 +16884,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/drivex-1-a"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -16904,6 +17038,10 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/drivex-3h-v"
+   },
+   {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/victor-drivex-3h-badminton-racket-pre-strung"
    }
@@ -16946,7 +17084,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/drivex-6sp-w"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -16985,7 +17128,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/drivex-7sp-v"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -17024,7 +17172,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/drivex-f-t"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -17106,7 +17259,12 @@ window.RACKETS = [
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4304",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/drivex-metallic-c"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -17148,7 +17306,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/drivex-phecda-a"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -17233,6 +17396,10 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/jetspeed-s-12-ii-r"
+   },
+   {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/jetspeed-js-12-ii-badminton-racket"
    },
@@ -17281,7 +17448,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/jetspeed-s-12td-f"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -17322,7 +17494,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/jetspeed-s-800ht-a"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -17364,6 +17541,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/jetspeed-t1"
+   },
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/victor-jetspeed-s1-r-badminton-racket-pre-strung"
@@ -17413,7 +17594,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/jetspeed-t1pro-c"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -17454,7 +17640,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/legend-c"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -17631,7 +17822,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-220h-ii-a"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -17671,6 +17867,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "https://badmintonclick.com.au/products/new-2026-victor-thruster-k-66-aj-white-66-grams-badminton-racquet",
   "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-66-y"
+   },
    {
     "shop": "joybadminton.com",
     "url": "https://joybadminton.com/products/thruster-k-66-q-pink-pre-string-tk-66-q"
@@ -17718,7 +17918,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-8110al-md"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -17761,6 +17966,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "https://badmintonclick.com.au/products/new-2026-victor-thruster-f-c-ultra-cx-black-gold-83-grams-badminton-racquet",
   "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-f-c-ultra-x"
+   },
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/victor-thruster-f-c-ultra-cx-badminton-racket"
@@ -17816,6 +18025,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "https://badmintonclick.com.au/products/victor-thruster-f-claw-ultra-78-grams-badminton-racquet",
   "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-f-claw-f"
+   },
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/victor-thruster-f-claw-badminton-racket-ltd-a-tai-tzu-ying"
@@ -17954,7 +18167,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-hmr-light-g"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -17994,6 +18212,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "https://badmintonclick.com.au/products/victor-thruster-hmr-pro-u-turquoise-83-grams-badminton-racquet",
   "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-hmr-pro-u"
+   },
    {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/victor-thruster-hmr-pro-u-turquoise-83-grams-badminton-racquet"
@@ -18039,6 +18261,10 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-hammer-u"
+   },
+   {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-thruster-k-hammer-light-jelly-badminton-racket-tk-hmrl-unstrung"
    }
@@ -18083,7 +18309,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-hammer-light-extra-a"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -18125,6 +18356,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-hawk"
+   },
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-thruster-k-hawk-badminton-racket-black-unstrung"
@@ -18168,7 +18403,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-hawk-pro-s"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -18258,6 +18498,10 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-k-280-ex"
+   },
+   {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/victor-thruster-k-280-ex-badminton-racket-mauve"
    }
@@ -18300,7 +18544,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-k-816cl"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -18342,7 +18591,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-k-817cl"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -18445,14 +18699,14 @@ window.RACKETS = [
   "level": "beginner",
   "weights": "4U",
   "weight": 82,
-  "grips": "",
+  "grips": "G5",
   "tension": [
    null,
    32
   ],
   "price": 2190,
-  "frame": "",
-  "shaft": "",
+  "frame": "Graphite + Resin + Fiber Reinforced System(FRS)",
+  "shaft": "Graphite + Resin + 6.8 SHAFT",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -18467,7 +18721,12 @@ window.RACKETS = [
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4272",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-hmr-pro-x"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -18558,6 +18817,10 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-k-r-r"
+   },
+   {
     "shop": "nydhi.com",
     "url": "https://nydhi.com/products/victor-thruster-k-r-badminton-racket-white"
    },
@@ -18604,7 +18867,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-merak-b"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -18646,6 +18914,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-raptor-c"
+   },
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/victor-thruster-tk-raptor-c-badminton-racket"
@@ -18747,6 +19019,10 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-ryuga-cls-d"
+   },
+   {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-thruster-ryuga-cls-badminton-racket-unstrung-tk-ryuga-cls"
    }
@@ -18840,6 +19116,10 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-ryuga-ii-pro-b"
+   },
+   {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/victor-thruster-ryuga-ii-pro-cps-capsule-collection-badminton-racket-grape-purple"
    },
@@ -18890,7 +19170,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-ryuga-ii-td-j"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -18967,7 +19252,7 @@ window.RACKETS = [
   "frame": "Aluminum",
   "shaft": "Graphite+ Resin",
   "joint": "",
-  "length": "",
+  "length": "665 mm",
   "pattern": "",
   "tech": "",
   "players": "",
@@ -18980,7 +19265,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-ryuga-jr-j"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -19022,6 +19312,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "https://badmintonclick.com.au/products/new-2023-victor-thruster-ryuga-metallic-83-grams-badminton-racquet",
   "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-ryuga-metallic"
+   },
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/thruster-tk-ryuga-metallic-capsule-collection-badminton-racket-cps"
@@ -19078,6 +19372,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "https://badmintonclick.com.au/products/victor-thruster-k-ryuga-muse-78-grams-badminton-racquet",
   "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-ryuga-muse-i"
+   },
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/thruster-ryuga-muse-badminton-racket-blue"
@@ -19187,7 +19485,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-ryuga-td-c"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -19226,7 +19529,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-ryuga-tm-c"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -19268,7 +19576,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-si-x"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -19310,7 +19623,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-t300-g"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -19353,6 +19671,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/thruster-t500-c"
+   },
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-thruster-k-t500-badminton-racket-unstrung-tk-t500"
@@ -19499,7 +19821,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/wrist-enhancer-140-m"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",

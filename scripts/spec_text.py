@@ -26,7 +26,7 @@ LABEL_RULES = [
     # one material for the whole racket ("วัสดุ") counts for frame and shaft alike
     (r'^material$|^วัสดุ$', 'material'),
 ]
-SKIP_LABEL = re.compile(r'recommended tension|stringing advice|suggested tension|colou?r|size$|ไซส์|สี', re.I)
+SKIP_LABEL = re.compile(r'recommended tension|stringing advice|suggested tension|colou?r|^size$|ไซส์|^สี|shape|thickness|product (?:type|range)|player type|net quantity', re.I)
 
 def label_field(lab):
     lab = lab.strip().strip(':：').strip().lower()
@@ -80,7 +80,10 @@ def grams_of(t):
 
 def tmax_of(t, prose=False):
     t = t or ''
-    ns = [int(n) for n in re.findall(r'(?:max(?:imum)?\.?|up to|≤|<=|สูงสุด)[^0-9]{0,25}(\d{2})\s*(?:lbs?|ปอนด์|lb)?', t, re.I)]
+    # the 4U ceiling when the text lists one per weight class, as the rest of this data does
+    m = re.search(r'4\s?U[^0-9|]{0,8}(\d{2})\s*(?:lbs?|ปอนด์)', t, re.I)
+    if m and 20 <= int(m.group(1)) <= 40: return int(m.group(1))
+    ns = [int(n) for n in re.findall(r'(?:max(?:imum)?\.?|up to|≤|≦|<=|สูงสุด)[^0-9]{0,25}(\d{2})\s*(?:lbs?|ปอนด์|lb)?', t, re.I)]
     ns += [int(n) for n in re.findall(r'(\d{2})\s*(?:lbs?|ปอนด์)\.?\s*(?:tension\s*)?(?:ceiling|max)', t, re.I)]
     # a range ("22-27 lbs") under a tension label is the racket's range; in prose it is usually stringing advice
     if not prose: ns += [int(b) for a, b in re.findall(r'(\d{2})\s*(?:-|–|~|to)\s*(\d{2})\s*(?:lbs?|ปอนด์)', t, re.I)]
@@ -124,12 +127,17 @@ def parse(lines, options=()):
     while i < len(lines):
         l = lines[i]; i += 1
         m = re.match(r'^[-•*]?\s*([^:：]{2,40}?)\s*[:：]\s*(.+)$', l)
+        # a label we do not use ("frame shape") on its own line: skip its value too, so the value is not read as a label
+        if not m and len(l.split()) <= 4 and SKIP_LABEL.search(l) and i < len(lines): i += 1; continue
         if m: lab, val = m.group(1), m.group(2)
         # a label on its own line takes the next line as its value, unless that line is itself a "Label:" line
         elif i < len(lines) and len(l.split()) <= 4 and not re.search(r'\d(?!\s*mm\))', l) and label_field(l) and not re.search(r'[:：]\s*$', lines[i]):
             lab, val = l, lines[i]; i += 1
         else: continue
         f = label_field(lab)
+        # one value per weight class on the following lines ("3U:≦30 lbs" then "4U:≦29 lbs") belongs to the same label
+        while f in ('tension', 'weight', 'grips') and i < len(lines) and re.match(r'\d\s?U\b', lines[i]):
+            val += ' | ' + lines[i]; i += 1
         if f and f not in out: out[f] = val.strip()
     # normalise the labelled values; a "shaft" label holding a stiffness word is the flex, not the material
     if out.get('shaft') and not out.get('flex') and flex_of(out['shaft']) and not re.search(r'graphite|carbon|fib|nano|titan', out['shaft'], re.I):

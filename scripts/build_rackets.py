@@ -251,6 +251,7 @@ SHOPS = os.path.join(SRC, 'shops.json')
 BRAND_OF = {'victor': 'Victor', 'yonex': 'Yonex', 'li-ning': 'Li-Ning', 'li ning': 'Li-Ning', 'lining': 'Li-Ning', 'vs': 'VS',
             'apacs': 'Apacs', 'mizuno': 'Mizuno', 'kawasaki': 'Kawasaki'}
 from spec_text import parse as parse_spec
+PAGES = json.load(open(os.path.join(SRC, 'pages.json'), encoding='utf-8')) if os.path.exists(os.path.join(SRC, 'pages.json')) else {}
 def from_shop(p):
     brand = BRAND_OF.get(p['brand'].strip().lower(), '')
     if not brand: return None
@@ -259,10 +260,15 @@ def from_shop(p):
     nm = re.sub(r'(?<=[A-Za-z]) ([2-4])\b(?! ?[\d.])', lambda m: ' ' + {'2': 'II', '3': 'III', '4': 'IV'}[m.group(1)], nm)
     # older shops.json files carry only the labelled spec; rebuild lines from it
     lines = p.get('lines') or [f'{k}: {v}' for k, v in p.get('spec', {}).items()]
+    # the spec table from the product page itself (scripts/fetch_pages.py) goes first: it is the labelled source
+    lines = PAGES.get(p['url'], []) + lines
     sp = parse_spec(lines, p.get('options', []))
     return {'src': 'shop', 'shop': p['shop'], 'brand': brand, 'name': nm, 'url': p['url'], 'img': p.get('img', ''),
             'price': p.get('price'), 'currency': p.get('currency'), 'parsed': sp}
-shops = [x for x in (from_shop(p) for p in (json.load(open(SHOPS, encoding='utf-8')) if os.path.exists(SHOPS) else [])) if x]
+# Victor's official Thai pages (scripts/fetch_victor.py) come first, so the maker's figures win over shops'
+VOFF = os.path.join(SRC, 'victor-official.json')
+shop_pages = (json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) else []) + (json.load(open(SHOPS, encoding='utf-8')) if os.path.exists(SHOPS) else [])
+shops = [x for x in (from_shop(p) for p in shop_pages) if x]
 bay_hits = {'bay': 0, 'click': 0, 'shop': 0}
 for bz in bay + click + shops:
     if bz.get('src') == 'click':
@@ -279,7 +285,8 @@ for bz in bay + click + shops:
         ps = bz['parsed']
         fill = {'balance': ps['balance'], 'flex': ps['flex'], 'weights': ps['weights'], 'weight': ps['weight'],
                 'tension': [None, ps['tmax']] if ps['tmax'] else None, 'grips': ps['grips'], 'img': bz.get('img', ''),
-                'level': one_level(ps['level']), 'recString': ps['recText'],
+                # Li-Ning's own stores tag even entry rackets "Professional", so their level is not used
+                'level': '' if 'lining.studio' in bz['shop'] else one_level(ps['level']), 'recString': ps['recText'],
                 **{f: ps[f] for f in ('frame', 'shaft', 'length', 'joint', 'madeIn', 'tech', 'players', 'pattern')}}
     else:
         fill = {'balance': bay_balance(bz.get('balance')), 'flex': bay_flex(bz.get('flex')), 'weights': ws, 'weight': g,
