@@ -692,7 +692,13 @@
       if (e.target.classList.contains('finder')) take(e.target, true);
       else { state.m[e.target.name] = e.target.value; renderMatch(); }
     });
-    form.addEventListener('focusin', e => { if (e.target.classList.contains('finder')) e.target.select(); });
+    // the browser filters suggestions by the text in the box, so the box empties on focus to list every model;
+    // the current pick stays as the placeholder and comes back if nothing new is chosen
+    form.addEventListener('focusin', e => {
+      const el = e.target; if (!el.classList.contains('finder')) return;
+      el.placeholder = el.value || el.placeholder; el.value = '';
+    });
+    form.addEventListener('focusout', e => { if (e.target.classList.contains('finder')) take(e.target, true); });
     const pickAlt = a => {
       const [kind, id] = a.dataset.pick.split(':');
       state.m[kind] = id;
