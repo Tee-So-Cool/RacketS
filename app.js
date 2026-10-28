@@ -381,6 +381,7 @@
         <select name="sort">${Object.entries(cfg.sorts).map(([k, v]) => `<option value="${k}" ${f.sort === k ? 'selected' : ''}>${v}</option>`).join('')}</select>
         <button class="btn ghost" id="clr" type="button">ล้างตัวกรอง</button>
       </div>
+      <div class="tiles" id="tiles"></div>
       <div class="chipbar" id="chips"></div>
       <div class="count muted small" id="cnt"></div>
       <div class="grid" id="grid"></div>
@@ -439,11 +440,24 @@
             `<button type="button" class="chip ${f[key] === k ? 'on' : ''}" data-ck="${key}" data-cv="${esc(k)}" aria-pressed="${f[key] === k}">${esc(v)}</button>`).join('')}
         </div></div>`).join('');
     };
-    chips.addEventListener('click', e => {
-      const b = e.target.closest('[data-ck]'); if (!b) return;
+    // shortcut tiles for the first filter (playing style for rackets), shown in the sport layout
+    const tiles = view.querySelector('#tiles'), tk = cfg.filters[0];
+    const renderTiles = () => {
+      tiles.innerHTML = Object.entries(L[tk]).filter(([k]) => countOf(tk, k)).map(([k, v]) =>
+        `<button type="button" class="tile ${f[tk] === k ? 'on' : ''}" data-ck="${tk}" data-cv="${esc(k)}" aria-pressed="${f[tk] === k}">
+          <span class="tile-nm">${esc(v)}</span><span class="tile-n">${countOf(tk, k)} รุ่น</span></button>`).join('');
+    };
+    const pick = b => {
       f[b.dataset.ck] = f[b.dataset.ck] === b.dataset.cv ? '' : b.dataset.cv;
       const s = flt.querySelector(`[name="${b.dataset.ck}"]`); if (s) s.value = f[b.dataset.ck];
-      state.shown[kind] = PAGE; renderChips(); renderGrid(kind);
+      state.shown[kind] = PAGE; renderChips(); renderTiles(); renderGrid(kind);
+    };
+    tiles.addEventListener('click', e => { const b = e.target.closest('[data-ck]'); if (b) pick(b); });
+    flt.addEventListener('change', renderTiles);
+    renderTiles();
+    chips.addEventListener('click', e => {
+      const b = e.target.closest('[data-ck]'); if (!b) return;
+      pick(b);
     });
     flt.addEventListener('change', renderChips);
     renderChips();
@@ -1012,8 +1026,13 @@
     styleSel.value = document.documentElement.dataset.style || '';
     styleSel.addEventListener('change', () => {
       const t = styleSel.value;
-      if (t) document.documentElement.dataset.style = t; else delete document.documentElement.dataset.style;
+      const d = document.documentElement;
+      if (t) d.dataset.style = t; else delete d.dataset.style;
       try { t ? localStorage.setItem('style', t) : localStorage.removeItem('style'); } catch (e) {}
+      // the sport layout brings its black-and-white palette when no theme was picked
+      let saved = null; try { saved = localStorage.getItem('theme'); } catch (e) {}
+      if (!saved) { if (t === 'sport') d.dataset.theme = 'mono'; else delete d.dataset.theme; }
+      if (themeSel) themeSel.value = d.dataset.theme || '';
     });
   }
 

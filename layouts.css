@@ -90,3 +90,73 @@ html[data-style="app"] .item .price .fig { font-size: var(--text-md); }
 @media (prefers-reduced-motion: reduce) {
   .chip { transition: none; }
 }
+
+/* ================= sport: after Nike's listing and Apple's compare page =================
+ * white page, product photos on grey squares with no card frame, filters as plain text in a left
+ * column, shortcut tiles for the playing style, black pill actions. It brings its own palette. */
+.tiles { display: none; }
+html[data-style="sport"] .top { -webkit-backdrop-filter: none; backdrop-filter: none; box-shadow: inset 0 -1px 0 var(--color-rule); }
+html[data-style="sport"] h1 { font-size: var(--text-2xl); }
+html[data-style="sport"] #view > p.muted { font-size: var(--text-sm); }
+@media (min-width: 60rem) {
+  html[data-style="sport"] #view:has(#flt) { display: grid; grid-template-columns: 220px minmax(0, 1fr); column-gap: var(--space-xl); align-items: start; }
+  html[data-style="sport"] #view:has(#flt) > * { grid-column: 2; }
+  html[data-style="sport"] #view:has(#flt) > h1, html[data-style="sport"] #view:has(#flt) > p.muted { grid-column: 1 / -1; }
+  html[data-style="sport"] #view:has(#flt) > #chips { grid-column: 1; grid-row: 3 / span 6; position: sticky; top: 76px; margin-top: var(--space-lg); max-height: calc(100vh - 96px); overflow-y: auto; scrollbar-width: thin; }
+}
+/* search and sort sit above the grid on the right, like Nike's "Hide filters / Sort by" */
+html[data-style="sport"] .filters { display: flex; flex-direction: row; justify-content: flex-end; background: none; box-shadow: none; padding: 0; margin-top: var(--space-md); }
+html[data-style="sport"] .filters select:not([name="sort"]), html[data-style="sport"] #clr { display: none; }
+html[data-style="sport"] .filters input[type=search] { flex: 0 1 320px; border-radius: var(--radius-pill); background: var(--color-paper-2); border-color: transparent; }
+html[data-style="sport"] .filters select { border-color: transparent; border-radius: var(--radius-pill); background-color: var(--color-paper-2); font-weight: 500; }
+/* shortcut tiles */
+html[data-style="sport"] .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(180px, 100%), 1fr)); gap: var(--space-xs); margin-top: var(--space-md); }
+html[data-style="sport"] .tile { display: grid; align-content: space-between; gap: var(--space-lg); min-height: 104px; padding: var(--space-md); text-align: left;
+  border: 0; background: var(--color-paper-2); color: var(--color-ink); font: inherit; cursor: pointer;
+  transition: background-color var(--dur-micro) var(--ease-out), color var(--dur-micro) var(--ease-out); }
+html[data-style="sport"] .tile:hover { background: var(--color-paper-3); }
+html[data-style="sport"] .tile:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; transition: none; }
+html[data-style="sport"] .tile.on { background: var(--color-ink); color: var(--color-paper); }
+html[data-style="sport"] .tile-nm { font-family: var(--font-display); font-weight: 600; font-size: var(--text-lg); }
+html[data-style="sport"] .tile-n { font-size: var(--text-sm); color: inherit; opacity: 0.7; }
+/* filters as plain text rows */
+html[data-style="sport"] .chipbar { display: grid; gap: 0; }
+html[data-style="sport"] .chipgroup { display: grid; gap: var(--space-2xs); padding: var(--space-md) 0; border-bottom: var(--rule-hair) solid var(--color-rule); }
+html[data-style="sport"] .chipgroup:first-child { padding-top: 0; }
+html[data-style="sport"] .chiplabel { font-size: var(--text-md); font-weight: 600; color: var(--color-ink); }
+html[data-style="sport"] .chiprow { display: grid; gap: 0; }
+html[data-style="sport"] .chip { min-height: 30px; padding: 0; border: 0; border-radius: 0; background: none; text-align: left; color: var(--color-ink-2); font-size: var(--text-sm); }
+html[data-style="sport"] .chip:hover { color: var(--color-ink); text-decoration: underline; text-underline-offset: 0.2em; }
+html[data-style="sport"] .chip.on { background: none; color: var(--color-ink); font-weight: 600; }
+html[data-style="sport"] .chip.on::before { content: "✓ "; }
+/* the grid: edge-to-edge grey photo squares, no frame */
+html[data-style="sport"] .count { margin-top: var(--space-lg); }
+html[data-style="sport"] .grid { grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr)); gap: var(--space-xl) var(--space-sm); border-top: 0; }
+html[data-style="sport"] .item { padding: 0; gap: var(--space-3xs); background: none; border: 0; box-shadow: none; border-radius: 0; }
+html[data-style="sport"] .item:hover { background: none; transform: none; }
+/* the grey square sits behind the photo and the photo multiplies onto it, so a white product shot reads as grey */
+html[data-style="sport"] .item::before { content: ""; position: absolute; top: 0; left: 0; right: 0; aspect-ratio: 1; background: var(--color-card); }
+html[data-style="sport"] .item .thumb { position: relative; height: auto; aspect-ratio: 1; padding: var(--space-xl); margin-bottom: var(--space-sm);
+  background: none; border-radius: 0; mix-blend-mode: multiply; }
+html[data-style="sport"] .item:hover .nm { text-decoration: underline; text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+html[data-style="sport"] .item.sel { background: none; box-shadow: none; }
+html[data-style="sport"] .item.sel::before { box-shadow: inset 0 0 0 2px var(--color-ink); }
+html[data-style="sport"] .item:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 4px; }
+html[data-style="sport"] .item .tag { order: 3; background: none; padding: 0; min-height: 0; color: var(--color-accent-2); font-size: var(--text-sm); }
+html[data-style="sport"] .item .nm { font-weight: 500; padding-right: 0; }
+html[data-style="sport"] .item .meta { order: 2; }
+html[data-style="sport"] .item .chips { order: 4; }
+html[data-style="sport"] .item .chips span { background: none; padding: 0; border: 0; color: var(--color-muted); }
+html[data-style="sport"] .item .chips span + span::before { content: ", "; }
+html[data-style="sport"] .item .price { order: 5; padding-top: var(--space-2xs); }
+html[data-style="sport"] .item .price .fig { font-size: var(--text-md); font-weight: 600; }
+html[data-style="sport"] .item .tick { display: none; }
+html[data-style="sport"] .btn.primary, html[data-style="sport"] .tray { border-radius: var(--radius-pill); }
+@media (max-width: 60rem) {
+  html[data-style="sport"] .chipbar { display: none; }
+  html[data-style="sport"] .filters select:not([name="sort"]) { display: block; }
+  html[data-style="sport"] .filters { flex-wrap: wrap; justify-content: flex-start; }
+  html[data-style="sport"] .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-lg) var(--space-xs); }
+  html[data-style="sport"] .item .thumb { padding: var(--space-md); }
+  html[data-style="sport"] .tiles { grid-auto-flow: column; grid-auto-columns: minmax(150px, 1fr); grid-template-columns: none; overflow-x: auto; scrollbar-width: none; }
+}

@@ -21,6 +21,8 @@
         if (q.has(k) && q.has('save') && ls) { try { v ? ls.setItem(k, v) : ls.removeItem(k); } catch (e) {} }
         if (v) d.dataset[k] = v;
       });
+      // the sport layout is drawn for the black-and-white palette: it takes it unless a theme was chosen
+      if (d.dataset.style === 'sport' && !d.dataset.theme) d.dataset.theme = 'mono';
     })();
   </script>
 </head>
@@ -41,6 +43,7 @@
         <label for="style">สไตล์</label>
         <select id="style">
           <option value="">เดิม</option>
+          <option value="sport">สปอร์ต</option>
           <option value="store">ร้านกีฬา</option>
           <option value="table">ตารางสเปก</option>
           <option value="app">แอป</option>
@@ -52,6 +55,7 @@
           <option value="volt">โวลต์</option>
           <option value="paper">กระดาษ</option>
           <option value="sky">ฟ้า</option>
+          <option value="mono">ขาวดำ</option>
         </select>
       </div>
     </div>
