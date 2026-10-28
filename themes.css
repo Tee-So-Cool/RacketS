@@ -1,0 +1,84 @@
+/* Theme choices for the picker in the top bar. "ค่ำ" (dusk) is tokens.css + styles.css as they stand;
+ * each other theme swaps only tokens, set on <html data-theme="..."> (saved in localStorage).
+ * --color-light is the overlay base: white on dark themes, ink on light ones, so hairlines and hovers stay visible. */
+
+/* สนาม: light court green, orange as the second signal */
+html[data-theme="court"] {
+  color-scheme: light;
+  --color-paper: oklch(98.4% 0.004 150); --color-paper-2: oklch(95.8% 0.009 150); --color-paper-3: oklch(92.4% 0.013 150);
+  --color-ink: oklch(22% 0.025 160); --color-ink-2: oklch(34% 0.022 160); --color-muted: oklch(47% 0.02 160);
+  --color-rule: oklch(86% 0.014 150); --color-light: oklch(22% 0.025 160); --color-shade: oklch(30% 0.02 160);
+  --color-accent: oklch(54% 0.14 152); --color-accent-ink: oklch(99% 0.004 150); --color-accent-hi: oklch(49% 0.145 152);
+  --color-accent-deep: oklch(40% 0.12 152); --color-accent-soft: oklch(93% 0.05 152); --color-focus: oklch(54% 0.14 152);
+  --color-accent-2: oklch(64% 0.17 50);
+  --glass: oklch(99% 0.004 150 / 0.78); --glass-hi: inset 0 0 0 1px oklch(22% 0.025 160 / 0.06);
+  --shadow-card: 0 1px 2px oklch(22% 0.025 160 / 0.06), 0 24px 48px -30px oklch(22% 0.025 160 / 0.28);
+  --field-edge: oklch(78% 0.016 150);
+  --s1: oklch(56% 0.2 25); --s2: oklch(52% 0.16 252); --s3: oklch(64% 0.15 75);
+  --style-attack: oklch(55% 0.19 25); --style-speed: oklch(52% 0.15 252); --style-control: oklch(52% 0.13 160); --style-allround: oklch(60% 0.14 75);
+  --medal-1: oklch(80% 0.15 88); --medal-2: oklch(84% 0.01 160); --medal-3: oklch(72% 0.09 55);
+  --font-display: "Anuphan", ui-sans-serif, sans-serif; --font-body: "Anuphan", ui-sans-serif, sans-serif;
+  --display-weight: 600; --radius-card: 14px; --radius-inner: 8px;
+}
+
+/* โวลต์: near-black, neon lime, compact and sporty */
+html[data-theme="volt"] {
+  color-scheme: dark;
+  --color-paper: oklch(14.5% 0.006 120); --color-paper-2: oklch(19% 0.008 120); --color-paper-3: oklch(24% 0.01 120);
+  --color-ink: oklch(97% 0.012 110); --color-ink-2: oklch(86% 0.012 110); --color-muted: oklch(68% 0.014 115);
+  --color-rule: oklch(30% 0.012 120); --color-light: oklch(100% 0 0); --color-shade: oklch(9% 0.006 120);
+  --color-accent: oklch(90% 0.2 124); --color-accent-ink: oklch(17% 0.03 124); --color-accent-hi: oklch(94% 0.18 124);
+  --color-accent-deep: oklch(55% 0.16 124); --color-accent-soft: oklch(94% 0.08 124); --color-focus: oklch(90% 0.2 124);
+  --color-accent-2: oklch(74% 0.17 40);
+  --glass: oklch(19% 0.008 120 / 0.7);
+  --field-edge: oklch(45% 0.014 120);
+  --s1: oklch(90% 0.2 124); --s2: oklch(72% 0.15 230); --s3: oklch(74% 0.17 40);
+  --font-display: "Kanit", ui-sans-serif, sans-serif; --font-body: "IBM Plex Sans Thai", ui-sans-serif, sans-serif;
+  --display-weight: 600; --tracking-display: 0; --radius-card: 10px; --radius-inner: 6px;
+}
+
+/* กระดาษ: warm cream, brick red, Thai serif headings */
+html[data-theme="paper"] {
+  color-scheme: light;
+  --color-paper: oklch(97.2% 0.013 85); --color-paper-2: oklch(94.4% 0.017 85); --color-paper-3: oklch(91% 0.021 85);
+  --color-ink: oklch(24% 0.022 50); --color-ink-2: oklch(35% 0.02 50); --color-muted: oklch(48% 0.02 55);
+  --color-rule: oklch(85% 0.02 80); --color-light: oklch(24% 0.022 50); --color-shade: oklch(32% 0.02 50);
+  --color-accent: oklch(50% 0.16 30); --color-accent-ink: oklch(98% 0.01 85); --color-accent-hi: oklch(45% 0.16 30);
+  --color-accent-deep: oklch(38% 0.13 30); --color-accent-soft: oklch(92% 0.04 30); --color-focus: oklch(50% 0.16 30);
+  --color-accent-2: oklch(48% 0.09 235);
+  --glass: oklch(97.5% 0.012 85 / 0.82); --glass-hi: inset 0 0 0 1px oklch(24% 0.022 50 / 0.07);
+  --shadow-card: 0 1px 2px oklch(24% 0.022 50 / 0.07), 0 20px 40px -28px oklch(24% 0.022 50 / 0.3);
+  --field-edge: oklch(76% 0.02 80);
+  --s1: oklch(50% 0.16 30); --s2: oklch(48% 0.1 235); --s3: oklch(62% 0.12 85);
+  --style-attack: oklch(50% 0.17 30); --style-speed: oklch(48% 0.12 245); --style-control: oklch(50% 0.11 155); --style-allround: oklch(58% 0.12 80);
+  --medal-1: oklch(78% 0.13 85); --medal-2: oklch(83% 0.012 80); --medal-3: oklch(70% 0.08 55);
+  --font-display: "Noto Serif Thai", ui-serif, serif; --font-body: "IBM Plex Sans Thai", ui-sans-serif, sans-serif;
+  --display-weight: 600; --tracking-display: -0.01em; --radius-card: 6px; --radius-inner: 4px;
+}
+
+/* ฟ้า: airy light blue, royal blue, amber */
+html[data-theme="sky"] {
+  color-scheme: light;
+  --color-paper: oklch(98% 0.008 240); --color-paper-2: oklch(95.6% 0.013 240); --color-paper-3: oklch(92.2% 0.018 240);
+  --color-ink: oklch(23% 0.035 255); --color-ink-2: oklch(35% 0.03 255); --color-muted: oklch(48% 0.025 255);
+  --color-rule: oklch(86% 0.016 240); --color-light: oklch(23% 0.035 255); --color-shade: oklch(30% 0.03 255);
+  --color-accent: oklch(52% 0.18 260); --color-accent-ink: oklch(98.5% 0.006 240); --color-accent-hi: oklch(47% 0.19 260);
+  --color-accent-deep: oklch(40% 0.16 260); --color-accent-soft: oklch(93% 0.04 260); --color-focus: oklch(52% 0.18 260);
+  --color-accent-2: oklch(70% 0.16 65);
+  --glass: oklch(98.5% 0.008 240 / 0.8); --glass-hi: inset 0 0 0 1px oklch(23% 0.035 255 / 0.06);
+  --shadow-card: 0 1px 2px oklch(23% 0.035 255 / 0.06), 0 24px 48px -28px oklch(23% 0.035 255 / 0.25);
+  --field-edge: oklch(78% 0.02 240);
+  --s1: oklch(52% 0.18 260); --s2: oklch(64% 0.17 45); --s3: oklch(56% 0.13 165);
+  --style-attack: oklch(55% 0.19 25); --style-speed: oklch(50% 0.17 260); --style-control: oklch(52% 0.13 160); --style-allround: oklch(62% 0.14 70);
+  --medal-1: oklch(80% 0.15 88); --medal-2: oklch(84% 0.01 240); --medal-3: oklch(72% 0.09 55);
+  --font-display: "Prompt", ui-sans-serif, sans-serif; --font-body: "Prompt", ui-sans-serif, sans-serif;
+  --display-weight: 500; --radius-card: 16px; --radius-inner: 10px;
+}
+
+/* the picker */
+.theme-pick { display: flex; align-items: center; gap: var(--space-2xs); margin-left: auto; }
+.theme-pick label { font-size: var(--text-xs); color: var(--color-muted); }
+.theme-pick select { height: var(--control-h-sm); padding: 0 var(--space-xs); border: var(--rule-hair) solid var(--field-edge); border-radius: var(--radius-pill);
+  background: var(--color-paper-2); color: var(--color-ink); font-size: var(--text-sm); }
+.theme-pick select:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; }
+@media (max-width: 40rem) { .theme-pick { order: 1; } .tabs { order: 2; } }

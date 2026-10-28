@@ -985,4 +985,15 @@
   }
   window.addEventListener('hashchange', route);
   route();
+
+  // theme picker: the choice lives on <html data-theme>, remembered on this device only
+  const themeSel = document.getElementById('theme');
+  if (themeSel) {
+    themeSel.value = document.documentElement.dataset.theme || '';
+    themeSel.addEventListener('change', () => {
+      const t = themeSel.value;
+      if (t) document.documentElement.dataset.theme = t; else delete document.documentElement.dataset.theme;
+      try { t ? localStorage.setItem('theme', t) : localStorage.removeItem('theme'); } catch (e) {}
+    });
+  }
 })();
