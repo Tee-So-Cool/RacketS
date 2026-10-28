@@ -448,7 +448,7 @@
     more.textContent = `ดูเพิ่มอีก ${Math.min(PAGE, left)} รุ่น (เหลือ ${left})`;
     view.querySelector('#grid').innerHTML = list.length ? list.map(x => `
       <div class="item ${sel.includes(x.id) ? 'sel' : ''}" data-id="${esc(x.id)}" role="checkbox" aria-checked="${sel.includes(x.id)}" tabindex="0">
-        ${sel.includes(x.id) ? '<div class="tick" aria-hidden="true">✓ เลือกแล้ว</div>' : ''}${KIND[kind].card(x)}
+        ${KIND[kind].card(x)}
       </div>`).join('') : '<div class="empty">ไม่พบรุ่นที่ตรงกับตัวกรอง</div>';
   }
 
