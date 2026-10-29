@@ -207,3 +207,9 @@ Inputs: `level`, `style`, racket (`balance`, `flex`, `weight`, `tension [min,max
   - Tension: -1 lb.
   - Direction from Q2 (vibration rises with stiffness and tension); the sizes are judgement.
 - **`tests/match.html`** checks 12 known pairings (beginner vs pro rackets, durable vs thin strings, wrist care, nylon shuttles, tension within the racket ceiling for every racket). Open it on the dev server after any scoring change; all 12 must pass.
+- **Yonex racket chart (catalogue pp. 52-53).** The chart gives balance (ヘッドヘビー to ヘッドライト) and hitting feel (打球感, hard to soft) for 41 rackets. It was read from the PDF:
+  - Model codes and their positions come from the text layer.
+  - Marker heights were measured at 300 dpi, ignoring gridlines.
+  - Checked against our existing Yonex data: balance agrees 30/33, stiffness 28/33.
+  - Existing models needed no change. Eight catalogue models we lacked were added from it: Astrox 55A/33/11, Arcsaber 3/1, Nanoflare 400/300/111.
+  - Their flex comes from the feel scale, so it is marked as an estimate. The cutoffs are: up to 670 px extra stiff, 735 stiff, 800 medium, beyond that flexible.

@@ -2813,5 +2813,93 @@
   "proseEst": [
    "tension"
   ]
+ },
+ "Yonex Astrox 55A": {
+  "new": true,
+  "brand": "Yonex",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "proseEst": [
+   "flex"
+  ],
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน"
+ },
+ "Yonex Astrox 33": {
+  "new": true,
+  "brand": "Yonex",
+  "balance": "head-heavy",
+  "flex": "flexible",
+  "proseEst": [
+   "flex"
+  ],
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน"
+ },
+ "Yonex Astrox 11": {
+  "new": true,
+  "brand": "Yonex",
+  "balance": "head-heavy",
+  "flex": "medium",
+  "proseEst": [
+   "flex"
+  ],
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน"
+ },
+ "Yonex Arcsaber 3": {
+  "new": true,
+  "brand": "Yonex",
+  "balance": "head-light",
+  "flex": "medium",
+  "proseEst": [
+   "flex"
+  ],
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน"
+ },
+ "Yonex Arcsaber 1": {
+  "new": true,
+  "brand": "Yonex",
+  "balance": "even",
+  "flex": "medium",
+  "proseEst": [
+   "flex"
+  ],
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน"
+ },
+ "Yonex Nanoflare 400": {
+  "new": true,
+  "brand": "Yonex",
+  "balance": "head-light",
+  "flex": "medium",
+  "proseEst": [
+   "flex"
+  ],
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน"
+ },
+ "Yonex Nanoflare 300": {
+  "new": true,
+  "brand": "Yonex",
+  "balance": "head-light",
+  "flex": "flexible",
+  "proseEst": [
+   "flex"
+  ],
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน"
+ },
+ "Yonex Nanoflare 111": {
+  "new": true,
+  "brand": "Yonex",
+  "balance": "head-light",
+  "flex": "flexible",
+  "proseEst": [
+   "flex"
+  ],
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน"
  }
 }
