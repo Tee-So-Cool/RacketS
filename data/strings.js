@@ -2275,7 +2275,7 @@ window.STRINGS = [
   "material": "braided",
   "repulsion": 9,
   "control": 9,
-  "durability": 6,
+  "durability": 5,
   "sound": 8,
   "shock": 7,
   "tensionMax": 28,
@@ -2286,7 +2286,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/yonex-aerobite-200x300.png",
   "source": "https://chobbad.com/string/yonex-aerobite/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bgab",
-  "specSrc": "",
+  "specSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "shopLinks": [
    {
     "shop": "joybadminton.com",
@@ -2337,7 +2337,7 @@ window.STRINGS = [
   "control": 9,
   "durability": 6,
   "sound": 6,
-  "shock": 6,
+  "shock": 5,
   "tensionMax": 28,
   "price": 280,
   "colors": "Gray / Yellow, Gray /Red",
@@ -2346,7 +2346,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/yonex-aerobite-boost-200x300.png",
   "source": "https://chobbad.com/string/yonex-aerobite-boost/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bgabbt",
-  "specSrc": "",
+  "specSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "shopLinks": [
    {
     "shop": "joybadminton.com",
@@ -2395,7 +2395,7 @@ window.STRINGS = [
   "material": "braided",
   "repulsion": 10,
   "control": 8,
-  "durability": 4,
+  "durability": 5,
   "sound": 10,
   "shock": 6,
   "tensionMax": 27,
@@ -2406,7 +2406,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/yonex-aerosonic-200x300.png",
   "source": "https://chobbad.com/string/yonex-aerosonic/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bgas",
-  "specSrc": "",
+  "specSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "shopLinks": [
    {
     "shop": "joybadminton.com",
@@ -2450,10 +2450,10 @@ window.STRINGS = [
   "gaugeText": "",
   "material": "braided",
   "repulsion": 6,
-  "control": 6,
+  "control": 5,
   "durability": 9,
-  "sound": 6,
-  "shock": 6,
+  "sound": 5,
+  "shock": 5,
   "tensionMax": 27,
   "price": 150,
   "colors": "Yellow, Orange, Black, White, Amber, Lavender, Violet, Royal Blue, Turquoise",
@@ -2462,7 +2462,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/yonex-bg65-200x300.png",
   "source": "https://chobbad.com/string/yonex-bg65/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bg65",
-  "specSrc": "",
+  "specSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
@@ -2518,10 +2518,10 @@ window.STRINGS = [
   "gaugeText": "",
   "material": "braided",
   "repulsion": 6,
-  "control": 6,
+  "control": 5,
   "durability": 6,
   "sound": 6,
-  "shock": 6,
+  "shock": 5,
   "tensionMax": 27,
   "price": 190,
   "colors": "Red, Blue, Black, White, Pink",
@@ -2530,7 +2530,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/yonex-bg65-titanium-200x300.png",
   "source": "https://chobbad.com/string/yonex-bg65-titanium/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bg65ti",
-  "specSrc": "",
+  "specSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "shopLinks": [
    {
     "shop": "badmintonclick.com.au",
@@ -2562,10 +2562,10 @@ window.STRINGS = [
   "gaugeText": "",
   "material": "coated",
   "repulsion": 9,
-  "control": 7,
-  "durability": 6,
+  "control": 9,
+  "durability": 5,
   "sound": 8,
-  "shock": 6,
+  "shock": 8,
   "tensionMax": "",
   "price": 440,
   "colors": "White",
@@ -2574,7 +2574,7 @@ window.STRINGS = [
   "img": "https://www.yonex.com/media/catalog/product/b/g/bg66f_ex_pac.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/strings/bg66f",
-  "specSrc": "",
+  "specSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "shopLinks": [
    {
     "shop": "joybadminton.com",
@@ -2608,11 +2608,6 @@ window.STRINGS = [
   "priceNote": "แปลงจาก US$13.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/yonex-bg-66-force-10m-badminton-string-3-colors",
   "est": [
-   "repulsion",
-   "control",
-   "durability",
-   "sound",
-   "shock",
    "price"
   ]
  },
@@ -2626,7 +2621,7 @@ window.STRINGS = [
   "material": "braided",
   "repulsion": 9,
   "control": 9,
-  "durability": 6,
+  "durability": 5,
   "sound": 9,
   "shock": 7,
   "tensionMax": 28,
@@ -2637,7 +2632,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/yonex-bg66-ultimax-200x300.png",
   "source": "https://chobbad.com/string/yonex-bg66-ultimax/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bg66um",
-  "specSrc": "",
+  "specSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "shopLinks": [
    {
     "shop": "joybadminton.com",
@@ -2689,10 +2684,10 @@ window.STRINGS = [
   "gaugeText": "",
   "material": "hybrid",
   "repulsion": 7,
-  "control": 6,
-  "durability": 6,
+  "control": 5,
+  "durability": 5,
   "sound": 6,
-  "shock": 7,
+  "shock": 5,
   "tensionMax": 28,
   "price": 230,
   "colors": "Yellow, Black, White, Sky Blue, Violet, Royal Blue, Neon Pink",
@@ -2701,7 +2696,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/yonex-bg80-200x300.png",
   "source": "https://chobbad.com/string/yonex-bg80/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bg80",
-  "specSrc": "",
+  "specSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "shopLinks": [
    {
     "shop": "joybadminton.com",
@@ -2749,10 +2744,10 @@ window.STRINGS = [
   "gaugeText": "",
   "material": "hybrid",
   "repulsion": 8,
-  "control": 6,
+  "control": 5,
   "durability": 6,
   "sound": 6,
-  "shock": 6,
+  "shock": 5,
   "tensionMax": 28,
   "price": 240,
   "colors": "White",
@@ -2761,7 +2756,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/yonex-bg80-power-200x300.png",
   "source": "https://chobbad.com/string/yonex-bg80-power/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bg80p",
-  "specSrc": "",
+  "specSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "shopLinks": [
    {
     "shop": "joybadminton.com",
@@ -2825,7 +2820,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/yonex-exbolt-63-200x300.png",
   "source": "https://chobbad.com/string/yonex-exbolt-63/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bgxb63",
-  "specSrc": "",
+  "specSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "shopLinks": [
    {
     "shop": "joybadminton.com",
@@ -2889,7 +2884,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/yonex-exbolt-65-200x300.png",
   "source": "https://chobbad.com/string/yonex-exbolt-65/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bgxb65",
-  "specSrc": "",
+  "specSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "shopLinks": [
    {
     "shop": "joybadminton.com",
@@ -2944,7 +2939,7 @@ window.STRINGS = [
   "control": 9,
   "durability": 10,
   "sound": 7,
-  "shock": 6,
+  "shock": 5,
   "tensionMax": 28,
   "price": 260,
   "colors": "Flash Orange, Lime Green, Turquoise, Flash Red, Yellow, Black, White",
@@ -2953,7 +2948,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/yonex-exbolt-68-200x300.png",
   "source": "https://chobbad.com/string/yonex-exbolt-68/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bgxb68",
-  "specSrc": "",
+  "specSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "shopLinks": [
    {
     "shop": "joybadminton.com",
@@ -3115,7 +3110,7 @@ window.STRINGS = [
   "repulsion": 7,
   "control": 9,
   "durability": 6,
-  "sound": 6,
+  "sound": 5,
   "shock": 10,
   "tensionMax": 28,
   "price": 260,
@@ -3125,7 +3120,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/yonex-skyarc-200x300.png",
   "source": "https://chobbad.com/string/yonex-skyarc/",
   "officialUrl": "https://www.yonex.com/badminton/strings/bgsky",
-  "specSrc": "",
+  "specSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "shopLinks": [
    {
     "shop": "joybadminton.com",

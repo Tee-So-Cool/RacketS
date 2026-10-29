@@ -671,7 +671,7 @@
   const PARTS = [['player', 'เอ็นกับผู้เล่น', 0.45], ['racket', 'ไม้กับผู้เล่น', 0.3], ['pair', 'ไม้กับเอ็น', 0.25]];
   const norm = t => String(t || '').toLowerCase().replace(/[^a-z0-9]/g, '');
 
-  function score(r, s, level, style, shuttle = 'feather', climate = 'normal') {
+  function score(r, s, level, style, shuttle = 'feather', climate = 'normal', game = 'doubles', arm = 'none') {
     const reasons = [];
     const ok = t => reasons.push(['ok', t]);
     const wn = t => reasons.push(['wn', t]);
@@ -691,6 +691,11 @@
     for (const [k, w] of Object.entries(STYLE_W[style])) W[k] = (W[k] || 0) + w / 2;
     const fit = Object.entries(W).reduce((a, [k, w]) => a + w * sr(k), 0);
     let pP = (fit - 4) * 20; // fit 6.5 of 10 -> 50, 9 -> 100
+    if (arm === 'care') {
+      if (shock >= 8) { pP += 8; ok('เอ็นซับแรงดี ช่วยถนอมข้อมือ'); }
+      else if (shock <= 5) { pP -= 10; wn('มีปัญหาข้อมือหรือไหล่: เอ็นนี้ซับแรงน้อย'); }
+    }
+    if (game === 'singles' && sr('control') >= 8) pP += 3;
     const best = Object.keys(W).sort((a, b) => W[b] * sr(b) - W[a] * sr(a))[0];
     if (fit >= 7.5) ok(`เอ็นเด่นเรื่อง${S_NAME[best]} ซึ่ง${L.level[level]}สาย${L.style[style]}ให้ความสำคัญ`);
     else if (fit < 6.2) wn(`คุณสมบัติเอ็นไม่ค่อยตรงกับ${L.level[level]}สาย${L.style[style]}`);
@@ -718,6 +723,16 @@
       if (gap <= 0.5) { pR += 10; ok(`${L.flex[r.flex]} เหมาะกับ${L.level[level]}`); }
       else if (gap >= 1.5) { pR -= gap >= 2.5 ? 25 : 15; wn(fx > ideal ? `${L.flex[r.flex]} ต้องใช้แรงสวิงมากสำหรับ${L.level[level]}` : `${L.flex[r.flex]} อาจนิ่มไปสำหรับ${L.level[level]}`); }
       else pR -= 2;
+    }
+    // singles rewards a stable, slightly heavier head; doubles rewards a quick head [medium: retail guides, Yonex series copy]
+    if (game === 'doubles' && bal === 'head-light' && style !== 'control') pR += 4;
+    if (game === 'singles' && bal === 'head-heavy') pR += 4;
+    if (game === 'doubles' && bal === 'head-heavy' && lv <= 1) { pR -= 4; wn('เกมคู่ต้องตอบโต้เร็ว ไม้หัวหนักอาจยกไม้ไม่ทันสำหรับระดับนี้'); }
+    // arm care: a stiff shaft and a heavy head pass more shock to the wrist and elbow
+    if (arm === 'care') {
+      if (fx >= 2) { pR -= 12; wn('มีปัญหาข้อมือหรือไหล่: ก้านแข็งส่งแรงสะเทือนมาก ลองก้านกลางหรือก้านอ่อน'); }
+      if (bal === 'head-heavy') { pR -= 6; wn('มีปัญหาข้อมือหรือไหล่: ไม้หัวหนักออกแรงที่ข้อมือมากขึ้น'); }
+      if (fx <= 1 && bal !== 'head-heavy') ok('ก้านไม่แข็งและหัวไม่หนัก ถนอมข้อมือและไหล่');
     }
     const g8 = Number(r.weight) || 0;
     if (g8 && lv <= 1 && g8 >= 87) { pR -= 8; wn(`ไม้หนัก (${g8} g) สวิงเหนื่อยสำหรับ${L.level[level]} ลองรุ่น 4U หรือ 5U`); }
@@ -759,6 +774,7 @@
     const inBand = clamp(t, bLo, bHi);
     if (inBand !== t) { steps.push([`ให้อยู่ในช่วงของ${L.level[level]}`, inBand - t]); t = inBand; }
     if (climate === 'hot') nudge(1, 'สนามร้อนชื้น (ความเชื่อของช่าง ยังไม่มีหลักฐานยืนยัน)');               // [low, T7]
+    if (arm === 'care') nudge(-1, 'ถนอมข้อมือ/ไหล่ ขึ้นเอ็นหย่อนลงลดแรงสะเทือน');      // [medium] lower tension = less vibration
     if (shuttle === 'nylon') nudge(-2, 'ลูกไนลอน');                                                          // [medium, two sources]
     const [tmin, tmax] = r.tension || [null, 30];
     const cap = Math.min(tmax || 30, Number(s.tensionMax) || 99);
@@ -791,12 +807,13 @@
 
     return { score: Math.round(clamp(total, 0, 100)), parts, tension: t, steps, band: [bLo, bHi], range: [tmin, tmax], reasons, conf, guess };
   }
+  window.RS_TEST = { score: (...a) => score(...a), byId };
   const verdict = n => n >= 80 ? ['เข้ากันดีมาก', 'var(--color-accent)'] : n >= 65 ? ['เข้ากันดี', 'var(--color-accent)'] : n >= 50 ? ['พอใช้ได้', 'var(--color-ink)'] : ['ไม่ค่อยเหมาะ', 'var(--color-bad)'];
 
   function viewMatch() {
     if (!state.m) {
       const pick = (kind, id) => (byId(kind, id) || [...db[kind]].sort(sortName)[0] || {}).id;
-      state.m = { r: pick('r', 'yonex-astrox-99-game'), s: pick('s', 'yonex-bg66-ultimax'), level: 'intermediate', style: 'attack', shuttle: 'feather', climate: 'normal' };
+      state.m = { r: pick('r', 'yonex-astrox-99-game'), s: pick('s', 'yonex-bg66-ultimax'), level: 'intermediate', style: 'attack', shuttle: 'feather', climate: 'normal', game: 'doubles', arm: 'none' };
     }
     if (!db.r.length || !db.s.length) { view.innerHTML = '<h1>จับคู่ไม้ + เอ็น</h1><p class="empty">ต้องมีข้อมูลไม้และเอ็นอย่างน้อยอย่างละ 1 รายการ</p>'; return; }
     if (!byId('r', state.m.r)) state.m.r = db.r[0].id;
@@ -816,6 +833,8 @@
         ${seg('level', 'ระดับมือ', L.level)}
         ${seg('style', 'สไตล์', L.style)}
         ${seg('shuttle', 'ลูกที่ใช้', { feather: 'ขนไก่/ขนเป็ด', nylon: 'ไนลอน' })}
+        ${seg('game', 'เล่น', { doubles: 'คู่', singles: 'เดี่ยว' })}
+        ${seg('arm', 'ข้อมือ/ไหล่', { none: 'ปกติ', care: 'มีอาการ ต้องถนอม' })}
         ${seg('climate', 'สนาม', { normal: 'ปกติ/ห้องแอร์', hot: 'ร้อนชื้น' })}
       </div>
       <div id="mres"></div>`;
@@ -873,11 +892,12 @@
 
   function renderMatch() {
     const { level, style } = state.m, shuttle = state.m.shuttle || 'feather', climate = state.m.climate || 'normal';
+    const game = state.m.game || 'doubles', arm = state.m.arm || 'none';
     const r = byId('r', state.m.r), s = byId('s', state.m.s);
-    const res = score(r, s, level, style, shuttle, climate);
+    const res = score(r, s, level, style, shuttle, climate, game, arm);
     const [vt, vc] = verdict(res.score);
-    const allS = db.s.filter(x => x.id !== s.id).map(x => ({ x, ...score(r, x, level, style, shuttle, climate) })).sort((a, b) => b.score - a.score || a.guess.length - b.guess.length);
-    const altR = db.r.filter(x => x.id !== r.id).map(x => ({ x, ...score(x, s, level, style, shuttle, climate) })).sort((a, b) => b.score - a.score || a.guess.length - b.guess.length).slice(0, 4);
+    const allS = db.s.filter(x => x.id !== s.id).map(x => ({ x, ...score(r, x, level, style, shuttle, climate, game, arm) })).sort((a, b) => b.score - a.score || a.guess.length - b.guess.length);
+    const altR = db.r.filter(x => x.id !== r.id).map(x => ({ x, ...score(x, s, level, style, shuttle, climate, game, arm) })).sort((a, b) => b.score - a.score || a.guess.length - b.guess.length).slice(0, 4);
     const good = allS.filter(a => a.score >= (allS[0] ? allS[0].score - 10 : 0));
     const top = (list, f) => list.length ? list.reduce((a, b) => f(b) > f(a) ? b : a) : null;
     const goals = [

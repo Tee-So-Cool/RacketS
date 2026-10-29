@@ -188,3 +188,22 @@ Inputs: `level`, `style`, racket (`balance`, `flex`, `weight`, `tension [min,max
   - mid: repulsion 7, durability 6
   - thick: repulsion 5, durability 9
 - These weights are judgement, not sourced tables; the direction of each rule follows Q4 and S1-S3 above.
+
+## Maker ratings, new options and the test page (2026-10-29)
+
+- **Yonex string ratings.** These now come from Yonex's own 2026 badminton catalogue (https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf, pp. 58-63), which rates each string on a 1-11 scale. Examples (repulsion / durability / sound / shock / control):
+  - Exbolt 63: 11 / 7 / 10 / 7 / 10
+  - BG66 Ultimax: 10 / 6 / 10 / 8 / 10
+  - BG65: 7 / 10 / 6 / 6 / 6
+  - Skyarc: 8 / 7 / 6 / 11 / 10
+
+  All 13 current Yonex strings are covered, scaled to 1-10 and stored in `data/string-overrides.json`.
+- **The same catalogue (p. 52-53)** has a spec chart of balance and hitting feel (stiffness) for every Yonex racket. It is not yet used.
+- **Victor strings.** Victor's Thai pages give only a category ("Feature: High Resilience / Control / Durability") and a feel (Soft / Medium), and only for 6 of 14 strings. Victor ratings stay estimates.
+- **New option: singles/doubles.** Doubles adds 4 for a head-light racket; singles adds 4 for a head-heavy one, plus 3 for a string with control 8 or more.
+- **New option: wrist/shoulder care.**
+  - Racket: stiff shaft -12, head-heavy -6.
+  - String: shock 8 or more +8; shock 5 or less -10.
+  - Tension: -1 lb.
+  - Direction from Q2 (vibration rises with stiffness and tension); the sizes are judgement.
+- **`tests/match.html`** checks 12 known pairings (beginner vs pro rackets, durable vs thin strings, wrist care, nylon shuttles, tension within the racket ceiling for every racket). Open it on the dev server after any scoring change; all 12 must pass.

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="th">
+<head><meta charset="utf-8"><title>Match tests</title>
+<style>body{font:14px/1.5 system-ui;margin:24px} .pass{color:green} .fail{color:#b00;font-weight:600}</style></head>
+<body>
+<h1>Match scoring tests</h1>
+<p>Known pairings the score must order correctly; open with the dev server running.</p>
+<ol id="out"></ol>
+<main id="view" hidden></main><div id="tray" hidden></div>
+<script src="../data/rackets.js"></script><script src="../data/strings.js"></script><script src="../data/shuttles.js"></script>
+<script src="../data/shoes.js"></script><script src="../data/socks.js"></script><script src="../app.js"></script>
+<script>
+const { score } = window.RS_TEST;
+const R = n => RACKETS.find(x => (x.brand + ' ' + x.name).toLowerCase() === n.toLowerCase()) || (() => { throw new Error('no racket ' + n); })();
+const S = n => STRINGS.find(x => (x.brand + ' ' + x.name).toLowerCase() === n.toLowerCase()) || (() => { throw new Error('no string ' + n); })();
+const sc = (r, s, level, style, o = {}) => score(R(r), S(s), level, style, o.shuttle || 'feather', o.climate || 'normal', o.game || 'doubles', o.arm || 'none');
+const cases = [
+  ['มือใหม่: ไม้มือใหม่ดีกว่าไม้โปร', () => sc('Yonex Nanoflare 001 Clear', 'Yonex BG65', 'beginner', 'allround').score > sc('Yonex Astrox 100ZZ', 'Yonex BG65', 'beginner', 'allround').score],
+  ['โปรสายบุก: Astrox 100ZZ ดีกว่า Muscle Power 2', () => sc('Yonex Astrox 100ZZ', 'Yonex Exbolt 63', 'pro', 'attack').score > sc('Yonex Muscle Power 2', 'Yonex Exbolt 63', 'pro', 'attack').score],
+  ['โปรกับไม้อะลูมิเนียม ไม่เกิน 50', () => sc('Yonex Muscle Power 2', 'Yonex Exbolt 63', 'pro', 'attack').score <= 50],
+  ['มือใหม่: BG65 (ทน) ดีกว่า Aerosonic (บาง)', () => sc('Yonex Muscle Power 2', 'Yonex BG65', 'beginner', 'allround').score > sc('Yonex Muscle Power 2', 'Yonex Aerosonic', 'beginner', 'allround').score],
+  ['โปรสายบุก: Exbolt 63 ดีกว่า BG65', () => sc('Yonex Astrox 100ZZ', 'Yonex Exbolt 63', 'pro', 'attack').score > sc('Yonex Astrox 100ZZ', 'Yonex BG65', 'pro', 'attack').score],
+  ['สายสปีด: Nanoflare 800 Pro ดีกว่า Astrox 100ZZ', () => sc('Yonex Nanoflare 800 Pro', 'Yonex BG66 Ultimax', 'advanced', 'speed').score > sc('Yonex Astrox 100ZZ', 'Yonex BG66 Ultimax', 'advanced', 'speed').score],
+  ['ถนอมข้อมือ: Skyarc ดีกว่า BG80 Power', () => sc('Yonex Arcsaber 11 Pro', 'Yonex Skyarc', 'intermediate', 'control', { arm: 'care' }).score > sc('Yonex Arcsaber 11 Pro', 'Yonex BG80 Power', 'intermediate', 'control', { arm: 'care' }).score],
+  ['ถนอมข้อมือ: ความตึงต่ำลง', () => sc('Yonex Arcsaber 11 Pro', 'Yonex BG66 Ultimax', 'intermediate', 'control', { arm: 'care' }).tension < sc('Yonex Arcsaber 11 Pro', 'Yonex BG66 Ultimax', 'intermediate', 'control').tension],
+  ['ถนอมข้อมือ: ไม้ก้านแข็งคะแนนลด', () => sc('Yonex Astrox 100ZZ', 'Yonex BG66 Ultimax', 'advanced', 'attack', { arm: 'care' }).score < sc('Yonex Astrox 100ZZ', 'Yonex BG66 Ultimax', 'advanced', 'attack').score],
+  ['ลูกไนลอน: ความตึงต่ำลง', () => sc('Yonex Astrox 77 Pro', 'Yonex BG66 Ultimax', 'intermediate', 'attack', { shuttle: 'nylon' }).tension < sc('Yonex Astrox 77 Pro', 'Yonex BG66 Ultimax', 'intermediate', 'attack').tension],
+  ['มือใหม่: ความตึงอยู่ในช่วง 19-23', () => { const t = sc('Yonex Nanoflare 001 Clear', 'Yonex BG65', 'beginner', 'allround').tension; return t >= 19 && t <= 23; }],
+  ['ทุกไม้: คะแนน 0-100 และความตึงไม่เกินเพดานไม้', () => RACKETS.every(r => { for (const lv of ['beginner', 'pro']) {
+      const x = score(r, S('Yonex BG66 Ultimax'), lv, 'attack'); const max = r.tension ? r.tension[1] : 30;
+      if (!(x.score >= 0 && x.score <= 100) || x.tension > max) { console.log('bad', r.name, lv, x); return false; } } return true; })],
+];
+let pass = 0;
+const out = document.getElementById('out');
+for (const [name, fn] of cases) {
+  let ok = false, err = '';
+  try { ok = fn(); } catch (e) { err = e.message; }
+  if (ok) pass++;
+  out.insertAdjacentHTML('beforeend', `<li class="${ok ? 'pass' : 'fail'}">${ok ? 'ผ่าน' : 'ไม่ผ่าน'}: ${name}${err ? ' (' + err + ')' : ''}</li>`);
+}
+document.title = `Match tests ${pass}/${cases.length}`;
+window.RESULT = { pass, total: cases.length };
+</script>
+</body></html>

@@ -78,5 +78,122 @@
   "material": "multi",
   "img": "https://cdn.shopify.com/s/files/1/0726/6156/5694/files/M-SMOOTH68S_White.png?v=1761563525",
   "src": "https://vnm.mizuno.com/en/blogs/news/badminton-strings"
+ },
+ "Yonex Exbolt 68": {
+  "repulsion": 8,
+  "durability": 10,
+  "sound": 7,
+  "shock": 5,
+  "control": 9,
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 9, durability 11, sound 8, shock 6, control 10"
+ },
+ "Yonex Exbolt 65": {
+  "repulsion": 9,
+  "durability": 7,
+  "sound": 8,
+  "shock": 7,
+  "control": 9,
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 10, durability 8, sound 9, shock 8, control 10"
+ },
+ "Yonex Exbolt 63": {
+  "repulsion": 10,
+  "durability": 6,
+  "sound": 9,
+  "shock": 6,
+  "control": 9,
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 11, durability 7, sound 10, shock 7, control 10"
+ },
+ "Yonex Aerosonic": {
+  "repulsion": 10,
+  "durability": 5,
+  "sound": 10,
+  "shock": 6,
+  "control": 8,
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 11, durability 5, sound 11, shock 7, control 9"
+ },
+ "Yonex BG66 Force": {
+  "repulsion": 9,
+  "durability": 5,
+  "sound": 8,
+  "shock": 8,
+  "control": 9,
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 10, durability 6, sound 9, shock 9, control 10"
+ },
+ "Yonex BG66 Ultimax": {
+  "repulsion": 9,
+  "durability": 5,
+  "sound": 9,
+  "shock": 7,
+  "control": 9,
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 10, durability 6, sound 10, shock 8, control 10"
+ },
+ "Yonex BG80 Power": {
+  "repulsion": 8,
+  "durability": 6,
+  "sound": 6,
+  "shock": 5,
+  "control": 5,
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 9, durability 7, sound 7, shock 6, control 6"
+ },
+ "Yonex BG80": {
+  "repulsion": 7,
+  "durability": 5,
+  "sound": 6,
+  "shock": 5,
+  "control": 5,
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 8, durability 6, sound 7, shock 6, control 6"
+ },
+ "Yonex Aerobite": {
+  "repulsion": 9,
+  "durability": 5,
+  "sound": 8,
+  "shock": 7,
+  "control": 9,
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 10, durability 6, sound 9, shock 8, control 10"
+ },
+ "Yonex Aerobite Boost": {
+  "repulsion": 7,
+  "durability": 6,
+  "sound": 6,
+  "shock": 5,
+  "control": 9,
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 8, durability 7, sound 7, shock 6, control 10"
+ },
+ "Yonex Skyarc": {
+  "repulsion": 7,
+  "durability": 6,
+  "sound": 5,
+  "shock": 10,
+  "control": 9,
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 8, durability 7, sound 6, shock 11, control 10"
+ },
+ "Yonex BG65 Titanium": {
+  "repulsion": 6,
+  "durability": 6,
+  "sound": 6,
+  "shock": 5,
+  "control": 5,
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 7, durability 7, sound 7, shock 6, control 6"
+ },
+ "Yonex BG65": {
+  "repulsion": 6,
+  "durability": 9,
+  "sound": 5,
+  "shock": 5,
+  "control": 5,
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 7, durability 10, sound 6, shock 6, control 6"
  }
 }
