@@ -41,6 +41,54 @@
   const dash = v => (v === '' || v == null) ? '—' : esc(v);
   const clamp = (v, a = 0, b = 1) => Math.max(a, Math.min(b, v));
   const full = x => `${x.brand} ${x.name}`;
+
+  // ---------- search: forgiving about spacing, hyphens, roman numerals, model codes, brand spellings and one typo ----------
+  const ALIAS = [[/\bli[\s-]?ning\b|หลี่หนิง|หลีหนิง/g, 'lining'], [/โยเน็กซ์|โยเนกซ์/g, 'yonex'], [/วิคเตอร์|วิกเตอร์/g, 'victor'],
+    [/\bars\b/g, 'auraspeed'], [/\btk\b/g, 'thruster'], [/\bjs\b/g, 'jetspeed s'], [/\bdx\b/g, 'drivex'], [/\bbrs\b/g, 'brave sword'],
+    [/\bnf\b/g, 'nanoflare'], [/\bax\b/g, 'astrox'], [/\barc\b/g, 'arcsaber'], [/\bii\b/g, '2'], [/\biii\b/g, '3'], [/\biv\b/g, '4']];
+  const snorm = t => {
+    t = String(t || '').normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    for (const [rx, to] of ALIAS) t = t.replace(rx, to);
+    // split letters from digits and drop punctuation: "Astrox99" / "ARS-100X" / "Blade X" all become comparable
+    return t.replace(/[^a-z0-9ก-๙]+/g, ' ').replace(/([a-z])(\d)/g, '$1 $2').replace(/(\d)([a-z])/g, '$1 $2').trim();
+  };
+  const near = (a, b) => {  // one edit apart (a typo, or two letters swapped), for words of five letters or more
+    if (Math.abs(a.length - b.length) > 1 || a.length < 5) return false;
+    if (a.length === b.length) { const d = [...a].map((c, k) => c !== b[k] ? k : -1).filter(k => k >= 0);
+      if (d.length === 2 && d[1] === d[0] + 1 && a[d[0]] === b[d[1]] && a[d[1]] === b[d[0]]) return true; }
+    let i = 0, j = 0, e = 0;
+    while (i < a.length && j < b.length) {
+      if (a[i] === b[j]) { i++; j++; continue; }
+      if (++e > 1) return false;
+      if (a.length > b.length) i++; else if (b.length > a.length) j++; else { i++; j++; }
+    }
+    return e + (a.length - i) + (b.length - j) <= 1;
+  };
+  const searchIndex = new WeakMap();
+  const tokensOf = x => {
+    let t = searchIndex.get(x);
+    if (!t) { const n = snorm(full(x)); t = { words: n.split(' '), compact: n.replace(/ /g, '') }; searchIndex.set(x, t); }
+    return t;
+  };
+  // 0 = no match; higher = better. Every query word must start a word of the name (or sit inside its compact form, or be one typo off)
+  const matchScore = (x, q) => {
+    let qs = snorm(q).split(' ').filter(Boolean); if (!qs.length) return 1;
+    const { words, compact } = tokensOf(x);
+    // "blade x 900": a lone letter joins the word before it when the name writes them as one ("bladex")
+    qs = qs.reduce((acc, w) => { const last = acc[acc.length - 1];
+      if (last && /^[a-z]$/.test(w) && !words.includes(w) && words.some(v => v.startsWith(last + w))) acc[acc.length - 1] = last + w; else acc.push(w);
+      return acc; }, []);
+    let sc = 0;
+    for (const w of qs) {
+      if (words.includes(w)) sc += 3;
+      else if (words.some(v => v.startsWith(w))) sc += 2;
+      else if (w.length >= 3 && compact.includes(w)) sc += 1;
+      else if (words.some(v => near(w, v))) sc += 1;
+      else return 0;
+    }
+    return sc;
+  };
+  const searchList = (list, q) => list.map(x => [x, matchScore(x, q)]).filter(([, s]) => s > 0).sort((a, b) => b[1] - a[1]).map(([x]) => x);
   const byId = (kind, id) => db[kind].find(x => x.id === id);
   const ordIdx = (k, v, fallback) => { const i = ORD[k].indexOf(v); return i < 0 ? fallback : i; };
   const gaugeLabel = s => s.gaugeText || (s.gauge ? `${s.gauge} mm` : '—');
@@ -343,9 +391,8 @@
 
   const known = x => ['balance', 'flex', 'weight', 'price', 'level', 'img'].filter(k => x[k] !== '' && x[k] != null && !(x.est || []).includes(k)).length;
   function filtered(kind) {
-    const f = state.f[kind], cfg = KIND[kind], q = f.q.trim().toLowerCase();
-    const list = db[kind].filter(x =>
-      (!q || full(x).toLowerCase().includes(q)) && (!f.brand || x.brand === f.brand) && cfg.match(x, f));
+    const f = state.f[kind], cfg = KIND[kind], q = f.q.trim();
+    const list = db[kind].filter(x => (!q || matchScore(x, q) > 0) && (!f.brand || x.brand === f.brand) && cfg.match(x, f));
     const num = (v, d) => (v === '' || v == null || isNaN(v)) ? d : Number(v);
     const sorters = {
       name: sortName,
@@ -792,9 +839,8 @@
     };
     const search = (kind, q) => {
       const list = view.querySelector(`#pick-${kind} .mlist`);
-      const words = q.toLowerCase().split(/\s+/).filter(Boolean);
-      if (!words.length) { list.hidden = true; return; }
-      const hits = db[kind].filter(x => words.every(w => full(x).toLowerCase().includes(w))).slice(0, 8);
+      if (!q.trim()) { list.hidden = true; return; }
+      const hits = searchList(db[kind], q).slice(0, 8);
       list.innerHTML = hits.length ? hits.map(x => `<button type="button" role="option" data-pick="${kind}:${esc(x.id)}">
           ${x.img ? `<img src="${esc(x.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<span class="mimg-empty"></span>'}<span>${esc(full(x))}</span></button>`).join('')
         : '<div class="mlist-empty">ไม่พบรุ่นนี้</div>';
