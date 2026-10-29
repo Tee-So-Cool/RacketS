@@ -632,37 +632,61 @@
     const low = lv <= 1; // beginner or intermediate
     const g = Number(s.gauge) || 0.66;
     const bal = r.balance, fx = ordIdx('flex', r.flex, 1);
-    const shock = Number(s.shock) || 5, rep = Number(s.repulsion) || 5;
+    // a string without ratings gets them from its gauge (thin = repulsive and fragile, thick = durable)
+    const gk = g <= 0.63 ? 0 : g >= 0.68 ? 2 : 1;
+    const GAUGE_R = { repulsion: [8, 7, 5], control: [7, 7, 6], durability: [4, 6, 9], sound: [8, 6, 5], shock: [5, 6, 7] };
+    const sr = k => Number(s[k]) || GAUGE_R[k][gk];
+    const shock = sr('shock'), rep = sr('repulsion');
 
     // 1. string for the player: half what the level needs, half what the style wants
     const W = {};
     for (const [k, w] of Object.entries(LEVEL_W[level])) W[k] = (W[k] || 0) + w / 2;
     for (const [k, w] of Object.entries(STYLE_W[style])) W[k] = (W[k] || 0) + w / 2;
-    const fit = Object.entries(W).reduce((a, [k, w]) => a + w * (Number(s[k]) || 5), 0);
+    const fit = Object.entries(W).reduce((a, [k, w]) => a + w * sr(k), 0);
     let pP = (fit - 4) * 20; // fit 6.5 of 10 -> 50, 9 -> 100
-    const best = Object.keys(W).sort((a, b) => W[b] * (Number(s[b]) || 0) - W[a] * (Number(s[a]) || 0))[0];
+    const best = Object.keys(W).sort((a, b) => W[b] * sr(b) - W[a] * sr(a))[0];
     if (fit >= 7.5) ok(`เอ็นเด่นเรื่อง${S_NAME[best]} ซึ่ง${L.level[level]}สาย${L.style[style]}ให้ความสำคัญ`);
     else if (fit < 6.2) wn(`คุณสมบัติเอ็นไม่ค่อยตรงกับ${L.level[level]}สาย${L.style[style]}`);
     // gauge for beginners [high direction: thin strings break sooner]
     if (level === 'beginner' && g <= 0.63) { pP -= 12; wn('เอ็นบาง ขาดง่าย มือใหม่ควรเริ่มที่ 0.66–0.70'); }
     else if (level === 'beginner' && g >= 0.66) { pP += 5; ok('เอ็นขนาดกลางถึงหนา เหมาะกับมือใหม่'); }
-    if (level === 'beginner' && Number(s.durability) >= 8) { pP += 8; ok('เอ็นทนทาน คุ้มสำหรับมือใหม่ที่ตีบ่อย'); }
+    if (level === 'beginner' && sr('durability') >= 8) { pP += 8; ok('เอ็นทนทาน คุ้มสำหรับมือใหม่ที่ตีบ่อย'); }
     // advanced players trade durability for feel [medium: S3]
     if (lv >= 2 && g >= 0.68) { pP -= 6; wn('เอ็นหนา ทนแต่ความรู้สึกและแรงดีดน้อยกว่าที่ผู้เล่นระดับนี้มักต้องการ'); }
 
-    // 2. racket for the player: style and the level the maker built it for
-    let pR = 60;
-    if (r.style === style) { pR += 25; ok(`ไม้เป็นสาย${L.style[r.style]} ตรงกับสไตล์ที่เลือก`); }
-    else if (r.style === 'allround' || style === 'allround') pR += 10;
-    else if (r.style) { pR -= 15; wn(`ไม้เป็นสาย${L.style[r.style]} แต่เลือกสไตล์${L.style[style]}`); }
-    const d = ordIdx('level', r.level, -9) - lv;
-    if (d === 0) { pR += 15; ok(`ไม้รุ่นนี้ทำมาสำหรับ${L.level[r.level]} ตรงกับระดับที่เลือก`); }
-    else if (d === 1) { pR -= 5; wn(`ไม้ทำมาสำหรับ${L.level[r.level]} สูงกว่าระดับที่เลือกหนึ่งขั้น อาจต้องใช้แรงมากขึ้น`); }
-    else if (d >= 2) { pR -= 30; wn(`ไม้ทำมาสำหรับ${L.level[r.level]} อาจตีหนักมือสำหรับ${L.level[level]}`); }
-    else if (d === -1) pR -= 5;
-    else if (d > -9) { pR -= 20; wn(`ไม้ทำมาสำหรับ${L.level[r.level]} เล่นสบายแต่อาจไม่ตอบโจทย์${L.level[level]}`); }
-    // a stiff or head-heavy racket asks for a fast swing [medium: Yonex on ASTROX 77, retail copy]
-    if (level === 'beginner' && fx >= 2 && bal === 'head-heavy') { pR -= 10; wn('ไม้ก้านแข็งและหัวหนัก ต้องใช้แรงเหวี่ยงมาก มือใหม่จะตีหนักมือ'); }
+    // 2. racket for the player, from its specs first: balance against the style, shaft and weight against the level;
+    // the maker's style and level labels count too, at half weight where this data estimated them
+    let pR = 55;
+    const rEst = r.est || [];
+    const BAL_FIT = { attack: { 'head-heavy': 12, even: 4, 'head-light': -8 }, speed: { 'head-light': 12, even: 6, 'head-heavy': -6 },
+      control: { even: 10, 'head-light': 6, 'head-heavy': -4 }, allround: { even: 10, 'head-light': 4, 'head-heavy': 4 } };
+    const bf = BAL_FIT[style][bal];
+    if (bf != null) {
+      pR += rEst.includes('balance') ? bf / 2 : bf;
+      if (bf >= 10) ok(`${L.balance[bal]} เหมาะกับสาย${L.style[style]}`);
+      else if (bf < 0) wn(`${L.balance[bal]} ไม่ค่อยเข้ากับสาย${L.style[style]}`);
+    }
+    if (r.flex) {
+      const ideal = [0.3, 1, 2, 2.5][lv], gap = Math.abs(fx - ideal);   // flexible 0 .. extra-stiff 3
+      if (gap <= 0.5) { pR += 10; ok(`${L.flex[r.flex]} เหมาะกับ${L.level[level]}`); }
+      else if (gap >= 1.5) { pR -= gap >= 2.5 ? 25 : 15; wn(fx > ideal ? `${L.flex[r.flex]} ต้องใช้แรงสวิงมากสำหรับ${L.level[level]}` : `${L.flex[r.flex]} อาจนิ่มไปสำหรับ${L.level[level]}`); }
+      else pR -= 2;
+    }
+    const g8 = Number(r.weight) || 0;
+    if (g8 && lv <= 1 && g8 >= 87) { pR -= 8; wn(`ไม้หนัก (${g8} g) สวิงเหนื่อยสำหรับ${L.level[level]} ลองรุ่น 4U หรือ 5U`); }
+    else if (g8 && lv === 0 && g8 <= 84) pR += 4;
+    if (r.style) {
+      const sf = r.style === style ? 10 : (r.style === 'allround' || style === 'allround') ? 4 : -8;
+      pR += rEst.includes('style') ? sf / 2 : sf;
+      if (r.style === style) ok(`ไม้เป็นสาย${L.style[r.style]} ตรงกับสไตล์ที่เลือก`);
+      else if (sf < 0) wn(`ไม้วางตัวเป็นสาย${L.style[r.style]} แต่เลือกสไตล์${L.style[style]}`);
+    }
+    const d = ordIdx('level', r.level, -9) - lv, half = rEst.includes('level') ? 0.5 : 1;
+    if (d === 0) { pR += 10 * half; if (half === 1) ok(`ผู้ผลิตทำไม้รุ่นนี้สำหรับ${L.level[r.level]} ตรงกับระดับที่เลือก`); }
+    else if (d === 1) { pR -= 4 * half; if (half === 1) wn(`ไม้ทำมาสำหรับ${L.level[r.level]} สูงกว่าระดับที่เลือกหนึ่งขั้น`); }
+    else if (d >= 2) { pR -= 18 * half; wn(`ไม้สำหรับ${L.level[r.level]}${half < 1 ? ' (ประเมินจากราคา)' : ''} อาจตีหนักมือสำหรับ${L.level[level]}`); }
+    else if (d === -1) pR -= 4 * half;
+    else if (d <= -2 && d > -9) { pR -= (d <= -3 ? 30 : 18) * half; wn(`ไม้สำหรับ${L.level[r.level]} อาจไม่ตอบโจทย์${L.level[level]}`); }
 
     // 3. racket with string [low: judgement, no published pairing tables]
     let pS = 60;
@@ -673,7 +697,7 @@
     if ((bal === 'head-light' || fx === 0) && (style === 'attack' || style === 'speed') && rep >= 8 && g <= 0.65) {
       pS += 15; ok('ไม้หัวเบาหรือก้านอ่อน ได้เอ็นบางดีดสูงช่วยเพิ่มแรงส่ง');
     }
-    if (fx === 0 && style === 'control' && Number(s.control) >= 8) { pS += 10; ok('ก้านอ่อนกับเอ็นคุมลูกดี เหมาะกับการเล่นคอนโทรล'); }
+    if (fx === 0 && style === 'control' && sr('control') >= 8) { pS += 10; ok('ก้านอ่อนกับเอ็นคุมลูกดี เหมาะกับการเล่นคอนโทรล'); }
 
     // tension: start at the level default, nudge, keep inside the band, then inside the racket and string limits.
     // Each step is kept so the page can show how the number was reached.
@@ -700,11 +724,17 @@
     if (low && shock <= 4 && t >= bHi) wn('เอ็นแข็งที่ตึงสูง อาจสะเทือนข้อมือ ลองลดลง 1–2 ปอนด์');
 
     const parts = { player: Math.round(clamp(pP, 0, 100)), racket: Math.round(clamp(pR, 0, 100)), pair: Math.round(clamp(pS, 0, 100)) };
-    const total = PARTS.reduce((a, [k, , w]) => a + w * parts[k], 0);
+    let total = PARTS.reduce((a, [k, , w]) => a + w * parts[k], 0);
+    // a racket far off the player cannot be rescued by a good string: three levels apart, or a frame that cannot
+    // take the level's tension (a 20 lb aluminium frame for a pro), caps the whole score
+    if ((d <= -3 && d > -9 && half === 1) || cap < bLo - 3) {
+      total = Math.min(total, 50);
+      wn(cap < bLo - 3 ? `ไม้รับเอ็นได้แค่ ${cap} lbs ต่ำกว่าที่${L.level[level]}ใช้มาก ไม่เหมาะกับระดับนี้` : `ไม้สำหรับ${L.level[r.level]} ห่างจากระดับ${L.level[level]}มาก`);
+    }
 
     // how sure: the inputs that weigh most, counted when they are estimates or missing
     const guess = [];
-    const sEst = s.est || [], rEst = r.est || [];
+    const sEst = s.est || [];
     Object.entries(W).filter(([, w]) => w >= 0.1).forEach(([k]) => { if (sEst.includes(k) || s[k] === '' || s[k] == null) guess.push(`${S_NAME[k]}ของเอ็น`); });
     [['style', 'แนวของไม้'], ['level', 'ระดับของไม้'], ['balance', 'สมดุลไม้'], ['flex', 'ความแข็งก้าน']].forEach(([k, n]) => {
       if (rEst.includes(k) || !r[k]) guess.push(n);

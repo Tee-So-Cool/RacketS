@@ -174,3 +174,17 @@ Inputs: `level`, `style`, racket (`balance`, `flex`, `weight`, `tension [min,max
 - Confidence: the page counts the heavily weighted inputs that are estimates or missing: string ratings with weight 0.1 or more, and racket style, level, balance, flex and max tension. 0-1 such inputs reads "high", 2-3 "medium", more "low".
 - String suggestions by goal come from strings within 10 points of the best match: best overall, most repulsion, most control, most durable, and best value (score per baht, priced strings only). When scores tie, the item with fewer estimated inputs ranks first.
 - Makers do not publish a recommended tension per string. Yonex's Japan string page returned 404, and Victor's product pages give no figure; only retailers quote ranges. So no per-string tension band is used beyond `tensionMax`.
+
+## Revised racket-to-player scoring (2026-10-29)
+
+- The racket part reads the racket's specs first:
+  - balance against style: attack likes head-heavy, speed likes head-light, control likes even or head-light
+  - shaft flex against level: the ideal moves from flexible (beginner) to stiff and extra-stiff (pro); a gap of 2.5 grades costs 25
+  - weight: 87 g and up is a warning for beginner and intermediate players
+- The maker's style and level labels still count, at half weight where this data estimated them. 399 of 731 levels are estimated from price.
+- A racket three levels below the player, or one whose tension ceiling sits more than 3 lb under the level's band, caps the whole score at 50. A good string can no longer rescue a 20 lb aluminium frame for a pro.
+- Strings without ratings get them from gauge instead of a flat 5:
+  - thin: repulsion 8, durability 4
+  - mid: repulsion 7, durability 6
+  - thick: repulsion 5, durability 9
+- These weights are judgement, not sourced tables; the direction of each rule follows Q4 and S1-S3 above.
