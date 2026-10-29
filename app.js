@@ -719,45 +719,78 @@
   function viewMatch() {
     if (!state.m) {
       const pick = (kind, id) => (byId(kind, id) || [...db[kind]].sort(sortName)[0] || {}).id;
-      state.m = { r: pick('r', 'yonex-astrox-99-game'), s: pick('s', 'yonex-bg66-ultimax'), level: 'intermediate', style: 'attack', shuttle: 'feather' };
+      state.m = { r: pick('r', 'yonex-astrox-99-game'), s: pick('s', 'yonex-bg66-ultimax'), level: 'intermediate', style: 'attack', shuttle: 'feather', climate: 'normal' };
     }
     if (!db.r.length || !db.s.length) { view.innerHTML = '<h1>จับคู่ไม้ + เอ็น</h1><p class="empty">ต้องมีข้อมูลไม้และเอ็นอย่างน้อยอย่างละ 1 รายการ</p>'; return; }
     if (!byId('r', state.m.r)) state.m.r = db.r[0].id;
     if (!byId('s', state.m.s)) state.m.s = db.s[0].id;
-    const grouped = kind => {
-      const by = {};
-      [...db[kind]].sort(sortName).forEach(x => (by[x.brand] = by[x.brand] || []).push(x));
-      return Object.entries(by).map(([b, xs]) => `<optgroup label="${esc(b)}">${xs.map(x =>
-        `<option value="${esc(x.id)}" ${state.m[kind] === x.id ? 'selected' : ''}>${esc(full(x))}${kind === 's' ? ' (' + esc(gaugeLabel(x)) + ')' : ''}</option>`).join('')}</optgroup>`).join('');
-    };
-    const opts = (map, cur) => Object.entries(map).map(([k, v]) => `<option value="${k}" ${cur === k ? 'selected' : ''}>${v}</option>`).join('');
+    const seg = (key, label, map) => `<div class="mseg"><span class="mseg-l">${label}</span><div class="mseg-b" role="group" aria-label="${label}">${
+      Object.entries(map).map(([k, v]) => `<button type="button" data-k="${key}" data-v="${k}" aria-pressed="${(state.m[key] || '') === k}">${v}</button>`).join('')}</div></div>`;
 
     view.innerHTML = `
       <h1>จับคู่ไม้ + เอ็น</h1>
-      <p class="muted">เลือกไม้ เอ็น ระดับมือ และสไตล์ เพื่อดูว่าเข้ากันแค่ไหน และควรขึ้นเอ็นกี่ปอนด์</p>
-      <div class="mgrid" id="mform">
-        <div class="field"><label>ไม้แบด</label><select name="r">${grouped('r')}</select></div>
-        <div class="field"><label>เอ็น</label><select name="s">${grouped('s')}</select></div>
-        <div class="field"><label>ระดับมือ</label><select name="level">${opts(L.level, state.m.level)}</select></div>
-        <div class="field"><label>สไตล์</label><select name="style">${opts(L.style, state.m.style)}</select></div>
-        <div class="field"><label>ลูกที่ใช้</label><select name="shuttle">${opts({ feather: 'ลูกขนไก่/ขนเป็ด', nylon: 'ลูกไนลอน' }, state.m.shuttle || 'feather')}</select></div>
-        <div class="field"><label>สนาม</label><select name="climate">${opts({ normal: 'ปกติ/ห้องแอร์', hot: 'ร้อนชื้น' }, state.m.climate || 'normal')}</select></div>
+      <p class="muted">เลือกไม้กับเอ็น บอกระดับและสไตล์ แล้วดูว่าเข้ากันแค่ไหนและควรขึ้นกี่ปอนด์</p>
+      <div class="mpick">
+        <div class="mcard" id="pick-r"></div>
+        <span class="mplus" aria-hidden="true">+</span>
+        <div class="mcard" id="pick-s"></div>
+      </div>
+      <div class="msegs" id="mopts">
+        ${seg('level', 'ระดับมือ', L.level)}
+        ${seg('style', 'สไตล์', L.style)}
+        ${seg('shuttle', 'ลูกที่ใช้', { feather: 'ขนไก่/ขนเป็ด', nylon: 'ไนลอน' })}
+        ${seg('climate', 'สนาม', { normal: 'ปกติ/ห้องแอร์', hot: 'ร้อนชื้น' })}
       </div>
       <div id="mres"></div>`;
-    view.querySelector('#mform').addEventListener('change', e => { state.m[e.target.name] = e.target.value; renderMatch(); });
-    const pickAlt = a => {
-      const [kind, id] = a.dataset.pick.split(':');
-      state.m[kind] = id;
-      view.querySelector(`#mform [name=${kind}]`).value = id;
-      renderMatch();
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    // each picker: the chosen item as a card, and a search box that lists matches with their pictures
+    const card = kind => {
+      const x = byId(kind, state.m[kind]);
+      const spec = kind === 'r'
+        ? [L.style[x.style], lab(x, 'balance'), L.flex[x.flex], x.weights, x.tension ? '≤ ' + x.tension[1] + ' lbs' : ''].filter(Boolean)
+        : [gaugeLabel(x), L.material[x.material], x.tensionMax ? '≤ ' + x.tensionMax + ' lbs' : ''].filter(Boolean);
+      const bars = kind === 's' ? `<div class="mbars">${S_KEYS.map((k, i) => `<span class="mbar"><span>${S_AXES[i]}</span><i style="--w:${(Number(x[k]) || 0) * 10}"></i></span>`).join('')}</div>` : '';
+      view.querySelector('#pick-' + kind).innerHTML = `
+        <span class="mcard-k">${kind === 'r' ? 'ไม้แบด' : 'เอ็น'}</span>
+        <div class="mcard-in">
+          ${x.img ? `<img src="${esc(x.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<div class="mimg-empty" aria-hidden="true"></div>'}
+          <div class="mcard-t"><div class="mcard-b">${esc(x.brand)}</div><div class="mcard-n">${esc(x.name)}</div>
+            <div class="mcard-s">${spec.map(esc).join(', ')}</div>${bars}
+            <div class="mcard-p">${x.price ? est(x, 'price') + baht(x.price) : ''}</div></div>
+        </div>
+        <div class="msearch"><input type="search" placeholder="${kind === 'r' ? 'ค้นหาไม้รุ่นอื่น เช่น astrox 99' : 'ค้นหาเอ็นรุ่นอื่น เช่น bg80'}" aria-label="ค้นหา${kind === 'r' ? 'ไม้' : 'เอ็น'}" data-q="${kind}"><div class="mlist" role="listbox" hidden></div></div>`;
     };
-    view.querySelector('#mres').addEventListener('click', e => {
-      const a = e.target.closest('[data-pick]'); if (a) pickAlt(a);
+    const search = (kind, q) => {
+      const list = view.querySelector(`#pick-${kind} .mlist`);
+      const words = q.toLowerCase().split(/\s+/).filter(Boolean);
+      if (!words.length) { list.hidden = true; return; }
+      const hits = db[kind].filter(x => words.every(w => full(x).toLowerCase().includes(w))).slice(0, 8);
+      list.innerHTML = hits.length ? hits.map(x => `<button type="button" role="option" data-pick="${kind}:${esc(x.id)}">
+          ${x.img ? `<img src="${esc(x.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<span class="mimg-empty"></span>'}<span>${esc(full(x))}</span></button>`).join('')
+        : '<div class="mlist-empty">ไม่พบรุ่นนี้</div>';
+      list.hidden = false;
+    };
+    const choose = (kind, id) => { state.m[kind] = id; card(kind); renderMatch(); };
+    ['r', 's'].forEach(card);
+    view.querySelector('.mpick').addEventListener('input', e => { if (e.target.dataset.q) search(e.target.dataset.q, e.target.value); });
+    view.querySelector('.mpick').addEventListener('keydown', e => {
+      if (e.key === 'Enter' && e.target.dataset.q) { const first = view.querySelector(`#pick-${e.target.dataset.q} .mlist [data-pick]`); if (first) { e.preventDefault(); first.click(); } }
+      if (e.key === 'Escape' && e.target.dataset.q) { e.target.value = ''; search(e.target.dataset.q, ''); }
     });
-    view.querySelector('#mres').addEventListener('keydown', e => {
-      const a = e.target.closest('[data-pick]');
-      if (a && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); pickAlt(a); }
+    view.querySelector('.mpick').addEventListener('click', e => {
+      const b = e.target.closest('[data-pick]'); if (!b) return;
+      const [kind, id] = b.dataset.pick.split(':'); choose(kind, id);
+    });
+    view.querySelector('#mopts').addEventListener('click', e => {
+      const b = e.target.closest('[data-k]'); if (!b) return;
+      state.m[b.dataset.k] = b.dataset.v;
+      b.parentElement.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b));
+      renderMatch();
+    });
+    view.querySelector('#mres').addEventListener('click', e => {
+      const a = e.target.closest('[data-pick]'); if (!a) return;
+      const [kind, id] = a.dataset.pick.split(':'); choose(kind, id);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     });
     renderMatch();
   }
@@ -768,8 +801,7 @@
     const res = score(r, s, level, style, shuttle, climate);
     const [vt, vc] = verdict(res.score);
     const allS = db.s.filter(x => x.id !== s.id).map(x => ({ x, ...score(r, x, level, style, shuttle, climate) })).sort((a, b) => b.score - a.score || a.guess.length - b.guess.length);
-    const altR = db.r.filter(x => x.id !== r.id).map(x => ({ x, ...score(x, s, level, style, shuttle, climate) })).sort((a, b) => b.score - a.score || a.guess.length - b.guess.length).slice(0, 3);
-    // strings by goal, among those that still fit well (within 10 points of the best match)
+    const altR = db.r.filter(x => x.id !== r.id).map(x => ({ x, ...score(x, s, level, style, shuttle, climate) })).sort((a, b) => b.score - a.score || a.guess.length - b.guess.length).slice(0, 4);
     const good = allS.filter(a => a.score >= (allS[0] ? allS[0].score - 10 : 0));
     const top = (list, f) => list.length ? list.reduce((a, b) => f(b) > f(a) ? b : a) : null;
     const goals = [
@@ -779,49 +811,55 @@
       ['ทนที่สุด', top(good, a => Number(a.x.durability) || 0)],
       ['คุ้มที่สุด', top(good.filter(a => Number(a.x.price) > 0), a => a.score / Number(a.x.price))],
     ].filter(([, a]) => a).reduce((acc, [tag, a]) => {
-      // one row per string; a string that wins several goals lists them together
       const hit = acc.find(([, b]) => b.x.id === a.x.id);
       if (hit) hit[0] += ', ' + tag; else acc.push([tag, a]);
       return acc;
     }, []);
-    const altRow = (a, kind, tag) => `
-      <div class="item" role="button" tabindex="0" data-pick="${kind}:${esc(a.x.id)}">
-        <div class="nm">${tag ? `<span class="small muted">${esc(tag)}</span><br>` : ''}${esc(full(a.x))}</div>
-        <div class="meta">${kind === 's' ? [gaugeLabel(a.x), a.x.price ? baht(a.x.price) : ''].filter(Boolean).map(esc).join(', ') : [L.style[a.x.style], L.level[a.x.level]].filter(Boolean).join(', ')}</div>
-        <div class="price"><b class="fig">${a.score}</b> คะแนน, <b class="fig">${a.tension}</b> lbs</div>
-      </div>`;
+    const altCard = (a, kind, tag) => `
+      <button type="button" class="malt" data-pick="${kind}:${esc(a.x.id)}">
+        ${a.x.img ? `<img src="${esc(a.x.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<span class="mimg-empty"></span>'}
+        <span class="malt-t">${tag ? `<span class="malt-tag">${esc(tag)}</span>` : ''}<span class="malt-n">${esc(full(a.x))}</span>
+          <span class="malt-m">${kind === 's' ? [gaugeLabel(a.x), a.x.price ? baht(a.x.price) : ''].filter(Boolean).map(esc).join(', ') : [L.style[a.x.style], L.level[a.x.level]].filter(Boolean).join(', ')}</span></span>
+        <span class="malt-s"><b class="fig">${a.score}</b><span>คะแนน</span><span class="fig">${a.tension} lbs</span></span>
+      </button>`;
+    // the tension scale: 16-36 lbs, the level's band shaded, the racket's ceiling marked
+    const lo = 16, hi = 36, pos = v => ((v - lo) / (hi - lo) * 100).toFixed(1);
+    const cap = Math.min(res.range[1] || 30, Number(s.tensionMax) || 99);
+    const ok = res.reasons.filter(x => x[0] === 'ok'), wn = res.reasons.filter(x => x[0] === 'wn');
     const sign = v => v > 0 ? '+' + v : String(v);
 
     view.querySelector('#mres').innerHTML = `
-      <section class="panel">
-        <div class="score">
+      <section class="mhero">
+        <div class="mscore">
           <div class="ring" style="--p:${res.score};--rc:${vc}"><div>${res.score}</div></div>
-          <div>
+          <div class="mscore-t">
             <div class="verdict">${vt}</div>
-            <div class="pair">${esc(full(r))} + ${esc(full(s))}</div>
-            <div class="small muted">${[L.style[r.style], L.balance[r.balance], L.flex[r.flex], gaugeLabel(s)].filter(Boolean).map(esc).join(', ')}, ${esc(L.material[s.material] || '')}</div>
+            <div class="parts">${PARTS.map(([k, n, w]) => `
+              <div class="part"><span>${n} <span class="muted">${Math.round(w * 100)}%</span></span><span class="bar"><i style="--w:${res.parts[k]}"></i></span><b class="fig">${res.parts[k]}</b></div>`).join('')}
+            </div>
+            <p class="small muted">ความมั่นใจ: <b>${res.conf}</b>${res.guess.length ? `, ค่าประเมิน: ${esc(res.guess.join(', '))}` : ''}</p>
           </div>
         </div>
-        <div class="parts">${PARTS.map(([k, n, w]) => `
-          <div class="part"><span>${n} <span class="muted">(${Math.round(w * 100)}%)</span></span><span class="bar"><i style="--w:${res.parts[k]}"></i></span><b class="fig">${res.parts[k]}</b></div>`).join('')}
-        </div>
-        <p class="small muted">ความมั่นใจของคะแนน: <b>${res.conf}</b>${res.guess.length ? `, ค่าที่เป็นค่าประเมินหรือยังไม่มีข้อมูล: ${esc(res.guess.join(', '))}` : ''}</p>
-        <div class="two">
-          <div class="radar"><h3>บุคลิกเอ็น ${esc(full(s))}</h3>${radar(S_AXES, [{ name: full(s), color: COLORS[1], values: stringProfile(s) }])}</div>
-          <div>
-            <h3>ความตึงที่แนะนำ</h3>
-            <div class="tension">${res.tension} lbs</div>
-            <ul class="steps">${res.steps.map(([why, v], i) => `<li><span>${esc(why)}</span><b class="fig">${i ? sign(v) : v}</b></li>`).join('')}</ul>
-            <div class="small muted">ช่วงที่เหมาะกับ${L.level[level]} ${res.band[0]}–${res.band[1]} lbs ตึงน้อยลง = ดีดง่ายขึ้นและ sweet spot ใหญ่ขึ้น ตึงมากขึ้น = คุมลูกแม่นขึ้น</div>
-            <div class="small muted">กรอบทางการของไม้ ${res.range[0] ? res.range[0] + '–' : '≤ '}${res.range[1]} lbs${s.tensionMax ? `, เพดานเอ็น ${s.tensionMax} lbs` : ''}</div>
-            <ul class="reasons">${res.reasons.map(([k, t]) => `<li><span class="${k}">${k === 'ok' ? '✓' : '!'}</span><span>${esc(t)}</span></li>`).join('') || '<li class="muted">ไม่มีข้อสังเกตเพิ่มเติม</li>'}</ul>
+        <div class="mten">
+          <div class="mten-k">ความตึงที่แนะนำ</div>
+          <div class="tension">${res.tension} <span>lbs</span></div>
+          <div class="mscale" aria-hidden="true">
+            <span class="mscale-band" style="left:${pos(res.band[0])}%;width:${(pos(res.band[1]) - pos(res.band[0])).toFixed(1)}%"></span>
+            <span class="mscale-cap" style="left:${pos(cap)}%"></span>
+            <span class="mscale-dot" style="left:${pos(res.tension)}%"></span>
           </div>
+          <div class="mscale-l small muted"><span>${lo}</span><span>ช่วง${L.level[level]} ${res.band[0]}–${res.band[1]}, เพดาน ${cap}</span><span>${hi}</span></div>
+          <ul class="steps">${res.steps.map(([why, v], i) => `<li><span>${esc(why)}</span><b class="fig">${i ? sign(v) : v}</b></li>`).join('')}</ul>
         </div>
       </section>
-      <h2>เอ็นอื่นที่น่าสนใจกับไม้นี้</h2>
-      <div class="alts">${goals.map(([tag, a]) => altRow(a, 's', tag)).join('')}</div>
-      <h2 style="margin-top:20px">ไม้อื่นที่เข้ากับเอ็นนี้ + ระดับ/สไตล์ของคุณ</h2>
-      <div class="alts">${altR.map(a => altRow(a, 'r')).join('')}</div>
+      <section class="mwhy">
+        <div><h3>ทำไมเข้ากัน</h3><ul class="reasons">${ok.map(([, t]) => `<li><span class="ok">✓</span><span>${esc(t)}</span></li>`).join('') || '<li class="muted">ไม่มีจุดเด่นเป็นพิเศษ</li>'}</ul></div>
+        <div><h3>ข้อควรระวัง</h3><ul class="reasons">${wn.map(([, t]) => `<li><span class="wn">!</span><span>${esc(t)}</span></li>`).join('') || '<li class="muted">ไม่มีข้อควรระวัง</li>'}</ul></div>
+      </section>
+      <h2>เอ็นที่น่าลองกับไม้นี้</h2>
+      <div class="malts">${goals.map(([tag, a]) => altCard(a, 's', tag)).join('')}</div>
+      <h2>ไม้ที่เข้ากับเอ็นนี้และสไตล์ของคุณ</h2>
+      <div class="malts">${altR.map(a => altCard(a, 'r')).join('')}</div>
       <p class="note">คะแนนและปอนด์ที่แนะนำคำนวณจากสเปกไม้ คะแนนเอ็น และระดับ/สไตล์ที่เลือก ไม่ใช่ตัวเลขที่ผู้ผลิตประกาศ ควรปรึกษาช่างขึงเอ็นประกอบ</p>`;
   }
 
