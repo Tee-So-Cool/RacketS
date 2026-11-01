@@ -252,3 +252,8 @@ scripts/build_strings.py now applies overrides a second time after the shop laye
   - Rackets near the first pick on the radar profile, and close ones at least 15% cheaper.
   - A button opens the match page with the first pick.
 - **tests/match.html:** 15 cases.
+- **Top-5 order**
+  - Sort score: the match score, less 2 points for each racket spec that is a guess, and 4 points when balance or flex is unknown.
+  - Ties go first to a racket with a real Thai price, then to the one with more specs known.
+  - The match score shown is unchanged.
+  - Before this, four Apacs rackets tied at 83 led the list. Apacs is little seen in Thailand and most of its prices are converted.

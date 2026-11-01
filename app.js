@@ -929,18 +929,22 @@
     const res = score(r, s, level, style, shuttle, climate, game, arm);
     const [vt, vc] = verdict(res.score);
     const allS = db.s.filter(x => x.id !== s.id).map(x => ({ x, ...score(r, x, level, style, shuttle, climate, game, arm) })).sort((a, b) => b.score - a.score || a.guess.length - b.guess.length);
+    // rank by score less 2 points per racket spec that is a guess, so a racket whose specs are stated beats one guessed to tie it
+    // on a tie: a real Thai price first, then the racket with more of its specs known
+    const known = x => (Number(x.price) && !(x.est || []).includes('price') ? 5 : 0) + ['tension', 'weights', 'weight', 'length', 'year', 'frame', 'shaft', 'level'].filter(f => x[f]).length;
+    const sure = a => a.score - 2 * (a.x.est || []).filter(f => f !== 'price').length - (a.x.flex && a.x.balance ? 0 : 4);
     // the racket finder: every racket with this string, inside the budget (rackets with no price stay in), best first
     const budget = Number(state.m.budget) || 0, cur = state.m.cur || '';
     const ranked = db.r.map(x => ({ x, ...score(x, s, level, style, shuttle, climate, game, arm) }))
       .filter(a => !budget || !Number(a.x.price) || Number(a.x.price) <= budget)
-      .sort((a, b) => b.score - a.score || a.guess.length - b.guess.length);
+      .sort((a, b) => sure(b) - sure(a) || b.score - a.score || known(b.x) - known(a.x));
     const altR = ranked.slice(0, 5);
     const mine = ranked.find(a => a.x.id === r.id) || { x: r, ...res };
     // what one result wins on over another: the part with the biggest gap, then the racket spec behind it
     const edge = (a, b) => {
       const [k, n] = PARTS.map(([k, n]) => [k, n, a.parts[k] - b.parts[k]]).sort((p, q) => q[2] - p[2])[0];
       const d = a.parts[k] - b.parts[k];
-      if (d <= 0) return a.score === b.score ? 'คะแนนเท่ากัน สเปกต่างกันเล็กน้อย' : 'คะแนนรวมสูงกว่าเล็กน้อย';
+      if (d <= 0) return a.score === b.score ? 'คะแนนเท่ากัน แต่ข้อมูลครบกว่าหรือมีราคาไทยจริง' : 'คะแนนรวมสูงกว่าเล็กน้อย';
       const tx = x => x.tension ? x.tension[1] : 0, rec = z => z.reasons.some(([, t]) => t.includes('แนะนำเอ็นนี้'));
       const spec = k === 'racket' ? [['balance', ''], ['flex', ''], ['weights', 'น้ำหนัก ']]
         .filter(([f]) => a.x[f] && a.x[f] !== b.x[f]).map(([f, t]) => t + (f === 'weights' ? a.x[f] : f === 'flex' ? L.flex[a.x[f]] : lab(a.x, f))).join(', ')
