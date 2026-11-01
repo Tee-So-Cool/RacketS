@@ -239,3 +239,16 @@ scripts/build_strings.py now applies overrides a second time after the shop laye
   Li-Ning style estimates fell from 144 to 2. Their "player level" stays unused, because the store tags entry rackets "Professional" too.
 - Yonex's tier word (Pro > Tour > Game > Play) now sets the level as stated by the maker.
 - An aluminium or steel frame sets beginner, still flagged as an estimate.
+
+## Match finder and compare additions (2026-11-01)
+- **Match page: two new options**
+  - Current racket weight (3U/4U/5U). A racket in another weight class gets a warning: heavier is slower and tires the wrist; lighter is faster but smashes lighter.
+  - Racket budget. Rackets with no price stay in the list.
+- **Match page: "ไม้ที่เหมาะกับคุณ 5 อันดับ"**
+  - Ranks every racket with the chosen string.
+  - Each place says what it wins on over the next: the part with the biggest gap, plus the spec behind it (balance, flex, weight, max tension, or the maker or shop recommending this string).
+- **Compare page**
+  - Spec rows that are identical can be hidden.
+  - Rackets near the first pick on the radar profile, and close ones at least 15% cheaper.
+  - A button opens the match page with the first pick.
+- **tests/match.html:** 15 cases.

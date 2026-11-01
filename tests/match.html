@@ -26,6 +26,9 @@ const cases = [
   ['ถนอมข้อมือ: ไม้ก้านแข็งคะแนนลด', () => sc('Yonex Astrox 100ZZ', 'Yonex BG66 Ultimax', 'advanced', 'attack', { arm: 'care' }).score < sc('Yonex Astrox 100ZZ', 'Yonex BG66 Ultimax', 'advanced', 'attack').score],
   ['ลูกไนลอน: ความตึงต่ำลง', () => sc('Yonex Astrox 77 Pro', 'Yonex BG66 Ultimax', 'intermediate', 'attack', { shuttle: 'nylon' }).tension < sc('Yonex Astrox 77 Pro', 'Yonex BG66 Ultimax', 'intermediate', 'attack').tension],
   ['มือใหม่: ความตึงอยู่ในช่วง 19-23', () => { const t = sc('Yonex Nanoflare 001 Clear', 'Yonex BG65', 'beginner', 'allround').tension; return t >= 19 && t <= 23; }],
+  ['ถนอมข้อมือ: เอ็นนุ่ม VBS-70 Power ดีกว่าเอ็นแข็ง VBS-68', () => sc('Victor Thruster K 110', 'Victor VBS-70 Power', 'intermediate', 'attack', { arm: 'care' }).score > sc('Victor Thruster K 110', 'Victor VBS-68', 'intermediate', 'attack', { arm: 'care' }).score],
+  ['เอ็นที่มีคะแนนจริงไม่ถูกนับเป็นค่าประเมิน (No.3 Boost)', () => !sc('Li-Ning Axforce 80', 'Li-Ning No.3 Boost', 'advanced', 'attack').guess.some(g => g.includes('ของเอ็น'))],
+  ['สายคอนโทรล: Arcsaber 11 Pro ดีกว่า Astrox 100ZZ', () => sc('Yonex Arcsaber 11 Pro', 'Yonex BG80', 'advanced', 'control').score > sc('Yonex Astrox 100ZZ', 'Yonex BG80', 'advanced', 'control').score],
   ['ทุกไม้: คะแนน 0-100 และความตึงไม่เกินเพดานไม้', () => RACKETS.every(r => { for (const lv of ['beginner', 'pro']) {
       const x = score(r, S('Yonex BG66 Ultimax'), lv, 'attack'); const max = r.tension ? r.tension[1] : 30;
       if (!(x.score >= 0 && x.score <= 100) || x.tension > max) { console.log('bad', r.name, lv, x); return false; } } return true; })],

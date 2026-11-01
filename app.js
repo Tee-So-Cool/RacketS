@@ -181,7 +181,7 @@
     const body = rows.map(([label, fn]) => {
       const cells = sel.map(x => fn(x));
       const diff = sel.length > 1 && new Set(cells).size > 1;
-      return `<tr><th>${esc(label)}</th>${cells.map(c => `<td class="${diff ? 'diff' : ''}">${c}</td>`).join('')}</tr>`;
+      return `<tr class="${sel.length > 1 && !diff ? 'same' : ''}"><th>${esc(label)}</th>${cells.map(c => `<td class="${diff ? 'diff' : ''}">${c}</td>`).join('')}</tr>`;
     }).join('');
     return `<div class="tbl-wrap"><table class="spec">${head}<tbody>${body}</tbody></table></div>`;
   }
@@ -468,6 +468,10 @@
         navigator.clipboard?.writeText(location.href).then(done, () => { prompt('คัดลอกลิงก์นี้', location.href); });
         return;
       }
+      if (e.target.closest('[data-same]')) { state.hideSame = !state.hideSame; renderCompare(kind); return; }
+      if (e.target.closest('[data-tomatch]')) {
+        state.mPick = [kind, state.sel[kind][0]]; location.hash = '#match'; return;
+      }
       const el = e.target.closest('[data-axis], [data-rk], [data-add]');
       if (el) { rankAction(el); return; }
       if (e.target.closest('[data-close]')) { state.open[kind] = false; renderCompare(kind); view.querySelector('#flt').scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
@@ -555,7 +559,9 @@
         </div>
         <div class="sheet-tools">
           ${sel.length < 2 ? '<p class="small muted">เลือกเพิ่มอีกอย่างน้อย 1 รุ่นเพื่อเทียบ</p>' : '<span></span>'}
-          <span class="tools-r"><button class="btn sm" type="button" data-share>คัดลอกลิงก์เทียบ</button>
+          <span class="tools-r">${sel.length > 1 ? `<button class="btn sm ghost" type="button" data-same aria-pressed="${!!state.hideSame}">ซ่อนแถวที่เหมือนกัน</button>` : ''}
+          ${kind === 'r' || kind === 's' ? `<button class="btn sm ghost" type="button" data-tomatch>ไปจับคู่ไม้ + เอ็น</button>` : ''}
+          <button class="btn sm" type="button" data-share>คัดลอกลิงก์เทียบ</button>
           <button class="btn sm ghost" type="button" data-close>ปิดผลเทียบ</button></span>
         </div>
         <div class="two${rd ? '' : ' solo'}">
@@ -564,11 +570,28 @@
         </div>
         <div id="rank"></div>
         <p class="small muted sheet-key">ช่องที่ขึ้น — คือยังไม่มีข้อมูล ช่องที่ไฮไลต์คือค่าที่ต่างกัน ค่าที่มี ≈ คือค่าประเมิน (จากซีรีส์ ราคา หรือความแข็งก้าน) ไม่ใช่ค่าที่ผู้ผลิตประกาศ</p>
-        ${specTable(cfg.spec, sel)}
+        <div class="${state.hideSame ? 'hide-same' : ''}">${specTable(cfg.spec, sel)}</div>
+        ${kind === 'r' ? similar(sel) : ''}
       </section>`;
     renderRank(kind);
     watchSheet();
     remember(kind);
+  }
+
+  // ---------- rackets like the ones picked: nearest on the radar profile, then the cheaper of the close ones ----------
+  function similar(sel) {
+    const base = sel[0], bp = racketProfile(base), ids = new Set(sel.map(x => x.id));
+    const near = db.r.filter(x => !ids.has(x.id) && x.balance && x.flex)
+      .map(x => ({ x, d: Math.hypot(...racketProfile(x).map((v, i) => v - bp[i])) }))
+      .sort((a, b) => a.d - b.d).slice(0, 12);
+    const alike = near.slice(0, 4);
+    const cheaper = Number(base.price) ? near.filter(a => Number(a.x.price) && Number(a.x.price) < Number(base.price) * 0.85)
+      .sort((a, b) => Number(a.x.price) - Number(b.x.price)).slice(0, 4) : [];
+    const row = list => `<div class="simrow">${list.map(({ x }) => `<button type="button" class="sim" data-add="${esc(x.id)}">
+        ${x.img ? `<img src="${esc(x.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<span class="mimg-empty"></span>'}
+        <span class="sim-n">${esc(full(x))}</span><span class="small muted">${[lab(x, 'balance'), L.flex[x.flex], x.price ? est(x, 'price') + baht(x.price) : ''].filter(Boolean).join(', ')}</span></button>`).join('')}</div>`;
+    return `<section class="similar"><h3>ไม้ที่สเปกใกล้ ${esc(full(base))}</h3><p class="small muted">กดเพื่อเพิ่มเข้าตารางเทียบ</p>${row(alike)}
+      ${cheaper.length ? `<h3>ใกล้กันแต่ถูกกว่า</h3>${row(cheaper)}` : ''}</section>`;
   }
 
   // ---------- shareable link ----------
@@ -821,6 +844,8 @@
       state.m = { r: pick('r', 'yonex-astrox-99-game'), s: pick('s', 'yonex-bg66-ultimax'), level: 'intermediate', style: 'attack', shuttle: 'feather', climate: 'normal', game: 'doubles', arm: 'none' };
     }
     if (!db.r.length || !db.s.length) { view.innerHTML = '<h1>จับคู่ไม้ + เอ็น</h1><p class="empty">ต้องมีข้อมูลไม้และเอ็นอย่างน้อยอย่างละ 1 รายการ</p>'; return; }
+    // the first model picked on a compare page, sent here by its "to match" button
+    if (state.mPick) { const [k, id] = state.mPick; if (byId(k, id)) state.m[k] = id; state.mPick = null; }
     if (!byId('r', state.m.r)) state.m.r = db.r[0].id;
     if (!byId('s', state.m.s)) state.m.s = db.s[0].id;
     const seg = (key, label, map) => `<div class="mseg"><span class="mseg-l">${label}</span><div class="mseg-b" role="group" aria-label="${label}">${
@@ -841,6 +866,8 @@
         ${seg('game', 'เล่น', { doubles: 'คู่', singles: 'เดี่ยว' })}
         ${seg('arm', 'ข้อมือ/ไหล่', { none: 'ปกติ', care: 'มีอาการ ต้องถนอม' })}
         ${seg('climate', 'สนาม', { normal: 'ปกติ/ห้องแอร์', hot: 'ร้อนชื้น' })}
+        ${seg('cur', 'ไม้ที่ใช้อยู่หนัก', { '': 'ไม่ระบุ', '3U': '3U', '4U': '4U', '5U': '5U' })}
+        ${seg('budget', 'งบไม้', { '': 'ไม่จำกัด', 2000: '≤ 2,000', 4000: '≤ 4,000', 7000: '≤ 7,000' })}
       </div>
       <div id="mres"></div>`;
 
@@ -902,7 +929,29 @@
     const res = score(r, s, level, style, shuttle, climate, game, arm);
     const [vt, vc] = verdict(res.score);
     const allS = db.s.filter(x => x.id !== s.id).map(x => ({ x, ...score(r, x, level, style, shuttle, climate, game, arm) })).sort((a, b) => b.score - a.score || a.guess.length - b.guess.length);
-    const altR = db.r.filter(x => x.id !== r.id).map(x => ({ x, ...score(x, s, level, style, shuttle, climate, game, arm) })).sort((a, b) => b.score - a.score || a.guess.length - b.guess.length).slice(0, 4);
+    // the racket finder: every racket with this string, inside the budget (rackets with no price stay in), best first
+    const budget = Number(state.m.budget) || 0, cur = state.m.cur || '';
+    const ranked = db.r.map(x => ({ x, ...score(x, s, level, style, shuttle, climate, game, arm) }))
+      .filter(a => !budget || !Number(a.x.price) || Number(a.x.price) <= budget)
+      .sort((a, b) => b.score - a.score || a.guess.length - b.guess.length);
+    const altR = ranked.slice(0, 5);
+    const mine = ranked.find(a => a.x.id === r.id) || { x: r, ...res };
+    // what one result wins on over another: the part with the biggest gap, then the racket spec behind it
+    const edge = (a, b) => {
+      const [k, n] = PARTS.map(([k, n]) => [k, n, a.parts[k] - b.parts[k]]).sort((p, q) => q[2] - p[2])[0];
+      const d = a.parts[k] - b.parts[k];
+      if (d <= 0) return a.score === b.score ? 'คะแนนเท่ากัน สเปกต่างกันเล็กน้อย' : 'คะแนนรวมสูงกว่าเล็กน้อย';
+      const tx = x => x.tension ? x.tension[1] : 0, rec = z => z.reasons.some(([, t]) => t.includes('แนะนำเอ็นนี้'));
+      const spec = k === 'racket' ? [['balance', ''], ['flex', ''], ['weights', 'น้ำหนัก ']]
+        .filter(([f]) => a.x[f] && a.x[f] !== b.x[f]).map(([f, t]) => t + (f === 'weights' ? a.x[f] : f === 'flex' ? L.flex[a.x[f]] : lab(a.x, f))).join(', ')
+        : k === 'pair' && rec(a) && !rec(b) ? 'ผู้ผลิตหรือร้านแนะนำเอ็นนี้คู่กับไม้นี้'
+        : k === 'pair' && tx(a.x) !== tx(b.x) ? `รับความตึงได้ ${tx(a.x) || '?'} lbs เทียบ ${tx(b.x) || '?'} lbs` : '';
+      return `ชนะที่${n} (+${d})${spec ? ': ' + spec : ''}${a.guess.length < b.guess.length ? ', ข้อมูลจริงมากกว่า' : ''}`;
+    };
+    // a weight class unlike the racket in hand changes swing and timing, so say so
+    const ws = String(r.weights || '').toUpperCase().match(/\dU/g) || [];
+    const curNote = cur && ws.length && !ws.includes(cur)
+      ? `ไม้นี้มี ${ws.join('/')} แต่ไม้ที่ใช้อยู่ ${cur}: ${Number(cur[0]) > Math.max(...ws.map(w => Number(w[0]))) ? 'ไม้นี้หนักกว่า ช่วงแรกจะเหวี่ยงช้าลงและล้าข้อมือง่ายขึ้น ค่อยๆ ปรับ' : 'ไม้นี้เบากว่า สวิงเร็วขึ้นแต่ลูกตบอาจเบาลง ต้องปรับจังหวะ'}` : '';
     const good = allS.filter(a => a.score >= (allS[0] ? allS[0].score - 10 : 0));
     const top = (list, f) => list.length ? list.reduce((a, b) => f(b) > f(a) ? b : a) : null;
     const goals = [
@@ -970,12 +1019,13 @@
       </section>
       <section class="mwhy">
         <div><h3>ทำไมเข้ากัน</h3><ul class="reasons">${ok.map(([, t]) => `<li><span class="ok">✓</span><span>${esc(t)}</span></li>`).join('') || '<li class="muted">ไม่มีจุดเด่นเป็นพิเศษ</li>'}</ul></div>
-        <div><h3>ข้อควรระวัง</h3><ul class="reasons">${wn.map(([, t]) => `<li><span class="wn">!</span><span>${esc(t)}</span></li>`).join('') || '<li class="muted">ไม่มีข้อควรระวัง</li>'}</ul></div>
+        <div><h3>ข้อควรระวัง</h3><ul class="reasons">${curNote ? `<li><span class="wn">!</span><span>${esc(curNote)}</span></li>` : ''}${wn.map(([, t]) => `<li><span class="wn">!</span><span>${esc(t)}</span></li>`).join('') || (curNote ? '' : '<li class="muted">ไม่มีข้อควรระวัง</li>')}</ul></div>
       </section>
       <h2>เอ็นที่น่าลองกับไม้นี้</h2>
       <div class="malts">${goals.map(([tag, a]) => altCard(a, 's', tag)).join('')}</div>
-      <h2>ไม้ที่เข้ากับเอ็นนี้และสไตล์ของคุณ</h2>
-      <div class="malts">${altR.map(a => altCard(a, 'r')).join('')}</div>
+      <h2>ไม้ที่เหมาะกับคุณ 5 อันดับ${budget ? ` (งบ ≤ ${baht(budget)})` : ''}</h2>
+      <p class="small muted">จับกับเอ็นที่เลือก${budget ? ' ไม้ที่ยังไม่มีราคารวมอยู่ด้วย' : ''}${altR[0] && altR[0].x.id !== r.id ? `. ไม้ที่เลือกอยู่อันดับ ${ranked.indexOf(mine) + 1 || '-'} แพ้อันดับ 1 เพราะอันดับ 1 ${esc(edge(altR[0], mine))}` : ''}</p>
+      <ol class="mrank">${altR.map((a, i) => `<li>${altCard(a, 'r', a.x.id === r.id ? 'ที่เลือกอยู่' : '')}<p class="small muted">${i < altR.length - 1 ? esc(edge(a, altR[i + 1])) + ' เทียบกับอันดับ ' + (i + 2) : ''}</p></li>`).join('')}</ol>
       <p class="note">คะแนนและปอนด์ที่แนะนำคำนวณจากสเปกไม้ คะแนนเอ็น และระดับ/สไตล์ที่เลือก ไม่ใช่ตัวเลขที่ผู้ผลิตประกาศ ควรปรึกษาช่างขึงเอ็นประกอบ</p>`;
   }
 
