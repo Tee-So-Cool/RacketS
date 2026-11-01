@@ -27,6 +27,9 @@ window.STRINGS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "durability",
    "sound",
@@ -58,6 +61,9 @@ window.STRINGS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "shock"
   ]
@@ -87,6 +93,9 @@ window.STRINGS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "durability",
    "sound",
@@ -118,6 +127,9 @@ window.STRINGS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "durability",
    "sound",
@@ -149,6 +161,9 @@ window.STRINGS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -182,6 +197,9 @@ window.STRINGS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "sound",
    "shock"
@@ -212,6 +230,9 @@ window.STRINGS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "sound",
    "shock"
@@ -251,6 +272,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก C$16.50 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/hundred-jp-58-magnite-badminton-string",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "price"
   ]
@@ -289,6 +313,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก C$14.50 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/hundred-jp-70-hunter-badminton-string",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "price"
   ]
@@ -331,6 +358,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก US$12.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/hundred-jp65-magnite-10m-badminton-string",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "price"
   ]
@@ -360,6 +390,9 @@ window.STRINGS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -398,6 +431,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก US$16.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://racquetguys.com/products/kizuna-z63x-badminton-string-cyan",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -437,6 +473,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก US$16.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://racquetguys.com/products/kizuna-z65x-badminton-string-light-green",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -476,6 +515,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก US$13.95 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://racquetguys.com/products/kizuna-z69t-badminton-string-red",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -519,6 +561,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก S$6.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/ap-6-badminton",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "price"
   ]
@@ -557,6 +602,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก S$9.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/ap66-rainbow",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "price"
   ]
@@ -599,6 +647,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": []
  },
  {
@@ -635,6 +686,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก ₹299.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/ap70-rainbow",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "price"
   ]
@@ -664,6 +718,9 @@ window.STRINGS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -693,7 +750,7 @@ window.STRINGS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1.png?v=1755327346",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "โพสต์ Li-ning distributor in Thailand (Facebook): High Repulsion Power, Medium Feeling",
   "shopLinks": [
    {
     "shop": "sg.lining.studio",
@@ -706,6 +763,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก S$15.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/n58",
+  "feature": "repulsion",
+  "feel": "medium",
+  "ratingNote": "",
   "est": [
    "price"
   ]
@@ -731,7 +791,7 @@ window.STRINGS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1_6d3e7acb27_1.jpg?v=1757393926",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "โพสต์ Li-ning distributor in Thailand (Facebook): High Repulsion Power, Medium Feeling",
   "shopLinks": [
    {
     "shop": "sg.lining.studio",
@@ -744,6 +804,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก S$14.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/n61",
+  "feature": "repulsion",
+  "feel": "medium",
+  "ratingNote": "",
   "est": [
    "price"
   ]
@@ -782,6 +845,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก ₹625.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/n68",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "price"
   ]
@@ -816,6 +882,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก ₹599.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/n69",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "price"
   ]
@@ -850,6 +919,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": []
  },
  {
@@ -882,6 +954,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก ₹749.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/ns70",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "price"
   ]
@@ -916,6 +991,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก ₹749.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/ns95",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "price"
   ]
@@ -962,6 +1040,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": []
  },
  {
@@ -1006,6 +1087,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -1048,6 +1132,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก S$19.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/no-3",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "price"
   ]
@@ -1060,11 +1147,11 @@ window.STRINGS = [
   "gauge": "",
   "gaugeText": "",
   "material": "braided",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 10,
+  "control": 10,
+  "durability": 6,
+  "sound": 10,
+  "shock": 9,
   "tensionMax": "",
   "price": 320,
   "colors": "",
@@ -1073,7 +1160,7 @@ window.STRINGS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/axjp044_1_01_a114797995.png?v=1752145902",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://c-badminton.com/รายละเอียดสินค้า-315923-li-ning-no-3-boost-0-63-mm.html",
   "shopLinks": [
    {
     "shop": "sg.lining.studio",
@@ -1086,6 +1173,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก S$12.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/no-3-boost",
+  "feature": "repulsion",
+  "feel": "",
+  "ratingNote": "คะแนนจากร้าน c-badminton.com (ร้านไทย) ไม่ใช่ตัวเลขผู้ผลิต",
   "est": [
    "price"
   ]
@@ -1128,6 +1218,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": []
  },
  {
@@ -1172,6 +1265,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก S$10.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/no-7",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "price"
   ]
@@ -1197,7 +1293,7 @@ window.STRINGS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/string_format_01_16_1_60016f09f7.jpg?v=1752145800",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://in.lining.studio/products/no-7-boost",
   "shopLinks": [
    {
     "shop": "sg.lining.studio",
@@ -1214,6 +1310,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก S$12.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/no-7-boost",
+  "feature": "durability",
+  "feel": "soft",
+  "ratingNote": "",
   "est": [
    "price"
   ]
@@ -1243,6 +1342,9 @@ window.STRINGS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -1276,6 +1378,9 @@ window.STRINGS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -1309,6 +1414,9 @@ window.STRINGS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -1342,6 +1450,9 @@ window.STRINGS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -1375,6 +1486,9 @@ window.STRINGS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": []
  },
  {
@@ -1411,6 +1525,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": []
  },
  {
@@ -1438,6 +1555,9 @@ window.STRINGS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": []
  },
  {
@@ -1474,6 +1594,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": []
  },
  {
@@ -1506,6 +1629,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": []
  },
  {
@@ -1542,6 +1668,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": []
  },
  {
@@ -1578,6 +1707,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": []
  },
  {
@@ -1610,6 +1742,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": []
  },
  {
@@ -1642,6 +1777,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": []
  },
  {
@@ -1674,6 +1812,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": []
  },
  {
@@ -1706,6 +1847,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": []
  },
  {
@@ -1729,7 +1873,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-vbs-58n-300x225.webp",
   "source": "https://chobbad.com/string/victor-vbs-58n/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://th.victorsport.com/product/",
   "shopLinks": [
    {
     "shop": "nydhi.com",
@@ -1742,6 +1886,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก C$18.00 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://tenniszon.com/products/victor-vbs-58-nano-10m-white",
+  "feature": "",
+  "feel": "medium",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -1772,7 +1919,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-vbs-61-300x225.webp",
   "source": "https://chobbad.com/string/victor-vbs-61/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://th.victorsport.com/product/",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
@@ -1805,6 +1952,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "repulsion",
+  "feel": "medium",
+  "ratingNote": "",
   "est": [
    "shock"
   ]
@@ -1830,7 +1980,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-vbs-63-300x225.webp",
   "source": "https://chobbad.com/string/victor-vbs-63/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://th.victorsport.com/product/",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
@@ -1867,6 +2017,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "repulsion",
+  "feel": "medium",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -1896,7 +2049,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-vbs-66-nano-300x225.webp",
   "source": "https://chobbad.com/string/victor-vbs-66-nano/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://th.victorsport.com/product/",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
@@ -1929,6 +2082,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "repulsion",
+  "feel": "medium",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -1958,7 +2114,7 @@ window.STRINGS = [
   "img": "https://cdn.shopify.com/s/files/1/0009/8235/1923/files/VBS-66-control-white.jpg?v=1692637347",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://badmintonhouse.ca/blogs/news (ตารางจากผู้ผลิต: VBS-68 Control, Hard; VBS-68P นุ่มกว่า ตามโพสต์ VICTOR Malaysia)",
   "shopLinks": [
    {
     "shop": "racquetguys.com",
@@ -1971,6 +2127,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก US$15.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://racquetguys.com/products/victor-vbs-68-badminton-string-white",
+  "feature": "control",
+  "feel": "hard",
+  "ratingNote": "",
   "est": [
    "price"
   ]
@@ -1996,7 +2155,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-vbs-68p-300x225.webp",
   "source": "https://chobbad.com/string/victor-vbs-68p/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://th.victorsport.com/product/",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
@@ -2021,6 +2180,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "control",
+  "feel": "soft",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -2050,7 +2212,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-vbs-69n-300x225.webp",
   "source": "https://chobbad.com/string/victor-vbs-69n/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://th.victorsport.com/product/",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
@@ -2079,6 +2241,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "durability",
+  "feel": "soft",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -2108,7 +2273,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-vbs-70-300x225.webp",
   "source": "https://chobbad.com/string/victor-vbs-70/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://th.victorsport.com/product/",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
@@ -2145,6 +2310,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "durability",
+  "feel": "medium",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -2174,7 +2342,7 @@ window.STRINGS = [
   "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/VictorVBS-70PBadmintonString.png?v=1728434298",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://th.victorsport.com/product/vbs-70p",
   "shopLinks": [
    {
     "shop": "joybadminton.com",
@@ -2195,6 +2363,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก US$11.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/victor-vbs-70p-badminton-string",
+  "feature": "durability",
+  "feel": "soft",
+  "ratingNote": "",
   "est": [
    "price"
   ]
@@ -2224,6 +2395,9 @@ window.STRINGS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -2257,6 +2431,9 @@ window.STRINGS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -2323,6 +2500,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 10, durability 6, sound 9, shock 8, control 10",
   "est": []
  },
  {
@@ -2383,6 +2563,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 8, durability 7, sound 7, shock 6, control 10",
   "est": []
  },
  {
@@ -2439,6 +2622,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 11, durability 5, sound 11, shock 7, control 9",
   "est": []
  },
  {
@@ -2507,6 +2693,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 7, durability 10, sound 6, shock 6, control 6",
   "est": []
  },
  {
@@ -2551,6 +2740,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 7, durability 7, sound 7, shock 6, control 6",
   "est": []
  },
  {
@@ -2607,6 +2799,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก US$13.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/yonex-bg-66-force-10m-badminton-string-3-colors",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 10, durability 6, sound 9, shock 9, control 10",
   "est": [
    "price"
   ]
@@ -2673,6 +2868,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 10, durability 6, sound 10, shock 8, control 10",
   "est": []
  },
  {
@@ -2733,6 +2931,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 8, durability 6, sound 7, shock 6, control 6",
   "est": []
  },
  {
@@ -2797,6 +2998,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 9, durability 7, sound 7, shock 6, control 6",
   "est": []
  },
  {
@@ -2861,6 +3065,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 11, durability 7, sound 10, shock 7, control 10",
   "est": []
  },
  {
@@ -2925,6 +3132,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 10, durability 8, sound 9, shock 8, control 10",
   "est": []
  },
  {
@@ -2985,6 +3195,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 9, durability 11, sound 8, shock 6, control 10",
   "est": []
  },
  {
@@ -3037,6 +3250,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -3091,6 +3307,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "",
   "est": [
    "repulsion",
    "control",
@@ -3149,6 +3368,9 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
+  "feature": "",
+  "feel": "",
+  "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 8, durability 7, sound 6, shock 11, control 10",
   "est": []
  }
 ];

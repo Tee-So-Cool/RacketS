@@ -213,3 +213,17 @@ Inputs: `level`, `style`, racket (`balance`, `flex`, `weight`, `tension [min,max
   - Checked against our existing Yonex data: balance agrees 30/33, stiffness 28/33.
   - Existing models needed no change. Eight catalogue models we lacked were added from it: Astrox 55A/33/11, Arcsaber 3/1, Nanoflare 400/300/111.
   - Their flex comes from the feel scale, so it is marked as an estimate. The cutoffs are: up to 670 px extra stiff, 735 stiff, 800 medium, beyond that flexible.
+
+## String ratings from the maker's words (2026-11-01)
+Victor publishes no 1-10 string ratings. Its Thai product pages (th.victorsport.com, "SPEC & TECH") give only a Feature (High Resilience / Control / Durability) and a Feel (Soft / Medium / Hard). Li-Ning's pages and its Thai distributor use the same kind of words.
+These are stored as `feature` and `feel` in data/string-overrides.json. When a string has no number, the matcher starts from the gauge default and then moves it:
+- feature repulsion: repulsion +2, durability -1
+- feature control: control +2
+- feature durability: durability +2, repulsion -1
+- feel soft: shock +2, sound -1
+- feel hard: shock -2, control +1, sound +1
+
+The values are still listed as estimates ("ค่าประเมิน") in the result.
+Li-Ning No.3 Boost has 1-10 numbers from c-badminton.com, a Thai shop; these are not the maker's numbers, and ratingNote says so.
+No source was found for Li-Ning AP-6/AP66/AP7/AP70 or the three Hundred strings, so they stay on the gauge default.
+scripts/build_strings.py now applies overrides a second time after the shop layer, because models the shops create (keyed by id) were missed before.

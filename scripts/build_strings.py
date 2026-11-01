@@ -80,21 +80,26 @@ for m in manual:
             s[f] = v
             if f in RATINGS: est.append(f)
 
-unmatched = []
-for full, o in overrides.items():
-    if full.startswith('_'): continue
-    k = key(full)
-    s = strings.get(k)
-    if s is None:
-        if not o.get('new'): unmatched.append(full); continue
-        brand = o.get('brand') or full.split()[0]
-        s = strings[k] = {'id': slug(full), 'brand': brand, 'name': full[len(brand):].strip(), 'note': ''}
-    for f, v in o.items():
-        if f in ('src', 'new', 'brand') or v in ('', None): continue
-        s[f] = v
-        if f in s.get('est', []): s['est'].remove(f)
-    s['specSrc'] = o.get('src', '')
-if unmatched: print('override names not found:', unmatched)
+def apply_overrides(only=None, create=True):
+    missed = []
+    for full, o in overrides.items():
+        if full.startswith('_') or (only is not None and full not in only): continue
+        k = key(full)
+        # the shop layer keys its models by id, so look them up by brand + name too
+        s = strings.get(k) or next((x for x in strings.values() if key(x['brand'] + ' ' + x['name']) == k), None)
+        if s is None:
+            if not (o.get('new') and create): missed.append(full); continue
+            brand = o.get('brand') or full.split()[0]
+            s = strings[k] = {'id': slug(full), 'brand': brand, 'name': full[len(brand):].strip(), 'note': ''}
+        for f, v in o.items():
+            if f in ('src', 'new', 'brand') or v in ('', None): continue
+            s[f] = v
+            if f in s.get('est', []): s['est'].remove(f)
+        s['specSrc'] = o.get('src', '')
+    return missed
+
+# overrides for models the shop layer creates are tried again after it
+unmatched = apply_overrides()
 
 # ---- shops: Badminton Plaza and the Shopify feeds ----
 sys.path.insert(0, os.path.join(ROOT, 'scripts'))
@@ -126,9 +131,11 @@ def new_model(brand, name, shops=1):
     return {'id': slug(brand + ' ' + name), 'brand': brand, 'name': name, 'note': '', 'source': '', 'est': []}
 
 gear_shop.apply(strings, 'strings', r'string|เอ็น', clean_title, extract, new_model)
+unmatched = apply_overrides(set(unmatched), create=False)
+if unmatched: print('override names not found:', unmatched)
 
 ORDER = ['id', 'brand', 'name', 'year', 'gauge', 'gaugeText', 'material'] + RATINGS + [
-    'tensionMax', 'price', 'colors', 'madeIn', 'note', 'img', 'source', 'officialUrl', 'specSrc', 'shopLinks', 'priceNote', 'priceSrc', 'est']
+    'tensionMax', 'price', 'colors', 'madeIn', 'note', 'img', 'source', 'officialUrl', 'specSrc', 'shopLinks', 'priceNote', 'priceSrc', 'feature', 'feel', 'ratingNote', 'est']
 final, seen = [], set()
 for s in sorted(strings.values(), key=lambda s: (s['brand'], s['name'])):
     s['id'] = s.get('id') or slug(s['brand'] + ' ' + s['name'])

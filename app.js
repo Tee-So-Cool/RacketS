@@ -265,6 +265,7 @@
         ['เสียงกระทบ', s => rate(s, 'sound')],
         ['ซับแรง', s => rate(s, 'shock')],
         ['ความตึงสูงสุด', s => s.tensionMax ? s.tensionMax + ' lbs' : '—'],
+        ['ผู้ผลิตบอกว่า', s => [{ repulsion: 'เน้นแรงดีด', control: 'เน้นควบคุม', durability: 'เน้นทน' }[s.feature], { soft: 'นุ่ม', medium: 'กลาง', hard: 'แข็ง' }[s.feel]].filter(Boolean).join(', ') || '—'],
         ['สีที่มี', s => dash(s.colors)],
         ['ผลิตที่', s => dash(s.madeIn)],
         ['ราคา', priceCell],
@@ -682,7 +683,11 @@
     // a string without ratings gets them from its gauge (thin = repulsive and fragile, thick = durable)
     const gk = g <= 0.63 ? 0 : g >= 0.68 ? 2 : 1;
     const GAUGE_R = { repulsion: [8, 7, 5], control: [7, 7, 6], durability: [4, 6, 9], sound: [8, 6, 5], shock: [5, 6, 7] };
-    const sr = k => Number(s[k]) || GAUGE_R[k][gk];
+    // no rating: start from the gauge, then lean on the maker's own words (Victor's "Feature"/"Feel", Li-Ning's blurbs), +-1 or 2
+    const WORD_R = { feature: { repulsion: { repulsion: 2, durability: -1 }, control: { control: 2 }, durability: { durability: 2, repulsion: -1 } },
+      feel: { soft: { shock: 2, sound: -1 }, hard: { shock: -2, control: 1, sound: 1 } } };
+    const lean = k => ['feature', 'feel'].reduce((a, f) => a + (((WORD_R[f][s[f]] || {})[k]) || 0), 0);
+    const sr = k => Number(s[k]) || Math.max(1, Math.min(10, GAUGE_R[k][gk] + lean(k)));
     const shock = sr('shock'), rep = sr('repulsion');
 
     // 1. string for the player: half what the level needs, half what the style wants

@@ -195,5 +195,74 @@
   "control": 5,
   "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 7, durability 10, sound 6, shock 6, control 6"
+ },
+ "Victor VBS-68": {
+  "feature": "control",
+  "feel": "hard",
+  "src": "https://badmintonhouse.ca/blogs/news (ตารางจากผู้ผลิต: VBS-68 Control, Hard; VBS-68P นุ่มกว่า ตามโพสต์ VICTOR Malaysia)"
+ },
+ "Victor VBS-70 Power": {
+  "feature": "durability",
+  "feel": "soft",
+  "src": "https://th.victorsport.com/product/vbs-70p"
+ },
+ "Li-Ning N58": {
+  "feature": "repulsion",
+  "feel": "medium",
+  "src": "โพสต์ Li-ning distributor in Thailand (Facebook): High Repulsion Power, Medium Feeling"
+ },
+ "Li-Ning N61": {
+  "feature": "repulsion",
+  "feel": "medium",
+  "src": "โพสต์ Li-ning distributor in Thailand (Facebook): High Repulsion Power, Medium Feeling"
+ },
+ "Li-Ning No.7 Boost": {
+  "feature": "durability",
+  "feel": "soft",
+  "src": "https://in.lining.studio/products/no-7-boost"
+ },
+ "Li-Ning No.3 Boost": {
+  "repulsion": 10,
+  "control": 10,
+  "durability": 6,
+  "sound": 10,
+  "shock": 9,
+  "feature": "repulsion",
+  "ratingNote": "คะแนนจากร้าน c-badminton.com (ร้านไทย) ไม่ใช่ตัวเลขผู้ผลิต",
+  "src": "https://c-badminton.com/รายละเอียดสินค้า-315923-li-ning-no-3-boost-0-63-mm.html"
+ },
+ "Victor VBS-69N": {
+  "feature": "durability",
+  "feel": "soft",
+  "src": "https://th.victorsport.com/product/"
+ },
+ "Victor VBS-66 Nano": {
+  "feature": "repulsion",
+  "feel": "medium",
+  "src": "https://th.victorsport.com/product/"
+ },
+ "Victor VBS-68P": {
+  "feature": "control",
+  "feel": "soft",
+  "src": "https://th.victorsport.com/product/"
+ },
+ "Victor VBS-70": {
+  "feature": "durability",
+  "feel": "medium",
+  "src": "https://th.victorsport.com/product/"
+ },
+ "Victor VBS-58N": {
+  "feel": "medium",
+  "src": "https://th.victorsport.com/product/"
+ },
+ "Victor VBS-63": {
+  "feature": "repulsion",
+  "feel": "medium",
+  "src": "https://th.victorsport.com/product/"
+ },
+ "Victor VBS-61": {
+  "feature": "repulsion",
+  "feel": "medium",
+  "src": "https://th.victorsport.com/product/"
  }
 }
