@@ -154,7 +154,9 @@ def apply_override(r, o):
         if f == 'priceForeign':
             r['priceForeign'] = {'amount': v, 'currency': o.get('currency', 'USD'), 'src': o.get('src', '')}
         elif f == 'tmax':
-            r['tension'] = [(r.get('tension') or [None])[0], v]
+            r['tension'] = [o.get('tmin') or (r.get('tension') or [None])[0], v]
+        elif f == 'tmin':
+            continue
         else:
             r[f] = v
             if f in r.get('est', []): r['est'].remove(f)
@@ -217,7 +219,6 @@ for full_name in deferred:
     r = rackets.get(key(full_name))
     if r is None: unmatched.append(full_name)
     else: apply_override(r, overrides[full_name])
-if unmatched: print('override names not found:', unmatched)
 
 
 # ---- Badminton Bay (Malaysia, USD): fills empty specs and images; its price is only a foreign-price candidate ----
@@ -449,6 +450,13 @@ for rid, fields in cands.items():
 print('shop spec layers matched', bay_hits, 'fields settled by vote', voted)
 if os.environ.get('AUDIT'): json.dump(AUDIT, open(os.environ['AUDIT'], 'w'), ensure_ascii=False, indent=1)
 
+# overrides for models the shop layer creates (keyed by id) are tried again once it has run
+late = []
+for full_name in unmatched:
+    r = rackets.get(key(full_name)) or next((x for x in rackets.values() if key(x['brand'] + ' ' + x['name']) == key(full_name)), None)
+    if r is None: late.append(full_name)
+    else: apply_override(r, overrides[full_name])
+if late: print('override names not found:', late)
 # ---- series-based estimates for missing style/balance (flagged in r['est']) ----
 SERIES = [
     ('Victor', r'thruster|\bTK\b', 'attack', 'head-heavy'),
@@ -516,7 +524,7 @@ for r in rackets.values():
     if r.get('level'): continue
     m = re.search(r'\b(pro|tour|game|play)\b(?!.*\b(pro|tour|game|play)\b)', r['name'], re.I) if r['brand'] == 'Yonex' else None
     if m: r['level'] = TIER[m.group(1).lower()]; tiered += 1; continue
-    if re.search(r'alumin|steel', r.get('frame') or '', re.I):
+    if re.search(r'alumin|steel', (r.get('frame') or '') + ' ' + (r.get('shaft') or ''), re.I):
         r['level'] = 'beginner'; r.setdefault('est', []).append('level'); tiered += 1
 print('levels from tier name or frame metal', tiered)
 for r in rackets.values():
@@ -525,7 +533,8 @@ for r in rackets.values():
     if p:
         i = 0 if p < 2000 else 1 if p < 3500 else 2 if p < 6500 else 3
         i += FLEX_STEP.get(r.get('flex'), 0)
-    elif r.get('flex') in FLEX_ONLY:
+    # a flex that is itself a guess (GR303 read as extra-stiff from a shop's prose) says nothing about the level
+    elif r.get('flex') in FLEX_ONLY and 'flex' not in r.get('est', []):
         i = FLEX_ONLY[r['flex']]
     else:
         continue
@@ -534,6 +543,13 @@ for r in rackets.values():
     leveled += 1
 print('levels estimated', leveled)
 
+# ---- a weight in grams with no class (Li-Ning's own pages: "Weight 83 grams"): the usual class bands, 2U 90-94 ... 6U 70-74 ----
+classed = 0
+for r in rackets.values():
+    g = r.get('weight')
+    if r.get('weights') or not isinstance(g, (int, float)) or not 70 <= g <= 94: continue
+    r['weights'] = f'{6 - (int(g) - 70) // 5}U'; classed += 1
+print('weight class from grams', classed)
 # ---- tidy-up: an origin is one country name; a weight class with no gram figure gets the class midpoint (flagged) ----
 from_class = 0
 for r in rackets.values():

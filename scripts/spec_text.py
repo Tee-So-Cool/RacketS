@@ -10,7 +10,7 @@ LABEL_RULES = [
     (r'จุดเด่น|key features?', 'highlights'),
     (r'balance|สมดุ|บาลานซ์', 'balance'),  # "จุดสมดุ" is a common typo
     (r'flex|stiff|ความแข็ง', 'flex'),
-    (r'tension|ขึ้นเอ็น|ความตึง|ปอนด์', 'tension'),
+    (r'tension|stringing advice|ขึ้นเอ็น|ความตึง|ปอนด์', 'tension'),
     (r'grip|ด้าม', 'grips'),
     (r'weight|น้ำหนัก', 'weight'),
     (r'frame|เฟรม', 'frame'),
@@ -30,7 +30,9 @@ LABEL_RULES = [
 VALUE_LINE = re.compile(r'flexible|\bstiff\b|\bmedium\b|head[\s-]*(?:heavy|light)|even[\s-]*balance', re.I)
 # a heading on its own line ("DIAMOND FRAME", "VS TECHNOLOGY") names a feature, not the material or tech label
 BARE_LABEL = re.compile(r'(?:frame|shaft|joint)(?: material| composition)?|(?:key |main )?technolog(?:y|ies)|วัสดุ(?:เฟรม|ก้าน)?|เฟรม|ก้าน|ข้อต่อ|เทคโนโลยี')
-SKIP_LABEL = re.compile(r'recommended tension|stringing advice|suggested tension|colou?r|^size$|ไซส์|^สี|shape|thickness|product (?:type|range)|player type|net quantity', re.I)
+# "Stringing advice" is Yonex's own name for its tension range (its top end is the maximum), so it is read as tension;
+# a shop's "recommended tension" is often a playing suggestion ("Men: 23-26lbs"), so that one stays skipped
+SKIP_LABEL = re.compile(r'recommended tension|suggested tension|colou?r|^size$|ไซส์|^สี|shape|thickness|product (?:type|range)|player type|net quantity', re.I)
 
 def label_field(lab):
     lab = lab.strip().strip(':：').strip().lower()

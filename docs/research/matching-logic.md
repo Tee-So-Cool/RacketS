@@ -257,3 +257,15 @@ scripts/build_strings.py now applies overrides a second time after the shop laye
   - Ties go first to a racket with a real Thai price, then to the one with more specs known.
   - The match score shown is unchanged.
   - Before this, four Apacs rackets tied at 83 led the list. Apacs is little seen in Thailand and most of its prices are converted.
+
+## Racket spec gaps filled (2026-11-01)
+- **Weight class from grams:** Li-Ning's own pages give "Weight 83 grams" but no class. Grams now map to a class with the usual bands (2U 90-94, 3U 85-89, 4U 80-84, 5U 75-79, 6U 70-74). This gave 101 rackets a class; Li-Ning rackets with no weight class fell from 83 to 2.
+- **"Stringing advice":** Yonex's own label for its tension range, now read as tension. It had been skipped together with shops' "recommended tension". It filled 4 empty values and changed none that already existed.
+- **Yonex 2026 catalogue (推奨張力):** recommended tension and the year for the 8 models added from it.
+- **GR303 / GR-303i:** an aluminium frame and steel shaft (kibisports), so level beginner. They had been read as extra-stiff and pro.
+  - A flex that is itself a guess no longer sets the level.
+- **Overrides:** those for models the shop layer creates are applied in a second pass. Before, they were dropped silently.
+- **Still empty, with no source found:**
+  - length: 292 main-brand rackets; Li-Ning's pages do not state it
+  - year: 404
+  - Victor flex: 27, mostly aluminium entry rackets that Victor's own pages do not rate

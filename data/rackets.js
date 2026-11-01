@@ -480,7 +480,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "medium",
   "level": "intermediate",
-  "weights": "",
+  "weights": "3U",
   "weight": 85,
   "grips": "",
   "tension": [
@@ -4055,7 +4055,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "intermediate",
-  "weights": "",
+  "weights": "6U",
   "weight": 72,
   "grips": "",
   "tension": [
@@ -4514,7 +4514,7 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "",
+  "weights": "4U",
   "weight": 83,
   "grips": "",
   "tension": [
@@ -4556,7 +4556,7 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "",
+  "weights": "4U",
   "weight": 82,
   "grips": "",
   "tension": [
@@ -4598,7 +4598,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "",
+  "weights": "5U",
   "weight": 78,
   "grips": "",
   "tension": [
@@ -4640,7 +4640,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "medium",
   "level": "pro",
-  "weights": "",
+  "weights": "4U",
   "weight": 82,
   "grips": "",
   "tension": [
@@ -4725,7 +4725,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "medium",
   "level": "intermediate",
-  "weights": "",
+  "weights": "4U",
   "weight": 82,
   "grips": "",
   "tension": [
@@ -4767,7 +4767,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "medium",
   "level": "intermediate",
-  "weights": "",
+  "weights": "4U",
   "weight": 82,
   "grips": "",
   "tension": [
@@ -4850,7 +4850,7 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "stiff",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 84,
   "grips": "",
   "tension": [
@@ -4893,7 +4893,7 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "",
+  "weights": "4U",
   "weight": 82,
   "grips": "",
   "tension": [
@@ -4935,7 +4935,7 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "",
+  "weights": "4U",
   "weight": 84,
   "grips": "",
   "tension": [
@@ -4977,7 +4977,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "stiff",
   "level": "intermediate",
-  "weights": "",
+  "weights": "4U",
   "weight": 83,
   "grips": "",
   "tension": [
@@ -5020,7 +5020,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "intermediate",
-  "weights": "",
+  "weights": "5U",
   "weight": 79,
   "grips": "",
   "tension": [
@@ -5062,7 +5062,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "",
+  "weights": "5U",
   "weight": 78,
   "grips": "",
   "tension": [
@@ -5104,7 +5104,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "medium",
   "level": "intermediate",
-  "weights": "",
+  "weights": "4U",
   "weight": 82,
   "grips": "",
   "tension": [
@@ -5146,7 +5146,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "medium",
   "level": "intermediate",
-  "weights": "",
+  "weights": "6U",
   "weight": 72,
   "grips": "",
   "tension": [
@@ -5188,7 +5188,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "",
+  "weights": "5U",
   "weight": 76,
   "grips": "",
   "tension": [
@@ -5230,7 +5230,7 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "",
+  "weights": "4U",
   "weight": 82,
   "grips": "",
   "tension": [
@@ -5272,7 +5272,7 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "medium",
   "level": "intermediate",
-  "weights": "",
+  "weights": "4U",
   "weight": 82,
   "grips": "",
   "tension": [
@@ -5314,7 +5314,7 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
+  "weights": "3U",
   "weight": 87,
   "grips": "G6",
   "tension": [
@@ -5361,7 +5361,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 82,
   "grips": "",
   "tension": [
@@ -5412,7 +5412,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 84,
   "grips": "",
   "tension": [
@@ -5463,7 +5463,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "beginner",
-  "weights": "",
+  "weights": "3U",
   "weight": 86,
   "grips": "",
   "tension": [
@@ -5514,7 +5514,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 83,
   "grips": "",
   "tension": [
@@ -5837,7 +5837,7 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
+  "weights": "3U",
   "weight": 87,
   "grips": "",
   "tension": [
@@ -5888,7 +5888,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
+  "weights": "3U",
   "weight": 86,
   "grips": "",
   "tension": [
@@ -6258,7 +6258,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 83,
   "grips": "",
   "tension": [
@@ -6309,7 +6309,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "3U",
   "weight": 86,
   "grips": "",
   "tension": [
@@ -6360,7 +6360,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "3U",
   "weight": 85,
   "grips": "",
   "tension": [
@@ -6411,7 +6411,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "3U",
   "weight": 87,
   "grips": "",
   "tension": [
@@ -6512,7 +6512,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
+  "weights": "3U",
   "weight": 87,
   "grips": "",
   "tension": [
@@ -6563,7 +6563,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
+  "weights": "3U",
   "weight": 85,
   "grips": "",
   "tension": [
@@ -6614,7 +6614,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
+  "weights": "5U",
   "weight": 79,
   "grips": "G6",
   "tension": [
@@ -7201,7 +7201,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "",
+  "weights": "3U",
   "weight": 86,
   "grips": "",
   "tension": [
@@ -7307,7 +7307,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 78,
   "grips": "G6",
   "tension": [
@@ -7359,7 +7359,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
+  "weights": "3U",
   "weight": 88,
   "grips": "G6",
   "tension": [
@@ -8119,7 +8119,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "advanced",
-  "weights": "",
+  "weights": "3U",
   "weight": 88,
   "grips": "",
   "tension": [
@@ -8170,7 +8170,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "pro",
-  "weights": "",
+  "weights": "4U",
   "weight": 80,
   "grips": "G6",
   "tension": [
@@ -9971,7 +9971,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 84,
   "grips": "G6",
   "tension": [
@@ -10018,7 +10018,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 84,
   "grips": "G6",
   "tension": [
@@ -10069,7 +10069,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 84,
   "grips": "G6",
   "tension": [
@@ -10121,7 +10121,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 84,
   "grips": "",
   "tension": [
@@ -10320,7 +10320,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 78,
   "grips": "",
   "tension": [
@@ -10529,7 +10529,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 78,
   "grips": "G6",
   "tension": [
@@ -10576,7 +10576,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 79,
   "grips": "G6",
   "tension": [
@@ -10876,7 +10876,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 84,
   "grips": "G6",
   "tension": [
@@ -10927,7 +10927,7 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 78,
   "grips": "",
   "tension": [
@@ -10978,7 +10978,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 80,
   "grips": "G6",
   "tension": [
@@ -11025,7 +11025,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "pro",
-  "weights": "",
+  "weights": "4U",
   "weight": 80,
   "grips": "",
   "tension": [
@@ -11080,7 +11080,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 79,
   "grips": "G6",
   "tension": [
@@ -11132,7 +11132,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "3U",
   "weight": 88,
   "grips": "",
   "tension": [
@@ -11183,7 +11183,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "3U",
   "weight": 88,
   "grips": "",
   "tension": [
@@ -12110,7 +12110,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 80,
   "grips": "G5",
   "tension": [
@@ -12162,7 +12162,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
+  "weights": "3U",
   "weight": 88,
   "grips": "",
   "tension": [
@@ -12213,7 +12213,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
+  "weights": "3U",
   "weight": 88,
   "grips": "",
   "tension": [
@@ -12264,7 +12264,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
+  "weights": "3U",
   "weight": 88,
   "grips": "",
   "tension": [
@@ -12420,7 +12420,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "3U",
   "weight": 87,
   "grips": "",
   "tension": [
@@ -12471,7 +12471,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 84,
   "grips": "G6",
   "tension": [
@@ -12803,7 +12803,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
+  "weights": "3U",
   "weight": 85,
   "grips": "",
   "tension": [
@@ -12854,7 +12854,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "",
+  "weights": "4U",
   "weight": 81,
   "grips": "",
   "tension": [
@@ -12901,7 +12901,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
+  "weights": "5U",
   "weight": 78,
   "grips": "",
   "tension": [
@@ -13000,7 +13000,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
+  "weights": "4U",
   "weight": 84,
   "grips": "G6",
   "tension": [
@@ -13055,7 +13055,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "stiff",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 84,
   "grips": "",
   "tension": [
@@ -13106,7 +13106,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "beginner",
-  "weights": "",
+  "weights": "3U",
   "weight": 85,
   "grips": "",
   "tension": [
@@ -13157,7 +13157,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 81,
   "grips": "",
   "tension": [
@@ -13208,7 +13208,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "intermediate",
-  "weights": "",
+  "weights": "4U",
   "weight": 82,
   "grips": "",
   "tension": [
@@ -13259,7 +13259,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "3U",
   "weight": 86,
   "grips": "",
   "tension": [
@@ -13310,7 +13310,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "3U",
   "weight": 87,
   "grips": "",
   "tension": [
@@ -13361,7 +13361,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 81,
   "grips": "",
   "tension": [
@@ -13412,7 +13412,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 79,
   "grips": "",
   "tension": [
@@ -13463,7 +13463,7 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "3U",
   "weight": 88,
   "grips": "",
   "tension": [
@@ -13514,7 +13514,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "3U",
   "weight": 86,
   "grips": "",
   "tension": [
@@ -13565,7 +13565,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "3U",
   "weight": 86,
   "grips": "",
   "tension": [
@@ -13616,7 +13616,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 83,
   "grips": "",
   "tension": [
@@ -13777,7 +13777,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "",
+  "weights": "3U",
   "weight": 87,
   "grips": "",
   "tension": [
@@ -13938,7 +13938,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "pro",
-  "weights": "",
+  "weights": "3U",
   "weight": 87,
   "grips": "",
   "tension": null,
@@ -13982,7 +13982,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "",
+  "weights": "4U",
   "weight": 82,
   "grips": "",
   "tension": [
@@ -14088,7 +14088,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
+  "weights": "3U",
   "weight": 88,
   "grips": "",
   "tension": [
@@ -14250,7 +14250,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
+  "weights": "3U",
   "weight": 88,
   "grips": "",
   "tension": [
@@ -14301,7 +14301,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 83,
   "grips": "",
   "tension": [
@@ -14352,7 +14352,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "3U",
   "weight": 85,
   "grips": "",
   "tension": [
@@ -14403,7 +14403,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 82,
   "grips": "",
   "tension": [
@@ -14454,7 +14454,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 78,
   "grips": "",
   "tension": [
@@ -14505,7 +14505,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 77,
   "grips": "G6",
   "tension": [
@@ -14556,7 +14556,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 79,
   "grips": "",
   "tension": [
@@ -14608,7 +14608,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 78,
   "grips": "G6",
   "tension": [
@@ -14659,7 +14659,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "4U",
   "weight": 80,
   "grips": "",
   "tension": [
@@ -14710,7 +14710,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 79,
   "grips": "G6",
   "tension": [
@@ -14761,7 +14761,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 78,
   "grips": "",
   "tension": [
@@ -14869,7 +14869,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 79,
   "grips": "",
   "tension": [
@@ -15262,7 +15262,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 75,
   "grips": "G5",
   "tension": [
@@ -15313,7 +15313,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "medium",
   "level": "intermediate",
-  "weights": "",
+  "weights": "5U",
   "weight": 76,
   "grips": "G6",
   "tension": [
@@ -15365,7 +15365,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 78,
   "grips": "G6",
   "tension": [
@@ -15420,7 +15420,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 78,
   "grips": "",
   "tension": [
@@ -15587,7 +15587,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 78,
   "grips": "",
   "tension": [
@@ -15638,7 +15638,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "6U",
   "weight": 73,
   "grips": "",
   "tension": [
@@ -15748,7 +15748,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "5U",
   "weight": 78,
   "grips": "",
   "tension": [
@@ -15799,7 +15799,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "beginner",
-  "weights": "",
+  "weights": "2U",
   "weight": 90,
   "grips": "",
   "tension": [
@@ -15850,7 +15850,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "",
+  "weights": "2U",
   "weight": 90,
   "grips": "",
   "tension": [
@@ -15901,7 +15901,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
+  "weights": "3U",
   "weight": 87,
   "grips": "",
   "tension": [
@@ -22164,7 +22164,7 @@ window.RACKETS = [
   "balance": "even",
   "flex": "medium",
   "level": "intermediate",
-  "weights": "",
+  "weights": "4U",
   "weight": 82,
   "grips": "",
   "tension": [
@@ -23577,7 +23577,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -23615,7 +23615,6 @@ window.RACKETS = [
    "flex",
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -26450,7 +26449,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "weights": "4U, 5U",
   "weight": 83,
   "grips": "G5, G6",
@@ -26488,7 +26487,6 @@ window.RACKETS = [
    "flex",
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -27070,7 +27068,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -27108,7 +27106,6 @@ window.RACKETS = [
    "flex",
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -29025,7 +29022,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -29063,7 +29060,6 @@ window.RACKETS = [
    "flex",
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -29119,7 +29115,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "weights": "5U",
   "weight": 78,
   "grips": "G5",
@@ -29157,7 +29153,6 @@ window.RACKETS = [
    "flex",
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -30695,7 +30690,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -30733,7 +30728,6 @@ window.RACKETS = [
    "flex",
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -31076,7 +31070,7 @@ window.RACKETS = [
   "id": "yonex-arcsaber-1",
   "brand": "Yonex",
   "name": "Arcsaber 1",
-  "year": "",
+  "year": 2026,
   "style": "allround",
   "balance": "even",
   "flex": "flexible",
@@ -31085,8 +31079,8 @@ window.RACKETS = [
   "weight": 81,
   "grips": "",
   "tension": [
-   null,
-   30
+   17,
+   22
   ],
   "price": 730,
   "frame": "HT Graphite",
@@ -31113,7 +31107,7 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹2,043.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-arcsaber-1-ability-badminton-racket-black-red",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
    "weight",
    "style",
@@ -31568,15 +31562,18 @@ window.RACKETS = [
   "id": "yonex-arcsaber-3",
   "brand": "Yonex",
   "name": "Arcsaber 3",
-  "year": "",
+  "year": 2026,
   "style": "speed",
   "balance": "head-light",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "weights": "",
   "weight": "",
   "grips": "",
-  "tension": null,
+  "tension": [
+   18,
+   23
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -31597,11 +31594,10 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
    "flex",
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -32839,15 +32835,18 @@ window.RACKETS = [
   "id": "yonex-astrox-11",
   "brand": "Yonex",
   "name": "Astrox 11",
-  "year": "",
+  "year": 2026,
   "style": "attack",
   "balance": "head-heavy",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "weights": "",
   "weight": "",
   "grips": "",
-  "tension": null,
+  "tension": [
+   17,
+   22
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -32868,11 +32867,10 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
    "flex",
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -33107,15 +33105,18 @@ window.RACKETS = [
   "id": "yonex-astrox-33",
   "brand": "Yonex",
   "name": "Astrox 33",
-  "year": "",
+  "year": 2026,
   "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "weights": "",
   "weight": "",
   "grips": "",
-  "tension": null,
+  "tension": [
+   18,
+   23
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -33136,26 +33137,28 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
    "flex",
-   "style",
-   "level"
+   "style"
   ]
  },
  {
   "id": "yonex-astrox-55a",
   "brand": "Yonex",
   "name": "Astrox 55A",
-  "year": "",
+  "year": 2026,
   "style": "attack",
   "balance": "head-heavy",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "weights": "",
   "weight": "",
   "grips": "",
-  "tension": null,
+  "tension": [
+   19,
+   24
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -33176,11 +33179,10 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 19–24 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
    "flex",
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -34509,7 +34511,10 @@ window.RACKETS = [
   "weights": "5U",
   "weight": 78,
   "grips": "G5",
-  "tension": null,
+  "tension": [
+   20,
+   30
+  ],
   "price": 670,
   "frame": "HM Graphite",
   "shaft": "HM Graphite",
@@ -34563,7 +34568,10 @@ window.RACKETS = [
   "weights": "5U",
   "weight": 78,
   "grips": "G5",
-  "tension": null,
+  "tension": [
+   22,
+   27
+  ],
   "price": 640,
   "frame": "HM Graphite",
   "shaft": "HM Graphite Shaft",
@@ -34613,7 +34621,10 @@ window.RACKETS = [
   "weights": "5U",
   "weight": 78,
   "grips": "G5",
-  "tension": null,
+  "tension": [
+   22,
+   27
+  ],
   "price": 640,
   "frame": "HM Graphite",
   "shaft": "HM Graphite",
@@ -34666,7 +34677,10 @@ window.RACKETS = [
   "weights": "5U",
   "weight": 78,
   "grips": "G5",
-  "tension": null,
+  "tension": [
+   17,
+   22
+  ],
   "price": 640,
   "frame": "HM Graphite",
   "shaft": "HM Graphite",
@@ -34963,8 +34977,8 @@ window.RACKETS = [
   "grips": "G4",
   "tension": null,
   "price": 567,
-  "frame": "Aluminum Steel",
-  "shaft": "",
+  "frame": "Aluminium",
+  "shaft": "Steel",
   "joint": "",
   "length": "Regular",
   "pattern": "22 X 22",
@@ -34975,7 +34989,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-gr-303i-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-gr-303i/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://shop.kibisports.com/products/yonex-gr-303-badminton-racquet (Aluminum frame, high-tensile steel shaft)",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -34993,14 +35007,14 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "flex": "extra-stiff",
-  "level": "pro",
+  "level": "beginner",
   "weights": "",
   "weight": "",
   "grips": "",
   "tension": null,
   "price": "",
-  "frame": "",
-  "shaft": "",
+  "frame": "Aluminium",
+  "shaft": "Steel",
   "joint": "",
   "length": "",
   "pattern": "",
@@ -35011,7 +35025,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0747/3535/3946/files/yonex-gr-303-yellow-1.png?v=1783375253",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://shop.kibisports.com/products/yonex-gr-303-badminton-racquet (Aluminum frame, high-tensile steel shaft)",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -36127,15 +36141,18 @@ window.RACKETS = [
   "id": "yonex-nanoflare-111",
   "brand": "Yonex",
   "name": "Nanoflare 111",
-  "year": "",
+  "year": 2026,
   "style": "speed",
   "balance": "head-light",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "weights": "",
   "weight": "",
   "grips": "",
-  "tension": null,
+  "tension": [
+   17,
+   22
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -36156,11 +36173,10 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
    "flex",
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -36221,15 +36237,18 @@ window.RACKETS = [
   "id": "yonex-nanoflare-300",
   "brand": "Yonex",
   "name": "Nanoflare 300",
-  "year": "",
+  "year": 2026,
   "style": "speed",
   "balance": "head-light",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "weights": "",
   "weight": "",
   "grips": "",
-  "tension": null,
+  "tension": [
+   18,
+   23
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -36250,26 +36269,28 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
    "flex",
-   "style",
-   "level"
+   "style"
   ]
  },
  {
   "id": "yonex-nanoflare-400",
   "brand": "Yonex",
   "name": "Nanoflare 400",
-  "year": "",
+  "year": 2026,
   "style": "speed",
   "balance": "head-light",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "weights": "",
   "weight": "",
   "grips": "",
-  "tension": null,
+  "tension": [
+   18,
+   23
+  ],
   "price": "",
   "frame": "",
   "shaft": "",
@@ -36290,11 +36311,10 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
    "flex",
-   "style",
-   "level"
+   "style"
   ]
  },
  {
