@@ -470,3 +470,8 @@ body { font-size: var(--text-md); }
   .mcard-n { font-size: var(--text-lg); }
   .mbars { display: none; }
 }
+.mfeel { margin-top: var(--space-sm); }
+.mfeel summary { cursor: pointer; font-size: var(--text-sm); }
+.mfeel summary:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; }
+.mfeel ul { margin: var(--space-2xs) 0 var(--space-xs) var(--space-md); }
+.mfeel .wn-t { color: var(--color-accent-2); }

@@ -918,6 +918,20 @@
           <span class="malt-m">${kind === 's' ? [gaugeLabel(a.x), a.x.price ? baht(a.x.price) : ''].filter(Boolean).map(esc).join(', ') : [L.style[a.x.style], L.level[a.x.level]].filter(Boolean).join(', ')}</span></span>
         <span class="malt-s"><b class="fig">${a.score}</b><span>คะแนน</span><span class="fig">${a.tension} lbs</span></span>
       </button>`;
+    // what the recommended tension feels like, and what 2 lbs either way changes (general string physics, not a maker's claim)
+    function tensionFeel(res, cap, level, s) {
+      const t = res.tension, lo = t - 2, hi = t + 2;
+      const soft = ['ลูกเด้งออกจากหน้าเอ็นแรงขึ้น ตีไกลง่ายโดยไม่ต้องออกแรงมาก', 'จุดหวานกว้างขึ้น ตีไม่เต็มหน้าก็ยังไปได้', 'สะเทือนข้อมือน้อยลง เอ็นขาดยากขึ้น',
+        'แต่คุมทิศทางและน้ำหนักลูกยากขึ้น ลูกตบหัวทิ่มลงน้อยลง'];
+      const hard = ['คุมลูกได้แม่นขึ้น ลูกหยอดและลูกตัดคม เสียงเอ็นแน่นขึ้น', 'แต่จุดหวานแคบลง ต้องตีให้ตรงกลางหน้าเอ็น', 'ต้องใช้แรงและจังหวะมากขึ้น ข้อมือรับแรงสะเทือนมากขึ้น',
+        Number(s.shock) && Number(s.shock) <= 4 ? 'เอ็นนี้ซับแรงน้อยอยู่แล้ว ยิ่งตึงยิ่งสะเทือน' : 'เอ็นขาดเร็วขึ้น'];
+      const over = hi > cap ? `<p class="small wn-t">${hi} lbs เกินเพดาน ${cap} lbs ไม่ควรขึ้น เสี่ยงไม้ร้าวหรือเสียประกัน</p>` : '';
+      return `<details class="mfeel" open><summary>ถ้าขึ้น ${t} lbs จะเป็นยังไง และถ้าตึงหรือหย่อนกว่านี้</summary>
+        <p class="small"><b>${t} lbs</b>: สมดุลระหว่างแรงส่งกับการคุมลูกสำหรับระดับและสไตล์ที่เลือก</p>
+        <p class="small"><b>หย่อนลง ~${lo} lbs</b></p><ul class="small">${soft.map(x => `<li>${x}</li>`).join('')}</ul>
+        <p class="small"><b>ตึงขึ้น ~${hi} lbs</b></p><ul class="small">${hard.map(x => `<li>${x}</li>`).join('')}</ul>${over}
+        <p class="small muted">หลักทั่วไป: ทุก 1–2 lbs รู้สึกต่างได้ เอ็นจะหย่อนลงเองราว 1–2 lbs ใน 1–2 วันแรก</p></details>`;
+    }
     // the tension scale: 16-36 lbs, the level's band shaded, the racket's ceiling marked
     const lo = 16, hi = 36, pos = v => ((v - lo) / (hi - lo) * 100).toFixed(1);
     const cap = Math.min(res.range[1] || 30, Number(s.tensionMax) || 99);
@@ -945,6 +959,7 @@
             <span class="mscale-dot" style="left:${pos(res.tension)}%"></span>
           </div>
           <div class="mscale-l small muted"><span>${lo}</span><span>ช่วง${L.level[level]} ${res.band[0]}–${res.band[1]}, เพดาน ${cap}</span><span>${hi}</span></div>
+          ${tensionFeel(res, cap, level, s)}
           <ul class="steps">${res.steps.map(([why, v], i) => `<li><span>${esc(why)}</span><b class="fig">${i ? sign(v) : v}</b></li>`).join('')}</ul>
         </div>
       </section>
