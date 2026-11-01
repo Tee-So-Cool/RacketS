@@ -5348,7 +5348,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/3d-breakfree-n90-iv",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -5400,7 +5399,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/3d-calibar-009",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -5452,7 +5450,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/3d-calibar-009-boost",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -5504,7 +5501,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/3d-calibar-009-combat",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -5514,7 +5510,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "3D Calibar 200",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "even",
   "flex": "flexible",
   "level": "beginner",
@@ -5556,7 +5552,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/3d-calibar-200",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -5566,7 +5561,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "3D Calibar 300",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "even",
   "flex": "stiff",
   "level": "pro",
@@ -5611,9 +5606,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "style"
-  ]
+  "est": []
  },
  {
   "id": "li-ning-3d-calibar-300-boost",
@@ -5666,7 +5659,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-300b-boost-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -5722,7 +5714,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-300c-combat-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -5778,7 +5769,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-300i-instinct-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -5834,7 +5824,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-600-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -5844,7 +5833,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "3D Calibar 600 Boost",
   "year": "",
-  "style": "attack",
+  "style": "speed",
   "balance": "head-light",
   "flex": "flexible",
   "level": "intermediate",
@@ -5886,7 +5875,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/3d-calibar-600-boost",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -5938,7 +5926,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/3d-calibar-600-combat",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -6044,7 +6031,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "3D Calibar 900 Boost",
   "year": "",
-  "style": "attack",
+  "style": "speed",
   "balance": "head-light",
   "flex": "flexible",
   "level": "intermediate",
@@ -6090,7 +6077,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-900b-boost-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -6146,7 +6132,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-900c-combat-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -6202,7 +6187,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-900i-instinct-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -6262,7 +6246,6 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
    "level"
   ]
  },
@@ -6313,7 +6296,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-4000",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -6323,7 +6305,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Aeronaut 4000 Boost",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "even",
   "flex": "flexible",
   "level": "beginner",
@@ -6365,7 +6347,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-4000-boost",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -6417,7 +6398,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-4000-combat",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -6469,7 +6449,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-5000",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -6529,7 +6508,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Aeronaut 6000 Combat",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
@@ -6571,7 +6550,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-6000-combat",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -6581,7 +6559,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Aeronaut 6000 Drive",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
@@ -6623,7 +6601,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-6000-drive",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -6633,7 +6610,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Aeronaut 6000 Instinct",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
@@ -6671,7 +6648,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-6000-instinct",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -6763,7 +6739,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-7000-unstrung-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -6873,7 +6848,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-7000-combat",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -6929,7 +6903,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-7000-instinct-badminton-racket-pink",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -6939,7 +6912,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Aeronaut 8000",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
@@ -6985,7 +6958,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-8000-unstrung-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -7041,7 +7013,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-8000-combat-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -7097,7 +7068,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-8000-drive-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -7269,7 +7239,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-9000-drive",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -7325,7 +7294,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-9000i-instinct-badminton-racket-4u",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -7378,7 +7346,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "weight",
-   "style",
    "price",
    "level"
   ]
@@ -7426,7 +7393,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/air-stream-n99",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -7482,7 +7448,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/air-force-g2-80-lite",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -7712,7 +7677,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/axforce-100-max",
   "note": "",
   "est": [
-   "style",
    "price",
    "level",
    "weight"
@@ -8193,7 +8157,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/axforce-80-cl",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -8710,7 +8673,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-axforce-blast-badminton-racket-6u-white-blue",
   "note": "",
   "est": [
-   "style",
    "price",
    "level",
    "weight"
@@ -8927,7 +8889,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/axforce-jr",
   "note": "",
   "est": [
-   "style",
    "price",
    "level",
    "weight"
@@ -9577,7 +9538,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/bladex-880-shida",
   "note": "",
   "est": [
-   "style",
    "price"
   ]
  },
@@ -9943,7 +9903,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-bladex-200r-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -9953,7 +9912,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Bladex 73",
   "year": "",
-  "style": "speed",
+  "style": "attack",
   "balance": "head-light",
   "flex": "flexible",
   "level": "beginner",
@@ -9999,7 +9958,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-bladex-73-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -10047,7 +10005,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/blaze-100-84-grams",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -10099,7 +10056,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/challenger-15-boost",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -10152,7 +10108,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "weight",
-   "style",
    "price",
    "level"
   ]
@@ -10204,7 +10159,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-extra-strong-9000",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -10259,9 +10213,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "style"
-  ]
+  "est": []
  },
  {
   "id": "li-ning-g-force-3900-superlite",
@@ -10313,9 +10265,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "style"
-  ]
+  "est": []
  },
  {
   "id": "li-ning-g-force-3900-superlite-ii",
@@ -10359,16 +10309,14 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "style"
-  ]
+  "est": []
  },
  {
   "id": "li-ning-g-force-3500-superlite",
   "brand": "Li-Ning",
   "name": "G-force 3500 Superlite",
   "year": "",
-  "style": "allround",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -10410,7 +10358,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-superlite-78-grams",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -10466,7 +10413,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-gforce-3600-superlite-badminton-racket-dark-grey-gold",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -10522,7 +10468,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-gforce-3700-superlite-badminton-racket-black-amber",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -10570,7 +10515,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-3800-superlite-ii",
   "note": "",
   "est": [
-   "style",
    "price",
    "level",
    "weight"
@@ -10581,7 +10525,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "G-force 5800 Superlite",
   "year": "",
-  "style": "allround",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -10619,7 +10563,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-5800-superlite",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -10629,7 +10572,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "G-force 5900 Superlite",
   "year": "",
-  "style": "allround",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -10667,7 +10610,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-5900-superlite",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -10677,7 +10619,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "G-force 6800 Superlite",
   "year": "",
-  "style": "allround",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -10715,7 +10657,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-6800-superlite",
   "note": "",
   "est": [
-   "style",
    "price",
    "level",
    "weight"
@@ -10726,7 +10667,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "G-force 6900 Superlite",
   "year": "",
-  "style": "allround",
+  "style": "attack",
   "balance": "even",
   "flex": "flexible",
   "level": "beginner",
@@ -10765,7 +10706,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
-   "style",
    "price",
    "level",
    "weight"
@@ -10776,7 +10716,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "G-force 8200 Extra Strong",
   "year": "",
-  "style": "allround",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -10818,7 +10758,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-8200-extra-strong",
   "note": "",
   "est": [
-   "style",
    "price",
    "level",
    "weight"
@@ -10829,7 +10768,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "G-force 8800 Extra Strong",
   "year": "",
-  "style": "allround",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -10871,7 +10810,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-8800-extra-strong",
   "note": "",
   "est": [
-   "style",
    "price",
    "level",
    "weight"
@@ -10882,7 +10820,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "G-force 8900 Extra Strong",
   "year": "",
-  "style": "allround",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -10924,7 +10862,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-8900-extra-strong",
   "note": "",
   "est": [
-   "style",
    "price",
    "level",
    "weight"
@@ -10935,7 +10872,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "G-force Extra Strong 9500",
   "year": "",
-  "style": "allround",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -10977,7 +10914,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-extra-strong-9500",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -10987,7 +10923,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "G-force Lite 100",
   "year": "",
-  "style": "allround",
+  "style": "speed",
   "balance": "head-light",
   "flex": "flexible",
   "level": "beginner",
@@ -11029,7 +10965,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-lite",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -11039,7 +10974,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "G-force Superlite Max 10",
   "year": "",
-  "style": "allround",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -11077,7 +11012,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-superlite-ma-10",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -11087,7 +11021,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "G-force Superlite Max 9",
   "year": "",
-  "style": "allround",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "pro",
@@ -11134,7 +11068,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "tension",
-   "style",
    "price"
   ]
  },
@@ -11143,7 +11076,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "G-force X5",
   "year": "",
-  "style": "allround",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -11186,7 +11119,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "weight",
-   "style",
    "price",
    "level"
   ]
@@ -11238,7 +11170,6 @@ window.RACKETS = [
   "priceSrc": "https://sg.lining.studio/products/g-tek-gx",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -11248,7 +11179,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "G-tek II",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -11290,7 +11221,6 @@ window.RACKETS = [
   "priceSrc": "https://sg.lining.studio/products/g-tek-ii",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -11300,7 +11230,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Halbertec 1000",
   "year": "",
-  "style": "control",
+  "style": "allround",
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
@@ -11350,7 +11280,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-halbertec-1000-badminton-racket-5u",
   "note": "",
   "est": [
-   "style",
    "price",
    "weight"
   ]
@@ -11401,7 +11330,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Halbertec 3000",
   "year": 2024,
-  "style": "control",
+  "style": "allround",
   "balance": "even",
   "flex": "stiff",
   "level": "pro",
@@ -11446,16 +11375,14 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "style"
-  ]
+  "est": []
  },
  {
   "id": "li-ning-halbertec-4000",
   "brand": "Li-Ning",
   "name": "Halbertec 4000",
   "year": 2024,
-  "style": "control",
+  "style": "allround",
   "balance": "even",
   "flex": "medium",
   "level": "pro",
@@ -11496,16 +11423,14 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "style"
-  ]
+  "est": []
  },
  {
   "id": "li-ning-halbertec-5000",
   "brand": "Li-Ning",
   "name": "Halbertec 5000",
   "year": 2024,
-  "style": "control",
+  "style": "allround",
   "balance": "even",
   "flex": "medium",
   "level": "pro",
@@ -11546,16 +11471,14 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "style"
-  ]
+  "est": []
  },
  {
   "id": "li-ning-halbertec-6000",
   "brand": "Li-Ning",
   "name": "Halbertec 6000",
   "year": 2024,
-  "style": "control",
+  "style": "allround",
   "balance": "even",
   "flex": "medium",
   "level": "pro",
@@ -11604,16 +11527,14 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "style"
-  ]
+  "est": []
  },
  {
   "id": "li-ning-halbertec-7000",
   "brand": "Li-Ning",
   "name": "Halbertec 7000",
   "year": 2024,
-  "style": "control",
+  "style": "allround",
   "balance": "even",
   "flex": "stiff",
   "level": "pro",
@@ -11666,9 +11587,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "style"
-  ]
+  "est": []
  },
  {
   "id": "li-ning-halbertec-7000-ii",
@@ -11721,7 +11640,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Halbertec 8000",
   "year": 2023,
-  "style": "control",
+  "style": "allround",
   "balance": "even",
   "flex": "stiff",
   "level": "pro",
@@ -11778,16 +11697,14 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "style"
-  ]
+  "est": []
  },
  {
   "id": "li-ning-halbertec-9000",
   "brand": "Li-Ning",
   "name": "Halbertec 9000",
   "year": 2024,
-  "style": "control",
+  "style": "allround",
   "balance": "even",
   "flex": "stiff",
   "level": "pro",
@@ -11844,9 +11761,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "style"
-  ]
+  "est": []
  },
  {
   "id": "li-ning-halbertec-9000-power",
@@ -11969,7 +11884,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Halbertec Motor",
   "year": 2024,
-  "style": "control",
+  "style": "allround",
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
@@ -12022,16 +11937,14 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "style"
-  ]
+  "est": []
  },
  {
   "id": "li-ning-halbertec-motor-pro",
   "brand": "Li-Ning",
   "name": "Halbertec Motor Pro",
   "year": "",
-  "style": "control",
+  "style": "allround",
   "balance": "even",
   "flex": "flexible",
   "level": "pro",
@@ -12076,9 +11989,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "style"
-  ]
+  "est": []
  },
  {
   "id": "li-ning-ignite-7",
@@ -12135,7 +12046,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-ignite-7-badminton-racket-dark-grey-red",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -12187,7 +12097,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-ignite-8-badminton-racket-cool-gray-bull-red",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -12197,7 +12106,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Mega Power",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -12240,7 +12149,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "weight",
-   "style",
    "price",
    "level"
   ]
@@ -12292,7 +12200,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/n-9-ii",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -12344,7 +12251,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/n-90-iv",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -12396,7 +12302,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/n99-gold-medal",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -12456,7 +12361,6 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
    "level"
   ]
  },
@@ -12503,7 +12407,6 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
    "level",
    "weight"
   ]
@@ -12555,7 +12458,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/super-series-gold-medal",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -12612,7 +12514,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "tension",
-   "style",
    "price",
    "level"
   ]
@@ -12622,7 +12523,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Tectonic 1",
   "year": "",
-  "style": "allround",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "pro",
@@ -12672,7 +12573,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-tectonic-1-3u-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price"
   ]
  },
@@ -12788,7 +12688,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Tectonic 6",
   "year": "",
-  "style": "allround",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "intermediate",
@@ -12835,7 +12735,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "tension",
-   "style",
    "price",
    "level"
   ]
@@ -12900,7 +12799,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Tectonic 7 Combat",
   "year": "",
-  "style": "allround",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "intermediate",
@@ -12942,7 +12841,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-tectonic-7-combat-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -12952,7 +12850,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Tectonic 7 Drive",
   "year": "",
-  "style": "allround",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "advanced",
@@ -12990,7 +12888,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/tectonic-7-drive",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -13000,7 +12897,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Tectonic 7 Instinct",
   "year": "",
-  "style": "allround",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "intermediate",
@@ -13038,7 +12935,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/tectonic-7-instinct",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -13147,7 +13043,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "tension",
-   "style",
    "price"
   ]
  },
@@ -13156,7 +13051,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Turbo Charging 08",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "even",
   "flex": "stiff",
   "level": "beginner",
@@ -13198,7 +13093,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-08",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -13250,7 +13144,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-08-combat",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -13302,7 +13195,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-08-drive",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -13354,7 +13246,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-10",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -13364,7 +13255,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Turbo Charging 20",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "even",
   "flex": "flexible",
   "level": "beginner",
@@ -13406,7 +13297,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-20",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -13416,7 +13306,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Turbo Charging 20 Combat",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "even",
   "flex": "flexible",
   "level": "beginner",
@@ -13458,7 +13348,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-20-combat",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -13510,7 +13399,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-20-drive",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -13562,7 +13450,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-20-instinct",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -13572,7 +13459,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Turbo Charging 40",
   "year": "",
-  "style": "attack",
+  "style": "speed",
   "balance": "head-light",
   "flex": "flexible",
   "level": "beginner",
@@ -13614,7 +13501,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-40",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -13624,7 +13510,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Turbo Charging 50",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "even",
   "flex": "flexible",
   "level": "beginner",
@@ -13666,7 +13552,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-50",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -13718,7 +13603,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-50-combat",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -13728,7 +13612,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Turbo Charging 50 Drive",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -13770,7 +13654,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-50-drive",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -13780,7 +13663,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Turbo Charging 70",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "even",
   "flex": "stiff",
   "level": "advanced",
@@ -13826,7 +13709,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-70",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -13836,7 +13718,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Turbo Charging 70 Boost",
   "year": "",
-  "style": "attack",
+  "style": "speed",
   "balance": "head-light",
   "flex": "flexible",
   "level": "intermediate",
@@ -13882,7 +13764,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-turbo-charging-70-boost-badminton-racket-purple",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -13934,7 +13815,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-70-combat",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -13990,7 +13870,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-turbo-charging-70-instinct-badminton-racket-pink",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -14000,7 +13879,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Turbo Charging 75",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
@@ -14046,7 +13925,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-turbocharging-75-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -14091,7 +13969,6 @@ window.RACKETS = [
   "priceSrc": "https://sg.lining.studio/products/turbo-charging-75-combat",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -14143,7 +14020,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-75-drive",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -14153,7 +14029,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Turbo Charging 75 EX",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
@@ -14199,7 +14075,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-75-ex",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -14209,7 +14084,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Turbo Charging 75 Instinct",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "intermediate",
@@ -14251,7 +14126,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-75-instinct",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -14307,7 +14181,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-80",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -14363,7 +14236,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-turbo-charging-marshal-badminton-racket-white-4u",
   "note": "",
   "est": [
-   "style",
    "price",
    "level",
    "weight"
@@ -14374,7 +14246,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Turbo Charging N9 II",
   "year": "",
-  "style": "attack",
+  "style": "allround",
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
@@ -14416,7 +14288,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-88-grams",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -14468,7 +14339,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-z-boost",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -14520,7 +14390,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-z-combat",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -14572,7 +14441,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-z-driveaypr190-4",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -14624,7 +14492,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/wind-lite-700",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -14676,7 +14543,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/wind-lite-700-ii",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -14729,7 +14595,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
-   "style",
    "price",
    "level"
   ]
@@ -14781,7 +14646,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/wind-lite-800-ii",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -14833,7 +14697,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/wind-lite-900",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -14885,7 +14748,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/wind-lite-900-ii",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -14938,7 +14800,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "weight",
-   "style",
    "price",
    "level"
   ]
@@ -14948,7 +14809,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Windstorm 700",
   "year": "",
-  "style": "speed",
+  "style": "allround",
   "balance": "even",
   "flex": "flexible",
   "level": "intermediate",
@@ -14997,16 +14858,14 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "style"
-  ]
+  "est": []
  },
  {
   "id": "li-ning-windstorm-700-iv",
   "brand": "Li-Ning",
   "name": "Windstorm 700 IV",
   "year": "",
-  "style": "speed",
+  "style": "allround",
   "balance": "even",
   "flex": "flexible",
   "level": "beginner",
@@ -15048,7 +14907,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/windstorm-700-iv",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -15058,7 +14916,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Windstorm 700 Plus",
   "year": "",
-  "style": "speed",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -15096,7 +14954,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/windstorm-700-plus",
   "note": "",
   "est": [
-   "style",
    "price",
    "level",
    "weight"
@@ -15279,7 +15136,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Windstorm 72S",
   "year": "",
-  "style": "speed",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "pro",
@@ -15333,7 +15190,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-windstorm-72-s-badminton-racket-dark-grey-gold-blue",
   "note": "",
   "est": [
-   "style",
    "price"
   ]
  },
@@ -15342,7 +15198,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Windstorm 74",
   "year": "",
-  "style": "speed",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -15393,7 +15249,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "tension",
-   "style",
    "price",
    "level"
   ]
@@ -15403,7 +15258,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Windstorm 75",
   "year": "",
-  "style": "speed",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -15445,7 +15300,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/windstorm-75",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -15455,7 +15309,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Windstorm 76",
   "year": "",
-  "style": "speed",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "medium",
   "level": "intermediate",
@@ -15498,7 +15352,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "flex",
-   "style",
    "price",
    "level"
   ]
@@ -15508,7 +15361,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Windstorm 78",
   "year": "",
-  "style": "speed",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -15554,7 +15407,6 @@ window.RACKETS = [
   "priceSrc": "https://yumo.ca/products/li-ning-windstorm-78sl-iv-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -15564,7 +15416,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Windstorm 78 Plus",
   "year": "",
-  "style": "speed",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -15610,7 +15462,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-windstorm-78-white-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -15732,7 +15583,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Windstorm Lite",
   "year": "",
-  "style": "speed",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -15774,7 +15625,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/windstorm-lite",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -15784,7 +15634,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Windstorm Nano 73",
   "year": "",
-  "style": "speed",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -15830,7 +15680,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/windstorm-nano-73",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -15840,7 +15689,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Windstorm Nano 74",
   "year": "",
-  "style": "speed",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -15886,7 +15735,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-windstorm-nano-74-badminton-racket",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -15896,7 +15744,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Windstorm Nano Lite",
   "year": "",
-  "style": "speed",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
   "level": "beginner",
@@ -15938,7 +15786,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/windstorm-nano-lite",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -15990,7 +15837,6 @@ window.RACKETS = [
   "priceSrc": "https://sg.lining.studio/products/xp-900",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -16042,7 +15888,6 @@ window.RACKETS = [
   "priceSrc": "https://sg.lining.studio/products/xp-iv",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -16098,7 +15943,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-xi-phos-x1-badminton-racket-silver",
   "note": "",
   "est": [
-   "style",
    "price",
    "level"
   ]
@@ -18752,7 +18596,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "flex": "",
-  "level": "",
+  "level": "beginner",
   "weights": "4U",
   "weight": 82,
   "grips": "",
@@ -18782,7 +18626,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "level"
   ]
  },
  {
@@ -23051,7 +22896,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "",
-  "level": "",
+  "level": "beginner",
   "weights": "",
   "weight": "",
   "grips": "G5",
@@ -23087,7 +22932,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
-   "style"
+   "style",
+   "level"
   ]
  },
  {
@@ -25403,7 +25249,7 @@ window.RACKETS = [
   "style": "allround",
   "balance": "even",
   "flex": "",
-  "level": "",
+  "level": "beginner",
   "weights": "",
   "weight": "",
   "grips": "G5",
@@ -25436,7 +25282,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
-   "style"
+   "style",
+   "level"
   ]
  },
  {
@@ -26812,7 +26659,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "",
-  "level": "",
+  "level": "beginner",
   "weights": "",
   "weight": "",
   "grips": "G5",
@@ -26845,7 +26692,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
-   "style"
+   "style",
+   "level"
   ]
  },
  {
@@ -27177,7 +27025,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "",
-  "level": "",
+  "level": "beginner",
   "weights": "",
   "weight": "",
   "grips": "G5",
@@ -27210,7 +27058,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
-   "style"
+   "style",
+   "level"
   ]
  },
  {
@@ -27271,7 +27120,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "",
-  "level": "",
+  "level": "beginner",
   "weights": "",
   "weight": "",
   "grips": "G5",
@@ -27304,7 +27153,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
-   "style"
+   "style",
+   "level"
   ]
  },
  {

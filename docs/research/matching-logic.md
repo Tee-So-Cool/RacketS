@@ -227,3 +227,15 @@ The values are still listed as estimates ("ค่าประเมิน") in t
 Li-Ning No.3 Boost has 1-10 numbers from c-badminton.com, a Thai shop; these are not the maker's numbers, and ratingNote says so.
 No source was found for Li-Ning AP-6/AP66/AP7/AP70 or the three Hundred strings, so they stay on the gauge default.
 scripts/build_strings.py now applies overrides a second time after the shop layer, because models the shops create (keyed by id) were missed before.
+
+## Racket level and style sources (2026-11-01)
+- Li-Ning's own stores (sg.lining.studio, cached in scripts/sources/pages.json) label each racket's "player type". It was on the skip list; it now sets style:
+  - Attacking: attack
+  - Balanced: allround
+  - Defensive: speed (44 of 51 are head-light)
+  - Speed: speed
+  - Control: control
+
+  Li-Ning style estimates fell from 144 to 2. Their "player level" stays unused, because the store tags entry rackets "Professional" too.
+- Yonex's tier word (Pro > Tour > Game > Play) now sets the level as stated by the maker.
+- An aluminium or steel frame sets beginner, still flagged as an estimate.

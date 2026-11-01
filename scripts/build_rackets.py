@@ -256,6 +256,7 @@ SHOPS = os.path.join(SRC, 'shops.json')
 BRAND_OF = {'victor': 'Victor', 'yonex': 'Yonex', 'li-ning': 'Li-Ning', 'li ning': 'Li-Ning', 'lining': 'Li-Ning', 'vs': 'VS',
             'apacs': 'Apacs', 'mizuno': 'Mizuno', 'kawasaki': 'Kawasaki'}
 from spec_text import parse as parse_spec, country_of, is_material
+PLAYER_TYPE = {'attacking': 'attack', 'balanced': 'allround', 'defensive': 'speed', 'speed': 'speed', 'control': 'control'}
 PAGES = json.load(open(os.path.join(SRC, 'pages.json'), encoding='utf-8')) if os.path.exists(os.path.join(SRC, 'pages.json')) else {}
 def from_shop(p):
     brand = BRAND_OF.get(p['brand'].strip().lower(), '')
@@ -368,6 +369,11 @@ for bz in bay + click + shops:
                 # Li-Ning's own stores tag even entry rackets "Professional", so their level is not used
                 'level': '' if 'lining.studio' in bz['shop'] else one_level(ps['level']), 'recString': ps['recText'],
                 **{f: ps[f] for f in ('frame', 'shaft', 'length', 'joint', 'madeIn', 'tech', 'players', 'pattern')}}
+        # Li-Ning's own stores label each racket's player type; "Defensive" ones are 44 of 51 head-light, so they are speed rackets here
+        if 'lining.studio' in bz['shop']:
+            L = [x.strip() for x in PAGES.get(bz['url'], [])]
+            i = next((k for k, x in enumerate(L) if x.lower() == 'player type'), None)
+            fill['style'] = PLAYER_TYPE.get(L[i + 1].lower(), '') if i is not None and i + 1 < len(L) else ''
     else:
         fill = {'balance': bay_balance(bz.get('balance')), 'flex': bay_flex(bz.get('flex')), 'weights': ws, 'weight': g,
             'tension': tension(bz.get('tension', '')), 'frame': bz.get('frame', ''), 'shaft': bz.get('shaft', ''),
@@ -503,6 +509,16 @@ LV = ['beginner', 'intermediate', 'advanced', 'pro']
 FLEX_STEP = {'flexible': -1, 'extra-stiff': 1}
 FLEX_ONLY = {'flexible': 0, 'medium': 1, 'stiff': 2, 'extra-stiff': 3}
 leveled = 0
+# Yonex names its tiers itself (Pro > Tour > Game > Play, yonex.com); an aluminium or steel frame is an entry racket
+TIER = {'pro': 'pro', 'tour': 'advanced', 'game': 'intermediate', 'play': 'beginner'}
+tiered = 0
+for r in rackets.values():
+    if r.get('level'): continue
+    m = re.search(r'\b(pro|tour|game|play)\b(?!.*\b(pro|tour|game|play)\b)', r['name'], re.I) if r['brand'] == 'Yonex' else None
+    if m: r['level'] = TIER[m.group(1).lower()]; tiered += 1; continue
+    if re.search(r'alumin|steel', r.get('frame') or '', re.I):
+        r['level'] = 'beginner'; r.setdefault('est', []).append('level'); tiered += 1
+print('levels from tier name or frame metal', tiered)
 for r in rackets.values():
     if r.get('level'): continue
     p = r.get('price')
