@@ -29,6 +29,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "durability",
@@ -63,6 +64,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "shock"
@@ -95,6 +97,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "durability",
@@ -129,6 +132,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "durability",
@@ -163,6 +167,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -199,6 +204,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "sound",
@@ -232,6 +238,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "sound",
@@ -274,6 +281,7 @@ window.STRINGS = [
   "priceSrc": "https://yumo.ca/products/hundred-jp-58-magnite-badminton-string",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "price"
@@ -315,6 +323,7 @@ window.STRINGS = [
   "priceSrc": "https://yumo.ca/products/hundred-jp-70-hunter-badminton-string",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "price"
@@ -328,11 +337,11 @@ window.STRINGS = [
   "gauge": "",
   "gaugeText": "",
   "material": "",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 10,
+  "control": 9,
+  "durability": 8.5,
+  "sound": 10,
+  "shock": 9.5,
   "tensionMax": "",
   "price": 440,
   "colors": "",
@@ -341,7 +350,7 @@ window.STRINGS = [
   "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/HundredJP65Magnite10mBadmintonStringwhite.png?v=1756169485",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/Racket-String/hundred-jp65-magnite-badminton-string.html",
   "shopLinks": [
    {
     "shop": "joybadminton.com",
@@ -358,9 +367,10 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก US$12.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/hundred-jp65-magnite-10m-badminton-string",
-  "feature": "",
+  "feature": "repulsion",
   "feel": "",
-  "ratingNote": "",
+  "wordSrc": "",
+  "ratingNote": "คะแนนจากร้าน Badminton Bay ไม่ใช่ตัวเลขผู้ผลิต",
   "est": [
    "price"
   ]
@@ -392,6 +402,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -433,6 +444,7 @@ window.STRINGS = [
   "priceSrc": "https://racquetguys.com/products/kizuna-z63x-badminton-string-cyan",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -475,6 +487,7 @@ window.STRINGS = [
   "priceSrc": "https://racquetguys.com/products/kizuna-z65x-badminton-string-light-green",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -517,6 +530,7 @@ window.STRINGS = [
   "priceSrc": "https://racquetguys.com/products/kizuna-z69t-badminton-string-red",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -563,6 +577,7 @@ window.STRINGS = [
   "priceSrc": "https://sg.lining.studio/products/ap-6-badminton",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "price"
@@ -576,11 +591,11 @@ window.STRINGS = [
   "gauge": 0.66,
   "gaugeText": "",
   "material": "mono",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 9,
+  "control": 7,
+  "durability": 7,
+  "sound": 9,
+  "shock": 8,
   "tensionMax": 26,
   "price": 240,
   "colors": "",
@@ -589,7 +604,7 @@ window.STRINGS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/01_c093faef68.jpg?v=1752148661",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://in.lining.studio/products/ap66-rainbow",
   "shopLinks": [
    {
     "shop": "sg.lining.studio",
@@ -602,9 +617,10 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก S$9.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/ap66-rainbow",
-  "feature": "",
+  "feature": "repulsion",
   "feel": "",
-  "ratingNote": "",
+  "wordSrc": "",
+  "ratingNote": "คะแนนจากหน้าสินค้า Li-Ning India (AP66 Rainbow) ส่วนคุมลูก 7 มาจากร้านค้า",
   "est": [
    "price"
   ]
@@ -649,6 +665,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": []
  },
@@ -688,6 +705,7 @@ window.STRINGS = [
   "priceSrc": "https://in.lining.studio/products/ap70-rainbow",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "price"
@@ -720,6 +738,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -765,6 +784,7 @@ window.STRINGS = [
   "priceSrc": "https://sg.lining.studio/products/n58",
   "feature": "repulsion",
   "feel": "medium",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "price"
@@ -806,6 +826,7 @@ window.STRINGS = [
   "priceSrc": "https://sg.lining.studio/products/n61",
   "feature": "repulsion",
   "feel": "medium",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "price"
@@ -847,6 +868,7 @@ window.STRINGS = [
   "priceSrc": "https://in.lining.studio/products/n68",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "price"
@@ -884,6 +906,7 @@ window.STRINGS = [
   "priceSrc": "https://in.lining.studio/products/n69",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "price"
@@ -921,6 +944,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": []
  },
@@ -956,6 +980,7 @@ window.STRINGS = [
   "priceSrc": "https://in.lining.studio/products/ns70",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "price"
@@ -993,6 +1018,7 @@ window.STRINGS = [
   "priceSrc": "https://in.lining.studio/products/ns95",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "price"
@@ -1042,6 +1068,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": []
  },
@@ -1089,6 +1116,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -1134,6 +1162,7 @@ window.STRINGS = [
   "priceSrc": "https://sg.lining.studio/products/no-3",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "price"
@@ -1175,6 +1204,7 @@ window.STRINGS = [
   "priceSrc": "https://sg.lining.studio/products/no-3-boost",
   "feature": "repulsion",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "คะแนนจากร้าน c-badminton.com (ร้านไทย) ไม่ใช่ตัวเลขผู้ผลิต",
   "est": [
    "price"
@@ -1220,6 +1250,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": []
  },
@@ -1267,6 +1298,7 @@ window.STRINGS = [
   "priceSrc": "https://sg.lining.studio/products/no-7",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "price"
@@ -1312,6 +1344,7 @@ window.STRINGS = [
   "priceSrc": "https://sg.lining.studio/products/no-7-boost",
   "feature": "durability",
   "feel": "soft",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "price"
@@ -1344,6 +1377,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -1380,6 +1414,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -1416,6 +1451,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -1452,6 +1488,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -1488,6 +1525,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": []
  },
@@ -1527,6 +1565,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": []
  },
@@ -1557,6 +1596,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": []
  },
@@ -1596,6 +1636,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": []
  },
@@ -1631,6 +1672,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": []
  },
@@ -1670,6 +1712,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": []
  },
@@ -1709,6 +1752,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": []
  },
@@ -1744,6 +1788,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": []
  },
@@ -1779,6 +1824,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": []
  },
@@ -1814,6 +1860,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": []
  },
@@ -1849,6 +1896,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": []
  },
@@ -1873,7 +1921,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-vbs-58n-300x225.webp",
   "source": "https://chobbad.com/string/victor-vbs-58n/",
   "officialUrl": "",
-  "specSrc": "https://th.victorsport.com/product/",
+  "specSrc": "",
   "shopLinks": [
    {
     "shop": "nydhi.com",
@@ -1888,6 +1936,7 @@ window.STRINGS = [
   "priceSrc": "https://tenniszon.com/products/victor-vbs-58-nano-10m-white",
   "feature": "",
   "feel": "medium",
+  "wordSrc": "https://th.victorsport.com/product/",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -1919,7 +1968,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-vbs-61-300x225.webp",
   "source": "https://chobbad.com/string/victor-vbs-61/",
   "officialUrl": "",
-  "specSrc": "https://th.victorsport.com/product/",
+  "specSrc": "",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
@@ -1954,6 +2003,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "repulsion",
   "feel": "medium",
+  "wordSrc": "https://th.victorsport.com/product/",
   "ratingNote": "",
   "est": [
    "shock"
@@ -1980,7 +2030,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-vbs-63-300x225.webp",
   "source": "https://chobbad.com/string/victor-vbs-63/",
   "officialUrl": "",
-  "specSrc": "https://th.victorsport.com/product/",
+  "specSrc": "",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
@@ -2019,6 +2069,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "repulsion",
   "feel": "medium",
+  "wordSrc": "https://th.victorsport.com/product/",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -2049,7 +2100,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-vbs-66-nano-300x225.webp",
   "source": "https://chobbad.com/string/victor-vbs-66-nano/",
   "officialUrl": "",
-  "specSrc": "https://th.victorsport.com/product/",
+  "specSrc": "",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
@@ -2084,6 +2135,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "repulsion",
   "feel": "medium",
+  "wordSrc": "https://th.victorsport.com/product/",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -2129,6 +2181,7 @@ window.STRINGS = [
   "priceSrc": "https://racquetguys.com/products/victor-vbs-68-badminton-string-white",
   "feature": "control",
   "feel": "hard",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "price"
@@ -2155,7 +2208,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-vbs-68p-300x225.webp",
   "source": "https://chobbad.com/string/victor-vbs-68p/",
   "officialUrl": "",
-  "specSrc": "https://th.victorsport.com/product/",
+  "specSrc": "",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
@@ -2182,6 +2235,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "control",
   "feel": "soft",
+  "wordSrc": "https://th.victorsport.com/product/",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -2212,7 +2266,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-vbs-69n-300x225.webp",
   "source": "https://chobbad.com/string/victor-vbs-69n/",
   "officialUrl": "",
-  "specSrc": "https://th.victorsport.com/product/",
+  "specSrc": "",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
@@ -2243,6 +2297,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "durability",
   "feel": "soft",
+  "wordSrc": "https://th.victorsport.com/product/",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -2273,7 +2328,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/victor-vbs-70-300x225.webp",
   "source": "https://chobbad.com/string/victor-vbs-70/",
   "officialUrl": "",
-  "specSrc": "https://th.victorsport.com/product/",
+  "specSrc": "",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
@@ -2312,6 +2367,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "durability",
   "feel": "medium",
+  "wordSrc": "https://th.victorsport.com/product/",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -2342,7 +2398,7 @@ window.STRINGS = [
   "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/VictorVBS-70PBadmintonString.png?v=1728434298",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://th.victorsport.com/product/vbs-70p",
+  "specSrc": "",
   "shopLinks": [
    {
     "shop": "joybadminton.com",
@@ -2365,6 +2421,7 @@ window.STRINGS = [
   "priceSrc": "https://joybadminton.com/products/victor-vbs-70p-badminton-string",
   "feature": "durability",
   "feel": "soft",
+  "wordSrc": "https://th.victorsport.com/product/vbs-70p",
   "ratingNote": "",
   "est": [
    "price"
@@ -2397,6 +2454,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -2433,6 +2491,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -2502,6 +2561,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 10, durability 6, sound 9, shock 8, control 10",
   "est": []
  },
@@ -2565,6 +2625,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 8, durability 7, sound 7, shock 6, control 10",
   "est": []
  },
@@ -2624,6 +2685,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 11, durability 5, sound 11, shock 7, control 9",
   "est": []
  },
@@ -2695,6 +2757,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 7, durability 10, sound 6, shock 6, control 6",
   "est": []
  },
@@ -2742,6 +2805,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 7, durability 7, sound 7, shock 6, control 6",
   "est": []
  },
@@ -2801,6 +2865,7 @@ window.STRINGS = [
   "priceSrc": "https://joybadminton.com/products/yonex-bg-66-force-10m-badminton-string-3-colors",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 10, durability 6, sound 9, shock 9, control 10",
   "est": [
    "price"
@@ -2870,6 +2935,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 10, durability 6, sound 10, shock 8, control 10",
   "est": []
  },
@@ -2933,6 +2999,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 8, durability 6, sound 7, shock 6, control 6",
   "est": []
  },
@@ -3000,6 +3067,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 9, durability 7, sound 7, shock 6, control 6",
   "est": []
  },
@@ -3067,6 +3135,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 11, durability 7, sound 10, shock 7, control 10",
   "est": []
  },
@@ -3134,6 +3203,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 10, durability 8, sound 9, shock 8, control 10",
   "est": []
  },
@@ -3197,6 +3267,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 9, durability 11, sound 8, shock 6, control 10",
   "est": []
  },
@@ -3252,6 +3323,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -3309,6 +3381,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "",
   "est": [
    "repulsion",
@@ -3370,6 +3443,7 @@ window.STRINGS = [
   "priceSrc": "",
   "feature": "",
   "feel": "",
+  "wordSrc": "",
   "ratingNote": "Yonex 2026 catalogue (1-11): repulsion 8, durability 7, sound 6, shock 11, control 10",
   "est": []
  }

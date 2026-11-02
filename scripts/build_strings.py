@@ -92,10 +92,12 @@ def apply_overrides(only=None, create=True):
             brand = o.get('brand') or full.split()[0]
             s = strings[k] = {'id': slug(full), 'brand': brand, 'name': full[len(brand):].strip(), 'note': ''}
         for f, v in o.items():
-            if f in ('src', 'new', 'brand') or v in ('', None): continue
+            if f in ('src', 'wordSrc', 'new', 'brand') or v in ('', None): continue
             s[f] = v
             if f in s.get('est', []): s['est'].remove(f)
-        s['specSrc'] = o.get('src', '')
+        if o.get('src'): s['specSrc'] = o['src']
+        # where the maker's feature/feel words came from, kept apart from the source of the numbers
+        if o.get('wordSrc'): s['wordSrc'] = o['wordSrc']
     return missed
 
 # overrides for models the shop layer creates are tried again after it
@@ -135,7 +137,7 @@ unmatched = apply_overrides(set(unmatched), create=False)
 if unmatched: print('override names not found:', unmatched)
 
 ORDER = ['id', 'brand', 'name', 'year', 'gauge', 'gaugeText', 'material'] + RATINGS + [
-    'tensionMax', 'price', 'colors', 'madeIn', 'note', 'img', 'source', 'officialUrl', 'specSrc', 'shopLinks', 'priceNote', 'priceSrc', 'feature', 'feel', 'ratingNote', 'est']
+    'tensionMax', 'price', 'colors', 'madeIn', 'note', 'img', 'source', 'officialUrl', 'specSrc', 'shopLinks', 'priceNote', 'priceSrc', 'feature', 'feel', 'wordSrc', 'ratingNote', 'est']
 final, seen = [], set()
 for s in sorted(strings.values(), key=lambda s: (s['brand'], s['name'])):
     s['id'] = s.get('id') or slug(s['brand'] + ' ' + s['name'])

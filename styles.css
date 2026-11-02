@@ -495,3 +495,7 @@ body { font-size: var(--text-md); }
 .sim-n { font-size: var(--text-sm); overflow-wrap: break-word; min-width: 0; }
 .sim:hover { border-color: var(--color-muted); }
 .sim:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; }
+.card-acts { display: flex; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-xs); }
+.whodlg { max-width: min(46rem, calc(100vw - 2rem)); max-height: 85vh; overflow: auto; border: 1px solid var(--line, currentColor); border-radius: 12px; padding: var(--space-md); background: var(--bg, Canvas); color: inherit; }
+.whodlg::backdrop { background: rgb(0 0 0 / .45); }
+.whodlg .x-btn { float: right; }

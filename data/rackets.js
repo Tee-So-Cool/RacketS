@@ -17,6 +17,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -55,6 +56,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -91,6 +93,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -129,6 +132,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -170,6 +174,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 6180,
   "frame": "30T Japan HM Graphite + Speed Power Combined Frame",
   "shaft": "40T Japan High Modulus Graphite + Extra Slim Shaft",
@@ -209,6 +214,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -250,6 +256,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 2500,
   "frame": "24-Tonne Japan HM Graphite + Aero-Box + Compact Frame",
   "shaft": "24-Tonne Japan HM Graphite + Super Slim Shaft 6.4mm",
@@ -289,6 +296,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -325,6 +333,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -364,6 +373,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 4010,
   "frame": "30T Japan HM Graphite + Quad Balance + Hexagon Throat",
   "shaft": "40T Japan HM Graphite + Super Slim Shaft 6.2mm",
@@ -412,6 +422,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -448,6 +459,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -487,6 +499,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -525,6 +538,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -564,6 +578,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 2530,
   "frame": "DuraPlus Carbon + Slim Aero Frame",
   "shaft": "DuraPlus Carbon + Super Slim Shaft 6.4mm",
@@ -605,6 +620,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 2530,
   "frame": "DuraPlus Carbon + Slim Aero Frame",
   "shaft": "DuraPlus Carbon + Super Slim Shaft 6.4mm",
@@ -643,6 +659,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -682,6 +699,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 3790,
   "frame": "30T Japan HM Graphite + Slim Aero Frame",
   "shaft": "50T Japan HM Graphite + CCT + T-Joint + Super Slim Shaft 6.2mm",
@@ -726,6 +744,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -765,6 +784,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 2530,
   "frame": "DuraPlus Carbon + Slim Aero Frame",
   "shaft": "DuraPlus Carbon + Super Slim Shaft 6.4mm",
@@ -806,6 +826,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 2500,
   "frame": "DuraPlus Carbon + High Speed Frame",
   "shaft": "DuraPlus Carbon + Super Slim Shaft 6.4mm + Hexagon Throat",
@@ -849,6 +870,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4390,
   "frame": "30 Tonne Japan HM Graphite",
   "shaft": "24 Tonne Japan HM Graphite + CCT + Extra Slim Shaft 6.7mm",
@@ -891,6 +913,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 3340,
   "frame": "DuraPrime Carbon + Armor Speed Frame",
   "shaft": "DuraPrime Carbon + Hexagon Throat + Super Slim Shaft 6.4mm",
@@ -933,6 +956,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 3710,
   "frame": "30T Japan High Modulus Graphite + Grommetless System + Slim Box",
   "shaft": "24T Japan High Modulus Graphite + Extra Slim Shaft",
@@ -974,6 +998,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 3710,
   "frame": "30T Japan High Modulus Graphite + Grommetless System + Slim Box",
   "shaft": "24T Japan High Modulus Graphite + Extra Slim Shaft",
@@ -1015,6 +1040,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 2480,
   "frame": "",
   "shaft": "",
@@ -1056,6 +1082,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 2480,
   "frame": "30T Japan HM Graphite",
   "shaft": "",
@@ -1099,6 +1126,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -1137,6 +1165,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -1175,6 +1204,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -1216,6 +1246,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 3820,
   "frame": "40 Tonne  Japan HM Graphite, Compact Power Quad Voltaic",
   "shaft": "50 Tonne Japan HM Graphite, Extra Slim Shaft",
@@ -1267,6 +1298,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2430,
   "frame": "30 Tonne Japan Graphite + AHSF + Hexagon Throat + IPN",
   "shaft": "30 Tonne Graphite",
@@ -1314,6 +1346,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 1360,
   "frame": "30 Tonne Japan Graphite + AHSF + Hexagon Throat + IPN",
   "shaft": "24 Tonne Graphite",
@@ -1365,6 +1398,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 3710,
   "frame": "30 Tonne Japan Graphite + AHSF + Hexagon Throat + IPN",
   "shaft": "24 Tonne Graphite",
@@ -1407,6 +1441,7 @@ window.RACKETS = [
    null,
    42
   ],
+  "tensionNote": "",
   "price": 960,
   "frame": "",
   "shaft": "",
@@ -1453,6 +1488,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 2290,
   "frame": "30T Japan High Modulus Graphite + High Speed Frame",
   "shaft": "24T Japan High Modulus Graphite",
@@ -1495,6 +1531,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 2500,
   "frame": "30T Japan HM Graphite + DuraMax Carbon + Wide Aero Frame",
   "shaft": "30T Japan HM Graphite + Super Slim Shaft 6.4mm",
@@ -1536,6 +1573,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 2500,
   "frame": "30T Japan HM Graphite + DuraMax Carbon + Wide Aero Frame",
   "shaft": "30T Japan HM Graphite + Super Slim Shaft 6.4mm",
@@ -1577,6 +1615,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -1616,6 +1655,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 5500,
   "frame": "",
   "shaft": "",
@@ -1657,6 +1697,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 2500,
   "frame": "30T Japan HM Graphite + DuraMax Carbon + Wide Aero Frame",
   "shaft": "30T Japan HM Graphite + Super Slim Shaft 6.4mm",
@@ -1698,6 +1739,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 2870,
   "frame": "40T Japan HM Graphite + T-Throat + Compact Power Quad Voltaic",
   "shaft": "50T Japan HM Graphite + Super Slim Shaft 6.4mm",
@@ -1749,6 +1791,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 2730,
   "frame": "",
   "shaft": "",
@@ -1791,6 +1834,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 2390,
   "frame": "30T Japan High Modulus Graphite + Aero Armor (Hi-Tension)",
   "shaft": "24T Japan High Modulus Graphite + Extra Slim Shaft 6.8mm",
@@ -1832,6 +1876,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 2390,
   "frame": "30T Japan High Modulus Graphite + Aero Armor (Hi-Tension)",
   "shaft": "24T Japan High Modulus Graphite + Extra Slim Shaft 6.8mm",
@@ -1873,6 +1918,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 2870,
   "frame": "40T Japan HM Graphite + Balance Quad System",
   "shaft": "50T Japan HM Graphite + Super Slim Shaft 6.2mm + Hexagon Throat",
@@ -1917,6 +1963,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -1956,6 +2003,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 2360,
   "frame": "24-Tonne Japan HM Graphite + DuraTech Carbon New Power Speed Frame",
   "shaft": "24-Tonne Japan HM Graphite + Super Slim Shaft 6.4mm",
@@ -1995,6 +2043,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2033,6 +2082,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2071,6 +2121,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2109,6 +2160,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2147,6 +2199,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2186,6 +2239,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 2360,
   "frame": "Hi Modulus Graphite + High Speed Frame + CNT",
   "shaft": "Hi Modulus Graphite + CNT",
@@ -2229,6 +2283,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 2230,
   "frame": "Japan High Modulus Graphite + Aero Frame",
   "shaft": "Japan High Modulus Graphite + Super Slim Shaft 6.4mm",
@@ -2271,6 +2326,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 2290,
   "frame": "30T Japan High Modulus Graphite + Whip Slim Frame",
   "shaft": "24T Japan High Modulus Graphite",
@@ -2313,6 +2369,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1390,
   "frame": "30 Tonne Japan Graphite",
   "shaft": "24 Tonne Japan Graphite",
@@ -2364,6 +2421,7 @@ window.RACKETS = [
    null,
    33
   ],
+  "tensionNote": "",
   "price": 3690,
   "frame": "",
   "shaft": "",
@@ -2405,6 +2463,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 2480,
   "frame": "",
   "shaft": "",
@@ -2443,6 +2502,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2484,6 +2544,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1650,
   "frame": "",
   "shaft": "",
@@ -2522,6 +2583,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2563,6 +2625,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 2290,
   "frame": "30T Japan High Modulus Graphite + Whip Slim Frame",
   "shaft": "24T Japan High Modulus Graphite",
@@ -2605,6 +2668,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 3710,
   "frame": "30T Japan High Modulus Graphite +Armor Speed Frame",
   "shaft": "24T Japan High Modulus Graphite + Hexagon throat",
@@ -2644,6 +2708,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2680,6 +2745,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2719,6 +2785,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 1400,
   "frame": "",
   "shaft": "",
@@ -2760,6 +2827,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 890,
   "frame": "",
   "shaft": "",
@@ -2798,6 +2866,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2839,6 +2908,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -2880,6 +2950,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 4960,
   "frame": "",
   "shaft": "",
@@ -2922,6 +2993,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 1980,
   "frame": "",
   "shaft": "",
@@ -2964,6 +3036,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 1650,
   "frame": "",
   "shaft": "",
@@ -3003,6 +3076,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3042,6 +3116,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 1650,
   "frame": "",
   "shaft": "",
@@ -3084,6 +3159,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2020,
   "frame": "",
   "shaft": "Hi Modulus Graphite",
@@ -3125,6 +3201,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4960,
   "frame": "30T Japan HM Graphite + Aero Box Frame",
   "shaft": "DuraPro Carbon + Power Booster + Super Slim Shaft 5.5mm",
@@ -3164,6 +3241,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3203,6 +3281,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 2230,
   "frame": "Japan High Modulus Graphite + Aero Frame",
   "shaft": "Japan High Modulus Graphite + Super Slim Shaft 6.4mm",
@@ -3245,6 +3324,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3284,6 +3364,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 5500,
   "frame": "40T Japan Graphite + Aero Hex Frame",
   "shaft": "40T Japan Graphite (6.2mm Super Slim)",
@@ -3331,6 +3412,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 6750,
   "frame": "30T Japan HM Graphite + Speed Power Combined Frame",
   "shaft": "40T Japan HM Graphite + Super Slim Shaft + Hexagon Throat",
@@ -3373,6 +3455,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3411,6 +3494,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3450,6 +3534,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 2360,
   "frame": "24-Tonne Japan HM Graphite + Aero Frame",
   "shaft": "24-Tonne Japan HM Graphite + Super Slim Shaft 6.4mm",
@@ -3492,6 +3577,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 760,
   "frame": "",
   "shaft": "",
@@ -3537,6 +3623,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3573,6 +3660,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3609,6 +3697,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3648,6 +3737,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 2490,
   "frame": "30 Tonne Japan Graphite + High Speed + Inner Muscle",
   "shaft": "24 Tonne Japan Graphite + Slim Shaft",
@@ -3691,6 +3781,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3730,6 +3821,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 3710,
   "frame": "30 Tonne Japan Graphite + Woven 1K + Compact Aero Box",
   "shaft": "24 Tonne Japan Graphite + Woven 1K + Hexagon Throat",
@@ -3769,6 +3861,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3807,6 +3900,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3843,6 +3937,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3884,6 +3979,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -3923,6 +4019,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 810,
   "frame": "",
   "shaft": "",
@@ -3969,6 +4066,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 3040,
   "frame": "30 Tonne Japan Graphite + Woven 1K + Compact Aero Box",
   "shaft": "24 Tonne Japan Graphite + Extra slim shaft 6.6mm",
@@ -4011,6 +4109,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 1590,
   "frame": "Japan High Modulus Graphite",
   "shaft": "Japan High Modulus Graphite",
@@ -4062,6 +4161,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -4100,6 +4200,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -4136,6 +4237,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -4175,6 +4277,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 890,
   "frame": "",
   "shaft": "",
@@ -4225,6 +4328,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -4266,6 +4370,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 3280,
   "frame": "30T Japan HM Graphite + T-Throat + Compact Quad Voltaic",
   "shaft": "40T Japan HM Graphite + Ultra Slim Shaft 6.2mm",
@@ -4313,6 +4418,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 6350,
   "frame": "DuraMax Carbon + Power Fused Grommet System+ Compact Power Quad Voltaic",
   "shaft": "DuraPro Carbon + CCT + Ultra Slim Shaft 6.2mm",
@@ -4355,6 +4461,7 @@ window.RACKETS = [
    18,
    30
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "30T Carbon Fiber",
   "shaft": "",
@@ -4396,6 +4503,7 @@ window.RACKETS = [
    18,
    30
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "TOHO Carbon Fiber 24T+30T HI-Modulus Graphite",
   "shaft": "",
@@ -4437,6 +4545,7 @@ window.RACKETS = [
    18,
    35
   ],
+  "tensionNote": "",
   "price": 1310,
   "frame": "24T HI-Modulus Graphite",
   "shaft": "",
@@ -4480,6 +4589,7 @@ window.RACKETS = [
    18,
    32
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "24T HI-Modulus Graphite",
   "shaft": "",
@@ -4521,6 +4631,7 @@ window.RACKETS = [
    18,
    30
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "TOHO Carbon Fiber 30T HI-Modulus Graphite",
   "shaft": "",
@@ -4563,6 +4674,7 @@ window.RACKETS = [
    18,
    32
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "TORAY 30T HI-Modulus Graphite",
   "shaft": "",
@@ -4605,6 +4717,7 @@ window.RACKETS = [
    18,
    30
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "HI-Modulus Graphite",
   "shaft": "",
@@ -4647,6 +4760,7 @@ window.RACKETS = [
    28,
    30
   ],
+  "tensionNote": "",
   "price": 6960,
   "frame": "C60 Fullerene Carbon + 40T+30T HI-Modulus Graphite",
   "shaft": "",
@@ -4690,6 +4804,7 @@ window.RACKETS = [
    26,
    32
   ],
+  "tensionNote": "",
   "price": 7530,
   "frame": "C60 Fullerene Carbon + 40T HI-Modulus Graphite",
   "shaft": "",
@@ -4732,6 +4847,7 @@ window.RACKETS = [
    18,
    35
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "TORAY 46T+30T HI-Modulus Graphite",
   "shaft": "",
@@ -4774,6 +4890,7 @@ window.RACKETS = [
    18,
    32
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "TORAY 46T+40T HI-Modulus Graphite",
   "shaft": "",
@@ -4816,6 +4933,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 2567,
   "frame": "40T HI-Modulus Graphite",
   "shaft": "",
@@ -4857,6 +4975,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 1810,
   "frame": "24T HI-Modulus Graphite",
   "shaft": "",
@@ -4900,6 +5019,7 @@ window.RACKETS = [
    18,
    26
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "24T HI-Modulus Graphite",
   "shaft": "",
@@ -4942,6 +5062,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "TAIRYFIL Carbon Fiber 24T+30T HI-Modulus Graphite",
   "shaft": "",
@@ -4984,6 +5105,7 @@ window.RACKETS = [
    18,
    28
   ],
+  "tensionNote": "",
   "price": 2370,
   "frame": "TAIRYFIL Carbon Fiber + 24T HI-Modulus Graphite",
   "shaft": "",
@@ -5027,6 +5149,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 2032,
   "frame": "TORAY 30T+24T HI-Modulus Graphite",
   "shaft": "",
@@ -5069,6 +5192,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "TORAY 30T HI-Modulus Graphite",
   "shaft": "",
@@ -5111,6 +5235,7 @@ window.RACKETS = [
    18,
    32
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "TORAY 46T+40T HI-Modulus Graphite",
   "shaft": "",
@@ -5153,6 +5278,7 @@ window.RACKETS = [
    18,
    30
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "TORAY 40T+30T HI-Modulus Graphite + C60",
   "shaft": "",
@@ -5195,6 +5321,7 @@ window.RACKETS = [
    null,
    26
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "Mitsubishi Carbon + 30T+24T HI-Modulus Graphite",
   "shaft": "",
@@ -5237,6 +5364,7 @@ window.RACKETS = [
    18,
    32
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "TORAY 46T+40T HI-Modulus Graphite",
   "shaft": "",
@@ -5279,6 +5407,7 @@ window.RACKETS = [
    18,
    32
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "TORAY 40T+30T HI-Modulus Graphite + C60",
   "shaft": "",
@@ -5321,6 +5450,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4610,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -5368,6 +5498,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1680,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -5419,6 +5550,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1680,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -5470,6 +5602,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1680,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -5521,6 +5654,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2170,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -5572,6 +5706,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3573,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -5624,6 +5759,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2290,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -5679,6 +5815,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2290,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -5734,6 +5871,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2290,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -5789,6 +5927,7 @@ window.RACKETS = [
    24,
    30
   ],
+  "tensionNote": "",
   "price": 3510,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -5844,6 +5983,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3540,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -5895,6 +6035,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 4430,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -5943,6 +6084,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "Carbon Fibre",
   "shaft": "",
@@ -5982,6 +6124,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 8329,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -6042,6 +6185,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4770,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -6097,6 +6241,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4770,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -6152,6 +6297,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4770,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -6207,6 +6353,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2490,
   "frame": "Commercial Grade Carbon Fiber",
   "shaft": "Commercial Grade Carbon Fiber",
@@ -6265,6 +6412,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3050,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -6316,6 +6464,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3050,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -6367,6 +6516,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3050,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -6418,6 +6568,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3040,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -6469,6 +6620,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 3550,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -6519,6 +6671,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 3550,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -6570,6 +6723,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3550,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -6621,6 +6775,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3550,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -6665,6 +6820,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "Carbon Fibre",
   "shaft": "",
@@ -6704,6 +6860,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 3970,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -6759,6 +6916,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4110,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -6813,6 +6971,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4110,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -6868,6 +7027,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 3970,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -6923,6 +7083,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4970,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -6978,6 +7139,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4420,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -7033,6 +7195,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4970,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -7088,6 +7251,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 8295,
   "frame": "Carbon Fibre",
   "shaft": "Military Grade Carbon Fiber",
@@ -7152,6 +7316,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 8295,
   "frame": "Carbon Fibre",
   "shaft": "Military Grade Carbon Fiber",
@@ -7208,6 +7373,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 5110,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -7259,6 +7425,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4970,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -7314,6 +7481,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1170,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -7366,6 +7534,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4610,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -7413,6 +7582,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1030,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -7468,6 +7638,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 1976,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fiber",
@@ -7528,6 +7699,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 6990,
   "frame": "Carbon Fibre",
   "shaft": "M50 + T1100 + TB NANO + Super Carbon",
@@ -7600,6 +7772,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 8440,
   "frame": "Ultra High-Elastic Carbon + Damping Matrix",
   "shaft": "",
@@ -7650,6 +7823,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 8020,
   "frame": "",
   "shaft": "",
@@ -7698,6 +7872,7 @@ window.RACKETS = [
    null,
    26
   ],
+  "tensionNote": "",
   "price": 2601,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fiber",
@@ -7754,6 +7929,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 2982,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -7806,6 +7982,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 2350,
   "frame": "High Modulus Graphite",
   "shaft": "High Modulus Graphite",
@@ -7858,6 +8035,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 4024,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -7910,6 +8088,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 4614,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -7958,6 +8137,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 6593,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fiber",
@@ -8014,6 +8194,7 @@ window.RACKETS = [
    null,
    29
   ],
+  "tensionNote": "",
   "price": 7635,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -8058,6 +8239,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 5690,
   "frame": "Carbon Fibre",
   "shaft": "T1100G Carbon Graphite Military Grade",
@@ -8126,6 +8308,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": 8520,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -8177,6 +8360,7 @@ window.RACKETS = [
    null,
    27
   ],
+  "tensionNote": "",
   "price": 4337,
   "frame": "Carbon Fibre (Dynamic Optimum Frame)",
   "shaft": "Carbon Fibre",
@@ -8221,6 +8405,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 7730,
   "frame": "Carbon Fibre",
   "shaft": "",
@@ -8267,6 +8452,7 @@ window.RACKETS = [
    null,
    22
   ],
+  "tensionNote": "",
   "price": 1400,
   "frame": "",
   "shaft": "",
@@ -8309,6 +8495,7 @@ window.RACKETS = [
    null,
    29
   ],
+  "tensionNote": "",
   "price": 8677,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre M50",
@@ -8377,6 +8564,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 6290,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -8433,6 +8621,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 8677,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre M50",
@@ -8479,6 +8668,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "Carbon Fibre (Box Wing Frame)",
   "shaft": "",
@@ -8518,6 +8708,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 6290,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -8582,6 +8773,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 4666,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -8638,6 +8830,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 1770,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -8694,6 +8887,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": 2080,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fiber",
@@ -8758,6 +8952,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 2080,
   "frame": "Carbon Fibre",
   "shaft": "High-elastic carbon fibre",
@@ -8806,6 +9001,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 4337,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -8862,6 +9058,7 @@ window.RACKETS = [
    null,
    25
   ],
+  "tensionNote": "",
   "price": 1770,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -8910,6 +9107,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1590,
   "frame": "Carbon Fiber",
   "shaft": "Carbon Fiber",
@@ -8965,6 +9163,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2300,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -9012,6 +9211,7 @@ window.RACKETS = [
    null,
    26
   ],
+  "tensionNote": "",
   "price": 1520,
   "frame": "Carbon Fiber",
   "shaft": "Carbon Fiber",
@@ -9058,6 +9258,7 @@ window.RACKETS = [
    null,
    27
   ],
+  "tensionNote": "",
   "price": 2149,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -9110,6 +9311,7 @@ window.RACKETS = [
    null,
    29
   ],
+  "tensionNote": "",
   "price": 4718,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -9168,6 +9370,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 4390,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -9216,6 +9419,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 4823,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -9272,6 +9476,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": 4666,
   "frame": "Carbon Fibre",
   "shaft": "Military Grade Carbon Fiber",
@@ -9319,6 +9524,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 7190,
   "frame": "Carbon Fibre",
   "shaft": "Military Grade Carbon Fiber",
@@ -9383,6 +9589,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 7982,
   "frame": "M46X Carbon Fibre",
   "shaft": "ULTRA High Elastic Carbon Fiber + High-Density Shock Absorption Material",
@@ -9443,6 +9650,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 7982,
   "frame": "M46X Carbon Fibre",
   "shaft": "ULTRA High Elastic Carbon Fiber + High-Density Shock Absorption Material",
@@ -9503,6 +9711,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 7100,
   "frame": "M46X + ULTRA Carbon Fibre / T1100 Shaft",
   "shaft": "T1100 Carbon Fiber + High-Density Shock-Absorbing Material",
@@ -9557,6 +9766,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 9718,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -9613,6 +9823,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": 6590,
   "frame": "M46+High Resilient Carbon Fiber",
   "shaft": "M46+High Resilient Carbon Fiber",
@@ -9669,6 +9880,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": 7200,
   "frame": "Military Grade Carbon Fiber",
   "shaft": "Military Grade Carbon Fiber",
@@ -9720,6 +9932,7 @@ window.RACKETS = [
    null,
    29
   ],
+  "tensionNote": "",
   "price": 3121,
   "frame": "Carbon Fiber",
   "shaft": "Carbon Fiber",
@@ -9768,6 +9981,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 4684,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -9816,6 +10030,7 @@ window.RACKETS = [
    null,
    25
   ],
+  "tensionNote": "",
   "price": 2080,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -9868,6 +10083,7 @@ window.RACKETS = [
    null,
    27
   ],
+  "tensionNote": "",
   "price": 1400,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -9923,6 +10139,7 @@ window.RACKETS = [
    null,
    26
   ],
+  "tensionNote": "",
   "price": 2900,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -9978,6 +10195,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 1100,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -10025,6 +10243,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 810,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -10076,6 +10295,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1130,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -10128,6 +10348,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 1310,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -10179,6 +10400,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2477,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -10231,6 +10453,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2477,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -10283,6 +10506,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1698,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -10327,6 +10551,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 740,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -10378,6 +10603,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 650,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -10433,6 +10659,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 660,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -10488,6 +10715,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 990,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -10536,6 +10764,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 850,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -10583,6 +10812,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 850,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -10630,6 +10860,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 780,
   "frame": "High Carbon Graphite",
   "shaft": "High Carbon Graphite",
@@ -10678,6 +10909,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 780,
   "frame": "High Carbon Graphite",
   "shaft": "High Carbon Graphite",
@@ -10727,6 +10959,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 1880,
   "frame": "Carbon Graphite",
   "shaft": "Carbon Graphite",
@@ -10779,6 +11012,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 1880,
   "frame": "Carbon Graphite",
   "shaft": "Carbon Graphite",
@@ -10831,6 +11065,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 1880,
   "frame": "Carbon Graphite",
   "shaft": "Carbon Graphite",
@@ -10883,6 +11118,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 1670,
   "frame": "Carbon Graphite",
   "shaft": "Carbon Graphite",
@@ -10934,6 +11170,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 670,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -10985,6 +11222,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 1030,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -11032,6 +11270,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 780,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -11087,6 +11326,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 1310,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -11139,6 +11379,7 @@ window.RACKETS = [
    null,
    26
   ],
+  "tensionNote": "",
   "price": 1030,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -11190,6 +11431,7 @@ window.RACKETS = [
    null,
    26
   ],
+  "tensionNote": "",
   "price": 1030,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -11241,6 +11483,7 @@ window.RACKETS = [
    null,
    25
   ],
+  "tensionNote": "",
   "price": 1400,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -11300,6 +11543,7 @@ window.RACKETS = [
    null,
    26
   ],
+  "tensionNote": "",
   "price": 2531,
   "frame": "Carbon Fibre",
   "shaft": "",
@@ -11341,6 +11585,7 @@ window.RACKETS = [
    null,
    27
   ],
+  "tensionNote": "",
   "price": 2948,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -11393,6 +11638,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 4163,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -11441,6 +11687,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 5205,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -11489,6 +11736,7 @@ window.RACKETS = [
    null,
    29
   ],
+  "tensionNote": "",
   "price": 6246,
   "frame": "Carbon Fibre",
   "shaft": "Ultra High-Modulus Graphite",
@@ -11545,6 +11793,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 4990,
   "frame": "Carbon Fibre",
   "shaft": "ULTRA High Elasticity Carbon Fiber",
@@ -11605,6 +11854,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 6720,
   "frame": "Carbon Fibre (M46X + ULTRA)",
   "shaft": "ULTRA High-Elastic Carbon + High-Density Shock Absorption",
@@ -11651,6 +11901,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 7189,
   "frame": "Carbon Fibre",
   "shaft": "ULTRA High Elasticity Carbon Fiber + High-Density Shock Absorption Material",
@@ -11715,6 +11966,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": 6890,
   "frame": "T1100 Carbon Fibre + TB Nano",
   "shaft": ", T1100+ULTRA High Elastic Carbon Fiber + High Density Shock Absorption Material",
@@ -11779,6 +12031,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 9371,
   "frame": "Carbon Fibre",
   "shaft": "Ultra High Modulus Carbon Fiber + High-density Dampening Material + Polyimide Fiber",
@@ -11843,6 +12096,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2300,
   "frame": "",
   "shaft": "",
@@ -11895,6 +12149,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": 2670,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fiber",
@@ -11955,6 +12210,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 4337,
   "frame": "Carbon Fiber",
   "shaft": "Carbon Fibre",
@@ -12007,6 +12263,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1020,
   "frame": "Carbon Fiber",
   "shaft": "Carbon Fibre",
@@ -12066,6 +12323,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1100,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -12117,6 +12375,7 @@ window.RACKETS = [
    null,
    25
   ],
+  "tensionNote": "",
   "price": 500,
   "frame": "Aluminium",
   "shaft": "Aluminium",
@@ -12169,6 +12428,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 3900,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -12220,6 +12480,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4690,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -12271,6 +12532,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4440,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -12322,6 +12584,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 1890,
   "frame": "Full Carbon Graphite",
   "shaft": "Full Carbon Graphite",
@@ -12380,6 +12643,7 @@ window.RACKETS = [
    null,
    20
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "Aluminium",
   "shaft": "Aluminium",
@@ -12427,6 +12691,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 710,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -12478,6 +12743,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 710,
   "frame": "Military Grade Carbon Fiber",
   "shaft": "Military Grade Carbon Fiber",
@@ -12534,6 +12800,7 @@ window.RACKETS = [
    null,
    26
   ],
+  "tensionNote": "",
   "price": 1380,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -12592,6 +12859,7 @@ window.RACKETS = [
    null,
    26
   ],
+  "tensionNote": "",
   "price": 2184,
   "frame": "Carbon Fibre",
   "shaft": "Full High Carbon Fiber + High Tensile Soft Slim Shaft",
@@ -12648,6 +12916,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2870,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -12699,6 +12968,7 @@ window.RACKETS = [
    null,
    27
   ],
+  "tensionNote": "",
   "price": 2980,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -12755,6 +13025,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 6830,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -12810,6 +13081,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4440,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -12861,6 +13133,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4610,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -12908,6 +13181,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4610,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -12955,6 +13229,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 10402,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13007,6 +13282,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 670,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13062,6 +13338,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1630,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13113,6 +13390,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1630,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13164,6 +13442,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1630,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13215,6 +13494,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2120,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13266,6 +13546,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2120,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13317,6 +13598,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2120,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13368,6 +13650,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2120,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13419,6 +13702,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2120,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13470,6 +13754,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2800,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13521,6 +13806,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2800,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13572,6 +13858,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2800,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13623,6 +13910,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2800,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13674,6 +13962,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4020,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13729,6 +14018,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 3720,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13784,6 +14074,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4020,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13835,6 +14126,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 3400,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13890,6 +14182,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 3720,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13942,6 +14235,7 @@ window.RACKETS = [
   "weight": 87,
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": 8670,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -13989,6 +14283,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4020,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -14040,6 +14335,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 3900,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -14095,6 +14391,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4260,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -14146,6 +14443,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4260,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -14201,6 +14499,7 @@ window.RACKETS = [
    null,
    29
   ],
+  "tensionNote": "",
   "price": 3000,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -14257,6 +14556,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 4260,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -14308,6 +14608,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1670,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -14359,6 +14660,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1670,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -14410,6 +14712,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1670,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -14461,6 +14764,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1240,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -14512,6 +14816,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 1350,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -14563,6 +14868,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1240,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -14615,6 +14921,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 1350,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -14666,6 +14973,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1240,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -14717,6 +15025,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 1350,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -14768,6 +15077,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1420,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -14820,6 +15130,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2890,
   "frame": "Commercial Grade Carbon Fiber",
   "shaft": "Commercial Grade Carbon Fiber",
@@ -14876,6 +15187,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2480,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -14927,6 +15239,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2800,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -14975,6 +15288,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3590,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -15035,6 +15349,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 5211,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -15091,6 +15406,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 5309,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -15147,6 +15463,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3160,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -15209,6 +15526,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3270,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -15269,6 +15587,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3050,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -15320,6 +15639,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3370,
   "frame": "Military Grade Carbon Fiber",
   "shaft": "Military Grade Carbon Fiber",
@@ -15372,6 +15692,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2150,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -15427,6 +15748,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2290,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -15482,6 +15804,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2890,
   "frame": "Carbon Graphite",
   "shaft": "Carbon Graphite",
@@ -15538,6 +15861,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2890,
   "frame": "Carbon Graphite",
   "shaft": "Carbon Graphite",
@@ -15594,6 +15918,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1880,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -15645,6 +15970,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3190,
   "frame": "High Modulus Carbon Fiber",
   "shaft": "Slim Carbon Shaft",
@@ -15700,6 +16026,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2830,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -15755,6 +16082,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1950,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -15806,6 +16134,7 @@ window.RACKETS = [
    null,
    24
   ],
+  "tensionNote": "",
   "price": 500,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -15857,6 +16186,7 @@ window.RACKETS = [
    null,
    24
   ],
+  "tensionNote": "",
   "price": 500,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -15908,6 +16238,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3710,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -15963,6 +16294,7 @@ window.RACKETS = [
    22,
    28
   ],
+  "tensionNote": "",
   "price": 7210,
   "frame": "High Modulus Graphite, POLYMER VA, CARBON 4T",
   "shaft": "",
@@ -16011,6 +16343,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 7210,
   "frame": "High-modulus graphite, graphite, VA polymer, 4T carbon",
   "shaft": "",
@@ -16054,6 +16387,7 @@ window.RACKETS = [
    15,
    22
   ],
+  "tensionNote": "",
   "price": 3600,
   "frame": "Graphite",
   "shaft": "",
@@ -16097,6 +16431,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 4760,
   "frame": "Japan HMG T46",
   "shaft": "",
@@ -16146,6 +16481,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 2030,
   "frame": "Japan HM Graphite",
   "shaft": "",
@@ -16190,6 +16526,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 6930,
   "frame": "",
   "shaft": "",
@@ -16233,6 +16570,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 6950,
   "frame": "Japan HMG T46",
   "shaft": "Japan HMG T46",
@@ -16280,6 +16618,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 4160,
   "frame": "High modulus graphite, graphite",
   "shaft": "High Modulus Graphite + Graphite",
@@ -16324,6 +16663,7 @@ window.RACKETS = [
    null,
    27
   ],
+  "tensionNote": "",
   "price": 3600,
   "frame": "High modulus graphite, graphite",
   "shaft": "High Modulus Graphite + Graphite",
@@ -16368,6 +16708,7 @@ window.RACKETS = [
    22,
    28
   ],
+  "tensionNote": "",
   "price": 6360,
   "frame": "High Modulus Graphite, 4T CARBON",
   "shaft": "4T CARBON, High Modulus Graphite, Graphite",
@@ -16415,6 +16756,7 @@ window.RACKETS = [
    22,
    28
   ],
+  "tensionNote": "",
   "price": 6360,
   "frame": "High modulus graphite, graphite, 4T carbon, VA polymer",
   "shaft": "VA POLYMER, 4T CARBON, High Modulus Graphite, Graphite",
@@ -16462,6 +16804,7 @@ window.RACKETS = [
    22,
    28
   ],
+  "tensionNote": "",
   "price": 6360,
   "frame": "High Modulus Graphite, polymer VA",
   "shaft": "VA POLYMER, High Modulus Graphite, Graphite",
@@ -16509,6 +16852,7 @@ window.RACKETS = [
    21,
    27
   ],
+  "tensionNote": "",
   "price": 5880,
   "frame": "High modulus graphite, graphite",
   "shaft": "",
@@ -16551,6 +16895,7 @@ window.RACKETS = [
    21,
    27
   ],
+  "tensionNote": "",
   "price": 5410,
   "frame": "High Modulus Graphite, 4T CARBON",
   "shaft": "",
@@ -16592,6 +16937,7 @@ window.RACKETS = [
    18,
    25
   ],
+  "tensionNote": "",
   "price": 4940,
   "frame": "High modulus graphite",
   "shaft": "",
@@ -16634,6 +16980,7 @@ window.RACKETS = [
    19,
    25
   ],
+  "tensionNote": "",
   "price": 4000,
   "frame": "High modulus graphite, graphite",
   "shaft": "",
@@ -16676,6 +17023,7 @@ window.RACKETS = [
    18,
    25
   ],
+  "tensionNote": "",
   "price": 3060,
   "frame": "High modulus graphite, graphite",
   "shaft": "",
@@ -16717,6 +17065,7 @@ window.RACKETS = [
    null,
    27
   ],
+  "tensionNote": "",
   "price": 6930,
   "frame": "VA POLYMER, High Modulus Graphite, Graphite",
   "shaft": "",
@@ -16760,6 +17109,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2420,
   "frame": "Japanese Ultra Carbon",
   "shaft": "Japanese Ultra Carbon",
@@ -16809,6 +17159,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2750,
   "frame": "Ultra Carbon Nhật Bản",
   "shaft": "",
@@ -16858,6 +17209,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3470,
   "frame": "Ultra Carbon Nhật Bản",
   "shaft": "",
@@ -16907,6 +17259,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1360,
   "frame": "Japan Graphite HM",
   "shaft": "",
@@ -16951,6 +17304,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2400,
   "frame": "Japanese Ultra Carbon",
   "shaft": "Japanese Ultra Carbon",
@@ -16999,6 +17353,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 1600,
   "frame": "Japan HM Graphite",
   "shaft": "Japan HM Graphite",
@@ -17050,6 +17405,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 4010,
   "frame": "Nhật Bản HMG T46",
   "shaft": "",
@@ -17102,6 +17458,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 4320,
   "frame": "Japan HMG T46",
   "shaft": "",
@@ -17146,6 +17503,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3340,
   "frame": "Japan HMG T40",
   "shaft": "",
@@ -17190,6 +17548,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 6950,
   "frame": "High Modulus Graphite + Graphite",
   "shaft": "High Modulus Graphite + Graphite",
@@ -17242,6 +17601,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2400,
   "frame": "High Modulus Graphite",
   "shaft": "High Modulus Graphite",
@@ -17290,6 +17650,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3660,
   "frame": "Nhật Bản HMG T46",
   "shaft": "",
@@ -17334,6 +17695,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 930,
   "frame": "Japan HM Graphite",
   "shaft": "Japan HM Graphite",
@@ -17383,6 +17745,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3010,
   "frame": "Japan HMG T40",
   "shaft": "",
@@ -17432,6 +17795,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3990,
   "frame": "",
   "shaft": "",
@@ -17475,6 +17839,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 950,
   "frame": "Japan Graphite HM",
   "shaft": "",
@@ -17517,6 +17882,7 @@ window.RACKETS = [
    null,
    33
   ],
+  "tensionNote": "",
   "price": 2750,
   "frame": "Ultra Carbon Nhật Bản",
   "shaft": "",
@@ -17566,6 +17932,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 4230,
   "frame": "Japan HMG T46",
   "shaft": "Japan HMG T46",
@@ -17615,6 +17982,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3440,
   "frame": "Japan HMG T40",
   "shaft": "Japan HMG T40",
@@ -17664,6 +18032,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 4190,
   "frame": "Japan HMG T40",
   "shaft": "",
@@ -17713,6 +18082,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3600,
   "frame": "Nhật Bản HMG T46",
   "shaft": "",
@@ -17762,6 +18132,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2750,
   "frame": "Ultra Carbon Nhật Bản",
   "shaft": "",
@@ -17810,6 +18181,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 1640,
   "frame": "Japan HM Graphite",
   "shaft": "",
@@ -17854,6 +18226,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1960,
   "frame": "Japan HHMG T40",
   "shaft": "",
@@ -17897,6 +18270,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2800,
   "frame": "Japan HHMG T40",
   "shaft": "",
@@ -17946,6 +18320,7 @@ window.RACKETS = [
    26,
    38
   ],
+  "tensionNote": "",
   "price": 7090,
   "frame": "40T Japanese Toray HM Graphite + M46J HYPERCARBON",
   "shaft": "",
@@ -17988,6 +18363,7 @@ window.RACKETS = [
    26,
    30
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "30T Japanese Toray HM Graphite + NERC Technology",
   "shaft": "",
@@ -18029,6 +18405,7 @@ window.RACKETS = [
    26,
    30
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "30T Japanese Toray HM Graphite",
   "shaft": "",
@@ -18071,6 +18448,7 @@ window.RACKETS = [
    24,
    28
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "24T Japanese Toray HM Graphite",
   "shaft": "",
@@ -18112,6 +18490,7 @@ window.RACKETS = [
    24,
    28
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "24T Japanese Toray HM Graphite",
   "shaft": "",
@@ -18153,6 +18532,7 @@ window.RACKETS = [
    24,
    28
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "24T Japanese Toray HM Graphite",
   "shaft": "",
@@ -18194,6 +18574,7 @@ window.RACKETS = [
    24,
    28
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "30T Japanese Toray HM Graphite",
   "shaft": "",
@@ -18236,6 +18617,7 @@ window.RACKETS = [
    26,
    30
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "30T Japanese Toray HM Graphite",
   "shaft": "",
@@ -18278,6 +18660,7 @@ window.RACKETS = [
    24,
    28
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "24T Japanese Toray HM Graphite",
   "shaft": "",
@@ -18320,6 +18703,7 @@ window.RACKETS = [
    null,
    36
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "Graphite",
   "shaft": "",
@@ -18361,6 +18745,7 @@ window.RACKETS = [
    null,
    36
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "Graphite",
   "shaft": "",
@@ -18402,6 +18787,7 @@ window.RACKETS = [
    null,
    36
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "Graphite",
   "shaft": "",
@@ -18443,6 +18829,7 @@ window.RACKETS = [
    null,
    36
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "Graphite (เฟรมตัดอากาศ)",
   "shaft": "",
@@ -18484,6 +18871,7 @@ window.RACKETS = [
    null,
    36
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "Japan Graphite 100%",
   "shaft": "",
@@ -18526,6 +18914,7 @@ window.RACKETS = [
    null,
    36
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "Japan Graphite",
   "shaft": "",
@@ -18565,6 +18954,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -18604,6 +18994,7 @@ window.RACKETS = [
    null,
    36
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "Graphite Steel",
   "shaft": "",
@@ -18646,6 +19037,7 @@ window.RACKETS = [
    22,
    35
   ],
+  "tensionNote": "",
   "price": 1590,
   "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "Japan High Modulus Graphite",
@@ -18696,6 +19088,7 @@ window.RACKETS = [
    22,
    30
   ],
+  "tensionNote": "",
   "price": 1990,
   "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "30T MITSUBISHI CARBON SHEET",
@@ -18746,6 +19139,7 @@ window.RACKETS = [
    22,
    30
   ],
+  "tensionNote": "",
   "price": 1150,
   "frame": "",
   "shaft": "",
@@ -18792,6 +19186,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1190,
   "frame": "Japan High Modulus Graphite",
   "shaft": "Japan High Modulus Graphite",
@@ -18839,6 +19234,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1190,
   "frame": "Japan High Modulus Graphite",
   "shaft": "Japan High Modulus Graphite",
@@ -18887,6 +19283,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1190,
   "frame": "Japan High Modulus Graphite",
   "shaft": "Japan High Modulus Graphite",
@@ -18934,6 +19331,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1190,
   "frame": "Japan High Modulus Graphite",
   "shaft": "Japan High Modulus Graphite",
@@ -18981,6 +19379,7 @@ window.RACKETS = [
    22,
    35
   ],
+  "tensionNote": "",
   "price": 1190,
   "frame": "MITSUBISHI CARBON SHEET",
   "shaft": "Japan High Modulus Graphite",
@@ -19031,6 +19430,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1290,
   "frame": "30T Mitsubushi Carbon Sheet",
   "shaft": "30T Mitsubushi Carbon Sheet",
@@ -19082,6 +19482,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1290,
   "frame": "30T Mitsubushi Carbon Sheet",
   "shaft": "30T Mitsubushi Carbon Sheet",
@@ -19129,6 +19530,7 @@ window.RACKETS = [
    22,
    30
   ],
+  "tensionNote": "",
   "price": 1290,
   "frame": "30T Mitsubushi Carbon Sheet",
   "shaft": "30T Mitsubushi Carbon Sheet",
@@ -19176,6 +19578,7 @@ window.RACKETS = [
    22,
    30
   ],
+  "tensionNote": "",
   "price": 1150,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "30T Mitsubishi Carbon Sheet",
@@ -19222,6 +19625,7 @@ window.RACKETS = [
    22,
    30
   ],
+  "tensionNote": "",
   "price": 1990,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "30T MITSUBISHI CARBON SHEET",
@@ -19272,6 +19676,7 @@ window.RACKETS = [
    24,
    32
   ],
+  "tensionNote": "",
   "price": 2190,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "30T MITSUBISHI CARBON SHEET",
@@ -19322,6 +19727,7 @@ window.RACKETS = [
    24,
    32
   ],
+  "tensionNote": "",
   "price": 2190,
   "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "30T MITSUBISHI CARBON SHEET",
@@ -19372,6 +19778,7 @@ window.RACKETS = [
    24,
    35
   ],
+  "tensionNote": "",
   "price": 4490,
   "frame": "46T MITSUBISHI CARBON SHEET",
   "shaft": "Japan High Modulus Graphite 40T 6.0mm (Mitsubishi)",
@@ -19422,6 +19829,7 @@ window.RACKETS = [
    24,
    35
   ],
+  "tensionNote": "",
   "price": 4490,
   "frame": "46T MITSUBISHI CARBON SHEET",
   "shaft": "46T Mitsubishi Carbon Sheet",
@@ -19472,6 +19880,7 @@ window.RACKETS = [
    24,
    35
   ],
+  "tensionNote": "",
   "price": 2590,
   "frame": "30T Mitsibishi Carbon Sheet",
   "shaft": "30T Mitsibishi Carbon Sheet",
@@ -19523,6 +19932,7 @@ window.RACKETS = [
    24,
    36
   ],
+  "tensionNote": "",
   "price": 1990,
   "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "30T MITSUBISHI CARBON SHEET",
@@ -19577,6 +19987,7 @@ window.RACKETS = [
    22,
    32
   ],
+  "tensionNote": "",
   "price": 2990,
   "frame": "40T HIGH MITSUBISHI CARBON SHEET",
   "shaft": "40T HIGH MITSUBISHI CARBON SHEET",
@@ -19627,6 +20038,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 2720,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "30T Mitsubishi Carbon Sheet",
@@ -19673,6 +20085,7 @@ window.RACKETS = [
    24,
    30
   ],
+  "tensionNote": "",
   "price": 1590,
   "frame": "24T MITSUBISHI CARBON SHEET",
   "shaft": "24T MITSUBISHI CARBON SHEET",
@@ -19724,6 +20137,7 @@ window.RACKETS = [
    22,
    30
   ],
+  "tensionNote": "",
   "price": 2190,
   "frame": "30T Hot-Melt Mitsubishi Carbon Sheet",
   "shaft": "30T MITSUBISHI CARBON SHEET",
@@ -19774,6 +20188,7 @@ window.RACKETS = [
    24,
    28
   ],
+  "tensionNote": "",
   "price": 2390,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "High Number Carbon Fiber+6.5mm Super Slim Shaft",
@@ -19824,6 +20239,7 @@ window.RACKETS = [
    24,
    32
   ],
+  "tensionNote": "",
   "price": 1590,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "30T Mitsubishi Carbon Sheet",
@@ -19870,6 +20286,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 5390,
   "frame": "46T Mitsubishi Carbon Sheet",
   "shaft": "46T Mitsubishi Carbon Sheet",
@@ -19920,6 +20337,7 @@ window.RACKETS = [
    24,
    30
   ],
+  "tensionNote": "",
   "price": 2510,
   "frame": "40T Mitsubishi Carbon Sheet",
   "shaft": "40T Mitsubishi Carbon Sheet",
@@ -19966,6 +20384,7 @@ window.RACKETS = [
    22,
    28
   ],
+  "tensionNote": "",
   "price": 2590,
   "frame": "30T Japan High Modulus Graphite （Mitsubishi）",
   "shaft": "30T Japan High Modulus Graphite (Mitsubishi)",
@@ -20017,6 +20436,7 @@ window.RACKETS = [
    22,
    28
   ],
+  "tensionNote": "",
   "price": 2590,
   "frame": "30T Japan High Modulus Graphite （Mitsubishi）",
   "shaft": "30T Japan High Modulus Graphite (Mitsubishi)",
@@ -20068,6 +20488,7 @@ window.RACKETS = [
    24,
    30
   ],
+  "tensionNote": "",
   "price": 2990,
   "frame": "Japan High Modulus Graphite （Mitsubishi）",
   "shaft": "Japan High Modulus Graphite (Mitsubishi)",
@@ -20119,6 +20540,7 @@ window.RACKETS = [
    24,
    30
   ],
+  "tensionNote": "",
   "price": 3790,
   "frame": "40T Mitsubishi Carbon Sheet + Torayca M40",
   "shaft": "TORAYCA M40 CARBON + 40T MITSUBISHI CARBON SHEET",
@@ -20169,6 +20591,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 2190,
   "frame": "Japan High Modulus Graphite",
   "shaft": "Japan High Modulus Graphite",
@@ -20220,6 +20643,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2990,
   "frame": "Japan High Modulus Graphite Mitsubishi",
   "shaft": "Japan High Modulus Graphite Mitsubishi",
@@ -20271,6 +20695,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 2990,
   "frame": "Japan High Modulus Graphite 30T",
   "shaft": "Japan High Modulus Graphite 40T",
@@ -20322,6 +20747,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1355,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "30T Mitsubishi Carbon Sheet",
@@ -20369,6 +20795,7 @@ window.RACKETS = [
    22,
    30
   ],
+  "tensionNote": "",
   "price": 2390,
   "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "30T MITSUBISHI CARBON SHEET",
@@ -20419,6 +20846,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1190,
   "frame": "24T Mitsubishi Carbon Sheet",
   "shaft": "24T Mitsubishi Carbon Sheet",
@@ -20465,6 +20893,7 @@ window.RACKETS = [
    22,
    32
   ],
+  "tensionNote": "",
   "price": 1990,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "30T Mitsubishi Carbon Sheet",
@@ -20515,6 +20944,7 @@ window.RACKETS = [
    22,
    30
   ],
+  "tensionNote": "",
   "price": 2190,
   "frame": "30T Mitsubushi Carbon Sheet",
   "shaft": "Composite Rasin + Mitsubishi Carbon",
@@ -20565,6 +20995,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 2590,
   "frame": "Japan High Modulus Graphite 30T",
   "shaft": "Japan High Modulus Graphite 40T 6.8mm",
@@ -20616,6 +21047,7 @@ window.RACKETS = [
    null,
    38
   ],
+  "tensionNote": "",
   "price": 2990,
   "frame": "Japan High Modulus Graphite 30T",
   "shaft": "Japan High Modulus Graphite 40T 6.8mm",
@@ -20663,6 +21095,7 @@ window.RACKETS = [
    22,
    30
   ],
+  "tensionNote": "",
   "price": 1290,
   "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "30T MITSUBISHI CARBON SHEET",
@@ -20713,6 +21146,7 @@ window.RACKETS = [
    22,
    30
   ],
+  "tensionNote": "",
   "price": 1990,
   "frame": "MITSUBISHI CARBON SHEET",
   "shaft": "Japan High Modulus Graphite",
@@ -20767,6 +21201,7 @@ window.RACKETS = [
    24,
    30
   ],
+  "tensionNote": "",
   "price": 3990,
   "frame": "40T Mitsubushi Carbon Sheet",
   "shaft": "Mucell + Mitsubishi Carbon Sheet",
@@ -20817,6 +21252,7 @@ window.RACKETS = [
    24,
    30
   ],
+  "tensionNote": "",
   "price": 4190,
   "frame": "40T Mitsubushi Carbon Sheet",
   "shaft": "40T Mitsubushi Carbon Sheet",
@@ -20863,6 +21299,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 3990,
   "frame": "40T Mitsubishi Carbon Sheet",
   "shaft": "40T Mitsubishi Carbon Sheet",
@@ -20914,6 +21351,7 @@ window.RACKETS = [
    24,
    30
   ],
+  "tensionNote": "",
   "price": 4190,
   "frame": "40T Mitsubishi Carbon Sheet",
   "shaft": "40T Mitsubishi Carbon Sheet",
@@ -20960,6 +21398,7 @@ window.RACKETS = [
    24,
    30
   ],
+  "tensionNote": "",
   "price": 4190,
   "frame": "40T Mitsubishi Carbon Sheet",
   "shaft": "40T Mitsubishi Carbon Sheet",
@@ -21006,6 +21445,7 @@ window.RACKETS = [
    26,
    38
   ],
+  "tensionNote": "",
   "price": 5250,
   "frame": "46T Mitsubishi Carbon Sheet",
   "shaft": "46T Mitsubishi Carbon Sheet",
@@ -21056,6 +21496,7 @@ window.RACKETS = [
    26,
    38
   ],
+  "tensionNote": "",
   "price": 5390,
   "frame": "46T Mitsubishi Carbon Sheet + Torayca M40X",
   "shaft": "46T Mitsubishi Carbon Sheet + Torayca M40X",
@@ -21106,6 +21547,7 @@ window.RACKETS = [
    22,
    30
   ],
+  "tensionNote": "",
   "price": 1150,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "30T Mitsubishi Carbon Sheet",
@@ -21152,6 +21594,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 1990,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "30T MITSUBISHI CARBON SHEET",
@@ -21202,6 +21645,7 @@ window.RACKETS = [
    22,
    28
   ],
+  "tensionNote": "",
   "price": 1390,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "30T Mitsubishi Carbon Sheet",
@@ -21248,6 +21692,7 @@ window.RACKETS = [
    24,
    32
   ],
+  "tensionNote": "",
   "price": 2590,
   "frame": "30T Mitsubishi Carbon Sheet เฟรม 30T ก้าน 40T (Mitsubishi）",
   "shaft": "Japan High Modulus Graphite 40T 6.6mm (Mitsubishi)",
@@ -21298,6 +21743,7 @@ window.RACKETS = [
    22,
    31
   ],
+  "tensionNote": "",
   "price": 1390,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "30T Mitsubishi Carbon Sheet",
@@ -21348,6 +21794,7 @@ window.RACKETS = [
    24,
    28
   ],
+  "tensionNote": "",
   "price": 2590,
   "frame": "40T MITSUBISHI CARBON SHEET / TRIPLE MITSUBISHI CARBON SHEET",
   "shaft": "40T MITSUBISHI CARBON SHEET / TRIPLE MITSUBISHI CARBON SHEET",
@@ -21395,6 +21842,7 @@ window.RACKETS = [
    22,
    30
   ],
+  "tensionNote": "",
   "price": 2590,
   "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "30T Mitsubishi Carbon Sheet",
@@ -21445,6 +21893,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 3490,
   "frame": "TRIPLE MITSUBISHI CARBON SHEET",
   "shaft": "TRIPLE MITSUBISHI CARBON SHEET",
@@ -21492,6 +21941,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1590,
   "frame": "30T Japan High Modulus Graphite",
   "shaft": "30T Japan High Modulus Graphite",
@@ -21539,6 +21989,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2300,
   "frame": "Japan High Modulus Graphite (Mitsubishi)",
   "shaft": "Japan High Modulus Graphite (Mitsubishi)",
@@ -21593,6 +22044,7 @@ window.RACKETS = [
    24,
    30
   ],
+  "tensionNote": "",
   "price": 1190,
   "frame": "MITSUBISHI CARBON SHEET",
   "shaft": "Japan High Modulus Graphite",
@@ -21643,6 +22095,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "30TMitsubishi Carbon Sheet",
   "shaft": "",
@@ -21684,6 +22137,7 @@ window.RACKETS = [
    22,
    35
   ],
+  "tensionNote": "",
   "price": 1390,
   "frame": "MITSUBISHI CARBON SHEET",
   "shaft": "MITSUBISHI CARBON SHEET",
@@ -21732,6 +22186,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 1290,
   "frame": "MITSUBISHI CARBON SHEET",
   "shaft": "MITSUBISHI CARBON SHEET",
@@ -21779,6 +22234,7 @@ window.RACKETS = [
    24,
    35
   ],
+  "tensionNote": "",
   "price": 1390,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "30T Mitsubishi Carbon Sheet",
@@ -21829,6 +22285,7 @@ window.RACKETS = [
    22,
    35
   ],
+  "tensionNote": "",
   "price": 1390,
   "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "30T MITSUBISHI  CARBON SHEET",
@@ -21875,6 +22332,7 @@ window.RACKETS = [
    22,
    35
   ],
+  "tensionNote": "",
   "price": 1390,
   "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "30T MITSUBISHI  CARBON SHEET",
@@ -21922,6 +22380,7 @@ window.RACKETS = [
    22,
    35
   ],
+  "tensionNote": "",
   "price": 1390,
   "frame": "30T MITSUBISHI CARBON SHEET",
   "shaft": "30T MITSUBISHI  CARBON SHEET",
@@ -21968,6 +22427,7 @@ window.RACKETS = [
    22,
    30
   ],
+  "tensionNote": "",
   "price": 1090,
   "frame": "24T MITSUBISHI CARBON SHEET",
   "shaft": "24T MITSUBISHI CARBON SHEET",
@@ -22019,6 +22479,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1590,
   "frame": "24T MITSUBISHI CARBON SHEET",
   "shaft": "24T MITSUBISHI CARBON SHEET",
@@ -22070,6 +22531,7 @@ window.RACKETS = [
    24,
    30
   ],
+  "tensionNote": "",
   "price": 3490,
   "frame": "40T Japan High Modulus Graphite（Mitsubishi）",
   "shaft": "40T Japan High Modulus Graphite?Mitsubishi",
@@ -22121,6 +22583,7 @@ window.RACKETS = [
    22,
    30
   ],
+  "tensionNote": "",
   "price": 990,
   "frame": "Japan High Modulus Graphite",
   "shaft": "Japan High Modulus Graphite",
@@ -22171,6 +22634,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 2190,
   "frame": "Japan High Modulus Graphite",
   "shaft": "Japan High Modulus Graphite",
@@ -22218,6 +22682,7 @@ window.RACKETS = [
    24,
    28
   ],
+  "tensionNote": "",
   "price": 2190,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "Composite Resin + Mitsubishi Carbon",
@@ -22268,6 +22733,7 @@ window.RACKETS = [
    22,
    28
   ],
+  "tensionNote": "",
   "price": 1690,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "30T Mitsubishi Carbon Sheet",
@@ -22312,6 +22778,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 1590,
   "frame": "30T Japan High Modulus Graphite",
   "shaft": "30T Japan High Modulus Graphite",
@@ -22363,6 +22830,7 @@ window.RACKETS = [
    24,
    30
   ],
+  "tensionNote": "",
   "price": 2090,
   "frame": "30T Mitsubishi Carbon Sheet",
   "shaft": "30T Mitsubishi Carbon Sheet",
@@ -22409,6 +22877,7 @@ window.RACKETS = [
    24,
    36
   ],
+  "tensionNote": "",
   "price": 2990,
   "frame": "40T Mitsubishi Carbon Sheet",
   "shaft": "Japan High Modulus Graphite 40T 6.6mm (Mitsubishi)",
@@ -22459,6 +22928,7 @@ window.RACKETS = [
    24,
    36
   ],
+  "tensionNote": "",
   "price": 2490,
   "frame": "40T Mitsubishi Carbon Sheet(เฟรม:40T/ก้าน:46T)",
   "shaft": "： 40T Mitsubishi Carbon Sheet(เฟรม:40T/ก้าน:46T)",
@@ -22505,6 +22975,7 @@ window.RACKETS = [
    18,
    24
   ],
+  "tensionNote": "",
   "price": 730,
   "frame": "Aluminium Carbon",
   "shaft": "Aluminium Carbon",
@@ -22551,6 +23022,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 4330,
   "frame": "High Resilient Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilient Modulus Graphite + 6.8 SHAFT",
@@ -22602,6 +23074,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "High Resilience Modulus Graphite+NANO FORTIFY FR",
   "shaft": "High Resilience Modulus Graphite+NANO FORTIFY FR+6.8 SHAFT",
@@ -22650,6 +23123,7 @@ window.RACKETS = [
    null,
    24
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 24, 4U ≤ 23 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 1120,
   "frame": "Graphite+Resin",
   "shaft": "Graphite+Resin+6.8 SHAFT",
@@ -22704,6 +23178,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 5390,
   "frame": "High Resilient Modulus Graphite + Nano Fortify TR+",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.8 SHAFT",
@@ -22774,6 +23249,7 @@ window.RACKETS = [
    null,
    27
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 28, 3U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2990,
   "frame": "High ResilienceModulus Graphite+Nano Fortify TR＋",
   "shaft": "High ResilienceModulus Graphite+PYROFIL+6.8 SHAFT",
@@ -22828,6 +23304,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 31, 4U ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 5990,
   "frame": "High Resilience Modulus Graphite+Nano Fortify TR＋+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+Metallic Carbon Fiber+PYROFIL+5.8 SHAFT",
@@ -22904,6 +23381,7 @@ window.RACKETS = [
    null,
    20
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "Aluminum",
   "shaft": "Steel",
@@ -22952,6 +23430,7 @@ window.RACKETS = [
    null,
    20
   ],
+  "tensionNote": "",
   "price": 1999,
   "frame": "Aluminum",
   "shaft": "Graphite+ Resin",
@@ -22999,6 +23478,7 @@ window.RACKETS = [
    null,
    20
   ],
+  "tensionNote": "",
   "price": 750,
   "frame": "Aluminum",
   "shaft": "Graphite+ Resin",
@@ -23046,6 +23526,7 @@ window.RACKETS = [
    null,
    18
   ],
+  "tensionNote": "",
   "price": 430,
   "frame": "Aluminum",
   "shaft": "Steel",
@@ -23096,6 +23577,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 31, ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2190,
   "frame": "Graphite + Nano Resin + Fiber Reinforced System",
   "shaft": "High Resilience Graphite + Nano Resin + 6.6 SHAFT",
@@ -23142,6 +23624,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 1400,
   "frame": "Graphite+Nano Resin+ Fiber Reinforced System(FRS)",
   "shaft": "Graphite+ Nano Resin +6.8 SHAFT",
@@ -23200,6 +23683,7 @@ window.RACKETS = [
    null,
    26
   ],
+  "tensionNote": "",
   "price": 1390,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 6.8 SHAFT",
@@ -23249,6 +23733,7 @@ window.RACKETS = [
    null,
    25
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 27, ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 1380,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.0 SHAFT",
@@ -23297,6 +23782,7 @@ window.RACKETS = [
    null,
    26
   ],
+  "tensionNote": "",
   "price": 1090,
   "frame": "Graphite+Resin",
   "shaft": "Graphite+Resin+7.0 SHAFT",
@@ -23344,6 +23830,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 32, ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2690,
   "frame": "High Resilience Graphite + HARD CORED TECHNOLOGY + Nano Resin + Fiber Reinforced System",
   "shaft": "High Resilience Graphite + Nano Resin + 6.8 SHAFT",
@@ -23402,6 +23889,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 28, 4U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "High Modulus Graphite+ Nano Resin+ HARD CORED TECHNOLOGY",
   "shaft": "High Modulus Graphite+ Nano Resin +6.8 SHAFT",
@@ -23451,6 +23939,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 28, ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 3800,
   "frame": "Graphite+Nano Resin+HARD CORED TECHNOLOGY",
   "shaft": "Graphite+Nano Resin+6.8 SHAFT",
@@ -23497,6 +23986,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 5U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 1390,
   "frame": "Graphite +Resin",
   "shaft": "Graphite +Resin +7.0 SHAFT",
@@ -23541,6 +24031,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 5U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 1390,
   "frame": "Graphite +Resin",
   "shaft": "Graphite +Resin +7.0 SHAFT",
@@ -23585,6 +24076,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + 6.8 SHAFT",
@@ -23631,6 +24123,7 @@ window.RACKETS = [
   "weight": 90,
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": 3990,
   "frame": "",
   "shaft": "",
@@ -23672,6 +24165,7 @@ window.RACKETS = [
    null,
    29
   ],
+  "tensionNote": "",
   "price": 5200,
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + 6.8 SHAFT",
@@ -23726,6 +24220,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 5U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 1790,
   "frame": "High Resilience Graphite + Nano Resin",
   "shaft": "High Resilience Graphite + Nano Resin + 7.0 SHAFT",
@@ -23780,6 +24275,7 @@ window.RACKETS = [
    null,
    24
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 26, ≤ 24 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 1390,
   "frame": "Graphite+ Resin",
   "shaft": "Graphite+ Resin+6.8 SHAFT",
@@ -23836,6 +24332,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 5U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 1990,
   "frame": "High Resilience Modulus Graphite + Nano Resin",
   "shaft": "High Resilience Modulus Graphite + Nano Resin + 7.0 SHAFT",
@@ -23886,6 +24383,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 28, ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 4890,
   "frame": "High Resilience Modulus Graphite+Nano Fortify TR＋",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
@@ -23941,6 +24439,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 28, ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2983,
   "frame": "High Resilience Graphite+Nano Resin",
   "shaft": "High Resilience Graphite+PYROFIL+6.8 SHAFT",
@@ -23993,6 +24492,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 6590,
   "frame": "High Resilience Modulus Graphite+Nano Fortify TR＋+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
@@ -24046,6 +24546,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 4900,
   "frame": "High Resilience Modulus Graphite+Nano Fortify TR＋+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
@@ -24106,6 +24607,7 @@ window.RACKETS = [
    null,
    27
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 28, 3U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2200,
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR + Hard Cored Technology",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
@@ -24161,6 +24663,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 31, 3U ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 5590,
   "frame": "High Resilience Modulus Graphite+Metallic Carbon Fiber+Nano Fortify TR+",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
@@ -24225,6 +24728,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 6080,
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR＋+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.8 SHAFT",
@@ -24278,6 +24782,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": 6020,
   "frame": "High Resilience Modulus Graphite+Metallic Carbon Fiber+NANO AEROGEL+Nano Fortify TR++HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+Metallic Carbon Fiber+PYROFIL+6.8 SHAFT",
@@ -24347,6 +24852,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2990,
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR+",
   "shaft": "",
@@ -24390,6 +24896,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 29, ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 4240,
   "frame": "High Resilience Modulus Graphite + NanoResin",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.8 SHAFT",
@@ -24444,6 +24951,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 28, ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 3915,
   "frame": "High ResilienceGraphite+Nano Fortify SR+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Graphite+PYROFIL+6.8 SHAFT",
@@ -24490,6 +24998,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 32, ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2100,
   "frame": "Graphite + Nano Resin + Fiber Reinforced System",
   "shaft": "Graphite + Nano Resin + 6.8 SHAFT",
@@ -24540,6 +25049,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 3U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 5390,
   "frame": "High ResilienceModulus Graphite+NANO AEROGEL+PBO High Performance Fiber+HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite+PBO High Performance Fiber+PYROFIL+6.8 SHAFT",
@@ -24623,6 +25133,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 5590,
   "frame": "High ResilienceModulus Graphite + NANO AEROGEL + PBO High Performance Fiber + HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite + PBO High Performance Fiber + PYROFIL + 6.6 SHAFT",
@@ -24693,6 +25204,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 29, 4U ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 5390,
   "frame": "High Resilience Modulus Graphite+FORMOSA CARBON FIBER",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
@@ -24759,6 +25271,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 4700,
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL 6.8 SHAFT",
@@ -24807,6 +25320,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 4400,
   "frame": "High Resilience Modulus Graphite+Nano Fortify SR+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite +PYROFIL+6.8SHAFT",
@@ -24863,6 +25377,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 31, ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 3500,
   "frame": "Graphite + Resin + Fiber Reinforced System",
   "shaft": "Graphite + Resin + 6.8 SHAFT",
@@ -24917,6 +25432,7 @@ window.RACKETS = [
    null,
    29
   ],
+  "tensionNote": "",
   "price": 5400,
   "frame": "High ResilienceModulus Graphite + Nano Fortify TR＋+HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite + Metallic Carbon Fiber + PYROFIL + 5.8 SHAFT",
@@ -24977,6 +25493,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 6450,
   "frame": "High ResilienceModulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite + PYROFIL + 6.8 SHAFT",
@@ -25027,6 +25544,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 2600,
   "frame": "High Resilience Modulus Graphite + Nano Resin",
   "shaft": "High Resilience Graphite + Nano Tube + 7.0 SHAFT",
@@ -25073,6 +25591,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 4190,
   "frame": "Ultra High Modulus Graphite + Nano Resin",
   "shaft": "Ultra High Modulus Graphite + Nano Resin + 7.0 SHAFT",
@@ -25140,6 +25659,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 4990,
   "frame": "High Resilience Modulus Graphite + Nano Resin",
   "shaft": "High Resilience Modulus Graphite + Nano Resin",
@@ -25199,6 +25719,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 4980,
   "frame": "High Resilience Modulus Graphite + Nano Resin + Hardcoded Technology",
   "shaft": "High Resilience Modulus Graphite + Pyrofil + Nano Resin + 6.8 SHAFT",
@@ -25253,6 +25774,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G5",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "Aluminum",
   "shaft": "Steel",
@@ -25301,6 +25823,7 @@ window.RACKETS = [
    null,
    24
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 24, 4U ≤ 23 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.0 SHAFT",
@@ -25350,6 +25873,7 @@ window.RACKETS = [
    null,
    24
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 24, 4U ≤ 23 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.0 SHAFT",
@@ -25399,6 +25923,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 7430,
   "frame": "High strength carbon fiber + nano-resin + strong core filling technology",
   "shaft": "High strength carbon fiber + nano-resin + strong core filling technology",
@@ -25453,6 +25978,7 @@ window.RACKETS = [
    null,
    26
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 28, 4U ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "Graphite+ Resin",
   "shaft": "Graphite+ Resin+6.8 SHAFT",
@@ -25500,6 +26026,7 @@ window.RACKETS = [
    null,
    26
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 28, ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2360,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 6.8 SHAFT",
@@ -25551,6 +26078,7 @@ window.RACKETS = [
    null,
    26
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 26, ≤ 24 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 1100,
   "frame": "Graphite + Resin",
   "shaft": "Graphite +Resin + 6.8 SHAFT",
@@ -25597,6 +26125,7 @@ window.RACKETS = [
    null,
    27
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 27, 5U ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 1500,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 6.8 SHAFT",
@@ -25651,6 +26180,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 29, 3U ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 5290,
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR＋ + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.6 SHAFT METALLIC CARBON SHAFT",
@@ -25723,6 +26253,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 33, 3U ≤ 32 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 5990,
   "frame": "High Resilience Modulus Graphite+PYROFIL 46T+Nano Fortify TR+NANO AEROGEL+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+Metallic Carbon Fiber+PYROFIL+6.6 SHAFT",
@@ -25806,6 +26337,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 31, ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2500,
   "frame": "High Resilience Graphite + Nano Resin",
   "shaft": "High Resilience Graphite + Nano Resin + 6.8 SHAFT",
@@ -25854,6 +26386,7 @@ window.RACKETS = [
    null,
    26
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 28, ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 1920,
   "frame": "High Resilience Graphite + Nano Resin",
   "shaft": "High Resilience Modulus Graphite + NANO TUBE+6.8 SHAFT",
@@ -25902,6 +26435,7 @@ window.RACKETS = [
    null,
    26
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 28, ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2000,
   "frame": "High Resilience Graphite + Nano Resin",
   "shaft": "High Resilience Modulus Graphite + NANO TUBE + 6.8 SHAFT",
@@ -25954,6 +26488,7 @@ window.RACKETS = [
    null,
    29
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 29, ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 3575,
   "frame": "High Resilience Modulus Graphite+Nano Fortify TR＋+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.6 SHAFT",
@@ -26000,6 +26535,7 @@ window.RACKETS = [
    null,
    27
   ],
+  "tensionNote": "",
   "price": 1373,
   "frame": "High Resilience Modulus Graphite + NANO FORTIFY TR",
   "shaft": "High Resilience Modulus Graphite +NANO FORTIFY TR+6.8 SHAFT",
@@ -26041,6 +26577,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 29, 3U ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 4390,
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": ":High Resilience Modulus Graphite + Metallic Carbon Fiber + PYROFIL + 6.6 SHAFT",
@@ -26100,6 +26637,7 @@ window.RACKETS = [
    null,
    29
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 3U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 4600,
   "frame": "High Resilience Graphite + Nano Fortify SR + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Graphite + PYROFIL + 6.6 SHAFT",
@@ -26150,6 +26688,7 @@ window.RACKETS = [
    null,
    33
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 34, 4U ≤ 33 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "High Resilience Modulus Graphite + PYROFIL + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 7.0 SHAFT",
@@ -26198,6 +26737,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 29, 4U ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "High Resilience Modulus Graphite + NANO FORTIFY TR + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL+7.0 SHAFT",
@@ -26246,6 +26786,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 29, 4U ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2840,
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.6 SHAFT",
@@ -26307,6 +26848,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 3040,
   "frame": "High Resilience Modulus Graphite",
   "shaft": "High Modulus Graphite + 7.0 SHAFT",
@@ -26360,6 +26902,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "High Resilience Modulus Graphite + NANO FORTIFY TR",
   "shaft": "High Resilience Modulus Graphite +NANO FORTIFY TR+6.8 SHAFT",
@@ -26408,6 +26951,7 @@ window.RACKETS = [
    null,
    22
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 22, 5U ≤ 21 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "Graphite+Resin",
   "shaft": "Graphite+Resin+7.0 SHAFT",
@@ -26457,6 +27001,7 @@ window.RACKETS = [
    null,
    27
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 27, 5U ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "High Modulus Graphite +Core Shell Rubber",
   "shaft": "High Modulus Graphite+Nano Resin+6.8 SHAFT",
@@ -26506,6 +27051,7 @@ window.RACKETS = [
    null,
    24
   ],
+  "tensionNote": "",
   "price": 2690,
   "frame": "High Modulus Graphite + Nano Resin + HARD CORED TECHNOLOGY",
   "shaft": "High Modulus Graphite + NanoTube + 7.0 SHAFT",
@@ -26553,6 +27099,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 28, 4U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 3610,
   "frame": "High Resilient Modulus Graphite +Nano Fortify",
   "shaft": "High Resilient Modulus Graphite＋PYROFIL＋6.8 SHAFT",
@@ -26611,6 +27158,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 5300,
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + 6.8 SHAFT",
@@ -26662,6 +27210,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G5",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "Aluminum",
   "shaft": "Steel",
@@ -26710,6 +27259,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "High Resilient Modulus Graphite +  HARD CORED TECHNOLOGY + TERS",
   "shaft": "High Resilient Modulus Graphite + PYROFIL + TERS + 6.8 SHAFT",
@@ -26759,6 +27309,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 4990,
   "frame": "High Resilience Modulus Graphite ＋Nano Fortify TR＋",
   "shaft": "High Resilience Modulus Graphite +PYROFIL + 6.6 SHAFT",
@@ -26826,6 +27377,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 5400,
   "frame": "High Resilience Modulus Graphite +TERS+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite ＋PYROFIL＋TERS+6.8 SHAFT",
@@ -26881,6 +27433,7 @@ window.RACKETS = [
    null,
    26
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 27, 4U ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2870,
   "frame": "High Resilience Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Graphite + PYROFIL + 6.8 SHAFT",
@@ -26936,6 +27489,7 @@ window.RACKETS = [
    null,
    27
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 27, ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2890,
   "frame": "High Resilience Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Graphite + PYROFIL + 6.8 SHAFT",
@@ -26984,6 +27538,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -27028,6 +27583,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G5",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "Aluminum",
   "shaft": "Graphite + Resin",
@@ -27076,6 +27632,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "High Resilience Modulus Graphite + Nano Resin",
   "shaft": "High Resilience Modulus Graphite + Nano Tube + 6.8 SHAFT",
@@ -27122,6 +27679,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G5",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "Aluminum",
   "shaft": "Graphite + Resin",
@@ -27170,6 +27728,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 5U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "Graphite+Resin",
   "shaft": "Graphite+Resin+7.0 SHAFT",
@@ -27218,6 +27777,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 5U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "Graphite+Resin",
   "shaft": "Graphite+Resin+7.0 SHAFT",
@@ -27266,6 +27826,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": 1810,
   "frame": "Graphite+ Resin",
   "shaft": "Graphite+ Resin+7.0 SHAFT",
@@ -27316,6 +27877,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 3300,
   "frame": "High Resilience Modulus Graphite + Nano Resin",
   "shaft": "High Resilience Graphite + Nano Tube 7.0 + SHAFT",
@@ -27375,6 +27937,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": 4249,
   "frame": "High Resilience Modulus Graphite+Nano Resin",
   "shaft": "High Resilience Graphite + 6.8 SHAFT",
@@ -27425,6 +27988,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 31, ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "High Resilience Modulus Graphite+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
@@ -27472,6 +28036,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 6190,
   "frame": "High Resilience Modulus Graphite+Metallic Carbon Fiber+HARD CORED TECHNOLOGY",
   "shaft": "High Resilient Modulus Graphite+6.8 SHAFT",
@@ -27529,6 +28094,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": 680,
   "frame": "",
   "shaft": "",
@@ -27576,6 +28142,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -27620,6 +28187,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -27667,6 +28235,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2190,
   "frame": "High Resilience Graphite + Nano Resin + Fiber Reinforced System(FRS)",
   "shaft": "High Resilience Graphite + Nano Resin + 7.0 SHAFT",
@@ -27718,6 +28287,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": 2190,
   "frame": "High Resilience Graphite + Fiber Reinforced System(FRS)",
   "shaft": "High Resilience Graphite + 7.0 SHAFT",
@@ -27764,6 +28334,7 @@ window.RACKETS = [
    null,
    36
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 36, ≤ 35 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2064,
   "frame": "Graphite+ Resin+Fiber Reinforced System",
   "shaft": "Graphite+ Resin+6.8 SHAFT",
@@ -27812,6 +28383,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 2190,
   "frame": "High Resilience Graphite+Nano Resin+Fiber Reinforced System",
   "shaft": "High Resilience Graphite + Nano Resin + 7.0 SHAFT",
@@ -27872,6 +28444,7 @@ window.RACKETS = [
    null,
    20
   ],
+  "tensionNote": "",
   "price": 650,
   "frame": "Aluminum",
   "shaft": "Steel",
@@ -27919,6 +28492,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 31, 5U ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "High Resilience Modulus Graphite+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite +Nano Resin+6.6 SHAFT",
@@ -27968,6 +28542,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "High Resilient Modulus Graphite + CSR",
   "shaft": "High Resilient Modulus Graphite + 6.4SHAFT",
@@ -28016,6 +28591,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31, 5U ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 5990,
   "frame": "High Resilience Modulus Graphite, 46T PYROFIL, Nano Fortify TR, Nano Aerogel, Hard Cored Technology",
   "shaft": "High Resilience Modulus Graphite, 46T PYROFIL, Metallic Carbon Fiber, 6.0 Shaft",
@@ -28091,6 +28667,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": 5390,
   "frame": "High Resilience Modulus Graphite +PYROFIL +HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL  + 6.4 SHAFT",
@@ -28151,6 +28728,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "High Resilient Modulus Graphite + PYROFIL + Hard Cored Technology",
   "shaft": "High Resilient Modulus Graphite + PYROFIL + 6.5 SHAFT",
@@ -28203,6 +28781,7 @@ window.RACKETS = [
    null,
    26
   ],
+  "tensionNote": "",
   "price": 5990,
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + Metallic Carbon Fiber + PYROFIL + 5.8 SHAFT",
@@ -28250,6 +28829,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": 5490,
   "frame": "High Resilience Modulus Graphite+PYROFIL+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.5 SHAFT",
@@ -28298,6 +28878,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 4440,
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + Metallic Carbon Fiber + PYROFIL + 5.8 SHAFT",
@@ -28370,6 +28951,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 6U ≤ 28, 5U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2190,
   "frame": "Graphite+Resin",
   "shaft": "Graphite+Resin+7.0 SHAFT",
@@ -28438,6 +29020,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 32, ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 1800,
   "frame": "Graphite + Resin + Fiber Reinforced System(FRS)",
   "shaft": "Graphite + Resin + 6.8 SHAFT",
@@ -28498,6 +29081,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 32, 5U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 1900,
   "frame": "Graphite+Resin+Fiber Reinforced System (FRS)",
   "shaft": "Graphite + Nano Resin + 7.0 SHAFT",
@@ -28552,6 +29136,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 6U ≤ 28, 5U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2000,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 6.8 SHAFT",
@@ -28610,6 +29195,7 @@ window.RACKETS = [
    null,
    27
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 27, ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2500,
   "frame": "High Resilience Modulus Graphite +PYROFIL +HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite +PYROFIL +6.6 SHAFT",
@@ -28670,6 +29256,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 29, ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2500,
   "frame": "High ResilienceModulus Graphite + PYROFIL + HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite + PYROFIL + 6.6 SHAFT",
@@ -28724,6 +29311,7 @@ window.RACKETS = [
    null,
    24
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 24, 4U ≤ 23 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.0 SHAFT",
@@ -28773,6 +29361,7 @@ window.RACKETS = [
    null,
    24
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 24, 4U ≤ 23 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.0 SHAFT",
@@ -28822,6 +29411,7 @@ window.RACKETS = [
    null,
    24
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 24, 4U ≤ 23 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.0 SHAFT",
@@ -28871,6 +29461,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": 2690,
   "frame": "High Resilience Graphite + Core Shell Rubber",
   "shaft": "High Resilience Graphite + Nano Resin + 6.8 SHAFT",
@@ -28933,6 +29524,7 @@ window.RACKETS = [
    null,
    36
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 36, 4U ≤ 35 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "Graphite+Resin+Fiber Reinforced System(FRS)",
   "shaft": "Graphite+Resin+7.0 SHAFT",
@@ -28982,6 +29574,7 @@ window.RACKETS = [
    null,
    27
   ],
+  "tensionNote": "",
   "price": 1677,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 6.8 SHAF",
@@ -29030,6 +29623,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 28, 4U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "High Modulus Graphite + CSR",
   "shaft": "High Modulus Graphite + 6.6SHAFT",
@@ -29076,6 +29670,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -29123,6 +29718,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "High Resilience Modulus Graphite + Nano Resin",
   "shaft": "High Resilience Modulus Graphite + Nano Resin + 6.6 SHAFT",
@@ -29172,6 +29768,7 @@ window.RACKETS = [
    null,
    33
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 33, 4U ≤ 32 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "High Resilience Modulus Graphite + Nano Resin + Fiber Reinforced System(FRS) + HARD CORED TECHNOLOGY",
   "shaft": "High Modulus Graphite  + Nano Resin + 7.0SHAFT",
@@ -29221,6 +29818,7 @@ window.RACKETS = [
    null,
    20
   ],
+  "tensionNote": "",
   "price": 660,
   "frame": "Aluminum",
   "shaft": "Graphite + Resin",
@@ -29272,6 +29870,7 @@ window.RACKETS = [
    null,
    20
   ],
+  "tensionNote": "",
   "price": 704,
   "frame": "Aluminum",
   "shaft": "Graphite + Resin",
@@ -29319,6 +29918,7 @@ window.RACKETS = [
    null,
    23
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.0 SHAFT",
@@ -29368,6 +29968,7 @@ window.RACKETS = [
    null,
    29
   ],
+  "tensionNote": "",
   "price": 1790,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.0 SHAFT",
@@ -29416,6 +30017,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 1520,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 6.8 SHAFT",
@@ -29474,6 +30076,7 @@ window.RACKETS = [
    20,
    32
   ],
+  "tensionNote": "",
   "price": 5700,
   "frame": "HRM Graphite / PYROFIL / Hard Cored Technology",
   "shaft": "High Resilient Modulus Graphite + PYROFIL + 6.5 SHAFT",
@@ -29524,6 +30127,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 32, ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2190,
   "frame": "Graphite + Resin + Fiber Reinforced System(FRS)",
   "shaft": "Graphite + Resin + 6.8 SHAFT",
@@ -29575,6 +30179,7 @@ window.RACKETS = [
    null,
    29
   ],
+  "tensionNote": "",
   "price": 4700,
   "frame": "High Resilience Modulus Graphite+PYROFIL",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.5 SHAFT",
@@ -29635,6 +30240,7 @@ window.RACKETS = [
    null,
    29
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 3U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 4900,
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.6 SHAFT",
@@ -29699,6 +30305,7 @@ window.RACKETS = [
    null,
    29
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 29, 5U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "High Resilient Modulus Graphite  + CSR",
   "shaft": "High Resilient Modulus Graphite  + 6.4 SHAFT",
@@ -29748,6 +30355,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "High Modulus Graphite",
   "shaft": "High Modulus Graphite + 7.0 SHAFT",
@@ -29796,6 +30404,7 @@ window.RACKETS = [
    null,
    28
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 28, ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 4300,
   "frame": "High ResilienceModulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Graphite +PYROFIL + 6.6 SHAFT",
@@ -29846,6 +30455,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 3690,
   "frame": "High Resilience Modulus Graphite+PYROFIL+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.5 SHAFT",
@@ -29904,6 +30514,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": 4900,
   "frame": "High Resilient Modulus Graphite + PYROFIL + Hard Cored Technology",
   "shaft": "High Resilient Modulus Graphite + PYROFIL + 6.5 SHAFT",
@@ -29979,6 +30590,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 32, ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 1990,
   "frame": "High Resilience Graphite + NanoResin",
   "shaft": "High Resilience Graphite + NanoResin + 6.8 SHAFT",
@@ -30037,6 +30649,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": 5590,
   "frame": "High Resilient Modulus Graphite + PYROFIL + Hard Cored Technology",
   "shaft": "High Resilient Modulus Graphite + PYROFIL + 6.6 SHAFT",
@@ -30097,6 +30710,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 5590,
   "frame": "High Resilience Modulus Graphite+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.6 SHAFT",
@@ -30169,6 +30783,7 @@ window.RACKETS = [
    null,
    29
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 3U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2790,
   "frame": "High Resilience Modulus Graphite+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus GraphiteL+6.8 SHAFT",
@@ -30217,6 +30832,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "",
   "price": 7770,
   "frame": "High Resilience Modulus Graphite + Hard Cored Technology + 46T Pyrofil + Nano Fortify TR+ + Metallic Carbon Fiber + Nano Aerogel",
   "shaft": "High Resilience Modulus Graphite + 46T Pyrofil + Metallic Carbon Fiber + 6.5 Shaft",
@@ -30280,6 +30896,7 @@ window.RACKETS = [
    null,
    20
   ],
+  "tensionNote": "",
   "price": 900,
   "frame": "Aluminum",
   "shaft": "Graphite+ Resin",
@@ -30330,6 +30947,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 32, 3U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 5790,
   "frame": "High ResilienceModulus Graphite + HARD CORED TECHNOLOGY + Metallic Carbon Fiber",
   "shaft": "High ResilienceModulus Graphite + PYROFIL + 6.8 SHAFT",
@@ -30410,6 +31028,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 5590,
   "frame": "High ResilienceModulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite + PYROFIL + 6.8 SHAFT",
@@ -30484,6 +31103,7 @@ window.RACKETS = [
    null,
    30
   ],
+  "tensionNote": "",
   "price": 6390,
   "frame": "High Resilience Modulus Graphite, Hard Cored Technology",
   "shaft": "High Resilience Modulus Graphite, PYROFIL, 6.6 Shaft",
@@ -30548,6 +31168,7 @@ window.RACKETS = [
    null,
    29
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 3U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2890,
   "frame": "High ResilienceModulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + 6.8 SHAFT",
@@ -30604,6 +31225,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": 3500,
   "frame": "High Resilience Modulus Graphite+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
@@ -30651,6 +31273,7 @@ window.RACKETS = [
    null,
    36
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 36, 4U ≤ 35, 5U ≤ 34 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 4500,
   "frame": "High Resilience Modulus Graphite + Nano Resin",
   "shaft": "High Resilience Modulus Graphite + Nano Resin + 6.8 SHAFT",
@@ -30698,6 +31321,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.6 SHAFT",
@@ -30747,6 +31371,7 @@ window.RACKETS = [
    null,
    32
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2400,
   "frame": "High Resilience Graphite + Nano Resin + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Graphite + Nano Resin + 6.8 SHAFT",
@@ -30794,6 +31419,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 32, 3U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2890,
   "frame": "High Resilience Graphite + NanoResin HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Graphite + PYROFIL + 6.6 SHAFT",
@@ -30852,6 +31478,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": 5490,
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.5 SHAFT",
@@ -30915,6 +31542,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "",
   "price": 5990,
   "frame": "High Resilience Modulus Graphite + Metallic Carbon Fiber + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.5 SHAFT",
@@ -30978,6 +31606,7 @@ window.RACKETS = [
    null,
    31
   ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 31, 5U ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": "",
   "frame": "High Resilient Modulus Graphite +Nano Resin+HARD CORED TECHNOLOGY",
   "shaft": "High Resilient Modulus Graphite +Nano Resin + 6.4 SHAFT",
@@ -31027,6 +31656,7 @@ window.RACKETS = [
    null,
    24
   ],
+  "tensionNote": "",
   "price": 2170,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.5 SHAFT",
@@ -31082,6 +31712,7 @@ window.RACKETS = [
    17,
    22
   ],
+  "tensionNote": "",
   "price": 730,
   "frame": "HT Graphite",
   "shaft": "Graphite",
@@ -31128,6 +31759,7 @@ window.RACKETS = [
   "weight": 88,
   "grips": "G4",
   "tension": null,
+  "tensionNote": "",
   "price": 3660,
   "frame": "",
   "shaft": "H.M. Graphite, Ultra PEF",
@@ -31181,6 +31813,7 @@ window.RACKETS = [
    19,
    27
   ],
+  "tensionNote": "",
   "price": 2668,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -31261,6 +31894,7 @@ window.RACKETS = [
    19,
    28
   ],
+  "tensionNote": "",
   "price": 9505,
   "frame": "HM Graphite, POCKETING BOOSTER",
   "shaft": "HM Graphite, SUPER HMG,  ULTRA PE FIBER",
@@ -31341,6 +31975,7 @@ window.RACKETS = [
    19,
    28
   ],
+  "tensionNote": "",
   "price": 5837,
   "frame": "HM Graphite, POCKETING BOOSTER",
   "shaft": "HM Graphite, SUPER HMG",
@@ -31409,6 +32044,7 @@ window.RACKETS = [
    20,
    30
   ],
+  "tensionNote": "",
   "price": 2090,
   "frame": "HT Graphite",
   "shaft": "Graphite",
@@ -31463,6 +32099,7 @@ window.RACKETS = [
    20,
    30
   ],
+  "tensionNote": "",
   "price": 2168,
   "frame": "HT Graphite",
   "shaft": "Graphite",
@@ -31519,6 +32156,7 @@ window.RACKETS = [
    20,
    30
   ],
+  "tensionNote": "",
   "price": 1650,
   "frame": "HT Graphite",
   "shaft": "Graphite",
@@ -31574,6 +32212,7 @@ window.RACKETS = [
    18,
    23
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -31616,6 +32255,7 @@ window.RACKETS = [
    19,
    27
   ],
+  "tensionNote": "",
   "price": 2668,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -31692,6 +32332,7 @@ window.RACKETS = [
    19,
    27
   ],
+  "tensionNote": "",
   "price": 8505,
   "frame": "HM Graphite, POCKETING BOOSTER",
   "shaft": "HM Graphite, Ultra PE FIBER",
@@ -31776,6 +32417,7 @@ window.RACKETS = [
    19,
    27
   ],
+  "tensionNote": "",
   "price": 4836,
   "frame": "HM Graphite, POCKETING BOOSTER",
   "shaft": "HM Graphite",
@@ -31844,6 +32486,7 @@ window.RACKETS = [
    20,
    30
   ],
+  "tensionNote": "",
   "price": 690,
   "frame": "H.M. Graphite",
   "shaft": "HM Graphite with Slim Shaft",
@@ -31902,6 +32545,7 @@ window.RACKETS = [
    19,
    27
   ],
+  "tensionNote": "",
   "price": 2668,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -31941,6 +32585,7 @@ window.RACKETS = [
    19,
    27
   ],
+  "tensionNote": "",
   "price": 4836,
   "frame": "HM Graphite / POCKETING BOOSTER",
   "shaft": "HM Graphite",
@@ -31980,6 +32625,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 1490,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -32048,6 +32694,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 1490,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -32112,6 +32759,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 2168,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -32176,6 +32824,7 @@ window.RACKETS = [
    20,
    30
   ],
+  "tensionNote": "",
   "price": 1760,
   "frame": "HT Graphite",
   "shaft": "Graphite",
@@ -32224,6 +32873,7 @@ window.RACKETS = [
    20,
    30
   ],
+  "tensionNote": "",
   "price": 1299,
   "frame": "HT Graphite",
   "shaft": "Graphite",
@@ -32272,6 +32922,7 @@ window.RACKETS = [
    20,
    30
   ],
+  "tensionNote": "",
   "price": 2340,
   "frame": "HT Graphite",
   "shaft": "Graphite",
@@ -32322,6 +32973,7 @@ window.RACKETS = [
    20,
    35
   ],
+  "tensionNote": "",
   "price": 1600,
   "frame": "HM Graphite, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
@@ -32372,6 +33024,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 1800,
   "frame": "HM Graphite",
   "shaft": "Graphite",
@@ -32427,6 +33080,7 @@ window.RACKETS = [
    20,
    29
   ],
+  "tensionNote": "",
   "price": 5336,
   "frame": "HM Graphite, Nanomesh Neo, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
@@ -32507,6 +33161,7 @@ window.RACKETS = [
    20,
    29
   ],
+  "tensionNote": "",
   "price": 7338,
   "frame": "HM Graphite, Nanomesh Neo, Tungsten",
   "shaft": "HM Graphite, Namd™",
@@ -32587,6 +33242,7 @@ window.RACKETS = [
    20,
    29
   ],
+  "tensionNote": "",
   "price": 4090,
   "frame": "HM Graphite, NANOMESH NEO, VOLUME CUT RESIN, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
@@ -32645,6 +33301,7 @@ window.RACKETS = [
    20,
    29
   ],
+  "tensionNote": "",
   "price": 7430,
   "frame": "HM Graphite, NANOMESH NEO, VOLUME CUT RESIN, Tungsten",
   "shaft": "HM Graphite, Namd™",
@@ -32703,6 +33360,7 @@ window.RACKETS = [
    20,
    29
   ],
+  "tensionNote": "",
   "price": 9960,
   "frame": "HM Graphite, Namd, Tungsten, Black Micro Core, Nanometric",
   "shaft": "HM Graphite, Namd™",
@@ -32767,6 +33425,7 @@ window.RACKETS = [
    20,
    29
   ],
+  "tensionNote": "",
   "price": 9839,
   "frame": "HM Graphite, Namd, Tungsten, Black Micro Core, Nanometric",
   "shaft": "HM Graphite, Namd™",
@@ -32847,6 +33506,7 @@ window.RACKETS = [
    17,
    22
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -32889,6 +33549,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 2000,
   "frame": "HM Graphite, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
@@ -32957,6 +33618,7 @@ window.RACKETS = [
    19,
    26
   ],
+  "tensionNote": "",
   "price": 3370,
   "frame": "HM Graphite, NANOMETRIC DR, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
@@ -33017,6 +33679,7 @@ window.RACKETS = [
    20,
    35
   ],
+  "tensionNote": "",
   "price": 1490,
   "frame": "HM Graphite, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
@@ -33067,6 +33730,7 @@ window.RACKETS = [
    20,
    35
   ],
+  "tensionNote": "",
   "price": 1560,
   "frame": "HM Graphite, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
@@ -33117,6 +33781,7 @@ window.RACKETS = [
    18,
    23
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -33159,6 +33824,7 @@ window.RACKETS = [
    19,
    24
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -33201,6 +33867,7 @@ window.RACKETS = [
    20,
    35
   ],
+  "tensionNote": "",
   "price": 1990,
   "frame": "HM Graphite, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
@@ -33247,6 +33914,7 @@ window.RACKETS = [
    18,
    26
   ],
+  "tensionNote": "",
   "price": 8672,
   "frame": "HM Graphite, VDM, Tungsten",
   "shaft": "HM Graphite, Namd™",
@@ -33307,6 +33975,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 2635,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -33391,6 +34060,7 @@ window.RACKETS = [
    19,
    28
   ],
+  "tensionNote": "",
   "price": 8672,
   "frame": "HM Graphite, Flex Fuse, Tungsten",
   "shaft": "HM Graphite, Namd™, Ultra PE Fiber",
@@ -33475,6 +34145,7 @@ window.RACKETS = [
    20,
    29
   ],
+  "tensionNote": "",
   "price": 6337,
   "frame": "HM Graphite, LIGHT Feel CARBON NEO, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
@@ -33547,6 +34218,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 2200,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -33627,6 +34299,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 4503,
   "frame": "HM Graphite, CSR, Tungsten",
   "shaft": "HM Graphite, 2G-NANOMESH NEO",
@@ -33703,6 +34376,7 @@ window.RACKETS = [
    20,
    29
   ],
+  "tensionNote": "",
   "price": 9672,
   "frame": "HM Graphite, CFR, Tungsten",
   "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE, Ultra PE Fiber",
@@ -33783,6 +34457,7 @@ window.RACKETS = [
    20,
    29
   ],
+  "tensionNote": "",
   "price": 6670,
   "frame": "HM Graphite, CSR, Tungsten",
   "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE",
@@ -33855,6 +34530,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 4503,
   "frame": "HM Graphite, CSR, Tungsten",
   "shaft": "HM Graphite, 2G-NANOMESH NEO",
@@ -33935,6 +34611,7 @@ window.RACKETS = [
    20,
    29
   ],
+  "tensionNote": "",
   "price": 9672,
   "frame": "HM Graphite, CFR, Tungsten",
   "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE, Ultra PE Fiber",
@@ -34019,6 +34696,7 @@ window.RACKETS = [
    20,
    29
   ],
+  "tensionNote": "",
   "price": 6670,
   "frame": "HM Graphite, CSR, Tungsten",
   "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE",
@@ -34095,6 +34773,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 4836,
   "frame": "HM Graphite + CSR + Tungsten + 2G-NANOMESH NEO",
   "shaft": "HM Graphite, 2G-NANOMESH NEO",
@@ -34167,6 +34846,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 3669,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -34255,6 +34935,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 9672,
   "frame": "HM Graphite + CFR + Tungsten + 2G-Namd FLEX FORCE",
   "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE, Ultra PE Fiber",
@@ -34339,6 +35020,7 @@ window.RACKETS = [
    20,
    29
   ],
+  "tensionNote": "",
   "price": 6670,
   "frame": "HM Graphite + CSR + Tungsten + 2G-Namd FLEX FORCE",
   "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE",
@@ -34415,6 +35097,7 @@ window.RACKETS = [
    20,
    27
   ],
+  "tensionNote": "",
   "price": 1834,
   "frame": "Frame: Carbon, Shaft: Carbon, Joint: Built-in T-Joint",
   "shaft": "Graphite",
@@ -34463,6 +35146,7 @@ window.RACKETS = [
    16,
    20
   ],
+  "tensionNote": "",
   "price": 1834,
   "frame": "Aluminum",
   "shaft": "Graphite",
@@ -34515,6 +35199,7 @@ window.RACKETS = [
    20,
    30
   ],
+  "tensionNote": "",
   "price": 670,
   "frame": "HM Graphite",
   "shaft": "HM Graphite",
@@ -34572,6 +35257,7 @@ window.RACKETS = [
    22,
    27
   ],
+  "tensionNote": "",
   "price": 640,
   "frame": "HM Graphite",
   "shaft": "HM Graphite Shaft",
@@ -34625,6 +35311,7 @@ window.RACKETS = [
    22,
    27
   ],
+  "tensionNote": "",
   "price": 640,
   "frame": "HM Graphite",
   "shaft": "HM Graphite",
@@ -34681,6 +35368,7 @@ window.RACKETS = [
    17,
    22
   ],
+  "tensionNote": "",
   "price": 640,
   "frame": "HM Graphite",
   "shaft": "HM Graphite",
@@ -34733,6 +35421,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 5503,
   "frame": "HM Graphite, VDM, Tungsten",
   "shaft": "Graphite, NANOMESH NEO",
@@ -34817,6 +35506,7 @@ window.RACKETS = [
    16,
    20
   ],
+  "tensionNote": "",
   "price": 580,
   "frame": "Aluminum",
   "shaft": "Steel",
@@ -34876,6 +35566,7 @@ window.RACKETS = [
    16,
    20
   ],
+  "tensionNote": "",
   "price": 833,
   "frame": "Aluminum",
   "shaft": "Steel",
@@ -34927,6 +35618,7 @@ window.RACKETS = [
    20,
    29
   ],
+  "tensionNote": "",
   "price": 10673,
   "frame": "HM Graphite, NANOMETRIC DR, Hyper-MG",
   "shaft": "HM Graphite, NANOMETRIC, EX-HMG",
@@ -34976,6 +35668,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G4",
   "tension": null,
+  "tensionNote": "",
   "price": 567,
   "frame": "Aluminium",
   "shaft": "Steel",
@@ -35012,6 +35705,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": "",
   "frame": "Aluminium",
   "shaft": "Steel",
@@ -35064,6 +35758,7 @@ window.RACKETS = [
    19,
    24
   ],
+  "tensionNote": "",
   "price": 3168,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -35105,6 +35800,7 @@ window.RACKETS = [
    20,
    30
   ],
+  "tensionNote": "",
   "price": 3168,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -35168,6 +35864,7 @@ window.RACKETS = [
    20,
    30
   ],
+  "tensionNote": "",
   "price": 3168,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -35222,6 +35919,7 @@ window.RACKETS = [
    16,
    20
   ],
+  "tensionNote": "",
   "price": 934,
   "frame": "Aluminum",
   "shaft": "Steel",
@@ -35272,6 +35970,7 @@ window.RACKETS = [
    16,
    20
   ],
+  "tensionNote": "",
   "price": 934,
   "frame": "Aluminum",
   "shaft": "Steel",
@@ -35322,6 +36021,7 @@ window.RACKETS = [
    14,
    18
   ],
+  "tensionNote": "",
   "price": 600,
   "frame": "Aluminum",
   "shaft": "Steel",
@@ -35377,6 +36077,7 @@ window.RACKETS = [
    16,
    20
   ],
+  "tensionNote": "",
   "price": 1200,
   "frame": "Aluminum",
   "shaft": "Steel",
@@ -35425,6 +36126,7 @@ window.RACKETS = [
    16,
    20
   ],
+  "tensionNote": "",
   "price": 1501,
   "frame": "Aluminum",
   "shaft": "Graphite, Nylon",
@@ -35469,6 +36171,7 @@ window.RACKETS = [
    20,
    27
   ],
+  "tensionNote": "",
   "price": 1100,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -35533,6 +36236,7 @@ window.RACKETS = [
    20,
    27
   ],
+  "tensionNote": "",
   "price": 1100,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -35605,6 +36309,7 @@ window.RACKETS = [
    20,
    27
   ],
+  "tensionNote": "",
   "price": 1834,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -35669,6 +36374,7 @@ window.RACKETS = [
    20,
    30
   ],
+  "tensionNote": "",
   "price": 1690,
   "frame": "HT Graphite",
   "shaft": "Graphite",
@@ -35721,6 +36427,7 @@ window.RACKETS = [
    20,
    30
   ],
+  "tensionNote": "",
   "price": 1690,
   "frame": "HT Graphite",
   "shaft": "Graphite",
@@ -35777,6 +36484,7 @@ window.RACKETS = [
    20,
    30
   ],
+  "tensionNote": "",
   "price": 1690,
   "frame": "HT Graphite",
   "shaft": "Graphite",
@@ -35833,6 +36541,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 5336,
   "frame": "Graphite,Nanocell NEO,HM Graphite",
   "shaft": "Graphite",
@@ -35913,6 +36622,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 2668,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -35997,6 +36707,7 @@ window.RACKETS = [
    20,
    29
   ],
+  "tensionNote": "",
   "price": 7338,
   "frame": "HM Graphite, Nanocell NEO, EX-HYPER MG",
   "shaft": "HM Graphite",
@@ -36077,6 +36788,7 @@ window.RACKETS = [
    20,
    29
   ],
+  "tensionNote": "",
   "price": 9505,
   "frame": "HM Graphite, NANOMETRIC DR, M40X, EX-HYPER MG",
   "shaft": "HM Graphite, Ultra PE FIBER",
@@ -36153,6 +36865,7 @@ window.RACKETS = [
    17,
    22
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -36195,6 +36908,7 @@ window.RACKETS = [
    20,
    27
   ],
+  "tensionNote": "",
   "price": 1890,
   "frame": "",
   "shaft": "High Modulus (H.M.) Graphite",
@@ -36249,6 +36963,7 @@ window.RACKETS = [
    18,
    23
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -36291,6 +37006,7 @@ window.RACKETS = [
    18,
    23
   ],
+  "tensionNote": "",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -36333,6 +37049,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 6420,
   "frame": "HM Graphite, Nanocell NEO, EX-HMG, Solid Titanium",
   "shaft": "HM Graphite",
@@ -36388,6 +37105,7 @@ window.RACKETS = [
    18,
    26
   ],
+  "tensionNote": "",
   "price": 8100,
   "frame": "HM Graphite, M40X, SUPER HMG, VDM",
   "shaft": "HM Graphite",
@@ -36442,6 +37160,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 4580,
   "frame": "High Modulus Graphite, M40X, Super High Modulus Graphite",
   "shaft": "High Modulus Graphite",
@@ -36494,6 +37213,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 5003,
   "frame": "Graphite, Nanocell NEO, HM Graphite, SERVO FILTER",
   "shaft": "Graphite",
@@ -36574,6 +37294,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 2668,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -36654,6 +37375,7 @@ window.RACKETS = [
    19,
    28
   ],
+  "tensionNote": "",
   "price": 9172,
   "frame": "HM Graphite, NANOMETRIC DR, M40X, EX-HYPER MG",
   "shaft": "HM Graphite, SUPER HMG,  ULTRA PE FIBER",
@@ -36734,6 +37456,7 @@ window.RACKETS = [
    19,
    28
   ],
+  "tensionNote": "",
   "price": 6170,
   "frame": "HM Graphite, Nanocell NEO, SUPER HMG, SERVO FILTER",
   "shaft": "HM Graphite, SERVO FILTER",
@@ -36807,6 +37530,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "G5",
   "tension": null,
+  "tensionNote": "",
   "price": 5890,
   "frame": "HM Graphite / M40X / EX-HMG / VDM",
   "shaft": "HM Graphite / NANOMETRIC",
@@ -36859,6 +37583,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 5003,
   "frame": "Graphite, Nanocell NEO, HM Graphite, Copper",
   "shaft": "Graphite",
@@ -36935,6 +37660,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 2668,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -37011,6 +37737,7 @@ window.RACKETS = [
    20,
    29
   ],
+  "tensionNote": "",
   "price": 9172,
   "frame": "HM Graphite, M40X, SUPER HMG, Copper",
   "shaft": "HM Graphite, SUPER HMG,  ULTRA PE FIBER",
@@ -37095,6 +37822,7 @@ window.RACKETS = [
    20,
    29
   ],
+  "tensionNote": "",
   "price": 6170,
   "frame": "Graphite, Nanocell NEO, HM Graphite, Copper",
   "shaft": "HM Graphite, SUPER HMG",
@@ -37159,6 +37887,7 @@ window.RACKETS = [
    16,
    20
   ],
+  "tensionNote": "",
   "price": 1834,
   "frame": "Aluminum",
   "shaft": "Graphite",
@@ -37213,6 +37942,7 @@ window.RACKETS = [
    17,
    22
   ],
+  "tensionNote": "",
   "price": 2520,
   "frame": "Graphite, Nanocell NEO, HM Graphite",
   "shaft": "Graphite",
@@ -37271,6 +38001,7 @@ window.RACKETS = [
    20,
    28
   ],
+  "tensionNote": "",
   "price": 5503,
   "frame": "HT Graphite, Nanocell NEO",
   "shaft": "Graphite",
@@ -37355,6 +38086,7 @@ window.RACKETS = [
    20,
    27
   ],
+  "tensionNote": "",
   "price": 1834,
   "frame": "Frame: Carbon, Shaft: Carbon, Joint: Built-in T-Joint",
   "shaft": "Graphite",
@@ -37400,6 +38132,7 @@ window.RACKETS = [
   "weight": "",
   "grips": "G5",
   "tension": null,
+  "tensionNote": "",
   "price": 670,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -37450,6 +38183,7 @@ window.RACKETS = [
   "weight": 89,
   "grips": "G4",
   "tension": null,
+  "tensionNote": "",
   "price": 510,
   "frame": "Aluminum-Alloy",
   "shaft": "Aluminum-Alloy",
@@ -37500,6 +38234,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "G5",
   "tension": null,
+  "tensionNote": "",
   "price": 640,
   "frame": "Frame Material : HM Graphite",
   "shaft": "HM Graphite.Flexible shaft",
@@ -37553,6 +38288,7 @@ window.RACKETS = [
    null,
    35
   ],
+  "tensionNote": "",
   "price": 2270,
   "frame": "High Modulus Graphite",
   "shaft": "High Modulus Graphite",
@@ -37606,6 +38342,7 @@ window.RACKETS = [
    18,
    24
   ],
+  "tensionNote": "",
   "price": 640,
   "frame": "Graphite / Tungsten",
   "shaft": "Graphite",
@@ -37659,6 +38396,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": 600,
   "frame": "",
   "shaft": "",
@@ -37708,6 +38446,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": 640,
   "frame": "",
   "shaft": "",
@@ -37757,6 +38496,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "",
   "tension": null,
+  "tensionNote": "",
   "price": 640,
   "frame": "Frame Material : HM Graphite",
   "shaft": "HM Graphite",

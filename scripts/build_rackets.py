@@ -569,7 +569,24 @@ for r in rackets.values():
         r.setdefault('est', []).append('weight'); from_class += 1
 print('weight from class', from_class)
 
-order = ['id', 'brand', 'name', 'year', 'style', 'balance', 'flex', 'level', 'weights', 'weight', 'grips', 'tension', 'price',
+# Victor's own page gives one ceiling per weight class ("≦ 31 lbs" for 3U, "≦ 30 lbs" for 4U); the data keeps the
+# lower one as the safe cap, and the note says the heavier class takes more
+vpages = {o['url']: o for o in (json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) else [])}
+per_class = 0
+for r in rackets.values():
+    for l in r.get('shopLinks') or []:
+        o = vpages.get(l.get('url'))
+        if not o: continue
+        caps = sorted({int(n) for n in re.findall(r'[≦≤]\s*(\d{2})\s*lbs', ' '.join(o['lines']))}, reverse=True)
+        if len(caps) > 1:
+            us = re.findall(r'[2-7]U', r.get('weights', ''))
+            pairs = [f'{u} ≤ {c}' for u, c in zip(us, caps)] if len(us) == len(caps) else [f'≤ {c}' for c in caps]
+            r['tensionNote'] = 'ผู้ผลิตแยกตามน้ำหนัก: ' + ', '.join(pairs) + ' lbs (ไม้หนักกว่ารับได้ตึงกว่า)'
+            per_class += 1
+        break
+print('tension per class', per_class)
+
+order = ['id', 'brand', 'name', 'year', 'style', 'balance', 'flex', 'level', 'weights', 'weight', 'grips', 'tension', 'tensionNote', 'price',
          'frame', 'shaft', 'joint', 'length', 'pattern', 'tech', 'players', 'madeIn', 'recString', 'img', 'source', 'officialUrl', 'specSrc', 'shopUrl', 'bayUrl', 'clickUrl', 'shopLinks', 'priceNote', 'priceSrc', 'note', 'est']
 final, seen = [], set()
 for r in sorted(rackets.values(), key=lambda r: (r['brand'], r['name'])):

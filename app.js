@@ -107,8 +107,15 @@
   };
   const est = (x, f) => (x.est || []).includes(f) ? '≈' : '';
   const priceCell = x => x.price ? `${est(x, 'price')}${baht(x.price)}${x.priceNote ? `<div class="small muted">${esc(x.priceNote)}</div>` : ''}` : '—';
+  // Shopee's own search for the model; no price is read from it
+  const shopee = x => `<a class="btn sm ghost" href="https://shopee.co.th/search?keyword=${encodeURIComponent(full(x))}" target="_blank" rel="noopener">ค้นใน Shopee</a>`;
+  function shareLink(btn, label) {
+    const url = location.href, done = () => { btn.textContent = 'คัดลอกแล้ว'; setTimeout(() => { btn.textContent = label; }, 1600); };
+    if (navigator.share && matchMedia('(pointer: coarse)').matches) { navigator.share({ title: document.title, url }).catch(() => {}); return; }
+    navigator.clipboard?.writeText(url).then(done, () => { prompt('คัดลอกลิงก์นี้', url); });
+  }
   const link = (url, text) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${text}</a>` : '';
-  const sources = x => [link(x.officialUrl, 'ผู้ผลิต'), link(x.specSrc, 'หน้าสินค้า'), link(x.shopUrl, 'ร้านไทย'), link(x.bayUrl, 'Badminton Bay'), link(x.clickUrl, 'Badminton Click'), ...(Array.isArray(x.shopLinks) ? x.shopLinks.map(l => link(l.url, esc(l.shop))) : []), link(x.priceSrc !== x.bayUrl && x.priceSrc !== x.clickUrl ? x.priceSrc : '', 'ที่มาราคา'), link(x.source, 'chobbad')].filter(Boolean).join(', ') || '—';
+  const sources = x => [link(x.officialUrl, 'ผู้ผลิต'), link(x.specSrc, 'หน้าสินค้า'), link(x.shopUrl, 'ร้านไทย'), link(x.bayUrl, 'Badminton Bay'), link(x.clickUrl, 'Badminton Click'), ...(Array.isArray(x.shopLinks) ? x.shopLinks.map(l => link(l.url, esc(l.shop))) : []), link(x.priceSrc !== x.bayUrl && x.priceSrc !== x.clickUrl ? x.priceSrc : '', 'ที่มาราคา'), link(x.source, 'chobbad'), link(x.wordSrc, 'คำบรรยายจากผู้ผลิต')].filter(Boolean).join(', ') || '—';
 
   // ---------- profiles (0–10) ----------
   const R_AXES = ['พลังตบ', 'ความคล่องตัว', 'ควบคุม', 'ตีง่าย', 'รับเอ็นตึง', 'หน้าไม้ไว', 'ต้องมีพื้นฐาน'];
@@ -117,7 +124,7 @@
     const fx = ordIdx('flex', r.flex, 1.5) / 3;
     const lv = ordIdx('level', r.level, 1.5) / 3;
     const w = clamp(((Number(r.weight) || 83) - 74) / 16);
-    const tmax = clamp((((r.tension && r.tension[1]) || 27) - 22) / 9);
+    const tmax = clamp((((r.tension && r.tension[1]) || 27) - 18) / 14);  // 18-32 lbs, so 20-lb starter frames still register
     const st = { attack: 0.3, speed: 0.4, control: 1, allround: 0.7 }[r.style] ?? 0.5;
     return [
       0.4 * bal + 0.3 * fx + 0.3 * w,  // a stiff shaft and a heavier frame add power, not only a heavy head
@@ -201,7 +208,8 @@
         <div class="nm">${esc(full(r))}</div>
         <div class="meta">${[esc(r.brand), r.year, lab(r, 'level')].filter(Boolean).join(', ')}</div>
         <div class="chips">${[lab(r, 'balance'), L.flex[r.flex], r.weights].filter(Boolean).map(v => `<span>${esc(v)}</span>`).join('')}</div>
-        <div class="price">${r.price ? `<b class="fig">${(r.est || []).includes('price') ? '≈' : ''}${baht(r.price)}</b>` : '<span class="small muted">ยังไม่มีราคา</span>'}</div>`,
+        <div class="price">${r.price ? `<b class="fig">${(r.est || []).includes('price') ? '≈' : ''}${baht(r.price)}</b>` : '<span class="small muted">ยังไม่มีราคา</span>'}</div>
+        <div class="card-acts"><button class="btn sm" type="button" data-who="${esc(r.id)}">เหมาะกับใคร</button>${shopee(r)}</div>`,
       radar: sel => ({ axes: R_AXES, series: sel.map((x, i) => ({ name: full(x), color: COLORS[i], values: racketProfile(x) })), title: 'ภาพรวมบุคลิกไม้', note: 'คำนวณจากสเปก (สมดุล ก้าน น้ำหนัก ระดับ) ไม่ใช่คะแนนจากผู้ผลิต' }),
       bars: [
         { label: 'น้ำหนัก', hint: 'หนักมีแรงส่ง เบาสวิงไว', get: r => Number(r.weight) || NaN, fmt: v => v + ' g' },
@@ -218,7 +226,7 @@
         ['น้ำหนัก', r => dash(r.weights)],
         ['น้ำหนักเฉลี่ย', r => r.weight ? r.weight + ' g' : '—'],
         ['ขนาดด้าม', r => dash(r.grips)],
-        ['ความตึงที่รับได้', r => !r.tension ? '—' : r.tension[0] ? `${r.tension[0]}–${r.tension[1]} lbs` : `≤ ${r.tension[1]} lbs`],
+        ['ความตึงที่รับได้', r => !r.tension ? '—' : (r.tension[0] ? `${r.tension[0]}–${r.tension[1]} lbs` : `≤ ${r.tension[1]} lbs`) + (r.tensionNote ? `<div class="small muted">${esc(r.tensionNote)}</div>` : '')],
         ['วัสดุเฟรม', r => dash(r.frame)],
         ['วัสดุก้าน', r => dash(r.shaft)],
         ['ข้อต่อเฟรม-ก้าน', r => dash(r.joint)],
@@ -246,7 +254,8 @@
         <div class="nm">${esc(full(s))}</div>
         <div class="meta">${esc(L.material[s.material] || '')}</div>
         <div class="meta">ดีด ${dash(s.repulsion)}, คุม ${dash(s.control)}, ทน ${dash(s.durability)}</div>
-        ${s.price ? `<div class="price"><b class="fig">${est(s, 'price')}${baht(s.price)}</b></div>` : '<div class="price"><span class="small muted">ยังไม่มีราคา</span></div>'}`,
+        ${s.price ? `<div class="price"><b class="fig">${est(s, 'price')}${baht(s.price)}</b></div>` : '<div class="price"><span class="small muted">ยังไม่มีราคา</span></div>'}
+        <div class="card-acts">${shopee(s)}</div>`,
       radar: sel => ({ axes: S_AXES, series: sel.map((x, i) => ({ name: full(x), color: COLORS[i], values: stringProfile(x) })), title: 'บุคลิกเอ็น', note: 'คะแนน 1–10 เป็นค่าประเมิน แก้ได้ในหน้าจัดการข้อมูล' }),
       bars: [
         { label: 'ขนาดเส้น', hint: 'บาง = ดีด / หนา = ทน', get: s => Number(s.gauge) || NaN, fmt: (v, s) => gaugeLabel(s) },
@@ -440,12 +449,15 @@
     view.querySelector('#more').onclick = () => { state.shown[kind] += PAGE; renderGrid(kind); };
     view.querySelector('#clr').onclick = () => { state.f[kind] = emptyFilter(kind); state.shown[kind] = PAGE; viewCompare(kind); };
     view.querySelector('#grid').addEventListener('click', e => {
+      const w = e.target.closest('[data-who]');
+      if (w) { showWho(w.dataset.who); return; }
+      if (e.target.closest('a')) return;
       const el = e.target.closest('.item'); if (el) toggle(kind, el.dataset.id);
     });
     // items are role="checkbox": Space and Enter toggle them too
     view.querySelector('#grid').addEventListener('keydown', e => {
       const el = e.target.closest('.item');
-      if (el && (e.key === ' ' || e.key === 'Enter')) {
+      if (el && e.target === el && (e.key === ' ' || e.key === 'Enter')) {
         e.preventDefault();
         toggle(kind, el.dataset.id);
         view.querySelector(`.item[data-id="${CSS.escape(el.dataset.id)}"]`)?.focus();
@@ -464,8 +476,7 @@
     view.querySelector('#cmp').addEventListener('click', e => {
       const sh = e.target.closest('[data-share]');
       if (sh) {
-        const done = () => { sh.textContent = 'คัดลอกแล้ว'; setTimeout(() => { sh.textContent = 'คัดลอกลิงก์เทียบ'; }, 1600); };
-        navigator.clipboard?.writeText(location.href).then(done, () => { prompt('คัดลอกลิงก์นี้', location.href); });
+        shareLink(sh, 'แชร์ลิงก์เทียบ');
         return;
       }
       if (e.target.closest('[data-same]')) { state.hideSame = !state.hideSame; renderCompare(kind); return; }
@@ -561,7 +572,7 @@
           ${sel.length < 2 ? '<p class="small muted">เลือกเพิ่มอีกอย่างน้อย 1 รุ่นเพื่อเทียบ</p>' : '<span></span>'}
           <span class="tools-r">${sel.length > 1 ? `<button class="btn sm ghost" type="button" data-same aria-pressed="${!!state.hideSame}">ซ่อนแถวที่เหมือนกัน</button>` : ''}
           ${kind === 'r' || kind === 's' ? `<button class="btn sm ghost" type="button" data-tomatch>ไปจับคู่ไม้ + เอ็น</button>` : ''}
-          <button class="btn sm" type="button" data-share>คัดลอกลิงก์เทียบ</button>
+          <button class="btn sm" type="button" data-share>แชร์ลิงก์เทียบ</button>
           <button class="btn sm ghost" type="button" data-close>ปิดผลเทียบ</button></span>
         </div>
         ${kind === 'r' ? whoFor(sel) : ''}
@@ -606,27 +617,42 @@
   };
   const U_G = { '2U': '90–94', '3U': '85–89', '4U': '80–84', '5U': '75–79', '6U': '70–74' };
   const series = x => x.name.split(/\s+/)[0].toLowerCase();
-  function whoFor(sel) {
-    const one = (r, open) => {
+  function whoOne(r, open, pick = 'data-add') {
       const e = f => est(r, f), parts = [];
       const us = String(r.weights || '').match(/[2-6]U/g) || [];
       if (us.length) parts.push(['น้ำหนัก', `${us.length > 1 ? 'มีให้เลือก ' : ''}${us.map(u => `${u} (ราว ${U_G[u]} กรัม)`).join(' และ ')} ตัวเลขหน้า U ยิ่งมากไม้ยิ่งเบา ไม้ที่หนักขึ้นให้ความนิ่งตอนกระทบลูกและส่งแรงได้มากกว่า แลกกับการสวิงที่ต้องใช้แรงมากขึ้น`]);
       if (r.balance) parts.push(['สมดุลไม้', e('balance') + W_TXT.balance[r.balance]]);
       if (r.flex) parts.push(['ความแข็งก้าน', e('flex') + W_TXT.flex[r.flex]]);
       const cap = r.tension && r.tension[1];
-      if (cap) parts.push(['ความตึงเอ็น', `${e('tension') ? 'ประเมินว่า' : 'ผู้ผลิตประกาศว่า'}รับความตึงเอ็นได้สูงสุดราว ${cap} ปอนด์ ไม่จำเป็นต้องขึ้นเต็มเพดาน เอ็นที่ตึงน้อยกว่าจะส่งลูกได้ไกลกว่าและให้อภัยเวลาตีไม่โดนกลางหน้าไม้ ส่วนเอ็นตึงให้ความแม่นมากกว่าแต่ต้องตีให้โดนกลางหน้าไม้`]);
+      if (cap) parts.push(['ความตึงเอ็น', `${e('tension') ? 'ประเมินว่า' : 'ผู้ผลิตประกาศว่า'}รับความตึงเอ็นได้สูงสุดราว ${cap} ปอนด์ ไม่จำเป็นต้องขึ้นเต็มเพดาน เอ็นที่ตึงน้อยกว่าจะส่งลูกได้ไกลกว่าและให้อภัยเวลาตีไม่โดนกลางหน้าไม้ ส่วนเอ็นตึงให้ความแม่นมากกว่าแต่ต้องตีให้โดนกลางหน้าไม้${r.tensionNote ? ' (' + r.tensionNote + ')' : ''}`]);
       const fit = [W_FIT.style[r.style], W_FIT.level[r.level]].filter(Boolean);
       const sib = db.r.filter(x => x.id !== r.id && x.brand === r.brand && series(x) === series(r)).slice(0, 6);
-      const desc = [r.style && `ในสาย${L.style[r.style]}`, r.flex && `เน้น${r.flex === 'flexible' ? 'ตีง่ายและแรงดีด' : r.balance === 'head-heavy' ? 'ลูกตบหนัก' : r.balance === 'head-light' ? 'ความไวในการสวิงและการแลกลูกเร็ว' : 'ความสมดุลระหว่างบุกกับรับ'}`, r.level && `เหมาะกับ${L.level[r.level]}`].filter(Boolean).join(' ');
+      const desc = [r.style && `ในสาย${L.style[r.style]}`, r.flex && `เน้น${{ control: 'การวางลูกแม่นและคุมจังหวะ', attack: 'ลูกตบหนัก', speed: 'ความไวในการสวิงและการแลกลูกเร็ว' }[r.style] || (r.flex === 'flexible' ? 'ตีง่ายและแรงดีด' : r.balance === 'head-heavy' ? 'ลูกตบหนัก' : r.balance === 'head-light' ? 'ความไวในการสวิงและการแลกลูกเร็ว' : 'ความสมดุลระหว่างบุกกับรับ')}`, r.level && `เหมาะกับ${L.level[r.level]}`].filter(Boolean).join(' ');
       return `<details class="who"${open ? ' open' : ''}><summary><h3>${esc(full(r))} เหมาะกับใคร</h3></summary>
         <p>${esc(full(r))} เป็นไม้แบดมินตันจาก ${esc(r.brand)}${desc ? ' ' + desc : ''} ด้านล่างคือคำอธิบายสเปกแต่ละข้อว่ามีผลกับการตีจริงอย่างไร</p>
         ${parts.length ? `<h4>อธิบายสเปกแบบเข้าใจง่าย</h4><dl>${parts.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}</dl>` : ''}
         ${fit.length ? `<h4>ไม้รุ่นนี้น่าจะเหมาะกับ</h4><ul>${fit.map(f => `<li>${f}</li>`).join('')}</ul>` : ''}
-        ${sib.length ? `<h4>ไม้ซีรีส์เดียวกันที่น่าเทียบ</h4><div class="simrow">${sib.map(x => `<button type="button" class="sim" data-add="${esc(x.id)}">${x.img ? `<img src="${esc(x.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<span class="mimg-empty"></span>'}<span class="sim-n">${esc(full(x))}</span><span class="small muted">${[x.style && 'สาย' + L.style[x.style], x.price ? est(x, 'price') + baht(x.price) : ''].filter(Boolean).join(', ')}</span></button>`).join('')}</div>` : ''}
+        ${sib.length ? `<h4>ไม้ซีรีส์เดียวกันที่น่าเทียบ</h4><div class="simrow">${sib.map(x => `<button type="button" class="sim" ${pick}="${esc(x.id)}">${x.img ? `<img src="${esc(x.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<span class="mimg-empty"></span>'}<span class="sim-n">${esc(full(x))}</span><span class="small muted">${[x.style && 'สาย' + L.style[x.style], x.price ? est(x, 'price') + baht(x.price) : ''].filter(Boolean).join(', ')}</span></button>`).join('')}</div>` : ''}
         <p class="small muted">สรุปจากสเปกที่ผู้ผลิตประกาศ ค่าที่มี ≈ คือค่าประเมิน ความรู้สึกตอนตีจริงขึ้นกับเอ็น ความตึง และสไตล์ของแต่ละคน ควรลองจับไม้จริงก่อนซื้อถ้าทำได้</p>
       </details>`;
-    };
-    return `<section class="similar">${sel.map((r, i) => one(r, i === 0)).join('')}</section>`;
+  }
+  const whoFor = sel => `<section class="similar">${sel.map((r, i) => whoOne(r, i === 0)).join('')}</section>`;
+  // the same text from a racket card, in a dialog; same-series rackets open their own
+  function showWho(id) {
+    let d = document.getElementById('whoDlg');
+    if (!d) {
+      d = document.createElement('dialog'); d.id = 'whoDlg'; d.className = 'whodlg';
+      document.body.append(d);
+      d.addEventListener('click', e => {
+        const w = e.target.closest('[data-who]');
+        if (w) showWho(w.dataset.who);
+        else if (e.target === d || e.target.closest('[data-close-who]')) d.close();
+      });
+    }
+    const r = byId('r', id); if (!r) return;
+    d.innerHTML = `<button class="btn sm ghost x-btn" type="button" data-close-who aria-label="ปิด">×</button>${whoOne(r, true, 'data-who')}<p>${shopee(r)}</p>`;
+    if (!d.open) d.showModal();
+    d.scrollTop = 0;
   }
 
   // ---------- shareable link ----------
@@ -880,6 +906,8 @@
     }
     if (!db.r.length || !db.s.length) { view.innerHTML = '<h1>จับคู่ไม้ + เอ็น</h1><p class="empty">ต้องมีข้อมูลไม้และเอ็นอย่างน้อยอย่างละ 1 รายการ</p>'; return; }
     // the first model picked on a compare page, sent here by its "to match" button
+    // a shared match link (#match?r=..&s=..&level=..) sets every choice it names
+    if (state.linkM) { for (const [k, v] of Object.entries(state.linkM)) if (k in state.m || ['cur', 'budget'].includes(k)) state.m[k] = v; state.linkM = null; }
     if (state.mPick) { const [k, id] = state.mPick; if (byId(k, id)) state.m[k] = id; state.mPick = null; }
     if (!byId('r', state.m.r)) state.m.r = db.r[0].id;
     if (!byId('s', state.m.s)) state.m.s = db.s[0].id;
@@ -888,6 +916,7 @@
 
     view.innerHTML = `
       <h1>จับคู่ไม้ + เอ็น</h1>
+      <p><button class="btn sm" type="button" data-mshare>แชร์ผลนี้</button> <span class="small muted">ลิงก์จำไม้ เอ็น และตัวเลือกทั้งหมด คนที่เปิดจะเห็นผลเดียวกัน</span></p>
       <p class="muted">เลือกไม้กับเอ็น บอกระดับและสไตล์ แล้วดูว่าเข้ากันแค่ไหนและควรขึ้นกี่ปอนด์</p>
       <div class="mpick">
         <div class="mcard" id="pick-r"></div>
@@ -943,6 +972,7 @@
       const b = e.target.closest('[data-pick]'); if (!b) return;
       const [kind, id] = b.dataset.pick.split(':'); choose(kind, id);
     });
+    view.querySelector('[data-mshare]').onclick = e => shareLink(e.currentTarget, 'แชร์ผลนี้');
     view.querySelector('#mopts').addEventListener('click', e => {
       const b = e.target.closest('[data-k]'); if (!b) return;
       state.m[b.dataset.k] = b.dataset.v;
@@ -962,6 +992,7 @@
     const game = state.m.game || 'doubles', arm = state.m.arm || 'none';
     const r = byId('r', state.m.r), s = byId('s', state.m.s);
     const res = score(r, s, level, style, shuttle, climate, game, arm);
+    history.replaceState(null, '', '#match?' + new URLSearchParams(Object.entries(state.m).filter(([, v]) => v)));
     const [vt, vc] = verdict(res.score);
     const allS = db.s.filter(x => x.id !== s.id).map(x => ({ x, ...score(r, x, level, style, shuttle, climate, game, arm) })).sort((a, b) => b.score - a.score || a.guess.length - b.guess.length);
     // rank by score less 2 points per racket spec that is a guess, so a racket whose specs are stated beats one guessed to tie it
@@ -1248,6 +1279,7 @@
     const [v0, qs] = location.hash.slice(1).split('?');
     const v = v0 || 'rackets';
     state.linkSel = new URLSearchParams(qs || '').get('c');
+    state.linkM = v === 'match' && qs ? Object.fromEntries(new URLSearchParams(qs)) : null;
     document.querySelectorAll('#tabs a').forEach(a => a.classList.toggle('on', a.dataset.v === v));
     tray.hidden = true;
     view.onclick = null;

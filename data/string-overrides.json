@@ -204,7 +204,7 @@
  "Victor VBS-70 Power": {
   "feature": "durability",
   "feel": "soft",
-  "src": "https://th.victorsport.com/product/vbs-70p"
+  "wordSrc": "https://th.victorsport.com/product/vbs-70p"
  },
  "Li-Ning N58": {
   "feature": "repulsion",
@@ -234,35 +234,55 @@
  "Victor VBS-69N": {
   "feature": "durability",
   "feel": "soft",
-  "src": "https://th.victorsport.com/product/"
+  "wordSrc": "https://th.victorsport.com/product/"
  },
  "Victor VBS-66 Nano": {
   "feature": "repulsion",
   "feel": "medium",
-  "src": "https://th.victorsport.com/product/"
+  "wordSrc": "https://th.victorsport.com/product/"
  },
  "Victor VBS-68P": {
   "feature": "control",
   "feel": "soft",
-  "src": "https://th.victorsport.com/product/"
+  "wordSrc": "https://th.victorsport.com/product/"
  },
  "Victor VBS-70": {
   "feature": "durability",
   "feel": "medium",
-  "src": "https://th.victorsport.com/product/"
+  "wordSrc": "https://th.victorsport.com/product/"
  },
  "Victor VBS-58N": {
   "feel": "medium",
-  "src": "https://th.victorsport.com/product/"
+  "wordSrc": "https://th.victorsport.com/product/"
  },
  "Victor VBS-63": {
   "feature": "repulsion",
   "feel": "medium",
-  "src": "https://th.victorsport.com/product/"
+  "wordSrc": "https://th.victorsport.com/product/"
  },
  "Victor VBS-61": {
   "feature": "repulsion",
   "feel": "medium",
-  "src": "https://th.victorsport.com/product/"
+  "wordSrc": "https://th.victorsport.com/product/"
+ },
+ "Li-Ning AP66": {
+  "repulsion": 9,
+  "control": 7,
+  "durability": 7,
+  "sound": 9,
+  "shock": 8,
+  "feature": "repulsion",
+  "ratingNote": "คะแนนจากหน้าสินค้า Li-Ning India (AP66 Rainbow) ส่วนคุมลูก 7 มาจากร้านค้า",
+  "src": "https://in.lining.studio/products/ap66-rainbow"
+ },
+ "Hundred JP65 Magnite": {
+  "repulsion": 10,
+  "control": 9,
+  "durability": 8.5,
+  "sound": 10,
+  "shock": 9.5,
+  "feature": "repulsion",
+  "ratingNote": "คะแนนจากร้าน Badminton Bay ไม่ใช่ตัวเลขผู้ผลิต",
+  "src": "https://www.badmintonbay.com/Racket-String/hundred-jp65-magnite-badminton-string.html"
  }
 }
