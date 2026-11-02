@@ -571,7 +571,7 @@
         <div id="rank"></div>
         <p class="small muted sheet-key">ช่องที่ขึ้น — คือยังไม่มีข้อมูล ช่องที่ไฮไลต์คือค่าที่ต่างกัน ค่าที่มี ≈ คือค่าประเมิน (จากซีรีส์ ราคา หรือความแข็งก้าน) ไม่ใช่ค่าที่ผู้ผลิตประกาศ</p>
         <div class="${state.hideSame ? 'hide-same' : ''}">${specTable(cfg.spec, sel)}</div>
-        ${kind === 'r' ? similar(sel) : ''}
+        ${kind === 'r' ? similar(sel) + whoFor(sel) : ''}
       </section>`;
     renderRank(kind);
     watchSheet();
@@ -592,6 +592,40 @@
         <span class="sim-n">${esc(full(x))}</span><span class="small muted">${[lab(x, 'balance'), L.flex[x.flex], x.price ? est(x, 'price') + baht(x.price) : ''].filter(Boolean).join(', ')}</span></button>`).join('')}</div>`;
     return `<section class="similar"><h3>ไม้ที่สเปกใกล้ ${esc(full(base))}</h3><p class="small muted">กดเพื่อเพิ่มเข้าตารางเทียบ</p>${row(alike)}
       ${cheaper.length ? `<h3>ใกล้กันแต่ถูกกว่า</h3>${row(cheaper)}` : ''}</section>`;
+  }
+
+  // ---------- plain-words "who is it for", one per picked racket, from the specs it has ----------
+  const W_TXT = {
+    flex: { flexible: 'ก้านอ่อน งอตัวช่วยดีดลูก ตีไกลได้ง่ายแม้สวิงไม่แรง เหมาะกับคนเริ่มเล่นหรือคนที่อยากถนอมแขน', medium: 'ก้านกลาง ให้ทั้งแรงดีดและความแม่นพอกัน ใช้ได้กับคนส่วนใหญ่', stiff: 'ก้านแข็ง ควบคุมทิศทางได้แม่นและตอบสนองไว แต่ต้องอาศัยความเร็วสวิงและการสะบัดข้อมือ เหมาะกับคนที่มีพื้นฐานดีแล้ว', 'extra-stiff': 'ก้านแข็งมาก แม่นและคมที่สุดแต่ไม่ช่วยดีดเลย ต้องสวิงเร็วและแรงจริง เหมาะกับผู้เล่นฝีมือสูง' },
+    balance: { 'head-light': 'หัวเบา สะบัดไว รับลูกและแลกลูกหน้าตาข่ายได้เร็ว แต่ลูกตบจะหนักน้อยกว่า', even: 'สมดุล ไม่หนักหัวไม่เบาหัว เล่นได้ทั้งบุกและรับ', 'head-heavy': 'หัวหนัก ลูกตบและลูกโยนหลังหนักแน่น แต่สะบัดช้ากว่าและล้าข้อมือเร็วกว่า' },
+  };
+  const W_FIT = {
+    style: { attack: 'คนที่ชอบตบและเล่นเกมบุกจากหลังคอร์ต', speed: 'คนที่ชอบแลกลูกเร็วและเล่นหน้าตาข่าย หรือเล่นคู่ตำแหน่งหน้า', control: 'คนที่เน้นวางลูกแม่นและคุมจังหวะเกม', allround: 'คนที่เล่นได้ทุกแบบ ทั้งบุก รับ และวางลูก' },
+    level: { beginner: 'มือใหม่ที่เพิ่งเริ่มตีหรือตีเป็นงานอดิเรก', intermediate: 'คนที่ตีเป็นประจำและเริ่มมีพื้นฐานแล้ว', advanced: 'คนที่สวิงเร็วและมีพื้นฐานดีแล้ว', pro: 'ผู้เล่นฝีมือสูงหรือนักกีฬาที่ตีแข่ง' },
+  };
+  const U_G = { '2U': '90–94', '3U': '85–89', '4U': '80–84', '5U': '75–79', '6U': '70–74' };
+  const series = x => x.name.split(/\s+/)[0].toLowerCase();
+  function whoFor(sel) {
+    const one = (r, open) => {
+      const e = f => est(r, f), parts = [];
+      const us = String(r.weights || '').match(/[2-6]U/g) || [];
+      if (us.length) parts.push(['น้ำหนัก', `${us.length > 1 ? 'มีให้เลือก ' : ''}${us.map(u => `${u} (ราว ${U_G[u]} กรัม)`).join(' และ ')} ตัวเลขหน้า U ยิ่งมากไม้ยิ่งเบา ไม้ที่หนักขึ้นให้ความนิ่งตอนกระทบลูกและส่งแรงได้มากกว่า แลกกับการสวิงที่ต้องใช้แรงมากขึ้น`]);
+      if (r.balance) parts.push(['สมดุลไม้', e('balance') + W_TXT.balance[r.balance]]);
+      if (r.flex) parts.push(['ความแข็งก้าน', e('flex') + W_TXT.flex[r.flex]]);
+      const cap = r.tension && r.tension[1];
+      if (cap) parts.push(['ความตึงเอ็น', `${e('tension') ? 'ประเมินว่า' : 'ผู้ผลิตประกาศว่า'}รับความตึงเอ็นได้สูงสุดราว ${cap} ปอนด์ ไม่จำเป็นต้องขึ้นเต็มเพดาน เอ็นที่ตึงน้อยกว่าจะส่งลูกได้ไกลกว่าและให้อภัยเวลาตีไม่โดนกลางหน้าไม้ ส่วนเอ็นตึงให้ความแม่นมากกว่าแต่ต้องตีให้โดนกลางหน้าไม้`]);
+      const fit = [W_FIT.style[r.style], W_FIT.level[r.level]].filter(Boolean);
+      const sib = db.r.filter(x => x.id !== r.id && x.brand === r.brand && series(x) === series(r)).slice(0, 6);
+      const desc = [r.style && `ในสาย${L.style[r.style]}`, r.flex && `เน้น${r.flex === 'flexible' ? 'ตีง่ายและแรงดีด' : r.balance === 'head-heavy' ? 'ลูกตบหนัก' : r.balance === 'head-light' ? 'ความไวในการสวิงและการแลกลูกเร็ว' : 'ความสมดุลระหว่างบุกกับรับ'}`, r.level && `เหมาะกับ${L.level[r.level]}`].filter(Boolean).join(' ');
+      return `<details class="who"${open ? ' open' : ''}><summary><h3>${esc(full(r))} เหมาะกับใคร</h3></summary>
+        <p>${esc(full(r))} เป็นไม้แบดมินตันจาก ${esc(r.brand)}${desc ? ' ' + desc : ''} ด้านล่างคือคำอธิบายสเปกแต่ละข้อว่ามีผลกับการตีจริงอย่างไร</p>
+        ${parts.length ? `<h4>อธิบายสเปกแบบเข้าใจง่าย</h4><dl>${parts.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}</dl>` : ''}
+        ${fit.length ? `<h4>ไม้รุ่นนี้น่าจะเหมาะกับ</h4><ul>${fit.map(f => `<li>${f}</li>`).join('')}</ul>` : ''}
+        ${sib.length ? `<h4>ไม้ซีรีส์เดียวกันที่น่าเทียบ</h4><div class="simrow">${sib.map(x => `<button type="button" class="sim" data-add="${esc(x.id)}"><span class="sim-n">${esc(full(x))}</span><span class="small muted">${[x.style && 'สาย' + L.style[x.style], x.price ? est(x, 'price') + baht(x.price) : ''].filter(Boolean).join(', ')}</span></button>`).join('')}</div>` : ''}
+        <p class="small muted">สรุปจากสเปกที่ผู้ผลิตประกาศ ค่าที่มี ≈ คือค่าประเมิน ความรู้สึกตอนตีจริงขึ้นกับเอ็น ความตึง และสไตล์ของแต่ละคน ควรลองจับไม้จริงก่อนซื้อถ้าทำได้</p>
+      </details>`;
+    };
+    return `<section class="similar">${sel.map((r, i) => one(r, i === 0)).join('')}</section>`;
   }
 
   // ---------- shareable link ----------

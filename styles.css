@@ -481,6 +481,12 @@ body { font-size: var(--text-md); }
 .hide-same tr.same { display: none; }
 [data-same][aria-pressed="true"] { background: var(--color-ink); color: var(--color-paper); }
 .similar { margin-top: var(--space-lg); }
+.who { margin-top: var(--space-md); }
+.who summary { cursor: pointer; }
+.who summary h3 { display: inline; }
+.who h4 { margin: var(--space-sm) 0 var(--space-xs); }
+.who dt { font-weight: 600; margin-top: var(--space-xs); }
+.who dd { margin: 0; }
 .similar h3 { margin-top: var(--space-sm); }
 .simrow { display: grid; gap: var(--space-xs); grid-template-columns: repeat(auto-fill, minmax(min(100%, 13rem), 1fr)); margin-top: var(--space-xs); }
 .sim { display: grid; grid-template-columns: 48px minmax(0, 1fr); grid-template-rows: auto auto; column-gap: var(--space-xs); align-items: center; text-align: left;
