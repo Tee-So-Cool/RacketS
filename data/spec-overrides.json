@@ -2935,5 +2935,69 @@
   "frame": "Aluminium",
   "shaft": "Steel",
   "src": "https://shop.kibisports.com/products/yonex-gr-303-badminton-racquet (Aluminum frame, high-tensile steel shaft)"
+ },
+ "Victor Thruster K 110": {
+  "price": 1680,
+  "priceNote": "ราคาปกติ 1,680 บาท จากโพสต์ร้าน Sportsmaax รามอินทรา (Facebook) ราว 5 ปีก่อน รุ่นนี้ไม่มีในเว็บ Victor ไทยแล้ว",
+  "priceSrc": "https://www.google.com/search?q=\"Victor+Thruster+K+110\"+ราคา+บาท",
+  "estFields": [
+   "price"
+  ]
+ },
+ "Victor Auraspeed 70F": {
+  "price": 4190,
+  "priceNote": "4,190 บาท แถมเอ็น กริป ซอง จากโพสต์ร้านใน Facebook ราว 7 ปีก่อน",
+  "priceSrc": "https://www.google.com/search?q=\"Victor+Auraspeed+70F\"+ราคา+บาท",
+  "estFields": [
+   "price"
+  ]
+ },
+ "Victor Drivex 8K": {
+  "price": 4400,
+  "priceNote": "4,400 บาท แถมเอ็น กริป ซอง จากร้านใน Shopee ราว 5 ปีก่อน",
+  "priceSrc": "https://www.google.com/search?q=\"Victor+Drivex+8K\"+ราคา+บาท",
+  "estFields": [
+   "price"
+  ]
+ },
+ "Victor Dx-kt": {
+  "price": 2980,
+  "priceNote": "2,980 บาท รุ่นพิเศษ Victor x Hello Kitty จากโพสต์ร้านใน Facebook",
+  "priceSrc": "https://www.google.com/search?q=\"Victor+Dx-kt\"+ราคา+บาท",
+  "estFields": [
+   "price"
+  ]
+ },
+ "Victor Jetspeed S 12": {
+  "price": 2990,
+  "priceNote": "2,990 บาท ของรุ่น Jetspeed S 12 TD จากโพสต์ร้านใน Facebook ราว 1 ปีก่อน",
+  "priceSrc": "https://www.google.com/search?q=\"Victor+Jetspeed+S+12\"+ราคา+บาท",
+  "estFields": [
+   "price"
+  ]
+ },
+ "Victor Jetspeed S 7000": {
+  "price": 1590,
+  "priceNote": "1,590 บาท ของรุ่น Jetspeed S 7000 HT จากร้าน badtennisbangsean (Facebook)",
+  "priceSrc": "https://www.google.com/search?q=\"Victor+Jetspeed+S+7000\"+ราคา+บาท",
+  "estFields": [
+   "price"
+  ]
+ },
+ "Victor Thruster K 220H": {
+  "price": 1990,
+  "priceNote": "1,990 บาท ของรุ่น Thruster K 220H II จากโพสต์ร้านใน Facebook",
+  "priceSrc": "https://www.google.com/search?q=\"Victor+Thruster+K+220H\"+ราคา+บาท",
+  "estFields": [
+   "price"
+  ]
+ },
+ "Victor Thruster K 770HT": {
+  "price": 2890,
+  "priceNote": "2,890 บาท จากโพสต์ร้านใน Facebook",
+  "priceSrc": "https://www.google.com/search?q=\"Victor+Thruster+K+770HT\"+ราคา+บาท",
+  "estFields": [
+   "price"
+  ]
  }
 }

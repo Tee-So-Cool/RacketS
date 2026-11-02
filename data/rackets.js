@@ -24068,7 +24068,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "medium",
-  "level": "",
+  "level": "advanced",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -24077,7 +24077,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
-  "price": "",
+  "price": 4190,
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + 6.8 SHAFT",
   "joint": "",
@@ -24100,13 +24100,15 @@ window.RACKETS = [
     "url": "https://th.victorsport.com/product/auraspeed-70f"
    }
   ],
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "4,190 บาท แถมเอ็น กริป ซอง จากโพสต์ร้านใน Facebook ราว 7 ปีก่อน",
+  "priceSrc": "https://www.google.com/search?q=\"Victor+Auraspeed+70F\"+ราคา+บาท",
   "note": "",
   "est": [
    "flex",
+   "price",
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -26729,7 +26731,7 @@ window.RACKETS = [
   "style": "allround",
   "balance": "even",
   "flex": "",
-  "level": "",
+  "level": "advanced",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -26738,7 +26740,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 29, 4U ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
-  "price": "",
+  "price": 4400,
   "frame": "High Resilience Modulus Graphite + NANO FORTIFY TR + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL+7.0 SHAFT",
   "joint": "",
@@ -26761,12 +26763,14 @@ window.RACKETS = [
     "url": "https://th.victorsport.com/product/drivex-8k-f"
    }
   ],
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "4,400 บาท แถมเอ็น กริป ซอง จากร้านใน Shopee ราว 5 ปีก่อน",
+  "priceSrc": "https://www.google.com/search?q=\"Victor+Drivex+8K\"+ราคา+บาท",
   "note": "",
   "est": [
+   "price",
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -26894,7 +26898,7 @@ window.RACKETS = [
   "style": "allround",
   "balance": "even",
   "flex": "",
-  "level": "",
+  "level": "intermediate",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -26903,7 +26907,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": "",
+  "price": 2980,
   "frame": "High Resilience Modulus Graphite + NANO FORTIFY TR",
   "shaft": "High Resilience Modulus Graphite +NANO FORTIFY TR+6.8 SHAFT",
   "joint": "",
@@ -26926,12 +26930,14 @@ window.RACKETS = [
     "url": "https://th.victorsport.com/product/drive-x-kt-a"
    }
   ],
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "2,980 บาท รุ่นพิเศษ Victor x Hello Kitty จากโพสต์ร้านใน Facebook",
+  "priceSrc": "https://www.google.com/search?q=\"Victor+Dx-kt\"+ราคา+บาท",
   "note": "",
   "est": [
+   "price",
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -27251,7 +27257,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "intermediate",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -27260,7 +27266,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
-  "price": "",
+  "price": 2990,
   "frame": "High Resilient Modulus Graphite +  HARD CORED TECHNOLOGY + TERS",
   "shaft": "High Resilient Modulus Graphite + PYROFIL + TERS + 6.8 SHAFT",
   "joint": "",
@@ -27283,10 +27289,11 @@ window.RACKETS = [
     "url": "https://th.victorsport.com/product/jetspeed-s-12-m"
    }
   ],
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "2,990 บาท ของรุ่น Jetspeed S 12 TD จากโพสต์ร้านใน Facebook ราว 1 ปีก่อน",
+  "priceSrc": "https://www.google.com/search?q=\"Victor+Jetspeed+S+12\"+ราคา+บาท",
   "note": "",
   "est": [
+   "price",
    "balance",
    "style",
    "level",
@@ -27769,7 +27776,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "",
-  "level": "",
+  "level": "beginner",
   "weights": "4U, 5U",
   "weight": 83,
   "grips": "G5",
@@ -27778,7 +27785,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 5U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
-  "price": "",
+  "price": 1590,
   "frame": "Graphite+Resin",
   "shaft": "Graphite+Resin+7.0 SHAFT",
   "joint": "",
@@ -27801,12 +27808,14 @@ window.RACKETS = [
     "url": "https://th.victorsport.com/product/jetspeed-s-7000-c"
    }
   ],
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "1,590 บาท ของรุ่น Jetspeed S 7000 HT จากร้าน badtennisbangsean (Facebook)",
+  "priceSrc": "https://www.google.com/search?q=\"Victor+Jetspeed+S+7000\"+ราคา+บาท",
   "note": "",
   "est": [
+   "price",
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -29403,7 +29412,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "beginner",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -29412,7 +29421,7 @@ window.RACKETS = [
    24
   ],
   "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 24, 4U ≤ 23 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
-  "price": "",
+  "price": 1680,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.0 SHAFT",
   "joint": "",
@@ -29435,10 +29444,11 @@ window.RACKETS = [
     "url": "https://th.victorsport.com/product/thruster-k-13"
    }
   ],
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "ราคาปกติ 1,680 บาท จากโพสต์ร้าน Sportsmaax รามอินทรา (Facebook) ราว 5 ปีก่อน รุ่นนี้ไม่มีในเว็บ Victor ไทยแล้ว",
+  "priceSrc": "https://www.google.com/search?q=\"Victor+Thruster+K+110\"+ราคา+บาท",
   "note": "",
   "est": [
+   "price",
    "balance",
    "style",
    "level",
@@ -29516,7 +29526,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "beginner",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5",
@@ -29525,7 +29535,7 @@ window.RACKETS = [
    36
   ],
   "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 36, 4U ≤ 35 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
-  "price": "",
+  "price": 1990,
   "frame": "Graphite+Resin+Fiber Reinforced System(FRS)",
   "shaft": "Graphite+Resin+7.0 SHAFT",
   "joint": "",
@@ -29548,10 +29558,11 @@ window.RACKETS = [
     "url": "https://th.victorsport.com/product/thruster-k-220h-f"
    }
   ],
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "1,990 บาท ของรุ่น Thruster K 220H II จากโพสต์ร้านใน Facebook",
+  "priceSrc": "https://www.google.com/search?q=\"Victor+Thruster+K+220H\"+ราคา+บาท",
   "note": "",
   "est": [
+   "price",
    "balance",
    "style",
    "level",
@@ -29760,7 +29771,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "intermediate",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -29769,7 +29780,7 @@ window.RACKETS = [
    33
   ],
   "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 33, 4U ≤ 32 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
-  "price": "",
+  "price": 2890,
   "frame": "High Resilience Modulus Graphite + Nano Resin + Fiber Reinforced System(FRS) + HARD CORED TECHNOLOGY",
   "shaft": "High Modulus Graphite  + Nano Resin + 7.0SHAFT",
   "joint": "",
@@ -29792,10 +29803,11 @@ window.RACKETS = [
     "url": "https://th.victorsport.com/product/thruster-k-770ht"
    }
   ],
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "2,890 บาท จากโพสต์ร้านใน Facebook",
+  "priceSrc": "https://www.google.com/search?q=\"Victor+Thruster+K+770HT\"+ราคา+บาท",
   "note": "",
   "est": [
+   "price",
    "balance",
    "style",
    "level",

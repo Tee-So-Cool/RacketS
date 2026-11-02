@@ -150,7 +150,7 @@ for y in yx:
 # ---- manual spec lookups (data/spec-overrides.json): "Brand Model" -> fields + src ----
 def apply_override(r, o):
     for f, v in o.items():
-        if f in ('src', 'new', 'brand', 'currency') or v in ('', None): continue
+        if f in ('src', 'new', 'brand', 'currency', 'estFields') or v in ('', None): continue
         if f == 'priceForeign':
             r['priceForeign'] = {'amount': v, 'currency': o.get('currency', 'USD'), 'src': o.get('src', '')}
         elif f == 'tmax':
@@ -160,7 +160,10 @@ def apply_override(r, o):
         else:
             r[f] = v
             if f in r.get('est', []): r['est'].remove(f)
-    r['specSrc'] = o.get('src', '')
+    # a value read off an old post or a variant's listing stays marked as an estimate
+    for f in o.get('estFields', []):
+        if f not in r.setdefault('proseEst', []): r['proseEst'].append(f)  # becomes est at the series step
+    if o.get('src'): r['specSrc'] = o['src']
 
 # first pass; names the Thai-shop layer creates later get a second pass after it
 deferred = []
