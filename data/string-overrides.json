@@ -284,5 +284,25 @@
   "feature": "repulsion",
   "ratingNote": "คะแนนจากร้าน Badminton Bay ไม่ใช่ตัวเลขผู้ผลิต",
   "src": "https://www.badmintonbay.com/Racket-String/hundred-jp65-magnite-badminton-string.html"
+ },
+ "Li-Ning AP70": {
+  "repulsion": 7,
+  "control": 8,
+  "durability": 9,
+  "sound": 7,
+  "shock": 7,
+  "feature": "durability",
+  "ratingNote": "คะแนนจากหน้าสินค้า Li-Ning India (AP70 Rainbow)",
+  "src": "https://in.lining.studio/product/ap70-rainbow"
+ },
+ "Hundred JP 58 Magnite": {
+  "repulsion": 10,
+  "control": 9,
+  "durability": 7.5,
+  "sound": 10,
+  "shock": 9,
+  "feature": "repulsion",
+  "ratingNote": "คะแนนจากร้าน Badminton Bay ไม่ใช่ตัวเลขผู้ผลิต",
+  "src": "https://www.badmintonbay.com/hundred-jp58-magnite-badminton-string.html"
  }
 }

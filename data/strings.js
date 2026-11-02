@@ -253,11 +253,11 @@ window.STRINGS = [
   "gauge": 0.58,
   "gaugeText": "",
   "material": "mono",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 10,
+  "control": 9,
+  "durability": 7.5,
+  "sound": 10,
+  "shock": 9,
   "tensionMax": "",
   "price": 400,
   "colors": "",
@@ -266,7 +266,7 @@ window.STRINGS = [
   "img": "https://cdn.shopify.com/s/files/1/0723/9035/files/Hundred_JP58_Magnite_Badminton_String_HBAA-4M009_Black_YumoProShop.png?v=1792004756",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonbay.com/hundred-jp58-magnite-badminton-string.html",
   "shopLinks": [
    {
     "shop": "yumo.ca",
@@ -279,10 +279,10 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก C$16.50 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/hundred-jp-58-magnite-badminton-string",
-  "feature": "",
+  "feature": "repulsion",
   "feel": "",
   "wordSrc": "",
-  "ratingNote": "",
+  "ratingNote": "คะแนนจากร้าน Badminton Bay ไม่ใช่ตัวเลขผู้ผลิต",
   "est": [
    "price"
   ]
@@ -677,11 +677,11 @@ window.STRINGS = [
   "gauge": "",
   "gaugeText": "",
   "material": "braided",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 7,
+  "control": 8,
+  "durability": 9,
+  "sound": 7,
+  "shock": 7,
   "tensionMax": "",
   "price": 110,
   "colors": "",
@@ -690,7 +690,7 @@ window.STRINGS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/1_2c45c1bdd9.jpg?v=1752147338",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://in.lining.studio/product/ap70-rainbow",
   "shopLinks": [
    {
     "shop": "sg.lining.studio",
@@ -703,10 +703,10 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก ₹299.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/ap70-rainbow",
-  "feature": "",
+  "feature": "durability",
   "feel": "",
   "wordSrc": "",
-  "ratingNote": "",
+  "ratingNote": "คะแนนจากหน้าสินค้า Li-Ning India (AP70 Rainbow)",
   "est": [
    "price"
   ]
