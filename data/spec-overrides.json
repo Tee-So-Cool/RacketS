@@ -2281,7 +2281,8 @@
  "Victor Auraspeed 3100": {
   "weights": "4U",
   "price": 1390,
-  "src": "https://www.badmintonplaza.com/index.php?cPath=53_168&currency=THB"
+  "src": "karkkainen.com: Flex flexible",
+  "flex": "flexible"
  },
  "Victor Auraspeed 90K II TD": {
   "balance": "head-light",
@@ -3020,7 +3021,9 @@
   "priceSrc": "https://www.google.com/search?q=\"Victor+Drivex+8K\"+ราคา+บาท",
   "estFields": [
    "price"
-  ]
+  ],
+  "flex": "medium",
+  "src": "badmintonracketfinder.com: slightly head heavy, medium shaft, 3U/4U"
  },
  "Victor Dx-kt": {
   "price": 2980,
@@ -3132,5 +3135,16 @@
    "balance"
   ],
   "src": "Nanoflare series is head-light (Yonex); Thai reviews describe the 700 as a light, fast speed racket"
+ },
+ "Victor Drivex 5H": {
+  "flex": "medium",
+  "estFields": [
+   "flex"
+  ],
+  "src": "tennisnuts.com and badmintonbites.com: even balance, medium shaft flex"
+ },
+ "Victor Thruster K 330": {
+  "weights": "3U, 4U",
+  "src": "tennisnuts.com: 4U (80-84g); just-badminton.co.uk: 3U (85-89g); shops disagree on flex (Extra Flexible vs Medium Stiff), so flex is left empty"
  }
 }
