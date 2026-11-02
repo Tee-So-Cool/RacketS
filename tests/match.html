@@ -29,6 +29,7 @@ const cases = [
   ['ถนอมข้อมือ: เอ็นนุ่ม VBS-70 Power ดีกว่าเอ็นแข็ง VBS-68', () => sc('Victor Thruster K 110', 'Victor VBS-70 Power', 'intermediate', 'attack', { arm: 'care' }).score > sc('Victor Thruster K 110', 'Victor VBS-68', 'intermediate', 'attack', { arm: 'care' }).score],
   ['เอ็นที่มีคะแนนจริงไม่ถูกนับเป็นค่าประเมิน (No.3 Boost)', () => !sc('Li-Ning Axforce 80', 'Li-Ning No.3 Boost', 'advanced', 'attack').guess.some(g => g.includes('ของเอ็น'))],
   ['สายคอนโทรล: Arcsaber 11 Pro ดีกว่า Astrox 100ZZ', () => sc('Yonex Arcsaber 11 Pro', 'Yonex BG80', 'advanced', 'control').score > sc('Yonex Astrox 100ZZ', 'Yonex BG80', 'advanced', 'control').score],
+  ['มือใหม่: ช่วง 26-38 lbs ของ VS ไม่บังคับให้ขึ้น 26', () => sc('VS Kriss Sword XP Pro', 'Yonex BG65', 'beginner', 'allround').tension < 26],
   ['ทุกไม้: คะแนน 0-100 และความตึงไม่เกินเพดานไม้', () => RACKETS.every(r => { for (const lv of ['beginner', 'pro']) {
       const x = score(r, S('Yonex BG66 Ultimax'), lv, 'attack'); const max = r.tension ? r.tension[1] : 30;
       if (!(x.score >= 0 && x.score <= 100) || x.tension > max) { console.log('bad', r.name, lv, x); return false; } } return true; })],

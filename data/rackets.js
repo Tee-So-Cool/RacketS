@@ -21525,7 +21525,7 @@ window.RACKETS = [
   "brand": "VS",
   "name": "Kriss Sword XP Pro",
   "year": "",
-  "style": "attack",
+  "style": "control",
   "balance": "head-heavy",
   "flex": "medium",
   "level": "advanced",
@@ -21550,7 +21550,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/vs-kriss-sword-xp-pro-1-300x300.jpg",
   "source": "https://chobbad.com/racket/vs-kriss-sword-xp-pro/",
   "officialUrl": "",
-  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4794",
+  "specSrc": "https://vssportsthailand.com/blogs/ข่าวสาร",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4884",
   "bayUrl": "",
   "clickUrl": "",
@@ -21566,7 +21566,7 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "VS Sports Thailand (10 ส.ค. 2026): 4U/G6, balance 305±3 mm, ก้าน 6840 HPX + Torayca M40X นุ่มขึ้น ดีดดีขึ้น เด่นด้าน Control + Stability มากกว่าบุกต่อเนื่อง",
   "est": [
    "level"
   ]
@@ -23290,7 +23290,7 @@ window.RACKETS = [
    null,
    27
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 28, 3U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 28, 4U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2990,
   "frame": "High ResilienceModulus Graphite+Nano Fortify TR＋",
   "shaft": "High ResilienceModulus Graphite+PYROFIL+6.8 SHAFT",
@@ -24029,7 +24029,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 5U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 5U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 1390,
   "frame": "Graphite +Resin",
   "shaft": "Graphite +Resin +7.0 SHAFT",
@@ -24074,7 +24074,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 5U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 5U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 1390,
   "frame": "Graphite +Resin",
   "shaft": "Graphite +Resin +7.0 SHAFT",
@@ -24268,7 +24268,7 @@ window.RACKETS = [
    null,
    31
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 5U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 5U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 1790,
   "frame": "High Resilience Graphite + Nano Resin",
   "shaft": "High Resilience Graphite + Nano Resin + 7.0 SHAFT",
@@ -24380,7 +24380,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 5U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 5U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 1990,
   "frame": "High Resilience Modulus Graphite + Nano Resin",
   "shaft": "High Resilience Modulus Graphite + Nano Resin + 7.0 SHAFT",
@@ -24656,7 +24656,7 @@ window.RACKETS = [
    null,
    27
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 28, 3U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 28, 4U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2200,
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR + Hard Cored Technology",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
@@ -24712,7 +24712,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 31, 3U ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 31, 4U ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 5590,
   "frame": "High Resilience Modulus Graphite+Metallic Carbon Fiber+Nano Fortify TR+",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
@@ -24893,7 +24893,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "stiff",
-  "level": "intermediate",
+  "level": "advanced",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5",
@@ -24920,8 +24920,8 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "ราคาร้านไทย (Kenwu Sports, Wattanasarn Badminton) แถมเอ็น กริป ซอง; Shopee ฿3,590",
+  "priceSrc": "https://www.google.com/search?q=%22AURORA+ULTRA%22+victor+ราคา",
   "note": "ARS-AURORA Ultra เปิดตัวในไทย 16 ต.ค. 2026 (VICTOR SPORT THAILAND) ร้านเล่าว่าผสมระหว่าง 100X Ultra กับ HS Plus; ความตึงสูงสุด: Kenwu Sports ระบุ 3U ≤31 / 4U ≤30 lbs อีกร้านระบุ ≤29 lbs",
   "est": [
    "tension",
@@ -25099,7 +25099,7 @@ window.RACKETS = [
    null,
    32
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 3U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 5390,
   "frame": "High ResilienceModulus Graphite+NANO AEROGEL+PBO High Performance Fiber+HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite+PBO High Performance Fiber+PYROFIL+6.8 SHAFT",
@@ -26233,7 +26233,7 @@ window.RACKETS = [
    null,
    28
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 29, 3U ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 29, 4U ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 5290,
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR＋ + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.6 SHAFT METALLIC CARBON SHAFT",
@@ -26306,7 +26306,7 @@ window.RACKETS = [
    null,
    32
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 33, 3U ≤ 32 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 33, 4U ≤ 32 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 5990,
   "frame": "High Resilience Modulus Graphite+PYROFIL 46T+Nano Fortify TR+NANO AEROGEL+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+Metallic Carbon Fiber+PYROFIL+6.6 SHAFT",
@@ -26631,7 +26631,7 @@ window.RACKETS = [
    null,
    28
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 29, 3U ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 29, 4U ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 4390,
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": ":High Resilience Modulus Graphite + Metallic Carbon Fiber + PYROFIL + 6.6 SHAFT",
@@ -26691,7 +26691,7 @@ window.RACKETS = [
    null,
    29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 3U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 4600,
   "frame": "High Resilience Graphite + Nano Fortify SR + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Graphite + PYROFIL + 6.6 SHAFT",
@@ -29014,7 +29014,7 @@ window.RACKETS = [
    null,
    28
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 6U ≤ 28, 5U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 5U ≤ 28, 6U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2190,
   "frame": "Graphite+Resin",
   "shaft": "Graphite+Resin+7.0 SHAFT",
@@ -29199,7 +29199,7 @@ window.RACKETS = [
    null,
    28
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 6U ≤ 28, 5U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 5U ≤ 28, 6U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2000,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 6.8 SHAFT",
@@ -30307,7 +30307,7 @@ window.RACKETS = [
    null,
    29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 3U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 4900,
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.6 SHAFT",
@@ -30851,7 +30851,7 @@ window.RACKETS = [
    null,
    29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 3U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2790,
   "frame": "High Resilience Modulus Graphite+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus GraphiteL+6.8 SHAFT",
@@ -30888,20 +30888,20 @@ window.RACKETS = [
   "id": "victor-thruster-ryuga-iii",
   "brand": "Victor",
   "name": "Thruster Ryuga III",
-  "year": "",
+  "year": 2026,
   "style": "attack",
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "pro",
-  "weights": "5U, 4U",
+  "weights": "4U, 5U",
   "weight": 82,
   "grips": "G5",
   "tension": [
    null,
-   32
+   31
   ],
-  "tensionNote": "",
-  "price": 7770,
+  "tensionNote": "ร้านไทยระบุ 4U ≤ 32, 5U ≤ 31 lbs (Lazada) อีกร้านพิมพ์เป็น 3U ≤ 32 / 4U ≤ 31 แต่รุ่นนี้มีแค่ 4U กับ 5U",
+  "price": 5990,
   "frame": "High Resilience Modulus Graphite + Hard Cored Technology + 46T Pyrofil + Nano Fortify TR+ + Metallic Carbon Fiber + Nano Aerogel",
   "shaft": "High Resilience Modulus Graphite + 46T Pyrofil + Metallic Carbon Fiber + 6.5 Shaft",
   "joint": "",
@@ -30914,7 +30914,7 @@ window.RACKETS = [
   "img": "https://www.badmintonwarehouse.com/cdn/shop/files/victor-ryuga-iii-cq-racket-full_700x700.webp?v=1791997642",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://www.badmintonwarehouse.com/products/victor-thruster-ryuga-iii-cq-badminton-racket",
+  "specSrc": "https://www.google.com/search?q=%22Ryuga+III%22+victor+lbs",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "https://badmintonclick.com.au/products/new-2027-victor-thruster-ryuga-3-78-grams-badminton-racquet",
@@ -30940,11 +30940,10 @@ window.RACKETS = [
     "url": "https://tenniszon.com/products/victor-thruster-ryuga-iii-cq-unstrung-black-red"
    }
   ],
-  "priceNote": "แปลงจาก US$230.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://www.badmintonwarehouse.com/products/victor-thruster-ryuga-iii-cq-badminton-racket",
+  "priceNote": "ราคาร้านไทย TT CAFE Badminton Shop (Facebook) ช่วงเปิดตัว",
+  "priceSrc": "https://www.google.com/search?q=%22Ryuga+III%22+victor+ราคา",
   "note": "",
   "est": [
-   "price",
    "level"
   ]
  },
@@ -31015,7 +31014,7 @@ window.RACKETS = [
    null,
    31
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 32, 3U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 5790,
   "frame": "High ResilienceModulus Graphite + HARD CORED TECHNOLOGY + Metallic Carbon Fiber",
   "shaft": "High ResilienceModulus Graphite + PYROFIL + 6.8 SHAFT",
@@ -31159,12 +31158,12 @@ window.RACKETS = [
   "id": "victor-thruster-ryuga-muse-ii",
   "brand": "Victor",
   "name": "Thruster Ryuga Muse II",
-  "year": "",
+  "year": 2026,
   "style": "attack",
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "5U",
+  "weights": "4U, 5U",
   "weight": 78,
   "grips": "G6",
   "tension": [
@@ -31172,7 +31171,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 6390,
+  "price": 5590,
   "frame": "High Resilience Modulus Graphite, Hard Cored Technology",
   "shaft": "High Resilience Modulus Graphite, PYROFIL, 6.6 Shaft",
   "joint": "",
@@ -31185,7 +31184,7 @@ window.RACKETS = [
   "img": "https://www.badmintonwarehouse.com/cdn/shop/files/victor-ryuga-muse-ii-tj-02-clean_700x700.jpg?v=1790875934",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://badmintonclick.com.au/products/new-2026-victor-thruster-ryuga-muse-ii-nightshade-purple-78-grams-badminton-racquet",
+  "specSrc": "https://www.google.com/search?q=%22Ryuga+Muse+II%22+victor+ราคา",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "https://badmintonclick.com.au/products/new-2026-victor-thruster-ryuga-muse-ii-nightshade-purple-78-grams-badminton-racquet",
@@ -31211,12 +31210,11 @@ window.RACKETS = [
     "url": "https://centralsports.co.uk/products/victor-thruster-ryuga-muse-ii-tj-badminton-racket-450142"
    }
   ],
-  "priceNote": "แปลงจาก A$269.00 ที่ 1 AUD = 23.747 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://badmintonclick.com.au/products/new-2026-victor-thruster-ryuga-muse-ii-nightshade-purple-78-grams-badminton-racquet",
+  "priceNote": "ราคาร้านไทย Kenwu Sports และ next5badminton.com (ประกันศูนย์ไทย)",
+  "priceSrc": "http://next5badminton.com",
   "note": "",
   "est": [
    "style",
-   "price",
    "level"
   ]
  },
@@ -31236,7 +31234,7 @@ window.RACKETS = [
    null,
    29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 3U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2890,
   "frame": "High ResilienceModulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + 6.8 SHAFT",
@@ -31487,7 +31485,7 @@ window.RACKETS = [
    null,
    31
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 32, 3U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 2890,
   "frame": "High Resilience Graphite + NanoResin HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Graphite + PYROFIL + 6.6 SHAFT",

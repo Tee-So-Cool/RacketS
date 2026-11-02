@@ -597,7 +597,7 @@ for r in rackets.values():
         if not o: continue
         caps = sorted({int(n) for n in re.findall(r'[≦≤]\s*(\d{2})\s*lbs', ' '.join(o['lines']))}, reverse=True)
         if len(caps) > 1:
-            us = re.findall(r'[2-7]U', r.get('weights', ''))
+            us = sorted(set(re.findall(r'[2-7]U', r.get('weights', ''))))  # heaviest first, like the caps
             pairs = [f'{u} ≤ {c}' for u, c in zip(us, caps)] if len(us) == len(caps) else [f'≤ {c}' for c in caps]
             r['tensionNote'] = 'ผู้ผลิตแยกตามน้ำหนัก: ' + ', '.join(pairs) + ' lbs (ไม้หนักกว่ารับได้ตึงกว่า)'
             per_class += 1

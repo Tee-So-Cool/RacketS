@@ -686,7 +686,9 @@
  },
  "VS Kriss Sword XP Pro": {
   "price": 5390,
-  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4794"
+  "src": "https://vssportsthailand.com/blogs/ข่าวสาร",
+  "style": "control",
+  "note": "VS Sports Thailand (10 ส.ค. 2026): 4U/G6, balance 305±3 mm, ก้าน 6840 HPX + Torayca M40X นุ่มขึ้น ดีดดีขึ้น เด่นด้าน Control + Stability มากกว่าบุกต่อเนื่อง"
  },
  "VS Panlong": {
   "price": 2590,
@@ -703,14 +705,18 @@
  "Victor Thruster Ryuga Muse II": {
   "new": true,
   "brand": "Victor",
-  "weights": "5U",
+  "weights": "4U, 5U",
   "weight": 78,
   "tmax": 30,
-  "src": "https://badmintonclick.com.au/products/new-2026-victor-thruster-ryuga-muse-ii-nightshade-purple-78-grams-badminton-racquet",
+  "src": "https://www.google.com/search?q=%22Ryuga+Muse+II%22+victor+ราคา",
   "img": "https://www.badmintonwarehouse.com/cdn/shop/files/victor-ryuga-muse-ii-tj-02-clean_700x700.jpg?v=1790875934",
   "balance": "head-heavy",
   "priceForeign": 269.0,
-  "currency": "AUD"
+  "currency": "AUD",
+  "price": 5590,
+  "priceNote": "ราคาร้านไทย Kenwu Sports และ next5badminton.com (ประกันศูนย์ไทย)",
+  "priceSrc": "http://next5badminton.com",
+  "year": 2026
  },
  "Victor Thruster K Alpha": {
   "new": true,
@@ -832,13 +838,22 @@
   "style": "attack",
   "balance": "head-heavy",
   "flex": "stiff",
-  "weights": "5U, 4U",
+  "weights": "4U, 5U",
   "weight": 82,
-  "tmax": 32,
-  "src": "https://www.badmintonwarehouse.com/products/victor-thruster-ryuga-iii-cq-badminton-racket",
+  "tmax": 31,
+  "src": "https://www.google.com/search?q=%22Ryuga+III%22+victor+lbs",
   "img": "https://www.badmintonwarehouse.com/cdn/shop/files/victor-ryuga-iii-cq-racket-full_700x700.webp?v=1791997642",
   "priceForeign": 230.0,
-  "currency": "USD"
+  "currency": "USD",
+  "price": 5990,
+  "priceNote": "ราคาร้านไทย TT CAFE Badminton Shop (Facebook) ช่วงเปิดตัว",
+  "priceSrc": "https://www.google.com/search?q=%22Ryuga+III%22+victor+ราคา",
+  "year": 2026,
+  "tensionNote": "ร้านไทยระบุ 4U ≤ 32, 5U ≤ 31 lbs (Lazada) อีกร้านพิมพ์เป็น 3U ≤ 32 / 4U ≤ 31 แต่รุ่นนี้มีแค่ 4U กับ 5U",
+  "level": "pro",
+  "estFields": [
+   "level"
+  ]
  },
  "Victor Auraspeed 100X": {
   "weights": "4U, 3U",
@@ -2821,7 +2836,13 @@
   "src": "https://www.google.com/search?q=%22AURORA+ULTRA%22+victor+%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%81%E0%B8%82%E0%B9%87%E0%B8%87",
   "proseEst": [
    "tension"
-  ]
+  ],
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "priceNote": "ราคาร้านไทย (Kenwu Sports, Wattanasarn Badminton) แถมเอ็น กริป ซอง; Shopee ฿3,590",
+  "priceSrc": "https://www.google.com/search?q=%22AURORA+ULTRA%22+victor+ราคา"
  },
  "Yonex Astrox 55A": {
   "new": true,

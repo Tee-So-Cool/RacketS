@@ -871,7 +871,12 @@
       t = cap - 1;
       if (cap - 1 < bLo) { pS -= 15; wn(`เพดาน ${cap} lbs ต่ำกว่าช่วงที่${L.level[level]}มักใช้ (${bLo}–${bHi} lbs)`); }
     }
-    if (tmin && t < tmin) { steps.push([`ไม่ต่ำกว่าค่าต่ำสุดของไม้ ${tmin} lbs`, Math.min(tmin, cap) - t]); t = Math.min(tmin, cap); }
+    // a low end of 22 lbs or less is a stringing range (Yonex 19-27); a high one ("26-38 lbs") is what the frame
+    // is rated for, and stringing below it is safe, so it only earns a note
+    if (tmin && t < tmin) {
+      if (tmin <= 22) { steps.push([`ไม่ต่ำกว่าค่าต่ำสุดของไม้ ${tmin} lbs`, Math.min(tmin, cap) - t]); t = Math.min(tmin, cap); }
+      else ok(`ผู้ผลิตระบุช่วง ${tmin}–${tmax} lbs แต่ขึ้นต่ำกว่า ${tmin} ได้ ไม่ทำให้ไม้เสีย`);
+    }
     if (low && shock <= 4 && t >= bHi) wn('เอ็นแข็งที่ตึงสูง อาจสะเทือนข้อมือ ลองลดลง 1–2 ปอนด์');
 
     const parts = { player: Math.round(clamp(pP, 0, 100)), racket: Math.round(clamp(pR, 0, 100)), pair: Math.round(clamp(pS, 0, 100)) };
