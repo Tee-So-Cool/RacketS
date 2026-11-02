@@ -2864,11 +2864,17 @@
   "proseEst": [
    "flex"
   ],
-  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
+  "src": "https://joybadminton.com/products/yonex-arcsaber-3-cyan",
+  "note": "Joy Badminton ระบุว่าเป็นไม้สำหรับมือใหม่ถึงระดับกลาง ราคา USD 139.99 (ลดจาก 181.99)",
   "tmin": 18,
   "tmax": 23,
-  "year": 2026
+  "year": 2026,
+  "priceForeign": 139.99,
+  "currency": "USD",
+  "level": "intermediate",
+  "estFields": [
+   "level"
+  ]
  },
  "Yonex Arcsaber 1": {
   "new": true,
@@ -2999,5 +3005,10 @@
   "estFields": [
    "price"
   ]
+ },
+ "Yonex Astrox 22F": {
+  "weights": "F (63 g)",
+  "src": "https://www.yonex.com/badminton/racquets/astrox/astrox-22f",
+  "note": "Astrox 22F เป็นรุ่นน้ำหนัก F ราว 63 กรัม ไม่ใช่ 4U"
  }
 }

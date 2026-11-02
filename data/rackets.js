@@ -1021,7 +1021,8 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energy-groove-speed-white-badminton-racket-df.html",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -1063,7 +1064,8 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com.my/apacs-fantala-6-pt-0-control-black-gold-badminton-racket.html",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -1110,7 +1112,8 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com.my/apacs-fantala-6-pt-0-speed-blue-black-badminton-racket.html",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -1327,7 +1330,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -1469,7 +1473,8 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/apacs-finapi-232-reborn-badminton-racket-white",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -1512,7 +1517,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -1772,7 +1778,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -1815,7 +1822,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -1857,7 +1865,8 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-power-cream-light-peach-badminton-racket.html",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -1899,7 +1908,8 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-speed-white-light-peach-badminton-racket.html",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -1947,7 +1957,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -2307,7 +2318,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -2402,7 +2414,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -2444,7 +2457,8 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com.my/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-fusion-speed-722-pro-durapro-cct-white-badminton-racket.html",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -2486,7 +2500,8 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com.my/apacs-nano-fusion-777-force-black-mint-green-badminton-racket.html",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -2567,7 +2582,8 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com.my/apacs-nano-fusion-speed-xr-black-red-badminton-racket.html",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -2649,7 +2665,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -2692,7 +2709,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -2808,7 +2826,8 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com.my/apacs-resona-speed-66-silver-5u-badminton-racket.html",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -2850,7 +2869,8 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com.my/apacs-resona-speed-88-black-5u-badminton-racket.html",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -2974,7 +2994,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -3182,7 +3203,8 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/Apacs-Stern-90-Offensive.html",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -3225,7 +3247,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -3305,7 +3328,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -3346,7 +3370,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "weight"
+  ]
  },
  {
   "id": "apacs-thunderdome-pro-6-2",
@@ -3765,7 +3791,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weight"
   ]
  },
  {
@@ -3845,7 +3872,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -4047,7 +4075,8 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/apacs-z-power-900-rp-lite-badminton-racket-maroon-matte",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -13006,7 +13035,8 @@ window.RACKETS = [
   "est": [
    "tension",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -13999,7 +14029,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -14055,7 +14086,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -14219,7 +14251,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -14372,7 +14405,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -23558,7 +23592,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -23605,7 +23640,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -24422,7 +24458,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -24981,7 +25018,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -25477,7 +25515,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "weight"
+  ]
  },
  {
   "id": "victor-auraspeed-lyc",
@@ -26061,7 +26101,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "price",
+   "weight"
   ]
  },
  {
@@ -26518,7 +26559,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -27529,7 +27571,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "flex",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -32216,7 +32259,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "medium",
-  "level": "",
+  "level": "intermediate",
   "weights": "",
   "weight": "",
   "grips": "",
@@ -32225,7 +32268,7 @@ window.RACKETS = [
    23
   ],
   "tensionNote": "",
-  "price": "",
+  "price": 4730,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -32238,17 +32281,19 @@ window.RACKETS = [
   "img": "",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
+  "specSrc": "https://joybadminton.com/products/yonex-arcsaber-3-cyan",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
+  "priceNote": "แปลงจาก US$139.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/yonex-arcsaber-3-cyan",
+  "note": "Joy Badminton ระบุว่าเป็นไม้สำหรับมือใหม่ถึงระดับกลาง ราคา USD 139.99 (ลดจาก 181.99)",
   "est": [
    "flex",
-   "style"
+   "level",
+   "style",
+   "price"
   ]
  },
  {
@@ -33623,7 +33668,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "medium",
   "level": "intermediate",
-  "weights": "4U",
+  "weights": "F (63 g)",
   "weight": 63,
   "grips": "G5",
   "tension": [
@@ -33644,7 +33689,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/Yonex_Astrox_22F_Black_Lime.png?v=1752695695",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.yonex.com/badminton/racquets/astrox/astrox-22f",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -33668,7 +33713,7 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก CAD 139.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/yonex-2021-astrox-22f-strung-badminton-racket-black-lime",
-  "note": "",
+  "note": "Astrox 22F เป็นรุ่นน้ำหนัก F ราว 63 กรัม ไม่ใช่ 4U",
   "est": [
    "style",
    "price",
@@ -35150,7 +35195,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "flex": "medium",
-  "level": "advanced",
+  "level": "beginner",
   "weights": "3U",
   "weight": 88,
   "grips": "G4, G5",
@@ -35193,7 +35238,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "level"
+  ]
  },
  {
   "id": "yonex-astrox-lite-27i",
@@ -35570,7 +35617,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "medium",
-  "level": "advanced",
+  "level": "beginner",
   "weights": "3U",
   "weight": 88,
   "grips": "G4",
@@ -35611,6 +35658,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "level",
    "weight"
   ]
  },
@@ -37891,7 +37939,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "medium",
-  "level": "advanced",
+  "level": "beginner",
   "weights": "3U",
   "weight": 88,
   "grips": "G4, G5",
@@ -37935,7 +37983,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "flex"
+   "flex",
+   "level"
   ]
  },
  {
@@ -38230,7 +38279,8 @@ window.RACKETS = [
    "flex",
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {

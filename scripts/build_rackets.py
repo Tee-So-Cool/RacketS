@@ -530,6 +530,12 @@ for r in rackets.values():
     if re.search(r'alumin|steel', (r.get('frame') or '') + ' ' + (r.get('shaft') or ''), re.I):
         r['level'] = 'beginner'; r.setdefault('est', []).append('level'); tiered += 1
 print('levels from tier name or frame metal', tiered)
+# an aluminium frame sold as advanced or pro (a shop's tag on the Astrox E13) is an entry racket all the same
+metal_fix = 0
+for r in rackets.values():
+    if r.get('level') in ('advanced', 'pro') and re.search(r'alumin', r.get('frame') or '', re.I):
+        r['level'] = 'beginner'; r.setdefault('est', []).append('level'); metal_fix += 1
+print('metal frames moved to beginner', metal_fix)
 for r in rackets.values():
     if r.get('level'): continue
     p = r.get('price')
@@ -571,6 +577,15 @@ for r in rackets.values():
         r['weight'] = UW['4U'] if '4U' in us else UW[us[0]]
         r.setdefault('est', []).append('weight'); from_class += 1
 print('weight from class', from_class)
+# grams that fall outside every listed class: one of the two is wrong, so the grams show as an estimate
+UR = {'2U': (89, 95), '3U': (84, 90), '4U': (79, 85), '5U': (74, 80), '6U': (69, 75), '7U': (64, 70)}
+clash = 0
+for r in rackets.values():
+    us = re.findall(r'[2-7]U', r.get('weights', ''))
+    w = r.get('weight')
+    if w and us and 'weight' not in r.get('est', []) and not any(UR[u][0] <= w <= UR[u][1] for u in us):
+        r.setdefault('est', []).append('weight'); clash += 1
+print('weight outside its classes', clash)
 
 # Victor's own page gives one ceiling per weight class ("≦ 31 lbs" for 3U, "≦ 30 lbs" for 4U); the data keeps the
 # lower one as the safe cap, and the note says the heavier class takes more
