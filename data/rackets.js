@@ -24167,7 +24167,10 @@ window.RACKETS = [
   "weights": "4U, 3U",
   "weight": 90,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   29
+  ],
   "tensionNote": "",
   "price": 3990,
   "frame": "",
@@ -24182,7 +24185,7 @@ window.RACKETS = [
   "img": "https://www.badmintonplaza.com/images/ARS-70K-A.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://shop.kibisports.com/en-intl/collections/brand-victor/products/auraspeed-70k-unstrung-badminton-racket-blue",
+  "specSrc": "Badminton Plaza (ARS-70K F): 3U ≤30, 4U ≤29 lbs; manufacturer spec in Badminton Racket Review: 29 lbs",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=2013",
   "bayUrl": "",
   "clickUrl": "",
@@ -30021,7 +30024,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "medium",
   "level": "beginner",
   "weights": "4U",
   "weight": 83,
@@ -30044,7 +30047,7 @@ window.RACKETS = [
   "img": "https://www.badmintonplaza.com/images/TK-Alpha-M-A.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=5076",
+  "specSrc": "Double Badminton Shop (Facebook): Flex Medium, Head-Heavy, 84g 4U, max 32 lbs",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5076",
   "bayUrl": "",
   "clickUrl": "",
@@ -30702,7 +30705,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "stiff",
   "level": "advanced",
   "weights": "4U, 3U",
   "weight": 83,
@@ -30725,7 +30728,7 @@ window.RACKETS = [
   "img": "https://www.badmintonplaza.com/images/TK-RYUGA-II-J-A.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://ca.victorsport.com/product/thruster-ryuga-ii-j",
+  "specSrc": "MamMoth Sport (Facebook) for Ryuga II TD: Flex Stiff, 4U ≤29 lbs",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3448",
   "bayUrl": "",
   "clickUrl": "",
@@ -30751,6 +30754,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "flex",
    "style",
    "level",
    "weight"
@@ -31820,7 +31824,10 @@ window.RACKETS = [
   "weights": "3U",
   "weight": 88,
   "grips": "G4",
-  "tension": null,
+  "tension": [
+   19,
+   27
+  ],
   "tensionNote": "",
   "price": 3660,
   "frame": "",
@@ -31835,7 +31842,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/1238/5608/products/ArcSaber_11_Badminton_Racket_Frame.jpg?v=1591208526",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "Arcsaber 11 Play listings (badmintonwebshop.com): 19-27 lbs",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -31853,6 +31860,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/yonex-arcsaber-11-badminton-racket",
   "note": "",
   "est": [
+   "tension",
    "style",
    "price",
    "level",
@@ -32267,15 +32275,15 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "medium",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
-  "grips": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5, G6",
   "tension": [
    18,
    23
   ],
   "tensionNote": "",
-  "price": 4730,
+  "price": 3770,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -32293,9 +32301,9 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$139.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ¥17,600.00 ที่ 1 JPY = 0.21398 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/yonex-arcsaber-3-cyan",
-  "note": "Joy Badminton ระบุว่าเป็นไม้สำหรับมือใหม่ถึงระดับกลาง ราคา USD 139.99 (ลดจาก 181.99)",
+  "note": "",
   "est": [
    "flex",
    "level",
@@ -33563,9 +33571,9 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "medium",
   "level": "advanced",
-  "weights": "",
-  "weight": "",
-  "grips": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5, G6",
   "tension": [
    17,
    22
@@ -33608,9 +33616,9 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "stiff",
   "level": "intermediate",
-  "weights": "",
+  "weights": "2F",
   "weight": 68,
-  "grips": "G5, G6",
+  "grips": "G5",
   "tension": [
    20,
    28
@@ -33629,7 +33637,7 @@ window.RACKETS = [
   "img": "https://www.yonex.com/media/catalog/product/a/x/ax22lt_rx.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-22-rx",
-  "specSrc": "",
+  "specSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4698",
   "bayUrl": "",
   "clickUrl": "",
@@ -33839,16 +33847,16 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
-  "level": "",
-  "weights": "",
-  "weight": "",
-  "grips": "",
+  "level": "intermediate",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G5, G6",
   "tension": [
    18,
    23
   ],
   "tensionNote": "",
-  "price": "",
+  "price": 3770,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -33866,12 +33874,14 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก ¥17,600.00 ที่ 1 JPY = 0.21398 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
    "flex",
-   "style"
+   "style",
+   "price",
+   "level"
   ]
  },
  {
@@ -33883,9 +33893,9 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "medium",
   "level": "advanced",
-  "weights": "",
-  "weight": "",
-  "grips": "",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G5, G6",
   "tension": [
    19,
    24
@@ -35569,9 +35579,9 @@ window.RACKETS = [
   "balance": "even",
   "flex": "medium",
   "level": "beginner",
-  "weights": "",
-  "weight": 95,
-  "grips": "G4",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G7",
   "tension": [
    16,
    20
@@ -35590,7 +35600,7 @@ window.RACKETS = [
   "img": "https://www.yonex.com/media/catalog/product/a/l/all_b4000g_011-1__1.png",
   "source": "",
   "officialUrl": "https://www.yonex.com/badminton/racquets/b4000g",
-  "specSrc": "",
+  "specSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -35864,9 +35874,9 @@ window.RACKETS = [
   "balance": "head-heavy",
   "flex": "medium",
   "level": "advanced",
-  "weights": "",
-  "weight": 150,
-  "grips": "G4, G5",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G7",
   "tension": [
    20,
    30
@@ -35928,9 +35938,9 @@ window.RACKETS = [
   "balance": "even",
   "flex": "medium",
   "level": "advanced",
-  "weights": "",
-  "weight": 118,
-  "grips": "G4, G5",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G7",
   "tension": [
    20,
    30
@@ -35949,7 +35959,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-isometric-tr1-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-isometric-tr1/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/iso-tr1",
-  "specSrc": "",
+  "specSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -36929,9 +36939,9 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
-  "grips": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5, G6",
   "tension": [
    17,
    22
@@ -37029,9 +37039,9 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "flexible",
   "level": "intermediate",
-  "weights": "",
-  "weight": "",
-  "grips": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5, G6",
   "tension": [
    18,
    23
@@ -37073,16 +37083,16 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "medium",
-  "level": "",
-  "weights": "",
-  "weight": "",
-  "grips": "",
+  "level": "advanced",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5, G6",
   "tension": [
    18,
    23
   ],
   "tensionNote": "",
-  "price": "",
+  "price": 4470,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -37100,12 +37110,14 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก ¥20,900.00 ที่ 1 JPY = 0.21398 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
    "flex",
-   "style"
+   "style",
+   "price",
+   "level"
   ]
  },
  {
@@ -37224,8 +37236,8 @@ window.RACKETS = [
   "brand": "Yonex",
   "name": "Nanoflare 700",
   "year": "",
-  "style": "",
-  "balance": "",
+  "style": "speed",
+  "balance": "head-light",
   "flex": "medium",
   "level": "advanced",
   "weights": "4U",
@@ -37249,7 +37261,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/products/nf-700_cyan_product_02-edited.png?v=1679465189",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "Nanoflare series is head-light (Yonex); Thai reviews describe the 700 as a light, fast speed racket",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -37267,6 +37279,8 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/yonex-nanoflare-700-magenta-new-color-badminton-racket",
   "note": "",
   "est": [
+   "balance",
+   "style",
    "price",
    "level",
    "weight"
@@ -37604,7 +37618,10 @@ window.RACKETS = [
   "weights": "5U",
   "weight": 78,
   "grips": "G5",
-  "tension": null,
+  "tension": [
+   null,
+   28
+  ],
   "tensionNote": "",
   "price": 5890,
   "frame": "HM Graphite / M40X / EX-HMG / VDM",
@@ -37619,7 +37636,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/products/nf-800lt.png?v=1674014528",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "Nanoflare 800 Play listing (prokicksports.com): up to 28 lbs",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -37637,6 +37654,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/yonex-nanoflare-800-badminton-racket",
   "note": "",
   "est": [
+   "tension",
    "style",
    "price",
    "level"

@@ -719,7 +719,8 @@
   "weights": "4U",
   "tmax": 29,
   "price": 1790,
-  "src": "https://www.badmintonplaza.com/product_info.php?products_id=5076"
+  "src": "Double Badminton Shop (Facebook): Flex Medium, Head-Heavy, 84g 4U, max 32 lbs",
+  "flex": "medium"
  },
  "Victor Thruster F C Ultra": {
   "new": true,
@@ -1212,10 +1213,11 @@
   "weights": "4U, 3U",
   "weight": 90,
   "level": "beginner",
-  "src": "https://shop.kibisports.com/en-intl/collections/brand-victor/products/auraspeed-70k-unstrung-badminton-racket-blue",
+  "src": "Badminton Plaza (ARS-70K F): 3U ≤30, 4U ≤29 lbs; manufacturer spec in Badminton Racket Review: 29 lbs",
   "new": true,
   "brand": "Victor",
-  "price": 3990
+  "price": 3990,
+  "tmax": 29
  },
  "Victor Auraspeed 8000": {
   "balance": "even",
@@ -2357,7 +2359,11 @@
   "weights": "4U, 3U",
   "tmax": 31,
   "price": 5590,
-  "src": "https://ca.victorsport.com/product/thruster-ryuga-ii-j"
+  "src": "MamMoth Sport (Facebook) for Ryuga II TD: Flex Stiff, 4U ≤29 lbs",
+  "flex": "stiff",
+  "estFields": [
+   "flex"
+  ]
  },
  "Victor Thruster Ryuga II TD": {
   "balance": "head-heavy",
@@ -2791,8 +2797,10 @@
   "src": "https://24h.pchome.com.tw/prod/DXCD05-A900J5PHA"
  },
  "Yonex Isometric TR0": {
-  "weight": 150,
-  "src": "https://badmintonwarehouse.com/products/yonex-isometric-tr0-training-badminton-racket"
+  "weight": 83,
+  "src": "https://badmintonwarehouse.com/products/yonex-isometric-tr0-training-badminton-racket",
+  "weights": "4U",
+  "grips": "G7"
  },
  "Victor Auraspeed Aurora Ultra": {
   "new": true,
@@ -2832,7 +2840,10 @@
   "priceSrc": "https://www.google.com/search?q=\"Astrox+55A\"+yonex+ราคา",
   "estFields": [
    "price"
-  ]
+  ],
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G5, G6"
  },
  "Yonex Astrox 33": {
   "new": true,
@@ -2846,7 +2857,12 @@
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "tmin": 18,
   "tmax": 23,
-  "year": 2026
+  "year": 2026,
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G5, G6",
+  "priceForeign": 17600,
+  "currency": "JPY"
  },
  "Yonex Astrox 11": {
   "new": true,
@@ -2866,7 +2882,10 @@
   "priceSrc": "https://www.google.com/search?q=\"Astrox+11\"+yonex+ราคา",
   "estFields": [
    "price"
-  ]
+  ],
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5, G6"
  },
  "Yonex Arcsaber 3": {
   "new": true,
@@ -2877,16 +2896,18 @@
    "flex"
   ],
   "src": "https://joybadminton.com/products/yonex-arcsaber-3-cyan",
-  "note": "Joy Badminton ระบุว่าเป็นไม้สำหรับมือใหม่ถึงระดับกลาง ราคา USD 139.99 (ลดจาก 181.99)",
   "tmin": 18,
   "tmax": 23,
   "year": 2026,
-  "priceForeign": 139.99,
-  "currency": "USD",
+  "priceForeign": 17600,
+  "currency": "JPY",
   "level": "intermediate",
   "estFields": [
    "level"
-  ]
+  ],
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5, G6"
  },
  "Yonex Arcsaber 1": {
   "new": true,
@@ -2914,7 +2935,12 @@
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "tmin": 18,
   "tmax": 23,
-  "year": 2026
+  "year": 2026,
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "priceForeign": 20900,
+  "currency": "JPY"
  },
  "Yonex Nanoflare 300": {
   "new": true,
@@ -2934,7 +2960,10 @@
   "priceSrc": "https://www.google.com/search?q=\"Nanoflare+300\"+yonex+ราคา",
   "estFields": [
    "price"
-  ]
+  ],
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5, G6"
  },
  "Yonex Nanoflare 111": {
   "new": true,
@@ -2954,7 +2983,10 @@
   "priceSrc": "https://www.google.com/search?q=\"Nanoflare+111\"+yonex+ราคา",
   "estFields": [
    "price"
-  ]
+  ],
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5, G6"
  },
  "Yonex GR303": {
   "frame": "Aluminium",
@@ -3060,5 +3092,45 @@
   "priceForeign": 269.99,
   "currency": "USD",
   "src": "https://joybadminton.com/products/li-ning-axforce-90-new-black"
+ },
+ "Yonex Astrox 22 RX": {
+  "weights": "2F",
+  "weight": 68,
+  "grips": "G5",
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf"
+ },
+ "Yonex B 4000": {
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G7",
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf"
+ },
+ "Yonex Isometric TR1": {
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G7",
+  "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf"
+ },
+ "Yonex Arcsaber 11": {
+  "tmin": 19,
+  "tmax": 27,
+  "estFields": [
+   "tension"
+  ],
+  "src": "Arcsaber 11 Play listings (badmintonwebshop.com): 19-27 lbs"
+ },
+ "Yonex Nanoflare 800": {
+  "tmax": 28,
+  "estFields": [
+   "tension"
+  ],
+  "src": "Nanoflare 800 Play listing (prokicksports.com): up to 28 lbs"
+ },
+ "Yonex Nanoflare 700": {
+  "balance": "head-light",
+  "estFields": [
+   "balance"
+  ],
+  "src": "Nanoflare series is head-light (Yonex); Thai reviews describe the 700 as a light, fast speed racket"
  }
 }
