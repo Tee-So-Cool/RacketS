@@ -321,9 +321,9 @@ window.STRINGS = [
   ],
   "priceNote": "แปลงจาก C$14.50 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/hundred-jp-70-hunter-badminton-string",
-  "feature": "",
+  "feature": "control",
   "feel": "",
-  "wordSrc": "",
+  "wordSrc": "https://www.racket-company.com",
   "ratingNote": "",
   "est": [
    "price"
@@ -549,11 +549,11 @@ window.STRINGS = [
   "gauge": "",
   "gaugeText": "",
   "material": "",
-  "repulsion": "",
-  "control": "",
+  "repulsion": 6,
+  "control": 5,
   "durability": "",
-  "sound": "",
-  "shock": "",
+  "sound": 6,
+  "shock": 5,
   "tensionMax": "",
   "price": 160,
   "colors": "",
@@ -562,7 +562,7 @@ window.STRINGS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/axjl054_1_01_01_1_1_5e1e54cfdd.jpg?v=1752145860",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://sg.lining.studio/products/ap-6",
   "shopLinks": [
    {
     "shop": "sg.lining.studio",
@@ -578,7 +578,7 @@ window.STRINGS = [
   "feature": "",
   "feel": "",
   "wordSrc": "",
-  "ratingNote": "",
+  "ratingNote": "คะแนนบนกล่องของ Li-Ning ตามที่ร้านใน Lazada ลงไว้ ไม่พบคะแนนความทน",
   "est": [
    "price"
   ]
@@ -633,11 +633,11 @@ window.STRINGS = [
   "gauge": 0.7,
   "gaugeText": "",
   "material": "mono",
-  "repulsion": "",
-  "control": "",
-  "durability": "",
-  "sound": "",
-  "shock": "",
+  "repulsion": 5,
+  "control": 5,
+  "durability": 6,
+  "sound": 5,
+  "shock": 5,
   "tensionMax": "",
   "price": 240,
   "colors": "",
@@ -646,7 +646,7 @@ window.STRINGS = [
   "img": "https://www.badmintonplaza.com/images/AP70-A.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonplaza.com",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
@@ -663,10 +663,10 @@ window.STRINGS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "feature": "",
+  "feature": "durability",
   "feel": "",
   "wordSrc": "",
-  "ratingNote": "",
+  "ratingNote": "คะแนนบนกล่องของ Li-Ning ตามที่ Badminton Plaza และ Lazada ลงไว้",
   "est": []
  },
  {

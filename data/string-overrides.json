@@ -304,5 +304,27 @@
   "feature": "repulsion",
   "ratingNote": "คะแนนจากร้าน Badminton Bay ไม่ใช่ตัวเลขผู้ผลิต",
   "src": "https://www.badmintonbay.com/hundred-jp58-magnite-badminton-string.html"
+ },
+ "Li-Ning AP7": {
+  "repulsion": 5,
+  "control": 5,
+  "durability": 6,
+  "sound": 5,
+  "shock": 5,
+  "feature": "durability",
+  "ratingNote": "คะแนนบนกล่องของ Li-Ning ตามที่ Badminton Plaza และ Lazada ลงไว้",
+  "src": "https://www.badmintonplaza.com"
+ },
+ "Li-Ning AP-6": {
+  "repulsion": 6,
+  "control": 5,
+  "sound": 6,
+  "shock": 5,
+  "ratingNote": "คะแนนบนกล่องของ Li-Ning ตามที่ร้านใน Lazada ลงไว้ ไม่พบคะแนนความทน",
+  "src": "https://sg.lining.studio/products/ap-6"
+ },
+ "Hundred JP 70 Hunter": {
+  "feature": "control",
+  "wordSrc": "https://www.racket-company.com"
  }
 }

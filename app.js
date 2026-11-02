@@ -808,8 +808,9 @@
     }
     if (r.flex) {
       const ideal = [0.3, 1, 2, 2.5][lv], gap = Math.abs(fx - ideal);   // flexible 0 .. extra-stiff 3
-      if (gap <= 0.5) { pR += 10; ok(`${L.flex[r.flex]} เหมาะกับ${L.level[level]}`); }
-      else if (gap >= 1.5) { pR -= gap >= 2.5 ? 25 : 15; wn(fx > ideal ? `${L.flex[r.flex]} ต้องใช้แรงสวิงมากสำหรับ${L.level[level]}` : `${L.flex[r.flex]} อาจนิ่มไปสำหรับ${L.level[level]}`); }
+      const fw = rEst.includes('flex') ? 0.5 : 1;                        // an estimated flex counts half, like balance and style
+      if (gap <= 0.5) { pR += 10 * fw; ok(`${L.flex[r.flex]} เหมาะกับ${L.level[level]}`); }
+      else if (gap >= 1.5) { pR -= (gap >= 2.5 ? 25 : 15) * fw; wn(fx > ideal ? `${L.flex[r.flex]} ต้องใช้แรงสวิงมากสำหรับ${L.level[level]}` : `${L.flex[r.flex]} อาจนิ่มไปสำหรับ${L.level[level]}`); }
       else pR -= 2;
     }
     // singles rewards a stable, slightly heavier head; doubles rewards a quick head [medium: retail guides, Yonex series copy]
@@ -826,7 +827,7 @@
     if (g8 && lv <= 1 && g8 >= 87) { pR -= 8; wn(`ไม้หนัก (${g8} g) สวิงเหนื่อยสำหรับ${L.level[level]} ลองรุ่น 4U หรือ 5U`); }
     else if (g8 && lv === 0 && g8 <= 84) pR += 4;
     if (r.style) {
-      const sf = r.style === style ? 10 : (r.style === 'allround' || style === 'allround') ? 4 : -8;
+      const sf = r.style === style ? 14 : (r.style === 'allround' || style === 'allround') ? 2 : -10;  // the maker's own label outweighs a guess from specs
       pR += rEst.includes('style') ? sf / 2 : sf;
       if (r.style === style) ok(`ไม้เป็นสาย${L.style[r.style]} ตรงกับสไตล์ที่เลือก`);
       else if (sf < 0) wn(`ไม้วางตัวเป็นสาย${L.style[r.style]} แต่เลือกสไตล์${L.style[style]}`);
