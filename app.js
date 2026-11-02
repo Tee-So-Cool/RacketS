@@ -621,7 +621,7 @@
         <p>${esc(full(r))} เป็นไม้แบดมินตันจาก ${esc(r.brand)}${desc ? ' ' + desc : ''} ด้านล่างคือคำอธิบายสเปกแต่ละข้อว่ามีผลกับการตีจริงอย่างไร</p>
         ${parts.length ? `<h4>อธิบายสเปกแบบเข้าใจง่าย</h4><dl>${parts.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}</dl>` : ''}
         ${fit.length ? `<h4>ไม้รุ่นนี้น่าจะเหมาะกับ</h4><ul>${fit.map(f => `<li>${f}</li>`).join('')}</ul>` : ''}
-        ${sib.length ? `<h4>ไม้ซีรีส์เดียวกันที่น่าเทียบ</h4><div class="simrow">${sib.map(x => `<button type="button" class="sim" data-add="${esc(x.id)}"><span class="sim-n">${esc(full(x))}</span><span class="small muted">${[x.style && 'สาย' + L.style[x.style], x.price ? est(x, 'price') + baht(x.price) : ''].filter(Boolean).join(', ')}</span></button>`).join('')}</div>` : ''}
+        ${sib.length ? `<h4>ไม้ซีรีส์เดียวกันที่น่าเทียบ</h4><div class="simrow">${sib.map(x => `<button type="button" class="sim" data-add="${esc(x.id)}">${x.img ? `<img src="${esc(x.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<span class="mimg-empty"></span>'}<span class="sim-n">${esc(full(x))}</span><span class="small muted">${[x.style && 'สาย' + L.style[x.style], x.price ? est(x, 'price') + baht(x.price) : ''].filter(Boolean).join(', ')}</span></button>`).join('')}</div>` : ''}
         <p class="small muted">สรุปจากสเปกที่ผู้ผลิตประกาศ ค่าที่มี ≈ คือค่าประเมิน ความรู้สึกตอนตีจริงขึ้นกับเอ็น ความตึง และสไตล์ของแต่ละคน ควรลองจับไม้จริงก่อนซื้อถ้าทำได้</p>
       </details>`;
     };
