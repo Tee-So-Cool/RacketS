@@ -120,9 +120,9 @@
     const tmax = clamp((((r.tension && r.tension[1]) || 27) - 22) / 9);
     const st = { attack: 0.3, speed: 0.4, control: 1, allround: 0.7 }[r.style] ?? 0.5;
     return [
-      0.5 * bal + 0.3 * fx + 0.2 * w,
+      0.4 * bal + 0.3 * fx + 0.3 * w,  // a stiff shaft and a heavier frame add power, not only a heavy head
       0.65 * (1 - bal) + 0.35 * (1 - w),
-      0.5 * st + 0.3 * (1 - Math.abs(bal - 0.5) * 2) + 0.2 * fx,
+      0.35 * st + 0.2 * (1 - Math.abs(bal - 0.5) * 2) + 0.3 * fx + 0.15 * (1 - bal),  // stiff shafts aim truer; light heads steer at the net
       0.5 * (1 - fx) + 0.35 * (1 - lv) + 0.15 * (1 - w),
       tmax,
       0.45 * (1 - bal) + 0.35 * (1 - w) + 0.2 * fx,
