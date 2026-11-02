@@ -2826,7 +2826,13 @@
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 19–24 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "tmin": 19,
   "tmax": 24,
-  "year": 2026
+  "year": 2026,
+  "price": 5970,
+  "priceNote": "5,970 บาท ราคาพรีออเดอร์รุ่นญี่ปุ่นจากร้าน BABAD Badminton Shop (Facebook) รุ่นนี้ขายเฉพาะในญี่ปุ่น",
+  "priceSrc": "https://www.google.com/search?q=\"Astrox+55A\"+yonex+ราคา",
+  "estFields": [
+   "price"
+  ]
  },
  "Yonex Astrox 33": {
   "new": true,
@@ -2854,7 +2860,13 @@
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "tmin": 17,
   "tmax": 22,
-  "year": 2026
+  "year": 2026,
+  "price": 4483,
+  "priceNote": "4,483 บาท เฉพาะเฟรม จากร้านนำเข้าใน Shopee Thailand",
+  "priceSrc": "https://www.google.com/search?q=\"Astrox+11\"+yonex+ราคา",
+  "estFields": [
+   "price"
+  ]
  },
  "Yonex Arcsaber 3": {
   "new": true,
@@ -2916,7 +2928,13 @@
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "tmin": 18,
   "tmax": 23,
-  "year": 2026
+  "year": 2026,
+  "price": 5310,
+  "priceNote": "5,310 บาท เฉพาะเฟรม จากร้านนำเข้าใน Shopee Thailand รุ่นนี้ขายเฉพาะในญี่ปุ่น",
+  "priceSrc": "https://www.google.com/search?q=\"Nanoflare+300\"+yonex+ราคา",
+  "estFields": [
+   "price"
+  ]
  },
  "Yonex Nanoflare 111": {
   "new": true,
@@ -2930,7 +2948,13 @@
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "tmin": 17,
   "tmax": 22,
-  "year": 2026
+  "year": 2026,
+  "price": 4289,
+  "priceNote": "4,289 บาท จากร้านนำเข้าจากเกาหลีใน Lazada",
+  "priceSrc": "https://www.google.com/search?q=\"Nanoflare+111\"+yonex+ราคา",
+  "estFields": [
+   "price"
+  ]
  },
  "Yonex GR303": {
   "frame": "Aluminium",
@@ -3010,5 +3034,31 @@
   "weights": "F (63 g)",
   "src": "https://www.yonex.com/badminton/racquets/astrox/astrox-22f",
   "note": "Astrox 22F เป็นรุ่นน้ำหนัก F ราว 63 กรัม ไม่ใช่ 4U"
+ },
+ "VS Thor80": {
+  "price": 1090,
+  "priceNote": "1,090 บาท แถมเอ็น กิ๊บ ถุงผ้า จากโพสต์ร้านไทยใน Facebook และ Shopee ราว 1 ปีก่อน",
+  "priceSrc": "https://www.google.com/search?q=\"VS+Thor+80\"+ราคา",
+  "estFields": [
+   "price"
+  ]
+ },
+ "Li-Ning Aeronaut 6000C": {
+  "priceForeign": 749,
+  "currency": "MYR",
+  "src": "https://shopee.com.my/LI-NING-AERONAUT-6000C"
+ },
+ "Li-Ning Smash XP Pro": {
+  "src": "https://in.lining.studio/products/smash-xp-pro"
+ },
+ "Li-Ning 3D Calibar 600B": {
+  "priceForeign": 159.99,
+  "currency": "USD",
+  "src": "https://www.shopnings.com/li-ning-3d-calibar-600b"
+ },
+ "Li-Ning Axforce 90 New": {
+  "priceForeign": 269.99,
+  "currency": "USD",
+  "src": "https://joybadminton.com/products/li-ning-axforce-90-new-black"
  }
 }

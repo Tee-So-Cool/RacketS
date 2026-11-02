@@ -6114,7 +6114,7 @@ window.RACKETS = [
   "grips": "",
   "tension": null,
   "tensionNote": "",
-  "price": "",
+  "price": 5400,
   "frame": "Carbon Fibre",
   "shaft": "",
   "joint": "",
@@ -6127,15 +6127,17 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-3d-calibar-600b-169x300.webp",
   "source": "https://chobbad.com/racket/lining-3d-calibar-600b/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.shopnings.com/li-ning-3d-calibar-600b",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก US$159.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.shopnings.com/li-ning-3d-calibar-600b",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "li-ning-3d-calibar-900",
@@ -6850,7 +6852,7 @@ window.RACKETS = [
   "grips": "",
   "tension": null,
   "tensionNote": "",
-  "price": "",
+  "price": 6190,
   "frame": "Carbon Fibre",
   "shaft": "",
   "joint": "",
@@ -6863,15 +6865,17 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-aeronaut-6000c-169x300.webp",
   "source": "https://chobbad.com/racket/lining-aeronaut-6000c/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://shopee.com.my/LI-NING-AERONAUT-6000C",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก RM749.00 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://shopee.com.my/LI-NING-AERONAUT-6000C",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "li-ning-aeronaut-7000",
@@ -8698,7 +8702,7 @@ window.RACKETS = [
    31
   ],
   "tensionNote": "",
-  "price": "",
+  "price": 9120,
   "frame": "Carbon Fibre (Box Wing Frame)",
   "shaft": "",
   "joint": "",
@@ -8711,15 +8715,17 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/li-ning-axforce-90-new-300x300.jpg",
   "source": "https://chobbad.com/racket/lining-axforce-90-new/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://joybadminton.com/products/li-ning-axforce-90-new-black",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก US$269.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://joybadminton.com/products/li-ning-axforce-90-new-black",
   "note": "",
-  "est": []
+  "est": [
+   "price"
+  ]
  },
  {
   "id": "li-ning-axforce-90-tiger-max",
@@ -12686,7 +12692,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/Template_01_b4cdacb435.jpg?v=1749900237",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://in.lining.studio/products/smash-xp-pro",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -22121,7 +22127,7 @@ window.RACKETS = [
   "style": "allround",
   "balance": "even",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "beginner",
   "weights": "4U",
   "weight": 82,
   "grips": "G5",
@@ -22130,7 +22136,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": "",
+  "price": 1090,
   "frame": "30TMitsubishi Carbon Sheet",
   "shaft": "",
   "joint": "",
@@ -22148,10 +22154,11 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "1,090 บาท แถมเอ็น กิ๊บ ถุงผ้า จากโพสต์ร้านไทยใน Facebook และ Shopee ราว 1 ปีก่อน",
+  "priceSrc": "https://www.google.com/search?q=\"VS+Thor+80\"+ราคา",
   "note": "",
   "est": [
+   "price",
    "level"
   ]
  },
@@ -33555,7 +33562,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "flex": "medium",
-  "level": "",
+  "level": "advanced",
   "weights": "",
   "weight": "",
   "grips": "",
@@ -33564,7 +33571,7 @@ window.RACKETS = [
    22
   ],
   "tensionNote": "",
-  "price": "",
+  "price": 4483,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -33582,12 +33589,14 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "4,483 บาท เฉพาะเฟรม จากร้านนำเข้าใน Shopee Thailand",
+  "priceSrc": "https://www.google.com/search?q=\"Astrox+11\"+yonex+ราคา",
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
    "flex",
-   "style"
+   "price",
+   "style",
+   "level"
   ]
  },
  {
@@ -33873,7 +33882,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "flex": "medium",
-  "level": "",
+  "level": "advanced",
   "weights": "",
   "weight": "",
   "grips": "",
@@ -33882,7 +33891,7 @@ window.RACKETS = [
    24
   ],
   "tensionNote": "",
-  "price": "",
+  "price": 5970,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -33900,12 +33909,14 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "5,970 บาท ราคาพรีออเดอร์รุ่นญี่ปุ่นจากร้าน BABAD Badminton Shop (Facebook) รุ่นนี้ขายเฉพาะในญี่ปุ่น",
+  "priceSrc": "https://www.google.com/search?q=\"Astrox+55A\"+yonex+ราคา",
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 19–24 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
    "flex",
-   "style"
+   "price",
+   "style",
+   "level"
   ]
  },
  {
@@ -36917,7 +36928,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "flexible",
-  "level": "",
+  "level": "intermediate",
   "weights": "",
   "weight": "",
   "grips": "",
@@ -36926,7 +36937,7 @@ window.RACKETS = [
    22
   ],
   "tensionNote": "",
-  "price": "",
+  "price": 4289,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -36944,12 +36955,14 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "4,289 บาท จากร้านนำเข้าจากเกาหลีใน Lazada",
+  "priceSrc": "https://www.google.com/search?q=\"Nanoflare+111\"+yonex+ราคา",
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
    "flex",
-   "style"
+   "price",
+   "style",
+   "level"
   ]
  },
  {
@@ -37015,7 +37028,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "flexible",
-  "level": "",
+  "level": "intermediate",
   "weights": "",
   "weight": "",
   "grips": "",
@@ -37024,7 +37037,7 @@ window.RACKETS = [
    23
   ],
   "tensionNote": "",
-  "price": "",
+  "price": 5310,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -37042,12 +37055,14 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "5,310 บาท เฉพาะเฟรม จากร้านนำเข้าใน Shopee Thailand รุ่นนี้ขายเฉพาะในญี่ปุ่น",
+  "priceSrc": "https://www.google.com/search?q=\"Nanoflare+300\"+yonex+ราคา",
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
    "flex",
-   "style"
+   "price",
+   "style",
+   "level"
   ]
  },
  {
