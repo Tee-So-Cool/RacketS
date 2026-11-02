@@ -536,6 +536,14 @@ for r in rackets.values():
     if r.get('level') in ('advanced', 'pro') and re.search(r'alumin', r.get('frame') or '', re.I):
         r['level'] = 'beginner'; r.setdefault('est', []).append('level'); metal_fix += 1
 print('metal frames moved to beginner', metal_fix)
+# Li-Ning's own scale runs soft: it calls the Axforce 90 "Flexible" where reviewers (God of Sports) measure a medium
+# shaft, so on its advanced and pro frames that word reads as medium next to Yonex and Victor
+ln_flex = 0
+for r in rackets.values():
+    if r['brand'] == 'Li-Ning' and r.get('flex') == 'flexible' and r.get('level') in ('advanced', 'pro'):
+        r['flex'] = 'medium'; r.setdefault('est', []).append('flex'); ln_flex += 1
+        r['note'] = ((r.get('note') or '') + ' ').lstrip() + 'Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง'
+print('Li-Ning flexible read as medium', ln_flex)
 for r in rackets.values():
     if r.get('level'): continue
     p = r.get('price')

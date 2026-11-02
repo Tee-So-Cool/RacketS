@@ -30,6 +30,11 @@ const cases = [
   ['เอ็นที่มีคะแนนจริงไม่ถูกนับเป็นค่าประเมิน (No.3 Boost)', () => !sc('Li-Ning Axforce 80', 'Li-Ning No.3 Boost', 'advanced', 'attack').guess.some(g => g.includes('ของเอ็น'))],
   ['สายคอนโทรล: Arcsaber 11 Pro ดีกว่า Astrox 100ZZ', () => sc('Yonex Arcsaber 11 Pro', 'Yonex BG80', 'advanced', 'control').score > sc('Yonex Astrox 100ZZ', 'Yonex BG80', 'advanced', 'control').score],
   ['มือใหม่: ช่วง 26-38 lbs ของ VS ไม่บังคับให้ขึ้น 26', () => sc('VS Kriss Sword XP Pro', 'Yonex BG65', 'beginner', 'allround').tension < 26],
+  ['Victor สายสปีด: Auraspeed 100X Ultra ดีกว่า Ryuga III', () => sc('Victor Auraspeed 100X Ultra', 'Yonex BG66 Ultimax', 'advanced', 'speed').score > sc('Victor Thruster Ryuga III', 'Yonex BG66 Ultimax', 'advanced', 'speed').score],
+  ['Victor สายบุก: Ryuga III ดีกว่า Auraspeed 100X Ultra', () => sc('Victor Thruster Ryuga III', 'Yonex BG66 Ultimax', 'advanced', 'attack').score > sc('Victor Auraspeed 100X Ultra', 'Yonex BG66 Ultimax', 'advanced', 'attack').score],
+  ['มือใหม่: Ryuga CLS ดีกว่า Ryuga III', () => sc('Victor Thruster Ryuga CLS', 'Yonex BG65', 'beginner', 'allround').score > sc('Victor Thruster Ryuga III', 'Yonex BG65', 'beginner', 'allround').score],
+  ['Li-Ning: ไม้โปรที่ Li-Ning เรียก Flexible นับเป็นก้านกลาง (≈)', () => { const r = R('Li-Ning Axforce 90'); return r.flex === 'medium' && r.est.includes('flex'); }],
+  ['VS: Kriss Sword XP Pro เป็นสายคอนโทรลตาม VS Thailand', () => R('VS Kriss Sword XP Pro').style === 'control'],
   ['ทุกไม้: คะแนน 0-100 และความตึงไม่เกินเพดานไม้', () => RACKETS.every(r => { for (const lv of ['beginner', 'pro']) {
       const x = score(r, S('Yonex BG66 Ultimax'), lv, 'attack'); const max = r.tension ? r.tension[1] : 30;
       if (!(x.score >= 0 && x.score <= 100) || x.tension > max) { console.log('bad', r.name, lv, x); return false; } } return true; })],

@@ -6107,7 +6107,7 @@ window.RACKETS = [
   "year": "",
   "style": "control",
   "balance": "head-light",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "",
   "weight": "",
@@ -6134,9 +6134,10 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก US$159.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.shopnings.com/li-ning-3d-calibar-600b",
-  "note": "",
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "price"
+   "price",
+   "flex"
   ]
  },
  {
@@ -6642,7 +6643,7 @@ window.RACKETS = [
   "year": "",
   "style": "control",
   "balance": "head-light",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "3U",
   "weight": 87,
@@ -6681,9 +6682,10 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹9,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/aeronaut-6000",
-  "note": "",
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "price"
+   "price",
+   "flex"
   ]
  },
  {
@@ -6845,7 +6847,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "even",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "",
   "weight": "",
@@ -6872,9 +6874,10 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก RM749.00 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://shopee.com.my/LI-NING-AERONAUT-6000C",
-  "note": "",
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "price"
+   "price",
+   "flex"
   ]
  },
  {
@@ -6940,7 +6943,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "3U",
   "weight": 87,
@@ -6983,9 +6986,10 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹11,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/aeronaut-7000-boost",
-  "note": "",
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "price"
+   "price",
+   "flex"
   ]
  },
  {
@@ -7275,7 +7279,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "4U",
   "weight": 80,
@@ -7330,8 +7334,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-aeronaut-9000-combat",
@@ -7340,7 +7346,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "even",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "3U",
   "weight": 88,
@@ -7387,8 +7393,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-aeronaut-9000-drive",
@@ -7896,7 +7904,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "4U, 3U",
   "weight": 84,
@@ -7943,8 +7951,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-axforce-30",
@@ -8059,7 +8069,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "4U",
   "weight": 84,
@@ -8102,8 +8112,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-axforce-50",
@@ -8112,7 +8124,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "5U",
   "weight": 79,
@@ -8151,8 +8163,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-axforce-60",
@@ -8161,7 +8175,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "4U",
   "weight": 84,
@@ -8208,8 +8222,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-axforce-70",
@@ -8218,7 +8234,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "5U",
   "weight": 78,
@@ -8253,8 +8269,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-axforce-80",
@@ -8263,7 +8281,7 @@ window.RACKETS = [
   "year": 2022,
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "4U",
   "weight": 84,
@@ -8322,8 +8340,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-axforce-80-cl",
@@ -8384,7 +8404,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "4U",
   "weight": 80,
@@ -8419,8 +8439,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-axforce-80-light",
@@ -8519,7 +8541,7 @@ window.RACKETS = [
   "year": 2021,
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "5U",
   "weight": 78,
@@ -8578,8 +8600,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-axforce-90-dragon-max",
@@ -8588,7 +8612,7 @@ window.RACKETS = [
   "year": 2023,
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "4U, 3U",
   "weight": 83,
@@ -8635,8 +8659,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-axforce-90-max-dragon",
@@ -8692,7 +8718,7 @@ window.RACKETS = [
   "year": 2024,
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "3U, 4U",
   "weight": 84,
@@ -8722,9 +8748,10 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก US$269.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/li-ning-axforce-90-new-black",
-  "note": "",
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "price"
+   "price",
+   "flex"
   ]
  },
  {
@@ -8734,7 +8761,7 @@ window.RACKETS = [
   "year": 2023,
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "4U, 3U",
   "weight": 83,
@@ -8789,8 +8816,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-axforce-big-bang",
@@ -8799,7 +8828,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "5U, 4U",
   "weight": 84,
@@ -8846,8 +8875,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-axforce-blast",
@@ -8913,7 +8944,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "5U",
   "weight": 78,
@@ -8968,8 +8999,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-axforce-cannon-light",
@@ -8978,7 +9011,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "5U",
   "weight": 78,
@@ -9017,8 +9050,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-axforce-cannon-pro",
@@ -9027,7 +9062,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "4U",
   "weight": 84,
@@ -9074,8 +9109,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-axforce-jr",
@@ -9502,7 +9539,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-light",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "6U",
   "weight": 73,
@@ -9537,9 +9574,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
    "tension",
+   "flex",
    "weight"
   ]
  },
@@ -9958,7 +9996,7 @@ window.RACKETS = [
   "year": "",
   "style": "control",
   "balance": "head-light",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "5U",
   "weight": 79,
@@ -9997,8 +10035,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-bladex-sonar",
@@ -10056,7 +10096,7 @@ window.RACKETS = [
   "year": "",
   "style": "control",
   "balance": "head-light",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "5U",
   "weight": 78,
@@ -10099,8 +10139,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-bladex-200r",
@@ -11296,7 +11338,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "4U",
   "weight": 80,
@@ -11339,10 +11381,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹2,190.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/g-force-superlite-max-9",
-  "note": "",
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
    "tension",
-   "price"
+   "price",
+   "flex"
   ]
  },
  {
@@ -12236,7 +12279,7 @@ window.RACKETS = [
   "year": "",
   "style": "allround",
   "balance": "even",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "4U",
   "weight": 84,
@@ -12279,8 +12322,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-ignite-7",
@@ -12826,7 +12871,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "3U, 4U",
   "weight": 83,
@@ -12873,9 +12918,10 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹3,892.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-tectonic-1-3u-badminton-racket",
-  "note": "",
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "price"
+   "price",
+   "flex"
   ]
  },
  {
@@ -12885,7 +12931,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "4U",
   "weight": 83,
@@ -12932,8 +12978,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-tectonic-3r",
@@ -13256,7 +13304,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "5U, 4U, 3U",
   "weight": 83,
@@ -13299,8 +13347,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-turbo-99",
@@ -15319,7 +15369,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "6U",
   "weight": 72,
@@ -15370,8 +15420,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-windstorm-72-power",
@@ -15380,7 +15432,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "6U",
   "weight": 72,
@@ -15427,8 +15479,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-windstorm-72-speed",
@@ -15437,7 +15491,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "6U",
   "weight": 72,
@@ -15484,8 +15538,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-windstorm-72s",
@@ -15494,7 +15550,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "6U",
   "weight": 72,
@@ -15545,9 +15601,10 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹8,892.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-windstorm-72-s-badminton-racket-dark-grey-gold-blue",
-  "note": "",
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "price"
+   "price",
+   "flex"
   ]
  },
  {
@@ -15892,7 +15949,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "even",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "pro",
   "weights": "5U",
   "weight": 79,
@@ -15939,8 +15996,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "est": [
+   "flex"
+  ]
  },
  {
   "id": "li-ning-windstorm-lite",
