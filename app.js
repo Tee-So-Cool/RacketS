@@ -575,7 +575,6 @@
           <button class="btn sm" type="button" data-share>แชร์ลิงก์เทียบ</button>
           <button class="btn sm ghost" type="button" data-close>ปิดผลเทียบ</button></span>
         </div>
-        ${kind === 'r' ? whoFor(sel) : ''}
         <div class="two${rd ? '' : ' solo'}">
           ${rd ? `<div class="radar"><h3>${rd.title}</h3>${radar(rd.axes, rd.series, 340, true)}${legend(sel)}<p class="small muted">กดที่ชื่อแกน เพื่อดูว่ารุ่นไหนสุดทางด้านนั้น</p><p class="small muted">${rd.note}</p></div>` : ''}
           <div class="bars"><h3>กราฟเทียบ</h3>${rd ? '' : legend(sel)}${bars(cfg.bars, sel, db[kind])}</div>
@@ -583,7 +582,7 @@
         <div id="rank"></div>
         <p class="small muted sheet-key">ช่องที่ขึ้น — คือยังไม่มีข้อมูล ช่องที่ไฮไลต์คือค่าที่ต่างกัน ค่าที่มี ≈ คือค่าประเมิน (จากซีรีส์ ราคา หรือความแข็งก้าน) ไม่ใช่ค่าที่ผู้ผลิตประกาศ</p>
         <div class="${state.hideSame ? 'hide-same' : ''}">${specTable(cfg.spec, sel)}</div>
-        ${kind === 'r' ? similar(sel) : ''}
+        ${kind === 'r' ? similar(sel) + whoFor(sel) : ''}
       </section>`;
     renderRank(kind);
     watchSheet();
