@@ -21994,7 +21994,7 @@ window.RACKETS = [
   "brand": "VS",
   "name": "Kriss Sword XP Pro",
   "year": "",
-  "style": "control",
+  "style": "attack",
   "balance": "head-heavy",
   "flex": "medium",
   "level": "advanced",
@@ -22036,8 +22036,9 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "VS Sports Thailand (10 ส.ค. 2026): 4U/G6, balance 305±3 mm, ก้าน 6840 HPX + Torayca M40X นุ่มขึ้น ดีดดีขึ้น เด่นด้าน Control + Stability มากกว่าบุกต่อเนื่อง",
+  "note": "VS Sports Thailand หน้าสินค้า: \"สายพาวเวอร์ เน้นแรงตบหนัก\" และรีวิว (jongnow, ร้าน) เรียกไม้บุกหัวหนัก แต่บทความ VS (10 ส.ค. 2026) บอกเด่น Control + Stability มากกว่าบุกต่อเนื่อง จึงตั้งเป็นสายบุกแบบค่าประเมิน (≈) | 4U/G6, balance 305±3 mm, ก้าน 6840 HPX + Torayca M40X",
   "est": [
+   "style",
    "level"
   ]
  },

@@ -8,7 +8,7 @@
 <ol id="out"></ol>
 <main id="view" hidden></main><div id="tray" hidden></div>
 <script src="../data/rackets.js"></script><script src="../data/strings.js"></script><script src="../data/shuttles.js"></script>
-<script src="../data/shoes.js"></script><script src="../data/socks.js"></script><script src="../app.js"></script>
+<script src="../data/shoes.js"></script><script src="../data/socks.js"></script><script src="../app.js"></script><script src="feedback.js"></script>
 <script>
 const { score } = window.RS_TEST;
 const sc2 = (r, lv) => score(r, S('Yonex BG66 Ultimax'), lv, 'attack').tension;
@@ -40,11 +40,19 @@ const cases = [
   ['Victor สายบุก: Ryuga III ดีกว่า Auraspeed 100X Ultra', () => sc('Victor Thruster Ryuga III', 'Yonex BG66 Ultimax', 'advanced', 'attack').score > sc('Victor Auraspeed 100X Ultra', 'Yonex BG66 Ultimax', 'advanced', 'attack').score],
   ['มือใหม่: Ryuga CLS ดีกว่า Ryuga III', () => sc('Victor Thruster Ryuga CLS', 'Yonex BG65', 'beginner', 'allround').score > sc('Victor Thruster Ryuga III', 'Yonex BG65', 'beginner', 'allround').score],
   ['Li-Ning: ไม้โปรที่ Li-Ning เรียก Flexible นับเป็นก้านกลาง (≈)', () => { const r = R('Li-Ning Axforce 90'); return r.flex === 'medium' && r.est.includes('flex'); }],
-  ['VS: Kriss Sword XP Pro เป็นสายคอนโทรลตาม VS Thailand', () => R('VS Kriss Sword XP Pro').style === 'control'],
+  ['VS: Kriss Sword XP Pro เป็นสายบุก (≈ แหล่งของ VS ขัดกัน)', () => { const r = R('VS Kriss Sword XP Pro'); return r.style === 'attack' && r.est.includes('style'); }],
   ['ทุกไม้: คะแนน 0-100 และความตึงไม่เกินเพดานไม้', () => RACKETS.every(r => { for (const lv of ['beginner', 'pro']) {
       const x = score(r, S('Yonex BG66 Ultimax'), lv, 'attack'); const max = r.tension ? r.tension[1] : 30;
       if (!(x.score >= 0 && x.score <= 100) || x.tension > max) { console.log('bad', r.name, lv, x); return false; } } return true; })],
 ];
+// real play reports (tests/feedback.js): the recommended tension must agree with how the setup felt
+for (const f of window.RS_FEEDBACK || []) {
+  const want = { good: 'ห่างไม่เกิน 1 lb', loose: 'สูงกว่า', tight: 'ต่ำกว่า' }[f.feel];
+  cases.push([`ตีจริง: ${f.racket} + ${f.string} ${f.lbs} lbs รู้สึก ${f.feel} → แนะนำ${want} ${f.lbs}${f.who ? ' (' + f.who + ')' : ''}`, () => {
+    const t = sc(f.racket, f.string, f.level, f.style, f.options || {}).tension;
+    return f.feel === 'good' ? Math.abs(t - f.lbs) <= 1 : f.feel === 'loose' ? t > f.lbs : f.feel === 'tight' ? t < f.lbs : false;
+  }]);
+}
 let pass = 0;
 const out = document.getElementById('out');
 for (const [name, fn] of cases) {

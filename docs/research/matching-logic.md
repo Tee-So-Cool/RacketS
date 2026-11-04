@@ -352,3 +352,23 @@ A frame rated "26–38 lbs" (VS Kriss Sword XP Pro and others) is built to be st
 
 - **Confidence:** low. This is judgement from the maker's rating, not a measured result.
 - **Tests:** one added, 26/26 pass.
+
+## Data pass and play reports (2026-11-04)
+
+- **Kriss Sword XP Pro style:** now attack, marked ≈, so it counts half.
+  - The VS Thailand product page calls it "สายพาวเวอร์ เน้นแรงตบหนัก" (power, hard smashes), and reviews (jongnow, shops) call it a head-heavy attack racket.
+  - VS's own article (10 Aug 2026) stresses control and stability instead. The two VS sources disagree, which is why it is an estimate.
+- **String ratings from the maker:**
+  - Kizuna Z58 (10/9/5/10/9) and Z63X (10/7/8/10/7), the maker's chart as a stringer (ERR KL) quotes it.
+  - Mizuno M-Smooth 65H (repulsion 10, control 10, durability 8, sound 9), from Decathlon Singapore.
+  - Mizuno M-Smooth 65R (10, 9, 8, 10), from a JC Badminton Club post.
+  - Mizuno gives no shock rating, so shock stays ≈.
+  - Not applied: Kizuna Z69 and Z65, which are different strings from our Z69T (Titanium) and Z65X.
+- **Strings still without numbers:** Victor and Li-Ning publish only feature/feel words on their product pages (th.victorsport.com shows Feature and Feel, no numbers), so their ratings stay derived from those words.
+- **Racket levels:** Victor's spec pages give weight, materials and tension caps but no player level. Checking the 75 main-brand rackets over ฿4,500 that still have an estimated level, style or flex needs third-party pages through Google, paced slowly. Not done in this pass.
+- **Play reports (`tests/feedback.js`):** each real setup becomes a test of the recommended tension.
+  - A row gives racket, string, level, style, the pounds strung, and how it felt (good / loose / tight).
+  - good: the recommendation must land within 1 lb of what was strung.
+  - loose: the recommendation must be above it.
+  - tight: the recommendation must be below it.
+  - The list is empty until someone reports a setup.

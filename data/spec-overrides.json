@@ -687,8 +687,11 @@
  "VS Kriss Sword XP Pro": {
   "price": 5390,
   "src": "https://vssportsthailand.com/blogs/ข่าวสาร",
-  "style": "control",
-  "note": "VS Sports Thailand (10 ส.ค. 2026): 4U/G6, balance 305±3 mm, ก้าน 6840 HPX + Torayca M40X นุ่มขึ้น ดีดดีขึ้น เด่นด้าน Control + Stability มากกว่าบุกต่อเนื่อง"
+  "style": "attack",
+  "note": "VS Sports Thailand หน้าสินค้า: \"สายพาวเวอร์ เน้นแรงตบหนัก\" และรีวิว (jongnow, ร้าน) เรียกไม้บุกหัวหนัก แต่บทความ VS (10 ส.ค. 2026) บอกเด่น Control + Stability มากกว่าบุกต่อเนื่อง จึงตั้งเป็นสายบุกแบบค่าประเมิน (≈) | 4U/G6, balance 305±3 mm, ก้าน 6840 HPX + Torayca M40X",
+  "estFields": [
+   "style"
+  ]
  },
  "VS Panlong": {
   "price": 2590,

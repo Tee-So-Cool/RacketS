@@ -24,7 +24,12 @@
   "material": "multi",
   "note": "เน้นคอนโทรล เกาะลูก",
   "src": "https://vnm.mizuno.com/en/blogs/news/badminton-strings",
-  "img": "https://cdn.shopify.com/s/files/1/0726/6156/5694/files/M-SMOOTH65H_White.png?v=1761563640"
+  "img": "https://cdn.shopify.com/s/files/1/0726/6156/5694/files/M-SMOOTH65H_White.png?v=1761563640",
+  "repulsion": 10,
+  "control": 10,
+  "durability": 8,
+  "sound": 9,
+  "ratingNote": "คะแนนบนกล่องของ Mizuno ตามที่ Decathlon Singapore ลงไว้ ไม่มีคะแนนซับแรง (https://www.decathlon.sg)"
  },
  "Mizuno M-Smooth 66H": {
   "new": true,
@@ -40,7 +45,12 @@
   "material": "hybrid",
   "note": "ใยเวคทราน เน้นตบหนัก",
   "src": "https://vnm.mizuno.com/en/blogs/news/badminton-strings",
-  "img": "https://cdn.shopify.com/s/files/1/0726/6156/5694/files/M-SMOOTH_65R_Yellow.png?v=1761563688"
+  "img": "https://cdn.shopify.com/s/files/1/0726/6156/5694/files/M-SMOOTH_65R_Yellow.png?v=1761563688",
+  "repulsion": 10,
+  "control": 9,
+  "durability": 8,
+  "sound": 10,
+  "ratingNote": "คะแนนของ Mizuno ตามโพสต์ JC Badminton Club (Facebook) ไม่มีคะแนนซับแรง"
  },
  "Kizuna Z58": {
   "new": true,
@@ -48,14 +58,26 @@
   "gauge": 0.58,
   "material": "multi",
   "note": "เน้นแรงดีด",
-  "src": "https://www.rakuten.co.jp/auc-nissin-spo-shop/contents/string-reel/"
+  "src": "https://www.rakuten.co.jp/auc-nissin-spo-shop/contents/string-reel/",
+  "repulsion": 10,
+  "control": 9,
+  "durability": 5,
+  "sound": 10,
+  "shock": 9,
+  "ratingNote": "คะแนนของผู้ผลิต (Kizuna) ตามที่ร้านขึ้นเอ็น ERR KL ยกมา (https://errbadmintonrestring.my/kizuna-z58-racket-restring/)"
  },
  "Kizuna Z63X": {
   "new": true,
   "brand": "Kizuna",
   "gauge": 0.63,
   "material": "multi",
-  "src": "https://www.rakuten.co.jp/auc-nissin-spo-shop/contents/string-reel/"
+  "src": "https://www.rakuten.co.jp/auc-nissin-spo-shop/contents/string-reel/",
+  "repulsion": 10,
+  "control": 7,
+  "durability": 8,
+  "sound": 10,
+  "shock": 7,
+  "ratingNote": "คะแนนของผู้ผลิต (Kizuna) ตามที่ร้านขึ้นเอ็น ERR KL ยกมา (https://errbadmintonrestring.my/kizuna-z63x-badminton-stringing/)"
  },
  "Kizuna Z65X": {
   "new": true,
