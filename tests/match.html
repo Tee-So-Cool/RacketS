@@ -13,7 +13,7 @@
 const { score } = window.RS_TEST;
 const R = n => RACKETS.find(x => (x.brand + ' ' + x.name).toLowerCase() === n.toLowerCase()) || (() => { throw new Error('no racket ' + n); })();
 const S = n => STRINGS.find(x => (x.brand + ' ' + x.name).toLowerCase() === n.toLowerCase()) || (() => { throw new Error('no string ' + n); })();
-const sc = (r, s, level, style, o = {}) => score(R(r), S(s), level, style, o.shuttle || 'feather', o.climate || 'normal', o.game || 'doubles', o.arm || 'none');
+const sc = (r, s, level, style, o = {}) => score(R(r), S(s), level, style, o.shuttle || 'feather', o.climate || 'normal', o.game || 'doubles', o.arm || 'none', o.head || '');
 const cases = [
   ['มือใหม่: ไม้มือใหม่ดีกว่าไม้โปร', () => sc('Yonex Nanoflare 001 Clear', 'Yonex BG65', 'beginner', 'allround').score > sc('Yonex Astrox 100ZZ', 'Yonex BG65', 'beginner', 'allround').score],
   ['โปรสายบุก: Astrox 100ZZ ดีกว่า Muscle Power 2', () => sc('Yonex Astrox 100ZZ', 'Yonex Exbolt 63', 'pro', 'attack').score > sc('Yonex Muscle Power 2', 'Yonex Exbolt 63', 'pro', 'attack').score],
@@ -24,6 +24,8 @@ const cases = [
   ['ถนอมข้อมือ: Skyarc ดีกว่า BG80 Power', () => sc('Yonex Arcsaber 11 Pro', 'Yonex Skyarc', 'intermediate', 'control', { arm: 'care' }).score > sc('Yonex Arcsaber 11 Pro', 'Yonex BG80 Power', 'intermediate', 'control', { arm: 'care' }).score],
   ['ถนอมข้อมือ: ความตึงต่ำลง', () => sc('Yonex Arcsaber 11 Pro', 'Yonex BG66 Ultimax', 'intermediate', 'control', { arm: 'care' }).tension < sc('Yonex Arcsaber 11 Pro', 'Yonex BG66 Ultimax', 'intermediate', 'control').tension],
   ['ถนอมข้อมือ: ไม้ก้านแข็งคะแนนลด', () => sc('Yonex Astrox 100ZZ', 'Yonex BG66 Ultimax', 'advanced', 'attack', { arm: 'care' }).score < sc('Yonex Astrox 100ZZ', 'Yonex BG66 Ultimax', 'advanced', 'attack').score],
+  ['หน้าไม้กว้าง: ขึ้นตึงกว่าหน้ามาตรฐาน 1 ปอนด์', () => sc('VS Kriss Sword XP Pro', 'Yonex BG66 Ultimax', 'intermediate', 'attack', { head: 'large' }).tension === sc('VS Kriss Sword XP Pro', 'Yonex BG66 Ultimax', 'intermediate', 'attack', { head: 'standard' }).tension + 1],
+  ['หน้าไม้เล็ก: หย่อนกว่าหน้ามาตรฐาน 1 ปอนด์', () => sc('Yonex Astrox 77 Pro', 'Yonex BG66 Ultimax', 'advanced', 'attack', { head: 'small' }).tension === sc('Yonex Astrox 77 Pro', 'Yonex BG66 Ultimax', 'advanced', 'attack').tension - 1],
   ['ลูกไนลอน: ความตึงต่ำลง', () => sc('Yonex Astrox 77 Pro', 'Yonex BG66 Ultimax', 'intermediate', 'attack', { shuttle: 'nylon' }).tension < sc('Yonex Astrox 77 Pro', 'Yonex BG66 Ultimax', 'intermediate', 'attack').tension],
   ['มือใหม่: ความตึงอยู่ในช่วง 19-23', () => { const t = sc('Yonex Nanoflare 001 Clear', 'Yonex BG65', 'beginner', 'allround').tension; return t >= 19 && t <= 23; }],
   ['ถนอมข้อมือ: เอ็นนุ่ม VBS-70 Power ดีกว่าเอ็นแข็ง VBS-68', () => sc('Victor Thruster K 110', 'Victor VBS-70 Power', 'intermediate', 'attack', { arm: 'care' }).score > sc('Victor Thruster K 110', 'Victor VBS-68', 'intermediate', 'attack', { arm: 'care' }).score],

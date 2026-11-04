@@ -26,6 +26,7 @@
     spd: { 75: 'สปีด 75', 76: 'สปีด 76', 77: 'สปีด 77', 78: 'สปีด 78', 79: 'สปีด 79', slow: 'ช้า (Slow)', medium: 'กลาง (Medium)', fast: 'เร็ว (Fast)' },
     width: { normal: 'หน้าเท้าปกติ', wide: 'หน้าเท้ากว้าง', narrow: 'หน้าเท้าแคบ' },
     height: { low: 'ข้อสั้น', mid: 'ข้อกลาง', high: 'ข้อยาว' },
+    head: { large: 'หน้าไม้กว้าง', standard: 'หน้าไม้มาตรฐาน', small: 'หน้าไม้เล็ก' },
   };
   const ORD = {
     balance: ['head-light', 'even', 'head-heavy'],
@@ -126,11 +127,12 @@
     const w = clamp(((Number(r.weight) || 83) - 74) / 16);
     const tmax = clamp((((r.tension && r.tension[1]) || 27) - 18) / 14);  // 18-32 lbs, so 20-lb starter frames still register
     const st = { attack: 0.3, speed: 0.4, control: 1, allround: 0.7 }[r.style] ?? 0.5;
+    const hd = { large: 1, standard: 0.5, small: 0 }[r.head] ?? 0.5;  // a larger string bed has a larger sweet spot
     return [
       0.4 * bal + 0.3 * fx + 0.3 * w,  // a stiff shaft and a heavier frame add power, not only a heavy head
       0.65 * (1 - bal) + 0.35 * (1 - w),
       0.35 * st + 0.2 * (1 - Math.abs(bal - 0.5) * 2) + 0.3 * fx + 0.15 * (1 - bal),  // stiff shafts aim truer; light heads steer at the net
-      0.5 * (1 - fx) + 0.35 * (1 - lv) + 0.15 * (1 - w),
+      0.45 * (1 - fx) + 0.3 * (1 - lv) + 0.1 * (1 - w) + 0.15 * hd,
       tmax,
       0.45 * (1 - bal) + 0.35 * (1 - w) + 0.2 * fx,
       0.55 * fx + 0.45 * lv,
@@ -231,6 +233,7 @@
         ['วัสดุก้าน', r => dash(r.shaft)],
         ['ข้อต่อเฟรม-ก้าน', r => dash(r.joint)],
         ['ความยาว', r => dash(r.length)],
+        ['ขนาดหน้าไม้', r => L.head[r.head] || '—'],
         ['ผังเอ็น', r => dash(r.pattern)],
         ['เทคโนโลยี', r => dash(r.tech)],
         ['นักกีฬาที่ใช้', r => dash(r.players)],
@@ -755,7 +758,7 @@
   const PARTS = [['player', 'เอ็นกับผู้เล่น', 0.45], ['racket', 'ไม้กับผู้เล่น', 0.3], ['pair', 'ไม้กับเอ็น', 0.25]];
   const norm = t => String(t || '').toLowerCase().replace(/[^a-z0-9]/g, '');
 
-  function score(r, s, level, style, shuttle = 'feather', climate = 'normal', game = 'doubles', arm = 'none') {
+  function score(r, s, level, style, shuttle = 'feather', climate = 'normal', game = 'doubles', arm = 'none', headPick = '') {
     const reasons = [];
     const ok = t => reasons.push(['ok', t]);
     const wn = t => reasons.push(['wn', t]);
@@ -862,6 +865,14 @@
     if (level === 'beginner' && (fx >= 2 || bal === 'head-heavy')) nudge(-1, 'ไม้ต้องใช้แรงอยู่แล้ว');       // [low]
     const inBand = clamp(t, bLo, bHi);
     if (inBand !== t) { steps.push([`ให้อยู่ในช่วงของ${L.level[level]}`, inBand - t]); t = inBand; }
+    // head size: a larger head has longer strings, so the same pounds give a softer, more trampoline-like bed;
+    // one pound up keeps the feel of a standard head, one down for a small head [medium: string-bed stiffness
+    // falls with string length; shop and maker stringing advice for oversize frames]. Applied after the level
+    // band on purpose: it is the same feel at a different number, not a different feel.
+    const head = headPick || r.head || '';
+    if (head === 'large') nudge(1, 'หน้าไม้กว้าง เอ็นยาวกว่า ปอนด์เท่ากันจะรู้สึกหย่อนกว่า');
+    else if (head === 'small') nudge(-1, 'หน้าไม้เล็ก เอ็นสั้นกว่า ปอนด์เท่ากันจะรู้สึกตึงกว่า');
+    if (head === 'large' && lv <= 1) ok('หน้าไม้กว้าง จุดหวานใหญ่ ตีพลาดกลางหน้าไม้แล้วยังไปได้');
     if (climate === 'hot') nudge(1, 'สนามร้อนชื้น (ความเชื่อของช่าง ยังไม่มีหลักฐานยืนยัน)');               // [low, T7]
     if (arm === 'care') nudge(-1, 'ถนอมข้อมือ/ไหล่ ขึ้นเอ็นหย่อนลงลดแรงสะเทือน');      // [medium] lower tension = less vibration
     if (shuttle === 'nylon') nudge(-2, 'ลูกไนลอน');                                                          // [medium, two sources]
@@ -912,7 +923,7 @@
     if (!db.r.length || !db.s.length) { view.innerHTML = '<h1>จับคู่ไม้ + เอ็น</h1><p class="empty">ต้องมีข้อมูลไม้และเอ็นอย่างน้อยอย่างละ 1 รายการ</p>'; return; }
     // the first model picked on a compare page, sent here by its "to match" button
     // a shared match link (#match?r=..&s=..&level=..) sets every choice it names
-    if (state.linkM) { for (const [k, v] of Object.entries(state.linkM)) if (k in state.m || ['cur', 'budget'].includes(k)) state.m[k] = v; state.linkM = null; }
+    if (state.linkM) { for (const [k, v] of Object.entries(state.linkM)) if (k in state.m || ['cur', 'budget', 'head'].includes(k)) state.m[k] = v; state.linkM = null; }
     if (state.mPick) { const [k, id] = state.mPick; if (byId(k, id)) state.m[k] = id; state.mPick = null; }
     if (!byId('r', state.m.r)) state.m.r = db.r[0].id;
     if (!byId('s', state.m.s)) state.m.s = db.s[0].id;
@@ -935,6 +946,7 @@
         ${seg('game', 'เล่น', { doubles: 'คู่', singles: 'เดี่ยว' })}
         ${seg('arm', 'ข้อมือ/ไหล่', { none: 'ปกติ', care: 'มีอาการ ต้องถนอม' })}
         ${seg('climate', 'สนาม', { normal: 'ปกติ/ห้องแอร์', hot: 'ร้อนชื้น' })}
+        ${seg('head', 'หน้าไม้', { '': 'ตามข้อมูลไม้', large: 'กว้าง', standard: 'มาตรฐาน', small: 'เล็ก' })}
         ${seg('cur', 'ไม้ที่ใช้อยู่หนัก', { '': 'ไม่ระบุ', '3U': '3U', '4U': '4U', '5U': '5U' })}
         ${seg('budget', 'งบไม้', { '': 'ไม่จำกัด', 2000: '≤ 2,000', 4000: '≤ 4,000', 7000: '≤ 7,000' })}
       </div>
@@ -944,7 +956,7 @@
     const card = kind => {
       const x = byId(kind, state.m[kind]);
       const spec = kind === 'r'
-        ? [L.style[x.style], lab(x, 'balance'), L.flex[x.flex], x.weights, x.tension ? '≤ ' + x.tension[1] + ' lbs' : ''].filter(Boolean)
+        ? [L.style[x.style], lab(x, 'balance'), L.flex[x.flex], L.head[x.head], x.weights, x.tension ? '≤ ' + x.tension[1] + ' lbs' : ''].filter(Boolean)
         : [gaugeLabel(x), L.material[x.material], x.tensionMax ? '≤ ' + x.tensionMax + ' lbs' : ''].filter(Boolean);
       const bars = kind === 's' ? `<div class="mbars">${S_KEYS.map((k, i) => `<span class="mbar"><span>${S_AXES[i]}</span><i style="--w:${(Number(x[k]) || 0) * 10}"></i></span>`).join('')}</div>` : '';
       view.querySelector('#pick-' + kind).innerHTML = `
@@ -996,7 +1008,7 @@
     const { level, style } = state.m, shuttle = state.m.shuttle || 'feather', climate = state.m.climate || 'normal';
     const game = state.m.game || 'doubles', arm = state.m.arm || 'none';
     const r = byId('r', state.m.r), s = byId('s', state.m.s);
-    const res = score(r, s, level, style, shuttle, climate, game, arm);
+    const res = score(r, s, level, style, shuttle, climate, game, arm, state.m.head || '');
     history.replaceState(null, '', '#match?' + new URLSearchParams(Object.entries(state.m).filter(([, v]) => v)));
     const [vt, vc] = verdict(res.score);
     const allS = db.s.filter(x => x.id !== s.id).map(x => ({ x, ...score(r, x, level, style, shuttle, climate, game, arm) })).sort((a, b) => b.score - a.score || a.guess.length - b.guess.length);
@@ -1113,7 +1125,7 @@
       ['weights', 'น้ำหนัก (เช่น 3U, 4U)', 'text'], ['weight', 'น้ำหนักเฉลี่ย (g)', 'number'], ['grips', 'ขนาดด้าม', 'text'],
       ['tmin', 'ความตึงต่ำสุด (lbs)', 'number'], ['tmax', 'ความตึงสูงสุด (lbs)', 'number'], ['price', 'ราคาประมาณ (บาท)', 'number'],
       ['frame', 'วัสดุเฟรม', 'text'], ['shaft', 'วัสดุก้าน', 'text'], ['joint', 'ข้อต่อเฟรม-ก้าน', 'text'], ['length', 'ความยาว', 'text'],
-      ['pattern', 'ผังเอ็น', 'text'], ['madeIn', 'ผลิตที่', 'text'], ['recString', 'เอ็นที่ผู้ผลิตแนะนำ', 'text'],
+      ['head', 'ขนาดหน้าไม้', 'select', L.head], ['pattern', 'ผังเอ็น', 'text'], ['madeIn', 'ผลิตที่', 'text'], ['recString', 'เอ็นที่ผู้ผลิตแนะนำ', 'text'],
       ['tech', 'เทคโนโลยี', 'text', { wide: 1 }], ['players', 'นักกีฬาที่ใช้', 'text', { wide: 1 }],
       ['img', 'ลิงก์รูป', 'text', { wide: 1 }], ['officialUrl', 'ลิงก์หน้าผู้ผลิต', 'text', { wide: 1 }], ['note', 'หมายเหตุ', 'textarea', { wide: 1 }],
     ],

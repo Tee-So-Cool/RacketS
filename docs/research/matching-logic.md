@@ -286,3 +286,16 @@ scripts/build_strings.py now applies overrides a second time after the shop laye
 - **Aluminium frames tagged advanced or pro:** moved to beginner (≈). These were the Astrox E13, Nanoflare E13 and B7000MDM.
 - **Prices from old shop posts, variant listings or imports:** kept as estimates (`estFields` in spec-overrides.json). They do not count as a real Thai price in the top-5 ranking.
 - **tests/match.html:** 21 cases. New ones cover Victor (Auraspeed 100X Ultra against Ryuga III, by style), beginners (Ryuga CLS against Ryuga III), Li-Ning flex reading, VS XP Pro style, and VS's high minimum tension.
+
+## Head size and tension (2026-11-04)
+
+A larger head has longer main and cross strings. At the same pounds, a longer string stretches more for the same force, so the string bed feels softer and more like a trampoline. Stringing a large head to the same number as a standard head therefore feels looser, with less control.
+
+- The data now has a `head` field: `large`, `standard` or `small`. It is empty unless a source states the size. Set it through `data/spec-overrides.json` with a `src`.
+- The match page has a "หน้าไม้" toggle (ตามข้อมูลไม้ / กว้าง / มาตรฐาน / เล็ก), so a player who knows their frame can set it when the data is empty. The choice is kept in the share link (`head=`).
+- Tension: `large` adds 1 lb and `small` takes 1 lb off. The step runs after the level band clamp, because it keeps the same feel at a different number rather than changing the feel. The racket and string caps still apply afterwards. [medium: string-bed stiffness falls with string length; stringer advice for oversize frames]
+- A large head at beginner or intermediate level earns a note about the larger sweet spot.
+- Radar: the forgiveness axis (ตีง่าย) takes 15% from head size (large 1, standard 0.5, small 0, unknown 0.5).
+- Not modelled yet: string count (22×21 vs 22×22 patterns), which has the same direction of effect but too little data (52 rackets).
+- Kriss Sword XP Pro: no source found that gives its head size (searched VS Thailand, jongnow and Google snippets on 2026-11-04), so `head` stays empty.
+- Tests: two cases added (large head +1 lb, small head −1 lb), 23/23 pass.
