@@ -299,3 +299,38 @@ A larger head has longer main and cross strings. At the same pounds, a longer st
 - Not modelled yet: string count (22×21 vs 22×22 patterns), which has the same direction of effect but too little data (52 rackets).
 - Kriss Sword XP Pro: no source found that gives its head size (searched VS Thailand, jongnow and Google snippets on 2026-11-04), so `head` stays empty.
 - Tests: two cases added (large head +1 lb, small head −1 lb), 23/23 pass.
+
+## Technology (2026-11-04)
+
+No maker publishes head size per model, so the match reads the racket's named technologies instead (`tech`, 329 of 740 rackets have it). Each name is mapped to the effect the maker or its retailers claim for it. 210 rackets match at least one entry.
+
+| Tag | Names matched | Claimed effect | Racket count | Source of the claim |
+|---|---|---|---|---|
+| sweet | Isometric, Enlarged Sweet Spot, Dynamic-Optimum Frame | square head, larger sweet spot | 74 | Yonex (Isometric, trademark since 1980); Li-Ning (sweet spot moved higher and enlarged) |
+| shock | Free Core, Mucell foam, Solid Foaming, Wing Stabilizer, Solid Feel Core | absorbs vibration | 61 | Victor (injection-moulded handle, comfort); VS; Li-Ning ("absorbs unnecessary shaking") |
+| stable | Power Box, box frame, Aero+Box, Hard Cored, Nano Fortify TR, anti-torsion, built-in / embedded T-joint | resists twisting, stable face | 104 | Victor (box shape raises stability and anti-torque) |
+| aero | Aero frame, Aero-Sword, wind-cutting frame, slim / 68 / ultra-thin shaft | less air drag, faster swing | 88 | Victor (Aero-Sword reduces air resistance); Yonex slim shaft |
+| rebound | Nanomesh Neo, super-elastic tube, Whipping Enhance, Energy Boost, Power Assist Bumper, high-resilience graphite | more repulsion | 73 | maker copy |
+| counter | Rotational Generator System, counterbalanced weight distribution | counterweight in the handle, head-heavy but easier to swing | 23 | Yonex |
+
+"Turbo Charging" is a Li-Ning series name, not a technology, so it is not matched on its own. Pyrofil (a Mitsubishi carbon fibre) is left out: retailers credit it with both shock absorption and control, which is too vague to score.
+
+**How it scores** (racket part only; the tension never moves):
+
+- shock +4 when the player has wrist or shoulder trouble
+- sweet +3 for beginner and intermediate
+- stable +3 for control
+- aero +3 for speed, or doubles in any style but control
+- rebound +3 for attack
+- counter +3 on a head-heavy racket
+- The total is capped at +6, and the reason shows as "เทคโนโลยีของไม้ (ตามผู้ผลิต)".
+
+**Why the weight is small:**
+
+- These are marketing claims with no independent tests.
+- Nearly every top frame claims power, control and speed together.
+- Rackets with no `tech` text get nothing, so a larger weight would favour rackets with richer data.
+
+The spec table shows the claimed effects in a "เทคโนโลยีช่วยเรื่อง" row.
+
+Tests: two added (shock tech raises the racket part under arm care; tech does not change the tension). 25/25 pass.

@@ -119,6 +119,18 @@
   const sources = x => [link(x.officialUrl, 'ผู้ผลิต'), link(x.specSrc, 'หน้าสินค้า'), link(x.shopUrl, 'ร้านไทย'), link(x.bayUrl, 'Badminton Bay'), link(x.clickUrl, 'Badminton Click'), ...(Array.isArray(x.shopLinks) ? x.shopLinks.map(l => link(l.url, esc(l.shop))) : []), link(x.priceSrc !== x.bayUrl && x.priceSrc !== x.clickUrl ? x.priceSrc : '', 'ที่มาราคา'), link(x.source, 'chobbad'), link(x.wordSrc, 'คำบรรยายจากผู้ผลิต')].filter(Boolean).join(', ') || '—';
 
   // ---------- profiles (0–10) ----------
+  // What a racket's named technologies claim to do, read from the makers' and retailers' own descriptions
+  // (docs/research/matching-logic.md, "Technology"). These are marketing claims, so the match gives them a
+  // small, capped weight and never lets them change the tension.
+  const TECH = [
+    ['sweet', /isometric|enlarged sweet|dynamic-optimum/i, 'หัวทรงเหลี่ยม/ขยายจุดหวาน ตีไม่โดนกลางหน้าไม้ก็ยังไปได้'],
+    ['shock', /free core|mucell|solid foam|wing stabili[sz]er|solid feel core/i, 'ซับแรงสะเทือน ถนอมข้อมือ'],
+    ['stable', /power box|box frame|aero\+?box|hard cored|nano fortify|anti.?tors|anti twist|built-in t|embedded t/i, 'เฟรมต้านการบิด หน้าไม้นิ่ง คุมทิศทางง่าย'],
+    ['aero', /aero(?!\+?box)|wind cutting|wind tearing|slim shaft|68 shaft|ultra-thin shaft|super slim/i, 'เฟรมหรือก้านลดแรงต้านลม สวิงไว'],
+    ['rebound', /nanomesh|super ?elastic|whipping enhance|energy boost|power assist bumper|high resilience/i, 'วัสดุหรือโครงสร้างเพิ่มแรงดีด ส่งลูกไกลง่าย'],
+    ['counter', /rotational generator|counterbalanced/i, 'ถ่วงน้ำหนักที่ด้ามและหัว ไม้หัวหนักแต่สะบัดคล่องขึ้น'],
+  ];
+  const techTags = r => TECH.filter(([, re]) => re.test(r.tech || '')).map(([k, , txt]) => [k, txt]);
   const R_AXES = ['พลังตบ', 'ความคล่องตัว', 'ควบคุม', 'ตีง่าย', 'รับเอ็นตึง', 'หน้าไม้ไว', 'ต้องมีพื้นฐาน'];
   function racketProfile(r) {
     const bal = ordIdx('balance', r.balance, 1) / 2;
@@ -235,6 +247,7 @@
         ['ความยาว', r => dash(r.length)],
         ['ขนาดหน้าไม้', r => L.head[r.head] || '—'],
         ['ผังเอ็น', r => dash(r.pattern)],
+        ['เทคโนโลยีช่วยเรื่อง', r => { const t = techTags(r); return t.length ? t.map(([, x]) => esc(x)).join('<br>') + '<div class="small muted">ตามคำอธิบายของผู้ผลิต</div>' : '—'; }],
         ['เทคโนโลยี', r => dash(r.tech)],
         ['นักกีฬาที่ใช้', r => dash(r.players)],
         ['ผลิตที่', r => dash(r.madeIn)],
@@ -829,6 +842,18 @@
     const g8 = Number(r.weight) || 0;
     if (g8 && lv <= 1 && g8 >= 87) { pR -= 8; wn(`ไม้หนัก (${g8} g) สวิงเหนื่อยสำหรับ${L.level[level]} ลองรุ่น 4U หรือ 5U`); }
     else if (g8 && lv === 0 && g8 <= 84) pR += 4;
+    // the racket's named technologies, at most +6 in all: each counts only where it serves this player
+    {
+      const tags = Object.fromEntries(techTags(r)); let tb = 0; const why = [];
+      const add = (k, n) => { if (tags[k]) { tb += n; why.push(tags[k]); } };
+      if (arm === 'care') add('shock', 4);
+      if (lv <= 1) add('sweet', 3);
+      if (style === 'control') add('stable', 3);
+      if (style === 'speed' || (game === 'doubles' && style !== 'control')) add('aero', 3);
+      if (style === 'attack') add('rebound', 3);
+      if (bal === 'head-heavy') add('counter', 3);
+      if (tb) { pR += Math.min(tb, 6); ok('เทคโนโลยีของไม้ (ตามผู้ผลิต): ' + why.join(', ')); }
+    }
     if (r.style) {
       const sf = r.style === style ? 14 : (r.style === 'allround' || style === 'allround') ? 2 : -10;  // the maker's own label outweighs a guess from specs
       pR += rEst.includes('style') ? sf / 2 : sf;
