@@ -6166,8 +6166,8 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
-  "level": "intermediate",
+  "flex": "medium",
+  "level": "advanced",
   "weights": "3U",
   "weight": 86,
   "grips": "",
@@ -6190,7 +6190,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm386_4_01_95319308a6.jpg?v=1752147803",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://in.lining.studio/products/3d-calibar-600-combat",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -6206,10 +6206,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹12,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/3d-calibar-600-combat",
-  "note": "",
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
+   "level",
    "price",
-   "level"
+   "flex"
   ]
  },
  {
@@ -6713,7 +6714,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "intermediate",
   "weights": "3U",
   "weight": 87,
   "grips": "",
@@ -6736,7 +6737,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aeronaut_5000_01_e296e42085.jpg?v=1752147943",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://in.lining.studio/products/aeronaut-5000",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -6752,10 +6753,9 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹8,560.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/aeronaut-5000",
-  "note": "",
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for intermediate players\"",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -6818,8 +6818,8 @@ window.RACKETS = [
   "year": "",
   "style": "allround",
   "balance": "even",
-  "flex": "flexible",
-  "level": "intermediate",
+  "flex": "medium",
+  "level": "advanced",
   "weights": "3U",
   "weight": 87,
   "grips": "",
@@ -6842,7 +6842,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_110_52_19a09c042c.jpg?v=1752144567",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://in.lining.studio/products/aeronaut-6000-combat",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -6858,10 +6858,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹9,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/aeronaut-6000-combat",
-  "note": "",
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
+   "level",
    "price",
-   "level"
+   "flex"
   ]
  },
  {
@@ -6871,8 +6872,8 @@ window.RACKETS = [
   "year": "",
   "style": "allround",
   "balance": "even",
-  "flex": "flexible",
-  "level": "intermediate",
+  "flex": "medium",
+  "level": "advanced",
   "weights": "3U",
   "weight": 85,
   "grips": "",
@@ -6895,7 +6896,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypq014_4_01_e2649b9089.jpg?v=1752147932",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://in.lining.studio/products/aeronaut-6000-drive",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -6911,10 +6912,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹9,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/aeronaut-6000-drive",
-  "note": "",
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
+   "level",
    "price",
-   "level"
+   "flex"
   ]
  },
  {
@@ -6924,8 +6926,8 @@ window.RACKETS = [
   "year": "",
   "style": "allround",
   "balance": "even",
-  "flex": "flexible",
-  "level": "intermediate",
+  "flex": "medium",
+  "level": "advanced",
   "weights": "5U",
   "weight": 79,
   "grips": "G6",
@@ -6948,7 +6950,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/1_d252aa7261.jpg?v=1749898348",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://in.lining.studio/products/aeronaut-6000-instinct",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -6960,10 +6962,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹9,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/aeronaut-6000-instinct",
-  "note": "",
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
+   "level",
    "price",
-   "level"
+   "flex"
   ]
  },
  {
@@ -7038,7 +7041,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aeronaut_7000_01_73381795d2.jpg?v=1752144089",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://in.lining.studio/products/aeronaut-7000",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -7058,10 +7061,10 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹11,190.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-7000-unstrung-badminton-racket",
-  "note": "",
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈)",
   "est": [
-   "price",
-   "level"
+   "level",
+   "price"
   ]
  },
  {
@@ -7128,8 +7131,8 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
-  "level": "intermediate",
+  "flex": "medium",
+  "level": "advanced",
   "weights": "3U, 4U, 5U",
   "weight": 89,
   "grips": "",
@@ -7152,7 +7155,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm442_4_01_03569922ec.jpg?v=1752147890",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://in.lining.studio/products/aeronaut-7000-combat",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -7172,10 +7175,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹11,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/aeronaut-7000-combat",
-  "note": "",
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
+   "level",
    "price",
-   "level"
+   "flex"
   ]
  },
  {
@@ -7185,8 +7189,8 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
-  "level": "intermediate",
+  "flex": "medium",
+  "level": "advanced",
   "weights": "4U, 5U",
   "weight": 79,
   "grips": "",
@@ -7209,7 +7213,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_110_53_e987472123.jpg?v=1752147911",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://in.lining.studio/products/aeronaut-7000-instinct",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -7229,10 +7233,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹11,190.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-7000-instinct-badminton-racket-pink",
-  "note": "",
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
+   "level",
    "price",
-   "level"
+   "flex"
   ]
  },
  {
@@ -7242,8 +7247,8 @@ window.RACKETS = [
   "year": "",
   "style": "allround",
   "balance": "even",
-  "flex": "flexible",
-  "level": "intermediate",
+  "flex": "medium",
+  "level": "advanced",
   "weights": "3U, 4U",
   "weight": 88,
   "grips": "",
@@ -7266,7 +7271,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypn218_4_01_80ec190ad3.jpg?v=1752144059",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://in.lining.studio/products/aeronaut-8000",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -7286,10 +7291,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹13,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-8000-unstrung-badminton-racket",
-  "note": "",
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
+   "level",
    "price",
-   "level"
+   "flex"
   ]
  },
  {
@@ -7299,8 +7305,8 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
-  "level": "intermediate",
+  "flex": "medium",
+  "level": "advanced",
   "weights": "3U, 4U",
   "weight": 87,
   "grips": "",
@@ -7323,7 +7329,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypn216_4_01_b7c90ff59b.jpg?v=1752144069",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://in.lining.studio/products/aeronaut-8000-combat",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -7343,10 +7349,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹12,449.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-8000-combat-badminton-racket",
-  "note": "",
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
+   "level",
    "price",
-   "level"
+   "flex"
   ]
  },
  {
@@ -7356,8 +7363,8 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
-  "level": "intermediate",
+  "flex": "medium",
+  "level": "advanced",
   "weights": "3U, 4U, 5U",
   "weight": 86,
   "grips": "",
@@ -7380,7 +7387,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypn214_4_03_be3819aa78.jpg?v=1752144079",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://in.lining.studio/products/aeronaut-8000-drive",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -7400,10 +7407,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹13,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-8000-drive-badminton-racket",
-  "note": "",
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
+   "level",
    "price",
-   "level"
+   "flex"
   ]
  },
  {
@@ -12984,9 +12992,8 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "Li-Ning (in.lining.studio): \"an excellent fit for beginners\"",
   "est": [
-   "level",
    "weight"
   ]
  },
@@ -25379,7 +25386,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/auraspeed99BAC-1.webp?v=1773380625",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.badmintonwarehouse.com/products/victor-auraspeed-99-badminton-racket",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "https://badmintonclick.com.au/products/new-2026-victor-auraspeed-99-bac-limited-edition-83-grams-badminton-racquet",
@@ -25411,12 +25418,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก CAD 249.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-auraspeed-99-unstrung-badminton-racket-pink-ars-99",
-  "note": "",
+  "note": "Badminton Warehouse: Player Level \"Advanced / Competitive\"",
   "est": [
    "tension",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {

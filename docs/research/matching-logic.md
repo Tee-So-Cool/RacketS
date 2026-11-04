@@ -372,3 +372,34 @@ A frame rated "26–38 lbs" (VS Kriss Sword XP Pro and others) is built to be st
   - loose: the recommendation must be above it.
   - tight: the recommendation must be below it.
   - The list is empty until someone reports a setup.
+
+## Racket level check (2026-11-04)
+
+This pass checked the 261 Yonex, Victor and Li-Ning rackets whose level was an estimate. VS (77) was not checked, because neither source below carries it.
+
+**Sources tried:**
+
+- **Badminton Warehouse (structured "Player Level" field):** checked 160 Yonex and Victor models.
+  - The shop carries no Li-Ning.
+  - Only 11 models matched exactly, and only 3 had a level.
+  - Two of those 3 were variants (F C Ultra CX, DriveX 10X Metallic), so they were not used.
+- **Li-Ning India (in.lining.studio product copy):** checked 85 Li-Ning models. Some pages say "This racket is tuned for X players".
+
+**Applied (13):**
+
+| Racket | Level | Source |
+|---|---|---|
+| Victor Auraspeed 99 | advanced | Badminton Warehouse "Advanced / Competitive" |
+| Li-Ning Aeronaut 5000 | intermediate | Li-Ning: "tuned for intermediate players" |
+| Li-Ning Smash XP Pro | beginner | Li-Ning: "an excellent fit for beginners" |
+| Li-Ning Aeronaut 6000 / 7000 / 8000 (all Combat, Drive, Instinct versions listed) and 3D Calibar 600 Combat | advanced ≈ | Li-Ning: "tuned for professional players" |
+
+- **The first three** take the stated level and lose their ≈.
+- **The ten Aeronaut and Calibar rackets:** Li-Ning uses the "professional" phrase across several tiers, including the mid-range Calibar 600 Combat, so it reads as "serious player" rather than our "pro" level. These ten moved from intermediate (≈) to advanced and stay ≈.
+- **Not used:** generic copy such as "like the professionals" on every Turbo Charging page, and "professional racket" on the budget Ignite 8.
+
+**What is left:**
+
+- About 248 main-brand rackets still have an estimated level.
+- Victor and Yonex do not publish a level, and retailers rarely give one in a structured form.
+- Reviews and Google snippets would need slow, paced searches.

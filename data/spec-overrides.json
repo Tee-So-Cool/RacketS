@@ -3113,7 +3113,9 @@
   "src": "https://shopee.com.my/LI-NING-AERONAUT-6000C"
  },
  "Li-Ning Smash XP Pro": {
-  "src": "https://in.lining.studio/products/smash-xp-pro"
+  "src": "https://in.lining.studio/products/smash-xp-pro",
+  "level": "beginner",
+  "note": "Li-Ning (in.lining.studio): \"an excellent fit for beginners\""
  },
  "Li-Ning 3D Calibar 600B": {
   "priceForeign": 159.99,
@@ -3180,5 +3182,95 @@
   "weight": 84,
   "src": "https://theracquetshop.com/products/li-ning-turbo-charging-75-combat",
   "note": "The Racquet Shop (Turbo Charging 75 Combat): 4U 84 g, balance 306 mm"
+ },
+ "Li-Ning Aeronaut 6000 Combat": {
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈)",
+  "src": "https://in.lining.studio/products/aeronaut-6000-combat"
+ },
+ "Li-Ning Aeronaut 6000 Drive": {
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈)",
+  "src": "https://in.lining.studio/products/aeronaut-6000-drive"
+ },
+ "Li-Ning Aeronaut 6000 Instinct": {
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈)",
+  "src": "https://in.lining.studio/products/aeronaut-6000-instinct"
+ },
+ "Li-Ning Aeronaut 7000": {
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈)",
+  "src": "https://in.lining.studio/products/aeronaut-7000"
+ },
+ "Li-Ning Aeronaut 7000 Combat": {
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈)",
+  "src": "https://in.lining.studio/products/aeronaut-7000-combat"
+ },
+ "Li-Ning Aeronaut 7000 Instinct": {
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈)",
+  "src": "https://in.lining.studio/products/aeronaut-7000-instinct"
+ },
+ "Li-Ning Aeronaut 8000": {
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈)",
+  "src": "https://in.lining.studio/products/aeronaut-8000"
+ },
+ "Li-Ning Aeronaut 8000 Combat": {
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈)",
+  "src": "https://in.lining.studio/products/aeronaut-8000-combat"
+ },
+ "Li-Ning Aeronaut 8000 Drive": {
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈)",
+  "src": "https://in.lining.studio/products/aeronaut-8000-drive"
+ },
+ "Li-Ning 3D Calibar 600 Combat": {
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈)",
+  "src": "https://in.lining.studio/products/3d-calibar-600-combat"
+ },
+ "Li-Ning Aeronaut 5000": {
+  "level": "intermediate",
+  "note": "Li-Ning (in.lining.studio): \"This racket is tuned for intermediate players\"",
+  "src": "https://in.lining.studio/products/aeronaut-5000"
+ },
+ "Victor Auraspeed 99": {
+  "level": "advanced",
+  "note": "Badminton Warehouse: Player Level \"Advanced / Competitive\"",
+  "src": "https://www.badmintonwarehouse.com/products/victor-auraspeed-99-badminton-racket"
  }
 }
