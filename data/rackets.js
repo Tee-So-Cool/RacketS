@@ -1019,10 +1019,9 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energy-groove-speed-white-badminton-racket-df.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -1062,10 +1061,9 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก RM299.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/apacs-fantala-6-pt-0-control-black-gold-badminton-racket.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -1110,10 +1108,9 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM299.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/apacs-fantala-6-pt-0-speed-blue-black-badminton-racket.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -1327,11 +1324,10 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก £53.93 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://centralsports.co.uk/products/apacs-feather-weight-500-racket-grey-7u1",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "price",
-   "level",
-   "weight"
+   "level"
   ]
  },
  {
@@ -1471,10 +1467,9 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹2,692.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/apacs-finapi-232-reborn-badminton-racket-white",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -1514,11 +1509,10 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก US$67.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-grand-tour-light-yellow-white-badminton-racket.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -1775,11 +1769,10 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก US$85.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/apacs-honor-pro-badminton-racquet-pre-strung",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -1819,11 +1812,10 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก RM330.00 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/Badminton-Racket/Apacs-Badminton-Racket/apacs-honor-pro-dark-grey-neon-green-badminton-racket.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -1863,10 +1855,9 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก US$70.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-power-cream-light-peach-badminton-racket.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -1906,10 +1897,9 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก US$70.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-speed-white-light-peach-badminton-racket.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -1954,11 +1944,10 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก US$85.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/apacs-imperial-pro-badminton-racquet-pre-strung",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -2315,11 +2304,10 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก US$65.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-maelstrom-silver-5u-badminton-racket.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -2411,11 +2399,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
-   "level",
-   "weight"
+   "level"
   ]
  },
  {
@@ -2455,10 +2442,9 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก RM447.00 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-fusion-speed-722-pro-durapro-cct-white-badminton-racket.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -2498,10 +2484,9 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก RM299.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/apacs-nano-fusion-777-force-black-mint-green-badminton-racket.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -2580,10 +2565,9 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก RM199.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/apacs-nano-fusion-speed-xr-black-red-badminton-racket.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -2662,11 +2646,10 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก US$67.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-tubes-99-blue-badminton-racket.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -2706,11 +2689,10 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-precision-1-pt-0-black-matte-badminton-racket.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -2824,10 +2806,9 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก RM169.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/apacs-resona-speed-66-silver-5u-badminton-racket.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -2867,10 +2848,9 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก RM108.00 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/apacs-resona-speed-88-black-5u-badminton-racket.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -2991,11 +2971,10 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก US$146.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/apacs-stardom-pro-ii-black-blue-badminton-racket.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -3201,10 +3180,9 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก US$59.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/Apacs-Stern-90-Offensive.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -3244,11 +3222,10 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก US$146.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-super-speed-black-4u-badminton-racket.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "price",
-   "level",
-   "weight"
+   "level"
   ]
  },
  {
@@ -3325,11 +3302,10 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก US$65.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-tempesta-black-5u-badminton-racket.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -3369,10 +3345,8 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": [
-   "weight"
-  ]
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
+  "est": []
  },
  {
   "id": "apacs-thunderdome-pro-6-2",
@@ -3789,10 +3763,9 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "style",
-   "weight"
+   "style"
   ]
  },
  {
@@ -3869,11 +3842,10 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-woven-ruby-badminton-racket.html",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -4073,10 +4045,9 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹2,292.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/apacs-z-power-900-rp-lite-badminton-racket-maroon-matte",
-  "note": "",
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -14264,7 +14235,7 @@ window.RACKETS = [
   "flex": "flexible",
   "level": "intermediate",
   "weights": "4U",
-  "weight": 88,
+  "weight": 84,
   "grips": "G5",
   "tension": [
    null,
@@ -14284,7 +14255,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm412_4_01_1286ba0826.jpg?v=1752143873",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://theracquetshop.com/products/li-ning-turbo-charging-75-combat",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -14304,11 +14275,10 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹10,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-turbocharging-75-badminton-racket",
-  "note": "",
+  "note": "The Racquet Shop (Turbo Charging 75 Combat): 4U 84 g, balance 306 mm",
   "est": [
    "price",
-   "level",
-   "weight"
+   "level"
   ]
  },
  {
@@ -24483,14 +24453,14 @@ window.RACKETS = [
   "balance": "head-light",
   "flex": "medium",
   "level": "advanced",
-  "weights": "5U",
+  "weights": "4U, 5U",
   "weight": 83,
   "grips": "G5, G6",
   "tension": [
    null,
-   28
+   27
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 28, ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 28, 5U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
   "price": 4890,
   "frame": "High Resilience Modulus Graphite+Nano Fortify TR＋",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
@@ -24504,7 +24474,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-90f-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-90f/",
   "officialUrl": "",
-  "specSrc": "https://joybadminton.com/products/victor-auraspeed-90f-ars-90f-purple",
+  "specSrc": "https://jzonebadminton.com/products",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3848",
   "bayUrl": "",
   "clickUrl": "",
@@ -24527,8 +24497,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
-   "level",
-   "weight"
+   "level"
   ]
  },
  {
@@ -31830,9 +31799,9 @@ window.RACKETS = [
   "balance": "even",
   "flex": "flexible",
   "level": "beginner",
-  "weights": "5U",
-  "weight": 81,
-  "grips": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5, G6",
   "tension": [
    17,
    22
@@ -31865,7 +31834,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/yonex-arcsaber-1-ability-badminton-racket-black-red",
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
-   "weight",
    "style",
    "price",
    "level"

@@ -592,6 +592,9 @@ for r in rackets.values():
     us = re.findall(r'[2-7]U', r.get('weights', ''))
     w = r.get('weight')
     if w and us and 'weight' not in r.get('est', []) and not any(UR[u][0] <= w <= UR[u][1] for u in us):
+        if r['brand'] == 'Apacs':  # Apacs counts U its own way (5U about 81 g, 4U about 86 g), so its grams stand
+            r['note'] = ((r.get('note') or '') + ' ').lstrip() + 'Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ'
+            continue
         r.setdefault('est', []).append('weight'); clash += 1
 print('weight outside its classes', clash)
 

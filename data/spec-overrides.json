@@ -1780,8 +1780,10 @@
   "currency": "EUR"
  },
  "Victor Auraspeed 90F": {
-  "weights": "5U",
-  "src": "https://joybadminton.com/products/victor-auraspeed-90f-ars-90f-purple"
+  "weights": "4U, 5U",
+  "src": "https://jzonebadminton.com/products",
+  "tmax": 27,
+  "tensionNote": "J Zone: 4U ≤ 28, 5U ≤ 27 lbs"
  },
  "Victor DriveX 10 Metallic": {
   "flex": "stiff",
@@ -2943,7 +2945,10 @@
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "tmin": 17,
   "tmax": 22,
-  "year": 2026
+  "year": 2026,
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5, G6"
  },
  "Yonex Nanoflare 400": {
   "new": true,
@@ -3167,5 +3172,10 @@
  "Victor Thruster K 330": {
   "weights": "3U, 4U",
   "src": "tennisnuts.com: 4U (80-84g); just-badminton.co.uk: 3U (85-89g); shops disagree on flex (Extra Flexible vs Medium Stiff), so flex is left empty"
+ },
+ "Li-Ning Turbo Charging 75": {
+  "weight": 84,
+  "src": "https://theracquetshop.com/products/li-ning-turbo-charging-75-combat",
+  "note": "The Racquet Shop (Turbo Charging 75 Combat): 4U 84 g, balance 306 mm"
  }
 }

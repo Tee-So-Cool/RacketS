@@ -269,3 +269,20 @@ scripts/build_strings.py now applies overrides a second time after the shop laye
   - length: 292 main-brand rackets; Li-Ning's pages do not state it
   - year: 404
   - Victor flex: 27, mostly aluminium entry rackets that Victor's own pages do not rate
+
+## Formula and data corrections (2026-11-02 to 11-04)
+- **Radar "takes tight strings" axis:** scaled over 18-32 lbs instead of 22-31. Aluminium starter frames capped at 20 lbs had all shown 0.
+- **Radar power and control:**
+  - Power: 0.4 balance + 0.3 flex + 0.3 weight. A stiff shaft and a heavier frame add power, not only a heavy head.
+  - Control: 0.35 style + 0.2 balance centredness + 0.3 flex + 0.15 head-light. Stiff shafts aim truer; light heads steer at the net.
+- **Maker's style label:** a match with the chosen style is now +14, an all-round racket +2, and a mismatch −10. These were +10/+4/−8. An all-round frame with a stiff shaft had outscored the maker's own attack rackets for attack players.
+- **Estimated flex counts half**, like estimated balance and style already did.
+- **Li-Ning "Flexible":** Li-Ning's own scale runs soft. It calls the Axforce 90 "Flexible", while God of Sports measures a medium shaft. On Li-Ning advanced and pro frames that word is read as medium, marked ≈ with a note (34 rackets).
+- **Maker minimum tension:** a low end of 22 lbs or less is a stringing range (Yonex 19-27) and still sets a floor. A higher one, such as VS's "26-38 lbs", is what the frame is rated for. It now only adds a note, so beginners are no longer told to string at 26.
+- **Per-weight caps (Victor TH):** "3U ≤ 31, 4U ≤ 30" is shown beside the stored cap, which keeps the lower value.
+  - Classes are now paired heaviest first. Before this, shops that list "4U, 3U" had the caps swapped.
+- **Grams outside the stated U class:** shown as ≈.
+  - Apacs is excepted: it counts U its own way (5U about 81 g, 4U about 86 g, 6U about 78 g), so its grams stand, with a note.
+- **Aluminium frames tagged advanced or pro:** moved to beginner (≈). These were the Astrox E13, Nanoflare E13 and B7000MDM.
+- **Prices from old shop posts, variant listings or imports:** kept as estimates (`estFields` in spec-overrides.json). They do not count as a real Thai price in the top-5 ranking.
+- **tests/match.html:** 21 cases. New ones cover Victor (Auraspeed 100X Ultra against Ryuga III, by style), beginners (Ryuga CLS against Ryuga III), Li-Ning flex reading, VS XP Pro style, and VS's high minimum tension.
