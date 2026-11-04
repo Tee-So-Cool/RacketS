@@ -912,7 +912,14 @@
     // is rated for, and stringing below it is safe, so it only earns a note
     if (tmin && t < tmin) {
       if (tmin <= 22) { steps.push([`ไม่ต่ำกว่าค่าต่ำสุดของไม้ ${tmin} lbs`, Math.min(tmin, cap) - t]); t = Math.min(tmin, cap); }
-      else ok(`ผู้ผลิตระบุช่วง ${tmin}–${tmax} lbs แต่ขึ้นต่ำกว่า ${tmin} ได้ ไม่ทำให้ไม้เสีย`);
+      else {
+        // a frame rated from 26 lbs is built to be strung tight; far below that the bed goes trampoline-like and
+        // control suffers, so lean toward the maker's minimum: 2 lbs from intermediate up, 1 for beginners, never
+        // forced all the way and never past the cap margin [low: judgement from the maker's rating]
+        const up = Math.min(tmin - t, lv >= 1 ? 2 : 1, Math.max(0, cap - 1 - t));
+        if (up > 0) nudge(up, `ผู้ผลิตออกแบบให้ขึ้น ${tmin}–${tmax} lbs ขึ้นต่ำกว่านี้มากเอ็นจะหย่อนเกิน`);
+        if (t < tmin) ok(`ผู้ผลิตระบุช่วง ${tmin}–${tmax} lbs แต่ขึ้นต่ำกว่า ${tmin} ได้ ไม่ทำให้ไม้เสีย`);
+      }
     }
     if (low && shock <= 4 && t >= bHi) wn('เอ็นแข็งที่ตึงสูง อาจสะเทือนข้อมือ ลองลดลง 1–2 ปอนด์');
 

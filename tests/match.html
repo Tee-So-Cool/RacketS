@@ -11,6 +11,7 @@
 <script src="../data/shoes.js"></script><script src="../data/socks.js"></script><script src="../app.js"></script>
 <script>
 const { score } = window.RS_TEST;
+const sc2 = (r, lv) => score(r, S('Yonex BG66 Ultimax'), lv, 'attack').tension;
 const R = n => RACKETS.find(x => (x.brand + ' ' + x.name).toLowerCase() === n.toLowerCase()) || (() => { throw new Error('no racket ' + n); })();
 const S = n => STRINGS.find(x => (x.brand + ' ' + x.name).toLowerCase() === n.toLowerCase()) || (() => { throw new Error('no string ' + n); })();
 const sc = (r, s, level, style, o = {}) => score(R(r), S(s), level, style, o.shuttle || 'feather', o.climate || 'normal', o.game || 'doubles', o.arm || 'none', o.head || '');
@@ -28,6 +29,7 @@ const cases = [
   ['หน้าไม้เล็ก: หย่อนกว่าหน้ามาตรฐาน 1 ปอนด์', () => sc('Yonex Astrox 77 Pro', 'Yonex BG66 Ultimax', 'advanced', 'attack', { head: 'small' }).tension === sc('Yonex Astrox 77 Pro', 'Yonex BG66 Ultimax', 'advanced', 'attack').tension - 1],
   ['เทคโนโลยี: ไม้ที่ผู้ผลิตบอกว่าซับแรง (Free Core) ได้คะแนนไม้เพิ่มเมื่อถนอมข้อมือ', () => { const r = R('Victor Thruster Ryuga III'), t = { ...r, tech: '' }; const f = x => score(x, S('Yonex BG66 Ultimax'), 'intermediate', 'attack', 'feather', 'normal', 'doubles', 'care').parts.racket; return f(r) > f(t); }],
   ['เทคโนโลยี: ไม่เปลี่ยนความตึงที่แนะนำ', () => { const r = R('Victor Thruster Ryuga III'), t = { ...r, tech: '' }; const f = x => score(x, S('Yonex BG66 Ultimax'), 'intermediate', 'attack', 'feather', 'normal', 'doubles', 'care').tension; return f(r) === f(t); }],
+  ['ไม้ที่ผู้ผลิตให้ขึ้น 26-38: ระดับกลางได้ความตึงสูงขึ้นแต่ไม่เกินขั้นต่ำ', () => { const r = R('VS Kriss Sword XP Pro'), lo = { ...r, tension: [null, 38] }; const f = x => sc2(x, 'intermediate'); return f(r) > f(lo) && f(r) <= 26 && f(r) - f(lo) <= 2; }],
   ['ลูกไนลอน: ความตึงต่ำลง', () => sc('Yonex Astrox 77 Pro', 'Yonex BG66 Ultimax', 'intermediate', 'attack', { shuttle: 'nylon' }).tension < sc('Yonex Astrox 77 Pro', 'Yonex BG66 Ultimax', 'intermediate', 'attack').tension],
   ['มือใหม่: ความตึงอยู่ในช่วง 19-23', () => { const t = sc('Yonex Nanoflare 001 Clear', 'Yonex BG65', 'beginner', 'allround').tension; return t >= 19 && t <= 23; }],
   ['ถนอมข้อมือ: เอ็นนุ่ม VBS-70 Power ดีกว่าเอ็นแข็ง VBS-68', () => sc('Victor Thruster K 110', 'Victor VBS-70 Power', 'intermediate', 'attack', { arm: 'care' }).score > sc('Victor Thruster K 110', 'Victor VBS-68', 'intermediate', 'attack', { arm: 'care' }).score],

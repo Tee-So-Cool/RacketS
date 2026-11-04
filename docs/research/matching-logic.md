@@ -334,3 +334,21 @@ No maker publishes head size per model, so the match reads the racket's named te
 The spec table shows the claimed effects in a "เทคโนโลยีช่วยเรื่อง" row.
 
 Tests: two added (shock tech raises the racket part under arm care; tech does not change the tension). 25/25 pass.
+
+## A high maker minimum leans the tension up (2026-11-04)
+
+A frame rated "26–38 lbs" (VS Kriss Sword XP Pro and others) is built to be strung tight. Well below that, the string bed goes trampoline-like and control suffers, which matches how the XP Pro felt at an ordinary tension. Before this change, a minimum above 22 lbs only earned a note.
+
+- **The rule:** when the maker's minimum is above 22 lbs and the recommendation is below it, the tension moves toward the minimum.
+- **Size of the move:** at most 2 lbs from intermediate up, 1 lb for beginners. It never reaches past the minimum, and it never passes the 1 lb margin under the racket or string cap.
+- **The note stays:** the "you can string below the minimum" note still shows when the result is still below the minimum.
+- **Effect on XP Pro + BG66 Ultimax, attack style:**
+
+  | Level | Before | After |
+  |---|---|---|
+  | Beginner | 19 | 20 |
+  | Intermediate | 23 | 25 |
+  | Advanced | 27 | 27 (unchanged) |
+
+- **Confidence:** low. This is judgement from the maker's rating, not a measured result.
+- **Tests:** one added, 26/26 pass.
