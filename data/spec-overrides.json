@@ -193,7 +193,9 @@
   "img": "https://thegodofsports.com/cdn/shop/files/Tectonic-7-white-gold-1.png?v=1783375168&width=1000",
   "weights": "4U",
   "priceForeign": 259.0,
-  "currency": "SGD"
+  "currency": "SGD",
+  "level": "advanced",
+  "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"Playing Level: Advanced\", \"Level: Advanced\", \"Advanced / Professional\" (ผลค้น Google 5 พ.ย. 2026)"
  },
  "Apacs Assailant Pro": {
   "balance": "head-heavy",
@@ -688,10 +690,12 @@
   "price": 5390,
   "src": "https://vssportsthailand.com/blogs/ข่าวสาร",
   "style": "attack",
-  "note": "VS Sports Thailand หน้าสินค้า: \"สายพาวเวอร์ เน้นแรงตบหนัก\" และรีวิว (jongnow, ร้าน) เรียกไม้บุกหัวหนัก แต่บทความ VS (10 ส.ค. 2026) บอกเด่น Control + Stability มากกว่าบุกต่อเนื่อง จึงตั้งเป็นสายบุกแบบค่าประเมิน (≈) | 4U/G6, balance 305±3 mm, ก้าน 6840 HPX + Torayca M40X",
+  "note": "VS Sports Thailand หน้าสินค้า: \"สายพาวเวอร์ เน้นแรงตบหนัก\" และรีวิว (jongnow, ร้าน) เรียกไม้บุกหัวหนัก แต่บทความ VS (10 ส.ค. 2026) บอกเด่น Control + Stability มากกว่าบุกต่อเนื่อง จึงตั้งเป็นสายบุกแบบค่าประเมิน (≈) | 4U/G6, balance 305±3 mm, ก้าน 6840 HPX + Torayca M40X | ระดับ: รีวิว jongnow (5 เม.ย. 2569) \"เหมาะกับผู้เล่นเริ่มต้นถึงระดับกลางที่มีแรงพอและชอบเกมบุก\" (≈)",
   "estFields": [
+   "level",
    "style"
-  ]
+  ],
+  "level": "intermediate"
  },
  "VS Panlong": {
   "price": 2590,
@@ -853,10 +857,11 @@
   "priceSrc": "https://www.google.com/search?q=%22Ryuga+III%22+victor+ราคา",
   "year": 2026,
   "tensionNote": "ร้านไทยระบุ 4U ≤ 32, 5U ≤ 31 lbs (Lazada) อีกร้านพิมพ์เป็น 3U ≤ 32 / 4U ≤ 31 แต่รุ่นนี้มีแค่ 4U กับ 5U",
-  "level": "pro",
+  "level": "advanced",
   "estFields": [
    "level"
-  ]
+  ],
+  "note": "ระดับ: ร้านระบุ \"Made for Advanced Attacking Players\" และ \"intermediate to advanced players\" (ผลค้น Google 5 พ.ย. 2026) จึงลดจากโปรเป็นระดับสูง (≈)"
  },
  "Victor Auraspeed 100X": {
   "weights": "4U, 3U",
@@ -1786,7 +1791,9 @@
   "weights": "4U, 5U",
   "src": "https://jzonebadminton.com/products",
   "tmax": 27,
-  "tensionNote": "J Zone: 4U ≤ 28, 5U ≤ 27 lbs"
+  "tensionNote": "J Zone: 4U ≤ 28, 5U ≤ 27 lbs",
+  "level": "advanced",
+  "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"Player level: Advanced / Competitive\", \"Level: Advance\" (ผลค้น Google 5 พ.ย. 2026)"
  },
  "Victor DriveX 10 Metallic": {
   "flex": "stiff",
@@ -1800,7 +1807,9 @@
  },
  "Victor Jetspeed S 12 II": {
   "flex": "stiff",
-  "src": "https://www.nydhi.com/collections/all/products/victor-jetspeed-s-12-ii-f-badminton-racket"
+  "src": "https://www.nydhi.com/collections/all/products/victor-jetspeed-s-12-ii-f-badminton-racket",
+  "level": "advanced",
+  "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"Player Level: Advanced\", \"designed for professional and advanced players\" (ผลค้น Google 5 พ.ย. 2026)"
  },
  "Victor TK-66": {
   "balance": "head-heavy",
@@ -3151,7 +3160,9 @@
   "estFields": [
    "tension"
   ],
-  "src": "Arcsaber 11 Play listings (badmintonwebshop.com): 19-27 lbs"
+  "src": "Arcsaber 11 Play listings (badmintonwebshop.com): 19-27 lbs",
+  "level": "advanced",
+  "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"Level: Advanced\" (หลายร้าน), \"designed for advanced players\" (ผลค้น Google 5 พ.ย. 2026)"
  },
  "Yonex Nanoflare 800": {
   "tmax": 28,
@@ -3272,5 +3283,9 @@
   "level": "advanced",
   "note": "Badminton Warehouse: Player Level \"Advanced / Competitive\"",
   "src": "https://www.badmintonwarehouse.com/products/victor-auraspeed-99-badminton-racket"
+ },
+ "Victor Auraspeed 90S": {
+  "level": "advanced",
+  "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"An All-Round Racket for an Advanced Player\", ตารางเทียบรุ่น Auraspeed: 90S = Advanced (ผลค้น Google 5 พ.ย. 2026)"
  }
 }

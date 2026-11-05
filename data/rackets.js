@@ -13348,7 +13348,7 @@ window.RACKETS = [
   "year": "",
   "style": "allround",
   "balance": "even",
-  "flex": "flexible",
+  "flex": "medium",
   "level": "advanced",
   "weights": "4U",
   "weight": 84,
@@ -13392,10 +13392,10 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก S$259.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/tectonic-7",
-  "note": "",
+  "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"Playing Level: Advanced\", \"Level: Advanced\", \"Advanced / Professional\" (ผลค้น Google 5 พ.ย. 2026) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
    "price",
-   "level"
+   "flex"
   ]
  },
  {
@@ -22004,7 +22004,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "flex": "medium",
-  "level": "advanced",
+  "level": "intermediate",
   "weights": "4U",
   "weight": 82,
   "grips": "G6",
@@ -22043,10 +22043,10 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "VS Sports Thailand หน้าสินค้า: \"สายพาวเวอร์ เน้นแรงตบหนัก\" และรีวิว (jongnow, ร้าน) เรียกไม้บุกหัวหนัก แต่บทความ VS (10 ส.ค. 2026) บอกเด่น Control + Stability มากกว่าบุกต่อเนื่อง จึงตั้งเป็นสายบุกแบบค่าประเมิน (≈) | 4U/G6, balance 305±3 mm, ก้าน 6840 HPX + Torayca M40X",
+  "note": "VS Sports Thailand หน้าสินค้า: \"สายพาวเวอร์ เน้นแรงตบหนัก\" และรีวิว (jongnow, ร้าน) เรียกไม้บุกหัวหนัก แต่บทความ VS (10 ส.ค. 2026) บอกเด่น Control + Stability มากกว่าบุกต่อเนื่อง จึงตั้งเป็นสายบุกแบบค่าประเมิน (≈) | 4U/G6, balance 305±3 mm, ก้าน 6840 HPX + Torayca M40X | ระดับ: รีวิว jongnow (5 เม.ย. 2569) \"เหมาะกับผู้เล่นเริ่มต้นถึงระดับกลางที่มีแรงพอและชอบเกมบุก\" (≈)",
   "est": [
-   "style",
-   "level"
+   "level",
+   "style"
   ]
  },
  {
@@ -25000,10 +25000,9 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"Player level: Advanced / Competitive\", \"Level: Advance\" (ผลค้น Google 5 พ.ย. 2026)",
   "est": [
-   "balance",
-   "level"
+   "balance"
   ]
  },
  {
@@ -25347,11 +25346,10 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก US$180.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/victor-auraspeed-90s-badminton-racket",
-  "note": "",
+  "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"An All-Round Racket for an Advanced Player\", ตารางเทียบรุ่น Auraspeed: 90S = Advanced (ผลค้น Google 5 พ.ย. 2026)",
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -28001,10 +27999,9 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"Player Level: Advanced\", \"designed for professional and advanced players\" (ผลค้น Google 5 พ.ย. 2026)",
   "est": [
-   "balance",
-   "level"
+   "balance"
   ]
  },
  {
@@ -31542,7 +31539,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "flex": "stiff",
-  "level": "pro",
+  "level": "advanced",
   "weights": "4U, 5U",
   "weight": 82,
   "grips": "G5",
@@ -31593,7 +31590,7 @@ window.RACKETS = [
   ],
   "priceNote": "ราคาร้านไทย TT CAFE Badminton Shop (Facebook) ช่วงเปิดตัว",
   "priceSrc": "https://www.google.com/search?q=%22Ryuga+III%22+victor+ราคา",
-  "note": "",
+  "note": "ระดับ: ร้านระบุ \"Made for Advanced Attacking Players\" และ \"intermediate to advanced players\" (ผลค้น Google 5 พ.ย. 2026) จึงลดจากโปรเป็นระดับสูง (≈)",
   "est": [
    "level"
   ]
@@ -32524,12 +32521,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹10,299.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-arcsaber-11-badminton-racket",
-  "note": "",
+  "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"Level: Advanced\" (หลายร้าน), \"designed for advanced players\" (ผลค้น Google 5 พ.ย. 2026)",
   "est": [
    "tension",
    "style",
    "price",
-   "level",
    "weight"
   ]
  },

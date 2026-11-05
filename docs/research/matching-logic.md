@@ -403,3 +403,16 @@ This pass checked the 261 Yonex, Victor and Li-Ning rackets whose level was an e
 - About 248 main-brand rackets still have an estimated level.
 - Victor and Yonex do not publish a level, and retailers rarely give one in a structured form.
 - Reviews and Google snippets would need slow, paced searches.
+
+### Popular models, checked one by one (2026-11-05)
+
+This pass checked 20 popular rackets whose level was an estimate. Each got one Google search, read from shop and review snippets; the AI overview was skipped.
+
+| Result | Rackets |
+|---|---|
+| Confirmed, ≈ removed (two or more shops agree) | Auraspeed 90F, Auraspeed 90S, Jetspeed S 12 II, Arcsaber 11, Tectonic 7 (all advanced) |
+| Changed, still ≈ | Thruster Ryuga III pro → advanced: shops say "Made for Advanced Attacking Players" and "intermediate to advanced". VS Kriss Sword XP Pro advanced → intermediate: the jongnow review says beginner to intermediate players with enough strength |
+| Kept, still ≈ (sources split or a range) | Ryuga II, Ryuga Muse II, Auraspeed 90K, Thruster F Claw, Nanoflare 700, Brave Sword 12 Pro, Axforce 100 Max, Turbo Charging 75 |
+| Nothing usable | Nanoflare 800, Auraspeed Hypersonic (results were for HS Plus), DriveX F (results were for DriveX F T), Auraspeed Aurora Ultra |
+
+No CAPTCHA was hit, with about 8 s between searches. Tests: 26/26 pass.
