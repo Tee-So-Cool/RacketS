@@ -429,3 +429,22 @@ This batch checked 20 more rackets: the most expensive main-brand models still m
 | Nothing usable | VS HC 1000, VS Kriss Sword XP |
 
 Tests: 26/26 pass.
+
+### Third batch (2026-11-08)
+
+This batch ran 18 searches covering 21 rackets, with the same method and pacing as before. No CAPTCHA was hit.
+
+**Changed, still ≈:**
+
+- **Yonex Astrox 11: advanced → beginner.** Shops sell it as "YONEX Astrox 11 Badminton Racket for Beginners". The old estimate came from its price (฿4,483), which looks high for this model; check that price later.
+- **Yonex Nanoflare 400: advanced → intermediate.** Shops call it "entry-level … for recreational players" and "Suitable For Intermediate Players".
+- **Tectonic 7 Combat: intermediate → advanced.** A shop calls it the "Advanced players' choice".
+- **Five Li-Ning rackets moved to advanced:** Aeronaut 9000 Instinct, 3D Calibar 900 Combat (down from pro), 3D Breakfree N90 IV, N-90-IV and Air Stream N99.
+  - Shops print Li-Ning's "Professional" label on all five, and the data reads that label as advanced.
+  - For the Aeronaut 9000 Instinct, a review also says "NOT BEGINNER FRIENDLY".
+
+**Kept, still ≈ (sources split, a range, or one weak source):** Ryuga Muse, Auraspeed HS Plus, Brave Sword 12 SE, Auraspeed Hang, Thruster K Onigiri Pro, Tectonic 7 Drive, Tectonic 7 Instinct.
+
+**Nothing usable:** Thruster F HS, Jetspeed S 11, DriveX Phecda.
+
+Tests: 26/26 pass.

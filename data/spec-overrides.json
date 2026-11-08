@@ -2916,7 +2916,7 @@
    "flex"
   ],
   "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน | ระดับ: ร้านขายชื่อ \"YONEX Astrox 11 Badminton Racket for Beginners\" และ \"designed for beginners\" (ผลค้น Google 8 พ.ย. 2026) จากเดิมประเมินว่าระดับสูง (≈)",
   "tmin": 17,
   "tmax": 22,
   "year": 2026,
@@ -2924,11 +2924,13 @@
   "priceNote": "4,483 บาท เฉพาะเฟรม จากร้านนำเข้าใน Shopee Thailand",
   "priceSrc": "https://www.google.com/search?q=\"Astrox+11\"+yonex+ราคา",
   "estFields": [
+   "level",
    "price"
   ],
   "weights": "4U",
   "weight": 83,
-  "grips": "G5, G6"
+  "grips": "G5, G6",
+  "level": "beginner"
  },
  "Yonex Arcsaber 3": {
   "new": true,
@@ -2978,7 +2980,7 @@
    "flex"
   ],
   "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน | ระดับ: ร้านระบุ \"entry-level ... for recreational players\" และ \"Suitable For Intermediate Players\" (ผลค้น Google 8 พ.ย. 2026) จากเดิมประเมินว่าระดับสูง (≈)",
   "tmin": 18,
   "tmax": 23,
   "year": 2026,
@@ -2986,7 +2988,11 @@
   "weight": 83,
   "grips": "G5, G6",
   "priceForeign": 20900,
-  "currency": "JPY"
+  "currency": "JPY",
+  "level": "intermediate",
+  "estFields": [
+   "level"
+  ]
  },
  "Yonex Nanoflare 300": {
   "new": true,
@@ -3307,5 +3313,47 @@
  "Victor Jetspeed S 12F": {
   "level": "advanced",
   "note": "ระดับ: หลายร้านระบุ \"tailored for advanced players\", \"Intermediate To Advanced\" (ผลค้น Google 8 พ.ย. 2026)"
+ },
+ "Li-Ning Aeronaut 9000 Instinct": {
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "note": "ระดับ: ร้านพิมพ์ป้าย \"Player Level: Professional\" ของ Li-Ning ซึ่งข้อมูลนี้อ่านเป็นระดับสูง และรีวิวบอก \"NOT BEGINNER FRIENDLY\" (ผลค้น Google 8 พ.ย. 2026) (≈)"
+ },
+ "Li-Ning 3D Calibar 900 Combat": {
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "note": "ระดับ: ร้านพิมพ์ป้าย \"Player Level: Professional\" ของ Li-Ning ซึ่งข้อมูลนี้อ่านเป็นระดับสูง (ผลค้น Google 8 พ.ย. 2026) จึงลดจากโปรเป็นระดับสูง (≈)"
+ },
+ "Li-Ning 3D Breakfree N90 IV": {
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "note": "ระดับ: ร้านพิมพ์ป้าย \"Player Level: Professional\" ของ Li-Ning ซึ่งข้อมูลนี้อ่านเป็นระดับสูง (\"for professional level players\") (ผลค้น Google 8 พ.ย. 2026) (≈)"
+ },
+ "Li-Ning N-90-IV": {
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "note": "ระดับ: ร้านพิมพ์ป้าย \"Player Level: Professional\" ของ Li-Ning ซึ่งข้อมูลนี้อ่านเป็นระดับสูง (ร้านเรียก 3D Break-Free N90 IV) (ผลค้น Google 8 พ.ย. 2026) (≈)"
+ },
+ "Li-Ning Air Stream N99": {
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "note": "ระดับ: ร้านพิมพ์ป้าย \"Player Level: Professional\" ของ Li-Ning ซึ่งข้อมูลนี้อ่านเป็นระดับสูง (ผลค้น Google 8 พ.ย. 2026) รุ่น TD ระบุ Intermediate (≈)"
+ },
+ "Li-Ning Tectonic 7 Combat": {
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "note": "ระดับ: ร้านระบุ \"Tectonic 7C Combat ... Advanced players' choice\" (ผลค้น Google 8 พ.ย. 2026) (≈)"
  }
 }

@@ -5570,8 +5570,8 @@ window.RACKETS = [
   "year": "",
   "style": "speed",
   "balance": "head-light",
-  "flex": "flexible",
-  "level": "intermediate",
+  "flex": "medium",
+  "level": "advanced",
   "weights": "3U",
   "weight": 87,
   "grips": "G6",
@@ -5606,10 +5606,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹12,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/3d-breakfree-n90-iv",
-  "note": "",
+  "note": "ระดับ: ร้านพิมพ์ป้าย \"Player Level: Professional\" ของ Li-Ning ซึ่งข้อมูลนี้อ่านเป็นระดับสูง (\"for professional level players\") (ผลค้น Google 8 พ.ย. 2026) (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
+   "level",
    "price",
-   "level"
+   "flex"
   ]
  },
  {
@@ -6381,7 +6382,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "flex": "extra-stiff",
-  "level": "pro",
+  "level": "advanced",
   "weights": "3U, 4U",
   "weight": 89,
   "grips": "G5",
@@ -6424,10 +6425,10 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹13,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-900c-combat-badminton-racket",
-  "note": "",
+  "note": "ระดับ: ร้านพิมพ์ป้าย \"Player Level: Professional\" ของ Li-Ning ซึ่งข้อมูลนี้อ่านเป็นระดับสูง (ผลค้น Google 8 พ.ย. 2026) จึงลดจากโปรเป็นระดับสูง (≈)",
   "est": [
-   "price",
-   "level"
+   "level",
+   "price"
   ]
  },
  {
@@ -7602,8 +7603,8 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
-  "level": "intermediate",
+  "flex": "medium",
+  "level": "advanced",
   "weights": "4U, 5U",
   "weight": 79,
   "grips": "",
@@ -7646,10 +7647,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹13,992.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-9000i-instinct-badminton-racket-4u",
-  "note": "",
+  "note": "ระดับ: ร้านพิมพ์ป้าย \"Player Level: Professional\" ของ Li-Ning ซึ่งข้อมูลนี้อ่านเป็นระดับสูง และรีวิวบอก \"NOT BEGINNER FRIENDLY\" (ผลค้น Google 8 พ.ย. 2026) (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
+   "level",
    "price",
-   "level"
+   "flex"
   ]
  },
  {
@@ -7713,8 +7715,8 @@ window.RACKETS = [
   "year": "",
   "style": "allround",
   "balance": "even",
-  "flex": "flexible",
-  "level": "intermediate",
+  "flex": "medium",
+  "level": "advanced",
   "weights": "3U",
   "weight": 88,
   "grips": "G6",
@@ -7749,10 +7751,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹12,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/air-stream-n99",
-  "note": "",
+  "note": "ระดับ: ร้านพิมพ์ป้าย \"Player Level: Professional\" ของ Li-Ning ซึ่งข้อมูลนี้อ่านเป็นระดับสูง (ผลค้น Google 8 พ.ย. 2026) รุ่น TD ระบุ Intermediate (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
+   "level",
    "price",
-   "level"
+   "flex"
   ]
  },
  {
@@ -12790,8 +12793,8 @@ window.RACKETS = [
   "year": "",
   "style": "allround",
   "balance": "even",
-  "flex": "flexible",
-  "level": "intermediate",
+  "flex": "medium",
+  "level": "advanced",
   "weights": "3U",
   "weight": 88,
   "grips": "",
@@ -12830,10 +12833,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹13,200.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/n-90-iv",
-  "note": "",
+  "note": "ระดับ: ร้านพิมพ์ป้าย \"Player Level: Professional\" ของ Li-Ning ซึ่งข้อมูลนี้อ่านเป็นระดับสูง (ร้านเรียก 3D Break-Free N90 IV) (ผลค้น Google 8 พ.ย. 2026) (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
+   "level",
    "price",
-   "level"
+   "flex"
   ]
  },
  {
@@ -13405,8 +13409,8 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
-  "level": "intermediate",
+  "flex": "medium",
+  "level": "advanced",
   "weights": "3U",
   "weight": 85,
   "grips": "",
@@ -13445,10 +13449,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹12,499.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-tectonic-7-combat-badminton-racket",
-  "note": "",
+  "note": "ระดับ: ร้านระบุ \"Tectonic 7C Combat ... Advanced players' choice\" (ผลค้น Google 8 พ.ย. 2026) (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
+   "level",
    "price",
-   "level"
+   "flex"
   ]
  },
  {
@@ -34257,7 +34262,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "flex": "medium",
-  "level": "advanced",
+  "level": "beginner",
   "weights": "4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -34287,12 +34292,12 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "4,483 บาท เฉพาะเฟรม จากร้านนำเข้าใน Shopee Thailand",
   "priceSrc": "https://www.google.com/search?q=\"Astrox+11\"+yonex+ราคา",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน | ระดับ: ร้านขายชื่อ \"YONEX Astrox 11 Badminton Racket for Beginners\" และ \"designed for beginners\" (ผลค้น Google 8 พ.ย. 2026) จากเดิมประเมินว่าระดับสูง (≈)",
   "est": [
    "flex",
+   "level",
    "price",
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -37826,7 +37831,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "medium",
-  "level": "advanced",
+  "level": "intermediate",
   "weights": "4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -37856,12 +37861,12 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก ¥20,900.00 ที่ 1 JPY = 0.21398 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน | ระดับ: ร้านระบุ \"entry-level ... for recreational players\" และ \"Suitable For Intermediate Players\" (ผลค้น Google 8 พ.ย. 2026) จากเดิมประเมินว่าระดับสูง (≈)",
   "est": [
    "flex",
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
