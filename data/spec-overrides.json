@@ -2266,7 +2266,12 @@
  "Yonex Astrox 100VA ZZ": {
   "priceForeign": 295.0,
   "currency": "USD",
-  "src": "https://www.badmintonwarehouse.com/products/yonex-astrox-100va-zz-badminton-racket"
+  "src": "https://www.badmintonwarehouse.com/products/yonex-astrox-100va-zz-badminton-racket",
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "note": "ระดับ: ร้านระบุ \"Advanced / Professionals\", \"designed for advanced players\" และ \"intermediate to advanced\" (ผลค้น Google 8 พ.ย. 2026) จึงลดจากโปรเป็นระดับสูง (≈)"
  },
  "Yonex Astrox 3 DG HF": {
   "priceForeign": 4199.0,
@@ -2748,7 +2753,9 @@
   "tmax": 32,
   "priceForeign": 177.65,
   "currency": "EUR",
-  "src": "https://www.sakurasport.com/en/1756-badminton-racket-auraspeed-fantome-j-4ug5-victor-4005543023239.html"
+  "src": "https://www.sakurasport.com/en/1756-badminton-racket-auraspeed-fantome-j-4ug5-victor-4005543023239.html",
+  "level": "advanced",
+  "note": "ระดับ: ร้านระบุ \"PLAYER LEVEL: Advanced\" และ \"intermediate to advanced\" (ผลค้น Google 8 พ.ย. 2026)"
  },
  "Victor Auraspeed JU": {
   "flex": "medium",
@@ -2990,7 +2997,7 @@
    "flex"
   ],
   "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน | ระดับ: ร้านระบุ \"Entry Model\", \"Ideal for beginners and entry-level players\" (ผลค้น Google 8 พ.ย. 2026) (≈)",
   "tmin": 18,
   "tmax": 23,
   "year": 2026,
@@ -2998,11 +3005,13 @@
   "priceNote": "5,310 บาท เฉพาะเฟรม จากร้านนำเข้าใน Shopee Thailand รุ่นนี้ขายเฉพาะในญี่ปุ่น",
   "priceSrc": "https://www.google.com/search?q=\"Nanoflare+300\"+yonex+ราคา",
   "estFields": [
+   "level",
    "price"
   ],
   "weights": "4U",
   "weight": 83,
-  "grips": "G5, G6"
+  "grips": "G5, G6",
+  "level": "beginner"
  },
  "Yonex Nanoflare 111": {
   "new": true,
@@ -3287,5 +3296,16 @@
  "Victor Auraspeed 90S": {
   "level": "advanced",
   "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"An All-Round Racket for an Advanced Player\", ตารางเทียบรุ่น Auraspeed: 90S = Advanced (ผลค้น Google 5 พ.ย. 2026)"
+ },
+ "Victor Brave Sword Ltd Pro": {
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "note": "ระดับ: ร้านระบุ \"Playing level: Advanced\" (ผลค้น Google 8 พ.ย. 2026) (≈)"
+ },
+ "Victor Jetspeed S 12F": {
+  "level": "advanced",
+  "note": "ระดับ: หลายร้านระบุ \"tailored for advanced players\", \"Intermediate To Advanced\" (ผลค้น Google 8 พ.ย. 2026)"
  }
 }

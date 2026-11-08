@@ -25704,10 +25704,9 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "ระดับ: ร้านระบุ \"PLAYER LEVEL: Advanced\" และ \"intermediate to advanced\" (ผลค้น Google 8 พ.ย. 2026)",
   "est": [
-   "balance",
-   "level"
+   "balance"
   ]
  },
  {
@@ -26524,7 +26523,7 @@ window.RACKETS = [
   "style": "allround",
   "balance": "even",
   "flex": "medium",
-  "level": "pro",
+  "level": "advanced",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5",
@@ -26563,12 +26562,12 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก US$220.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/victor-bravesword-ltd-pro-badminton-racket",
-  "note": "",
+  "note": "ระดับ: ร้านระบุ \"Playing level: Advanced\" (ผลค้น Google 8 พ.ย. 2026) (≈)",
   "est": [
    "tension",
+   "level",
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -28051,13 +28050,12 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก US$160.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/victor-jetspeed-s12f-badminton-racket",
-  "note": "",
+  "note": "ระดับ: หลายร้านระบุ \"tailored for advanced players\", \"Intermediate To Advanced\" (ผลค้น Google 8 พ.ย. 2026)",
   "est": [
    "flex",
    "balance",
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -34111,7 +34109,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "flex": "extra-stiff",
-  "level": "pro",
+  "level": "advanced",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G4, G5, G6",
@@ -34162,11 +34160,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก US$295.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonwarehouse.com/products/yonex-astrox-100va-zz-badminton-racket",
-  "note": "",
+  "note": "ระดับ: ร้านระบุ \"Advanced / Professionals\", \"designed for advanced players\" และ \"intermediate to advanced\" (ผลค้น Google 8 พ.ย. 2026) จึงลดจากโปรเป็นระดับสูง (≈)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -37782,7 +37780,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "beginner",
   "weights": "4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -37812,12 +37810,12 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "5,310 บาท เฉพาะเฟรม จากร้านนำเข้าใน Shopee Thailand รุ่นนี้ขายเฉพาะในญี่ปุ่น",
   "priceSrc": "https://www.google.com/search?q=\"Nanoflare+300\"+yonex+ราคา",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน | ระดับ: ร้านระบุ \"Entry Model\", \"Ideal for beginners and entry-level players\" (ผลค้น Google 8 พ.ย. 2026) (≈)",
   "est": [
    "flex",
+   "level",
    "price",
-   "style",
-   "level"
+   "style"
   ]
  },
  {

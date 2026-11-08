@@ -416,3 +416,16 @@ This pass checked 20 popular rackets whose level was an estimate. Each got one G
 | Nothing usable | Nanoflare 800, Auraspeed Hypersonic (results were for HS Plus), DriveX F (results were for DriveX F T), Auraspeed Aurora Ultra |
 
 No CAPTCHA was hit, with about 8 s between searches. Tests: 26/26 pass.
+
+### Second batch (2026-11-08)
+
+This batch checked 20 more rackets: the most expensive main-brand models still marked ≈. The method was the same one Google search per racket, read from shop snippets, about 8 s apart. No CAPTCHA was hit.
+
+| Result | Rackets |
+|---|---|
+| Confirmed, ≈ removed | Auraspeed Fantome, Jetspeed S 12F (advanced) |
+| Changed, still ≈ | Astrox 100VA ZZ pro → advanced ("Advanced / Professionals", "intermediate to advanced"). Brave Sword Ltd Pro pro → advanced (one shop: "Advanced"). Nanoflare 300 intermediate → beginner ("Entry Model", "Ideal for beginners") |
+| Kept, still ≈ | Turbo Charging 75 Combat, Axforce 80 CL and Aeronaut 9000 Drive (shops print Li-Ning's "Professional" label, which this data does not read as pro on its own); Auraspeed LYC, Mjolnir Metallic, Thruster F C Ultra, Falcon Ultra C, Astrox 55A, Auraspeed 77F (sources split or a range) |
+| Nothing usable | VS HC 1000, VS Kriss Sword XP |
+
+Tests: 26/26 pass.
