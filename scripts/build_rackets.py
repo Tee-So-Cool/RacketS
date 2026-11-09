@@ -155,11 +155,15 @@ def apply_override(r, o):
             r['priceForeign'] = {'amount': v, 'currency': o.get('currency', 'USD'), 'src': o.get('src', '')}
         elif f == 'tmax':
             r['tension'] = [o.get('tmin') or (r.get('tension') or [None])[0], v]
+            if 'tension' in r.get('est', []): r['est'].remove('tension')
+            if 'tension' in r.get('proseEst', []) and 'tension' not in o.get('estFields', []): r['proseEst'].remove('tension')
         elif f == 'tmin':
             continue
         else:
             r[f] = v
             if f in r.get('est', []): r['est'].remove(f)
+            # a value set by hand settles a shop vote that had no majority
+            if f in r.get('proseEst', []) and f not in o.get('estFields', []): r['proseEst'].remove(f)
     # a value read off an old post or a variant's listing stays marked as an estimate
     for f in o.get('estFields', []):
         if f not in r.setdefault('proseEst', []): r['proseEst'].append(f)  # becomes est at the series step

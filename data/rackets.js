@@ -4557,16 +4557,19 @@ window.RACKETS = [
   "name": "3000 Power",
   "year": "",
   "style": "attack",
-  "balance": "head-heavy",
-  "flex": "",
+  "balance": "even",
+  "flex": "medium",
   "level": "beginner",
   "weights": "1U",
   "weight": 94,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   22
+  ],
   "tensionNote": "",
   "price": 330,
-  "frame": "Aluminium",
+  "frame": "Aluminium (box frame)",
   "shaft": "Aluminium 7.0mm",
   "joint": "",
   "length": "",
@@ -4579,7 +4582,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-7395465/cached/S3IFOFjX6982d428c556e_1770181673_420x420.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://www.ebiz2u.com.my/",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/6982d4288212b_1770181672.jpg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -4591,12 +4594,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM39.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-3000-power",
-  "note": "E BIZ (3000/3300 Power): เฟรมและก้านอะลูมิเนียม, 1U 94g (ข้อความจากผลค้น Google)",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
-   "balance",
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -4605,17 +4607,20 @@ window.RACKETS = [
   "name": "3100 Power",
   "year": "",
   "style": "attack",
-  "balance": "head-heavy",
-  "flex": "",
+  "balance": "even",
+  "flex": "medium",
   "level": "beginner",
-  "weights": "",
-  "weight": "",
+  "weights": "1U",
+  "weight": 94,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   22
+  ],
   "tensionNote": "",
   "price": 330,
-  "frame": "",
-  "shaft": "",
+  "frame": "Aluminium (box frame)",
+  "shaft": "Aluminium 7.0mm",
   "joint": "",
   "length": "",
   "head": "",
@@ -4627,7 +4632,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-7395978/cached/VRWA5Trb6982f8d7c20d3_1770191063_420x420.jpeg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TEMPLATE_NOVICE_3100_POWER_1770190971.jpeg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -4639,12 +4644,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM39.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-3100-power",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
-   "balance",
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -4653,17 +4657,20 @@ window.RACKETS = [
   "name": "3200 Power",
   "year": "",
   "style": "attack",
-  "balance": "head-heavy",
-  "flex": "",
+  "balance": "even",
+  "flex": "medium",
   "level": "beginner",
-  "weights": "",
-  "weight": "",
+  "weights": "1U",
+  "weight": 94,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   22
+  ],
   "tensionNote": "",
   "price": 330,
-  "frame": "",
-  "shaft": "",
+  "frame": "Aluminium (box frame)",
+  "shaft": "Aluminium 7.0mm",
   "joint": "",
   "length": "",
   "head": "",
@@ -4675,7 +4682,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-7395985/cached/KAyMqkpX6982f960f4198_1770191201_420x420.jpeg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TEMPLATE_NOVICE_3200_POWER_1770191144.jpeg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -4687,12 +4694,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM39.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-3200-power",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
-   "balance",
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -4701,16 +4707,19 @@ window.RACKETS = [
   "name": "3300 Power",
   "year": "",
   "style": "attack",
-  "balance": "head-heavy",
-  "flex": "",
+  "balance": "even",
+  "flex": "medium",
   "level": "beginner",
   "weights": "1U",
   "weight": 94,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   22
+  ],
   "tensionNote": "",
   "price": 330,
-  "frame": "Aluminium",
+  "frame": "Aluminium (box frame)",
   "shaft": "Aluminium 7.0mm",
   "joint": "",
   "length": "",
@@ -4723,7 +4732,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-7395988/cached/OXcEsSzn6982f9c852334_1770191304_420x420.jpeg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://www.ebiz2u.com.my/",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TEMPLATE_NOVICE_3300_POWER_1770191235.jpeg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -4735,12 +4744,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM39.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-3300-power",
-  "note": "E BIZ (3000/3300 Power): เฟรมและก้านอะลูมิเนียม, 1U 94g (ข้อความจากผลค้น Google)",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
-   "balance",
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -4749,17 +4757,20 @@ window.RACKETS = [
   "name": "3400 Power",
   "year": "",
   "style": "attack",
-  "balance": "head-heavy",
-  "flex": "",
+  "balance": "even",
+  "flex": "medium",
   "level": "beginner",
-  "weights": "",
-  "weight": "",
+  "weights": "1U",
+  "weight": 94,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   22
+  ],
   "tensionNote": "",
   "price": 330,
-  "frame": "",
-  "shaft": "",
+  "frame": "Aluminium (box frame)",
+  "shaft": "Aluminium 7.0mm",
   "joint": "",
   "length": "",
   "head": "",
@@ -4771,7 +4782,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-7395990/cached/2NcIYpMU6982fa2bcaa0b_1770191403_420x420.jpeg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TEMPLATE_NOVICE_3400_POWER_1770191323.jpeg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -4783,12 +4794,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM39.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-3400-power",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
-   "balance",
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -4796,8 +4806,8 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "3K Nevow Fence",
   "year": "",
-  "style": "attack",
-  "balance": "head-heavy",
+  "style": "allround",
+  "balance": "even",
   "flex": "medium",
   "level": "advanced",
   "weights": "3U, 4U",
@@ -4822,7 +4832,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-8155595/cached/EZnK3Xtd6acd8bdb19a3d_1791855579_420x420.jpeg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_10_12_at_17_28_29_1791855530.jpeg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -4838,11 +4848,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM699.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/3k-nevow-fence-white-blue",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -4850,12 +4860,12 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "3K Woven Fence",
   "year": "",
-  "style": "attack",
-  "balance": "head-heavy",
+  "style": "allround",
+  "balance": "even",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "4U",
-  "weight": 85,
+  "weights": "2U, 3U, 4U",
+  "weight": 82,
   "grips": "",
   "tension": [
    null,
@@ -4876,7 +4886,7 @@ window.RACKETS = [
   "img": "https://www.badmintonbay.com/image/cache/data/felet/3k-woven-fence-blue/felet-3k-woven-fence-blue-badminton-racket-01-700x800.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/3K_WOVEN_FENCE_BLUE_1757410769.png",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Felet-Badminton-Racket/felet-3k-woven-fence-blue-badminton-racket.html",
   "clickUrl": "",
@@ -4888,11 +4898,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM499.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/3k-woven-fence",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -4900,18 +4910,21 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "6053",
   "year": "",
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "medium",
   "level": "beginner",
-  "weights": "",
-  "weight": "",
+  "weights": "1U",
+  "weight": 94,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   22
+  ],
   "tensionNote": "",
   "price": 410,
-  "frame": "",
-  "shaft": "",
+  "frame": "Aluminium (box frame)",
+  "shaft": "Aluminium 7.0mm",
   "joint": "",
   "length": "",
   "head": "",
@@ -4923,7 +4936,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-6166984/cached/hVh88DR467bd2ed32d651_1740451539_420x420.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/FELET_6053_1767689625.png",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -4935,10 +4948,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM49.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-6053",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
-   "price",
-   "level"
+   "level",
+   "style",
+   "price"
   ]
  },
  {
@@ -4946,18 +4960,21 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "6054",
   "year": "",
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "medium",
   "level": "beginner",
-  "weights": "",
-  "weight": "",
+  "weights": "1U",
+  "weight": 94,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   22
+  ],
   "tensionNote": "",
   "price": 410,
-  "frame": "",
-  "shaft": "",
+  "frame": "Aluminium (box frame)",
+  "shaft": "Aluminium 7.0mm",
   "joint": "",
   "length": "",
   "head": "",
@@ -4969,7 +4986,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-6166993/cached/VCYvLVbI67bd2ed780479_1740451543_420x420.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/FELET_6054_1767689725.png",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -4981,10 +4998,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM49.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-6054",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
-   "price",
-   "level"
+   "level",
+   "style",
+   "price"
   ]
  },
  {
@@ -4993,17 +5011,20 @@ window.RACKETS = [
   "name": "6055 Speed & Control",
   "year": "",
   "style": "speed",
-  "balance": "head-light",
-  "flex": "",
+  "balance": "even",
+  "flex": "medium",
   "level": "beginner",
-  "weights": "",
-  "weight": "",
+  "weights": "1U",
+  "weight": 94,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   22
+  ],
   "tensionNote": "",
   "price": 410,
-  "frame": "",
-  "shaft": "",
+  "frame": "Aluminium (box frame)",
+  "shaft": "Aluminium 7.0mm",
   "joint": "",
   "length": "",
   "head": "",
@@ -5015,7 +5036,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-7724061/cached/EY68Chsn6a30b07e7155b_1781575806_420x420.jpeg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_05_07_at_16_19_32_1781578161.jpeg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -5027,12 +5048,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM49.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-6055-speed--control",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
-   "balance",
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -5041,17 +5061,20 @@ window.RACKETS = [
   "name": "6056 Speed & Control",
   "year": "",
   "style": "speed",
-  "balance": "head-light",
-  "flex": "",
+  "balance": "even",
+  "flex": "medium",
   "level": "beginner",
-  "weights": "",
-  "weight": "",
+  "weights": "1U",
+  "weight": 94,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   22
+  ],
   "tensionNote": "",
   "price": 410,
-  "frame": "",
-  "shaft": "",
+  "frame": "Aluminium (box frame)",
+  "shaft": "Aluminium 7.0mm",
   "joint": "",
   "length": "",
   "head": "",
@@ -5063,7 +5086,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-7724073/cached/wKV3D0Ev6a30b24251d71_1781576258_420x420.jpeg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_05_07_at_16_19_32_1__1781578186.jpeg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -5075,12 +5098,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM49.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-6056-speed--control",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
-   "balance",
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -5089,17 +5111,20 @@ window.RACKETS = [
   "name": "6057 Speed & Control",
   "year": "",
   "style": "speed",
-  "balance": "head-light",
-  "flex": "",
+  "balance": "even",
+  "flex": "medium",
   "level": "beginner",
-  "weights": "",
-  "weight": "",
+  "weights": "1U",
+  "weight": 94,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   22
+  ],
   "tensionNote": "",
   "price": 410,
-  "frame": "",
-  "shaft": "",
+  "frame": "Aluminium (box frame)",
+  "shaft": "Aluminium 7.0mm",
   "joint": "",
   "length": "",
   "head": "",
@@ -5111,7 +5136,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-7724074/cached/StCLTcHU6a30b29bda5c5_1781576347_420x420.jpeg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_05_07_at_16_19_33_1781578208.jpeg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -5123,12 +5148,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM49.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-6057-speed--control",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
-   "balance",
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -5136,11 +5160,11 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "Aero Carbon",
   "year": "",
-  "style": "attack",
-  "balance": "head-heavy",
+  "style": "allround",
+  "balance": "even",
   "flex": "stiff",
-  "level": "intermediate",
-  "weights": "4U",
+  "level": "advanced",
+  "weights": "3U, 4U",
   "weight": 82,
   "grips": "G1",
   "tension": [
@@ -5162,7 +5186,7 @@ window.RACKETS = [
   "img": "https://www.badmintonbay.com/image/cache/data/felet/aero-carbon-white-purple/felet-aero-carbon-white-purple-badminton-racket-01-700x800.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2025_12_13_at_11_36_04_1765760680.jpeg",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Felet-Badminton-Racket/felet-aero-carbon-white-purple-badminton-racket.html",
   "clickUrl": "",
@@ -5178,11 +5202,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM339.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/aero-carbon",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -5190,16 +5214,16 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "Arcana",
   "year": "",
-  "style": "attack",
-  "balance": "head-heavy",
+  "style": "allround",
+  "balance": "even",
   "flex": "medium",
-  "level": "beginner",
+  "level": "intermediate",
   "weights": "4U",
-  "weight": 83,
+  "weight": 84,
   "grips": "",
   "tension": [
    null,
-   36
+   33
   ],
   "tensionNote": "",
   "price": 1820,
@@ -5216,7 +5240,7 @@ window.RACKETS = [
   "img": "https://www.badmintonbay.com/image/cache/data/felet/arcana-black-tiffany-blue/felet-arcana-black-tiffany-badminton-racket-01-700x800.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_06_02_at_16_43_33_1780455194.jpeg",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Felet-Badminton-Racket/felet-arcana-black-tiffany-blue-badminton-racket.html",
   "clickUrl": "",
@@ -5228,11 +5252,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM219.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/arcana-black",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Advance ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -5242,7 +5266,7 @@ window.RACKETS = [
   "year": "",
   "style": "allround",
   "balance": "even",
-  "flex": "",
+  "flex": "medium",
   "level": "beginner",
   "weights": "4U",
   "weight": 82,
@@ -5266,7 +5290,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-7249898/cached/gRHjH1Vb693292b7cfdc1_1764922039_420x420.png",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://www.badshop.store/",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/lavendar_bloom_1765760906.jpg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -5278,11 +5302,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM179.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/lavender-bloom",
-  "note": "BadShop (Jade Bloom): 4U 82g, 295±3mm, max 31 lbs; Shin Niji, NEXChamp, Larde ก็ 31 lbs (ข้อความจากผลค้น Google)",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Moderate ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -5290,11 +5314,11 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "Carbon Woven 18",
   "year": "",
-  "style": "allround",
-  "balance": "even",
+  "style": "speed",
+  "balance": "head-light",
   "flex": "medium",
   "level": "intermediate",
-  "weights": "4U",
+  "weights": "3U, 4U",
   "weight": 82,
   "grips": "G1",
   "tension": [
@@ -5316,7 +5340,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-6199460/cached/pATXf2Z467c687803420e_1741064064_420x420.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/CARBON_WOVEN_181_1758706607.png",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -5332,11 +5356,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM279.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/carbon-woven-18",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -5344,11 +5368,11 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "Carbon Woven Zynger",
   "year": "",
-  "style": "allround",
-  "balance": "even",
+  "style": "speed",
+  "balance": "head-light",
   "flex": "medium",
   "level": "intermediate",
-  "weights": "4U",
+  "weights": "3U, 4U",
   "weight": 82,
   "grips": "G1",
   "tension": [
@@ -5370,7 +5394,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-6988525/cached/zNjjTw9Y68ccc5697b352_1758250345_420x420.png",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/CARBON_WOVEN_ZYNGER_SPECIFICATION_1758266479.png",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -5386,11 +5410,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM299.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/carbon-woven-zynger",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -5400,10 +5424,10 @@ window.RACKETS = [
   "year": "",
   "style": "control",
   "balance": "even",
-  "flex": "",
+  "flex": "medium",
   "level": "intermediate",
   "weights": "4U",
-  "weight": 83,
+  "weight": 82,
   "grips": "",
   "tension": [
    null,
@@ -5424,7 +5448,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-7601977/cached/l8XHVx8h69f85d829fa94_1777884546_420x420.jpeg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://honly.com.my/",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_05_04_at_14_46_01_1777884437.jpeg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -5436,12 +5460,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM289.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/eighty8-control",
-  "note": "honly.com.my: 4U 290-295mm, max 35 lbs (ข้อความจากผลค้น Google)",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
-   "style",
-   "price",
    "level",
-   "weight"
+   "style",
+   "price"
   ]
  },
  {
@@ -5454,7 +5477,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "intermediate",
   "weights": "4U",
-  "weight": 83,
+  "weight": 82,
   "grips": "G1",
   "tension": [
    null,
@@ -5475,7 +5498,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-7601965/cached/WRKrXWaE69f85c1732e10_1777884183_420x420.jpeg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_04_21_at_13_33_28_1777884012.jpeg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -5491,12 +5514,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM289.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/eighty8-power",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
-   "style",
-   "price",
    "level",
-   "weight"
+   "style",
+   "price"
   ]
  },
  {
@@ -5509,7 +5531,7 @@ window.RACKETS = [
   "flex": "medium",
   "level": "intermediate",
   "weights": "4U",
-  "weight": 83,
+  "weight": 82,
   "grips": "G1",
   "tension": [
    null,
@@ -5530,7 +5552,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-7601975/cached/GVSSENYt69f85cae5bc20_1777884334_420x420.jpeg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_05_04_at_14_46_02_1777884250.jpeg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -5546,12 +5568,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM289.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/eighty8-speed",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
-   "style",
-   "price",
    "level",
-   "weight"
+   "style",
+   "price"
   ]
  },
  {
@@ -5561,7 +5582,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "",
+  "flex": "stiff",
   "level": "beginner",
   "weights": "7U",
   "weight": 70,
@@ -5585,7 +5606,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-4486056/cached/6Z2TVB4A6621d336644f4_1713492790_420x420.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://vsmash.com/",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/F_FORCE_SUPR_LIGHT1_1758706733.png",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -5597,7 +5618,7 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM229.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-f-force-super-light",
-  "note": "Vsmash และ Shopee TH ตรงกัน: 7U, 300-310mm, max 30 lbs (ข้อความจากผลค้น Google)",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Superlight ของ Felet)",
   "est": [
    "style",
    "price",
@@ -5609,14 +5630,17 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "Gen-X",
   "year": "",
-  "style": "",
-  "balance": "",
-  "flex": "",
+  "style": "allround",
+  "balance": "even",
+  "flex": "medium",
   "level": "beginner",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 82,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   35
+  ],
   "tensionNote": "",
   "price": 1490,
   "frame": "",
@@ -5632,7 +5656,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-7990987/cached/ceZgSx7x6a98dc6e47d2f_1788402798_420x420.jpeg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_09_02_at_14_24_43_1788402755.jpeg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -5644,10 +5668,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM179.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/gen-x-sky-blue",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Moderate ของ Felet)",
   "est": [
-   "price",
-   "level"
+   "level",
+   "style",
+   "price"
   ]
  },
  {
@@ -5655,12 +5680,12 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "Hypermax",
   "year": "",
-  "style": "attack",
-  "balance": "head-heavy",
+  "style": "allround",
+  "balance": "even",
   "flex": "medium",
-  "level": "beginner",
-  "weights": "4U",
-  "weight": 84,
+  "level": "intermediate",
+  "weights": "3U, 4U",
+  "weight": 82,
   "grips": "",
   "tension": [
    null,
@@ -5681,7 +5706,7 @@ window.RACKETS = [
   "img": "https://www.badmintonbay.com/image/cache/data/felet/hypermax-black/felet-hypermax-black-badminton-racket-01-700x800.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/HYPERMAX_RED_1767690951.png",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Felet-Badminton-Racket/felet-hypermax-black-advance-series-badminton-racket.html",
   "clickUrl": "",
@@ -5693,11 +5718,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM239.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/hypermax-red",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Advance ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -5707,7 +5732,7 @@ window.RACKETS = [
   "year": "",
   "style": "allround",
   "balance": "even",
-  "flex": "",
+  "flex": "medium",
   "level": "beginner",
   "weights": "4U",
   "weight": 82,
@@ -5731,7 +5756,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-7434506/cached/HGeE1JKt69a0f3a03e11d_1772155808_420x420.jpeg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://www.badshop.store/",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_02_26_at_16_56_28_1__1772153701.jpeg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -5743,11 +5768,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM179.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/neo-722-blackgreen",
-  "note": "BadShop: 4U 82g, 295±3mm, max 31 lbs (flex \"medium stiff\" อยู่ระหว่างสองชั้น จึงเว้นว่าง) (ข้อความจากผลค้น Google)",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Moderate ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -5755,11 +5780,11 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "Nevow TJ 1000",
   "year": "",
-  "style": "attack",
-  "balance": "head-heavy",
+  "style": "allround",
+  "balance": "even",
   "flex": "stiff",
-  "level": "pro",
-  "weights": "4U",
+  "level": "advanced",
+  "weights": "3U, 4U",
   "weight": 82,
   "grips": "G1",
   "tension": [
@@ -5781,7 +5806,7 @@ window.RACKETS = [
   "img": "https://www.badmintonbay.com/image/cache/data/felet/nevow-tj-1000-white/felet-nevow-tj-1000-pro-white-badminton-racket-01-700x800.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TEMPLATE_NEVOW_TJ_1000_1768538267.jpg",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Felet-Badminton-Racket/felet-nevow-tj-1000-white-pro-4u-badminton-racket.html",
   "clickUrl": "",
@@ -5797,11 +5822,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM799.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/nevow-tj-1000",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -5809,11 +5834,11 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "Professional P1",
   "year": "",
-  "style": "attack",
-  "balance": "head-heavy",
+  "style": "allround",
+  "balance": "even",
   "flex": "medium",
   "level": "advanced",
-  "weights": "4U",
+  "weights": "3U, 4U",
   "weight": 82,
   "grips": "G1",
   "tension": [
@@ -5835,7 +5860,7 @@ window.RACKETS = [
   "img": "https://www.badmintonbay.com/image/cache/data/felet/professional-p1-white/felet-professional-p1-badminton-racket-00-700x800.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/p1_1765761099.jpg",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Felet-Badminton-Racket/felet-professional-p1-white-pro-4u-badminton-racket.html",
   "clickUrl": "",
@@ -5851,12 +5876,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM559.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/professional-p1",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "est": [
-   "flex",
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -5866,7 +5890,7 @@ window.RACKETS = [
   "year": "",
   "style": "allround",
   "balance": "even",
-  "flex": "stiff",
+  "flex": "medium",
   "level": "beginner",
   "weights": "4U",
   "weight": 82,
@@ -5890,7 +5914,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-7104603/cached/5ANzEUEE68edc67d3781b_1760413309_420x420.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://www.kgbadminton.com/",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/sakurraa_1765761150.jpg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -5902,11 +5926,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM179.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/sakurra",
-  "note": "KG Badminton: 295±3mm, max 31 lbs, stiff (ข้อความจากผลค้น Google)",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Moderate ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -5915,9 +5939,9 @@ window.RACKETS = [
   "name": "TJ Control 1000",
   "year": "",
   "style": "control",
-  "balance": "head-light",
-  "flex": "flexible",
-  "level": "beginner",
+  "balance": "even",
+  "flex": "medium",
+  "level": "intermediate",
   "weights": "4U",
   "weight": 82,
   "grips": "G1",
@@ -5940,7 +5964,7 @@ window.RACKETS = [
   "img": "https://www.badmintonbay.com/image/cache/data/felet/tj-1000-control/felet-tj-control-1000-blue-badminton-racket-01-700x800.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TJ_1000_CONTROL_1758686088.png",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Felet-Badminton-Racket/felet-tj-1000-control-blue-badminton-racket.html",
   "clickUrl": "",
@@ -5956,13 +5980,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM259.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/tj-control-1000-4u",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
-   "balance",
-   "flex",
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -5972,8 +5994,8 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "flexible",
-  "level": "beginner",
+  "flex": "stiff",
+  "level": "intermediate",
   "weights": "4U",
   "weight": 82,
   "grips": "G1",
@@ -5996,7 +6018,7 @@ window.RACKETS = [
   "img": "https://www.badmintonbay.com/image/cache/data/felet/tj-1000-power/felet-tj-power-1000-red-badminton-racket-01-700x800.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TJ_1000_POWER_1758686218.png",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Felet-Badminton-Racket/felet-tj-1000-power-red-badminton-racket.html",
   "clickUrl": "",
@@ -6012,12 +6034,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM259.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/tj-power-1000",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
-   "flex",
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -6028,7 +6049,7 @@ window.RACKETS = [
   "style": "control",
   "balance": "even",
   "flex": "medium",
-  "level": "beginner",
+  "level": "intermediate",
   "weights": "4U",
   "weight": 82,
   "grips": "",
@@ -6051,7 +6072,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-4485695/cached/QwP9wuVM6621d2fc6ccaf_1713492732_420x420.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://vsmash.com/",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/tj_power_controllllll_1757315902.jpg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -6063,11 +6084,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM239.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-tj-power-control",
-  "note": "Vsmash และ sportshorizon.com ตรงกัน: 290-295mm, max 35 lbs, flex medium (ข้อความจากผลค้น Google)",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -6076,11 +6097,11 @@ window.RACKETS = [
   "name": "TJ Power-Power",
   "year": "",
   "style": "attack",
-  "balance": "head-heavy",
+  "balance": "even",
   "flex": "medium",
-  "level": "beginner",
+  "level": "intermediate",
   "weights": "4U",
-  "weight": 83,
+  "weight": 82,
   "grips": "G1",
   "tension": [
    null,
@@ -6101,7 +6122,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-4485803/cached/Iw4Dq7Kc6621d30a14622_1713492746_420x420.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TJ_POWER_POWER_1758686001.png",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -6117,12 +6138,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM239.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-tj-power-power",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
-   "style",
-   "price",
    "level",
-   "weight"
+   "style",
+   "price"
   ]
  },
  {
@@ -6131,11 +6151,11 @@ window.RACKETS = [
   "name": "TJ Power-Speed",
   "year": "",
   "style": "speed",
-  "balance": "head-heavy",
+  "balance": "even",
   "flex": "medium",
-  "level": "beginner",
+  "level": "intermediate",
   "weights": "4U",
-  "weight": 83,
+  "weight": 82,
   "grips": "G1",
   "tension": [
    null,
@@ -6156,7 +6176,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-4485844/cached/T6965Ru06621d315ea379_1713492758_420x420.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TJ_POWER_SPEED_1758685932.png",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -6172,12 +6192,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM239.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-tj-power-speed",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
-   "style",
-   "price",
    "level",
-   "weight"
+   "style",
+   "price"
   ]
  },
  {
@@ -6187,8 +6206,8 @@ window.RACKETS = [
   "year": "",
   "style": "speed",
   "balance": "head-light",
-  "flex": "flexible",
-  "level": "beginner",
+  "flex": "medium",
+  "level": "intermediate",
   "weights": "4U",
   "weight": 82,
   "grips": "G1",
@@ -6211,7 +6230,7 @@ window.RACKETS = [
   "img": "https://www.badmintonbay.com/image/cache/data/felet/tj-1000-speed/felet-tj-speed-1000-silver-badminton-racket-01-700x800.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TJ_1000_SPEED_1758686150.png",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Felet-Badminton-Racket/felet-tj-1000-speed-silver-badminton-racket.html",
   "clickUrl": "",
@@ -6227,12 +6246,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM259.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/tj-speed-1000-4u",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
-   "flex",
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -6242,7 +6260,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "stiff",
+  "flex": "medium",
   "level": "advanced",
   "weights": "4U",
   "weight": 83,
@@ -6266,7 +6284,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-7868756/cached/0lE1rnuL6a6c519370d45_1785483667_420x420.jpeg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_07_31_at_15_23_54_1785483625.jpeg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -6282,11 +6300,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM599.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/tai-g-aggressive-white",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -6296,7 +6314,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "flex": "stiff",
+  "flex": "medium",
   "level": "advanced",
   "weights": "5U",
   "weight": 78,
@@ -6320,7 +6338,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-7868755/cached/IlHcfgpB6a6c5154a8bb4_1785483604_420x420.jpeg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_07_31_at_15_23_53_1785483552.jpeg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -6336,12 +6354,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM599.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/tai-g-comfort-black",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
-   "tension",
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -6352,8 +6369,8 @@ window.RACKETS = [
   "style": "allround",
   "balance": "even",
   "flex": "stiff",
-  "level": "intermediate",
-  "weights": "3U, 4U",
+  "level": "advanced",
+  "weights": "2U, 3U, 4U",
   "weight": 82,
   "grips": "",
   "tension": [
@@ -6375,7 +6392,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-4485404/cached/AJzYQE5z6621d2e96072c_1713492715_420x420.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://sportshorizon.com/",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/THE_LEGEND_RASHID_SIDEK_1758688573.png",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -6387,11 +6404,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM399.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-the-legend-rashid-sidek",
-  "note": "sportshorizon.com: 4U 82g/3U 86g, 295±2mm, max 35 lbs; flex stiff จาก vapaa-ajanurheilu.fi (ข้อความจากผลค้น Google)",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -6399,12 +6416,12 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "The Legend Zakry Limited",
   "year": "",
-  "style": "",
-  "balance": "",
-  "flex": "",
-  "level": "intermediate",
-  "weights": "3U, 4U",
-  "weight": 83,
+  "style": "allround",
+  "balance": "even",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "2U, 3U, 4U",
+  "weight": 82,
   "grips": "",
   "tension": [
    null,
@@ -6425,7 +6442,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-4482418/cached/YcgDRrCD6621cea37128b_1713491620_420x420.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://www.shinnijisports.my/",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/THE_LEGEND_ZAKRY_1758688690.png",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -6437,11 +6454,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM399.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/the-legend-zakry-limited-red",
-  "note": "Shin Niji Sports: max 38 lbs (ข้อความจากผลค้น Google)",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "est": [
-   "price",
    "level",
-   "weight"
+   "style",
+   "price"
   ]
  },
  {
@@ -6451,10 +6468,10 @@ window.RACKETS = [
   "year": "",
   "style": "allround",
   "balance": "even",
-  "flex": "",
-  "level": "intermediate",
-  "weights": "",
-  "weight": "",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "2U, 3U, 4U",
+  "weight": 82,
   "grips": "",
   "tension": [
    null,
@@ -6475,7 +6492,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-4485888/cached/vZcbg2NU6621d31d3dfc7_1713492766_420x420.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://www.dddgsport.com/",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/Product_Series_titanium_TI_88_1767584832.jpg",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -6487,11 +6504,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM399.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-titanium-ti-88",
-  "note": "DDDG Sport: 293-297mm, max 35 lbs; Shopee TH ก็ 35 lbs (ข้อความจากผลค้น Google)",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -6499,11 +6516,11 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "Woven 1000",
   "year": "",
-  "style": "attack",
-  "balance": "head-heavy",
+  "style": "allround",
+  "balance": "even",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "4U",
+  "weights": "2U, 3U, 4U",
   "weight": 82,
   "grips": "G1",
   "tension": [
@@ -6525,7 +6542,7 @@ window.RACKETS = [
   "img": "https://www.badmintonbay.com/image/cache/data/felet/woven-1000-gold/felet-woven-1000-pro-badminton-racket-01-700x800.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/woven_1000_1765760716.jpg",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Felet-Badminton-Racket/felet-woven-1000-gold-4u-badminton-racket.html",
   "clickUrl": "",
@@ -6541,11 +6558,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM689.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/woven-1000",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -6553,11 +6570,11 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "Woven 8000",
   "year": "",
-  "style": "attack",
-  "balance": "head-heavy",
+  "style": "allround",
+  "balance": "even",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "4U",
+  "weights": "3U, 4U",
   "weight": 82,
   "grips": "G1",
   "tension": [
@@ -6579,7 +6596,7 @@ window.RACKETS = [
   "img": "https://www.badmintonbay.com/image/cache/data/felet/woven-8000-pro/felet-woven-8000-badminton-racket-01-700x800.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/1776915561366_1776915562.jpeg",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Felet-Badminton-Racket/felet-woven-8000-pro-4u-badminton-racket.html",
   "clickUrl": "",
@@ -6595,11 +6612,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM689.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-woven-8000",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -6607,12 +6624,12 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "Woven 888",
   "year": "",
-  "style": "attack",
-  "balance": "head-heavy",
+  "style": "allround",
+  "balance": "even",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "3U",
-  "weight": 87,
+  "weights": "2U, 3U, 4U",
+  "weight": 82,
   "grips": "G1",
   "tension": [
    null,
@@ -6633,7 +6650,7 @@ window.RACKETS = [
   "img": "https://www.badmintonbay.com/image/cache/data/felet/woven-888-pro/felet-woven-888-pro-badminton-racket-01-700x800.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WOVEN_888_1758683765.png",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Felet-Badminton-Racket/felet-woven-888-pro-badminton-racket.html",
   "clickUrl": "",
@@ -6649,12 +6666,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM699.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/woven-888",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
-   "weight",
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -6662,11 +6678,11 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "Woven 999",
   "year": "",
-  "style": "attack",
-  "balance": "head-heavy",
+  "style": "allround",
+  "balance": "even",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "4U",
+  "weights": "2U, 3U, 4U",
   "weight": 82,
   "grips": "G1",
   "tension": [
@@ -6688,7 +6704,7 @@ window.RACKETS = [
   "img": "https://www.badmintonbay.com/image/cache/data/felet/woven-999-pro/felet-woven-999-pro-badminton-racket-01-700x800.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WOVEN_999_1758678370.png",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Felet-Badminton-Racket/felet-woven-999-pro-black-orange-4u-badminton-racket.html",
   "clickUrl": "",
@@ -6704,11 +6720,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM699.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/woven-999",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -6716,12 +6732,12 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "Woven Eighty8",
   "year": "",
-  "style": "attack",
-  "balance": "head-heavy",
+  "style": "allround",
+  "balance": "even",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "4U",
-  "weight": 84,
+  "weights": "3U, 4U",
+  "weight": 82,
   "grips": "",
   "tension": [
    null,
@@ -6742,7 +6758,7 @@ window.RACKETS = [
   "img": "https://www.badmintonbay.com/image/cache/data/felet/woven-eighty8/felet-ft-woven-eighty8-badminton-racket-00-700x800.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/1757405496866_1757405497.png",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Felet-Badminton-Racket/felet-woven-eighty-8-pro-4u-badminton-racket.html",
   "clickUrl": "",
@@ -6758,11 +6774,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM639.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/woven-eighty8",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -6772,14 +6788,14 @@ window.RACKETS = [
   "year": "",
   "style": "allround",
   "balance": "even",
-  "flex": "",
+  "flex": "stiff",
   "level": "advanced",
-  "weights": "4U",
-  "weight": 83,
+  "weights": "2U, 3U, 4U",
+  "weight": 82,
   "grips": "",
   "tension": [
    null,
-   38
+   35
   ],
   "tensionNote": "",
   "price": 5780,
@@ -6796,7 +6812,7 @@ window.RACKETS = [
   "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-4486515/cached/WxAAgftR6621d37508dac_1713492853_420x420.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "https://www.facebook.com/",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/1757405690664_1757405691.png",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -6812,12 +6828,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM699.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/woven-ti-3000",
-  "note": "FELET Badminton Thailand (Facebook): 4U 295±3mm, max 38 lbs (ข้อความจากผลค้น Google)",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "est": [
-   "style",
-   "price",
    "level",
-   "weight"
+   "style",
+   "price"
   ]
  },
  {
@@ -6825,11 +6840,11 @@ window.RACKETS = [
   "brand": "Felet",
   "name": "Woven TJ 1000",
   "year": "",
-  "style": "attack",
-  "balance": "head-heavy",
+  "style": "allround",
+  "balance": "even",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "4U",
+  "weights": "2U, 3U, 4U",
   "weight": 82,
   "grips": "G1",
   "tension": [
@@ -6851,7 +6866,7 @@ window.RACKETS = [
   "img": "https://www.badmintonbay.com/image/cache/data/felet/woven-tj-1000-pro/felet-woven-tj-1000-pro-badminton-racket-01-700x800.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/1757405660484_1757405661.png",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Felet-Badminton-Racket/felet-woven-tj-1000-pro-black-badminton-racket.html",
   "clickUrl": "",
@@ -6867,11 +6882,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM599.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-woven-tj-1000",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -6880,13 +6895,16 @@ window.RACKETS = [
   "name": "Woven TJ Power V2",
   "year": "",
   "style": "attack",
-  "balance": "head-heavy",
+  "balance": "even",
   "flex": "stiff",
   "level": "advanced",
-  "weights": "4U",
-  "weight": 84,
+  "weights": "2U, 3U, 4U",
+  "weight": 82,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   42
+  ],
   "tensionNote": "",
   "price": 4960,
   "frame": "",
@@ -6902,7 +6920,7 @@ window.RACKETS = [
   "img": "https://www.badmintonbay.com/image/cache/data/felet/Woven-TJ-Power-V2-Pro/felet-woven-tj-power-v2-badminton-racket-01-700x800.jpg",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://cdn1.sgliteasset.com/feletint/images/texteditor/1757405676336_1757405677.png",
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Felet-Badminton-Racket/felet-woven-tj-power-v2-pro-black-badminton-racket.html",
   "clickUrl": "",
@@ -6914,11 +6932,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM599.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-woven-tj-power-v2",
-  "note": "",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {

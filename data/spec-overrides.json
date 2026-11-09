@@ -3356,12 +3356,410 @@
   ],
   "note": "ระดับ: ร้านระบุ \"Tectonic 7C Combat ... Advanced players' choice\" (ผลค้น Google 8 พ.ย. 2026) (≈)"
  },
+ "Felet 3000 Power": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "1U",
+  "weight": 94,
+  "tmax": 22,
+  "frame": "Aluminium (box frame)",
+  "shaft": "Aluminium 7.0mm",
+  "level": "beginner",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/6982d4288212b_1770181672.jpg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)"
+ },
+ "Felet 3100 Power": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "1U",
+  "weight": 94,
+  "tmax": 22,
+  "frame": "Aluminium (box frame)",
+  "shaft": "Aluminium 7.0mm",
+  "level": "beginner",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TEMPLATE_NOVICE_3100_POWER_1770190971.jpeg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)"
+ },
+ "Felet 3200 Power": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "1U",
+  "weight": 94,
+  "tmax": 22,
+  "frame": "Aluminium (box frame)",
+  "shaft": "Aluminium 7.0mm",
+  "level": "beginner",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TEMPLATE_NOVICE_3200_POWER_1770191144.jpeg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)"
+ },
+ "Felet 3300 Power": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "1U",
+  "weight": 94,
+  "tmax": 22,
+  "frame": "Aluminium (box frame)",
+  "shaft": "Aluminium 7.0mm",
+  "level": "beginner",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TEMPLATE_NOVICE_3300_POWER_1770191235.jpeg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)"
+ },
+ "Felet 3400 Power": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "1U",
+  "weight": 94,
+  "tmax": 22,
+  "frame": "Aluminium (box frame)",
+  "shaft": "Aluminium 7.0mm",
+  "level": "beginner",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TEMPLATE_NOVICE_3400_POWER_1770191323.jpeg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)"
+ },
+ "Felet 6053": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "1U",
+  "weight": 94,
+  "tmax": 22,
+  "frame": "Aluminium (box frame)",
+  "shaft": "Aluminium 7.0mm",
+  "level": "beginner",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/FELET_6053_1767689625.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)"
+ },
+ "Felet 6054": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "1U",
+  "weight": 94,
+  "tmax": 22,
+  "frame": "Aluminium (box frame)",
+  "shaft": "Aluminium 7.0mm",
+  "level": "beginner",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/FELET_6054_1767689725.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)"
+ },
+ "Felet 6055 Speed & Control": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "1U",
+  "weight": 94,
+  "tmax": 22,
+  "frame": "Aluminium (box frame)",
+  "shaft": "Aluminium 7.0mm",
+  "level": "beginner",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_05_07_at_16_19_32_1781578161.jpeg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)"
+ },
+ "Felet 6056 Speed & Control": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "1U",
+  "weight": 94,
+  "tmax": 22,
+  "frame": "Aluminium (box frame)",
+  "shaft": "Aluminium 7.0mm",
+  "level": "beginner",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_05_07_at_16_19_32_1__1781578186.jpeg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)"
+ },
+ "Felet 6057 Speed & Control": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "1U",
+  "weight": 94,
+  "tmax": 22,
+  "frame": "Aluminium (box frame)",
+  "shaft": "Aluminium 7.0mm",
+  "level": "beginner",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_05_07_at_16_19_33_1781578208.jpeg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)"
+ },
+ "Felet 3K Nevow Fence": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "tmax": 38,
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_10_12_at_17_28_29_1791855530.jpeg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)"
+ },
+ "Felet 3K Woven Fence": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "2U, 3U, 4U",
+  "weight": 82,
+  "tmax": 40,
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/3K_WOVEN_FENCE_BLUE_1757410769.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)"
+ },
+ "Felet Aero Carbon": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "3U, 4U",
+  "weight": 82,
+  "tmax": 35,
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2025_12_13_at_11_36_04_1765760680.jpeg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)"
+ },
+ "Felet Arcana": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 84,
+  "tmax": 33,
+  "level": "intermediate",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_06_02_at_16_43_33_1780455194.jpeg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Advance ของ Felet)"
+ },
+ "Felet Bloom": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 31,
+  "level": "beginner",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/lavendar_bloom_1765760906.jpg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Moderate ของ Felet)"
+ },
+ "Felet Carbon Woven 18": {
+  "balance": "head-light",
+  "flex": "medium",
+  "weights": "3U, 4U",
+  "weight": 82,
+  "tmax": 36,
+  "level": "intermediate",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/CARBON_WOVEN_181_1758706607.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)"
+ },
+ "Felet Carbon Woven Zynger": {
+  "balance": "head-light",
+  "flex": "medium",
+  "weights": "3U, 4U",
+  "weight": 82,
+  "tmax": 36,
+  "level": "intermediate",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/CARBON_WOVEN_ZYNGER_SPECIFICATION_1758266479.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)"
+ },
  "Felet Eighty8 Control": {
   "balance": "even",
+  "flex": "medium",
   "weights": "4U",
+  "weight": 82,
   "tmax": 35,
-  "src": "https://honly.com.my/",
-  "note": "honly.com.my: 4U 290-295mm, max 35 lbs (ข้อความจากผลค้น Google)"
+  "level": "intermediate",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_05_04_at_14_46_01_1777884437.jpeg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)"
+ },
+ "Felet Eighty8 Power": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 35,
+  "level": "intermediate",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_04_21_at_13_33_28_1777884012.jpeg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)"
+ },
+ "Felet Eighty8 Speed": {
+  "balance": "head-light",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 35,
+  "level": "intermediate",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_05_04_at_14_46_02_1777884250.jpeg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)"
+ },
+ "Felet F-Force Super Light": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "7U",
+  "weight": 70,
+  "tmax": 30,
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/F_FORCE_SUPR_LIGHT1_1758706733.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Superlight ของ Felet)"
+ },
+ "Felet Gen-X": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 35,
+  "level": "beginner",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_09_02_at_14_24_43_1788402755.jpeg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Moderate ของ Felet)"
+ },
+ "Felet Hypermax": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "3U, 4U",
+  "weight": 82,
+  "tmax": 35,
+  "level": "intermediate",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/HYPERMAX_RED_1767690951.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Advance ของ Felet)"
+ },
+ "Felet Neo 722": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 31,
+  "level": "beginner",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_02_26_at_16_56_28_1__1772153701.jpeg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Moderate ของ Felet)"
+ },
+ "Felet Nevow TJ 1000": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "3U, 4U",
+  "tmax": 38,
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TEMPLATE_NEVOW_TJ_1000_1768538267.jpg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)"
+ },
+ "Felet Professional P1": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "3U, 4U",
+  "weight": 82,
+  "tmax": 35,
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/p1_1765761099.jpg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)"
+ },
+ "Felet Sakurra": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 31,
+  "level": "beginner",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/sakurraa_1765761150.jpg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Moderate ของ Felet)"
+ },
+ "Felet TJ Control 1000": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 35,
+  "level": "intermediate",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TJ_1000_CONTROL_1758686088.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)"
+ },
+ "Felet TJ Power 1000": {
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 35,
+  "level": "intermediate",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TJ_1000_POWER_1758686218.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)"
+ },
+ "Felet TJ Speed 1000": {
+  "balance": "head-light",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 35,
+  "level": "intermediate",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TJ_1000_SPEED_1758686150.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)"
  },
  "Felet TJ Power-Control": {
   "balance": "even",
@@ -3369,84 +3767,206 @@
   "weights": "4U",
   "weight": 82,
   "tmax": 35,
-  "src": "https://vsmash.com/",
-  "note": "Vsmash และ sportshorizon.com ตรงกัน: 290-295mm, max 35 lbs, flex medium (ข้อความจากผลค้น Google)"
+  "level": "intermediate",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/tj_power_controllllll_1757315902.jpg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)"
  },
- "Felet Woven TI 3000": {
+ "Felet TJ Power-Power": {
   "balance": "even",
+  "flex": "medium",
   "weights": "4U",
-  "tmax": 38,
-  "src": "https://www.facebook.com/",
-  "note": "FELET Badminton Thailand (Facebook): 4U 295±3mm, max 38 lbs (ข้อความจากผลค้น Google)"
- },
- "Felet Titanium TI 88": {
-  "balance": "even",
+  "weight": 82,
   "tmax": 35,
-  "src": "https://www.dddgsport.com/",
-  "note": "DDDG Sport: 293-297mm, max 35 lbs; Shopee TH ก็ 35 lbs (ข้อความจากผลค้น Google)"
+  "level": "intermediate",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TJ_POWER_POWER_1758686001.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)"
+ },
+ "Felet TJ Power-Speed": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 35,
+  "level": "intermediate",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TJ_POWER_SPEED_1758685932.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)"
+ },
+ "Felet Tai-G Aggressive": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 83,
+  "tmax": 35,
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_07_31_at_15_23_54_1785483625.jpeg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)"
+ },
+ "Felet Tai-G Comfort": {
+  "balance": "head-heavy",
+  "flex": "medium",
+  "weights": "5U",
+  "weight": 78,
+  "tmax": 35,
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_07_31_at_15_23_53_1785483552.jpeg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)"
  },
  "Felet The Legend Rashid Sidek Limited": {
   "balance": "even",
   "flex": "stiff",
+  "weights": "2U, 3U, 4U",
+  "weight": 82,
+  "tmax": 35,
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/THE_LEGEND_RASHID_SIDEK_1758688573.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)"
+ },
+ "Felet The Legend Zakry Limited": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "2U, 3U, 4U",
+  "weight": 82,
+  "tmax": 38,
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/THE_LEGEND_ZAKRY_1758688690.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)"
+ },
+ "Felet Titanium TI 88": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "2U, 3U, 4U",
+  "weight": 82,
+  "tmax": 35,
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/Product_Series_titanium_TI_88_1767584832.jpg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)"
+ },
+ "Felet Woven 1000": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "2U, 3U, 4U",
+  "weight": 82,
+  "tmax": 38,
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/woven_1000_1765760716.jpg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)"
+ },
+ "Felet Woven 8000": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "3U, 4U",
+  "weight": 82,
+  "tmax": 38,
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/1776915561366_1776915562.jpeg",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)"
+ },
+ "Felet Woven 888": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "2U, 3U, 4U",
+  "weight": 82,
+  "tmax": 38,
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WOVEN_888_1758683765.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)"
+ },
+ "Felet Woven 999": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "2U, 3U, 4U",
+  "weight": 82,
+  "tmax": 38,
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WOVEN_999_1758678370.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)"
+ },
+ "Felet Woven Eighty8": {
+  "balance": "even",
+  "flex": "stiff",
   "weights": "3U, 4U",
   "weight": 82,
   "tmax": 35,
-  "src": "https://sportshorizon.com/",
-  "note": "sportshorizon.com: 4U 82g/3U 86g, 295±2mm, max 35 lbs; flex stiff จาก vapaa-ajanurheilu.fi (ข้อความจากผลค้น Google)"
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/1757405496866_1757405497.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)"
  },
- "Felet The Legend Zakry Limited": {
-  "weights": "3U, 4U",
-  "tmax": 38,
-  "src": "https://www.shinnijisports.my/",
-  "note": "Shin Niji Sports: max 38 lbs (ข้อความจากผลค้น Google)"
- },
- "Felet Neo 722": {
-  "balance": "even",
-  "weights": "4U",
-  "weight": 82,
-  "tmax": 31,
-  "src": "https://www.badshop.store/",
-  "note": "BadShop: 4U 82g, 295±3mm, max 31 lbs (flex \"medium stiff\" อยู่ระหว่างสองชั้น จึงเว้นว่าง) (ข้อความจากผลค้น Google)"
- },
- "Felet Sakurra": {
+ "Felet Woven TI 3000": {
   "balance": "even",
   "flex": "stiff",
-  "weights": "4U",
+  "weights": "2U, 3U, 4U",
   "weight": 82,
-  "tmax": 31,
-  "src": "https://www.kgbadminton.com/",
-  "note": "KG Badminton: 295±3mm, max 31 lbs, stiff (ข้อความจากผลค้น Google)"
+  "tmax": 35,
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/1757405690664_1757405691.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)"
  },
- "Felet Bloom": {
+ "Felet Woven TJ 1000": {
   "balance": "even",
-  "weights": "4U",
+  "flex": "stiff",
+  "weights": "2U, 3U, 4U",
   "weight": 82,
-  "tmax": 31,
-  "src": "https://www.badshop.store/",
-  "note": "BadShop (Jade Bloom): 4U 82g, 295±3mm, max 31 lbs; Shin Niji, NEXChamp, Larde ก็ 31 lbs (ข้อความจากผลค้น Google)"
+  "tmax": 35,
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/1757405660484_1757405661.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)"
  },
- "Felet F-Force Super Light": {
-  "balance": "head-heavy",
-  "weights": "7U",
-  "weight": 70,
-  "tmax": 30,
-  "src": "https://vsmash.com/",
-  "note": "Vsmash และ Shopee TH ตรงกัน: 7U, 300-310mm, max 30 lbs (ข้อความจากผลค้น Google)"
- },
- "Felet 3000 Power": {
-  "frame": "Aluminium",
-  "shaft": "Aluminium 7.0mm",
-  "weights": "1U",
-  "weight": 94,
-  "src": "https://www.ebiz2u.com.my/",
-  "note": "E BIZ (3000/3300 Power): เฟรมและก้านอะลูมิเนียม, 1U 94g (ข้อความจากผลค้น Google)"
- },
- "Felet 3300 Power": {
-  "frame": "Aluminium",
-  "shaft": "Aluminium 7.0mm",
-  "weights": "1U",
-  "weight": 94,
-  "src": "https://www.ebiz2u.com.my/",
-  "note": "E BIZ (3000/3300 Power): เฟรมและก้านอะลูมิเนียม, 1U 94g (ข้อความจากผลค้น Google)"
+ "Felet Woven TJ Power V2": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "2U, 3U, 4U",
+  "weight": 82,
+  "tmax": 42,
+  "level": "advanced",
+  "estFields": [
+   "level"
+  ],
+  "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/1757405676336_1757405677.png",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)"
  }
 }

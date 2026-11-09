@@ -1,5 +1,6 @@
 # Fetch Felet's own racket list (name, RM price, picture) from feletsports.com into scripts/sources/felet-official.json.
-# The maker's pages carry no spec text (the specs are in pictures), so this gives the model list and price only;
+# The maker's pages carry no spec text: each model's spec table is a picture in its description (texteditor image),
+# read by eye into data/spec-overrides.json (src = that picture). This script gives the model list and price;
 # specs come from the shops (Badminton Bay: python3 scripts/fetch_bay.py Felet). Polite: one request every 2 s.
 # Run: python3 scripts/fetch_felet.py
 import html, json, os, re, time, urllib.request
