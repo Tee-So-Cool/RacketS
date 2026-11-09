@@ -258,7 +258,7 @@ def one_level(t):
 # Other shops with a public product feed (scripts/fetch_shops.py): raw {label: value} spec blocks, mapped here
 SHOPS = os.path.join(SRC, 'shops.json')
 BRAND_OF = {'victor': 'Victor', 'yonex': 'Yonex', 'li-ning': 'Li-Ning', 'li ning': 'Li-Ning', 'lining': 'Li-Ning', 'vs': 'VS',
-            'apacs': 'Apacs', 'mizuno': 'Mizuno', 'kawasaki': 'Kawasaki'}
+            'apacs': 'Apacs', 'mizuno': 'Mizuno', 'kawasaki': 'Kawasaki', 'felet': 'Felet'}
 from spec_text import parse as parse_spec, country_of, is_material
 PLAYER_TYPE = {'attacking': 'attack', 'balanced': 'allround', 'defensive': 'speed', 'speed': 'speed', 'control': 'control'}
 PAGES = json.load(open(os.path.join(SRC, 'pages.json'), encoding='utf-8')) if os.path.exists(os.path.join(SRC, 'pages.json')) else {}
@@ -284,7 +284,10 @@ def from_shop(p):
             'price': p.get('price'), 'currency': p.get('currency'), 'parsed': sp}
 # Victor's official Thai pages (scripts/fetch_victor.py) come first, so the maker's figures win over shops'
 VOFF = os.path.join(SRC, 'victor-official.json')
-shop_pages = (json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) else []) + (json.load(open(SHOPS, encoding='utf-8')) if os.path.exists(SHOPS) else [])
+# Felet's own list (scripts/fetch_felet.py): names, RM prices and pictures only, since its pages print no spec text
+FOFF = os.path.join(SRC, 'felet-official.json')
+shop_pages = (json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) else []) + (json.load(open(FOFF, encoding='utf-8')) if os.path.exists(FOFF) else []) + \
+             (json.load(open(SHOPS, encoding='utf-8')) if os.path.exists(SHOPS) else [])
 # Badminton Plaza's product-page tables ("Weight : 82±2g (4U)", "String Tension : 26-38 lbs", "Features : ..."),
 # right after Victor's own pages, so the Thai shop keeps first say on free text as before; its THB price was set above
 shop_pages[len(json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) else []):0] = [{'shop': 'badmintonplaza.com', 'brand': pz['brand'], 'name': pz['name'] or pz.get('listed', ''), 'url': BASE_PLAZA + str(pz['id']),
@@ -297,8 +300,8 @@ shops = [x for x in (from_shop(p) for p in shop_pages) if x]
 # VS Thailand), a Thai shop sells it, or two shops do. Gift sets, packs and character tie-ins are not models;
 # a bare series name ("Thruster") is not one either.
 from plaza_match import tokens as ptokens
-OFFICIAL = {'th.victorsport.com', 'sg.lining.studio', 'in.lining.studio', 'vssportsthailand.com', 'badmintonplaza.com'}
-NOT_RACKET_MODEL = re.compile(r'\b(set|combo|pack|duo|kit|bundle|gift|box|vip|merchandise|poster|frame only|training|trainer)\b|diwali|boxset|hwqkl|chinese\s+(?:new\s+)?year|'
+OFFICIAL = {'th.victorsport.com', 'sg.lining.studio', 'in.lining.studio', 'vssportsthailand.com', 'badmintonplaza.com', 'feletsports.com'}
+NOT_RACKET_MODEL = re.compile(r'\b(set|combo|pack|duo|kit|bundle|gift|box|vip|merchandise|poster|frame only|training|trainer|kids?)\b|diwali|boxset|hwqkl|chinese\s+(?:new\s+)?year|'
                               r'^yonex (?:astrox|nanoflare) (?:clear|feel|ability)\b|^yonex astrox 88 (?:tour|play|pro|game)\b|'
                               r'\bseries\s*$|'
                               r'doraemon|dragon ball|ultraman|one piece|pokemon|butterbear|baby milo|care bears|hello kitty|crayon|marvel|'
@@ -317,11 +320,16 @@ def display_name(t, brand):
     t = re.sub(r'\s+[A-Za-z]$', '', re.sub(r'\s+', ' ', t).strip(' -|/'))  # Victor's colour letter: "AURASPEED 130CL U"
     if brand == 'Li-Ning':  # Li-Ning SG writes its variants as letters: "Tectonic 7C" = Tectonic 7 Combat
         t = re.sub(r'(\d)([CDIB])$', lambda m: m.group(1) + ' ' + {'C': 'Combat', 'D': 'Drive', 'I': 'Instinct', 'B': 'Boost'}[m.group(2)], t)
+    if brand == 'Felet':  # Felet names colourways with words of their own: "Aero Carbon Snow White", "Jade Bloom", "Gen-X Sky Blue"
+        t = re.sub(r'\b(?:snow|sky|cherry|jade|lavender|crystal)\b', ' ', t, flags=re.I)
+        t = re.sub(r'\beighty8\b', 'Eighty8', re.sub(r'\s+', ' ', t).strip(), flags=re.I)
     t = re.sub(r'(?<=[A-Za-z]) ([2-4])\b(?! ?[\d.])', lambda m: ' ' + {'2': 'II', '3': 'III', '4': 'IV'}[m.group(1)], t)
+    if brand == 'Felet':  # "TAI-G", "F-FORCE": each part of a hyphenated word keeps its capital
+        return ' '.join(w if re.search(r'\d', w) or w.upper() in ('TJ', 'TI', 'P1', '3K') else '-'.join(x.capitalize() for x in w.split('-')) for w in t.split())
     return ' '.join(w if re.search(r'\d', w) or w in ('II', 'III', 'IV') or len(w) <= 2 else w.capitalize() for w in t.split())
 groups = collections.defaultdict(list)
 for bz in shops:
-    if bz['brand'] not in ('Victor', 'Li-Ning', 'VS', 'Yonex') or NOT_RACKET_MODEL.search(bz['name']): continue
+    if bz['brand'] not in ('Victor', 'Li-Ning', 'VS', 'Yonex', 'Felet') or NOT_RACKET_MODEL.search(re.sub(r'gen-x', 'GenX', bz['name'], flags=re.I)): continue
     pool = {r['name']: r for r in rackets.values() if r['brand'] == bz['brand']}
     if pmatch(bz['name'], pool)[0]: continue
     nm = display_name(bz['name'], bz['brand'])
@@ -336,7 +344,8 @@ for (brand, _), its in groups.items():
     nm = names.most_common(1)[0][0]
     tk = ptokens(nm)
     # a bare series name, or a name the listed models start with, is a series, not a model
-    if len(tk) < 2 and not re.search(r'\d', nm): continue
+    # (a model page on the maker's own store is one model, so Felet's one-word names, "Arcana", "Hypermax", stand)
+    if len(tk) < 2 and not re.search(r'\d', nm) and 'feletsports.com' not in shopset: continue
     if not re.search(r'\d', nm) and any(r['brand'] == brand and ptokens(r['name'])[:len(tk)] == tk and len(ptokens(r['name'])) > len(tk) for r in rackets.values()): continue
     # a colour letter glued to a listed model's number ("Auraspeed 9000G Free Core Green") is that model
     base = re.match(r'(.*\d)[A-Za-z]\b', nm)
@@ -360,6 +369,8 @@ for bz in bay + click + shops:
         bz = {**bz, 'name': re.sub(r'\b(new|20\d\d)\b|\(\d+ g\w*\)|\d+ g\w*|\[[^\]]*\]|\([^)]*edition\)', ' ', bz['name'], flags=re.I)}
         # the shop writes generations as digits ("Ryuga Muse 2"), this data as numerals ("Ryuga Muse II")
         bz['name'] = re.sub(r'(?<=[A-Za-z]) ([2-4])\b(?! ?[\d.])', lambda m: ' ' + {'2': 'II', '3': 'III', '4': 'IV'}[m.group(1)], bz['name'])
+    if bz['brand'] == 'Felet':  # Badminton Bay writes "TJ 1000 Control", Felet itself "TJ Control 1000"
+        bz = {**bz, 'name': re.sub(r'\bTJ 1000 (Control|Power|Speed)\b', r'TJ \1 1000', bz['name'], flags=re.I)}
     pool = {r['name']: r for r in rackets.values() if r['brand'] == bz['brand']}
     m, _ = pmatch(bz['name'], pool)
     if not m:
@@ -472,6 +483,9 @@ SERIES = [
     ('Mizuno', r'fortius|acroforce|jpx', 'attack', 'head-heavy'),
     ('Mizuno', r'acrospeed|altrax', 'speed', 'head-light'),
     ('Mizuno', r'altius', 'control', 'even'),
+    # Felet's "TJ Power-Control" is the control variant of the TJ Power line: the word after the hyphen names it
+    ('Felet', r'-control\b', 'control', 'even'),
+    ('Felet', r'-speed\b', 'speed', 'head-light'),
     ('*', r'\bpower\b|\boffensive\b|smash|attack', 'attack', 'head-heavy'),
     ('*', r'\bspeed\b', 'speed', 'head-light'),
     ('*', r'\bcontrol\b', 'control', 'even'),
@@ -501,10 +515,11 @@ def to_thb(pf):
 for r in rackets.values():
     # a price set by hand (override) wins; otherwise the lowest shop price at or above 500 baht, since some stores
     # park old models at round placeholder prices (Li-Ning SG: S$499 for an Aeronaut 7000)
+    # (Felet's own store lists its steel and aluminium frames at RM39-49, real prices, so its prices stand)
     cands = ([r['priceForeign']] if r.get('priceForeign') else []) or r.get('_pfs', [])
     r.pop('_pfs', None)
     if r.get('price') or not cands: continue
-    conv = sorted((c for c in ((to_thb(pf), pf) for pf in cands) if c[0] and c[0][0] >= 500), key=lambda c: c[0][0])
+    conv = sorted((c for c in ((to_thb(pf), pf) for pf in cands) if c[0] and (c[0][0] >= 500 or 'feletsports.com' in c[1].get('src', ''))), key=lambda c: c[0][0])
     if not conv: continue
     (thb_price, rate, src_name, src_date), pf = conv[0]
     r['priceForeign'] = pf

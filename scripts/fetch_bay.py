@@ -1,11 +1,14 @@
 # Fetch racket specs and prices from badmintonbay.com into scripts/sources/bay.json.
 # Follows the site's robots.txt: Crawl-delay 10, and no ?limit= / ?sort= URLs (plain ?page= only).
 # Run: python3 scripts/fetch_bay.py   (about 10 s per page, so expect 30-40 minutes)
-import html, json, os, re, time, urllib.request
+#      python3 scripts/fetch_bay.py Felet   (only the named brands are refetched; the rest of bay.json is kept)
+
+import html, json, os, re, sys, time, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = 'https://www.badmintonbay.com/'
-BRANDS = {'Apacs': 'Apacs-Badminton-Racket', 'Li-Ning': 'Li-Ning-Badminton-Racket', 'Yonex': 'Yonex-Badminton-Racket'}
+BRANDS = {'Apacs': 'Apacs-Badminton-Racket', 'Li-Ning': 'Li-Ning-Badminton-Racket', 'Yonex': 'Yonex-Badminton-Racket',
+          'Felet': 'Felet-Badminton-Racket'}
 KEYS = {'Frame Material': 'frame', 'Shaft Material': 'shaft', 'Flex': 'flex', 'Weight': 'weight', 'Length': 'length',
         'Max Tension': 'tension', 'Maximum Tension': 'tension', 'String Tension': 'tension', 'Balance': 'balance', 'Grommets': 'grommets'}
 DELAY = 10
@@ -42,8 +45,11 @@ def product(url):
     return {'url': url, 'name': name, 'price': float(price.group(1)) if price else '', 'currency': cur.group(1) if cur else 'USD',
             'img': img.group(1) if img else '', **spec}
 
-out = []
+ONLY = sys.argv[1:]
+OUTF = os.path.join(ROOT, 'scripts', 'sources', 'bay.json')
+out = [p for p in json.load(open(OUTF, encoding='utf-8')) if p['brand'] not in ONLY] if ONLY and os.path.exists(OUTF) else []
 for brand, cat in BRANDS.items():
+    if ONLY and brand not in ONLY: continue
     urls = listing(cat)
     print(brand, len(urls), flush=True)
     for u in urls:
@@ -53,5 +59,5 @@ for brand, cat in BRANDS.items():
             print('  skip', u, e, flush=True); continue
         p['brand'] = brand
         out.append(p)
-    json.dump(out, open(os.path.join(ROOT, 'scripts', 'sources', 'bay.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    json.dump(out, open(OUTF, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print('products', len(out), 'with price', sum(1 for p in out if p['price']), 'with balance', sum(1 for p in out if p.get('balance')))
