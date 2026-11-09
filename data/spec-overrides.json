@@ -3355,5 +3355,98 @@
    "level"
   ],
   "note": "ระดับ: ร้านระบุ \"Tectonic 7C Combat ... Advanced players' choice\" (ผลค้น Google 8 พ.ย. 2026) (≈)"
+ },
+ "Felet Eighty8 Control": {
+  "balance": "even",
+  "weights": "4U",
+  "tmax": 35,
+  "src": "https://honly.com.my/",
+  "note": "honly.com.my: 4U 290-295mm, max 35 lbs (ข้อความจากผลค้น Google)"
+ },
+ "Felet TJ Power-Control": {
+  "balance": "even",
+  "flex": "medium",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 35,
+  "src": "https://vsmash.com/",
+  "note": "Vsmash และ sportshorizon.com ตรงกัน: 290-295mm, max 35 lbs, flex medium (ข้อความจากผลค้น Google)"
+ },
+ "Felet Woven TI 3000": {
+  "balance": "even",
+  "weights": "4U",
+  "tmax": 38,
+  "src": "https://www.facebook.com/",
+  "note": "FELET Badminton Thailand (Facebook): 4U 295±3mm, max 38 lbs (ข้อความจากผลค้น Google)"
+ },
+ "Felet Titanium TI 88": {
+  "balance": "even",
+  "tmax": 35,
+  "src": "https://www.dddgsport.com/",
+  "note": "DDDG Sport: 293-297mm, max 35 lbs; Shopee TH ก็ 35 lbs (ข้อความจากผลค้น Google)"
+ },
+ "Felet The Legend Rashid Sidek Limited": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "3U, 4U",
+  "weight": 82,
+  "tmax": 35,
+  "src": "https://sportshorizon.com/",
+  "note": "sportshorizon.com: 4U 82g/3U 86g, 295±2mm, max 35 lbs; flex stiff จาก vapaa-ajanurheilu.fi (ข้อความจากผลค้น Google)"
+ },
+ "Felet The Legend Zakry Limited": {
+  "weights": "3U, 4U",
+  "tmax": 38,
+  "src": "https://www.shinnijisports.my/",
+  "note": "Shin Niji Sports: max 38 lbs (ข้อความจากผลค้น Google)"
+ },
+ "Felet Neo 722": {
+  "balance": "even",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 31,
+  "src": "https://www.badshop.store/",
+  "note": "BadShop: 4U 82g, 295±3mm, max 31 lbs (flex \"medium stiff\" อยู่ระหว่างสองชั้น จึงเว้นว่าง) (ข้อความจากผลค้น Google)"
+ },
+ "Felet Sakurra": {
+  "balance": "even",
+  "flex": "stiff",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 31,
+  "src": "https://www.kgbadminton.com/",
+  "note": "KG Badminton: 295±3mm, max 31 lbs, stiff (ข้อความจากผลค้น Google)"
+ },
+ "Felet Bloom": {
+  "balance": "even",
+  "weights": "4U",
+  "weight": 82,
+  "tmax": 31,
+  "src": "https://www.badshop.store/",
+  "note": "BadShop (Jade Bloom): 4U 82g, 295±3mm, max 31 lbs; Shin Niji, NEXChamp, Larde ก็ 31 lbs (ข้อความจากผลค้น Google)"
+ },
+ "Felet F-Force Super Light": {
+  "balance": "head-heavy",
+  "weights": "7U",
+  "weight": 70,
+  "tmax": 30,
+  "src": "https://vsmash.com/",
+  "note": "Vsmash และ Shopee TH ตรงกัน: 7U, 300-310mm, max 30 lbs (ข้อความจากผลค้น Google)"
+ },
+ "Felet 3000 Power": {
+  "frame": "Aluminium",
+  "shaft": "Aluminium 7.0mm",
+  "weights": "1U",
+  "weight": 94,
+  "src": "https://www.ebiz2u.com.my/",
+  "note": "E BIZ (3000/3300 Power): เฟรมและก้านอะลูมิเนียม, 1U 94g (ข้อความจากผลค้น Google)"
+ },
+ "Felet 3300 Power": {
+  "frame": "Aluminium",
+  "shaft": "Aluminium 7.0mm",
+  "weights": "1U",
+  "weight": 94,
+  "src": "https://www.ebiz2u.com.my/",
+  "note": "E BIZ (3000/3300 Power): เฟรมและก้านอะลูมิเนียม, 1U 94g (ข้อความจากผลค้น Google)"
  }
 }

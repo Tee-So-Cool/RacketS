@@ -287,7 +287,8 @@ VOFF = os.path.join(SRC, 'victor-official.json')
 # Felet's own list (scripts/fetch_felet.py): names, RM prices and pictures only, since its pages print no spec text
 FOFF = os.path.join(SRC, 'felet-official.json')
 shop_pages = (json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) else []) + (json.load(open(FOFF, encoding='utf-8')) if os.path.exists(FOFF) else []) + \
-             (json.load(open(SHOPS, encoding='utf-8')) if os.path.exists(SHOPS) else [])
+             (json.load(open(SHOPS, encoding='utf-8')) if os.path.exists(SHOPS) else []) + \
+             (json.load(open(os.path.join(SRC, 'honly.json'), encoding='utf-8')) if os.path.exists(os.path.join(SRC, 'honly.json')) else [])  # scripts/fetch_honly.py: Felet specs
 # Badminton Plaza's product-page tables ("Weight : 82±2g (4U)", "String Tension : 26-38 lbs", "Features : ..."),
 # right after Victor's own pages, so the Thai shop keeps first say on free text as before; its THB price was set above
 shop_pages[len(json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) else []):0] = [{'shop': 'badmintonplaza.com', 'brand': pz['brand'], 'name': pz['name'] or pz.get('listed', ''), 'url': BASE_PLAZA + str(pz['id']),
@@ -519,6 +520,8 @@ for r in rackets.values():
     cands = ([r['priceForeign']] if r.get('priceForeign') else []) or r.get('_pfs', [])
     r.pop('_pfs', None)
     if r.get('price') or not cands: continue
+    # Felet's own store price is the list price; shops' sale prices sit under it
+    cands = [pf for pf in cands if 'feletsports.com' in pf.get('src', '')] or cands
     conv = sorted((c for c in ((to_thb(pf), pf) for pf in cands) if c[0] and (c[0][0] >= 500 or 'feletsports.com' in c[1].get('src', ''))), key=lambda c: c[0][0])
     if not conv: continue
     (thb_price, rate, src_name, src_date), pf = conv[0]
