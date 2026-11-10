@@ -3371,7 +3371,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/6982d4288212b_1770181672.jpg",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "tech": "Box frame",
-  "pattern": "72 holes"
+  "pattern": "72 holes",
+  "bp": 292.5
  },
  "Felet 3100 Power": {
   "balance": "even",
@@ -3388,7 +3389,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TEMPLATE_NOVICE_3100_POWER_1770190971.jpeg",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "tech": "Box frame",
-  "pattern": "72 holes"
+  "pattern": "72 holes",
+  "bp": 292.5
  },
  "Felet 3200 Power": {
   "balance": "even",
@@ -3405,7 +3407,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TEMPLATE_NOVICE_3200_POWER_1770191144.jpeg",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "tech": "Box frame",
-  "pattern": "72 holes"
+  "pattern": "72 holes",
+  "bp": 292.5
  },
  "Felet 3300 Power": {
   "balance": "even",
@@ -3422,7 +3425,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TEMPLATE_NOVICE_3300_POWER_1770191235.jpeg",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "tech": "Box frame",
-  "pattern": "72 holes"
+  "pattern": "72 holes",
+  "bp": 292.5
  },
  "Felet 3400 Power": {
   "balance": "even",
@@ -3439,7 +3443,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TEMPLATE_NOVICE_3400_POWER_1770191323.jpeg",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "tech": "Box frame",
-  "pattern": "72 holes"
+  "pattern": "72 holes",
+  "bp": 292.5
  },
  "Felet 6053": {
   "balance": "even",
@@ -3455,7 +3460,8 @@
   ],
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/FELET_6053_1767689625.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
-  "pattern": "72 holes"
+  "pattern": "72 holes",
+  "bp": 292.5
  },
  "Felet 6054": {
   "balance": "even",
@@ -3471,7 +3477,8 @@
   ],
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/FELET_6054_1767689725.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
-  "pattern": "72 holes"
+  "pattern": "72 holes",
+  "bp": 292.5
  },
  "Felet 6055 Speed & Control": {
   "balance": "even",
@@ -3488,7 +3495,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_05_07_at_16_19_32_1781578161.jpeg",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "tech": "Box frame",
-  "pattern": "72 holes"
+  "pattern": "72 holes",
+  "bp": 292.5
  },
  "Felet 6056 Speed & Control": {
   "balance": "even",
@@ -3505,7 +3513,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_05_07_at_16_19_32_1__1781578186.jpeg",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "tech": "Box frame",
-  "pattern": "72 holes"
+  "pattern": "72 holes",
+  "bp": 292.5
  },
  "Felet 6057 Speed & Control": {
   "balance": "even",
@@ -3522,7 +3531,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WhatsApp_Image_2026_05_07_at_16_19_33_1781578208.jpeg",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "tech": "Box frame",
-  "pattern": "72 holes"
+  "pattern": "72 holes",
+  "bp": 292.5
  },
  "Felet 3K Nevow Fence": {
   "balance": "even",
@@ -3539,7 +3549,8 @@
   "tech": "3-in-1 combi frame: Low Aero Dynamic (L.A.D.) + high speed frame; FSC wing knife design for frame stability and control; Aero hexa-frame",
   "shaft": "Nevow + Twin Core shaft 7.0 mm",
   "frame": "M40X + 40 Tonne Nano Science, Nano Booster Tube",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 295
  },
  "Felet 3K Woven Fence": {
   "balance": "even",
@@ -3554,7 +3565,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/3K_WOVEN_FENCE_BLUE_1757410769.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "shaft": "7.0 mm",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 295
  },
  "Felet Aero Carbon": {
   "balance": "even",
@@ -3571,7 +3583,8 @@
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "shaft": "Offensive",
   "pattern": "76 holes",
-  "style": "attack"
+  "style": "attack",
+  "bp": 295
  },
  "Felet Arcana": {
   "balance": "even",
@@ -3588,7 +3601,8 @@
   "tech": "Solid touch, optimal strike zone",
   "shaft": "7.1 mm",
   "frame": "Hi-Modulus Graphite, 28 Tonne Nano Science",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 295
  },
  "Felet Bloom": {
   "balance": "even",
@@ -3603,7 +3617,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/lavendar_bloom_1765760906.jpg",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Moderate ของ Felet)",
   "shaft": "7.2 mm",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 295
  },
  "Felet Carbon Woven 18": {
   "balance": "head-light",
@@ -3618,7 +3633,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/CARBON_WOVEN_181_1758706607.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "shaft": "7.0 mm",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 290
  },
  "Felet Carbon Woven Zynger": {
   "balance": "head-light",
@@ -3633,7 +3649,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/CARBON_WOVEN_ZYNGER_SPECIFICATION_1758266479.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "shaft": "7.0 mm",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 290
  },
  "Felet Eighty8 Control": {
   "balance": "even",
@@ -3650,7 +3667,8 @@
   "tech": "Single grommet system, ultra wide power, even balance",
   "shaft": "7.6 mm",
   "frame": "Carbon Nano Technology + Nano Science",
-  "pattern": "88 holes"
+  "pattern": "88 holes",
+  "bp": 292.5
  },
  "Felet Eighty8 Power": {
   "balance": "head-heavy",
@@ -3667,7 +3685,8 @@
   "tech": "Single grommet system, ultra wide power, head heavy",
   "shaft": "7.6 mm",
   "frame": "Carbon Nano Technology + Nano Science",
-  "pattern": "88 holes"
+  "pattern": "88 holes",
+  "bp": 302.5
  },
  "Felet Eighty8 Speed": {
   "balance": "head-light",
@@ -3684,7 +3703,8 @@
   "tech": "Single grommet system, ultra wide power, head light",
   "shaft": "7.6 mm",
   "frame": "Carbon Nano Technology + Nano Science",
-  "pattern": "88 holes"
+  "pattern": "88 holes",
+  "bp": 282.5
  },
  "Felet F-Force Super Light": {
   "balance": "head-heavy",
@@ -3695,7 +3715,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/F_FORCE_SUPR_LIGHT1_1758706733.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Superlight ของ Felet)",
   "shaft": "6.5 mm",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 305
  },
  "Felet Gen-X": {
   "balance": "even",
@@ -3712,7 +3733,8 @@
   "tech": "Box frame",
   "shaft": "7.3 mm",
   "frame": "Carbon Graphite",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 295
  },
  "Felet Hypermax": {
   "balance": "even",
@@ -3727,7 +3749,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/HYPERMAX_RED_1767690951.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Advance ของ Felet)",
   "shaft": "Low vibration + high modulus carbon woven",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 292.5
  },
  "Felet Neo 722": {
   "balance": "even",
@@ -3744,7 +3767,8 @@
   "tech": "Comfort feel",
   "shaft": "7.3 mm",
   "frame": "Carbon Graphite",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 295
  },
  "Felet Nevow TJ 1000": {
   "balance": "even",
@@ -3760,7 +3784,8 @@
   "tech": "4-in-1 combi frame: Aero Namic + Wave Transmission + Profoam Dynamix + T-Joint Power",
   "shaft": "Toray M55J + Twin Core shaft 7.0 mm",
   "frame": "40 Tonne Nano Science, Nano Booster Tube",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 295
  },
  "Felet Professional P1": {
   "balance": "even",
@@ -3777,7 +3802,8 @@
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "shaft": "Offensive",
   "pattern": "72 holes",
-  "style": "attack"
+  "style": "attack",
+  "bp": 295
  },
  "Felet Sakurra": {
   "balance": "even",
@@ -3792,7 +3818,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/sakurraa_1765761150.jpg",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Moderate ของ Felet)",
   "shaft": "7.5 mm",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 295
  },
  "Felet TJ Control 1000": {
   "balance": "even",
@@ -3807,7 +3834,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TJ_1000_CONTROL_1758686088.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "shaft": "7.0 mm",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 292.5
  },
  "Felet TJ Power 1000": {
   "balance": "head-heavy",
@@ -3822,7 +3850,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TJ_1000_POWER_1758686218.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "shaft": "7.0 mm",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 302.5
  },
  "Felet TJ Speed 1000": {
   "balance": "head-light",
@@ -3837,7 +3866,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TJ_1000_SPEED_1758686150.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "shaft": "7.0 mm",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 282.5
  },
  "Felet TJ Power-Control": {
   "balance": "even",
@@ -3852,7 +3882,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/tj_power_controllllll_1757315902.jpg",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "shaft": "7.0 mm",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 292.5
  },
  "Felet TJ Power-Power": {
   "balance": "even",
@@ -3867,7 +3898,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TJ_POWER_POWER_1758686001.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "shaft": "7.0 mm",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 292.5
  },
  "Felet TJ Power-Speed": {
   "balance": "even",
@@ -3882,7 +3914,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/TJ_POWER_SPEED_1758685932.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "shaft": "7.0 mm",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 292.5
  },
  "Felet Tai-G Aggressive": {
   "balance": "head-heavy",
@@ -3899,7 +3932,8 @@
   "tech": "Ener-G Power, Profoam Dynamix",
   "shaft": "Rigid Core 6.0, Aggressive (10 mm shorter)",
   "frame": "40 Tonne Nano Science, Nano Booster Tube",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 302
  },
  "Felet Tai-G Comfort": {
   "balance": "head-heavy",
@@ -3916,7 +3950,8 @@
   "tech": "Ener-G Power, Profoam Dynamix",
   "shaft": "Rigid Core 6.0, Comfort (10 mm longer)",
   "frame": "40 Tonne Nano Science, Nano Booster Tube",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 302
  },
  "Felet The Legend Rashid Sidek Limited": {
   "balance": "even",
@@ -3931,7 +3966,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/THE_LEGEND_RASHID_SIDEK_1758688573.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "shaft": "7.0 mm",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 295
  },
  "Felet The Legend Zakry Limited": {
   "balance": "even",
@@ -3946,7 +3982,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/THE_LEGEND_ZAKRY_1758688690.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "shaft": "7.0 mm",
-  "pattern": "80 holes"
+  "pattern": "80 holes",
+  "bp": 295
  },
  "Felet Titanium TI 88": {
   "balance": "even",
@@ -3961,7 +3998,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/Product_Series_titanium_TI_88_1767584832.jpg",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "shaft": "7.0 mm Nano Booster shaft",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 295
  },
  "Felet Woven 1000": {
   "balance": "even",
@@ -3976,7 +4014,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/woven_1000_1765760716.jpg",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "shaft": "Super slim shaft",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 295
  },
  "Felet Woven 8000": {
   "balance": "even",
@@ -3993,7 +4032,8 @@
   "tech": "Armor Power + Solid Sound; Japan 40T ultra high density Toray",
   "shaft": "6.8 mm slim shaft + anti shock",
   "frame": "40 Tonne Nano + Nano Booster Tube + the top of woven technology",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 295
  },
  "Felet Woven 888": {
   "balance": "even",
@@ -4008,7 +4048,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WOVEN_888_1758683765.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "shaft": "7.0 mm",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 295
  },
  "Felet Woven 999": {
   "balance": "even",
@@ -4023,7 +4064,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/WOVEN_999_1758678370.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "shaft": "7.0 mm",
-  "pattern": "72 holes"
+  "pattern": "72 holes",
+  "bp": 295
  },
  "Felet Woven Eighty8": {
   "balance": "even",
@@ -4038,7 +4080,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/1757405496866_1757405497.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "shaft": "7.0 mm",
-  "pattern": "88 holes"
+  "pattern": "88 holes",
+  "bp": 295
  },
  "Felet Woven TI 3000": {
   "balance": "even",
@@ -4053,7 +4096,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/1757405690664_1757405691.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "shaft": "7.0 mm",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 295
  },
  "Felet Woven TJ 1000": {
   "balance": "even",
@@ -4068,7 +4112,8 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/1757405660484_1757405661.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "shaft": "6.5 mm",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 295
  },
  "Felet Woven TJ Power V2": {
   "balance": "even",
@@ -4083,6 +4128,7 @@
   "src": "https://cdn1.sgliteasset.com/feletint/images/texteditor/1757405676336_1757405677.png",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "shaft": "7.0 mm",
-  "pattern": "76 holes"
+  "pattern": "76 holes",
+  "bp": 295
  }
 }

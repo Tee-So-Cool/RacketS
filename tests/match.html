@@ -44,6 +44,20 @@ const cases = [
   ['ทุกไม้: คะแนน 0-100 และความตึงไม่เกินเพดานไม้', () => RACKETS.every(r => { for (const lv of ['beginner', 'pro']) {
       const x = score(r, S('Yonex BG66 Ultimax'), lv, 'attack'); const max = r.tension ? r.tension[1] : 30;
       if (!(x.score >= 0 && x.score <= 100) || x.tension > max) { console.log('bad', r.name, lv, x); return false; } } return true; })],
+  // radar: the balance point in mm only refines within a balance class, and the tension axis keeps 35 and 38 lbs apart
+  ...(() => {
+    const { profile, balPos } = window.RS_TEST;
+    const mk = (balance, bp, extra = {}) => ({ balance, bp, flex: 'medium', level: 'advanced', weight: 83, style: 'allround', tension: [null, 30], ...extra });
+    const eMed = RACKETS.filter(r => r.balance === 'even' && r.bp && !(r.est || []).includes('balance')).map(r => r.bp).sort((a, b) => a - b);
+    return [
+      ['เรดาร์: จุดสมดุลเป็น mm แยกไม้กลุ่มเดียวกัน (สมดุล 292 กับ 302 mm)', () => balPos(mk('even', 292)) < balPos(mk('even', 302)) && profile(mk('even', 292)).join() !== profile(mk('even', 302)).join()],
+      ['เรดาร์: ไม่มี mm ได้ค่าตามกลุ่มเดิม', () => balPos(mk('even', '')) === 0.5 && balPos(mk('head-heavy', '')) === 1 && balPos(mk('head-light', '')) === 0],
+      ['เรดาร์: mm ไม่ข้ามเส้นกลุ่ม (หัวหนักที่ mm ต่ำยังหนักหัวกว่าสมดุลที่ mm สูง)', () => balPos(mk('head-heavy', 270)) > balPos(mk('even', 330))],
+      ['เรดาร์: แกนรับเอ็นตึงแยก 35 กับ 38 lbs', () => profile(mk('even', '', { tension: [null, 38] }))[4] > profile(mk('even', '', { tension: [null, 35] }))[4] && profile(mk('even', '', { tension: [null, 38] }))[4] < 10],
+      ['ข้อมูล: ไม้ที่มี mm เกือบทั้งหมดอยู่ในช่วง 260-339', () => RACKETS.filter(r => r.bp).every(r => r.bp >= 260 && r.bp <= 339)],
+      ['ข้อมูล: Felet 3K Nevow Fence มีเทคโนโลยีและ mm จากตารางผู้ผลิต', () => { const r = R('Felet 3K Nevow Fence'); return r.bp === 295 && /aero/i.test(r.tech) && !r.est.includes('balance'); }],
+    ];
+  })(),
   // the player's own tension log: a personal offset from how setups felt
   ...(() => {
     const { calcOffset, mineAdj } = window.RS_TEST;

@@ -263,7 +263,7 @@ def one_level(t):
 SHOPS = os.path.join(SRC, 'shops.json')
 BRAND_OF = {'victor': 'Victor', 'yonex': 'Yonex', 'li-ning': 'Li-Ning', 'li ning': 'Li-Ning', 'lining': 'Li-Ning', 'vs': 'VS',
             'apacs': 'Apacs', 'mizuno': 'Mizuno', 'kawasaki': 'Kawasaki', 'felet': 'Felet'}
-from spec_text import parse as parse_spec, country_of, is_material
+from spec_text import parse as parse_spec, country_of, is_material, bp_of
 PLAYER_TYPE = {'attacking': 'attack', 'balanced': 'allround', 'defensive': 'speed', 'speed': 'speed', 'control': 'control'}
 PAGES = json.load(open(os.path.join(SRC, 'pages.json'), encoding='utf-8')) if os.path.exists(os.path.join(SRC, 'pages.json')) else {}
 def from_shop(p):
@@ -384,7 +384,7 @@ for bz in bay + click + shops:
     ws, g = weights(bz.get('weight', ''))
     if bz.get('src') == 'shop':
         ps = bz['parsed']
-        fill = {'balance': ps['balance'], 'flex': ps['flex'], 'weights': ps['weights'], 'weight': ps['weight'],
+        fill = {'balance': ps['balance'], 'bp': ps['bp'], 'flex': ps['flex'], 'weights': ps['weights'], 'weight': ps['weight'],
                 'tension': [ps.get('tmin') or None, ps['tmax']] if ps['tmax'] else None, 'grips': ps['grips'], 'img': bz.get('img', ''),
                 # Li-Ning's own stores tag even entry rackets "Professional", so their level is not used
                 'level': '' if 'lining.studio' in bz['shop'] else one_level(ps['level']), 'recString': ps['recText'],
@@ -395,7 +395,7 @@ for bz in bay + click + shops:
             i = next((k for k, x in enumerate(L) if x.lower() == 'player type'), None)
             fill['style'] = PLAYER_TYPE.get(L[i + 1].lower(), '') if i is not None and i + 1 < len(L) else ''
     else:
-        fill = {'balance': bay_balance(bz.get('balance')), 'flex': bay_flex(bz.get('flex')), 'weights': ws, 'weight': g,
+        fill = {'balance': bay_balance(bz.get('balance')), 'bp': bp_of(bz.get('balance')), 'flex': bay_flex(bz.get('flex')), 'weights': ws, 'weight': g,
             'tension': tension(bz.get('tension', '')), 'frame': bz.get('frame', ''), 'shaft': bz.get('shaft', ''),
             'length': bz.get('length', ''), 'img': bz.get('img', ''), 'level': one_level(bz.get('level')),
             'grips': re.sub(r'\s*\(.*?\)', '', bz.get('grips', '')),
@@ -637,7 +637,7 @@ for r in rackets.values():
         break
 print('tension per class', per_class)
 
-order = ['id', 'brand', 'name', 'year', 'style', 'balance', 'flex', 'level', 'weights', 'weight', 'grips', 'tension', 'tensionNote', 'price',
+order = ['id', 'brand', 'name', 'year', 'style', 'balance', 'bp', 'flex', 'level', 'weights', 'weight', 'grips', 'tension', 'tensionNote', 'price',
          'frame', 'shaft', 'joint', 'length', 'head', 'pattern', 'tech', 'players', 'madeIn', 'recString', 'img', 'source', 'officialUrl', 'specSrc', 'shopUrl', 'bayUrl', 'clickUrl', 'shopLinks', 'priceNote', 'priceSrc', 'note', 'est']
 final, seen = [], set()
 for r in sorted(rackets.values(), key=lambda r: (r['brand'], r['name'])):

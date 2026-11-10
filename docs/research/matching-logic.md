@@ -466,3 +466,17 @@ no longer in the data are skipped.
 This is a judgement rule, not a measured one: the 1.5 lb gap and the shrinkage are choices, to be replaced by what
 `tests/feedback.js` shows once there are enough real reports. The log's "copy" button writes entries as rows of that file,
 so a report made in the browser becomes a test (good: within 1 lb; loose: recommendation above; tight: below).
+
+## Balance point in mm (2026-11-10)
+
+`bp` is the balance point in millimetres, read from the labelled balance value of a shop or maker page (`bp_of` in
+`scripts/spec_text.py`): "295±3mm" is 295, a range is its middle, several weight classes give the first listed (4U). Felet's
+46 come from the maker's spec sheets, the rest from shop feeds and Badminton Bay: 230 of 786 rackets have it (VS 79 of 80,
+Apacs 43, Li-Ning 35, Yonex 22, Victor 5; Mizuno and Kawasaki none).
+
+The class (head-light, even, head-heavy) is still the balance everywhere in the match logic, because the sources draw the
+class lines in different places (a parser reads 295 and over as head-heavy, Badminton Bay 300 and over, and in this data the
+head-light class holds points up to 302). In the compare radar only, `bp` refines the class: up to .15 either way by how far
+the point sits from the median of its class in this data, 10 mm for the full nudge, never across a class line. The compare
+table shows the mm next to the class. Two rackets with the same point (295 mm for 3K Nevow Fence and Professional P1) still
+draw the same on this axis, which is what their sheets say.

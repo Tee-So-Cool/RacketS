@@ -132,8 +132,23 @@
   ];
   const techTags = r => TECH.filter(([, re]) => re.test(r.tech || '')).map(([k, , txt]) => [k, txt]);
   const R_AXES = ['พลังตบ', 'ความคล่องตัว', 'ควบคุม', 'ตีง่าย', 'รับเอ็นตึง', 'หน้าไม้ไว', 'ต้องมีพื้นฐาน'];
+  // Balance as a position 0-1 for the radar: its class (head-light 0, even .5, head-heavy 1) and, where the balance point
+  // is known in mm, a nudge of up to .15 either way by how far it sits from the typical point of that class in this data
+  // (10 mm = the full nudge). Sources draw the class lines in different places, so mm only refines within a class.
+  let bpMed = null, bpMedN = -1;
+  const classBp = () => {
+    if (bpMedN === db.r.length) return bpMed;
+    const by = {};
+    for (const x of db.r) if (Number(x.bp) && x.balance && !(x.est || []).includes('balance')) (by[x.balance] = by[x.balance] || []).push(Number(x.bp));
+    bpMed = Object.fromEntries(Object.entries(by).filter(([, v]) => v.length >= 5).map(([k, v]) => [k, v.sort((a, b) => a - b)[v.length >> 1]]));
+    bpMedN = db.r.length; return bpMed;
+  };
+  const balPos = r => {
+    const b = ordIdx('balance', r.balance, 1) / 2, m = classBp()[r.balance], p = Number(r.bp);
+    return m && p ? clamp(b + 0.15 * clamp((p - m) / 10, -1, 1)) : b;
+  };
   function racketProfile(r) {
-    const bal = ordIdx('balance', r.balance, 1) / 2;
+    const bal = balPos(r);
     const fx = ordIdx('flex', r.flex, 1.5) / 3;
     const lv = ordIdx('level', r.level, 1.5) / 3;
     const w = clamp(((Number(r.weight) || 83) - 74) / 16);
@@ -226,7 +241,7 @@
         <div class="chips">${[lab(r, 'balance'), L.flex[r.flex], r.weights].filter(Boolean).map(v => `<span>${esc(v)}</span>`).join('')}</div>
         <div class="price">${r.price ? `<b class="fig">${(r.est || []).includes('price') ? '≈' : ''}${baht(r.price)}</b>` : '<span class="small muted">ยังไม่มีราคา</span>'}</div>
         <div class="card-acts"><button class="btn sm" type="button" data-who="${esc(r.id)}">เหมาะกับใคร</button>${shopee(r)}</div>`,
-      radar: sel => ({ axes: R_AXES, series: sel.map((x, i) => ({ name: full(x), color: COLORS[i], values: racketProfile(x) })), title: 'ภาพรวมบุคลิกไม้', note: 'คำนวณจากสเปก (สมดุล ก้าน น้ำหนัก ระดับ) ไม่ใช่คะแนนจากผู้ผลิต' }),
+      radar: sel => ({ axes: R_AXES, series: sel.map((x, i) => ({ name: full(x), color: COLORS[i], values: racketProfile(x) })), title: 'ภาพรวมบุคลิกไม้', note: 'คำนวณจากสเปก (สมดุล ก้าน น้ำหนัก ระดับ ความตึงสูงสุด และจุดสมดุลเป็น mm เมื่อมี) ไม่ใช่คะแนนจากผู้ผลิต' }),
       bars: [
         { label: 'น้ำหนัก', hint: 'หนักมีแรงส่ง เบาสวิงไว', get: r => Number(r.weight) || NaN, fmt: v => v + ' g' },
         { label: 'ความตึงสูงสุด', hint: 'เป็นเพดาน ไม่ใช่ค่าที่ควรขึ้น', get: r => r.tension ? Number(r.tension[1]) : NaN, fmt: v => v + ' lbs' },
@@ -237,7 +252,7 @@
         ['ปีที่ออก', r => dash(r.year)],
         ['แนวการเล่น', r => lab(r, 'style') || '—'],
         ['ระดับผู้เล่น', r => lab(r, 'level') || '—'],
-        ['สมดุล', r => lab(r, 'balance') || '—'],
+        ['สมดุล', r => lab(r, 'balance') ? lab(r, 'balance') + (Number(r.bp) ? ` (${r.bp} mm)` : '') : (Number(r.bp) ? r.bp + ' mm' : '—')],
         ['ความแข็งก้าน', r => L.flex[r.flex] || '—'],
         ['น้ำหนัก', r => dash(r.weights)],
         ['น้ำหนักเฉลี่ย', r => r.weight ? r.weight + ' g' : '—'],
@@ -975,7 +990,7 @@
     const t = Math.min(res.tension + mine.off, cap - 1);
     return t === res.tension ? res : { ...res, tension: t, steps: [...res.steps, [`ปรับตามบันทึกของคุณ (${mine.n} บันทึก)`, t - res.tension]] };
   }
-  window.RS_TEST = { score: (...a) => score(...a), byId, calcOffset, mineAdj };
+  window.RS_TEST = { score: (...a) => score(...a), byId, calcOffset, mineAdj, profile: racketProfile, balPos };
   const verdict = n => n >= 80 ? ['เข้ากันดีมาก', 'var(--color-accent)'] : n >= 65 ? ['เข้ากันดี', 'var(--color-accent)'] : n >= 50 ? ['พอใช้ได้', 'var(--color-ink)'] : ['ไม่ค่อยเหมาะ', 'var(--color-bad)'];
 
   function viewMatch() {
@@ -1247,7 +1262,7 @@
   const FIELDS = {
     r: [
       ['brand', 'แบรนด์ *', 'text', { list: 1 }], ['name', 'ชื่อรุ่น *', 'text'], ['year', 'ปีที่ออก', 'number'],
-      ['style', 'แนวการเล่น', 'select', L.style], ['balance', 'สมดุล', 'select', L.balance],
+      ['style', 'แนวการเล่น', 'select', L.style], ['balance', 'สมดุล', 'select', L.balance], ['bp', 'จุดสมดุล (mm)', 'number', { step: '0.5' }],
       ['flex', 'ความแข็งก้าน', 'select', L.flex], ['level', 'ระดับผู้เล่น', 'select', L.level],
       ['weights', 'น้ำหนัก (เช่น 3U, 4U)', 'text'], ['weight', 'น้ำหนักเฉลี่ย (g)', 'number'], ['grips', 'ขนาดด้าม', 'text'],
       ['tmin', 'ความตึงต่ำสุด (lbs)', 'number'], ['tmax', 'ความตึงสูงสุด (lbs)', 'number'], ['price', 'ราคาประมาณ (บาท)', 'number'],
@@ -1265,7 +1280,7 @@
       ['price', 'ราคา (บาท)', 'number'], ['colors', 'สีที่มี', 'text', { wide: 1 }], ['note', 'หมายเหตุ', 'textarea', { wide: 1 }],
     ],
   };
-  const NUMERIC = new Set(['year', 'weight', 'tmin', 'tmax', 'price', 'gauge', 'repulsion', 'control', 'durability', 'sound', 'shock', 'tensionMax']);
+  const NUMERIC = new Set(['year', 'bp', 'weight', 'tmin', 'tmax', 'price', 'gauge', 'repulsion', 'control', 'durability', 'sound', 'shock', 'tensionMax']);
   const slug = s => s.toLowerCase().normalize('NFKD').replace(/[^a-z0-9ก-๙]+/g, '-').replace(/^-|-$/g, '') || 'item';
 
   function viewManage() {

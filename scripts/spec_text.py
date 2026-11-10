@@ -39,6 +39,15 @@ def label_field(lab):
     if not lab or len(lab) > 40 or SKIP_LABEL.search(lab): return ''
     return next((f for rx, f in LABEL_RULES if re.search(rx, lab)), '')
 
+def bp_of(t):
+    """The balance point in mm from a labelled value: "295±3mm" -> 295, "290 - 295mm" -> 292.5 (the middle of a range).
+    Several weight classes ("4U 295 / 3U 290") give the first; 4U comes first on the pages that list it. Only 260-339 counts."""
+    t = (t or '').lower().replace('–', '-').replace('—', '-')
+    m = re.search(r'\b(2[6-9]\d|3[0-3]\d)(?:\.\d)?\s*(?:mm)?\s*(?:-|~|to)\s*(2[6-9]\d|3[0-3]\d)\s*mm', t)
+    if m and 0 < int(m.group(2)) - int(m.group(1)) <= 10: return (int(m.group(1)) + int(m.group(2))) / 2
+    m = re.search(r'\b(2[6-9]\d|3[0-3]\d)(?:\.\d)?\s*(?:±|\+-|\+/-)?\s*\d*\s*mm', t) or re.match(r'\s*(2[6-9]\d|3[0-3]\d)\b', t)
+    return int(m.group(1)) if m else ''
+
 def balance_of(t, prose=False):
     t = (t or '').lower()
     m = re.search(r'(2[6-9]\d|3[0-2]\d)\s*(?:±|\+-|\+/-)?\s*\d*\s*mm', t) or re.match(r'\s*(2[6-9]\d|3[0-2]\d)\b', t)
@@ -200,7 +209,7 @@ def parse(lines, options=()):
     if out.get('shaft') and not out.get('flex') and flex_of(out['shaft']) and not re.search(r'graphite|carbon|fib|nano|titan', out['shaft'], re.I):
         out['flex'] = out.pop('shaft')
     res = {
-        'balance': balance_of(out.get('balance')), 'flex': flex_of(out.get('flex')),
+        'balance': balance_of(out.get('balance')), 'bp': bp_of(out.get('balance')), 'flex': flex_of(out.get('flex')),
         # "Weight/Grip Size: 82±2g (4U) / G6" lands under grips (the earlier rule); its weight is read from there too
         'weights': weights_of(out.get('weight') or out.get('grips', '')), 'weight': grams_of(out.get('weight') or out.get('grips', ''), labelled=True),
         'tmax': tmax_of(out.get('tension', '')) or (int(out['tension'][:2]) if re.match(r'\d{2}\b', out.get('tension', '')) else ''),
