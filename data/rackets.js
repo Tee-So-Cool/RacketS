@@ -20261,6 +20261,108 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "mizuno-altius-01-feel",
+  "brand": "Mizuno",
+  "name": "Altius 01 Feel",
+  "year": "",
+  "style": "control",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "medium",
+  "level": "intermediate",
+  "weights": "3U",
+  "weight": 88,
+  "grips": "",
+  "tension": [
+   23,
+   27
+  ],
+  "tensionNote": "",
+  "price": "",
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://static.wixstatic.com/media/711e69_e1f2f98a73e84b2e9e1c3a646ec53292~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "mizunobadminton-asia.com",
+    "url": "https://www.mizunobadminton-asia.com/product-page/altius-01-feel"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "mizuno-altius-01-speed",
+  "brand": "Mizuno",
+  "name": "Altius 01 Speed",
+  "year": "",
+  "style": "control",
+  "balance": "head-light",
+  "bp": "",
+  "flex": "medium",
+  "level": "intermediate",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "",
+  "tension": [
+   23,
+   27
+  ],
+  "tensionNote": "",
+  "price": "",
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://static.wixstatic.com/media/711e69_e1f2f98a73e84b2e9e1c3a646ec53292~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "mizunobadminton-asia.com",
+    "url": "https://www.mizunobadminton-asia.com/product-page/altius-01-speed"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
   "id": "mizuno-altius-n-feel",
   "brand": "Mizuno",
   "name": "Altius N-Feel",
@@ -20303,6 +20405,53 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
+   "level"
+  ]
+ },
+ {
+  "id": "mizuno-altius-vx7",
+  "brand": "Mizuno",
+  "name": "Altius VX7",
+  "year": "",
+  "style": "control",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "tensionNote": "",
+  "price": "",
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://static.wixstatic.com/media/711e69_5eca8776eb74440e8ae57dcb720d7549~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "mizunobadminton-asia.com",
+    "url": "https://www.mizunobadminton-asia.com/product-page/altius-vx7"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "style",
    "level"
   ]
  },
@@ -20752,7 +20901,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "mizunobadminton-asia.com",
+    "url": "https://www.mizunobadminton-asia.com/product-page/fortius-71-vt"
+   }
+  ],
   "priceNote": "แปลงจาก ₫2,550,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/fortius-71-vt-73mtb523-2025aw",
   "note": "",
@@ -20819,6 +20973,258 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "mizuno-fortius-11-power",
+  "brand": "Mizuno",
+  "name": "Fortius 11 Power",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "stiff",
+  "level": "pro",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "",
+  "tension": [
+   22,
+   29
+  ],
+  "tensionNote": "",
+  "price": 9200,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "Japan",
+  "recString": "",
+  "img": "https://static.wixstatic.com/media/711e69_bab3c136a448423780990200241960e4~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "mizunobadminton-asia.com",
+    "url": "https://www.mizunobadminton-asia.com/product-page/fortius-11-power"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/mizuno-fortius-11-power-badminton-racket-unstrung-black"
+   }
+  ],
+  "priceNote": "แปลงจาก S$349.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/mizuno-fortius-11-power-badminton-racket-unstrung-black",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "mizuno-fortius-11-quick",
+  "brand": "Mizuno",
+  "name": "Fortius 11 Quick",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "stiff",
+  "level": "advanced",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "",
+  "tension": [
+   22,
+   29
+  ],
+  "tensionNote": "",
+  "price": "",
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://static.wixstatic.com/media/711e69_c512e9f984c7498babf0d1cc3151bacc~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "mizunobadminton-asia.com",
+    "url": "https://www.mizunobadminton-asia.com/product-page/fortius-11-quick"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "mizuno-fortius-70",
+  "brand": "Mizuno",
+  "name": "Fortius 70",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "medium",
+  "level": "advanced",
+  "weights": "4U",
+  "weight": 80,
+  "grips": "",
+  "tension": null,
+  "tensionNote": "",
+  "price": 4620,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "High Foam System: By using a special molding technology, EVA foam is used on the internal of the frame. Strengthening the external frame while still keeping the flexibility of the inner frame. This construction enables the frame to absorb shock when hitting the shuttlecock and offers more power.",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://static.wixstatic.com/media/711e69_47c0e70b0c804f5d915fb8094e5213c0~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "mizunobadminton-asia.com",
+    "url": "https://www.mizunobadminton-asia.com/product-page/fortius-70"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/mizuno-fortius-70-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹12,999.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/mizuno-fortius-70-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
+  ]
+ },
+ {
+  "id": "mizuno-fortius-73-vt",
+  "brand": "Mizuno",
+  "name": "Fortius 73 VT",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "",
+  "level": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "tensionNote": "",
+  "price": "",
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://static.wixstatic.com/media/711e69_ea0926e7c1d04cf99427a876eac63bf2~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "mizunobadminton-asia.com",
+    "url": "https://www.mizunobadminton-asia.com/product-page/fortius-73-vt"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "style"
+  ]
+ },
+ {
+  "id": "mizuno-fortius-77",
+  "brand": "Mizuno",
+  "name": "Fortius 77",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "medium",
+  "level": "intermediate",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "tensionNote": "",
+  "price": "",
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://static.wixstatic.com/media/711e69_1b504358f6b04285a0c5357b04eef0cb~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "mizunobadminton-asia.com",
+    "url": "https://www.mizunobadminton-asia.com/product-page/fortius-77"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "style",
+   "level"
+  ]
+ },
+ {
   "id": "mizuno-fortius-77p",
   "brand": "Mizuno",
   "name": "Fortius 77P",
@@ -20867,6 +21273,58 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
+  ]
+ },
+ {
+  "id": "mizuno-fortius-90",
+  "brand": "Mizuno",
+  "name": "Fortius 90",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "medium",
+  "level": "advanced",
+  "weights": "4U",
+  "weight": 80,
+  "grips": "",
+  "tension": null,
+  "tensionNote": "",
+  "price": 3980,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "High Foam System: By using a special molding technology, EVA foam is used on the internal of the frame. Strengthening the external frame while still keeping the flexibility of the inner frame. This construction enables the frame to absorb shock when hitting the shuttlecock and offers more power.",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://static.wixstatic.com/media/711e69_7ad31ca1373545c38d0e31f720593184~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "mizunobadminton-asia.com",
+    "url": "https://www.mizunobadminton-asia.com/product-page/fortius-90"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/mizuno-fortius-90-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹11,199.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/mizuno-fortius-90-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "level"
   ]
  },
  {
@@ -37418,7 +37876,7 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "4,483 บาท เฉพาะเฟรม จากร้านนำเข้าใน Shopee Thailand",
   "priceSrc": "https://www.google.com/search?q=\"Astrox+11\"+yonex+ราคา",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน | ระดับ: ร้านขายชื่อ \"YONEX Astrox 11 Badminton Racket for Beginners\" และ \"designed for beginners\" (ผลค้น Google 8 พ.ย. 2026) จากเดิมประเมินว่าระดับสูง (≈)",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน | ระดับ: ร้านขายชื่อ \"YONEX Astrox 11 Badminton Racket for Beginners\" และ \"designed for beginners\" (ผลค้น Google 8 พ.ย. 2026) จากเดิมประเมินว่าระดับสูง (≈) | ราคา: ฿4,483 ไม่ผิด แต่สูงเพราะเป็นรุ่นขายในญี่ปุ่นที่ต้องนำเข้า เช็ก 10 พ.ย. 2569: Shopee ไทย ฿4,422–4,577, JoyBadminton US$119.99, ร้านในอิตาลี €92, ร้านส่งจากญี่ปุ่น US$128 (เฉพาะเฟรมทั้งหมด)",
   "est": [
    "flex",
    "level",

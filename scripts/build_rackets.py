@@ -290,7 +290,11 @@ def from_shop(p):
 VOFF = os.path.join(SRC, 'victor-official.json')
 # Felet's own list (scripts/fetch_felet.py): names, RM prices and pictures only, since its pages print no spec text
 FOFF = os.path.join(SRC, 'felet-official.json')
+# Mizuno's own Altius and Fortius pages (scripts/fetch_mizuno.py): weight class, flex, balance and recommended tension as text,
+# no level, no price; models of those two lines that this data lacks are added from it
+MOFF = os.path.join(SRC, 'mizuno-official.json')
 shop_pages = (json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) else []) + (json.load(open(FOFF, encoding='utf-8')) if os.path.exists(FOFF) else []) + \
+             (json.load(open(MOFF, encoding='utf-8')) if os.path.exists(MOFF) else []) + \
              (json.load(open(SHOPS, encoding='utf-8')) if os.path.exists(SHOPS) else []) + \
              (json.load(open(os.path.join(SRC, 'honly.json'), encoding='utf-8')) if os.path.exists(os.path.join(SRC, 'honly.json')) else []) + \
              (json.load(open(os.path.join(SRC, 'corkandfeathers.json'), encoding='utf-8')) if os.path.exists(os.path.join(SRC, 'corkandfeathers.json')) else [])  # fetch_honly.py: Felet specs; fetch_corkfeathers.py: Victor NA's spec block
@@ -306,7 +310,7 @@ shops = [x for x in (from_shop(p) for p in shop_pages) if x]
 # VS Thailand), a Thai shop sells it, or two shops do. Gift sets, packs and character tie-ins are not models;
 # a bare series name ("Thruster") is not one either.
 from plaza_match import tokens as ptokens
-OFFICIAL = {'th.victorsport.com', 'sg.lining.studio', 'in.lining.studio', 'vssportsthailand.com', 'badmintonplaza.com', 'feletsports.com'}
+OFFICIAL = {'th.victorsport.com', 'sg.lining.studio', 'in.lining.studio', 'vssportsthailand.com', 'badmintonplaza.com', 'feletsports.com', 'mizunobadminton-asia.com'}
 NOT_RACKET_MODEL = re.compile(r'\b(set|combo|pack|duo|kit|bundle|gift|box|vip|merchandise|poster|frame only|training|trainer|kids?)\b|diwali|boxset|hwqkl|chinese\s+(?:new\s+)?year|'
                               r'^yonex (?:astrox|nanoflare) (?:clear|feel|ability)\b|^yonex astrox 88 (?:tour|play|pro|game)\b|'
                               r'\bseries\s*$|'
@@ -335,7 +339,9 @@ def display_name(t, brand):
     return ' '.join(w if re.search(r'\d', w) or w in ('II', 'III', 'IV') or len(w) <= 2 else w.capitalize() for w in t.split())
 groups = collections.defaultdict(list)
 for bz in shops:
-    if bz['brand'] not in ('Victor', 'Li-Ning', 'VS', 'Yonex', 'Felet') or NOT_RACKET_MODEL.search(re.sub(r'gen-x', 'GenX', bz['name'], flags=re.I)): continue
+    if bz['brand'] not in ('Victor', 'Li-Ning', 'VS', 'Yonex', 'Felet', 'Mizuno') or NOT_RACKET_MODEL.search(re.sub(r'gen-x', 'GenX', bz['name'], flags=re.I)): continue
+    # Mizuno: only models its own site lists (Altius and Fortius); the shops' JPX variants and odd titles ("Altius N-feel 3.") stay out
+    if bz['brand'] == 'Mizuno' and bz['shop'] != 'mizunobadminton-asia.com': continue
     pool = {r['name']: r for r in rackets.values() if r['brand'] == bz['brand']}
     if pmatch(bz['name'], pool)[0]: continue
     nm = display_name(bz['name'], bz['brand'])

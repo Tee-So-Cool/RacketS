@@ -483,3 +483,14 @@ head-light class holds points up to 302). In the compare radar only, `bp` refine
 the point sits from the median of its class in this data, 10 mm for the full nudge, never across a class line. The compare
 table shows the mm next to the class. Two rackets with the same point (295 mm for 3K Nevow Fence and Professional P1) still
 draw the same on this axis, which is what their sheets say.
+
+## Victor level check and Astrox 11 price (2026-11-10)
+
+Twelve Victor models whose level is still an estimate were searched (Auraspeed 33H, 30H, 8000; Brave Sword 12 Pro; DriveX
+Metallic; Jetspeed T1; Thruster Hammer Light Extra, Ryuga II, Ryuga CLS, K Boom, Raptor). None contradicts the estimate, and
+none is settled: the sources give ranges ("intermediate to advanced", "beginner to intermediate"), and a range is not a level.
+The estimates stay as they were.
+
+Astrox 11 at 4,483 baht is not a data error: it is a Japan-market model sold in Thailand only through importers (Shopee
+Thailand 4,422-4,577; JoyBadminton US$119.99; an Italian shop EUR 92; a Japan seller US$128; all frame only), so it costs far
+more than Yonex's other beginner frames. The override note says so.
