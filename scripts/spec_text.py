@@ -120,7 +120,8 @@ def tmax_of(t, prose=False):
     ns += [int(n) for n in re.findall(r'(\d{2})\s*(?:lbs?|ปอนด์)\.?\s*(?:tension\s*)?(?:ceiling|max)', t, re.I)]
     # a range ("22-27 lbs") under a tension label is the racket's range; in prose it is usually stringing advice
     if not prose: ns += [int(b) for a, b in re.findall(r'(\d{2})\s*(?:-|–|~|to)\s*(\d{2})\s*(?:lbs?|ปอนด์)', t, re.I)]
-    ns = [n for n in ns if 20 <= n <= 40]
+    # a labelled ceiling of 15-19 lbs is real: Victor's aluminium and steel rackets print "≦ 18 lbs"; in prose only 20 and up is believed
+    ns = [n for n in ns if (20 if prose else 15) <= n <= 40]
     return max(ns) if ns else ''
 
 def grips_of(t):
@@ -155,9 +156,26 @@ def split_line(l):
     if len(cuts) < 2: return [l]
     return [seg for a, b in zip(cuts, cuts[1:] + [len(l)]) if (seg := l[a:b].strip(' .,|/'))]
 
+def join_split(lines):
+    # Shopify pages put an inline tag between a label and its value: "Weight" / ":" / "4U", or the value itself in pieces
+    # ("5" / "U (" / "75g - 79.9g)"). A colon alone on a line takes the label before it and the value after it, unless that
+    # value is a label too (its own ": value" follows).
+    out, i = [], 0
+    while i < len(lines):
+        l = lines[i]
+        if i + 2 < len(lines) and lines[i + 1].strip() in (':', '：') and l.strip() and not l.rstrip().endswith((':', '：')) and len(l) <= 40 \
+                and not (i + 3 < len(lines) and lines[i + 3].lstrip().startswith((':', '：'))):
+            v = lines[i + 2]; i += 3
+            for _ in range(3):
+                if i < len(lines) and len(v) < 30 and (re.fullmatch(r'\d', v.strip()) or v.count('(') > v.count(')')) and not re.search(r'[:：]', lines[i]):
+                    v += ('' if re.match(r'U\b', lines[i]) else ' ') + lines[i]; i += 1
+            out.append(f'{l.strip()}: {v.strip()}'); continue
+        out.append(l); i += 1
+    return out
+
 def expand(lines):
     out = []
-    for l in lines:
+    for l in join_split(lines):
         # "30T Carbon (Frame) / 30T Carbon (Shaft)": the label follows its value in brackets
         pairs = re.findall(r'([^/()]{3,80}?)\s*\((frame|shaft|joint)\)', l, re.I)
         if len(pairs) >= 1 and len(l) < 200:
@@ -221,7 +239,7 @@ def parse(lines, options=()):
         # the low end of a labelled range ("26-38 lbs") is the racket's minimum
         'tmin': (lambda m: int(m.group(1)) if m and 15 <= int(m.group(1)) < int(m.group(2)) <= 40 else '')(
             re.search(r'(\d{2})\s*(?:-|–|~|to)\s*(\d{2})\s*(?:lbs?|ปอนด์)', out.get('tension', ''), re.I)),
-        'grips': grips_of(out.get('grips', '') + ' ' + out.get('weight', '')), 'length': length_of(out.get('length', '')) or out.get('length', ''),
+        'grips': grips_of(out.get('grips', '') + ' ' + out.get('weight', '')), 'length': length_of(out.get('length', '')) or (out.get('length', '') if re.search(r'\d\s*(?:mm|cm|inch|")', out.get('length', ''), re.I) else ''),
         **{f: out.get(f, '') for f in ('frame', 'shaft', 'joint', 'madeIn', 'tech', 'players', 'level', 'recText', 'pattern')},
         # a frame or shaft label that holds no material ("4MM Blade frame + Triangular bayonet") gives way to the
         # page's whole-racket "Material" line, which is true but less specific than a shaft label elsewhere
@@ -252,4 +270,9 @@ def parse(lines, options=()):
             res[f] = v; from_prose.append(f)
     if between: from_prose.append('flex')  # an in-between grade is shown as an estimate, like a prose value
     res['fromProse'] = from_prose
+    # "balance point is 310mm", "Head-Heavy Balance (300-315mm)": a number the page states is not an estimate, so it stays out of fromProse
+    if not res.get('bp'):
+        m = re.search(r'balance(?: point)?[^.\n\d]{0,25}(\d{3}(?:\.\d)?(?:\s*(?:-|–|~|to)\s*\d{3})?\s*mm)', text, re.I)
+        rg = m and re.search(r'(\d{3})\s*(?:-|–|~|to)\s*(\d{3})', m.group(1))
+        if m and not (rg and abs(int(rg.group(2)) - int(rg.group(1))) > 10): res['bp'] = bp_of(m.group(1))   # a class-wide span is no point
     return res

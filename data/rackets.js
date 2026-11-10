@@ -4573,7 +4573,7 @@ window.RACKETS = [
   "year": 2021,
   "style": "allround",
   "balance": "even",
-  "bp": "",
+  "bp": 290,
   "flex": "medium",
   "level": "intermediate",
   "levelTo": "",
@@ -9090,10 +9090,10 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "bp": 292,
-  "flex": "flexible",
-  "level": "intermediate",
+  "flex": "medium",
+  "level": "pro",
   "levelTo": "",
-  "weights": "3U, 4U, 5U",
+  "weights": "3U",
   "weight": 87,
   "grips": "",
   "tension": [
@@ -9112,7 +9112,7 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm428_4_01_45273f7421.jpg?v=1752147747",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/638919110785870000_1.png?v=1757249528",
   "source": "",
   "officialUrl": "",
   "specSrc": "",
@@ -9120,6 +9120,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/li-ning-3d-calibar-900b-badminton-racket-unstrung-red-grey"
+   },
    {
     "shop": "sg.lining.studio",
     "url": "https://sg.lining.studio/products/3d-calibar-900-boost"
@@ -9135,10 +9139,10 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹13,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-900b-boost-badminton-racket",
-  "note": "",
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
    "price",
-   "level"
+   "flex"
   ]
  },
  {
@@ -9152,7 +9156,7 @@ window.RACKETS = [
   "flex": "extra-stiff",
   "level": "advanced",
   "levelTo": "",
-  "weights": "3U, 4U",
+  "weights": "3U",
   "weight": 89,
   "grips": "G5",
   "tension": [
@@ -9171,7 +9175,7 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm438_4_01_37ed9a83f0.jpg?v=1752147758",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/aypm438_4_06_4313c61857.webp?v=1757250396",
   "source": "",
   "officialUrl": "",
   "specSrc": "",
@@ -9179,6 +9183,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/li-ning-3d-calibar-900c-badminton-racket-unstrung-black-grey"
+   },
    {
     "shop": "sg.lining.studio",
     "url": "https://sg.lining.studio/products/3d-calibar-900-combat"
@@ -9208,10 +9216,10 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "bp": 312,
-  "flex": "flexible",
-  "level": "intermediate",
+  "flex": "medium",
+  "level": "pro",
   "levelTo": "",
-  "weights": "3U, 4U, 5U",
+  "weights": "5U",
   "weight": 79,
   "grips": "",
   "tension": [
@@ -9230,7 +9238,7 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypp002_4_01_19f453d3d3.jpg?v=1752147769",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/aypp002_4_01_19f453d3d3.webp?v=1757250560",
   "source": "",
   "officialUrl": "",
   "specSrc": "",
@@ -9238,6 +9246,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/li-ning-3d-calibar-900i-badminton-racket-unstrung-black-gold"
+   },
    {
     "shop": "sg.lining.studio",
     "url": "https://sg.lining.studio/products/3d-calibar-900-instinct"
@@ -9253,10 +9265,10 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹13,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-900i-instinct-badminton-racket",
-  "note": "",
+  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
    "price",
-   "level"
+   "flex"
   ]
  },
  {
@@ -10333,12 +10345,20 @@ window.RACKETS = [
     "url": "https://www.badmintonplaza.com/product_info.php?products_id=2470"
    },
    {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/li-ning-aeronaut-9000c-3u-badminton-racket-unstrung-navy-red"
+   },
+   {
     "shop": "sg.lining.studio",
     "url": "https://sg.lining.studio/products/aeronaut-9000-combat"
    },
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/aeronaut-9000-combat-4u-fm6q"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-aeronaut-9000c-aypp122-1"
    },
    {
     "shop": "thegodofsports.com",
@@ -10437,7 +10457,7 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/07_01_1_7fe42dbad2.jpg?v=1752144691",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/3_3_01_d5a9ca0ee7.webp?v=1757250734",
   "source": "",
   "officialUrl": "",
   "specSrc": "",
@@ -10445,6 +10465,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/li-ning-aeronaut-9000i-badminton-racket-unstrung-black-gold-purple"
+   },
    {
     "shop": "sg.lining.studio",
     "url": "https://sg.lining.studio/products/aeronaut-9000-instinct"
@@ -12000,7 +12024,7 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fiber",
   "joint": "",
-  "length": "and easier back-court recovery",
+  "length": "675 mm",
   "head": "",
   "pattern": "",
   "tech": "Turbo Charging · Carbon Fiber",
@@ -16452,7 +16476,7 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/tectonic_7c_01_af9b0883b2.jpg?v=1749892552",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/tectonic_7c_01_af9b0883b2.jpg?v=1752144443",
   "source": "",
   "officialUrl": "",
   "specSrc": "",
@@ -16460,6 +16484,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/tectonic-7cx"
+   },
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/tectonic-7-combat"
@@ -16497,7 +16525,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4610,
+  "price": 4440,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -16508,7 +16536,7 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/aypq018_4_01_0cc00acc97.jpg?v=1749892499",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypq018_4_01_0cc00acc97.jpg?v=1752144394",
   "source": "",
   "officialUrl": "",
   "specSrc": "",
@@ -16517,12 +16545,20 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/tectonic-7d"
+   },
+   {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/tectonic-7-drive"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-tectonic-7d-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹12,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://in.lining.studio/products/tectonic-7-drive",
+  "priceNote": "แปลงจาก ₹12,499.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-tectonic-7d-badminton-racket",
   "note": "",
   "est": [
    "price",
@@ -16559,7 +16595,7 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/tectonic_7i_01_4d93c097c5.jpg?v=1749892539",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/tectonic_7i_01_4d93c097c5.jpg?v=1752144432",
   "source": "",
   "officialUrl": "",
   "specSrc": "",
@@ -16567,6 +16603,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/tectonic-7i"
+   },
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/tectonic-7-instinct"
@@ -17664,7 +17704,10 @@ window.RACKETS = [
   "weights": "3U",
   "weight": 87,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   32
+  ],
   "tensionNote": "",
   "price": 8670,
   "frame": "Carbon Fibre",
@@ -17692,7 +17735,7 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก S$329.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/turbo-charging-75-combat",
-  "note": "",
+  "note": "ความตึงสูงสุด ≤32 lbs จากหน้า Li-Ning SG (maximum racket tension <=32 Pounds); ตัวดึงหน้าเว็บเก่าทิ้งค่านี้เพราะเครื่องหมาย \"<\" ถูกอ่านเป็นแท็ก",
   "est": [
    "price",
    "level"
@@ -17709,7 +17752,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "advanced",
   "levelTo": "",
-  "weights": "4U",
+  "weights": "3U, 4U",
   "weight": 82,
   "grips": "",
   "tension": [
@@ -17717,7 +17760,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4020,
+  "price": 3880,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17743,10 +17786,14 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/turbo-charging-75-drive"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-turbo-charging-75d-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹11,320.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://in.lining.studio/products/turbo-charging-75-drive",
+  "priceNote": "แปลงจาก ₹10,920.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-turbo-charging-75d-badminton-racket",
   "note": "",
   "est": [
    "price",
@@ -20084,7 +20131,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
-  "flex": "",
+  "flex": "stiff",
   "level": "pro",
   "levelTo": "",
   "weights": "4U",
@@ -20116,8 +20163,9 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก ₫5,300,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://jpn.mizuno.com/badminton/shop/products/ACROFORCE100/",
-  "note": "",
+  "note": "ก้านแข็ง: โพสต์รีวิวของ Jongnow (Facebook) เขียน \"ก้านแข็งมาก\" และ 4U6 หัวหนัก; Mizuno ไม่พิมพ์ช่อง Flex (ผลค้น Google 10 พ.ย. 2026)",
   "est": [
+   "flex",
    "price",
    "level",
    "weight"
@@ -20813,10 +20861,13 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "advanced",
   "levelTo": "",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 83,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   30
+  ],
   "tensionNote": "",
   "price": "",
   "frame": "",
@@ -20847,7 +20898,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -21500,7 +21552,10 @@ window.RACKETS = [
   "weights": "4U",
   "weight": 80,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   30
+  ],
   "tensionNote": "",
   "price": 4620,
   "frame": "",
@@ -21547,13 +21602,16 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
-  "flex": "",
+  "flex": "stiff",
   "level": "",
   "levelTo": "",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 83,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   30
+  ],
   "tensionNote": "",
   "price": "",
   "frame": "",
@@ -21581,9 +21639,11 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "ก้านแข็ง (Stiff) จากสเปก Mizuno ที่ Enso Lifestyle SG ลงใน Instagram (5U5, Max 30 lbs); หน้า Mizuno Asia ไม่พิมพ์ช่อง Flex และให้น้ำหนัก 4U5 ต่างจากโพสต์นั้น (ผลค้น Google 10 พ.ย. 2026)",
   "est": [
-   "style"
+   "flex",
+   "style",
+   "weight"
   ]
  },
  {
@@ -21597,10 +21657,13 @@ window.RACKETS = [
   "flex": "medium",
   "level": "intermediate",
   "levelTo": "",
-  "weights": "",
-  "weight": "",
+  "weights": "3U",
+  "weight": 88,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   30
+  ],
   "tensionNote": "",
   "price": "",
   "frame": "",
@@ -21631,7 +21694,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -21697,10 +21761,13 @@ window.RACKETS = [
   "flex": "medium",
   "level": "advanced",
   "levelTo": "",
-  "weights": "4U",
+  "weights": "6U",
   "weight": 80,
   "grips": "",
-  "tension": null,
+  "tension": [
+   null,
+   28
+  ],
   "tensionNote": "",
   "price": 3980,
   "frame": "",
@@ -21736,7 +21803,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -21951,8 +22019,8 @@ window.RACKETS = [
   "flex": "medium",
   "level": "beginner",
   "levelTo": "",
-  "weights": "",
-  "weight": "",
+  "weights": "4U",
+  "weight": 83,
   "grips": "",
   "tension": [
    null,
@@ -21980,10 +22048,11 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก ₫728,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/powerblade-597-73mtb423-2024ss",
-  "note": "",
+  "note": "ขนาด 4U5 จากสเปก Mizuno ที่ Rexcool Sports (Instagram) และโพสต์ซื้อขายในฟิลิปปินส์ ตรงกัน (ผลค้น Google 10 พ.ย. 2026)",
   "est": [
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -22362,8 +22431,8 @@ window.RACKETS = [
   "flex": "flexible",
   "level": "beginner",
   "levelTo": "",
-  "weights": "",
-  "weight": "",
+  "weights": "6U",
+  "weight": 73,
   "grips": "",
   "tension": [
    null,
@@ -22391,11 +22460,12 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "แปลงจาก ₫1,500,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/zephyr-zr8-73mtb524-2025aw",
-  "note": "",
+  "note": "ขนาด 6U5 จากชื่อรีวิวของ Progress Badminton (Facebook) และคลิปรีวิว TikTok สองคลิปที่บอก 6U (ผลค้น Google 10 พ.ย. 2026)",
   "est": [
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -30384,7 +30454,10 @@ window.RACKETS = [
   "weights": "",
   "weight": "",
   "grips": "G5",
-  "tension": null,
+  "tension": [
+   null,
+   18
+  ],
   "tensionNote": "",
   "price": "",
   "frame": "Aluminum",
@@ -30588,8 +30661,8 @@ window.RACKETS = [
   "brand": "Victor",
   "name": "Challenger 9500 CD",
   "year": "",
-  "style": "",
-  "balance": "",
+  "style": "allround",
+  "balance": "even",
   "bp": "",
   "flex": "medium",
   "level": "intermediate",
@@ -30628,8 +30701,9 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "สมดุลกลาง (Even Balance) จากตารางสเปก Victor ที่ Tennisnuts ลง (ผลค้น Google 10 พ.ย. 2026); หน้า Victor ไทยไม่พิมพ์ช่องนี้",
   "est": [
+   "style",
    "level",
    "weight"
   ]
@@ -31785,7 +31859,7 @@ window.RACKETS = [
   "year": "",
   "style": "speed",
   "balance": "even",
-  "bp": "",
+  "bp": 290,
   "flex": "stiff",
   "level": "advanced",
   "levelTo": "",
@@ -31912,7 +31986,10 @@ window.RACKETS = [
   "weights": "",
   "weight": "",
   "grips": "G5",
-  "tension": null,
+  "tension": [
+   null,
+   18
+  ],
   "tensionNote": "",
   "price": "",
   "frame": "Aluminum",
@@ -32306,7 +32383,10 @@ window.RACKETS = [
   "weights": "",
   "weight": "",
   "grips": "G5",
-  "tension": null,
+  "tension": [
+   null,
+   18
+  ],
   "tensionNote": "",
   "price": "",
   "frame": "Aluminum",
@@ -32408,7 +32488,10 @@ window.RACKETS = [
   "weights": "",
   "weight": "",
   "grips": "G5",
-  "tension": null,
+  "tension": [
+   null,
+   18
+  ],
   "tensionNote": "",
   "price": "",
   "frame": "Aluminum",
@@ -32884,102 +32967,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price"
-  ]
- },
- {
-  "id": "victor-tk-41031",
-  "brand": "Victor",
-  "name": "TK-41031",
-  "year": "",
-  "style": "attack",
-  "balance": "head-heavy",
-  "bp": "",
-  "flex": "",
-  "level": "",
-  "levelTo": "",
-  "weights": "",
-  "weight": "",
-  "grips": "",
-  "tension": null,
-  "tensionNote": "",
-  "price": "",
-  "frame": "",
-  "shaft": "",
-  "joint": "",
-  "length": "",
-  "head": "",
-  "pattern": "",
-  "tech": "",
-  "players": "",
-  "madeIn": "",
-  "recString": "",
-  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-113228_0_20231229004413.webp",
-  "source": "",
-  "officialUrl": "",
-  "specSrc": "",
-  "shopUrl": "",
-  "bayUrl": "",
-  "clickUrl": "",
-  "shopLinks": [
-   {
-    "shop": "th.victorsport.com",
-    "url": "https://th.victorsport.com/product/tk-41031-b"
-   }
-  ],
-  "priceNote": "",
-  "priceSrc": "",
-  "note": "",
-  "est": [
-   "balance",
-   "style"
-  ]
- },
- {
-  "id": "victor-tk-41032",
-  "brand": "Victor",
-  "name": "TK-41032",
-  "year": "",
-  "style": "attack",
-  "balance": "head-heavy",
-  "bp": "",
-  "flex": "",
-  "level": "",
-  "levelTo": "",
-  "weights": "",
-  "weight": "",
-  "grips": "",
-  "tension": null,
-  "tensionNote": "",
-  "price": "",
-  "frame": "",
-  "shaft": "",
-  "joint": "",
-  "length": "",
-  "head": "",
-  "pattern": "",
-  "tech": "",
-  "players": "",
-  "madeIn": "",
-  "recString": "",
-  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-113262_0_20231229005025.webp",
-  "source": "",
-  "officialUrl": "",
-  "specSrc": "",
-  "shopUrl": "",
-  "bayUrl": "",
-  "clickUrl": "",
-  "shopLinks": [
-   {
-    "shop": "th.victorsport.com",
-    "url": "https://th.victorsport.com/product/tk-41032-i"
-   }
-  ],
-  "priceNote": "",
-  "priceSrc": "",
-  "note": "",
-  "est": [
-   "balance",
-   "style"
   ]
  },
  {
@@ -35227,8 +35214,8 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
-  "flex": "",
-  "level": "",
+  "flex": "flexible",
+  "level": "intermediate",
   "levelTo": "",
   "weights": "6U",
   "weight": 73,
@@ -35238,7 +35225,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": "",
+  "price": 1810,
   "frame": "High Modulus Graphite",
   "shaft": "High Modulus Graphite + 7.0 SHAFT",
   "joint": "",
@@ -35260,14 +35247,22 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/tk-lf-30-f"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/thruster-tk-lf-30-badminton-racket"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-k-light-fighter-30-strung-ultra-light"
    }
   ],
-  "priceNote": "",
-  "priceSrc": "",
+  "priceNote": "แปลงจาก CAD 74.98 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://tenniszon.com/products/victor-thruster-k-light-fighter-30-strung-ultra-light",
   "note": "",
   "est": [
-   "balance",
    "style",
+   "price",
    "weight"
   ]
  },
@@ -36601,7 +36596,7 @@ window.RACKETS = [
   "level": "intermediate",
   "levelTo": "",
   "weights": "",
-  "weight": "",
+  "weight": 135,
   "grips": "G5",
   "tension": [
    null,
@@ -36642,8 +36637,9 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก CAD 89.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-wrist-enhancer",
-  "note": "",
+  "note": "ไม้ซ้อมข้อมือ น้ำหนัก 130–140 g (Victor India และ racket-company.com) ใส่ค่ากลาง (ผลค้น Google 10 พ.ย. 2026)",
   "est": [
+   "weight",
    "price",
    "level"
   ]
@@ -37688,7 +37684,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "bp": "",
+  "bp": 315,
   "flex": "flexible",
   "level": "beginner",
   "levelTo": "",
@@ -37982,7 +37978,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "bp": "",
+  "bp": 305,
   "flex": "flexible",
   "level": "intermediate",
   "levelTo": "",
@@ -38179,7 +38175,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "bp": "",
+  "bp": 301,
   "flex": "extra-stiff",
   "level": "advanced",
   "levelTo": "",
@@ -39540,7 +39536,7 @@ window.RACKETS = [
   "year": 2024,
   "style": "attack",
   "balance": "head-heavy",
-  "bp": "",
+  "bp": 305,
   "flex": "stiff",
   "level": "advanced",
   "levelTo": "",
@@ -40375,7 +40371,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "bp": "",
+  "bp": 295,
   "flex": "flexible",
   "level": "beginner",
   "levelTo": "",
@@ -40432,7 +40428,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "bp": "",
+  "bp": 295,
   "flex": "flexible",
   "level": "beginner",
   "levelTo": "",
@@ -43411,10 +43407,13 @@ window.RACKETS = [
   "flex": "medium",
   "level": "beginner",
   "levelTo": "",
-  "weights": "",
-  "weight": "",
+  "weights": "5U",
+  "weight": 78,
   "grips": "G5",
-  "tension": null,
+  "tension": [
+   null,
+   30
+  ],
   "tensionNote": "",
   "price": 670,
   "frame": "Graphite",
@@ -43446,12 +43445,14 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹1,899.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-nanoray-70-light-purple-badminton-racket",
-  "note": "",
+  "note": "ความตึงสูงสุด 30 lbs: Badminton Alley (20–30 lbs) และ Badminton Bay (Max 30 lbs) ตรงกัน แต่ Yonex ไม่ได้พิมพ์ในหน้าที่เราอ่านได้ จึงเป็นค่าประเมิน (ผลค้น Google 10 พ.ย. 2026)",
   "est": [
    "flex",
+   "tension",
    "style",
    "price",
-   "level"
+   "level",
+   "weight"
   ]
  },
  {
@@ -43514,8 +43515,8 @@ window.RACKETS = [
   "brand": "Yonex",
   "name": "Nanoray 72 Light",
   "year": "",
-  "style": "",
-  "balance": "",
+  "style": "speed",
+  "balance": "head-light",
   "bp": "",
   "flex": "flexible",
   "level": "beginner",
@@ -43555,9 +43556,10 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹1,799.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-nanoray-72-light-badminton-racket-ruby-red",
-  "note": "",
+  "note": "สมดุลหัวเบา: sportsshop.asia (พิมพ์ \"Had-light balance\") และ Badminton HQ (Racket Balance: Head Light) ตรงกัน (ผลค้น Google 10 พ.ย. 2026); ความตึงที่ร้านต่าง ๆ ให้ไม่ตรงกัน (17–22, 20–28 และ 22–27 lbs) จึงไม่ใส่",
   "est": [
    "flex",
+   "style",
    "price",
    "level",
    "weight"
@@ -43627,7 +43629,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "bp": "",
+  "bp": 295,
   "flex": "flexible",
   "level": "beginner",
   "levelTo": "",
@@ -43687,7 +43689,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "bp": "",
+  "bp": 310,
   "flex": "",
   "level": "beginner",
   "levelTo": "",

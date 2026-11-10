@@ -8,8 +8,10 @@
   "currency": "",
   "img": "https://static.wixstatic.com/media/711e69_5eca8776eb74440e8ae57dcb720d7549~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
   "lines": [
+   "Weight: 4U5",
    "Flex: Stiff",
    "Balance: Head Heavy",
+   "String Tension: Max 30lbs",
    "Length: 675mm"
   ],
   "options": [],
@@ -60,8 +62,10 @@
   "currency": "",
   "img": "https://static.wixstatic.com/media/711e69_1b504358f6b04285a0c5357b04eef0cb~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
   "lines": [
+   "Weight: 3U5",
    "Flex: Medium",
    "Balance: Head Heavy",
+   "String Tension: Max 30lbs",
    "Length: 675mm"
   ],
   "options": [],
@@ -76,7 +80,9 @@
   "currency": "",
   "img": "https://static.wixstatic.com/media/711e69_ea0926e7c1d04cf99427a876eac63bf2~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
   "lines": [
+   "Weight: 4U5",
    "Balance: Head Heavy",
+   "String Tension: Max 30lbs",
    "Length: 675mm"
   ],
   "options": [],
@@ -91,8 +97,10 @@
   "currency": "",
   "img": "https://static.wixstatic.com/media/711e69_a993d2fd80a64639a494e59fc1a678b1~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
   "lines": [
+   "Weight: 4U5",
    "Flex: Medium",
    "Balance: Head Heavy",
+   "String Tension: Max 30lbs",
    "Length: 675mm"
   ],
   "options": [],
@@ -143,8 +151,10 @@
   "currency": "",
   "img": "https://static.wixstatic.com/media/711e69_47c0e70b0c804f5d915fb8094e5213c0~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
   "lines": [
+   "Weight: 4U5",
    "Flex: Medium",
    "Balance: Head Heavy",
+   "String Tension: Max 30lbs",
    "Length: 675mm"
   ],
   "options": [],
@@ -159,8 +169,10 @@
   "currency": "",
   "img": "https://static.wixstatic.com/media/711e69_7ad31ca1373545c38d0e31f720593184~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
   "lines": [
+   "Weight: 6U5",
    "Flex: Medium",
-   "Balance: Head Heavy"
+   "Balance: Head Heavy",
+   "String Tension: Max 28lbs"
   ],
   "options": [],
   "rawBalance": "Head Heavy -[]-|-|-|-|- Head Light"

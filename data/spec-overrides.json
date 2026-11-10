@@ -1509,7 +1509,12 @@
   "src": "https://jpn.mizuno.com/badminton/shop/products/ACROFORCE100/",
   "priceForeign": 5300000.0,
   "currency": "VND",
-  "balance": "head-heavy"
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "estFields": [
+   "flex"
+  ],
+  "note": "ก้านแข็ง: โพสต์รีวิวของ Jongnow (Facebook) เขียน \"ก้านแข็งมาก\" และ 4U6 หัวหนัก; Mizuno ไม่พิมพ์ช่อง Flex (ผลค้น Google 10 พ.ย. 2026)"
  },
  "Mizuno Acroforce 200 Power": {
   "balance": "head-heavy",
@@ -4148,5 +4153,46 @@
   "shaft": "7.0 mm",
   "pattern": "76 holes",
   "bp": 295
+ },
+ "Victor Challenger 9500 CD": {
+  "balance": "even",
+  "note": "สมดุลกลาง (Even Balance) จากตารางสเปก Victor ที่ Tennisnuts ลง (ผลค้น Google 10 พ.ย. 2026); หน้า Victor ไทยไม่พิมพ์ช่องนี้"
+ },
+ "Yonex Nanoray 72 Light": {
+  "balance": "head-light",
+  "note": "สมดุลหัวเบา: sportsshop.asia (พิมพ์ \"Had-light balance\") และ Badminton HQ (Racket Balance: Head Light) ตรงกัน (ผลค้น Google 10 พ.ย. 2026); ความตึงที่ร้านต่าง ๆ ให้ไม่ตรงกัน (17–22, 20–28 และ 22–27 lbs) จึงไม่ใส่"
+ },
+ "Yonex Nanoray 70 Light": {
+  "tmax": 30,
+  "estFields": [
+   "tension"
+  ],
+  "note": "ความตึงสูงสุด 30 lbs: Badminton Alley (20–30 lbs) และ Badminton Bay (Max 30 lbs) ตรงกัน แต่ Yonex ไม่ได้พิมพ์ในหน้าที่เราอ่านได้ จึงเป็นค่าประเมิน (ผลค้น Google 10 พ.ย. 2026)"
+ },
+ "Mizuno Fortius 73 VT": {
+  "flex": "stiff",
+  "estFields": [
+   "flex"
+  ],
+  "note": "ก้านแข็ง (Stiff) จากสเปก Mizuno ที่ Enso Lifestyle SG ลงใน Instagram (5U5, Max 30 lbs); หน้า Mizuno Asia ไม่พิมพ์ช่อง Flex และให้น้ำหนัก 4U5 ต่างจากโพสต์นั้น (ผลค้น Google 10 พ.ย. 2026)"
+ },
+ "Mizuno POWERBLADE 597": {
+  "weights": "4U",
+  "note": "ขนาด 4U5 จากสเปก Mizuno ที่ Rexcool Sports (Instagram) และโพสต์ซื้อขายในฟิลิปปินส์ ตรงกัน (ผลค้น Google 10 พ.ย. 2026)"
+ },
+ "Mizuno ZEPHYR ZR8": {
+  "weights": "6U",
+  "note": "ขนาด 6U5 จากชื่อรีวิวของ Progress Badminton (Facebook) และคลิปรีวิว TikTok สองคลิปที่บอก 6U (ผลค้น Google 10 พ.ย. 2026)"
+ },
+ "Victor Wrist Enhancer 140": {
+  "weight": 135,
+  "estFields": [
+   "weight"
+  ],
+  "note": "ไม้ซ้อมข้อมือ น้ำหนัก 130–140 g (Victor India และ racket-company.com) ใส่ค่ากลาง (ผลค้น Google 10 พ.ย. 2026)"
+ },
+ "Li-Ning Turbo Charging 75 Combat": {
+  "tmax": 32,
+  "note": "ความตึงสูงสุด ≤32 lbs จากหน้า Li-Ning SG (maximum racket tension <=32 Pounds); ตัวดึงหน้าเว็บเก่าทิ้งค่านี้เพราะเครื่องหมาย \"<\" ถูกอ่านเป็นแท็ก"
  }
 }

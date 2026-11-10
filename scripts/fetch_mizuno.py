@@ -56,12 +56,15 @@ for u in pages:
     if m: feats = re.sub(r'\s*-\s*', ', ', m.group(1)).strip(', ')
     img = re.search(r'og:image" content="([^"]+)"', t)
     lines = []
-    if 'WEIGHT' in block: lines.append('Weight: ' + block['WEIGHT'])
+    # a few pages (Altius VX7) print "WEIGHT/SIZE: 4U5" and "MAX TENSION: 30lbs" in place of WEIGHT and RECOMMENDED TENSION
+    wt = block.get('WEIGHT') or block.get('WEIGHT/SIZE')
+    if wt: lines.append('Weight: ' + wt)
     if 'FLEX' in block: lines.append('Flex: ' + block['FLEX'])
     bw = balance_word(block.get('BALANCE', ''))
     if bw: lines.append('Balance: ' + bw)
     elif re.fullmatch(r'\d{3}\s*mm', block.get('BALANCE', '').strip(), re.I): lines.append('Balance Point: ' + block['BALANCE'].strip())
     if 'RECOMMENDED TENSION' in block: lines.append('String Tension: ' + block['RECOMMENDED TENSION'])
+    elif 'MAX TENSION' in block: lines.append('String Tension: Max ' + block['MAX TENSION'])
     if 'LENGTH' in block: lines.append('Length: ' + block['LENGTH'])
     # the site's technology text is a paragraph of marketing per feature ("aerodynamics" in the hot-melt one), which would
     # trip the match logic's technology tags on every racket, so it is not kept

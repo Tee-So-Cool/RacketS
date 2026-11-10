@@ -512,3 +512,43 @@ In the match score (`score`, racket part): inside the range the level fits, with
 three or more (the wider the claim, the less it says); outside it the gap is counted from the nearest end, with the same
 penalties as for a single level. The radar takes the middle of the range. The compare page and cards show it as
 "ระดับกลาง–สูง"; the level filter lists a racket under every level its range covers; the edit form has a "ถึง" field.
+
+## Filling the spec gaps (10 Nov 2026)
+
+97 of 795 rackets lacked one of balance, flex, weight or maximum tension (Apacs 42, Victor 24, Mizuno 10, Yonex 9, Reach 6,
+Li-Ning 3, Kawasaki 2, VS 1). Reading the raw shop lines for each (the AUDIT dump) found seven misses in our own code, all fixed:
+
+1. **A label, a colon alone on a line, then the value** ("Weight" / ":" / "4U", a Shopify theme's inline tag). The value was read
+   from the prose instead, so it came out as an estimate; `join_split()` in `scripts/spec_text.py` joins them first. A value cut in
+   pieces ("5" / "U (" / "75g - 79.9g)") is joined too. This gave Nanoray 70 Light its weight class.
+2. **Balance point stated in prose** ("balance point is 310mm"): now read into `bp`, not marked as an estimate. A span wider than
+   10 mm ("300-315mm") is a class, not a point, and is skipped. Voltric Lite 20i and others gained `bp`.
+3. **A labelled tension ceiling of 15-19 lbs** was dropped by the 20-40 sanity filter. Victor's aluminium and steel rackets print
+   "≦ 18 lbs" (Brave Sword 1633, Jetspeed S 1111AL, 5133, 5233). In prose the filter stays at 20.
+4. **Mizuno Altius VX7 (and Fortius 77, 71 VT, 70, 90)** print "WEIGHT/SIZE" and "MAX TENSION" where the other pages print
+   "WEIGHT" and "RECOMMENDED TENSION"; `fetch_mizuno.py` reads both. Mizuno gaps went from 10 to 6.
+5. **A bogus length** ("and easier back-court recovery", "4U / G5") was kept as a length when no unit followed; now only a
+   value with mm, cm or inch is kept.
+6. **Shop titles the matcher missed:** "Thruster TK-LF Light Fighter 30" and "Thruster K Light Fighter 30" are Victor's Thruster LF 30
+   (Victor prints "LF"), and Li-Ning's letter suffixes ("3D Calibar 900I", "Aeronaut 9000C", "Tectonic 7D") are Instinct, Combat and
+   Drive. `match_title()` tries the raw title, then its cleaned display name. 16 pages joined their models.
+7. **TK-41031 and TK-41032 are Victor skirts**, not rackets; "^tk-4xxxx" joined `NOT_RACKET_MODEL`. 795 rackets became 793.
+
+**Li-Ning SG tension, not yet re-read.** Its pages print the ceiling as "<=32 Pounds (Lbs)" with the "<" unescaped, and the page
+fetcher's tag strip ate the value: 152 of 568 pages have the label with nothing after it. `fetch_pages.py` now escapes the
+"<" and `REFETCH_LT=1 python3 scripts/fetch_pages.py sg.lining.studio` re-reads just those pages, but sg.lining.studio
+answered 429 while testing one page, so it was not run; the user runs it later. Turbo Charging 75 Combat was set by hand (32 lbs).
+
+**Written by hand** (`spec-overrides.json`, each row with its sources): Challenger 9500 CD balance (even), Nanoray 72 Light balance
+(head-light), Nanoray 70 Light max tension 30 (≈), Fortius 73 VT flex (stiff, ≈), Acroforce 100 flex (stiff, ≈), Powerblade 597
+weight class 4U, Zephyr ZR8 weight class 6U, Wrist Enhancer 140 weight 135 g (≈, Victor India says 130-140), Turbo Charging 75 Combat 32 lbs.
+
+**Checked and left empty, because the maker does not publish it:**
+- Flex: Reach (Attack Speed 88/99/100, K-Force, T-REX Pro 4949), Kawasaki Aurora 7, VS Titan 10 (the VS page lists balance 290,
+  tension 22-35 and weight, no flex), and Victor's older lines (Thruster Dong, Jetspeed S 6000 and 7000, DriveX KT, Ars-punch H,
+  Auraspeed 130CL and 150CL). Victor's Thai page for Thruster Dong has weight, frame, shaft, tension and length only; there is
+  no Stiffness row, no image scale and no field in the page's JSON.
+- Weight of Jetspeed S 1111AL, 5133 and 5233: "90-100g (Strung Weight)", a strung range, not the unstrung figure this data holds.
+- Yonex Nanoray 72 Light tension: shops give 17-22, 20-28 and 22-27 lbs. Altius N-Feel weight: 3.5U (plaza, a review) and 5U6
+  (Decathlon SG).
+- Reach New T-Rex Pro 3939 and Victor ST 1800: no source has any spec.

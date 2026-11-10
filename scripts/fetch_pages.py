@@ -2,6 +2,7 @@
 # (Li-Ning's own stores), into scripts/sources/pages.json as {url: [spec lines]}.
 # Takes the URLs from scripts/sources/shops.json; one page every 3 s; pages already saved are skipped.
 # Run: python3 scripts/fetch_pages.py sg.lining.studio [in.lining.studio ...]
+# REFETCH_LT=1 python3 scripts/fetch_pages.py sg.lining.studio  re-reads the pages whose "<=" ceiling was lost before the fix
 import html, json, os, re, sys, time, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -14,6 +15,8 @@ shops = json.load(open(os.path.join(ROOT, 'scripts', 'sources', 'shops.json'), e
 
 def spec_lines(t):
     t = re.sub(r'<script.*?</script>|<style.*?</style>|<nav.*?</nav>|<header.*?</header>', '', t, flags=re.S)
+    # Li-Ning SG prints a ceiling as "<=32 Pounds (Lbs)" with the "<" unescaped, which the tag strip below would eat up to the next ">"
+    t = re.sub(r'<(?=[=\s\d])', '&lt;', t)
     L = [l.strip() for l in html.unescape(re.sub(r'<[^>]+>', '\n', t)).replace('\xa0', ' ').split('\n') if l.strip()]
     # the spec table is the run of short label lines; start a little before the first strong label
     i = next((k for k, l in enumerate(L) if re.fullmatch(r'(shaft flexibility|balance|player level|maximum racket tension|weight)', l, re.I)), None)
@@ -24,7 +27,10 @@ def spec_lines(t):
 n = 0
 for dom in sys.argv[1:]:
     for p in [p for p in shops if p['shop'] == dom]:
-        if p['url'] in pages: continue
+        # REFETCH_LT=1: pages saved before the "<=" fix whose tension label has no value after it
+        L0 = pages.get(p['url'])
+        redo = os.environ.get('REFETCH_LT') and L0 and any(re.fullmatch('maximum racket tension', l, re.I) and (k + 1 >= len(L0) or re.fullmatch(r'player level|racket grip size|shaft flexibility|weight|balance|product range|player type', L0[k + 1], re.I)) for k, l in enumerate(L0))
+        if p['url'] in pages and not redo: continue
         time.sleep(3)
         try:
             t = urllib.request.urlopen(urllib.request.Request(p['url'], headers={'User-Agent': 'Mozilla/5.0'}), timeout=40).read().decode('utf-8', 'ignore')

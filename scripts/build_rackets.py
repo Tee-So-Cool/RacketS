@@ -326,7 +326,7 @@ NOT_RACKET_MODEL = re.compile(r'\b(set|combo|pack|duo|kit|bundle|gift|box|vip|me
                               r'^yonex (?:astrox|nanoflare) (?:clear|feel|ability)\b|^yonex astrox 88 (?:tour|play|pro|game)\b|'
                               r'\bseries\s*$|'
                               r'doraemon|dragon ball|ultraman|one piece|pokemon|butterbear|baby milo|care bears|hello kitty|crayon|marvel|'
-                              r'avenger|peanuts|demon slayer|\bx\b', re.I)
+                              r'avenger|peanuts|demon slayer|\bx\b|^tk-4\d{4}\b', re.I)   # TK-4xxxx is Victor's clothing code (TK-41031 is a skirt)
 def display_name(t, brand):
     import unicodedata
     t = ''.join(c for c in unicodedata.normalize('NFKD', t) if not unicodedata.combining(c))
@@ -339,6 +339,8 @@ def display_name(t, brand):
     t = re.sub(r'\b(?:' + COLOURS + r')\b|\bgen ?\d\b|\bbravesword\b', lambda m: 'Brave Sword' if m.group(0).lower() == 'bravesword' else ' ', t, flags=re.I)
     t = re.sub(r'^js-(?=\d)', 'Jetspeed S ', t.strip(), flags=re.I)
     t = re.sub(r'\s+[A-Za-z]$', '', re.sub(r'\s+', ' ', t).strip(' -|/'))  # Victor's colour letter: "AURASPEED 130CL U"
+    if brand == 'Victor':  # shops spell out what Victor prints as "LF": "Thruster TK-LF Light Fighter 30", "Thruster K Light Fighter 30"
+        t = re.sub(r'\b(?:tk-?lf|k)?\s*light fighter\b', 'LF', t, flags=re.I)
     if brand == 'Li-Ning':  # Li-Ning SG writes its variants as letters: "Tectonic 7C" = Tectonic 7 Combat
         t = re.sub(r'(\d)([CDIB])$', lambda m: m.group(1) + ' ' + {'C': 'Combat', 'D': 'Drive', 'I': 'Instinct', 'B': 'Boost'}[m.group(2)], t)
     if brand == 'Felet':  # Felet names colourways with words of their own: "Aero Carbon Snow White", "Jade Bloom", "Gen-X Sky Blue"
@@ -348,13 +350,16 @@ def display_name(t, brand):
     if brand == 'Felet':  # "TAI-G", "F-FORCE": each part of a hyphenated word keeps its capital
         return ' '.join(w if re.search(r'\d', w) or w.upper() in ('TJ', 'TI', 'P1', '3K') else '-'.join(x.capitalize() for x in w.split('-')) for w in t.split())
     return ' '.join(w if re.search(r'\d', w) or w in ('II', 'III', 'IV') or len(w) <= 2 else w.capitalize() for w in t.split())
+def match_title(title, brand, pool):
+    # the raw title first, then its cleaned display name ("Li-Ning 3D Calibar 900I" is "3D Calibar 900 Instinct")
+    return pmatch(title, pool)[0] or pmatch(display_name(title, brand), pool)[0]
 groups = collections.defaultdict(list)
 for bz in shops:
     if bz['brand'] not in ('Victor', 'Li-Ning', 'VS', 'Yonex', 'Felet', 'Mizuno') or NOT_RACKET_MODEL.search(re.sub(r'gen-x', 'GenX', bz['name'], flags=re.I)): continue
     # Mizuno: only models its own site lists (Altius and Fortius); the shops' JPX variants and odd titles ("Altius N-feel 3.") stay out
     if bz['brand'] == 'Mizuno' and bz['shop'] != 'mizunobadminton-asia.com': continue
     pool = {r['name']: r for r in rackets.values() if r['brand'] == bz['brand']}
-    if pmatch(bz['name'], pool)[0]: continue
+    if match_title(bz['name'], bz['brand'], pool): continue
     nm = display_name(bz['name'], bz['brand'])
     tk = ptokens(nm)
     if not tk: continue
@@ -395,7 +400,7 @@ for bz in bay + click + shops:
     if bz['brand'] == 'Felet':  # Badminton Bay writes "TJ 1000 Control", Felet itself "TJ Control 1000"
         bz = {**bz, 'name': re.sub(r'\bTJ 1000 (Control|Power|Speed)\b', r'TJ \1 1000', bz['name'], flags=re.I)}
     pool = {r['name']: r for r in rackets.values() if r['brand'] == bz['brand']}
-    m, _ = pmatch(bz['name'], pool)
+    m = match_title(bz['name'], bz['brand'], pool)
     if not m:
         AUDIT['unmatched'].append({'brand': bz['brand'], 'name': bz['name'], 'url': bz['url'], 'src': bz.get('src', 'bay')}); continue
     r = pool[m]; bay_hits[bz.get('src', 'bay')] += 1
