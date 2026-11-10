@@ -44,6 +44,26 @@ const cases = [
   ['ทุกไม้: คะแนน 0-100 และความตึงไม่เกินเพดานไม้', () => RACKETS.every(r => { for (const lv of ['beginner', 'pro']) {
       const x = score(r, S('Yonex BG66 Ultimax'), lv, 'attack'); const max = r.tension ? r.tension[1] : 30;
       if (!(x.score >= 0 && x.score <= 100) || x.tension > max) { console.log('bad', r.name, lv, x); return false; } } return true; })],
+  // the player's own tension log: a personal offset from how setups felt
+  ...(() => {
+    const { calcOffset, mineAdj } = window.RS_TEST;
+    const base = { r: R('Yonex Astrox 77 Pro').id, s: S('Yonex BG66 Ultimax').id, level: 'advanced', style: 'attack' };
+    const rec = () => sc('Yonex Astrox 77 Pro', 'Yonex BG66 Ultimax', 'advanced', 'attack').tension;
+    const E = (feel, lbs = rec(), more = {}) => ({ ...base, lbs, feel, ...more });
+    const adj = off => { const r = R('Yonex Astrox 77 Pro'), s = S('Yonex BG66 Ultimax'); const res = score(r, s, 'advanced', 'attack'); return [res, mineAdj(res, s, { off, n: 1 }, true)]; };
+    return [
+      ['บันทึกส่วนตัว: ไม่มีบันทึก ไม่ปรับ', () => { const o = calcOffset([]); return o.off === 0 && o.n === 0; }],
+      ['บันทึกส่วนตัว: "หย่อนไป" ที่ขึ้นตามค่าแนะนำ → ปรับขึ้น 1 lb', () => calcOffset([E('loose')]).off === 1],
+      ['บันทึกส่วนตัว: "ตึงไป" ที่ขึ้นตามค่าแนะนำ → ปรับลง 1 lb', () => calcOffset([E('tight')]).off === -1],
+      ['บันทึกส่วนตัว: "พอดี" ที่ขึ้นตามค่าแนะนำ → ไม่ปรับ', () => calcOffset([E('good')]).off === 0],
+      ['บันทึกส่วนตัว: "พอดี" ที่ขึ้นสูงกว่าค่าแนะนำ 3 lbs → ปรับขึ้น ไม่เกิน 3', () => { const o = calcOffset([E('good', rec() + 3)]).off; return o > 0 && o <= 3; }],
+      ['บันทึกส่วนตัว: ไม้หรือเอ็นที่หายไปจากข้อมูลไม่นับ', () => { const o = calcOffset([E('loose', rec(), { r: 'no-such-racket' })]); return o.n === 0 && o.off === 0; }],
+      ['บันทึกส่วนตัว: ปรับไม่เกิน ±3 lbs', () => calcOffset(Array.from({ length: 10 }, () => E('loose', 40))).off === 3 && calcOffset(Array.from({ length: 10 }, () => E('tight', 12))).off === -3],
+      ['บันทึกส่วนตัว: ค่าปรับไม่ดันความตึงเกินเพดานไม้/เอ็น −1 lb', () => { const [res, a] = adj(3); const cap = Math.min(res.range[1] || 30, Number(S('Yonex BG66 Ultimax').tensionMax) || 99); return a.tension <= cap - 1; }],
+      ['บันทึกส่วนตัว: ปรับลงแล้วมีขั้นตอนอธิบาย', () => { const [res, a] = adj(-2); const last = a.steps[a.steps.length - 1]; return a.tension === res.tension - 2 && last[0].includes('ปรับตามบันทึก') && last[1] === -2; }],
+      ['บันทึกส่วนตัว: ปิดการปรับแล้วได้ค่าเดิม', () => { const r = R('Yonex Astrox 77 Pro'), s = S('Yonex BG66 Ultimax'), res = score(r, s, 'advanced', 'attack'); return mineAdj(res, s, { off: 2, n: 3 }, false) === res; }],
+    ];
+  })(),
 ];
 // real play reports (tests/feedback.js): the recommended tension must agree with how the setup felt
 for (const f of window.RS_FEEDBACK || []) {

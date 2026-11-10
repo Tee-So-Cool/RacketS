@@ -944,7 +944,36 @@
 
     return { score: Math.round(clamp(total, 0, 100)), parts, tension: t, steps, band: [bLo, bHi], range: [tmin, tmax], reasons, conf, guess };
   }
-  window.RS_TEST = { score: (...a) => score(...a), byId };
+  // ---------- the player's own tension log ----------
+  // Each entry is a setup the player strung and how it felt (loose / good / tight). The model's number for that setup
+  // is recomputed from the entry's own choices; "loose" says the right number lies about 1.5 lbs above what was strung,
+  // "tight" 1.5 below, "good" at it. The mean gap, shrunk toward zero by one extra entry and capped at 3 lbs, is a personal
+  // offset added to every recommendation (never past the racket's or string's ceiling). Stored in this browser only.
+  const LOG_KEY = 'rs.tensionlog.v1', FEEL_GAP = 1.5, OFF_MAX = 3;
+  const FEEL = { loose: 'หย่อนไป', good: 'พอดี', tight: 'ตึงไป' };
+  const mylog = (() => {
+    try { const v = JSON.parse(localStorage.getItem(LOG_KEY) || '{}'); return { entries: Array.isArray(v.entries) ? v.entries : [], on: v.on !== false }; } catch (e) { return { entries: [], on: true }; }
+  })();
+  const logSave = () => { try { localStorage.setItem(LOG_KEY, JSON.stringify(mylog)); } catch (e) {} };
+  function calcOffset(entries) {
+    const gaps = [];
+    for (const e of entries) {
+      const r = byId('r', e.r), s = byId('s', e.s), lbs = Number(e.lbs), o = e.o || {};
+      if (!r || !s || !(lbs > 0) || !FEEL[e.feel] || !LEVEL_W[e.level] || !STYLE_W[e.style]) continue;
+      const rec = score(r, s, e.level, e.style, o.shuttle || 'feather', o.climate || 'normal', o.game || 'doubles', o.arm || 'none', o.head || '').tension;
+      gaps.push((e.feel === 'loose' ? lbs + FEEL_GAP : e.feel === 'tight' ? lbs - FEEL_GAP : lbs) - rec);
+    }
+    const n = gaps.length;
+    return { n, off: n ? clamp(Math.round(gaps.reduce((a, b) => a + b, 0) / (n + 1)), -OFF_MAX, OFF_MAX) : 0 };
+  }
+  // the recommendation moved by the offset, kept 1 lb under the ceiling like the model's own
+  function mineAdj(res, s, mine, on = mylog.on) {
+    if (!on || !mine.off) return res;
+    const cap = Math.min(res.range[1] || 30, Number(s.tensionMax) || 99);
+    const t = Math.min(res.tension + mine.off, cap - 1);
+    return t === res.tension ? res : { ...res, tension: t, steps: [...res.steps, [`ปรับตามบันทึกของคุณ (${mine.n} บันทึก)`, t - res.tension]] };
+  }
+  window.RS_TEST = { score: (...a) => score(...a), byId, calcOffset, mineAdj };
   const verdict = n => n >= 80 ? ['เข้ากันดีมาก', 'var(--color-accent)'] : n >= 65 ? ['เข้ากันดี', 'var(--color-accent)'] : n >= 50 ? ['พอใช้ได้', 'var(--color-ink)'] : ['ไม่ค่อยเหมาะ', 'var(--color-bad)'];
 
   function viewMatch() {
@@ -982,7 +1011,9 @@
         ${seg('cur', 'ไม้ที่ใช้อยู่หนัก', { '': 'ไม่ระบุ', '3U': '3U', '4U': '4U', '5U': '5U' })}
         ${seg('budget', 'งบไม้', { '': 'ไม่จำกัด', 2000: '≤ 2,000', 4000: '≤ 4,000', 7000: '≤ 7,000' })}
       </div>
-      <div id="mres"></div>`;
+      <div id="mres"></div>
+      <section class="mlog" id="mlog"></section>`;
+    logEvents();
 
     // each picker: the chosen item as a card, and a search box that lists matches with their pictures
     const card = kind => {
@@ -1040,17 +1071,18 @@
     const { level, style } = state.m, shuttle = state.m.shuttle || 'feather', climate = state.m.climate || 'normal';
     const game = state.m.game || 'doubles', arm = state.m.arm || 'none';
     const r = byId('r', state.m.r), s = byId('s', state.m.s);
-    const res = score(r, s, level, style, shuttle, climate, game, arm, state.m.head || '');
+    const mo = calcOffset(mylog.entries);   // the player's own offset, from the tension log
+    const res = mineAdj(score(r, s, level, style, shuttle, climate, game, arm, state.m.head || ''), s, mo);
     history.replaceState(null, '', '#match?' + new URLSearchParams(Object.entries(state.m).filter(([, v]) => v)));
     const [vt, vc] = verdict(res.score);
-    const allS = db.s.filter(x => x.id !== s.id).map(x => ({ x, ...score(r, x, level, style, shuttle, climate, game, arm) })).sort((a, b) => b.score - a.score || a.guess.length - b.guess.length);
+    const allS = db.s.filter(x => x.id !== s.id).map(x => ({ x, ...mineAdj(score(r, x, level, style, shuttle, climate, game, arm), x, mo) })).sort((a, b) => b.score - a.score || a.guess.length - b.guess.length);
     // rank by score less 2 points per racket spec that is a guess, so a racket whose specs are stated beats one guessed to tie it
     // on a tie: a real Thai price first, then the racket with more of its specs known
     const known = x => (Number(x.price) && !(x.est || []).includes('price') ? 5 : 0) + ['tension', 'weights', 'weight', 'length', 'year', 'frame', 'shaft', 'level'].filter(f => x[f]).length;
     const sure = a => a.score - 2 * (a.x.est || []).filter(f => f !== 'price').length - (a.x.flex && a.x.balance ? 0 : 4);
     // the racket finder: every racket with this string, inside the budget (rackets with no price stay in), best first
     const budget = Number(state.m.budget) || 0, cur = state.m.cur || '';
-    const ranked = db.r.map(x => ({ x, ...score(x, s, level, style, shuttle, climate, game, arm) }))
+    const ranked = db.r.map(x => ({ x, ...mineAdj(score(x, s, level, style, shuttle, climate, game, arm), s, mo) }))
       .filter(a => !budget || !Number(a.x.price) || Number(a.x.price) <= budget)
       .sort((a, b) => sure(b) - sure(a) || b.score - a.score || known(b.x) - known(a.x));
     const altR = ranked.slice(0, 5);
@@ -1146,6 +1178,67 @@
       <p class="small muted">จับกับเอ็นที่เลือก${budget ? ' ไม้ที่ยังไม่มีราคารวมอยู่ด้วย' : ''}${altR[0] && altR[0].x.id !== r.id ? `. ไม้ที่เลือกอยู่อันดับ ${ranked.indexOf(mine) + 1 || '-'} แพ้อันดับ 1 เพราะอันดับ 1 ${esc(edge(altR[0], mine))}` : ''}</p>
       <ol class="mrank">${altR.map((a, i) => `<li>${altCard(a, 'r', a.x.id === r.id ? 'ที่เลือกอยู่' : '')}<p class="small muted">${i < altR.length - 1 ? esc(edge(a, altR[i + 1])) + ' เทียบกับอันดับ ' + (i + 2) : ''}</p></li>`).join('')}</ol>
       <p class="note">คะแนนและปอนด์ที่แนะนำคำนวณจากสเปกไม้ คะแนนเอ็น และระดับ/สไตล์ที่เลือก ไม่ใช่ตัวเลขที่ผู้ผลิตประกาศ ควรปรึกษาช่างขึงเอ็นประกอบ</p>`;
+    renderLog(r, s, res, mo);
+  }
+
+  // the log form, the entries, the offset in force and the export, under the results
+  function renderLog(r, s, res, mo) {
+    const box = view.querySelector('#mlog'); if (!box) return;
+    const es = mylog.entries, msg = state.mlogMsg || ''; state.mlogMsg = '';
+    const sign = v => v > 0 ? '+' + v : String(v);
+    box.innerHTML = `
+      <h2>บันทึกการขึ้นเอ็นของฉัน</h2>
+      <p class="small muted">ขึ้นเอ็นแล้วลองตีสักพัก มาบอกว่ารู้สึกยังไง ค่าที่แนะนำจะขยับตามความชอบของคุณ เก็บไว้ในเบราว์เซอร์นี้เท่านั้น</p>
+      <form class="mlogf" id="mlogf">
+        <p class="small">บันทึกชุดนี้: <b>${esc(full(r))} + ${esc(full(s))}</b>, ${L.level[state.m.level]}สาย${L.style[state.m.style]}</p>
+        <label class="mlogl">ขึ้นกี่ปอนด์ <input class="input" type="number" name="lbs" min="14" max="40" step="1" value="${res.tension}" required></label>
+        <fieldset class="mlogfeel"><legend class="small">ตีแล้วรู้สึก</legend>
+          ${Object.entries(FEEL).map(([k, v]) => `<label><input type="radio" name="feel" value="${k}"${k === 'good' ? ' checked' : ''}> ${v}</label>`).join('')}
+        </fieldset>
+        <label class="mlogl">หมายเหตุ <input class="input" type="text" name="note" maxlength="120" placeholder="เช่น ตีสองสัปดาห์แล้ว"></label>
+        <button class="btn" type="submit">บันทึก</button> <span class="small" role="status">${esc(msg)}</span>
+      </form>
+      ${es.length ? `
+        <p class="small"><b>${mo.n ? (mo.off ? `ค่าที่แนะนำปรับ ${sign(mo.off)} lbs` : 'ยังไม่ปรับค่าแนะนำ') + ` จาก ${mo.n} บันทึก` : 'บันทึกที่ไม้หรือเอ็นหายไปจากข้อมูลไม่นับ'}</b>
+          <label class="mlogon"><input type="checkbox" data-logon ${mylog.on ? 'checked' : ''}> ใช้ค่าปรับนี้</label></p>
+        <ul class="mloglist">${es.slice().reverse().map(e => `<li>
+          <span><b class="fig">${esc(e.lbs)} lbs</b> ${esc(FEEL[e.feel] || '')}, ${esc(e.rn || '')} + ${esc(e.sn || '')}<span class="small muted"> ${esc(e.date || '')}${e.note ? ', ' + esc(e.note) : ''}</span></span>
+          <button type="button" class="btn sm" data-logdel="${esc(e.id)}" aria-label="ลบบันทึกนี้">ลบ</button></li>`).join('')}</ul>
+        <p><button type="button" class="btn sm" data-logcopy>คัดลอกเป็นแถวสำหรับ tests/feedback.js</button>
+          <button type="button" class="btn sm" data-logclear>ล้างบันทึกทั้งหมด</button></p>
+        <p class="small muted">ค่าปรับเฉลี่ยจากทุกบันทึก ไม่เกิน ±${OFF_MAX} lbs และไม่เกินเพดานของไม้และเอ็น "หย่อนไป" ถือว่าที่พอดีอยู่สูงกว่าที่ขึ้นราว ${FEEL_GAP} lbs "ตึงไป" ต่ำกว่าราว ${FEEL_GAP} lbs</p>` : ''}`;
+  }
+  // one row of tests/feedback.js for each entry, options only where they are not the defaults
+  function logRows() {
+    const q = x => "'" + String(x).replace(/\\/g, '\\\\').replace(/'/g, "\\'") + "'";
+    const DEF = { shuttle: 'feather', climate: 'normal', game: 'doubles', arm: 'none', head: '' };
+    return mylog.entries.filter(e => e.rn && e.sn).map(e => {
+      const o = Object.entries(e.o || {}).filter(([k, v]) => v && DEF[k] !== v).map(([k, v]) => `${k}: ${q(v)}`).join(', ');
+      return `  { racket: ${q(e.rn)}, string: ${q(e.sn)}, level: ${q(e.level)}, style: ${q(e.style)}, lbs: ${Number(e.lbs)}, feel: ${q(e.feel)}${o ? `, options: { ${o} }` : ''}, who: '', date: ${q(e.date || '')} },`;
+    }).join('\n');
+  }
+  function logEvents() {
+    const box = view.querySelector('#mlog');
+    box.addEventListener('submit', e => {
+      e.preventDefault();
+      const f = new FormData(e.target), lbs = Number(f.get('lbs')), feel = f.get('feel');
+      const r = byId('r', state.m.r), s = byId('s', state.m.s);
+      if (!(lbs >= 14 && lbs <= 40) || !FEEL[feel] || !r || !s) { state.mlogMsg = 'ปอนด์ต้องอยู่ระหว่าง 14–40'; renderMatch(); return; }
+      const o = {}; for (const k of ['shuttle', 'climate', 'game', 'arm', 'head']) if (state.m[k]) o[k] = state.m[k];
+      mylog.entries.push({ id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), r: r.id, s: s.id, rn: full(r), sn: full(s),
+        level: state.m.level, style: state.m.style, o, lbs, feel, note: String(f.get('note') || '').trim().slice(0, 120), date: new Date().toISOString().slice(0, 10) });
+      logSave(); state.mlogMsg = 'บันทึกแล้ว'; renderMatch();
+    });
+    box.addEventListener('change', e => { if (e.target.matches('[data-logon]')) { mylog.on = e.target.checked; logSave(); renderMatch(); } });
+    box.addEventListener('click', e => {
+      const del = e.target.closest('[data-logdel]'), cp = e.target.closest('[data-logcopy]'), clr = e.target.closest('[data-logclear]');
+      if (del) { mylog.entries = mylog.entries.filter(x => x.id !== del.dataset.logdel); logSave(); renderMatch(); }
+      else if (clr) { if (confirm('ล้างบันทึกการขึ้นเอ็นทั้งหมด?')) { mylog.entries = []; logSave(); renderMatch(); } }
+      else if (cp) {
+        const txt = logRows(), done = () => { cp.textContent = 'คัดลอกแล้ว'; setTimeout(() => { cp.textContent = 'คัดลอกเป็นแถวสำหรับ tests/feedback.js'; }, 1600); };
+        navigator.clipboard?.writeText(txt).then(done, () => { prompt('คัดลอกแถวนี้', txt); });
+      }
+    });
   }
 
   // ---------- manage ----------

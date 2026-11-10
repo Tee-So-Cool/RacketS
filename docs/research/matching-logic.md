@@ -448,3 +448,21 @@ This batch ran 18 searches covering 21 rackets, with the same method and pacing 
 **Nothing usable:** Thruster F HS, Jetspeed S 11, DriveX Phecda.
 
 Tests: 26/26 pass.
+
+## Personal tension log (2026-11-10)
+
+The match page keeps a log, in the browser only (`localStorage` key `rs.tensionlog.v1`), of setups the player strung and
+how they felt: loose, good or tight. Each entry's own choices (racket, string, level, style, shuttle, climate, game, arm,
+head) are re-run through `score()` to get the number the model would have given. "Loose" says the right number lies about
+1.5 lbs above what was strung, "tight" 1.5 below, "good" at it; the gap to the model's number is that entry's residual.
+
+The personal offset is the sum of residuals divided by (entries + 1), rounded and capped at +-3 lbs. Dividing by one more
+than the count shrinks a single report toward zero; one "loose" at the recommended number gives +1, which keeps the effect
+at the 1-2 lbs a player can feel (the same figure `tensionFeel` states). It is added to every recommendation on the page
+(the main result, the string list and the racket ranking), never past the racket's or string's ceiling less 1 lb, and
+shows as its own step in the "how the number was reached" list. A checkbox turns it off. Entries whose racket or string is
+no longer in the data are skipped.
+
+This is a judgement rule, not a measured one: the 1.5 lb gap and the shrinkage are choices, to be replaced by what
+`tests/feedback.js` shows once there are enough real reports. The log's "copy" button writes entries as rows of that file,
+so a report made in the browser becomes a test (good: within 1 lb; loose: recommendation above; tight: below).

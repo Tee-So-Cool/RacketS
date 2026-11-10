@@ -499,3 +499,18 @@ body { font-size: var(--text-md); }
 .whodlg { max-width: min(46rem, calc(100vw - 2rem)); max-height: 85vh; overflow: auto; border: 1px solid var(--line, currentColor); border-radius: 12px; padding: var(--space-md); background: var(--bg, Canvas); color: inherit; }
 .whodlg::backdrop { background: rgb(0 0 0 / .45); }
 .whodlg .x-btn { float: right; }
+
+/* the player's own tension log, under the match results */
+.mlog { margin-top: var(--space-xl); }
+.mlogf { display: flex; flex-wrap: wrap; align-items: end; gap: var(--space-sm) var(--space-lg); padding: var(--space-sm); background: var(--color-paper-2); border-radius: var(--radius-card); box-shadow: inset 0 0 0 1px var(--line-soft); }
+.mlogf > p { flex-basis: 100%; margin: 0; }
+.mlogl { display: flex; flex-direction: column; gap: var(--space-3xs); font-size: var(--text-sm); }
+.mlogl input[type="number"] { width: 6rem; }
+.mlogfeel { display: flex; gap: var(--space-md); border: 0; padding: 0; margin: 0; }
+.mlogfeel legend { padding: 0; margin-bottom: var(--space-3xs); }
+.mlogfeel label { display: inline-flex; align-items: center; gap: var(--space-2xs); min-height: var(--control-h); }
+.mlogfeel input:focus-visible, .mlogon input:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; }
+.mlogon { margin-left: var(--space-md); font-weight: 400; }
+.mloglist { list-style: none; padding: 0; margin: var(--space-sm) 0; display: grid; gap: var(--space-2xs); }
+.mloglist li { display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm); padding: var(--space-xs) var(--space-sm); background: var(--color-paper-2); border-radius: var(--radius-inner); min-width: 0; }
+.mloglist li > span { min-width: 0; overflow-wrap: anywhere; }
