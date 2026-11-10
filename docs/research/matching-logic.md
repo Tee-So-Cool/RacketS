@@ -471,8 +471,11 @@ so a report made in the browser becomes a test (good: within 1 lb; loose: recomm
 
 `bp` is the balance point in millimetres, read from the labelled balance value of a shop or maker page (`bp_of` in
 `scripts/spec_text.py`): "295±3mm" is 295, a range is its middle, several weight classes give the first listed (4U). Felet's
-46 come from the maker's spec sheets, the rest from shop feeds and Badminton Bay: 230 of 786 rackets have it (VS 79 of 80,
-Apacs 43, Li-Ning 35, Yonex 22, Victor 5; Mizuno and Kawasaki none).
+46 come from the maker's spec sheets, the rest from shop feeds and Badminton Bay: 345 of 786 rackets have it (Li-Ning 150 of
+202, VS 79 of 80, Apacs 43, Yonex 22, Victor 5; Mizuno and Kawasaki none). A page that prints both "Balance: Even Balance"
+and "Balance point: 302 mm" keeps the class from the first label and the mm from whichever label has them; that read added 115.
+Another 34 rackets carry a mm figure only in review prose ("Head-Heavy Balance (295mm)", comparisons between two models), which
+is not read: it is not a labelled spec and often describes a different model. Victor prints no balance point anywhere.
 
 The class (head-light, even, head-heavy) is still the balance everywhere in the match logic, because the sources draw the
 class lines in different places (a parser reads 295 and over as head-heavy, Badminton Bay 300 and over, and in this data the

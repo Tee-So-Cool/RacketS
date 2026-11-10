@@ -204,12 +204,17 @@ def parse(lines, options=()):
         # shaft label free for the material line that follows
         if f == 'shaft' and not is_material(val) and flex_of(val):
             out.setdefault('flex', val.strip()); continue
+        # a page may print a class and a point under two balance labels ("Balance: Even Balance", "Balance point: 302 mm"):
+        # the first keeps the class, and the millimetres are read from whichever label has them
+        if f == 'balance' and not out.get('_bp'):
+            b = bp_of(val)
+            if b: out['_bp'] = b
         if f and f not in out: out[f] = val.strip()
     # normalise the labelled values; a "shaft" label holding a stiffness word is the flex, not the material
     if out.get('shaft') and not out.get('flex') and flex_of(out['shaft']) and not re.search(r'graphite|carbon|fib|nano|titan', out['shaft'], re.I):
         out['flex'] = out.pop('shaft')
     res = {
-        'balance': balance_of(out.get('balance')), 'bp': bp_of(out.get('balance')), 'flex': flex_of(out.get('flex')),
+        'balance': balance_of(out.get('balance')), 'bp': out.get('_bp') or bp_of(out.get('balance')), 'flex': flex_of(out.get('flex')),
         # "Weight/Grip Size: 82±2g (4U) / G6" lands under grips (the earlier rule); its weight is read from there too
         'weights': weights_of(out.get('weight') or out.get('grips', '')), 'weight': grams_of(out.get('weight') or out.get('grips', ''), labelled=True),
         'tmax': tmax_of(out.get('tension', '')) or (int(out['tension'][:2]) if re.match(r'\d{2}\b', out.get('tension', '')) else ''),
