@@ -149,6 +149,7 @@ for y in yx:
 
 # ---- manual spec lookups (data/spec-overrides.json): "Brand Model" -> fields + src ----
 def apply_override(r, o):
+    if 'level' in o: r['_lvset'] = True   # a level set by hand is not replaced by a shop's range
     for f, v in o.items():
         if f in ('src', 'new', 'brand', 'currency', 'estFields') or v in ('', None): continue
         if f == 'priceForeign':
@@ -256,9 +257,19 @@ click = json.load(open(CLICK, encoding='utf-8')) if os.path.exists(CLICK) else [
 for c in click: c['src'] = 'click'
 LEVEL_WORD = {'beginner': 'beginner', 'beginners': 'beginner', 'intermediate': 'intermediate', 'advanced': 'advanced', 'professional': 'pro', 'pro': 'pro'}
 def one_level(t):
-    # "Intermediate - Advanced" is a range, not a level; only a single word counts
+    # "Intermediate - Advanced" is a range, not one level; only a single word counts here (the range goes to level_range)
     w = (t or '').strip().lower()
     return LEVEL_WORD.get(w, '')
+LEVELS = ['beginner', 'intermediate', 'advanced', 'pro']
+def level_range(t):
+    # "Intermediate - Advanced", "beginner to intermediate", "advanced / professional": the lowest and the highest level
+    # word of a short label, as 'low|high', when they differ. A label with one level word is not a range.
+    t = (t or '').strip().lower()
+    if not t or len(t) > 40: return ''
+    ws = {LEVEL_WORD.get(w[:-1] if w.endswith('s') else w) for w in re.findall(r'beginners?|intermediate|advanced|professionals?|\bpro\b', t)} - {None}
+    if len(ws) < 2: return ''
+    ix = sorted(LEVELS.index(w) for w in ws)
+    return LEVELS[ix[0]] + '|' + LEVELS[ix[-1]]
 # Other shops with a public product feed (scripts/fetch_shops.py): raw {label: value} spec blocks, mapped here
 SHOPS = os.path.join(SRC, 'shops.json')
 BRAND_OF = {'victor': 'Victor', 'yonex': 'Yonex', 'li-ning': 'Li-Ning', 'li ning': 'Li-Ning', 'lining': 'Li-Ning', 'vs': 'VS',
@@ -395,7 +406,8 @@ for bz in bay + click + shops:
                 'tension': [ps.get('tmin') or None, ps['tmax']] if ps['tmax'] else None, 'grips': ps['grips'], 'img': bz.get('img', ''),
                 # Li-Ning's own stores tag even entry rackets "Professional", so their level is not used; nor is Cork and
                 # Feathers' (all nine Victor pages it has read Advanced or Professional, which looks like its price tier)
-                'level': '' if 'lining.studio' in bz['shop'] or 'corkandfeathers' in bz['shop'] else one_level(ps['level']), 'recString': ps['recText'],
+                'level': '' if 'lining.studio' in bz['shop'] or 'corkandfeathers' in bz['shop'] else one_level(ps['level']),
+                'levelRange': '' if 'lining.studio' in bz['shop'] or 'corkandfeathers' in bz['shop'] else level_range(ps['level']), 'recString': ps['recText'],
                 **{f: ps[f] for f in ('frame', 'shaft', 'length', 'joint', 'madeIn', 'tech', 'players', 'pattern')}}
         # Li-Ning's own stores label each racket's player type; "Defensive" ones are 44 of 51 head-light, so they are speed rackets here
         if 'lining.studio' in bz['shop']:
@@ -405,7 +417,7 @@ for bz in bay + click + shops:
     else:
         fill = {'balance': bay_balance(bz.get('balance')), 'bp': bp_of(bz.get('balance')), 'flex': bay_flex(bz.get('flex')), 'weights': ws, 'weight': g,
             'tension': tension(bz.get('tension', '')), 'frame': bz.get('frame', ''), 'shaft': bz.get('shaft', ''),
-            'length': bz.get('length', ''), 'img': bz.get('img', ''), 'level': one_level(bz.get('level')),
+            'length': bz.get('length', ''), 'img': bz.get('img', ''), 'level': one_level(bz.get('level')), 'levelRange': level_range(bz.get('level')),
             'grips': re.sub(r'\s*\(.*?\)', '', bz.get('grips', '')),
             'recString': bz.get('recText') or ', '.join(f'{v} ({k})' for k, v in (('คุม', bz.get('strControl')), ('พลัง', bz.get('strPower'))) if v),
             'joint': bz.get('joint', ''), 'madeIn': bz.get('madeIn', ''), 'tech': bz.get('tech', ''), 'players': bz.get('players', ''),
@@ -484,6 +496,17 @@ for full_name in unmatched:
     if r is None: late.append(full_name)
     else: apply_override(r, overrides[full_name])
 if late: print('override names not found:', late)
+# ---- level ranges: where no single level is stated (none, or only an estimate), the range shops print is kept as
+# level..levelTo; a level set by hand, or a single level from a source, stays ----
+ranged = 0
+for r in rackets.values():
+    rg = r.pop('levelRange', ''); fixed = r.pop('_lvset', False)
+    if not rg or fixed or (r.get('level') and 'level' not in r.get('est', []) and 'level' not in r.get('proseEst', [])): continue
+    r['level'], r['levelTo'] = rg.split('|')
+    for k in ('est', 'proseEst'):
+        if 'level' in r.get(k, []): r[k].remove('level')
+    ranged += 1
+print('level ranges from shops', ranged)
 # ---- series-based estimates for missing style/balance (flagged in r['est']) ----
 SERIES = [
     ('Victor', r'thruster|\bTK\b', 'attack', 'head-heavy'),
@@ -645,7 +668,7 @@ for r in rackets.values():
         break
 print('tension per class', per_class)
 
-order = ['id', 'brand', 'name', 'year', 'style', 'balance', 'bp', 'flex', 'level', 'weights', 'weight', 'grips', 'tension', 'tensionNote', 'price',
+order = ['id', 'brand', 'name', 'year', 'style', 'balance', 'bp', 'flex', 'level', 'levelTo', 'weights', 'weight', 'grips', 'tension', 'tensionNote', 'price',
          'frame', 'shaft', 'joint', 'length', 'head', 'pattern', 'tech', 'players', 'madeIn', 'recString', 'img', 'source', 'officialUrl', 'specSrc', 'shopUrl', 'bayUrl', 'clickUrl', 'shopLinks', 'priceNote', 'priceSrc', 'note', 'est']
 final, seen = [], set()
 for r in sorted(rackets.values(), key=lambda r: (r['brand'], r['name'])):

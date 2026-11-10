@@ -96,8 +96,15 @@
   const gaugeGroup = g => !g ? '' : g <= 0.63 ? 'thin' : g < 0.68 ? 'mid' : 'thick';
   const sortName = (a, b) => full(a).localeCompare(full(b));
   // label for an enum field, with a marker when the value is a series-based estimate (r.est)
+  // a racket's level can be a range (level..levelTo) where its sources print one, e.g. "intermediate - advanced"
+  const lvLo = r => ordIdx('level', r.level, -1);
+  const lvHi = r => { const lo = lvLo(r), hi = ordIdx('level', r.levelTo, lo); return lo < 0 ? -1 : Math.max(lo, hi); };
+  const lvText = r => {
+    const a = L.level[r.level] || '', b = lvHi(r) > lvLo(r) ? L.level[r.levelTo] : '';
+    return b ? `${a}–${a.startsWith('ระดับ') ? b.replace(/^ระดับ/, '') : b}` : a;
+  };
   const lab = (r, field) => {
-    const v = L[field][r[field]];
+    const v = field === 'level' ? lvText(r) : L[field][r[field]];
     if (!v) return '';
     return (r.est || []).includes(field) ? `≈${v}` : v;
   };
@@ -150,7 +157,7 @@
   function racketProfile(r) {
     const bal = balPos(r);
     const fx = ordIdx('flex', r.flex, 1.5) / 3;
-    const lv = ordIdx('level', r.level, 1.5) / 3;
+    const lv = lvLo(r) < 0 ? 0.5 : (lvLo(r) + lvHi(r)) / 2 / 3;   // the middle of a range
     const w = clamp(((Number(r.weight) || 83) - 74) / 16);
     // 18-40 lbs: 20-lb starter frames still register, and the 205 frames rated 32 lbs or more (VS and Felet go to 38-42)
     // stay apart instead of all hitting the edge
@@ -232,7 +239,7 @@
       filters: ['style', 'balance', 'flex', 'level'],
       filterAll: { style: 'ทุกแนวการเล่น', balance: 'ทุกสมดุล', flex: 'ทุกความแข็งก้าน', level: 'ทุกระดับ' },
       sorts: { name: 'เรียงตามชื่อ', year: 'ใหม่สุดก่อน', priceAsc: 'ราคาต่ำ → สูง', priceDesc: 'ราคาสูง → ต่ำ' },
-      match: (x, f) => (!f.style || x.style === f.style) && (!f.balance || x.balance === f.balance) && (!f.flex || x.flex === f.flex) && (!f.level || x.level === f.level),
+      match: (x, f) => (!f.style || x.style === f.style) && (!f.balance || x.balance === f.balance) && (!f.flex || x.flex === f.flex) && (!f.level || (lvLo(x) <= ordIdx('level', f.level, -2) && ordIdx('level', f.level, -2) <= lvHi(x))),
       card: r => `
         ${r.img ? `<img class="thumb" src="${esc(r.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<div class="thumb" aria-hidden="true"></div>'}
         <span class="tag ${r.style || ''}">${lab(r, 'style') || '—'}</span>
@@ -657,9 +664,9 @@
       if (r.flex) parts.push(['ความแข็งก้าน', e('flex') + W_TXT.flex[r.flex]]);
       const cap = r.tension && r.tension[1];
       if (cap) parts.push(['ความตึงเอ็น', `${e('tension') ? 'ประเมินว่า' : 'ผู้ผลิตประกาศว่า'}รับความตึงเอ็นได้สูงสุดราว ${cap} ปอนด์ ไม่จำเป็นต้องขึ้นเต็มเพดาน เอ็นที่ตึงน้อยกว่าจะส่งลูกได้ไกลกว่าและให้อภัยเวลาตีไม่โดนกลางหน้าไม้ ส่วนเอ็นตึงให้ความแม่นมากกว่าแต่ต้องตีให้โดนกลางหน้าไม้${r.tensionNote ? ' (' + r.tensionNote + ')' : ''}`]);
-      const fit = [W_FIT.style[r.style], W_FIT.level[r.level]].filter(Boolean);
+      const fit = [W_FIT.style[r.style], W_FIT.level[r.level], lvHi(r) > lvLo(r) ? W_FIT.level[r.levelTo] : ''].filter(Boolean);
       const sib = db.r.filter(x => x.id !== r.id && x.brand === r.brand && series(x) === series(r)).slice(0, 6);
-      const desc = [r.style && `ในสาย${L.style[r.style]}`, r.flex && `เน้น${{ control: 'การวางลูกแม่นและคุมจังหวะ', attack: 'ลูกตบหนัก', speed: 'ความไวในการสวิงและการแลกลูกเร็ว' }[r.style] || (r.flex === 'flexible' ? 'ตีง่ายและแรงดีด' : r.balance === 'head-heavy' ? 'ลูกตบหนัก' : r.balance === 'head-light' ? 'ความไวในการสวิงและการแลกลูกเร็ว' : 'ความสมดุลระหว่างบุกกับรับ')}`, r.level && `เหมาะกับ${L.level[r.level]}`].filter(Boolean).join(' ');
+      const desc = [r.style && `ในสาย${L.style[r.style]}`, r.flex && `เน้น${{ control: 'การวางลูกแม่นและคุมจังหวะ', attack: 'ลูกตบหนัก', speed: 'ความไวในการสวิงและการแลกลูกเร็ว' }[r.style] || (r.flex === 'flexible' ? 'ตีง่ายและแรงดีด' : r.balance === 'head-heavy' ? 'ลูกตบหนัก' : r.balance === 'head-light' ? 'ความไวในการสวิงและการแลกลูกเร็ว' : 'ความสมดุลระหว่างบุกกับรับ')}`, r.level && `เหมาะกับ${lvText(r)}`].filter(Boolean).join(' ');
       return `<details class="who"${open ? ' open' : ''}><summary><h3>${esc(full(r))} เหมาะกับใคร</h3></summary>
         <p>${esc(full(r))} เป็นไม้แบดมินตันจาก ${esc(r.brand)}${desc ? ' ' + desc : ''} ด้านล่างคือคำอธิบายสเปกแต่ละข้อว่ามีผลกับการตีจริงอย่างไร</p>
         ${parts.length ? `<h4>อธิบายสเปกแบบเข้าใจง่าย</h4><dl>${parts.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}</dl>` : ''}
@@ -877,12 +884,15 @@
       if (r.style === style) ok(`ไม้เป็นสาย${L.style[r.style]} ตรงกับสไตล์ที่เลือก`);
       else if (sf < 0) wn(`ไม้วางตัวเป็นสาย${L.style[r.style]} แต่เลือกสไตล์${L.style[style]}`);
     }
-    const d = ordIdx('level', r.level, -9) - lv, half = rEst.includes('level') ? 0.5 : 1;
-    if (d === 0) { pR += 10 * half; if (half === 1) ok(`ผู้ผลิตทำไม้รุ่นนี้สำหรับ${L.level[r.level]} ตรงกับระดับที่เลือก`); }
-    else if (d === 1) { pR -= 4 * half; if (half === 1) wn(`ไม้ทำมาสำหรับ${L.level[r.level]} สูงกว่าระดับที่เลือกหนึ่งขั้น`); }
-    else if (d >= 2) { pR -= 18 * half; wn(`ไม้สำหรับ${L.level[r.level]}${half < 1 ? ' (ประเมินจากราคา)' : ''} อาจตีหนักมือสำหรับ${L.level[level]}`); }
+    // a range ("intermediate - advanced") fits every level inside it, a little less than one exact level (the wider the claim, the
+    // less it says); outside it, the distance to its nearest end counts as the gap
+    const lo = lvLo(r), hi = lvHi(r), width = Math.max(0, hi - lo), LT = lvText(r);
+    const d = lo < 0 ? -9 : lv < lo ? lo - lv : lv > hi ? hi - lv : 0, half = rEst.includes('level') ? 0.5 : 1;
+    if (d === 0) { pR += [10, 8, 6][Math.min(width, 2)] * half; if (half === 1) ok(`ผู้ผลิตทำไม้รุ่นนี้สำหรับ${LT} ตรงกับระดับที่เลือก`); }
+    else if (d === 1) { pR -= 4 * half; if (half === 1) wn(`ไม้ทำมาสำหรับ${LT} สูงกว่าระดับที่เลือกหนึ่งขั้น`); }
+    else if (d >= 2) { pR -= 18 * half; wn(`ไม้สำหรับ${LT}${half < 1 ? ' (ประเมินจากราคา)' : ''} อาจตีหนักมือสำหรับ${L.level[level]}`); }
     else if (d === -1) pR -= 4 * half;
-    else if (d <= -2 && d > -9) { pR -= (d <= -3 ? 30 : 18) * half; wn(`ไม้สำหรับ${L.level[r.level]} อาจไม่ตอบโจทย์${L.level[level]}`); }
+    else if (d <= -2 && d > -9) { pR -= (d <= -3 ? 30 : 18) * half; wn(`ไม้สำหรับ${LT} อาจไม่ตอบโจทย์${L.level[level]}`); }
 
     // 3. racket with string [low: judgement, no published pairing tables]
     let pS = 60;
@@ -946,7 +956,7 @@
     // take the level's tension (a 20 lb aluminium frame for a pro), caps the whole score
     if ((d <= -3 && d > -9 && half === 1) || cap < bLo - 3) {
       total = Math.min(total, 50);
-      wn(cap < bLo - 3 ? `ไม้รับเอ็นได้แค่ ${cap} lbs ต่ำกว่าที่${L.level[level]}ใช้มาก ไม่เหมาะกับระดับนี้` : `ไม้สำหรับ${L.level[r.level]} ห่างจากระดับ${L.level[level]}มาก`);
+      wn(cap < bLo - 3 ? `ไม้รับเอ็นได้แค่ ${cap} lbs ต่ำกว่าที่${L.level[level]}ใช้มาก ไม่เหมาะกับระดับนี้` : `ไม้สำหรับ${lvText(r)} ห่างจากระดับ${L.level[level]}มาก`);
     }
 
     // how sure: the inputs that weigh most, counted when they are estimates or missing
@@ -990,7 +1000,7 @@
     const t = Math.min(res.tension + mine.off, cap - 1);
     return t === res.tension ? res : { ...res, tension: t, steps: [...res.steps, [`ปรับตามบันทึกของคุณ (${mine.n} บันทึก)`, t - res.tension]] };
   }
-  window.RS_TEST = { score: (...a) => score(...a), byId, calcOffset, mineAdj, profile: racketProfile, balPos };
+  window.RS_TEST = { score: (...a) => score(...a), byId, calcOffset, mineAdj, profile: racketProfile, balPos, lvText };
   const verdict = n => n >= 80 ? ['เข้ากันดีมาก', 'var(--color-accent)'] : n >= 65 ? ['เข้ากันดี', 'var(--color-accent)'] : n >= 50 ? ['พอใช้ได้', 'var(--color-ink)'] : ['ไม่ค่อยเหมาะ', 'var(--color-bad)'];
 
   function viewMatch() {
@@ -1137,7 +1147,7 @@
       <button type="button" class="malt" data-pick="${kind}:${esc(a.x.id)}">
         ${a.x.img ? `<img src="${esc(a.x.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<span class="mimg-empty"></span>'}
         <span class="malt-t">${tag ? `<span class="malt-tag">${esc(tag)}</span>` : ''}<span class="malt-n">${esc(full(a.x))}</span>
-          <span class="malt-m">${kind === 's' ? [gaugeLabel(a.x), a.x.price ? baht(a.x.price) : ''].filter(Boolean).map(esc).join(', ') : [L.style[a.x.style], L.level[a.x.level]].filter(Boolean).join(', ')}</span></span>
+          <span class="malt-m">${kind === 's' ? [gaugeLabel(a.x), a.x.price ? baht(a.x.price) : ''].filter(Boolean).map(esc).join(', ') : [L.style[a.x.style], lvText(a.x)].filter(Boolean).join(', ')}</span></span>
         <span class="malt-s"><b class="fig">${a.score}</b><span>คะแนน</span><span class="fig">${a.tension} lbs</span></span>
       </button>`;
     // what the recommended tension feels like, and what 2 lbs either way changes (general string physics, not a maker's claim)
@@ -1263,7 +1273,7 @@
     r: [
       ['brand', 'แบรนด์ *', 'text', { list: 1 }], ['name', 'ชื่อรุ่น *', 'text'], ['year', 'ปีที่ออก', 'number'],
       ['style', 'แนวการเล่น', 'select', L.style], ['balance', 'สมดุล', 'select', L.balance], ['bp', 'จุดสมดุล (mm)', 'number', { step: '0.5' }],
-      ['flex', 'ความแข็งก้าน', 'select', L.flex], ['level', 'ระดับผู้เล่น', 'select', L.level],
+      ['flex', 'ความแข็งก้าน', 'select', L.flex], ['level', 'ระดับผู้เล่น', 'select', L.level], ['levelTo', 'ระดับผู้เล่น (ถึง ถ้าเป็นช่วง)', 'select', L.level],
       ['weights', 'น้ำหนัก (เช่น 3U, 4U)', 'text'], ['weight', 'น้ำหนักเฉลี่ย (g)', 'number'], ['grips', 'ขนาดด้าม', 'text'],
       ['tmin', 'ความตึงต่ำสุด (lbs)', 'number'], ['tmax', 'ความตึงสูงสุด (lbs)', 'number'], ['price', 'ราคาประมาณ (บาท)', 'number'],
       ['frame', 'วัสดุเฟรม', 'text'], ['shaft', 'วัสดุก้าน', 'text'], ['joint', 'ข้อต่อเฟรม-ก้าน', 'text'], ['length', 'ความยาว', 'text'],
@@ -1312,7 +1322,7 @@
           <thead><tr><th>รุ่น</th><th>${kind === 'r' ? 'แนว / ระดับ' : 'ขนาด / วัสดุ'}</th><th>ราคา</th><th></th></tr></thead>
           <tbody>${list.map(x => `<tr>
             <td><b>${esc(full(x))}</b>${x.year ? ` <span class="muted small">${x.year}</span>` : ''}</td>
-            <td class="small">${kind === 'r' ? [L.style[x.style], L.level[x.level]].filter(Boolean).join(', ') : esc(gaugeLabel(x)) + ', ' + esc(L.material[x.material] || '')}</td>
+            <td class="small">${kind === 'r' ? [L.style[x.style], lvText(x)].filter(Boolean).join(', ') : esc(gaugeLabel(x)) + ', ' + esc(L.material[x.material] || '')}</td>
             <td class="small">${kind === 'r' ? baht(x.price) : (x.price ? x.price + ' บาท' : '—')}</td>
             <td><button class="btn sm" data-ed="${esc(x.id)}">แก้ไข</button> <button class="btn sm" data-dup="${esc(x.id)}">ทำสำเนา</button> <button class="btn sm danger" data-del="${esc(x.id)}">ลบ</button></td>
           </tr>`).join('') || '<tr><td colspan="4" class="empty">ไม่มีรายการ</td></tr>'}</tbody>
@@ -1398,6 +1408,7 @@
       item[k] = NUMERIC.has(k) ? (raw === '' ? '' : Number(raw)) : raw;
     }
     if (kind === 'r') {
+      if (!(ordIdx('level', item.levelTo, -1) > ordIdx('level', item.level, 99))) item.levelTo = '';   // only a higher level makes a range
       item.tension = item.tmin !== '' && item.tmax !== '' ? [item.tmin, item.tmax] : null;
       delete item.tmin; delete item.tmax;
       // a field the user set by hand is no longer an estimate
@@ -1413,7 +1424,7 @@
   function exportFile(kind) {
     const name = kind === 'r' ? 'rackets' : 'strings';
     const head = kind === 'r'
-      ? '// ข้อมูลไม้แบด — style: attack|speed|control|allround, balance: head-light|even|head-heavy,\n// flex: flexible|medium|stiff|extra-stiff, level: beginner|intermediate|advanced|pro\n'
+      ? '// ข้อมูลไม้แบด — style: attack|speed|control|allround, balance: head-light|even|head-heavy,\n// flex: flexible|medium|stiff|extra-stiff, level: beginner|intermediate|advanced|pro (levelTo: the top of a range)\n'
       : '// ข้อมูลเอ็น — material: multi|mono|braided|hybrid|coated, คะแนน 1–10\n';
     const text = `${head}window.${name.toUpperCase()} = ${JSON.stringify(db[kind], null, 2)};\n`;
     const a = document.createElement('a');

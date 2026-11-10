@@ -494,3 +494,21 @@ The estimates stay as they were.
 Astrox 11 at 4,483 baht is not a data error: it is a Japan-market model sold in Thailand only through importers (Shopee
 Thailand 4,422-4,577; JoyBadminton US$119.99; an Italian shop EUR 92; a Japan seller US$128; all frame only), so it costs far
 more than Yonex's other beginner frames. The override note says so.
+
+## Level as a range (2026-11-10)
+
+A racket's level can now be a range: `level` is its low end and `levelTo` the top (absent for one level). Shops print ranges
+on more than half of their structured level labels ("Intermediate - Advanced", "beginner to intermediate", "advanced /
+professional": 242 of 508 in the feeds held), which the build used to drop, and twelve searches on Victor models returned
+nothing else. `level_range()` in `scripts/build_rackets.py` reads the lowest and highest level word of a short label.
+
+When it applies: only where the racket has no single level from a source (none, or just an estimate); a single level from a
+maker's tier names or a shop, and any level set by hand in `spec-overrides.json`, are kept. The range is stated by a source,
+so it is not marked as an estimate. Li-Ning's own stores and Cork and Feathers stay excluded, as for single levels. In the
+data this gave ranges to 10 rackets from the feeds (58 more have a range in a shop copy but keep the maker's single tier, for
+example Astrox 99 Pro: Yonex's own "Pro" over retailers' "intermediate - advanced") and 6 Victor models by hand.
+
+In the match score (`score`, racket part): inside the range the level fits, with a bonus of 10 for one level, 8 for two and 6 for
+three or more (the wider the claim, the less it says); outside it the gap is counted from the nearest end, with the same
+penalties as for a single level. The radar takes the middle of the range. The compare page and cards show it as
+"ระดับกลาง–สูง"; the level filter lists a racket under every level its range covers; the edit form has a "ถึง" field.

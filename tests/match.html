@@ -44,6 +44,22 @@ const cases = [
   ['ทุกไม้: คะแนน 0-100 และความตึงไม่เกินเพดานไม้', () => RACKETS.every(r => { for (const lv of ['beginner', 'pro']) {
       const x = score(r, S('Yonex BG66 Ultimax'), lv, 'attack'); const max = r.tension ? r.tension[1] : 30;
       if (!(x.score >= 0 && x.score <= 100) || x.tension > max) { console.log('bad', r.name, lv, x); return false; } } return true; })],
+  // a racket's level can be a range (level..levelTo)
+  ...(() => {
+    const { lvText } = window.RS_TEST, base = R('Yonex Arcsaber 11 Pro');   // a racket part that stays clear of the 0-100 limits at every level
+    const mk = (level, levelTo = '') => ({ ...base, level, levelTo, est: (base.est || []).filter(f => f !== 'level') });
+    const part = (r, lv) => score(r, S('Yonex BG66 Ultimax'), lv, 'attack').parts.racket;
+    return [
+      ['ระดับแบบช่วง: ข้อความ (กลาง–สูง, มือใหม่–กลาง, ค่าเดียว, ช่วงที่ไม่ขึ้น)', () => lvText(mk('intermediate', 'advanced')) === 'ระดับกลาง–สูง' && lvText(mk('beginner', 'intermediate')) === 'มือใหม่–ระดับกลาง' && lvText(mk('intermediate')) === 'ระดับกลาง' && lvText(mk('advanced', 'intermediate')) === 'ระดับสูง' && lvText(mk('advanced', 'advanced')) === 'ระดับสูง'],
+      ['ระดับแบบช่วง: ทั้งสองปลายของช่วงได้ต่างจากค่าเดียวเท่ากัน (−2 คะแนนไม้)', () => part(mk('intermediate', 'advanced'), 'intermediate') - part(mk('intermediate'), 'intermediate') === -2 && part(mk('intermediate', 'advanced'), 'advanced') - part(mk('advanced'), 'advanced') === -2],
+      ['ระดับแบบช่วง: ช่วงที่ครอบระดับผู้เล่น ดีกว่าค่าเดียวที่ห่างสองขั้น', () => part(mk('intermediate', 'advanced'), 'advanced') > part(mk('beginner'), 'advanced')],
+      ['ระดับแบบช่วง: ได้น้อยกว่าไม้ที่ระบุระดับนั้นตรง ๆ หนึ่งระดับ (ช่วงกว้างบอกน้อยกว่า)', () => part(mk('intermediate', 'advanced'), 'intermediate') < part(mk('intermediate'), 'intermediate')],
+      ['ระดับแบบช่วง: นอกช่วงนับจากปลายที่ใกล้ที่สุด (มือใหม่กับ กลาง–สูง = มือใหม่กับ กลาง)', () => part(mk('intermediate', 'advanced'), 'beginner') === part(mk('intermediate'), 'beginner')],
+      ['ระดับแบบช่วง: ช่วงกว้างสามระดับได้น้อยกว่าช่วงสองระดับ', () => part(mk('beginner', 'advanced'), 'intermediate') < part(mk('beginner', 'intermediate'), 'intermediate')],
+      ['ข้อมูล: levelTo ทุกอันสูงกว่า level และมีค่าถูกต้อง', () => RACKETS.filter(r => r.levelTo).every(r => ['beginner', 'intermediate', 'advanced', 'pro'].indexOf(r.levelTo) > ['beginner', 'intermediate', 'advanced', 'pro'].indexOf(r.level) && ['beginner', 'intermediate', 'advanced', 'pro'].indexOf(r.level) >= 0)],
+      ['ข้อมูล: Ryuga CLS เป็นช่วงมือใหม่–กลาง และไม่ใช่ค่าประเมิน', () => { const r = R('Victor Thruster Ryuga CLS'); return r.level === 'beginner' && r.levelTo === 'intermediate' && !r.est.includes('level'); }],
+    ];
+  })(),
   // radar: the balance point in mm only refines within a balance class, and the tension axis keeps 35 and 38 lbs apart
   ...(() => {
     const { profile, balPos } = window.RS_TEST;

@@ -72,7 +72,10 @@
   "weights": "3U, 4U",
   "weight": 83,
   "tmax": 31,
-  "src": "https://www.badmintonwarehouse.com/products/victor-thruster-tk-raptor-c-badminton-racket"
+  "src": "https://www.badmintonwarehouse.com/products/victor-thruster-tk-raptor-c-badminton-racket",
+  "level": "intermediate",
+  "levelTo": "advanced",
+  "note": "ระดับ: Badminton Warehouse: \"Advanced or intermediate players\" (ผลค้น Google 10 พ.ย. 2026); แหล่งบอกเป็นช่วง จึงเก็บเป็นช่วง"
  },
  "Victor Auraspeed Cyber": {
   "balance": "even",
@@ -97,7 +100,10 @@
   "src": "https://www.badmintonwarehouse.com/products/victor-thruster-tk-hammer-light-ex-badminton-racket-pre-strung",
   "flex": "flexible",
   "priceForeign": 120.0,
-  "currency": "USD"
+  "currency": "USD",
+  "level": "beginner",
+  "levelTo": "intermediate",
+  "note": "ระดับ: Badminton Warehouse: \"Beginner to Intermediate Players\" (ผลค้น Google 10 พ.ย. 2026); แหล่งบอกเป็นช่วง จึงเก็บเป็นช่วง"
  },
  "Victor Thruster Ryuga CLS": {
   "balance": "head-heavy",
@@ -105,7 +111,10 @@
   "weights": "4U",
   "weight": 83,
   "tmax": 30,
-  "src": "https://badmintoncorner.com/products/victor-thruster-ryuga-cls-d-flame-red-pre-strung"
+  "src": "https://badmintoncorner.com/products/victor-thruster-ryuga-cls-d-flame-red-pre-strung",
+  "level": "beginner",
+  "levelTo": "intermediate",
+  "note": "ระดับ: โพสต์ Victor: \"ideal for beginner to intermediate players\" (ผลค้น Google 10 พ.ย. 2026); แหล่งบอกเป็นช่วง จึงเก็บเป็นช่วง"
  },
  "Victor Auraspeed 9": {
   "balance": "head-light",
@@ -764,7 +773,10 @@
   "weight": 82,
   "tmax": 30,
   "price": 4990,
-  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4378"
+  "src": "https://www.badmintonplaza.com/product_info.php?products_id=4378",
+  "level": "intermediate",
+  "levelTo": "advanced",
+  "note": "ระดับ: รายการร้าน: \"Best suited for intermediate to advanced\" (ผลค้น Google 10 พ.ย. 2026); แหล่งบอกเป็นช่วง จึงเก็บเป็นช่วง"
  },
  "Victor DriveX 12": {
   "new": true,
@@ -1247,7 +1259,10 @@
   "flex": "stiff",
   "weights": "5U, 4U",
   "tmax": 31,
-  "src": "https://www.sportsdirect.com.my/victor-auraspeed-8000-badminton-racket-720115"
+  "src": "https://www.sportsdirect.com.my/victor-auraspeed-8000-badminton-racket-720115",
+  "level": "beginner",
+  "levelTo": "intermediate",
+  "note": "ระดับ: ร้านขาย: \"Perfect for beginner to intermediate players\" (ผลค้น Google 10 พ.ย. 2026); แหล่งบอกเป็นช่วง จึงเก็บเป็นช่วง"
  },
  "Victor Auraspeed 33H": {
   "balance": "even",
@@ -2398,7 +2413,10 @@
   "flex": "stiff",
   "estFields": [
    "flex"
-  ]
+  ],
+  "level": "intermediate",
+  "levelTo": "advanced",
+  "note": "ระดับ: รีวิว: \"intermediate to advanced offensive players\" (ผลค้น Google 10 พ.ย. 2026); แหล่งบอกเป็นช่วง จึงเก็บเป็นช่วง"
  },
  "Victor Thruster Ryuga II TD": {
   "balance": "head-heavy",
