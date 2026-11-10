@@ -137,7 +137,9 @@
     const fx = ordIdx('flex', r.flex, 1.5) / 3;
     const lv = ordIdx('level', r.level, 1.5) / 3;
     const w = clamp(((Number(r.weight) || 83) - 74) / 16);
-    const tmax = clamp((((r.tension && r.tension[1]) || 27) - 18) / 14);  // 18-32 lbs, so 20-lb starter frames still register
+    // 18-40 lbs: 20-lb starter frames still register, and the 205 frames rated 32 lbs or more (VS and Felet go to 38-42)
+    // stay apart instead of all hitting the edge
+    const tmax = clamp((((r.tension && r.tension[1]) || 27) - 18) / 22);
     const st = { attack: 0.3, speed: 0.4, control: 1, allround: 0.7 }[r.style] ?? 0.5;
     const hd = { large: 1, standard: 0.5, small: 0 }[r.head] ?? 0.5;  // a larger string bed has a larger sweet spot
     return [
