@@ -14,3 +14,15 @@ pictures (see below). Result: Felet is the only maker of the six that hides spec
 
 Felet sheets also print the maker's series on each model (Novice, Moderate, Advance, Master, Pro, Professional); the data
 reads them in that order as beginner, beginner, intermediate, intermediate, advanced, advanced, as estimates.
+
+## Victor balance point in mm (searched 2026-11-10)
+
+Victor's own pages print no balance point, so the 154 Victor models without one were searched on Google, starting with the
+most listed (DriveX 12, Ryuga II Pro, Auraspeed 99, Jetspeed S12 II, Thruster F Ultra, Brave Sword 12, Auraspeed 90K II,
+Thruster K R, Ryuga). What turned up is not a spec: reviewers' measured figures (strung, gripped) that disagree widely
+(Thruster F Ultra: 292, 300, 303, 320 mm; Auraspeed 90K II: 290, 295, 300, 301) and a Facebook spec post (DriveX 12, 297-299).
+Retailer copies of Victor North America's block ("BALANCE POINT (MM) 290mm") exist but are sporadic: corkandfeathers.com
+(WooCommerce Store API, `scripts/fetch_corkfeathers.py`) has nine Victor pages and one with mm (Auraspeed 90K II, 290).
+None of this was written into the data except that one figure and a flex and length from the same page. The retailer's
+"Player Level" is not used (all nine read Advanced or Professional, which looks like a price tier), as with Li-Ning's.
+btracketsports.com answered 429 (rate limited) and was left alone.

@@ -292,7 +292,8 @@ VOFF = os.path.join(SRC, 'victor-official.json')
 FOFF = os.path.join(SRC, 'felet-official.json')
 shop_pages = (json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) else []) + (json.load(open(FOFF, encoding='utf-8')) if os.path.exists(FOFF) else []) + \
              (json.load(open(SHOPS, encoding='utf-8')) if os.path.exists(SHOPS) else []) + \
-             (json.load(open(os.path.join(SRC, 'honly.json'), encoding='utf-8')) if os.path.exists(os.path.join(SRC, 'honly.json')) else [])  # scripts/fetch_honly.py: Felet specs
+             (json.load(open(os.path.join(SRC, 'honly.json'), encoding='utf-8')) if os.path.exists(os.path.join(SRC, 'honly.json')) else []) + \
+             (json.load(open(os.path.join(SRC, 'corkandfeathers.json'), encoding='utf-8')) if os.path.exists(os.path.join(SRC, 'corkandfeathers.json')) else [])  # fetch_honly.py: Felet specs; fetch_corkfeathers.py: Victor NA's spec block
 # Badminton Plaza's product-page tables ("Weight : 82±2g (4U)", "String Tension : 26-38 lbs", "Features : ..."),
 # right after Victor's own pages, so the Thai shop keeps first say on free text as before; its THB price was set above
 shop_pages[len(json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) else []):0] = [{'shop': 'badmintonplaza.com', 'brand': pz['brand'], 'name': pz['name'] or pz.get('listed', ''), 'url': BASE_PLAZA + str(pz['id']),
@@ -386,8 +387,9 @@ for bz in bay + click + shops:
         ps = bz['parsed']
         fill = {'balance': ps['balance'], 'bp': ps['bp'], 'flex': ps['flex'], 'weights': ps['weights'], 'weight': ps['weight'],
                 'tension': [ps.get('tmin') or None, ps['tmax']] if ps['tmax'] else None, 'grips': ps['grips'], 'img': bz.get('img', ''),
-                # Li-Ning's own stores tag even entry rackets "Professional", so their level is not used
-                'level': '' if 'lining.studio' in bz['shop'] else one_level(ps['level']), 'recString': ps['recText'],
+                # Li-Ning's own stores tag even entry rackets "Professional", so their level is not used; nor is Cork and
+                # Feathers' (all nine Victor pages it has read Advanced or Professional, which looks like its price tier)
+                'level': '' if 'lining.studio' in bz['shop'] or 'corkandfeathers' in bz['shop'] else one_level(ps['level']), 'recString': ps['recText'],
                 **{f: ps[f] for f in ('frame', 'shaft', 'length', 'joint', 'madeIn', 'tech', 'players', 'pattern')}}
         # Li-Ning's own stores label each racket's player type; "Defensive" ones are 44 of 51 head-light, so they are speed rackets here
         if 'lining.studio' in bz['shop']:

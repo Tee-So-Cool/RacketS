@@ -26691,6 +26691,10 @@ window.RACKETS = [
    {
     "shop": "thegodofsports.com",
     "url": "https://thegodofsports.com/products/victor-auraspeed-100x-badminton-racket"
+   },
+   {
+    "shop": "corkandfeathers.com",
+    "url": "https://corkandfeathers.com/product/victor-auraspeed-100-x-h/"
    }
   ],
   "priceNote": "",
@@ -28060,7 +28064,7 @@ window.RACKETS = [
   "year": 2023,
   "style": "speed",
   "balance": "head-light",
-  "bp": "",
+  "bp": 290,
   "flex": "stiff",
   "level": "advanced",
   "weights": "4U, 3U",
@@ -28109,6 +28113,10 @@ window.RACKETS = [
    {
     "shop": "thegodofsports.com",
     "url": "https://thegodofsports.com/products/victor-auraspeed-90k-ii-badminton-racket"
+   },
+   {
+    "shop": "corkandfeathers.com",
+    "url": "https://corkandfeathers.com/product/victor-auraspeed-90k-ii/"
    }
   ],
   "priceNote": "",
@@ -29023,6 +29031,10 @@ window.RACKETS = [
    {
     "shop": "thegodofsports.com",
     "url": "https://thegodofsports.com/products/victor-auraspeed-ljh-badminton-racket"
+   },
+   {
+    "shop": "corkandfeathers.com",
+    "url": "https://corkandfeathers.com/product/victor-auraspeed-ljh-s/"
    }
   ],
   "priceNote": "",
@@ -29274,7 +29286,7 @@ window.RACKETS = [
   "style": "allround",
   "balance": "even",
   "bp": "",
-  "flex": "",
+  "flex": "stiff",
   "level": "advanced",
   "weights": "4U",
   "weight": 83,
@@ -29288,7 +29300,7 @@ window.RACKETS = [
   "frame": "High Resilience Modulus Graphite + Nano Resin + Hardcoded Technology",
   "shaft": "High Resilience Modulus Graphite + Pyrofil + Nano Resin + 6.8 SHAFT",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "head": "",
   "pattern": "",
   "tech": "SWORD, FREE CORE, Hard Cored Technology, NANO TEC",
@@ -29314,6 +29326,10 @@ window.RACKETS = [
    {
     "shop": "tenniszon.com",
     "url": "https://tenniszon.com/products/victor-brave-sword-12-se-b-brs-12-se-b-unstrung"
+   },
+   {
+    "shop": "corkandfeathers.com",
+    "url": "https://corkandfeathers.com/product/victor-bravesword-12-se/"
    }
   ],
   "priceNote": "แปลงจาก CAD 206.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
@@ -29814,6 +29830,10 @@ window.RACKETS = [
    {
     "shop": "thegodofsports.com",
     "url": "https://thegodofsports.com/products/victor-drivex-10-metallic-badminton-racket-4u"
+   },
+   {
+    "shop": "corkandfeathers.com",
+    "url": "https://corkandfeathers.com/product/victor-drivex-10-metallic-b/"
    }
   ],
   "priceNote": "",
@@ -34777,6 +34797,10 @@ window.RACKETS = [
    {
     "shop": "thegodofsports.com",
     "url": "https://thegodofsports.com/products/victor-thruster-ryuga-metallic-badminton-racket-capsule-collection-flamingo-pink"
+   },
+   {
+    "shop": "corkandfeathers.com",
+    "url": "https://corkandfeathers.com/product/victor-thruster-ryuga-metallic-c/"
    }
   ],
   "priceNote": "",
@@ -34979,6 +35003,10 @@ window.RACKETS = [
    {
     "shop": "thegodofsports.com",
     "url": "https://thegodofsports.com/products/victor-thruster-ryuga-td-badminton-racket"
+   },
+   {
+    "shop": "corkandfeathers.com",
+    "url": "https://corkandfeathers.com/product/victor-thruster-ryuga-td-d/"
    }
   ],
   "priceNote": "",
@@ -35305,6 +35333,10 @@ window.RACKETS = [
    {
     "shop": "yumo.ca",
     "url": "https://yumo.ca/products/victor-thruster-tty-a-badminton-unstrung-racket-white-tk-tty-a"
+   },
+   {
+    "shop": "corkandfeathers.com",
+    "url": "https://corkandfeathers.com/product/victor-thruster-tty-tai-tzu-ying-edition/"
    }
   ],
   "priceNote": "",
