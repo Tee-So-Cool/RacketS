@@ -71,7 +71,9 @@
 .tabs a { position: relative; z-index: 1; padding: var(--space-2xs) var(--space-sm); border-radius: var(--radius-pill); font-size: var(--text-sm); transition: color var(--dur-micro) var(--ease-out), background-color var(--dur-micro) var(--ease-out); }
 .tabs a::before, .tabs a::after { display: none; }
 .tabs a:hover { background: var(--fill-soft); }
-.tabs a.on, .tabs a.on:hover { background: transparent; color: var(--color-paper); }
+/* the open tab is a filled pill by itself; once app.js has placed the sliding pill behind it, the tab's own fill steps aside */
+.tabs a.on, .tabs a.on:hover { background: var(--color-ink); color: var(--color-paper); }
+.tabs.ready a.on, .tabs.ready a.on:hover { background: transparent; }
 /* the filled pill behind the open tab; its place is two variables set from app.js */
 .tabs::before { content: ""; position: absolute; left: 0; top: 50%; height: 34px; margin-top: -17px; width: var(--iw, 0px); transform: translateX(var(--ix, 0px)); border-radius: var(--radius-pill); background: var(--color-ink); opacity: 0; pointer-events: none; }
 .tabs.ready::before { opacity: 1; }
