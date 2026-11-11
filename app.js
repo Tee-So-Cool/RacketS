@@ -571,6 +571,7 @@
     tiles.addEventListener('click', e => { const b = e.target.closest('[data-ck]'); if (b) pick(b); });
     flt.addEventListener('change', renderTiles);
     renderTiles();
+    flt.querySelector(`[name="${tk}"]`)?.classList.add('has-tiles');   // the tiles stand in for this dropdown in the default layout
     chips.addEventListener('click', e => {
       const b = e.target.closest('[data-ck]'); if (!b) return;
       pick(b);
@@ -578,6 +579,7 @@
     flt.addEventListener('change', renderChips);
     renderChips();
     renderGrid(kind);
+    const gridEl = view.querySelector('#grid'); gridEl.classList.add('enter'); setTimeout(() => gridEl.classList.remove('enter'), 1000);
     renderCompare(kind);
   }
 
