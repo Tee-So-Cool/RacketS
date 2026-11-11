@@ -517,7 +517,7 @@
       </div>
       <div class="tiles" id="tiles"></div>
       <div class="count muted small" id="cnt"></div>
-      <div class="grid" id="grid"></div>
+      <div class="grid" id="grid" role="group" aria-label="รายการรุ่น"></div>
       <div class="more-row"><button class="btn" id="more" type="button" hidden></button></div>`;
 
     const flt = view.querySelector('#flt');
@@ -536,15 +536,6 @@
       if (w) { showWho(w.dataset.who); return; }
       if (e.target.closest('a')) return;
       const el = e.target.closest('.item'); if (el) toggle(kind, el.dataset.id);
-    });
-    // items are role="checkbox": Space and Enter toggle them too
-    view.querySelector('#grid').addEventListener('keydown', e => {
-      const el = e.target.closest('.item');
-      if (el && e.target === el && (e.key === ' ' || e.key === 'Enter')) {
-        e.preventDefault();
-        toggle(kind, el.dataset.id);
-        view.querySelector(`.item[data-id="${CSS.escape(el.dataset.id)}"]`)?.focus();
-      }
     });
     // axis label opens its top 10; flip, close, and a ranked row toggles that model
     const rankAction = el => {
@@ -626,7 +617,8 @@
     more.hidden = left <= 0;
     more.textContent = `ดูเพิ่มอีก ${Math.min(PAGE, left)} รุ่น (เหลือ ${left})`;
     view.querySelector('#grid').innerHTML = list.length ? list.map(x => `
-      <div class="item ${sel.includes(x.id) ? 'sel' : ''}" data-id="${esc(x.id)}" role="checkbox" aria-checked="${sel.includes(x.id)}" tabindex="0">
+      <div class="item ${sel.includes(x.id) ? 'sel' : ''}" data-id="${esc(x.id)}">
+        <button type="button" class="pickbtn" role="checkbox" aria-checked="${sel.includes(x.id)}" aria-label="เลือก ${esc(full(x))} เพื่อเทียบ"><span aria-hidden="true">${sel.includes(x.id) ? '✓' : ''}</span></button>
         ${KIND[kind].card(x)}
       </div>`).join('') : '<div class="empty"><p>ไม่พบรุ่นที่ตรงกับตัวกรอง</p><button class="btn" type="button" data-clear-all>ล้างตัวกรองทั้งหมด</button></div>';
   }
@@ -636,8 +628,10 @@
     if (i >= 0) sel.splice(i, 1);
     else if (sel.length >= 3) { flashTray(kind, 'เลือกได้สูงสุด 3 รุ่น — เอาออกก่อน 1 รุ่น'); return; }
     else sel.push(id);
+    const hadFocus = document.activeElement && document.activeElement.classList.contains('pickbtn');
     renderGrid(kind);
     const card = view.querySelector(`.item[data-id="${CSS.escape(id)}"]`);
+    if (hadFocus && card) card.querySelector('.pickbtn').focus({ preventScroll: true });
     if (card) { card.classList.add('just'); setTimeout(() => card.classList.remove('just'), 500); }
     renderCompare(kind);
   }
