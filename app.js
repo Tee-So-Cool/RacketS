@@ -482,16 +482,26 @@
       requestAnimationFrame(step);
     });
   }
-  // the opening scene of the racket page: three real rackets on tiles tinted by play style, floating over a glow
-  function heroArt(items) {
-    // three rackets whose photographs read well on a tile (dark frames, strong colour), one per play style; if one is gone from
-    // the data, the newest racket of that style with a photograph stands in
-    const want = [['attack', 'li-ning-axforce-100-ii'], ['speed', 'victor-auraspeed-lyc'], ['control', 'li-ning-halbertec-7000-ii']];
-    const cards = want.map(([st, id]) => items.find(x => x.id === id && x.img) || items.filter(x => x.style === st && x.img).sort((a, b) => (b.year || 0) - (a.year || 0))[0]).filter(Boolean);
-    return `<div class="hero-art" aria-hidden="true">${cards.map((x, i) => `<span class="hcard ${x.style}" style="--i:${i}"><img src="${esc(x.img)}" alt="" referrerpolicy="no-referrer"><span class="hn">${esc(full(x))}</span></span>`).join('')}</div>`;
+  // the opening scene of a gear page: three real products on tiles, one per slot; the ids are products whose photographs read well
+  // on a tile (clean grounds, strong colour); if one is gone from the data, the next product with a photograph stands in
+  const HERO = {
+    r: { title: 'หาไม้แบด<em>ที่ใช่</em>', ids: ['li-ning-axforce-100-ii', 'victor-auraspeed-lyc', 'li-ning-halbertec-7000-ii'] },
+    s: { title: 'เลือกเอ็น<em>ที่ใช่</em>', ids: ['hundred-jp-58-magnite', 'kizuna-z65x', 'li-ning-ns95'] },
+    h: { title: 'เลือกลูกแบด<em>ที่ใช่</em>', ids: ['apacs-aero-space-808', 'apacs-aero-space-900', 'apacs-aero-space-909'] },
+    o: { title: 'เลือกรองเท้า<em>ที่ใช่</em>', ids: ['asics-gel-rocket-11', 'asics-powerbreak-ff', 'asics-court-control-ff-4'] },
+    k: { title: 'เลือกถุงเท้า<em>ที่ใช่</em>', ids: ['vs-1226', 'li-ning-balance-socks', 'apacs-l-027-v'] },
+  };
+  function heroArt(kind, items) {
+    const used = new Set(), cards = [];
+    for (const id of HERO[kind].ids) {
+      const x = items.find(y => y.id === id && y.img) || items.find(y => y.img && !used.has(y.id));
+      if (x) { used.add(x.id); cards.push(x); }
+    }
+    const slot = ['attack', 'speed', 'control'];   // the three tiles' tints and places
+    return `<div class="hero-art" aria-hidden="true">${cards.map((x, i) => `<span class="hcard ${slot[i]}" style="--i:${i}"><img src="${esc(x.img)}" alt="" referrerpolicy="no-referrer"><span class="hn">${esc(full(x))}</span></span>`).join('')}</div>`;
   }
   function viewCompare(kind) {
-    view.classList.toggle('has-hero', kind === 'r');
+    view.classList.toggle('has-hero', !!HERO[kind]);
     const cfg = KIND[kind], f = state.f[kind], items = db[kind];
     if (state.linkSel) { state.sel[kind] = state.linkSel.split(',').slice(0, 3); state.linkSel = null; state.open[kind] = true; }
     state.sel[kind] = state.sel[kind].filter(id => byId(kind, id));
@@ -502,9 +512,9 @@
       .map(([k, v]) => `<option value="${k}" ${f[key] === k ? 'selected' : ''}>${v} (${countOf(key, k)})</option>`).join('')}</select>`;
 
     view.innerHTML = `
-      <h1>${kind === 'r' ? 'หาไม้แบด<em>ที่ใช่</em>' : cfg.title}</h1>
-      <p class="muted">กดที่การ์ด 2–3 รุ่น แล้วกดปุ่มเทียบด้านล่าง (≈ คือค่าประเมิน) จากทั้งหมด ${items.length} รุ่น${kind === 'r' ? `<span class="hero-stats"><span><b data-count="${items.length}">${items.length}</b>รุ่น</span><span><b data-count="${brands.length}">${brands.length}</b>แบรนด์</span><span><b data-count="${items.filter(x => x.price).length}">${items.filter(x => x.price).length}</b>รุ่นที่มีราคา</span></span>` : ''}</p>
-      ${kind === 'r' ? heroArt(items) : ''}
+      <h1>${HERO[kind] ? HERO[kind].title : cfg.title}</h1>
+      <p class="muted">กดที่การ์ด 2–3 รุ่น แล้วกดปุ่มเทียบด้านล่าง (≈ คือค่าประเมิน) จากทั้งหมด ${items.length} รุ่น${HERO[kind] ? `<span class="hero-stats"><span><b data-count="${items.length}">${items.length}</b>รุ่น</span><span><b data-count="${brands.length}">${brands.length}</b>แบรนด์</span><span><b data-count="${items.filter(x => x.price).length}">${items.filter(x => x.price).length}</b>รุ่นที่มีราคา</span></span>` : ''}</p>
+      ${HERO[kind] ? heroArt(kind, items) : ''}
       <div id="cmp"></div>
       <div class="filters" id="flt" data-open="false">
         <svg class="s-ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
@@ -583,7 +593,7 @@
     renderTiles();
     flt.querySelector(`[name="${tk}"]`)?.classList.add('has-tiles');
     countUp(tiles);
-    if (kind === 'r') countUp(view.querySelector('.hero-stats'));
+    countUp(view.querySelector('.hero-stats'));
     renderGrid(kind);
     const art = view.querySelector('.hero-art');
     if (art && !reduceMotion()) {

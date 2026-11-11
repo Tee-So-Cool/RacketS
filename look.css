@@ -202,7 +202,12 @@ select.has-tiles { display: none; }
 }
 @media (min-width: 40.01rem) and (max-width: 52rem) {
   #view.has-hero { grid-template-columns: minmax(0, 1fr); grid-template-areas: "h" "p" "art" "rest"; }
-  #view.has-hero > .hero-art { height: 320px; }
+  /* one column: the art is as wide as the page, so its tiles are narrower to fit the height */
+  #view.has-hero > .hero-art { height: 360px; }
+  .hcard { width: 30%; }
+  .hcard.attack { left: 8%; }
+  .hcard.speed { left: 35%; }
+  .hcard.control { left: 62%; }
 }
 
 /* ---------- phone catalogue ---------- */
