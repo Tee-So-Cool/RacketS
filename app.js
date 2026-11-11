@@ -197,11 +197,11 @@
     // each series also gets its own line style so the three stay apart without colour
     const DASH = ['none', '8 5', '2 4'];
     series.forEach((s, i) => {
-      g += `<polygon points="${poly(s.values.map(v => clamp(v / 10)))}" style="fill:${s.color};fill-opacity:.18;stroke:${s.color};stroke-width:2.5;stroke-dasharray:${DASH[i] || 'none'};stroke-linejoin:round"><title>${esc(s.name)}</title></polygon>`;
+      g += `<polygon class="rs" points="${poly(s.values.map(v => clamp(v / 10)))}" style="fill:${s.color};fill-opacity:.18;stroke:${s.color};stroke-width:2.5;stroke-dasharray:${DASH[i] || 'none'};stroke-linejoin:round"><title>${esc(s.name)}</title></polygon>`;
     });
     series.forEach(s => s.values.forEach((v, i) => {
       const [x, y] = pt(i, clamp(v / 10));
-      g += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="5" style="fill:${s.color};stroke:var(--color-paper);stroke-width:2"><title>${esc(s.name)}: ${esc(axes[i])} ${Math.round(v * 10)}</title></circle>`;
+      g += `<circle class="rd" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="5" style="fill:${s.color};stroke:var(--color-paper);stroke-width:2"><title>${esc(s.name)}: ${esc(axes[i])} ${Math.round(v * 10)}</title></circle>`;
     }));
     return `<svg viewBox="-70 0 ${size + 140} ${size}" role="img" aria-label="radar chart">${g}</svg>`;
   }
@@ -463,12 +463,29 @@
     return list.sort(sorters[f.sort] || sortName);
   }
 
+  // numbers that count up when they first appear (skipped when the visitor asked for less motion)
+  const reduceMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function countUp(root) {
+    if (!root || reduceMotion() || document.hidden) return;
+    root.querySelectorAll('[data-count]').forEach((el, i) => {
+      const to = Number(el.dataset.count), t0 = performance.now() + i * 90, dur = 1000;
+      el.textContent = '0';
+      // frames stop when the tab is hidden mid-count: the right number is set regardless, shortly after the count should end
+      setTimeout(() => { el.textContent = to.toLocaleString('th-TH'); }, dur + i * 90 + 250);
+      const step = now => {
+        const k = Math.min(1, Math.max(0, (now - t0) / dur));
+        el.textContent = Math.round(to * (1 - Math.pow(1 - k, 3))).toLocaleString('th-TH');
+        if (k < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    });
+  }
   // the opening scene of the racket page: three real rackets on tiles tinted by play style, floating over a glow
   function heroArt(items) {
     // newest with a photograph, one brand each so the three do not look alike
     const pick = (st, brand) => items.filter(x => x.style === st && x.brand === brand && x.img).sort((a, b) => (b.year || 0) - (a.year || 0))[0];
     const cards = [['attack', 'Yonex'], ['speed', 'Victor'], ['control', 'Li-Ning']].map(([st, b]) => pick(st, b)).filter(Boolean);
-    return `<div class="hero-art" aria-hidden="true">${cards.map(x => `<span class="hcard ${x.style}"><img src="${esc(x.img)}" alt="" referrerpolicy="no-referrer"><span class="hn">${esc(full(x))}</span></span>`).join('')}</div>`;
+    return `<div class="hero-art" aria-hidden="true">${cards.map((x, i) => `<span class="hcard ${x.style}" style="--i:${i}"><img src="${esc(x.img)}" alt="" referrerpolicy="no-referrer"><span class="hn">${esc(full(x))}</span></span>`).join('')}</div>`;
   }
   function viewCompare(kind) {
     view.classList.toggle('has-hero', kind === 'r');
@@ -483,7 +500,7 @@
 
     view.innerHTML = `
       <h1>${kind === 'r' ? 'หาไม้แบด<em>ที่ใช่</em>' : cfg.title}</h1>
-      <p class="muted">กดที่การ์ด 2–3 รุ่น แล้วกดปุ่มเทียบด้านล่าง (≈ คือค่าประเมิน) จากทั้งหมด ${items.length} รุ่น</p>
+      <p class="muted">กดที่การ์ด 2–3 รุ่น แล้วกดปุ่มเทียบด้านล่าง (≈ คือค่าประเมิน) จากทั้งหมด ${items.length} รุ่น${kind === 'r' ? `<span class="hero-stats"><span><b data-count="${items.length}">${items.length}</b>รุ่น</span><span><b data-count="${brands.length}">${brands.length}</b>แบรนด์</span><span><b data-count="${items.filter(x => x.price).length}">${items.filter(x => x.price).length}</b>รุ่นที่มีราคา</span></span>` : ''}</p>
       ${kind === 'r' ? heroArt(items) : ''}
       <div id="cmp"></div>
       <div class="filters" id="flt" data-open="false">
@@ -506,7 +523,8 @@
       const open = flt.dataset.open !== 'true';
       flt.dataset.open = open; e.currentTarget.setAttribute('aria-expanded', open);
     };
-    flt.addEventListener('input', e => { if (e.target.name) { f[e.target.name] = e.target.value; state.shown[kind] = PAGE; renderGrid(kind); } });
+    const swap = () => { if (!reduceMotion()) view.querySelector('#grid').animate([{ opacity: 0.3, transform: 'translateY(8px)' }, { opacity: 1, transform: 'none' }], { duration: 300, easing: 'cubic-bezier(0.16, 1, 0.3, 1)' }); };
+    flt.addEventListener('input', e => { if (e.target.name) { f[e.target.name] = e.target.value; state.shown[kind] = PAGE; renderGrid(kind); swap(); } });
     view.querySelector('#more').onclick = () => { state.shown[kind] += PAGE; renderGrid(kind); };
     view.querySelector('#clr').onclick = () => { state.f[kind] = emptyFilter(kind); state.shown[kind] = PAGE; viewCompare(kind); };
     view.querySelector('#grid').addEventListener('click', e => {
@@ -576,17 +594,19 @@
     const renderTiles = () => {
       tiles.innerHTML = Object.entries(L[tk]).filter(([k]) => countOf(tk, k)).map(([k, v]) =>
         `<button type="button" class="tile ${f[tk] === k ? 'on' : ''}" data-ck="${tk}" data-cv="${esc(k)}" aria-pressed="${f[tk] === k}">
-          <span class="tile-nm">${esc(v)}</span><span class="tile-n">${countOf(tk, k)} รุ่น</span></button>`).join('');
+          <span class="tile-nm">${esc(v)}</span><span class="tile-n"><span data-count="${countOf(tk, k)}">${countOf(tk, k)}</span> รุ่น</span></button>`).join('');
     };
     const pick = b => {
       f[b.dataset.ck] = f[b.dataset.ck] === b.dataset.cv ? '' : b.dataset.cv;
       const s = flt.querySelector(`[name="${b.dataset.ck}"]`); if (s) s.value = f[b.dataset.ck];
-      state.shown[kind] = PAGE; renderChips(); renderTiles(); renderGrid(kind);
+      state.shown[kind] = PAGE; renderChips(); renderTiles(); renderGrid(kind); swap();
     };
     tiles.addEventListener('click', e => { const b = e.target.closest('[data-ck]'); if (b) pick(b); });
     flt.addEventListener('change', renderTiles);
     renderTiles();
-    flt.querySelector(`[name="${tk}"]`)?.classList.add('has-tiles');   // the tiles stand in for this dropdown in the default layout
+    flt.querySelector(`[name="${tk}"]`)?.classList.add('has-tiles');
+    countUp(tiles);
+    if (kind === 'r') countUp(view.querySelector('.hero-stats'));   // the tiles stand in for this dropdown in the default layout
     chips.addEventListener('click', e => {
       const b = e.target.closest('[data-ck]'); if (!b) return;
       pick(b);
@@ -594,6 +614,19 @@
     flt.addEventListener('change', renderChips);
     renderChips();
     renderGrid(kind);
+    const art = view.querySelector('.hero-art');
+    if (art && !reduceMotion()) {
+      let raf = 0;
+      view.onpointermove = e => {
+        if (e.pointerType === 'touch' || raf) return;
+        raf = requestAnimationFrame(() => {
+          raf = 0; const b = art.getBoundingClientRect();
+          const nx = Math.max(-1, Math.min(1, (e.clientX - (b.left + b.width / 2)) / (innerWidth / 2)));
+          const ny = Math.max(-1, Math.min(1, (e.clientY - (b.top + b.height / 2)) / (innerHeight / 2)));
+          art.style.setProperty('--px', nx.toFixed(3)); art.style.setProperty('--py', ny.toFixed(3));
+        });
+      };
+    }
     const gridEl = view.querySelector('#grid'); gridEl.classList.add('enter'); setTimeout(() => gridEl.classList.remove('enter'), 1000);
     renderCompare(kind);
   }
@@ -624,6 +657,8 @@
     else if (sel.length >= 3) { flashTray(kind, 'เลือกได้สูงสุด 3 รุ่น — เอาออกก่อน 1 รุ่น'); return; }
     else sel.push(id);
     renderGrid(kind);
+    const card = view.querySelector(`.item[data-id="${CSS.escape(id)}"]`);
+    if (card) { card.classList.add('just'); setTimeout(() => card.classList.remove('just'), 500); }
     renderCompare(kind);
   }
 
@@ -634,8 +669,9 @@
     if (!sel.length) state.open[kind] = false;
     if (!sel.length || !state.open[kind]) { box.innerHTML = ''; watchSheet(); remember(kind); return; }
     const rd = cfg.radar ? cfg.radar(sel) : null;
+    const fresh = !box.firstElementChild;
     box.innerHTML = `
-      <section class="panel">
+      <section class="panel${fresh ? ' fresh' : ''}">
         <div class="heads" style="grid-template-columns:repeat(${sel.length},minmax(0,1fr))">
           ${sel.map((x, i) => `<div class="head" style="--c:${COLORS[i]}">
             <button class="x" data-rm="${esc(x.id)}" aria-label="เอาออก">×</button>
@@ -1488,6 +1524,14 @@
   }
 
   // ---------- router ----------
+  // the filled pill behind the open tab slides from tab to tab: its place is two CSS variables on the strip
+  function moveInd() {
+    const tb = document.getElementById('tabs'), on = tb && tb.querySelector('a.on'); if (!on) return;
+    tb.style.setProperty('--ix', on.offsetLeft + 'px'); tb.style.setProperty('--iw', on.offsetWidth + 'px');
+    requestAnimationFrame(() => tb.classList.add('ready'));
+  }
+  window.addEventListener('resize', moveInd);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(moveInd);
   function fadeTabs() {
     const tb = document.getElementById('tabs');
     if (tb) tb.classList.toggle('at-end', tb.scrollLeft + tb.clientWidth >= tb.scrollWidth - 4);
@@ -1513,9 +1557,10 @@
     // seven tabs do not fit a phone: bring the open one into view and fade the edge only while more is hidden
     const on = document.querySelector('#tabs a.on'), tb = document.getElementById('tabs');
     if (on && tb.scrollWidth > tb.clientWidth) tb.scrollTo({ left: on.offsetLeft - (tb.clientWidth - on.offsetWidth) / 2, behavior: 'auto' });
-    fadeTabs();
+    fadeTabs(); moveInd();
     tray.hidden = true;
     view.onclick = null;
+    view.onpointermove = null;
     view.classList.remove('has-hero');
     if (v === 'strings') viewCompare('s');
     else if (v === 'shuttles') viewCompare('h');
