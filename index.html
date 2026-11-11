@@ -49,7 +49,8 @@
         <a href="#match" data-v="match">จับคู่ไม้+เอ็น</a>
         <a href="#manage" data-v="manage">จัดการข้อมูล</a>
       </nav>
-      <div class="theme-pick">
+      <button class="tp-toggle" id="tp-toggle" type="button" aria-expanded="false" aria-controls="tp">หน้าตา</button>
+      <div class="theme-pick" id="tp">
         <label for="style">สไตล์</label>
         <select id="style">
           <option value="">เดิม</option>
@@ -72,6 +73,7 @@
   </header>
   <main class="container" id="view"></main>
   <div class="tray" id="tray" hidden></div>
+  <div class="visually-hidden" id="live" role="status" aria-live="polite"></div>
 
   <!-- __V__ is replaced with the commit hash on deploy so browsers fetch fresh data -->
   <script src="data/rackets.js?v=__V__"></script>

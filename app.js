@@ -248,6 +248,12 @@
         <div class="chips">${[lab(r, 'balance'), L.flex[r.flex], r.weights].filter(Boolean).map(v => `<span>${esc(v)}</span>`).join('')}</div>
         <div class="price">${r.price ? `<b class="fig">${(r.est || []).includes('price') ? '≈' : ''}${baht(r.price)}</b>` : '<span class="small muted">ยังไม่มีราคา</span>'}</div>
         <div class="card-acts"><button class="btn sm" type="button" data-who="${esc(r.id)}">เหมาะกับใคร</button>${shopee(r)}</div>`,
+      // the three numbers a buyer looks at first, set big above the sheet
+      keys: [
+        { l: 'น้ำหนัก', get: r => Number(r.weight) ? [`${(r.est || []).includes('weight') ? '≈' : ''}${r.weight}`, 'g'] : null },
+        { l: 'จุดสมดุล', get: r => Number(r.bp) ? [`${r.bp}`, 'mm'] : (L.balance[r.balance] ? [lab(r, 'balance'), '', 'kt'] : null) },
+        { l: 'ความตึงสูงสุด', get: r => r.tension && Number(r.tension[1]) ? [`${(r.est || []).includes('tension') ? '≈' : ''}${r.tension[1]}`, 'lbs'] : null },
+      ],
       radar: sel => ({ axes: R_AXES, series: sel.map((x, i) => ({ name: full(x), color: COLORS[i], values: racketProfile(x) })), title: 'ภาพรวมบุคลิกไม้', note: 'คำนวณจากสเปก (สมดุล ก้าน น้ำหนัก ระดับ ความตึงสูงสุด และจุดสมดุลเป็น mm เมื่อมี) ไม่ใช่คะแนนจากผู้ผลิต' }),
       bars: [
         { label: 'น้ำหนัก', hint: 'หนักมีแรงส่ง เบาสวิงไว', get: r => Number(r.weight) || NaN, fmt: v => v + ' g' },
@@ -463,7 +469,7 @@
     state.sel[kind] = state.sel[kind].filter(id => byId(kind, id));
     const brands = [...new Set(items.map(x => x.brand))].sort();
     const countOf = (key, val) => items.filter(x => key === 'gauge' ? gaugeGroup(x.gauge) === val : x[key] === val).length;
-    const sel = (key, map, all) => `<select name="${key}"><option value="">${all}</option>${Object.entries(map)
+    const sel = (key, map, all) => `<select name="${key}" aria-label="${all.replace(/^ทุก/, '')}"><option value="">${all}</option>${Object.entries(map)
       .filter(([k]) => countOf(key, k))
       .map(([k, v]) => `<option value="${k}" ${f[key] === k ? 'selected' : ''}>${v} (${countOf(key, k)})</option>`).join('')}</select>`;
 
@@ -471,11 +477,12 @@
       <h1>${cfg.title}</h1>
       <p class="muted">กดที่การ์ด 2–3 รุ่น แล้วกดปุ่มเทียบด้านล่าง (≈ คือค่าประเมิน) จากทั้งหมด ${items.length} รุ่น</p>
       <div id="cmp"></div>
-      <div class="filters" id="flt">
-        <input type="search" name="q" placeholder="ค้นหารุ่น…" value="${esc(f.q)}">
-        <select name="brand"><option value="">ทุกแบรนด์</option>${brands.map(b => `<option ${f.brand === b ? 'selected' : ''}>${esc(b)}</option>`).join('')}</select>
+      <div class="filters" id="flt" data-open="false">
+        <input type="search" name="q" placeholder="ค้นหารุ่น…" aria-label="ค้นหารุ่น" value="${esc(f.q)}">
+        <button class="btn ghost fl-toggle" id="flt-toggle" type="button" aria-expanded="false" aria-controls="flt">ตัวกรอง<span class="fl-n" id="fl-n" hidden></span></button>
+        <select name="brand" aria-label="แบรนด์"><option value="">ทุกแบรนด์</option>${brands.map(b => `<option ${f.brand === b ? 'selected' : ''}>${esc(b)}</option>`).join('')}</select>
         ${cfg.filters.map(k => sel(k, L[k], cfg.filterAll[k])).join('')}
-        <select name="sort">${Object.entries(cfg.sorts).map(([k, v]) => `<option value="${k}" ${f.sort === k ? 'selected' : ''}>${v}</option>`).join('')}</select>
+        <select name="sort" aria-label="เรียงตาม">${Object.entries(cfg.sorts).map(([k, v]) => `<option value="${k}" ${f.sort === k ? 'selected' : ''}>${v}</option>`).join('')}</select>
         <button class="btn ghost" id="clr" type="button">ล้างตัวกรอง</button>
       </div>
       <div class="tiles" id="tiles"></div>
@@ -485,10 +492,16 @@
       <div class="more-row"><button class="btn" id="more" type="button" hidden></button></div>`;
 
     const flt = view.querySelector('#flt');
+    // on a phone the selects fold behind one button, which shows how many are set
+    view.querySelector('#flt-toggle').onclick = e => {
+      const open = flt.dataset.open !== 'true';
+      flt.dataset.open = open; e.currentTarget.setAttribute('aria-expanded', open);
+    };
     flt.addEventListener('input', e => { if (e.target.name) { f[e.target.name] = e.target.value; state.shown[kind] = PAGE; renderGrid(kind); } });
     view.querySelector('#more').onclick = () => { state.shown[kind] += PAGE; renderGrid(kind); };
     view.querySelector('#clr').onclick = () => { state.f[kind] = emptyFilter(kind); state.shown[kind] = PAGE; viewCompare(kind); };
     view.querySelector('#grid').addEventListener('click', e => {
+      if (e.target.closest('[data-clear-all]')) { view.querySelector('#clr').click(); return; }
       const w = e.target.closest('[data-who]');
       if (w) { showWho(w.dataset.who); return; }
       if (e.target.closest('a')) return;
@@ -572,7 +585,12 @@
   function renderGrid(kind) {
     const all = filtered(kind), sel = state.sel[kind];
     const list = all.slice(0, state.shown[kind]);
-    view.querySelector('#cnt').textContent = all.length > list.length ? `พบ ${all.length} รุ่น แสดง ${list.length} รุ่นแรก` : `พบ ${all.length} รุ่น`;
+    const cnt = view.querySelector('#cnt');
+    cnt.setAttribute('aria-live', 'polite');
+    cnt.textContent = all.length > list.length ? `พบ ${all.length} รุ่น แสดง ${list.length} รุ่นแรก` : `พบ ${all.length} รุ่น`;
+    const nSet = ['brand', ...KIND[kind].filters].filter(k => state.f[kind][k]).length, badge = view.querySelector('#fl-n');
+    if (badge) { badge.hidden = !nSet; badge.textContent = nSet; }
+    view.querySelector('#flt').dataset.any = !!(nSet || state.f[kind].q);   // "ล้างตัวกรอง" shows only when there is something to clear
     const more = view.querySelector('#more');
     const left = all.length - list.length;
     more.hidden = left <= 0;
@@ -580,7 +598,7 @@
     view.querySelector('#grid').innerHTML = list.length ? list.map(x => `
       <div class="item ${sel.includes(x.id) ? 'sel' : ''}" data-id="${esc(x.id)}" role="checkbox" aria-checked="${sel.includes(x.id)}" tabindex="0">
         ${KIND[kind].card(x)}
-      </div>`).join('') : '<div class="empty">ไม่พบรุ่นที่ตรงกับตัวกรอง</div>';
+      </div>`).join('') : '<div class="empty"><p>ไม่พบรุ่นที่ตรงกับตัวกรอง</p><button class="btn" type="button" data-clear-all>ล้างตัวกรองทั้งหมด</button></div>';
   }
 
   function toggle(kind, id) {
@@ -608,6 +626,10 @@
             <div class="small muted">${KIND[kind].sub(x)}</div>
           </div>`).join('')}
         </div>
+        ${cfg.keys ? `<div class="keys" style="grid-template-columns:repeat(${sel.length},minmax(0,1fr))">${sel.map(x => `<div class="k">${cfg.keys.map(k => {
+          const v = k.get(x);
+          return `<div>${v ? `<div class="kn"><b${v[2] ? ` class="${v[2]}"` : ''}>${esc(v[0])}</b>${v[1] ? `<span>${v[1]}</span>` : ''}</div>` : '<div class="kn"><b class="none">—</b></div>'}<span class="kl">${k.l}</span></div>`;
+        }).join('')}</div>`).join('')}</div>` : ''}
         <div class="sheet-tools">
           ${sel.length < 2 ? '<p class="small muted">เลือกเพิ่มอีกอย่างน้อย 1 รุ่นเพื่อเทียบ</p>' : '<span></span>'}
           <span class="tools-r">${sel.length > 1 ? `<button class="btn sm ghost" type="button" data-same aria-pressed="${!!state.hideSame}">ซ่อนแถวที่เหมือนกัน</button>` : ''}
@@ -746,8 +768,11 @@
     sheetSeen = new IntersectionObserver(([e]) => tray.classList.toggle('away', e.isIntersecting), { threshold: 0.15 });
     sheetSeen.observe(panel);
   }
+  const live = document.getElementById('live');
+  const say = msg => { if (live) live.textContent = msg; };
   function updateTray(kind) {
     const n = state.sel[kind].length;
+    say(n ? `เลือกไว้ ${n} รุ่น` : '');
     if (!n) { tray.hidden = true; return; }
     tray.hidden = false;
     tray.innerHTML = `<span class="picks">${state.sel[kind].map((id, i) => {
@@ -765,6 +790,7 @@
     };
   }
   function flashTray(kind, msg) {
+    say(msg);
     tray.hidden = false;
     tray.innerHTML = `<span>${esc(msg)}</span>`;
     clearTimeout(trayTimer);
@@ -1445,12 +1471,32 @@
   }
 
   // ---------- router ----------
+  function fadeTabs() {
+    const tb = document.getElementById('tabs');
+    if (tb) tb.classList.toggle('at-end', tb.scrollLeft + tb.clientWidth >= tb.scrollWidth - 4);
+  }
+  (() => {
+    const tb = document.getElementById('tabs'), tg = document.getElementById('tp-toggle'), tp = document.getElementById('tp');
+    if (tb) { tb.addEventListener('scroll', fadeTabs, { passive: true }); window.addEventListener('resize', fadeTabs); }
+    // the style and theme pickers fold away on a phone, behind one button
+    if (tg && tp) {
+      const set = open => { tp.classList.toggle('open', open); tg.setAttribute('aria-expanded', open); };
+      tg.onclick = () => set(!tp.classList.contains('open'));
+      // it closes on a click anywhere else, and on Escape (focus goes back to its button)
+      document.addEventListener('click', e => { if (tp.classList.contains('open') && !tp.contains(e.target) && !tg.contains(e.target)) set(false); });
+      document.addEventListener('keydown', e => { if (e.key === 'Escape' && tp.classList.contains('open')) { set(false); tg.focus(); } });
+    }
+  })();
   function route() {
     const [v0, qs] = location.hash.slice(1).split('?');
     const v = v0 || 'rackets';
     state.linkSel = new URLSearchParams(qs || '').get('c');
     state.linkM = v === 'match' && qs ? Object.fromEntries(new URLSearchParams(qs)) : null;
     document.querySelectorAll('#tabs a').forEach(a => a.classList.toggle('on', a.dataset.v === v));
+    // seven tabs do not fit a phone: bring the open one into view and fade the edge only while more is hidden
+    const on = document.querySelector('#tabs a.on'), tb = document.getElementById('tabs');
+    if (on && tb.scrollWidth > tb.clientWidth) tb.scrollTo({ left: on.offsetLeft - (tb.clientWidth - on.offsetWidth) / 2, behavior: 'auto' });
+    fadeTabs();
     tray.hidden = true;
     view.onclick = null;
     if (v === 'strings') viewCompare('s');
