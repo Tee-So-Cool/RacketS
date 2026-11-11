@@ -1571,7 +1571,7 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹2,692.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/apacs-finapi-232-reborn-badminton-racket-white",
-  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
+  "note": "เท็นชั่น 42 lbs มาจากร้าน khelmart.com (\"Up to 42 lbs\", ก้าน 8.5/10 ปานกลาง) สูงกว่ารุ่นอื่นของ Apacs มาก ผู้ผลิตไม่ยืนยันในหน้าที่เราอ่านได้ (ตรวจ 11 พ.ย. 2026) Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "price"
   ]
@@ -7235,7 +7235,7 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก RM599.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-woven-tj-power-v2",
-  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
+  "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet) เท็นชั่น 42 lbs เป็นค่าที่ Felet พิมพ์ในรูปสเปกเอง สูงกว่ารุ่นอื่นในซีรีส์ (35–38 lbs)",
   "est": [
    "level",
    "style",
@@ -12674,7 +12674,7 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "note": "ป้ายหัวเบา แต่ yumo.ca วัดได้ 302 mm (เรียกหัวหนัก) แหล่งขัดกัน ยังไม่มีค่าจากผู้ผลิต (ตรวจ 11 พ.ย. 2026) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
    "tension",
    "flex",
@@ -13386,7 +13386,7 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹8,162.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-bladex-73-badminton-racket",
-  "note": "",
+  "note": "ป้ายหัวเบา แต่ yumo.ca วัด BladeX 73 Light ได้ 302 mm (เรียกหัวหนัก) แหล่งขัดกัน ยังไม่มีค่าจากผู้ผลิต (ตรวจ 11 พ.ย. 2026)",
   "est": [
    "price",
    "level"
@@ -14917,7 +14917,7 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "Li-Ning จัด 302 mm เป็นสมดุล (Even) เอง ป้ายสมดุลจึงมาจากผู้ผลิตและตัวเลข mm จากหน้าเดียวกัน เส้นแบ่งของแบรนด์นี้ต่างจากแบรนด์อื่น (ตรวจ 11 พ.ย. 2026)",
   "est": []
  },
  {
@@ -14969,7 +14969,7 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "Li-Ning จัด 302 mm เป็นสมดุล (Even) เอง ป้ายสมดุลจึงมาจากผู้ผลิตและตัวเลข mm จากหน้าเดียวกัน เส้นแบ่งของแบรนด์นี้ต่างจากแบรนด์อื่น (ตรวจ 11 พ.ย. 2026)",
   "est": []
  },
  {
@@ -15145,7 +15145,7 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "ป้ายสมดุล (Even) จาก Li-Ning เอง; yumo.ca วัดได้ 301 mm และเรียกหัวหนัก เส้นแบ่งของแต่ละร้านต่างกัน (ตรวจ 11 พ.ย. 2026)",
   "est": []
  },
  {
@@ -15263,7 +15263,7 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "Li-Ning จัด 302 mm เป็นสมดุล (Even) เอง ป้ายสมดุลจึงมาจากผู้ผลิตและตัวเลข mm จากหน้าเดียวกัน เส้นแบ่งของแบรนด์นี้ต่างจากแบรนด์อื่น (ตรวจ 11 พ.ย. 2026)",
   "est": []
  },
  {
@@ -19604,7 +19604,7 @@ window.RACKETS = [
   "flex": "flexible",
   "level": "beginner",
   "levelTo": "",
-  "weights": "4U, 5U",
+  "weights": "6U",
   "weight": 74,
   "grips": "",
   "tension": [
@@ -19646,7 +19646,7 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹7,962.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-windstorm-nano-74-badminton-racket",
-  "note": "",
+  "note": "น้ำหนัก 74 g จาก Li-Ning (sg และ in.lining.studio) ตรงกับขนาด 6U; thegodofsports พิมพ์ 4U, 5U ซึ่งไม่ตรงกับน้ำหนักนี้ (ตรวจ 11 พ.ย. 2026)",
   "est": [
    "price",
    "level"
@@ -33136,7 +33136,7 @@ window.RACKETS = [
   "flex": "flexible",
   "level": "advanced",
   "levelTo": "",
-  "weights": "4U, 5U, 7U",
+  "weights": "7U",
   "weight": 66,
   "grips": "G6",
   "tension": [
@@ -33186,7 +33186,7 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "น้ำหนัก 66 g ± 2 จากหน้า Victor ไทย ตรงกับขนาด 7U; ร้านบางแห่งพิมพ์ 4U, 5U, 7U รวมกันเพราะขายหลายตัวเลือก (ตรวจ 11 พ.ย. 2026)",
   "est": []
  },
  {
@@ -36834,7 +36834,7 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "ร้านส่วนใหญ่ (5 แห่ง) ระบุสมดุล ส่วน Badminton Bay วัดได้ 303 mm และเรียกหัวหนัก ตัวเลข mm เป็นค่าวัดของร้านเดียว (ตรวจ 11 พ.ย. 2026)",
   "est": []
  },
  {
@@ -41799,7 +41799,7 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "ร้านส่วนใหญ่ (7 จาก 8) ระบุหัวเบาตามที่ Yonex เรียก ส่วน Badminton Bay วัดได้ 300 mm และเรียกหัวหนัก ตัวเลข mm เป็นค่าวัดของร้านเดียว (ตรวจ 11 พ.ย. 2026)",
   "est": []
  },
  {
@@ -42896,7 +42896,7 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "ร้านส่วนใหญ่ (6 จาก 7) ระบุหัวเบาตามที่ Yonex เรียก ส่วน Badminton Bay วัดได้ 300 mm และเรียกหัวหนัก ตัวเลข mm เป็นค่าวัดของร้านเดียว (ตรวจ 11 พ.ย. 2026)",
   "est": []
  },
  {
