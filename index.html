@@ -17,24 +17,9 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500&family=Wix+Madefor+Text:wght@400;500&family=IBM+Plex+Sans+Thai:wght@400;500&family=Anuphan:wght@400;500;600&family=Kanit:wght@500;600&family=Noto+Serif+Thai:wght@600&family=Prompt:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500&family=Wix+Madefor+Text:wght@400;500&family=IBM+Plex+Sans+Thai:wght@400;500&family=Prompt:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=__V__">
-  <link rel="stylesheet" href="themes.css?v=__V__">
-  <link rel="stylesheet" href="layouts.css?v=__V__">
-  <script>
-    // ?style=store&theme=court picks a look from a link (choose.html); a saved choice applies otherwise
-    (function () {
-      var q = new URLSearchParams(location.search), d = document.documentElement, ls = null;
-      try { ls = window.localStorage; } catch (e) {}
-      ['style', 'theme'].forEach(function (k) {
-        var v = q.has(k) ? q.get(k) : (ls ? ls.getItem(k) : null);
-        if (q.has(k) && q.has('save') && ls) { try { v ? ls.setItem(k, v) : ls.removeItem(k); } catch (e) {} }
-        if (v) d.dataset[k] = v;
-      });
-      // the sport layout is drawn for the black-and-white palette: it takes it unless a theme was chosen
-      if (d.dataset.style === 'sport' && !d.dataset.theme) d.dataset.theme = 'mono';
-    })();
-  </script>
+  <link rel="stylesheet" href="look.css?v=__V__">
 </head>
 <body>
   <header class="top">
@@ -49,26 +34,6 @@
         <a href="#match" data-v="match">จับคู่ไม้+เอ็น</a>
         <a href="#manage" data-v="manage">จัดการข้อมูล</a>
       </nav>
-      <button class="tp-toggle" id="tp-toggle" type="button" aria-expanded="false" aria-controls="tp">หน้าตา</button>
-      <div class="theme-pick" id="tp">
-        <label for="style">สไตล์</label>
-        <select id="style">
-          <option value="">เดิม</option>
-          <option value="sport">สปอร์ต</option>
-          <option value="store">ร้านกีฬา</option>
-          <option value="table">ตารางสเปก</option>
-          <option value="app">แอป</option>
-        </select>
-        <label for="theme">ธีม</label>
-        <select id="theme">
-          <option value="">ค่ำ</option>
-          <option value="court">สนาม</option>
-          <option value="volt">โวลต์</option>
-          <option value="paper">กระดาษ</option>
-          <option value="sky">ฟ้า</option>
-          <option value="mono">ขาวดำ</option>
-        </select>
-      </div>
     </div>
   </header>
   <main class="container" id="view"></main>

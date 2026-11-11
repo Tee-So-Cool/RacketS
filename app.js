@@ -512,7 +512,6 @@
         <button class="btn ghost" id="clr" type="button">ล้างตัวกรอง</button>
       </div>
       <div class="tiles" id="tiles"></div>
-      <div class="chipbar" id="chips"></div>
       <div class="count muted small" id="cnt"></div>
       <div class="grid" id="grid"></div>
       <div class="more-row"><button class="btn" id="more" type="button" hidden></button></div>`;
@@ -578,18 +577,7 @@
       const el = e.target.closest('[data-axis], [data-add]');
       if (el && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); rankAction(el); }
     });
-    // the same filters as chips: a row of buttons per filter (store style) or a sidebar list (app style)
-    const chips = view.querySelector('#chips');
-    const renderChips = () => {
-      const groups = [['brand', 'แบรนด์', Object.fromEntries(brands.map(b => [b, b]))], ...cfg.filters.map(k => [k, cfg.filterAll[k].replace(/^ทุก/, ''), L[k]])];
-      chips.innerHTML = groups.map(([key, label, map]) => `
-        <div class="chipgroup"><span class="chiplabel">${esc(label)}</span><div class="chiprow">
-          <button type="button" class="chip ${f[key] ? '' : 'on'}" data-ck="${key}" data-cv="" aria-pressed="${!f[key]}">ทั้งหมด</button>
-          ${Object.entries(map).filter(([k]) => key === 'brand' || countOf(key, k)).map(([k, v]) =>
-            `<button type="button" class="chip ${f[key] === k ? 'on' : ''}" data-ck="${key}" data-cv="${esc(k)}" aria-pressed="${f[key] === k}">${esc(v)}</button>`).join('')}
-        </div></div>`).join('');
-    };
-    // shortcut tiles for the first filter (playing style for rackets), shown in the sport layout
+    // shortcut tiles for the first filter (playing style for rackets); they stand in for that dropdown
     const tiles = view.querySelector('#tiles'), tk = cfg.filters[0];
     const renderTiles = () => {
       tiles.innerHTML = Object.entries(L[tk]).filter(([k]) => countOf(tk, k)).map(([k, v]) =>
@@ -599,20 +587,14 @@
     const pick = b => {
       f[b.dataset.ck] = f[b.dataset.ck] === b.dataset.cv ? '' : b.dataset.cv;
       const s = flt.querySelector(`[name="${b.dataset.ck}"]`); if (s) s.value = f[b.dataset.ck];
-      state.shown[kind] = PAGE; renderChips(); renderTiles(); renderGrid(kind); swap();
+      state.shown[kind] = PAGE; renderTiles(); renderGrid(kind); swap();
     };
     tiles.addEventListener('click', e => { const b = e.target.closest('[data-ck]'); if (b) pick(b); });
     flt.addEventListener('change', renderTiles);
     renderTiles();
     flt.querySelector(`[name="${tk}"]`)?.classList.add('has-tiles');
     countUp(tiles);
-    if (kind === 'r') countUp(view.querySelector('.hero-stats'));   // the tiles stand in for this dropdown in the default layout
-    chips.addEventListener('click', e => {
-      const b = e.target.closest('[data-ck]'); if (!b) return;
-      pick(b);
-    });
-    flt.addEventListener('change', renderChips);
-    renderChips();
+    if (kind === 'r') countUp(view.querySelector('.hero-stats'));
     renderGrid(kind);
     const art = view.querySelector('.hero-art');
     if (art && !reduceMotion()) {
@@ -1537,16 +1519,8 @@
     if (tb) tb.classList.toggle('at-end', tb.scrollLeft + tb.clientWidth >= tb.scrollWidth - 4);
   }
   (() => {
-    const tb = document.getElementById('tabs'), tg = document.getElementById('tp-toggle'), tp = document.getElementById('tp');
+    const tb = document.getElementById('tabs');
     if (tb) { tb.addEventListener('scroll', fadeTabs, { passive: true }); window.addEventListener('resize', fadeTabs); }
-    // the style and theme pickers fold away on a phone, behind one button
-    if (tg && tp) {
-      const set = open => { tp.classList.toggle('open', open); tg.setAttribute('aria-expanded', open); };
-      tg.onclick = () => set(!tp.classList.contains('open'));
-      // it closes on a click anywhere else, and on Escape (focus goes back to its button)
-      document.addEventListener('click', e => { if (tp.classList.contains('open') && !tp.contains(e.target) && !tg.contains(e.target)) set(false); });
-      document.addEventListener('keydown', e => { if (e.key === 'Escape' && tp.classList.contains('open')) { set(false); tg.focus(); } });
-    }
   })();
   function route() {
     const [v0, qs] = location.hash.slice(1).split('?');
@@ -1573,31 +1547,4 @@
   }
   window.addEventListener('hashchange', route);
   route();
-
-  // style picker: the layout lives on <html data-style>, remembered on this device only
-  const styleSel = document.getElementById('style');
-  if (styleSel) {
-    styleSel.value = document.documentElement.dataset.style || '';
-    styleSel.addEventListener('change', () => {
-      const t = styleSel.value;
-      const d = document.documentElement;
-      if (t) d.dataset.style = t; else delete d.dataset.style;
-      try { t ? localStorage.setItem('style', t) : localStorage.removeItem('style'); } catch (e) {}
-      // the sport layout brings its black-and-white palette when no theme was picked
-      let saved = null; try { saved = localStorage.getItem('theme'); } catch (e) {}
-      if (!saved) { if (t === 'sport') d.dataset.theme = 'mono'; else delete d.dataset.theme; }
-      if (themeSel) themeSel.value = d.dataset.theme || '';
-    });
-  }
-
-  // theme picker: the choice lives on <html data-theme>, remembered on this device only
-  const themeSel = document.getElementById('theme');
-  if (themeSel) {
-    themeSel.value = document.documentElement.dataset.theme || '';
-    themeSel.addEventListener('change', () => {
-      const t = themeSel.value;
-      if (t) document.documentElement.dataset.theme = t; else delete document.documentElement.dataset.theme;
-      try { t ? localStorage.setItem('theme', t) : localStorage.removeItem('theme'); } catch (e) {}
-    });
-  }
 })();
