@@ -195,6 +195,16 @@ def tech_list(lines):
         if 2 < len(l) <= 50 and not re.search('[ก-๙]', l) and len(l.split()) <= 7 and not l.endswith('.'): names.append(l.strip().rstrip(':： '))
     return ', '.join(dict.fromkeys(names)) if 2 <= len(names) <= 10 else ''
 
+LV = r'(beginner|intermediate|advanced|professional|pro|expert|elite)'
+def level_prose(t):
+    """A level a shop's prose states for the racket: "suitable for advanced players", "ideal for intermediate to advanced players",
+    "for beginner and intermediate badminton players". It needs the noun "players" right after, so "advanced materials" and
+    "all players" are not read as levels. Returns the words as written ("intermediate to advanced") or ''."""
+    m = re.search(r'\bfor\s+(?:the\s+)?' + LV + r'(?:\s*(?:,|/|-|&|and|or|to)\s*' + LV + r')?\s+(?:level\s+)?(?:badminton\s+)?(?:players|users|athletes)\b', t or '', re.I)
+    if not m: return ''
+    a, b = m.group(1).lower(), (m.group(2) or '').lower()
+    return f'{a} to {b}' if b and b != a else a
+
 def parse(lines, options=()):
     out = {}
     lines = expand(lines)
@@ -256,7 +266,7 @@ def parse(lines, options=()):
     text = ' \n'.join(lines)
     made = {country_of(m) for m in re.findall(r'made in ([A-Za-z]+)', text, re.I)} - {''}
     longer = re.search(r'\+\s?(\d{1,2})\s?mm\b[^.]{0,20}(?:length|longer)|(\d{1,2})\s?mm longer', text, re.I)
-    prose = {'balance': balance_of(text, prose=True), 'flex': flex_prose(text), 'weights': weights_of(text), 'weight': grams_of(text),
+    prose = {'level': level_prose(text), 'balance': balance_of(text, prose=True), 'flex': flex_prose(text), 'weights': weights_of(text), 'weight': grams_of(text),
              'tmax': tmax_of(text, prose=True), 'grips': grips_of(text),
              'length': length_of(text) or (f'+{longer.group(1) or longer.group(2)} mm (ยาวกว่ามาตรฐาน)' if longer else ''),
              'madeIn': made.pop() if len(made) == 1 else ''}

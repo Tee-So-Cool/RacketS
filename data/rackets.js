@@ -183,7 +183,7 @@ window.RACKETS = [
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
-  "grips": "",
+  "grips": "G2",
   "tension": [
    null,
    38
@@ -195,7 +195,7 @@ window.RACKETS = [
   "joint": "",
   "length": "675mm +/- 3",
   "head": "",
-  "pattern": "",
+  "pattern": "76 Holes",
   "tech": "",
   "players": "",
   "madeIn": "",
@@ -207,7 +207,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-assailant-pro-white-4u-badminton-racket.html",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=413"
+   }
+  ],
   "priceNote": "แปลงจาก US$182.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-assailant-pro-white-4u-badminton-racket.html",
   "note": "",
@@ -309,24 +314,27 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Blizzard 2500",
   "year": 2022,
-  "style": "",
-  "balance": "",
-  "bp": "",
-  "flex": "",
+  "style": "allround",
+  "balance": "even",
+  "bp": 292,
+  "flex": "flexible",
   "level": "intermediate",
   "levelTo": "",
-  "weights": "",
-  "weight": "",
-  "grips": "",
-  "tension": null,
+  "weights": "4U",
+  "weight": 84,
+  "grips": "G2",
+  "tension": [
+   null,
+   38
+  ],
   "tensionNote": "",
   "price": "",
-  "frame": "",
-  "shaft": "",
+  "frame": "30T Japan Graphite",
+  "shaft": "24T Japan Graphite",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "head": "",
-  "pattern": "",
+  "pattern": "76 Holes",
   "tech": "",
   "players": "",
   "madeIn": "",
@@ -338,11 +346,18 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=684"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-blizzard-pro",
@@ -397,7 +412,7 @@ window.RACKETS = [
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
-  "grips": "G1",
+  "grips": "G2",
   "tension": [
    null,
    38
@@ -407,9 +422,9 @@ window.RACKETS = [
   "frame": "30T Japan HM Graphite + Quad Balance + Hexagon Throat",
   "shaft": "40T Japan HM Graphite + Super Slim Shaft 6.2mm",
   "joint": "",
-  "length": "672mm",
+  "length": "675 mm",
   "head": "",
-  "pattern": "",
+  "pattern": "76 Holes",
   "tech": "Graphite/carbon fibre frame",
   "players": "",
   "madeIn": "Vietnam",
@@ -422,6 +437,10 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-blizzard-pro-zz-black-4u-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=194"
+   },
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/apacs-blizzard-pro-zz-badminton-racket"
@@ -699,24 +718,27 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Cross Court Pro",
   "year": 2025,
-  "style": "",
-  "balance": "",
-  "bp": "",
-  "flex": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 305,
+  "flex": "stiff",
   "level": "advanced",
   "levelTo": "",
-  "weights": "",
-  "weight": "",
-  "grips": "",
-  "tension": null,
+  "weights": "4U",
+  "weight": 84,
+  "grips": "G2",
+  "tension": [
+   null,
+   38
+  ],
   "tensionNote": "",
   "price": "",
-  "frame": "",
-  "shaft": "",
+  "frame": "30T Japan H.M. Graphite + T-JOINT",
+  "shaft": "50T Japan H.M. Graphite + CCT",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "head": "",
-  "pattern": "",
+  "pattern": "76 Holes",
   "tech": "",
   "players": "",
   "madeIn": "",
@@ -728,11 +750,18 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=682"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-cross-court-pro-6-2",
@@ -1333,7 +1362,7 @@ window.RACKETS = [
   "levelTo": "",
   "weights": "4U, 3U",
   "weight": 84,
-  "grips": "G2, G4, G5",
+  "grips": "G2",
   "tension": [
    null,
    38
@@ -1345,7 +1374,7 @@ window.RACKETS = [
   "joint": "",
   "length": "673mm +/- 2",
   "head": "",
-  "pattern": "76",
+  "pattern": "76 Holes",
   "tech": "Head-Heavy Balance",
   "players": "",
   "madeIn": "Vietnam",
@@ -1358,6 +1387,10 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-fantala-pro-101-4u-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=669"
+   },
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/apacs-fantala-pro-101-badminton-racket"
@@ -1400,7 +1433,7 @@ window.RACKETS = [
   "joint": "",
   "length": "672 mm",
   "head": "",
-  "pattern": "",
+  "pattern": "72 Holes",
   "tech": "Ultra-lightweight 7U frame (67–68 g)",
   "players": "",
   "madeIn": "",
@@ -1413,6 +1446,10 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-500-grey-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=348"
+   },
    {
     "shop": "centralsports.co.uk",
     "url": "https://centralsports.co.uk/products/apacs-feather-weight-500-racket-grey-7u1"
@@ -1450,7 +1487,7 @@ window.RACKETS = [
   "joint": "",
   "length": "670mm +/- 2",
   "head": "",
-  "pattern": "",
+  "pattern": "72 Holes",
   "tech": "Ultra-lightweight design (61g)",
   "players": "",
   "madeIn": "Taiwan",
@@ -1463,6 +1500,10 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-55-black-red-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=611"
+   },
    {
     "shop": "centralsports.co.uk",
     "url": "https://centralsports.co.uk/products/apacs-feather-weight-55"
@@ -1853,12 +1894,12 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "bp": 305,
-  "flex": "stiff",
+  "flex": "medium",
   "level": "advanced",
   "levelTo": "",
   "weights": "4U",
   "weight": 86,
-  "grips": "G2",
+  "grips": "G4",
   "tension": [
    null,
    38
@@ -1870,7 +1911,7 @@ window.RACKETS = [
   "joint": "",
   "length": "675mm +/- 2",
   "head": "",
-  "pattern": "",
+  "pattern": "76 Holes",
   "tech": "Head-heavy balance",
   "players": "",
   "madeIn": "Malaysia",
@@ -1883,6 +1924,10 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-honor-pro-dark-grey-neon-green-3u-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=677"
+   },
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/apacs-honor-pro-badminton-racquet-pre-strung"
@@ -2061,7 +2106,7 @@ window.RACKETS = [
   "joint": "",
   "length": "675mm +/- 2",
   "head": "",
-  "pattern": "Increases power and extra kick on impact.",
+  "pattern": "76 Holes",
   "tech": "Isometric head frame, 76 grommet systems, Quad Balance System, Reinforced Structure Frame, Super Slim Shaft 6.2mm, Fused Grommets, Hexagon Throat, Playability, Summary",
   "players": "",
   "madeIn": "",
@@ -2074,6 +2119,10 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-imperial-pro-dark-grey-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=670"
+   },
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/apacs-imperial-pro-badminton-racquet-pre-strung"
@@ -2092,24 +2141,27 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Imperial Pro 6.2",
   "year": 2025,
-  "style": "",
-  "balance": "",
-  "bp": "",
-  "flex": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 305,
+  "flex": "medium",
   "level": "advanced",
   "levelTo": "",
-  "weights": "",
-  "weight": "",
-  "grips": "",
-  "tension": null,
+  "weights": "3U, 4U",
+  "weight": 87,
+  "grips": "G2",
+  "tension": [
+   null,
+   38
+  ],
   "tensionNote": "",
   "price": "",
-  "frame": "",
-  "shaft": "",
+  "frame": "DuraMax Carbon + FRP",
+  "shaft": "DuraPro Carbon + T-Joint + CCT + Power Booster",
   "joint": "",
   "length": "",
   "head": "",
-  "pattern": "",
+  "pattern": "76 Holes",
   "tech": "",
   "players": "",
   "madeIn": "",
@@ -2121,11 +2173,18 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=694"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-legacy-909",
@@ -3425,7 +3484,7 @@ window.RACKETS = [
   "levelTo": "",
   "weights": "6U",
   "weight": 79,
-  "grips": "",
+  "grips": "G2",
   "tension": [
    null,
    32
@@ -3437,7 +3496,7 @@ window.RACKETS = [
   "joint": "",
   "length": "672mm",
   "head": "",
-  "pattern": "",
+  "pattern": "76 Holes",
   "tech": "",
   "players": "",
   "madeIn": "",
@@ -3449,7 +3508,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-super-speed-black-4u-badminton-racket.html",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=695"
+   }
+  ],
   "priceNote": "แปลงจาก US$146.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-super-speed-black-4u-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
@@ -3594,25 +3658,25 @@ window.RACKETS = [
   "year": 2024,
   "style": "attack",
   "balance": "head-heavy",
-  "bp": "",
+  "bp": 305,
   "flex": "stiff",
   "level": "advanced",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
-  "grips": "G5",
+  "grips": "G2",
   "tension": [
    null,
    38
   ],
   "tensionNote": "",
   "price": 5500,
-  "frame": "40T Japan Graphite + Aero Hex Frame",
-  "shaft": "40T Japan Graphite (6.2mm Super Slim)",
+  "frame": "30 Tonne Japan HM Graphite",
+  "shaft": "DuraPro Carbon + T-Joint + Power Booster DuraPro Carbon + T-Joint + CCT + Power Booster",
   "joint": "",
   "length": "675 mm",
   "head": "",
-  "pattern": "",
+  "pattern": "76 Holes",
   "tech": "",
   "players": "",
   "madeIn": "Vietnam",
@@ -3625,6 +3689,10 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=693"
+   },
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/apacs-thunderdome-pro-6-2-badminton-racket"
@@ -3872,24 +3940,27 @@ window.RACKETS = [
   "brand": "Apacs",
   "name": "Versus Pro",
   "year": 2023,
-  "style": "",
-  "balance": "",
-  "bp": "",
-  "flex": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 305,
+  "flex": "stiff",
   "level": "advanced",
   "levelTo": "",
-  "weights": "",
-  "weight": "",
-  "grips": "",
-  "tension": null,
+  "weights": "4U",
+  "weight": 86,
+  "grips": "G2",
+  "tension": [
+   null,
+   38
+  ],
   "tensionNote": "",
   "price": "",
-  "frame": "",
-  "shaft": "",
+  "frame": "30 Tonne Japan H.M. Graphite + T-Joint",
+  "shaft": "50 Tonne Japan H.M. Graphite",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "head": "",
-  "pattern": "",
+  "pattern": "76 Holes",
   "tech": "",
   "players": "",
   "madeIn": "",
@@ -3901,35 +3972,45 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=673"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
-  "est": []
+  "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
+  "est": [
+   "style"
+  ]
  },
  {
   "id": "apacs-versus-pro-6-2",
   "brand": "Apacs",
   "name": "Versus Pro 6.2",
   "year": 2025,
-  "style": "",
-  "balance": "",
-  "bp": "",
-  "flex": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 305,
+  "flex": "stiff",
   "level": "advanced",
   "levelTo": "",
-  "weights": "",
-  "weight": "",
-  "grips": "",
-  "tension": null,
+  "weights": "3U, 4U",
+  "weight": 87,
+  "grips": "G2",
+  "tension": [
+   null,
+   38
+  ],
   "tensionNote": "",
   "price": "",
-  "frame": "",
-  "shaft": "",
+  "frame": "DuraMax CARBON",
+  "shaft": "DuraPro CARBON + T-joint + CCT + Power Booster",
   "joint": "",
   "length": "",
   "head": "",
-  "pattern": "",
+  "pattern": "76 Holes",
   "tech": "",
   "players": "",
   "madeIn": "",
@@ -3941,11 +4022,19 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=688"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "flex",
+   "style"
+  ]
  },
  {
   "id": "apacs-versus-pro-6-4",
@@ -4028,6 +4117,10 @@ window.RACKETS = [
    {
     "shop": "badmintonplaza.com",
     "url": "https://www.badmintonplaza.com/product_info.php?products_id=3940"
+   },
+   {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=519"
    }
   ],
   "priceNote": "",
@@ -4729,7 +4822,7 @@ window.RACKETS = [
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
-  "grips": "",
+  "grips": "G2",
   "tension": [
    null,
    38
@@ -4741,7 +4834,7 @@ window.RACKETS = [
   "joint": "",
   "length": "672mm +/- 2",
   "head": "",
-  "pattern": "",
+  "pattern": "76 Holes",
   "tech": "",
   "players": "",
   "madeIn": "",
@@ -4753,7 +4846,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-ziggler-PRO-6.2-black-red-4u-badminton-racket.html",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=691"
+   }
+  ],
   "priceNote": "แปลงจาก US$187.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-ziggler-PRO-6.2-black-red-4u-badminton-racket.html",
   "note": "",
@@ -8637,7 +8735,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "flexible",
-  "level": "beginner",
+  "level": "intermediate",
   "levelTo": "",
   "weights": "3U, 4U, 5U, 6U",
   "weight": 83,
@@ -8683,8 +8781,8 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-300b-boost-badminton-racket",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "level",
+   "price"
   ]
  },
  {
@@ -8860,8 +8958,8 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-600-badminton-racket",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "level",
+   "price"
   ]
  },
  {
@@ -15453,8 +15551,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/halbertec-mage-4u-1",
   "note": "",
   "est": [
-   "price",
    "level",
+   "price",
    "weight"
   ]
  },
@@ -17512,8 +17610,8 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-turbo-charging-70-boost-badminton-racket-purple",
   "note": "",
   "est": [
-   "price",
    "level",
+   "price",
    "weight"
   ]
  },
@@ -17581,7 +17679,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 306,
   "flex": "flexible",
-  "level": "beginner",
+  "level": "intermediate",
   "levelTo": "",
   "weights": "4U, 5U",
   "weight": 79,
@@ -17627,8 +17725,8 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-turbo-charging-70-instinct-badminton-racket-pink",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "level",
+   "price"
   ]
  },
  {
@@ -17796,8 +17894,8 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-turbo-charging-75d-badminton-racket",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "level",
+   "price"
   ]
  },
  {
@@ -19075,7 +19173,7 @@ window.RACKETS = [
   "bp": 310,
   "flex": "flexible",
   "level": "beginner",
-  "levelTo": "",
+  "levelTo": "intermediate",
   "weights": "6U",
   "weight": 74,
   "grips": "G6",
@@ -19125,8 +19223,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "tension",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -20416,8 +20513,8 @@ window.RACKETS = [
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB451/",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "level",
+   "price"
   ]
  },
  {
@@ -21225,7 +21322,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "advanced",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -21267,9 +21364,9 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/mizuno-fortius-50-spirit-badminton-racket",
   "note": "",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -21438,8 +21535,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "pro",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "4U",
   "weight": 83,
   "grips": "",
@@ -21482,7 +21579,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -21589,9 +21685,9 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/mizuno-fortius-70-badminton-racket",
   "note": "",
   "est": [
+   "level",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -21801,9 +21897,9 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/mizuno-fortius-90-badminton-racket",
   "note": "",
   "est": [
+   "level",
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -22064,7 +22160,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "advanced",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -22102,9 +22198,9 @@ window.RACKETS = [
   "priceSrc": "https://vnm.mizuno.com/products/promax-ht1-73mtb524-2025aw",
   "note": "",
   "est": [
+   "level",
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -28920,7 +29016,7 @@ window.RACKETS = [
   "bp": "",
   "flex": "medium",
   "level": "beginner",
-  "levelTo": "",
+  "levelTo": "intermediate",
   "weights": "5U, 4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -28960,9 +29056,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "victor-auraspeed-90f",
@@ -32695,7 +32789,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "advanced",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -32863,8 +32957,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -32914,7 +33008,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -33482,8 +33575,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
    "level",
+   "style",
    "weight"
   ]
  },
@@ -42381,8 +42474,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "advanced",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "4U",
   "weight": 83,
   "grips": "",
@@ -42426,7 +42519,6 @@ window.RACKETS = [
    "balance",
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -42813,10 +42905,10 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/yonex-nanoflare-800-badminton-racket",
   "note": "",
   "est": [
+   "level",
    "tension",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -43406,7 +43498,7 @@ window.RACKETS = [
   "bp": "",
   "flex": "medium",
   "level": "beginner",
-  "levelTo": "",
+  "levelTo": "intermediate",
   "weights": "5U",
   "weight": 78,
   "grips": "G5",
@@ -43451,7 +43543,6 @@ window.RACKETS = [
    "tension",
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -43464,7 +43555,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "beginner",
+  "level": "intermediate",
   "levelTo": "",
   "weights": "4U",
   "weight": 89,
@@ -43504,9 +43595,9 @@ window.RACKETS = [
   "note": "",
   "est": [
    "flex",
+   "level",
    "style",
    "price",
-   "level",
    "weight"
   ]
  },

@@ -304,8 +304,11 @@ FOFF = os.path.join(SRC, 'felet-official.json')
 # Mizuno's own Altius and Fortius pages (scripts/fetch_mizuno.py): weight class, flex, balance and recommended tension as text,
 # no level, no price; models of those two lines that this data lacks are added from it
 MOFF = os.path.join(SRC, 'mizuno-official.json')
+# Apacs's own UK store (scripts/fetch_apacs.py): weight with its U class, BCP in mm, flex, grip, length, max tension, holes; no price
+AOFF = os.path.join(SRC, 'apacs-official.json')
 shop_pages = (json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) else []) + (json.load(open(FOFF, encoding='utf-8')) if os.path.exists(FOFF) else []) + \
              (json.load(open(MOFF, encoding='utf-8')) if os.path.exists(MOFF) else []) + \
+             (json.load(open(AOFF, encoding='utf-8')) if os.path.exists(AOFF) else []) + \
              (json.load(open(SHOPS, encoding='utf-8')) if os.path.exists(SHOPS) else []) + \
              (json.load(open(os.path.join(SRC, 'honly.json'), encoding='utf-8')) if os.path.exists(os.path.join(SRC, 'honly.json')) else []) + \
              (json.load(open(os.path.join(SRC, 'corkandfeathers.json'), encoding='utf-8')) if os.path.exists(os.path.join(SRC, 'corkandfeathers.json')) else [])  # fetch_honly.py: Felet specs; fetch_corkfeathers.py: Victor NA's spec block
@@ -433,7 +436,8 @@ for bz in bay + click + shops:
     for f, v in fill.items():
         if v in ('', None): continue
         # flex read from a shop's prose agreed with other sources only about 3 times in 4, so it stays an estimate
-        # prose max tension agreed 61% (often another weight class), so it stays an estimate too
+        # prose max tension agreed 61% (often another weight class), so it stays an estimate too; a level a shop's prose states
+        # ("suitable for advanced players") is advertising copy, so it is an estimate as well
         src = {'click': 'badmintonclick.com.au'}.get(bz.get('src'), bz.get('shop') or bz.get('src', 'bay'))
         # one vote per shop, however many colourway pages it lists
         if src not in [c[2] for c in cands[id(r)][f]]:
@@ -443,7 +447,7 @@ for bz in bay + click + shops:
             if f in ('frame', 'shaft'):
                 if f in bz['parsed'].get('generic', []) if bz.get('src') == 'shop' else False: rank = 1
                 if not is_material(str(v)): rank = 2
-            cands[id(r)][f].append((v, {'flex': 'flex', 'tension': 'tmax'}.get(f) in prose, src, rank))
+            cands[id(r)][f].append((v, {'flex': 'flex', 'tension': 'tmax', 'level': 'level'}.get(f) in prose, src, rank))
     # a placeholder price (S$999 on Li-Ning's store) is not a price
     if bz.get('price') in (999, 999.0, 9999, 9999.0): bz = {**bz, 'price': ''}
     if bz.get('price') and bz.get('currency') == 'THB' and not r.get('price'):

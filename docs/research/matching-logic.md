@@ -552,3 +552,17 @@ weight class 4U, Zephyr ZR8 weight class 6U, Wrist Enhancer 140 weight 135 g (â‰
 - Yonex Nanoray 72 Light tension: shops give 17-22, 20-28 and 22-27 lbs. Altius N-Feel weight: 3.5U (plaza, a review) and 5U6
   (Decathlon SG).
 - Reach New T-Rex Pro 3939 and Victor ST 1800: no source has any spec.
+
+## Apacs from its own UK store, and a level read from a shop's sentence (11 Nov 2026)
+
+- `scripts/fetch_apacs.py` reads the 43 racket pages of apacs-badminton.co.uk. The spec list on each is plain "Label: value"
+  lines, so `spec_text.parse` reads it as it is (BCP is renamed "Balance Point", "Grommet System" "Grommet"). Weight, balance
+  point, flex, tension, holes: 5 Apacs rackets lost a gap (42 to 37) and 13 gained a hole count; Honor Pro's flex went from
+  stiff to medium, since the maker says 8.5 (Medium). The layer sits right after Mizuno's, so on a tie the maker wins.
+- `level_prose()` in `spec_text.py` reads "suitable for advanced players", "ideal for intermediate to advanced players". It needs
+  the noun "players" (or users, athletes) straight after, so "advanced materials" and "all players" are not levels. It votes below
+  any labelled level and the result is an estimate (shown with â‰ˆ), because shop prose is advertising copy. 12 rackets changed
+  level; those estimates now rest on a stated sentence instead of a guess from the series or the price. Estimated levels:
+  466 to 460.
+- Still open: the level is an estimate on 460 of 793 rackets. No source we can read states it for them; Li-Ning's own stores
+  tag entry rackets "Professional", so they are not used for it.

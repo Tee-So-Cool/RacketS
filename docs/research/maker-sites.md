@@ -26,3 +26,4 @@ Retailer copies of Victor North America's block ("BALANCE POINT (MM) 290mm") exi
 None of this was written into the data except that one figure and a flex and length from the same page. The retailer's
 "Player Level" is not used (all nine read Advanced or Professional, which looks like a price tier), as with Li-Ning's.
 btracketsports.com answered 429 (rate limited) and was left alone.
+| Apacs | apacs-badminton.co.uk (Apacs Sports UK, the brand's own UK store; no robots.txt) | a clean list per page: frame and shaft material, frame type, grommet system (holes), shaft diameter, weight with its U class, BCP in mm with a word, flex as a number with a word, grip, length, max tension | yes, 43 racket pages (`scripts/fetch_apacs.py`), one page per 3 s; it joins the vote as an official layer; no price (a UK price with VAT). Only 43 of our 106 Apacs models are sold there, and most of those already had data, so 5 gaps closed |
