@@ -463,7 +463,15 @@
     return list.sort(sorters[f.sort] || sortName);
   }
 
+  // the opening scene of the racket page: three real rackets on tiles tinted by play style, floating over a glow
+  function heroArt(items) {
+    // newest with a photograph, one brand each so the three do not look alike
+    const pick = (st, brand) => items.filter(x => x.style === st && x.brand === brand && x.img).sort((a, b) => (b.year || 0) - (a.year || 0))[0];
+    const cards = [['attack', 'Yonex'], ['speed', 'Victor'], ['control', 'Li-Ning']].map(([st, b]) => pick(st, b)).filter(Boolean);
+    return `<div class="hero-art" aria-hidden="true">${cards.map(x => `<span class="hcard ${x.style}"><img src="${esc(x.img)}" alt="" referrerpolicy="no-referrer"><span class="hn">${esc(full(x))}</span></span>`).join('')}</div>`;
+  }
   function viewCompare(kind) {
+    view.classList.toggle('has-hero', kind === 'r');
     const cfg = KIND[kind], f = state.f[kind], items = db[kind];
     if (state.linkSel) { state.sel[kind] = state.linkSel.split(',').slice(0, 3); state.linkSel = null; state.open[kind] = true; }
     state.sel[kind] = state.sel[kind].filter(id => byId(kind, id));
@@ -474,8 +482,9 @@
       .map(([k, v]) => `<option value="${k}" ${f[key] === k ? 'selected' : ''}>${v} (${countOf(key, k)})</option>`).join('')}</select>`;
 
     view.innerHTML = `
-      <h1>${cfg.title}</h1>
+      <h1>${kind === 'r' ? 'หาไม้แบด<em>ที่ใช่</em>' : cfg.title}</h1>
       <p class="muted">กดที่การ์ด 2–3 รุ่น แล้วกดปุ่มเทียบด้านล่าง (≈ คือค่าประเมิน) จากทั้งหมด ${items.length} รุ่น</p>
+      ${kind === 'r' ? heroArt(items) : ''}
       <div id="cmp"></div>
       <div class="filters" id="flt" data-open="false">
         <input type="search" name="q" placeholder="ค้นหารุ่น…" aria-label="ค้นหารุ่น" value="${esc(f.q)}">
@@ -506,6 +515,12 @@
       if (w) { showWho(w.dataset.who); return; }
       if (e.target.closest('a')) return;
       const el = e.target.closest('.item'); if (el) toggle(kind, el.dataset.id);
+    });
+    // a soft light follows the pointer over a card (the default layout draws it; the others ignore the variables)
+    let spot = 0;
+    view.querySelector('#grid').addEventListener('pointermove', e => {
+      const el = e.target.closest('.item'); if (!el || e.pointerType === 'touch' || spot) return;
+      spot = requestAnimationFrame(() => { spot = 0; const b = el.getBoundingClientRect(); el.style.setProperty('--mx', `${e.clientX - b.left}px`); el.style.setProperty('--my', `${e.clientY - b.top}px`); });
     });
     // items are role="checkbox": Space and Enter toggle them too
     view.querySelector('#grid').addEventListener('keydown', e => {
@@ -1501,6 +1516,7 @@
     fadeTabs();
     tray.hidden = true;
     view.onclick = null;
+    view.classList.remove('has-hero');
     if (v === 'strings') viewCompare('s');
     else if (v === 'shuttles') viewCompare('h');
     else if (v === 'shoes') viewCompare('o');
