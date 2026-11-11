@@ -12,14 +12,14 @@
   /* the product photographs have white grounds, so their tiles are light; a tile is the page accent in a whisper */
   --tile-paper: oklch(97% 0.008 80);
   --tile-base: color-mix(in oklab, var(--color-accent) 7%, var(--tile-paper));
-  --tile-ink: oklch(22% 0.02 268);
-  --tile-mute: oklch(46% 0.04 268);
+  --tile-ink: oklch(22% 0.02 50);
+  --tile-mute: oklch(46% 0.04 50);
   --tile-glass: oklch(100% 0 0 / 0.78);
-  --tile-ring: oklch(20% 0.02 268 / 0.3);
-  --tile-ring-hi: oklch(20% 0.02 268 / 0.55);
-  --on-fill: oklch(17% 0.03 268);
-  --shadow-lift: 0 26px 40px -24px oklch(6% 0.02 268 / 0.9);
-  --shadow-bar: 0 20px 44px -26px oklch(6% 0.02 268 / 0.9);
+  --tile-ring: oklch(20% 0.02 50 / 0.3);
+  --tile-ring-hi: oklch(20% 0.02 50 / 0.55);
+  --on-fill: oklch(17% 0.03 48);
+  --shadow-lift: 0 26px 40px -24px oklch(6% 0.02 50 / 0.9);
+  --shadow-bar: 0 20px 44px -26px oklch(6% 0.02 50 / 0.9);
   /* the four play-style hues, pulled toward the page's own accent so they agree with the palette */
   --hue-attack: color-mix(in oklab, var(--style-attack) 50%, var(--color-accent));
   --hue-speed: color-mix(in oklab, var(--style-speed) 50%, var(--color-accent));

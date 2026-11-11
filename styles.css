@@ -18,7 +18,7 @@
   --color-bad: var(--color-accent-2);
   --line-soft: color-mix(in oklab, var(--color-light) 7%, transparent);
   --fill-soft: color-mix(in oklab, var(--color-light) 4%, transparent);
-  --field-edge: oklch(52% 0.02 262);
+  --field-edge: oklch(52% 0.02 55);
   --control-h: 40px;
   --control-h-sm: 32px;
 }
@@ -250,13 +250,14 @@ table.spec a:hover { text-decoration-color: var(--color-accent-hi); }
    Pushed Dusk: darker base, hotter series, raised cards, axis rankings
    ===================================================================== */
 :root {
-  --color-paper: oklch(14% 0.016 268); --color-paper-2: oklch(19.5% 0.018 268); --color-paper-3: oklch(25% 0.02 268);
+  --color-paper: oklch(16% 0.012 50); --color-paper-2: oklch(20% 0.014 50); --color-paper-3: oklch(24.5% 0.016 50);
   --display-weight: 600;
-  --s1: oklch(66% 0.21 25);
-  --s2: oklch(70% 0.16 252);
-  --s3: oklch(82% 0.14 85);
+  /* the three compared models: the page's orange, a teal that sits opposite it, and a sand; each also has its own line style */
+  --s1: var(--color-accent);
+  --s2: oklch(76% 0.11 205);
+  --s3: oklch(87% 0.06 85);
   --style-attack: oklch(70% 0.19 25); --style-speed: oklch(74% 0.14 252); --style-control: oklch(78% 0.14 160); --style-allround: oklch(84% 0.13 85);
-  --medal-1: oklch(84% 0.15 88); --medal-2: oklch(82% 0.02 262); --medal-3: oklch(72% 0.09 55);
+  --medal-1: oklch(84% 0.15 88); --medal-2: oklch(82% 0.02 60); --medal-3: oklch(72% 0.09 55);
   --radar-well: color-mix(in oklab, var(--color-light) 3%, transparent);
   --glow: 0 0 0 4px color-mix(in oklab, var(--color-accent) 22%, transparent), 0 12px 32px -12px color-mix(in oklab, var(--color-accent) 45%, transparent);
 }
