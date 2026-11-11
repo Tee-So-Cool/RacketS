@@ -3,7 +3,7 @@
 # Takes the URLs from scripts/sources/shops.json; one page every 3 s; pages already saved are skipped.
 # Run: python3 scripts/fetch_pages.py sg.lining.studio [in.lining.studio ...]
 # REFETCH_LT=1 python3 scripts/fetch_pages.py sg.lining.studio  re-reads the pages whose "<=" ceiling was lost before the fix
-import html, json, os, re, sys, time, urllib.request
+import html, json, os, re, sys, time, urllib.error, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, 'scripts'))
@@ -25,7 +25,9 @@ def spec_lines(t):
     return L[max(0, i - 12):j]
 
 n = 0
+stop = False
 for dom in sys.argv[1:]:
+    if stop: break
     for p in [p for p in shops if p['shop'] == dom]:
         # REFETCH_LT=1: pages saved before the "<=" fix whose tension label has no value after it
         L0 = pages.get(p['url'])
@@ -34,6 +36,10 @@ for dom in sys.argv[1:]:
         time.sleep(3)
         try:
             t = urllib.request.urlopen(urllib.request.Request(p['url'], headers={'User-Agent': 'Mozilla/5.0'}), timeout=40).read().decode('utf-8', 'ignore')
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 403):   # a rate limit or a block: stop, keep what is saved, and try again another day
+                print('stop', p['url'], e.code, flush=True); stop = True; break
+            print('skip', p['url'], e, flush=True); continue
         except Exception as e:
             print('skip', p['url'], e, flush=True); continue
         pages[p['url']] = spec_lines(t)

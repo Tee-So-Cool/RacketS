@@ -537,7 +537,7 @@ Li-Ning 3, Kawasaki 2, VS 1). Reading the raw shop lines for each (the AUDIT dum
 **Li-Ning SG tension, not yet re-read.** Its pages print the ceiling as "<=32 Pounds (Lbs)" with the "<" unescaped, and the page
 fetcher's tag strip ate the value: 152 of 568 pages have the label with nothing after it. `fetch_pages.py` now escapes the
 "<" and `REFETCH_LT=1 python3 scripts/fetch_pages.py sg.lining.studio` re-reads just those pages, but sg.lining.studio
-answered 429 while testing one page, so it was not run; the user runs it later. Turbo Charging 75 Combat was set by hand (32 lbs).
+answered 429 while testing one page (again on 11 Nov, a day later), so it was not run; the user runs it later. The fetcher now stops by itself on a 429 or 403 and keeps what it has saved. Turbo Charging 75 Combat was set by hand (32 lbs).
 
 **Written by hand** (`spec-overrides.json`, each row with its sources): Challenger 9500 CD balance (even), Nanoray 72 Light balance
 (head-light), Nanoray 70 Light max tension 30 (≈), Fortius 73 VT flex (stiff, ≈), Acroforce 100 flex (stiff, ≈), Powerblade 597
