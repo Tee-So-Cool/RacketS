@@ -484,9 +484,10 @@
   }
   // the opening scene of the racket page: three real rackets on tiles tinted by play style, floating over a glow
   function heroArt(items) {
-    // newest with a photograph, one brand each so the three do not look alike
-    const pick = (st, brand) => items.filter(x => x.style === st && x.brand === brand && x.img).sort((a, b) => (b.year || 0) - (a.year || 0))[0];
-    const cards = [['attack', 'Yonex'], ['speed', 'Victor'], ['control', 'Li-Ning']].map(([st, b]) => pick(st, b)).filter(Boolean);
+    // three rackets whose photographs read well on a tile (dark frames, strong colour), one per play style; if one is gone from
+    // the data, the newest racket of that style with a photograph stands in
+    const want = [['attack', 'li-ning-axforce-100-ii'], ['speed', 'victor-auraspeed-lyc'], ['control', 'li-ning-halbertec-7000-ii']];
+    const cards = want.map(([st, id]) => items.find(x => x.id === id && x.img) || items.filter(x => x.style === st && x.img).sort((a, b) => (b.year || 0) - (a.year || 0))[0]).filter(Boolean);
     return `<div class="hero-art" aria-hidden="true">${cards.map((x, i) => `<span class="hcard ${x.style}" style="--i:${i}"><img src="${esc(x.img)}" alt="" referrerpolicy="no-referrer"><span class="hn">${esc(full(x))}</span></span>`).join('')}</div>`;
   }
   function viewCompare(kind) {
@@ -506,6 +507,7 @@
       ${kind === 'r' ? heroArt(items) : ''}
       <div id="cmp"></div>
       <div class="filters" id="flt" data-open="false">
+        <svg class="s-ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
         <input type="search" name="q" placeholder="ค้นหารุ่น…" aria-label="ค้นหารุ่น" value="${esc(f.q)}">
         <button class="btn ghost fl-toggle" id="flt-toggle" type="button" aria-expanded="false" aria-controls="flt">ตัวกรอง<span class="fl-n" id="fl-n" hidden></span></button>
         <select name="brand" aria-label="แบรนด์"><option value="">ทุกแบรนด์</option>${brands.map(b => `<option ${f.brand === b ? 'selected' : ''}>${esc(b)}</option>`).join('')}</select>
@@ -534,12 +536,6 @@
       if (w) { showWho(w.dataset.who); return; }
       if (e.target.closest('a')) return;
       const el = e.target.closest('.item'); if (el) toggle(kind, el.dataset.id);
-    });
-    // a soft light follows the pointer over a card (the default layout draws it; the others ignore the variables)
-    let spot = 0;
-    view.querySelector('#grid').addEventListener('pointermove', e => {
-      const el = e.target.closest('.item'); if (!el || e.pointerType === 'touch' || spot) return;
-      spot = requestAnimationFrame(() => { spot = 0; const b = el.getBoundingClientRect(); el.style.setProperty('--mx', `${e.clientX - b.left}px`); el.style.setProperty('--my', `${e.clientY - b.top}px`); });
     });
     // items are role="checkbox": Space and Enter toggle them too
     view.querySelector('#grid').addEventListener('keydown', e => {
