@@ -2939,7 +2939,7 @@
    "flex"
   ],
   "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน | ระดับ: ร้านขายชื่อ \"YONEX Astrox 11 Badminton Racket for Beginners\" และ \"designed for beginners\" (ผลค้น Google 8 พ.ย. 2026) จากเดิมประเมินว่าระดับสูง (≈) | ราคา: ฿4,483 ไม่ผิด แต่สูงเพราะเป็นรุ่นขายในญี่ปุ่นที่ต้องนำเข้า เช็ก 10 พ.ย. 2569: Shopee ไทย ฿4,422–4,577, JoyBadminton US$119.99, ร้านในอิตาลี €92, ร้านส่งจากญี่ปุ่น US$128 (เฉพาะเฟรมทั้งหมด)",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน | ระดับ: ร้านขายชื่อ \"YONEX Astrox 11 Badminton Racket for Beginners\" และ \"designed for beginners\" (ผลค้น Google 8 พ.ย. 2026) จากเดิมประเมินว่าระดับสูง (≈) | ราคา: ฿4,483 ไม่ผิด แต่สูงเพราะเป็นรุ่นขายในญี่ปุ่นที่ต้องนำเข้า เช็ก 10 พ.ย. 2569: Shopee ไทย ฿4,422–4,577, JoyBadminton US$119.99, ร้านในอิตาลี €92, ร้านส่งจากญี่ปุ่น US$128 (เฉพาะเฟรมทั้งหมด) | รูป: joybadminton.com (Yonex Astrox 11 (Black/Green))",
   "tmin": 17,
   "tmax": 22,
   "year": 2026,
@@ -2953,7 +2953,8 @@
   "weights": "4U",
   "weight": 83,
   "grips": "G5, G6",
-  "level": "beginner"
+  "level": "beginner",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/YonexAstrox11_BlackGreen_NO.png?v=1727983556&width=640"
  },
  "Yonex Arcsaber 3": {
   "new": true,
@@ -3003,7 +3004,7 @@
    "flex"
   ],
   "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน | ระดับ: ร้านระบุ \"entry-level ... for recreational players\" และ \"Suitable For Intermediate Players\" (ผลค้น Google 8 พ.ย. 2026) จากเดิมประเมินว่าระดับสูง (≈)",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน | ระดับ: ร้านระบุ \"entry-level ... for recreational players\" และ \"Suitable For Intermediate Players\" (ผลค้น Google 8 พ.ย. 2026) จากเดิมประเมินว่าระดับสูง (≈) | รูป: joybadminton.com (Yonex Nanoflare 400 (Deep Purple))",
   "tmin": 18,
   "tmax": 23,
   "year": 2026,
@@ -3015,7 +3016,8 @@
   "level": "intermediate",
   "estFields": [
    "level"
-  ]
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/YonexNanoflare400_DeepPurple_NO.png?v=1727985631&width=640"
  },
  "Yonex Nanoflare 300": {
   "new": true,
@@ -3026,7 +3028,7 @@
    "flex"
   ],
   "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
-  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน | ระดับ: ร้านระบุ \"Entry Model\", \"Ideal for beginners and entry-level players\" (ผลค้น Google 8 พ.ย. 2026) (≈)",
+  "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน | ระดับ: ร้านระบุ \"Entry Model\", \"Ideal for beginners and entry-level players\" (ผลค้น Google 8 พ.ย. 2026) (≈) | รูป: joybadminton.com (Yonex Nanoflare 300 (Navy/Pink))",
   "tmin": 18,
   "tmax": 23,
   "year": 2026,
@@ -3040,7 +3042,8 @@
   "weights": "4U",
   "weight": 83,
   "grips": "G5, G6",
-  "level": "beginner"
+  "level": "beginner",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/YonexNanoflare300_NavyPink_NO.png?v=1727986166&width=640"
  },
  "Yonex Nanoflare 111": {
   "new": true,
