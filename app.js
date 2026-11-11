@@ -38,6 +38,8 @@
   const tray = document.getElementById('tray');
 
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  // no photograph: a tile of the same size as the others, with the brand's first letters, so a row of cards stays level
+  const noPhoto = x => `<div class="thumb ph" aria-hidden="true"><span>${esc(String(x.brand || '?').slice(0, 2))}</span></div>`;
   const baht = n => (n || n === 0) && n !== '' ? '฿' + Number(n).toLocaleString('th-TH') : '—';
   const dash = v => (v === '' || v == null) ? '—' : esc(v);
   const clamp = (v, a = 0, b = 1) => Math.max(a, Math.min(b, v));
@@ -241,7 +243,7 @@
       sorts: { name: 'เรียงตามชื่อ', year: 'ใหม่สุดก่อน', priceAsc: 'ราคาต่ำ → สูง', priceDesc: 'ราคาสูง → ต่ำ' },
       match: (x, f) => (!f.style || x.style === f.style) && (!f.balance || x.balance === f.balance) && (!f.flex || x.flex === f.flex) && (!f.level || (lvLo(x) <= ordIdx('level', f.level, -2) && ordIdx('level', f.level, -2) <= lvHi(x))),
       card: r => `
-        ${r.img ? `<img class="thumb" src="${esc(r.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<div class="thumb" aria-hidden="true"></div>'}
+        ${r.img ? `<img class="thumb" src="${esc(r.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : noPhoto(r)}
         <span class="tag ${r.style || ''}">${lab(r, 'style') || '—'}</span>
         <div class="nm">${esc(full(r))}</div>
         <div class="meta">${[esc(r.brand), r.year, lab(r, 'level')].filter(Boolean).join(', ')}</div>
@@ -295,7 +297,7 @@
       sorts: { name: 'เรียงตามชื่อ', repulsion: 'ดีดมากสุดก่อน', control: 'คุมดีสุดก่อน', durability: 'ทนสุดก่อน', priceAsc: 'ราคาต่ำ → สูง' },
       match: (x, f) => (!f.material || x.material === f.material) && (!f.gauge || gaugeGroup(x.gauge) === f.gauge),
       card: s => `
-        ${s.img ? `<img class="thumb" src="${esc(s.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<div class="thumb" aria-hidden="true"></div>'}
+        ${s.img ? `<img class="thumb" src="${esc(s.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : noPhoto(s)}
         <span class="tag">${esc(gaugeLabel(s))}</span>
         <div class="nm">${esc(full(s))}</div>
         <div class="meta">${esc(L.material[s.material] || '')}</div>
@@ -336,7 +338,7 @@
       sorts: { name: 'เรียงตามชื่อ', priceAsc: 'ราคาต่ำ → สูง', priceDesc: 'ราคาสูง → ต่ำ' },
       match: (x, f) => (!f.type || x.type === f.type) && (!f.grade || x.grade === f.grade) && (!f.spd || x.spd === f.spd),
       card: h => `
-        ${h.img ? `<img class="thumb" src="${esc(h.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<div class="thumb" aria-hidden="true"></div>'}
+        ${h.img ? `<img class="thumb" src="${esc(h.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : noPhoto(h)}
         <span class="tag ${h.type === 'nylon' ? 'speed' : h.type === 'goose' ? 'control' : h.type ? 'allround' : ''}">${lab(h, 'type') || '—'}</span>
         <div class="nm">${esc(full(h))}</div>
         <div class="meta">${[lab(h, 'grade'), h.speedText || (h.speed ? 'สปีด ' + h.speed : '')].filter(Boolean).map(esc).join(', ')}</div>
@@ -369,7 +371,7 @@
       sorts: { name: 'เรียงตามชื่อ', year: 'ใหม่สุดก่อน', priceAsc: 'ราคาต่ำ → สูง', priceDesc: 'ราคาสูง → ต่ำ' },
       match: (x, f) => (!f.width || x.width === f.width),
       card: o => `
-        ${o.img ? `<img class="thumb" src="${esc(o.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<div class="thumb" aria-hidden="true"></div>'}
+        ${o.img ? `<img class="thumb" src="${esc(o.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : noPhoto(o)}
         <span class="tag ${o.width === 'wide' ? 'control' : o.width ? 'speed' : ''}">${L.width[o.width] || '—'}</span>
         <div class="nm">${esc(full(o))}</div>
         <div class="meta">${[o.brand, o.year, o.weight ? o.weight + ' g' : ''].filter(Boolean).map(esc).join(', ')}</div>
@@ -404,7 +406,7 @@
       sorts: { name: 'เรียงตามชื่อ', year: 'ใหม่สุดก่อน', priceAsc: 'ราคาต่ำ → สูง' },
       match: (x, f) => (!f.height || x.height === f.height),
       card: k => `
-        ${k.img ? `<img class="thumb" src="${esc(k.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<div class="thumb" aria-hidden="true"></div>'}
+        ${k.img ? `<img class="thumb" src="${esc(k.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : noPhoto(k)}
         <span class="tag ${k.height ? 'allround' : ''}">${L.height[k.height] || '—'}</span>
         <div class="nm">${esc(full(k))}</div>
         <div class="meta">${[k.brand, k.year, k.pack ? k.pack + ' คู่' : ''].filter(Boolean).map(esc).join(', ')}</div>

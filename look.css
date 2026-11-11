@@ -151,9 +151,9 @@ select.has-tiles { display: none; }
 .item.sel::before { outline-color: var(--color-accent); }
 .item:focus-visible { outline: 0; }
 .item:focus-visible::before { outline-color: var(--color-focus); }
-/* an item with no photograph (strings, mostly) gets a slim tile, not a tall blank one */
-.item:has(div.thumb)::before { aspect-ratio: auto; height: 84px; border-radius: 20px; }
-.item div.thumb { aspect-ratio: auto; height: 84px; padding: 0; mix-blend-mode: normal; box-shadow: none; }
+/* an item with no photograph keeps the tile's size, with the brand's first letters in it */
+.item .thumb.ph { display: grid; place-items: center; mix-blend-mode: normal; }
+.item .thumb.ph span { font-family: var(--font-display); font-size: clamp(2.4rem, 1.6rem + 2.4vw, 3.6rem); font-weight: 600; letter-spacing: -0.04em; color: color-mix(in oklab, var(--tint) 55%, oklch(45% 0.04 268)); opacity: 0.55; }
 /* a round tick on the tile says the card can be picked; it fills when it is */
 .item::after { content: ""; position: absolute; top: var(--space-sm); right: var(--space-sm); width: 28px; height: 28px; border-radius: 50%; background: oklch(100% 0 0 / 0.7) no-repeat center / 15px; box-shadow: inset 0 0 0 1.5px oklch(20% 0.02 268 / 0.3); transition: background-color var(--dur-micro) var(--ease-out), box-shadow var(--dur-micro) var(--ease-out), transform var(--dur-short) var(--ease-out); pointer-events: none; }
 .item:hover::after { box-shadow: inset 0 0 0 1.5px oklch(20% 0.02 268 / 0.55); }
