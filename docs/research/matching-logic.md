@@ -595,3 +595,10 @@ says "ไม่ระบุ" (card, compare sheet, and a filter entry "ไม่
 what it would have given. What still fills a level: a level a source states (333 rackets), a shop's sentence "for advanced
 players" (≈), a maker's series tier (Yonex Pro/Tour/Game/Play in the model name; Felet's Professional and Novice series, ≈), and
 an aluminium or steel frame (beginner, ≈). 355 of 793 rackets have no level; 105 carry a ≈ one.
+
+Where the level is read: the compare sheet and cards show "ไม่ระบุ"; the match score adds nothing and takes nothing for a racket
+with no level, and its confidence drops ("ระดับของไม้" is counted as a guess); the radar (`racketProfile`) used to fill a missing
+level with the middle (0.5), which plotted as a fact and also steered the "rackets like these" list. It now leaves the level term
+out and re-weights the rest. Checked on all 793 rackets: every profile has 7 finite values in 0-10, and 38,064 score calls (every
+racket against 12 strings at 4 levels) gave no NaN and no error. The same middle-value fill remains for a missing flex (63
+rackets), weight (49), max tension (47) and style: not changed.

@@ -159,7 +159,9 @@
   function racketProfile(r) {
     const bal = balPos(r);
     const fx = ordIdx('flex', r.flex, 1.5) / 3;
-    const lv = lvLo(r) < 0 ? 0.5 : (lvLo(r) + lvHi(r)) / 2 / 3;   // the middle of a range
+    // the middle of a range; a racket with no sourced level has none: its level term is left out and the rest re-weighted,
+    // never filled with a middle value that would plot as a fact
+    const lvOk = lvLo(r) >= 0, lv = lvOk ? (lvLo(r) + lvHi(r)) / 2 / 3 : 0;
     const w = clamp(((Number(r.weight) || 83) - 74) / 16);
     // 18-40 lbs: 20-lb starter frames still register, and the 205 frames rated 32 lbs or more (VS and Felet go to 38-42)
     // stay apart instead of all hitting the edge
@@ -170,10 +172,10 @@
       0.4 * bal + 0.3 * fx + 0.3 * w,  // a stiff shaft and a heavier frame add power, not only a heavy head
       0.65 * (1 - bal) + 0.35 * (1 - w),
       0.35 * st + 0.2 * (1 - Math.abs(bal - 0.5) * 2) + 0.3 * fx + 0.15 * (1 - bal),  // stiff shafts aim truer; light heads steer at the net
-      0.45 * (1 - fx) + 0.3 * (1 - lv) + 0.1 * (1 - w) + 0.15 * hd,
+      lvOk ? 0.45 * (1 - fx) + 0.3 * (1 - lv) + 0.1 * (1 - w) + 0.15 * hd : (0.45 * (1 - fx) + 0.1 * (1 - w) + 0.15 * hd) / 0.7,
       tmax,
       0.45 * (1 - bal) + 0.35 * (1 - w) + 0.2 * fx,
-      0.55 * fx + 0.45 * lv,
+      lvOk ? 0.55 * fx + 0.45 * lv : fx,
     ].map(v => Math.round(clamp(v) * 100) / 10);
   }
   const S_AXES = ['แรงดีด', 'ควบคุม', 'ความทน', 'เสียงกระทบ', 'ซับแรง'];
