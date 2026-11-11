@@ -241,12 +241,12 @@
       filters: ['style', 'balance', 'flex', 'level'],
       filterAll: { style: 'ทุกแนวการเล่น', balance: 'ทุกสมดุล', flex: 'ทุกความแข็งก้าน', level: 'ทุกระดับ' },
       sorts: { name: 'เรียงตามชื่อ', year: 'ใหม่สุดก่อน', priceAsc: 'ราคาต่ำ → สูง', priceDesc: 'ราคาสูง → ต่ำ' },
-      match: (x, f) => (!f.style || x.style === f.style) && (!f.balance || x.balance === f.balance) && (!f.flex || x.flex === f.flex) && (!f.level || (lvLo(x) <= ordIdx('level', f.level, -2) && ordIdx('level', f.level, -2) <= lvHi(x))),
+      match: (x, f) => (!f.style || x.style === f.style) && (!f.balance || x.balance === f.balance) && (!f.flex || x.flex === f.flex) && (!f.level || (f.level === 'none' ? lvLo(x) < 0 : lvLo(x) <= ordIdx('level', f.level, -2) && ordIdx('level', f.level, -2) <= lvHi(x))),
       card: r => `
         ${r.img ? `<img class="thumb" src="${esc(r.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : noPhoto(r)}
         <span class="tag ${r.style || ''}">${lab(r, 'style') || '—'}</span>
         <div class="nm">${esc(full(r))}</div>
-        <div class="meta">${[esc(r.brand), r.year, lab(r, 'level')].filter(Boolean).join(', ')}</div>
+        <div class="meta">${[esc(r.brand), r.year, lab(r, 'level') || 'ไม่ระบุระดับ'].filter(Boolean).join(', ')}</div>
         <div class="chips">${[lab(r, 'balance'), L.flex[r.flex], r.weights].filter(Boolean).map(v => `<span>${esc(v)}</span>`).join('')}</div>
         <div class="price">${r.price ? `<b class="fig">${(r.est || []).includes('price') ? '≈' : ''}${baht(r.price)}</b>` : '<span class="small muted">ยังไม่มีราคา</span>'}</div>
         <div class="card-acts"><button class="btn sm" type="button" data-who="${esc(r.id)}">เหมาะกับใคร</button>${shopee(r)}</div>`,
@@ -266,7 +266,7 @@
         ['แบรนด์', r => esc(r.brand)],
         ['ปีที่ออก', r => dash(r.year)],
         ['แนวการเล่น', r => lab(r, 'style') || '—'],
-        ['ระดับผู้เล่น', r => lab(r, 'level') || '—'],
+        ['ระดับผู้เล่น', r => lab(r, 'level') || 'ไม่ระบุ'],
         ['สมดุล', r => lab(r, 'balance') ? lab(r, 'balance') + (Number(r.bp) ? ` (${r.bp} mm)` : '') : (Number(r.bp) ? r.bp + ' mm' : '—')],
         ['ความแข็งก้าน', r => L.flex[r.flex] || '—'],
         ['น้ำหนัก', r => dash(r.weights)],
@@ -509,7 +509,7 @@
     const countOf = (key, val) => items.filter(x => key === 'gauge' ? gaugeGroup(x.gauge) === val : x[key] === val).length;
     const sel = (key, map, all) => `<select name="${key}" aria-label="${all.replace(/^ทุก/, '')}"><option value="">${all}</option>${Object.entries(map)
       .filter(([k]) => countOf(key, k))
-      .map(([k, v]) => `<option value="${k}" ${f[key] === k ? 'selected' : ''}>${v} (${countOf(key, k)})</option>`).join('')}</select>`;
+      .map(([k, v]) => `<option value="${k}" ${f[key] === k ? 'selected' : ''}>${v} (${countOf(key, k)})</option>`).join('')}${key === 'level' && items.some(x => !x.level) ? `<option value="none" ${f[key] === 'none' ? 'selected' : ''}>ไม่ระบุ (${items.filter(x => !x.level).length})</option>` : ''}</select>`;
 
     view.innerHTML = `
       <h1>${HERO[kind] ? HERO[kind].title : cfg.title}</h1>
@@ -953,7 +953,7 @@
     const d = lo < 0 ? -9 : lv < lo ? lo - lv : lv > hi ? hi - lv : 0, half = rEst.includes('level') ? 0.5 : 1;
     if (d === 0) { pR += [10, 8, 6][Math.min(width, 2)] * half; if (half === 1) ok(`ผู้ผลิตทำไม้รุ่นนี้สำหรับ${LT} ตรงกับระดับที่เลือก`); }
     else if (d === 1) { pR -= 4 * half; if (half === 1) wn(`ไม้ทำมาสำหรับ${LT} สูงกว่าระดับที่เลือกหนึ่งขั้น`); }
-    else if (d >= 2) { pR -= 18 * half; wn(`ไม้สำหรับ${LT}${half < 1 ? ' (ประเมินจากราคา)' : ''} อาจตีหนักมือสำหรับ${L.level[level]}`); }
+    else if (d >= 2) { pR -= 18 * half; wn(`ไม้สำหรับ${LT}${half < 1 ? ' (ค่าประเมิน)' : ''} อาจตีหนักมือสำหรับ${L.level[level]}`); }
     else if (d === -1) pR -= 4 * half;
     else if (d <= -2 && d > -9) { pR -= (d <= -3 ? 30 : 18) * half; wn(`ไม้สำหรับ${LT} อาจไม่ตอบโจทย์${L.level[level]}`); }
 

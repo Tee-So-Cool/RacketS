@@ -181,7 +181,7 @@ Inputs: `level`, `style`, racket (`balance`, `flex`, `weight`, `tension [min,max
   - balance against style: attack likes head-heavy, speed likes head-light, control likes even or head-light
   - shaft flex against level: the ideal moves from flexible (beginner) to stiff and extra-stiff (pro); a gap of 2.5 grades costs 25
   - weight: 87 g and up is a warning for beginner and intermediate players
-- The maker's style and level labels still count, at half weight where this data estimated them. 399 of 731 levels are estimated from price.
+- The maker's style and level labels still count, at half weight where this data estimated them. (Superseded 11 Nov 2026: levels are no longer estimated from price; a racket with no sourced level has none and scores neutral on it.)
 - A racket three levels below the player, or one whose tension ceiling sits more than 3 lb under the level's band, caps the whole score at 50. A good string can no longer rescue a 20 lb aluminium frame for a pro.
 - Strings without ratings get them from gauge instead of a flat 5:
   - thin: repulsion 8, durability 4
@@ -567,42 +567,31 @@ weight class 4U, Zephyr ZR8 weight class 6U, Wrist Enhancer 140 weight 135 g (�
 - Still open: the level is an estimate on 460 of 793 rackets. No source we can read states it for them; Li-Ning's own stores
   tag entry rackets "Professional", so they are not used for it.
 
-## Estimated level, second pass: nearest rackets of the same brand (11 Nov 2026)
+## Estimated level: measured, then dropped (11 Nov 2026)
 
 The 460 estimated levels came from one global rule: price under 2,000 baht is beginner, under 3,500 intermediate, under 6,500
 advanced, above that pro, nudged one step by flex. Left out one at a time against the 311 rackets whose level a source does
-state, that rule was right 51% of the time (mean miss 0.58 of a level). It is far worse for some makers: it matched 29% of
-Li-Ning's stated levels, because Li-Ning (and the shops selling it) calls 65 of its 80 stated rackets "pro" at any price from 780
-baht up, while Apacs calls none of its 89 pro.
+state, that rule was right 51% of the time (mean miss 0.58 of a level), and only 29% for Li-Ning, because Li-Ning (and the shops
+selling it) calls 65 of its 80 stated rackets "pro" at any price from 780 baht up, while Apacs calls none of its 89 pro.
 
-Measured alternatives (leave-one-out on the stated levels):
+Alternatives, leave-one-out on the stated levels:
 
 | Method | Exact | Mean miss |
 |---|---|---|
-| Price tiers (before) | 0.51 | 0.58 |
+| Price tiers | 0.51 | 0.58 |
 | Linear fit on price, tension, flex (no brand) | 0.49 | 0.57 |
 | The same plus a brand term | 0.67 | 0.35 |
 | 9 nearest rackets of the same brand (price, max tension, flex) | 0.75 | 0.27 |
 | 9 nearest rackets from the other brands | worse than price tiers for Li-Ning (10%), Yonex (27%) and Victor (36%); better only for Apacs (71%) | |
 
-Those pooled figures flatter the method: Li-Ning's majority class alone is 81%. Per brand, on priced rackets with a stated level,
-with 7 neighbours:
+The pooled figure flatters the method (Li-Ning's commonest level alone is 81%). Per brand, priced rackets, 7 neighbours: Apacs
+0.80 (price tiers 0.59, always-commonest 0.67), Li-Ning 0.91 (0.29, 0.82), Yonex 0.70 (0.61, 0.44), Victor 0.64 (0.62, 0.46).
+A series name does not help either (Victor's Thruster spans beginner to pro, Yonex's Astrox and Nanoflare too: 39% exact).
 
-| Brand | Stated | Nearest of same brand | Price tiers | Always the commonest level |
-|---|---|---|---|---|
-| Apacs | 51 | 0.80 | 0.59 | 0.67 |
-| Li-Ning | 79 | 0.91 | 0.29 | 0.82 |
-| Yonex | 79 | 0.70 | 0.61 | 0.44 |
-| Victor | 50 | 0.64 | 0.62 | 0.46 |
-
-What the build does (`build_rackets.py`, "level model" lines in its output): a brand that has 30 or more priced rackets with a
-stated level gets the nearest-neighbour estimate only if, left out one at a time, it beats the price-tier rule by 5 points.
-Today that is Yonex, Li-Ning and Apacs; Victor (+2 points) stays on the price tiers; every brand with fewer than 30 stated
-levels (VS 3, Mizuno 6, Kawasaki 4, Felet, Reach, ProTech) stays on the price tiers too, since levels mostly do not carry from one
-brand to another (they did for Apacs only). The result is still marked ≈. 119 of the 329 price-based estimates now use it; 92 levels changed, 88 of them
-Li-Ning's (mostly a 1,700-3,000 baht Aeronaut, Air Force or 3D Calibar called beginner, now intermediate or pro by its
-neighbours' scale), 4 Apacs; Yonex's estimates did not move.
-
-What this does not fix: Victor, VS, Mizuno, Felet and the small brands (about 320 rackets) still rest on the price tiers at about
-60% exact, and a series name does not help (Victor's Thruster spans beginner to pro, Yonex's Astrox and Nanoflare too, exact
-39%). The only real fix for them is a source that states the level; none that we can read does.
+**Decision: no guessed level.** The best method is wrong for one racket in four to one in three, and the sources themselves do not
+agree on what a level is: Li-Ning's Singapore store calls the Aeronaut 4000 intermediate, sportswing.in advanced, racquets4u
+professional; Victor's pages have no level field at all. A level the build cannot trace to a source now stays empty and the site
+says "ไม่ระบุ" (card, compare sheet, and a filter entry "ไม่ระบุ"). The nearest-rackets code was removed; the numbers above are
+what it would have given. What still fills a level: a level a source states (333 rackets), a shop's sentence "for advanced
+players" (≈), a maker's series tier (Yonex Pro/Tour/Game/Play in the model name; Felet's Professional and Novice series, ≈), and
+an aluminium or steel frame (beginner, ≈). 355 of 793 rackets have no level; 105 carry a ≈ one.

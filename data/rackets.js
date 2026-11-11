@@ -908,7 +908,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 293,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
@@ -942,8 +942,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -955,7 +954,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 330,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "10U",
   "weight": 56,
@@ -988,8 +987,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-duplex-power-55-black-badminton-racket.html",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -1471,7 +1469,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 335,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "8U",
   "weight": 58,
@@ -1517,8 +1515,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/apacs-feather-weight-55-badminton-racket",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -1530,7 +1527,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 335,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "8U",
   "weight": 58,
@@ -1563,8 +1560,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-x-ii-red-gold-badminton-racket.html",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -2449,7 +2445,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": 285,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 85,
@@ -2483,8 +2479,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -2588,7 +2583,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": 285,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "6U",
   "weight": 78,
@@ -2630,8 +2625,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -3480,7 +3474,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 293,
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "6U",
   "weight": 79,
@@ -3518,8 +3512,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-super-speed-black-4u-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -4488,7 +4481,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 290,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 85,
@@ -4530,8 +4523,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -5933,7 +5925,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 305,
   "flex": "stiff",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "7U",
   "weight": 70,
@@ -5972,8 +5964,7 @@ window.RACKETS = [
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Superlight ของ Felet)",
   "est": [
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -7439,7 +7430,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
@@ -7473,8 +7464,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -7531,7 +7521,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -7564,8 +7554,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -7577,7 +7566,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -7610,8 +7599,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -7623,7 +7611,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -7656,8 +7644,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -7669,7 +7656,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -7703,8 +7690,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -7762,7 +7748,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -7795,8 +7781,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -7808,7 +7793,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -7841,8 +7826,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -7899,7 +7883,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
@@ -7933,8 +7917,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -7946,7 +7929,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -7979,8 +7962,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -7992,7 +7974,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
@@ -8025,8 +8007,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -8038,7 +8019,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -8072,8 +8053,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -8085,7 +8065,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 79,
@@ -8118,8 +8098,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -8131,7 +8110,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -8164,8 +8143,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -8177,7 +8155,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -8210,8 +8188,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -8223,7 +8200,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "6U",
   "weight": 72,
@@ -8256,8 +8233,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -8269,7 +8245,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 76,
@@ -8302,8 +8278,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -8315,7 +8290,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -8348,8 +8323,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -8361,7 +8335,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -8394,8 +8368,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -8459,7 +8432,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 305,
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -8501,8 +8474,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/3d-calibar-009",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -8514,7 +8486,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 302,
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
@@ -8556,8 +8528,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/3d-calibar-009-boost",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -8569,7 +8540,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 302,
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 86,
@@ -8611,8 +8582,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/3d-calibar-009-combat",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -8624,7 +8594,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 296,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -8666,8 +8636,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/3d-calibar-200",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -8794,7 +8763,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 302,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U, 5U",
   "weight": 85,
@@ -8840,8 +8809,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-300c-combat-badminton-racket",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -8853,7 +8821,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 315,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U, 5U, 6U",
   "weight": 79,
@@ -8899,8 +8867,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-300i-instinct-badminton-racket",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -8971,7 +8938,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": 290,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 87,
@@ -9013,8 +8980,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/3d-calibar-600-boost",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -9378,7 +9344,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 305,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -9427,9 +9393,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "li-ning-aeronaut-4000",
@@ -9440,7 +9404,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 305,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -9482,8 +9446,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-4000",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -9495,7 +9458,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 298,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 86,
@@ -9537,8 +9500,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-4000-boost",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -9550,7 +9512,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 308,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 85,
@@ -9592,8 +9554,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-4000-combat",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -10479,7 +10440,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 314,
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 86,
@@ -10521,8 +10482,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-9000-drive",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -10598,7 +10558,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 304,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -10641,8 +10601,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "weight",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -10706,7 +10665,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 304,
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 5U",
   "weight": 77,
@@ -10752,8 +10711,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/air-force-g2-80-lite",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -10959,7 +10917,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -10998,7 +10956,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level",
    "weight"
   ]
  },
@@ -11483,7 +11440,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "flexible",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 88,
@@ -11525,8 +11482,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/axforce-80-cl",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -12048,7 +12004,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 5U, 6U",
   "weight": 83,
@@ -12095,7 +12051,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level",
    "weight"
   ]
  },
@@ -12294,7 +12249,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -12333,7 +12288,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level",
    "weight"
   ]
  },
@@ -12346,7 +12300,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U, 4U",
   "weight": 83,
@@ -12392,7 +12346,6 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "level",
    "weight"
   ]
  },
@@ -12405,7 +12358,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U, 4U",
   "weight": 82,
@@ -12443,8 +12396,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/axforce-warrior",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -13381,7 +13333,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": 292,
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -13427,8 +13379,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-bladex-200r-badminton-racket",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -13440,7 +13391,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": 302,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "6U",
   "weight": 73,
@@ -13486,8 +13437,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-bladex-73-badminton-racket",
   "note": "ป้ายหัวเบา แต่ yumo.ca วัด BladeX 73 Light ได้ 302 mm (เรียกหัวหนัก) แหล่งขัดกัน ยังไม่มีค่าจากผู้ผลิต (ตรวจ 11 พ.ย. 2026)",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -13499,7 +13449,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
@@ -13537,8 +13487,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/blaze-100-84-grams",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -13550,7 +13499,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
@@ -13592,8 +13541,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/challenger-15-boost",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -13605,7 +13553,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
@@ -13648,8 +13596,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "weight",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -13661,7 +13608,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
@@ -13703,8 +13650,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-extra-strong-9000",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -13876,7 +13822,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -13918,8 +13864,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-superlite-78-grams",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -13931,7 +13876,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 5U",
   "weight": 79,
@@ -13977,8 +13922,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-gforce-3600-superlite-badminton-racket-dark-grey-gold",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -13990,7 +13934,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 5U",
   "weight": 79,
@@ -14036,8 +13980,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-gforce-3700-superlite-badminton-racket-black-amber",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -14049,7 +13992,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -14088,7 +14031,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level",
    "weight"
   ]
  },
@@ -14101,7 +14043,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -14139,8 +14081,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-5800-superlite",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -14152,7 +14093,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 79,
@@ -14190,8 +14131,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-5900-superlite",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -14203,7 +14143,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -14242,7 +14182,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level",
    "weight"
   ]
  },
@@ -14255,7 +14194,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -14295,7 +14234,6 @@ window.RACKETS = [
   "est": [
    "balance",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -14308,7 +14246,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 88,
@@ -14351,7 +14289,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level",
    "weight"
   ]
  },
@@ -14364,7 +14301,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 88,
@@ -14407,7 +14344,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level",
    "weight"
   ]
  },
@@ -14420,7 +14356,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 88,
@@ -14463,7 +14399,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level",
    "weight"
   ]
  },
@@ -14476,7 +14411,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
@@ -14518,8 +14453,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-extra-strong-9500",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -14531,7 +14465,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": 290,
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -14573,8 +14507,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-lite",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -14586,7 +14519,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 80,
@@ -14624,8 +14557,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-superlite-ma-10",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -14697,7 +14629,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 79,
@@ -14740,8 +14672,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "weight",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -14753,7 +14684,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 310,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 88,
@@ -14795,8 +14726,7 @@ window.RACKETS = [
   "priceSrc": "https://sg.lining.studio/products/g-tek-gx",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -14808,7 +14738,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 296,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 88,
@@ -14850,8 +14780,7 @@ window.RACKETS = [
   "priceSrc": "https://sg.lining.studio/products/g-tek-ii",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -15687,7 +15616,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 304,
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 5U",
   "weight": 77,
@@ -15737,8 +15666,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-ignite-7-badminton-racket-dark-grey-red",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -15750,7 +15678,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 304,
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 5U",
   "weight": 77,
@@ -15792,8 +15720,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-ignite-8-badminton-racket-cool-gray-bull-red",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -15861,7 +15788,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 296,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 88,
@@ -15903,8 +15830,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/n-9-ii",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -15972,7 +15898,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 296,
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 88,
@@ -16014,8 +15940,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/n99-gold-medal",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -16027,7 +15952,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 292,
   "flex": "medium",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -16076,9 +16001,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "li-ning-smash-xp-pro",
@@ -16139,7 +16062,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 87,
@@ -16181,8 +16104,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/super-series-gold-medal",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -16378,7 +16300,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 310,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U, 4U",
   "weight": 83,
@@ -16420,8 +16342,7 @@ window.RACKETS = [
   "priceSrc": "https://sg.lining.studio/products/tectonic-3r-4u",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -16433,7 +16354,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 310,
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 83,
@@ -16481,7 +16402,6 @@ window.RACKETS = [
   "est": [
    "tension",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -16613,7 +16533,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 304,
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 81,
@@ -16659,8 +16579,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-tectonic-7d-badminton-racket",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -16672,7 +16591,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 312,
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -16714,8 +16633,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/tectonic-7-instinct",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -16844,7 +16762,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 298,
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
@@ -16886,8 +16804,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-08",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -16899,7 +16816,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 85,
@@ -16941,8 +16858,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-08-combat",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -16954,7 +16870,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 306,
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 81,
@@ -16996,8 +16912,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-08-drive",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -17009,7 +16924,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 304,
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -17051,8 +16966,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-10",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -17064,7 +16978,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 86,
@@ -17106,8 +17020,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-20",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -17119,7 +17032,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 298,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 87,
@@ -17161,8 +17074,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-20-combat",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -17174,7 +17086,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 312,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 81,
@@ -17216,8 +17128,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-20-drive",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -17229,7 +17140,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 312,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 79,
@@ -17271,8 +17182,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-20-instinct",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -17284,7 +17194,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": 290,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 88,
@@ -17326,8 +17236,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-40",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -17339,7 +17248,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 86,
@@ -17381,8 +17290,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-50",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -17394,7 +17302,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 86,
@@ -17436,8 +17344,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-50-combat",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -17449,7 +17356,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 306,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -17491,8 +17398,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-50-drive",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -17504,7 +17410,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 5U",
   "weight": 87,
@@ -17551,7 +17457,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level",
    "weight"
   ]
  },
@@ -17624,7 +17529,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 87,
@@ -17666,8 +17571,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-70-combat",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -17738,7 +17642,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
@@ -17784,8 +17688,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-turbocharging-75-badminton-racket",
   "note": "The Racquet Shop (Turbo Charging 75 Combat): 4U 84 g, balance 306 mm",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -17797,7 +17700,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 306,
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 87,
@@ -17835,8 +17738,7 @@ window.RACKETS = [
   "priceSrc": "https://sg.lining.studio/products/turbo-charging-75-combat",
   "note": "ความตึงสูงสุด ≤32 lbs จากหน้า Li-Ning SG (maximum racket tension <=32 Pounds); ตัวดึงหน้าเว็บเก่าทิ้งค่านี้เพราะเครื่องหมาย \"<\" ถูกอ่านเป็นแท็ก",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -17907,7 +17809,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 5U",
   "weight": 88,
@@ -17954,7 +17856,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level",
    "weight"
   ]
  },
@@ -17967,7 +17868,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 88,
@@ -18009,8 +17910,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-75-instinct",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -18022,7 +17922,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 308,
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 87,
@@ -18068,8 +17968,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-80",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -18081,7 +17980,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 88,
@@ -18128,7 +18027,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level",
    "weight"
   ]
  },
@@ -18141,7 +18039,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 88,
@@ -18183,8 +18081,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-88-grams",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -18196,7 +18093,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 303,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -18238,8 +18135,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-z-boost",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -18251,7 +18147,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 303,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 85,
@@ -18293,8 +18189,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-z-combat",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -18306,7 +18201,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 306,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -18348,8 +18243,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-z-driveaypr190-4",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -18361,7 +18255,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -18403,8 +18297,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/wind-lite-700",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -18416,7 +18309,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 304,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 77,
@@ -18458,8 +18351,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/wind-lite-700-ii",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -18471,7 +18363,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 296,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 79,
@@ -18514,8 +18406,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -18527,7 +18418,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -18569,8 +18460,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/wind-lite-800-ii",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -18582,7 +18472,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 292,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 80,
@@ -18624,8 +18514,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/wind-lite-900",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -18637,7 +18526,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 79,
@@ -18679,8 +18568,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/wind-lite-900-ii",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -18692,7 +18580,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -18735,8 +18623,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "weight",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -18808,7 +18695,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 298,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 79,
@@ -18850,8 +18737,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/windstorm-700-iv",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -18863,7 +18749,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 298,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -18902,7 +18788,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level",
    "weight"
   ]
  },
@@ -19235,7 +19120,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 322,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 75,
@@ -19277,8 +19162,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/windstorm-75",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -19345,7 +19229,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -19391,8 +19275,7 @@ window.RACKETS = [
   "priceSrc": "https://yumo.ca/products/li-ning-windstorm-78sl-iv-badminton-racket",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -19404,7 +19287,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -19450,8 +19333,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-windstorm-78-white-badminton-racket",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -19585,7 +19467,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -19627,8 +19509,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/windstorm-lite",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -19640,7 +19521,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 328,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "6U",
   "weight": 73,
@@ -19686,8 +19567,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/windstorm-nano-73",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -19699,7 +19579,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 320,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "6U",
   "weight": 74,
@@ -19745,8 +19625,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-windstorm-nano-74-badminton-racket",
   "note": "น้ำหนัก 74 g จาก Li-Ning (sg และ in.lining.studio) ตรงกับขนาด 6U; thegodofsports พิมพ์ 4U, 5U ซึ่งไม่ตรงกับน้ำหนักนี้ (ตรวจ 11 พ.ย. 2026)",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -19758,7 +19637,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -19800,8 +19679,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/windstorm-nano-lite",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -19813,7 +19691,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 310,
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "2U",
   "weight": 90,
@@ -19855,8 +19733,7 @@ window.RACKETS = [
   "priceSrc": "https://sg.lining.studio/products/xp-900",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -19868,7 +19745,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 310,
   "flex": "flexible",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "2U",
   "weight": 90,
@@ -19910,8 +19787,7 @@ window.RACKETS = [
   "priceSrc": "https://sg.lining.studio/products/xp-iv",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -19923,7 +19799,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 87,
@@ -19969,8 +19845,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-xi-phos-x1-badminton-racket-silver",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -19982,7 +19857,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -20021,7 +19896,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level",
    "weight"
   ]
  },
@@ -20034,7 +19908,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -20068,7 +19942,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level",
    "weight"
   ]
  },
@@ -20128,7 +20001,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -20168,7 +20041,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -20181,7 +20053,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -20216,7 +20088,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -20229,7 +20100,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -20264,7 +20135,6 @@ window.RACKETS = [
   "est": [
    "flex",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -20277,7 +20147,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -20315,8 +20185,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -20424,7 +20293,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -20462,8 +20331,7 @@ window.RACKETS = [
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB402/",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -20526,7 +20394,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -20564,8 +20432,7 @@ window.RACKETS = [
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB401/",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -20577,7 +20444,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -20610,8 +20477,7 @@ window.RACKETS = [
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB422/",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -20668,7 +20534,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -20701,8 +20567,7 @@ window.RACKETS = [
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB406/",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -20714,7 +20579,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -20747,8 +20612,7 @@ window.RACKETS = [
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB407/",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -20805,7 +20669,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 88,
@@ -20844,7 +20708,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -20857,7 +20720,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -20896,7 +20759,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -20909,7 +20771,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "",
   "weight": "",
@@ -20943,8 +20805,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -20956,7 +20817,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -20995,7 +20856,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -21008,7 +20868,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -21048,7 +20908,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -21061,7 +20920,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -21101,7 +20960,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -21114,7 +20972,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -21154,7 +21012,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -21167,7 +21024,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -21202,7 +21059,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -21215,7 +21071,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -21254,7 +21110,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -21378,7 +21233,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -21413,7 +21268,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -21426,7 +21280,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -21466,7 +21320,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -21479,7 +21332,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -21522,7 +21375,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -21591,7 +21443,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -21630,7 +21482,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -21751,7 +21602,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 88,
@@ -21790,7 +21641,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -21803,7 +21653,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -21842,7 +21692,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -21912,7 +21761,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -21947,7 +21796,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -21960,7 +21808,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -22000,7 +21848,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -22013,7 +21860,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -22053,7 +21900,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -22066,7 +21912,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 3U",
   "weight": 83,
@@ -22100,7 +21946,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -22113,7 +21958,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -22147,7 +21992,6 @@ window.RACKETS = [
   "note": "ขนาด 4U5 จากสเปก Mizuno ที่ Rexcool Sports (Instagram) และโพสต์ซื้อขายในฟิลิปปินส์ ตรงกัน (ผลค้น Google 10 พ.ย. 2026)",
   "est": [
    "price",
-   "level",
    "weight"
   ]
  },
@@ -22213,7 +22057,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -22253,7 +22097,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -22266,7 +22109,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -22306,7 +22149,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -22319,7 +22161,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -22359,7 +22201,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -22372,7 +22213,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -22412,7 +22253,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -22425,7 +22265,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -22464,7 +22304,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level",
    "weight"
   ]
  },
@@ -22477,7 +22316,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -22512,7 +22351,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -22525,7 +22363,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "6U",
   "weight": 73,
@@ -22560,7 +22398,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -22573,7 +22410,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "6U",
   "weight": 73,
@@ -22613,7 +22450,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -22626,7 +22462,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 3U",
   "weight": 83,
@@ -22659,8 +22495,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonavenue.com/cdn/shop/files/protech-aston-pro-v2-badminton-racket-dark-blue-teal-frame.jpg?v=1791192674&width=1200",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -22672,7 +22507,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -22704,9 +22539,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "protech-magic-tour",
@@ -22717,7 +22550,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -22750,8 +22583,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -22763,7 +22595,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -22795,9 +22627,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "protech-magic-xp-mint",
@@ -22808,7 +22638,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -22840,9 +22670,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "protech-magic-xp-white",
@@ -22853,7 +22681,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -22885,9 +22713,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "protech-maxilite-champ",
@@ -22898,7 +22724,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "7U",
   "weight": 68,
@@ -22931,8 +22757,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -22944,7 +22769,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 76,
@@ -22977,8 +22802,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -22990,7 +22814,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -23023,8 +22847,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -23216,7 +23039,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -23249,8 +23072,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -23262,7 +23084,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 77,
@@ -23295,8 +23117,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -23394,7 +23215,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -23435,9 +23256,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-assassin-47",
@@ -23448,7 +23267,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -23489,9 +23308,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-blade-520",
@@ -23502,7 +23319,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 320,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 79,
@@ -23539,9 +23356,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-blade-7500",
@@ -23552,7 +23367,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -23590,8 +23405,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -23603,7 +23417,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -23642,7 +23456,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -23655,7 +23468,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -23693,8 +23506,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -23706,7 +23518,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -23744,8 +23556,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -23757,7 +23568,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -23798,9 +23609,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-blade-9000",
@@ -23811,7 +23620,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 302,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -23853,8 +23662,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -23866,7 +23674,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -23904,8 +23712,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -23917,7 +23724,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 302,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -23955,8 +23762,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -23968,7 +23774,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U, 4U",
   "weight": 82,
@@ -24005,9 +23811,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-dark-knight",
@@ -24018,7 +23822,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 77,
@@ -24059,9 +23863,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-dragon-max",
@@ -24072,7 +23874,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 305,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -24113,9 +23915,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-dragon-p",
@@ -24126,7 +23926,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -24167,9 +23967,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-dragon-subduing",
@@ -24180,7 +23978,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 305,
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -24221,9 +24019,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-dragon-subduing-ii",
@@ -24234,7 +24030,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 305,
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -24275,9 +24071,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-energetic-horse",
@@ -24288,7 +24082,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -24330,8 +24124,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -24343,7 +24136,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 305,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -24388,9 +24181,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-fire-demon",
@@ -24401,7 +24192,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -24442,9 +24233,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-flexus700",
@@ -24455,7 +24244,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "stiff",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -24492,9 +24281,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-flora",
@@ -24505,7 +24292,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
@@ -24547,8 +24334,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -24560,7 +24346,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 298,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -24601,9 +24387,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-goddess-7",
@@ -24614,7 +24398,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 302,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 77,
@@ -24655,9 +24439,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-goddess-8",
@@ -24668,7 +24450,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 302,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U, 4U",
   "weight": 82,
@@ -24705,9 +24487,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-hc-1000",
@@ -24718,7 +24498,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 305,
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
@@ -24759,9 +24539,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-hc-898",
@@ -24772,7 +24550,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 325,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "7U",
   "weight": 67,
@@ -24809,9 +24587,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-hc880-ii",
@@ -24822,7 +24598,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 298,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -24864,8 +24640,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -24877,7 +24652,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 312,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "6U",
   "weight": 73,
@@ -24919,8 +24694,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -24932,7 +24706,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 325,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "7U",
   "weight": 68,
@@ -24974,8 +24748,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -24987,7 +24760,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 296,
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -25028,9 +24801,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-high-carbon-890",
@@ -25041,7 +24812,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 312,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "6U",
   "weight": 73,
@@ -25083,8 +24854,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -25096,7 +24866,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 296,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
@@ -25138,8 +24908,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -25151,7 +24920,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
@@ -25193,8 +24962,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -25206,7 +24974,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 305,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U, 4U",
   "weight": 82,
@@ -25244,8 +25012,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -25257,7 +25024,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -25298,9 +25065,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-joyz",
@@ -25361,7 +25126,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 296,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -25402,9 +25167,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-king-kong-x2",
@@ -25415,7 +25178,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 298,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -25456,9 +25219,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-kirin-70",
@@ -25469,7 +25230,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -25511,8 +25272,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -25524,7 +25284,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -25562,8 +25322,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -25575,7 +25334,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -25616,9 +25375,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-kongfu-rabbit",
@@ -25629,7 +25386,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -25674,9 +25431,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-kriss-sword-k6-light",
@@ -25687,7 +25442,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 77,
@@ -25728,9 +25483,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-kriss-sword-k6-r",
@@ -25741,7 +25494,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 292,
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 87,
@@ -25778,9 +25531,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-kriss-sword-k6l",
@@ -25791,7 +25542,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 307,
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -25833,8 +25584,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -25846,7 +25596,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 297,
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
@@ -25883,9 +25633,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-kriss-sword-x-limited",
@@ -25896,7 +25644,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 297,
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -25933,9 +25681,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-kriss-sword-xp",
@@ -25946,7 +25692,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 305,
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -25987,9 +25733,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-kriss-sword-xp-pro",
@@ -26055,7 +25799,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -26092,9 +25836,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-mighty-lion",
@@ -26105,7 +25847,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -26146,9 +25888,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-np-7900",
@@ -26159,7 +25899,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 77,
@@ -26196,9 +25936,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-panlong",
@@ -26209,7 +25947,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -26250,9 +25988,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-rabbit-920",
@@ -26263,7 +25999,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -26304,9 +26040,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-razor",
@@ -26317,7 +26051,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -26355,8 +26089,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "flex",
-   "level"
+   "flex"
   ]
  },
  {
@@ -26368,7 +26101,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 298,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -26409,9 +26142,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-razor-7040",
@@ -26422,7 +26153,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "stiff",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -26460,8 +26191,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -26473,7 +26203,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -26511,8 +26241,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -26524,7 +26253,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 77,
@@ -26569,8 +26298,7 @@ window.RACKETS = [
    "flex",
    "weight",
    "tension",
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -26582,7 +26310,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 305,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 77,
@@ -26623,9 +26351,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-thor80",
@@ -26636,7 +26362,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -26669,8 +26395,7 @@ window.RACKETS = [
   "priceSrc": "https://www.google.com/search?q=\"VS+Thor+80\"+ราคา",
   "note": "",
   "est": [
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -26682,7 +26407,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 290,
   "flex": "",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -26721,7 +26446,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -26734,7 +26458,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": 290,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -26772,8 +26496,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -26785,7 +26508,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 296,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -26826,9 +26549,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-titan-7",
@@ -26839,7 +26560,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 290,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -26876,9 +26597,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-titan-8",
@@ -26889,7 +26608,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -26927,8 +26646,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "flex",
-   "level"
+   "flex"
   ]
  },
  {
@@ -26940,7 +26658,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 300,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -26977,9 +26695,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-turbo-300",
@@ -26990,7 +26706,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -27032,8 +26748,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -27045,7 +26760,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "stiff",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -27087,8 +26802,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -27100,7 +26814,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 290,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -27142,8 +26856,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -27155,7 +26868,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -27196,9 +26909,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-wind-speed-f35",
@@ -27209,7 +26920,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -27247,8 +26958,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -27260,7 +26970,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -27301,9 +27011,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-wind-speed-f9",
@@ -27362,7 +27070,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 295,
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 77,
@@ -27404,8 +27112,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -27417,7 +27124,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -27454,9 +27161,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-youlong",
@@ -27467,7 +27172,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 305,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 5U",
   "weight": 82,
@@ -27508,9 +27213,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-youlong-pro",
@@ -27521,7 +27224,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -27558,9 +27261,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "vs-youth",
@@ -27621,7 +27322,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -27666,7 +27367,6 @@ window.RACKETS = [
    "balance",
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -27728,7 +27428,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -27773,7 +27473,6 @@ window.RACKETS = [
    "balance",
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -28211,7 +27910,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 88,
@@ -28249,7 +27948,6 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "level",
    "weight"
   ]
  },
@@ -28262,7 +27960,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -28311,7 +28009,6 @@ window.RACKETS = [
    "balance",
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -28324,7 +28021,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -28364,7 +28061,6 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -28429,7 +28125,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -28467,8 +28163,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance",
-   "level"
+   "balance"
   ]
  },
  {
@@ -28542,7 +28237,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -28582,7 +28277,6 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -28595,7 +28289,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -28632,9 +28326,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "victor-auraspeed-6000",
@@ -28741,7 +28433,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -28783,7 +28475,6 @@ window.RACKETS = [
    "price",
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -28841,7 +28532,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -28886,7 +28577,6 @@ window.RACKETS = [
    "balance",
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -29181,7 +28871,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "pro",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -29225,7 +28915,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -29608,7 +29297,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -29653,9 +29342,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "victor-auraspeed-eta",
@@ -29666,7 +29353,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 83,
@@ -29704,7 +29391,6 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "level",
    "weight"
   ]
  },
@@ -29717,7 +29403,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -29758,9 +29444,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "victor-auraspeed-fantome",
@@ -29931,7 +29615,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": 298,
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -29988,9 +29672,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "victor-auraspeed-hang",
@@ -30001,7 +29683,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 3U",
   "weight": 83,
@@ -30040,7 +29722,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -30053,7 +29734,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 298,
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 3U",
   "weight": 83,
@@ -30100,7 +29781,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -30113,7 +29793,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -30158,9 +29838,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "victor-auraspeed-ljh",
@@ -30241,7 +29919,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -30282,9 +29960,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "victor-auraspeed-syn",
@@ -30295,7 +29971,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -30332,9 +30008,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "victor-brave-sword-12",
@@ -30478,7 +30152,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -30530,7 +30204,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -30595,7 +30268,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -30635,7 +30308,6 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -30648,7 +30320,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -30688,7 +30360,6 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -30759,7 +30430,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -30798,7 +30469,6 @@ window.RACKETS = [
   "note": "สมดุลกลาง (Even Balance) จากตารางสเปก Victor ที่ Tennisnuts ลง (ผลค้น Google 10 พ.ย. 2026); หน้า Victor ไทยไม่พิมพ์ช่องนี้",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -30917,7 +30587,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 5U",
   "weight": 83,
@@ -30962,9 +30632,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "victor-drivex-10-metallic",
@@ -31302,7 +30970,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 83,
@@ -31340,7 +31008,6 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "level",
    "weight"
   ]
  },
@@ -31353,7 +31020,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -31385,9 +31052,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "victor-drivex-metallic",
@@ -31398,7 +31063,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 3U",
   "weight": 83,
@@ -31448,8 +31113,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance",
-   "level"
+   "balance"
   ]
  },
  {
@@ -31461,7 +31125,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 3U",
   "weight": 88,
@@ -31502,9 +31166,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "victor-drivex-5h",
@@ -31568,7 +31230,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -31609,7 +31271,6 @@ window.RACKETS = [
    "price",
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -31687,7 +31348,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "6U",
   "weight": 73,
@@ -31731,7 +31392,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -31744,7 +31404,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -31785,7 +31445,6 @@ window.RACKETS = [
    "price",
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -31798,7 +31457,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 5U",
   "weight": 83,
@@ -31838,7 +31497,6 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -31955,7 +31613,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 290,
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -32004,7 +31662,6 @@ window.RACKETS = [
    "tension",
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -32017,7 +31674,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -32062,7 +31719,6 @@ window.RACKETS = [
    "balance",
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -32127,7 +31783,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -32168,7 +31824,6 @@ window.RACKETS = [
    "price",
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -32309,7 +31964,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -32355,7 +32010,6 @@ window.RACKETS = [
    "balance",
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -32368,7 +32022,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 88,
@@ -32411,7 +32065,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "flex",
-   "level",
    "weight"
   ]
  },
@@ -32681,7 +32334,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 5U",
   "weight": 83,
@@ -32722,7 +32375,6 @@ window.RACKETS = [
    "price",
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -32735,7 +32387,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -32776,9 +32428,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "victor-jetspeed-t1",
@@ -32906,7 +32556,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -32944,8 +32594,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -33342,7 +32991,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 5U",
   "weight": 83,
@@ -33382,7 +33031,6 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -33589,7 +33237,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -33632,7 +33280,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -33645,7 +33292,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -33683,8 +33330,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -33696,7 +33342,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 3U",
   "weight": 83,
@@ -33735,7 +33381,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -33960,7 +33605,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 5U",
   "weight": 83,
@@ -34005,9 +33650,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "victor-thruster-hammer-light-extra",
@@ -34142,7 +33785,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -34187,9 +33830,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "victor-thruster-k-100",
@@ -34200,7 +33841,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -34240,7 +33881,6 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -34253,7 +33893,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -34293,7 +33933,6 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -34306,7 +33945,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -34347,7 +33986,6 @@ window.RACKETS = [
    "price",
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -34426,7 +34064,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -34467,7 +34105,6 @@ window.RACKETS = [
    "price",
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -34687,7 +34324,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -34728,7 +34365,6 @@ window.RACKETS = [
    "price",
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -34847,7 +34483,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -34887,7 +34523,6 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -34900,7 +34535,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -34939,7 +34574,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -34952,7 +34586,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -35001,7 +34635,6 @@ window.RACKETS = [
    "balance",
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -35068,7 +34701,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 82,
@@ -35110,8 +34743,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -35123,7 +34755,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U, 4U",
   "weight": 83,
@@ -35174,7 +34806,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "level",
    "weight"
   ]
  },
@@ -35255,7 +34886,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 5U",
   "weight": 83,
@@ -35295,7 +34926,6 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -35368,7 +34998,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -35409,9 +35039,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "victor-thruster-raptor",
@@ -36227,7 +35855,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -36265,8 +35893,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance",
-   "level"
+   "balance"
   ]
  },
  {
@@ -36278,7 +35905,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U, 5U",
   "weight": 83,
@@ -36316,8 +35943,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance",
-   "level"
+   "balance"
   ]
  },
  {
@@ -36382,7 +36008,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
   "weight": 83,
@@ -36420,8 +36046,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance",
-   "level"
+   "balance"
   ]
  },
  {
@@ -36433,7 +36058,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 3U",
   "weight": 83,
@@ -36482,9 +36107,7 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "level"
-  ]
+  "est": []
  },
  {
   "id": "victor-thruster-tty",
@@ -36633,7 +36256,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "4U, 5U",
   "weight": 83,
@@ -36673,7 +36296,6 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
-   "level",
    "weight"
   ]
  },
@@ -36686,7 +36308,7 @@ window.RACKETS = [
   "balance": "",
   "bp": "",
   "flex": "stiff",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "",
   "weight": 135,
@@ -36733,8 +36355,7 @@ window.RACKETS = [
   "note": "ไม้ซ้อมข้อมือ น้ำหนัก 130–140 g (Victor India และ racket-company.com) ใส่ค่ากลาง (ผลค้น Google 10 พ.ย. 2026)",
   "est": [
    "weight",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -36746,7 +36367,7 @@ window.RACKETS = [
   "balance": "even",
   "bp": 290,
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -36785,8 +36406,7 @@ window.RACKETS = [
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -38127,7 +37747,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 290,
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 84,
@@ -38173,8 +37793,7 @@ window.RACKETS = [
    "flex",
    "tension",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -38921,7 +38540,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -38956,8 +38575,7 @@ window.RACKETS = [
   "est": [
    "flex",
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -38969,7 +38587,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "advanced",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -39004,8 +38622,7 @@ window.RACKETS = [
   "est": [
    "flex",
    "price",
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -40405,7 +40022,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -40453,7 +40070,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -40466,7 +40082,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -40510,7 +40126,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -40523,7 +40138,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -40570,8 +40185,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -40583,7 +40197,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -40626,8 +40240,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -42156,7 +41769,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "flexible",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -42191,8 +41804,7 @@ window.RACKETS = [
   "est": [
    "flex",
    "price",
-   "style",
-   "level"
+   "style"
   ]
  },
  {
@@ -43610,7 +43222,7 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -43652,7 +43264,6 @@ window.RACKETS = [
    "flex",
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -43665,7 +43276,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 305,
   "flex": "stiff",
-  "level": "intermediate",
+  "level": "",
   "levelTo": "",
   "weights": "3U",
   "weight": 88,
@@ -43709,7 +43320,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  },
@@ -43722,7 +43332,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 295,
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
@@ -43769,8 +43379,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -43782,7 +43391,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": 310,
   "flex": "",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -43822,8 +43431,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price",
-   "level"
+   "price"
   ]
  },
  {
@@ -43835,7 +43443,7 @@ window.RACKETS = [
   "balance": "",
   "bp": "",
   "flex": "",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -43875,7 +43483,6 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "level",
    "weight"
   ]
  },
@@ -43888,7 +43495,7 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "beginner",
+  "level": "",
   "levelTo": "",
   "weights": "5U",
   "weight": 78,
@@ -43929,7 +43536,6 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "level",
    "weight"
   ]
  }

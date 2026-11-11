@@ -576,12 +576,7 @@ for r in rackets.values():
     r['priceSrc'] = pf.get('src', '')
     converted += 1
 print('prices converted', converted)
-# ---- player level, where no source states one: from price tier, nudged by shaft flex (flagged in r['est']) ----
-# price tiers follow the stated levels in this data: under 2,000 baht mostly beginner, 6,500 and up mostly pro
-LV = ['beginner', 'intermediate', 'advanced', 'pro']
-FLEX_STEP = {'flexible': -1, 'extra-stiff': 1}
-FLEX_ONLY = {'flexible': 0, 'medium': 1, 'stiff': 2, 'extra-stiff': 3}
-leveled = 0
+# ---- player level: only what a source states (see the note after the Li-Ning flex rule) ----
 # Yonex names its tiers itself (Pro > Tour > Game > Play, yonex.com); an aluminium or steel frame is an entry racket
 TIER = {'pro': 'pro', 'tour': 'advanced', 'game': 'intermediate', 'play': 'beginner'}
 tiered = 0
@@ -606,59 +601,11 @@ for r in rackets.values():
         r['flex'] = 'medium'; r.setdefault('est', []).append('flex'); ln_flex += 1
         r['note'] = ((r.get('note') or '') + ' ').lstrip() + 'Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง'
 print('Li-Ning flexible read as medium', ln_flex)
-# Each maker draws the levels its own way (Li-Ning calls 81% of the rackets that state a level "pro", Apacs almost none), so the
-# global price tiers below miss a maker's own scale: they match only 29% of Li-Ning's stated levels. Where a brand states enough
-# levels, take the nearest rackets of the SAME brand by price, max tension and flex instead (mean level of the 7 nearest). That is
-# switched on per brand only if, left out one at a time on the brand's own stated levels, it beats the price-tier rule by 5 points
-# (other brands' levels transfer worse than the price tiers do: measured, Li-Ning from the rest 10% against 29%).
-import math
-KNN_K, KNN_W, KNN_MIN, KNN_GAIN = 7, (1.0, 0.12, 0.6), 30, 0.05
-
-def tier_level(r):
-    p = r['price']
-    return max(0, min(3, (0 if p < 2000 else 1 if p < 3500 else 2 if p < 6500 else 3) + FLEX_STEP.get(r.get('flex'), 0)))
-
-def knn_vec(r, tmed):
-    fx = r.get('flex') if r.get('flex') in FLEX_ONLY and 'flex' not in r.get('est', []) else 'medium'
-    return [math.log(r['price']), ((r.get('tension') or [None, None])[1] or tmed), FLEX_ONLY[fx]]
-
-def knn_level(train, r):
-    tm = sorted(t for t in ((x.get('tension') or [None, None])[1] for x in train) if t)
-    tmed = tm[len(tm) // 2] if tm else 30
-    v = knn_vec(r, tmed)
-    near = sorted(train, key=lambda x: sum(((a - b) * w) ** 2 for a, b, w in zip(knn_vec(x, tmed), v, KNN_W)))[:KNN_K]
-    return max(0, min(3, round(sum(LV.index(x['level']) for x in near) / len(near))))
-
-stated = collections.defaultdict(list)
-for r in rackets.values():
-    if (r.get('level') and not r.get('levelTo') and 'level' not in r.get('est', []) and 'level' not in r.get('proseEst', [])
-            and isinstance(r.get('price'), (int, float)) and r['price'] > 0):
-        stated[r['brand']].append(r)
-knn_brands = set()
-for b, rows in sorted(stated.items(), key=lambda kv: -len(kv[1])):
-    if len(rows) < KNN_MIN: continue
-    hit_k = sum(knn_level([x for x in rows if x is not r], r) == LV.index(r['level']) for r in rows) / len(rows)
-    hit_t = sum(tier_level(r) == LV.index(r['level']) for r in rows) / len(rows)
-    use = hit_k >= hit_t + KNN_GAIN
-    if use: knn_brands.add(b)
-    print(f'level model {b}: {len(rows)} stated, nearest-same-brand {hit_k:.2f} vs price tier {hit_t:.2f} ->', 'nearest' if use else 'price tier')
-knn_n = 0
-for r in rackets.values():
-    if r.get('level'): continue
-    p = r.get('price')
-    if p and r['brand'] in knn_brands:
-        i = knn_level(stated[r['brand']], r); knn_n += 1
-    elif p:
-        i = tier_level(r)
-    # a flex that is itself a guess (GR303 read as extra-stiff from a shop's prose) says nothing about the level
-    elif r.get('flex') in FLEX_ONLY and 'flex' not in r.get('est', []):
-        i = FLEX_ONLY[r['flex']]
-    else:
-        continue
-    r['level'] = LV[max(0, min(3, i))]
-    r.setdefault('est', []).append('level')
-    leveled += 1
-print('levels estimated', leveled, f'(of which {knn_n} from the nearest rackets of the same brand)')
+# A racket with no level in any source keeps no level (the site shows "ไม่ระบุ"). Makers do not publish one and shops disagree
+# (Aeronaut 4000: intermediate on Li-Ning's store, advanced and professional on two others), so a level guessed from price, flex
+# or the nearest rackets of the brand would be a number that looks like data. Measured, those guesses were right 51-75% of the
+# time (docs/research/matching-logic.md). Filled without a source sentence: Yonex's own tier name in the model name (the
+# maker's), and an aluminium or steel frame (beginner, flagged ≈).
 
 # ---- a weight in grams with no class (Li-Ning's own pages: "Weight 83 grams"): the usual class bands, 2U 90-94 ... 6U 70-74 ----
 classed = 0
