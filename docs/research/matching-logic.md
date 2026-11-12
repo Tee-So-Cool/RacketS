@@ -597,8 +597,13 @@ players" (≈), a maker's series tier (Yonex Pro/Tour/Game/Play in the model nam
 an aluminium or steel frame (beginner, ≈). 355 of 793 rackets have no level; 105 carry a ≈ one.
 
 Where the level is read: the compare sheet and cards show "ไม่ระบุ"; the match score adds nothing and takes nothing for a racket
-with no level, and its confidence drops ("ระดับของไม้" is counted as a guess); the radar (`racketProfile`) used to fill a missing
-level with the middle (0.5), which plotted as a fact and also steered the "rackets like these" list. It now leaves the level term
-out and re-weights the rest. Checked on all 793 rackets: every profile has 7 finite values in 0-10, and 38,064 score calls (every
-racket against 12 strings at 4 levels) gave no NaN and no error. The same middle-value fill remains for a missing flex (63
-rackets), weight (49), max tension (47) and style: not changed.
+with no level, and its confidence drops ("ระดับของไม้" is counted as a guess).
+
+The radar (`racketProfile`) used to fill every missing input with a middle value (level 0.5, flex medium, weight 83 g, max
+tension 27 lbs, style 0.5), which plotted as fact and steered the "rackets like these" list. Now an input a racket lacks is left
+out and the axis is re-weighted over the inputs it has; an axis with under half of its weight known is null, so it is not drawn
+(the compare sheet says which axes a racket lacks), not ranked, and not used in the similar-rackets distance (which needs 4 of the
+7 axes in common; a racket with fewer gets no similar list). Head size is published by no maker, so it stays one middle value for
+every racket. Checked on all 793 rackets: 718 have all 7 axes, 75 lack at least one (20 lack all seven: no balance, flex, weight
+or tension in any source), no value outside 0-10, and 38,064 score calls (every racket against 12 strings at 4 levels) gave no
+NaN and no error. The 389 rackets that have every input plot exactly as before (compared value by value against the old formula).

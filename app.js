@@ -156,27 +156,36 @@
     const b = ordIdx('balance', r.balance, 1) / 2, m = classBp()[r.balance], p = Number(r.bp);
     return m && p ? clamp(b + 0.15 * clamp((p - m) / 10, -1, 1)) : b;
   };
+  // The radar's seven axes. An input a racket lacks (balance, flex, level, weight, max tension, style) is left out and the
+  // axis re-weighted over the inputs it has; an axis with under half of its weight known is null: not drawn, not ranked, not
+  // compared. Nothing is filled with a middle value, which would plot as a fact. (Head size is published by no maker, so it
+  // is the same middle value for every racket and only shifts all of them alike.)
   function racketProfile(r) {
-    const bal = balPos(r);
-    const fx = ordIdx('flex', r.flex, 1.5) / 3;
-    // the middle of a range; a racket with no sourced level has none: its level term is left out and the rest re-weighted,
-    // never filled with a middle value that would plot as a fact
-    const lvOk = lvLo(r) >= 0, lv = lvOk ? (lvLo(r) + lvHi(r)) / 2 / 3 : 0;
-    const w = clamp(((Number(r.weight) || 83) - 74) / 16);
+    const bal = ordIdx('balance', r.balance, -1) < 0 ? null : balPos(r);
+    const fx = ordIdx('flex', r.flex, -1) < 0 ? null : ordIdx('flex', r.flex, 0) / 3;
+    const lv = lvLo(r) < 0 ? null : (lvLo(r) + lvHi(r)) / 2 / 3;   // the middle of a range
+    const w = Number(r.weight) > 0 ? clamp((Number(r.weight) - 74) / 16) : null;
     // 18-40 lbs: 20-lb starter frames still register, and the 205 frames rated 32 lbs or more (VS and Felet go to 38-42)
     // stay apart instead of all hitting the edge
-    const tmax = clamp((((r.tension && r.tension[1]) || 27) - 18) / 22);
-    const st = { attack: 0.3, speed: 0.4, control: 1, allround: 0.7 }[r.style] ?? 0.5;
+    const tmax = r.tension && Number(r.tension[1]) > 0 ? clamp((Number(r.tension[1]) - 18) / 22) : null;
+    const st = { attack: 0.3, speed: 0.4, control: 1, allround: 0.7 }[r.style] ?? null;
     const hd = { large: 1, standard: 0.5, small: 0 }[r.head] ?? 0.5;  // a larger string bed has a larger sweet spot
+    const inv = v => v == null ? null : 1 - v;
+    const mix = (terms, need) => {
+      let s = 0, k = 0;
+      for (const [wt, v] of terms) if (v != null) { s += wt * v; k += wt; }
+      return k >= need - 1e-9 ? s / k : null;
+    };
+    const easy = mix([[0.45, inv(fx)], [0.3, inv(lv)], [0.1, inv(w)]], 0.45);
     return [
-      0.4 * bal + 0.3 * fx + 0.3 * w,  // a stiff shaft and a heavier frame add power, not only a heavy head
-      0.65 * (1 - bal) + 0.35 * (1 - w),
-      0.35 * st + 0.2 * (1 - Math.abs(bal - 0.5) * 2) + 0.3 * fx + 0.15 * (1 - bal),  // stiff shafts aim truer; light heads steer at the net
-      lvOk ? 0.45 * (1 - fx) + 0.3 * (1 - lv) + 0.1 * (1 - w) + 0.15 * hd : (0.45 * (1 - fx) + 0.1 * (1 - w) + 0.15 * hd) / 0.7,
+      mix([[0.4, bal], [0.3, fx], [0.3, w]], 0.5),  // a stiff shaft and a heavier frame add power, not only a heavy head
+      mix([[0.65, inv(bal)], [0.35, inv(w)]], 0.5),
+      mix([[0.35, st], [0.2, bal == null ? null : 1 - Math.abs(bal - 0.5) * 2], [0.3, fx], [0.15, inv(bal)]], 0.5),  // stiff shafts aim truer; light heads steer at the net
+      easy == null ? null : 0.85 * easy + 0.15 * hd,
       tmax,
-      0.45 * (1 - bal) + 0.35 * (1 - w) + 0.2 * fx,
-      lvOk ? 0.55 * fx + 0.45 * lv : fx,
-    ].map(v => Math.round(clamp(v) * 100) / 10);
+      mix([[0.45, inv(bal)], [0.35, inv(w)], [0.2, fx]], 0.5),
+      mix([[0.55, fx], [0.45, lv]], 0.5),
+    ].map(v => v == null ? null : Math.round(clamp(v) * 100) / 10);
   }
   const S_AXES = ['แรงดีด', 'ควบคุม', 'ความทน', 'เสียงกระทบ', 'ซับแรง'];
   const S_KEYS = ['repulsion', 'control', 'durability', 'sound', 'shock'];
@@ -201,9 +210,10 @@
     // each series also gets its own line style so the three stay apart without colour
     const DASH = ['none', '8 5', '2 4'];
     series.forEach((s, i) => {
-      g += `<polygon class="rs" points="${poly(s.values.map(v => clamp(v / 10)))}" style="fill:${s.color};fill-opacity:.18;stroke:${s.color};stroke-width:2.5;stroke-dasharray:${DASH[i] || 'none'};stroke-linejoin:round"><title>${esc(s.name)}</title></polygon>`;
+      g += `<polygon class="rs" points="${s.values.map((v, k) => v == null ? null : pt(k, clamp(v / 10)).map(x => x.toFixed(1)).join(',')).filter(Boolean).join(' ')}" style="fill:${s.color};fill-opacity:.18;stroke:${s.color};stroke-width:2.5;stroke-dasharray:${DASH[i] || 'none'};stroke-linejoin:round"><title>${esc(s.name)}</title></polygon>`;
     });
     series.forEach(s => s.values.forEach((v, i) => {
+      if (v == null) return;
       const [x, y] = pt(i, clamp(v / 10));
       g += `<circle class="rd" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="5" style="fill:${s.color};stroke:var(--color-paper);stroke-width:2"><title>${esc(s.name)}: ${esc(axes[i])} ${Math.round(v * 10)}</title></circle>`;
     }));
@@ -655,6 +665,7 @@
     if (!sel.length) state.open[kind] = false;
     if (!sel.length || !state.open[kind]) { box.innerHTML = ''; watchSheet(); remember(kind); return; }
     const rd = cfg.radar ? cfg.radar(sel) : null;
+    const gap = rd ? rd.series.map(s => { const m = rd.axes.filter((_, i) => s.values[i] == null); return m.length ? `${esc(s.name)} ขาด ${m.map(esc).join(', ')}` : ''; }).filter(Boolean).join('; ') : '';
     const fresh = !box.firstElementChild;
     box.innerHTML = `
       <section class="panel${fresh ? ' fresh' : ''}">
@@ -677,7 +688,7 @@
           <button class="btn sm ghost" type="button" data-close>ปิดผลเทียบ</button></span>
         </div>
         <div class="two${rd ? '' : ' solo'}">
-          ${rd ? `<div class="radar"><h3>${rd.title}</h3>${radar(rd.axes, rd.series, 340, true)}${legend(sel)}<p class="small muted">กดที่ชื่อแกน เพื่อดูว่ารุ่นไหนสุดทางด้านนั้น</p><p class="small muted">${rd.note}</p></div>` : ''}
+          ${rd ? `<div class="radar"><h3>${rd.title}</h3>${radar(rd.axes, rd.series, 340, true)}${legend(sel)}<p class="small muted">กดที่ชื่อแกน เพื่อดูว่ารุ่นไหนสุดทางด้านนั้น</p><p class="small muted">${rd.note}</p>${gap ? `<p class="small muted">แกนที่สเปกไม่พอจะไม่ถูกวาด: ${gap}</p>` : ''}</div>` : ''}
           <div class="bars"><h3>กราฟเทียบ</h3>${rd ? '' : legend(sel)}${bars(cfg.bars, sel, db[kind])}</div>
         </div>
         <div id="rank"></div>
@@ -693,9 +704,12 @@
   // ---------- rackets like the ones picked: nearest on the radar profile, then the cheaper of the close ones ----------
   function similar(sel) {
     const base = sel[0], bp = racketProfile(base), ids = new Set(sel.map(x => x.id));
+    // distance over the axes both rackets have (at least 4 of 7), scaled as if all 7 were there
+    const dist = (a, b) => { let s = 0, n = 0; a.forEach((v, i) => { if (v != null && b[i] != null) { s += (v - b[i]) ** 2; n++; } }); return n >= 4 ? Math.sqrt(s / n * a.length) : Infinity; };
     const near = db.r.filter(x => !ids.has(x.id) && x.balance && x.flex)
-      .map(x => ({ x, d: Math.hypot(...racketProfile(x).map((v, i) => v - bp[i])) }))
+      .map(x => ({ x, d: dist(racketProfile(x), bp) })).filter(o => o.d < Infinity)
       .sort((a, b) => a.d - b.d).slice(0, 12);
+    if (!near.length) return '';   // a racket with under 4 axes of data has nothing to be near
     const alike = near.slice(0, 4);
     const cheaper = Number(base.price) ? near.filter(a => Number(a.x.price) && Number(a.x.price) < Number(base.price) * 0.85)
       .sort((a, b) => Number(a.x.price) - Number(b.x.price)).slice(0, 4) : [];
@@ -765,7 +779,7 @@
   // ---------- top 10 per radar axis ----------
   // a model counts only when the specs behind the axis are known (rackets: balance and flex; strings: that rating)
   const rankable = {
-    r: x => x.balance && x.flex,
+    r: (x, i) => x.balance && x.flex && racketProfile(x)[i] != null,
     s: (x, i) => x[S_KEYS[i]] !== '' && x[S_KEYS[i]] != null,
   };
   const profileOf = kind => kind === 'r' ? racketProfile : stringProfile;
