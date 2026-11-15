@@ -2877,10 +2877,11 @@
   "price": 2990,
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR+",
   "tech": "5.8 mm shaft",
-  "note": "ARS-AURORA Ultra เปิดตัวในไทย 16 ต.ค. 2026 (VICTOR SPORT THAILAND) ร้านเล่าว่าผสมระหว่าง 100X Ultra กับ HS Plus; ความตึงสูงสุด: Kenwu Sports ระบุ 3U ≤31 / 4U ≤30 lbs อีกร้านระบุ ≤29 lbs",
+  "note": "ARS-AURORA Ultra เปิดตัวในไทย 16 ต.ค. 2026 (VICTOR SPORT THAILAND) ร้านเล่าว่าผสมระหว่าง 100X Ultra กับ HS Plus; ความตึงสูงสุด: Kenwu Sports ระบุ 3U ≤31 / 4U ≤30 lbs อีกร้านระบุ ≤29 lbs; ความแข็งก้าน: Mr.C Sports (15 พ.ย. 2026) เขียน \"ก้านกลางค่อนแข็ง\" และ \"สเปคใกล้ ARS 100X Ultra\" ร้านอื่นเรียกว่าก้านแข็ง จึงทำเครื่องหมาย ≈; จุดสมดุล 290 ±3 มม. (โพสต์ Instagram ของร้านค้า)",
   "src": "https://www.google.com/search?q=%22AURORA+ULTRA%22+victor+%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%81%E0%B8%82%E0%B9%87%E0%B8%87",
   "proseEst": [
-   "tension"
+   "tension",
+   "flex"
   ],
   "level": "advanced",
   "estFields": [
@@ -4255,5 +4256,38 @@
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.8 shaft",
   "src": "https://thegodofsports.com/products/victor-auraspeed-hypersonic-plus-badminton-racket",
   "note": "3U ≤ 29 lbs, 4U ≤ 28 lbs (tenniszon.com ทั้งสองหน้า, เก็บค่าต่ำสุดเป็นเพดาน); สมดุลหัวเบาจาก thegodofsports.com (กรอบบาง 5.3 มม. หัว 340 ตร.ซม.); ความแข็งก้านและน้ำหนักกรัมยังไม่มีแหล่งระบุ (พบเมื่อ 15 พ.ย. 2026)"
+ },
+ "Victor Thruster VRD-C": {
+  "new": true,
+  "brand": "Victor",
+  "year": 2026,
+  "style": "attack",
+  "balance": "head-heavy",
+  "weights": "4U, 5U",
+  "grips": "G5, G6",
+  "tmax": 29,
+  "frame": "High Resilience Graphite + PYROFIL + Hard Cored Technology",
+  "shaft": "High Resilience Graphite + PYROFIL + 6.6 shaft",
+  "level": "intermediate",
+  "levelTo": "advanced",
+  "estFields": [
+   "level",
+   "style"
+  ],
+  "note": "VRD-C (Void Rend) ออกไตรมาส 3 ปี 2026 (แท็ก Q3-2026 ที่ tenniszon.com, ร้านไทย Victor Shop Korat โพสต์เมื่อ ~ก.ย. 2026) สเปกตรงกันที่ tenniszon.com, joybadminton.com, badmintonshop.com.au, kwflex.nl: หัวหนัก ก้าน PYROFIL 6.6 มม. เกรด Pro; ความตึงสูงสุด 4U ≤30 / 5U ≤29 lbs (เก็บค่าต่ำสุดเป็นเพดาน); ระดับอ่านเป็นช่วงจากเกรด Pro ของ Victor; สไตล์ประเมินจากหัวหนักและคำบรรยาย \"aggressive\"; ความแข็งก้านและน้ำหนักกรัมของ 4U ยังไม่มีแหล่งที่ระบุ (5U/G6 78 g จากร้านเดียว) จึงเว้นว่าง (พบเมื่อ 15 พ.ย. 2026)",
+  "src": "https://tenniszon.com/products/victor-thruster-vrd-c-unstrung-navy-red"
+ },
+ "Victor Auraspeed Pulse Astral X": {
+  "new": true,
+  "brand": "Victor",
+  "year": 2026,
+  "style": "speed",
+  "weights": "3U, 4U",
+  "grips": "G5",
+  "tmax": 31,
+  "frame": "Graphite + Metallic Carbon Fiber + Nano Resin + Fiber Reinforced System",
+  "shaft": "Graphite + Nano Resin + 6.6 shaft",
+  "src": "https://tenniszon.com/products/victor-auraspeed-pulse-astral-x-strung-pink",
+  "note": "ARS-PAX (รุ่น Q ขายแบบขึ้นเอ็นมาแล้ว) สเปกตรงกันที่ tenniszon.com, Shopee/Lazada มาเลเซีย, Joy Badminton และ Victor ฟิลิปปินส์/มาเลเซีย ซึ่งเรียกว่ารุ่นปี 2026 สายสปีด; ความตึงสูงสุด 3U ≤32 / 4U ≤31 lbs (เก็บค่าต่ำสุดเป็นเพดาน); จุดสมดุล ความแข็งก้าน น้ำหนักกรัม และระดับยังไม่มีแหล่งที่ระบุ จึงเว้นว่าง; ยังไม่พบร้านไทย จึงไม่มีราคา (พบเมื่อ 15 พ.ย. 2026)"
  }
 }

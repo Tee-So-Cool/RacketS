@@ -29571,9 +29571,10 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "ราคาร้านไทย (Kenwu Sports, Wattanasarn Badminton) แถมเอ็น กริป ซอง; Shopee ฿3,590",
   "priceSrc": "https://www.google.com/search?q=%22AURORA+ULTRA%22+victor+ราคา",
-  "note": "ARS-AURORA Ultra เปิดตัวในไทย 16 ต.ค. 2026 (VICTOR SPORT THAILAND) ร้านเล่าว่าผสมระหว่าง 100X Ultra กับ HS Plus; ความตึงสูงสุด: Kenwu Sports ระบุ 3U ≤31 / 4U ≤30 lbs อีกร้านระบุ ≤29 lbs",
+  "note": "ARS-AURORA Ultra เปิดตัวในไทย 16 ต.ค. 2026 (VICTOR SPORT THAILAND) ร้านเล่าว่าผสมระหว่าง 100X Ultra กับ HS Plus; ความตึงสูงสุด: Kenwu Sports ระบุ 3U ≤31 / 4U ≤30 lbs อีกร้านระบุ ≤29 lbs; ความแข็งก้าน: Mr.C Sports (15 พ.ย. 2026) เขียน \"ก้านกลางค่อนแข็ง\" และ \"สเปคใกล้ ARS 100X Ultra\" ร้านอื่นเรียกว่าก้านแข็ง จึงทำเครื่องหมาย ≈; จุดสมดุล 290 ±3 มม. (โพสต์ Instagram ของร้านค้า)",
   "est": [
    "tension",
+   "flex",
    "level",
    "weight"
   ]
@@ -30318,6 +30319,58 @@ window.RACKETS = [
   "note": "",
   "est": [
    "level"
+  ]
+ },
+ {
+  "id": "victor-auraspeed-pulse-astral-x",
+  "brand": "Victor",
+  "name": "Auraspeed Pulse Astral X",
+  "year": 2026,
+  "style": "speed",
+  "balance": "head-light",
+  "bp": "",
+  "flex": "",
+  "level": "",
+  "levelTo": "",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   31
+  ],
+  "tensionNote": "",
+  "price": 2620,
+  "frame": "Graphite + Metallic Carbon Fiber + Nano Resin + Fiber Reinforced System",
+  "shaft": "Graphite + Nano Resin + 6.6 shaft",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0613/9599/2800/files/ARS-PAX-Q-4Ucopy.webp?v=1787147866",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://tenniszon.com/products/victor-auraspeed-pulse-astral-x-strung-pink",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-auraspeed-pulse-astral-x-strung-pink"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 109.95 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://tenniszon.com/products/victor-auraspeed-pulse-astral-x-strung-pink",
+  "note": "ARS-PAX (รุ่น Q ขายแบบขึ้นเอ็นมาแล้ว) สเปกตรงกันที่ tenniszon.com, Shopee/Lazada มาเลเซีย, Joy Badminton และ Victor ฟิลิปปินส์/มาเลเซีย ซึ่งเรียกว่ารุ่นปี 2026 สายสปีด; ความตึงสูงสุด 3U ≤32 / 4U ≤31 lbs (เก็บค่าต่ำสุดเป็นเพดาน); จุดสมดุล ความแข็งก้าน น้ำหนักกรัม และระดับยังไม่มีแหล่งที่ระบุ จึงเว้นว่าง; ยังไม่พบร้านไทย จึงไม่มีราคา (พบเมื่อ 15 พ.ย. 2026)",
+  "est": [
+   "balance",
+   "price",
+   "weight"
   ]
  },
  {
@@ -36721,6 +36774,59 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-thruster-vrd-c",
+  "brand": "Victor",
+  "name": "Thruster VRD-C",
+  "year": 2026,
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
+  "weights": "4U, 5U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   29
+  ],
+  "tensionNote": "",
+  "price": 3570,
+  "frame": "High Resilience Graphite + PYROFIL + Hard Cored Technology",
+  "shaft": "High Resilience Graphite + PYROFIL + 6.6 shaft",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0613/9599/2800/files/TK-VRD-C-4UG5copy.webp?v=1789256510",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://tenniszon.com/products/victor-thruster-vrd-c-unstrung-navy-red",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-thruster-vrd-c-unstrung-navy-red"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 149.95 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://tenniszon.com/products/victor-thruster-vrd-c-unstrung-navy-red",
+  "note": "VRD-C (Void Rend) ออกไตรมาส 3 ปี 2026 (แท็ก Q3-2026 ที่ tenniszon.com, ร้านไทย Victor Shop Korat โพสต์เมื่อ ~ก.ย. 2026) สเปกตรงกันที่ tenniszon.com, joybadminton.com, badmintonshop.com.au, kwflex.nl: หัวหนัก ก้าน PYROFIL 6.6 มม. เกรด Pro; ความตึงสูงสุด 4U ≤30 / 5U ≤29 lbs (เก็บค่าต่ำสุดเป็นเพดาน); ระดับอ่านเป็นช่วงจากเกรด Pro ของ Victor; สไตล์ประเมินจากหัวหนักและคำบรรยาย \"aggressive\"; ความแข็งก้านและน้ำหนักกรัมของ 4U ยังไม่มีแหล่งที่ระบุ (5U/G6 78 g จากร้านเดียว) จึงเว้นว่าง (พบเมื่อ 15 พ.ย. 2026)",
+  "est": [
+   "level",
+   "style",
+   "price",
    "weight"
   ]
  },
