@@ -189,7 +189,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 6180,
+  "price": 6200,
   "frame": "30T Japan HM Graphite + Speed Power Combined Frame",
   "shaft": "40T Japan High Modulus Graphite + Extra Slim Shaft",
   "joint": "",
@@ -213,7 +213,7 @@ window.RACKETS = [
     "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=413"
    }
   ],
-  "priceNote": "แปลงจาก US$182.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$182.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-assailant-pro-white-4u-badminton-racket.html",
   "note": "",
   "est": [
@@ -282,7 +282,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 2500,
+  "price": 2510,
   "frame": "24-Tonne Japan HM Graphite + Aero-Box + Compact Frame",
   "shaft": "24-Tonne Japan HM Graphite + Super Slim Shaft 6.4mm",
   "joint": "",
@@ -301,7 +301,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-astral-9000-navy-grey-4u-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$73.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$73.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-astral-9000-navy-grey-4u-badminton-racket.html",
   "note": "",
   "est": [
@@ -418,7 +418,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 4010,
+  "price": 3990,
   "frame": "30T Japan HM Graphite + Quad Balance + Hexagon Throat",
   "shaft": "40T Japan HM Graphite + Super Slim Shaft 6.2mm",
   "joint": "",
@@ -450,7 +450,7 @@ window.RACKETS = [
     "url": "https://centralsports.co.uk/products/apacs-blizzard-pro-zz"
    }
   ],
-  "priceNote": "แปลงจาก £89.00 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก £89.00 ที่ 1 GBP = 44.858 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://centralsports.co.uk/products/apacs-blizzard-pro-zz",
   "note": "",
   "est": [
@@ -642,7 +642,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 2530,
+  "price": 2540,
   "frame": "DuraPlus Carbon + Slim Aero Frame",
   "shaft": "DuraPlus Carbon + Super Slim Shaft 6.4mm",
   "joint": "",
@@ -661,7 +661,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-control-maroon-silver-4u-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$74.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$74.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-control-maroon-silver-4u-badminton-racket.html",
   "note": "",
   "est": [
@@ -687,7 +687,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 2530,
+  "price": 2540,
   "frame": "DuraPlus Carbon + Slim Aero Frame",
   "shaft": "DuraPlus Carbon + Super Slim Shaft 6.4mm",
   "joint": "",
@@ -706,7 +706,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-power-black-maroon-4u-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$74.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$74.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-power-black-maroon-4u-badminton-racket.html",
   "note": "",
   "est": [
@@ -782,7 +782,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 3790,
+  "price": 3810,
   "frame": "30T Japan HM Graphite + Slim Aero Frame",
   "shaft": "50T Japan HM Graphite + CCT + T-Joint + Super Slim Shaft 6.2mm",
   "joint": "",
@@ -806,7 +806,7 @@ window.RACKETS = [
     "url": "https://badmintonwarehouse.com/products/apacs-cross-court-pro-6-2badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก RM459.00 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM459.00 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-pro-6.2-black-4u-badminton-racket.html",
   "note": "",
   "est": [
@@ -873,7 +873,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 2530,
+  "price": 2540,
   "frame": "DuraPlus Carbon + Slim Aero Frame",
   "shaft": "DuraPlus Carbon + Super Slim Shaft 6.4mm",
   "joint": "",
@@ -892,7 +892,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-speed-white-4u-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$74.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$74.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-speed-white-4u-badminton-racket.html",
   "note": "",
   "est": [
@@ -918,7 +918,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 2500,
+  "price": 2510,
   "frame": "DuraPlus Carbon + High Speed Frame",
   "shaft": "DuraPlus Carbon + Super Slim Shaft 6.4mm + Hexagon Throat",
   "joint": "",
@@ -937,7 +937,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-dominator-808-white-4u-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$73.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$73.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-dominator-808-white-4u-badminton-racket.html",
   "note": "",
   "est": [
@@ -964,7 +964,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4390,
+  "price": 4410,
   "frame": "30 Tonne Japan HM Graphite",
   "shaft": "24 Tonne Japan HM Graphite + CCT + Extra Slim Shaft 6.7mm",
   "joint": "",
@@ -983,7 +983,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-duplex-power-55-black-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$129.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$129.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-duplex-power-55-black-badminton-racket.html",
   "note": "",
   "est": [
@@ -1009,7 +1009,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 3340,
+  "price": 3350,
   "frame": "DuraPrime Carbon + Armor Speed Frame",
   "shaft": "DuraPrime Carbon + Hexagon Throat + Super Slim Shaft 6.4mm",
   "joint": "",
@@ -1028,7 +1028,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energetic-horse-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$98.80 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$98.80 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energetic-horse-badminton-racket.html",
   "note": "",
   "est": [
@@ -1055,7 +1055,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 3710,
+  "price": 3730,
   "frame": "30T Japan High Modulus Graphite + Grommetless System + Slim Box",
   "shaft": "24T Japan High Modulus Graphite + Extra Slim Shaft",
   "joint": "",
@@ -1074,7 +1074,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energy-groove-power-black-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energy-groove-power-black-badminton-racket.html",
   "note": "",
   "est": [
@@ -1100,7 +1100,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 3710,
+  "price": 3730,
   "frame": "30T Japan High Modulus Graphite + Grommetless System + Slim Box",
   "shaft": "24T Japan High Modulus Graphite + Extra Slim Shaft",
   "joint": "",
@@ -1119,7 +1119,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energy-groove-speed-white-badminton-racket-df.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energy-groove-speed-white-badminton-racket-df.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -1145,7 +1145,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 2480,
+  "price": 2490,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -1164,7 +1164,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก RM299.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM299.90 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/apacs-fantala-6-pt-0-control-black-gold-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -1190,7 +1190,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 2480,
+  "price": 2490,
   "frame": "30T Japan HM Graphite",
   "shaft": "",
   "joint": "",
@@ -1214,7 +1214,7 @@ window.RACKETS = [
     "url": "https://badmintonwarehouse.com/products/apacs-fantala-6-0-speed-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก RM299.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM299.90 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/apacs-fantala-6-pt-0-speed-blue-black-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -1366,7 +1366,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 3820,
+  "price": 3810,
   "frame": "40 Tonne  Japan HM Graphite, Compact Power Quad Voltaic",
   "shaft": "50 Tonne Japan HM Graphite, Extra Slim Shaft",
   "joint": "",
@@ -1398,7 +1398,7 @@ window.RACKETS = [
     "url": "https://centralsports.co.uk/products/apacs-fantala-pro-101-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก £84.95 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก £84.95 ที่ 1 GBP = 44.858 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://centralsports.co.uk/products/apacs-fantala-pro-101-badminton-racket",
   "note": "",
   "est": [
@@ -1425,7 +1425,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2430,
+  "price": 2420,
   "frame": "30 Tonne Japan Graphite + AHSF + Hexagon Throat + IPN",
   "shaft": "30 Tonne Graphite",
   "joint": "",
@@ -1453,7 +1453,7 @@ window.RACKETS = [
     "url": "https://centralsports.co.uk/products/apacs-feather-weight-500-racket-grey-7u1"
    }
   ],
-  "priceNote": "แปลงจาก £53.93 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก £53.93 ที่ 1 GBP = 44.858 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://centralsports.co.uk/products/apacs-feather-weight-500-racket-grey-7u1",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -1479,7 +1479,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 1360,
+  "price": 1380,
   "frame": "30 Tonne Japan Graphite + AHSF + Hexagon Throat + IPN",
   "shaft": "24 Tonne Graphite",
   "joint": "",
@@ -1511,7 +1511,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/apacs-feather-weight-55-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,843.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,843.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/apacs-feather-weight-55-badminton-racket",
   "note": "",
   "est": [
@@ -1537,7 +1537,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 3710,
+  "price": 3730,
   "frame": "30 Tonne Japan Graphite + AHSF + Hexagon Throat + IPN",
   "shaft": "24 Tonne Graphite",
   "joint": "",
@@ -1556,7 +1556,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-x-ii-red-gold-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-x-ii-red-gold-badminton-racket.html",
   "note": "",
   "est": [
@@ -1582,7 +1582,7 @@ window.RACKETS = [
    42
   ],
   "tensionNote": "",
-  "price": 960,
+  "price": 970,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -1606,7 +1606,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/apacs-finapi-232-reborn-badminton-racket-white"
    }
   ],
-  "priceNote": "แปลงจาก ₹2,692.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹2,692.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/apacs-finapi-232-reborn-badminton-racket-white",
   "note": "เท็นชั่น 42 lbs มาจากร้าน khelmart.com (\"Up to 42 lbs\", ก้าน 8.5/10 ปานกลาง) สูงกว่ารุ่นอื่นของ Apacs มาก ผู้ผลิตไม่ยืนยันในหน้าที่เราอ่านได้ (ตรวจ 11 พ.ย. 2026) Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -1632,7 +1632,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 2290,
+  "price": 2300,
   "frame": "30T Japan High Modulus Graphite + High Speed Frame",
   "shaft": "24T Japan High Modulus Graphite",
   "joint": "",
@@ -1651,7 +1651,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-grand-tour-light-yellow-white-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$67.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$67.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-grand-tour-light-yellow-white-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -1678,7 +1678,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 2500,
+  "price": 2510,
   "frame": "30T Japan HM Graphite + DuraMax Carbon + Wide Aero Frame",
   "shaft": "30T Japan HM Graphite + Super Slim Shaft 6.4mm",
   "joint": "",
@@ -1697,7 +1697,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hard-hitter-control-green-4u-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$73.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$73.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hard-hitter-control-green-4u-badminton-racket.html",
   "note": "",
   "est": [
@@ -1723,7 +1723,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 2500,
+  "price": 2510,
   "frame": "30T Japan HM Graphite + DuraMax Carbon + Wide Aero Frame",
   "shaft": "30T Japan HM Graphite + Super Slim Shaft 6.4mm",
   "joint": "",
@@ -1742,7 +1742,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hard-hitter-power-red-4u-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$73.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$73.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hard-hitter-power-red-4u-badminton-racket.html",
   "note": "",
   "est": [
@@ -1811,7 +1811,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 5500,
+  "price": 5530,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -1830,7 +1830,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก RM665.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM665.90 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/apacs-hard-hitter-pro-navy-blue-4u-badminton-racket.html",
   "note": "",
   "est": [
@@ -1856,7 +1856,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 2500,
+  "price": 2510,
   "frame": "30T Japan HM Graphite + DuraMax Carbon + Wide Aero Frame",
   "shaft": "30T Japan HM Graphite + Super Slim Shaft 6.4mm",
   "joint": "",
@@ -1875,7 +1875,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hard-hitter-speed-white-4u-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$73.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$73.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hard-hitter-speed-white-4u-badminton-racket.html",
   "note": "",
   "est": [
@@ -1901,7 +1901,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 2870,
+  "price": 2880,
   "frame": "40T Japan HM Graphite + T-Throat + Compact Power Quad Voltaic",
   "shaft": "50T Japan HM Graphite + Super Slim Shaft 6.4mm",
   "joint": "",
@@ -1933,7 +1933,7 @@ window.RACKETS = [
     "url": "https://centralsports.co.uk/products/apacs-honor-pro-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก US$85.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$85.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/apacs-honor-pro-badminton-racquet-pre-strung",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -1960,7 +1960,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 2730,
+  "price": 2740,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -1979,7 +1979,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก RM330.00 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM330.00 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/Badminton-Racket/Apacs-Badminton-Racket/apacs-honor-pro-dark-grey-neon-green-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -2006,7 +2006,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 2390,
+  "price": 2400,
   "frame": "30T Japan High Modulus Graphite + Aero Armor (Hi-Tension)",
   "shaft": "24T Japan High Modulus Graphite + Extra Slim Shaft 6.8mm",
   "joint": "",
@@ -2025,7 +2025,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-power-cream-light-peach-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$70.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$70.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-power-cream-light-peach-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -2051,7 +2051,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 2390,
+  "price": 2400,
   "frame": "30T Japan High Modulus Graphite + Aero Armor (Hi-Tension)",
   "shaft": "24T Japan High Modulus Graphite + Extra Slim Shaft 6.8mm",
   "joint": "",
@@ -2070,7 +2070,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-speed-white-light-peach-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$70.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$70.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-speed-white-light-peach-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -2096,7 +2096,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 2870,
+  "price": 2880,
   "frame": "40T Japan HM Graphite + Balance Quad System",
   "shaft": "50T Japan HM Graphite + Super Slim Shaft 6.2mm + Hexagon Throat",
   "joint": "",
@@ -2124,7 +2124,7 @@ window.RACKETS = [
     "url": "https://badmintonwarehouse.com/products/apacs-imperial-pro-badminton-racquet-pre-strung"
    }
   ],
-  "priceNote": "แปลงจาก US$85.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$85.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/apacs-imperial-pro-badminton-racquet-pre-strung",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -2201,7 +2201,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 2360,
+  "price": 2370,
   "frame": "24-Tonne Japan HM Graphite + DuraTech Carbon New Power Speed Frame",
   "shaft": "24-Tonne Japan HM Graphite + Super Slim Shaft 6.4mm",
   "joint": "",
@@ -2220,7 +2220,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-legacy-909-metallic-light-blue-4u-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$69.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$69.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-legacy-909-metallic-light-blue-4u-badminton-racket.html",
   "note": "",
   "est": [
@@ -2455,7 +2455,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 2360,
+  "price": 2370,
   "frame": "Hi Modulus Graphite + High Speed Frame + CNT",
   "shaft": "Hi Modulus Graphite + CNT",
   "joint": "",
@@ -2474,7 +2474,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-lethal-9-red-blue-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$69.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$69.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-lethal-9-red-blue-badminton-racket.html",
   "note": "",
   "est": [
@@ -2520,7 +2520,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-maelstrom-silver-5u-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$65.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$65.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-maelstrom-silver-5u-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -2547,7 +2547,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 2290,
+  "price": 2300,
   "frame": "30T Japan High Modulus Graphite + Whip Slim Frame",
   "shaft": "24T Japan High Modulus Graphite",
   "joint": "",
@@ -2566,7 +2566,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-blade-110-grey-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$67.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$67.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-blade-110-grey-badminton-racket.html",
   "note": "",
   "est": [
@@ -2647,7 +2647,7 @@ window.RACKETS = [
    33
   ],
   "tensionNote": "",
-  "price": 3690,
+  "price": 3710,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -2666,7 +2666,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก RM447.00 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM447.00 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-fusion-speed-722-pro-durapro-cct-white-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -2692,7 +2692,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 2480,
+  "price": 2490,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -2711,7 +2711,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก RM299.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM299.90 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/apacs-nano-fusion-777-force-black-mint-green-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -2779,7 +2779,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1650,
+  "price": 1660,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -2798,7 +2798,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก RM199.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM199.90 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/apacs-nano-fusion-speed-xr-black-red-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -2866,7 +2866,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 2290,
+  "price": 2300,
   "frame": "30T Japan High Modulus Graphite + Whip Slim Frame",
   "shaft": "24T Japan High Modulus Graphite",
   "joint": "",
@@ -2885,7 +2885,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-tubes-99-blue-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$67.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$67.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-tubes-99-blue-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -2912,7 +2912,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 3710,
+  "price": 3730,
   "frame": "30T Japan High Modulus Graphite +Armor Speed Frame",
   "shaft": "24T Japan High Modulus Graphite + Hexagon throat",
   "joint": "",
@@ -2931,7 +2931,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-precision-1-pt-0-black-matte-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-precision-1-pt-0-black-matte-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -3038,7 +3038,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 1400,
+  "price": 1410,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -3057,7 +3057,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก RM169.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM169.90 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/apacs-resona-speed-66-silver-5u-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -3083,7 +3083,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 890,
+  "price": 900,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -3102,7 +3102,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก RM108.00 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM108.00 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/apacs-resona-speed-88-black-5u-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -3203,25 +3203,25 @@ window.RACKETS = [
   "year": 2023,
   "style": "allround",
   "balance": "even",
-  "bp": "",
+  "bp": 288,
   "flex": "medium",
   "level": "advanced",
   "levelTo": "",
   "weights": "4U",
   "weight": 86,
-  "grips": "",
+  "grips": "G2",
   "tension": [
    null,
    38
   ],
   "tensionNote": "",
-  "price": 4960,
-  "frame": "",
-  "shaft": "",
+  "price": 4980,
+  "frame": "30T Japan H.M. Graphite",
+  "shaft": "50T Japan H.M. Graphite",
   "joint": "",
-  "length": "",
+  "length": "672 mm",
   "head": "",
-  "pattern": "",
+  "pattern": "76 Holes",
   "tech": "",
   "players": "",
   "madeIn": "",
@@ -3233,8 +3233,13 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
-  "priceNote": "แปลงจาก US$146.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "shopLinks": [
+   {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=332"
+   }
+  ],
+  "priceNote": "แปลงจาก US$146.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/apacs-stardom-pro-ii-black-blue-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -3261,7 +3266,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 1980,
+  "price": 1990,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -3280,7 +3285,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก RM239.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM239.90 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/Apacs-Stern-100.html",
   "note": "",
   "est": [
@@ -3307,7 +3312,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 1650,
+  "price": 1660,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -3326,7 +3331,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก RM199.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM199.90 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/Apacs-Stern-828.html",
   "note": "",
   "est": [
@@ -3393,7 +3398,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 1650,
+  "price": 1660,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -3412,7 +3417,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก RM199.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM199.90 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/Apacs-Stern-899.html",
   "note": "",
   "est": [
@@ -3439,7 +3444,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2020,
+  "price": 2030,
   "frame": "",
   "shaft": "Hi Modulus Graphite",
   "joint": "",
@@ -3458,7 +3463,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/Apacs-Stern-90-Offensive.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$59.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$59.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/Apacs-Stern-90-Offensive.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -3484,7 +3489,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4960,
+  "price": 4980,
   "frame": "30T Japan HM Graphite + Aero Box Frame",
   "shaft": "DuraPro Carbon + Power Booster + Super Slim Shaft 5.5mm",
   "joint": "",
@@ -3508,7 +3513,7 @@ window.RACKETS = [
     "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=695"
    }
   ],
-  "priceNote": "แปลงจาก US$146.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$146.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-super-speed-black-4u-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -3593,7 +3598,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-tempesta-black-5u-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$65.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$65.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-tempesta-black-5u-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -3663,7 +3668,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 5500,
+  "price": 5530,
   "frame": "30 Tonne Japan HM Graphite",
   "shaft": "DuraPro Carbon + T-Joint + Power Booster DuraPro Carbon + T-Joint + CCT + Power Booster",
   "joint": "",
@@ -3691,7 +3696,7 @@ window.RACKETS = [
     "url": "https://badmintonwarehouse.com/products/apacs-thunderdome-pro-6-2-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก RM665.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM665.90 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com.my/apacs-thunderdome-pro-6-pt-2-dark-grey-4u-badminton-racket.html",
   "note": "",
   "est": [
@@ -3718,7 +3723,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 6750,
+  "price": 6780,
   "frame": "30T Japan HM Graphite + Speed Power Combined Frame",
   "shaft": "40T Japan HM Graphite + Super Slim Shaft + Hexagon Throat",
   "joint": "",
@@ -3737,7 +3742,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-thunderdome-pro-6-pt-4-dark-grey-4u-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$199.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$199.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-thunderdome-pro-6-pt-4-dark-grey-4u-badminton-racket.html",
   "note": "",
   "est": [
@@ -3849,7 +3854,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 2360,
+  "price": 2370,
   "frame": "24-Tonne Japan HM Graphite + Aero Frame",
   "shaft": "24-Tonne Japan HM Graphite + Super Slim Shaft 6.4mm",
   "joint": "",
@@ -3868,7 +3873,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-valiant-8000-black-4u-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$69.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$69.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-valiant-8000-black-4u-badminton-racket.html",
   "note": "",
   "est": [
@@ -3895,7 +3900,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 760,
+  "price": 770,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -3919,7 +3924,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/apacs-vanguard-77grey-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹2,149.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹2,149.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/apacs-vanguard-77grey-badminton-racket",
   "note": "",
   "est": [
@@ -4182,7 +4187,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 3710,
+  "price": 3730,
   "frame": "30 Tonne Japan Graphite + Woven 1K + Compact Aero Box",
   "shaft": "24 Tonne Japan Graphite + Woven 1K + Hexagon Throat",
   "joint": "",
@@ -4201,7 +4206,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-woven-ruby-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$109.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-woven-ruby-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -4340,25 +4345,25 @@ window.RACKETS = [
   "year": 2023,
   "style": "attack",
   "balance": "head-heavy",
-  "bp": "",
+  "bp": 295,
   "flex": "flexible",
   "level": "intermediate",
   "levelTo": "",
   "weights": "4U",
   "weight": 85,
-  "grips": "",
+  "grips": "G2",
   "tension": [
    null,
    38
   ],
   "tensionNote": "",
   "price": "",
-  "frame": "",
-  "shaft": "",
+  "frame": "30 Tonne Japan Graphite",
+  "shaft": "24 Tonne Japan Graphite",
   "joint": "",
   "length": "",
   "head": "",
-  "pattern": "",
+  "pattern": "76 Holes",
   "tech": "",
   "players": "",
   "madeIn": "",
@@ -4370,7 +4375,12 @@ window.RACKETS = [
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
+  "shopLinks": [
+   {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=711"
+   }
+  ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -4383,25 +4393,25 @@ window.RACKETS = [
   "year": 2023,
   "style": "attack",
   "balance": "even",
-  "bp": "",
+  "bp": 300,
   "flex": "flexible",
   "level": "intermediate",
   "levelTo": "",
   "weights": "6U",
   "weight": 78,
-  "grips": "",
+  "grips": "G2",
   "tension": [
    null,
    35
   ],
   "tensionNote": "",
-  "price": 810,
-  "frame": "",
-  "shaft": "",
+  "price": 820,
+  "frame": "30 Tonne Japan Graphite",
+  "shaft": "24 Tonne Japan Graphite",
   "joint": "",
   "length": "",
   "head": "",
-  "pattern": "",
+  "pattern": "76 Holes",
   "tech": "",
   "players": "",
   "madeIn": "",
@@ -4415,11 +4425,15 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
+    "shop": "apacs-badminton.co.uk",
+    "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=712"
+   },
+   {
     "shop": "thegodofsports.com",
     "url": "https://thegodofsports.com/products/apacs-z-power-900-rp-lite-badminton-racket-maroon-matte"
    }
   ],
-  "priceNote": "แปลงจาก ₹2,292.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹2,292.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/apacs-z-power-900-rp-lite-badminton-racket-maroon-matte",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
@@ -4445,7 +4459,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 3040,
+  "price": 3050,
   "frame": "30 Tonne Japan Graphite + Woven 1K + Compact Aero Box",
   "shaft": "24 Tonne Japan Graphite + Extra slim shaft 6.6mm",
   "joint": "",
@@ -4464,7 +4478,7 @@ window.RACKETS = [
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-z-woven-maroon-badminton-racket.html",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$89.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$89.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-z-woven-maroon-badminton-racket.html",
   "note": "",
   "est": [
@@ -4670,7 +4684,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 890,
+  "price": 900,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -4694,7 +4708,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/apacs-z-ziggler-lite-badminton-racket-6u-white"
    }
   ],
-  "priceNote": "แปลงจาก ₹2,502.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹2,502.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/apacs-z-ziggler-lite-badminton-racket-6u-white",
   "note": "",
   "est": [
@@ -4769,7 +4783,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 3280,
+  "price": 3270,
   "frame": "30T Japan HM Graphite + T-Throat + Compact Quad Voltaic",
   "shaft": "40T Japan HM Graphite + Ultra Slim Shaft 6.2mm",
   "joint": "",
@@ -4793,7 +4807,7 @@ window.RACKETS = [
     "url": "https://centralsports.co.uk/products/apacs-z-ziggler-lhi-pro-iii-badminton-rkt-blue"
    }
   ],
-  "priceNote": "แปลงจาก £72.95 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก £72.95 ที่ 1 GBP = 44.858 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://centralsports.co.uk/products/apacs-z-ziggler-lhi-pro-iii-badminton-rkt-blue",
   "note": "",
   "est": [
@@ -4820,7 +4834,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 6350,
+  "price": 6370,
   "frame": "DuraMax Carbon + Power Fused Grommet System+ Compact Power Quad Voltaic",
   "shaft": "DuraPro Carbon + CCT + Ultra Slim Shaft 6.2mm",
   "joint": "",
@@ -4844,7 +4858,7 @@ window.RACKETS = [
     "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=691"
    }
   ],
-  "priceNote": "แปลงจาก US$187.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$187.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-ziggler-PRO-6.2-black-red-4u-badminton-racket.html",
   "note": "",
   "est": [
@@ -4895,7 +4909,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/felet-3000-power"
    }
   ],
-  "priceNote": "แปลงจาก RM39.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM39.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-3000-power",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
@@ -4947,7 +4961,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/felet-3100-power"
    }
   ],
-  "priceNote": "แปลงจาก RM39.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM39.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-3100-power",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
@@ -4999,7 +5013,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/felet-3200-power"
    }
   ],
-  "priceNote": "แปลงจาก RM39.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM39.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-3200-power",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
@@ -5051,7 +5065,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/felet-3300-power"
    }
   ],
-  "priceNote": "แปลงจาก RM39.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM39.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-3300-power",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
@@ -5103,7 +5117,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/felet-3400-power"
    }
   ],
-  "priceNote": "แปลงจาก RM39.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM39.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-3400-power",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
@@ -5131,7 +5145,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 5780,
+  "price": 5810,
   "frame": "M40X + 40 Tonne Nano Science, Nano Booster Tube",
   "shaft": "Nevow + Twin Core shaft 7.0 mm",
   "joint": "",
@@ -5159,7 +5173,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/20346-felet-3k-nevow-fence-badminton-racquet"
    }
   ],
-  "priceNote": "แปลงจาก RM699.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM699.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/3k-nevow-fence-white-blue",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
@@ -5187,7 +5201,7 @@ window.RACKETS = [
    40
   ],
   "tensionNote": "",
-  "price": 4130,
+  "price": 4150,
   "frame": "",
   "shaft": "7.0 mm",
   "joint": "",
@@ -5211,7 +5225,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/3k-woven-fence"
    }
   ],
-  "priceNote": "แปลงจาก RM499.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM499.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/3k-woven-fence",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
@@ -5263,7 +5277,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/felet-6053"
    }
   ],
-  "priceNote": "แปลงจาก RM49.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM49.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-6053",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
@@ -5315,7 +5329,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/felet-6054"
    }
   ],
-  "priceNote": "แปลงจาก RM49.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM49.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-6054",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
@@ -5367,7 +5381,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/felet-6055-speed--control"
    }
   ],
-  "priceNote": "แปลงจาก RM49.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM49.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-6055-speed--control",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
@@ -5419,7 +5433,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/felet-6056-speed--control"
    }
   ],
-  "priceNote": "แปลงจาก RM49.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM49.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-6056-speed--control",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
@@ -5471,7 +5485,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/felet-6057-speed--control"
    }
   ],
-  "priceNote": "แปลงจาก RM49.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM49.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-6057-speed--control",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Novice ของ Felet)",
   "est": [
@@ -5499,7 +5513,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 2810,
+  "price": 2820,
   "frame": "Aero-Carbon technology +",
   "shaft": "Offensive",
   "joint": "",
@@ -5527,7 +5541,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/15069-felet-aero-carbon-badminton-racquet-snow-white-purple"
    }
   ],
-  "priceNote": "แปลงจาก RM339.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM339.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/aero-carbon",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "est": [
@@ -5555,7 +5569,7 @@ window.RACKETS = [
    33
   ],
   "tensionNote": "",
-  "price": 1820,
+  "price": 1830,
   "frame": "Hi-Modulus Graphite, 28 Tonne Nano Science",
   "shaft": "7.1 mm",
   "joint": "",
@@ -5579,7 +5593,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/arcana-black"
    }
   ],
-  "priceNote": "แปลงจาก RM219.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM219.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/arcana-black",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Advance ของ Felet)",
   "est": [
@@ -5631,7 +5645,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/lavender-bloom"
    }
   ],
-  "priceNote": "แปลงจาก RM179.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM179.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/lavender-bloom",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Moderate ของ Felet)",
   "est": [
@@ -5659,7 +5673,7 @@ window.RACKETS = [
    36
   ],
   "tensionNote": "",
-  "price": 2310,
+  "price": 2320,
   "frame": "WOVEN TECHNOLOGY + CARBON NANO TECHNOLOGY + NANO SCIENCE",
   "shaft": "7.0 mm",
   "joint": "",
@@ -5687,7 +5701,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/6602-carbon-woven-18-wh"
    }
   ],
-  "priceNote": "แปลงจาก RM279.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM279.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/carbon-woven-18",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
@@ -5715,7 +5729,7 @@ window.RACKETS = [
    36
   ],
   "tensionNote": "",
-  "price": 2480,
+  "price": 2490,
   "frame": "",
   "shaft": "7.0 mm",
   "joint": "",
@@ -5743,7 +5757,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/16398-felet-carbon-woven-zynger-badminton-racquet"
    }
   ],
-  "priceNote": "แปลงจาก RM299.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM299.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/carbon-woven-zynger",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
@@ -5771,7 +5785,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 2390,
+  "price": 2410,
   "frame": "Carbon Nano Technology + Nano Science",
   "shaft": "7.6 mm",
   "joint": "",
@@ -5795,7 +5809,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/eighty8-control"
    }
   ],
-  "priceNote": "แปลงจาก RM289.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM289.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/eighty8-control",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
@@ -5823,7 +5837,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 2390,
+  "price": 2410,
   "frame": "Carbon Nano Technology + Nano Science",
   "shaft": "7.6 mm",
   "joint": "",
@@ -5851,7 +5865,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/18784-felet-eighty8-power-badminton-racquet"
    }
   ],
-  "priceNote": "แปลงจาก RM289.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM289.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/eighty8-power",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
@@ -5879,7 +5893,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 2390,
+  "price": 2410,
   "frame": "Carbon Nano Technology + Nano Science",
   "shaft": "7.6 mm",
   "joint": "",
@@ -5907,7 +5921,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/18786-felet-eighty8-speed-badminton-racquet"
    }
   ],
-  "priceNote": "แปลงจาก RM289.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM289.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/eighty8-speed",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
@@ -5935,7 +5949,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1900,
+  "price": 1910,
   "frame": "",
   "shaft": "6.5 mm",
   "joint": "",
@@ -5959,7 +5973,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/felet-f-force-super-light"
    }
   ],
-  "priceNote": "แปลงจาก RM229.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM229.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-f-force-super-light",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Superlight ของ Felet)",
   "est": [
@@ -6010,7 +6024,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/gen-x-sky-blue"
    }
   ],
-  "priceNote": "แปลงจาก RM179.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM179.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/gen-x-sky-blue",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Moderate ของ Felet)",
   "est": [
@@ -6038,7 +6052,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 1980,
+  "price": 1990,
   "frame": "Hi Modulus Carbon Graphite + 28-tonne Nano Science + Hexa Power Frame",
   "shaft": "Low vibration + high modulus carbon woven",
   "joint": "",
@@ -6062,12 +6076,153 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/hypermax-red"
    }
   ],
-  "priceNote": "แปลงจาก RM239.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM239.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/hypermax-red",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Advance ของ Felet)",
   "est": [
    "level",
    "style",
+   "price"
+  ]
+ },
+ {
+  "id": "felet-i-llumi",
+  "brand": "Felet",
+  "name": "I-Llumi",
+  "year": "",
+  "style": "",
+  "balance": "",
+  "bp": "",
+  "flex": "",
+  "level": "",
+  "levelTo": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "tensionNote": "",
+  "price": 1490,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-8258857/cached/GKqfWpjy6af416d07ec41_1794381520_420x420.jpeg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "feletsports.com",
+    "url": "https://feletsports.com/product/i-llumi-greywhite"
+   }
+  ],
+  "priceNote": "แปลงจาก RM179.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://feletsports.com/product/i-llumi-greywhite",
+  "note": "",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "felet-n-8-nitro",
+  "brand": "Felet",
+  "name": "N-8 Nitro",
+  "year": "",
+  "style": "",
+  "balance": "",
+  "bp": "",
+  "flex": "",
+  "level": "",
+  "levelTo": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "tensionNote": "",
+  "price": 1990,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-8261661/cached/CU7gmiFy6af527b7acf6d_1794451383_420x420.jpeg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "feletsports.com",
+    "url": "https://feletsports.com/product/n-8-nitro-white"
+   }
+  ],
+  "priceNote": "แปลงจาก RM239.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://feletsports.com/product/n-8-nitro-white",
+  "note": "",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "felet-nano-fastex-lt",
+  "brand": "Felet",
+  "name": "Nano Fastex Lt",
+  "year": "",
+  "style": "",
+  "balance": "",
+  "bp": "",
+  "flex": "",
+  "level": "",
+  "levelTo": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "tensionNote": "",
+  "price": 1830,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn1.sgliteasset.com/feletint/images/product/product-8261474/cached/DtlEnKZl6af523a55b467_1794450341_420x420.jpeg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "feletsports.com",
+    "url": "https://feletsports.com/product/nano-fastex-lt-grey"
+   }
+  ],
+  "priceNote": "แปลงจาก RM219.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://feletsports.com/product/nano-fastex-lt-grey",
+  "note": "",
+  "est": [
    "price"
   ]
  },
@@ -6114,7 +6269,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/neo-722-blackgreen"
    }
   ],
-  "priceNote": "แปลงจาก RM179.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM179.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/neo-722-blackgreen",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Moderate ของ Felet)",
   "est": [
@@ -6142,7 +6297,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 6610,
+  "price": 6640,
   "frame": "40 Tonne Nano Science, Nano Booster Tube",
   "shaft": "Toray M55J + Twin Core shaft 7.0 mm",
   "joint": "",
@@ -6170,7 +6325,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/18096-felet-nevow-tj-1000-badminton-racquet"
    }
   ],
-  "priceNote": "แปลงจาก RM799.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM799.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/nevow-tj-1000",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
@@ -6198,7 +6353,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 4620,
+  "price": 4650,
   "frame": "40-Tonne Japan Hot Melt Graphite  + Nano Science + Minor Compact Frame Technology",
   "shaft": "Offensive",
   "joint": "",
@@ -6226,7 +6381,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/16868-felet-professional-p1-badminton-racquet"
    }
   ],
-  "priceNote": "แปลงจาก RM559.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM559.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/professional-p1",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "est": [
@@ -6278,7 +6433,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/sakurra"
    }
   ],
-  "priceNote": "แปลงจาก RM179.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM179.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/sakurra",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Moderate ของ Felet)",
   "est": [
@@ -6306,7 +6461,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 2150,
+  "price": 2160,
   "frame": "Nano Carbon Technology + Nano Science",
   "shaft": "7.0 mm",
   "joint": "",
@@ -6334,7 +6489,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/6604-tj-1000-control"
    }
   ],
-  "priceNote": "แปลงจาก RM259.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM259.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/tj-control-1000-4u",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
@@ -6362,7 +6517,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 2150,
+  "price": 2160,
   "frame": "Nano Carbon Technology + Nano Science",
   "shaft": "7.0 mm",
   "joint": "",
@@ -6390,7 +6545,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/6606-tj-1000-power"
    }
   ],
-  "priceNote": "แปลงจาก RM259.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM259.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/tj-power-1000",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
@@ -6418,7 +6573,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 1980,
+  "price": 1990,
   "frame": "",
   "shaft": "7.0 mm",
   "joint": "",
@@ -6442,7 +6597,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/felet-tj-power-control"
    }
   ],
-  "priceNote": "แปลงจาก RM239.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM239.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-tj-power-control",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
@@ -6470,7 +6625,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 1980,
+  "price": 1990,
   "frame": "JAPAN HOT MELT GRAOHITE + NANO CARBON TECHNOLOGY",
   "shaft": "7.0 mm",
   "joint": "",
@@ -6498,7 +6653,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/8002-felet-tj-power-power"
    }
   ],
-  "priceNote": "แปลงจาก RM239.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM239.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-tj-power-power",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
@@ -6526,7 +6681,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 1980,
+  "price": 1990,
   "frame": "JAPAN HOT MELT GRAOHITE + NANO CARBON TECHNOLOGY",
   "shaft": "7.0 mm",
   "joint": "",
@@ -6554,7 +6709,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/8004-felet-tj-power-speed"
    }
   ],
-  "priceNote": "แปลงจาก RM239.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM239.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-tj-power-speed",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
@@ -6582,7 +6737,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 2150,
+  "price": 2160,
   "frame": "Nano Carbon Technology + Nano Science",
   "shaft": "7.0 mm",
   "joint": "",
@@ -6610,7 +6765,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/6608-tj-1000-speed"
    }
   ],
-  "priceNote": "แปลงจาก RM259.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM259.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/tj-speed-1000-4u",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Master ของ Felet)",
   "est": [
@@ -6638,7 +6793,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 4960,
+  "price": 4980,
   "frame": "40 Tonne Nano Science, Nano Booster Tube",
   "shaft": "Rigid Core 6.0, Aggressive (10 mm shorter)",
   "joint": "",
@@ -6666,7 +6821,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/19751-felet-tai-g-aggressive-badminton-racquet"
    }
   ],
-  "priceNote": "แปลงจาก RM599.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM599.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/tai-g-aggressive-white",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
@@ -6694,7 +6849,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 4960,
+  "price": 4980,
   "frame": "40 Tonne Nano Science, Nano Booster Tube",
   "shaft": "Rigid Core 6.0, Comfort (10 mm longer)",
   "joint": "",
@@ -6722,7 +6877,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/19749-felet-tai-g-comfort-badminton-racquet"
    }
   ],
-  "priceNote": "แปลงจาก RM599.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM599.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/tai-g-comfort-black",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
@@ -6750,7 +6905,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 3300,
+  "price": 3320,
   "frame": "",
   "shaft": "7.0 mm",
   "joint": "",
@@ -6774,7 +6929,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/felet-the-legend-rashid-sidek"
    }
   ],
-  "priceNote": "แปลงจาก RM399.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM399.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-the-legend-rashid-sidek",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "est": [
@@ -6802,7 +6957,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 3300,
+  "price": 3320,
   "frame": "",
   "shaft": "7.0 mm",
   "joint": "",
@@ -6826,7 +6981,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/the-legend-zakry-limited-red"
    }
   ],
-  "priceNote": "แปลงจาก RM399.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM399.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/the-legend-zakry-limited-red",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "est": [
@@ -6854,7 +7009,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 3300,
+  "price": 3320,
   "frame": "",
   "shaft": "7.0 mm Nano Booster shaft",
   "joint": "",
@@ -6878,7 +7033,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/felet-titanium-ti-88"
    }
   ],
-  "priceNote": "แปลงจาก RM399.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM399.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-titanium-ti-88",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
@@ -6906,7 +7061,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 5700,
+  "price": 5730,
   "frame": "40 TONNE Japan Hot Melt Graphite + Nano Science + Nano Booster Tube",
   "shaft": "Super slim shaft",
   "joint": "",
@@ -6934,7 +7089,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/13862-felet-woven-1000-badminton-racquet"
    }
   ],
-  "priceNote": "แปลงจาก RM689.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM689.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/woven-1000",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
@@ -6962,7 +7117,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 5700,
+  "price": 5730,
   "frame": "40 Tonne Nano + Nano Booster Tube + the top of woven technology",
   "shaft": "6.8 mm slim shaft + anti shock",
   "joint": "",
@@ -6990,7 +7145,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/11108-felet-woven-8000-badminton-racquet"
    }
   ],
-  "priceNote": "แปลงจาก RM689.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM689.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-woven-8000",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
@@ -7018,7 +7173,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 5780,
+  "price": 5810,
   "frame": "40 Tonne Japan Hot Melt Graphite + Nano Science + Woven",
   "shaft": "7.0 mm",
   "joint": "",
@@ -7046,7 +7201,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/10620-felet-woven-888-badminton-racquet"
    }
   ],
-  "priceNote": "แปลงจาก RM699.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM699.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/woven-888",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
@@ -7074,7 +7229,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 5780,
+  "price": 5810,
   "frame": "40 Tonne Japan Hot Melt Graphite + Nano Science",
   "shaft": "7.0 mm",
   "joint": "",
@@ -7102,7 +7257,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/10623-felet-woven-999-badminton-racquet"
    }
   ],
-  "priceNote": "แปลงจาก RM699.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM699.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/woven-999",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
@@ -7130,7 +7285,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 5290,
+  "price": 5310,
   "frame": "",
   "shaft": "7.0 mm",
   "joint": "",
@@ -7158,7 +7313,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/6976-felet-woven-eighty-8-badminton-racquet"
    }
   ],
-  "priceNote": "แปลงจาก RM639.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM639.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/woven-eighty8",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Professional ของ Felet)",
   "est": [
@@ -7186,7 +7341,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 5780,
+  "price": 5810,
   "frame": "",
   "shaft": "7.0 mm",
   "joint": "",
@@ -7214,7 +7369,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/8245-felet-woven-ti-3000-badminton-racquet"
    }
   ],
-  "priceNote": "แปลงจาก RM699.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM699.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/woven-ti-3000",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "est": [
@@ -7242,7 +7397,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 4960,
+  "price": 4980,
   "frame": "WOVEN TECHNOLOGY 46TONNE JAPAN HOT MELT GRAPHITE + NANO SCIENCE",
   "shaft": "6.5 mm",
   "joint": "",
@@ -7270,7 +7425,7 @@ window.RACKETS = [
     "url": "https://honly.com.my/all-products/badminton-racket/product/6610-woven-tj-1000"
    }
   ],
-  "priceNote": "แปลงจาก RM599.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM599.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-woven-tj-1000",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet)",
   "est": [
@@ -7298,7 +7453,7 @@ window.RACKETS = [
    42
   ],
   "tensionNote": "",
-  "price": 4960,
+  "price": 4980,
   "frame": "",
   "shaft": "7.0 mm",
   "joint": "",
@@ -7322,7 +7477,7 @@ window.RACKETS = [
     "url": "https://feletsports.com/product/felet-woven-tj-power-v2"
    }
   ],
-  "priceNote": "แปลงจาก RM599.99 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM599.99 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://feletsports.com/product/felet-woven-tj-power-v2",
   "note": "สเปกจากตารางในรูปบน feletsports.com (ซีรีส์ Pro ของ Felet) เท็นชั่น 42 lbs เป็นค่าที่ Felet พิมพ์ในรูปสเปกเอง สูงกว่ารุ่นอื่นในซีรีส์ (35–38 lbs)",
   "est": [
@@ -7440,7 +7595,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 1310,
+  "price": 1330,
   "frame": "24T HI-Modulus Graphite",
   "shaft": "",
   "joint": "",
@@ -7459,7 +7614,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ₹3,699.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,699.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://shop.kibisports.com/collections/brand-kawasaki/products/high-tension-g30-unstrung-badminton-racketgreen-4ug1",
   "note": "",
   "est": [
@@ -7666,7 +7821,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 6960,
+  "price": 6930,
   "frame": "C60 Fullerene Carbon + 40T+30T HI-Modulus Graphite",
   "shaft": "",
   "joint": "",
@@ -7685,7 +7840,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก €184.90 ที่ 1 EUR = 37.654 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก €184.90 ที่ 1 EUR = 37.483 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.sakurasport.com/en/1539-king-k8-ii-blue-raquette-de-badminton-kawasaki-6940671193936.html",
   "note": "",
   "est": [
@@ -7712,7 +7867,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 7530,
+  "price": 7490,
   "frame": "C60 Fullerene Carbon + 40T HI-Modulus Graphite",
   "shaft": "",
   "joint": "",
@@ -7731,7 +7886,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก €199.90 ที่ 1 EUR = 37.654 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก €199.90 ที่ 1 EUR = 37.483 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.sakurasport.com/en/1538-king-k9-badminton-racket-kawasaki-6940671123964.html",
   "note": "",
   "est": [
@@ -7893,7 +8048,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 1810,
+  "price": 1800,
   "frame": "24T HI-Modulus Graphite",
   "shaft": "",
   "joint": "",
@@ -7912,7 +8067,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก €48.00 ที่ 1 EUR = 37.654 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก €48.00 ที่ 1 EUR = 37.483 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.kaina24.lt/s/kawasaki-rakete/",
   "note": "",
   "est": [
@@ -8029,7 +8184,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 2370,
+  "price": 2360,
   "frame": "TAIRYFIL Carbon Fiber + 24T HI-Modulus Graphite",
   "shaft": "",
   "joint": "",
@@ -8048,7 +8203,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก €63.00 ที่ 1 EUR = 37.654 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก €63.00 ที่ 1 EUR = 37.483 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.kaina24.lt/s/kawasaki-rakete/",
   "note": "",
   "est": [
@@ -8390,7 +8545,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4610,
+  "price": 4670,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -8414,7 +8569,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/3d-breakfree-n90-iv"
    }
   ],
-  "priceNote": "แปลงจาก ₹12,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹12,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/3d-breakfree-n90-iv",
   "note": "ระดับ: ร้านพิมพ์ป้าย \"Player Level: Professional\" ของ Li-Ning ซึ่งข้อมูลนี้อ่านเป็นระดับสูง (\"for professional level players\") (ผลค้น Google 8 พ.ย. 2026) (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -8442,7 +8597,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1680,
+  "price": 1700,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -8470,7 +8625,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/3d-calibar-009"
    }
   ],
-  "priceNote": "แปลงจาก ₹4,730.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹4,730.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/3d-calibar-009",
   "note": "",
   "est": [
@@ -8496,7 +8651,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1680,
+  "price": 1700,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -8524,7 +8679,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/3d-calibar-009-boost"
    }
   ],
-  "priceNote": "แปลงจาก ₹4,730.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹4,730.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/3d-calibar-009-boost",
   "note": "",
   "est": [
@@ -8550,7 +8705,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1680,
+  "price": 1700,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -8578,7 +8733,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/3d-calibar-009-combat"
    }
   ],
-  "priceNote": "แปลงจาก ₹4,730.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹4,730.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/3d-calibar-009-combat",
   "note": "",
   "est": [
@@ -8604,7 +8759,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2170,
+  "price": 2200,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -8632,7 +8787,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/3d-calibar-200"
    }
   ],
-  "priceNote": "แปลงจาก ₹6,110.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹6,110.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/3d-calibar-200",
   "note": "",
   "est": [
@@ -8714,7 +8869,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2290,
+  "price": 2320,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -8746,7 +8901,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-3d-calibar-300b-boost-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹6,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹6,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-300b-boost-badminton-racket",
   "note": "",
   "est": [
@@ -8773,7 +8928,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2290,
+  "price": 2320,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -8805,7 +8960,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-3d-calibar-300c-combat-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹6,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹6,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-300c-combat-badminton-racket",
   "note": "",
   "est": [
@@ -8831,7 +8986,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2290,
+  "price": 2320,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -8863,7 +9018,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-3d-calibar-300i-instinct-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹6,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹6,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-300i-instinct-badminton-racket",
   "note": "",
   "est": [
@@ -8889,7 +9044,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3510,
+  "price": 3560,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -8921,7 +9076,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-3d-calibar-600-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹9,899.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹9,899.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-600-badminton-racket",
   "note": "",
   "est": [
@@ -8948,7 +9103,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3540,
+  "price": 3590,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -8976,7 +9131,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/3d-calibar-600-boost"
    }
   ],
-  "priceNote": "แปลงจาก ₹9,980.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹9,980.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/3d-calibar-600-boost",
   "note": "",
   "est": [
@@ -9002,7 +9157,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 4430,
+  "price": 4490,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -9030,7 +9185,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/3d-calibar-600-combat"
    }
   ],
-  "priceNote": "แปลงจาก ₹12,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹12,490.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/3d-calibar-600-combat",
   "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -9055,7 +9210,7 @@ window.RACKETS = [
   "grips": "",
   "tension": null,
   "tensionNote": "",
-  "price": 5400,
+  "price": 5430,
   "frame": "Carbon Fibre",
   "shaft": "",
   "joint": "",
@@ -9074,7 +9229,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$159.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$159.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.shopnings.com/li-ning-3d-calibar-600b",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -9165,7 +9320,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4770,
+  "price": 4840,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -9201,7 +9356,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-3d-calibar-900b-boost-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹13,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹13,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-900b-boost-badminton-racket",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -9228,7 +9383,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4770,
+  "price": 4840,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -9264,7 +9419,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-3d-calibar-900c-combat-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹13,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹13,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-900c-combat-badminton-racket",
   "note": "ระดับ: ร้านพิมพ์ป้าย \"Player Level: Professional\" ของ Li-Ning ซึ่งข้อมูลนี้อ่านเป็นระดับสูง (ผลค้น Google 8 พ.ย. 2026) จึงลดจากโปรเป็นระดับสูง (≈)",
   "est": [
@@ -9291,7 +9446,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4770,
+  "price": 4840,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -9327,7 +9482,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-3d-calibar-900i-instinct-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹13,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹13,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-900i-instinct-badminton-racket",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -9414,7 +9569,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3050,
+  "price": 3090,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -9442,7 +9597,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/aeronaut-4000"
    }
   ],
-  "priceNote": "แปลงจาก ₹8,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹8,590.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/aeronaut-4000",
   "note": "",
   "est": [
@@ -9468,7 +9623,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3050,
+  "price": 3090,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -9496,7 +9651,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/aeronaut-4000-boost"
    }
   ],
-  "priceNote": "แปลงจาก ₹8,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹8,590.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/aeronaut-4000-boost",
   "note": "",
   "est": [
@@ -9522,7 +9677,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3050,
+  "price": 3090,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -9550,7 +9705,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/aeronaut-4000-combat"
    }
   ],
-  "priceNote": "แปลงจาก ₹8,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹8,590.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/aeronaut-4000-combat",
   "note": "",
   "est": [
@@ -9576,7 +9731,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3040,
+  "price": 3080,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -9604,7 +9759,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/aeronaut-5000"
    }
   ],
-  "priceNote": "แปลงจาก ₹8,560.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹8,560.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/aeronaut-5000",
   "note": "Li-Ning (in.lining.studio): \"This racket is tuned for intermediate players\"",
   "est": [
@@ -9630,7 +9785,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 3550,
+  "price": 3600,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -9658,7 +9813,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/aeronaut-6000"
    }
   ],
-  "priceNote": "แปลงจาก ₹9,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹9,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/aeronaut-6000",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -9685,7 +9840,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 3550,
+  "price": 3600,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -9713,7 +9868,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/aeronaut-6000-combat"
    }
   ],
-  "priceNote": "แปลงจาก ₹9,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹9,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/aeronaut-6000-combat",
   "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -9741,7 +9896,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3550,
+  "price": 3600,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -9769,7 +9924,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/aeronaut-6000-drive"
    }
   ],
-  "priceNote": "แปลงจาก ₹9,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹9,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/aeronaut-6000-drive",
   "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -9797,7 +9952,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3550,
+  "price": 3600,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -9821,7 +9976,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/aeronaut-6000-instinct"
    }
   ],
-  "priceNote": "แปลงจาก ₹9,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹9,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/aeronaut-6000-instinct",
   "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -9846,7 +10001,7 @@ window.RACKETS = [
   "grips": "",
   "tension": null,
   "tensionNote": "",
-  "price": 6190,
+  "price": 6210,
   "frame": "Carbon Fibre",
   "shaft": "",
   "joint": "",
@@ -9865,7 +10020,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก RM749.00 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM749.00 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://shopee.com.my/LI-NING-AERONAUT-6000C",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -9892,7 +10047,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 3970,
+  "price": 4030,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -9924,7 +10079,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-aeronaut-7000-unstrung-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹11,190.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹11,190.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-7000-unstrung-badminton-racket",
   "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈)",
   "est": [
@@ -9951,7 +10106,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4110,
+  "price": 4170,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -9983,7 +10138,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-aeronaut-7000-boost-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹11,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹11,590.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/aeronaut-7000-boost",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -10010,7 +10165,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4110,
+  "price": 4170,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -10042,7 +10197,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-aeronaut-7000-combat-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹11,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹11,590.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/aeronaut-7000-combat",
   "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -10070,7 +10225,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 3970,
+  "price": 4030,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -10102,7 +10257,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-aeronaut-7000-instinct-badminton-racket-pink"
    }
   ],
-  "priceNote": "แปลงจาก ₹11,190.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹11,190.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-7000-instinct-badminton-racket-pink",
   "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -10130,7 +10285,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4970,
+  "price": 5030,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -10162,7 +10317,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-aeronaut-8000-unstrung-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹13,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹13,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-8000-unstrung-badminton-racket",
   "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -10190,7 +10345,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4420,
+  "price": 4480,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -10222,7 +10377,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-aeronaut-8000-combat-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹12,449.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹12,449.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-8000-combat-badminton-racket",
   "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -10250,7 +10405,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4970,
+  "price": 5030,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -10282,7 +10437,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-aeronaut-8000-drive-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹13,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹13,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-8000-drive-badminton-racket",
   "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -10450,7 +10605,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 5110,
+  "price": 5180,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -10478,7 +10633,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/aeronaut-9000-drive"
    }
   ],
-  "priceNote": "แปลงจาก ₹14,390.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹14,390.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/aeronaut-9000-drive",
   "note": "",
   "est": [
@@ -10504,7 +10659,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4970,
+  "price": 5040,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -10540,13 +10695,62 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-aeronaut-9000i-instinct-badminton-racket-4u"
    }
   ],
-  "priceNote": "แปลงจาก ₹13,992.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹13,992.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-aeronaut-9000i-instinct-badminton-racket-4u",
   "note": "ระดับ: ร้านพิมพ์ป้าย \"Player Level: Professional\" ของ Li-Ning ซึ่งข้อมูลนี้อ่านเป็นระดับสูง และรีวิวบอก \"NOT BEGINNER FRIENDLY\" (ผลค้น Google 8 พ.ย. 2026) (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
    "level",
    "price",
    "flex"
+  ]
+ },
+ {
+  "id": "li-ning-air-force-80-g3",
+  "brand": "Li-Ning",
+  "name": "Air Force 80 G3",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "flexible",
+  "level": "",
+  "levelTo": "",
+  "weights": "",
+  "weight": "",
+  "grips": "G3",
+  "tension": null,
+  "tensionNote": "",
+  "price": 1220,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/1_9912f868-240a-4a16-a6c7-142c96c60640.jpg?v=1792044931",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/air-force-80-g3"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,390.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/air-force-80-g3",
+  "note": "",
+  "est": [
+   "flex",
+   "style",
+   "price"
   ]
  },
  {
@@ -10568,7 +10772,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1170,
+  "price": 1180,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -10596,7 +10800,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/air-force-g3-78-grams"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,290.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,290.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/air-force-g3-78-grams",
   "note": "",
   "est": [
@@ -10623,7 +10827,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4610,
+  "price": 4670,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -10647,7 +10851,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/air-stream-n99"
    }
   ],
-  "priceNote": "แปลงจาก ₹12,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹12,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/air-stream-n99",
   "note": "ระดับ: ร้านพิมพ์ป้าย \"Player Level: Professional\" ของ Li-Ning ซึ่งข้อมูลนี้อ่านเป็นระดับสูง (ผลค้น Google 8 พ.ย. 2026) รุ่น TD ระบุ Intermediate (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -10675,7 +10879,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1030,
+  "price": 1040,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -10707,7 +10911,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-air-force-g2-badminton-racket-78-grams-black-silver"
    }
   ],
-  "priceNote": "แปลงจาก ₹2,890.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹2,890.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/air-force-g2-80-lite",
   "note": "",
   "est": [
@@ -10873,7 +11077,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 8440,
+  "price": 8480,
   "frame": "Ultra High-Elastic Carbon + Damping Matrix",
   "shaft": "",
   "joint": "",
@@ -10901,7 +11105,7 @@ window.RACKETS = [
     "url": "https://yumo.ca/products/li-ning-axforce-100-ii-unstrung-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก US$249.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$249.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/li-ning-axforce-100-ii-green-4ug5",
   "note": "",
   "est": [
@@ -10927,7 +11131,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 8020,
+  "price": 8130,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -10951,7 +11155,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/axforce-100-max"
    }
   ],
-  "priceNote": "แปลงจาก ₹22,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹22,590.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/axforce-100-max",
   "note": "",
   "est": [
@@ -11096,7 +11300,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 2350,
+  "price": 2340,
   "frame": "High Modulus Graphite",
   "shaft": "High Modulus Graphite",
   "joint": "",
@@ -11124,7 +11328,7 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/li-ning-axforce-30-ex-light-badminton-racket-unstrung-neon-pink"
    }
   ],
-  "priceNote": "แปลงจาก S$89.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$89.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sportsshop.asia/products/li-ning-axforce-30-ex-light-badminton-racket-unstrung-neon-pink",
   "note": "",
   "est": [
@@ -11293,7 +11497,7 @@ window.RACKETS = [
    },
    {
     "shop": "yumo.ca",
-    "url": "https://yumo.ca/products/li-ning-axforce-60-unstrung-badminton-racket-pearly-white-aypt055-5u"
+    "url": "https://yumo.ca/products/li-ning-axforce-60-unstrung-badminton-racket-pearl-white-5u"
    },
    {
     "shop": "centralsports.co.uk",
@@ -11314,7 +11518,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "bp": "",
+  "bp": 302,
   "flex": "medium",
   "level": "pro",
   "levelTo": "",
@@ -11330,12 +11534,12 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "head": "",
   "pattern": "",
   "tech": "Turbo Charging",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-axforce-70-169x300.webp",
   "source": "https://chobbad.com/racket/lining-axforce-70/",
@@ -11348,6 +11552,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/axforce-70-4u"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-axforce-70-unstrung-badminton-racket-aypt047-4u"
    }
   ],
   "priceNote": "",
@@ -11450,7 +11658,7 @@ window.RACKETS = [
    31
   ],
   "tensionNote": "",
-  "price": 8520,
+  "price": 8630,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -11478,7 +11686,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/axforce-80-cl"
    }
   ],
-  "priceNote": "แปลงจาก ₹23,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹23,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/axforce-80-cl",
   "note": "",
   "est": [
@@ -11554,7 +11762,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 7730,
+  "price": 7770,
   "frame": "Carbon Fibre",
   "shaft": "",
   "joint": "",
@@ -11578,7 +11786,7 @@ window.RACKETS = [
     "url": "https://badmintonclick.com.au/products/li-ning-axforce-80-light-78-grams-ladies-badminton-racquet"
    }
   ],
-  "priceNote": "แปลงจาก US$229.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$229.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/li-ning-axforce-80-light-white-blue-4ug6",
   "note": "",
   "est": [
@@ -11604,7 +11812,7 @@ window.RACKETS = [
    22
   ],
   "tensionNote": "",
-  "price": 1400,
+  "price": 1410,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -11623,7 +11831,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$41.59 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$41.59 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.tennisnuts.com/li-ning-axforce-9-badminton-racket-strung-1627447.html",
   "note": "",
   "est": [
@@ -11836,7 +12044,7 @@ window.RACKETS = [
    31
   ],
   "tensionNote": "",
-  "price": 9120,
+  "price": 9160,
   "frame": "Carbon Fibre (Box Wing Frame)",
   "shaft": "",
   "joint": "",
@@ -11855,7 +12063,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$269.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$269.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/li-ning-axforce-90-new-black",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -12014,7 +12222,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 1770,
+  "price": 1800,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -12046,7 +12254,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-axforce-blast-badminton-racket-6u-white-blue"
    }
   ],
-  "priceNote": "แปลงจาก ₹4,992.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹4,992.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-axforce-blast-badminton-racket-6u-white-blue",
   "note": "",
   "est": [
@@ -12259,7 +12467,7 @@ window.RACKETS = [
    25
   ],
   "tensionNote": "",
-  "price": 1770,
+  "price": 1800,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -12283,7 +12491,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/axforce-jr"
    }
   ],
-  "priceNote": "แปลงจาก ₹4,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹4,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/axforce-jr",
   "note": "",
   "est": [
@@ -12335,7 +12543,7 @@ window.RACKETS = [
    },
    {
     "shop": "in.lining.studio",
-    "url": "https://in.lining.studio/products/axforce-tiger-5u"
+    "url": "https://in.lining.studio/products/axforce-tiger-5u-strung"
    },
    {
     "shop": "thegodofsports.com",
@@ -12368,7 +12576,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2300,
+  "price": 2340,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -12392,7 +12600,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/axforce-warrior"
    }
   ],
-  "priceNote": "แปลงจาก ₹6,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹6,490.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/axforce-warrior",
   "note": "",
   "est": [
@@ -12418,7 +12626,7 @@ window.RACKETS = [
    26
   ],
   "tensionNote": "",
-  "price": 1520,
+  "price": 1540,
   "frame": "Carbon Fiber",
   "shaft": "Carbon Fiber",
   "joint": "",
@@ -12442,7 +12650,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/bladex-100-4u"
    }
   ],
-  "priceNote": "แปลงจาก ₹4,290.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹4,290.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/bladex-100-4u",
   "note": "",
   "est": [
@@ -12946,7 +13154,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 7100,
+  "price": 7190,
   "frame": "M46X + ULTRA Carbon Fibre / T1100 Shaft",
   "shaft": "T1100 Carbon Fiber + High-Density Shock-Absorbing Material",
   "joint": "",
@@ -12978,7 +13186,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/bladex-880-shida"
    }
   ],
-  "priceNote": "แปลงจาก ₹19,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹19,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/bladex-880-shida",
   "note": "",
   "est": [
@@ -13124,7 +13332,7 @@ window.RACKETS = [
    31
   ],
   "tensionNote": "",
-  "price": 7200,
+  "price": 7180,
   "frame": "Military Grade Carbon Fiber",
   "shaft": "Military Grade Carbon Fiber",
   "joint": "",
@@ -13152,7 +13360,7 @@ window.RACKETS = [
     "url": "https://centralsports.co.uk/products/li-ning-bladex-900-sun-max-aypt323"
    }
   ],
-  "priceNote": "แปลงจาก £159.99 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก £159.99 ที่ 1 GBP = 44.858 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonhq.co.uk/products/li-ning-bladex-900-sun-max-4u-badminton-racket-rose-gold",
   "note": "",
   "est": [
@@ -13343,7 +13551,7 @@ window.RACKETS = [
    27
   ],
   "tensionNote": "",
-  "price": 1400,
+  "price": 1420,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -13375,7 +13583,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-bladex-200r-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,943.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,943.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-bladex-200r-badminton-racket",
   "note": "",
   "est": [
@@ -13401,7 +13609,7 @@ window.RACKETS = [
    26
   ],
   "tensionNote": "",
-  "price": 2900,
+  "price": 2940,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -13433,7 +13641,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-bladex-73-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹8,162.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹8,162.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-bladex-73-badminton-racket",
   "note": "ป้ายหัวเบา แต่ yumo.ca วัด BladeX 73 Light ได้ 302 mm (เรียกหัวหนัก) แหล่งขัดกัน ยังไม่มีค่าจากผู้ผลิต (ตรวจ 11 พ.ย. 2026)",
   "est": [
@@ -13459,7 +13667,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 1100,
+  "price": 1110,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -13470,7 +13678,7 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/Template_01_9849b6915c_4eb4ba44-64ba-4d30-9d1b-309ba87c7844.jpg?v=1749896723",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/Template_01_9849b6915c.jpg?v=1749896703",
   "source": "",
   "officialUrl": "",
   "specSrc": "",
@@ -13480,10 +13688,10 @@ window.RACKETS = [
   "shopLinks": [
    {
     "shop": "in.lining.studio",
-    "url": "https://in.lining.studio/products/blaze-100-84-grams"
+    "url": "https://in.lining.studio/products/blaze-100-78-grams-strung"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,090.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,090.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/blaze-100-84-grams",
   "note": "",
   "est": [
@@ -13509,7 +13717,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 810,
+  "price": 820,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -13537,7 +13745,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/challenger-15-boost"
    }
   ],
-  "priceNote": "แปลงจาก ₹2,290.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹2,290.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/challenger-15-boost",
   "note": "",
   "est": [
@@ -13563,7 +13771,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1130,
+  "price": 1150,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -13591,7 +13799,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/combat-z8-80-grams"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,190.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,190.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/combat-z8-80-grams",
   "note": "",
   "est": [
@@ -13618,7 +13826,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 1310,
+  "price": 1330,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -13646,7 +13854,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/g-force-extra-strong-9000"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,690.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,690.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/g-force-extra-strong-9000",
   "note": "",
   "est": [
@@ -13832,7 +14040,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 740,
+  "price": 750,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -13860,7 +14068,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/g-force-superlite-78-grams"
    }
   ],
-  "priceNote": "แปลงจาก ₹2,090.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹2,090.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/g-force-superlite-78-grams",
   "note": "",
   "est": [
@@ -13886,7 +14094,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 650,
+  "price": 660,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -13918,7 +14126,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-gforce-3600-superlite-badminton-racket-dark-grey-gold"
    }
   ],
-  "priceNote": "แปลงจาก ₹1,829.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹1,829.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-gforce-3600-superlite-badminton-racket-dark-grey-gold",
   "note": "",
   "est": [
@@ -13944,7 +14152,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 660,
+  "price": 670,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -13976,7 +14184,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-gforce-3700-superlite-badminton-racket-black-amber"
    }
   ],
-  "priceNote": "แปลงจาก ₹1,849.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹1,849.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-gforce-3700-superlite-badminton-racket-black-amber",
   "note": "",
   "est": [
@@ -14002,7 +14210,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 990,
+  "price": 1000,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -14026,7 +14234,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/g-force-3800-superlite-ii"
    }
   ],
-  "priceNote": "แปลงจาก ₹2,790.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹2,790.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/g-force-3800-superlite-ii",
   "note": "",
   "est": [
@@ -14053,7 +14261,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 850,
+  "price": 860,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -14077,7 +14285,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/g-force-5800-superlite"
    }
   ],
-  "priceNote": "แปลงจาก ₹2,390.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹2,390.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/g-force-5800-superlite",
   "note": "",
   "est": [
@@ -14103,7 +14311,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 850,
+  "price": 860,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -14127,7 +14335,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/g-force-5900-superlite"
    }
   ],
-  "priceNote": "แปลงจาก ₹2,390.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹2,390.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/g-force-5900-superlite",
   "note": "",
   "est": [
@@ -14153,7 +14361,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 780,
+  "price": 790,
   "frame": "High Carbon Graphite",
   "shaft": "High Carbon Graphite",
   "joint": "",
@@ -14174,13 +14382,14 @@ window.RACKETS = [
   "shopLinks": [
    {
     "shop": "in.lining.studio",
-    "url": "https://in.lining.studio/products/g-force-6800-superlite"
+    "url": "https://in.lining.studio/products/g-force-6800-superlite-strung"
    }
   ],
-  "priceNote": "แปลงจาก ₹2,190.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://in.lining.studio/products/g-force-6800-superlite",
+  "priceNote": "แปลงจาก ₹2,190.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/g-force-6800-superlite-strung",
   "note": "",
   "est": [
+   "flex",
    "price",
    "weight"
   ]
@@ -14204,7 +14413,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 780,
+  "price": 790,
   "frame": "High Carbon Graphite",
   "shaft": "High Carbon Graphite",
   "joint": "",
@@ -14225,13 +14434,14 @@ window.RACKETS = [
   "shopLinks": [
    {
     "shop": "in.lining.studio",
-    "url": "https://in.lining.studio/products/g-force-6900-superlite"
+    "url": "https://in.lining.studio/products/g-force-6900-superlite-copy"
    }
   ],
-  "priceNote": "แปลงจาก ₹2,190.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://in.lining.studio/products/g-force-6900-superlite",
+  "priceNote": "แปลงจาก ₹2,190.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/g-force-6900-superlite-copy",
   "note": "",
   "est": [
+   "flex",
    "balance",
    "price",
    "weight"
@@ -14256,7 +14466,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 1880,
+  "price": 1900,
   "frame": "Carbon Graphite",
   "shaft": "Carbon Graphite",
   "joint": "",
@@ -14284,7 +14494,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/g-force-8200-extra-strong"
    }
   ],
-  "priceNote": "แปลงจาก ₹5,290.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹5,290.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/g-force-8200-extra-strong",
   "note": "",
   "est": [
@@ -14311,7 +14521,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 1880,
+  "price": 1900,
   "frame": "Carbon Graphite",
   "shaft": "Carbon Graphite",
   "joint": "",
@@ -14339,7 +14549,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/g-force-8800-extra-strong"
    }
   ],
-  "priceNote": "แปลงจาก ₹5,290.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹5,290.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/g-force-8800-extra-strong",
   "note": "",
   "est": [
@@ -14366,7 +14576,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 1880,
+  "price": 1900,
   "frame": "Carbon Graphite",
   "shaft": "Carbon Graphite",
   "joint": "",
@@ -14394,7 +14604,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/g-force-8900-extra-strong"
    }
   ],
-  "priceNote": "แปลงจาก ₹5,290.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹5,290.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/g-force-8900-extra-strong",
   "note": "",
   "est": [
@@ -14421,7 +14631,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 1670,
+  "price": 1690,
   "frame": "Carbon Graphite",
   "shaft": "Carbon Graphite",
   "joint": "",
@@ -14449,7 +14659,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/g-force-extra-strong-9500"
    }
   ],
-  "priceNote": "แปลงจาก ₹4,690.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹4,690.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/g-force-extra-strong-9500",
   "note": "",
   "est": [
@@ -14475,7 +14685,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 670,
+  "price": 680,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -14503,7 +14713,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/g-force-lite"
    }
   ],
-  "priceNote": "แปลงจาก ₹1,890.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹1,890.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/g-force-lite",
   "note": "",
   "est": [
@@ -14529,7 +14739,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 1030,
+  "price": 1040,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -14550,10 +14760,10 @@ window.RACKETS = [
   "shopLinks": [
    {
     "shop": "in.lining.studio",
-    "url": "https://in.lining.studio/products/g-force-superlite-ma-10"
+    "url": "https://in.lining.studio/products/g-force-superlite-max-10-strung"
    }
   ],
-  "priceNote": "แปลงจาก ₹2,890.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹2,890.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/g-force-superlite-ma-10",
   "note": "",
   "est": [
@@ -14579,7 +14789,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 780,
+  "price": 790,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -14611,7 +14821,7 @@ window.RACKETS = [
     "url": "https://shop.kibisports.com/products/badminton-racket-g-force-superlite-max-9"
    }
   ],
-  "priceNote": "แปลงจาก ₹2,190.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹2,190.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/g-force-superlite-max-9",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -14639,7 +14849,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 1310,
+  "price": 1330,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -14667,7 +14877,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/g-force-x5-82-grams"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,690.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,690.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/g-force-x5-82-grams",
   "note": "",
   "est": [
@@ -14722,7 +14932,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/g-tek-gx"
    }
   ],
-  "priceNote": "แปลงจาก S$39.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$39.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/g-tek-gx",
   "note": "",
   "est": [
@@ -14776,7 +14986,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/g-tek-ii"
    }
   ],
-  "priceNote": "แปลงจาก S$39.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$39.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/g-tek-ii",
   "note": "",
   "est": [
@@ -14802,7 +15012,7 @@ window.RACKETS = [
    25
   ],
   "tensionNote": "",
-  "price": 1400,
+  "price": 1420,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -14838,7 +15048,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-halbertec-1000-badminton-racket-5u"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,943.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,943.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-halbertec-1000-badminton-racket-5u",
   "note": "",
   "est": [
@@ -15058,7 +15268,7 @@ window.RACKETS = [
   "year": 2024,
   "style": "allround",
   "balance": "even",
-  "bp": "",
+  "bp": 301,
   "flex": "medium",
   "level": "pro",
   "levelTo": "",
@@ -15074,12 +15284,12 @@ window.RACKETS = [
   "frame": "Carbon Fibre",
   "shaft": "Ultra High-Modulus Graphite",
   "joint": "",
-  "length": "",
+  "length": "675 mm",
   "head": "",
   "pattern": "",
   "tech": "Turbo Charging",
   "players": "",
-  "madeIn": "",
+  "madeIn": "China",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-halbertec-6000-169x300.webp",
   "source": "https://chobbad.com/racket/lining-halbertec-6000/",
@@ -15100,6 +15310,10 @@ window.RACKETS = [
    {
     "shop": "in.lining.studio",
     "url": "https://in.lining.studio/products/halbertec-6000-4u"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-halbertec-6000-unstrung-badminton-racket-aypu007-5"
    },
    {
     "shop": "thegodofsports.com",
@@ -15194,7 +15408,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 6720,
+  "price": 7370,
   "frame": "Carbon Fibre (M46X + ULTRA)",
   "shaft": "ULTRA High-Elastic Carbon + High-Density Shock Absorption",
   "joint": "",
@@ -15218,7 +15432,7 @@ window.RACKETS = [
     "url": "https://yumo.ca/products/li-ning-halbertec-7000-ii-unstrung-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก CAD 278.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก CAD 309.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/li-ning-halbertec-7000-ii-unstrung-badminton-racket",
   "note": "",
   "est": [
@@ -15448,7 +15662,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2300,
+  "price": 2340,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -15476,7 +15690,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-halbertec-mage-badminton-racket-5u"
    }
   ],
-  "priceNote": "แปลงจาก ₹6,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹6,490.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/halbertec-mage-4u-1",
   "note": "",
   "est": [
@@ -15626,7 +15840,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1020,
+  "price": 1040,
   "frame": "Carbon Fiber",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -15662,7 +15876,7 @@ window.RACKETS = [
     "url": "https://shop.kibisports.com/products/li-ning-ignite-7-speed-racket-77-grams-kibi-sports"
    }
   ],
-  "priceNote": "แปลงจาก ₹2,879.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹2,879.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-ignite-7-badminton-racket-dark-grey-red",
   "note": "",
   "est": [
@@ -15688,7 +15902,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1100,
+  "price": 1110,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -15716,7 +15930,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-ignite-8-badminton-racket-cool-gray-bull-red"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,092.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,092.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-ignite-8-badminton-racket-cool-gray-bull-red",
   "note": "",
   "est": [
@@ -15770,7 +15984,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/mega-power"
    }
   ],
-  "priceNote": "แปลงจาก S$19.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$19.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/mega-power",
   "note": "",
   "est": [
@@ -15798,7 +16012,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 3900,
+  "price": 3950,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -15826,7 +16040,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/n-9-ii"
    }
   ],
-  "priceNote": "แปลงจาก ₹10,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹10,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/n-9-ii",
   "note": "",
   "est": [
@@ -15852,7 +16066,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4690,
+  "price": 4750,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -15880,7 +16094,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/n-90-iv"
    }
   ],
-  "priceNote": "แปลงจาก ₹13,200.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹13,200.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/n-90-iv",
   "note": "ระดับ: ร้านพิมพ์ป้าย \"Player Level: Professional\" ของ Li-Ning ซึ่งข้อมูลนี้อ่านเป็นระดับสูง (ร้านเรียก 3D Break-Free N90 IV) (ผลค้น Google 8 พ.ย. 2026) (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -15908,7 +16122,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4440,
+  "price": 4500,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -15936,7 +16150,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/n99-gold-medal"
    }
   ],
-  "priceNote": "แปลงจาก ₹12,500.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹12,500.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/n99-gold-medal",
   "note": "",
   "est": [
@@ -16054,6 +16268,64 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "li-ning-super-series-99-plus",
+  "brand": "Li-Ning",
+  "name": "Super Series 99 Plus",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "flexible",
+  "level": "",
+  "levelTo": "",
+  "weights": "4U, 5U",
+  "weight": 83,
+  "grips": "",
+  "tension": [
+   null,
+   32
+  ],
+  "tensionNote": "",
+  "price": 1360,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0707/5836/7332/files/Artboard_1_100_97bc1b9ddd.jpg?v=1749900268",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/super-series-99-plus-strung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-super-series-99-plus-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,782.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-super-series-99-plus-badminton-racket",
+  "note": "",
+  "est": [
+   "flex",
+   "tension",
+   "style",
+   "price",
+   "weight"
+  ]
+ },
+ {
   "id": "li-ning-super-series-medal",
   "brand": "Li-Ning",
   "name": "Super Series Medal",
@@ -16072,7 +16344,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 710,
+  "price": 720,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -16100,7 +16372,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/super-series-gold-medal"
    }
   ],
-  "priceNote": "แปลงจาก ₹1,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹1,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/super-series-gold-medal",
   "note": "",
   "est": [
@@ -16126,7 +16398,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 710,
+  "price": 720,
   "frame": "Military Grade Carbon Fiber",
   "shaft": "Military Grade Carbon Fiber",
   "joint": "",
@@ -16158,7 +16430,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/super-series-ss-900"
    }
   ],
-  "priceNote": "แปลงจาก ₹1,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹1,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/super-series-ss-900",
   "note": "",
   "est": [
@@ -16185,7 +16457,7 @@ window.RACKETS = [
    26
   ],
   "tensionNote": "",
-  "price": 1380,
+  "price": 1400,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -16221,7 +16493,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-tectonic-1-3u-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,892.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,892.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-tectonic-1-3u-badminton-racket",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -16277,7 +16549,7 @@ window.RACKETS = [
    },
    {
     "shop": "in.lining.studio",
-    "url": "https://in.lining.studio/products/tectonic-1s"
+    "url": "https://in.lining.studio/products/tectonic-1s-strung"
    },
    {
     "shop": "thegodofsports.com",
@@ -16338,7 +16610,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/tectonic-3r-4u-copy"
    }
   ],
-  "priceNote": "แปลงจาก S$109.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$109.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/tectonic-3r-4u",
   "note": "",
   "est": [
@@ -16364,7 +16636,7 @@ window.RACKETS = [
    27
   ],
   "tensionNote": "",
-  "price": 2980,
+  "price": 3020,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -16396,7 +16668,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-tectonic-6-4u-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹8,382.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹8,382.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-tectonic-6-4u-badminton-racket",
   "note": "",
   "est": [
@@ -16424,7 +16696,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 6830,
+  "price": 6820,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -16456,7 +16728,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-tectonic-7-badminton-racket-unstrung-white-gold"
    }
   ],
-  "priceNote": "แปลงจาก S$259.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$259.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/tectonic-7",
   "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"Playing Level: Advanced\", \"Level: Advanced\", \"Advanced / Professional\" (ผลค้น Google 5 พ.ย. 2026) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -16483,7 +16755,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4440,
+  "price": 4500,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -16515,7 +16787,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-tectonic-7-combat-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹12,499.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹12,499.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-tectonic-7-combat-badminton-racket",
   "note": "ระดับ: ร้านระบุ \"Tectonic 7C Combat ... Advanced players' choice\" (ผลค้น Google 8 พ.ย. 2026) (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -16543,7 +16815,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4440,
+  "price": 4500,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -16575,7 +16847,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-tectonic-7d-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹12,499.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹12,499.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-tectonic-7d-badminton-racket",
   "note": "",
   "est": [
@@ -16601,7 +16873,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4610,
+  "price": 4670,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -16629,7 +16901,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/tectonic-7-instinct"
    }
   ],
-  "priceNote": "แปลงจาก ₹12,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹12,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/tectonic-7-instinct",
   "note": "",
   "est": [
@@ -16713,7 +16985,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 670,
+  "price": 680,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -16745,7 +17017,7 @@ window.RACKETS = [
     "url": "https://shop.kibisports.com/products/badminton-racket-turbo-99"
    }
   ],
-  "priceNote": "แปลงจาก ₹1,890.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹1,890.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-99",
   "note": "",
   "est": [
@@ -16772,7 +17044,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1630,
+  "price": 1650,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -16800,7 +17072,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/turbo-charging-08"
    }
   ],
-  "priceNote": "แปลงจาก ₹4,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹4,590.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-08",
   "note": "",
   "est": [
@@ -16826,7 +17098,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1630,
+  "price": 1650,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -16854,7 +17126,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/turbo-charging-08-combat"
    }
   ],
-  "priceNote": "แปลงจาก ₹4,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹4,590.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-08-combat",
   "note": "",
   "est": [
@@ -16880,7 +17152,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1630,
+  "price": 1650,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -16908,7 +17180,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/turbo-charging-08-drive"
    }
   ],
-  "priceNote": "แปลงจาก ₹4,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹4,590.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-08-drive",
   "note": "",
   "est": [
@@ -16934,7 +17206,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2120,
+  "price": 2150,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -16962,7 +17234,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/turbo-charging-10"
    }
   ],
-  "priceNote": "แปลงจาก ₹5,980.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹5,980.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-10",
   "note": "",
   "est": [
@@ -16988,7 +17260,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2120,
+  "price": 2150,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17016,7 +17288,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/turbo-charging-20"
    }
   ],
-  "priceNote": "แปลงจาก ₹5,980.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹5,980.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-20",
   "note": "",
   "est": [
@@ -17042,7 +17314,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2120,
+  "price": 2150,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17070,7 +17342,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/turbo-charging-20-combat"
    }
   ],
-  "priceNote": "แปลงจาก ₹5,980.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹5,980.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-20-combat",
   "note": "",
   "est": [
@@ -17096,7 +17368,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2120,
+  "price": 2150,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17124,7 +17396,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/turbo-charging-20-drive"
    }
   ],
-  "priceNote": "แปลงจาก ₹5,980.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹5,980.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-20-drive",
   "note": "",
   "est": [
@@ -17150,7 +17422,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2120,
+  "price": 2150,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17178,7 +17450,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/turbo-charging-20-instinct"
    }
   ],
-  "priceNote": "แปลงจาก ₹5,980.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹5,980.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-20-instinct",
   "note": "",
   "est": [
@@ -17204,7 +17476,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2800,
+  "price": 2840,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17232,7 +17504,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/turbo-charging-40"
    }
   ],
-  "priceNote": "แปลงจาก ₹7,880.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹7,880.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-40",
   "note": "",
   "est": [
@@ -17258,7 +17530,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2800,
+  "price": 2840,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17286,7 +17558,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/turbo-charging-50"
    }
   ],
-  "priceNote": "แปลงจาก ₹7,880.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹7,880.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-50",
   "note": "",
   "est": [
@@ -17312,7 +17584,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2800,
+  "price": 2840,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17340,7 +17612,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/turbo-charging-50-combat"
    }
   ],
-  "priceNote": "แปลงจาก ₹7,880.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹7,880.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-50-combat",
   "note": "",
   "est": [
@@ -17366,7 +17638,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2800,
+  "price": 2840,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17394,7 +17666,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/turbo-charging-50-drive"
    }
   ],
-  "priceNote": "แปลงจาก ₹7,880.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹7,880.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-50-drive",
   "note": "",
   "est": [
@@ -17420,7 +17692,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4020,
+  "price": 4070,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17452,7 +17724,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-turbo-charging-70-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹11,320.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹11,320.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-70",
   "note": "",
   "est": [
@@ -17479,7 +17751,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 3720,
+  "price": 3770,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17511,7 +17783,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-turbo-charging-70-boost-badminton-racket-purple"
    }
   ],
-  "priceNote": "แปลงจาก ₹10,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹10,490.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-turbo-charging-70-boost-badminton-racket-purple",
   "note": "",
   "est": [
@@ -17539,7 +17811,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4020,
+  "price": 4070,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17567,7 +17839,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/turbo-charging-70-combat"
    }
   ],
-  "priceNote": "แปลงจาก ₹11,320.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹11,320.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-70-combat",
   "note": "",
   "est": [
@@ -17593,7 +17865,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 3400,
+  "price": 3450,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17625,7 +17897,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-turbo-charging-70-instinct-badminton-racket-pink"
    }
   ],
-  "priceNote": "แปลงจาก ₹9,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹9,590.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-turbo-charging-70-instinct-badminton-racket-pink",
   "note": "",
   "est": [
@@ -17652,7 +17924,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 3720,
+  "price": 3770,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17684,7 +17956,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-turbocharging-75-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹10,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹10,490.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-turbocharging-75-badminton-racket",
   "note": "The Racquet Shop (Turbo Charging 75 Combat): 4U 84 g, balance 306 mm",
   "est": [
@@ -17710,7 +17982,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 8670,
+  "price": 8660,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17734,7 +18006,7 @@ window.RACKETS = [
     "url": "https://sg.lining.studio/products/turbo-charging-75-combat"
    }
   ],
-  "priceNote": "แปลงจาก S$329.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$329.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/turbo-charging-75-combat",
   "note": "ความตึงสูงสุด ≤32 lbs จากหน้า Li-Ning SG (maximum racket tension <=32 Pounds); ตัวดึงหน้าเว็บเก่าทิ้งค่านี้เพราะเครื่องหมาย \"<\" ถูกอ่านเป็นแท็ก",
   "est": [
@@ -17760,7 +18032,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 3880,
+  "price": 3930,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17792,7 +18064,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-turbo-charging-75d-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹10,920.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹10,920.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-turbo-charging-75d-badminton-racket",
   "note": "",
   "est": [
@@ -17819,7 +18091,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 3900,
+  "price": 3950,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17851,7 +18123,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-turbo-charging-75-ex-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹10,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹10,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-75-ex",
   "note": "",
   "est": [
@@ -17878,7 +18150,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4260,
+  "price": 4310,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17906,7 +18178,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/turbo-charging-75-instinct"
    }
   ],
-  "priceNote": "แปลงจาก ₹11,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹11,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-75-instinct",
   "note": "",
   "est": [
@@ -17932,7 +18204,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4260,
+  "price": 4310,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -17964,7 +18236,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-turbocharging-80-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹11,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹11,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-80",
   "note": "",
   "est": [
@@ -17990,7 +18262,7 @@ window.RACKETS = [
    29
   ],
   "tensionNote": "",
-  "price": 3000,
+  "price": 3040,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -18022,7 +18294,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-turbo-charging-marshal-badminton-racket-white-4u"
    }
   ],
-  "priceNote": "แปลงจาก ₹8,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹8,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-turbo-charging-marshal-badminton-racket-white-4u",
   "note": "",
   "est": [
@@ -18049,7 +18321,7 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "",
-  "price": 4260,
+  "price": 4310,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -18077,7 +18349,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/turbo-charging-88-grams"
    }
   ],
-  "priceNote": "แปลงจาก ₹11,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹11,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-88-grams",
   "note": "",
   "est": [
@@ -18103,7 +18375,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1670,
+  "price": 1690,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -18131,7 +18403,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/turbo-charging-z-boost-strung"
    }
   ],
-  "priceNote": "แปลงจาก ₹4,690.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹4,690.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-z-boost",
   "note": "",
   "est": [
@@ -18157,7 +18429,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1670,
+  "price": 1690,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -18185,7 +18457,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/turbo-charging-z-combat"
    }
   ],
-  "priceNote": "แปลงจาก ₹4,690.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹4,690.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-z-combat",
   "note": "",
   "est": [
@@ -18211,7 +18483,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1670,
+  "price": 1690,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -18239,7 +18511,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/turbo-charging-z-driveaypr190-4"
    }
   ],
-  "priceNote": "แปลงจาก ₹4,690.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹4,690.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-z-driveaypr190-4",
   "note": "",
   "est": [
@@ -18265,7 +18537,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1240,
+  "price": 1260,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -18293,7 +18565,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/wind-lite-700"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,490.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/wind-lite-700",
   "note": "",
   "est": [
@@ -18319,7 +18591,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 1350,
+  "price": 1360,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -18347,7 +18619,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/wind-lite-700-ii"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,790.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,790.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/wind-lite-700-ii",
   "note": "",
   "est": [
@@ -18373,7 +18645,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1240,
+  "price": 1260,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -18401,7 +18673,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/wind-lite-800"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,490.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/wind-lite-800",
   "note": "",
   "est": [
@@ -18428,7 +18700,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 1350,
+  "price": 1360,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -18456,7 +18728,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/wind-lite-800-ii"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,790.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,790.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/wind-lite-800-ii",
   "note": "",
   "est": [
@@ -18482,7 +18754,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1240,
+  "price": 1260,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -18510,7 +18782,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/wind-lite-900"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,490.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/wind-lite-900",
   "note": "",
   "est": [
@@ -18536,7 +18808,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 1350,
+  "price": 1360,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -18564,7 +18836,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/wind-lite-900-ii"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,790.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,790.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/wind-lite-900-ii",
   "note": "",
   "est": [
@@ -18590,7 +18862,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1420,
+  "price": 1440,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -18618,7 +18890,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/wind-lite-stealth"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/wind-lite-stealth",
   "note": "",
   "est": [
@@ -18656,17 +18928,17 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "https://www.badmintonplaza.com/images/AYPR046-4S-A.jpg",
+  "img": "https://www.badmintonplaza.com/images/AYPR048-4S-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://sg.lining.studio/products/windstorm-700-iv",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3765",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3763",
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
-    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3765"
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3763"
    },
    {
     "shop": "sportsshop.asia",
@@ -18705,7 +18977,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2480,
+  "price": 2520,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -18733,7 +19005,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/windstorm-700-iv"
    }
   ],
-  "priceNote": "แปลงจาก ₹6,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹6,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/windstorm-700-iv",
   "note": "",
   "est": [
@@ -18759,7 +19031,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2800,
+  "price": 2840,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -18783,7 +19055,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/windstorm-700-plus"
    }
   ],
-  "priceNote": "แปลงจาก ₹7,890.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹7,890.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/windstorm-700-plus",
   "note": "",
   "est": [
@@ -18843,7 +19115,7 @@ window.RACKETS = [
    },
    {
     "shop": "yumo.ca",
-    "url": "https://yumo.ca/products/li-ning-extra-skill-windstorm-72-unstrung-badminton-racket-navy-aypq124-1"
+    "url": "https://yumo.ca/products/li-ning-extra-skill-windstorm-72-badminton-racket-black"
    },
    {
     "shop": "thegodofsports.com",
@@ -19000,7 +19272,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3160,
+  "price": 3200,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -19040,7 +19312,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-windstorm-72-s-badminton-racket-dark-grey-gold-blue"
    }
   ],
-  "priceNote": "แปลงจาก ₹8,892.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹8,892.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-windstorm-72-s-badminton-racket-dark-grey-gold-blue",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
@@ -19067,7 +19339,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3270,
+  "price": 3310,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -19103,7 +19375,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-windstorm-74-bluegold-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹9,199.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹9,199.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-windstorm-74-bluegold-badminton-racket",
   "note": "",
   "est": [
@@ -19130,7 +19402,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3050,
+  "price": 3090,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -19158,7 +19430,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/windstorm-75"
    }
   ],
-  "priceNote": "แปลงจาก ₹8,590.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹8,590.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/windstorm-75",
   "note": "",
   "est": [
@@ -19184,7 +19456,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3370,
+  "price": 3420,
   "frame": "Military Grade Carbon Fiber",
   "shaft": "Military Grade Carbon Fiber",
   "joint": "",
@@ -19212,7 +19484,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/windstorm-76"
    }
   ],
-  "priceNote": "แปลงจาก ₹9,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹9,490.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/windstorm-76",
   "note": "",
   "est": [
@@ -19239,7 +19511,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2150,
+  "price": 2350,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -19271,7 +19543,7 @@ window.RACKETS = [
     "url": "https://yumo.ca/products/li-ning-windstorm-78sl-iv-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก CAD 89.10 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก CAD 99.00 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/li-ning-windstorm-78sl-iv-badminton-racket",
   "note": "",
   "est": [
@@ -19297,7 +19569,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2290,
+  "price": 2320,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -19329,7 +19601,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-windstorm-78-white-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹6,449.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹6,449.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-windstorm-78-white-badminton-racket",
   "note": "",
   "est": [
@@ -19477,7 +19749,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1880,
+  "price": 1900,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -19505,7 +19777,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/windstorm-lite"
    }
   ],
-  "priceNote": "แปลงจาก ₹5,290.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹5,290.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/windstorm-lite",
   "note": "",
   "est": [
@@ -19531,7 +19803,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3190,
+  "price": 3240,
   "frame": "High Modulus Carbon Fiber",
   "shaft": "Slim Carbon Shaft",
   "joint": "",
@@ -19563,7 +19835,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/windstorm-nano-73"
    }
   ],
-  "priceNote": "แปลงจาก ₹8,990.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹8,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/windstorm-nano-73",
   "note": "",
   "est": [
@@ -19589,7 +19861,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2830,
+  "price": 2870,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -19621,7 +19893,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-windstorm-nano-74-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹7,962.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹7,962.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-windstorm-nano-74-badminton-racket",
   "note": "น้ำหนัก 74 g จาก Li-Ning (sg และ in.lining.studio) ตรงกับขนาด 6U; thegodofsports พิมพ์ 4U, 5U ซึ่งไม่ตรงกับน้ำหนักนี้ (ตรวจ 11 พ.ย. 2026)",
   "est": [
@@ -19647,7 +19919,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1950,
+  "price": 1980,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -19675,7 +19947,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/windstorm-nano-lite"
    }
   ],
-  "priceNote": "แปลงจาก ₹5,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹5,490.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/windstorm-nano-lite",
   "note": "",
   "est": [
@@ -19729,7 +20001,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/xp-900"
    }
   ],
-  "priceNote": "แปลงจาก S$19.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$19.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/xp-900",
   "note": "",
   "est": [
@@ -19783,7 +20055,7 @@ window.RACKETS = [
     "url": "https://in.lining.studio/products/xp-iv"
    }
   ],
-  "priceNote": "แปลงจาก S$19.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$19.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/xp-iv",
   "note": "",
   "est": [
@@ -19809,7 +20081,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3710,
+  "price": 3760,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
   "joint": "",
@@ -19841,7 +20113,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/li-ning-xi-phos-x1-badminton-racket-silver"
    }
   ],
-  "priceNote": "แปลงจาก ₹10,443.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹10,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-xi-phos-x1-badminton-racket-silver",
   "note": "",
   "est": [
@@ -19861,20 +20133,20 @@ window.RACKETS = [
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
-  "grips": "",
+  "grips": "G6",
   "tension": [
    22,
    28
   ],
   "tensionNote": "",
-  "price": 7210,
+  "price": 6950,
   "frame": "High Modulus Graphite, POLYMER VA, CARBON 4T",
-  "shaft": "",
+  "shaft": "High modulus graphite,VA POLYMER,4T CARBON",
   "joint": "",
   "length": "675 mm",
   "head": "",
   "pattern": "",
-  "tech": "TORQUE TECHNOLOGY",
+  "tech": "TORQUE TECHNOLOGY (T12)",
   "players": "",
   "madeIn": "Japan",
   "recString": "",
@@ -19882,20 +20154,23 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-mizuno-seaacrospeed-0/",
   "officialUrl": "",
   "specSrc": "https://jpn.mizuno.com/badminton/shop/products/acrospeed0/",
-  "shopUrl": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5269",
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5269"
+   },
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/mizuno-acrospeed-0-2024-badminton-racket-unstrung"
    }
   ],
-  "priceNote": "แปลงจาก ₫5,515,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://vnm.mizuno.com/products/acrospeed-0-73jtb400-2024ss",
+  "priceNote": "",
+  "priceSrc": "",
   "note": "",
   "est": [
-   "price",
    "weight"
   ]
  },
@@ -19918,7 +20193,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 7210,
+  "price": 7260,
   "frame": "High-modulus graphite, graphite, VA polymer, 4T carbon",
   "shaft": "",
   "joint": "",
@@ -19937,7 +20212,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ₫5,515,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫5,515,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/acrospeed-1-drive-j-edition-73jtb451-2025aw",
   "note": "",
   "est": [
@@ -19964,7 +20239,7 @@ window.RACKETS = [
    22
   ],
   "tensionNote": "",
-  "price": 3600,
+  "price": 3620,
   "frame": "Graphite",
   "shaft": "",
   "joint": "",
@@ -19983,7 +20258,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ₫2,750,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫2,750,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/altius-sonic-73jtb309-2025ss",
   "note": "",
   "est": [
@@ -20011,7 +20286,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 4760,
+  "price": 4790,
   "frame": "Japan HMG T46",
   "shaft": "",
   "joint": "",
@@ -20035,7 +20310,7 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/mizuno-altius-vx5-badminton-racket-mz-bf2391-dark-taupe-grey-chartreuse"
    }
   ],
-  "priceNote": "แปลงจาก ₫3,640,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫3,640,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/altius-vx5-73mtb523-2025aw",
   "note": "",
   "est": [
@@ -20063,7 +20338,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 2030,
+  "price": 2040,
   "frame": "Japan HM Graphite",
   "shaft": "",
   "joint": "",
@@ -20082,7 +20357,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ₫1,550,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫1,550,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/altrax-870-73mtb524-2025aw",
   "note": "",
   "est": [
@@ -20110,7 +20385,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 6930,
+  "price": 6970,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -20129,7 +20404,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ₫5,300,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫5,300,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://jpn.mizuno.com/badminton/shop/products/ACROFORCE100/",
   "note": "ก้านแข็ง: โพสต์รีวิวของ Jongnow (Facebook) เขียน \"ก้านแข็งมาก\" และ 4U6 หัวหนัก; Mizuno ไม่พิมพ์ช่อง Flex (ผลค้น Google 10 พ.ย. 2026)",
   "est": [
@@ -20303,7 +20578,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 6360,
+  "price": 6300,
   "frame": "High Modulus Graphite, 4T CARBON",
   "shaft": "4T CARBON, High Modulus Graphite, Graphite",
   "joint": "",
@@ -20327,7 +20602,7 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/mizuno-acrospeed-1-accel-badminton-racket-unstrung"
    }
   ],
-  "priceNote": "แปลงจาก ¥29,700.00 ที่ 1 JPY = 0.21398 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ¥29,700.00 ที่ 1 JPY = 0.21197 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB402/",
   "note": "",
   "est": [
@@ -20353,7 +20628,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 6360,
+  "price": 6300,
   "frame": "High modulus graphite, graphite, 4T carbon, VA polymer",
   "shaft": "VA POLYMER, 4T CARBON, High Modulus Graphite, Graphite",
   "joint": "",
@@ -20377,7 +20652,7 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/mizuno-acrospeed-1-drive-badminton-racket-unstrung"
    }
   ],
-  "priceNote": "แปลงจาก ¥29,700.00 ที่ 1 JPY = 0.21398 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ¥29,700.00 ที่ 1 JPY = 0.21197 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB451/",
   "note": "",
   "est": [
@@ -20404,7 +20679,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 6360,
+  "price": 6300,
   "frame": "High Modulus Graphite, polymer VA",
   "shaft": "VA POLYMER, High Modulus Graphite, Graphite",
   "joint": "",
@@ -20428,7 +20703,7 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/mizuno-acrospeed-1-focus-badminton-racket-unstrung"
    }
   ],
-  "priceNote": "แปลงจาก ¥29,700.00 ที่ 1 JPY = 0.21398 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ¥29,700.00 ที่ 1 JPY = 0.21197 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB401/",
   "note": "",
   "est": [
@@ -20448,20 +20723,20 @@ window.RACKETS = [
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
-  "grips": "",
+  "grips": "G6",
   "tension": [
    21,
    27
   ],
   "tensionNote": "",
-  "price": 5880,
+  "price": 6950,
   "frame": "High modulus graphite, graphite",
-  "shaft": "",
+  "shaft": "High Modulus Graphite, Graphite",
   "joint": "",
   "length": "675 mm",
   "head": "",
   "pattern": "",
-  "tech": "",
+  "tech": "TORQUE TECHNOLOGY (T12)",
   "players": "",
   "madeIn": "",
   "recString": "",
@@ -20469,16 +20744,19 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/mizuno-acrospeed-2/",
   "officialUrl": "",
   "specSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB422/",
-  "shopUrl": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5268",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": "",
-  "priceNote": "แปลงจาก ¥27,500.00 ที่ 1 JPY = 0.21398 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB422/",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5268"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
   "note": "",
-  "est": [
-   "price"
-  ]
+  "est": []
  },
  {
   "id": "mizuno-acrospeed-3",
@@ -20499,7 +20777,7 @@ window.RACKETS = [
    27
   ],
   "tensionNote": "",
-  "price": 5410,
+  "price": 5360,
   "frame": "High Modulus Graphite, 4T CARBON",
   "shaft": "",
   "joint": "",
@@ -20518,7 +20796,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ¥25,300.00 ที่ 1 JPY = 0.21398 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ¥25,300.00 ที่ 1 JPY = 0.21197 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB403/",
   "note": "",
   "est": [
@@ -20544,7 +20822,7 @@ window.RACKETS = [
    25
   ],
   "tensionNote": "",
-  "price": 4940,
+  "price": 4900,
   "frame": "High modulus graphite",
   "shaft": "",
   "joint": "",
@@ -20563,7 +20841,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ¥23,100.00 ที่ 1 JPY = 0.21398 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ¥23,100.00 ที่ 1 JPY = 0.21197 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB406/",
   "note": "",
   "est": [
@@ -20589,7 +20867,7 @@ window.RACKETS = [
    25
   ],
   "tensionNote": "",
-  "price": 4000,
+  "price": 3960,
   "frame": "High modulus graphite, graphite",
   "shaft": "",
   "joint": "",
@@ -20608,7 +20886,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ¥18,700.00 ที่ 1 JPY = 0.21398 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ¥18,700.00 ที่ 1 JPY = 0.21197 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB407/",
   "note": "",
   "est": [
@@ -20634,7 +20912,7 @@ window.RACKETS = [
    25
   ],
   "tensionNote": "",
-  "price": 3060,
+  "price": 3030,
   "frame": "High modulus graphite, graphite",
   "shaft": "",
   "joint": "",
@@ -20653,7 +20931,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ¥14,300.00 ที่ 1 JPY = 0.21398 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ¥14,300.00 ที่ 1 JPY = 0.21197 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB408/",
   "note": "",
   "est": [
@@ -20781,7 +21059,7 @@ window.RACKETS = [
    27
   ],
   "tensionNote": "",
-  "price": 6930,
+  "price": 6970,
   "frame": "VA POLYMER, High Modulus Graphite, Graphite",
   "shaft": "",
   "joint": "",
@@ -20800,7 +21078,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ₫5,300,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫5,300,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://jpn.mizuno.com/badminton/shop/products/Nfeel/",
   "note": "",
   "est": [
@@ -20878,7 +21156,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2420,
+  "price": 2430,
   "frame": "Japanese Ultra Carbon",
   "shaft": "Japanese Ultra Carbon",
   "joint": "",
@@ -20902,7 +21180,7 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/mizuno-caliber-s-boost-badminton-racket-unstrung"
    }
   ],
-  "priceNote": "แปลงจาก ₫1,849,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫1,849,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/caliber-s-boost-73mtb423-2024ss",
   "note": "",
   "est": [
@@ -20930,7 +21208,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2750,
+  "price": 2760,
   "frame": "Ultra Carbon Nhật Bản",
   "shaft": "",
   "joint": "",
@@ -20954,7 +21232,7 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/mizuno-caliber-s-boost-2-badminton-racket-unstrung-silver-metallic-powder-orange-glow"
    }
   ],
-  "priceNote": "แปลงจาก ₫2,100,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫2,100,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/caliber-s-boost-2-73mtb524-2025aw",
   "note": "",
   "est": [
@@ -20982,7 +21260,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3470,
+  "price": 3490,
   "frame": "Ultra Carbon Nhật Bản",
   "shaft": "",
   "joint": "",
@@ -21006,7 +21284,7 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/mizuno-caliber-v-pro-mz-bf2400-badminton-racket-solid-white-brilliant-blue-neon-red-unstrung"
    }
   ],
-  "priceNote": "แปลงจาก ₫2,650,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫2,650,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/caliber-v-pro-73mtb254-2025aw",
   "note": "",
   "est": [
@@ -21034,7 +21312,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1360,
+  "price": 1370,
   "frame": "Japan Graphite HM",
   "shaft": "",
   "joint": "",
@@ -21053,7 +21331,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ₫1,040,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫1,040,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/carbo-pro-835-73mtb423-2024ss",
   "note": "",
   "est": [
@@ -21187,7 +21465,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 4010,
+  "price": 4070,
   "frame": "Nhật Bản HMG T46",
   "shaft": "",
   "joint": "",
@@ -21215,7 +21493,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/mizuno-fortius-50-spirit-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹11,299.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹11,299.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/mizuno-fortius-50-spirit-badminton-racket",
   "note": "",
   "est": [
@@ -21243,7 +21521,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 4320,
+  "price": 4340,
   "frame": "Japan HMG T46",
   "shaft": "",
   "joint": "",
@@ -21262,7 +21540,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ₫3,300,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫3,300,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/fortius-52-ks-73mtb523-2025aw",
   "note": "",
   "est": [
@@ -21290,7 +21568,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3340,
+  "price": 3360,
   "frame": "Japan HMG T40",
   "shaft": "",
   "joint": "",
@@ -21314,7 +21592,7 @@ window.RACKETS = [
     "url": "https://www.mizunobadminton-asia.com/product-page/fortius-71-vt"
    }
   ],
-  "priceNote": "แปลงจาก ₫2,550,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫2,550,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/fortius-71-vt-73mtb523-2025aw",
   "note": "",
   "est": [
@@ -21397,7 +21675,7 @@ window.RACKETS = [
    29
   ],
   "tensionNote": "",
-  "price": 9200,
+  "price": 9190,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -21425,7 +21703,7 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/mizuno-fortius-11-power-badminton-racket-unstrung-black"
    }
   ],
-  "priceNote": "แปลงจาก S$349.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$349.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sportsshop.asia/products/mizuno-fortius-11-power-badminton-racket-unstrung-black",
   "note": "",
   "est": [
@@ -21504,7 +21782,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 4620,
+  "price": 4680,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -21532,7 +21810,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/mizuno-fortius-70-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹12,999.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹12,999.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/mizuno-fortius-70-badminton-racket",
   "note": "",
   "est": [
@@ -21714,7 +21992,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 3980,
+  "price": 4030,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -21742,7 +22020,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/mizuno-fortius-90-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹11,199.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹11,199.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/mizuno-fortius-90-badminton-racket",
   "note": "",
   "est": [
@@ -21771,7 +22049,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3660,
+  "price": 3680,
   "frame": "Nhật Bản HMG T46",
   "shaft": "",
   "joint": "",
@@ -21790,7 +22068,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ₫2,800,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫2,800,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/jpx-10-5-ct-control-73mtb523-2025aw",
   "note": "",
   "est": [
@@ -21842,7 +22120,7 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/mizuno-jpx-3-3-rage-badminton-racket-unstrung"
    }
   ],
-  "priceNote": "แปลงจาก ₫708,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫708,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/jpx-3-3-rage-73mtb423-2024ss",
   "note": "",
   "est": [
@@ -21870,7 +22148,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3010,
+  "price": 3030,
   "frame": "Japan HMG T40",
   "shaft": "",
   "joint": "",
@@ -21894,7 +22172,7 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/mizuno-jpx-7-0-sp-mz-bf2396-badminton-racket-black-lemon-chrome-vermillion-unstrung"
    }
   ],
-  "priceNote": "แปลงจาก ₫2,300,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫2,300,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/jpx-7-0-sp-73mtb523-2025aw",
   "note": "",
   "est": [
@@ -21968,7 +22246,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 950,
+  "price": 960,
   "frame": "Japan Graphite HM",
   "shaft": "",
   "joint": "",
@@ -21987,7 +22265,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ₫728,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫728,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/powerblade-597-73mtb423-2024ss",
   "note": "ขนาด 4U5 จากสเปก Mizuno ที่ Rexcool Sports (Instagram) และโพสต์ซื้อขายในฟิลิปปินส์ ตรงกัน (ผลค้น Google 10 พ.ย. 2026)",
   "est": [
@@ -22014,7 +22292,7 @@ window.RACKETS = [
    33
   ],
   "tensionNote": "",
-  "price": 2750,
+  "price": 2760,
   "frame": "Ultra Carbon Nhật Bản",
   "shaft": "",
   "joint": "",
@@ -22038,7 +22316,7 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/mizuno-promax-ht1-badminton-racket-unstrung-cherry-red-solid-blue-silver"
    }
   ],
-  "priceNote": "แปลงจาก ₫2,100,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫2,100,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/promax-ht1-73mtb524-2025aw",
   "note": "",
   "est": [
@@ -22067,7 +22345,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 4230,
+  "price": 4260,
   "frame": "Japan HMG T46",
   "shaft": "Japan HMG T46",
   "joint": "",
@@ -22091,7 +22369,7 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/mizuno-prototype-x-1i-badminton-racket-unstrung"
    }
   ],
-  "priceNote": "แปลงจาก ₫3,236,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫3,236,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/prototype-x-1i-73mtb423-2024ss",
   "note": "",
   "est": [
@@ -22119,7 +22397,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3440,
+  "price": 3460,
   "frame": "Japan HMG T40",
   "shaft": "Japan HMG T40",
   "joint": "",
@@ -22143,7 +22421,7 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/mizuno-prototype-x-3d-badminton-racket-unstrung"
    }
   ],
-  "priceNote": "แปลงจาก ₫2,629,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫2,629,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/prototype-x-3d-73mtb423-2024ss",
   "note": "",
   "est": [
@@ -22171,7 +22449,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 4190,
+  "price": 4210,
   "frame": "Japan HMG T40",
   "shaft": "",
   "joint": "",
@@ -22195,7 +22473,7 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/mizuno-prototype-x1-2-badminton-racket-unstrung-prussian-blue-canary-yellow"
    }
   ],
-  "priceNote": "แปลงจาก ₫3,200,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫3,200,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/prototype-x1-2-73mtb523-2025aw",
   "note": "",
   "est": [
@@ -22223,7 +22501,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 3600,
+  "price": 3620,
   "frame": "Nhật Bản HMG T46",
   "shaft": "",
   "joint": "",
@@ -22247,7 +22525,7 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/mizuno-prototype-x-5-ct-badminton-racket-unstrung-matte-black-sunglow-orange-silver"
    }
   ],
-  "priceNote": "แปลงจาก ₫2,750,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫2,750,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/prototype-x5-ct-control-73mtb523-2025aw",
   "note": "",
   "est": [
@@ -22275,7 +22553,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2750,
+  "price": 2760,
   "frame": "Ultra Carbon Nhật Bản",
   "shaft": "",
   "joint": "",
@@ -22299,7 +22577,7 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/mizuno-speedflex-9-0-feel-mz-bf2402-badminton-racket-metallic-griffin-grey-neon-green-unstrung"
    }
   ],
-  "priceNote": "แปลงจาก ₫2,100,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫2,100,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/speedflex-9-0-feel-73mtb524-2025aw",
   "note": "",
   "est": [
@@ -22345,7 +22623,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ₫1,250,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫1,250,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/turboblade-587-73mtb524-2025aw",
   "note": "",
   "est": [
@@ -22373,7 +22651,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1960,
+  "price": 1970,
   "frame": "Japan HHMG T40",
   "shaft": "",
   "joint": "",
@@ -22392,7 +22670,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ₫1,500,000.00 ที่ 1 VND = 0.001308 บาท (open.er-api.com Tue, 27 Oct 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₫1,500,000.00 ที่ 1 VND = 0.001316 บาท (open.er-api.com Sun, 15 Nov 2026) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://vnm.mizuno.com/products/zephyr-zr8-73mtb524-2025aw",
   "note": "ขนาด 6U5 จากชื่อรีวิวของ Progress Badminton (Facebook) และคลิปรีวิว TikTok สองคลิปที่บอก 6U (ผลค้น Google 10 พ.ย. 2026)",
   "est": [
@@ -22420,7 +22698,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2800,
+  "price": 2840,
   "frame": "Japan HHMG T40",
   "shaft": "",
   "joint": "",
@@ -22444,7 +22722,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/mizuno-zephyr-zl-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹7,890.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹7,890.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/mizuno-zephyr-zl-badminton-racket",
   "note": "",
   "est": [
@@ -22472,7 +22750,7 @@ window.RACKETS = [
    38
   ],
   "tensionNote": "",
-  "price": 7090,
+  "price": 7120,
   "frame": "40T Japanese Toray HM Graphite + M46J HYPERCARBON",
   "shaft": "",
   "joint": "",
@@ -22491,7 +22769,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก US$210.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$210.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonavenue.com/cdn/shop/files/protech-aston-pro-v2-badminton-racket-dark-blue-teal-frame.jpg?v=1791192674&width=1200",
   "note": "",
   "est": [
@@ -23292,13 +23570,13 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/vs-assassin-47/",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4358",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4615",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4358",
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
-    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4615"
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4358"
    },
    {
     "shop": "vssportsthailand.com",
@@ -26479,17 +26757,17 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "https://www.badmintonplaza.com/images/TITAN-10S-A.jpg",
+  "img": "https://www.badmintonplaza.com/images/TITAN10-BK-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=4292",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4817",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4292",
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
-    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4817"
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4292"
    }
   ],
   "priceNote": "",
@@ -27322,8 +27600,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5",
@@ -27332,7 +27610,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 4330,
+  "price": 4760,
   "frame": "High Resilient Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilient Modulus Graphite + 6.8 SHAFT",
   "joint": "",
@@ -27360,13 +27638,14 @@ window.RACKETS = [
     "url": "https://yumo.ca/products/victor-auraspeed-80x-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก CAD 179.98 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก CAD 199.98 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-auraspeed-80x-badminton-racket",
   "note": "",
   "est": [
    "balance",
    "style",
    "price",
+   "level",
    "weight"
   ]
  },
@@ -27379,8 +27658,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -27416,6 +27695,7 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -27428,8 +27708,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "flexible",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -27438,7 +27718,7 @@ window.RACKETS = [
    24
   ],
   "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 24, 4U ≤ 23 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
-  "price": 1120,
+  "price": 1130,
   "frame": "Graphite+Resin",
   "shaft": "Graphite+Resin+6.8 SHAFT",
   "joint": "",
@@ -27466,13 +27746,14 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/victor-auraspeed-10-badminton-racket-purple"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,143.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,143.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/victor-auraspeed-10-badminton-racket-purple",
   "note": "",
   "est": [
    "balance",
    "style",
    "price",
+   "level",
    "weight"
   ]
  },
@@ -27672,7 +27953,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/victor-auraspeed-100x-ultra-demo-rental"
+    "url": "https://racquetguys.com/products/victor-auraspeed-100x-ultra-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -27910,8 +28191,8 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "4U",
   "weight": 88,
   "grips": "G5",
@@ -27948,6 +28229,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "level",
    "weight"
   ]
  },
@@ -27957,20 +28239,20 @@ window.RACKETS = [
   "name": "Auraspeed 30H",
   "year": "",
   "style": "speed",
-  "balance": "head-light",
+  "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "3U, 4U",
   "weight": 83,
-  "grips": "G4, G5",
+  "grips": "G6",
   "tension": [
    null,
    32
   ],
   "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
-  "price": 1400,
+  "price": 1420,
   "frame": "Graphite+Nano Resin+ Fiber Reinforced System(FRS)",
   "shaft": "Graphite+ Nano Resin +6.8 SHAFT",
   "joint": "",
@@ -27980,18 +28262,22 @@ window.RACKETS = [
   "tech": "",
   "players": "",
   "madeIn": "China",
-  "recString": "",
-  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2018110211572257128.webp",
+  "recString": "Aerobite (คุม), BG Exbolt 65 (พลัง)",
+  "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/ars30h.jpg?v=1794047054",
   "source": "",
   "officialUrl": "",
   "specSrc": "",
   "shopUrl": "",
   "bayUrl": "",
-  "clickUrl": "",
+  "clickUrl": "https://badmintonclick.com.au/products/victor-auraspeed-30h-83-grams-badminton-racquet",
   "shopLinks": [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/auraspeed-30h-d"
+   },
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/victor-auraspeed-30h-83-grams-badminton-racquet"
    },
    {
     "shop": "yumo.ca",
@@ -28002,14 +28288,12 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/victor-auraspeed-30-h-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,943.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,943.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/victor-auraspeed-30-h-badminton-racket",
   "note": "",
   "est": [
-   "balance",
    "style",
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -28125,8 +28409,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -28163,7 +28447,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "level"
   ]
  },
  {
@@ -28237,8 +28522,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -28277,6 +28562,7 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -28289,8 +28575,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -28326,7 +28612,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "level"
+  ]
  },
  {
   "id": "victor-auraspeed-6000",
@@ -28433,8 +28721,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -28475,6 +28763,7 @@ window.RACKETS = [
    "price",
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -28542,7 +28831,7 @@ window.RACKETS = [
    29
   ],
   "tensionNote": "",
-  "price": 5200,
+  "price": 5710,
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + 6.8 SHAFT",
   "joint": "",
@@ -28570,7 +28859,7 @@ window.RACKETS = [
     "url": "https://yumo.ca/products/victor-auraspeed-77f-unstrung-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก CAD 215.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก CAD 239.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-auraspeed-77f-unstrung-badminton-racket",
   "note": "",
   "est": [
@@ -28871,8 +29160,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -28881,7 +29170,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
-  "price": 6590,
+  "price": 6610,
   "frame": "High Resilience Modulus Graphite+Nano Fortify TR＋+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
   "joint": "",
@@ -28909,12 +29198,13 @@ window.RACKETS = [
     "url": "https://badmintonwarehouse.com/products/victor-auraspeed-90k-ars-90k-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก US$195.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$195.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/victor-auraspeed-90k-ars-90k-badminton-racket",
   "note": "",
   "est": [
    "style",
    "price",
+   "level",
    "weight"
   ]
  },
@@ -29132,7 +29422,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
-  "price": 6080,
+  "price": 6100,
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR＋+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.8 SHAFT",
   "joint": "",
@@ -29160,7 +29450,7 @@ window.RACKETS = [
     "url": "https://badmintonwarehouse.com/products/victor-auraspeed-90s-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก US$180.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$180.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/victor-auraspeed-90s-badminton-racket",
   "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"An All-Round Racket for an Advanced Player\", ตารางเทียบรุ่น Auraspeed: 90S = Advanced (ผลค้น Google 5 พ.ย. 2026)",
   "est": [
@@ -29188,7 +29478,7 @@ window.RACKETS = [
    31
   ],
   "tensionNote": "",
-  "price": 6020,
+  "price": 5950,
   "frame": "High Resilience Modulus Graphite+Metallic Carbon Fiber+NANO AEROGEL+Nano Fortify TR++HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+Metallic Carbon Fiber+PYROFIL+6.8 SHAFT",
   "joint": "",
@@ -29217,7 +29507,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/victor-auraspeed-99-demo-rental"
+    "url": "https://racquetguys.com/products/victor-auraspeed-99-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -29232,7 +29522,7 @@ window.RACKETS = [
     "url": "https://centralsports.co.uk/products/victor-auraspeed-99-j-badminton-racket-450190"
    }
   ],
-  "priceNote": "แปลงจาก CAD 249.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก CAD 249.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-auraspeed-99-unstrung-badminton-racket-pink-ars-99",
   "note": "Badminton Warehouse: Player Level \"Advanced / Competitive\"",
   "est": [
@@ -29297,8 +29587,8 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -29342,7 +29632,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "level"
+  ]
  },
  {
   "id": "victor-auraspeed-eta",
@@ -29353,8 +29645,8 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "3U",
   "weight": 83,
   "grips": "G4, G5, G6",
@@ -29391,6 +29683,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "level",
    "weight"
   ]
  },
@@ -29403,8 +29696,8 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -29444,7 +29737,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "level"
+  ]
  },
  {
   "id": "victor-auraspeed-fantome",
@@ -29615,8 +29910,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": 298,
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5",
@@ -29672,7 +29967,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "level"
+  ]
  },
  {
   "id": "victor-auraspeed-hang",
@@ -29785,6 +30082,63 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "victor-auraspeed-hypersonic-plus",
+  "brand": "Victor",
+  "name": "Auraspeed Hypersonic Plus",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "bp": "",
+  "flex": "stiff",
+  "level": "",
+  "levelTo": "",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   28
+  ],
+  "tensionNote": "",
+  "price": 4860,
+  "frame": "High Resilience Modulus Graphite + FORMOSA CARBON FIBER",
+  "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.8 shaft",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0613/9599/2800/files/ARS-HS-PLUS-3UG5-A.webp?v=1712176560",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://thegodofsports.com/products/victor-auraspeed-hypersonic-plus-badminton-racket",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-auraspeed-hypersonic-plus-unstrung-dull-black-3u"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-auraspeed-hypersonic-plus-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹13,492.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/victor-auraspeed-hypersonic-plus-badminton-racket",
+  "note": "3U ≤ 29 lbs, 4U ≤ 28 lbs (tenniszon.com ทั้งสองหน้า, เก็บค่าต่ำสุดเป็นเพดาน); สมดุลหัวเบาจาก thegodofsports.com (กรอบบาง 5.3 มม. หัว 340 ตร.ซม.); ความแข็งก้านและน้ำหนักกรัมยังไม่มีแหล่งระบุ (พบเมื่อ 15 พ.ย. 2026)",
+  "est": [
+   "flex",
+   "style",
+   "price",
+   "weight"
+  ]
+ },
+ {
   "id": "victor-auraspeed-ju",
   "brand": "Victor",
   "name": "Auraspeed JU",
@@ -29793,8 +30147,8 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -29838,7 +30192,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "level"
+  ]
  },
  {
   "id": "victor-auraspeed-ljh",
@@ -29919,8 +30275,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -29960,7 +30316,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "level"
+  ]
  },
  {
   "id": "victor-auraspeed-syn",
@@ -29971,8 +30329,8 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "flexible",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -30008,7 +30366,66 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "level"
+  ]
+ },
+ {
+  "id": "victor-auraspeed-vrd-j",
+  "brand": "Victor",
+  "name": "Auraspeed VRD-J",
+  "year": 2026,
+  "style": "speed",
+  "balance": "head-light",
+  "bp": "",
+  "flex": "",
+  "level": "",
+  "levelTo": "",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   29
+  ],
+  "tensionNote": "",
+  "price": 3570,
+  "frame": "High Resilience Graphite + Nano Fortify TR + Hard Cored Technology",
+  "shaft": "High Resilience Graphite + PYROFIL + 6.8 shaft",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "HARD CORED TECHNOLOGY, DYNAMIC-SWORD",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0723/9035/files/Victor_ARS-VRD-J-Badminton_Racket_YumoProShop.png?v=1788997498",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://tenniszon.com/products/victor-auraspeed-vrd-j-unstrung-purple-pink",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-vrd-j-unstrung-badminton-racket"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/victor-auraspeed-vrd-j-unstrung-purple-pink"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 149.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/victor-auraspeed-vrd-j-unstrung-badminton-racket",
+  "note": "สเปกจากหน้า VICTOR ที่ร้าน tenniszon.com และ yumo.ca ลงตรงกัน: 3U ≤ 30 lbs, 4U ≤ 29 lbs (เก็บค่าต่ำสุดเป็นเพดาน); shopnings.com ระบุว่าเป็นกรอบสปีดรุ่นปี 2026 ก้านค่อนข้างแข็ง; ยังไม่มีแหล่งที่ระบุสมดุล ความแข็งก้านเป็นตัวเลข และน้ำหนักกรัม จึงเว้นว่าง (พบเมื่อ 15 พ.ย. 2026)",
+  "est": [
+   "balance",
+   "style",
+   "price",
+   "weight"
+  ]
  },
  {
   "id": "victor-brave-sword-12",
@@ -30062,7 +30479,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/victor-brave-sword-12-demo-rental"
+    "url": "https://racquetguys.com/products/victor-brave-sword-12-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -30162,7 +30579,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 4980,
+  "price": 5230,
   "frame": "High Resilience Modulus Graphite + Nano Resin + Hardcoded Technology",
   "shaft": "High Resilience Modulus Graphite + Pyrofil + Nano Resin + 6.8 SHAFT",
   "joint": "",
@@ -30198,8 +30615,8 @@ window.RACKETS = [
     "url": "https://corkandfeathers.com/product/victor-bravesword-12-se/"
    }
   ],
-  "priceNote": "แปลงจาก CAD 206.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
-  "priceSrc": "https://yumo.ca/products/victor-brave-sword-12-se-unstrung-badminton-racket-midnight-blue",
+  "priceNote": "แปลงจาก CAD 219.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://tenniszon.com/products/victor-brave-sword-12-se-b-brs-12-se-b-unstrung",
   "note": "",
   "est": [
    "style",
@@ -30268,8 +30685,8 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "flexible",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -30308,6 +30725,7 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -30320,8 +30738,8 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "flexible",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -30360,6 +30778,7 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -30382,7 +30801,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 7430,
+  "price": 7460,
   "frame": "High strength carbon fiber + nano-resin + strong core filling technology",
   "shaft": "High strength carbon fiber + nano-resin + strong core filling technology",
   "joint": "",
@@ -30410,7 +30829,7 @@ window.RACKETS = [
     "url": "https://nydhi.com/products/victor-brave-sword-ltd-pro-badminton-racket-red-silver"
    }
   ],
-  "priceNote": "แปลงจาก US$220.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$220.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/victor-bravesword-ltd-pro-badminton-racket",
   "note": "ระดับ: ร้านระบุ \"Playing level: Advanced\" (ผลค้น Google 8 พ.ย. 2026) (≈)",
   "est": [
@@ -30430,8 +30849,8 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5",
@@ -30469,6 +30888,7 @@ window.RACKETS = [
   "note": "สมดุลกลาง (Even Balance) จากตารางสเปก Victor ที่ Tennisnuts ลง (ผลค้น Google 10 พ.ย. 2026); หน้า Victor ไทยไม่พิมพ์ช่องนี้",
   "est": [
    "style",
+   "level",
    "weight"
   ]
  },
@@ -30491,7 +30911,7 @@ window.RACKETS = [
    26
   ],
   "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 28, ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
-  "price": 2360,
+  "price": 2370,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 6.8 SHAFT",
   "joint": "",
@@ -30519,7 +30939,7 @@ window.RACKETS = [
     "url": "https://yumo.ca/products/victor-challenger-9500-pro-badminton-racket-cha-9500pro"
    }
   ],
-  "priceNote": "แปลงจาก US$69.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$69.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/victor-challenger-pro-9500-badminton-racket-blue",
   "note": "",
   "est": [
@@ -30587,8 +31007,8 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "flexible",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "4U, 5U",
   "weight": 83,
   "grips": "G5",
@@ -30632,7 +31052,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "level"
+  ]
  },
  {
   "id": "victor-drivex-10-metallic",
@@ -30690,7 +31112,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/victor-drivex-10-metallic-demo-rental"
+    "url": "https://racquetguys.com/products/victor-drivex-10-metallic-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -30699,6 +31121,10 @@ window.RACKETS = [
    {
     "shop": "tenniszon.com",
     "url": "https://tenniszon.com/products/victor-drivex-10-metallic-b-unstrung-midnight-blue"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/victor-drivex-10-metallic-b-racket-limoges-blue"
    },
    {
     "shop": "thegodofsports.com",
@@ -30782,7 +31208,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/victor-drivex-12-zsw-2-0-demo-rental"
+    "url": "https://racquetguys.com/products/victor-drivex-12-zsw-2-0-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -30970,8 +31396,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "5U",
   "weight": 83,
   "grips": "G5, G6",
@@ -31008,6 +31434,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "level",
    "weight"
   ]
  },
@@ -31063,8 +31490,8 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "4U, 3U",
   "weight": 83,
   "grips": "G5",
@@ -31113,7 +31540,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "level"
   ]
  },
  {
@@ -31125,8 +31553,8 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "4U, 3U",
   "weight": 88,
   "grips": "G5",
@@ -31166,7 +31594,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "level"
+  ]
  },
  {
   "id": "victor-drivex-5h",
@@ -31177,8 +31607,8 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -31218,6 +31648,7 @@ window.RACKETS = [
    "flex",
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -31230,8 +31661,8 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -31271,6 +31702,7 @@ window.RACKETS = [
    "price",
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -31293,7 +31725,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 29, 4U ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
-  "price": 2840,
+  "price": 2810,
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.6 SHAFT",
   "joint": "",
@@ -31329,7 +31761,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/victor-drivex-9x-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก CAD 117.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก CAD 117.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-drivex-9x",
   "note": "",
   "est": [
@@ -31348,8 +31780,8 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "6U",
   "weight": 73,
   "grips": "G5",
@@ -31358,7 +31790,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 3040,
+  "price": 3050,
   "frame": "High Resilience Modulus Graphite",
   "shaft": "High Modulus Graphite + 7.0 SHAFT",
   "joint": "",
@@ -31386,12 +31818,13 @@ window.RACKETS = [
     "url": "https://badmintonwarehouse.com/products/victor-dx-lf60-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก US$90.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$90.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/victor-dx-lf60-badminton-racket",
   "note": "",
   "est": [
    "style",
    "price",
+   "level",
    "weight"
   ]
  },
@@ -31404,8 +31837,8 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -31445,6 +31878,7 @@ window.RACKETS = [
    "price",
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -31457,8 +31891,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "flexible",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "4U, 5U",
   "weight": 83,
   "grips": "G6",
@@ -31497,6 +31931,7 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -31509,8 +31944,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "4U, 5U",
   "weight": 83,
   "grips": "G5, G6",
@@ -31550,6 +31985,7 @@ window.RACKETS = [
    "flex",
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -31613,8 +32049,8 @@ window.RACKETS = [
   "balance": "even",
   "bp": 290,
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -31623,7 +32059,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 28, 4U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
-  "price": 3610,
+  "price": 3570,
   "frame": "High Resilient Modulus Graphite +Nano Fortify",
   "shaft": "High Resilient Modulus Graphite＋PYROFIL＋6.8 SHAFT",
   "joint": "",
@@ -31655,13 +32091,14 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/victor-jetspeed-s-10-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก CAD 149.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก CAD 149.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/jetspeed-s-10-c",
   "note": "",
   "est": [
    "tension",
    "style",
    "price",
+   "level",
    "weight"
   ]
  },
@@ -31674,8 +32111,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -31684,7 +32121,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
-  "price": 5300,
+  "price": 3570,
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + 6.8 SHAFT",
   "joint": "",
@@ -31712,13 +32149,14 @@ window.RACKETS = [
     "url": "https://tenniszon.com/products/victor-jetspeed-s-11-d-unstrung-red-4u"
    }
   ],
-  "priceNote": "แปลงจาก CAD 219.95 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก CAD 149.95 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://tenniszon.com/products/victor-jetspeed-s-11-d-unstrung-red-4u",
   "note": "",
   "est": [
    "balance",
    "style",
    "price",
+   "level",
    "weight"
   ]
  },
@@ -31783,8 +32221,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -31824,6 +32262,7 @@ window.RACKETS = [
    "price",
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -31916,7 +32355,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
-  "price": 5400,
+  "price": 5430,
   "frame": "High Resilience Modulus Graphite +TERS+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite ＋PYROFIL＋TERS+6.8 SHAFT",
   "joint": "",
@@ -31944,7 +32383,7 @@ window.RACKETS = [
     "url": "https://badmintonwarehouse.com/products/victor-jetspeed-s12f-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก US$160.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$160.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/victor-jetspeed-s12f-badminton-racket",
   "note": "ระดับ: หลายร้านระบุ \"tailored for advanced players\", \"Intermediate To Advanced\" (ผลค้น Google 8 พ.ย. 2026)",
   "est": [
@@ -31964,8 +32403,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -31974,7 +32413,7 @@ window.RACKETS = [
    26
   ],
   "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 27, 4U ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
-  "price": 2870,
+  "price": 3330,
   "frame": "High Resilience Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Graphite + PYROFIL + 6.8 SHAFT",
   "joint": "",
@@ -32002,7 +32441,7 @@ window.RACKETS = [
     "url": "https://yumo.ca/products/victor-jetspeed-s-12ftd-badminton-racket-light-rose-violet-js-12ftd-j"
    }
   ],
-  "priceNote": "แปลงจาก CAD 118.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก CAD 139.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-jetspeed-s-12ftd-badminton-racket-light-rose-violet-js-12ftd-j",
   "note": "",
   "est": [
@@ -32010,6 +32449,7 @@ window.RACKETS = [
    "balance",
    "style",
    "price",
+   "level",
    "weight"
   ]
  },
@@ -32022,8 +32462,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "4U",
   "weight": 88,
   "grips": "G5, G6",
@@ -32065,6 +32505,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "flex",
+   "level",
    "weight"
   ]
  },
@@ -32077,8 +32518,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "",
-  "level": "",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "",
   "weight": "",
   "grips": "",
@@ -32113,7 +32554,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
-   "style"
+   "style",
+   "level"
   ]
  },
  {
@@ -32177,8 +32619,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -32218,6 +32660,7 @@ window.RACKETS = [
    "flex",
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -32282,8 +32725,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "4U, 5U",
   "weight": 83,
   "grips": "G5",
@@ -32322,6 +32765,7 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -32334,8 +32778,8 @@ window.RACKETS = [
   "balance": "head-light",
   "bp": "",
   "flex": "",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "4U, 5U",
   "weight": 83,
   "grips": "G5",
@@ -32375,6 +32819,7 @@ window.RACKETS = [
    "price",
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -32387,8 +32832,8 @@ window.RACKETS = [
   "balance": "even",
   "bp": "",
   "flex": "flexible",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -32428,7 +32873,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "level"
+  ]
  },
  {
   "id": "victor-jetspeed-t1",
@@ -32556,8 +33003,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -32594,7 +33041,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "level"
   ]
  },
  {
@@ -32687,7 +33135,7 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/Victor-ST-1800-Pre-Strung-Badminton-Racket_-43345774.png?v=1774378458",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/VictorST1800_2000_Pre-StrungBadmintonRacket.png?v=1793752913",
   "source": "",
   "officialUrl": "",
   "specSrc": "",
@@ -32704,7 +33152,7 @@ window.RACKETS = [
     "url": "https://yumo.ca/products/victor-st-1800-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก US$19.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$19.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/victor-st-1800-badminton-racket",
   "note": "",
   "est": [
@@ -32741,17 +33189,17 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "https://www.badmintonplaza.com/images/TK-66Y-A.jpg",
+  "img": "https://www.badmintonplaza.com/images/TK-66I-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.badmintonplaza.com/product_info.php?products_id=2965",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4191",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=2965",
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
-    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4191"
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=2965"
    },
    {
     "shop": "badmintonwarehouse.com",
@@ -32876,8 +33324,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "advanced",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "7U",
   "weight": 66,
   "grips": "G6",
@@ -32892,7 +33340,7 @@ window.RACKETS = [
   "joint": "",
   "length": "",
   "head": "",
-  "pattern": "The single-pass grommet hole construction creates less friction between strings reducing tension loss and extends string life",
+  "pattern": "",
   "tech": "",
   "players": "",
   "madeIn": "China",
@@ -32908,10 +33356,6 @@ window.RACKETS = [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/thruster-66-y"
-   },
-   {
-    "shop": "joybadminton.com",
-    "url": "https://joybadminton.com/products/thruster-k-66-q-pink-pre-string-tk-66-q"
    },
    {
     "shop": "badmintonclick.com.au",
@@ -32991,8 +33435,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "4U, 5U",
   "weight": 83,
   "grips": "G5, G6",
@@ -33031,6 +33475,7 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -33043,8 +33488,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -33083,6 +33528,7 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -33237,8 +33683,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5",
@@ -33280,6 +33726,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "level",
    "weight"
   ]
  },
@@ -33346,36 +33793,31 @@ window.RACKETS = [
   "levelTo": "",
   "weights": "4U, 3U",
   "weight": 83,
-  "grips": "G5",
+  "grips": "",
   "tension": [
    null,
    31
   ],
   "tensionNote": "",
-  "price": 5490,
-  "frame": "High Resilience Modulus Graphite+PYROFIL+HARD CORED TECHNOLOGY",
-  "shaft": "High Resilience Modulus Graphite+PYROFIL+6.5 SHAFT",
+  "price": "",
+  "frame": "",
+  "shaft": "",
   "joint": "",
-  "length": "675 mm",
+  "length": "",
   "head": "",
   "pattern": "",
   "tech": "",
-  "players": "HENDRA SETIAWAN (Indonesia)",
+  "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "https://www.badmintonplaza.com/images/TK-F-HS-C-A.jpg",
+  "img": "",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://badmintoncorner.com/products/victor-thruster-falcon-enhanced-hendra-setiawan-signature-editiontk-fblack-unstrung",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3904",
+  "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
-  "shopLinks": [
-   {
-    "shop": "badmintonplaza.com",
-    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3904"
-   }
-  ],
+  "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
   "note": "",
@@ -33403,9 +33845,9 @@ window.RACKETS = [
    32
   ],
   "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
-  "price": 4440,
-  "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
-  "shaft": "High Resilience Modulus Graphite + Metallic Carbon Fiber + PYROFIL + 5.8 SHAFT",
+  "price": 4500,
+  "frame": "High Resilient Modulus Graphite + PYROFIL + Hard Cored Technology",
+  "shaft": "High Resilient Modulus Graphite + PYROFIL + Metallic Carbon + 5.8  SHAFT",
   "joint": "",
   "length": "",
   "head": "",
@@ -33413,14 +33855,14 @@ window.RACKETS = [
   "tech": "METALLIC CARBON FIBER",
   "players": "Mohammad Ahsan, Tan Kian Meng, Jonatan Christie",
   "madeIn": "Taiwan",
-  "recString": "",
-  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-119478_0_20240713162147.webp",
+  "recString": "Aerobite (คุม), BG80 (พลัง)",
+  "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/119478_4_20240713162147.jpg?v=1722589918",
   "source": "",
   "officialUrl": "",
   "specSrc": "",
   "shopUrl": "",
   "bayUrl": "",
-  "clickUrl": "",
+  "clickUrl": "https://badmintonclick.com.au/products/new-2024-victor-thruster-f-ultra-83-grams-badminton-racquet",
   "shopLinks": [
    {
     "shop": "th.victorsport.com",
@@ -33439,6 +33881,10 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/victor-thruster-f-ultra-badminton-racket-unstrung"
    },
    {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/new-2024-victor-thruster-f-ultra-83-grams-badminton-racquet"
+   },
+   {
     "shop": "yumo.ca",
     "url": "https://yumo.ca/products/victor-thruster-f-ultra-unstrung-racket-black"
    },
@@ -33451,13 +33897,13 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/victor-thruster-f-ultra-enhanced-edition-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹12,492.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹12,492.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/victor-thruster-f-ultra-enhanced-edition-badminton-racket",
   "note": "",
   "est": [
+   "tension",
    "style",
-   "price",
-   "weight"
+   "price"
   ]
  },
  {
@@ -33605,8 +34051,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "4U, 5U",
   "weight": 83,
   "grips": "G5, G6",
@@ -33650,7 +34096,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "level"
+  ]
  },
  {
   "id": "victor-thruster-hammer-light-extra",
@@ -33785,8 +34233,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -33830,7 +34278,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "level"
+  ]
  },
  {
   "id": "victor-thruster-k-100",
@@ -33841,8 +34291,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -33881,6 +34331,7 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -33893,8 +34344,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -33933,6 +34384,7 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -33945,8 +34397,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -33986,6 +34438,7 @@ window.RACKETS = [
    "price",
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -34064,8 +34517,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5",
@@ -34105,6 +34558,7 @@ window.RACKETS = [
    "price",
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -34169,8 +34623,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5, G6",
@@ -34210,6 +34664,7 @@ window.RACKETS = [
    "flex",
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -34222,8 +34677,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "",
@@ -34259,6 +34714,7 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -34271,8 +34727,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "5U",
   "weight": 78,
   "grips": "G5",
@@ -34312,6 +34768,7 @@ window.RACKETS = [
    "flex",
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -34324,8 +34781,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -34365,6 +34822,7 @@ window.RACKETS = [
    "price",
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -34483,8 +34941,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "5U",
   "weight": 78,
   "grips": "G6",
@@ -34523,6 +34981,7 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -34596,7 +35055,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1520,
+  "price": 1660,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 6.8 SHAFT",
   "joint": "",
@@ -34628,7 +35087,7 @@ window.RACKETS = [
     "url": "https://tenniszon.com/products/victor-thruster-k-boom-strung-white-4u"
    }
   ],
-  "priceNote": "แปลงจาก CAD 62.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก CAD 69.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-tk-boom-strung-badminton-racket",
   "note": "",
   "est": [
@@ -34701,8 +35160,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "intermediate",
   "weights": "4U",
   "weight": 82,
   "grips": "G5",
@@ -34743,7 +35202,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "level"
   ]
  },
  {
@@ -34886,8 +35346,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "4U, 5U",
   "weight": 83,
   "grips": "G5, G6",
@@ -34926,6 +35386,7 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -34948,7 +35409,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 1810,
+  "price": 1780,
   "frame": "High Modulus Graphite",
   "shaft": "High Modulus Graphite + 7.0 SHAFT",
   "joint": "",
@@ -34980,7 +35441,7 @@ window.RACKETS = [
     "url": "https://tenniszon.com/products/victor-thruster-k-light-fighter-30-strung-ultra-light"
    }
   ],
-  "priceNote": "แปลงจาก CAD 74.98 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก CAD 74.98 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://tenniszon.com/products/victor-thruster-k-light-fighter-30-strung-ultra-light",
   "note": "",
   "est": [
@@ -34998,8 +35459,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -35039,7 +35500,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "level"
+  ]
  },
  {
   "id": "victor-thruster-raptor",
@@ -35089,7 +35552,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/victor-thruster-k-raptor-demo-rental"
+    "url": "https://racquetguys.com/products/victor-thruster-k-raptor-badminton-racquet-demo-rental"
    },
    {
     "shop": "thegodofsports.com",
@@ -35466,10 +35929,14 @@ window.RACKETS = [
   "source": "",
   "officialUrl": "",
   "specSrc": "https://www.google.com/search?q=%22Ryuga+III%22+victor+lbs",
-  "shopUrl": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5252",
   "bayUrl": "",
   "clickUrl": "https://badmintonclick.com.au/products/new-2027-victor-thruster-ryuga-3-78-grams-badminton-racquet",
   "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5252"
+   },
    {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/victor-thruster-ryuga-iii-cq-badminton-racket"
@@ -35489,6 +35956,10 @@ window.RACKETS = [
    {
     "shop": "tenniszon.com",
     "url": "https://tenniszon.com/products/victor-thruster-ryuga-iii-cq-unstrung-black-red"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-thruster-ryuga-3-badminton-racket"
    }
   ],
   "priceNote": "ราคาร้านไทย TT CAFE Badminton Shop (Facebook) ช่วงเปิดตัว",
@@ -35616,7 +36087,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/victor-thruster-k-ryuga-metallic-demo-rental"
+    "url": "https://racquetguys.com/products/victor-thruster-k-ryuga-metallic-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -35676,7 +36147,7 @@ window.RACKETS = [
   "specSrc": "https://www.badmintonwarehouse.com/products/thruster-ryuga-muse-badminton-racket-blue",
   "shopUrl": "",
   "bayUrl": "",
-  "clickUrl": "https://badmintonclick.com.au/products/victor-thruster-k-ryuga-muse-78-grams-badminton-racquet",
+  "clickUrl": "https://badmintonclick.com.au/products/victor-thruster-k-ryuga-muse-f-cyan-78-grams-badminton-racquet",
   "shopLinks": [
    {
     "shop": "th.victorsport.com",
@@ -35696,7 +36167,7 @@ window.RACKETS = [
    },
    {
     "shop": "badmintonclick.com.au",
-    "url": "https://badmintonclick.com.au/products/victor-thruster-k-ryuga-muse-78-grams-badminton-racquet"
+    "url": "https://badmintonclick.com.au/products/victor-thruster-k-ryuga-muse-f-cyan-78-grams-badminton-racquet"
    },
    {
     "shop": "yumo.ca",
@@ -35855,8 +36326,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -35893,7 +36364,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "level"
   ]
  },
  {
@@ -35905,8 +36377,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "3U, 4U, 5U",
   "weight": 83,
   "grips": "G5, G6",
@@ -35943,7 +36415,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "level"
   ]
  },
  {
@@ -35955,8 +36428,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -35996,6 +36469,7 @@ window.RACKETS = [
    "flex",
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -36008,8 +36482,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5",
@@ -36046,7 +36520,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "level"
   ]
  },
  {
@@ -36058,8 +36533,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "4U, 3U",
   "weight": 83,
   "grips": "G5",
@@ -36107,7 +36582,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "level"
+  ]
  },
  {
   "id": "victor-thruster-tty",
@@ -36161,7 +36638,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/victor-thruster-k-tty-demo-rental"
+    "url": "https://racquetguys.com/products/victor-thruster-k-tty-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -36256,8 +36733,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "advanced",
+  "levelTo": "pro",
   "weights": "4U, 5U",
   "weight": 83,
   "grips": "G5, G6",
@@ -36296,6 +36773,7 @@ window.RACKETS = [
   "est": [
    "balance",
    "style",
+   "level",
    "weight"
   ]
  },
@@ -36308,8 +36786,8 @@ window.RACKETS = [
   "balance": "",
   "bp": "",
   "flex": "stiff",
-  "level": "",
-  "levelTo": "",
+  "level": "intermediate",
+  "levelTo": "advanced",
   "weights": "",
   "weight": 135,
   "grips": "G5",
@@ -36318,7 +36796,7 @@ window.RACKETS = [
    24
   ],
   "tensionNote": "",
-  "price": 2170,
+  "price": 2380,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.5 SHAFT",
   "joint": "",
@@ -36350,12 +36828,13 @@ window.RACKETS = [
     "url": "https://tenniszon.com/products/victor-wrist-enhancer-140-strung"
    }
   ],
-  "priceNote": "แปลงจาก CAD 89.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก CAD 99.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-wrist-enhancer",
   "note": "ไม้ซ้อมข้อมือ น้ำหนัก 130–140 g (Victor India และ racket-company.com) ใส่ค่ากลาง (ผลค้น Google 10 พ.ย. 2026)",
   "est": [
    "weight",
-   "price"
+   "price",
+   "level"
   ]
  },
  {
@@ -36377,7 +36856,7 @@ window.RACKETS = [
    22
   ],
   "tensionNote": "",
-  "price": 730,
+  "price": 740,
   "frame": "HT Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -36401,7 +36880,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-arcsaber-1-ability-badminton-racket-black-red"
    }
   ],
-  "priceNote": "แปลงจาก ₹2,043.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹2,043.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-arcsaber-1-ability-badminton-racket-black-red",
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
@@ -36428,7 +36907,7 @@ window.RACKETS = [
    27
   ],
   "tensionNote": "",
-  "price": 3660,
+  "price": 3710,
   "frame": "",
   "shaft": "H.M. Graphite, Ultra PEF",
   "joint": "",
@@ -36456,7 +36935,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-arcsaber-11-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹10,299.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹10,299.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-arcsaber-11-badminton-racket",
   "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"Level: Advanced\" (หลายร้าน), \"designed for advanced players\" (ผลค้น Google 5 พ.ย. 2026)",
   "est": [
@@ -36610,7 +37089,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-arcsaber-11-pro-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-arcsaber-11-pro-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -36686,7 +37165,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-arcsaber-11-tour-factory-strung"
+    "url": "https://racquetguys.com/products/yonex-arcsaber-11-tour-badminton-racquet"
    },
    {
     "shop": "yumo.ca",
@@ -36725,7 +37204,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2090,
+  "price": 2100,
   "frame": "HT Graphite",
   "shaft": "Graphite",
   "joint": "NEW Built-In T-Joint, T-ANCHOR",
@@ -36757,7 +37236,7 @@ window.RACKETS = [
     "url": "https://yumo.ca/products/yonex-arcsaber-2-ability-pre-strung-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก US$62.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$62.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.nydhi.com/collections/new-products/products/yonex-arcsaber-2-ability-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
@@ -36843,7 +37322,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 1650,
+  "price": 1660,
   "frame": "HT Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -36875,7 +37354,7 @@ window.RACKETS = [
     "url": "https://yumo.ca/products/yonex-arcsaber-2-feel-pre-strung-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก RM199.90 ที่ 1 MYR = 8.2589 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก RM199.90 ที่ 1 MYR = 8.2973 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonbay.com/yonex-arcsaber-2-feel-black-green-4ug5-badminton-racket.html",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
@@ -36902,7 +37381,7 @@ window.RACKETS = [
    23
   ],
   "tensionNote": "",
-  "price": 3770,
+  "price": 3730,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -36921,7 +37400,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ¥17,600.00 ที่ 1 JPY = 0.21398 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ¥17,600.00 ที่ 1 JPY = 0.21197 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/yonex-arcsaber-3-cyan",
   "note": "",
   "est": [
@@ -36982,6 +37461,10 @@ window.RACKETS = [
     "url": "https://badmintonwarehouse.com/products/yonex-arcsaber-7-play-light-beige-badminton-racket-shutter-series"
    },
    {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/arcsaber-7-play-gray-yellow-yonex-badminton-racket"
+   },
+   {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-arcsaber-7-play-light-beige-unstrung"
    },
@@ -36999,7 +37482,7 @@ window.RACKETS = [
    },
    {
     "shop": "centralsports.co.uk",
-    "url": "https://centralsports.co.uk/products/yonex-arcsaber-7-play-2026-badminton-racket"
+    "url": "https://centralsports.co.uk/products/yonex-arcsaber-7-play"
    },
    {
     "shop": "thegodofsports.com",
@@ -37045,10 +37528,14 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-arcsaber-7-pro/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/arc7-p",
   "specSrc": "",
-  "shopUrl": "",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3481",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-arcsaber-7-pro-grey-yellow-4ug5-badminton-racket.html",
   "clickUrl": "https://badmintonclick.com.au/products/new-2022-yonex-arcsaber-7-pro-83-grams-badminton-racquet",
   "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3481"
+   },
    {
     "shop": "joybadminton.com",
     "url": "https://joybadminton.com/products/yonex-arcsaber-7-pro-gray-yellow"
@@ -37071,7 +37558,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-arcsaber-7-pro-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-arcsaber-7-pro-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -37135,7 +37622,7 @@ window.RACKETS = [
   "specSrc": "",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5055",
   "bayUrl": "",
-  "clickUrl": "",
+  "clickUrl": "https://badmintonclick.com.au/products/yonex-arcsaber-7-tour-light-beige-83-grams-badminton-racquet",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
@@ -37146,8 +37633,12 @@ window.RACKETS = [
     "url": "https://badmintonwarehouse.com/products/yonex-arcsaber-7-tour-badminton-racket"
    },
    {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/yonex-arcsaber-7-tour-light-beige-83-grams-badminton-racquet"
+   },
+   {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-arcsaber-7-tour-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-arcsaber-7-tour-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -37155,7 +37646,7 @@ window.RACKETS = [
    },
    {
     "shop": "tenniszon.com",
-    "url": "https://tenniszon.com/products/yonex-arcsaber-7-tour-light-beige-4u"
+    "url": "https://tenniszon.com/products/yonex-arcsaber-7-tour-strung-light-beige-4u"
    },
    {
     "shop": "centralsports.co.uk",
@@ -37190,7 +37681,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 690,
+  "price": 700,
   "frame": "H.M. Graphite",
   "shaft": "HM Graphite with Slim Shaft",
   "joint": "",
@@ -37222,7 +37713,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-arcsaber-73-light-badminton-racket-leaf-green"
    }
   ],
-  "priceNote": "แปลงจาก ₹1,949.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹1,949.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-arcsaber-73-light-badminton-racket-leaf-green",
   "note": "",
   "est": [
@@ -37340,13 +37831,13 @@ window.RACKETS = [
   "price": 1490,
   "frame": "Graphite",
   "shaft": "Graphite",
-  "joint": "Built-in T-Joint",
+  "joint": "",
   "length": "10 mm longer",
   "head": "",
   "pattern": "",
   "tech": "AERO+BOX Frame, ISOMETRIC, Enlarged Sweet Spot, *Tested by Yonex, Rotational Generator System, Counterbalanced Weight Distribution, Control Support CAP, Sharp Maneuverability, Slim Shaft",
   "players": "",
-  "madeIn": "China",
+  "madeIn": "",
   "recString": "Yonex Exbolt 65",
   "img": "https://www.yonex.com/media/catalog/product/i/n/int_ax01a_062-1_02.png",
   "source": "",
@@ -37359,10 +37850,6 @@ window.RACKETS = [
    {
     "shop": "badmintonplaza.com",
     "url": "https://www.badmintonplaza.com/product_info.php?products_id=4425"
-   },
-   {
-    "shop": "nydhi.com",
-    "url": "https://nydhi.com/products/astrox-01-ability-red-yonex-badminton-racket-pre-strung"
    },
    {
     "shop": "sportsshop.asia",
@@ -37397,7 +37884,7 @@ window.RACKETS = [
   "year": "",
   "style": "attack",
   "balance": "head-heavy",
-  "bp": 315,
+  "bp": "",
   "flex": "flexible",
   "level": "beginner",
   "levelTo": "",
@@ -37418,7 +37905,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "AERO Frame, Isometric™, Sonic Flare System, Max Acceleration, Control Support CAP, Sharp Maneuverability, Slim Shafts, Rotational Generator System, Counterbalanced Weight Distribution",
   "players": "",
-  "madeIn": "China",
+  "madeIn": "",
   "recString": "- 5U: 20 - 27 lbs",
   "img": "https://www.yonex.com/media/catalog/product/i/n/int_ax01c_188-1_02.png",
   "source": "",
@@ -37435,10 +37922,6 @@ window.RACKETS = [
    {
     "shop": "joybadminton.com",
     "url": "https://joybadminton.com/products/yonex-astrox-01-clear-black-red"
-   },
-   {
-    "shop": "nydhi.com",
-    "url": "https://nydhi.com/products/astrox-01-clear-blue-yonex-badminton-racket-pre-strung"
    },
    {
     "shop": "yumo.ca",
@@ -37486,7 +37969,7 @@ window.RACKETS = [
   "pattern": "",
   "tech": "ISOMETRIC · Rotational Generator System · Namd · Control Support Cap · Box Frame",
   "players": "",
-  "madeIn": "China",
+  "madeIn": "",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-astrox-01-feel-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-astrox-01-feel/",
@@ -37499,10 +37982,6 @@ window.RACKETS = [
    {
     "shop": "badmintonplaza.com",
     "url": "https://www.badmintonplaza.com/product_info.php?products_id=4424"
-   },
-   {
-    "shop": "nydhi.com",
-    "url": "https://nydhi.com/products/yonex-astrox-01-feel-badminton-racket-white-mint-pre-strung"
    },
    {
     "shop": "sportsshop.asia",
@@ -37649,7 +38128,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 2340,
+  "price": 2330,
   "frame": "HT Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -37677,7 +38156,7 @@ window.RACKETS = [
     "url": "https://centralsports.co.uk/products/yonex-astrox-02-feel-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก £52.00 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก £52.00 ที่ 1 GBP = 44.858 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://centralsports.co.uk/products/yonex-astrox-02-feel-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
@@ -37703,7 +38182,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 1600,
+  "price": 1620,
   "frame": "HM Graphite, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
   "joint": "Built-in T-Joint",
@@ -37731,7 +38210,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-astrox-1-dg-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹4,499.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹4,499.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://shop.kibisports.com/collections/yonex-copy?page=2",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
@@ -37757,7 +38236,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 1800,
+  "price": 1680,
   "frame": "HM Graphite",
   "shaft": "Graphite",
   "joint": "",
@@ -37785,7 +38264,7 @@ window.RACKETS = [
     "url": "https://centralsports.co.uk/products/yonex-astrox-10-2026-badminton-racket-1"
    }
   ],
-  "priceNote": "แปลงจาก £39.99 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก £37.49 ที่ 1 GBP = 44.858 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://centralsports.co.uk/products/yonex-astrox-10-2026-badminton-racket-1",
   "note": "",
   "est": [
@@ -37936,7 +38415,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-astrox-100-tour-viktor-axelsen-olive-green-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-astrox-100-tour-viktor-axelsen-olive-green-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -37983,7 +38462,7 @@ window.RACKETS = [
    29
   ],
   "tensionNote": "",
-  "price": 4090,
+  "price": 4040,
   "frame": "HM Graphite, NANOMESH NEO, VOLUME CUT RESIN, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
   "joint": "Built-in T-Joint",
@@ -38019,7 +38498,7 @@ window.RACKETS = [
     "url": "https://yumo.ca/products/yonex-x-viktor-axelsen-astrox-100va-game-unstrung-badminton-racket-limited-edition-greyish-beige"
    }
   ],
-  "priceNote": "แปลงจาก CAD 169.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก CAD 169.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/yonex-x-viktor-axelsen-astrox-100va-game-unstrung-badminton-racket-limited-edition-greyish-beige",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
@@ -38045,7 +38524,7 @@ window.RACKETS = [
    29
   ],
   "tensionNote": "",
-  "price": 7430,
+  "price": 7460,
   "frame": "HM Graphite, NANOMESH NEO, VOLUME CUT RESIN, Tungsten",
   "shaft": "HM Graphite, Namd™",
   "joint": "Built-in T-Joint",
@@ -38081,7 +38560,7 @@ window.RACKETS = [
     "url": "https://yumo.ca/products/yonex-x-viktor-axelsen-astrox-100va-tour-unstrung-badminton-racket-limited-edition-dark-olive"
    }
   ],
-  "priceNote": "แปลงจาก US$220.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$220.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonwarehouse.com/collections/frontpage/products/yonex-astrox-100va-tour-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
@@ -38107,7 +38586,7 @@ window.RACKETS = [
    29
   ],
   "tensionNote": "",
-  "price": 9960,
+  "price": 10000,
   "frame": "HM Graphite, Namd, Tungsten, Black Micro Core, Nanometric",
   "shaft": "HM Graphite, Namd™",
   "joint": "Built-in T-Joint",
@@ -38147,7 +38626,7 @@ window.RACKETS = [
     "url": "https://yumo.ca/products/yonex-x-viktor-axelsen-astrox-100va-zz-unstrung-badminton-racket-limited-edition-grayish-beige"
    }
   ],
-  "priceNote": "แปลงจาก US$295.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$295.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.badmintonwarehouse.com/products/yonex-astrox-100va-zz-badminton-racket",
   "note": "ระดับ: ร้านระบุ \"Advanced / Professionals\", \"designed for advanced players\" และ \"intermediate to advanced\" (ผลค้น Google 8 พ.ย. 2026) จึงลดจากโปรเป็นระดับสูง (≈)",
   "est": [
@@ -38212,7 +38691,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-astrox-100-zz-viktor-axelsen-greyish-beige-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-astrox-100-zz-viktor-axelsen-greyish-beige-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -38379,7 +38858,7 @@ window.RACKETS = [
    26
   ],
   "tensionNote": "",
-  "price": 3370,
+  "price": 3330,
   "frame": "HM Graphite, NANOMETRIC DR, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
   "joint": "Built-in T-Joint",
@@ -38415,7 +38894,7 @@ window.RACKETS = [
     "url": "https://yumo.ca/products/yonex-2021-astrox-22f-strung-badminton-racket-black-lime"
    }
   ],
-  "priceNote": "แปลงจาก CAD 139.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก CAD 139.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/yonex-2021-astrox-22f-strung-badminton-racket-black-lime",
   "note": "Astrox 22F เป็นรุ่นน้ำหนัก F ราว 63 กรัม ไม่ใช่ 4U",
   "est": [
@@ -38442,7 +38921,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 1490,
+  "price": 1510,
   "frame": "HM Graphite, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
   "joint": "Built-in T-Joint",
@@ -38470,7 +38949,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-astrox-3dg-hf-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹4,199.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹4,199.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://scssports.in/collections/yonex/products/yonex-astrox-3-dg-hf-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
@@ -38496,7 +38975,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 1560,
+  "price": 1580,
   "frame": "HM Graphite, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
   "joint": "Built-in T-Joint",
@@ -38524,7 +39003,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-astrox-3dg-st-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹4,392.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹4,392.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-astrox-3dg-st-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
@@ -38550,7 +39029,7 @@ window.RACKETS = [
    23
   ],
   "tensionNote": "",
-  "price": 3770,
+  "price": 3730,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -38569,7 +39048,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ¥17,600.00 ที่ 1 JPY = 0.21398 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ¥17,600.00 ที่ 1 JPY = 0.21197 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
@@ -38644,7 +39123,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 1990,
+  "price": 2010,
   "frame": "HM Graphite, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
   "joint": "Built-in T-Joint",
@@ -38668,7 +39147,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-astrox-7-dg-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹5,592.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹5,592.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-astrox-7-dg-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
@@ -38711,15 +39190,11 @@ window.RACKETS = [
   "specSrc": "",
   "shopUrl": "",
   "bayUrl": "",
-  "clickUrl": "https://badmintonclick.com.au/products/yonex-astrox-70-83-grams-ladies-badminton-racquet",
+  "clickUrl": "",
   "shopLinks": [
    {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/yonex-astrox-70-badminton-racket-sax-unsstrung"
-   },
-   {
-    "shop": "badmintonclick.com.au",
-    "url": "https://badmintonclick.com.au/products/yonex-astrox-70-83-grams-ladies-badminton-racquet"
    },
    {
     "shop": "racquetguys.com",
@@ -38799,7 +39274,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-astrox-77-play-factory-strung"
+    "url": "https://racquetguys.com/products/yonex-astrox-77-play-ltd-ed-badminton-racquet-light-beige-factory-strung"
    },
    {
     "shop": "yumo.ca",
@@ -38811,7 +39286,7 @@ window.RACKETS = [
    },
    {
     "shop": "centralsports.co.uk",
-    "url": "https://centralsports.co.uk/products/yonex-astrox-77-play-badminton-racket-high-orange-4u5"
+    "url": "https://centralsports.co.uk/products/yonex-astrox-77-play-badminton-racket-ax77-p"
    },
    {
     "shop": "thegodofsports.com",
@@ -38891,7 +39366,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-astrox-77-pro-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-astrox-77-pro-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -38951,7 +39426,7 @@ window.RACKETS = [
   "specSrc": "https://www.tennisnuts.com/yonex-astrox-77-tour-badminton-racket-1621163.html",
   "shopUrl": "",
   "bayUrl": "",
-  "clickUrl": "",
+  "clickUrl": "https://badmintonclick.com.au/products/yonex-astrox-77-tour-light-beige-83-grams-limited-edition-badminton-racquet",
   "shopLinks": [
    {
     "shop": "badmintonwarehouse.com",
@@ -38962,8 +39437,12 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/yonex-astrox-77-tour-badminton-racket-high-orange"
    },
    {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/yonex-astrox-77-tour-light-beige-83-grams-limited-edition-badminton-racquet"
+   },
+   {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-astrox-77-tour-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-astrox-77-tour-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -39215,7 +39694,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-astrox-88d-pro-3rd-gen-black-silver-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-astrox-88d-pro-3rd-gen-black-silver-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -39287,7 +39766,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-astrox-88d-tour-3rd-gen-black-silver-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-astrox-88d-tour-3rd-gen-black-silver-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -39459,7 +39938,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-astrox-88s-pro-3rd-gen-silver-black-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-astrox-88s-pro-3rd-gen-silver-black-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -39539,7 +40018,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-astrox-88s-tour-3rd-gen-silver-black-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-astrox-88s-tour-3rd-gen-silver-black-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -39690,10 +40169,6 @@ window.RACKETS = [
     "url": "https://joybadminton.com/products/yonex-astrox-99-play-white-tiger"
    },
    {
-    "shop": "badmintonwarehouse.com",
-    "url": "https://badmintonwarehouse.com/products/yonex-astrox-99-play-badminton-racket"
-   },
-   {
     "shop": "nydhi.com",
     "url": "https://nydhi.com/products/yonex-astrox-99-play-white-tiger"
    },
@@ -39748,7 +40223,7 @@ window.RACKETS = [
   "levelTo": "",
   "weights": "4U, 3U",
   "weight": 83,
-  "grips": "G5",
+  "grips": "G4, G5",
   "tension": [
    20,
    28
@@ -39795,7 +40270,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-astrox-99-pro-white-tiger-used"
+    "url": "https://racquetguys.com/products/yonex-astrox-99-pro-3rd-gen-dark-green-badminton-racquet"
    },
    {
     "shop": "yumo.ca",
@@ -39875,7 +40350,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-astrox-99-tour-3rd-gen-dark-green-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-astrox-99-tour-3rd-gen-dark-green-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -40032,7 +40507,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 670,
+  "price": 680,
   "frame": "HM Graphite",
   "shaft": "HM Graphite",
   "joint": "Moulded deep into the layers of graphite where the frame connects with the shaft, the YONEX Built-in T-Joint creates a durable and high-strength one-piece, torque-free frame.",
@@ -40064,7 +40539,7 @@ window.RACKETS = [
     "url": "https://shop.kibisports.com/products/yonex-astrox-lite-27i-graphite-badminton-racquet-kibi-sports"
    }
   ],
-  "priceNote": "แปลงจาก ₹1,899.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹1,899.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-astrox-lite-27i-badminton-racket",
   "note": "",
   "est": [
@@ -40120,7 +40595,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-astrox-lite-37i-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹1,792.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹1,792.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-astrox-lite-37i-badminton-racket",
   "note": "",
   "est": [
@@ -40180,7 +40655,7 @@ window.RACKETS = [
     "url": "https://shop.kibisports.com/products/yonex-astrox-lite-45i-badminton-racket-kibi-sports-copy"
    }
   ],
-  "priceNote": "แปลงจาก ₹1,792.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹1,792.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-astrox-lite-43i-badminton-racket",
   "note": "",
   "est": [
@@ -40235,7 +40710,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-astrox-lite-45i-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹1,792.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹1,792.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-astrox-lite-45i-badminton-racket",
   "note": "",
   "est": [
@@ -40307,7 +40782,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-astrox-nextage-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-astrox-nextage-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -40386,7 +40861,7 @@ window.RACKETS = [
     "url": "https://centralsports.co.uk/products/yonex-b4000-badminton-racket-mint"
    }
   ],
-  "priceNote": "แปลงจาก S$22.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$22.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sportsshop.asia/products/yonex-b-4000-badminton-racket-strung-white-coral-orange",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
@@ -40896,7 +41371,7 @@ window.RACKETS = [
    18
   ],
   "tensionNote": "",
-  "price": 600,
+  "price": 590,
   "frame": "Aluminum",
   "shaft": "Steel",
   "joint": "",
@@ -40928,7 +41403,7 @@ window.RACKETS = [
     "url": "https://tenniszon.com/products/yonex-muscle-power-2-junior-strung-white-lime-yellow"
    }
   ],
-  "priceNote": "แปลงจาก CAD 24.95 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก CAD 24.95 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://tenniszon.com/products/yonex-muscle-power-2-junior-strung-white-lime-yellow",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
@@ -40955,7 +41430,7 @@ window.RACKETS = [
    20
   ],
   "tensionNote": "",
-  "price": 1200,
+  "price": 1190,
   "frame": "Aluminum",
   "shaft": "Steel",
   "joint": "",
@@ -40979,7 +41454,7 @@ window.RACKETS = [
     "url": "https://yumo.ca/products/yonex-muscle-power-5-lt-badminton-racket-strung-white-turquoise"
    }
   ],
-  "priceNote": "แปลงจาก CAD 49.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก CAD 49.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/yonex-muscle-power-5-lt-badminton-racket-strung-white-turquoise",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
@@ -41484,7 +41959,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-nanoflare-1000-game-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-nanoflare-1000-game-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -41736,7 +42211,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-nanoflare-1000z-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-nanoflare-1000z-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -41826,7 +42301,7 @@ window.RACKETS = [
    27
   ],
   "tensionNote": "",
-  "price": 1890,
+  "price": 1920,
   "frame": "",
   "shaft": "High Modulus (H.M.) Graphite",
   "joint": "",
@@ -41854,7 +42329,7 @@ window.RACKETS = [
     "url": "https://shop.kibisports.com/products/yonex-nanoflare-270-speed-badminton-racket-kibi-sports"
    }
   ],
-  "priceNote": "แปลงจาก ₹5,325.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹5,325.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://shop.kibisports.com/products/yonex-nanoflare-270-speed-badminton-racket-kibi-sports",
   "note": "",
   "est": [
@@ -41931,7 +42406,7 @@ window.RACKETS = [
    23
   ],
   "tensionNote": "",
-  "price": 4470,
+  "price": 4430,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -41950,7 +42425,7 @@ window.RACKETS = [
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": "",
-  "priceNote": "แปลงจาก ¥20,900.00 ที่ 1 JPY = 0.21398 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ¥20,900.00 ที่ 1 JPY = 0.21197 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf",
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 18–23 lbs (推奨張力) จากแคตตาล็อกเดียวกัน | ระดับ: ร้านระบุ \"entry-level ... for recreational players\" และ \"Suitable For Intermediate Players\" (ผลค้น Google 8 พ.ย. 2026) จากเดิมประเมินว่าระดับสูง (≈) | รูป: joybadminton.com (Yonex Nanoflare 400 (Deep Purple))",
   "est": [
@@ -41979,7 +42454,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 6420,
+  "price": 6440,
   "frame": "HM Graphite, Nanocell NEO, EX-HMG, Solid Titanium",
   "shaft": "HM Graphite",
   "joint": "Built-in T-Joint",
@@ -42011,7 +42486,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-nanoflare-555-strung-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก US$189.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$189.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.tennisnuts.com/yonex-nanoflare-555-badminton-racket-1545541.html",
   "note": "",
   "est": [
@@ -42038,7 +42513,7 @@ window.RACKETS = [
    26
   ],
   "tensionNote": "",
-  "price": 8100,
+  "price": 8140,
   "frame": "HM Graphite, M40X, SUPER HMG, VDM",
   "shaft": "HM Graphite",
   "joint": "NEW Built-in T-Joint",
@@ -42070,7 +42545,7 @@ window.RACKETS = [
     "url": "https://tenniszon.com/products/yonex-nanoflare-70-coral-pink-unstrung-4u"
    }
   ],
-  "priceNote": "แปลงจาก US$239.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$239.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://racquetguys.ca/products/yonex-nanoflare-70-badminton-racquet",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
@@ -42096,7 +42571,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 4580,
+  "price": 4640,
   "frame": "High Modulus Graphite, M40X, Super High Modulus Graphite",
   "shaft": "High Modulus Graphite",
   "joint": "Built-in T-Joint",
@@ -42124,7 +42599,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-nanoflare-700-magenta-new-color-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹12,899.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹12,899.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-nanoflare-700-magenta-new-color-badminton-racket",
   "note": "",
   "est": [
@@ -42190,7 +42665,7 @@ window.RACKETS = [
    },
    {
     "shop": "badmintonclick.com.au",
-    "url": "https://badmintonclick.com.au/products/yonex-nanoflare-700-game-light-beige-83-grams-badminton-racquet"
+    "url": "https://badmintonclick.com.au/products/yonex-nanoflare-700-game-midnight-purple-83-grams-badminton-racquet"
    },
    {
     "shop": "racquetguys.com",
@@ -42278,7 +42753,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-nanoflare-700-play-silver-sky-blue-factory-strung-copy"
+    "url": "https://racquetguys.com/products/yonex-nanoflare-700-play-ltd-ed-badminton-racquet-light-beige-factory-strung"
    },
    {
     "shop": "yumo.ca",
@@ -42362,7 +42837,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-nanoflare-700-pro-midnight-purple-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-nanoflare-700-pro-midnight-purple-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -42422,7 +42897,7 @@ window.RACKETS = [
   "specSrc": "",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5054",
   "bayUrl": "",
-  "clickUrl": "",
+  "clickUrl": "https://badmintonclick.com.au/products/yonex-nanoflare-700-tour-light-beige-83-grams-badminton-racquet",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
@@ -42441,8 +42916,12 @@ window.RACKETS = [
     "url": "https://sportsshop.asia/products/yonex-nanoflare-700-tour-badminton-racket-silver-sky-blue-unstrung"
    },
    {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/yonex-nanoflare-700-tour-light-beige-83-grams-badminton-racquet"
+   },
+   {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-nanoflare-700-tour-midnight-purple-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-nanoflare-700-tour-midnight-purple-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -42450,7 +42929,7 @@ window.RACKETS = [
    },
    {
     "shop": "tenniszon.com",
-    "url": "https://tenniszon.com/products/yonex-nanoflare-700-tour-unstrung-light-beige-4u"
+    "url": "https://tenniszon.com/products/yonex-nanoflare-700-tour-unstrung-midnight-purple"
    },
    {
     "shop": "centralsports.co.uk",
@@ -42485,7 +42964,7 @@ window.RACKETS = [
    28
   ],
   "tensionNote": "",
-  "price": 5890,
+  "price": 5970,
   "frame": "HM Graphite / M40X / EX-HMG / VDM",
   "shaft": "HM Graphite / NANOMETRIC",
   "joint": "NEW Built-in T-Joint",
@@ -42513,7 +42992,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-nanoflare-800-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹16,599.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹16,599.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-nanoflare-800-badminton-racket",
   "note": "",
   "est": [
@@ -42747,7 +43226,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-nanoflare-800-pro-deep-green-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-nanoflare-800-pro-deep-green-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -42819,7 +43298,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-nanoflare-800-tour-deep-green-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-nanoflare-800-tour-deep-green-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -42887,14 +43366,13 @@ window.RACKETS = [
    },
    {
     "shop": "centralsports.co.uk",
-    "url": "https://centralsports.co.uk/products/yonex-nanoflare-e13-badminton-racket-strung-blue-red"
+    "url": "https://centralsports.co.uk/products/yonex-nanoflare-e13-badminton-racket-strung-turquoise-yellow"
    }
   ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
   "est": [
-   "flex",
    "level"
   ]
  },
@@ -42917,7 +43395,7 @@ window.RACKETS = [
    22
   ],
   "tensionNote": "",
-  "price": 2520,
+  "price": 2510,
   "frame": "Graphite, Nanocell NEO, HM Graphite",
   "shaft": "Graphite",
   "joint": "Built-in T-Joint",
@@ -42953,7 +43431,7 @@ window.RACKETS = [
     "url": "https://tenniszon.com/products/yonex-nanoflare-junior-strung-cyan-1"
    }
   ],
-  "priceNote": "แปลงจาก £55.99 ที่ 1 GBP = 45.009 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก £55.99 ที่ 1 GBP = 44.858 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://www.tennisnuts.com/yonex-nanoflare-junior-graphite-badminton-racket-1458238.html",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
@@ -43024,7 +43502,7 @@ window.RACKETS = [
    },
    {
     "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-nanoflare-nextage-demo-rental"
+    "url": "https://racquetguys.com/products/yonex-nanoflare-nextage-badminton-racquet-demo-rental"
    },
    {
     "shop": "yumo.ca",
@@ -43119,7 +43597,7 @@ window.RACKETS = [
    30
   ],
   "tensionNote": "",
-  "price": 670,
+  "price": 680,
   "frame": "Graphite",
   "shaft": "Graphite",
   "joint": "Moulded deep into the layers of graphite where the frame connects with the shaft, the YONEX Built-in T-Joint creates a durable and high-strength one-piece, torque-free frame.",
@@ -43130,7 +43608,7 @@ window.RACKETS = [
   "players": "",
   "madeIn": "China",
   "recString": "",
-  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/YonexNanoray70Light_DeepPurple_NO.png?v=1727991811",
+  "img": "https://cdn.shopify.com/s/files/1/0282/1278/9326/files/YonexNanoray70Light_DeepPurple.png?v=1793660928",
   "source": "",
   "officialUrl": "",
   "specSrc": "",
@@ -43147,7 +43625,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-nanoray-70-light-purple-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹1,899.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹1,899.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-nanoray-70-light-purple-badminton-racket",
   "note": "ความตึงสูงสุด 30 lbs: Badminton Alley (20–30 lbs) และ Badminton Bay (Max 30 lbs) ตรงกัน แต่ Yonex ไม่ได้พิมพ์ในหน้าที่เราอ่านได้ จึงเป็นค่าประเมิน (ผลค้น Google 10 พ.ย. 2026)",
   "est": [
@@ -43174,7 +43652,7 @@ window.RACKETS = [
   "grips": "G4",
   "tension": null,
   "tensionNote": "",
-  "price": 510,
+  "price": 520,
   "frame": "Aluminum-Alloy",
   "shaft": "Aluminum-Alloy",
   "joint": "",
@@ -43202,7 +43680,7 @@ window.RACKETS = [
     "url": "https://shop.kibisports.com/products/yonex-nanoray-7000i-g4-2u-badminton-racquet-kibi-sports"
    }
   ],
-  "priceNote": "แปลงจาก ₹1,449.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹1,449.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://shop.kibisports.com/products/yonex-nanoray-7000i-g4-2u-badminton-racquet-kibi-sports",
   "note": "",
   "est": [
@@ -43229,7 +43707,7 @@ window.RACKETS = [
   "grips": "G5",
   "tension": null,
   "tensionNote": "",
-  "price": 640,
+  "price": 650,
   "frame": "Frame Material : HM Graphite",
   "shaft": "HM Graphite.Flexible shaft",
   "joint": "",
@@ -43257,7 +43735,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-nanoray-72-light-badminton-racket-ruby-red"
    }
   ],
-  "priceNote": "แปลงจาก ₹1,799.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹1,799.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-nanoray-72-light-badminton-racket-ruby-red",
   "note": "สมดุลหัวเบา: sportsshop.asia (พิมพ์ \"Had-light balance\") และ Badminton HQ (Racket Balance: Head Light) ตรงกัน (ผลค้น Google 10 พ.ย. 2026); ความตึงที่ร้านต่าง ๆ ให้ไม่ตรงกัน (17–22, 20–28 และ 22–27 lbs) จึงไม่ใส่",
   "est": [
@@ -43286,7 +43764,7 @@ window.RACKETS = [
    35
   ],
   "tensionNote": "",
-  "price": 2270,
+  "price": 2300,
   "frame": "High Modulus Graphite",
   "shaft": "High Modulus Graphite",
   "joint": "",
@@ -43314,7 +43792,7 @@ window.RACKETS = [
     "url": "https://shop.kibisports.com/products/yonex-voltric-21-dg-slim-badminton-racket-kibi-sports"
    }
   ],
-  "priceNote": "แปลงจาก ₹6,399.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹6,399.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://shop.kibisports.com/products/yonex-voltric-21-dg-slim-badminton-racket-kibi-sports",
   "note": "",
   "est": [
@@ -43342,7 +43820,7 @@ window.RACKETS = [
    24
   ],
   "tensionNote": "",
-  "price": 640,
+  "price": 650,
   "frame": "Graphite / Tungsten",
   "shaft": "Graphite",
   "joint": "",
@@ -43370,14 +43848,19 @@ window.RACKETS = [
     "url": "https://nydhi.com/products/yonex-voltric-lite-badminton-racket-black-yellow-pre-strung"
    },
    {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/yonex-voltric-lite-badminton-racket-4ug5"
+   },
+   {
     "shop": "thegodofsports.com",
     "url": "https://thegodofsports.com/products/yonex-voltric-lite-40i-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹1,799.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹1,799.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-voltric-lite-40i-badminton-racket",
   "note": "",
   "est": [
+   "tension",
    "style",
    "price"
   ]
@@ -43398,7 +43881,7 @@ window.RACKETS = [
   "grips": "",
   "tension": null,
   "tensionNote": "",
-  "price": 600,
+  "price": 610,
   "frame": "",
   "shaft": "",
   "joint": "",
@@ -43426,7 +43909,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-voltric-lite-20i-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹1,699.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹1,699.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-voltric-lite-20i-badminton-racket",
   "note": "",
   "est": [
@@ -43478,7 +43961,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-voltric-lite-25i-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹1,792.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹1,792.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-voltric-lite-25i-badminton-racket",
   "note": "",
   "est": [
@@ -43502,7 +43985,7 @@ window.RACKETS = [
   "grips": "",
   "tension": null,
   "tensionNote": "",
-  "price": 640,
+  "price": 650,
   "frame": "Frame Material : HM Graphite",
   "shaft": "HM Graphite",
   "joint": "",
@@ -43530,7 +44013,7 @@ window.RACKETS = [
     "url": "https://thegodofsports.com/products/yonex-voltric-lite-47i-badminton-racket"
    }
   ],
-  "priceNote": "แปลงจาก ₹1,799.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹1,799.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/yonex-voltric-lite-47i-badminton-racket",
   "note": "",
   "est": [

@@ -4233,5 +4233,27 @@
  },
  "Li-Ning BladeX 73 Light": {
   "note": "ป้ายหัวเบา แต่ yumo.ca วัดได้ 302 mm (เรียกหัวหนัก) แหล่งขัดกัน ยังไม่มีค่าจากผู้ผลิต (ตรวจ 11 พ.ย. 2026)"
+ },
+ "Victor Auraspeed VRD-J": {
+  "new": true,
+  "brand": "Victor",
+  "year": 2026,
+  "weights": "3U, 4U",
+  "tmax": 29,
+  "frame": "High Resilience Graphite + Nano Fortify TR + Hard Cored Technology",
+  "shaft": "High Resilience Graphite + PYROFIL + 6.8 shaft",
+  "src": "https://tenniszon.com/products/victor-auraspeed-vrd-j-unstrung-purple-pink",
+  "note": "สเปกจากหน้า VICTOR ที่ร้าน tenniszon.com และ yumo.ca ลงตรงกัน: 3U ≤ 30 lbs, 4U ≤ 29 lbs (เก็บค่าต่ำสุดเป็นเพดาน); shopnings.com ระบุว่าเป็นกรอบสปีดรุ่นปี 2026 ก้านค่อนข้างแข็ง; ยังไม่มีแหล่งที่ระบุสมดุล ความแข็งก้านเป็นตัวเลข และน้ำหนักกรัม จึงเว้นว่าง (พบเมื่อ 15 พ.ย. 2026)"
+ },
+ "Victor Auraspeed Hypersonic Plus": {
+  "new": true,
+  "brand": "Victor",
+  "balance": "head-light",
+  "weights": "3U, 4U",
+  "tmax": 28,
+  "frame": "High Resilience Modulus Graphite + FORMOSA CARBON FIBER",
+  "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.8 shaft",
+  "src": "https://thegodofsports.com/products/victor-auraspeed-hypersonic-plus-badminton-racket",
+  "note": "3U ≤ 29 lbs, 4U ≤ 28 lbs (tenniszon.com ทั้งสองหน้า, เก็บค่าต่ำสุดเป็นเพดาน); สมดุลหัวเบาจาก thegodofsports.com (กรอบบาง 5.3 มม. หัว 340 ตร.ซม.); ความแข็งก้านและน้ำหนักกรัมยังไม่มีแหล่งระบุ (พบเมื่อ 15 พ.ย. 2026)"
  }
 }

@@ -227,7 +227,7 @@
  },
  {
   "id": "4952",
-  "name": "LI-NING AYPW011 Axforce CANNON Light Pink (AYPW011)",
+  "name": "LI-NING Axforce CANNON Light Pink (AYPW011)",
   "price": 2090.0,
   "img": "https://www.badmintonplaza.com/images/AYPW011-A.jpg",
   "specs": {
@@ -250,7 +250,7 @@
  },
  {
   "id": "4951",
-  "name": "LI-NING AYPW013 Axforce CANNON Mint Green (AYPW013)",
+  "name": "LI-NING Axforce CANNON Mint Green (AYPW013)",
   "price": 2190.0,
   "img": "https://www.badmintonplaza.com/images/AYPW013-A.jpg",
   "specs": {
@@ -528,6 +528,377 @@
   "listed": "More..."
  },
  {
+  "id": "2195",
+  "name": "LI-NING 3D CALIBAR 900 Grey/Gold  (AYPT381-4)",
+  "price": 5890.0,
+  "img": "https://www.badmintonplaza.com/images/AYPM426-4-A.jpg",
+  "specs": {},
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "3769",
+  "name": "LI-NING Axforce 100 QILIN (AYPT235)",
+  "price": 6990.0,
+  "img": "https://www.badmintonplaza.com/images/AYPT235-3S-A.jpg",
+  "specs": {
+   "Material": "M50 + T1100 + TB NANO + Super Carbon",
+   "Frame Shape": "Dynamic Optimum Frame",
+   "Weight:": "3U / 4U",
+   "Grip size": "G5",
+   "Balance": "3U: 307mm",
+   ": 3U: 307mm": "4U: 309mm",
+   "Flexibility": "3U: Stiff / 4U: Medium Stiff",
+   "Swing WT.": "3U: Super Heavy / 4U: Heavy",
+   "Shaft Thickness": "6.0 mm",
+   "Max Tension": "3U: ≤31 lbs",
+   ": 3U: ≤31 lbs": "4U: ≤30 lbs",
+   "Player Type": "Attacking",
+   "Level": "Professional"
+  },
+  "material": "M50 + T1100 + TB NANO + Super Carbon",
+  "balance": "3U: 307mm",
+  "flex": "3U: Stiff / 4U: Medium Stiff",
+  "player": "Attacking",
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "2470",
+  "name": "LI-NING AERONAUT 9000C COMBAT (AYPT405)",
+  "price": 5790.0,
+  "img": "https://www.badmintonplaza.com/images/AYPP122-5S-A.jpg",
+  "specs": {
+   "Material": "Military Grade Carbon Fiber",
+   "Color": "Blue/Red",
+   "Weight": "3U / 4U",
+   "Grip size / Length": "G6",
+   "Length": "675 mm.",
+   "Balance Point": "298 ±2 MM.",
+   "Flexibility": "Medium",
+   "Type": "Power",
+   "Max Tension": "3U: ≤32 Lbs",
+   ": 3U: ≤32 Lbs": "4U: ≤30 Lbs",
+   "Level": "Professional, Advance",
+   "Player:": "YUTA WATANABE"
+  },
+  "material": "Military Grade Carbon Fiber",
+  "weight": "3U / 4U",
+  "length": "675 mm.",
+  "flex": "Medium",
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "3763",
+  "name": "Li-Ning Windstorm 700 Special Edition Navy/Blue Free! String (AYPR048-4S)",
+  "price": 2890.0,
+  "img": "https://www.badmintonplaza.com/images/AYPR048-4S-A.jpg",
+  "specs": {
+   "Material": "Commercial Grade Carbon Fiber",
+   "Weight": "79 ±3G",
+   "Balance": "298 ±5MM",
+   "Max Tension": "≤30LBS",
+   "Flexibility": "Hi-Soft",
+   "Grip Size": "G6",
+   "Length": "675mm",
+   "Colour": "Navy/Blue",
+   "Free": "String+Cover"
+  },
+  "material": "Commercial Grade Carbon Fiber",
+  "weight": "79 ±3G",
+  "balance": "298 ±5MM",
+  "flex": "Hi-Soft",
+  "grip": "G6",
+  "length": "675mm",
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "2030",
+  "name": "LI-NING 3D CALIBAR 900B Boost Grey/Red (AYPT383-3)",
+  "price": 5890.0,
+  "img": "https://www.badmintonplaza.com/images/AYPM428-4S-A.jpg",
+  "specs": {},
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "3840",
+  "name": "LI-NING Axforce 20R X-Sonic Boom System Red/Black Free! String+Grip (AYPT071-1S)",
+  "price": 2390.0,
+  "img": "https://www.badmintonplaza.com/images/AYPT071-1S-A.jpg",
+  "specs": {
+   "Material": "Carbon Fiber",
+   "Frame Shape": "Box Wing Frame",
+   "Weight/Grip Size:": "4U/G5",
+   "Flexibility": "Soft",
+   "Balace": "298 (Head Heavy)",
+   "Max Tension": "≤30Lbs",
+   "Shaft Thickness": "6.8 mm",
+   "Free!": "Li-Ning String (AP7)+Li-Ning Grip"
+  },
+  "material": "Carbon Fiber",
+  "flex": "Soft",
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "3841",
+  "name": "LI-NING Axforce 20R X-Sonic Boom System White Free! String+Grip (AYPT073-1S)",
+  "price": 2390.0,
+  "img": "https://www.badmintonplaza.com/images/AYPT073-1S-A.jpg",
+  "specs": {
+   "Material": "Carbon Fiber",
+   "Frame Shape": "Box Wing Frame",
+   "Weight/Grip Size:": "4U/G5",
+   "Flexibility": "Soft",
+   "Balace": "298 (Head Heavy)",
+   "Max Tension": "≤30Lbs",
+   "Shaft Thickness": "6.8 mm"
+  },
+  "material": "Carbon Fiber",
+  "flex": "Soft",
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "3412",
+  "name": "LI-NING Axforce 90 Max Dragon (AYPS069/AYPS067-1S)",
+  "price": 6290.0,
+  "img": "https://www.badmintonplaza.com/images/AYPS069-1S-A.jpg",
+  "specs": {
+   "Material": "Carbon Fibre M50",
+   "Frame Shape": "Dynamic Optimum Frame",
+   "Weight:": "3U/4U",
+   "Grip size": "G5",
+   "Balance": "3U: 307mm",
+   ": 3U: 307mm": "4U: 309mm",
+   "Flexibility": "Medium stiff",
+   "Shaft Thickness": "6.2 mm",
+   "Player Type": "Attacking",
+   "Max Tension": "3U: ≤31 lbs",
+   ": 3U: ≤31 lbs": "4U: ≤30 lbs",
+   "Level": "Professional"
+  },
+  "material": "Carbon Fibre M50",
+  "balance": "3U: 307mm",
+  "flex": "Medium stiff",
+  "player": "Attacking",
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "3764",
+  "name": "Li-Ning Windstorm 700 Special Edition Black/Gold Free! String (AYPR044-4S)",
+  "price": 2890.0,
+  "img": "https://www.badmintonplaza.com/images/AYPR044-4S-A.jpg",
+  "specs": {
+   "Material": "Commercial Grade Carbon Fiber",
+   "Weight": "79 ±3G",
+   "Balance": "298 ±5MM",
+   "Max Tension": "≤30LBS",
+   "Flexibility": "Hi-Soft",
+   "Grip Size": "G6",
+   "Length": "675mm",
+   "Colour": "Black/Gold",
+   "Free": "String+Cover"
+  },
+  "material": "Commercial Grade Carbon Fiber",
+  "weight": "79 ±3G",
+  "balance": "298 ±5MM",
+  "flex": "Hi-Soft",
+  "grip": "G6",
+  "length": "675mm",
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "3765",
+  "name": "Li-Ning Windstorm 700 Special Edition Black/Red Free! String (AYPR046-4S)",
+  "price": 2890.0,
+  "img": "https://www.badmintonplaza.com/images/AYPR046-4S-A.jpg",
+  "specs": {
+   "Material": "Commercial Grade Carbon Fiber",
+   "Weight": "79 ±3G",
+   "Balance": "298 ±5MM",
+   "Max Tension": "≤30LBS",
+   "Flexibility": "Hi-Soft",
+   "Grip Size": "G6",
+   "Length": "675mm",
+   "Colour": "Black/Red",
+   "Free": "String+Cover"
+  },
+  "material": "Commercial Grade Carbon Fiber",
+  "weight": "79 ±3G",
+  "balance": "298 ±5MM",
+  "flex": "Hi-Soft",
+  "grip": "G6",
+  "length": "675mm",
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "4908",
+  "name": "SUWAN Spray Quick Dry Spray and Go 50ml (SUWAN-SPRAY)",
+  "price": 299.0,
+  "img": "https://www.badmintonplaza.com/images/SUWAN-SPRAY-A.jpg",
+  "specs": {
+   "ฟลาโวนอยด์ (Flavonoids)": "สารที่มีคุณสมบัติในการลดการอักเสบและช่วยฟื้นฟูอาการบาดเจ็บ",
+   "วินเทอร์กรีน (Wintergreen)": "สารที่มีคุณสมบัติในการคลายกล้ามเนื้อ บรรเทาอาการปวด กระตุ้นการไหลเวียนเลือด",
+   "ลิโมนีน (Limonene)": "สารที่มีคุณสมบัติในการลดความเครียดและช่วยฟื้นฟูอาการบาดเจ็บ",
+   "แอนติออกซิแดนซ์ (Antioxidants)": "สารที่มีคุณสมบัติในการป้องกัน ลดการอักเสบ และฟื้นฟูเซลล์",
+   "เบต้าไพนีน (Beta Pinene)": "พระเอกของสุวรรณ เบต้าไพนีน เกิดจากการวิจัย สกัดสารสำคัญออกจากมะกรูด การสกัดโดยกรรมวิธีและเครื่องมือเฉพาะ จนได้สารสกัดจากมะกรูดที่มีคุณสมบัติในการบรรเทาอาการปวดและลดการอักเสบได้สูงมาก แม้เป็นการใช้จากภายนอก",
+   "สเปรย์น้ำมันสมุนไพร": "เนื้อบางเบา ซึมซาบเร็ว ไม่เหนียวเหนอะหนะ",
+   "ลดอาการปวด": "กล้ามเนื้อ ข้อ เอ็น ได้อย่างมีประสิทธิภาพ",
+   "ฟื้นฟูอาการบาดเจ็บ": "จากการเล่นกีฬา กิจกรรม หน้าที่การงาน หรืออุบัติเหตุ",
+   "ใช้ได้กับทุกวัย": "ตั้งแต่ เด็กวัยเรียน ผู้ใหญ่วัยทำงาน จนถึงผู้สูงอายุวัยหลังเกษียณ",
+   "กลิ่นหอมไซตรัส": "ผ่อนคลาย ลดความเครียด ช่วยให้สมองหลั่งโดพามีน ลดโอกาสเป็นซึมเศร้า",
+   "ปลอดภัยไร้สารพิษ": "ผลิตจากวัตถุดิบธรรมชาติ มะกรูดพันธ์ดีคัดเกรด จาก ชุมชนเกษตรอินทรีย์บ้านตม ไม่ก่อการสะสมเคมีในร่างกาย",
+   "มีงานวิจัยรองรับ": "ได้รับรางวัลนวัตกรรมระดับประเทศมากมาย เช่น ชีวจิต อวอร์ดส์, 7-innovation, สมุนไพรพรีเมี่ยมจากกรมการแพทย์แผนไทย และชนะเลิศการประกวดนวัตกรรมระดับประเทศ จากกระทรวง อว."
+  },
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "4904",
+  "name": "VS Training Badminton Shoes Wide VS166 Flash Lake Blue (VS166LB)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-LB-A.jpg",
+  "specs": {
+   "Color": "Lake Blue",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "4673",
+  "name": "VS VS166 Training Badminton Shoes Wide Grey (VS166GR)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-GR-A.jpg",
+  "specs": {
+   "Color": "Grey",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "4672",
+  "name": "VS VS166 Training Badminton Shoes Wide Silver (VS166SF)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-SF-A.jpg",
+  "specs": {
+   "Color": "Silver Flash",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "4671",
+  "name": "VS VS166 Training Badminton Shoes Wide White/Pink (VS166WP)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-WP-A.jpg",
+  "specs": {
+   "Color": "White/Pink",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "4000",
+  "name": "VS VS169 Badminton Shoes Wide White (VS169B)",
+  "price": 1390.0,
+  "img": "https://www.badmintonplaza.com/images/VS169B-A.jpg",
+  "specs": {
+   "Color": "White",
+   "Upper": "TPU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "3999",
+  "name": "VS VS169 Badminton Shoes Wide Yellow (VS169Y)",
+  "price": 1390.0,
+  "img": "https://www.badmintonplaza.com/images/VS169Y-A.jpg",
+  "specs": {
+   "Color": "Yellow",
+   "Upper": "microfiber PU+Mesh vent",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "3962",
+  "name": "VS Badminton Shoes VS177 Wide White (VS177W)",
+  "price": 1490.0,
+  "img": "https://www.badmintonplaza.com/images/VS177W-A.jpg",
+  "specs": {
+   "Color": "White",
+   "Upper": "PU+Breathable mesh",
+   "Outsole": "Wear-Resistance Rubber, High-Strength EVA"
+  },
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "3961",
+  "name": "VS Badminton Shoes VS177 Wide Blue (VS177B)",
+  "price": 1490.0,
+  "img": "https://www.badmintonplaza.com/images/VS177B-A.jpg",
+  "specs": {
+   "Color": "Dark Blue",
+   "Upper": "PU+Breathable mesh",
+   "Outsole": "Wear-Resistance Rubber, High-Strength EVA"
+  },
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "3565",
+  "name": "Victor A362III Badminton Shoes White (A362III-A)",
+  "price": 1590.0,
+  "img": "https://www.badmintonplaza.com/images/A362III-A-A.jpg",
+  "specs": {
+   "Color": "White",
+   "Outsole": "Rubber",
+   "Midsole": "HYPEREVA + Solid EVA",
+   "Upper": "PU Leather+Double Mesh",
+   "Shape": "U-Shape (2.5)"
+  },
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
+  "id": "3307",
+  "name": "VS 176W Badminton Shoes White (VS176W)",
+  "price": 1690.0,
+  "img": "https://www.badmintonplaza.com/images/VS176W-A.jpg",
+  "specs": {
+   "Grade": "Quallified",
+   "Upper material": "PU+Mesh vent",
+   "Sole material": "Rubber + EVA",
+   "Color": "White"
+  },
+  "brand": "Li-Ning",
+  "listed": ""
+ },
+ {
   "id": "4039",
   "name": "Li-Ning SS 100 Superlight Free! String+Grip+Cover (AYPS235-1S)",
   "price": 1890.0,
@@ -619,45 +990,6 @@
   "listed": "More..."
  },
  {
-  "id": "3841",
-  "name": "LI-NING Axforce 20R X-Sonic Boom System White Free! String+Grip (AYPT073-1S)",
-  "price": 2390.0,
-  "img": "https://www.badmintonplaza.com/images/AYPT073-1S-A.jpg",
-  "specs": {
-   "Material": "Carbon Fiber",
-   "Frame Shape": "Box Wing Frame",
-   "Weight/Grip Size:": "4U/G5",
-   "Flexibility": "Soft",
-   "Balace": "298 (Head Heavy)",
-   "Max Tension": "≤30Lbs",
-   "Shaft Thickness": "6.8 mm"
-  },
-  "material": "Carbon Fiber",
-  "flex": "Soft",
-  "brand": "Li-Ning",
-  "listed": "More..."
- },
- {
-  "id": "3840",
-  "name": "LI-NING Axforce 20R X-Sonic Boom System Red/Black Free! String+Grip (AYPT071-1S)",
-  "price": 2390.0,
-  "img": "https://www.badmintonplaza.com/images/AYPT071-1S-A.jpg",
-  "specs": {
-   "Material": "Carbon Fiber",
-   "Frame Shape": "Box Wing Frame",
-   "Weight/Grip Size:": "4U/G5",
-   "Flexibility": "Soft",
-   "Balace": "298 (Head Heavy)",
-   "Max Tension": "≤30Lbs",
-   "Shaft Thickness": "6.8 mm",
-   "Free!": "Li-Ning String (AP7)+Li-Ning Grip"
-  },
-  "material": "Carbon Fiber",
-  "flex": "Soft",
-  "brand": "Li-Ning",
-  "listed": "More..."
- },
- {
   "id": "3782",
   "name": "LI-NING 3D CALIBAR X BOOST Dark Gray / Red (AYPR166-4S)",
   "price": 2490.0,
@@ -676,108 +1008,6 @@
   "weight": "83 ±4G",
   "length": "675 mm.",
   "flex": "Medium to Soft",
-  "brand": "Li-Ning",
-  "listed": "More..."
- },
- {
-  "id": "3769",
-  "name": "LI-NING Axforce 100 QILIN (AYPT235)",
-  "price": 6990.0,
-  "img": "https://www.badmintonplaza.com/images/AYPT235-3S-A.jpg",
-  "specs": {
-   "Material": "M50 + T1100 + TB NANO + Super Carbon",
-   "Frame Shape": "Dynamic Optimum Frame",
-   "Weight:": "3U / 4U",
-   "Grip size": "G5",
-   "Balance": "3U: 307mm",
-   ": 3U: 307mm": "4U: 309mm",
-   "Flexibility": "3U: Stiff / 4U: Medium Stiff",
-   "Swing WT.": "3U: Super Heavy / 4U: Heavy",
-   "Shaft Thickness": "6.0 mm",
-   "Max Tension": "3U: ≤31 lbs",
-   ": 3U: ≤31 lbs": "4U: ≤30 lbs",
-   "Player Type": "Attacking",
-   "Level": "Professional"
-  },
-  "material": "M50 + T1100 + TB NANO + Super Carbon",
-  "balance": "3U: 307mm",
-  "flex": "3U: Stiff / 4U: Medium Stiff",
-  "player": "Attacking",
-  "brand": "Li-Ning",
-  "listed": "More..."
- },
- {
-  "id": "3765",
-  "name": "Li-Ning Windstorm 700 Special Edition Black/Red Free! String (AYPR046-4S)",
-  "price": 2890.0,
-  "img": "https://www.badmintonplaza.com/images/AYPR046-4S-A.jpg",
-  "specs": {
-   "Material": "Commercial Grade Carbon Fiber",
-   "Weight": "79 ±3G",
-   "Balance": "298 ±5MM",
-   "Max Tension": "≤30LBS",
-   "Flexibility": "Hi-Soft",
-   "Grip Size": "G6",
-   "Length": "675mm",
-   "Colour": "Black/Red",
-   "Free": "String+Cover"
-  },
-  "material": "Commercial Grade Carbon Fiber",
-  "weight": "79 ±3G",
-  "balance": "298 ±5MM",
-  "flex": "Hi-Soft",
-  "grip": "G6",
-  "length": "675mm",
-  "brand": "Li-Ning",
-  "listed": "More..."
- },
- {
-  "id": "3764",
-  "name": "Li-Ning Windstorm 700 Special Edition Black/Gold Free! String (AYPR044-4S)",
-  "price": 2890.0,
-  "img": "https://www.badmintonplaza.com/images/AYPR044-4S-A.jpg",
-  "specs": {
-   "Material": "Commercial Grade Carbon Fiber",
-   "Weight": "79 ±3G",
-   "Balance": "298 ±5MM",
-   "Max Tension": "≤30LBS",
-   "Flexibility": "Hi-Soft",
-   "Grip Size": "G6",
-   "Length": "675mm",
-   "Colour": "Black/Gold",
-   "Free": "String+Cover"
-  },
-  "material": "Commercial Grade Carbon Fiber",
-  "weight": "79 ±3G",
-  "balance": "298 ±5MM",
-  "flex": "Hi-Soft",
-  "grip": "G6",
-  "length": "675mm",
-  "brand": "Li-Ning",
-  "listed": "More..."
- },
- {
-  "id": "3763",
-  "name": "Li-Ning Windstorm 700 Special Edition Navy/Blue Free! String (AYPR048-4S)",
-  "price": 2890.0,
-  "img": "https://www.badmintonplaza.com/images/AYPR048-4S-A.jpg",
-  "specs": {
-   "Material": "Commercial Grade Carbon Fiber",
-   "Weight": "79 ±3G",
-   "Balance": "298 ±5MM",
-   "Max Tension": "≤30LBS",
-   "Flexibility": "Hi-Soft",
-   "Grip Size": "G6",
-   "Length": "675mm",
-   "Colour": "Navy/Blue",
-   "Free": "String+Cover"
-  },
-  "material": "Commercial Grade Carbon Fiber",
-  "weight": "79 ±3G",
-  "balance": "298 ±5MM",
-  "flex": "Hi-Soft",
-  "grip": "G6",
-  "length": "675mm",
   "brand": "Li-Ning",
   "listed": "More..."
  },
@@ -835,32 +1065,6 @@
   "listed": "More..."
  },
  {
-  "id": "3412",
-  "name": "LI-NING Axforce 90 Max Dragon (AYPS069/AYPS067-1S)",
-  "price": 6290.0,
-  "img": "https://www.badmintonplaza.com/images/AYPS069-1S-A.jpg",
-  "specs": {
-   "Material": "Carbon Fibre M50",
-   "Frame Shape": "Dynamic Optimum Frame",
-   "Weight:": "3U/4U",
-   "Grip size": "G5",
-   "Balance": "3U: 307mm",
-   ": 3U: 307mm": "4U: 309mm",
-   "Flexibility": "Medium stiff",
-   "Shaft Thickness": "6.2 mm",
-   "Player Type": "Attacking",
-   "Max Tension": "3U: ≤31 lbs",
-   ": 3U: ≤31 lbs": "4U: ≤30 lbs",
-   "Level": "Professional"
-  },
-  "material": "Carbon Fibre M50",
-  "balance": "3U: 307mm",
-  "flex": "Medium stiff",
-  "player": "Attacking",
-  "brand": "Li-Ning",
-  "listed": "More..."
- },
- {
   "id": "3193",
   "name": "LI-NING 3D CALIBAR X BOOST Red (AYPR168-4S)",
   "price": 2490.0,
@@ -908,47 +1112,29 @@
   "listed": "More..."
  },
  {
-  "id": "2470",
-  "name": "LI-NING AERONAUT 9000C COMBAT (AYPT405)",
-  "price": 5790.0,
-  "img": "https://www.badmintonplaza.com/images/AYPP122-5S-A.jpg",
+  "id": "5252",
+  "name": "VICTOR THRUSTER RYUGA III CQ (TK-RYUGA-III-CQ)",
+  "price": 5990.0,
+  "img": "https://www.badmintonplaza.com/images/TK-RYUGA-III-CQ-A.jpg",
   "specs": {
-   "Material": "Military Grade Carbon Fiber",
-   "Color": "Blue/Red",
-   "Weight": "3U / 4U",
-   "Grip size / Length": "G6",
-   "Length": "675 mm.",
-   "Balance Point": "298 ±2 MM.",
-   "Flexibility": "Medium",
-   "Type": "Power",
-   "Max Tension": "3U: ≤32 Lbs",
-   ": 3U: ≤32 Lbs": "4U: ≤30 Lbs",
-   "Level": "Professional, Advance",
-   "Player:": "YUTA WATANABE"
+   "Shaft Material": "High ResilienceModulus Graphitec",
+   ": High ResilienceModulus Graphitec": "46T PYROFIL",
+   ": 46T PYROFIL": "Metallic Carbon Fiber",
+   ": Metallic Carbon Fiber": "6.5 SHAFT",
+   "Frame Material": "High ResilienceModulus Graphite",
+   ": High ResilienceModulus Graphite": "HARD CORED TECHNOLOGY",
+   ": HARD CORED TECHNOLOGY": "46T PYROFIL",
+   ": Nano Fortify TR+": "Metallic Carbon Fiber",
+   "String tension": "4U:≤32 lbs(14.5Kg)",
+   ": 4U:≤32 lbs(14.5Kg)": "5U:≤31 lbs(14Kg)",
+   "Weight / Grip Size": "4U/G5, 5U/G5",
+   "Length": "675 mm",
+   "Balance": "Head Heavy",
+   "Response Indicator": ""
   },
-  "material": "Military Grade Carbon Fiber",
-  "weight": "3U / 4U",
-  "length": "675 mm.",
-  "flex": "Medium",
-  "brand": "Li-Ning",
-  "listed": "More..."
- },
- {
-  "id": "2195",
-  "name": "LI-NING 3D CALIBAR 900 Grey/Gold  (AYPT381-4)",
-  "price": 5890.0,
-  "img": "https://www.badmintonplaza.com/images/AYPM426-4-A.jpg",
-  "specs": {},
-  "brand": "Li-Ning",
-  "listed": "More..."
- },
- {
-  "id": "2030",
-  "name": "LI-NING 3D CALIBAR 900B Boost Grey/Red (AYPT383-3)",
-  "price": 5890.0,
-  "img": "https://www.badmintonplaza.com/images/AYPM428-4S-A.jpg",
-  "specs": {},
-  "brand": "Li-Ning",
+  "length": "675 mm",
+  "balance": "Head Heavy",
+  "brand": "Victor",
   "listed": "More..."
  },
  {
@@ -1417,6 +1603,350 @@
   "listed": "More..."
  },
  {
+  "id": "832",
+  "name": "VICTOR BRAVE SWORD 12 Original (BRS-12)",
+  "price": 4190.0,
+  "img": "https://www.badmintonplaza.com/images/BRS-12-A.jpg",
+  "specs": {
+   "Frame Material": "",
+   "Shaft Material": "",
+   "Weight/Grip Size": "3U/G4 , 4U/G5",
+   "Length": "675 mm",
+   "Response": "",
+   "Balance": "",
+   "Stiffness": ""
+  },
+  "weight": "3U/G4 , 4U/G5",
+  "length": "675 mm",
+  "balance": "",
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "3079",
+  "name": "VICTOR Lee Zii Jia's THRUSTER RYUGA (TK-RYUGA-D)",
+  "price": 4900.0,
+  "img": "https://www.badmintonplaza.com/images/TK-RYUKA-A.jpg",
+  "specs": {
+   "Shaft Material": "High Resilient Modulus Graphite + PYROFIL + 6.5 SHAFT",
+   "Frame Material": "High Resilient Modulus Graphite + PYROFIL + Hard Cored Technology",
+   "String tension": "3U:≤32 lbs(14.5Kg)",
+   ": 3U:≤32 lbs(14.5Kg)": "4U:≤31 lbs(14Kg)",
+   ": 4U:≤31 lbs(14Kg)": "5U:≤30 lbs(13.5Kg)",
+   "Weight / Grip Size": "3U/G5, 4U/G5, 4U/G5",
+   "Length": "675 mm",
+   "Balance": "Head Heavy",
+   "Response Indicator": ""
+  },
+  "length": "675 mm",
+  "balance": "Head Heavy",
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "3302",
+  "name": "VICTOR THRUSTER K F CLAW LTD White  (TK-FC-LTD-A)",
+  "price": 5390.0,
+  "img": "https://www.badmintonplaza.com/images/TK-FC-A-A.jpg",
+  "specs": {
+   "Shaft Material": "High Resilience Modulus Graphite+PYROFIL+6.5 SHAFT",
+   "Frame Material": "High Resilience Modulus Graphite+Nano Fortify TR+HARD CORED TECHNOLOGY",
+   "String tension": "≤31lbs(14kg)",
+   "Weight / Grip Size": "4U/G5",
+   "Length": "675 mm",
+   "Balance": "Head Heavy",
+   "Response Indicator": "",
+   "Free!": "Cover"
+  },
+  "length": "675 mm",
+  "balance": "Head Heavy",
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "3448",
+  "name": "VICTOR Lee Zii Jia's New Game Racket TK-RYUGA II (TK-RYUGA-II)",
+  "price": 5590.0,
+  "img": "https://www.badmintonplaza.com/images/TK-RYUGA-II-J-A.jpg",
+  "specs": {
+   "Shaft Material": "High Resilient Modulus Graphite + PYROFIL + 6.6 SHAFT",
+   "Frame Material": "High Resilient Modulus Graphite + PYROFIL + Hard Cored Technology",
+   "String tension": "3U:≤32 lbs(14.5Kg)",
+   ": 3U:≤32 lbs(14.5Kg)": "4U:≤31 lbs(14Kg)",
+   "Weight / Grip Size": "3U/G5, 4U/G5",
+   "Length": "675 mm",
+   "Balance": "Head Heavy",
+   "Response Indicator": ""
+  },
+  "length": "675 mm",
+  "balance": "Head Heavy",
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "3954",
+  "name": "VICTOR AURASPEED 8000 Free Core Green (ARS-8000R)",
+  "price": 1790.0,
+  "img": "https://www.badmintonplaza.com/images/ARS-8000R-A.jpg",
+  "specs": {
+   "Frame Material": "High Resilience Graphite + Nano Resin",
+   "Shaft Material": "High Resilience Graphite + Nano Resin + 7.0 SHAFT",
+   "Weight / Grip Size": "5U/G5",
+   "String tension": "5U: ≤29lbs (13Kg)",
+   "Flexibility": "",
+   "Colour": "Green"
+  },
+  "flex": "",
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "2965",
+  "name": "VICTOR TK-66 I Super Light 66 Sakura Pink  (TK-66I)",
+  "price": 2190.0,
+  "img": "https://www.badmintonplaza.com/images/TK-66I-A.jpg",
+  "specs": {
+   "Shaft Material": "High Resilience Graphite + Nano Resin + 7.0 SHAFT",
+   "Frame Material": "High Resilience Graphite + Nano Resin + Fiber Reinforced System(FRS)",
+   "String tension": "≤30lbs(13.5Kg)",
+   "Weight / Grip Size": "66±2g/G6",
+   "Balance": "Head Heavy",
+   "Length": "675 mm",
+   "Response Indicator": ""
+  },
+  "balance": "Head Heavy",
+  "length": "675 mm",
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "2013",
+  "name": "VICTOR AURASPEED 70K F (ARS-70K-F)",
+  "price": 3990.0,
+  "img": "https://www.badmintonplaza.com/images/ARS-70K-A.jpg",
+  "specs": {},
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "4063",
+  "name": "VICTOR AURASPEED 9 T (ARS-9T)",
+  "price": 1390.0,
+  "img": "https://www.badmintonplaza.com/images/ARS9-T-A.jpg",
+  "specs": {
+   "Frame Material": "Graphite + Resin",
+   "Shaft Material": "Graphite+Resin+6.8 SHAFT",
+   "Weight / Grip Size": "4U/G5",
+   "String tension": "≤24lbs (10Kg)",
+   "Balance": "",
+   "Flexibility": "",
+   "Colour": "White"
+  },
+  "balance": "",
+  "flex": "",
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "3933",
+  "name": "VICTOR Lee Zii Jia's Racket TK-RYUGA METALLIC (TK-RYUGA-M)",
+  "price": 5790.0,
+  "img": "https://www.badmintonplaza.com/images/TK-Ryuga-Metallic-A.jpg",
+  "specs": {
+   "Shaft Material": "High ResilienceModulus Graphite + PYROFIL + 6.8 SHAFT",
+   "Frame Material": "High ResilienceModulus Graphite + HARD CORED TECHNOLOGY + Metallic Carbon Fiber",
+   "String tension": "3U:≤32 lbs(14.5Kg)",
+   ": 3U:≤32 lbs(14.5Kg)": "4U:≤31 lbs(14Kg)",
+   "Weight / Grip Size": "3U/G5, 4U/G5",
+   "Length": "675 mm",
+   "Balance": "Head Heavy",
+   "Response Indicator": ""
+  },
+  "length": "675 mm",
+  "balance": "Head Heavy",
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "3847",
+  "name": "VICTOR NEW TAI TZU YING COLLECTION THRUSTER TTY White  (TK-TTY-A)",
+  "price": 5490.0,
+  "img": "https://www.badmintonplaza.com/images/TK-TTY-A-A.jpg",
+  "specs": {
+   "Shaft Material": "High Resilience Modulus Graphite + PYROFIL + 6.5 SHAFT",
+   "Frame Material": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
+   "String tension": "≤31lbs(14kg)",
+   "Weight / Grip Size": "4U/G5",
+   "Length": "675 mm",
+   "Balance": "Head Heavy",
+   "Response Indicator": ""
+  },
+  "length": "675 mm",
+  "balance": "Head Heavy",
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "4908",
+  "name": "SUWAN Spray Quick Dry Spray and Go 50ml (SUWAN-SPRAY)",
+  "price": 299.0,
+  "img": "https://www.badmintonplaza.com/images/SUWAN-SPRAY-A.jpg",
+  "specs": {
+   "ฟลาโวนอยด์ (Flavonoids)": "สารที่มีคุณสมบัติในการลดการอักเสบและช่วยฟื้นฟูอาการบาดเจ็บ",
+   "วินเทอร์กรีน (Wintergreen)": "สารที่มีคุณสมบัติในการคลายกล้ามเนื้อ บรรเทาอาการปวด กระตุ้นการไหลเวียนเลือด",
+   "ลิโมนีน (Limonene)": "สารที่มีคุณสมบัติในการลดความเครียดและช่วยฟื้นฟูอาการบาดเจ็บ",
+   "แอนติออกซิแดนซ์ (Antioxidants)": "สารที่มีคุณสมบัติในการป้องกัน ลดการอักเสบ และฟื้นฟูเซลล์",
+   "เบต้าไพนีน (Beta Pinene)": "พระเอกของสุวรรณ เบต้าไพนีน เกิดจากการวิจัย สกัดสารสำคัญออกจากมะกรูด การสกัดโดยกรรมวิธีและเครื่องมือเฉพาะ จนได้สารสกัดจากมะกรูดที่มีคุณสมบัติในการบรรเทาอาการปวดและลดการอักเสบได้สูงมาก แม้เป็นการใช้จากภายนอก",
+   "สเปรย์น้ำมันสมุนไพร": "เนื้อบางเบา ซึมซาบเร็ว ไม่เหนียวเหนอะหนะ",
+   "ลดอาการปวด": "กล้ามเนื้อ ข้อ เอ็น ได้อย่างมีประสิทธิภาพ",
+   "ฟื้นฟูอาการบาดเจ็บ": "จากการเล่นกีฬา กิจกรรม หน้าที่การงาน หรืออุบัติเหตุ",
+   "ใช้ได้กับทุกวัย": "ตั้งแต่ เด็กวัยเรียน ผู้ใหญ่วัยทำงาน จนถึงผู้สูงอายุวัยหลังเกษียณ",
+   "กลิ่นหอมไซตรัส": "ผ่อนคลาย ลดความเครียด ช่วยให้สมองหลั่งโดพามีน ลดโอกาสเป็นซึมเศร้า",
+   "ปลอดภัยไร้สารพิษ": "ผลิตจากวัตถุดิบธรรมชาติ มะกรูดพันธ์ดีคัดเกรด จาก ชุมชนเกษตรอินทรีย์บ้านตม ไม่ก่อการสะสมเคมีในร่างกาย",
+   "มีงานวิจัยรองรับ": "ได้รับรางวัลนวัตกรรมระดับประเทศมากมาย เช่น ชีวจิต อวอร์ดส์, 7-innovation, สมุนไพรพรีเมี่ยมจากกรมการแพทย์แผนไทย และชนะเลิศการประกวดนวัตกรรมระดับประเทศ จากกระทรวง อว."
+  },
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "4904",
+  "name": "VS Training Badminton Shoes Wide VS166 Flash Lake Blue (VS166LB)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-LB-A.jpg",
+  "specs": {
+   "Color": "Lake Blue",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "4673",
+  "name": "VS VS166 Training Badminton Shoes Wide Grey (VS166GR)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-GR-A.jpg",
+  "specs": {
+   "Color": "Grey",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "4672",
+  "name": "VS VS166 Training Badminton Shoes Wide Silver (VS166SF)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-SF-A.jpg",
+  "specs": {
+   "Color": "Silver Flash",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "4671",
+  "name": "VS VS166 Training Badminton Shoes Wide White/Pink (VS166WP)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-WP-A.jpg",
+  "specs": {
+   "Color": "White/Pink",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "4000",
+  "name": "VS VS169 Badminton Shoes Wide White (VS169B)",
+  "price": 1390.0,
+  "img": "https://www.badmintonplaza.com/images/VS169B-A.jpg",
+  "specs": {
+   "Color": "White",
+   "Upper": "TPU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "3999",
+  "name": "VS VS169 Badminton Shoes Wide Yellow (VS169Y)",
+  "price": 1390.0,
+  "img": "https://www.badmintonplaza.com/images/VS169Y-A.jpg",
+  "specs": {
+   "Color": "Yellow",
+   "Upper": "microfiber PU+Mesh vent",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "3962",
+  "name": "VS Badminton Shoes VS177 Wide White (VS177W)",
+  "price": 1490.0,
+  "img": "https://www.badmintonplaza.com/images/VS177W-A.jpg",
+  "specs": {
+   "Color": "White",
+   "Upper": "PU+Breathable mesh",
+   "Outsole": "Wear-Resistance Rubber, High-Strength EVA"
+  },
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "3961",
+  "name": "VS Badminton Shoes VS177 Wide Blue (VS177B)",
+  "price": 1490.0,
+  "img": "https://www.badmintonplaza.com/images/VS177B-A.jpg",
+  "specs": {
+   "Color": "Dark Blue",
+   "Upper": "PU+Breathable mesh",
+   "Outsole": "Wear-Resistance Rubber, High-Strength EVA"
+  },
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "3565",
+  "name": "Victor A362III Badminton Shoes White (A362III-A)",
+  "price": 1590.0,
+  "img": "https://www.badmintonplaza.com/images/A362III-A-A.jpg",
+  "specs": {
+   "Color": "White",
+   "Outsole": "Rubber",
+   "Midsole": "HYPEREVA + Solid EVA",
+   "Upper": "PU Leather+Double Mesh",
+   "Shape": "U-Shape (2.5)"
+  },
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
+  "id": "3307",
+  "name": "VS 176W Badminton Shoes White (VS176W)",
+  "price": 1690.0,
+  "img": "https://www.badmintonplaza.com/images/VS176W-A.jpg",
+  "specs": {
+   "Grade": "Quallified",
+   "Upper material": "PU+Mesh vent",
+   "Sole material": "Rubber + EVA",
+   "Color": "White"
+  },
+  "brand": "Victor",
+  "listed": ""
+ },
+ {
   "id": "4223",
   "name": "VICTOR THRUSTER F Falcon ULTRA C Black  (TK-F-ULTRA-C)",
   "price": 5990.0,
@@ -1540,82 +2070,6 @@
   "listed": "More..."
  },
  {
-  "id": "4063",
-  "name": "VICTOR AURASPEED 9 T (ARS-9T)",
-  "price": 1390.0,
-  "img": "https://www.badmintonplaza.com/images/ARS9-T-A.jpg",
-  "specs": {
-   "Frame Material": "Graphite + Resin",
-   "Shaft Material": "Graphite+Resin+6.8 SHAFT",
-   "Weight / Grip Size": "4U/G5",
-   "String tension": "≤24lbs (10Kg)",
-   "Balance": "",
-   "Flexibility": "",
-   "Colour": "White"
-  },
-  "balance": "",
-  "flex": "",
-  "brand": "Victor",
-  "listed": "More..."
- },
- {
-  "id": "3954",
-  "name": "VICTOR AURASPEED 8000 Free Core Green (ARS-8000R)",
-  "price": 1790.0,
-  "img": "https://www.badmintonplaza.com/images/ARS-8000R-A.jpg",
-  "specs": {
-   "Frame Material": "High Resilience Graphite + Nano Resin",
-   "Shaft Material": "High Resilience Graphite + Nano Resin + 7.0 SHAFT",
-   "Weight / Grip Size": "5U/G5",
-   "String tension": "5U: ≤29lbs (13Kg)",
-   "Flexibility": "",
-   "Colour": "Green"
-  },
-  "flex": "",
-  "brand": "Victor",
-  "listed": "More..."
- },
- {
-  "id": "3933",
-  "name": "VICTOR Lee Zii Jia's Racket TK-RYUGA METALLIC (TK-RYUGA-M)",
-  "price": 5790.0,
-  "img": "https://www.badmintonplaza.com/images/TK-Ryuga-Metallic-A.jpg",
-  "specs": {
-   "Shaft Material": "High ResilienceModulus Graphite + PYROFIL + 6.8 SHAFT",
-   "Frame Material": "High ResilienceModulus Graphite + HARD CORED TECHNOLOGY + Metallic Carbon Fiber",
-   "String tension": "3U:≤32 lbs(14.5Kg)",
-   ": 3U:≤32 lbs(14.5Kg)": "4U:≤31 lbs(14Kg)",
-   "Weight / Grip Size": "3U/G5, 4U/G5",
-   "Length": "675 mm",
-   "Balance": "Head Heavy",
-   "Response Indicator": ""
-  },
-  "length": "675 mm",
-  "balance": "Head Heavy",
-  "brand": "Victor",
-  "listed": "More..."
- },
- {
-  "id": "3904",
-  "name": "VICTOR THRUSTER F HS HENDRA SETIAWAN (TK-F-HS-C)",
-  "price": 5490.0,
-  "img": "https://www.badmintonplaza.com/images/TK-F-HS-C-A.jpg",
-  "specs": {
-   "Shaft Material": "High Resilience Modulus Graphite+PYROFIL+6.5 SHAFT",
-   "Frame Material": "High Resilience Modulus Graphite+PYROFIL+HARD CORED TECHNOLOGY",
-   "String tension": "≤31 lbs (14Kg)",
-   "Weight / Grip Size": "3U/ G5 (Enhanced Head Swing Weight)",
-   "Length": "675 mm",
-   "Balance": "Head Heavy",
-   "Response Indicator": "",
-   "Player": "HENDRA SETIAWAN (Indonesia)"
-  },
-  "length": "675 mm",
-  "balance": "Head Heavy",
-  "brand": "Victor",
-  "listed": "More..."
- },
- {
   "id": "3848",
   "name": "VICTOR AURASPEED 90F J  Purple/Pink (ARS-90F-J)",
   "price": 4890.0,
@@ -1630,25 +2084,6 @@
    "Respose": ""
   },
   "length": "675 mm",
-  "brand": "Victor",
-  "listed": "More..."
- },
- {
-  "id": "3847",
-  "name": "VICTOR NEW TAI TZU YING COLLECTION THRUSTER TTY White  (TK-TTY-A)",
-  "price": 5490.0,
-  "img": "https://www.badmintonplaza.com/images/TK-TTY-A-A.jpg",
-  "specs": {
-   "Shaft Material": "High Resilience Modulus Graphite + PYROFIL + 6.5 SHAFT",
-   "Frame Material": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
-   "String tension": "≤31lbs(14kg)",
-   "Weight / Grip Size": "4U/G5",
-   "Length": "675 mm",
-   "Balance": "Head Heavy",
-   "Response Indicator": ""
-  },
-  "length": "675 mm",
-  "balance": "Head Heavy",
   "brand": "Victor",
   "listed": "More..."
  },
@@ -1746,46 +2181,6 @@
   "listed": "More..."
  },
  {
-  "id": "3448",
-  "name": "VICTOR Lee Zii Jia's New Game Racket TK-RYUGA II (TK-RYUGA-II)",
-  "price": 5590.0,
-  "img": "https://www.badmintonplaza.com/images/TK-RYUGA-II-J-A.jpg",
-  "specs": {
-   "Shaft Material": "High Resilient Modulus Graphite + PYROFIL + 6.6 SHAFT",
-   "Frame Material": "High Resilient Modulus Graphite + PYROFIL + Hard Cored Technology",
-   "String tension": "3U:≤32 lbs(14.5Kg)",
-   ": 3U:≤32 lbs(14.5Kg)": "4U:≤31 lbs(14Kg)",
-   "Weight / Grip Size": "3U/G5, 4U/G5",
-   "Length": "675 mm",
-   "Balance": "Head Heavy",
-   "Response Indicator": ""
-  },
-  "length": "675 mm",
-  "balance": "Head Heavy",
-  "brand": "Victor",
-  "listed": "More..."
- },
- {
-  "id": "3302",
-  "name": "VICTOR THRUSTER K F CLAW LTD White  (TK-FC-LTD-A)",
-  "price": 5390.0,
-  "img": "https://www.badmintonplaza.com/images/TK-FC-A-A.jpg",
-  "specs": {
-   "Shaft Material": "High Resilience Modulus Graphite+PYROFIL+6.5 SHAFT",
-   "Frame Material": "High Resilience Modulus Graphite+Nano Fortify TR+HARD CORED TECHNOLOGY",
-   "String tension": "≤31lbs(14kg)",
-   "Weight / Grip Size": "4U/G5",
-   "Length": "675 mm",
-   "Balance": "Head Heavy",
-   "Response Indicator": "",
-   "Free!": "Cover"
-  },
-  "length": "675 mm",
-  "balance": "Head Heavy",
-  "brand": "Victor",
-  "listed": "More..."
- },
- {
   "id": "3269",
   "name": "VICTOR AURASPEED HYPERSONIC B (ARS-HS)",
   "price": 4400.0,
@@ -1826,46 +2221,6 @@
   "listed": "More..."
  },
  {
-  "id": "3079",
-  "name": "VICTOR Lee Zii Jia's THRUSTER RYUGA (TK-RYUGA-D)",
-  "price": 4900.0,
-  "img": "https://www.badmintonplaza.com/images/TK-RYUKA-A.jpg",
-  "specs": {
-   "Shaft Material": "High Resilient Modulus Graphite + PYROFIL + 6.5 SHAFT",
-   "Frame Material": "High Resilient Modulus Graphite + PYROFIL + Hard Cored Technology",
-   "String tension": "3U:≤32 lbs(14.5Kg)",
-   ": 3U:≤32 lbs(14.5Kg)": "4U:≤31 lbs(14Kg)",
-   ": 4U:≤31 lbs(14Kg)": "5U:≤30 lbs(13.5Kg)",
-   "Weight / Grip Size": "3U/G5, 4U/G5, 4U/G5",
-   "Length": "675 mm",
-   "Balance": "Head Heavy",
-   "Response Indicator": ""
-  },
-  "length": "675 mm",
-  "balance": "Head Heavy",
-  "brand": "Victor",
-  "listed": "More..."
- },
- {
-  "id": "2965",
-  "name": "VICTOR TK-66 I Super Light 66 Sakura Pink  (TK-66I)",
-  "price": 2190.0,
-  "img": "https://www.badmintonplaza.com/images/TK-66I-A.jpg",
-  "specs": {
-   "Shaft Material": "High Resilience Graphite + Nano Resin + 7.0 SHAFT",
-   "Frame Material": "High Resilience Graphite + Nano Resin + Fiber Reinforced System(FRS)",
-   "String tension": "≤30lbs(13.5Kg)",
-   "Weight / Grip Size": "66±2g/G6",
-   "Balance": "Head Heavy",
-   "Length": "675 mm",
-   "Response Indicator": ""
-  },
-  "balance": "Head Heavy",
-  "length": "675 mm",
-  "brand": "Victor",
-  "listed": "More..."
- },
- {
   "id": "2594",
   "name": "VICTOR JETSPEED S 09L Q Rose Red (JS-09L-Q)",
   "price": 2690.0,
@@ -1880,35 +2235,6 @@
    "Weight / Grip Size": "4U/G6",
    "Racket Response Indicator": ""
   },
-  "balance": "",
-  "brand": "Victor",
-  "listed": "More..."
- },
- {
-  "id": "2013",
-  "name": "VICTOR AURASPEED 70K F (ARS-70K-F)",
-  "price": 3990.0,
-  "img": "https://www.badmintonplaza.com/images/ARS-70K-A.jpg",
-  "specs": {},
-  "brand": "Victor",
-  "listed": "More..."
- },
- {
-  "id": "832",
-  "name": "VICTOR BRAVE SWORD 12 Original (BRS-12)",
-  "price": 4190.0,
-  "img": "https://www.badmintonplaza.com/images/BRS-12-A.jpg",
-  "specs": {
-   "Frame Material": "",
-   "Shaft Material": "",
-   "Weight/Grip Size": "3U/G4 , 4U/G5",
-   "Length": "675 mm",
-   "Response": "",
-   "Balance": "",
-   "Stiffness": ""
-  },
-  "weight": "3U/G4 , 4U/G5",
-  "length": "675 mm",
   "balance": "",
   "brand": "Victor",
   "listed": "More..."
@@ -2463,99 +2789,33 @@
   "listed": "More..."
  },
  {
-  "id": "4396",
-  "name": "YONEX NANOFLARE 001 FEEL Green Free! String (NF-001FEX-F-G)",
-  "price": 1350.0,
-  "img": "https://www.badmintonplaza.com/images/NF-001FAX-F-WMG-A.jpg",
+  "id": "4081",
+  "name": "YONEX ASTROX 88D PRO GEN3 Black/Silver (3AX88D-P-BKSI)",
+  "price": 6490.0,
+  "img": "https://www.badmintonplaza.com/images/3AX88D-P-BKSI-A.jpg",
   "specs": {
-   "Frame": "Full Graphite",
-   "Shaft": "Graphite",
-   "Flex": "Hi-Flex",
-   "Weight / Grip Size": "5U (Avg. 78g) / G5",
-   "Stringing Advice": "≤27lbs",
-   "Balance": "Head Light",
-   "Colour": "Green"
-  },
-  "frame": "Full Graphite",
-  "shaft": "Graphite",
-  "flex": "Hi-Flex",
-  "balance": "Head Light",
-  "brand": "Yonex",
-  "listed": "More..."
- },
- {
-  "id": "4300",
-  "name": "YONEX NANOFLARE STARBUCKS Limited Edition Pink (NF-STBUGE-P)",
-  "price": 2990.0,
-  "img": "https://www.badmintonplaza.com/images/NF-STARBUCKS-P-A.jpg",
-  "specs": {
-   "Introducing": "YONEX NANOFLARE STARBUCKS Limited Edition - a co-branded racket with Starbucks. Inspired by electric light, these rackets are light and flexible for easy control on the court. Perfect for beginners and intermediate players.",
-   "Frame": "H.M. Graphite",
-   "Shaft": "H.M. Graphite",
-   "Weight / Grip Size": "4U (Avg. 83g) G5",
-   "Flex": "Medium",
-   "Joint": "Built-in T-Joint",
-   "Length": "675 mm",
-   "Stringing Advice": "19 - 27 lbs",
-   "Colour": "Pink",
-   "Made in": "China"
-  },
-  "frame": "H.M. Graphite",
-  "shaft": "H.M. Graphite",
-  "flex": "Medium",
-  "length": "675 mm",
-  "brand": "Yonex",
-  "listed": "More..."
- },
- {
-  "id": "4277",
-  "name": "YONEX ARCSABER 7 Tour Gray/Yellow (ARC7-TEX-GRY)",
-  "price": 3315.0,
-  "img": "https://www.badmintonplaza.com/images/ARC7-TEX-GRY-A.jpg",
-  "specs": {
-   "Frame": "HM Graphite, POCKETING BOOSTER",
-   "Shaft": "HM Graphite",
-   "Flex": "Medium",
-   "Balance": "Even",
-   "Joint": "Built-in T-Joint / T-ANCHOR",
+   "Frame": "HM Graphite, CFR, Tungsten",
+   "Shaft": "HM Graphite, 2G-Namd™ FLEX FORCE, Ultra PE Fiber",
+   "Head:": "Square/Isometric",
    "Length": "10 mm longer",
-   "Head": "Square/Isometric",
-   "Weight / Grip Size": "4U (Ave.83g) / G5",
-   "Stringing Advice": "19-27lbs",
-   "Colour": "Gray/Yellow",
-   "Made In": "Taiwan"
+   "Flex": "Stiff",
+   "Weight / Grip Size": "4U (Ave.83g) G5",
+   ": 4U (Ave.83g) G5": "3U (Ave.88g) G5",
+   "String Tension": "3U: 21-29lbs",
+   ": 3U: 21-29lbs": "4U: 20-28lbs",
+   "Colour": "Black / Silver",
+   "Balance": "Head Heavy",
+   "Level": "Advance / Professional",
+   "Made in": "Japan"
   },
-  "frame": "HM Graphite, POCKETING BOOSTER",
-  "shaft": "HM Graphite",
-  "flex": "Medium",
-  "balance": "Even",
+  "frame": "HM Graphite, CFR, Tungsten",
+  "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE, Ultra PE Fiber",
   "length": "10 mm longer",
+  "flex": "Stiff",
+  "tension": "3U: 21-29lbs",
+  "balance": "Head Heavy",
   "brand": "Yonex",
-  "listed": "More..."
- },
- {
-  "id": "4083",
-  "name": "YONEX ASTROX 88 PLAY GEN3 Black/Silver (3AX88-PL-BKSI)",
-  "price": 2200.0,
-  "img": "https://www.badmintonplaza.com/images/3AX88-PL-BKSI-A.jpg",
-  "specs": {
-   "Frame": "HM Graphite",
-   "Shaft": "HM Graphite",
-   "Flex": "Medium",
-   "Length": "10mm longer",
-   "Head": "Square/Isometric",
-   "Weight / Grip Size": "4U (Ave.83g) / G5",
-   "Stringing Advice": "20-28lbs",
-   "Colour": "Black/Silver",
-   "B.Pt": "Head Heavy",
-   "Made In": "China"
-  },
-  "frame": "HM Graphite",
-  "shaft": "HM Graphite",
-  "flex": "Medium",
-  "length": "10mm longer",
-  "brand": "Yonex",
-  "listed": "More..."
+  "listed": ""
  },
  {
   "id": "4082",
@@ -2583,34 +2843,357 @@
   "tension": "3U: 21-29lbs",
   "balance": "Head Heavy",
   "brand": "Yonex",
-  "listed": "More..."
+  "listed": ""
  },
  {
-  "id": "4081",
-  "name": "YONEX ASTROX 88D PRO GEN3 Black/Silver (3AX88D-P-BKSI)",
-  "price": 6490.0,
-  "img": "https://www.badmintonplaza.com/images/3AX88D-P-BKSI-A.jpg",
+  "id": "3471",
+  "name": "YONEX ARCSABER 7 Play Gray/Yellow (ARC7-PL-GRY)",
+  "price": 1650.0,
+  "img": "https://www.badmintonplaza.com/images/ARC7-PL-GY-A.jpg",
   "specs": {
-   "Frame": "HM Graphite, CFR, Tungsten",
-   "Shaft": "HM Graphite, 2G-Namd™ FLEX FORCE, Ultra PE Fiber",
-   "Head:": "Square/Isometric",
+   "Frame": "Graphite",
+   "Shaft": "Graphite",
+   "Flex": "Hi-Flex",
+   "Joint": "Built-in T-Joint / T-ANCHOR",
    "Length": "10 mm longer",
-   "Flex": "Stiff",
-   "Weight / Grip Size": "4U (Ave.83g) G5",
-   ": 4U (Ave.83g) G5": "3U (Ave.88g) G5",
-   "String Tension": "3U: 21-29lbs",
-   ": 3U: 21-29lbs": "4U: 20-28lbs",
-   "Colour": "Black / Silver",
-   "Balance": "Head Heavy",
-   "Level": "Advance / Professional",
+   "Head": "Square/Isometric",
+   "Weight / Grip Size": "4U (Ave.83g) / G5",
+   "Stringing Advice": "19-27lbs",
+   "Colour": "Gray/Yellow",
+   "Made In": "China"
+  },
+  "frame": "Graphite",
+  "shaft": "Graphite",
+  "flex": "Hi-Flex",
+  "length": "10 mm longer",
+  "brand": "Yonex",
+  "listed": ""
+ },
+ {
+  "id": "3525",
+  "name": "YONEX ASTROX 77 PRO HIGH ORANGE (AX77PYX-HIOR)",
+  "price": 5390.0,
+  "img": "https://www.badmintonplaza.com/images/AX77-PXY-A.jpg",
+  "specs": {
+   "Frame": "H.M. GRAPHITE",
+   "Shaft": "H.M. GRAPHITE + Namd",
+   "Joint": "NEW Built-in T-Joint",
+   "Length": "10 mm longer",
+   "Weight / Grip Size": "4U (Ave.83g) G5, 3U (Ave.88g) G5",
+   "Stringing Advice": "4U: 20-28 lbs",
+   ": 4U: 20-28 lbs": "3U: 21-29 lbs",
+   "Flex": "Medium",
+   "Colour": "High orange",
    "Made in": "Japan"
   },
-  "frame": "HM Graphite, CFR, Tungsten",
-  "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE, Ultra PE Fiber",
+  "frame": "H.M. GRAPHITE",
+  "shaft": "H.M. GRAPHITE + Namd",
   "length": "10 mm longer",
-  "flex": "Stiff",
-  "tension": "3U: 21-29lbs",
-  "balance": "Head Heavy",
+  "flex": "Medium",
+  "brand": "Yonex",
+  "listed": ""
+ },
+ {
+  "id": "4083",
+  "name": "YONEX ASTROX 88 PLAY GEN3 Black/Silver (3AX88-PL-BKSI)",
+  "price": 2200.0,
+  "img": "https://www.badmintonplaza.com/images/3AX88-PL-BKSI-A.jpg",
+  "specs": {
+   "Frame": "HM Graphite",
+   "Shaft": "HM Graphite",
+   "Flex": "Medium",
+   "Length": "10mm longer",
+   "Head": "Square/Isometric",
+   "Weight / Grip Size": "4U (Ave.83g) / G5",
+   "Stringing Advice": "20-28lbs",
+   "Colour": "Black/Silver",
+   "B.Pt": "Head Heavy",
+   "Made In": "China"
+  },
+  "frame": "HM Graphite",
+  "shaft": "HM Graphite",
+  "flex": "Medium",
+  "length": "10mm longer",
+  "brand": "Yonex",
+  "listed": ""
+ },
+ {
+  "id": "3229",
+  "name": "YONEX ASTROX 99 Play Cherry Sunburst (AX99PEX-CSB)",
+  "price": 1870.0,
+  "img": "https://www.badmintonplaza.com/images/AX99PEX-CHESB-A.jpg",
+  "specs": {
+   "Frame": "HM. Graphite",
+   "Shaft": "HM.Graphite",
+   "Flex": "Medium",
+   "Joint": "NEW Built-in T-Joint",
+   "Length": "10 mm longer",
+   "Head": "Square/Isometric",
+   "Weight / Grip Size": "4U (Ave.83g) G5",
+   "Stringing Advice": "20-28lbs",
+   "Colour": "Cherry Sunburst",
+   "B.Pt": "Head Heavy",
+   "Made In": "China"
+  },
+  "frame": "HM. Graphite",
+  "shaft": "HM.Graphite",
+  "flex": "Medium",
+  "length": "10 mm longer",
+  "brand": "Yonex",
+  "listed": ""
+ },
+ {
+  "id": "3261",
+  "name": "Yonex New ARCSABER 11 PRO Grayish Pearl (ARC11PYX)",
+  "price": 6195.0,
+  "img": "https://www.badmintonplaza.com/images/ARC11PXY-A.jpg",
+  "specs": {
+   "Frame": "HM Graphite / POCKETING BOOSTER",
+   "Shaft": "HM Graphite / SUPER HMG / ULTRA PE FIBER",
+   "Joint": "NEW Built-in T-Joint / T-ANCHOR",
+   "Length": "10 mm longer",
+   "Flex:": "Stiff",
+   "Weight/Grip Size": "3U/ G5",
+   ": 3U/ G5": "4U/G5",
+   "Stringing Advice": "4U: 19 - 27 lbs",
+   ": 4U: 19 - 27 lbs": "3U: 20 - 28",
+   "Made in": "Japan"
+  },
+  "frame": "HM Graphite / POCKETING BOOSTER",
+  "shaft": "HM Graphite / SUPER HMG / ULTRA PE FIBER",
+  "length": "10 mm longer",
+  "weight": "3U/ G5",
+  "brand": "Yonex",
+  "listed": ""
+ },
+ {
+  "id": "4277",
+  "name": "YONEX ARCSABER 7 Tour Gray/Yellow (ARC7-TEX-GRY)",
+  "price": 3315.0,
+  "img": "https://www.badmintonplaza.com/images/ARC7-TEX-GRY-A.jpg",
+  "specs": {
+   "Frame": "HM Graphite, POCKETING BOOSTER",
+   "Shaft": "HM Graphite",
+   "Flex": "Medium",
+   "Balance": "Even",
+   "Joint": "Built-in T-Joint / T-ANCHOR",
+   "Length": "10 mm longer",
+   "Head": "Square/Isometric",
+   "Weight / Grip Size": "4U (Ave.83g) / G5",
+   "Stringing Advice": "19-27lbs",
+   "Colour": "Gray/Yellow",
+   "Made In": "Taiwan"
+  },
+  "frame": "HM Graphite, POCKETING BOOSTER",
+  "shaft": "HM Graphite",
+  "flex": "Medium",
+  "balance": "Even",
+  "length": "10 mm longer",
+  "brand": "Yonex",
+  "listed": ""
+ },
+ {
+  "id": "4396",
+  "name": "YONEX NANOFLARE 001 FEEL Green Free! String (NF-001FEX-F-G)",
+  "price": 1350.0,
+  "img": "https://www.badmintonplaza.com/images/NF-001FAX-F-WMG-A.jpg",
+  "specs": {
+   "Frame": "Full Graphite",
+   "Shaft": "Graphite",
+   "Flex": "Hi-Flex",
+   "Weight / Grip Size": "5U (Avg. 78g) / G5",
+   "Stringing Advice": "≤27lbs",
+   "Balance": "Head Light",
+   "Colour": "Green"
+  },
+  "frame": "Full Graphite",
+  "shaft": "Graphite",
+  "flex": "Hi-Flex",
+  "balance": "Head Light",
+  "brand": "Yonex",
+  "listed": ""
+ },
+ {
+  "id": "4908",
+  "name": "SUWAN Spray Quick Dry Spray and Go 50ml (SUWAN-SPRAY)",
+  "price": 299.0,
+  "img": "https://www.badmintonplaza.com/images/SUWAN-SPRAY-A.jpg",
+  "specs": {
+   "ฟลาโวนอยด์ (Flavonoids)": "สารที่มีคุณสมบัติในการลดการอักเสบและช่วยฟื้นฟูอาการบาดเจ็บ",
+   "วินเทอร์กรีน (Wintergreen)": "สารที่มีคุณสมบัติในการคลายกล้ามเนื้อ บรรเทาอาการปวด กระตุ้นการไหลเวียนเลือด",
+   "ลิโมนีน (Limonene)": "สารที่มีคุณสมบัติในการลดความเครียดและช่วยฟื้นฟูอาการบาดเจ็บ",
+   "แอนติออกซิแดนซ์ (Antioxidants)": "สารที่มีคุณสมบัติในการป้องกัน ลดการอักเสบ และฟื้นฟูเซลล์",
+   "เบต้าไพนีน (Beta Pinene)": "พระเอกของสุวรรณ เบต้าไพนีน เกิดจากการวิจัย สกัดสารสำคัญออกจากมะกรูด การสกัดโดยกรรมวิธีและเครื่องมือเฉพาะ จนได้สารสกัดจากมะกรูดที่มีคุณสมบัติในการบรรเทาอาการปวดและลดการอักเสบได้สูงมาก แม้เป็นการใช้จากภายนอก",
+   "สเปรย์น้ำมันสมุนไพร": "เนื้อบางเบา ซึมซาบเร็ว ไม่เหนียวเหนอะหนะ",
+   "ลดอาการปวด": "กล้ามเนื้อ ข้อ เอ็น ได้อย่างมีประสิทธิภาพ",
+   "ฟื้นฟูอาการบาดเจ็บ": "จากการเล่นกีฬา กิจกรรม หน้าที่การงาน หรืออุบัติเหตุ",
+   "ใช้ได้กับทุกวัย": "ตั้งแต่ เด็กวัยเรียน ผู้ใหญ่วัยทำงาน จนถึงผู้สูงอายุวัยหลังเกษียณ",
+   "กลิ่นหอมไซตรัส": "ผ่อนคลาย ลดความเครียด ช่วยให้สมองหลั่งโดพามีน ลดโอกาสเป็นซึมเศร้า",
+   "ปลอดภัยไร้สารพิษ": "ผลิตจากวัตถุดิบธรรมชาติ มะกรูดพันธ์ดีคัดเกรด จาก ชุมชนเกษตรอินทรีย์บ้านตม ไม่ก่อการสะสมเคมีในร่างกาย",
+   "มีงานวิจัยรองรับ": "ได้รับรางวัลนวัตกรรมระดับประเทศมากมาย เช่น ชีวจิต อวอร์ดส์, 7-innovation, สมุนไพรพรีเมี่ยมจากกรมการแพทย์แผนไทย และชนะเลิศการประกวดนวัตกรรมระดับประเทศ จากกระทรวง อว."
+  },
+  "brand": "Yonex",
+  "listed": ""
+ },
+ {
+  "id": "4904",
+  "name": "VS Training Badminton Shoes Wide VS166 Flash Lake Blue (VS166LB)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-LB-A.jpg",
+  "specs": {
+   "Color": "Lake Blue",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Yonex",
+  "listed": ""
+ },
+ {
+  "id": "4673",
+  "name": "VS VS166 Training Badminton Shoes Wide Grey (VS166GR)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-GR-A.jpg",
+  "specs": {
+   "Color": "Grey",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Yonex",
+  "listed": ""
+ },
+ {
+  "id": "4672",
+  "name": "VS VS166 Training Badminton Shoes Wide Silver (VS166SF)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-SF-A.jpg",
+  "specs": {
+   "Color": "Silver Flash",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Yonex",
+  "listed": ""
+ },
+ {
+  "id": "4671",
+  "name": "VS VS166 Training Badminton Shoes Wide White/Pink (VS166WP)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-WP-A.jpg",
+  "specs": {
+   "Color": "White/Pink",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Yonex",
+  "listed": ""
+ },
+ {
+  "id": "4000",
+  "name": "VS VS169 Badminton Shoes Wide White (VS169B)",
+  "price": 1390.0,
+  "img": "https://www.badmintonplaza.com/images/VS169B-A.jpg",
+  "specs": {
+   "Color": "White",
+   "Upper": "TPU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Yonex",
+  "listed": ""
+ },
+ {
+  "id": "3999",
+  "name": "VS VS169 Badminton Shoes Wide Yellow (VS169Y)",
+  "price": 1390.0,
+  "img": "https://www.badmintonplaza.com/images/VS169Y-A.jpg",
+  "specs": {
+   "Color": "Yellow",
+   "Upper": "microfiber PU+Mesh vent",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Yonex",
+  "listed": ""
+ },
+ {
+  "id": "3962",
+  "name": "VS Badminton Shoes VS177 Wide White (VS177W)",
+  "price": 1490.0,
+  "img": "https://www.badmintonplaza.com/images/VS177W-A.jpg",
+  "specs": {
+   "Color": "White",
+   "Upper": "PU+Breathable mesh",
+   "Outsole": "Wear-Resistance Rubber, High-Strength EVA"
+  },
+  "brand": "Yonex",
+  "listed": ""
+ },
+ {
+  "id": "3961",
+  "name": "VS Badminton Shoes VS177 Wide Blue (VS177B)",
+  "price": 1490.0,
+  "img": "https://www.badmintonplaza.com/images/VS177B-A.jpg",
+  "specs": {
+   "Color": "Dark Blue",
+   "Upper": "PU+Breathable mesh",
+   "Outsole": "Wear-Resistance Rubber, High-Strength EVA"
+  },
+  "brand": "Yonex",
+  "listed": ""
+ },
+ {
+  "id": "3565",
+  "name": "Victor A362III Badminton Shoes White (A362III-A)",
+  "price": 1590.0,
+  "img": "https://www.badmintonplaza.com/images/A362III-A-A.jpg",
+  "specs": {
+   "Color": "White",
+   "Outsole": "Rubber",
+   "Midsole": "HYPEREVA + Solid EVA",
+   "Upper": "PU Leather+Double Mesh",
+   "Shape": "U-Shape (2.5)"
+  },
+  "brand": "Yonex",
+  "listed": ""
+ },
+ {
+  "id": "3307",
+  "name": "VS 176W Badminton Shoes White (VS176W)",
+  "price": 1690.0,
+  "img": "https://www.badmintonplaza.com/images/VS176W-A.jpg",
+  "specs": {
+   "Grade": "Quallified",
+   "Upper material": "PU+Mesh vent",
+   "Sole material": "Rubber + EVA",
+   "Color": "White"
+  },
+  "brand": "Yonex",
+  "listed": ""
+ },
+ {
+  "id": "4300",
+  "name": "YONEX NANOFLARE STARBUCKS Limited Edition Pink (NF-STBUGE-P)",
+  "price": 2990.0,
+  "img": "https://www.badmintonplaza.com/images/NF-STARBUCKS-P-A.jpg",
+  "specs": {
+   "Introducing": "YONEX NANOFLARE STARBUCKS Limited Edition - a co-branded racket with Starbucks. Inspired by electric light, these rackets are light and flexible for easy control on the court. Perfect for beginners and intermediate players.",
+   "Frame": "H.M. Graphite",
+   "Shaft": "H.M. Graphite",
+   "Weight / Grip Size": "4U (Avg. 83g) G5",
+   "Flex": "Medium",
+   "Joint": "Built-in T-Joint",
+   "Length": "675 mm",
+   "Stringing Advice": "19 - 27 lbs",
+   "Colour": "Pink",
+   "Made in": "China"
+  },
+  "frame": "H.M. Graphite",
+  "shaft": "H.M. Graphite",
+  "flex": "Medium",
+  "length": "675 mm",
   "brand": "Yonex",
   "listed": "More..."
  },
@@ -2756,100 +3339,74 @@
   "listed": "More..."
  },
  {
-  "id": "3525",
-  "name": "YONEX ASTROX 77 PRO HIGH ORANGE (AX77PYX-HIOR)",
-  "price": 5390.0,
-  "img": "https://www.badmintonplaza.com/images/AX77-PXY-A.jpg",
-  "specs": {
-   "Frame": "H.M. GRAPHITE",
-   "Shaft": "H.M. GRAPHITE + Namd",
-   "Joint": "NEW Built-in T-Joint",
-   "Length": "10 mm longer",
-   "Weight / Grip Size": "4U (Ave.83g) G5, 3U (Ave.88g) G5",
-   "Stringing Advice": "4U: 20-28 lbs",
-   ": 4U: 20-28 lbs": "3U: 21-29 lbs",
-   "Flex": "Medium",
-   "Colour": "High orange",
-   "Made in": "Japan"
-  },
-  "frame": "H.M. GRAPHITE",
-  "shaft": "H.M. GRAPHITE + Namd",
-  "length": "10 mm longer",
-  "flex": "Medium",
-  "brand": "Yonex",
-  "listed": "More..."
- },
- {
-  "id": "3471",
-  "name": "YONEX ARCSABER 7 Play Gray/Yellow (ARC7-PL-GRY)",
-  "price": 1650.0,
-  "img": "https://www.badmintonplaza.com/images/ARC7-PL-GY-A.jpg",
-  "specs": {
-   "Frame": "Graphite",
-   "Shaft": "Graphite",
-   "Flex": "Hi-Flex",
-   "Joint": "Built-in T-Joint / T-ANCHOR",
-   "Length": "10 mm longer",
-   "Head": "Square/Isometric",
-   "Weight / Grip Size": "4U (Ave.83g) / G5",
-   "Stringing Advice": "19-27lbs",
-   "Colour": "Gray/Yellow",
-   "Made In": "China"
-  },
-  "frame": "Graphite",
-  "shaft": "Graphite",
-  "flex": "Hi-Flex",
-  "length": "10 mm longer",
-  "brand": "Yonex",
-  "listed": "More..."
- },
- {
-  "id": "3261",
-  "name": "Yonex New ARCSABER 11 PRO Grayish Pearl (ARC11PYX)",
-  "price": 6195.0,
-  "img": "https://www.badmintonplaza.com/images/ARC11PXY-A.jpg",
+  "id": "3481",
+  "name": "Yonex New ARCSABER 7 PRO Gray/Yellow (ARC7-PYX)",
+  "price": 5590.0,
+  "img": "https://www.badmintonplaza.com/images/ARC7-PYX-A.jpg",
   "specs": {
    "Frame": "HM Graphite / POCKETING BOOSTER",
-   "Shaft": "HM Graphite / SUPER HMG / ULTRA PE FIBER",
+   "Shaft": "HM Graphite / Ultra PE FIBER",
    "Joint": "NEW Built-in T-Joint / T-ANCHOR",
    "Length": "10 mm longer",
-   "Flex:": "Stiff",
-   "Weight/Grip Size": "3U/ G5",
-   ": 3U/ G5": "4U/G5",
-   "Stringing Advice": "4U: 19 - 27 lbs",
-   ": 4U: 19 - 27 lbs": "3U: 20 - 28",
+   "Flex:": "Medium",
+   "Weight/Grip": "4U (Avg. 83g) G5",
+   "Stringing Advice": "19 - 27 lbs",
    "Made in": "Japan"
   },
   "frame": "HM Graphite / POCKETING BOOSTER",
-  "shaft": "HM Graphite / SUPER HMG / ULTRA PE FIBER",
+  "shaft": "HM Graphite / Ultra PE FIBER",
   "length": "10 mm longer",
-  "weight": "3U/ G5",
   "brand": "Yonex",
   "listed": "More..."
  },
  {
-  "id": "3229",
-  "name": "YONEX ASTROX 99 Play Cherry Sunburst (AX99PEX-CSB)",
-  "price": 1870.0,
-  "img": "https://www.badmintonplaza.com/images/AX99PEX-CHESB-A.jpg",
+  "id": "5269",
+  "name": "MIZUNO Badminton Racket ACROSPEED 0 SEA 4U/G6 (73JTB400954U6)",
+  "price": 6950.0,
+  "img": "https://www.badmintonplaza.com/images/ACROFORCE-0-SEA-A.jpg",
   "specs": {
-   "Frame": "HM. Graphite",
-   "Shaft": "HM.Graphite",
-   "Flex": "Medium",
-   "Joint": "NEW Built-in T-Joint",
-   "Length": "10 mm longer",
-   "Head": "Square/Isometric",
-   "Weight / Grip Size": "4U (Ave.83g) G5",
-   "Stringing Advice": "20-28lbs",
-   "Colour": "Cherry Sunburst",
-   "B.Pt": "Head Heavy",
-   "Made In": "China"
+   "Material": "High modulus graphite,VA POLYMER,4T CARBON",
+   "Length": "675 mm",
+   "Weight/Grip": "4U/G6",
+   "Flex": "Medium ?????",
+   "Balance": "Head Heavy ?????",
+   "String Tension": "≤28lbs",
+   "Features": "TORQUE TECHNOLOGY (T12)",
+   ": TORQUE TECHNOLOGY (T12)": "AEROGROOVE",
+   ": AEROGROOVE": "MAXIZONE FACE",
+   ": MAXIZONE FACE": "ENERZY FRAME"
   },
-  "frame": "HM. Graphite",
-  "shaft": "HM.Graphite",
+  "material": "High modulus graphite,VA POLYMER,4T CARBON",
+  "length": "675 mm",
+  "flex": "Medium ?????",
+  "balance": "Head Heavy ?????",
+  "tension": "≤28lbs",
+  "brand": "Mizuno",
+  "listed": "More..."
+ },
+ {
+  "id": "5268",
+  "name": "MIZUNO Badminton Racket ACROSPEED 2 4U/G6 (73JTB422644U6)",
+  "price": 6950.0,
+  "img": "https://www.badmintonplaza.com/images/ACROSPEED-2-A.jpg",
+  "specs": {
+   "Material": "High Modulus Graphite, Graphite",
+   "Length": "675 mm",
+   "Weight/Grip": "4U/G6",
+   "Flex": "Medium",
+   "Balance": "Even Balance",
+   "String Tension": "≤27lbs",
+   "Features": "TORQUE TECHNOLOGY (T12)",
+   ": TORQUE TECHNOLOGY (T12)": "AEROGROOVE",
+   ": AEROGROOVE": "MAXIZONE FACE",
+   ": MAXIZONE FACE": "ENERZY FRAME"
+  },
+  "material": "High Modulus Graphite, Graphite",
+  "length": "675 mm",
   "flex": "Medium",
-  "length": "10 mm longer",
-  "brand": "Yonex",
+  "balance": "Even Balance",
+  "tension": "≤27lbs",
+  "brand": "Mizuno",
   "listed": "More..."
  },
  {
@@ -3132,6 +3689,189 @@
   "balance": "Head-heavy-leaning (control-optimized balance)",
   "tension": "23-27lbs",
   "brand": "Mizuno",
+  "listed": "More..."
+ },
+ {
+  "id": "4908",
+  "name": "SUWAN Spray Quick Dry Spray and Go 50ml (SUWAN-SPRAY)",
+  "price": 299.0,
+  "img": "https://www.badmintonplaza.com/images/SUWAN-SPRAY-A.jpg",
+  "specs": {
+   "ฟลาโวนอยด์ (Flavonoids)": "สารที่มีคุณสมบัติในการลดการอักเสบและช่วยฟื้นฟูอาการบาดเจ็บ",
+   "วินเทอร์กรีน (Wintergreen)": "สารที่มีคุณสมบัติในการคลายกล้ามเนื้อ บรรเทาอาการปวด กระตุ้นการไหลเวียนเลือด",
+   "ลิโมนีน (Limonene)": "สารที่มีคุณสมบัติในการลดความเครียดและช่วยฟื้นฟูอาการบาดเจ็บ",
+   "แอนติออกซิแดนซ์ (Antioxidants)": "สารที่มีคุณสมบัติในการป้องกัน ลดการอักเสบ และฟื้นฟูเซลล์",
+   "เบต้าไพนีน (Beta Pinene)": "พระเอกของสุวรรณ เบต้าไพนีน เกิดจากการวิจัย สกัดสารสำคัญออกจากมะกรูด การสกัดโดยกรรมวิธีและเครื่องมือเฉพาะ จนได้สารสกัดจากมะกรูดที่มีคุณสมบัติในการบรรเทาอาการปวดและลดการอักเสบได้สูงมาก แม้เป็นการใช้จากภายนอก",
+   "สเปรย์น้ำมันสมุนไพร": "เนื้อบางเบา ซึมซาบเร็ว ไม่เหนียวเหนอะหนะ",
+   "ลดอาการปวด": "กล้ามเนื้อ ข้อ เอ็น ได้อย่างมีประสิทธิภาพ",
+   "ฟื้นฟูอาการบาดเจ็บ": "จากการเล่นกีฬา กิจกรรม หน้าที่การงาน หรืออุบัติเหตุ",
+   "ใช้ได้กับทุกวัย": "ตั้งแต่ เด็กวัยเรียน ผู้ใหญ่วัยทำงาน จนถึงผู้สูงอายุวัยหลังเกษียณ",
+   "กลิ่นหอมไซตรัส": "ผ่อนคลาย ลดความเครียด ช่วยให้สมองหลั่งโดพามีน ลดโอกาสเป็นซึมเศร้า",
+   "ปลอดภัยไร้สารพิษ": "ผลิตจากวัตถุดิบธรรมชาติ มะกรูดพันธ์ดีคัดเกรด จาก ชุมชนเกษตรอินทรีย์บ้านตม ไม่ก่อการสะสมเคมีในร่างกาย",
+   "มีงานวิจัยรองรับ": "ได้รับรางวัลนวัตกรรมระดับประเทศมากมาย เช่น ชีวจิต อวอร์ดส์, 7-innovation, สมุนไพรพรีเมี่ยมจากกรมการแพทย์แผนไทย และชนะเลิศการประกวดนวัตกรรมระดับประเทศ จากกระทรวง อว."
+  },
+  "brand": "Mizuno",
+  "listed": ""
+ },
+ {
+  "id": "4904",
+  "name": "VS Training Badminton Shoes Wide VS166 Flash Lake Blue (VS166LB)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-LB-A.jpg",
+  "specs": {
+   "Color": "Lake Blue",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Mizuno",
+  "listed": ""
+ },
+ {
+  "id": "4673",
+  "name": "VS VS166 Training Badminton Shoes Wide Grey (VS166GR)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-GR-A.jpg",
+  "specs": {
+   "Color": "Grey",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Mizuno",
+  "listed": ""
+ },
+ {
+  "id": "4672",
+  "name": "VS VS166 Training Badminton Shoes Wide Silver (VS166SF)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-SF-A.jpg",
+  "specs": {
+   "Color": "Silver Flash",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Mizuno",
+  "listed": ""
+ },
+ {
+  "id": "4671",
+  "name": "VS VS166 Training Badminton Shoes Wide White/Pink (VS166WP)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-WP-A.jpg",
+  "specs": {
+   "Color": "White/Pink",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Mizuno",
+  "listed": ""
+ },
+ {
+  "id": "4000",
+  "name": "VS VS169 Badminton Shoes Wide White (VS169B)",
+  "price": 1390.0,
+  "img": "https://www.badmintonplaza.com/images/VS169B-A.jpg",
+  "specs": {
+   "Color": "White",
+   "Upper": "TPU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Mizuno",
+  "listed": ""
+ },
+ {
+  "id": "3999",
+  "name": "VS VS169 Badminton Shoes Wide Yellow (VS169Y)",
+  "price": 1390.0,
+  "img": "https://www.badmintonplaza.com/images/VS169Y-A.jpg",
+  "specs": {
+   "Color": "Yellow",
+   "Upper": "microfiber PU+Mesh vent",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Mizuno",
+  "listed": ""
+ },
+ {
+  "id": "3962",
+  "name": "VS Badminton Shoes VS177 Wide White (VS177W)",
+  "price": 1490.0,
+  "img": "https://www.badmintonplaza.com/images/VS177W-A.jpg",
+  "specs": {
+   "Color": "White",
+   "Upper": "PU+Breathable mesh",
+   "Outsole": "Wear-Resistance Rubber, High-Strength EVA"
+  },
+  "brand": "Mizuno",
+  "listed": ""
+ },
+ {
+  "id": "3961",
+  "name": "VS Badminton Shoes VS177 Wide Blue (VS177B)",
+  "price": 1490.0,
+  "img": "https://www.badmintonplaza.com/images/VS177B-A.jpg",
+  "specs": {
+   "Color": "Dark Blue",
+   "Upper": "PU+Breathable mesh",
+   "Outsole": "Wear-Resistance Rubber, High-Strength EVA"
+  },
+  "brand": "Mizuno",
+  "listed": ""
+ },
+ {
+  "id": "3565",
+  "name": "Victor A362III Badminton Shoes White (A362III-A)",
+  "price": 1590.0,
+  "img": "https://www.badmintonplaza.com/images/A362III-A-A.jpg",
+  "specs": {
+   "Color": "White",
+   "Outsole": "Rubber",
+   "Midsole": "HYPEREVA + Solid EVA",
+   "Upper": "PU Leather+Double Mesh",
+   "Shape": "U-Shape (2.5)"
+  },
+  "brand": "Mizuno",
+  "listed": ""
+ },
+ {
+  "id": "3307",
+  "name": "VS 176W Badminton Shoes White (VS176W)",
+  "price": 1690.0,
+  "img": "https://www.badmintonplaza.com/images/VS176W-A.jpg",
+  "specs": {
+   "Grade": "Quallified",
+   "Upper material": "PU+Mesh vent",
+   "Sole material": "Rubber + EVA",
+   "Color": "White"
+  },
+  "brand": "Mizuno",
+  "listed": ""
+ },
+ {
+  "id": "5249",
+  "name": "MAXBOLT PREDATOR Badminton Racket White Free! String+Grip (PREDATOR-WT)",
+  "price": 1390.0,
+  "img": "https://www.badmintonplaza.com/images/PREDATOR-WT-A.jpg",
+  "specs": {
+   "Weight": "83±2gm (4U)",
+   "Balance": "295±3mm",
+   "Flexibility": "Medium",
+   "Length": "675 mm",
+   "Grommet System": "76 Holes",
+   "Grip Size": "G5",
+   "Max Tension": "≤32 lbs",
+   "Play Style": "Attack"
+  },
+  "weight": "83±2gm (4U)",
+  "balance": "295±3mm",
+  "flex": "Medium",
+  "length": "675 mm",
+  "grip": "G5",
+  "brand": "Apacs",
   "listed": "More..."
  },
  {
@@ -3549,6 +4289,382 @@
   "listed": "More..."
  },
  {
+  "id": "4908",
+  "name": "SUWAN Spray Quick Dry Spray and Go 50ml (SUWAN-SPRAY)",
+  "price": 299.0,
+  "img": "https://www.badmintonplaza.com/images/SUWAN-SPRAY-A.jpg",
+  "specs": {
+   "ฟลาโวนอยด์ (Flavonoids)": "สารที่มีคุณสมบัติในการลดการอักเสบและช่วยฟื้นฟูอาการบาดเจ็บ",
+   "วินเทอร์กรีน (Wintergreen)": "สารที่มีคุณสมบัติในการคลายกล้ามเนื้อ บรรเทาอาการปวด กระตุ้นการไหลเวียนเลือด",
+   "ลิโมนีน (Limonene)": "สารที่มีคุณสมบัติในการลดความเครียดและช่วยฟื้นฟูอาการบาดเจ็บ",
+   "แอนติออกซิแดนซ์ (Antioxidants)": "สารที่มีคุณสมบัติในการป้องกัน ลดการอักเสบ และฟื้นฟูเซลล์",
+   "เบต้าไพนีน (Beta Pinene)": "พระเอกของสุวรรณ เบต้าไพนีน เกิดจากการวิจัย สกัดสารสำคัญออกจากมะกรูด การสกัดโดยกรรมวิธีและเครื่องมือเฉพาะ จนได้สารสกัดจากมะกรูดที่มีคุณสมบัติในการบรรเทาอาการปวดและลดการอักเสบได้สูงมาก แม้เป็นการใช้จากภายนอก",
+   "สเปรย์น้ำมันสมุนไพร": "เนื้อบางเบา ซึมซาบเร็ว ไม่เหนียวเหนอะหนะ",
+   "ลดอาการปวด": "กล้ามเนื้อ ข้อ เอ็น ได้อย่างมีประสิทธิภาพ",
+   "ฟื้นฟูอาการบาดเจ็บ": "จากการเล่นกีฬา กิจกรรม หน้าที่การงาน หรืออุบัติเหตุ",
+   "ใช้ได้กับทุกวัย": "ตั้งแต่ เด็กวัยเรียน ผู้ใหญ่วัยทำงาน จนถึงผู้สูงอายุวัยหลังเกษียณ",
+   "กลิ่นหอมไซตรัส": "ผ่อนคลาย ลดความเครียด ช่วยให้สมองหลั่งโดพามีน ลดโอกาสเป็นซึมเศร้า",
+   "ปลอดภัยไร้สารพิษ": "ผลิตจากวัตถุดิบธรรมชาติ มะกรูดพันธ์ดีคัดเกรด จาก ชุมชนเกษตรอินทรีย์บ้านตม ไม่ก่อการสะสมเคมีในร่างกาย",
+   "มีงานวิจัยรองรับ": "ได้รับรางวัลนวัตกรรมระดับประเทศมากมาย เช่น ชีวจิต อวอร์ดส์, 7-innovation, สมุนไพรพรีเมี่ยมจากกรมการแพทย์แผนไทย และชนะเลิศการประกวดนวัตกรรมระดับประเทศ จากกระทรวง อว."
+  },
+  "brand": "Apacs",
+  "listed": ""
+ },
+ {
+  "id": "4904",
+  "name": "VS Training Badminton Shoes Wide VS166 Flash Lake Blue (VS166LB)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-LB-A.jpg",
+  "specs": {
+   "Color": "Lake Blue",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Apacs",
+  "listed": ""
+ },
+ {
+  "id": "4673",
+  "name": "VS VS166 Training Badminton Shoes Wide Grey (VS166GR)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-GR-A.jpg",
+  "specs": {
+   "Color": "Grey",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Apacs",
+  "listed": ""
+ },
+ {
+  "id": "4672",
+  "name": "VS VS166 Training Badminton Shoes Wide Silver (VS166SF)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-SF-A.jpg",
+  "specs": {
+   "Color": "Silver Flash",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Apacs",
+  "listed": ""
+ },
+ {
+  "id": "4671",
+  "name": "VS VS166 Training Badminton Shoes Wide White/Pink (VS166WP)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-WP-A.jpg",
+  "specs": {
+   "Color": "White/Pink",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Apacs",
+  "listed": ""
+ },
+ {
+  "id": "4000",
+  "name": "VS VS169 Badminton Shoes Wide White (VS169B)",
+  "price": 1390.0,
+  "img": "https://www.badmintonplaza.com/images/VS169B-A.jpg",
+  "specs": {
+   "Color": "White",
+   "Upper": "TPU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Apacs",
+  "listed": ""
+ },
+ {
+  "id": "3999",
+  "name": "VS VS169 Badminton Shoes Wide Yellow (VS169Y)",
+  "price": 1390.0,
+  "img": "https://www.badmintonplaza.com/images/VS169Y-A.jpg",
+  "specs": {
+   "Color": "Yellow",
+   "Upper": "microfiber PU+Mesh vent",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "Apacs",
+  "listed": ""
+ },
+ {
+  "id": "3962",
+  "name": "VS Badminton Shoes VS177 Wide White (VS177W)",
+  "price": 1490.0,
+  "img": "https://www.badmintonplaza.com/images/VS177W-A.jpg",
+  "specs": {
+   "Color": "White",
+   "Upper": "PU+Breathable mesh",
+   "Outsole": "Wear-Resistance Rubber, High-Strength EVA"
+  },
+  "brand": "Apacs",
+  "listed": ""
+ },
+ {
+  "id": "3961",
+  "name": "VS Badminton Shoes VS177 Wide Blue (VS177B)",
+  "price": 1490.0,
+  "img": "https://www.badmintonplaza.com/images/VS177B-A.jpg",
+  "specs": {
+   "Color": "Dark Blue",
+   "Upper": "PU+Breathable mesh",
+   "Outsole": "Wear-Resistance Rubber, High-Strength EVA"
+  },
+  "brand": "Apacs",
+  "listed": ""
+ },
+ {
+  "id": "3565",
+  "name": "Victor A362III Badminton Shoes White (A362III-A)",
+  "price": 1590.0,
+  "img": "https://www.badmintonplaza.com/images/A362III-A-A.jpg",
+  "specs": {
+   "Color": "White",
+   "Outsole": "Rubber",
+   "Midsole": "HYPEREVA + Solid EVA",
+   "Upper": "PU Leather+Double Mesh",
+   "Shape": "U-Shape (2.5)"
+  },
+  "brand": "Apacs",
+  "listed": ""
+ },
+ {
+  "id": "3307",
+  "name": "VS 176W Badminton Shoes White (VS176W)",
+  "price": 1690.0,
+  "img": "https://www.badmintonplaza.com/images/VS176W-A.jpg",
+  "specs": {
+   "Grade": "Quallified",
+   "Upper material": "PU+Mesh vent",
+   "Sole material": "Rubber + EVA",
+   "Color": "White"
+  },
+  "brand": "Apacs",
+  "listed": ""
+ },
+ {
+  "id": "5267",
+  "name": "VS X Demon Slayer Collection TOKITO MUICHIRO Free! String+Grip+Cover (TOKITO)",
+  "price": 2390.0,
+  "img": "https://www.badmintonplaza.com/images/DEMSLR-V2-G.jpg",
+  "specs": {
+   "Material": "30T MITSUBISHI CARBON SHEET",
+   "Weight/Grip": "5U (77±2g)/G6",
+   "Length": "675mm.",
+   "Balance": "300±3mm (Head Heavy)",
+   "Flexibility": "Medium",
+   "String Tension": "≤30lbs",
+   "Player Style": "Light weight+Power",
+   "Features": "Aero Box Frame",
+   "Free!!!": "String + Grip + Cover"
+  },
+  "material": "30T MITSUBISHI CARBON SHEET",
+  "length": "675mm.",
+  "balance": "300±3mm (Head Heavy)",
+  "flex": "Medium",
+  "tension": "≤30lbs",
+  "brand": "VS",
+  "listed": "More..."
+ },
+ {
+  "id": "5266",
+  "name": "VS X Demon Slayer Collection MITSURI KANROJI Free! String+Grip+Cover (MITSURI)",
+  "price": 2390.0,
+  "img": "https://www.badmintonplaza.com/images/DEMSLR-V2-E.jpg",
+  "specs": {
+   "Material": "30T MITSUBISHI CARBON SHEET",
+   "Weight/Grip": "5U (77±2g)/G6",
+   "Length": "675mm.",
+   "Balance": "300±3mm (Head Heavy)",
+   "Flexibility": "Medium",
+   "String Tension": "≤30lbs",
+   "Player Style": "Light weight+Power",
+   "Features": "Aero Box Frame",
+   "Free!!!": "String + Grip + Cover"
+  },
+  "material": "30T MITSUBISHI CARBON SHEET",
+  "length": "675mm.",
+  "balance": "300±3mm (Head Heavy)",
+  "flex": "Medium",
+  "tension": "≤30lbs",
+  "brand": "VS",
+  "listed": "More..."
+ },
+ {
+  "id": "5265",
+  "name": "VS X Demon Slayer Collection IGURO OBANAI Free! String+Grip+Cover (IGURO)",
+  "price": 2390.0,
+  "img": "https://www.badmintonplaza.com/images/DEMSLR-V2-I.jpg",
+  "specs": {
+   "Material": "30T MITSUBISHI CARBON SHEET",
+   "Weight/Grip": "4U (82±2g)/G6",
+   "Length": "675mm.",
+   "Balance": "300±3mm (Head Heavy)",
+   "Flexibility": "Medium",
+   "String Tension": "≤30lbs",
+   "Player Style": "Speed+Power",
+   "Features": "Hexagon Blade Frame",
+   "Free!!!": "String + Grip + Cover"
+  },
+  "material": "30T MITSUBISHI CARBON SHEET",
+  "length": "675mm.",
+  "balance": "300±3mm (Head Heavy)",
+  "flex": "Medium",
+  "tension": "≤30lbs",
+  "brand": "VS",
+  "listed": "More..."
+ },
+ {
+  "id": "5264",
+  "name": "VS X Demon Slayer Collection SHINAZUGAWA SANEMI Free! String+Grip+Cover (SHINAZUGAWA )",
+  "price": 2390.0,
+  "img": "https://www.badmintonplaza.com/images/DEMSLR-V2-J.jpg",
+  "specs": {
+   "Material": "30T MITSUBISHI CARBON SHEET",
+   "Weight/Grip": "4U (82±2g)/G6",
+   "Length": "675mm.",
+   "Balance": "295±3mm (Head Heavy)",
+   "Flexibility": "Medium",
+   "String Tension": "≤30lbs",
+   "Player Style": "Speed",
+   "Features": "Hexagon Blade Frame",
+   "Free!!!": "String + Grip + Cover"
+  },
+  "material": "30T MITSUBISHI CARBON SHEET",
+  "length": "675mm.",
+  "balance": "295±3mm (Head Heavy)",
+  "flex": "Medium",
+  "tension": "≤30lbs",
+  "brand": "VS",
+  "listed": "More..."
+ },
+ {
+  "id": "5263",
+  "name": "VS X Demon Slayer Collection KOCHO SHINOBU Free! String+Grip+Cover (KOCHO)",
+  "price": 2390.0,
+  "img": "https://www.badmintonplaza.com/images/DEMSLR-V2-F.jpg",
+  "specs": {
+   "Material": "30T MITSUBISHI CARBON SHEET",
+   "Weight/Grip": "5U (77±2g)/G6",
+   "Length": "675mm.",
+   "Balance": "295±3mm (Head Heavy)",
+   "Flexibility": "Medium",
+   "String Tension": "≤30lbs",
+   "Player Style": "Light weight+Power",
+   "Features": "2 in 1 Frame (Diamond+Aero Box)",
+   "Free!!!": "String + Grip + Cover"
+  },
+  "material": "30T MITSUBISHI CARBON SHEET",
+  "length": "675mm.",
+  "balance": "295±3mm (Head Heavy)",
+  "flex": "Medium",
+  "tension": "≤30lbs",
+  "brand": "VS",
+  "listed": "More..."
+ },
+ {
+  "id": "5262",
+  "name": "VS X Demon Slayer Collection TOMIOKA GIYU Free! String+Grip+Cover (GIYU)",
+  "price": 2390.0,
+  "img": "https://www.badmintonplaza.com/images/DEMSLR-V2-D.jpg",
+  "specs": {
+   "Material": "30T MITSUBISHI CARBON SHEET",
+   "Weight/Grip": "4U (82±2g)/G5",
+   "Length": "675mm.",
+   "Balance": "295±3mm (Head Heavy)",
+   "Flexibility": "Medium",
+   "String Tension": "≤30lbs",
+   "Player Style": "Control+Power",
+   "Features": "2 in 1 Frame (Diamond+Octagon)",
+   "Free!!!": "String + Grip + Cover"
+  },
+  "material": "30T MITSUBISHI CARBON SHEET",
+  "length": "675mm.",
+  "balance": "295±3mm (Head Heavy)",
+  "flex": "Medium",
+  "tension": "≤30lbs",
+  "brand": "VS",
+  "listed": "More..."
+ },
+ {
+  "id": "5261",
+  "name": "VS X Demon Slayer Collection UZUI TENGEN Free! String+Grip+Cover (TENGEN)",
+  "price": 2390.0,
+  "img": "https://www.badmintonplaza.com/images/DEMSLR-V2-K.jpg",
+  "specs": {
+   "Material": "30T MITSUBISHI CARBON SHEET",
+   "Weight/Grip": "4U (82±2g)/G6",
+   "Length": "675mm.",
+   "Balance": "295±3mm (Head Heavy)",
+   "Flexibility": "Medium",
+   "String Tension": "≤30lbs",
+   "Player Style": "Control+Power",
+   "Features": "2 in 1 Frame",
+   "Free!!!": "String + Grip + Cover"
+  },
+  "material": "30T MITSUBISHI CARBON SHEET",
+  "length": "675mm.",
+  "balance": "295±3mm (Head Heavy)",
+  "flex": "Medium",
+  "tension": "≤30lbs",
+  "brand": "VS",
+  "listed": "More..."
+ },
+ {
+  "id": "5260",
+  "name": "VS X Demon Slayer Collection RENGOKU KYOJURO Free! String+Grip+Cover (KYOJURO )",
+  "price": 2390.0,
+  "img": "https://www.badmintonplaza.com/images/DEMSLR-V2-C.jpg",
+  "specs": {
+   "Material": "30T MITSUBISHI CARBON SHEET",
+   "Weight/Grip": "4U (82±2g)/G6",
+   "Length": "675mm.",
+   "Balance": "300±3mm (Head Heavy)",
+   "Flexibility": "Medium",
+   "String Tension": "≤35lbs",
+   "Player Style": "Power",
+   "Features": "POWER BOX FRAME",
+   "Free!!!": "String + Grip + Cover"
+  },
+  "material": "30T MITSUBISHI CARBON SHEET",
+  "length": "675mm.",
+  "balance": "300±3mm (Head Heavy)",
+  "flex": "Medium",
+  "tension": "≤35lbs",
+  "brand": "VS",
+  "listed": "More..."
+ },
+ {
+  "id": "5259",
+  "name": "VS X Demon Slayer Collection IGURO OBANAI Free! String+Grip+Cover (OBANAI)",
+  "price": 2390.0,
+  "img": "https://www.badmintonplaza.com/images/DEMSLR-V2-B.jpg",
+  "specs": {
+   "Material": "30T MITSUBISHI CARBON SHEET",
+   "Weight/Grip": "4U (82±2g)/G5",
+   "Length": "675mm.",
+   "Balance": "305±3mm (Head Heavy)",
+   "Flexibility": "Medium",
+   "String Tension": "≤32lbs",
+   "Player Style": "Power",
+   "Features": "Power Box Frame",
+   "Free!!!": "String + Grip + Cover"
+  },
+  "material": "30T MITSUBISHI CARBON SHEET",
+  "length": "675mm.",
+  "balance": "305±3mm (Head Heavy)",
+  "flex": "Medium",
+  "tension": "≤32lbs",
+  "brand": "VS",
+  "listed": "More..."
+ },
+ {
   "id": "5138",
   "name": "VS Badminton Racket ULTRA WOVEN 88S Blue Free! String+Grip (WOVEN-88S-BL)",
   "price": 3990.0,
@@ -3912,6 +5028,376 @@
   "listed": "More..."
  },
  {
+  "id": "2628",
+  "name": "VS HIGH CARBON 890 Free! String+Grip (HC890)",
+  "price": 2190.0,
+  "img": "https://www.badmintonplaza.com/images/HC-890-A.jpg",
+  "specs": {
+   "Material": "Japan High Modulus Graphite",
+   "Weight/Grip Size": "6U (73±2G)",
+   "Length": "675MM.",
+   "Balance": "312±3MM",
+   "Flexibility": "Medium",
+   "String Tension": "22-28LBS"
+  },
+  "material": "Japan High Modulus Graphite",
+  "weight": "6U (73±2G)",
+  "length": "675MM.",
+  "balance": "312±3MM",
+  "flex": "Medium",
+  "tension": "22-28LBS",
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "4358",
+  "name": "VS ASSASSIN 47 Badminton Racket Free! String + Grip (ASSASSIN47)",
+  "price": 1990.0,
+  "img": "https://www.badmintonplaza.com/images/Assassin47B-A.jpg",
+  "specs": {
+   "Frame Material": "30T MITSUBISHI CARBON SHEET+HEXAGON  BLADE FRAME",
+   "Shaft Material": "7040 SUPERELASTIC",
+   "Weight/Grip": "82±2g (4U)/G6",
+   "Length": "675mm.",
+   "Balance": "295±3mm",
+   "Flexibility": "Medium",
+   "String Tension": "≤30lbs",
+   "Free!!!": "VS String + Grip"
+  },
+  "length": "675mm.",
+  "balance": "295±3mm",
+  "flex": "Medium",
+  "tension": "≤30lbs",
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "3802",
+  "name": "VS Badminton Racket BLADE 7500 White Free! String (BL-7500W)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/BL-7500W-A.jpg",
+  "specs": {
+   "Material": "Japan High Modulus Graphite",
+   "Weight/Grip Size": "82±2g (4U)/G5",
+   "Length": "675 mm.",
+   "Balance": "295±3mm",
+   "Flexibility": "Medium",
+   "String Tension": "22-30lbs"
+  },
+  "material": "Japan High Modulus Graphite",
+  "weight": "82±2g (4U)/G5",
+  "length": "675 mm.",
+  "balance": "295±3mm",
+  "flex": "Medium",
+  "tension": "22-30lbs",
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "4851",
+  "name": "VS Badminton Racket BLADE 9100 Blue Free! String+Grip+Cover (BL-9100)",
+  "price": 1290.0,
+  "img": "https://www.badmintonplaza.com/images/BL-9100-A.jpg",
+  "specs": {
+   "Material": "30T Mitsubushi Carbon Sheet",
+   "Weight/Grip Size": "82±2g (4U) / G6",
+   "Length": "675 mm.",
+   "Balance": "295±3mm",
+   "Flexibility": "Soft",
+   "Color": "Blue",
+   "String Tension": "22-30lbs",
+   "Free": "String+Grip+Cover",
+   "Features": "3 in 1 Frame",
+   ": 3 in 1 Frame": "# Top Frame - Blade Frame",
+   ": # Top Frame - Blade Frame": "# Middle Frame - Diamond",
+   ": # Middle Frame - Diamond": "# Bottom Frame - Octagon Frame Nano Carbon Tube",
+   "Player Style": "Speed + Power"
+  },
+  "material": "30T Mitsubushi Carbon Sheet",
+  "weight": "82±2g (4U) / G6",
+  "length": "675 mm.",
+  "balance": "295±3mm",
+  "flex": "Soft",
+  "tension": "22-30lbs",
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "4401",
+  "name": "VS Badminton Racket KOI White (KOI-W)",
+  "price": 1290.0,
+  "img": "https://www.badmintonplaza.com/images/KOI-W-A.jpg",
+  "specs": {
+   "Material": "30T MITSUBISHI CARBON SHEET",
+   "Weight/Grip Size": "78±2g (5U)/G6",
+   "Length": "675 mm.",
+   "Color": "White",
+   "Balance": "300±3mm",
+   "Flexibility": "Medium",
+   "String Tension": "22-30lbs",
+   "Features": "AERO BOX FRAME,HIGH ELASTICITY",
+   "Free": "String+Grip+Cover"
+  },
+  "material": "30T MITSUBISHI CARBON SHEET",
+  "weight": "78±2g (5U)/G6",
+  "length": "675 mm.",
+  "balance": "300±3mm",
+  "flex": "Medium",
+  "tension": "22-30lbs",
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "4292",
+  "name": "VS Badminton Racket TITAN 10 Special Black Free! String+Grip (TITAN10-BK)",
+  "price": 1290.0,
+  "img": "https://www.badmintonplaza.com/images/TITAN10-BK-A.jpg",
+  "specs": {
+   "Material": "MITSUBISHI CARBON SHEET",
+   "Weight": "82±2g (4U/G5)",
+   "Length": "675mm.",
+   "Balance": "290±3mm",
+   "Flexibility": "Medium",
+   "Max Tension": "≤35LBS",
+   "Color": "Black"
+  },
+  "material": "MITSUBISHI CARBON SHEET",
+  "weight": "82±2g (4U/G5)",
+  "length": "675mm.",
+  "balance": "290±3mm",
+  "flex": "Medium",
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "3461",
+  "name": "VS Badminton Racket ULTRA WOVEN 88S Free! String+Grip (W88-S)",
+  "price": 3490.0,
+  "img": "https://www.badmintonplaza.com/images/W88-S-A.jpg",
+  "specs": {
+   "Material": "40T Japan High Modulus Graphite?Mitsubishi",
+   "Weight/Grip Size": "82±2g (4U/G5)",
+   "Length": "675MM.",
+   "Balance": "290±2mm",
+   "Flexibility": "Medium",
+   "String Tension": "24-30lbs",
+   "Free!": "VS String+Grip"
+  },
+  "material": "40T Japan High Modulus Graphite?Mitsubishi",
+  "weight": "82±2g (4U/G5)",
+  "length": "675MM.",
+  "balance": "290±2mm",
+  "flex": "Medium",
+  "tension": "24-30lbs",
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "4165",
+  "name": "VS DRAGON PRIMER COLOR Free! String+Grip+Cover (DRAGON)",
+  "price": 2190.0,
+  "img": "https://www.badmintonplaza.com/images/DRAGON-MAX-A.jpg",
+  "specs": {
+   "Frame Material": "30T MITSUBISHI CARBON SHEET",
+   "Shaft Material": "30T MITSUBISHI CARBON SHEET",
+   "Weight": "82±2g (4U)",
+   "Length": "675mm.",
+   "Balance": "300±3mm (Head Heavy)",
+   "Flexibility": "Medium",
+   "Max Tension": "≤32lbs",
+   "Features": "HEXAGON FRAME,DOUBLE MOLDING,7040 SUPERELASTIC,PRIMER  COLOR"
+  },
+  "weight": "82±2g (4U)",
+  "length": "675mm.",
+  "balance": "300±3mm (Head Heavy)",
+  "flex": "Medium",
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "3401",
+  "name": "VS KIRIN 80 Light in the Dark Free! String+Grip (KIRIN-80W)",
+  "price": 2990.0,
+  "img": "https://www.badmintonplaza.com/images/KIRIN-80W-A.jpg",
+  "specs": {
+   "Frame Material": "Japan High Modulus Graphite 30T",
+   "Shaft Material": "Japan High Modulus Graphite 40T 6.8mm",
+   "Weight": "82±2g (4U)",
+   "Length": "675mm.",
+   "Balance": "300±3mm (Head Heavy)",
+   "Flexibility": "Medium",
+   "String Tension": "≤38lbs",
+   "Free!!!": "String + Grip"
+  },
+  "weight": "82±2g (4U)",
+  "length": "675mm.",
+  "balance": "300±3mm (Head Heavy)",
+  "flex": "Medium",
+  "tension": "≤38lbs",
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "4908",
+  "name": "SUWAN Spray Quick Dry Spray and Go 50ml (SUWAN-SPRAY)",
+  "price": 299.0,
+  "img": "https://www.badmintonplaza.com/images/SUWAN-SPRAY-A.jpg",
+  "specs": {
+   "ฟลาโวนอยด์ (Flavonoids)": "สารที่มีคุณสมบัติในการลดการอักเสบและช่วยฟื้นฟูอาการบาดเจ็บ",
+   "วินเทอร์กรีน (Wintergreen)": "สารที่มีคุณสมบัติในการคลายกล้ามเนื้อ บรรเทาอาการปวด กระตุ้นการไหลเวียนเลือด",
+   "ลิโมนีน (Limonene)": "สารที่มีคุณสมบัติในการลดความเครียดและช่วยฟื้นฟูอาการบาดเจ็บ",
+   "แอนติออกซิแดนซ์ (Antioxidants)": "สารที่มีคุณสมบัติในการป้องกัน ลดการอักเสบ และฟื้นฟูเซลล์",
+   "เบต้าไพนีน (Beta Pinene)": "พระเอกของสุวรรณ เบต้าไพนีน เกิดจากการวิจัย สกัดสารสำคัญออกจากมะกรูด การสกัดโดยกรรมวิธีและเครื่องมือเฉพาะ จนได้สารสกัดจากมะกรูดที่มีคุณสมบัติในการบรรเทาอาการปวดและลดการอักเสบได้สูงมาก แม้เป็นการใช้จากภายนอก",
+   "สเปรย์น้ำมันสมุนไพร": "เนื้อบางเบา ซึมซาบเร็ว ไม่เหนียวเหนอะหนะ",
+   "ลดอาการปวด": "กล้ามเนื้อ ข้อ เอ็น ได้อย่างมีประสิทธิภาพ",
+   "ฟื้นฟูอาการบาดเจ็บ": "จากการเล่นกีฬา กิจกรรม หน้าที่การงาน หรืออุบัติเหตุ",
+   "ใช้ได้กับทุกวัย": "ตั้งแต่ เด็กวัยเรียน ผู้ใหญ่วัยทำงาน จนถึงผู้สูงอายุวัยหลังเกษียณ",
+   "กลิ่นหอมไซตรัส": "ผ่อนคลาย ลดความเครียด ช่วยให้สมองหลั่งโดพามีน ลดโอกาสเป็นซึมเศร้า",
+   "ปลอดภัยไร้สารพิษ": "ผลิตจากวัตถุดิบธรรมชาติ มะกรูดพันธ์ดีคัดเกรด จาก ชุมชนเกษตรอินทรีย์บ้านตม ไม่ก่อการสะสมเคมีในร่างกาย",
+   "มีงานวิจัยรองรับ": "ได้รับรางวัลนวัตกรรมระดับประเทศมากมาย เช่น ชีวจิต อวอร์ดส์, 7-innovation, สมุนไพรพรีเมี่ยมจากกรมการแพทย์แผนไทย และชนะเลิศการประกวดนวัตกรรมระดับประเทศ จากกระทรวง อว."
+  },
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "4904",
+  "name": "VS Training Badminton Shoes Wide VS166 Flash Lake Blue (VS166LB)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-LB-A.jpg",
+  "specs": {
+   "Color": "Lake Blue",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "4673",
+  "name": "VS VS166 Training Badminton Shoes Wide Grey (VS166GR)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-GR-A.jpg",
+  "specs": {
+   "Color": "Grey",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "4672",
+  "name": "VS VS166 Training Badminton Shoes Wide Silver (VS166SF)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-SF-A.jpg",
+  "specs": {
+   "Color": "Silver Flash",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "4671",
+  "name": "VS VS166 Training Badminton Shoes Wide White/Pink (VS166WP)",
+  "price": 1190.0,
+  "img": "https://www.badmintonplaza.com/images/VS166-WP-A.jpg",
+  "specs": {
+   "Color": "White/Pink",
+   "Upper": "PU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "4000",
+  "name": "VS VS169 Badminton Shoes Wide White (VS169B)",
+  "price": 1390.0,
+  "img": "https://www.badmintonplaza.com/images/VS169B-A.jpg",
+  "specs": {
+   "Color": "White",
+   "Upper": "TPU+Mesh vent",
+   "Midsole": "Carbon Fiber Plate",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "3999",
+  "name": "VS VS169 Badminton Shoes Wide Yellow (VS169Y)",
+  "price": 1390.0,
+  "img": "https://www.badmintonplaza.com/images/VS169Y-A.jpg",
+  "specs": {
+   "Color": "Yellow",
+   "Upper": "microfiber PU+Mesh vent",
+   "Sole": "EVA + Rubber"
+  },
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "3962",
+  "name": "VS Badminton Shoes VS177 Wide White (VS177W)",
+  "price": 1490.0,
+  "img": "https://www.badmintonplaza.com/images/VS177W-A.jpg",
+  "specs": {
+   "Color": "White",
+   "Upper": "PU+Breathable mesh",
+   "Outsole": "Wear-Resistance Rubber, High-Strength EVA"
+  },
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "3961",
+  "name": "VS Badminton Shoes VS177 Wide Blue (VS177B)",
+  "price": 1490.0,
+  "img": "https://www.badmintonplaza.com/images/VS177B-A.jpg",
+  "specs": {
+   "Color": "Dark Blue",
+   "Upper": "PU+Breathable mesh",
+   "Outsole": "Wear-Resistance Rubber, High-Strength EVA"
+  },
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "3565",
+  "name": "Victor A362III Badminton Shoes White (A362III-A)",
+  "price": 1590.0,
+  "img": "https://www.badmintonplaza.com/images/A362III-A-A.jpg",
+  "specs": {
+   "Color": "White",
+   "Outsole": "Rubber",
+   "Midsole": "HYPEREVA + Solid EVA",
+   "Upper": "PU Leather+Double Mesh",
+   "Shape": "U-Shape (2.5)"
+  },
+  "brand": "VS",
+  "listed": ""
+ },
+ {
+  "id": "3307",
+  "name": "VS 176W Badminton Shoes White (VS176W)",
+  "price": 1690.0,
+  "img": "https://www.badmintonplaza.com/images/VS176W-A.jpg",
+  "specs": {
+   "Grade": "Quallified",
+   "Upper material": "PU+Mesh vent",
+   "Sole material": "Rubber + EVA",
+   "Color": "White"
+  },
+  "brand": "VS",
+  "listed": ""
+ },
+ {
   "id": "4893",
   "name": "VS HIGH CARBON HC880 II Super Light 5U Free! String+Grip+Cover (HC880-II)",
   "price": 2590.0,
@@ -3966,7 +5452,7 @@
  {
   "id": "4883",
   "name": "VS Badminton Racket HIGH CARBON 900 II Free! String+Grip (HC900-II)",
-  "price": 3790.0,
+  "price": 3490.0,
   "img": "https://www.badmintonplaza.com/images/HC900-II-A.jpg",
   "specs": {
    "Material": "TORAYCA M40 CARBON + 40T MITSUBISHI CARBON SHEET",
@@ -4072,35 +5558,6 @@
   "length": "675 mm.",
   "balance": "302±3mm",
   "flex": "Medium",
-  "tension": "22-30lbs",
-  "brand": "VS",
-  "listed": "More..."
- },
- {
-  "id": "4851",
-  "name": "VS Badminton Racket BLADE 9100 Blue Free! String+Grip+Cover (BL-9100)",
-  "price": 1290.0,
-  "img": "https://www.badmintonplaza.com/images/BL-9100-A.jpg",
-  "specs": {
-   "Material": "30T Mitsubushi Carbon Sheet",
-   "Weight/Grip Size": "82±2g (4U) / G6",
-   "Length": "675 mm.",
-   "Balance": "295±3mm",
-   "Flexibility": "Soft",
-   "Color": "Blue",
-   "String Tension": "22-30lbs",
-   "Free": "String+Grip+Cover",
-   "Features": "3 in 1 Frame",
-   ": 3 in 1 Frame": "# Top Frame - Blade Frame",
-   ": # Top Frame - Blade Frame": "# Middle Frame - Diamond",
-   ": # Middle Frame - Diamond": "# Bottom Frame - Octagon Frame Nano Carbon Tube",
-   "Player Style": "Speed + Power"
-  },
-  "material": "30T Mitsubushi Carbon Sheet",
-  "weight": "82±2g (4U) / G6",
-  "length": "675 mm.",
-  "balance": "295±3mm",
-  "flex": "Soft",
   "tension": "22-30lbs",
   "brand": "VS",
   "listed": "More..."
@@ -4613,6 +6070,29 @@
   "listed": "More..."
  },
  {
+  "id": "4430",
+  "name": "VS X Demon Slayer Collection NEZUKO Free! String+Grip+Cover (NEZUKO)",
+  "price": 2190.0,
+  "img": "https://www.badmintonplaza.com/images/DEMSLR-NEZ-A.jpg",
+  "specs": {
+   "Material": "30T MITSUBISHI CARBON SHEET",
+   "Weight/Grip": "5U (77±2g)/G6",
+   "Length": "675mm.",
+   "Balance": "305±3mm (Head Heavy)",
+   "Flexibility": "Medium",
+   "String Tension": "≤30lbs",
+   "Features": "Slim Aero Box Frame,  6.5 Nano Carbon Super Slim, Double Molding",
+   "Free!!!": "String + Grip + Cover"
+  },
+  "material": "30T MITSUBISHI CARBON SHEET",
+  "length": "675mm.",
+  "balance": "305±3mm (Head Heavy)",
+  "flex": "Medium",
+  "tension": "≤30lbs",
+  "brand": "VS",
+  "listed": "More..."
+ },
+ {
   "id": "4429",
   "name": "VS X Demon Slayer Collection ZENITSUFree! String+Grip+Cover (ZENITSU)",
   "price": 2190.0,
@@ -4682,15 +6162,15 @@
   "listed": "More..."
  },
  {
-  "id": "4401",
-  "name": "VS Badminton Racket KOI White (KOI-W)",
+  "id": "4402",
+  "name": "VS Badminton Racket KOI Blue (KOI-B)",
   "price": 1290.0,
-  "img": "https://www.badmintonplaza.com/images/KOI-W-A.jpg",
+  "img": "https://www.badmintonplaza.com/images/KOI-B-A.jpg",
   "specs": {
    "Material": "30T MITSUBISHI CARBON SHEET",
    "Weight/Grip Size": "78±2g (5U)/G6",
    "Length": "675 mm.",
-   "Color": "White",
+   "Color": "Blue",
    "Balance": "300±3mm",
    "Flexibility": "Medium",
    "String Tension": "22-30lbs",
@@ -4849,28 +6329,6 @@
   "listed": "More..."
  },
  {
-  "id": "4358",
-  "name": "VS ASSASSIN 47 Badminton Racket Free! String + Grip (ASSASSIN47)",
-  "price": 1990.0,
-  "img": "https://www.badmintonplaza.com/images/Assassin47B-A.jpg",
-  "specs": {
-   "Frame Material": "30T MITSUBISHI CARBON SHEET+HEXAGON  BLADE FRAME",
-   "Shaft Material": "7040 SUPERELASTIC",
-   "Weight/Grip": "82±2g (4U)/G6",
-   "Length": "675mm.",
-   "Balance": "295±3mm",
-   "Flexibility": "Medium",
-   "String Tension": "≤30lbs",
-   "Free!!!": "VS String + Grip"
-  },
-  "length": "675mm.",
-  "balance": "295±3mm",
-  "flex": "Medium",
-  "tension": "≤30lbs",
-  "brand": "VS",
-  "listed": "More..."
- },
- {
   "id": "4356",
   "name": "VS FIRE DEMON Black/Purple Free! String+Grip+Cover (FIREDEMON-P)",
   "price": 2990.0,
@@ -5012,28 +6470,6 @@
   "listed": "More..."
  },
  {
-  "id": "4292",
-  "name": "VS Badminton Racket TITAN 10 Special Black Free! String+Grip (TITAN10-BK)",
-  "price": 1290.0,
-  "img": "https://www.badmintonplaza.com/images/TITAN10-BK-A.jpg",
-  "specs": {
-   "Material": "MITSUBISHI CARBON SHEET",
-   "Weight": "82±2g (4U/G5)",
-   "Length": "675mm.",
-   "Balance": "290±3mm",
-   "Flexibility": "Medium",
-   "Max Tension": "≤35LBS",
-   "Color": "Black"
-  },
-  "material": "MITSUBISHI CARBON SHEET",
-  "weight": "82±2g (4U/G5)",
-  "length": "675mm.",
-  "balance": "290±3mm",
-  "flex": "Medium",
-  "brand": "VS",
-  "listed": "More..."
- },
- {
   "id": "4232",
   "name": "VS Badminton Racket ACE POWER 11 MAX LTD White/Gold (AP-11MAX-LTD)",
   "price": 1990.0,
@@ -5150,28 +6586,6 @@
   "grip": "G5",
   "flex": "Medium to Stiff",
   "tension": "≤28lbs",
-  "brand": "VS",
-  "listed": "More..."
- },
- {
-  "id": "4165",
-  "name": "VS DRAGON PRIMER COLOR Free! String+Grip+Cover (DRAGON)",
-  "price": 2190.0,
-  "img": "https://www.badmintonplaza.com/images/DRAGON-MAX-A.jpg",
-  "specs": {
-   "Frame Material": "30T MITSUBISHI CARBON SHEET",
-   "Shaft Material": "30T MITSUBISHI CARBON SHEET",
-   "Weight": "82±2g (4U)",
-   "Length": "675mm.",
-   "Balance": "300±3mm (Head Heavy)",
-   "Flexibility": "Medium",
-   "Max Tension": "≤32lbs",
-   "Features": "HEXAGON FRAME,DOUBLE MOLDING,7040 SUPERELASTIC,PRIMER  COLOR"
-  },
-  "weight": "82±2g (4U)",
-  "length": "675mm.",
-  "balance": "300±3mm (Head Heavy)",
-  "flex": "Medium",
   "brand": "VS",
   "listed": "More..."
  },
@@ -5414,28 +6828,6 @@
   "listed": "More..."
  },
  {
-  "id": "3802",
-  "name": "VS Badminton Racket BLADE 7500 White Free! String (BL-7500W)",
-  "price": 1190.0,
-  "img": "https://www.badmintonplaza.com/images/BL-7500W-A.jpg",
-  "specs": {
-   "Material": "Japan High Modulus Graphite",
-   "Weight/Grip Size": "82±2g (4U)/G5",
-   "Length": "675 mm.",
-   "Balance": "295±3mm",
-   "Flexibility": "Medium",
-   "String Tension": "22-30lbs"
-  },
-  "material": "Japan High Modulus Graphite",
-  "weight": "82±2g (4U)/G5",
-  "length": "675 mm.",
-  "balance": "295±3mm",
-  "flex": "Medium",
-  "tension": "22-30lbs",
-  "brand": "VS",
-  "listed": "More..."
- },
- {
   "id": "3800",
   "name": "VS YOULONG Original Badminton Racket Green Free! String + Grip (YOULONG-G)",
   "price": 2990.0,
@@ -5622,29 +7014,6 @@
   "listed": "More..."
  },
  {
-  "id": "3461",
-  "name": "VS Badminton Racket ULTRA WOVEN 88S Free! String+Grip (W88-S)",
-  "price": 3490.0,
-  "img": "https://www.badmintonplaza.com/images/W88-S-A.jpg",
-  "specs": {
-   "Material": "40T Japan High Modulus Graphite?Mitsubishi",
-   "Weight/Grip Size": "82±2g (4U/G5)",
-   "Length": "675MM.",
-   "Balance": "290±2mm",
-   "Flexibility": "Medium",
-   "String Tension": "24-30lbs",
-   "Free!": "VS String+Grip"
-  },
-  "material": "40T Japan High Modulus Graphite?Mitsubishi",
-  "weight": "82±2g (4U/G5)",
-  "length": "675MM.",
-  "balance": "290±2mm",
-  "flex": "Medium",
-  "tension": "24-30lbs",
-  "brand": "VS",
-  "listed": "More..."
- },
- {
   "id": "3417",
   "name": "VS SOUL SWORD Blue Free! String+Grip (SSW-B)",
   "price": 1590.0,
@@ -5664,29 +7033,6 @@
   "balance": "300±2mm (Head Heavy)",
   "flex": "Medium",
   "tension": "24-30lbs",
-  "brand": "VS",
-  "listed": "More..."
- },
- {
-  "id": "3401",
-  "name": "VS KIRIN 80 Light in the Dark Free! String+Grip (KIRIN-80W)",
-  "price": 2990.0,
-  "img": "https://www.badmintonplaza.com/images/KIRIN-80W-A.jpg",
-  "specs": {
-   "Frame Material": "Japan High Modulus Graphite 30T",
-   "Shaft Material": "Japan High Modulus Graphite 40T 6.8mm",
-   "Weight": "82±2g (4U)",
-   "Length": "675mm.",
-   "Balance": "300±3mm (Head Heavy)",
-   "Flexibility": "Medium",
-   "String Tension": "≤38lbs",
-   "Free!!!": "String + Grip"
-  },
-  "weight": "82±2g (4U)",
-  "length": "675mm.",
-  "balance": "300±3mm (Head Heavy)",
-  "flex": "Medium",
-  "tension": "≤38lbs",
   "brand": "VS",
   "listed": "More..."
  },
@@ -5855,28 +7201,6 @@
   "balance": "296±2mm (Head Heavy)",
   "flex": "Medium",
   "tension": "22-30lbs",
-  "brand": "VS",
-  "listed": "More..."
- },
- {
-  "id": "2628",
-  "name": "VS HIGH CARBON 890 Free! String+Grip (HC890)",
-  "price": 2190.0,
-  "img": "https://www.badmintonplaza.com/images/HC-890-A.jpg",
-  "specs": {
-   "Material": "Japan High Modulus Graphite",
-   "Weight/Grip Size": "6U (73±2G)",
-   "Length": "675MM.",
-   "Balance": "312±3MM",
-   "Flexibility": "Medium",
-   "String Tension": "22-28LBS"
-  },
-  "material": "Japan High Modulus Graphite",
-  "weight": "6U (73±2G)",
-  "length": "675MM.",
-  "balance": "312±3MM",
-  "flex": "Medium",
-  "tension": "22-28LBS",
   "brand": "VS",
   "listed": "More..."
  }

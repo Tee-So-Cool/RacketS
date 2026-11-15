@@ -8,6 +8,7 @@ urls = sorted(set(re.findall(r'https://www\.yonex\.com/badminton/racquets/[a-z0-
 KEYS = ['Flex','Frame','Shaft','Joint','Length','Weight / Grip','Stringing Advice','Recommended String','Color(s)','Item Code','Made In','Balance']
 out = []
 for u in urls:
+    time.sleep(2)   # polite: one page every 2 s
     try:
         req = urllib.request.Request(u, headers={'User-Agent': 'Mozilla/5.0 (Macintosh)'})
         t = urllib.request.urlopen(req, timeout=30).read().decode('utf-8', 'ignore')

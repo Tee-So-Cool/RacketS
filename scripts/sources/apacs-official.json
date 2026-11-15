@@ -2,6 +2,29 @@
  {
   "shop": "apacs-badminton.co.uk",
   "brand": "Apacs",
+  "name": "Apacs Stardom Pro III",
+  "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=332",
+  "price": "",
+  "currency": "",
+  "img": "",
+  "lines": [
+   "Frame Material: 30T Japan H.M. Graphite",
+   "Shaft Material: 50T Japan H.M. Graphite",
+   "Frame Type: Hi-Tension Speed Frame",
+   "Grommet: 76 Holes",
+   "Shaft Diameter: 6.8mm Slim Shaft",
+   "Weight: 86g +/- 2g. (4U)",
+   "Balance Point: 288 +/- 3mm (Even Balance)",
+   "Flex: 9.0 (Slightly Flexible)",
+   "Grip: G2",
+   "Length: 672mm",
+   "Max Tension: 38 lbs."
+  ],
+  "options": []
+ },
+ {
+  "shop": "apacs-badminton.co.uk",
+  "brand": "Apacs",
   "name": "Apacs Cross Court PRO",
   "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=682",
   "price": "",
@@ -215,6 +238,72 @@
    "Flex: 8.0 (Medium Stiff)",
    "Grommet: 72 Holes",
    "Max Tension: 38 LBS(17.2KG)",
+   "Grip Size: G2"
+  ],
+  "options": []
+ },
+ {
+  "shop": "apacs-badminton.co.uk",
+  "brand": "Apacs",
+  "name": "Apacs Z POWER 800 RP+ - Black",
+  "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=711",
+  "price": "",
+  "currency": "",
+  "img": "",
+  "lines": [
+   "Frame Material: 30 Tonne Japan Graphite",
+   "Shaft Material: 24 Tonne Japan Graphite",
+   "Frame Material: Slim Box",
+   "Shaft Diameter: 7.0MM",
+   "Weight: 82+2G (6U)",
+   "Balance Point: 295+2MM (Head Heavy)",
+   "Flex: 10.0 (Flexible)",
+   "Grommet: 76 Holes",
+   "Max Tension: 38 lbs.",
+   "Grip Size: G2"
+  ],
+  "options": []
+ },
+ {
+  "shop": "apacs-badminton.co.uk",
+  "brand": "Apacs",
+  "name": "Apacs Z POWER 900 RP+ LITE - Black",
+  "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=712",
+  "price": "",
+  "currency": "",
+  "img": "",
+  "lines": [
+   "Frame Material: 30 Tonne Japan Graphite",
+   "Shaft Material: 24 Tonne Japan Graphite",
+   "Frame Material: Slim Box",
+   "Shaft Diameter: 6.8MM (Extra Slim Shaft)",
+   "Weight: 78+2G (6U)",
+   "Balance Point: 300+2MM (Head Heavy)",
+   "Flex: 10.0 (Flexible)",
+   "Grommet: 76 Holes",
+   "Max Tension: 35 lbs.",
+   "Grip Size: G2"
+  ],
+  "options": []
+ },
+ {
+  "shop": "apacs-badminton.co.uk",
+  "brand": "Apacs",
+  "name": "Apacs Z POWER 900 RP+ LITE - Turquoise",
+  "url": "https://apacs-badminton.co.uk/index.php?route=product/product&product_id=705",
+  "price": "",
+  "currency": "",
+  "img": "",
+  "lines": [
+   "Frame Material: 30 Tonne Japan Graphite",
+   "Shaft Material: 24 Tonne Japan Graphite",
+   "Frame Material: Slim Box",
+   "Shaft Diameter: 6.8MM (Extra Slim Shaft)",
+   "Weight: 78+2G (6U)",
+   "Balance Point: 300+2MM (Head Heavy)",
+   "Flex: 10.0 (Flexible)",
+   "Grommet: 76 Holes",
+   "Max Tension: 35 lbs.",
    "Grip Size: G2"
   ],
   "options": []
@@ -461,7 +550,7 @@
    "Shaft Material: 24T Japan High Modulus Graphite",
    "Frame Type: High Speed Slim Wide",
    "Shaft Diameter: 7.0mm",
-   "Weight: 87+2g (3U)"
+   "Weight: 77+2g (6U)"
   ],
   "options": []
  },

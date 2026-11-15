@@ -18,7 +18,7 @@ ALIASES = [(r'high carbon', 'hc'), (r'sward', 'sword'), (r"lee zii jia'?s( game)
            (r'\bcentury tournament\b', 'century tourney'), (r'\bthruster (?:k )?(\d+) light\b', r'thruster \1l'), (r'\bjs-(?=\d)', 'jetspeed s '),
            (r'(?<!ultra )\bwoven ?(\d{2})\b', r'ultra woven \1'), (r'\bgforce\b', 'g-force'), (r'\bturbocharging\b', 'turbo charging'),
            (r'\bbigbang\b', 'big bang'), (r'(\d)\+', r'\1 plus')]
-SKIP = r'^x |\bx (doraemon|ultraman|one piece|demon slayer|pokemon|butterbear|dragon ball|b\.duck)|merchandise|world tour finals|china open|training|felet|kumpoo|starbucks|^all|^flare$|^woven$|^$|drm set|gb$|^astrox (clear|feel)$|hmr light mi|hwqkl|^astrox 88 tour$'
+SKIP = r'\bshoes?\b|\bsocks?\b|^x |\bx (doraemon|ultraman|one piece|demon slayer|pokemon|butterbear|dragon ball|b\.duck)|merchandise|world tour finals|china open|training|felet|kumpoo|starbucks|^all|^flare$|^woven$|^$|drm set|gb$|^astrox (clear|feel)$|hmr light mi|hwqkl|^astrox 88 tour$'
 
 import unicodedata
 def clean(title):

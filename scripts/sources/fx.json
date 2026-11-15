@@ -1,27 +1,27 @@
 {
  "source": "European Central Bank reference rates via frankfurter.app",
- "date": "2026-10-27",
+ "date": "2026-11-13",
  "toTHB": {
-  "USD": 33.77,
-  "GBP": 45.009,
-  "EUR": 37.654,
-  "MYR": 8.2589,
-  "SGD": 26.359,
-  "AUD": 23.747,
-  "INR": 0.35503,
-  "JPY": 0.21398,
-  "CNY": 5.0649,
-  "CAD": 24.082,
-  "HKD": 4.305,
-  "IDR": 0.0018618,
-  "PHP": 0.52771
+  "USD": 33.915,
+  "GBP": 44.858,
+  "EUR": 37.483,
+  "MYR": 8.2973,
+  "SGD": 26.33,
+  "AUD": 23.013,
+  "INR": 0.35986,
+  "JPY": 0.21197,
+  "CNY": 5.0833,
+  "CAD": 23.787,
+  "HKD": 4.3226,
+  "IDR": 0.0018589,
+  "PHP": 0.53148
  },
  "extraSource": "open.er-api.com (currencies ECB does not publish)",
- "extraDate": "Tue, 27 Oct 2026",
+ "extraDate": "Sun, 15 Nov 2026",
  "extraToTHB": {
-  "VND": 0.001308,
-  "TWD": 1.037256,
-  "KRW": 0.025497,
-  "BDT": 0.272872
+  "VND": 0.001316,
+  "TWD": 1.029489,
+  "KRW": 0.025358,
+  "BDT": 0.272841
  }
 }

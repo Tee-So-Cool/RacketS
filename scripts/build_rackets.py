@@ -325,7 +325,7 @@ shops = [x for x in (from_shop(p) for p in shop_pages) if x]
 # a bare series name ("Thruster") is not one either.
 from plaza_match import tokens as ptokens
 OFFICIAL = {'th.victorsport.com', 'sg.lining.studio', 'in.lining.studio', 'vssportsthailand.com', 'badmintonplaza.com', 'feletsports.com', 'mizunobadminton-asia.com'}
-NOT_RACKET_MODEL = re.compile(r'\b(set|combo|pack|duo|kit|bundle|gift|box|vip|merchandise|poster|frame only|training|trainer|kids?)\b|diwali|boxset|hwqkl|chinese\s+(?:new\s+)?year|'
+NOT_RACKET_MODEL = re.compile(r'\b(shoes?|socks?|set|combo|pack|duo|kit|bundle|gift|box|vip|merchandise|poster|frame only|training|trainer|kids?)\b|diwali|boxset|hwqkl|chinese\s+(?:new\s+)?year|'
                               r'^yonex (?:astrox|nanoflare) (?:clear|feel|ability)\b|^yonex astrox 88 (?:tour|play|pro|game)\b|'
                               r'\bseries\s*$|'
                               r'doraemon|dragon ball|ultraman|one piece|pokemon|butterbear|baby milo|care bears|hello kitty|crayon|marvel|'
@@ -601,6 +601,31 @@ for r in rackets.values():
         r['flex'] = 'medium'; r.setdefault('est', []).append('flex'); ln_flex += 1
         r['note'] = ((r.get('note') or '') + ' ').lstrip() + 'Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง'
 print('Li-Ning flexible read as medium', ln_flex)
+# Victor Thailand sorts its rackets into four tiers of its own, "shop by level": ENTRY, CLASS, PRO, SUPER (scripts/sources/victor-levels.json,
+# read from th.victorsport.com/category/rackets-entry|class|pro|super). Victor does not say what a tier means, and against the 34 Victor
+# rackets whose level a shop or Victor India states, its tiers run one step higher than the shops' words: CLASS held 13 of 14 as
+# beginner to intermediate, PRO 10 of 10 as beginner to advanced (7 intermediate or above), SUPER 13 of 19 as advanced to pro. So each
+# tier is read as a range of two levels (ENTRY alone as beginner); a stated level wins, and the result is flagged ≈.
+LV_ORD = ['beginner', 'intermediate', 'advanced', 'pro']
+VLV = os.path.join(SRC, 'victor-levels.json')
+VTIER = {'entry': ('beginner', ''), 'class': ('beginner', 'intermediate'), 'pro': ('intermediate', 'advanced'), 'super': ('advanced', 'pro')}
+if os.path.exists(VLV):
+    vmap = json.load(open(VLV, encoding='utf-8'))['levels']
+    def vtier(r):
+        ts = {vmap[l['url'].rsplit('/', 1)[-1]] for l in (r.get('shopLinks') or []) if 'victorsport.com' in (l.get('url') or '') and l['url'].rsplit('/', 1)[-1] in vmap}
+        return VTIER[next(iter(ts))] if len(ts) == 1 else None
+    inside = both = 0
+    for r in rackets.values():
+        v = vtier(r) if r['brand'] == 'Victor' else None
+        if v and r.get('level') and 'level' not in r.get('est', []):
+            lo, hi = r['level'], r.get('levelTo') or r['level']
+            both += 1; inside += LV_ORD.index(v[0]) <= LV_ORD.index(lo) and LV_ORD.index(hi) <= LV_ORD.index(v[1] or v[0]) or (lo == v[0] or hi == (v[1] or v[0]))
+    vset = 0
+    for r in rackets.values():
+        v = vtier(r) if r['brand'] == 'Victor' and not r.get('level') else None
+        if v:
+            r['level'], r['levelTo'] = v; r.setdefault('est', []).append('level'); vset += 1
+    print(f'Victor tier: stated level touches its range on {inside}/{both}; set on {vset} rackets with none')
 # A racket with no level in any source keeps no level (the site shows "ไม่ระบุ"). Makers do not publish one and shops disagree
 # (Aeronaut 4000: intermediate on Li-Ning's store, advanced and professional on two others), so a level guessed from price, flex
 # or the nearest rackets of the brand would be a number that looks like data. Measured, those guesses were right 51-75% of the

@@ -27,3 +27,22 @@ None of this was written into the data except that one figure and a flex and len
 "Player Level" is not used (all nine read Advanced or Professional, which looks like a price tier), as with Li-Ning's.
 btracketsports.com answered 429 (rate limited) and was left alone.
 | Apacs | apacs-badminton.co.uk (Apacs Sports UK, the brand's own UK store; no robots.txt) | a clean list per page: frame and shaft material, frame type, grommet system (holes), shaft diameter, weight with its U class, BCP in mm with a word, flex as a number with a word, grip, length, max tension | yes, 43 racket pages (`scripts/fetch_apacs.py`), one page per 3 s; it joins the vote as an official layer; no price (a UK price with VAT). Only 43 of our 106 Apacs models are sold there, and most of those already had data, so 5 gaps closed |
+
+## Victor Thailand's four tiers, and how new models are found (15 Nov 2026)
+
+- th.victorsport.com sorts its rackets into "shop by level": ENTRY (13 pages), CLASS (75), PRO (39), SUPER (76), under
+  /category/rackets-entry|class|pro|super. The product list is drawn by the page's own script (it calls a store API that
+  answers 404 without the page's headers), so the lists were read in the browser, paging with the numbered links, and saved in
+  `scripts/sources/victor-levels.json` (slug -> tier, 203 pages). Victor does not say what a tier means. Against the 34 Victor
+  rackets whose level a shop or Victor India states, its tiers run one step above the shops' words (CLASS held 13 of 14 as
+  beginner to intermediate, PRO 10 of 10 as beginner to advanced, SUPER 13 of 19 as advanced to pro), so `build_rackets.py` reads
+  each as a range of two levels (ENTRY alone as beginner) and flags it ≈. 64 Victor rackets with no level got one; 11 have none.
+- Finding models the site lacks: sitemap.xml of th.victorsport.com lists 4,126 products but was last written in April 2026, so
+  it has no new model; yonex.com's sitemap lists only series pages, and its listing (two pages) matched the 77 already fetched;
+  chobbad's compare page was unchanged at 446. New models showed up first in the shop feeds (`fetch_shops.py`, 10 minutes for 14
+  shops) and Plaza, as titles the build could not match: the AUDIT dump's "unmatched" list is the discovery list. A model is
+  added on its own only when two shops (or a maker's page) carry it; a name written two ways ("VRD-J", "VRD J Purple/Pink")
+  splits into two groups and stays out, so those are added by hand in `data/spec-overrides.json` with `"new": true`.
+- Added this run: Felet I-Llumi, N-8 Nitro, Nano Fastex Lt (Felet's own list), Li-Ning Air Force 80 G3 and Super Series 99 Plus
+  (in.lining.studio), Victor Auraspeed VRD-J and Hypersonic Plus (by hand, from yumo.ca, tenniszon.com, thegodofsports.com).
+  Not added, one shop only: Victor Thruster VRD-C, Auraspeed 98K and 98K Pro, Pulse Astral X, Pegasus CI, Sniper.
