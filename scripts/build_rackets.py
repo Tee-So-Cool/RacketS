@@ -329,7 +329,8 @@ NOT_RACKET_MODEL = re.compile(r'\b(shoes?|socks?|set|combo|pack|duo|kit|bundle|g
                               r'^yonex (?:astrox|nanoflare) (?:clear|feel|ability)\b|^yonex astrox 88 (?:tour|play|pro|game)\b|'
                               r'\bseries\s*$|'
                               r'doraemon|dragon ball|ultraman|one piece|pokemon|butterbear|baby milo|care bears|hello kitty|crayon|marvel|'
-                              r'avenger|peanuts|demon slayer|\bx\b|^tk-4\d{4}\b', re.I)   # TK-4xxxx is Victor's clothing code (TK-41031 is a skirt)
+                              r'avenger|peanuts|demon slayer|street fighter|(?:^|\s)(?:victor|li[- ]?ning|yonex|thruster|auraspeed|jetspeed)\s+x\s+[a-z]|^tk-4\d{4}\b', re.I)
+# TK-4xxxx is Victor's clothing code (TK-41031 is a skirt); a collab reads "Victor x Baby Milo", while "3D Calibar X", "Turbo X III", "Hypernano X" are models
 def display_name(t, brand):
     import unicodedata
     t = ''.join(c for c in unicodedata.normalize('NFKD', t) if not unicodedata.combining(c))
@@ -339,9 +340,13 @@ def display_name(t, brand):
     t = re.sub(re.escape(brand) + r'|li[- ]?ning|venson', ' ', t, flags=re.I)
     t = re.sub(r'\s*/.*$', '', t)  # "Ex-light / Pink": a colour after the slash
     from plaza_match import COLOURS
+    if brand == 'Li-Ning':  # "AxForce 80 Gen 2" (badmintonclick) is "Axforce 80 II" (yumo, shopnings): one model, not the first one
+        t = re.sub(r'(?<=\d)\s+gen\s*(?:2|ii)\b', ' II', t, flags=re.I)
     t = re.sub(r'\b(?:' + COLOURS + r')\b|\bgen ?\d\b|\bbravesword\b', lambda m: 'Brave Sword' if m.group(0).lower() == 'bravesword' else ' ', t, flags=re.I)
     t = re.sub(r'^js-(?=\d)', 'Jetspeed S ', t.strip(), flags=re.I)
     t = re.sub(r'\s+[A-Za-z]$', '', re.sub(r'\s+', ' ', t).strip(' -|/'))  # Victor's colour letter: "AURASPEED 130CL U"
+    if brand == 'Victor':  # "Drive X 12 Metallic" (some shops) is Victor's "DriveX 12 Metallic"
+        t = re.sub(r'\bdrive x\b', 'DriveX', t, flags=re.I)
     if brand == 'Victor':  # shops spell out what Victor prints as "LF": "Thruster TK-LF Light Fighter 30", "Thruster K Light Fighter 30"
         t = re.sub(r'\b(?:tk-?lf|k)?\s*light fighter\b', 'LF', t, flags=re.I)
     if brand == 'Li-Ning':  # Li-Ning SG writes its variants as letters: "Tectonic 7C" = Tectonic 7 Combat
@@ -356,6 +361,7 @@ def display_name(t, brand):
 def match_title(title, brand, pool):
     # the raw title first, then its cleaned display name ("Li-Ning 3D Calibar 900I" is "3D Calibar 900 Instinct")
     return pmatch(title, pool)[0] or pmatch(display_name(title, brand), pool)[0]
+def k_skip(brand, nm): return (brand, key(nm)) in {('Yonex', 'astroxiiidg')}
 groups = collections.defaultdict(list)
 for bz in shops:
     if bz['brand'] not in ('Victor', 'Li-Ning', 'VS', 'Yonex', 'Felet', 'Mizuno') or NOT_RACKET_MODEL.search(re.sub(r'gen-x', 'GenX', bz['name'], flags=re.I)): continue
@@ -376,13 +382,16 @@ for (brand, _), its in groups.items():
     tk = ptokens(nm)
     # a bare series name, or a name the listed models start with, is a series, not a model
     # (a model page on the maker's own store is one model, so Felet's one-word names, "Arcana", "Hypermax", stand)
-    if len(tk) < 2 and not re.search(r'\d', nm) and 'feletsports.com' not in shopset: continue
-    if not re.search(r'\d', nm) and any(r['brand'] == brand and ptokens(r['name'])[:len(tk)] == tk and len(ptokens(r['name'])) > len(tk) for r in rackets.values()): continue
+    num = re.search(r'\d', ' '.join(tk))   # tokens turn "III" into 3, so "Tectonic III" is a numbered model, not a series
+    if len(tk) < 2 and not num and 'feletsports.com' not in shopset: continue
+    if not num and any(r['brand'] == brand and ptokens(r['name'])[:len(tk)] == tk and len(ptokens(r['name'])) > len(tk) for r in rackets.values()): continue
     # a colour letter glued to a listed model's number ("Auraspeed 9000G Free Core Green") is that model
     base = re.match(r'(.*\d)[A-Za-z]\b', nm)
     if base and any(r['brand'] == brand and ptokens(r['name']) == ptokens(base.group(1)) for r in rackets.values()) and \
             re.search(r'\b(green|blue|red|black|white|gold|silver|pink|purple|yellow|orange)\b', ' '.join(b['name'] for _, b in its), re.I): continue
     if len(nm) > 32: continue
+    # Yonex's own list carries Astrox 3 DG as its HF and ST versions; a shop's "Astrox III DG" is that racket, not a third
+    if k_skip(brand, nm): continue
     k = key(brand + ' ' + nm)
     if k in rackets: continue
     rackets[k] = {'id': slug(brand + ' ' + nm), 'brand': brand, 'name': nm, 'year': '', 'style': '', 'balance': '', 'flex': '', 'level': '',

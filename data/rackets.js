@@ -9552,6 +9552,122 @@ window.RACKETS = [
   "est": []
  },
  {
+  "id": "li-ning-3d-calibar-x-combat",
+  "brand": "Li-Ning",
+  "name": "3D Calibar X Combat",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 302,
+  "flex": "flexible",
+  "level": "",
+  "levelTo": "",
+  "weights": "3U, 4U",
+  "weight": 85,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "tensionNote": "",
+  "price": 1550,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_11_9_9cb058ffad.jpg?v=1752144812",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/3d-calibar-x-combat"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/3d-calibar-x-combat"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-3d-calibar-x-combat-charcoal-blue-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,299.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-x-combat-charcoal-blue-badminton-racket",
+  "note": "",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-3d-calibar-x-drive",
+  "brand": "Li-Ning",
+  "name": "3D Calibar X Drive",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 305,
+  "flex": "flexible",
+  "level": "",
+  "levelTo": "",
+  "weights": "3U, 4U",
+  "weight": 82,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "tensionNote": "",
+  "price": 1550,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/template_01_11_10_6b68035806.jpg?v=1752144823",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/3d-calibar-x-drive"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/3d-calibar-x-drive"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/li-ning-3d-calibar-x-drive-badminton-racket-2"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,299.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-x-drive-badminton-racket",
+  "note": "",
+  "est": [
+   "price"
+  ]
+ },
+ {
   "id": "li-ning-aeronaut-4000",
   "brand": "Li-Ning",
   "name": "Aeronaut 4000",
@@ -11692,6 +11808,62 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/axforce-80-cl",
   "note": "",
   "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-axforce-80-ii",
+  "brand": "Li-Ning",
+  "name": "Axforce 80 II",
+  "year": 2026,
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "",
+  "level": "",
+  "levelTo": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "tensionNote": "",
+  "price": 6900,
+  "frame": "M46 + T1100 + Ultra High-Elastic Carbon Fibre + Polymer Energy Storage & Shock Absorption Material",
+  "shaft": "Ultra High-Elastic Carbon Fibre + High-Density Shock Absorption Material",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "Head-Heavy Balance: Designed to generate powerful smashes and aggressive attacking shots.",
+  "players": "Launched in August 2026, the Li-Ning Axforce 80 Gen 2 is a new-generation attacking racquet endorsed by Olympic Champion Chen Long. It combines powerful performance with improved stability and control for modern attacking play.",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/639246337549770000_3.jpg?v=1790333927",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://yumo.ca/products/li-ning-axforce-80-ii-unstrung-badminton-racket-electric-purple",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/li-ning-axforce-80-gen-2-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/li-ning-axforce-80-ii-unstrung-badminton-racket-electric-purple"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 289.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/li-ning-axforce-80-ii-unstrung-badminton-racket-electric-purple",
+  "note": "Axforce 80 II (ร้านบางแห่งเขียน \"Axforce 80 Gen 2\") ออกเดือน ส.ค. 2026 เป็นรุ่นต่อจาก Axforce 80 ของ Chen Long ตามคำบรรยายของ badmintonclick.com.au และ yumo.ca; หน้าทางการของ Li-Ning ยังไม่ลงรุ่นนี้ จึงยังไม่มีระดับ ความแข็งก้าน และราคาไทย (พบเมื่อ 15 พ.ย. 2026)",
+  "est": [
+   "tension",
+   "style",
    "price"
   ]
  },
@@ -16970,6 +17142,60 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "li-ning-tectonic-iii",
+  "brand": "Li-Ning",
+  "name": "Tectonic III",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 310,
+  "flex": "flexible",
+  "level": "",
+  "levelTo": "",
+  "weights": "4U, 5U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   25
+  ],
+  "tensionNote": "",
+  "price": 1800,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/Template_01_500cce8f8f.jpg?v=1752146994",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/tectonic-3-4u"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/tectonic-3-4"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/tectonic-3-4",
+  "note": "",
+  "est": [
+   "price"
+  ]
+ },
+ {
   "id": "li-ning-turbo-99",
   "brand": "Li-Ning",
   "name": "Turbo 99",
@@ -18515,6 +18741,110 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹4,690.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/turbo-charging-z-driveaypr190-4",
+  "note": "",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-x-iii",
+  "brand": "Li-Ning",
+  "name": "Turbo X III",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 300,
+  "flex": "",
+  "level": "",
+  "levelTo": "",
+  "weights": "3U",
+  "weight": 87,
+  "grips": "",
+  "tension": [
+   null,
+   28
+  ],
+  "tensionNote": "",
+  "price": 640,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/Turbo_X_01_0a0308dd6a.jpg?v=1752147266",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-x-iii"
+   },
+   {
+    "shop": "in.lining.studio",
+    "url": "https://in.lining.studio/products/turbo-x-iii"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,790.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://in.lining.studio/products/turbo-x-iii",
+  "note": "",
+  "est": [
+   "price"
+  ]
+ },
+ {
+  "id": "li-ning-turbo-x-ii",
+  "brand": "Li-Ning",
+  "name": "Turbo X-ii",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 300,
+  "flex": "flexible",
+  "level": "",
+  "levelTo": "",
+  "weights": "3U",
+  "weight": 87,
+  "grips": "",
+  "tension": [
+   null,
+   30
+  ],
+  "tensionNote": "",
+  "price": 1820,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/aypm096_5_01_0094739a05.jpg?v=1752144267",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sg.lining.studio",
+    "url": "https://sg.lining.studio/products/turbo-x-ii"
+   }
+  ],
+  "priceNote": "แปลงจาก S$69.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sg.lining.studio/products/turbo-x-ii",
   "note": "",
   "est": [
    "price"
@@ -31653,6 +31983,61 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "victor-drivex-12-metallic",
+  "brand": "Victor",
+  "name": "Drivex 12 Metallic",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "bp": "",
+  "flex": "stiff",
+  "level": "beginner",
+  "levelTo": "intermediate",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   32
+  ],
+  "tensionNote": "",
+  "price": 5200,
+  "frame": "High-Modulus carbon fiber + 46T PYROFIL carbon fiber + TR reinforced nano carbon tube + Nano Aerogel + Strong Core Filling Technology",
+  "shaft": "High-modulus carbon fiber + Metallic carbon fiber + PYROFIL carbon fiber + 6.6 shaft",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "BG Aerobite (คุม), BG Exbolt 65 (พลัง)",
+  "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/135144_4_20250508103509.jpg?v=1747126640",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "https://badmintonclick.com.au/products/new-2025-victor-drive-x-12-metallic-83-grams-badminton-racquet",
+  "shopLinks": [
+   {
+    "shop": "badmintonclick.com.au",
+    "url": "https://badmintonclick.com.au/products/new-2025-victor-drive-x-12-metallic-83-grams-badminton-racquet"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-drivex-12-metallic-badminton-racket"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹14,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/victor-drivex-12-metallic-badminton-racket",
+  "note": "",
+  "est": [
+   "style",
+   "price"
+  ]
+ },
+ {
   "id": "victor-drivex-5h",
   "brand": "Victor",
   "name": "Drivex 5H",
@@ -31932,6 +32317,311 @@ window.RACKETS = [
    "price",
    "balance",
    "style",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-hypernano-x-100",
+  "brand": "Victor",
+  "name": "Hypernano X 100",
+  "year": "",
+  "style": "",
+  "balance": "",
+  "bp": "",
+  "flex": "flexible",
+  "level": "intermediate",
+  "levelTo": "advanced",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   29
+  ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 29, 4U ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "price": "",
+  "frame": "High Resilience Modulus Graphite+Nano Resin+Elastic Modulus Fiber+HARD CORED TECHNOLOGY",
+  "shaft": "High Resilience Modulus Graphite + Nano Tube + 6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2018052117372759823.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/hypernano-x"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "flex",
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-hypernano-x-511cl",
+  "brand": "Victor",
+  "name": "Hypernano X 511CL",
+  "year": "",
+  "style": "",
+  "balance": "",
+  "bp": "",
+  "flex": "",
+  "level": "beginner",
+  "levelTo": "",
+  "weights": "",
+  "weight": "",
+  "grips": "G5",
+  "tension": [
+   null,
+   18
+  ],
+  "tensionNote": "",
+  "price": "",
+  "frame": "Aluminum",
+  "shaft": "Graphite + Resin",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2018052117375357297.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/hypernano-x-511cl"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "level"
+  ]
+ },
+ {
+  "id": "victor-hypernano-x-512cl",
+  "brand": "Victor",
+  "name": "Hypernano X 512CL",
+  "year": "",
+  "style": "",
+  "balance": "",
+  "bp": "",
+  "flex": "",
+  "level": "beginner",
+  "levelTo": "",
+  "weights": "",
+  "weight": "",
+  "grips": "G5",
+  "tension": [
+   null,
+   18
+  ],
+  "tensionNote": "",
+  "price": "",
+  "frame": "Aluminum",
+  "shaft": "Graphite + Resin",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2018052117380071486.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/hypernanox512cl"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "level"
+  ]
+ },
+ {
+  "id": "victor-hypernano-x-900x",
+  "brand": "Victor",
+  "name": "Hypernano X 900X",
+  "year": "",
+  "style": "",
+  "balance": "",
+  "bp": "",
+  "flex": "stiff",
+  "level": "advanced",
+  "levelTo": "pro",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   31
+  ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 31, 4U ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "price": "",
+  "frame": "High Resilient Modulus Graphite + NANO FORTIFY TR + HARD CORED TECHNOLOGY",
+  "shaft": "High Resilient Modulus Graphite + PYROFIL + 6.8 SHAFT",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-52770_0_20180717120918.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/hypernano-x-900x"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-hypernano-x-df-08",
+  "brand": "Victor",
+  "name": "Hypernano X DF 08",
+  "year": "",
+  "style": "",
+  "balance": "",
+  "bp": "",
+  "flex": "flexible",
+  "level": "beginner",
+  "levelTo": "intermediate",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5",
+  "tension": [
+   null,
+   24
+  ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 24, 4U ≤ 23 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "price": "",
+  "frame": "Graphite + Resin",
+  "shaft": "Graphite + Resin + 7.0 SHAFT",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2018052117373790458.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/hypernanoxdf08"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "level",
+   "weight"
+  ]
+ },
+ {
+  "id": "victor-hypernano-x-df-09",
+  "brand": "Victor",
+  "name": "Hypernano X DF 09",
+  "year": "",
+  "style": "",
+  "balance": "",
+  "bp": "",
+  "flex": "flexible",
+  "level": "beginner",
+  "levelTo": "intermediate",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5",
+  "tension": [
+   null,
+   24
+  ],
+  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 24, 4U ≤ 23 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "price": "",
+  "frame": "Graphite + Resin",
+  "shaft": "Graphite + Resin + 7.0 SHAFT",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://dkjulgymkya8y.cloudfront.net/victor/th/product-2018052117374542403.webp",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/hypernanoxdf09"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
    "level",
    "weight"
   ]
