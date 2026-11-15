@@ -9040,8 +9040,8 @@ window.RACKETS = [
   "weight": 84,
   "grips": "",
   "tension": [
-   24,
-   30
+   null,
+   32
   ],
   "tensionNote": "",
   "price": 3560,
@@ -9080,6 +9080,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-3d-calibar-600-badminton-racket",
   "note": "",
   "est": [
+   "tension",
    "level",
    "price"
   ]
@@ -9893,7 +9894,7 @@ window.RACKETS = [
   "grips": "",
   "tension": [
    null,
-   30
+   32
   ],
   "tensionNote": "",
   "price": 3600,
@@ -9928,6 +9929,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-6000-drive",
   "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
+   "tension",
    "level",
    "price",
    "flex"
@@ -14037,7 +14039,7 @@ window.RACKETS = [
   "grips": "",
   "tension": [
    null,
-   30
+   32
   ],
   "tensionNote": "",
   "price": 750,
@@ -14072,6 +14074,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-superlite-78-grams",
   "note": "",
   "est": [
+   "tension",
    "price"
   ]
  },
@@ -14091,7 +14094,7 @@ window.RACKETS = [
   "grips": "",
   "tension": [
    null,
-   30
+   32
   ],
   "tensionNote": "",
   "price": 660,
@@ -14130,6 +14133,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-gforce-3600-superlite-badminton-racket-dark-grey-gold",
   "note": "",
   "est": [
+   "tension",
    "price"
   ]
  },
@@ -14149,7 +14153,7 @@ window.RACKETS = [
   "grips": "",
   "tension": [
    null,
-   30
+   32
   ],
   "tensionNote": "",
   "price": 670,
@@ -14188,6 +14192,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-gforce-3700-superlite-badminton-racket-black-amber",
   "note": "",
   "est": [
+   "tension",
    "price"
   ]
  },
@@ -14786,7 +14791,7 @@ window.RACKETS = [
   "grips": "",
   "tension": [
    null,
-   28
+   30
   ],
   "tensionNote": "",
   "price": 790,
@@ -14825,7 +14830,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-superlite-max-9",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "tension",
    "price",
    "flex"
   ]
@@ -16434,7 +16438,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/super-series-ss-900",
   "note": "",
   "est": [
-   "tension",
    "price"
   ]
  },
@@ -16982,7 +16985,7 @@ window.RACKETS = [
   "grips": "G6",
   "tension": [
    null,
-   28
+   30
   ],
   "tensionNote": "",
   "price": 680,
@@ -17021,7 +17024,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-99",
   "note": "",
   "est": [
-   "tension",
    "price"
   ]
  },
@@ -19379,7 +19381,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-windstorm-74-bluegold-badminton-racket",
   "note": "",
   "est": [
-   "tension",
    "price"
   ]
  },
