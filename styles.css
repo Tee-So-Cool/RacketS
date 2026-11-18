@@ -515,3 +515,31 @@ body { font-size: var(--text-md); }
 .mloglist { list-style: none; padding: 0; margin: var(--space-sm) 0; display: grid; gap: var(--space-2xs); }
 .mloglist li { display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm); padding: var(--space-xs) var(--space-sm); background: var(--color-paper-2); border-radius: var(--radius-inner); min-width: 0; }
 .mloglist li > span { min-width: 0; overflow-wrap: anywhere; }
+
+/* ไม้น่าสนใจช่วงนี้: five boards, a top 5 each */
+.hot-span { display: flex; flex-wrap: wrap; gap: var(--space-xs); margin: var(--space-md) 0 var(--space-lg); }
+.hot-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr)); gap: var(--space-md); }
+.hot-board { padding: var(--space-lg); background: var(--color-paper-2); border-radius: var(--radius-card); box-shadow: inset 0 0 0 1px var(--line-soft); min-width: 0; }
+.hot-head { display: flex; flex-direction: column; gap: var(--space-3xs); margin-bottom: var(--space-sm); }
+.hot-head h2 { margin: 0; font-size: var(--text-lg); }
+.hot-list { list-style: none; margin: 0; padding: 0; }
+.hot-row {
+  display: grid; grid-template-columns: 28px 48px minmax(0, 1fr) auto; align-items: center; gap: var(--space-sm);
+  width: 100%; min-height: 44px; padding: var(--space-2xs) var(--space-xs); border: 0; border-radius: var(--radius-inner);
+  background: none; color: inherit; font: inherit; text-align: left; cursor: pointer;
+  transition: background-color var(--dur-micro) var(--ease-out);
+}
+.hot-row:hover { background: var(--color-paper-3); }
+.hot-row:active { background: var(--fill-soft); }
+.hot-row:focus-visible { outline: 2px solid var(--color-focus); outline-offset: -2px; }
+.hot-img { width: 48px; height: 48px; object-fit: contain; padding: 3px; border-radius: var(--radius-inner); background: var(--color-card); }
+.hot-ph { display: block; background: var(--color-paper-3); }
+.hot-txt { display: flex; flex-direction: column; min-width: 0; }
+.hot-txt .nm { font-weight: 500; overflow-wrap: break-word; }
+.hot-row .fig { font-size: var(--text-lg); font-variant-numeric: tabular-nums; }
+.hot-board > p { margin-top: var(--space-sm); }
+@media (max-width: 40rem) {
+  .hot-board { padding: var(--space-md); }
+  .hot-row { grid-template-columns: 28px 40px minmax(0, 1fr) auto; gap: var(--space-xs); }
+  .hot-img { width: 40px; height: 40px; }
+}

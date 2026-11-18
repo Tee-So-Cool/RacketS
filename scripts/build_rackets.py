@@ -155,6 +155,7 @@ def apply_override(r, o):
         if f == 'priceForeign':
             r['priceForeign'] = {'amount': v, 'currency': o.get('currency', 'USD'), 'src': o.get('src', '')}
         elif f == 'tmax':
+            r.setdefault('_hand', set()).add('tension')
             r['tension'] = [o.get('tmin') or (r.get('tension') or [None])[0], v]
             if 'tension' in r.get('est', []): r['est'].remove('tension')
             if 'tension' in r.get('proseEst', []) and 'tension' not in o.get('estFields', []): r['proseEst'].remove('tension')
@@ -162,6 +163,7 @@ def apply_override(r, o):
             continue
         else:
             r[f] = v
+            r.setdefault('_hand', set()).add(f)
             if f in r.get('est', []): r['est'].remove(f)
             # a value set by hand settles a shop vote that had no majority
             if f in r.get('proseEst', []) and f not in o.get('estFields', []): r['proseEst'].remove(f)
@@ -273,7 +275,8 @@ def level_range(t):
 # Other shops with a public product feed (scripts/fetch_shops.py): raw {label: value} spec blocks, mapped here
 SHOPS = os.path.join(SRC, 'shops.json')
 BRAND_OF = {'victor': 'Victor', 'yonex': 'Yonex', 'li-ning': 'Li-Ning', 'li ning': 'Li-Ning', 'lining': 'Li-Ning', 'vs': 'VS',
-            'apacs': 'Apacs', 'mizuno': 'Mizuno', 'kawasaki': 'Kawasaki', 'felet': 'Felet'}
+            'apacs': 'Apacs', 'mizuno': 'Mizuno', 'kawasaki': 'Kawasaki', 'felet': 'Felet',
+            'hundred': 'Hundred', 'hndrd': 'Hundred', 'forza': 'Forza', 'fz forza': 'Forza'}
 from spec_text import parse as parse_spec, country_of, is_material, bp_of
 PLAYER_TYPE = {'attacking': 'attack', 'balanced': 'allround', 'defensive': 'speed', 'speed': 'speed', 'control': 'control'}
 PAGES = json.load(open(os.path.join(SRC, 'pages.json'), encoding='utf-8')) if os.path.exists(os.path.join(SRC, 'pages.json')) else {}
@@ -337,13 +340,16 @@ def display_name(t, brand):
     t = re.sub(r'[\u3000-\u9fff]+', ' ', t)
     t = re.sub(r'\([^)]*\)|\[[^\]]*\]|free!.*$|\b(badminton|racket|racquet|unstrung|strung|pre-?strung|new|20\d\d)\b|'
                r'\b[2-8]u\d?\b|\bg[4-6]\b|\d+\s*grams?|ไม้แบด\S*', ' ', t, flags=re.I)
-    t = re.sub(re.escape(brand) + r'|li[- ]?ning|venson', ' ', t, flags=re.I)
+    t = re.sub(re.escape(brand) + r'|li[- ]?ning|venson|\bhndrd\b|\bfz forza\b|\bfz\b', ' ', t, flags=re.I)  # Hundred is also written HNDRD, Forza FZ Forza
     t = re.sub(r'\s*/.*$', '', t)  # "Ex-light / Pink": a colour after the slash
     from plaza_match import COLOURS
     if brand == 'Li-Ning':  # "AxForce 80 Gen 2" (badmintonclick) is "Axforce 80 II" (yumo, shopnings): one model, not the first one
         t = re.sub(r'(?<=\d)\s+gen\s*(?:2|ii)\b', ' II', t, flags=re.I)
     t = re.sub(r'\b(?:' + COLOURS + r')\b|\bgen ?\d\b|\bbravesword\b', lambda m: 'Brave Sword' if m.group(0).lower() == 'bravesword' else ' ', t, flags=re.I)
     t = re.sub(r'^js-(?=\d)', 'Jetspeed S ', t.strip(), flags=re.I)
+    if brand == 'Forza':  # Forza ends a title with a colour code: "Aero Power 372 CA", "Aero Power 472 B", "Precision X7 DC", "HT Power 36-S BS"
+        t = re.sub(r'\s+[A-Z]{2}$', '', re.sub(r'\s+', ' ', t).strip(' -|/'))
+        t = re.sub(r'(?<=\d)\s+[A-Z]$', '', t)
     t = re.sub(r'\s+[A-Za-z]$', '', re.sub(r'\s+', ' ', t).strip(' -|/'))  # Victor's colour letter: "AURASPEED 130CL U"
     if brand == 'Victor':  # "Drive X 12 Metallic" (some shops) is Victor's "DriveX 12 Metallic"
         t = re.sub(r'\bdrive x\b', 'DriveX', t, flags=re.I)
@@ -364,7 +370,7 @@ def match_title(title, brand, pool):
 def k_skip(brand, nm): return (brand, key(nm)) in {('Yonex', 'astroxiiidg')}
 groups = collections.defaultdict(list)
 for bz in shops:
-    if bz['brand'] not in ('Victor', 'Li-Ning', 'VS', 'Yonex', 'Felet', 'Mizuno') or NOT_RACKET_MODEL.search(re.sub(r'gen-x', 'GenX', bz['name'], flags=re.I)): continue
+    if bz['brand'] not in ('Victor', 'Li-Ning', 'VS', 'Yonex', 'Felet', 'Mizuno', 'Hundred', 'Forza') or NOT_RACKET_MODEL.search(re.sub(r'gen-x', 'GenX', bz['name'], flags=re.I)): continue
     # Mizuno: only models its own site lists (Altius and Fortius); the shops' JPX variants and odd titles ("Altius N-feel 3.") stay out
     if bz['brand'] == 'Mizuno' and bz['shop'] != 'mizunobadminton-asia.com': continue
     pool = {r['name']: r for r in rackets.values() if r['brand'] == bz['brand']}
@@ -482,7 +488,16 @@ for rid, fields in cands.items():
             # Yonex's own site is the source for Yonex, so it stays
             lab = [json.dumps(v) for v, p, _, _ in vs if not p]
             top = collections.Counter(lab).most_common(1)
-            if f in ('balance', 'flex') and r['brand'] != 'Yonex' and top and top[0][1] >= 3 and top[0][1] >= 0.75 * len(lab) \
+            # a lower tension bound ([22, 30]) does not contradict a bare ceiling ([None, 30]): keep the bound
+            if f == 'tension' and r.get(f) and r[f][0] is None:
+                # (from the maker's own store, or the same bound from two shops; one retailer's generic range is not enough)
+                lows = [(v[0], s) for v, p, s, _ in vs if not p and v and v[0] and v[1] == r[f][1]]
+                if lows and len({l for l, _ in lows}) == 1 and (len(lows) >= 2 or lows[0][1] in OFFICIAL): r[f] = [lows[0][0], r[f][1]]
+            # the maker's own store is a labelled source: it and one other shop agreeing is enough, where three were needed
+            maker = top and any(s in OFFICIAL for v, p, s, _ in vs if not p and json.dumps(v) == top[0][0])
+            # three shops still outvote a value set by hand (written when fewer sources existed); two do not
+            enough = top and ((top[0][1] >= 3 and top[0][1] >= 0.75 * len(lab)) or (maker and f not in r.get('_hand', ()) and top[0][1] >= 2 and top[0][1] == len(lab)))
+            if f in ('balance', 'flex') and r['brand'] != 'Yonex' and enough \
                     and json.loads(top[0][0]) != r[f]:
                 print('shops outvote', r['brand'], r['name'], f, r[f], '->', json.loads(top[0][0]), dict(collections.Counter(lab)))
                 r[f] = json.loads(top[0][0]); voted += 1
@@ -610,6 +625,26 @@ for r in rackets.values():
         r['flex'] = 'medium'; r.setdefault('est', []).append('flex'); ln_flex += 1
         r['note'] = ((r.get('note') or '') + ' ').lstrip() + 'Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง'
 print('Li-Ning flexible read as medium', ln_flex)
+# A current model (2025 on) whose sources state no flex takes the majority of its own series: the same brand and first word of the
+# name (Victor's Auraspeed and Thruster lines are mostly stiff), counting only models of 2022 on whose flex a source states. It needs
+# 8 such models and a 55% majority, is flagged ≈ and says how many; a series too small or too mixed (Apacs Assailant, Li-Ning
+# Axforce) stays empty. This is a guess with a reason, not a spec, and the next source that states a flex replaces it.
+FLEX_TH = {'stiff': 'ก้านแข็ง', 'medium': 'ก้านกลาง', 'flexible': 'ก้านอ่อน', 'extra-stiff': 'ก้านแข็งมาก'}
+isyr = lambda r: isinstance(r.get('year'), int)
+series_flex = collections.defaultdict(list)
+for r in rackets.values():
+    if r.get('flex') and 'flex' not in r.get('est', []) and isyr(r) and r['year'] >= 2022:
+        series_flex[(r['brand'], r['name'].split()[0].lower())].append(r['flex'])
+sflex = 0
+for r in rackets.values():
+    if r.get('flex') or not (isyr(r) and r['year'] >= 2025): continue
+    c = collections.Counter(series_flex.get((r['brand'], r['name'].split()[0].lower()), []))
+    n = sum(c.values())
+    if n >= 8 and c.most_common(1)[0][1] >= 0.55 * n:
+        v, k = c.most_common(1)[0]
+        r['flex'] = v; r.setdefault('est', []).append('flex'); sflex += 1
+        r['note'] = ((r.get('note') or '') + ' ').lstrip() + f"ความแข็งก้านประเมินจากซีรีส์ {r['name'].split()[0]} รุ่นปี 2022 ขึ้นไป: {k} จาก {n} รุ่นเป็น{FLEX_TH[v]} (ยังไม่พบสเปกของรุ่นนี้)"
+print('flex from series majority', sflex)
 # Victor Thailand sorts its rackets into four tiers of its own, "shop by level": ENTRY, CLASS, PRO, SUPER (scripts/sources/victor-levels.json,
 # read from th.victorsport.com/category/rackets-entry|class|pro|super). Victor does not say what a tier means, and against the 34 Victor
 # rackets whose level a shop or Victor India states, its tiers run one step higher than the shops' words: CLASS held 13 of 14 as

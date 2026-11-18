@@ -1,11 +1,11 @@
 # Fetch racket spec blocks from shops whose Shopify product feed is public and allowed by robots.txt,
-# into scripts/sources/shops.json. One feed page of 250 products every 3 s per shop.
+# into scripts/sources/shops.json. One feed page of 250 products every 3 s per shop, the shops side by side.
 # Each product keeps its description lines, variant options and tags; build_rackets.py reads specs from them
 # (labelled lines first, then the prose), so a page without a spec table still counts.
 # Run: python3 scripts/fetch_shops.py [--kind=strings|shuttles|shoes|socks] [domain ...]
 #   (with domains, only those shops are refetched; the rest are kept). Strings go to shop-strings.json and
 #   shuttles to shop-shuttles.json; string reels (100/200 m) are left out, since their price is not a set's.
-import html, json, os, re, sys, time, urllib.request
+import concurrent.futures, html, json, os, re, sys, threading, time, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # domain, currency, brand when the shop sells one brand (else the product vendor)
@@ -64,12 +64,14 @@ def spec_of(L):
             spec.setdefault(l.rstrip(':：').strip().lower(), L[i + 1])
     return spec
 
-OUT = os.path.join(ROOT, 'scripts', 'sources', {'rackets': 'shops.json'}.get(KIND, f'shop-{KIND}.json'))
+OUT = os.environ.get('SHOPS_OUT') or os.path.join(ROOT, 'scripts', 'sources', {'rackets': 'shops.json'}.get(KIND, f'shop-{KIND}.json'))
 only = {a for a in sys.argv[1:] if not a.startswith('--')}
 out = [p for p in json.load(open(OUT, encoding='utf-8')) if p['shop'] not in only] if only and os.path.exists(OUT) else []
-for dom, cur, brand in SHOPS:
-    if only and dom not in only: continue
-    n = 0
+
+def grab(dom, cur, brand):
+    """One shop's whole feed. Each shop gets its own worker, so a shop still sees one request every 3 s (get() sleeps) while
+    the shops run side by side: the refresh takes as long as the biggest shop, not as long as all of them added together."""
+    items = []
     for page in range(1, 40):
         try:
             ps = get(f'https://{dom}/products.json?limit=250&page={page}')['products']
@@ -82,11 +84,30 @@ for dom, cur, brand in SHOPS:
             L = lines_of(p.get('body_html'))
             if not L: continue
             price = min((float(v['price']) for v in p['variants'] if v.get('price') and float(v['price']) > 0), default='')
-            out.append({'shop': dom, 'brand': brand or p.get('vendor', ''), 'name': p['title'], 'url': f'https://{dom}/products/{p["handle"]}',
-                        'price': price, 'currency': cur, 'img': (p.get('images') or [{}])[0].get('src', ''), 'spec': spec_of(L), 'lines': L,
-                        'options': sorted({v['title'] for v in p['variants'] if v.get('title') and v['title'] != 'Default Title'}),
-                        'tags': p.get('tags', [])})
-            n += 1
-    print(dom, KIND, n, flush=True)
-    json.dump(out, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-print('total', len(out))
+            items.append({'shop': dom, 'brand': brand or p.get('vendor', ''), 'name': p['title'], 'url': f'https://{dom}/products/{p["handle"]}',
+                          'price': price, 'currency': cur, 'img': (p.get('images') or [{}])[0].get('src', ''), 'spec': spec_of(L), 'lines': L,
+                          'options': sorted({v['title'] for v in p['variants'] if v.get('title') and v['title'] != 'Default Title'}),
+                          'tags': p.get('tags', []),
+                          # when the shop listed the product and last changed it: a new model shows up here first, and a page whose
+                          # "updated" has not moved since it was read does not need reading again (scripts/fetch_pages.py)
+                          'created': (p.get('created_at') or '')[:10], 'updated': p.get('updated_at') or ''})
+    return items
+
+jobs = [(d, c, b) for d, c, b in SHOPS if not only or d in only]
+lock = threading.Lock()
+t0 = time.time()
+with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, len(jobs))) as ex:
+    futs = {ex.submit(grab, *j): j[0] for j in jobs}
+    for f in concurrent.futures.as_completed(futs):
+        dom = futs[f]
+        try: items = f.result()
+        except Exception as e: print(dom, 'failed', e, flush=True); continue
+        with lock:
+            out.extend(items)
+            print(dom, KIND, len(items), f'({time.time() - t0:.0f}s)', flush=True)
+            json.dump(out, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+# the same order as before, whichever shop finished first, so the file changes only where the feeds did
+order = {d: i for i, (d, _, _) in enumerate(SHOPS)}
+out.sort(key=lambda p: order.get(p['shop'], 99))
+json.dump(out, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print('total', len(out), f'in {time.time() - t0:.0f}s')

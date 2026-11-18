@@ -7487,6 +7487,1802 @@ window.RACKETS = [
   ]
  },
  {
+  "id": "forza-aero-power-776",
+  "brand": "Forza",
+  "name": "Aero Power 776",
+  "year": "",
+  "style": "attack",
+  "balance": "even",
+  "bp": "",
+  "flex": "medium",
+  "level": "",
+  "levelTo": "",
+  "weights": "3U",
+  "weight": 86,
+  "grips": "G5",
+  "tension": [
+   20,
+   28
+  ],
+  "tensionNote": "",
+  "price": 3330,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0009/8235/1923/files/AeroPower776_3.jpg?v=1722614702",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/fz-forza-aero-power-776-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/forza-fz-aero-power-776-cd-strung-badminton-racket-black"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 139.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/forza-fz-aero-power-776-cd-strung-badminton-racket-black",
+  "note": "",
+  "est": [
+   "flex",
+   "tension",
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "forza-ht-power-36-s",
+  "brand": "Forza",
+  "name": "HT Power 36-S",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "extra-stiff",
+  "level": "",
+  "levelTo": "",
+  "weights": "3U",
+  "weight": 86,
+  "grips": "G5",
+  "tension": [
+   null,
+   36
+  ],
+  "tensionNote": "",
+  "price": 5230,
+  "frame": ": 30T graphite",
+  "shaft": ": 30T graphite",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0009/8235/1923/files/HT-Power36s_2.jpg?v=1722614834",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/fz-forza-ht-power-36-s-badminton-racquet-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/forza-fz-ht-power-36-s-bs-unstrung-badminton-racket-limoges"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/fz-forza-ht-power-36-master-s-raspberry-strung-88g"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 219.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/forza-fz-ht-power-36-s-bs-unstrung-badminton-racket-limoges",
+  "note": "",
+  "est": [
+   "flex",
+   "weight",
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "forza-precision-x7",
+  "brand": "Forza",
+  "name": "Precision X7",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "stiff",
+  "level": "",
+  "levelTo": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   20,
+   28
+  ],
+  "tensionNote": "",
+  "price": 3330,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0009/8235/1923/files/PrecisionX7_3.jpg?v=1722615420",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/fz-forza-precision-x7-factory-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/forza-fz-precision-x7-dc-strung-badminton-racket-chinese-red"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 139.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/forza-fz-precision-x7-dc-strung-badminton-racket-chinese-red",
+  "note": "",
+  "est": [
+   "tension",
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "forza-speed-light-100",
+  "brand": "Forza",
+  "name": "Speed Light 100",
+  "year": "",
+  "style": "speed",
+  "balance": "even",
+  "bp": "",
+  "flex": "stiff",
+  "level": "",
+  "levelTo": "",
+  "weights": "4U",
+  "weight": 80,
+  "grips": "G5",
+  "tension": [
+   20,
+   30
+  ],
+  "tensionNote": "",
+  "price": 5590,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0009/8235/1923/files/image_81_b856ea51-6ca7-47d3-b0f5-6358f33bac01.webp?v=1785527203",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/fz-forza-speed-light-100-factory-strung-used"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/forza-fz-speed-light-100-x-strung-badminton-racket-gold"
+   }
+  ],
+  "priceNote": "แปลงจาก CAD 234.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://yumo.ca/products/forza-fz-speed-light-100-x-strung-badminton-racket-gold",
+  "note": "",
+  "est": [
+   "tension",
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-atomic-x-sword",
+  "brand": "Hundred",
+  "name": "Atomic X Sword",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "flexible",
+  "level": "intermediate",
+  "levelTo": "",
+  "weights": "4U",
+  "weight": 84,
+  "grips": "G6",
+  "tension": [
+   null,
+   38
+  ],
+  "tensionNote": "",
+  "price": 1110,
+  "frame": "Carbon Fibre with Woven Graphite",
+  "shaft": "Carbon Fibre with Woven Graphite",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "Woven graphite overlay for frame strength",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0614/7761/7916/files/Untitled_design_-_2026-02-16T170511.495.png?v=1774783498",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-atomic-x-dark-sword-4u-hbrx-2u127-2"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-atomic-x-dark-sword-badminton-racket-white-black"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,092.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-atomic-x-dark-sword-badminton-racket-white-black",
+  "note": "",
+  "est": [
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-battle-1000",
+  "brand": "Hundred",
+  "name": "Battle 1000",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 300,
+  "flex": "flexible",
+  "level": "advanced",
+  "levelTo": "pro",
+  "weights": "3U, 4U",
+  "weight": 84,
+  "grips": "G6",
+  "tension": [
+   32,
+   34
+  ],
+  "tensionNote": "",
+  "price": 2520,
+  "frame": "Hyperweave Carbonfiber + nano-tube T-Fuse construction",
+  "shaft": "Hyperweave Carbonfiber + nano-tube T-Fuse construction",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "T-Fuse, Vaporshaft XS 6.5MM, Control Foam",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0723/9035/files/Hundred_Battle1000_Badminton_Racket_1_YumoProShop.png?v=1767739298",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/hundred-battle-1000-badminton-racket-black"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/hundred-battle-1000-black"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-battle-1000-hbrx-5u039-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-battle-1000-badminton-racket-3u"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹6,992.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-battle-1000-badminton-racket-3u",
+  "note": "",
+  "est": [
+   "flex",
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-battle-600",
+  "brand": "Hundred",
+  "name": "Battle 600",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 300,
+  "flex": "flexible",
+  "level": "pro",
+  "levelTo": "",
+  "weights": "4U",
+  "weight": 80,
+  "grips": "G6",
+  "tension": [
+   32,
+   34
+  ],
+  "tensionNote": "",
+  "price": 1780,
+  "frame": "Carbon fibre with CNTRL FOAM",
+  "shaft": "High-quality Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "‹",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/Battle_600_NB_1.webp?v=1733861201",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hundred-battle-600-badminton-racket"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-battle-600-4u-hbrx-2u162-3"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-battle-600-badminton-racket-navy-blue-silver"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,943.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-battle-600-badminton-racket-navy-blue-silver",
+  "note": "",
+  "est": [
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-battle-700",
+  "brand": "Hundred",
+  "name": "Battle 700",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "flexible",
+  "level": "pro",
+  "levelTo": "",
+  "weights": "4U",
+  "weight": 82,
+  "grips": "G6",
+  "tension": [
+   null,
+   34
+  ],
+  "tensionNote": "",
+  "price": 3550,
+  "frame": "Carbon Fiber",
+  "shaft": "Carbon Fiber",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "VaporShaft XS (6.5 mm)",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/Hundred_Battle_700_Badminton_Racket_1.webp?v=1733461730",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hndrd-battle-700-badminton-racket-battle-700-badminton-racket"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-battle-700-4u-hbrx-2u161-2"
+   }
+  ],
+  "priceNote": "แปลงจาก £79.20 ที่ 1 GBP = 44.858 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://centralsports.co.uk/products/hundred-battle-700-4u-hbrx-2u161-2",
+  "note": "",
+  "est": [
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-battle-900",
+  "brand": "Hundred",
+  "name": "Battle 900",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 300,
+  "flex": "flexible",
+  "level": "pro",
+  "levelTo": "",
+  "weights": "4U",
+  "weight": 84,
+  "grips": "G6",
+  "tension": [
+   null,
+   34
+  ],
+  "tensionNote": "",
+  "price": 2320,
+  "frame": "Carbon Fiber",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "T-Fuse, Vaporshaft XS 6.5MM, Control Foam",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/Hundred_Battle900_Badminton_Racket_Frame.webp?v=1733438040",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hndrd-battle-900-badminton-racket"
+   },
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/hundred-battle-900-4u-badminton-racket-unstrung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/hundred-battle-900-badminton-racket"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-battle-900-4u-hbrx-2u160-2"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-battle-900-badminton-racket-4u-white"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹6,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-battle-900-badminton-racket-4u-white",
+  "note": "",
+  "est": [
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-flareon-100",
+  "brand": "Hundred",
+  "name": "Flareon 100",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "bp": "",
+  "flex": "flexible",
+  "level": "",
+  "levelTo": "",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "tensionNote": "",
+  "price": 640,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/hundred_flareon_100_white_1_09bad5f3-8240-40a5-85e5-4a43a649a280.png?v=1769997880",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hundred-flareon-100-badminton-racket"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-flareon-100-badminton-racket-5u-turquoise"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,792.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-flareon-100-badminton-racket-5u-turquoise",
+  "note": "",
+  "est": [
+   "flex",
+   "style",
+   "price",
+   "weight"
+  ]
+ },
+ {
+  "id": "hundred-flareon-700",
+  "brand": "Hundred",
+  "name": "Flareon 700",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "bp": "",
+  "flex": "stiff",
+  "level": "pro",
+  "levelTo": "",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G6",
+  "tension": [
+   null,
+   32
+  ],
+  "tensionNote": "",
+  "price": 3040,
+  "frame": "Hyperweave carbon fibre + carbon graphite core",
+  "shaft": "Hyperweave carbon fibre + carbon graphite core",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "Hyperweave Carbonfiber, AECG+, T.FUSE",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/Flareon1.png?v=1753467536",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hundred-flareon-700-badminton-racket"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/hundred-flareon-700-badminton-racket-black-orange-pink"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/hundred-flareon-700-black-orange-pink-badminton-racquet-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/hundred-flareon-700-badminton-racket-black-orange-pink"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/hundred-flareon-700-black-orange-pink"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-flareon-700-hbrx-5u004-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-flareon-700-badminton-racket-4u"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹8,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-flareon-700-badminton-racket-4u",
+  "note": "",
+  "est": [
+   "balance",
+   "style",
+   "price",
+   "weight"
+  ]
+ },
+ {
+  "id": "hundred-flareon-typhoon",
+  "brand": "Hundred",
+  "name": "Flareon Typhoon",
+  "year": "",
+  "style": "speed",
+  "balance": "head-light",
+  "bp": "",
+  "flex": "flexible",
+  "level": "intermediate",
+  "levelTo": "",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   32
+  ],
+  "tensionNote": "",
+  "price": 1240,
+  "frame": "Carbon Fiber",
+  "shaft": "Carbon Fiber",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "Superlight Carbon Fiber, Torsion Stop System, CNTRL Foam",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/flareon_typhoon_white_10.webp?v=1766894900",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hundred-flareon-typhoon-badminton-racket-5u-pre-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/hundred-flareon-typhoon-badminton-racket"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-flareon-typhoon-5u-strung-hbrx-5s005-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-flareon-typhoon-badminton-racket-5u-white-red-blue"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-flareon-typhoon-badminton-racket-5u-white-red-blue",
+  "note": "",
+  "est": [
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-hyfonic-1",
+  "brand": "Hundred",
+  "name": "Hyfonic 1",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "bp": "",
+  "flex": "flexible",
+  "level": "intermediate",
+  "levelTo": "",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "tensionNote": "",
+  "price": 630,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/hyfonic_1_white_1.png?v=1770094257",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hundred-hyfonic-1-badminton-racket-5u-pre-strung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-hyfonic-1-badminton-racket-5u-pink"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,743.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-hyfonic-1-badminton-racket-5u-pink",
+  "note": "",
+  "est": [
+   "flex",
+   "level",
+   "style",
+   "price",
+   "weight"
+  ]
+ },
+ {
+  "id": "hundred-hyfonic-7",
+  "brand": "Hundred",
+  "name": "Hyfonic 7",
+  "year": "",
+  "style": "allround",
+  "balance": "even",
+  "bp": "",
+  "flex": "flexible",
+  "level": "advanced",
+  "levelTo": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G6",
+  "tension": [
+   null,
+   32
+  ],
+  "tensionNote": "",
+  "price": 3040,
+  "frame": "High Modulus Graphite",
+  "shaft": "Hyperweave Carbonfiber + CNTRLFOAM",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "Hyperweave Carbonfiber, Vaporshaft 7.0MM, CNTRLFOAM",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/Hyfonic_7_Badminton_Racket_3.webp?v=1753651447",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hundred-hyfonic-7-badminton-racket"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/hundred-hyfonic-7-badminton-racket-dark-purple-green"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/hundred-hyfonic-7-dark-purple-green-badminton-racquet-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/hundred-hyfonic-7-badminton-racket-dark-purple-green"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/hundred-hyfonic-7-dark-purple-green"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-hyfonic-7-hbrx-5u006-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-hyfonic-7-badminton-racket-4u"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹8,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-hyfonic-7-badminton-racket-4u",
+  "note": "",
+  "est": [
+   "balance",
+   "tension",
+   "style",
+   "price",
+   "weight"
+  ]
+ },
+ {
+  "id": "hundred-hyfonic-lazer",
+  "brand": "Hundred",
+  "name": "Hyfonic Lazer",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "flexible",
+  "level": "intermediate",
+  "levelTo": "",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   32
+  ],
+  "tensionNote": "",
+  "price": 1240,
+  "frame": "Japan-made Graphite (Frame & Shaft)",
+  "shaft": "Japan-made Graphite (Frame & Shaft)",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "AECG+ Carbon Construction, Dual Aerodynamic Frame, Torsion Stop System",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/hyfonic_lazer_white_9.webp?v=1766081588",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hundred-hyfonic-lazer-badminton-racket-5u-pre-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/hundred-hyfonic-lazer"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-hyfonic-lazer-5u-strung-hbrx-5s007-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-hyfonic-lazer-badminton-racket-5u-white-copper"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-hyfonic-lazer-badminton-racket-5u-white-copper",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "weight"
+  ]
+ },
+ {
+  "id": "hundred-nitrix-10",
+  "brand": "Hundred",
+  "name": "Nitrix 10",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "",
+  "level": "",
+  "levelTo": "",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   30
+  ],
+  "tensionNote": "",
+  "price": 640,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/nitrix_10_white.webp?v=1769738624",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hundred-nitrix-10-badminton-racket-5u-pre-strung"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-nitrix-10-badminton-racket-5u-light-blue"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹1,792.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-nitrix-10-badminton-racket-5u-light-blue",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "weight"
+  ]
+ },
+ {
+  "id": "hundred-nitrix-70-venom",
+  "brand": "Hundred",
+  "name": "Nitrix 70 Venom",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "stiff",
+  "level": "pro",
+  "levelTo": "",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G6",
+  "tension": [
+   null,
+   32
+  ],
+  "tensionNote": "",
+  "price": 3040,
+  "frame": "M46X Japanese carbon fibre + CNTRLFOAM™",
+  "shaft": "M46X Japanese carbon fibre + CNTRLFOAM™",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "Vaporshaft XS 6.1MM, Curve²",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0065/5592/6572/files/1_20f98001-da2d-43e9-be25-51484cdd2db6.png?v=1756730241",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/hundred-nitrix-venom-70-badminton-racket-black-green"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/hundred-nitrix-70-venom-black-green-badminton-racquet-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/hundred-nitrix-70-venom-badminton-racket-black-green"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/hundred-nitrix-70-venom-black-green"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-nitrix-70-venom-hbrx-5u002-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-nitrix-70-venom-badminton-racket-4u"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹8,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-nitrix-70-venom-badminton-racket-4u",
+  "note": "",
+  "est": [
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-nitrix-70-volta",
+  "brand": "Hundred",
+  "name": "Nitrix 70 Volta",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "flexible",
+  "level": "pro",
+  "levelTo": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G6",
+  "tension": [
+   null,
+   32
+  ],
+  "tensionNote": "",
+  "price": 3040,
+  "frame": "M46X carbon fibre",
+  "shaft": "M46X carbon fibre",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "M46X, M46X carbon fiber.  Used in, AECG+, AERODYNAMIC FRAME",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0065/5592/6572/files/1_dedd300a-766d-4300-b9ba-d6d6247af689.png?v=1756738746",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/hundred-nitrix-volta-70-badminton-racket-white-copper"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/hundred-nitrix-70-volta-white-copper-badminton-racquet-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/hundred-nitrix-70-volta-badminton-racket-white-copper"
+   },
+   {
+    "shop": "tenniszon.com",
+    "url": "https://tenniszon.com/products/hundred-nitrix-70-volta-white-copper"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-nitrix-70-volta-hbrx-5u001-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-nitrix-70-volta-badminton-racket-4u"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹8,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-nitrix-70-volta-badminton-racket-4u",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "weight"
+  ]
+ },
+ {
+  "id": "hundred-nitrix-80-bullet",
+  "brand": "Hundred",
+  "name": "Nitrix 80 Bullet",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "medium",
+  "level": "pro",
+  "levelTo": "",
+  "weights": "3U, 4U, 5U",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   32
+  ],
+  "tensionNote": "",
+  "price": 4120,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "Sweet spot expanded, Shock stops here, Resist the twist, Woven to whip",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/hundred-nitrix-80-bullet-badminton-racket-full-view.webp?v=1788460301",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hundred-nitrix-80-bullet-badminton-racket"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/hundred-nitrix-80-bullet-badminton-racket"
+   },
+   {
+    "shop": "racquetguys.com",
+    "url": "https://racquetguys.com/products/hundred-nitrix-80-bullet-nitro-blue-badminton-racquet-demo-rental"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/hundred-nitrix-80-bullet-unstrung-badminton-racket-nitro-blue"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-nitrix-80-bullet-badminton-racket-5u"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹11,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-nitrix-80-bullet-badminton-racket-5u",
+  "note": "",
+  "est": [
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-nitrix-attack",
+  "brand": "Hundred",
+  "name": "Nitrix Attack",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "flexible",
+  "level": "intermediate",
+  "levelTo": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G6",
+  "tension": [
+   null,
+   32
+  ],
+  "tensionNote": "",
+  "price": 1470,
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "VAPORSHAFT 6.5MM, GRAPHITE LAB, Curve²",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0723/9035/files/Hundred_Nitrix_Attack_Black_Badminton_Racket_YumoProShop_31aa1c40-76c5-4c23-a65a-1d13db9a7b6e.png?v=1768004472",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/hundred-nitrix-attack-badminton-racket"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-nitrix-attack-badminton-racket-5u"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,092.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-nitrix-attack-badminton-racket-5u",
+  "note": "",
+  "est": [
+   "tension",
+   "level",
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-nitrix-pro",
+  "brand": "Hundred",
+  "name": "Nitrix Pro",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "stiff",
+  "level": "pro",
+  "levelTo": "",
+  "weights": "4U",
+  "weight": 88,
+  "grips": "G6",
+  "tension": [
+   null,
+   32
+  ],
+  "tensionNote": "",
+  "price": 3040,
+  "frame": "M46X Carbon Fiber · AECG+",
+  "shaft": "M46X Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "M46X REFINED STRENGTH",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/nitrix_pro_1.webp?v=1769639529",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hundred-nitrix-pro-70-badminton-racket"
+   },
+   {
+    "shop": "nydhi.com",
+    "url": "https://nydhi.com/products/hundred-nitrix-pro-badminton-racket"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/hundred-nitrix-pro"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-nitrix-pro-4u-srikanth-hbrx-5u159-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-nitrix-pro-badminton-racket-4u"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹8,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-nitrix-pro-badminton-racket-4u",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "weight"
+  ]
+ },
+ {
+  "id": "hundred-nitrix-thunder",
+  "brand": "Hundred",
+  "name": "Nitrix Thunder",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "flexible",
+  "level": "advanced",
+  "levelTo": "",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   32
+  ],
+  "tensionNote": "",
+  "price": 1350,
+  "frame": "Carbon",
+  "shaft": "Carbon",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "Superlight Carbon Fiber, Curve2 Frame Geometry, Graphite Lab Build",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/Nitrix_Thunder_Black_1.webp?v=1766375085",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hundred-nitrix-thunder-badminton-racket-5u-pre-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/hundred-nitrix-thunder-badminton-racket"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-nitrix-thunder-5u-strung-hbrx-5s003-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-nitrix-thunder-badminton-racket-5u"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,743.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-nitrix-thunder-badminton-racket-5u",
+  "note": "",
+  "est": [
+   "style",
+   "price",
+   "weight"
+  ]
+ },
+ {
+  "id": "hundred-nuclear-60",
+  "brand": "Hundred",
+  "name": "Nuclear 60",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 330,
+  "flex": "flexible",
+  "level": "",
+  "levelTo": "",
+  "weights": "2U",
+  "weight": 60,
+  "grips": "G5",
+  "tension": [
+   null,
+   32
+  ],
+  "tensionNote": "",
+  "price": 2230,
+  "frame": "- Carbon Fibre",
+  "shaft": "- Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "Unicarbon Structure, Vaporshaft 7.0 mm",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0723/9035/files/Hundred_Nuclear60_White_Blue_Black_BadmintonRacket_YumoProShop.png?v=1767827727",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/hundred-nuclear-60-white-blue-black"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-nuclear-60-badminton-racket-white-blue-black"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹6,192.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-nuclear-60-badminton-racket-white-blue-black",
+  "note": "",
+  "est": [
+   "tension",
+   "style",
+   "price",
+   "weight"
+  ]
+ },
+ {
+  "id": "hundred-nuclear-72",
+  "brand": "Hundred",
+  "name": "Nuclear 72",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 310,
+  "flex": "flexible",
+  "level": "pro",
+  "levelTo": "",
+  "weights": "6U",
+  "weight": 72,
+  "grips": "G6",
+  "tension": [
+   null,
+   32
+  ],
+  "tensionNote": "",
+  "price": 1850,
+  "frame": "Carbon Fiber",
+  "shaft": "Carbon Fiber",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "Vaporshaft XS 7.0MM, AeroBlade, Hyperlight Carbon Fiber",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/Nuclear_72_DarkRed_1.webp?v=1734465071",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hndrd-nuclear-72-badminton-racket"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/hundred-nuclear-72-badminton-racket"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-nuclear-72-6u-hbrx-2u029-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-nuclear-72-badminton-racket-orange-black-blue"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹5,143.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-nuclear-72-badminton-racket-orange-black-blue",
+  "note": "",
+  "est": [
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-nuclear-78",
+  "brand": "Hundred",
+  "name": "Nuclear 78",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 330,
+  "flex": "flexible",
+  "level": "pro",
+  "levelTo": "",
+  "weights": "5U",
+  "weight": 78,
+  "grips": "G6",
+  "tension": [
+   null,
+   32
+  ],
+  "tensionNote": "",
+  "price": 1530,
+  "frame": "Hyperlight carbon fibre",
+  "shaft": ": Premium Carbon Fiber",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "VaporShaft 7.0 mm, Curve² Technology, Unicarbon Structure, Who Is It For?, The HNDRD, Nuclear 78, is ideal for, Aggressive Players",
+  "players": "",
+  "madeIn": "China",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/Nuclear_78_Black_Silver_1.webp?v=1734923312",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hndrd-nuclear-78-badminton-racket-pre-strung"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/hundred-nuclear-78-badminton-racket"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-nuclear-78-5u-hbrx-2u030-2"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-nuclear-78-badminton-racket-white-red"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹4,243.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-nuclear-78-badminton-racket-white-red",
+  "note": "",
+  "est": [
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-t-fusion-300",
+  "brand": "Hundred",
+  "name": "T-fusion 300",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 305,
+  "flex": "flexible",
+  "level": "intermediate",
+  "levelTo": "",
+  "weights": "5U",
+  "weight": 79,
+  "grips": "G5, G6",
+  "tension": [
+   32,
+   34
+  ],
+  "tensionNote": "",
+  "price": 880,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon fibre",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "79g 5U weight",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/Template_02_8ea81d107e_3677a49c-d834-4628-885a-942dad263e13.webp?v=1749432242",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hundred-t-fusion-300-badminton-racket"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-t-fusion-300-5u-hbrx-4u048-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-t-fusion-300-badminton-racket-5u-navy-red"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹2,443.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-t-fusion-300-badminton-racket-5u-navy-red",
+  "note": "",
+  "est": [
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-t-fusion-500-zoom",
+  "brand": "Hundred",
+  "name": "T-fusion 500 Zoom",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 305,
+  "flex": "flexible",
+  "level": "intermediate",
+  "levelTo": "",
+  "weights": "5U",
+  "weight": 79,
+  "grips": "G6",
+  "tension": [
+   32,
+   34
+  ],
+  "tensionNote": "",
+  "price": 1130,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0614/7761/7916/files/Untitled_design_-_2026-02-16T162139.507.png?v=1771230162",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-t-fusion-500-zoom-5u-hbrx-3u110-1"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-t-fusion-500-zoom-badminton-racket-red-black"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹3,143.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-t-fusion-500-zoom-badminton-racket-red-black",
+  "note": "",
+  "est": [
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-t-fusion-800-zoom",
+  "brand": "Hundred",
+  "name": "T-fusion 800 Zoom",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 305,
+  "flex": "flexible",
+  "level": "pro",
+  "levelTo": "",
+  "weights": "5U",
+  "weight": 79,
+  "grips": "G6",
+  "tension": [
+   null,
+   32
+  ],
+  "tensionNote": "",
+  "price": 3400,
+  "frame": "Carbon Fibre",
+  "shaft": "Carbon Fibre",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "Featherlight 5U weight – 79g",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/files/template_01_7207cd09a1.webp?v=1757937909",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "sportsshop.asia",
+    "url": "https://sportsshop.asia/products/hundred-t-fusion-800-zoom-4u-badminton-racket-unstrung-white-gold"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-t-fusion-800-zoom-5u-hbrx-3u107-1"
+   }
+  ],
+  "priceNote": "แปลงจาก S$129.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://sportsshop.asia/products/hundred-t-fusion-800-zoom-4u-badminton-racket-unstrung-white-gold",
+  "note": "",
+  "est": [
+   "tension",
+   "style",
+   "price"
+  ]
+ },
+ {
+  "id": "hundred-z-tronic-100",
+  "brand": "Hundred",
+  "name": "Z Tronic 100",
+  "year": "",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": 308,
+  "flex": "stiff",
+  "level": "pro",
+  "levelTo": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   32
+  ],
+  "tensionNote": "",
+  "price": 2530,
+  "frame": "Carbon Fiber Reinforced",
+  "shaft": "High-Modulus Graphite",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "Head-heavy balance (308mm)",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn.shopify.com/s/files/1/1238/5608/files/Template_07_96a2cb5c95.webp?v=1753701937",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/hundred-z-tronic-100-badminton-racket"
+   },
+   {
+    "shop": "centralsports.co.uk",
+    "url": "https://centralsports.co.uk/products/hundred-z-tronic-100-4u-hbrx-4u137-2"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/hundred-z-tronic-100-badminton-racket-black-white"
+   }
+  ],
+  "priceNote": "แปลงจาก ₹7,020.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://thegodofsports.com/products/hundred-z-tronic-100-badminton-racket-black-white",
+  "note": "",
+  "est": [
+   "flex",
+   "tension",
+   "style",
+   "price"
+  ]
+ },
+ {
   "id": "kawasaki-aurora-7",
   "brand": "Kawasaki",
   "name": "Aurora 7",
@@ -15341,7 +17137,7 @@ window.RACKETS = [
   "style": "allround",
   "balance": "even",
   "bp": 302,
-  "flex": "medium",
+  "flex": "stiff",
   "level": "pro",
   "levelTo": "",
   "weights": "4U",
@@ -23873,7 +25669,7 @@ window.RACKETS = [
   "name": "Assassin 47",
   "year": "",
   "style": "speed",
-  "balance": "even",
+  "balance": "head-heavy",
   "bp": 295,
   "flex": "medium",
   "level": "",
@@ -23982,7 +25778,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "G5",
   "tension": [
-   null,
+   22,
    30
   ],
   "tensionNote": "",
@@ -24032,7 +25828,7 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   null,
+   22,
    30
   ],
   "tensionNote": "",
@@ -24083,7 +25879,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "G5",
   "tension": [
-   null,
+   22,
    30
   ],
   "tensionNote": "",
@@ -24133,7 +25929,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "G5",
   "tension": [
-   null,
+   22,
    30
   ],
   "tensionNote": "",
@@ -24235,7 +26031,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "G6",
   "tension": [
-   null,
+   22,
    30
   ],
   "tensionNote": "",
@@ -24289,7 +26085,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "G6",
   "tension": [
-   null,
+   22,
    30
   ],
   "tensionNote": "",
@@ -24897,8 +26693,8 @@ window.RACKETS = [
   "brand": "VS",
   "name": "Flora",
   "year": "",
-  "style": "allround",
-  "balance": "even",
+  "style": "attack",
+  "balance": "head-heavy",
   "bp": 295,
   "flex": "flexible",
   "level": "",
@@ -25113,7 +26909,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G6",
   "tension": [
-   null,
+   24,
    35
   ],
   "tensionNote": "",
@@ -25427,7 +27223,7 @@ window.RACKETS = [
   "weight": 73,
   "grips": "G6",
   "tension": [
-   null,
+   22,
    28
   ],
   "tensionNote": "",
@@ -25481,7 +27277,7 @@ window.RACKETS = [
   "weight": 84,
   "grips": "G5",
   "tension": [
-   null,
+   22,
    30
   ],
   "tensionNote": "",
@@ -25784,7 +27580,7 @@ window.RACKETS = [
   "name": "King Kong X2",
   "year": "",
   "style": "control",
-  "balance": "even",
+  "balance": "head-heavy",
   "bp": 298,
   "flex": "medium",
   "level": "",
@@ -25845,7 +27641,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "G6",
   "tension": [
-   null,
+   24,
    35
   ],
   "tensionNote": "",
@@ -26157,7 +27953,7 @@ window.RACKETS = [
   "weight": 78,
   "grips": "G5",
   "tension": [
-   null,
+   24,
    30
   ],
   "tensionNote": "",
@@ -26818,7 +28614,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "G5",
   "tension": [
-   null,
+   24,
    30
   ],
   "tensionNote": "",
@@ -27311,8 +29107,8 @@ window.RACKETS = [
   "brand": "VS",
   "name": "Turbo 300",
   "year": "",
-  "style": "allround",
-  "balance": "even",
+  "style": "attack",
+  "balance": "head-heavy",
   "bp": 295,
   "flex": "medium",
   "level": "",
@@ -27375,7 +29171,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "G5",
   "tension": [
-   null,
+   22,
    30
   ],
   "tensionNote": "",
@@ -27535,7 +29331,7 @@ window.RACKETS = [
   "weight": 82,
   "grips": "",
   "tension": [
-   null,
+   24,
    28
   ],
   "tensionNote": "",
@@ -27576,7 +29372,7 @@ window.RACKETS = [
   "name": "Wind Speed F35 II",
   "year": "",
   "style": "speed",
-  "balance": "even",
+  "balance": "head-heavy",
   "bp": 295,
   "flex": "medium",
   "level": "",
@@ -27685,7 +29481,7 @@ window.RACKETS = [
   "weight": 77,
   "grips": "G6",
   "tension": [
-   null,
+   22,
    28
   ],
   "tensionNote": "",
@@ -30660,7 +32456,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "bp": "",
-  "flex": "",
+  "flex": "stiff",
   "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
@@ -30697,10 +32493,11 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก CAD 109.95 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://tenniszon.com/products/victor-auraspeed-pulse-astral-x-strung-pink",
-  "note": "ARS-PAX (รุ่น Q ขายแบบขึ้นเอ็นมาแล้ว) สเปกตรงกันที่ tenniszon.com, Shopee/Lazada มาเลเซีย, Joy Badminton และ Victor ฟิลิปปินส์/มาเลเซีย ซึ่งเรียกว่ารุ่นปี 2026 สายสปีด; ความตึงสูงสุด 3U ≤32 / 4U ≤31 lbs (เก็บค่าต่ำสุดเป็นเพดาน); จุดสมดุล ความแข็งก้าน น้ำหนักกรัม และระดับยังไม่มีแหล่งที่ระบุ จึงเว้นว่าง; ยังไม่พบร้านไทย จึงไม่มีราคา (พบเมื่อ 15 พ.ย. 2026)",
+  "note": "ARS-PAX (รุ่น Q ขายแบบขึ้นเอ็นมาแล้ว) สเปกตรงกันที่ tenniszon.com, Shopee/Lazada มาเลเซีย, Joy Badminton และ Victor ฟิลิปปินส์/มาเลเซีย ซึ่งเรียกว่ารุ่นปี 2026 สายสปีด; ความตึงสูงสุด 3U ≤32 / 4U ≤31 lbs (เก็บค่าต่ำสุดเป็นเพดาน); จุดสมดุล ความแข็งก้าน น้ำหนักกรัม และระดับยังไม่มีแหล่งที่ระบุ จึงเว้นว่าง; ยังไม่พบร้านไทย จึงไม่มีราคา (พบเมื่อ 15 พ.ย. 2026) ความแข็งก้านประเมินจากซีรีส์ Auraspeed รุ่นปี 2022 ขึ้นไป: 15 จาก 25 รุ่นเป็นก้านแข็ง (ยังไม่พบสเปกของรุ่นนี้)",
   "est": [
    "balance",
    "price",
+   "flex",
    "weight"
   ]
  },
@@ -30762,7 +32559,7 @@ window.RACKETS = [
   "style": "speed",
   "balance": "head-light",
   "bp": "",
-  "flex": "",
+  "flex": "stiff",
   "level": "",
   "levelTo": "",
   "weights": "3U, 4U",
@@ -30803,8 +32600,9 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก CAD 149.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-auraspeed-vrd-j-unstrung-badminton-racket",
-  "note": "สเปกจากหน้า VICTOR ที่ร้าน tenniszon.com และ yumo.ca ลงตรงกัน: 3U ≤ 30 lbs, 4U ≤ 29 lbs (เก็บค่าต่ำสุดเป็นเพดาน); shopnings.com ระบุว่าเป็นกรอบสปีดรุ่นปี 2026 ก้านค่อนข้างแข็ง; ยังไม่มีแหล่งที่ระบุสมดุล ความแข็งก้านเป็นตัวเลข และน้ำหนักกรัม จึงเว้นว่าง (พบเมื่อ 15 พ.ย. 2026)",
+  "note": "สเปกจากหน้า VICTOR ที่ร้าน tenniszon.com และ yumo.ca ลงตรงกัน: 3U ≤ 30 lbs, 4U ≤ 29 lbs (เก็บค่าต่ำสุดเป็นเพดาน); ความแข็งก้าน: shopnings.com เขียนว่าก้านค่อนข้างแข็ง และแถบ Stiff–Flexible ในรูปบนหน้า yumo.ca (อ่านจากรูป 18 พ.ย. 2026) วางจุดไว้ค่อนไปทางแข็งแต่ยังไม่ถึงปลายสุด จึงใส่ก้านแข็งแบบประเมิน (≈) ตามที่ Victor ใช้กับก้านกลางค่อนแข็ง; ยังไม่มีแหล่งที่ระบุสมดุลและน้ำหนักกรัม จึงเว้นว่าง (พบเมื่อ 15 พ.ย. 2026)",
   "est": [
+   "flex",
    "balance",
    "style",
    "price",
@@ -35578,7 +37376,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
-  "flex": "",
+  "flex": "stiff",
   "level": "beginner",
   "levelTo": "",
   "weights": "",
@@ -35619,10 +37417,11 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "ความแข็งก้านประเมินจากซีรีส์ Thruster รุ่นปี 2022 ขึ้นไป: 11 จาก 19 รุ่นเป็นก้านแข็ง (ยังไม่พบสเปกของรุ่นนี้)",
   "est": [
    "balance",
-   "level"
+   "level",
+   "flex"
   ]
  },
  {
@@ -35633,7 +37432,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
-  "flex": "",
+  "flex": "stiff",
   "level": "beginner",
   "levelTo": "",
   "weights": "",
@@ -35670,10 +37469,11 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "ความแข็งก้านประเมินจากซีรีส์ Thruster รุ่นปี 2022 ขึ้นไป: 11 จาก 19 รุ่นเป็นก้านแข็ง (ยังไม่พบสเปกของรุ่นนี้)",
   "est": [
    "balance",
-   "level"
+   "level",
+   "flex"
   ]
  },
  {
@@ -37476,7 +39276,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
-  "flex": "",
+  "flex": "stiff",
   "level": "intermediate",
   "levelTo": "advanced",
   "weights": "4U, 5U",
@@ -37513,11 +39313,12 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก CAD 149.95 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://tenniszon.com/products/victor-thruster-vrd-c-unstrung-navy-red",
-  "note": "VRD-C (Void Rend) ออกไตรมาส 3 ปี 2026 (แท็ก Q3-2026 ที่ tenniszon.com, ร้านไทย Victor Shop Korat โพสต์เมื่อ ~ก.ย. 2026) สเปกตรงกันที่ tenniszon.com, joybadminton.com, badmintonshop.com.au, kwflex.nl: หัวหนัก ก้าน PYROFIL 6.6 มม. เกรด Pro; ความตึงสูงสุด 4U ≤30 / 5U ≤29 lbs (เก็บค่าต่ำสุดเป็นเพดาน); ระดับอ่านเป็นช่วงจากเกรด Pro ของ Victor; สไตล์ประเมินจากหัวหนักและคำบรรยาย \"aggressive\"; ความแข็งก้านและน้ำหนักกรัมของ 4U ยังไม่มีแหล่งที่ระบุ (5U/G6 78 g จากร้านเดียว) จึงเว้นว่าง (พบเมื่อ 15 พ.ย. 2026)",
+  "note": "VRD-C (Void Rend) ออกไตรมาส 3 ปี 2026 (แท็ก Q3-2026 ที่ tenniszon.com, ร้านไทย Victor Shop Korat โพสต์เมื่อ ~ก.ย. 2026) สเปกตรงกันที่ tenniszon.com, joybadminton.com, badmintonshop.com.au, kwflex.nl: หัวหนัก ก้าน PYROFIL 6.6 มม. เกรด Pro; ความตึงสูงสุด 4U ≤30 / 5U ≤29 lbs (เก็บค่าต่ำสุดเป็นเพดาน); ระดับอ่านเป็นช่วงจากเกรด Pro ของ Victor; สไตล์ประเมินจากหัวหนักและคำบรรยาย \"aggressive\"; ความแข็งก้านและน้ำหนักกรัมของ 4U ยังไม่มีแหล่งที่ระบุ (5U/G6 78 g จากร้านเดียว) จึงเว้นว่าง (พบเมื่อ 15 พ.ย. 2026) ความแข็งก้านประเมินจากซีรีส์ Thruster รุ่นปี 2022 ขึ้นไป: 11 จาก 19 รุ่นเป็นก้านแข็ง (ยังไม่พบสเปกของรุ่นนี้)",
   "est": [
    "level",
    "style",
    "price",
+   "flex",
    "weight"
   ]
  },

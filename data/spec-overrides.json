@@ -4243,8 +4243,10 @@
   "tmax": 29,
   "frame": "High Resilience Graphite + Nano Fortify TR + Hard Cored Technology",
   "shaft": "High Resilience Graphite + PYROFIL + 6.8 shaft",
+  "flex": "stiff",
+  "estFields": ["flex"],
   "src": "https://tenniszon.com/products/victor-auraspeed-vrd-j-unstrung-purple-pink",
-  "note": "สเปกจากหน้า VICTOR ที่ร้าน tenniszon.com และ yumo.ca ลงตรงกัน: 3U ≤ 30 lbs, 4U ≤ 29 lbs (เก็บค่าต่ำสุดเป็นเพดาน); shopnings.com ระบุว่าเป็นกรอบสปีดรุ่นปี 2026 ก้านค่อนข้างแข็ง; ยังไม่มีแหล่งที่ระบุสมดุล ความแข็งก้านเป็นตัวเลข และน้ำหนักกรัม จึงเว้นว่าง (พบเมื่อ 15 พ.ย. 2026)"
+  "note": "สเปกจากหน้า VICTOR ที่ร้าน tenniszon.com และ yumo.ca ลงตรงกัน: 3U ≤ 30 lbs, 4U ≤ 29 lbs (เก็บค่าต่ำสุดเป็นเพดาน); ความแข็งก้าน: shopnings.com เขียนว่าก้านค่อนข้างแข็ง และแถบ Stiff–Flexible ในรูปบนหน้า yumo.ca (อ่านจากรูป 18 พ.ย. 2026) วางจุดไว้ค่อนไปทางแข็งแต่ยังไม่ถึงปลายสุด จึงใส่ก้านแข็งแบบประเมิน (≈) ตามที่ Victor ใช้กับก้านกลางค่อนแข็ง; ยังไม่มีแหล่งที่ระบุสมดุลและน้ำหนักกรัม จึงเว้นว่าง (พบเมื่อ 15 พ.ย. 2026)"
  },
  "Victor Auraspeed Hypersonic Plus": {
   "new": true,

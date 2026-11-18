@@ -92,6 +92,12 @@ const cases = [
       ['บันทึกส่วนตัว: ค่าปรับไม่ดันความตึงเกินเพดานไม้/เอ็น −1 lb', () => { const [res, a] = adj(3); const cap = Math.min(res.range[1] || 30, Number(S('Yonex BG66 Ultimax').tensionMax) || 99); return a.tension <= cap - 1; }],
       ['บันทึกส่วนตัว: ปรับลงแล้วมีขั้นตอนอธิบาย', () => { const [res, a] = adj(-2); const last = a.steps[a.steps.length - 1]; return a.tension === res.tension - 2 && last[0].includes('ปรับตามบันทึก') && last[1] === -2; }],
       ['บันทึกส่วนตัว: ปิดการปรับแล้วได้ค่าเดิม', () => { const r = R('Yonex Astrox 77 Pro'), s = S('Yonex BG66 Ultimax'), res = score(r, s, 'advanced', 'attack'); return mineAdj(res, s, { off: 2, n: 3 }, false) === res; }],
+      ['ไม้น่าสนใจ: ทุกอันดับอยู่ในช่วงปีที่เลือก', () => ['2026', '2025', 'all'].every(sp => RS_TEST.hotBoards(sp).every(b => b.rows.every(({ x }) => (sp === '2026' ? x.year === 2026 : sp === '2025' ? x.year >= 2025 : x.year > 0))))],
+      ['ไม้น่าสนใจ: อันดับเรียงคะแนนมากไปน้อย ส่วนราคาเรียงต่ำไปสูง', () => RS_TEST.hotBoards('2025').every(b => b.rows.every((o, i, a) => !i || (b.price ? o.v >= a[i - 1].v : o.v <= a[i - 1].v)))],
+      ['ไม้น่าสนใจ: ไม่มีรุ่นที่ไม่รู้ปีหรือไม่มีราคาหลุดเข้ามา', () => RS_TEST.hotBoards('all').every(b => b.rows.every(({ x }) => Number(x.year) > 0 && (!b.price || Number(x.price) > 0)))],
+      ['ไม้น่าสนใจ: Li-Ning Axforce 80 II (ยังไม่มีความแข็งก้าน) ต้องเข้าอันดับตบหนักปี 2026', () => RS_TEST.hotBoards('2026')[0].rows.some(({ x }) => x.id === 'li-ning-axforce-80-ii')],
+      ['ไม้น่าสนใจ: ทุกอันดับรู้สมดุลและอย่างน้อยหนึ่งในความแข็งก้านหรือน้ำหนัก', () => RS_TEST.hotBoards('all').every(b => b.rows.every(({ x }) => x.balance && (x.flex || Number(x.weight) > 0)))],
+      ['ไม้น่าสนใจ: ไม้เด็ก (JR) ไม่เข้าอันดับ', () => RS_TEST.hotBoards('all').every(b => b.rows.every(({ x }) => !/(^|[\s\d])jr(\s|$)|junior/i.test(x.name)))],
     ];
   })(),
 ];

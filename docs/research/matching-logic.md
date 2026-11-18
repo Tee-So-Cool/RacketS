@@ -607,3 +607,7 @@ out and the axis is re-weighted over the inputs it has; an axis with under half 
 every racket. Checked on all 793 rackets: 718 have all 7 axes, 75 lack at least one (20 lack all seven: no balance, flex, weight
 or tension in any source), no value outside 0-10, and 38,064 score calls (every racket against 12 strings at 4 levels) gave no
 NaN and no error. The 389 rackets that have every input plot exactly as before (compared value by value against the old formula).
+
+## Hundred and Forza (18 Nov 2026)
+
+Added from the shop feeds already held (no new fetching): `BRAND_OF` knows "hundred", "hndrd", "forza" and "fz forza", and the new-model step accepts both brands. Neither brand has a maker list or a chobbad row, so every model is created from shops and needs two shops to carry it (26 Hundred, 4 Forza models). Hundred is also written HNDRD; Forza ends a title with a colour code ("Aero Power 372 CA", "Precision X7 DC"), which `display_name` drops. Retailers disagree about Hundred's balance and flex (the same Hyfonic 7 reads head-light flexible on one shop, even medium on another), so those fields go through the usual vote and many are marked ≈. Years are unknown for both brands, so they do not appear on the "ไม้น่าสนใจ" page. Babolat, Ashaway, RSL, Black Knight and Carlton are in the feeds too but left out: mostly tennis or foreign-market rackets.

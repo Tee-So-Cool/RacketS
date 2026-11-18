@@ -46,7 +46,7 @@
   const full = x => `${x.brand} ${x.name}`;
 
   // ---------- search: forgiving about spacing, hyphens, roman numerals, model codes, brand spellings and one typo ----------
-  const ALIAS = [[/\bli[\s-]?ning\b|หลี่หนิง|หลีหนิง/g, 'lining'], [/โยเน็กซ์|โยเนกซ์/g, 'yonex'], [/วิคเตอร์|วิกเตอร์/g, 'victor'],
+  const ALIAS = [[/\bli[\s-]?ning\b|หลี่หนิง|หลีหนิง/g, 'lining'], [/\bhndrd\b|ฮันเดรด/g, 'hundred'], [/\bfz\b|ฟอร์ซ่า/g, 'forza'], [/โยเน็กซ์|โยเนกซ์/g, 'yonex'], [/วิคเตอร์|วิกเตอร์/g, 'victor'],
     [/\bars\b/g, 'auraspeed'], [/\btk\b/g, 'thruster'], [/\bjs\b/g, 'jetspeed s'], [/\bdx\b/g, 'drivex'], [/\bbrs\b/g, 'brave sword'],
     [/\bnf\b/g, 'nanoflare'], [/\bax\b/g, 'astrox'], [/\barc\b/g, 'arcsaber'], [/\bii\b/g, '2'], [/\biii\b/g, '3'], [/\biv\b/g, '4']];
   const snorm = t => {
@@ -249,7 +249,7 @@
   const KIND = {
     r: {
       title: 'เทียบไม้แบด',
-      sub: x => [lab(x, 'balance'), L.flex[x.flex], x.weights].filter(Boolean).map(esc).join(', '),
+      sub: x => [lab(x, 'balance'), lab(x, 'flex'), x.weights].filter(Boolean).map(esc).join(', '),
       filters: ['style', 'balance', 'flex', 'level'],
       filterAll: { style: 'ทุกแนวการเล่น', balance: 'ทุกสมดุล', flex: 'ทุกความแข็งก้าน', level: 'ทุกระดับ' },
       sorts: { name: 'เรียงตามชื่อ', year: 'ใหม่สุดก่อน', priceAsc: 'ราคาต่ำ → สูง', priceDesc: 'ราคาสูง → ต่ำ' },
@@ -259,7 +259,7 @@
         <span class="tag ${r.style || ''}">${lab(r, 'style') || '—'}</span>
         <div class="nm">${esc(full(r))}</div>
         <div class="meta">${[esc(r.brand), r.year, lab(r, 'level') || 'ไม่ระบุระดับ'].filter(Boolean).join(', ')}</div>
-        <div class="chips">${[lab(r, 'balance'), L.flex[r.flex], r.weights].filter(Boolean).map(v => `<span>${esc(v)}</span>`).join('')}</div>
+        <div class="chips">${[lab(r, 'balance'), lab(r, 'flex'), r.weights].filter(Boolean).map(v => `<span>${esc(v)}</span>`).join('')}</div>
         <div class="price">${r.price ? `<b class="fig">${(r.est || []).includes('price') ? '≈' : ''}${baht(r.price)}</b>` : '<span class="small muted">ยังไม่มีราคา</span>'}</div>
         <div class="card-acts"><button class="btn sm" type="button" data-who="${esc(r.id)}">เหมาะกับใคร</button>${shopee(r)}</div>`,
       // the three numbers a buyer looks at first, set big above the sheet
@@ -280,7 +280,7 @@
         ['แนวการเล่น', r => lab(r, 'style') || '—'],
         ['ระดับผู้เล่น', r => lab(r, 'level') || 'ไม่ระบุ'],
         ['สมดุล', r => lab(r, 'balance') ? lab(r, 'balance') + (Number(r.bp) ? ` (${r.bp} mm)` : '') : (Number(r.bp) ? r.bp + ' mm' : '—')],
-        ['ความแข็งก้าน', r => L.flex[r.flex] || '—'],
+        ['ความแข็งก้าน', r => lab(r, 'flex') || '—'],
         ['น้ำหนัก', r => dash(r.weights)],
         ['น้ำหนักเฉลี่ย', r => r.weight ? r.weight + ' g' : '—'],
         ['ขนาดด้าม', r => dash(r.grips)],
@@ -456,6 +456,7 @@
     open: { r: false, s: false, h: false, o: false, k: false },
     f: { r: emptyFilter('r'), s: emptyFilter('s'), h: emptyFilter('h'), o: emptyFilter('o'), k: emptyFilter('k') },
     m: null,
+    hotSpan: '2026',
     mg: { kind: 'r', edit: null, q: '' },
   };
 
@@ -715,7 +716,7 @@
       .sort((a, b) => Number(a.x.price) - Number(b.x.price)).slice(0, 4) : [];
     const row = list => `<div class="simrow">${list.map(({ x }) => `<button type="button" class="sim" data-add="${esc(x.id)}">
         ${x.img ? `<img src="${esc(x.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<span class="mimg-empty"></span>'}
-        <span class="sim-n">${esc(full(x))}</span><span class="small muted">${[lab(x, 'balance'), L.flex[x.flex], x.price ? est(x, 'price') + baht(x.price) : ''].filter(Boolean).join(', ')}</span></button>`).join('')}</div>`;
+        <span class="sim-n">${esc(full(x))}</span><span class="small muted">${[lab(x, 'balance'), lab(x, 'flex'), x.price ? est(x, 'price') + baht(x.price) : ''].filter(Boolean).join(', ')}</span></button>`).join('')}</div>`;
     return `<section class="similar"><h3>ไม้ที่สเปกใกล้ ${esc(full(base))}</h3><p class="small muted">กดเพื่อเพิ่มเข้าตารางเทียบ</p>${row(alike)}
       ${cheaper.length ? `<h3>ใกล้กันแต่ถูกกว่า</h3>${row(cheaper)}` : ''}</section>`;
   }
@@ -1079,7 +1080,7 @@
     const t = Math.min(res.tension + mine.off, cap - 1);
     return t === res.tension ? res : { ...res, tension: t, steps: [...res.steps, [`ปรับตามบันทึกของคุณ (${mine.n} บันทึก)`, t - res.tension]] };
   }
-  window.RS_TEST = { score: (...a) => score(...a), byId, calcOffset, mineAdj, profile: racketProfile, balPos, lvText };
+  window.RS_TEST = { score: (...a) => score(...a), byId, calcOffset, mineAdj, profile: racketProfile, balPos, lvText, hotBoards };
   const verdict = n => n >= 80 ? ['เข้ากันดีมาก', 'var(--color-accent)'] : n >= 65 ? ['เข้ากันดี', 'var(--color-accent)'] : n >= 50 ? ['พอใช้ได้', 'var(--color-ink)'] : ['ไม่ค่อยเหมาะ', 'var(--color-bad)'];
 
   function viewMatch() {
@@ -1125,7 +1126,7 @@
     const card = kind => {
       const x = byId(kind, state.m[kind]);
       const spec = kind === 'r'
-        ? [L.style[x.style], lab(x, 'balance'), L.flex[x.flex], L.head[x.head], x.weights, x.tension ? '≤ ' + x.tension[1] + ' lbs' : ''].filter(Boolean)
+        ? [L.style[x.style], lab(x, 'balance'), lab(x, 'flex'), L.head[x.head], x.weights, x.tension ? '≤ ' + x.tension[1] + ' lbs' : ''].filter(Boolean)
         : [gaugeLabel(x), L.material[x.material], x.tensionMax ? '≤ ' + x.tensionMax + ' lbs' : ''].filter(Boolean);
       const bars = kind === 's' ? `<div class="mbars">${S_KEYS.map((k, i) => `<span class="mbar"><span>${S_AXES[i]}</span><i style="--w:${(Number(x[k]) || 0) * 10}"></i></span>`).join('')}</div>` : '';
       view.querySelector('#pick-' + kind).innerHTML = `
@@ -1200,7 +1201,7 @@
       if (d <= 0) return a.score === b.score ? 'คะแนนเท่ากัน แต่ข้อมูลครบกว่าหรือมีราคาไทยจริง' : 'คะแนนรวมสูงกว่าเล็กน้อย';
       const tx = x => x.tension ? x.tension[1] : 0, rec = z => z.reasons.some(([, t]) => t.includes('แนะนำเอ็นนี้'));
       const spec = k === 'racket' ? [['balance', ''], ['flex', ''], ['weights', 'น้ำหนัก ']]
-        .filter(([f]) => a.x[f] && a.x[f] !== b.x[f]).map(([f, t]) => t + (f === 'weights' ? a.x[f] : f === 'flex' ? L.flex[a.x[f]] : lab(a.x, f))).join(', ')
+        .filter(([f]) => a.x[f] && a.x[f] !== b.x[f]).map(([f, t]) => t + (f === 'weights' ? a.x[f] : lab(a.x, f))).join(', ')
         : k === 'pair' && rec(a) && !rec(b) ? 'ผู้ผลิตหรือร้านแนะนำเอ็นนี้คู่กับไม้นี้'
         : k === 'pair' && tx(a.x) !== tx(b.x) ? `รับความตึงได้ ${tx(a.x) || '?'} lbs เทียบ ${tx(b.x) || '?'} lbs` : '';
       return `ชนะที่${n} (+${d})${spec ? ': ' + spec : ''}${a.guess.length < b.guess.length ? ', ข้อมูลจริงมากกว่า' : ''}`;
@@ -1523,6 +1524,63 @@
     }).catch(() => alert('อ่านไฟล์ไม่ได้ — ต้องเป็นไฟล์ที่ได้จากปุ่ม Export'));
   }
 
+  // ---------- ไม้น่าสนใจช่วงนี้: a top 5 per board among the newer models ----------
+  // The data holds no sales or review numbers, so a board ranks on what is there: the radar profile worked out from the specs,
+  // or the price. Only models with a known year (so "recent" means something) are in the pool; the profile leaves out an input a racket lacks,
+  // and a racket needs its balance and one of flex or weight, so a missing flex does not keep a new model off the page
+  // but one number alone cannot score 100; a row that still lacks one of them says so.
+  // an array, not an object: integer-like keys ('2025', '2026') would sort ahead of 'all' and ahead of the order written here
+  const HOT_SPANS = [['2026', 'ปี 2026', y => y === 2026], ['2025', 'ปี 2025–2026', y => y >= 2025], ['all', 'ทุกปีที่รู้', y => y > 0]];
+  const HOT_BOARDS = [
+    { title: 'ตบหนักสุด', hint: 'หัวหนัก ก้านแข็ง ไม้หนัก', axis: 0 },
+    { title: 'คล่องตัวสุด', hint: 'หัวเบา ไม้เบา สะบัดไว', axis: 1 },
+    { title: 'คุมลูกแม่นสุด', hint: 'สายคอนโทรล หัวสมดุล ก้านแข็ง', axis: 2 },
+    { title: 'ตีง่ายสุด', hint: 'ก้านอ่อน ไม้เบา ระดับผู้เล่นไม่สูง', axis: 3 },
+    { title: 'ราคาต่ำสุด', hint: 'เฉพาะรุ่นที่สเปกพอให้เทียบได้', price: true },
+  ];
+  function hotBoards(span) {
+    const inSpan = (HOT_SPANS.find(o => o[0] === span) || HOT_SPANS[0])[2];
+    // junior rackets (Auraspeed 1JR, Ryuga JR) are a different purchase and would top the price board
+    const pool = db.r.filter(x => Number(x.year) > 0 && inSpan(Number(x.year)) && x.balance && (x.flex || Number(x.weight) > 0) && !/(^|[\s\d])jr(\s|$)|junior/i.test(x.name));
+    const prof = new Map(pool.map(x => [x, racketProfile(x)]));
+    return HOT_BOARDS.map(b => {
+      const rows = b.price
+        ? pool.filter(x => Number(x.price) > 0).map(x => ({ x, v: Number(x.price) })).sort((a, c) => a.v - c.v || known(c.x) - known(a.x) || sortName(a.x, c.x))
+        : pool.filter(x => prof.get(x)[b.axis] != null).map(x => ({ x, v: Math.round(prof.get(x)[b.axis] * 10) })).sort((a, c) => c.v - a.v || known(c.x) - known(a.x) || sortName(a.x, c.x));
+      return { ...b, rows: rows.slice(0, 5), n: rows.length };
+    });
+  }
+  function viewHot() {
+    const total = db.r.length, dated = db.r.filter(x => Number(x.year) > 0).length;
+    view.innerHTML = `
+      <h1>ไม้น่าสนใจช่วงนี้</h1>
+      <p class="muted">เรายังไม่มียอดขายหรือคะแนนรีวิว จึงจัดอันดับจากสเปก คะแนนคำนวณจากสเปก ไม่ใช่คะแนนจากผู้ผลิต และนับเฉพาะรุ่นที่รู้ปีที่ออกกับสมดุลและความแข็งก้าน (รู้ปี ${dated} จาก ${total} รุ่น)</p>
+      <div class="hot-span" role="group" aria-label="ช่วงปีที่ออก">${HOT_SPANS.map(([k, t]) => `<button type="button" class="btn sm" data-span="${k}">${t}</button>`).join('')}</div>
+      <div class="hot-grid" id="hot-boards" aria-live="polite"></div>`;
+    const paint = () => {
+      view.querySelectorAll('[data-span]').forEach(b => { const on = b.dataset.span === state.hotSpan; b.classList.toggle('primary', on); b.classList.toggle('ghost', !on); b.setAttribute('aria-pressed', on); });
+      view.querySelector('#hot-boards').innerHTML = hotBoards(state.hotSpan).map(b => `
+        <section class="hot-board">
+          <div class="hot-head"><h2>${b.title}</h2><span class="small muted">${b.hint}</span></div>
+          ${b.rows.length ? `<ol class="hot-list">${b.rows.map(({ x, v }, i) => `
+            <li><button type="button" class="hot-row" data-who="${esc(x.id)}">
+              <span class="pos pos-${i + 1}">${i + 1}</span>
+              ${x.img ? `<img class="hot-img" src="${esc(x.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<span class="hot-img hot-ph" aria-hidden="true"></span>'}
+              <span class="hot-txt"><span class="nm">${esc(full(x))}</span><span class="small muted">${[L.style[x.style] && est(x, 'style') + 'สาย' + L.style[x.style], x.year, lab(x, 'level') || 'ไม่ระบุระดับ', !b.price && !(x.flex && Number(x.weight) > 0) && 'สเปกยังไม่ครบ', b.price ? '' : (x.price ? est(x, 'price') + baht(x.price) : '')].filter(Boolean).map(esc).join(', ')}</span></span>
+              <b class="fig">${b.price ? est(x, 'price') + baht(v) : v}</b>
+            </button></li>`).join('')}</ol>
+            <p class="small muted">จาก ${b.n} รุ่น กดชื่อรุ่นเพื่อดูว่าเหมาะกับใคร</p>` : '<p class="small muted">ช่วงนี้ยังไม่มีรุ่นที่ข้อมูลพอ</p>'}
+        </section>`).join('');
+    };
+    view.onclick = e => {
+      const s = e.target.closest('[data-span]');
+      if (s) { state.hotSpan = s.dataset.span; paint(); return; }
+      const w = e.target.closest('[data-who]');
+      if (w) showWho(w.dataset.who);
+    };
+    paint();
+  }
+
   // ---------- router ----------
   // the filled pill behind the open tab slides from tab to tab: its place is two CSS variables on the strip
   function moveInd() {
@@ -1558,6 +1616,7 @@
     else if (v === 'shuttles') viewCompare('h');
     else if (v === 'shoes') viewCompare('o');
     else if (v === 'socks') viewCompare('k');
+    else if (v === 'hot') viewHot();
     else if (v === 'match') viewMatch();
     else if (v === 'manage') viewManage();
     else viewCompare('r');
