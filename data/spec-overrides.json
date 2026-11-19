@@ -2284,7 +2284,7 @@
   "currency": "USD",
   "src": "https://www.badmintonwarehouse.com/collections/frontpage/products/yonex-astrox-100va-tour-badminton-racket"
  },
- "Yonex Astrox 100VA ZZ": {
+ "Yonex Astrox 100VA ZZ": {"year": 2025, "yearSrc": "https://www.yonex.com/news/we-strive-together-viktor-axelsen-collection/", 
   "priceForeign": 295.0,
   "currency": "USD",
   "src": "https://www.badmintonwarehouse.com/products/yonex-astrox-100va-zz-badminton-racket",
@@ -3197,7 +3197,7 @@
   "grips": "G7",
   "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf"
  },
- "Yonex Arcsaber 11": {
+ "Yonex Arcsaber 11": {"year": 2013, "yearSrc": "https://www.yonex.co.jp/company/pr/pdf/220107.pdf", 
   "tmin": 19,
   "tmax": 27,
   "estFields": [
@@ -3207,14 +3207,14 @@
   "level": "advanced",
   "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"Level: Advanced\" (หลายร้าน), \"designed for advanced players\" (ผลค้น Google 5 พ.ย. 2026)"
  },
- "Yonex Nanoflare 800": {
+ "Yonex Nanoflare 800": {"year": 2019, "yearSrc": "https://www.nydhi.com/blogs/news/yonex-nanoflare-800-badminton-racket-the-newest-edition", 
   "tmax": 28,
   "estFields": [
    "tension"
   ],
   "src": "Nanoflare 800 Play listing (prokicksports.com): up to 28 lbs"
  },
- "Yonex Nanoflare 700": {
+ "Yonex Nanoflare 700": {"year": 2019, "yearSrc": "https://yonex-fareast.com/unleashing-new-heights-and-velocity-with-the-new-nanoflare-700/", 
   "balance": "head-light",
   "estFields": [
    "balance"
@@ -4296,5 +4296,7 @@
   "year": 2026,
   "src": "https://yumo.ca/products/li-ning-axforce-80-ii-unstrung-badminton-racket-electric-purple",
   "note": "Axforce 80 II (ร้านบางแห่งเขียน \"Axforce 80 Gen 2\") ออกเดือน ส.ค. 2026 เป็นรุ่นต่อจาก Axforce 80 ของ Chen Long ตามคำบรรยายของ badmintonclick.com.au และ yumo.ca; หน้าทางการของ Li-Ning ยังไม่ลงรุ่นนี้ จึงยังไม่มีระดับ ความแข็งก้าน และราคาไทย (พบเมื่อ 15 พ.ย. 2026)"
- }
+ },
+ "Yonex Astrox 100ZZ": {"year": 2020, "yearSrc": "https://www.yonex.com/news/astrox-100-the-next-level-of-power-and-versatility/"},
+ "Yonex Astrox 88 Play": {"year": 2024, "yearSrc": "https://yonex-fareast.com/astrox-88-s-d-a-new-dawn-for-doubles/"}
 }

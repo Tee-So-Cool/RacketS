@@ -731,7 +731,7 @@ for r in rackets.values():
         break
 print('tension per class', per_class)
 
-order = ['id', 'brand', 'name', 'year', 'style', 'balance', 'bp', 'flex', 'level', 'levelTo', 'weights', 'weight', 'grips', 'tension', 'tensionNote', 'price',
+order = ['id', 'brand', 'name', 'year', 'yearSrc', 'style', 'balance', 'bp', 'flex', 'level', 'levelTo', 'weights', 'weight', 'grips', 'tension', 'tensionNote', 'price',
          'frame', 'shaft', 'joint', 'length', 'head', 'pattern', 'tech', 'players', 'madeIn', 'recString', 'img', 'source', 'officialUrl', 'specSrc', 'shopUrl', 'bayUrl', 'clickUrl', 'shopLinks', 'priceNote', 'priceSrc', 'note', 'est']
 final, seen = [], set()
 for r in sorted(rackets.values(), key=lambda r: (r['brand'], r['name'])):

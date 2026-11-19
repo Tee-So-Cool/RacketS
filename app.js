@@ -125,7 +125,7 @@
     navigator.clipboard?.writeText(url).then(done, () => { prompt('คัดลอกลิงก์นี้', url); });
   }
   const link = (url, text) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${text}</a>` : '';
-  const sources = x => [link(x.officialUrl, 'ผู้ผลิต'), link(x.specSrc, 'หน้าสินค้า'), link(x.shopUrl, 'ร้านไทย'), link(x.bayUrl, 'Badminton Bay'), link(x.clickUrl, 'Badminton Click'), ...(Array.isArray(x.shopLinks) ? x.shopLinks.map(l => link(l.url, esc(l.shop))) : []), link(x.priceSrc !== x.bayUrl && x.priceSrc !== x.clickUrl ? x.priceSrc : '', 'ที่มาราคา'), link(x.source, 'chobbad'), link(x.wordSrc, 'คำบรรยายจากผู้ผลิต')].filter(Boolean).join(', ') || '—';
+  const sources = x => [link(x.officialUrl, 'ผู้ผลิต'), link(x.specSrc, 'หน้าสินค้า'), link(x.yearSrc, 'ที่มาปี'), link(x.shopUrl, 'ร้านไทย'), link(x.bayUrl, 'Badminton Bay'), link(x.clickUrl, 'Badminton Click'), ...(Array.isArray(x.shopLinks) ? x.shopLinks.map(l => link(l.url, esc(l.shop))) : []), link(x.priceSrc !== x.bayUrl && x.priceSrc !== x.clickUrl ? x.priceSrc : '', 'ที่มาราคา'), link(x.source, 'chobbad'), link(x.wordSrc, 'คำบรรยายจากผู้ผลิต')].filter(Boolean).join(', ') || '—';
 
   // ---------- profiles (0–10) ----------
   // What a racket's named technologies claim to do, read from the makers' and retailers' own descriptions
