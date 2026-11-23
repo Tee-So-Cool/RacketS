@@ -1,5 +1,7 @@
 # Shared by build_rackets.py: clean Badminton Plaza titles and match them to our model names.
+from functools import lru_cache
 import re
+import unicodedata
 
 COLOURS = r'black|white|red|blue|green|yellow|pink|purple|grey|gray|gold|silver|orange|navy|lime|cyan|teal|mint|maroon|brown|beige|ivory|bronze|matte|glossy|dark|deep|pearl|rose|sky|sakura|turquoise|aqua|violet|lavender|peach|cream|charcoal|coral|jade|olive|base|lake|molten|jungle|pale|hyacinth|aurora|crystal|ice|jelly'
 NOISE = r'badminton|racket|recket|racquet|free!?.*$|limited edition|limited|ltd|gift ?box|gift set|box set|special edition|edition|new|collection|super ?light|\d+\s*grams?|\b[2-8]u\d?\b|\bg[4-6]\b|/g\d|\bstrung\b|\bunstrung\b|venson|maxbolt'
@@ -20,7 +22,7 @@ ALIASES = [(r'high carbon', 'hc'), (r'sward', 'sword'), (r"lee zii jia'?s( game)
            (r'\bbigbang\b', 'big bang'), (r'(\d)\+', r'\1 plus')]
 SKIP = r'\bshoes?\b|\bsocks?\b|^x |\bx (doraemon|ultraman|one piece|demon slayer|pokemon|butterbear|dragon ball|b\.duck)|merchandise|world tour finals|china open|training|felet|kumpoo|starbucks|^all|^flare$|^woven$|^$|drm set|gb$|^astrox (clear|feel)$|hmr light mi|hwqkl|^astrox 88 tour$'
 
-import unicodedata
+@lru_cache(maxsize=16384)
 def clean(title):
     # accents and CJK marks do not name a model: "Fantôme" = "Fantome", "Thruster F 隼 Ultra" = "Thruster F Ultra"
     t = ''.join(c for c in unicodedata.normalize('NFKD', title or '') if not unicodedata.combining(c))
@@ -38,9 +40,45 @@ def key(s):
     return re.sub(r'[^a-z0-9]', '', s.lower())
 
 ROMAN = {'ii': '2', 'iii': '3', 'iv': '4'}
-def tokens(s):
+
+@lru_cache(maxsize=16384)
+def model_tokens(s):
     # generations compare as digits on both sides: "Astrox III DG" = "Astrox 3 DG", "Ryuga Muse 2" = "Ryuga Muse II"
-    return [ROMAN.get(w, w) for w in re.findall(r'[a-z]+|\d+(?:\.\d+)?', clean(s))]
+    return tuple(ROMAN.get(w, w) for w in re.findall(r'[a-z]+|\d+(?:\.\d+)?', clean(s)))
+
+def tokens(s):
+    return list(model_tokens(s))
+
+
+def match_generation(title, url, name, models):
+    if not models[name].get('generation'):
+        return name
+    versions = {label: model for label, model in models.items()
+                if model.get('generation') and model_tokens(label) == model_tokens(name)}
+    if len(versions) < 2:
+        return name
+
+    text = unicodedata.normalize('NFKC', f'{title} {url}').lower()
+    exact = []
+    for label, model in versions.items():
+        code = model.get('modelCode', '')
+        if not code:
+            continue
+        pattern = r'[-\s]?'.join(re.escape(part) for part in re.split(r'[-\s]+', code.lower()))
+        if re.search(r'(?<![a-z\d])' + pattern + r'(?![a-z\d])', text):
+            exact.append(label)
+    if exact:
+        return exact[0] if len(exact) == 1 else None
+
+    title = unicodedata.normalize('NFKC', title).lower()
+    generations = {ROMAN.get(mark, mark) for mark in re.findall(r'\bgen(?:eration)?[ -]*(ii|iii|iv|\d+)(?!\w)', title)}
+    years = set(re.findall(r'\b20\d{2}\b', title)) & {str(model.get('year')) for model in versions.values()}
+    if not generations and not years:
+        return None
+    matched = [label for label, model in versions.items()
+               if (not generations or str(model['generation']) in generations)
+               and (not years or str(model.get('year')) in years)]
+    return matched[0] if len(matched) == 1 else None
 
 # a word right after the model name that makes it another model: "Axforce 30 Ex-Light", "Calibar 300 Combat", "F Claw Ultra"
 VARIANT = {'boost', 'combat', 'instinct', 'drive', 'ex', 'gen', 'plus', 'ultra', 'metallic', 'max', 'cl', 'se', 'light', 'lite', 'pro', 'speed', 'power'}
@@ -49,7 +87,7 @@ LIGHT_COLOUR = r'(?:\s+(?:light|metallic|grayish|peach|' + COLOURS + r'))*\s+(?:
 
 def variant_after(title, name):
     """True when the title names a variant of name rather than name itself."""
-    tt, nt = tokens(title), tokens(name)
+    tt, nt = model_tokens(title), model_tokens(name)
     for i in range(len(tt) - len(nt) + 1):
         if tt[i:i + len(nt)] != nt: continue
         nxt = tt[i + len(nt)] if i + len(nt) < len(tt) else None
@@ -73,17 +111,17 @@ def variant_after(title, name):
 def match(title, names):
     """names: {model name: model}. The longest model name whose tokens run, in order, inside the title's tokens wins,
     unless the title goes on to name a variant of it."""
-    tt = ' ' + ' '.join(tokens(title)) + ' '
+    tl = model_tokens(title)
+    tt = ' ' + ' '.join(tl) + ' '
     # a name that cleaning cuts to one word ("JPX Limited Edition" -> "jpx") would match the whole series
-    fwd = [n for n in names if tokens(n) and not (len(tokens(n)) == 1 and re.search(NOISE, n.lower())) and ' ' + ' '.join(tokens(n)) + ' ' in tt]
-    best = max(fwd, key=lambda n: len(tokens(n))) if fwd else None
+    fwd = [n for n in names if model_tokens(n) and not (len(model_tokens(n)) == 1 and re.search(NOISE, n.lower())) and ' ' + ' '.join(model_tokens(n)) + ' ' in tt]
+    best = max(fwd, key=lambda n: len(model_tokens(n))) if fwd else None
     if best and variant_after(title, best): best = None
     if not best:
         # a nickname between the words ("HC SURFERNO 1000" for HC 1000): the model's words in order with at most one
         # word between each, the model number included, and nothing after the name that marks a variant
-        tl = tokens(title)
         def gapped(n):
-            nt, i = tokens(n), 0
+            nt, i = model_tokens(n), 0
             if len(nt) < 2 or not any(w.isdigit() for w in nt): return False
             pos = []
             for w in nt:
@@ -94,8 +132,8 @@ def match(title, names):
             return nxt not in VARIANT and not (nxt and nxt.isdigit() and len(nxt) == 1)
         gap = [n for n in names if gapped(n) and not (n in fwd and variant_after(title, n))]
         # the longest fit wins when it is the only one that long ("Aeronaut 9000 Combat" over "Aeronaut 9000")
-        top = max((len(tokens(n)) for n in gap), default=0)
-        gap = [n for n in gap if len(tokens(n)) == top]
+        top = max((len(model_tokens(n)) for n in gap), default=0)
+        gap = [n for n in gap if len(model_tokens(n)) == top]
         if len(gap) == 1: best = gap[0]
     return best, key(clean(title))
 

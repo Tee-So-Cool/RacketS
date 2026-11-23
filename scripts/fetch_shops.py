@@ -5,7 +5,7 @@
 # Run: python3 scripts/fetch_shops.py [--kind=strings|shuttles|shoes|socks] [domain ...]
 #   (with domains, only those shops are refetched; the rest are kept). Strings go to shop-strings.json and
 #   shuttles to shop-shuttles.json; string reels (100/200 m) are left out, since their price is not a set's.
-import concurrent.futures, html, json, os, re, sys, threading, time, urllib.request
+import concurrent.futures, fcntl, hashlib, html, json, os, re, sys, tempfile, time, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # domain, currency, brand when the shop sells one brand (else the product vendor)
@@ -48,7 +48,9 @@ RACKET, NOT_RACKET = re.compile(WANT, re.I), re.compile(SKIP, re.I)
 
 def get(url):
     time.sleep(3)
-    return json.loads(urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'}), timeout=40).read())
+    request = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    with urllib.request.urlopen(request, timeout=40) as response:
+        return json.load(response)
 
 def lines_of(body):
     body = re.sub(r'<style.*?</style>|<script.*?</script>', '', body or '', flags=re.S)
@@ -65,49 +67,95 @@ def spec_of(L):
     return spec
 
 OUT = os.environ.get('SHOPS_OUT') or os.path.join(ROOT, 'scripts', 'sources', {'rackets': 'shops.json'}.get(KIND, f'shop-{KIND}.json'))
-only = {a for a in sys.argv[1:] if not a.startswith('--')}
-out = [p for p in json.load(open(OUT, encoding='utf-8')) if p['shop'] not in only] if only and os.path.exists(OUT) else []
 
 def grab(dom, cur, brand):
     """One shop's whole feed. Each shop gets its own worker, so a shop still sees one request every 3 s (get() sleeps) while
     the shops run side by side: the refresh takes as long as the biggest shop, not as long as all of them added together."""
-    items = []
+    items = {}
+    seen = set()
     for page in range(1, 40):
-        try:
-            ps = get(f'https://{dom}/products.json?limit=250&page={page}')['products']
-        except Exception as e:
-            print(dom, 'stop', e, flush=True); break
-        if not ps: break
+        ps = get(f'https://{dom}/products.json?limit=250&page={page}')['products']
+        if not isinstance(ps, list):
+            raise ValueError(f'invalid product list on page {page}')
+        if not ps:
+            return list(items.values())
+        handles = {p['handle'] for p in ps}
+        if not handles - seen:
+            raise ValueError(f'products repeated on page {page}')
+        seen.update(handles)
         for p in ps:
             if not RACKET.search(p['title'] + ' ' + (p.get('product_type') or '')) or NOT_RACKET.search(p['title'] + ' ' + (p.get('product_type') or '')):
                 continue
             L = lines_of(p.get('body_html'))
             if not L: continue
             price = min((float(v['price']) for v in p['variants'] if v.get('price') and float(v['price']) > 0), default='')
-            items.append({'shop': dom, 'brand': brand or p.get('vendor', ''), 'name': p['title'], 'url': f'https://{dom}/products/{p["handle"]}',
+            items[p['handle']] = {'shop': dom, 'brand': brand or p.get('vendor', ''), 'name': p['title'], 'url': f'https://{dom}/products/{p["handle"]}',
                           'price': price, 'currency': cur, 'img': (p.get('images') or [{}])[0].get('src', ''), 'spec': spec_of(L), 'lines': L,
                           'options': sorted({v['title'] for v in p['variants'] if v.get('title') and v['title'] != 'Default Title'}),
                           'tags': p.get('tags', []),
                           # when the shop listed the product and last changed it: a new model shows up here first, and a page whose
                           # "updated" has not moved since it was read does not need reading again (scripts/fetch_pages.py)
-                          'created': (p.get('created_at') or '')[:10], 'updated': p.get('updated_at') or ''})
-    return items
+                          'created': (p.get('created_at') or '')[:10], 'updated': p.get('updated_at') or ''}
+    raise ValueError('feed reached the page limit before its end')
 
-jobs = [(d, c, b) for d, c, b in SHOPS if not only or d in only]
-lock = threading.Lock()
-t0 = time.time()
-with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, len(jobs))) as ex:
-    futs = {ex.submit(grab, *j): j[0] for j in jobs}
-    for f in concurrent.futures.as_completed(futs):
-        dom = futs[f]
-        try: items = f.result()
-        except Exception as e: print(dom, 'failed', e, flush=True); continue
-        with lock:
-            out.extend(items)
-            print(dom, KIND, len(items), f'({time.time() - t0:.0f}s)', flush=True)
-            json.dump(out, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-# the same order as before, whichever shop finished first, so the file changes only where the feeds did
-order = {d: i for i, (d, _, _) in enumerate(SHOPS)}
-out.sort(key=lambda p: order.get(p['shop'], 99))
-json.dump(out, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-print('total', len(out), f'in {time.time() - t0:.0f}s')
+def read_snapshots():
+    snapshots = {}
+    if os.path.exists(OUT):
+        with open(OUT, encoding='utf-8') as f:
+            for item in json.load(f):
+                snapshots.setdefault(item['shop'], []).append(item)
+    return snapshots
+
+def save_updates(updates, order):
+    output = os.path.realpath(OUT)
+    lock_name = 'rackets-shops-' + hashlib.sha256(os.fsencode(output)).hexdigest() + '.lock'
+    lock_path = os.path.join(tempfile.gettempdir(), lock_name)
+    with open(lock_path, 'a') as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX)
+        snapshots = read_snapshots()
+        snapshots.update(updates)
+        out = [item for domain in sorted(snapshots, key=lambda d: order.get(d, len(order))) for item in snapshots[domain]]
+        with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', dir=os.path.dirname(output), delete=False) as tmp:
+            path = tmp.name
+            try:
+                json.dump(out, tmp, ensure_ascii=False, indent=1)
+                tmp.close()
+                os.replace(path, output)
+            finally:
+                if os.path.exists(path):
+                    os.unlink(path)
+        return len(out)
+
+def main():
+    only = {a for a in sys.argv[1:] if not a.startswith('--')}
+    order = {shop: i for i, (shop, _, _) in enumerate(SHOPS)}
+    if only - order.keys():
+        raise SystemExit('Unknown shop(s): ' + ', '.join(sorted(only - order.keys())))
+    jobs = [shop for shop in SHOPS if not only or shop[0] in only]
+    snapshots = read_snapshots()
+
+    failed = 0
+    updates = {}
+    t0 = time.monotonic()
+    with concurrent.futures.ThreadPoolExecutor(max_workers=len(jobs)) as ex:
+        futures = {ex.submit(grab, *shop): shop[0] for shop in jobs}
+        for future in concurrent.futures.as_completed(futures):
+            domain = futures[future]
+            try:
+                items = future.result()
+                if not items and snapshots.get(domain):
+                    raise ValueError('no products matched; previous snapshot retained')
+            except Exception as e:
+                failed += 1
+                print(domain, 'failed:', e, '| kept', len(snapshots.get(domain, [])), 'previous products', flush=True)
+                continue
+            if items:
+                updates[domain] = items
+            print(domain, KIND, len(items), f'({time.monotonic() - t0:.0f}s)', flush=True)
+
+    total = save_updates(updates, order) if updates else sum(map(len, snapshots.values()))
+    print('total', total, f'in {time.monotonic() - t0:.0f}s')
+    return int(failed > 0)
+
+if __name__ == '__main__':
+    sys.exit(main())

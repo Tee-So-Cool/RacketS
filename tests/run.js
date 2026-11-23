@@ -45,7 +45,7 @@ sandbox.window = sandbox;
 sandbox.self = sandbox;
 vm.createContext(sandbox);
 
-const files = ['data/rackets.js', 'data/strings.js', 'data/shuttles.js', 'data/shoes.js', 'data/socks.js', 'app.js', 'tests/feedback.js', 'tests/cases.js'];
+const files = ['data/rackets.js', 'data/strings.js', 'data/shuttles.js', 'data/shoes.js', 'data/socks.js', 'data/catalog-v1.js', 'app.js', 'tests/feedback.js', 'tests/cases.js'];
 for (const f of files) {
   try {
     vm.runInContext(fs.readFileSync(path.join(root, f), 'utf8'), sandbox, { filename: f });

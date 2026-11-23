@@ -1,5 +1,13 @@
 {
  "_readme": "เอ็นที่ค้นเพิ่มทีละรุ่น key = 'แบรนด์ รุ่น'. ช่องที่ใส่ได้: gauge, gaugeText, material, repulsion, control, durability, sound, shock, tensionMax, price, colors, year, note, src. รุ่นใหม่ใส่ \"new\": true. แก้แล้วรัน python3 scripts/build_strings.py",
+ "Apacs Signature Pro 66": {
+  "tensionMax": 33,
+  "src": "https://apacs.pnxbadminton.com/wp-content/uploads/2023/09/apacs_racket_2024.pdf"
+ },
+ "Apacs Signature Pro 70": {
+  "tensionMax": 38,
+  "src": "https://apacs.pnxbadminton.com/wp-content/uploads/2023/09/apacs_racket_2024.pdf"
+ },
  "Li-Ning No.1 Boost": {
   "new": true,
   "brand": "Li-Ning",

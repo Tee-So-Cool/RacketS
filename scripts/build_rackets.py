@@ -130,6 +130,12 @@ for y in yx:
         'joint': y.get('Joint', ''), 'length': y.get('Length', ''), 'madeIn': y.get('Made In', ''),
         'officialUrl': y['url'], 'recString': y.get('Recommended String', ''),
     }
+    item_code = y.get('Item Code', '').strip()
+    if re.fullmatch(r'[A-Z0-9]+(?:[-/ ][A-Z0-9]+)*', item_code):
+        off['modelCode'] = item_code
+        generation = re.match(r'^(2NF700|3AX88|3AX99)', item_code.replace('-', ''))
+        if generation:
+            off['generation'] = int(generation[0][0])
     if k in rackets:
         r = rackets[k]
         for f, v in off.items():
@@ -142,6 +148,7 @@ for y in yx:
              'balance': {'ASTROX': 'head-heavy', 'NANOFLARE': 'head-light', 'ARCSABER': 'even', 'DUORA': 'head-heavy'}.get(series, ''),
              'level': ylevel(y['name']), 'price': '', 'pattern': '', 'tech': '', 'players': '', 'img': y.get('img', ''), 'source': '',
              'note': 'ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)', **off}
+        r['proseEst'] = [field for field in ('style', 'balance', 'level') if r.get(field)]
         rackets[k] = r
         added.append(nm)
 
@@ -151,6 +158,10 @@ for y in yx:
 def apply_override(r, o):
     if 'level' in o: r['_lvset'] = True   # a level set by hand is not replaced by a shop's range
     for f, v in o.items():
+        if f == 'year' and v is None:
+            r['year'] = ''
+            r.pop('yearSrc', None)
+            continue
         if f in ('src', 'new', 'brand', 'currency', 'estFields') or v in ('', None): continue
         if f == 'priceForeign':
             r['priceForeign'] = {'amount': v, 'currency': o.get('currency', 'USD'), 'src': o.get('src', '')}
@@ -189,7 +200,7 @@ for full_name, o in overrides.items():
 # ---- Badminton Plaza (Thai shop): fills empty image, THB price and specs; adds models we lack ----
 import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from plaza_match import match as pmatch, clean as pclean, skip as pskip, NEW_NAMES
+from plaza_match import match as pmatch, clean as pclean, skip as pskip, match_generation, NEW_NAMES
 PLAZA = os.path.join(SRC, 'plaza.json')
 BASE_PLAZA = 'https://www.badmintonplaza.com/product_info.php?products_id='
 plaza = json.load(open(PLAZA, encoding='utf-8')) if os.path.exists(PLAZA) else []
@@ -198,6 +209,8 @@ for pz in plaza:
     pool = {r['name']: r for r in rackets.values() if r['brand'] == pz['brand']}
     m, _ = pmatch(pz['name'], pool)
     if m:
+        m = match_generation(pz['name'], '', m, pool)
+        if not m: continue
         r = pool[m]; plaza_hits += 1
     elif not pskip(pz['name']) and pclean(pz['name']) in NEW_NAMES:
         nm = NEW_NAMES[pclean(pz['name'])]
@@ -298,10 +311,11 @@ def from_shop(p):
         lv = ind['level']
         sp['flex'] = 'stiff' if lv >= 7 else 'medium' if lv >= 5 else 'flexible'
         if lv <= 6: sp['fromProse'].append('flex')
-    return {'src': 'shop', 'shop': p['shop'], 'brand': brand, 'name': nm, 'url': p['url'], 'img': p.get('img', ''),
+    return {'src': 'shop', 'shop': p['shop'], 'brand': brand, 'name': nm, 'title': p['name'], 'url': p['url'], 'img': p.get('img', ''),
             'price': p.get('price'), 'currency': p.get('currency'), 'parsed': sp}
 # Victor's official Thai pages (scripts/fetch_victor.py) come first, so the maker's figures win over shops'
 VOFF = os.path.join(SRC, 'victor-official.json')
+victor_pages = json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) else []
 # Felet's own list (scripts/fetch_felet.py): names, RM prices and pictures only, since its pages print no spec text
 FOFF = os.path.join(SRC, 'felet-official.json')
 # Mizuno's own Altius and Fortius pages (scripts/fetch_mizuno.py): weight class, flex, balance and recommended tension as text,
@@ -309,7 +323,7 @@ FOFF = os.path.join(SRC, 'felet-official.json')
 MOFF = os.path.join(SRC, 'mizuno-official.json')
 # Apacs's own UK store (scripts/fetch_apacs.py): weight with its U class, BCP in mm, flex, grip, length, max tension, holes; no price
 AOFF = os.path.join(SRC, 'apacs-official.json')
-shop_pages = (json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) else []) + (json.load(open(FOFF, encoding='utf-8')) if os.path.exists(FOFF) else []) + \
+shop_pages = victor_pages + (json.load(open(FOFF, encoding='utf-8')) if os.path.exists(FOFF) else []) + \
              (json.load(open(MOFF, encoding='utf-8')) if os.path.exists(MOFF) else []) + \
              (json.load(open(AOFF, encoding='utf-8')) if os.path.exists(AOFF) else []) + \
              (json.load(open(SHOPS, encoding='utf-8')) if os.path.exists(SHOPS) else []) + \
@@ -317,7 +331,7 @@ shop_pages = (json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) el
              (json.load(open(os.path.join(SRC, 'corkandfeathers.json'), encoding='utf-8')) if os.path.exists(os.path.join(SRC, 'corkandfeathers.json')) else [])  # fetch_honly.py: Felet specs; fetch_corkfeathers.py: Victor NA's spec block
 # Badminton Plaza's product-page tables ("Weight : 82±2g (4U)", "String Tension : 26-38 lbs", "Features : ..."),
 # right after Victor's own pages, so the Thai shop keeps first say on free text as before; its THB price was set above
-shop_pages[len(json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) else []):0] = [{'shop': 'badmintonplaza.com', 'brand': pz['brand'], 'name': pz['name'] or pz.get('listed', ''), 'url': BASE_PLAZA + str(pz['id']),
+shop_pages[len(victor_pages):0] = [{'shop': 'badmintonplaza.com', 'brand': pz['brand'], 'name': pz['name'] or pz.get('listed', ''), 'url': BASE_PLAZA + str(pz['id']),
                 'price': '', 'currency': 'THB', 'img': '', 'lines': [f'{k}: {v}' for k, v in pz['specs'].items()], 'options': []}
                for pz in plaza if pz.get('specs')]
 shops = [x for x in (from_shop(p) for p in shop_pages) if x]
@@ -409,7 +423,13 @@ if os.environ.get('AUDIT'): print('  ' + ' | '.join(sorted(shop_new)))
 bay_hits = {'bay': 0, 'click': 0, 'shop': 0}
 AUDIT = {'matched': collections.defaultdict(list), 'unmatched': []}  # AUDIT=<path> writes every shop value per model
 cands = collections.defaultdict(lambda: collections.defaultdict(list))  # model -> field -> [(value, from prose, shop, rank)] in source order
+victor_by_url = {page['url']: page['lines'] for page in victor_pages}
+victor_specs = collections.defaultdict(list)
+pools = collections.defaultdict(dict)
+for r in rackets.values():
+    pools[r['brand']][r['name']] = r
 for bz in bay + click + shops:
+    original_title = bz.get('title', bz['name'])
     if bz.get('src') == 'click':
         # "NEW 2027 Victor Thruster Ryuga 3 (78 grams) Badminton Racquet": drop the shop's framing before matching
         bz = {**bz, 'name': re.sub(r'\b(new|20\d\d)\b|\(\d+ g\w*\)|\d+ g\w*|\[[^\]]*\]|\([^)]*edition\)', ' ', bz['name'], flags=re.I)}
@@ -417,11 +437,15 @@ for bz in bay + click + shops:
         bz['name'] = re.sub(r'(?<=[A-Za-z]) ([2-4])\b(?! ?[\d.])', lambda m: ' ' + {'2': 'II', '3': 'III', '4': 'IV'}[m.group(1)], bz['name'])
     if bz['brand'] == 'Felet':  # Badminton Bay writes "TJ 1000 Control", Felet itself "TJ Control 1000"
         bz = {**bz, 'name': re.sub(r'\bTJ 1000 (Control|Power|Speed)\b', r'TJ \1 1000', bz['name'], flags=re.I)}
-    pool = {r['name']: r for r in rackets.values() if r['brand'] == bz['brand']}
+    pool = pools[bz['brand']]
     m = match_title(bz['name'], bz['brand'], pool)
+    if m:
+        m = match_generation(original_title, bz['url'], m, pool)
     if not m:
         AUDIT['unmatched'].append({'brand': bz['brand'], 'name': bz['name'], 'url': bz['url'], 'src': bz.get('src', 'bay')}); continue
     r = pool[m]; bay_hits[bz.get('src', 'bay')] += 1
+    if bz['url'] in victor_by_url:
+        victor_specs[id(r)].append(victor_by_url[bz['url']])
     ws, g = weights(bz.get('weight', ''))
     if bz.get('src') == 'shop':
         ps = bz['parsed']
@@ -462,7 +486,7 @@ for bz in bay + click + shops:
             if f in ('frame', 'shaft'):
                 if f in bz['parsed'].get('generic', []) if bz.get('src') == 'shop' else False: rank = 1
                 if not is_material(str(v)): rank = 2
-            cands[id(r)][f].append((v, {'flex': 'flex', 'tension': 'tmax', 'level': 'level'}.get(f) in prose, src, rank))
+            cands[id(r)][f].append((v, {'balance': 'balance', 'flex': 'flex', 'tension': 'tmax', 'level': 'level'}.get(f) in prose, src, rank))
     # a placeholder price (S$999 on Li-Ning's store) is not a price
     if bz.get('price') in (999, 999.0, 9999, 9999.0): bz = {**bz, 'price': ''}
     if bz.get('price') and bz.get('currency') == 'THB' and not r.get('price'):
@@ -483,6 +507,13 @@ for rid, fields in cands.items():
     r = by_id[rid]
     for f, vs in fields.items():
         pool = [x for x in vs if not x[1]] or vs
+        if f == 'balance' and r['brand'] != 'Yonex' and f not in r.get('_hand', ()):
+            maker_labels = {v for v, inferred, shop, _ in pool
+                            if not inferred and shop in OFFICIAL and shop != 'badmintonplaza.com'}
+            if len(maker_labels) == 1:
+                r[f] = maker_labels.pop()
+                if f in r.get('proseEst', []): r['proseEst'].remove(f)
+                continue
         if not (r.get(f) in ('', None) or f in r.get('est', []) or f in r.get('proseEst', [])):
             # three or more shops' labelled specs agreeing (3 in 4 at least) outweigh one aggregator's balance or flex;
             # Yonex's own site is the source for Yonex, so it stays
@@ -570,6 +601,8 @@ for r in rackets.values():
     if not r['style']:
         st = hit[0] if hit else FROM_BAL.get(r['balance'], '')
         if st: r['style'] = st; est.append('style')
+    if r.get('year') and not r.get('yearSrc') and 'year' not in est:
+        est.append('year')
     r['est'] = est
 # ---- foreign price -> THB, only where no Thai price exists; flagged as an estimate with its note ----
 FX = json.load(open(os.path.join(SRC, 'fx.json'))) if os.path.exists(os.path.join(SRC, 'fx.json')) else {'toTHB': {}, 'date': ''}
@@ -607,7 +640,11 @@ tiered = 0
 for r in rackets.values():
     if r.get('level'): continue
     m = re.search(r'\b(pro|tour|game|play)\b(?!.*\b(pro|tour|game|play)\b)', r['name'], re.I) if r['brand'] == 'Yonex' else None
-    if m: r['level'] = TIER[m.group(1).lower()]; tiered += 1; continue
+    if m:
+        r['level'] = TIER[m.group(1).lower()]
+        r.setdefault('est', []).append('level')
+        tiered += 1
+        continue
     if re.search(r'alumin|steel', (r.get('frame') or '') + ' ' + (r.get('shaft') or ''), re.I):
         r['level'] = 'beginner'; r.setdefault('est', []).append('level'); tiered += 1
 print('levels from tier name or frame metal', tiered)
@@ -681,7 +718,9 @@ classed = 0
 for r in rackets.values():
     g = r.get('weight')
     if r.get('weights') or not isinstance(g, (int, float)) or not 70 <= g <= 94: continue
-    r['weights'] = f'{6 - (int(g) - 70) // 5}U'; classed += 1
+    r['weights'] = f'{6 - (int(g) - 70) // 5}U'
+    r.setdefault('est', []).append('weights')
+    classed += 1
 print('weight class from grams', classed)
 # ---- tidy-up: an origin is one country name; a weight class with no gram figure gets the class midpoint (flagged) ----
 from_class = 0
@@ -714,22 +753,75 @@ for r in rackets.values():
         r.setdefault('est', []).append('weight'); clash += 1
 print('weight outside its classes', clash)
 
-# Victor's own page gives one ceiling per weight class ("≦ 31 lbs" for 3U, "≦ 30 lbs" for 4U); the data keeps the
-# lower one as the safe cap, and the note says the heavier class takes more
-vpages = {o['url']: o for o in (json.load(open(VOFF, encoding='utf-8')) if os.path.exists(VOFF) else [])}
-per_class = 0
+# Use the lowest official ceiling when the buyer has not selected a weight class.
+# Keep a weight label only when the manufacturer's tension text actually pairs it with a value.
+VICTOR_CAP = re.compile(r'(?:\b([2-8]U)\s*[:：]?\s*)?(?:≦|≤|<=)\s*(\d{2})\s*lbs?\b', re.I)
+YONEX_RANGE = re.compile(r'\b([2-8][UF])\s*[:：]\s*(\d{2})\s*[-–~]\s*(\d{2})\s*lbs?\b', re.I)
+yonex_advice = {page['url']: page.get('Stringing Advice', '') for page in yx}
+
+def victor_tension(lines):
+    start = next((i for i, line in enumerate(lines) if re.fullmatch(r'string tension(?:\s+lbs)?\s*:?', line, re.I)), None)
+    if start is None:
+        return
+    for line in lines[start + 1:]:
+        values = VICTOR_CAP.findall(line)
+        if not values:
+            break
+        yield from ((weight.upper(), int(cap)) for weight, cap in values if 15 <= int(cap) <= 40)
+
 for r in rackets.values():
-    for l in r.get('shopLinks') or []:
-        o = vpages.get(l.get('url'))
-        if not o: continue
-        caps = sorted({int(n) for n in re.findall(r'[≦≤]\s*(\d{2})\s*lbs', ' '.join(o['lines']))}, reverse=True)
-        if len(caps) > 1:
-            us = sorted(set(re.findall(r'[2-7]U', r.get('weights', ''))))  # heaviest first, like the caps
-            pairs = [f'{u} ≤ {c}' for u, c in zip(us, caps)] if len(us) == len(caps) else [f'≤ {c}' for c in caps]
-            r['tensionNote'] = 'ผู้ผลิตแยกตามน้ำหนัก: ' + ', '.join(pairs) + ' lbs (ไม้หนักกว่ารับได้ตึงกว่า)'
-            per_class += 1
-        break
-print('tension per class', per_class)
+    by_weight = {}
+    caps = set()
+    low = (r.get('tension') or [None, None])[0]
+    tension_label = 'ผู้ผลิตระบุ: '
+    if r['brand'] == 'Yonex' and r.get('officialUrl') in yonex_advice:
+        for weight, minimum, maximum in YONEX_RANGE.findall(yonex_advice.get(r.get('officialUrl'), '')):
+            by_weight[weight.upper()] = [int(minimum), int(maximum)]
+        if len(by_weight) < 2:
+            continue
+        low = max(v[0] for v in by_weight.values())
+        caps = {v[1] for v in by_weight.values()}
+    elif r.get('tensionSrc') and r.get('tensionByWeight'):
+        # A spec override may contain a table verified against the exact product code,
+        # including when the cached manufacturer page has only unlabelled numbers.
+        by_weight = r['tensionByWeight']
+        caps = {maximum for _, maximum in by_weight.values()}
+        low = max((minimum for minimum, _ in by_weight.values() if minimum is not None), default=None)
+        tension_label = 'ตามแหล่งสเปก: '
+    elif r['brand'] == 'Victor':
+        limits = [pair for lines in victor_specs[id(r)] for pair in victor_tension(lines)]
+        caps = {cap for _, cap in limits}
+        if len(caps) < 2:
+            continue
+        labelled = {cap for weight, cap in limits if weight}
+        # A ceiling with no corresponding label stays unassigned.
+        if caps <= labelled:
+            for weight, cap in limits:
+                if weight:
+                    by_weight[weight] = [None, min(cap, by_weight.get(weight, [None, cap])[1])]
+    else:
+        continue
+    cap = min(caps)
+    if 'tension' in r.get('_hand', ()) and r.get('tension') and r['tension'][1] < cap:
+        cap = r['tension'][1]
+        by_weight = {w: [lo if lo and lo <= cap else None, cap] for w, (lo, _) in by_weight.items()}
+    r['tension'] = [low if low and low <= cap else None, cap]
+    r['tensionByWeight'] = dict(sorted(by_weight.items()))
+    labels = [f'{w}: {lo}–{hi}' if lo else f'{w} ≤ {hi}' for w, (lo, hi) in r['tensionByWeight'].items()]
+    r['tensionNote'] = tension_label + ', '.join(labels or [f'≤ {n}' for n in sorted(caps)]) + ' lbs'
+    r['est'] = [field for field in r.get('est', []) if field != 'tension']
+print('official tension variants', sum('tensionByWeight' in r for r in rackets.values()))
+
+# Shop listings can describe different weights or regional variants. A ceiling with conflicting
+# values stays provisional until we can tie it to a manufacturer table or an exact source.
+for r in rackets.values():
+    if (not r.get('tension') or r.get('tensionSrc') or 'tensionByWeight' in r or
+            yonex_advice.get(r.get('officialUrl'))):
+        continue
+    matched = AUDIT['matched'].get(r['brand'] + ' ' + r['name'], [])
+    ceilings = {entry['fill']['tension'][1] for entry in matched if entry['fill'].get('tension')}
+    if len(ceilings) > 1 and 'tension' not in r['est']:
+        r['est'].append('tension')
 
 order = ['id', 'brand', 'name', 'year', 'yearSrc', 'style', 'balance', 'bp', 'flex', 'level', 'levelTo', 'weights', 'weight', 'grips', 'tension', 'tensionNote', 'price',
          'frame', 'shaft', 'joint', 'length', 'head', 'pattern', 'tech', 'players', 'madeIn', 'recString', 'img', 'source', 'officialUrl', 'specSrc', 'shopUrl', 'bayUrl', 'clickUrl', 'shopLinks', 'priceNote', 'priceSrc', 'note', 'est']
@@ -738,8 +830,15 @@ for r in sorted(rackets.values(), key=lambda r: (r['brand'], r['name'])):
     while r['id'] in seen: r['id'] += '-2'
     seen.add(r['id'])
     final.append({k: r.get(k, '') for k in order})
+    for field in ('aliases', 'modelCode', 'generation'):
+        if r.get(field):
+            final[-1][field] = r[field]
+    if 'tensionByWeight' in r:
+        final[-1]['tensionByWeight'] = r['tensionByWeight']
+    if r.get('tensionSrc'):
+        final[-1]['tensionSrc'] = r['tensionSrc']
 
-head = """// ข้อมูลไม้แบด — แก้ไฟล์นี้ตรง ๆ ได้ หรือแก้ผ่านหน้า "จัดการข้อมูล" แล้วกด Export มาทับไฟล์นี้
+head = """// ข้อมูลไม้แบด — สร้างจาก scripts/build_rackets.py และ data/spec-overrides.json
 // แหล่งข้อมูล: chobbad.com (สเปกรวม) + yonex.com (สเปกทางการ ทับค่า Yonex)
 // style: attack | speed | control | allround, balance: head-light | even | head-heavy
 // flex: flexible | medium | stiff | extra-stiff, level: beginner | intermediate | advanced | pro
