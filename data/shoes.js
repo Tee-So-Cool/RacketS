@@ -443,8 +443,8 @@ window.SHOES = [
     "url": "https://shop.kibisports.com/products/asics-gel-rocket-11-m-indigo-fog-nova-orange"
    }
   ],
-  "price": 1860,
-  "priceNote": "แปลงจาก ₹5,239.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "price": 1890,
+  "priceNote": "แปลงจาก ₹5,239.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/asics-gel-rocket-11-white-badminton-shoes"
  },
  {
@@ -637,8 +637,8 @@ window.SHOES = [
     "url": "https://shop.kibisports.com/products/asics-upcourt-5-indoor-shoes-peacoat-shocking-orange"
    }
   ],
-  "price": 1510,
-  "priceNote": "แปลงจาก ₹4,249.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "price": 1530,
+  "priceNote": "แปลงจาก ₹4,249.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/asics-upcourt-5-peacoat-pure-silver-badminton-shoes"
  },
  {
@@ -662,12 +662,7 @@ window.SHOES = [
   "source": "https://chobbad.com/shoes/asics-upcourt-6/",
   "officialUrl": "https://www.asics.com/th/th-th/upcourt-6/p/1071A104-406.html",
   "est": [],
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4731",
   "shopLinks": [
-   {
-    "shop": "badmintonplaza.com",
-    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4731"
-   },
    {
     "shop": "racquetguys.com",
     "url": "https://racquetguys.com/products/asics-upcourt-6-gs-junior-indoor-court-shoe-white-pure-silver-1074a045-104"
@@ -675,6 +670,58 @@ window.SHOES = [
    {
     "shop": "tenniszon.com",
     "url": "https://tenniszon.com/products/asics-gel-upcourt-6-gs-junior-indoor-1074a045-001"
+   }
+  ]
+ },
+ {
+  "id": "asics-upcourttm-6",
+  "brand": "Asics",
+  "name": "Upcourttm 6",
+  "code": "",
+  "year": "",
+  "est": [],
+  "note": "The UPCOURT™ 6 shoe is a lightweight design that offers flexibility and a comfortable fit. ?",
+  "img": "https://www.badmintonplaza.com/images/1071A104-101-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "price": 2590,
+  "width": "normal",
+  "widthText": "Standard (D)",
+  "sole": "Rubber (None marking)",
+  "cushion": "",
+  "upper": "Breathable mesh",
+  "colors": "White/Black",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4688",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4688"
+   }
+  ]
+ },
+ {
+  "id": "asics-upcourttm-6-pure",
+  "brand": "Asics",
+  "name": "Upcourttm 6 Pure",
+  "code": "",
+  "year": "",
+  "est": [],
+  "note": "The UPCOURT™ 6 shoe is a lightweight design that offers flexibility and a comfortable fit. ?",
+  "img": "https://www.badmintonplaza.com/images/1072A107-100-A.jpg",
+  "source": "",
+  "officialUrl": "",
+  "price": 2590,
+  "width": "normal",
+  "widthText": "Standard (D)",
+  "sole": "Rubber (None marking)",
+  "cushion": "",
+  "upper": "Breathable mesh",
+  "colors": "White/Pure Silver",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4731",
+  "shopLinks": [
+   {
+    "shop": "badmintonplaza.com",
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4731"
    }
   ]
  },
@@ -866,8 +913,8 @@ window.SHOES = [
   ],
   "width": "wide",
   "weight": 320,
-  "price": 4050,
-  "priceNote": "แปลงจาก US$120.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "price": 4070,
+  "priceNote": "แปลงจาก US$120.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/hundred-phenom-unisex-badminton-shoes-white-green"
  },
  {
@@ -895,8 +942,8 @@ window.SHOES = [
    }
   ],
   "weight": 310,
-  "price": 2360,
-  "priceNote": "แปลงจาก US$70.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "price": 2370,
+  "priceNote": "แปลงจาก US$70.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/hundred-velocity-elite-badminton-shoes-blue"
  },
  {
@@ -938,7 +985,7 @@ window.SHOES = [
   "weight": 330,
   "sizes": "EUR 34-47 (UK 1-12, 21.4-30 cm)",
   "colors": "ขาว/ดำ/ทอง ขาว/แดง/กรมท่า ขาว/กรมท่า/เขียวมะนาว",
-  "price": 2110,
+  "price": 2100,
   "priceText": "SGD 74.00 (ราคาสิงคโปร์, ป้าย SGD 79.00)",
   "year": "",
   "note": "ปรับพื้นกลางใหม่ให้เปลี่ยนจังหวะลื่นและเบาขึ้น ส่วนบนตาข่ายผสม TPU ยึดเท้าแน่น",
@@ -958,7 +1005,7 @@ window.SHOES = [
     "url": "https://sg.lining.studio/products/aero-speed-2-0"
    }
   ],
-  "priceNote": "แปลงจาก S$79.90 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$79.90 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sportsshop.asia/products/li-ning-aero-speed-2-0-badminton-court-shoes-white-navy-lime"
  },
  {
@@ -1008,7 +1055,7 @@ window.SHOES = [
   "weight": 300,
   "sizes": "UK 3-11 (EUR 35⅔-46⅓, 21.5-29.5 cm)",
   "colors": "ขาว/เขียว ขาว/ม่วง ฟ้า เหลือง (Cockatoo) ดำ น้ำเงิน",
-  "price": 1590,
+  "price": 1620,
   "priceText": "₹4,490 (ราคาอินเดีย, ป้าย ₹7,490)",
   "year": "",
   "note": "น้ำหนักไม่เกิน 300 g ระบายอากาศดี พื้นกลางคืนพลังงาน สำหรับผู้เล่นระดับกลางถึงสูง",
@@ -1028,7 +1075,7 @@ window.SHOES = [
     "url": "https://thegodofsports.com/products/li-ning-all-round-badminton-shoes-standard-white-violet-tulip"
    }
   ],
-  "priceNote": "แปลงจาก ₹4,490.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹4,490.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/all-round"
  },
  {
@@ -1139,7 +1186,7 @@ window.SHOES = [
    }
   ],
   "price": 1820,
-  "priceNote": "แปลงจาก S$69.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$69.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/attack-g7"
  },
  {
@@ -1163,7 +1210,7 @@ window.SHOES = [
    }
   ],
   "price": 1820,
-  "priceNote": "แปลงจาก S$69.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$69.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/attack-g8"
  },
  {
@@ -1199,7 +1246,7 @@ window.SHOES = [
     "url": "https://in.lining.studio/products/blade-lite"
    }
   ],
-  "priceNote": "แปลงจาก S$129.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$129.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/blade-lite"
  },
  {
@@ -1215,7 +1262,7 @@ window.SHOES = [
   "weight": 320,
   "sizes": "",
   "colors": "ขาว น้ำเงิน (Estate Blue) ขาว/ดำ ขาว/แดง ดำ",
-  "price": 5250,
+  "price": 5240,
   "priceText": "₹12,990 (ราคาอินเดีย, ป้าย ₹13,990)",
   "year": "",
   "note": "รวม Probar Loc, Tuff tip และพื้นกลาง Boom ลดการสูญเสียพลังงานขณะเคลื่อนที่",
@@ -1235,7 +1282,7 @@ window.SHOES = [
     "url": "https://in.lining.studio/products/blade-pro"
    }
   ],
-  "priceNote": "แปลงจาก S$199.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$199.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/blade-pro"
  },
  {
@@ -1251,7 +1298,7 @@ window.SHOES = [
   "weight": 278,
   "sizes": "EUR 34-47 (UK 1-12)",
   "colors": "ดำ ขาว ขาว/ดำ",
-  "price": 5250,
+  "price": 5240,
   "priceText": "SGD 199.00 (ราคาสิงคโปร์)",
   "year": "",
   "note": "ส้นแข็งจาก TPU เพิ่มความมั่นคงของส้น ตัวรองเท้าระบายอากาศ มีห่วงดึงส้น",
@@ -1271,7 +1318,7 @@ window.SHOES = [
     "url": "https://in.lining.studio/products/blast-se"
    }
   ],
-  "priceNote": "แปลงจาก S$199.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$199.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/blast-se"
  },
  {
@@ -1307,7 +1354,7 @@ window.SHOES = [
     "url": "https://in.lining.studio/products/energy-10"
    }
   ],
-  "priceNote": "แปลงจาก S$99.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$99.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/energy-10"
  },
  {
@@ -1356,8 +1403,8 @@ window.SHOES = [
     "url": "https://in.lining.studio/products/halberd-ii-lite"
    }
   ],
-  "price": 3930,
-  "priceNote": "แปลงจาก S$149.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "price": 3920,
+  "priceNote": "แปลงจาก S$149.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/halberd-ii-lite"
  },
  {
@@ -1399,7 +1446,7 @@ window.SHOES = [
   "weight": 380,
   "sizes": "",
   "colors": "ขาว ดำ/ขาว แดง (Flame Red)",
-  "price": 8940,
+  "price": 8930,
   "priceText": "₹15,290 (ราคาอินเดีย, ป้าย ₹16,990)",
   "year": "",
   "note": "ใช้โฟม Boom ร่วมกับแผ่นคาร์บอน TPU เพิ่มความมั่นคง ระดับผู้เล่นมืออาชีพ",
@@ -1419,7 +1466,7 @@ window.SHOES = [
     "url": "https://in.lining.studio/products/halberd-3"
    }
   ],
-  "priceNote": "แปลงจาก S$339.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$339.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/halberd-3"
  },
  {
@@ -1443,7 +1490,7 @@ window.SHOES = [
    }
   ],
   "price": 4190,
-  "priceNote": "แปลงจาก S$159.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$159.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/halberd-3-lite"
  },
  {
@@ -1459,7 +1506,7 @@ window.SHOES = [
   "weight": 300,
   "sizes": "UK 3-11 (EUR 35⅔-46⅓, 21.5-29.5 cm)",
   "colors": "เขียว (Blue Jade) ดำ/ขาว ฟ้า/น้ำเงิน ขาว น้ำเงิน/เหลือง",
-  "price": 1880,
+  "price": 1900,
   "priceText": "₹5,290 (ราคาอินเดีย, ป้าย ₹8,990)",
   "year": 2024,
   "note": "พื้นกลาง LN Cloud มีแผ่น ProbarLoc ใต้อุ้งเท้า ส่วนบนเป็นตาข่ายระบายอากาศ",
@@ -1479,7 +1526,7 @@ window.SHOES = [
     "url": "https://thegodofsports.com/products/li-ning-halberd-strike-badminton-shoes-black-standard-white"
    }
   ],
-  "priceNote": "แปลงจาก ₹5,290.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹5,290.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/halberd-strike"
  },
  {
@@ -1495,7 +1542,7 @@ window.SHOES = [
   "weight": 345,
   "sizes": "",
   "colors": "ขาว/น้ำเงิน ขาว/ชมพู",
-  "price": 3800,
+  "price": 3790,
   "priceText": "₹7,490 (ราคาอินเดีย, ป้าย ₹8,690)",
   "year": "",
   "note": "มี Probar Loc รองรับกลางเท้า ยางหุ้มส้นด้านนอก และหัวรองเท้า TUFF TIP กันสึก",
@@ -1519,7 +1566,7 @@ window.SHOES = [
     "url": "https://in.lining.studio/products/hun-ting"
    }
   ],
-  "priceNote": "แปลงจาก S$144.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$144.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sportsshop.asia/products/li-ning-hunting-ii-badminton-court-shoes-neon-industry-yellow"
  },
  {
@@ -1555,7 +1602,7 @@ window.SHOES = [
     "url": "https://sg.lining.studio/products/hypersonic-iv"
    }
   ],
-  "priceNote": "แปลงจาก S$98.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$98.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sportsshop.asia/products/li-ning-hypersonic-iv-badminton-court-shoes-black-blue-gold-red"
  },
  {
@@ -1623,7 +1670,7 @@ window.SHOES = [
   "weight": 300,
   "sizes": "",
   "colors": "ดำ ขาว ชมพู",
-  "price": 6300,
+  "price": 6290,
   "priceText": "₹9,990 (ราคาอินเดีย, ป้าย ₹11,990)",
   "year": "",
   "note": "ทรงข้อต่ำ พื้นกลางรวมโฟม Boom, Light Foam และ Bounce+",
@@ -1643,7 +1690,7 @@ window.SHOES = [
     "url": "https://in.lining.studio/products/lt-01"
    }
   ],
-  "priceNote": "แปลงจาก S$239.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$239.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/lt-01"
  },
  {
@@ -1689,7 +1736,7 @@ window.SHOES = [
   "weight": 300,
   "sizes": "UK 3-11 (EUR 35⅔-46⅓)",
   "colors": "ฟ้า/น้ำเงิน ขาว/ส้ม ขาว ขาว/ฟ้า ดำ น้ำเงิน (Olympics Blue)",
-  "price": 2230,
+  "price": 2260,
   "priceText": "₹6,290 (ราคาอินเดีย, ป้าย ₹10,990)",
   "year": "",
   "note": "ออกแบบพื้นเพื่อการยึดเกาะและความมั่นคงเวลาลงน้ำหนักแรงหรือก้าวกว้าง",
@@ -1709,7 +1756,7 @@ window.SHOES = [
     "url": "https://thegodofsports.com/products/li-ning-ranger-force-badminton-shoes-pastel-blue-tropic-storm-blue"
    }
   ],
-  "priceNote": "แปลงจาก ₹6,290.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹6,290.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/ranger-force"
  },
  {
@@ -1733,7 +1780,7 @@ window.SHOES = [
    }
   ],
   "price": 2610,
-  "priceNote": "แปลงจาก S$99.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$99.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/ranger-lite-z1"
  },
  {
@@ -1920,8 +1967,8 @@ window.SHOES = [
     "url": "https://in.lining.studio/products/saga-lite-4"
    }
   ],
-  "price": 3140,
-  "priceNote": "แปลงจาก S$119.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "price": 3130,
+  "priceNote": "แปลงจาก S$119.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/saga-lite-4"
  },
  {
@@ -1985,7 +2032,7 @@ window.SHOES = [
   "weight": 320,
   "sizes": "",
   "colors": "ขาว/ดำ น้ำเงินเข้ม ขาว",
-  "price": 7880,
+  "price": 7870,
   "priceText": "₹9,990 (ราคาอินเดีย, ป้าย ₹12,990)",
   "year": "",
   "note": "ใช้โฟม Boom และ Light Foam ในพื้นกลาง ระดับผู้เล่นมืออาชีพ",
@@ -2005,7 +2052,7 @@ window.SHOES = [
     "url": "https://in.lining.studio/products/saga-se"
    }
   ],
-  "priceNote": "แปลงจาก S$299.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$299.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/saga-se"
  },
  {
@@ -2121,7 +2168,7 @@ window.SHOES = [
   "weight": 310,
   "width": "wide",
   "price": 2160,
-  "priceNote": "แปลงจาก S$82.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$82.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/ultra-fly"
  },
  {
@@ -2157,7 +2204,7 @@ window.SHOES = [
     "url": "https://in.lining.studio/products/ultra-power"
    }
   ],
-  "priceNote": "แปลงจาก S$55.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$55.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/ultra-power"
  },
  {
@@ -2180,8 +2227,8 @@ window.SHOES = [
     "url": "https://in.lining.studio/products/yt-01"
    }
   ],
-  "price": 6300,
-  "priceNote": "แปลงจาก S$239.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "price": 6290,
+  "priceNote": "แปลงจาก S$239.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/yt-01"
  },
  {
@@ -2317,7 +2364,7 @@ window.SHOES = [
     "url": "https://sportsshop.asia/products/mizuno-sky-blaster-4-badminton-shoes"
    }
   ],
-  "priceNote": "แปลงจาก S$95.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$95.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sportsshop.asia/products/mizuno-sky-blaster-4-badminton-shoes"
  },
  {
@@ -2597,7 +2644,7 @@ window.SHOES = [
   "weight": 340,
   "sizes": "US 6.5–11",
   "colors": "ขาว/เงิน",
-  "price": 6060,
+  "price": 6050,
   "priceText": "S$239 (ราคาสิงคโปร์)",
   "year": 2025,
   "note": "พื้นกลาง ENERZY CORE ร่วมกับ PoWnCe แผ่นรองพื้น ENERZY และส่วนบน Dynamotion Fit",
@@ -2613,7 +2660,7 @@ window.SHOES = [
     "url": "https://sportsshop.asia/products/mizuno-wave-fang-st-2025-unisex-badminton-shoes-white-silver"
    }
   ],
-  "priceNote": "แปลงจาก S$229.90 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$229.90 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sportsshop.asia/products/mizuno-wave-fang-st-2025-unisex-badminton-shoes-white-silver"
  },
  {
@@ -3369,7 +3416,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "220mm -305mm",
   "colors": "มี 3 สี",
-  "price": 2870,
+  "price": 2880,
   "priceText": "",
   "year": 2019,
   "note": "รุ่นใช้งานรอบด้าน — แผ่นไนลอนช่วยลดการบิดตัวของพื้น, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
@@ -3385,7 +3432,7 @@ window.SHOES = [
     "url": "https://badmintonwarehouse.com/products/victor-a110-ca-unisex-badminton-court-shoes"
    }
   ],
-  "priceNote": "แปลงจาก US$85.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$85.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/victor-a110-ca-unisex-badminton-court-shoes"
  },
  {
@@ -3468,7 +3515,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR28-35 / 170-220mm",
   "colors": "มี 5 สี",
-  "price": 1950,
+  "price": 1930,
   "priceText": "",
   "year": 2025,
   "note": "แผ่นไนลอนช่วยลดการบิดตัวของพื้น, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
@@ -3484,7 +3531,7 @@ window.SHOES = [
     "url": "https://yumo.ca/products/victor-a170iijr-junior-court-shoes"
    }
   ],
-  "priceNote": "แปลงจาก C$80.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก C$80.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-a170iijr-junior-court-shoes"
  },
  {
@@ -3500,7 +3547,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 28-35 170-220mm",
   "colors": "มี 3 สี",
-  "price": 1690,
+  "price": 1700,
   "priceText": "",
   "year": 2024,
   "note": "แผ่นไนลอนช่วยลดการบิดตัวของพื้น, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
@@ -3520,7 +3567,7 @@ window.SHOES = [
     "url": "https://shop.kibisports.com/products/a170jr-af-junior-badminton-shoes"
    }
   ],
-  "priceNote": "แปลงจาก US$49.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$49.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/victor-a170jr-fm"
  },
  {
@@ -3739,7 +3786,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 35-47.5 / 220-310mm",
   "colors": "มี 2 สี",
-  "price": 1260,
+  "price": 1270,
   "priceText": "",
   "year": 2024,
   "note": "แผ่นไนลอนช่วยลดการบิดตัวของพื้น, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
@@ -3759,7 +3806,7 @@ window.SHOES = [
     "url": "https://shop.kibisports.com/products/a301-b-all-around-badminton-shoes"
    }
   ],
-  "priceNote": "แปลงจาก ₹3,543.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹3,543.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/victor-a301-in-badminton-shoes-medieval-blue"
  },
  {
@@ -3890,7 +3937,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR28-35 / 170-220mm",
   "colors": "มี 2 สี",
-  "price": 1840,
+  "price": 1820,
   "priceText": "",
   "year": 2025,
   "note": "แผ่นไนลอนช่วยลดการบิดตัวของพื้น, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
@@ -3906,7 +3953,7 @@ window.SHOES = [
     "url": "https://yumo.ca/products/victor-a311jr-junior-court-shoes"
    }
   ],
-  "priceNote": "แปลงจาก C$76.49 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก C$76.49 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-a311jr-junior-court-shoes"
  },
  {
@@ -4168,7 +4215,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 35-46 220mm-300mm",
   "colors": "มี 2 สี",
-  "price": 3380,
+  "price": 3390,
   "priceText": "",
   "year": 2024,
   "note": "รุ่นใช้งานรอบด้าน / รุ่นเด็ก — TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
@@ -4196,7 +4243,7 @@ window.SHOES = [
     "url": "https://shop.kibisports.com/products/a391-c-all-around-badminton-shoes"
    }
   ],
-  "priceNote": "แปลงจาก US$99.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$99.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://racquetguys.com/products/victor-a391-mens-indoor-court-shoe-black"
  },
  {
@@ -4278,7 +4325,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 39.5-45.5 / 250-295mm",
   "colors": "มี 2 สี",
-  "price": 2380,
+  "price": 2350,
   "priceText": "",
   "year": 2024,
   "note": "รุ่นเด็ก — TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
@@ -4298,7 +4345,7 @@ window.SHOES = [
     "url": "https://tenniszon.com/products/victor-unisex-indoor-wide-a531w-cx"
    }
   ],
-  "priceNote": "แปลงจาก C$98.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก C$98.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-a531w-wide-unisex-court-shoes"
  },
  {
@@ -4314,7 +4361,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 35-47 / 220-305mm",
   "colors": "มี 4 สี",
-  "price": 2600,
+  "price": 2570,
   "priceText": "",
   "year": 2025,
   "note": "TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, แผ่นไนลอนช่วยลดการบิดตัวของพื้น, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
@@ -4330,7 +4377,7 @@ window.SHOES = [
     "url": "https://yumo.ca/products/victor-a550-court-shoes"
    }
   ],
-  "priceNote": "แปลงจาก C$107.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก C$107.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-a550-court-shoes"
  },
  {
@@ -4368,7 +4415,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR35-41 / 220-265mm",
   "colors": "มี 4 สี",
-  "price": 4010,
+  "price": 3890,
   "priceText": "",
   "year": 2025,
   "note": "รุ่นใช้งานรอบด้าน — TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง",
@@ -4392,7 +4439,7 @@ window.SHOES = [
     "url": "https://tenniszon.com/products/victor-womens-indoor-a600f-at"
    }
   ],
-  "priceNote": "แปลงจาก A$169.00 ที่ 1 AUD = 23.747 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก A$169.00 ที่ 1 AUD = 23.013 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonclick.com.au/products/victor-a600f-at-pearly-white-ladies-badminton-shoe"
  },
  {
@@ -4476,7 +4523,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "220mm – 305mm",
   "colors": "มี 2 สี",
-  "price": 2360,
+  "price": 2370,
   "priceText": "",
   "year": 2019,
   "note": "รุ่นใช้งานรอบด้าน — แผ่นไนลอนช่วยลดการบิดตัวของพื้น, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
@@ -4496,7 +4543,7 @@ window.SHOES = [
     "url": "https://badmintonwarehouse.com/products/victor-a630-af-unisex-badminton-shoe-white-sodalite-blue"
    }
   ],
-  "priceNote": "แปลงจาก US$69.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$69.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/victor-a630-hr-iron-gate-ceramic"
  },
  {
@@ -4578,7 +4625,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR35-45.5 / 220-295mm",
   "colors": "มี 3 สี",
-  "price": 3470,
+  "price": 3430,
   "priceText": "",
   "year": 2025,
   "note": "รุ่นระดับแข่งขัน — TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, แผ่นไนลอนช่วยลดการบิดตัวของพื้น · มีรุ่นผู้หญิง A770F",
@@ -4594,7 +4641,7 @@ window.SHOES = [
     "url": "https://yumo.ca/products/victor-a770-professional-court-shoes"
    }
   ],
-  "priceNote": "แปลงจาก C$143.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก C$143.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-a770-professional-court-shoes"
  },
  {
@@ -4698,7 +4745,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 39-45.5 245mm-295mm",
   "colors": "มี 2 สี",
-  "price": 6420,
+  "price": 6440,
   "priceText": "",
   "year": 2024,
   "note": "รุ่นระดับแข่งขัน / รุ่นใช้งานรอบด้าน — แผ่นคาร์บอนช่วยให้พื้นมั่นคงไม่บิดตัว, TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, พื้นโฟม NitroLite เบาและเด้งคืนตัวดี",
@@ -4726,7 +4773,7 @@ window.SHOES = [
     "url": "https://tenniszon.com/products/victor-mens-indoor-a830nitrolite-ca"
    }
   ],
-  "priceNote": "แปลงจาก US$189.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$189.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/victor-a830nitrolite-wide-shoe-a830nlite-af-white-mykonosblue"
  },
  {
@@ -4742,7 +4789,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "220mm – 265mm",
   "colors": "มี 1 สี",
-  "price": 4220,
+  "price": 4240,
   "priceText": "",
   "year": 2022,
   "note": "รุ่นระดับแข่งขัน / รุ่นใช้งานรอบด้าน — TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
@@ -4766,7 +4813,7 @@ window.SHOES = [
     "url": "https://yumo.ca/products/victor-a900f-ar-badminton-ladies-court-shoes-bright-white-cockatoo-green"
    }
   ],
-  "priceNote": "แปลงจาก US$125.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$125.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/victor-a900f-unisex-badminton-shoe-bright-white-cockatoo-green"
  },
  {
@@ -4826,7 +4873,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "220mm – 310mm",
   "colors": "มี 2 สี",
-  "price": 2820,
+  "price": 2780,
   "priceText": "",
   "year": "",
   "note": "รุ่นระดับแข่งขัน / รุ่นใช้งานรอบด้าน — แผ่นคาร์บอนช่วยให้พื้นมั่นคงไม่บิดตัว, TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง",
@@ -4842,7 +4889,7 @@ window.SHOES = [
     "url": "https://yumo.ca/products/victor-a930-af-court-shoes-white-blue"
    }
   ],
-  "priceNote": "แปลงจาก C$116.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก C$116.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-a930-af-court-shoes-white-blue"
  },
  {
@@ -4968,7 +5015,7 @@ window.SHOES = [
   "weight": 344,
   "sizes": "EUR 35-48 / 220-315mm",
   "colors": "มี 7 สี",
-  "price": 5910,
+  "price": 5730,
   "priceText": "",
   "year": 2025,
   "note": "รุ่นระดับแข่งขัน / รุ่นใช้งานรอบด้าน — แผ่นคาร์บอนช่วยให้พื้นมั่นคงไม่บิดตัว, TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, พื้นโฟม NitroLite เบาและเด้งคืนตัวดี",
@@ -4988,7 +5035,7 @@ window.SHOES = [
     "url": "https://tenniszon.com/products/victor-a970-nitro-lite-a-indoor-shoes"
    }
   ],
-  "priceNote": "แปลงจาก A$249.00 ที่ 1 AUD = 23.747 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก A$249.00 ที่ 1 AUD = 23.013 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonclick.com.au/products/victor-a970-nitro-lite-cadv-white-2026-new-model-unisex-badminton-shoes"
  },
  {
@@ -5012,8 +5059,8 @@ window.SHOES = [
    }
   ],
   "width": "normal",
-  "price": 6080,
-  "priceNote": "แปลงจาก US$179.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "price": 6100,
+  "priceNote": "แปลงจาก US$179.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://racquetguys.com/products/victor-a970chp-mens-indoor-court-shoe-white-blue"
  },
  {
@@ -5495,7 +5542,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 36-46 / 225-300mm",
   "colors": "มี 3 สี",
-  "price": 4770,
+  "price": 4710,
   "priceText": "",
   "year": "",
   "note": "รุ่นระดับแข่งขัน — แผ่นคาร์บอนช่วยให้พื้นมั่นคงไม่บิดตัว, TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, พื้นโฟม NitroLite เบาและเด้งคืนตัวดี",
@@ -5511,7 +5558,7 @@ window.SHOES = [
     "url": "https://yumo.ca/products/victor-p8500nlite-at-badminton-shoes-white-teal"
    }
   ],
-  "priceNote": "แปลงจาก C$197.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก C$197.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-p8500nlite-at-badminton-shoes-white-teal"
  },
  {
@@ -5674,7 +5721,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR35-47 / 220-305mm",
   "colors": "มี 3 สี",
-  "price": 3250,
+  "price": 3210,
   "priceText": "",
   "year": 2025,
   "note": "แผ่นคาร์บอนช่วยให้พื้นมั่นคงไม่บิดตัว, TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
@@ -5690,7 +5737,7 @@ window.SHOES = [
     "url": "https://yumo.ca/products/victor-p9200ntd-professional-court-shoes-white-blue-wing-teal"
    }
   ],
-  "priceNote": "แปลงจาก C$134.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก C$134.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-p9200ntd-professional-court-shoes-white-blue-wing-teal"
  },
  {
@@ -5706,7 +5753,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 35-47 / 220-305mm",
   "colors": "มี 4 สี",
-  "price": 3980,
+  "price": 4000,
   "priceText": "",
   "year": 2025,
   "note": "รุ่นเด็ก — แผ่นไนลอนช่วยลดการบิดตัวของพื้น, ชั้น ENERGYMAX ช่วยซับแรงกระแทก · มีรุ่นผู้หญิง P9200TDF",
@@ -5730,7 +5777,7 @@ window.SHOES = [
     "url": "https://thegodofsports.com/products/victor-p9200-iii-td-badminton-shoes-red"
    }
   ],
-  "priceNote": "แปลงจาก US$117.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$117.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://racquetguys.com/products/victor-p9200iii-td-mens-indoor-court-shoe-white-black"
  },
  {
@@ -5746,7 +5793,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR37-45.5 / 230-295mm",
   "colors": "มี 3 สี",
-  "price": 4900,
+  "price": 4920,
   "priceText": "",
   "year": 2025,
   "note": "รุ่นระดับแข่งขัน — แผ่นคาร์บอนช่วยให้พื้นมั่นคงไม่บิดตัว, TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง",
@@ -5770,7 +5817,7 @@ window.SHOES = [
     "url": "https://tenniszon.com/products/victor-unisex-indoor-p9200chp-a"
    }
   ],
-  "priceNote": "แปลงจาก US$144.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$144.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/victor-p9200chp-ab-court-shoe-bright-white-medival-blue"
  },
  {
@@ -5860,7 +5907,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "230-295 mm",
   "colors": "ฟ้าอมเขียว (Blue Wing Teal) ขาว",
-  "price": 3680,
+  "price": 3640,
   "priceText": "",
   "year": 2022,
   "note": "รองเท้าแบดหน้ากว้างพื้นหนารุ่นแรกของ Victor ขยายหน้าเท้าด้านข้างเพื่อความมั่นคงเวลาเคลื่อนที่ด้านข้าง",
@@ -5876,7 +5923,7 @@ window.SHOES = [
     "url": "https://yumo.ca/products/victor-p9600-bj-court-shoes-blue-wing-teal-purple"
    }
   ],
-  "priceNote": "แปลงจาก C$152.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก C$152.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-p9600-bj-court-shoes-blue-wing-teal-purple"
  },
  {
@@ -5988,8 +6035,8 @@ window.SHOES = [
    }
   ],
   "width": "normal",
-  "price": 4020,
-  "priceNote": "แปลงจาก US$119.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "price": 4040,
+  "priceNote": "แปลงจาก US$119.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/victor-s70-a-unisex-badminton-court-shoe-white"
  },
  {
@@ -6005,7 +6052,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "230mm - 295mm",
   "colors": "มี 5 สี",
-  "price": 3210,
+  "price": 3220,
   "priceText": "",
   "year": "",
   "note": "รุ่นระดับแข่งขัน / รุ่นเน้นความเร็ว — แผ่นคาร์บอนช่วยให้พื้นมั่นคงไม่บิดตัว, TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง, ชั้น ENERGYMAX ช่วยซับแรงกระแทก",
@@ -6033,7 +6080,7 @@ window.SHOES = [
     "url": "https://yumo.ca/products/victor-s82iim-ac-court-shoe-bright-white"
    }
   ],
-  "priceNote": "แปลงจาก US$95.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$95.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/of-victor-s82iim-ac-unisex-badminton-court-shoe"
  },
  {
@@ -6469,7 +6516,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "EUR 37-46 / 230-300mm",
   "colors": "มี 2 สี",
-  "price": 3250,
+  "price": 3210,
   "priceText": "",
   "year": 2024,
   "note": "รุ่นระดับแข่งขัน / รุ่นใช้งานรอบด้าน — TPU เสริมความมั่นคงตอนเปลี่ยนทิศทาง",
@@ -6493,7 +6540,7 @@ window.SHOES = [
     "url": "https://thegodofsports.com/products/victor-vg2-ace-badminton-shoes-white"
    }
   ],
-  "priceNote": "แปลงจาก C$134.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก C$134.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/victor-vg2ace-badminton-shoes"
  },
  {
@@ -6765,8 +6812,8 @@ window.SHOES = [
   ],
   "width": "wide",
   "weight": 250,
-  "price": 4730,
-  "priceNote": "แปลงจาก US$139.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "price": 4750,
+  "priceNote": "แปลงจาก US$139.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/yonex-aerus-z-pastel-pink"
  },
  {
@@ -6902,8 +6949,8 @@ window.SHOES = [
    }
   ],
   "width": "wide",
-  "price": 4730,
-  "priceNote": "แปลงจาก US$140.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "price": 4750,
+  "priceNote": "แปลงจาก US$140.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/yonex-power-cushion-65-z-va-womens-badminton-shoes-silver-navy"
  },
  {
@@ -6926,8 +6973,8 @@ window.SHOES = [
     "url": "https://nydhi.com/products/yonex-power-cushion-65-z3-badminton-shoes-black"
    }
   ],
-  "price": 4220,
-  "priceNote": "แปลงจาก US$124.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "price": 4240,
+  "priceNote": "แปลงจาก US$124.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/yonex-power-cushion-65-z3-womens-shoe-navy-saxe"
  },
  {
@@ -6943,7 +6990,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "22.0–29.0 cm (WOMEN 22.0–26.0 cm, SLIM 20.0–29.0 cm)",
   "colors": "ขาว",
-  "price": 4560,
+  "price": 4580,
   "priceText": "¥18,700 (ราคาญี่ปุ่น) / $135 (ราคาสหรัฐฯ)",
   "year": 2025,
   "note": "แกนกลางเท้า Power Carbon Light (คาร์บอน + EVA แข็ง) อัปเปอร์แบบไร้ตะเข็บ โครงสร้าง Inner Bootie ลิ้นรองเท้าต่อเป็นชิ้นเดียวกับขอบข้อ",
@@ -6987,7 +7034,7 @@ window.SHOES = [
     "url": "https://centralsports.co.uk/products/yonex-pc-65-z-va-men-badminton-shoes-shbvazm"
    }
   ],
-  "priceNote": "แปลงจาก US$135.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$135.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/yonex-power-cushion-65-z4-mens-shoe-white"
  },
  {
@@ -7037,7 +7084,7 @@ window.SHOES = [
   "weight": 285,
   "sizes": "US M 4–13",
   "colors": "เหลือง เขียวเข้ม ฟ้าอ่อน",
-  "price": 4900,
+  "price": 4920,
   "priceText": "$146 (ราคาสหรัฐฯ)",
   "year": 2024,
   "note": "ระบบหมุนปรับความกระชับ BOA Fit System แทนเชือก แผ่นกราไฟต์ Power Graphite Lite ที่มิดโซลลดการบิดตัว โครงสร้าง Inner Bootie",
@@ -7053,7 +7100,7 @@ window.SHOES = [
     "url": "https://joybadminton.com/products/yonex-power-cushion-88-dial-3-wide-shoe-light-beige"
    }
   ],
-  "priceNote": "แปลงจาก US$145.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$145.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/yonex-power-cushion-88-dial-3-wide-shoe-light-beige"
  },
  {
@@ -7069,7 +7116,7 @@ window.SHOES = [
   "weight": 288,
   "sizes": "US M 5–13",
   "colors": "น้ำเงินคราม",
-  "price": 3030,
+  "price": 3000,
   "priceText": "$110 (ราคาสหรัฐฯ)",
   "year": "",
   "note": "รุ่นเบาทรงหน้าเท้ากว้าง มีแผ่น 3D Power Graphite และพื้นรองใน Synchro-Fit Insole",
@@ -7089,7 +7136,7 @@ window.SHOES = [
     "url": "https://centralsports.co.uk/products/yonex-aerus-x2-shbax2ex"
    }
   ],
-  "priceNote": "แปลงจาก C$125.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก C$125.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/yonex-power-cushion-aerus-x2-men-court-shoes-navy-blue"
  },
  {
@@ -7105,7 +7152,7 @@ window.SHOES = [
   "weight": 240,
   "sizes": "22.0–29.0 cm (WOMEN 22.0–26.0 cm)",
   "colors": "เขียว กรมท่า เทาฟ้า ส้มแดง ชมพูคอรัล ฟ้าอ่อน",
-  "price": 4900,
+  "price": 4920,
   "priceText": "¥16,500 (ราคาญี่ปุ่น) / $145 (ราคาสหรัฐฯ)",
   "year": 2022,
   "note": "รุ่นน้ำหนักเบาของ Yonex ใช้ Featherlight X ที่มิดโซล อัปเปอร์ไร้ตะเข็บ ชิ้นคาร์บอน 3D Power Carbon กลางเท้า",
@@ -7141,7 +7188,7 @@ window.SHOES = [
     "url": "https://centralsports.co.uk/products/yonex-aerus-z2-women-shbaz2lex-1"
    }
   ],
-  "priceNote": "แปลงจาก US$144.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$144.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/yonex-power-cushion-aerus-z2-womens-shoe-flash-green"
  },
  {
@@ -7157,7 +7204,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "US M 6–13",
   "colors": "ส้มขาว น้ำเงิน",
-  "price": 3370,
+  "price": 3330,
   "priceText": "$100 (ราคาสหรัฐฯ)",
   "year": "",
   "note": "อัปเปอร์ฟิล์มไร้ตะเข็บประกบตาข่ายน้ำหนักเบา ทรงหัว Toe Assist Shape ช่วยการเปลี่ยนทิศทางเร็ว",
@@ -7177,7 +7224,7 @@ window.SHOES = [
     "url": "https://tenniszon.com/products/yonex-power-cushion-cascade-accel-2-wide-womens-indoor-white-light-blue"
    }
   ],
-  "priceNote": "แปลงจาก C$139.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก C$139.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/yonex-cascade-accel-2-wide"
  },
  {
@@ -7193,7 +7240,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "US M 5–13",
   "colors": "ขาวด้าน ฟ้าใส",
-  "price": 3710,
+  "price": 3730,
   "priceText": "$105 (ราคาสหรัฐฯ)",
   "year": "",
   "note": "โครงสร้าง Inner Bootie สวมกระชับ ทรงหัวรองเท้า Toe Assist Shape",
@@ -7217,7 +7264,7 @@ window.SHOES = [
     "url": "https://yumo.ca/products/yonex-power-cushion-cascade-drive-2-mens-clear-black"
    }
   ],
-  "priceNote": "แปลงจาก US$110.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$110.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/yonex-power-cushion-cascade-drive-2-unisex-badminton-court-shoe"
  },
  {
@@ -7233,7 +7280,7 @@ window.SHOES = [
   "weight": 330,
   "sizes": "22.0–29.0 cm",
   "colors": "ดำ ขาว ดำมิ้นต์",
-  "price": 4050,
+  "price": 4070,
   "priceText": "¥19,360 (ราคาญี่ปุ่น) / $160 (ราคาสหรัฐฯ)",
   "year": 2022,
   "note": "รุ่นเน้นการรองรับแรงกระแทก ใช้โฟมหลายชั้นร่วมกับแผ่น 3D Power Carbon Drive ช่วยความมั่นคง",
@@ -7269,7 +7316,7 @@ window.SHOES = [
     "url": "https://thegodofsports.com/products/yonex-power-cushion-shb-comfort-z3-badminton-shoes-for-women-white"
    }
   ],
-  "priceNote": "แปลงจาก US$119.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$119.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/yonex-power-cushion-comfort-z3-black-mint"
  },
  {
@@ -7297,8 +7344,8 @@ window.SHOES = [
    }
   ],
   "width": "normal",
-  "price": 3730,
-  "priceNote": "แปลงจาก C$154.95 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "price": 3690,
+  "priceNote": "แปลงจาก C$154.95 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://tenniszon.com/products/yonex-power-cushion-eclipsion-x3-mens-indoor-white-gold"
  },
  {
@@ -7314,7 +7361,7 @@ window.SHOES = [
   "weight": 320,
   "sizes": "22.0–29.0 cm (WOMEN 22.0–26.0 cm)",
   "colors": "กรมท่า ขาว ขาวดำ ขาวทอง",
-  "price": 5070,
+  "price": 5090,
   "priceText": "¥17,600 (ราคาญี่ปุ่น) / $150 (ราคาสหรัฐฯ)",
   "year": 2023,
   "note": "เน้นความมั่นคง มี Lateral Shell และ Stability Reinforcement กันเท้าบิดออกด้านข้างเวลาเปลี่ยนทิศทาง",
@@ -7358,7 +7405,7 @@ window.SHOES = [
     "url": "https://joybadminton.com/products/yonex-eclipsion-z3-wide-shoes-light-blue"
    }
   ],
-  "priceNote": "แปลงจาก US$150.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$150.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/yonex-power-cushion-eclipsion-z3-wide-mens-badminton-court-shoe-light-blue"
  },
  {
@@ -7446,7 +7493,7 @@ window.SHOES = [
    }
   ],
   "price": 2580,
-  "priceNote": "แปลงจาก S$98.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$98.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sportsshop.asia/products/yonex-strider-beat-badminton-shoe-mens"
  },
  {
@@ -7462,7 +7509,7 @@ window.SHOES = [
   "weight": 320,
   "sizes": "US M 5–13",
   "colors": "เทาอ่อน ดำ ขาวทอง เบจ กรมท่าทอง",
-  "price": 2190,
+  "price": 2200,
   "priceText": "$65 (ราคาสหรัฐฯ)",
   "year": "",
   "note": "รุ่นราคาประหยัด มี Lateral Shell ช่วยประคองเท้าด้านข้าง",
@@ -7498,7 +7545,7 @@ window.SHOES = [
     "url": "https://tenniszon.com/products/yonex-power-cushion-strider-flow-womens-indoor-light-grey"
    }
   ],
-  "priceNote": "แปลงจาก US$64.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$64.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/yonex-power-cushion-strider-flow-unisex-court-shoe-white-mint"
  },
  {
@@ -7514,7 +7561,7 @@ window.SHOES = [
   "weight": "",
   "sizes": "ไซซ์เด็ก US 1–7",
   "colors": "ขาวมิ้นต์",
-  "price": 2700,
+  "price": 2710,
   "priceText": "$65 (ราคาสหรัฐฯ)",
   "year": "",
   "note": "รองเท้าแบดมินตันสำหรับเด็ก มีทั้งแบบผูกเชือกและแบบสายรัด (Belt) มี Lateral Shell",
@@ -7538,7 +7585,7 @@ window.SHOES = [
     "url": "https://tenniszon.com/products/yonex-power-cushion-strider-flow-junior-indoor-black-blue"
    }
   ],
-  "priceNote": "แปลงจาก US$79.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$79.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://racquetguys.com/products/yonex-power-cushion-strider-flow-junior-indoor-court-shoe-black-blue"
  },
  {
