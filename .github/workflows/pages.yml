@@ -31,7 +31,9 @@ jobs:
           python3 scripts/build_gear.py
 
       - name: Run tests
-        run: node tests/run.js
+        run: |
+          node tests/run.js
+          python3 -m unittest discover -s tests
 
       - name: Collect site files
         run: |

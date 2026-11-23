@@ -1476,7 +1476,7 @@ window.SOCKS = [
     "url": "https://joybadminton.com/products/victor-womens-sport-socks-sk1009-a-m-white"
    }
   ],
-  "priceNote": "แปลงจาก US$7.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$7.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/victor-womens-sport-socks-sk1009-a-m-white"
  },
  {
@@ -1508,7 +1508,7 @@ window.SOCKS = [
     "url": "https://joybadminton.com/products/victor-mens-sport-socks-sk1015-h-l-gray"
    }
   ],
-  "priceNote": "แปลงจาก US$7.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$7.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/victor-mens-sport-socks-sk1015-h-l-gray"
  },
  {
@@ -1595,7 +1595,7 @@ window.SOCKS = [
     "url": "https://joybadminton.com/products/victor-womens-sport-socks-sk1018-e-m-fennel-yellow"
    }
   ],
-  "priceNote": "แปลงจาก US$7.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$7.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/victor-womens-sport-socks-sk1018-e-m-fennel-yellow"
  },
  {
@@ -1968,7 +1968,7 @@ window.SOCKS = [
     "url": "https://sportsshop.asia/products/victor-sk192-socks-pink"
    }
   ],
-  "priceNote": "แปลงจาก US$7.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$7.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/victor-womens-sport-socks-sk192-c-m-black"
  },
  {
@@ -2271,7 +2271,7 @@ window.SOCKS = [
     "url": "https://joybadminton.com/products/victor-sports-socks-medium-sk235-white-black"
    }
   ],
-  "priceNote": "แปลงจาก US$8.92 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$8.92 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/victor-sports-socks-medium-sk235-white-black"
  },
  {
@@ -2287,7 +2287,7 @@ window.SOCKS = [
   "sizes": "22-25 cm",
   "pack": 1,
   "colors": "มี 1 สี",
-  "price": 290,
+  "price": 300,
   "priceText": "",
   "year": 2015,
   "note": "",
@@ -2303,7 +2303,7 @@ window.SOCKS = [
     "url": "https://joybadminton.com/products/victor-sport-socks-medium-sk244c-rose-red"
    }
   ],
-  "priceNote": "แปลงจาก US$8.70 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$8.70 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/victor-sport-socks-medium-sk244c-rose-red"
  },
  {
@@ -2335,7 +2335,7 @@ window.SOCKS = [
     "url": "https://joybadminton.com/products/victor-womens-sport-socks-sk290-d-m-red"
    }
   ],
-  "priceNote": "แปลงจาก US$7.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$7.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/victor-womens-sport-socks-sk290-d-m-red"
  },
  {
@@ -2367,7 +2367,7 @@ window.SOCKS = [
     "url": "https://joybadminton.com/products/victor-2025-chinese-new-year-mens-socks-sk506cny-d-l-lava-red"
    }
   ],
-  "priceNote": "แปลงจาก US$9.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$9.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/victor-2025-chinese-new-year-mens-socks-sk506cny-d-l-lava-red"
  },
  {
@@ -2898,8 +2898,8 @@ window.SOCKS = [
    }
   ],
   "height": "mid",
-  "price": 720,
-  "priceNote": "แปลงจาก C$29.99 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "price": 710,
+  "priceNote": "แปลงจาก C$29.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/yonex-19256ex-3-pack-sport-crew-socks"
  },
  {
@@ -2950,7 +2950,7 @@ window.SOCKS = [
   ],
   "height": "mid",
   "price": 610,
-  "priceNote": "แปลงจาก US$18.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$18.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/yonex-19120-sport-crew-socks"
  },
  {
@@ -3041,7 +3041,7 @@ window.SOCKS = [
   ],
   "height": "low",
   "price": 680,
-  "priceNote": "แปลงจาก US$20.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$20.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://badmintonwarehouse.com/products/yonex-19121-sport-low-cut-socks"
  },
  {

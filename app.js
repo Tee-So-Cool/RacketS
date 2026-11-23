@@ -3,15 +3,164 @@
 
   // ---------- data ----------
   const KEYS = { r: 'rs.rackets.v1', s: 'rs.strings.v1', h: 'rs.shuttles.v1', o: 'rs.shoes.v1', k: 'rs.socks.v1' };
+  const EDIT_KEYS = { r: 'rs.rackets.v2', s: 'rs.strings.v2' };
   const BASE = { r: window.RACKETS || [], s: window.STRINGS || [], h: window.SHUTTLES || [], o: window.SHOES || [], k: window.SOCKS || [] };
   const clone = v => JSON.parse(JSON.stringify(v));
+  const sameField = (a, b) => JSON.stringify(a ?? '') === JSON.stringify(b ?? '');
+  const edits = {};
+  const storedEdits = {};
+  const legacy = new Map();
+  const pendingLegacy = new Set();
+  const catalogSources = new Map(Object.entries({
+    year: ['yearSrc'],
+    price: ['priceSrc', 'priceNote'],
+    tension: ['tensionByWeight', 'tensionNote', 'tensionSrc'],
+  }));
+
+  function catalogDelta(base, rows, hidden = []) {
+    const defaults = new Map(base.map(item => [item.id, item]));
+    const visible = new Set(rows.map(item => item.id));
+    const added = [], changed = [];
+    for (const item of rows) {
+      const original = defaults.get(item.id);
+      if (!original) { added.push(item); continue; }
+      const fields = Object.keys(item).filter(key => key !== 'id' && !sameField(item[key], original[key]));
+      if (fields.length) changed.push({ item, fields });
+    }
+    const removed = [...new Set([...hidden, ...defaults.keys()])].filter(id => !visible.has(id));
+    return { added, changed, removed };
+  }
+
+  function applyCatalogDelta(base, { added, changed, removed }) {
+    const hidden = new Set(removed);
+    const rows = new Map(base.filter(item => !hidden.has(item.id)).map(item => [item.id, item]));
+    for (const { item, fields } of changed) {
+      if (hidden.has(item.id)) continue;
+      const original = rows.get(item.id);
+      const patch = Object.fromEntries(fields.map(key => [key, item[key]]));
+      if (original) {
+        if (original.est || Object.hasOwn(patch, 'est')) {
+          patch.est = [...(original.est || []).filter(field => !fields.includes(field)),
+            ...(item.est || []).filter(field => fields.includes(field))];
+        }
+        for (const field of fields) {
+          for (const dependent of catalogSources.get(field) || []) {
+            if (!Object.hasOwn(patch, dependent)) patch[dependent] = undefined;
+          }
+        }
+      }
+      rows.set(item.id, original ? { ...original, ...patch, id: original.id } : item);
+    }
+    for (const item of added) if (!hidden.has(item.id)) rows.set(item.id, item);
+    return clone([...rows.values()]);
+  }
+
+  function migrateCatalog(base, snapshot, reference) {
+    const defaults = new Map(base.map(item => [item.id, item]));
+    const visible = new Set(snapshot.map(item => item.id));
+    const published = new Set(reference.first);
+    let bestMatches = -1, removed = [];
+    for (const [introduced, retired] of [[[], []], ...(reference.revisions || [])]) {
+      for (const id of retired) published.delete(id);
+      for (const id of introduced) published.add(id);
+      const absent = [...published].filter(id => !visible.has(id));
+      const matches = published.size - absent.length;
+      // An absent ID alone cannot distinguish a deletion from an older catalog.
+      if (matches > bestMatches || (matches === bestMatches && absent.length < removed.length)) {
+        bestMatches = matches;
+        removed = absent;
+      }
+    }
+    const added = [], changed = [];
+    for (const item of snapshot) {
+      const original = defaults.get(item.id);
+      const known = reference.values[item.id];
+      const fields = reference.fields.filter((key, index) => Object.hasOwn(item, key) &&
+        !sameField(item[key], original?.[key]) && !known?.[index]?.some(value => sameField(item[key], value)));
+      if (!original) {
+        if (!known || fields.length) added.push(item);
+      } else if (fields.length) changed.push({ item, fields });
+    }
+    return { added, changed, removed };
+  }
+
+  const officialTension = new Map(BASE.r.filter(r => r.tensionByWeight).map(r => [r.id, r]));
+
+  function updateSavedTension(rackets) {
+    return rackets.map(r => {
+      const source = officialTension.get(r.id);
+      if (!source || r.brand !== source.brand) return r;
+      const gainedLabels = source.tensionSrc && !r.tensionSrc && r.tensionNote &&
+        r.tension?.[1] === source.tension[1] && Object.keys(r.tensionByWeight || {}).length === 0;
+      if (r.tensionByWeight && !gainedLabels) return r;
+      const stricter = Number(r.tension?.[1]) > 0 && r.tension[1] < source.tension[1];
+      if (stricter) return { ...r, tensionNote: '', tensionByWeight: {} };
+      return { ...r, tension: clone(source.tension), tensionByWeight: clone(source.tensionByWeight),
+        tensionNote: source.tensionNote, tensionSrc: source.tensionSrc, est: (r.est || []).filter(f => f !== 'tension') };
+    });
+  }
+
   function load(kind) {
-    try { const v = localStorage.getItem(KEYS[kind]); if (v) return JSON.parse(v); } catch (e) {}
+    const parse = raw => { try { return JSON.parse(raw); } catch { return null; } };
+    try {
+      const cache = localStorage.getItem(KEYS[kind]);
+      const editKey = EDIT_KEYS[kind];
+      if (!editKey) {
+        const items = parse(cache);
+        return Array.isArray(items) ? items : clone(BASE[kind]);
+      }
+      if (cache?.trimStart().startsWith('[')) legacy.set(kind, { cache });
+      const raw = localStorage.getItem(editKey);
+      const saved = parse(raw);
+      storedEdits[kind] = raw;
+      if (saved && ['added', 'changed', 'removed'].every(key => Array.isArray(saved[key]))) {
+        try {
+          const rows = applyCatalogDelta(BASE[kind], saved);
+          edits[kind] = saved;
+          return rows;
+        } catch (e) {}
+      }
+      if (legacy.has(kind)) {
+        const items = parse(cache);
+        if (Array.isArray(items) && items.every(item => typeof item?.id === 'string')) {
+          legacy.get(kind).items = items;
+          pendingLegacy.add(kind);
+        }
+      }
+    } catch (e) {}
     return clone(BASE[kind]);
   }
   const db = { r: load('r'), s: load('s'), h: load('h'), o: load('o'), k: load('k') };
-  function persist(kind) { try { localStorage.setItem(KEYS[kind], JSON.stringify(db[kind])); } catch (e) {} }
-  function isCustom(kind) { try { return !!localStorage.getItem(KEYS[kind]); } catch (e) { return false; } }
+
+  function storeCatalog(kind, delta) {
+    const encoded = JSON.stringify(delta);
+    try {
+      if (localStorage.getItem(EDIT_KEYS[kind]) !== storedEdits[kind] ||
+          (pendingLegacy.has(kind) && localStorage.getItem(KEYS[kind]) !== legacy.get(kind).cache)) return false;
+      localStorage.setItem(EDIT_KEYS[kind], encoded);
+    } catch { return false; }
+    storedEdits[kind] = encoded;
+    edits[kind] = delta;
+    return true;
+  }
+
+  function persist(kind, items, hidden = edits[kind]?.removed || []) {
+    return saveCatalog(kind, catalogDelta(BASE[kind], items, hidden));
+  }
+
+  function saveCatalog(kind, delta) {
+    if (pendingLegacy.has(kind)) { alert('โหลดข้อมูลสำหรับย้ายรายการเดิมไม่สำเร็จ ลองรีเฟรชหรือ Export ชุดเดิม'); return false; }
+    if (storeCatalog(kind, delta)) {
+      db[kind] = applyCatalogDelta(BASE[kind], delta);
+      return true;
+    }
+    alert('บันทึกไม่ได้ ข้อมูลในเบราว์เซอร์อาจเต็มหรือเปลี่ยนจากแท็บอื่น');
+    return false;
+  }
+
+  function isCustom(kind) {
+    return pendingLegacy.has(kind) || Boolean(edits[kind] && ['added', 'changed', 'removed'].some(key => edits[kind][key].length));
+  }
 
   // ---------- labels / helpers ----------
   const L = {
@@ -68,15 +217,28 @@
     return e + (a.length - i) + (b.length - j) <= 1;
   };
   const searchIndex = new WeakMap();
+  const codeKey = value => String(value).normalize('NFKC').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const ROMAN_GENERATION = { II: 2, III: 3, IV: 4 };
   const tokensOf = x => {
     let t = searchIndex.get(x);
-    if (!t) { const n = snorm(full(x)); t = { words: n.split(' '), compact: n.replace(/ /g, '') }; searchIndex.set(x, t); }
+    if (!t) {
+      const aliases = Array.isArray(x.aliases) ? x.aliases : [];
+      const names = [x.name, ...aliases].filter(Boolean).map(name => {
+        const label = snorm(name), fullLabel = snorm(`${x.brand} ${name}`);
+        return { label, fullLabel, words: fullLabel.split(' '), compact: fullLabel.replace(/ /g, '') };
+      });
+      // A Roman numeral after a model identifier is a search hint. A lone series name
+      // followed by a number (Tectonic III, for example) need not be a generation.
+      const roman = x.name.normalize('NFKC').match(/^(.+?)\b(II|III|IV)\b/i);
+      const romanGeneration = roman && /[\d ]/.test(roman[1].trim()) ? ROMAN_GENERATION[roman[2].toUpperCase()] : 0;
+      const codes = x.modelCode ? [codeKey(x.modelCode), codeKey(`${x.brand} ${x.modelCode}`)] : [];
+      t = { names, generation: x.generation || romanGeneration, codes };
+      searchIndex.set(x, t);
+    }
     return t;
   };
   // 0 = no match; higher = better. Every query word must start a word of the name (or sit inside its compact form, or be one typo off)
-  const matchScore = (x, q) => {
-    let qs = snorm(q).split(' ').filter(Boolean); if (!qs.length) return 1;
-    const { words, compact } = tokensOf(x);
+  const matchName = ({ words, compact }, qs, exactNumbers) => {
     // "blade x 900": a lone letter joins the word before it when the name writes them as one ("bladex")
     qs = qs.reduce((acc, w) => { const last = acc[acc.length - 1];
       if (last && /^[a-z]$/.test(w) && !words.includes(w) && words.some(v => v.startsWith(last + w))) acc[acc.length - 1] = last + w; else acc.push(w);
@@ -84,6 +246,7 @@
     let sc = 0;
     for (const w of qs) {
       if (words.includes(w)) sc += 3;
+      else if (exactNumbers && /^\d+$/.test(w)) return 0;
       else if (words.some(v => v.startsWith(w))) sc += 2;
       else if (w.length >= 3 && compact.includes(w)) sc += 1;
       else if (words.some(v => near(w, v))) sc += 1;
@@ -91,7 +254,28 @@
     }
     return sc;
   };
-  const searchList = (list, q) => list.map(x => [x, matchScore(x, q)]).filter(([, s]) => s > 0).sort((a, b) => b[1] - a[1]).map(([x]) => x);
+  function searchQuery(q) {
+    const normalized = snorm(q);
+    const generation = normalized.match(/\b(?:gen(?:eration)?|mk|mark) (\d+)\b/) ||
+      normalized.match(/\b(\d+) (?:st|nd|rd|th) gen(?:eration)?\b/);
+    const remaining = generation ? normalized.replace(generation[0], ' ').replace(/ +/g, ' ').trim() : normalized;
+    const codeOnly = /(?:^|\s)\d*[a-z]{1,4}\s*\d+[a-z]{0,2}\s*-\s*[a-z0-9]{1,4}$/i.test(String(q).trim());
+    return { text: remaining, words: remaining.split(' ').filter(Boolean), code: codeKey(q), codeOnly, generation: generation ? Number(generation[1]) : 0 };
+  }
+  function matchScore(x, query) {
+    const item = tokensOf(x);
+    if (query.generation && query.generation !== item.generation) return 0;
+    // Product codes are exact, so an older AX99-P cannot match the newer 3AX99-P.
+    if (query.code && item.codes.includes(query.code)) return query.words.length * 3 + 1;
+    if (query.codeOnly) return 0;
+    if (!query.words.length) return 1;
+    if (item.names.some(name => name.label === query.text || name.fullLabel === query.text)) return query.words.length * 3 + 1;
+    return item.names.reduce((best, name) => Math.max(best, matchName(name, query.words, query.generation > 0)), 0);
+  }
+  const searchList = (list, q) => {
+    const query = searchQuery(q);
+    return list.map(x => [x, matchScore(x, query)]).filter(([, s]) => s > 0).sort((a, b) => b[1] - a[1]).map(([x]) => x);
+  };
   const byId = (kind, id) => db[kind].find(x => x.id === id);
   const ordIdx = (k, v, fallback) => { const i = ORD[k].indexOf(v); return i < 0 ? fallback : i; };
   const gaugeLabel = s => s.gaugeText || (s.gauge ? `${s.gauge} mm` : '—');
@@ -116,6 +300,7 @@
     return (s.est || []).includes(field) ? `${esc(s[field])} (ประเมิน)` : esc(s[field]);
   };
   const est = (x, f) => (x.est || []).includes(f) ? '≈' : '';
+  const estimatedValue = (x, f, value = x[f]) => value ? est(x, f) + value : '';
   const priceCell = x => x.price ? `${est(x, 'price')}${baht(x.price)}${x.priceNote ? `<div class="small muted">${esc(x.priceNote)}</div>` : ''}` : '—';
   // Shopee's own search for the model; no price is read from it
   const shopee = x => `<a class="btn sm ghost" href="https://shopee.co.th/search?keyword=${encodeURIComponent(full(x))}" target="_blank" rel="noopener">ค้นใน Shopee</a>`;
@@ -124,8 +309,8 @@
     if (navigator.share && matchMedia('(pointer: coarse)').matches) { navigator.share({ title: document.title, url }).catch(() => {}); return; }
     navigator.clipboard?.writeText(url).then(done, () => { prompt('คัดลอกลิงก์นี้', url); });
   }
-  const link = (url, text) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${text}</a>` : '';
-  const sources = x => [link(x.officialUrl, 'ผู้ผลิต'), link(x.specSrc, 'หน้าสินค้า'), link(x.yearSrc, 'ที่มาปี'), link(x.shopUrl, 'ร้านไทย'), link(x.bayUrl, 'Badminton Bay'), link(x.clickUrl, 'Badminton Click'), ...(Array.isArray(x.shopLinks) ? x.shopLinks.map(l => link(l.url, esc(l.shop))) : []), link(x.priceSrc !== x.bayUrl && x.priceSrc !== x.clickUrl ? x.priceSrc : '', 'ที่มาราคา'), link(x.source, 'chobbad'), link(x.wordSrc, 'คำบรรยายจากผู้ผลิต')].filter(Boolean).join(', ') || '—';
+  const link = (url, text) => /^https?:\/\//i.test(url || '') ? `<a href="${esc(url)}" target="_blank" rel="noopener">${text}</a>` : '';
+  const sources = x => [link(x.officialUrl, 'ผู้ผลิต'), link(x.specSrc, 'หน้าสินค้า'), link(x.yearSrc, 'ที่มาปี'), link(x.tensionSrc, 'ที่มาเพดานเอ็น'), link(x.shopUrl, 'ร้านไทย'), link(x.bayUrl, 'Badminton Bay'), link(x.clickUrl, 'Badminton Click'), ...(Array.isArray(x.shopLinks) ? x.shopLinks.map(l => link(l.url, esc(l.shop))) : []), link(x.priceSrc !== x.bayUrl && x.priceSrc !== x.clickUrl ? x.priceSrc : '', 'ที่มาราคา'), link(x.source, 'chobbad'), link(x.wordSrc, 'คำบรรยายจากผู้ผลิต')].filter(Boolean).join(', ') || '—';
 
   // ---------- profiles (0–10) ----------
   // What a racket's named technologies claim to do, read from the makers' and retailers' own descriptions
@@ -249,7 +434,7 @@
   const KIND = {
     r: {
       title: 'เทียบไม้แบด',
-      sub: x => [lab(x, 'balance'), lab(x, 'flex'), x.weights].filter(Boolean).map(esc).join(', '),
+      sub: x => [lab(x, 'balance'), lab(x, 'flex'), estimatedValue(x, 'weights')].filter(Boolean).map(esc).join(', '),
       filters: ['style', 'balance', 'flex', 'level'],
       filterAll: { style: 'ทุกแนวการเล่น', balance: 'ทุกสมดุล', flex: 'ทุกความแข็งก้าน', level: 'ทุกระดับ' },
       sorts: { name: 'เรียงตามชื่อ', year: 'ใหม่สุดก่อน', priceAsc: 'ราคาต่ำ → สูง', priceDesc: 'ราคาสูง → ต่ำ' },
@@ -258,8 +443,8 @@
         ${r.img ? `<img class="thumb" src="${esc(r.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : noPhoto(r)}
         <span class="tag ${r.style || ''}">${lab(r, 'style') || '—'}</span>
         <div class="nm">${esc(full(r))}</div>
-        <div class="meta">${[esc(r.brand), r.year, lab(r, 'level') || 'ไม่ระบุระดับ'].filter(Boolean).join(', ')}</div>
-        <div class="chips">${[lab(r, 'balance'), lab(r, 'flex'), r.weights].filter(Boolean).map(v => `<span>${esc(v)}</span>`).join('')}</div>
+        <div class="meta">${[r.brand, r.modelCode, estimatedValue(r, 'year'), lab(r, 'level') || 'ไม่ระบุระดับ'].filter(Boolean).map(esc).join(', ')}</div>
+        <div class="chips">${[lab(r, 'balance'), lab(r, 'flex'), estimatedValue(r, 'weights')].filter(Boolean).map(v => `<span>${esc(v)}</span>`).join('')}</div>
         <div class="price">${r.price ? `<b class="fig">${(r.est || []).includes('price') ? '≈' : ''}${baht(r.price)}</b>` : '<span class="small muted">ยังไม่มีราคา</span>'}</div>
         <div class="card-acts"><button class="btn sm" type="button" data-who="${esc(r.id)}">เหมาะกับใคร</button>${shopee(r)}</div>`,
       // the three numbers a buyer looks at first, set big above the sheet
@@ -270,21 +455,21 @@
       ],
       radar: sel => ({ axes: R_AXES, series: sel.map((x, i) => ({ name: full(x), color: COLORS[i], values: racketProfile(x) })), title: 'ภาพรวมบุคลิกไม้', note: 'คำนวณจากสเปก (สมดุล ก้าน น้ำหนัก ระดับ ความตึงสูงสุด และจุดสมดุลเป็น mm เมื่อมี) ไม่ใช่คะแนนจากผู้ผลิต' }),
       bars: [
-        { label: 'น้ำหนัก', hint: 'หนักมีแรงส่ง เบาสวิงไว', get: r => Number(r.weight) || NaN, fmt: v => v + ' g' },
-        { label: 'ความตึงสูงสุด', hint: 'เป็นเพดาน ไม่ใช่ค่าที่ควรขึ้น', get: r => r.tension ? Number(r.tension[1]) : NaN, fmt: v => v + ' lbs' },
-        { label: 'ราคา', hint: 'ราคาประมาณ เช็กร้านอีกที', get: r => Number(r.price) || NaN, fmt: v => baht(v) },
+        { label: 'น้ำหนัก', hint: 'หนักมีแรงส่ง เบาสวิงไว', get: r => Number(r.weight) || NaN, fmt: (v, r) => estimatedValue(r, 'weight', v + ' g') },
+        { label: 'ความตึงสูงสุด', hint: 'เป็นเพดาน ไม่ใช่ค่าที่ควรขึ้น', get: r => r.tension ? Number(r.tension[1]) : NaN, fmt: (v, r) => estimatedValue(r, 'tension', v + ' lbs') },
+        { label: 'ราคา', hint: 'ราคาประมาณ เช็กร้านอีกที', get: r => Number(r.price) || NaN, fmt: (v, r) => estimatedValue(r, 'price', baht(v)) },
       ],
       spec: [
         ['แบรนด์', r => esc(r.brand)],
-        ['ปีที่ออก', r => dash(r.year)],
+        ['ปีที่ออก', r => dash(estimatedValue(r, 'year'))],
         ['แนวการเล่น', r => lab(r, 'style') || '—'],
         ['ระดับผู้เล่น', r => lab(r, 'level') || 'ไม่ระบุ'],
         ['สมดุล', r => lab(r, 'balance') ? lab(r, 'balance') + (Number(r.bp) ? ` (${r.bp} mm)` : '') : (Number(r.bp) ? r.bp + ' mm' : '—')],
         ['ความแข็งก้าน', r => lab(r, 'flex') || '—'],
-        ['น้ำหนัก', r => dash(r.weights)],
-        ['น้ำหนักเฉลี่ย', r => r.weight ? r.weight + ' g' : '—'],
+        ['น้ำหนัก', r => dash(estimatedValue(r, 'weights'))],
+        ['น้ำหนักเฉลี่ย', r => r.weight ? dash(estimatedValue(r, 'weight', r.weight + ' g')) : '—'],
         ['ขนาดด้าม', r => dash(r.grips)],
-        ['ความตึงที่รับได้', r => !r.tension ? '—' : (r.tension[0] ? `${r.tension[0]}–${r.tension[1]} lbs` : `≤ ${r.tension[1]} lbs`) + (r.tensionNote ? `<div class="small muted">${esc(r.tensionNote)}</div>` : '')],
+        ['ความตึงที่รับได้', r => !r.tension ? '—' : dash(estimatedValue(r, 'tension', tensionText(r.tension))) + (r.tensionNote ? `<div class="small muted">${esc(r.tensionNote)}</div>` : '')],
         ['วัสดุเฟรม', r => dash(r.frame)],
         ['วัสดุก้าน', r => dash(r.shaft)],
         ['ข้อต่อเฟรม-ก้าน', r => dash(r.joint)],
@@ -456,14 +641,15 @@
     open: { r: false, s: false, h: false, o: false, k: false },
     f: { r: emptyFilter('r'), s: emptyFilter('s'), h: emptyFilter('h'), o: emptyFilter('o'), k: emptyFilter('k') },
     m: null,
-    hotSpan: '2026',
+    hotSpan: 'current',
     mg: { kind: 'r', edit: null, q: '' },
   };
 
   const known = x => ['balance', 'flex', 'weight', 'price', 'level', 'img'].filter(k => x[k] !== '' && x[k] != null && !(x.est || []).includes(k)).length;
   function filtered(kind) {
     const f = state.f[kind], cfg = KIND[kind], q = f.q.trim();
-    const list = db[kind].filter(x => (!q || matchScore(x, q) > 0) && (!f.brand || x.brand === f.brand) && cfg.match(x, f));
+    const query = searchQuery(q);
+    const list = db[kind].filter(x => (!q || matchScore(x, query) > 0) && (!f.brand || x.brand === f.brand) && cfg.match(x, f));
     const num = (v, d) => (v === '' || v == null || isNaN(v)) ? d : Number(v);
     const sorters = {
       name: sortName,
@@ -875,7 +1061,18 @@
   const PARTS = [['player', 'เอ็นกับผู้เล่น', 0.45], ['racket', 'ไม้กับผู้เล่น', 0.3], ['pair', 'ไม้กับเอ็น', 0.25]];
   const norm = t => String(t || '').toLowerCase().replace(/[^a-z0-9]/g, '');
 
-  function score(r, s, level, style, shuttle = 'feather', climate = 'normal', game = 'doubles', arm = 'none', headPick = '') {
+  const tensionText = ([min, max]) => min && max ? `${min}–${max} lbs` : max ? `≤ ${max} lbs` : min ? `≥ ${min} lbs` : '—';
+  const racketTension = (r, weight) => r.tensionByWeight && Object.hasOwn(r.tensionByWeight, weight)
+    ? r.tensionByWeight[weight] : r.tension || [null, null];
+  function matchWeights(r) {
+    const rated = Object.keys(r.tensionByWeight || {});
+    const listed = (r.est || []).includes('weights') ? [] : (r.weights || '').toUpperCase().match(/\b(?:[2-8][UF]|F)\b/g) || [];
+    const classes = [...new Set([...listed, ...rated])].sort();
+    return rated.length || classes.length > 1 ? classes : [];
+  }
+  const canRecommendTension = ({ limits }) => !limits.needsWeight && !limits.unconfirmed.length && !limits.incompatibleRange;
+
+  function score(r, s, level, style, shuttle = 'feather', climate = 'normal', game = 'doubles', arm = 'none', headPick = '', weight = '') {
     const reasons = [];
     const ok = t => reasons.push(['ok', t]);
     const wn = t => reasons.push(['wn', t]);
@@ -1008,27 +1205,41 @@
     if (climate === 'hot') nudge(1, 'สนามร้อนชื้น (ความเชื่อของช่าง ยังไม่มีหลักฐานยืนยัน)');               // [low, T7]
     if (arm === 'care') nudge(-1, 'ถนอมข้อมือ/ไหล่ ขึ้นเอ็นหย่อนลงลดแรงสะเทือน');      // [medium] lower tension = less vibration
     if (shuttle === 'nylon') nudge(-2, 'ลูกไนลอน');                                                          // [medium, two sources]
-    const [tmin, tmax] = r.tension || [null, 30];
-    const cap = Math.min(tmax || 30, Number(s.tensionMax) || 99);
-    if (t > cap - 1) {                                                            // [low, convention] keep a 1 lb margin
-      steps.push([`ต่ำกว่าเพดาน ${cap} lbs ของ${(tmax || 30) <= (Number(s.tensionMax) || 99) ? 'ไม้' : 'เอ็น'} 1 ปอนด์`, cap - 1 - t]);
-      t = cap - 1;
-      if (cap - 1 < bLo) { pS -= 15; wn(`เพดาน ${cap} lbs ต่ำกว่าช่วงที่${L.level[level]}มักใช้ (${bLo}–${bHi} lbs)`); }
+    const [tmin, tmax] = racketTension(r, weight);
+    const weightChoices = matchWeights(r), needsWeight = weightChoices.length > 0 && !weightChoices.includes(weight);
+    const missingVariantCap = !needsWeight && Object.keys(r.tensionByWeight || {}).length > 0 && !Object.hasOwn(r.tensionByWeight, weight);
+    const hasRacketCap = Number.isFinite(tmax) && tmax >= 2, hasStringCap = Number.isFinite(s.tensionMax) && s.tensionMax >= 2;
+    const rCap = hasRacketCap ? Number(tmax) : 30, sCap = hasStringCap ? Number(s.tensionMax) : Infinity;
+    const cap = Math.min(rCap, sCap);
+    const capEstimated = rCap <= sCap ? !hasRacketCap || (r.est || []).includes('tension') : (s.est || []).includes('tensionMax');
+    const unconfirmed = [];
+    if (!hasRacketCap || missingVariantCap || rEst.includes('tension')) unconfirmed.push('ไม้');
+    if (!hasStringCap || (s.est || []).includes('tensionMax')) unconfirmed.push('เอ็น');
+    const incompatibleRange = Boolean(tmin && tmin <= 22 && tmin > cap);
+    const limits = { cap, capEstimated, unconfirmed, needsWeight, incompatibleRange };
+    const publishTension = canRecommendTension({ limits });
+    const capLabel = capEstimated ? `ประมาณ ${cap}` : String(cap);
+    const floor = tmin && tmin <= 22 && tmin <= cap ? tmin : null;
+    const upper = Math.max(cap - 1, floor || 0);
+    if (t > upper) {
+      nudge(upper - t, upper < cap
+        ? `เผื่อ 1 ปอนด์จากเพดาน ${capLabel} lbs ของ${rCap <= sCap ? 'ไม้' : 'เอ็น'}`
+        : `จำกัดที่เพดาน ${capLabel} lbs`);
+      if (upper < bLo) {
+        pS -= 15;
+        if (publishTension) wn(`เพดาน ${capLabel} lbs ต่ำกว่าช่วงที่${L.level[level]}มักใช้ (${bLo}–${bHi} lbs)`);
+      }
     }
     // a low end of 22 lbs or less is a stringing range (Yonex 19-27); a high one ("26-38 lbs") is what the frame
     // is rated for, and stringing below it is safe, so it only earns a note
-    if (tmin && t < tmin) {
-      if (tmin <= 22) { steps.push([`ไม่ต่ำกว่าค่าต่ำสุดของไม้ ${tmin} lbs`, Math.min(tmin, cap) - t]); t = Math.min(tmin, cap); }
-      else {
-        // a frame rated from 26 lbs is built to be strung tight; far below that the bed goes trampoline-like and
-        // control suffers, so lean toward the maker's minimum: 2 lbs from intermediate up, 1 for beginners, never
-        // forced all the way and never past the cap margin [low: judgement from the maker's rating]
-        const up = Math.min(tmin - t, lv >= 1 ? 2 : 1, Math.max(0, cap - 1 - t));
-        if (up > 0) nudge(up, `ผู้ผลิตออกแบบให้ขึ้น ${tmin}–${tmax} lbs ขึ้นต่ำกว่านี้มากเอ็นจะหย่อนเกิน`);
-        if (t < tmin) ok(`ผู้ผลิตระบุช่วง ${tmin}–${tmax} lbs แต่ขึ้นต่ำกว่า ${tmin} ได้ ไม่ทำให้ไม้เสีย`);
-      }
+    if (floor != null && t < floor) nudge(floor - t, `ใช้ค่าต่ำสุดของไม้ ${floor} lbs`);
+    else if (tmin > 22 && t < tmin) {
+      // For a high range, move toward its lower end without forcing the user to reach it.
+      const up = Math.min(tmin - t, lv >= 1 ? 2 : 1, Math.max(0, upper - t));
+      if (up > 0) nudge(up, `ขยับเข้าใกล้ช่วงความตึงของไม้ (${tensionText([tmin, tmax])})`);
+      if (publishTension && t < tmin) ok(`ค่าที่แนะนำต่ำกว่าช่วงความตึงของไม้ (${tensionText([tmin, tmax])})`);
     }
-    if (low && shock <= 4 && t >= bHi) wn('เอ็นแข็งที่ตึงสูง อาจสะเทือนข้อมือ ลองลดลง 1–2 ปอนด์');
+    if (low && shock <= 4 && t >= bHi) wn(publishTension ? 'เอ็นแข็งที่ตึงสูง อาจสะเทือนข้อมือ ลองลดลง 1–2 ปอนด์' : 'เอ็นแข็งที่ตึงสูง อาจสะเทือนข้อมือ');
 
     const parts = { player: Math.round(clamp(pP, 0, 100)), racket: Math.round(clamp(pR, 0, 100)), pair: Math.round(clamp(pS, 0, 100)) };
     let total = PARTS.reduce((a, [k, , w]) => a + w * parts[k], 0);
@@ -1036,7 +1247,8 @@
     // take the level's tension (a 20 lb aluminium frame for a pro), caps the whole score
     if ((d <= -3 && d > -9 && half === 1) || cap < bLo - 3) {
       total = Math.min(total, 50);
-      wn(cap < bLo - 3 ? `ไม้รับเอ็นได้แค่ ${cap} lbs ต่ำกว่าที่${L.level[level]}ใช้มาก ไม่เหมาะกับระดับนี้` : `ไม้สำหรับ${lvText(r)} ห่างจากระดับ${L.level[level]}มาก`);
+      if (publishTension && cap < bLo - 3) wn(`เพดานของชุดนี้ ${capLabel} lbs ต่ำกว่าที่${L.level[level]}ใช้มาก ไม่เหมาะกับระดับนี้`);
+      else if (d <= -3 && d > -9 && half === 1) wn(`ไม้สำหรับ${lvText(r)} ห่างจากระดับ${L.level[level]}มาก`);
     }
 
     // how sure: the inputs that weigh most, counted when they are estimates or missing
@@ -1046,10 +1258,11 @@
     [['style', 'แนวของไม้'], ['level', 'ระดับของไม้'], ['balance', 'สมดุลไม้'], ['flex', 'ความแข็งก้าน']].forEach(([k, n]) => {
       if (rEst.includes(k) || !r[k]) guess.push(n);
     });
-    if (!r.tension) guess.push('ความตึงสูงสุดของไม้');
+    if (unconfirmed.includes('ไม้')) guess.push('ความตึงสูงสุดของไม้');
     const conf = guess.length <= 1 ? 'สูง' : guess.length <= 3 ? 'ปานกลาง' : 'ต่ำ';
 
-    return { score: Math.round(clamp(total, 0, 100)), parts, tension: t, steps, band: [bLo, bHi], range: [tmin, tmax], reasons, conf, guess };
+    return { score: Math.round(clamp(total, 0, 100)), parts, tension: t, steps, band: [bLo, bHi], range: [tmin, tmax],
+      limits: { ...limits, floor, upper }, reasons, conf, guess };
   }
   // ---------- the player's own tension log ----------
   // Each entry is a setup the player strung and how it felt (loose / good / tight). The model's number for that setup
@@ -1067,56 +1280,77 @@
     for (const e of entries) {
       const r = byId('r', e.r), s = byId('s', e.s), lbs = Number(e.lbs), o = e.o || {};
       if (!r || !s || !(lbs > 0) || !FEEL[e.feel] || !LEVEL_W[e.level] || !STYLE_W[e.style]) continue;
-      const rec = score(r, s, e.level, e.style, o.shuttle || 'feather', o.climate || 'normal', o.game || 'doubles', o.arm || 'none', o.head || '').tension;
-      gaps.push((e.feel === 'loose' ? lbs + FEEL_GAP : e.feel === 'tight' ? lbs - FEEL_GAP : lbs) - rec);
+      const result = score(r, s, e.level, e.style, o.shuttle || 'feather', o.climate || 'normal', o.game || 'doubles', o.arm || 'none', o.head || '', o.variant || '');
+      if (canRecommendTension(result)) gaps.push((e.feel === 'loose' ? lbs + FEEL_GAP : e.feel === 'tight' ? lbs - FEEL_GAP : lbs) - result.tension);
     }
     const n = gaps.length;
     return { n, off: n ? clamp(Math.round(gaps.reduce((a, b) => a + b, 0) / (n + 1)), -OFF_MAX, OFF_MAX) : 0 };
   }
-  // the recommendation moved by the offset, kept 1 lb under the ceiling like the model's own
-  function mineAdj(res, s, mine, on = mylog.on) {
+  // Apply the same limits to the personal recommendation as to the initial result.
+  function mineAdj(res, mine, on = mylog.on) {
     if (!on || !mine.off) return res;
-    const cap = Math.min(res.range[1] || 30, Number(s.tensionMax) || 99);
-    const t = Math.min(res.tension + mine.off, cap - 1);
+    const t = clamp(res.tension + mine.off, res.limits.floor ?? -Infinity, res.limits.upper);
     return t === res.tension ? res : { ...res, tension: t, steps: [...res.steps, [`ปรับตามบันทึกของคุณ (${mine.n} บันทึก)`, t - res.tension]] };
   }
-  window.RS_TEST = { score: (...a) => score(...a), byId, calcOffset, mineAdj, profile: racketProfile, balPos, lvText, hotBoards };
+  window.RS_TEST = { score, byId, calcOffset, mineAdj, profile: racketProfile, balPos, lvText, hotBoards, parseImport, matchLinkOptions,
+    updateSavedTension, catalogDelta, applyCatalogDelta, migrateCatalog, readCatalogBackup, hotSpans, hotCoverage, canRecommendTension, searchList };
   const verdict = n => n >= 80 ? ['เข้ากันดีมาก', 'var(--color-accent)'] : n >= 65 ? ['เข้ากันดี', 'var(--color-accent)'] : n >= 50 ? ['พอใช้ได้', 'var(--color-ink)'] : ['ไม่ค่อยเหมาะ', 'var(--color-bad)'];
 
+  const MATCH_OPTIONS = [
+    ['level', 'ระดับมือ', L.level], ['style', 'สไตล์', L.style],
+    ['shuttle', 'ลูกที่ใช้', { feather: 'ขนไก่/ขนเป็ด', nylon: 'ไนลอน' }],
+    ['game', 'เล่น', { doubles: 'คู่', singles: 'เดี่ยว' }],
+    ['arm', 'ข้อมือ/ไหล่', { none: 'ปกติ', care: 'มีอาการ ต้องถนอม' }],
+    ['climate', 'สนาม', { normal: 'ปกติ/ห้องแอร์', hot: 'ร้อนชื้น' }],
+    ['head', 'หน้าไม้', { '': 'ตามข้อมูลไม้', large: 'กว้าง', standard: 'มาตรฐาน', small: 'เล็ก' }],
+    ['cur', 'ไม้ที่ใช้อยู่หนัก', { '': 'ไม่ระบุ', '3U': '3U', '4U': '4U', '5U': '5U' }],
+    ['budget', 'งบไม้', { '': 'ไม่จำกัด', 2000: '≤ 2,000', 4000: '≤ 4,000', 7000: '≤ 7,000' }],
+  ];
+
+  function matchLinkOptions(link) {
+    const options = { level: 'intermediate', style: 'attack', shuttle: 'feather', climate: 'normal', game: 'doubles', arm: 'none' };
+    for (const [key, , values] of MATCH_OPTIONS) {
+      if (Object.hasOwn(values, link[key])) options[key] = link[key];
+    }
+    for (const key of ['r', 's', 'variant']) {
+      if (typeof link[key] === 'string' && link[key]) options[key] = link[key];
+    }
+    return options;
+  }
+
   function viewMatch() {
-    if (!state.m) {
+    if (!state.m || state.linkM) {
       const pick = (kind, id) => (byId(kind, id) || [...db[kind]].sort(sortName)[0] || {}).id;
-      state.m = { r: pick('r', 'yonex-astrox-99-game'), s: pick('s', 'yonex-bg66-ultimax'), level: 'intermediate', style: 'attack', shuttle: 'feather', climate: 'normal', game: 'doubles', arm: 'none' };
+      state.m = { r: pick('r', 'yonex-astrox-99-game'), s: pick('s', 'yonex-bg66-ultimax'), ...matchLinkOptions(state.linkM || {}) };
+      state.linkM = null;
     }
     if (!db.r.length || !db.s.length) { view.innerHTML = '<h1>จับคู่ไม้ + เอ็น</h1><p class="empty">ต้องมีข้อมูลไม้และเอ็นอย่างน้อยอย่างละ 1 รายการ</p>'; return; }
     // the first model picked on a compare page, sent here by its "to match" button
-    // a shared match link (#match?r=..&s=..&level=..) sets every choice it names
-    if (state.linkM) { for (const [k, v] of Object.entries(state.linkM)) if (k in state.m || ['cur', 'budget', 'head'].includes(k)) state.m[k] = v; state.linkM = null; }
-    if (state.mPick) { const [k, id] = state.mPick; if (byId(k, id)) state.m[k] = id; state.mPick = null; }
-    if (!byId('r', state.m.r)) state.m.r = db.r[0].id;
+    if (state.mPick) {
+      const [kind, id] = state.mPick;
+      if (byId(kind, id)) {
+        if (kind === 'r' && state.m.r !== id) state.m.variant = '';
+        state.m[kind] = id;
+      }
+      state.mPick = null;
+    }
+    if (!byId('r', state.m.r)) { state.m.r = db.r[0].id; state.m.variant = ''; }
     if (!byId('s', state.m.s)) state.m.s = db.s[0].id;
+    if (!matchWeights(byId('r', state.m.r)).includes(state.m.variant)) state.m.variant = '';
     const seg = (key, label, map) => `<div class="mseg"><span class="mseg-l">${label}</span><div class="mseg-b" role="group" aria-label="${label}">${
       Object.entries(map).map(([k, v]) => `<button type="button" data-k="${key}" data-v="${k}" aria-pressed="${(state.m[key] || '') === k}">${v}</button>`).join('')}</div></div>`;
 
     view.innerHTML = `
       <h1>จับคู่ไม้ + เอ็น</h1>
-      <p><button class="btn sm" type="button" data-mshare>แชร์ผลนี้</button> <span class="small muted">ลิงก์จำไม้ เอ็น และตัวเลือกทั้งหมด คนที่เปิดจะเห็นผลเดียวกัน</span></p>
-      <p class="muted">เลือกไม้กับเอ็น บอกระดับและสไตล์ แล้วดูว่าเข้ากันแค่ไหนและควรขึ้นกี่ปอนด์</p>
+      <p><button class="btn sm" type="button" data-mshare>แชร์ผลนี้</button> <span class="small muted">ลิงก์จำไม้ เอ็น และตัวเลือก ค่าปรับจากบันทึกเป็นของแต่ละคน</span></p>
+      <p class="muted">เลือกไม้ เอ็น ระดับ และสไตล์ เพื่อดูคะแนนจับคู่และปอนด์แนะนำเมื่อมีเพดานยืนยันครบ</p>
       <div class="mpick">
         <div class="mcard" id="pick-r"></div>
         <span class="mplus" aria-hidden="true">+</span>
         <div class="mcard" id="pick-s"></div>
       </div>
       <div class="msegs" id="mopts">
-        ${seg('level', 'ระดับมือ', L.level)}
-        ${seg('style', 'สไตล์', L.style)}
-        ${seg('shuttle', 'ลูกที่ใช้', { feather: 'ขนไก่/ขนเป็ด', nylon: 'ไนลอน' })}
-        ${seg('game', 'เล่น', { doubles: 'คู่', singles: 'เดี่ยว' })}
-        ${seg('arm', 'ข้อมือ/ไหล่', { none: 'ปกติ', care: 'มีอาการ ต้องถนอม' })}
-        ${seg('climate', 'สนาม', { normal: 'ปกติ/ห้องแอร์', hot: 'ร้อนชื้น' })}
-        ${seg('head', 'หน้าไม้', { '': 'ตามข้อมูลไม้', large: 'กว้าง', standard: 'มาตรฐาน', small: 'เล็ก' })}
-        ${seg('cur', 'ไม้ที่ใช้อยู่หนัก', { '': 'ไม่ระบุ', '3U': '3U', '4U': '4U', '5U': '5U' })}
-        ${seg('budget', 'งบไม้', { '': 'ไม่จำกัด', 2000: '≤ 2,000', 4000: '≤ 4,000', 7000: '≤ 7,000' })}
+        ${MATCH_OPTIONS.map(([key, label, values]) => seg(key, label, values)).join('')}
       </div>
       <div id="mres"></div>
       <section class="mlog" id="mlog"></section>`;
@@ -1125,9 +1359,11 @@
     // each picker: the chosen item as a card, and a search box that lists matches with their pictures
     const card = kind => {
       const x = byId(kind, state.m[kind]);
+      const variants = kind === 'r' ? matchWeights(x) : [];
+      const bands = kind === 'r' ? x.tensionByWeight || {} : {};
       const spec = kind === 'r'
-        ? [L.style[x.style], lab(x, 'balance'), lab(x, 'flex'), L.head[x.head], x.weights, x.tension ? '≤ ' + x.tension[1] + ' lbs' : ''].filter(Boolean)
-        : [gaugeLabel(x), L.material[x.material], x.tensionMax ? '≤ ' + x.tensionMax + ' lbs' : ''].filter(Boolean);
+        ? [x.modelCode, lab(x, 'style'), lab(x, 'balance'), lab(x, 'flex'), L.head[x.head], estimatedValue(x, 'weights'), x.tension && !Object.keys(bands).length ? estimatedValue(x, 'tension', tensionText(x.tension)) : ''].filter(Boolean)
+        : [gaugeLabel(x), L.material[x.material], x.tensionMax ? estimatedValue(x, 'tensionMax', '≤ ' + x.tensionMax + ' lbs') : ''].filter(Boolean);
       const bars = kind === 's' ? `<div class="mbars">${S_KEYS.map((k, i) => `<span class="mbar"><span>${S_AXES[i]}</span><i style="--w:${(Number(x[k]) || 0) * 10}"></i></span>`).join('')}</div>` : '';
       view.querySelector('#pick-' + kind).innerHTML = `
         <span class="mcard-k">${kind === 'r' ? 'ไม้แบด' : 'เอ็น'}</span>
@@ -1137,6 +1373,15 @@
             <div class="mcard-s">${spec.map(esc).join(', ')}</div>${bars}
             <div class="mcard-p">${x.price ? est(x, 'price') + baht(x.price) : ''}</div></div>
         </div>
+        ${variants.length ? `<label class="small">รุ่นน้ำหนักของไม้
+          <select class="input" data-variant aria-required="true">
+            <option value="">เลือกเวตเพื่อดูปอนด์แนะนำ</option>
+            ${variants.map(key => {
+              const range = Object.hasOwn(bands, key) ? bands[key] : null;
+              return `<option value="${esc(key)}"${state.m.variant === key ? ' selected' : ''}>${esc(key)}${range ? ` (${esc(estimatedValue(x, 'tension', tensionText(range)))})` : ''}</option>`;
+            }).join('')}
+          </select>
+        </label>` : ''}
         <div class="msearch"><input type="search" placeholder="${kind === 'r' ? 'ค้นหาไม้รุ่นอื่น เช่น astrox 99' : 'ค้นหาเอ็นรุ่นอื่น เช่น bg80'}" aria-label="ค้นหา${kind === 'r' ? 'ไม้' : 'เอ็น'}" data-q="${kind}"><div class="mlist" role="listbox" hidden></div></div>`;
     };
     const search = (kind, q) => {
@@ -1148,9 +1393,19 @@
         : '<div class="mlist-empty">ไม่พบรุ่นนี้</div>';
       list.hidden = false;
     };
-    const choose = (kind, id) => { state.m[kind] = id; card(kind); renderMatch(); };
+    const choose = (kind, id) => {
+      if (kind === 'r' && state.m.r !== id) state.m.variant = '';
+      state.m[kind] = id;
+      card(kind);
+      renderMatch();
+    };
     ['r', 's'].forEach(card);
     view.querySelector('.mpick').addEventListener('input', e => { if (e.target.dataset.q) search(e.target.dataset.q, e.target.value); });
+    view.querySelector('.mpick').addEventListener('change', e => {
+      if (!e.target.matches('[data-variant]')) return;
+      state.m.variant = e.target.value;
+      renderMatch();
+    });
     view.querySelector('.mpick').addEventListener('keydown', e => {
       if (e.key === 'Enter' && e.target.dataset.q) { const first = view.querySelector(`#pick-${e.target.dataset.q} .mlist [data-pick]`); if (first) { e.preventDefault(); first.click(); } }
       if (e.key === 'Escape' && e.target.dataset.q) { e.target.value = ''; search(e.target.dataset.q, ''); }
@@ -1179,17 +1434,19 @@
     const game = state.m.game || 'doubles', arm = state.m.arm || 'none';
     const r = byId('r', state.m.r), s = byId('s', state.m.s);
     const mo = calcOffset(mylog.entries);   // the player's own offset, from the tension log
-    const res = mineAdj(score(r, s, level, style, shuttle, climate, game, arm, state.m.head || ''), s, mo);
+    const scoreFor = (racket, string) => mineAdj(score(racket, string, level, style, shuttle, climate, game, arm,
+      state.m.head || '', racket.id === r.id ? state.m.variant : ''), mo);
+    const res = scoreFor(r, s);
     history.replaceState(null, '', '#match?' + new URLSearchParams(Object.entries(state.m).filter(([, v]) => v)));
     const [vt, vc] = verdict(res.score);
-    const allS = db.s.filter(x => x.id !== s.id).map(x => ({ x, ...mineAdj(score(r, x, level, style, shuttle, climate, game, arm), x, mo) })).sort((a, b) => b.score - a.score || a.guess.length - b.guess.length);
+    const allS = db.s.filter(x => x.id !== s.id).map(x => ({ x, ...scoreFor(r, x) })).sort((a, b) => b.score - a.score || a.guess.length - b.guess.length);
     // rank by score less 2 points per racket spec that is a guess, so a racket whose specs are stated beats one guessed to tie it
     // on a tie: a real Thai price first, then the racket with more of its specs known
     const known = x => (Number(x.price) && !(x.est || []).includes('price') ? 5 : 0) + ['tension', 'weights', 'weight', 'length', 'year', 'frame', 'shaft', 'level'].filter(f => x[f]).length;
     const sure = a => a.score - 2 * (a.x.est || []).filter(f => f !== 'price').length - (a.x.flex && a.x.balance ? 0 : 4);
     // the racket finder: every racket with this string, inside the budget (rackets with no price stay in), best first
     const budget = Number(state.m.budget) || 0, cur = state.m.cur || '';
-    const ranked = db.r.map(x => ({ x, ...mineAdj(score(x, s, level, style, shuttle, climate, game, arm), s, mo) }))
+    const ranked = db.r.map(x => ({ x, ...scoreFor(x, s) }))
       .filter(a => !budget || !Number(a.x.price) || Number(a.x.price) <= budget)
       .sort((a, b) => sure(b) - sure(a) || b.score - a.score || known(b.x) - known(a.x));
     const altR = ranked.slice(0, 5);
@@ -1199,11 +1456,11 @@
       const [k, n] = PARTS.map(([k, n]) => [k, n, a.parts[k] - b.parts[k]]).sort((p, q) => q[2] - p[2])[0];
       const d = a.parts[k] - b.parts[k];
       if (d <= 0) return a.score === b.score ? 'คะแนนเท่ากัน แต่ข้อมูลครบกว่าหรือมีราคาไทยจริง' : 'คะแนนรวมสูงกว่าเล็กน้อย';
-      const tx = x => x.tension ? x.tension[1] : 0, rec = z => z.reasons.some(([, t]) => t.includes('แนะนำเอ็นนี้'));
+      const tx = z => z.range[1] || 0, rec = z => z.reasons.some(([, t]) => t.includes('แนะนำเอ็นนี้'));
       const spec = k === 'racket' ? [['balance', ''], ['flex', ''], ['weights', 'น้ำหนัก ']]
         .filter(([f]) => a.x[f] && a.x[f] !== b.x[f]).map(([f, t]) => t + (f === 'weights' ? a.x[f] : lab(a.x, f))).join(', ')
         : k === 'pair' && rec(a) && !rec(b) ? 'ผู้ผลิตหรือร้านแนะนำเอ็นนี้คู่กับไม้นี้'
-        : k === 'pair' && tx(a.x) !== tx(b.x) ? `รับความตึงได้ ${tx(a.x) || '?'} lbs เทียบ ${tx(b.x) || '?'} lbs` : '';
+        : k === 'pair' && canRecommendTension(a) && canRecommendTension(b) && tx(a) !== tx(b) ? `รับความตึงได้ ${tx(a)} lbs เทียบ ${tx(b)} lbs` : '';
       return `ชนะที่${n} (+${d})${spec ? ': ' + spec : ''}${a.guess.length < b.guess.length ? ', ข้อมูลจริงมากกว่า' : ''}`;
     };
     // a weight class unlike the racket in hand changes swing and timing, so say so
@@ -1228,25 +1485,25 @@
         ${a.x.img ? `<img src="${esc(a.x.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<span class="mimg-empty"></span>'}
         <span class="malt-t">${tag ? `<span class="malt-tag">${esc(tag)}</span>` : ''}<span class="malt-n">${esc(full(a.x))}</span>
           <span class="malt-m">${kind === 's' ? [gaugeLabel(a.x), a.x.price ? baht(a.x.price) : ''].filter(Boolean).map(esc).join(', ') : [L.style[a.x.style], lvText(a.x)].filter(Boolean).join(', ')}</span></span>
-        <span class="malt-s"><b class="fig">${a.score}</b><span>คะแนน</span><span class="fig">${a.tension} lbs</span></span>
+        <span class="malt-s"><b class="fig">${a.score}</b><span>คะแนน</span>${canRecommendTension(a) ? `<span class="fig">${a.tension} lbs</span>` : ''}</span>
       </button>`;
     // what the recommended tension feels like, and what 2 lbs either way changes (general string physics, not a maker's claim)
-    function tensionFeel(res, cap, level, s) {
-      const t = res.tension, lo = t - 2, hi = t + 2;
+    function tensionFeel(res, s) {
+      const t = res.tension, lo = Math.max(t - 2, res.limits.floor ?? 2), hi = Math.min(t + 2, res.limits.upper);
       const soft = ['ลูกเด้งออกจากหน้าเอ็นแรงขึ้น ตีไกลง่ายโดยไม่ต้องออกแรงมาก', 'จุดหวานกว้างขึ้น ตีไม่เต็มหน้าก็ยังไปได้', 'สะเทือนข้อมือน้อยลง เอ็นขาดยากขึ้น',
         'แต่คุมทิศทางและน้ำหนักลูกยากขึ้น ลูกตบหัวทิ่มลงน้อยลง'];
       const hard = ['คุมลูกได้แม่นขึ้น ลูกหยอดและลูกตัดคม เสียงเอ็นแน่นขึ้น', 'แต่จุดหวานแคบลง ต้องตีให้ตรงกลางหน้าเอ็น', 'ต้องใช้แรงและจังหวะมากขึ้น ข้อมือรับแรงสะเทือนมากขึ้น',
         Number(s.shock) && Number(s.shock) <= 4 ? 'เอ็นนี้ซับแรงน้อยอยู่แล้ว ยิ่งตึงยิ่งสะเทือน' : 'เอ็นขาดเร็วขึ้น'];
-      const over = hi > cap ? `<p class="small wn-t">${hi} lbs เกินเพดาน ${cap} lbs ไม่ควรขึ้น เสี่ยงไม้ร้าวหรือเสียประกัน</p>` : '';
-      return `<details class="mfeel" open><summary>ถ้าขึ้น ${t} lbs จะเป็นยังไง และถ้าตึงหรือหย่อนกว่านี้</summary>
+      return `<details class="mfeel" open><summary>ความรู้สึกเมื่อขึ้น ${t} lbs</summary>
         <p class="small"><b>${t} lbs</b>: สมดุลระหว่างแรงส่งกับการคุมลูกสำหรับระดับและสไตล์ที่เลือก</p>
-        <p class="small"><b>หย่อนลง ~${lo} lbs</b></p><ul class="small">${soft.map(x => `<li>${x}</li>`).join('')}</ul>
-        <p class="small"><b>ตึงขึ้น ~${hi} lbs</b></p><ul class="small">${hard.map(x => `<li>${x}</li>`).join('')}</ul>${over}
+        ${lo < t ? `<p class="small"><b>หย่อนลง ~${lo} lbs</b></p><ul class="small">${soft.map(x => `<li>${x}</li>`).join('')}</ul>` : ''}
+        ${hi > t ? `<p class="small"><b>ตึงขึ้น ~${hi} lbs</b></p><ul class="small">${hard.map(x => `<li>${x}</li>`).join('')}</ul>` : ''}
         <p class="small muted">หลักทั่วไป: ทุก 1–2 lbs รู้สึกต่างได้ เอ็นจะหย่อนลงเองราว 1–2 lbs ใน 1–2 วันแรก</p></details>`;
     }
-    // the tension scale: 16-36 lbs, the level's band shaded, the racket's ceiling marked
-    const lo = 16, hi = 36, pos = v => ((v - lo) / (hi - lo) * 100).toFixed(1);
-    const cap = Math.min(res.range[1] || 30, Number(s.tensionMax) || 99);
+    const { cap, unconfirmed, needsWeight, incompatibleRange } = res.limits;
+    const showTension = canRecommendTension(res);
+    const lo = Math.min(16, res.tension), hi = Math.max(36, cap);
+    const pos = v => ((v - lo) / (hi - lo) * 100).toFixed(1);
     const ok = res.reasons.filter(x => x[0] === 'ok'), wn = res.reasons.filter(x => x[0] === 'wn');
     const sign = v => v > 0 ? '+' + v : String(v);
 
@@ -1263,16 +1520,19 @@
           </div>
         </div>
         <div class="mten">
-          <div class="mten-k">ความตึงที่แนะนำ</div>
-          <div class="tension">${res.tension} <span>lbs</span></div>
+          <div class="mten-k">${showTension ? 'ความตึงที่แนะนำ' : 'ยังไม่มีปอนด์แนะนำ'}</div>
+          ${showTension ? `<div class="tension">${res.tension} <span>lbs</span></div>
           <div class="mscale" aria-hidden="true">
             <span class="mscale-band" style="left:${pos(res.band[0])}%;width:${(pos(res.band[1]) - pos(res.band[0])).toFixed(1)}%"></span>
             <span class="mscale-cap" style="left:${pos(cap)}%"></span>
             <span class="mscale-dot" style="left:${pos(res.tension)}%"></span>
           </div>
           <div class="mscale-l small muted"><span>${lo}</span><span>ช่วง${L.level[level]} ${res.band[0]}–${res.band[1]}, เพดาน ${cap}</span><span>${hi}</span></div>
-          ${tensionFeel(res, cap, level, s)}
-          <ul class="steps">${res.steps.map(([why, v], i) => `<li><span>${esc(why)}</span><b class="fig">${i ? sign(v) : v}</b></li>`).join('')}</ul>
+          ${tensionFeel(res, s)}
+          <ul class="steps">${res.steps.map(([why, v], i) => `<li><span>${esc(why)}</span><b class="fig">${i ? sign(v) : v}</b></li>`).join('')}</ul>` : `
+          ${needsWeight ? '<p class="small note">เลือกเวตที่ระบุบนไม้ในช่องรุ่นน้ำหนักด้านบน</p>' : ''}
+          ${unconfirmed.length ? `<p class="small note">เช็กความตึงสูงสุดที่${unconfirmed.join('และ')}รองรับจากสเปกตรงรุ่นก่อนขึ้นเอ็น</p>` : ''}
+          ${incompatibleRange && !needsWeight && !unconfirmed.length ? '<p class="small note">ช่วงความตึงของไม้กับเอ็นไม่ทับกัน ลองเลือกเอ็นรุ่นอื่น</p>' : ''}`}
         </div>
       </section>
       <section class="mwhy">
@@ -1298,7 +1558,7 @@
       <p class="small muted">ขึ้นเอ็นแล้วลองตีสักพัก มาบอกว่ารู้สึกยังไง ค่าที่แนะนำจะขยับตามความชอบของคุณ เก็บไว้ในเบราว์เซอร์นี้เท่านั้น</p>
       <form class="mlogf" id="mlogf">
         <p class="small">บันทึกชุดนี้: <b>${esc(full(r))} + ${esc(full(s))}</b>, ${L.level[state.m.level]}สาย${L.style[state.m.style]}</p>
-        <label class="mlogl">ขึ้นกี่ปอนด์ <input class="input" type="number" name="lbs" min="14" max="40" step="1" value="${res.tension}" required></label>
+        <label class="mlogl">ขึ้นกี่ปอนด์ <input class="input" type="number" name="lbs" min="14" max="40" step="any" value="${canRecommendTension(res) ? res.tension : ''}" required></label>
         <fieldset class="mlogfeel"><legend class="small">ตีแล้วรู้สึก</legend>
           ${Object.entries(FEEL).map(([k, v]) => `<label><input type="radio" name="feel" value="${k}"${k === 'good' ? ' checked' : ''}> ${v}</label>`).join('')}
         </fieldset>
@@ -1306,7 +1566,7 @@
         <button class="btn" type="submit">บันทึก</button> <span class="small" role="status">${esc(msg)}</span>
       </form>
       ${es.length ? `
-        <p class="small"><b>${mo.n ? (mo.off ? `ค่าที่แนะนำปรับ ${sign(mo.off)} lbs` : 'ยังไม่ปรับค่าแนะนำ') + ` จาก ${mo.n} บันทึก` : 'บันทึกที่ไม้หรือเอ็นหายไปจากข้อมูลไม่นับ'}</b>
+        <p class="small"><b>${mo.n ? (mo.off ? `ค่าที่แนะนำปรับ ${sign(mo.off)} lbs` : 'ยังไม่ปรับค่าแนะนำ') + ` จาก ${mo.n} บันทึก` : 'ยังไม่มีบันทึกที่ข้อมูลพอใช้ปรับปอนด์แนะนำ'}</b>
           <label class="mlogon"><input type="checkbox" data-logon ${mylog.on ? 'checked' : ''}> ใช้ค่าปรับนี้</label></p>
         <ul class="mloglist">${es.slice().reverse().map(e => `<li>
           <span><b class="fig">${esc(e.lbs)} lbs</b> ${esc(FEEL[e.feel] || '')}, ${esc(e.rn || '')} + ${esc(e.sn || '')}<span class="small muted"> ${esc(e.date || '')}${e.note ? ', ' + esc(e.note) : ''}</span></span>
@@ -1318,7 +1578,7 @@
   // one row of tests/feedback.js for each entry, options only where they are not the defaults
   function logRows() {
     const q = x => "'" + String(x).replace(/\\/g, '\\\\').replace(/'/g, "\\'") + "'";
-    const DEF = { shuttle: 'feather', climate: 'normal', game: 'doubles', arm: 'none', head: '' };
+    const DEF = { shuttle: 'feather', climate: 'normal', game: 'doubles', arm: 'none', head: '', variant: '' };
     return mylog.entries.filter(e => e.rn && e.sn).map(e => {
       const o = Object.entries(e.o || {}).filter(([k, v]) => v && DEF[k] !== v).map(([k, v]) => `${k}: ${q(v)}`).join(', ');
       return `  { racket: ${q(e.rn)}, string: ${q(e.sn)}, level: ${q(e.level)}, style: ${q(e.style)}, lbs: ${Number(e.lbs)}, feel: ${q(e.feel)}${o ? `, options: { ${o} }` : ''}, who: '', date: ${q(e.date || '')} },`;
@@ -1331,7 +1591,7 @@
       const f = new FormData(e.target), lbs = Number(f.get('lbs')), feel = f.get('feel');
       const r = byId('r', state.m.r), s = byId('s', state.m.s);
       if (!(lbs >= 14 && lbs <= 40) || !FEEL[feel] || !r || !s) { state.mlogMsg = 'ปอนด์ต้องอยู่ระหว่าง 14–40'; renderMatch(); return; }
-      const o = {}; for (const k of ['shuttle', 'climate', 'game', 'arm', 'head']) if (state.m[k]) o[k] = state.m[k];
+      const o = {}; for (const k of ['shuttle', 'climate', 'game', 'arm', 'head', 'variant']) if (state.m[k]) o[k] = state.m[k];
       mylog.entries.push({ id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), r: r.id, s: s.id, rn: full(r), sn: full(s),
         level: state.m.level, style: state.m.style, o, lbs, feel, note: String(f.get('note') || '').trim().slice(0, 120), date: new Date().toISOString().slice(0, 10) });
       logSave(); state.mlogMsg = 'บันทึกแล้ว'; renderMatch();
@@ -1375,7 +1635,8 @@
 
   function viewManage() {
     const mg = state.mg, kind = mg.kind;
-    const list = db[kind].filter(x => !mg.q || full(x).toLowerCase().includes(mg.q.toLowerCase())).sort(sortName);
+    const query = searchQuery(mg.q);
+    const list = db[kind].filter(x => !mg.q || matchScore(x, query) > 0).sort(sortName);
     const editing = mg.edit === 'new' ? {} : mg.edit ? byId(kind, mg.edit) : null;
 
     view.innerHTML = `
@@ -1385,15 +1646,18 @@
         <button class="btn ${kind === 's' ? 'on' : ''}" data-k="s">เอ็น (${db.s.length})</button>
       </div>
       <div class="note">
-        สิ่งที่เพิ่ม/แก้จะเก็บในเบราว์เซอร์นี้ทันที ${isCustom(kind) ? '<b>(ตอนนี้ใช้ข้อมูลที่แก้แล้ว)</b>' : '(ตอนนี้ใช้ข้อมูลจากไฟล์ต้นฉบับ)'}.
-        ถ้าอยากเก็บถาวรหรือใช้ข้ามเครื่อง ให้กด <b>Export</b> แล้วเอาไฟล์ที่ได้ไปทับ <code>data/${kind === 'r' ? 'rackets' : 'strings'}.js</code>
+        เว็บใช้แคตตาล็อกล่าสุดร่วมกับรายการที่คุณเพิ่ม แก้ หรือลบในเบราว์เซอร์นี้ ${isCustom(kind) ? '<b>(มีข้อมูลส่วนตัว)</b>' : ''}
+        ${pendingLegacy.has(kind) ? '<p>กำลังแสดงข้อมูลเดิม ลองรีเฟรชเพื่อย้ายรายการแก้ไข หรือกด Export ชุดเดิมเพื่อสำรอง</p>' : ''}
+        ใช้ <b>Export</b> สำรองข้อมูล แล้วใช้ <b>Import</b> ในหมวดเดียวกันเมื่อต้องการกู้คืนหรือย้ายเครื่อง
       </div>
       <div class="toolbar">
         <button class="btn primary" data-a="new">+ เพิ่ม${kind === 'r' ? 'ไม้' : 'เอ็น'}ใหม่</button>
         <input type="search" id="mq" class="input grow" placeholder="ค้นหา…" value="${esc(mg.q)}">
         <span class="sp"></span>
         <button class="btn" data-a="export">Export</button>
-        <label class="btn">Import<input type="file" id="imp" accept=".js,.json" hidden></label>
+        ${legacy.has(kind) ? '<button class="btn" data-a="export-legacy">Export ชุดเดิม</button>' : ''}
+        <button class="btn" type="button" data-a="import">Import</button>
+        <input type="file" id="imp" accept=".js,.json" hidden>
         <button class="btn danger" data-a="reset">รีเซ็ต</button>
       </div>
       <div id="edit">${editing ? formHtml(kind, editing) : ''}</div>
@@ -1401,9 +1665,9 @@
         <table class="list">
           <thead><tr><th>รุ่น</th><th>${kind === 'r' ? 'แนว / ระดับ' : 'ขนาด / วัสดุ'}</th><th>ราคา</th><th></th></tr></thead>
           <tbody>${list.map(x => `<tr>
-            <td><b>${esc(full(x))}</b>${x.year ? ` <span class="muted small">${x.year}</span>` : ''}</td>
+            <td><b>${esc(full(x))}</b>${x.year ? ` <span class="muted small">${esc(estimatedValue(x, 'year'))}</span>` : ''}</td>
             <td class="small">${kind === 'r' ? [L.style[x.style], lvText(x)].filter(Boolean).join(', ') : esc(gaugeLabel(x)) + ', ' + esc(L.material[x.material] || '')}</td>
-            <td class="small">${kind === 'r' ? baht(x.price) : (x.price ? x.price + ' บาท' : '—')}</td>
+            <td class="small">${kind === 'r' ? baht(x.price) : (x.price ? esc(x.price) + ' บาท' : '—')}</td>
             <td><button class="btn sm" data-ed="${esc(x.id)}">แก้ไข</button> <button class="btn sm" data-dup="${esc(x.id)}">ทำสำเนา</button> <button class="btn sm danger" data-del="${esc(x.id)}">ลบ</button></td>
           </tr>`).join('') || '<tr><td colspan="4" class="empty">ไม่มีรายการ</td></tr>'}</tbody>
         </table>
@@ -1411,7 +1675,11 @@
 
     view.querySelector('.subtabs').onclick = e => { const k = e.target.dataset.k; if (k) { mg.kind = k; mg.edit = null; viewManage(); } };
     view.querySelector('#mq').oninput = e => { mg.q = e.target.value; const p = e.target.selectionStart; viewManage(); const n = view.querySelector('#mq'); n.focus(); n.setSelectionRange(p, p); };
-    view.querySelector('#imp').onchange = e => importFile(kind, e.target.files[0]);
+    view.querySelector('#imp').onchange = e => {
+      const file = e.target.files[0];
+      e.target.value = '';
+      if (file) importFile(kind, file);
+    };
     view.onclick = onManageClick;
     const form = view.querySelector('#editform');
     if (form) {
@@ -1425,10 +1693,20 @@
     if (t.dataset.a === 'new') { mg.edit = 'new'; viewManage(); }
     else if (t.dataset.a === 'cancel') { mg.edit = null; viewManage(); }
     else if (t.dataset.a === 'export') exportFile(kind);
+    else if (t.dataset.a === 'export-legacy' && legacy.has(kind)) {
+      const backup = legacy.get(kind);
+      try { exportFile(kind, backup.items || JSON.parse(backup.cache), '-legacy'); }
+      catch { alert('อ่านข้อมูลชุดเดิมไม่ได้'); }
+    }
+    else if (t.dataset.a === 'import') view.querySelector('#imp').click();
     else if (t.dataset.a === 'reset') {
       if (confirm('ล้างข้อมูลที่แก้ในเบราว์เซอร์ แล้วกลับไปใช้ไฟล์ต้นฉบับ? (ควร Export เก็บไว้ก่อน)')) {
-        try { localStorage.removeItem(KEYS[kind]); } catch (err) {}
-        db[kind] = clone(BASE[kind]); mg.edit = null; viewManage();
+        if (storeCatalog(kind, catalogDelta(BASE[kind], BASE[kind]))) {
+          pendingLegacy.delete(kind);
+          db[kind] = clone(BASE[kind]);
+          mg.edit = null;
+          viewManage();
+        } else alert('รีเซ็ตไม่ได้ ข้อมูลในเบราว์เซอร์อาจเต็มหรือเปลี่ยนจากแท็บอื่น');
       }
     }
     else if (t.dataset.ed) { mg.edit = t.dataset.ed; viewManage(); }
@@ -1436,12 +1714,16 @@
       const src = byId(kind, t.dataset.dup); if (!src) return;
       const copy = { ...clone(src), name: src.name + ' (สำเนา)' };
       copy.id = uniqueId(kind, slug(full(copy)));
-      db[kind].push(copy); persist(kind); mg.edit = copy.id; viewManage();
+      const items = [...db[kind], copy];
+      if (!persist(kind, items)) return;
+      mg.edit = copy.id;
+      viewManage();
     }
     else if (t.dataset.del) {
       const x = byId(kind, t.dataset.del);
       if (x && confirm(`ลบ ${full(x)}?`)) {
-        db[kind] = db[kind].filter(y => y.id !== x.id); persist(kind);
+        const items = db[kind].filter(y => y.id !== x.id);
+        if (!persist(kind, items)) return;
         if (mg.edit === x.id) mg.edit = null;
         viewManage();
       }
@@ -1485,43 +1767,151 @@
     const item = old ? { ...old } : {};
     for (const [k] of FIELDS[kind]) {
       const raw = String(fd.get(k) ?? '').trim();
+      if (old && k !== 'tmin' && k !== 'tmax' && raw === String(old[k] ?? '').trim()) continue;
       item[k] = NUMERIC.has(k) ? (raw === '' ? '' : Number(raw)) : raw;
+    }
+    for (const key of ['year', 'price']) {
+      if (old && !sameField(item[key], old[key])) for (const dependent of catalogSources.get(key)) delete item[dependent];
+    }
+    if (kind === 's' && item.tensionMax !== '' && (!Number.isFinite(item.tensionMax) || item.tensionMax < 2)) {
+      alert('ความตึงสูงสุดของเอ็นต้องมีค่าอย่างน้อย 2 lbs');
+      return;
     }
     if (kind === 'r') {
       if (!(ordIdx('level', item.levelTo, -1) > ordIdx('level', item.level, 99))) item.levelTo = '';   // only a higher level makes a range
-      item.tension = item.tmin !== '' && item.tmax !== '' ? [item.tmin, item.tmax] : null;
+      item.tension = item.tmin !== '' || item.tmax !== ''
+        ? [item.tmin === '' ? null : item.tmin, item.tmax === '' ? null : item.tmax] : null;
+      if (!validTension(item.tension)) {
+        alert('ความตึงต้องเป็นจำนวนบวก และค่าต่ำสุดต้องไม่เกินค่าสูงสุด');
+        return;
+      }
       delete item.tmin; delete item.tmax;
+      const tensionChanged = JSON.stringify(old?.tension || null) !== JSON.stringify(item.tension);
+      if (tensionChanged) {
+        item.tensionNote = '';
+        item.tensionByWeight = {};
+        delete item.tensionSrc;
+      }
       // a field the user set by hand is no longer an estimate
-      item.est = (item.est || []).filter(f => old && old[f] === item[f]);
+      item.est = (item.est || []).filter(f => old && (f === 'tension' ? !tensionChanged : old[f] === item[f]));
     }
-    if (old) Object.assign(old, item);
-    else { item.id = uniqueId(kind, slug(full(item))); db[kind].push(item); }
-    persist(kind);
+    if (!old) item.id = uniqueId(kind, slug(full(item)));
+    const items = old ? db[kind].map(x => x.id === old.id ? item : x) : [...db[kind], item];
+    if (!persist(kind, items)) return;
     mg.edit = null;
     viewManage();
   }
 
-  function exportFile(kind) {
+  function exportFile(kind, rows = db[kind], suffix = '') {
     const name = kind === 'r' ? 'rackets' : 'strings';
     const head = kind === 'r'
       ? '// ข้อมูลไม้แบด — style: attack|speed|control|allround, balance: head-light|even|head-heavy,\n// flex: flexible|medium|stiff|extra-stiff, level: beginner|intermediate|advanced|pro (levelTo: the top of a range)\n'
       : '// ข้อมูลเอ็น — material: multi|mono|braided|hybrid|coated, คะแนน 1–10\n';
-    const text = `${head}window.${name.toUpperCase()} = ${JSON.stringify(db[kind], null, 2)};\n`;
+    const delta = suffix || pendingLegacy.has(kind) ? null : edits[kind] || catalogDelta(BASE[kind], rows);
+    const backup = delta ? `// RacketS v2: ${JSON.stringify({ kind, added: delta.added.map(x => x.id),
+      changed: delta.changed.map(({ item, fields }) => [item.id, fields]), removed: delta.removed })}\n` : '';
+    const text = `${head}${backup}window.${name.toUpperCase()} = ${JSON.stringify(rows, null, 2)};\n`;
     const a = document.createElement('a');
     a.href = URL.createObjectURL(new Blob([text], { type: 'text/javascript' }));
-    a.download = `${name}.js`;
+    a.download = `${name}${suffix}.js`;
     a.click();
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }
 
-  function importFile(kind, file) {
-    if (!file) return;
-    file.text().then(text => {
-      const s = text.indexOf('['), e = text.lastIndexOf(']');
-      const arr = JSON.parse(text.slice(s, e + 1));
-      if (!Array.isArray(arr) || arr.some(x => !x || !x.id || !x.name)) throw new Error('bad');
-      db[kind] = arr; persist(kind); state.mg.edit = null; viewManage();
-    }).catch(() => alert('อ่านไฟล์ไม่ได้ — ต้องเป็นไฟล์ที่ได้จากปุ่ม Export'));
+  function validTension(range) {
+    if (range == null) return true;
+    if (!Array.isArray(range) || range.length !== 2) return false;
+    const [min, max] = range;
+    return (min != null || max != null) &&
+      range.every(value => value === null || (Number.isFinite(value) && value > 0)) &&
+      (max === null || (max >= 2 && (min === null || min <= max)));
+  }
+
+  function parseImport(kind, text) {
+    const expected = kind === 'r' ? 'RACKETS' : 'STRINGS';
+    const js = text.match(/^\s*(?:\/\/[^\r\n]*(?:\r?\n|$)\s*)*window\.(RACKETS|STRINGS)\s*=\s*(\[[\s\S]*\])\s*;?\s*$/);
+    if (js && js[1] !== expected) throw new Error('ไฟล์อยู่คนละหมวดกับแท็บที่เปิด');
+    const rows = JSON.parse(js ? js[2] : text);
+    if (!Array.isArray(rows)) throw new Error('ไฟล์ต้องมีรายการอุปกรณ์');
+    const gearFields = { r: ['balance', 'flex', 'weights', 'tension', 'tensionByWeight'], s: ['gauge', 'gaugeText', 'material', 'repulsion', 'tensionMax'] };
+    const ownFields = gearFields[kind], otherFields = gearFields[kind === 'r' ? 's' : 'r'];
+    const ids = new Set();
+    for (const [i, row] of rows.entries()) {
+      const invalid = () => new Error(`ข้อมูลรายการที่ ${i + 1} ไม่ถูกต้อง`);
+      if (!row || typeof row !== 'object' || Array.isArray(row) || Object.hasOwn(row, '__proto__') ||
+          typeof row.id !== 'string' || !row.id || /[\s,:]/.test(row.id) || ids.has(row.id) ||
+          !['brand', 'name'].every(key => typeof row[key] === 'string' && row[key].trim())) throw invalid();
+      if (otherFields.some(key => Object.hasOwn(row, key))) throw new Error(`รายการที่ ${i + 1} อยู่คนละหมวดกับแท็บที่เปิด`);
+      if (!js && !ownFields.some(key => Object.hasOwn(row, key))) throw new Error(`ระบุหมวดของรายการที่ ${i + 1} จากไฟล์ JSON นี้ไม่ได้`);
+      ids.add(row.id);
+      for (const [key, , type] of FIELDS[kind]) {
+        const value = row[key];
+        if (value == null || value === '' || (key === 'img' && value === false)) continue;
+        if (type === 'number' ? !Number.isFinite(value) : typeof value !== 'string') throw invalid();
+      }
+      if (row.year != null && row.year !== '' && !Number.isFinite(row.year)) throw invalid();
+      if (row.modelCode != null && typeof row.modelCode !== 'string') throw invalid();
+      if (row.aliases != null && (!Array.isArray(row.aliases) || row.aliases.some(value => typeof value !== 'string' || !value.trim()))) throw invalid();
+      if (row.generation != null && (!Number.isInteger(row.generation) || row.generation <= 0)) throw invalid();
+      if (row.est != null && (!Array.isArray(row.est) || row.est.some(value => typeof value !== 'string'))) throw invalid();
+      if (row.shopLinks != null && row.shopLinks !== '' &&
+          (!Array.isArray(row.shopLinks) || row.shopLinks.some(value => !value || typeof value.url !== 'string' || typeof value.shop !== 'string'))) throw invalid();
+      if (kind === 'r' && !validTension(row.tension)) throw invalid();
+      if (row.tensionMax != null && row.tensionMax !== '' && row.tensionMax < 2) throw invalid();
+      if (row.tensionByWeight != null) {
+        if (!row.tensionByWeight || typeof row.tensionByWeight !== 'object' || Array.isArray(row.tensionByWeight) ||
+            Object.entries(row.tensionByWeight).some(([weight, range]) =>
+              !/^[2-8][UF]$/.test(weight) || !range?.[1] || !validTension(range)) ||
+            (Object.keys(row.tensionByWeight).length && (!row.tension?.[1] ||
+              Object.values(row.tensionByWeight).some(range => range[1] < row.tension[1])))) throw invalid();
+      }
+    }
+    return rows;
+  }
+
+  function readCatalogBackup(kind, text, rows) {
+    const header = text.match(/^\/\/ RacketS v2: ([^\r\n]+)$/m);
+    if (!header) return null;
+    const saved = JSON.parse(header[1]), items = new Map(rows.map(item => [item.id, item]));
+    const seen = new Set();
+    const validId = id => {
+      if (typeof id !== 'string' || !id || /[\s,:]/.test(id) || seen.has(id)) return false;
+      seen.add(id);
+      return true;
+    };
+    const invalid = () => new Error('ข้อมูลการแก้ไขในไฟล์สำรองไม่ถูกต้อง');
+    if (!saved || saved.kind !== kind || !['added', 'changed', 'removed'].every(key => Array.isArray(saved[key]))) throw invalid();
+    if (!saved.removed.every(id => validId(id) && !items.has(id))) throw invalid();
+    const added = saved.added.map(id => {
+      if (!validId(id) || !items.has(id)) throw invalid();
+      return items.get(id);
+    });
+    const changed = saved.changed.map(entry => {
+      if (!Array.isArray(entry) || entry.length !== 2) throw invalid();
+      const [id, fields] = entry, item = items.get(id);
+      if (!validId(id) || !item || !Array.isArray(fields) || !fields.length || new Set(fields).size !== fields.length ||
+          !fields.every(key => typeof key === 'string' && key !== 'id' && Object.hasOwn(item, key))) throw invalid();
+      return { item, fields };
+    });
+    return { added, changed, removed: saved.removed };
+  }
+
+  async function importFile(kind, file) {
+    let rows, delta;
+    try {
+      const text = await file.text();
+      rows = parseImport(kind, text);
+      delta = readCatalogBackup(kind, text, rows);
+      if (!delta && kind === 'r') rows = updateSavedTension(rows);
+    }
+    catch (err) { alert(err instanceof SyntaxError ? 'อ่านไฟล์ไม่ได้ ตรวจรูปแบบ JSON หรือใช้ไฟล์จาก Export' : err.message); return; }
+    const stillHere = () => location.hash.split('?')[0] === '#manage' && state.mg.kind === kind;
+    if (!stillHere()) return;
+    const message = delta ? 'แทนรายการแก้ไขส่วนตัวด้วยข้อมูลจากไฟล์ แล้วใช้ร่วมกับแคตตาล็อกปัจจุบัน?'
+      : `แทนข้อมูลเดิม ${db[kind].length} รายการด้วยข้อมูลจากไฟล์ ${rows.length} รายการ?`;
+    if (!confirm(message) || !saveCatalog(kind, delta || catalogDelta(BASE[kind], rows))) return;
+    state.mg.edit = null;
+    viewManage();
   }
 
   // ---------- ไม้น่าสนใจช่วงนี้: a top 5 per board among the newer models ----------
@@ -1529,8 +1919,13 @@
   // or the price. Only models with a known year (so "recent" means something) are in the pool; the profile leaves out an input a racket lacks,
   // and a racket needs its balance and one of flex or weight, so a missing flex does not keep a new model off the page
   // but one number alone cannot score 100; a row that still lacks one of them says so.
-  // an array, not an object: integer-like keys ('2025', '2026') would sort ahead of 'all' and ahead of the order written here
-  const HOT_SPANS = [['2026', 'ปี 2026', y => y === 2026], ['2025', 'ปี 2025–2026', y => y >= 2025], ['all', 'ทุกปีที่รู้', y => y > 0]];
+  function hotSpans(year = new Date().getFullYear()) {
+    return [
+      ['current', `ปี ${year}`, y => y === year],
+      ['recent', `ปี ${year - 1}–${year}`, y => y >= year - 1 && y <= year],
+      ['all', 'ทุกปีที่รู้', y => y > 0],
+    ];
+  }
   const HOT_BOARDS = [
     { title: 'ตบหนักสุด', hint: 'หัวหนัก ก้านแข็ง ไม้หนัก', axis: 0 },
     { title: 'คล่องตัวสุด', hint: 'หัวเบา ไม้เบา สะบัดไว', axis: 1 },
@@ -1538,10 +1933,30 @@
     { title: 'ตีง่ายสุด', hint: 'ก้านอ่อน ไม้เบา ระดับผู้เล่นไม่สูง', axis: 3 },
     { title: 'ราคาต่ำสุด', hint: 'เฉพาะรุ่นที่สเปกพอให้เทียบได้', price: true },
   ];
-  function hotBoards(span) {
-    const inSpan = (HOT_SPANS.find(o => o[0] === span) || HOT_SPANS[0])[2];
-    // junior rackets (Auraspeed 1JR, Ryuga JR) are a different purchase and would top the price board
-    const pool = db.r.filter(x => Number(x.year) > 0 && inSpan(Number(x.year)) && x.balance && (x.flex || Number(x.weight) > 0) && !/(^|[\s\d])jr(\s|$)|junior/i.test(x.name));
+  // Junior rackets are a separate category and would otherwise dominate the price board.
+  const hotHasYear = x => Number(x.year) > 0 && !(x.est || []).includes('year');
+  const hotEligible = (x, inSpan) => hotHasYear(x) && inSpan(Number(x.year)) && x.balance &&
+    (x.flex || Number(x.weight) > 0) && !/(^|[\s\d])jr(\s|$)|junior/i.test(x.name);
+  function hotPeriod(span, year) {
+    const spans = hotSpans(year);
+    return (spans.find(([key]) => key === span) || spans[0])[2];
+  }
+
+  function hotCoverage(span, year, items = db.r) {
+    const inSpan = hotPeriod(span, year), brands = new Map();
+    for (const item of items) {
+      if (!brands.has(item.brand)) brands.set(item.brand, { brand: item.brand, total: 0, dated: 0, eligible: 0 });
+      const row = brands.get(item.brand);
+      row.total++;
+      if (hotHasYear(item)) row.dated++;
+      if (hotEligible(item, inSpan)) row.eligible++;
+    }
+    return [...brands.values()].sort((a, b) => a.brand.localeCompare(b.brand));
+  }
+
+  function hotBoards(span, year) {
+    const inSpan = hotPeriod(span, year);
+    const pool = db.r.filter(x => hotEligible(x, inSpan));
     const prof = new Map(pool.map(x => [x, racketProfile(x)]));
     return HOT_BOARDS.map(b => {
       const rows = b.price
@@ -1551,15 +1966,27 @@
     });
   }
   function viewHot() {
-    const total = db.r.length, dated = db.r.filter(x => Number(x.year) > 0).length;
+    const total = db.r.length, dated = db.r.filter(hotHasYear).length;
+    const year = new Date().getFullYear();
     view.innerHTML = `
       <h1>ไม้น่าสนใจช่วงนี้</h1>
-      <p class="muted">เรายังไม่มียอดขายหรือคะแนนรีวิว จึงจัดอันดับจากสเปก คะแนนคำนวณจากสเปก ไม่ใช่คะแนนจากผู้ผลิต และนับเฉพาะรุ่นที่รู้ปีที่ออกกับสมดุลและความแข็งก้าน (รู้ปี ${dated} จาก ${total} รุ่น)</p>
-      <div class="hot-span" role="group" aria-label="ช่วงปีที่ออก">${HOT_SPANS.map(([k, t]) => `<button type="button" class="btn sm" data-span="${k}">${t}</button>`).join('')}</div>
+      <p class="muted">จัดอันดับจากสเปก ตัดปีที่ยังไม่ยืนยันออก เหลือ ${dated} จาก ${total} รุ่นก่อนกรองสมดุล ความแข็งก้าน และน้ำหนัก</p>
+      <div class="hot-span" role="group" aria-label="ช่วงปีที่ออก">${hotSpans(year).map(([k, t]) => `<button type="button" class="btn sm" data-span="${k}">${t}</button>`).join('')}</div>
+      <details class="note">
+        <summary>จำนวนรุ่นที่เข้าเกณฑ์แยกตามแบรนด์</summary>
+        <div class="tbl-wrap">
+          <table class="list">
+            <thead><tr><th scope="col">แบรนด์</th><th scope="col">เข้าเกณฑ์ในช่วงนี้</th><th scope="col">มีปีเปิดตัว</th><th scope="col">ทั้งหมด</th></tr></thead>
+            <tbody id="hot-coverage"></tbody>
+          </table>
+        </div>
+      </details>
       <div class="hot-grid" id="hot-boards" aria-live="polite"></div>`;
     const paint = () => {
       view.querySelectorAll('[data-span]').forEach(b => { const on = b.dataset.span === state.hotSpan; b.classList.toggle('primary', on); b.classList.toggle('ghost', !on); b.setAttribute('aria-pressed', on); });
-      view.querySelector('#hot-boards').innerHTML = hotBoards(state.hotSpan).map(b => `
+      view.querySelector('#hot-coverage').innerHTML = hotCoverage(state.hotSpan, year).map(row =>
+        `<tr><th scope="row">${esc(row.brand)}</th><td>${row.eligible}</td><td>${row.dated}</td><td>${row.total}</td></tr>`).join('');
+      view.querySelector('#hot-boards').innerHTML = hotBoards(state.hotSpan, year).map(b => `
         <section class="hot-board">
           <div class="hot-head"><h2>${b.title}</h2><span class="small muted">${b.hint}</span></div>
           ${b.rows.length ? `<ol class="hot-list">${b.rows.map(({ x, v }, i) => `
@@ -1622,6 +2049,31 @@
     else viewCompare('r');
     window.scrollTo(0, 0);
   }
-  window.addEventListener('hashchange', route);
-  route();
+  function start() {
+    for (const kind of pendingLegacy) {
+      const { items } = legacy.get(kind), reference = window.RS_CATALOG_V1?.[kind];
+      if (reference) {
+        const delta = migrateCatalog(BASE[kind], items, reference);
+        if (storeCatalog(kind, delta)) {
+          pendingLegacy.delete(kind);
+          db[kind] = applyCatalogDelta(BASE[kind], delta);
+          continue;
+        }
+      }
+      db[kind] = kind === 'r' ? updateSavedTension(items) : items;
+    }
+    window.addEventListener('hashchange', route);
+    route();
+  }
+
+  if (pendingLegacy.size && !window.RS_CATALOG_V1) {
+    const appUrl = new URL(document.currentScript.src);
+    const url = new URL('data/catalog-v1.js', appUrl);
+    url.search = appUrl.search;
+    const script = document.createElement('script');
+    script.src = url.href;
+    script.onload = start;
+    script.onerror = start;
+    document.head.append(script);
+  } else start();
 })();

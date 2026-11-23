@@ -50,9 +50,6 @@ def bp_of(t):
 
 def balance_of(t, prose=False):
     t = (t or '').lower()
-    m = re.search(r'(2[6-9]\d|3[0-2]\d)\s*(?:±|\+-|\+/-)?\s*\d*\s*mm', t) or re.match(r'\s*(2[6-9]\d|3[0-2]\d)\b', t)
-    if m:
-        v = int(m.group(1)); return 'head-heavy' if v >= 295 else 'head-light' if v <= 285 else 'even'
     hits = set()
     if re.search(r'head[\s-]*heavy|หัวหนัก|poids en t', t): hits.add('head-heavy')
     if re.search(r'head[\s-]*light|หัวเบา|poids en manche', t): hits.add('head-light')
@@ -232,11 +229,11 @@ def parse(lines, options=()):
         # shaft label free for the material line that follows
         if f == 'shaft' and not is_material(val) and flex_of(val):
             out.setdefault('flex', val.strip()); continue
-        # a page may print a class and a point under two balance labels ("Balance: Even Balance", "Balance point: 302 mm"):
-        # the first keeps the class, and the millimetres are read from whichever label has them
-        if f == 'balance' and not out.get('_bp'):
+        # A stated class wins over a point measured in mm, even when the point appears first.
+        if f == 'balance':
             b = bp_of(val)
-            if b: out['_bp'] = b
+            if b and not out.get('_bp'): out['_bp'] = b
+            if balance_of(val) and not balance_of(out.get(f)): out[f] = val.strip()
         if f and f not in out: out[f] = val.strip()
     # normalise the labelled values; a "shaft" label holding a stiffness word is the flex, not the material
     if out.get('shaft') and not out.get('flex') and flex_of(out['shaft']) and not re.search(r'graphite|carbon|fib|nano|titan', out['shaft'], re.I):
@@ -279,10 +276,14 @@ def parse(lines, options=()):
         if not res.get(f) and v not in ('', None):
             res[f] = v; from_prose.append(f)
     if between: from_prose.append('flex')  # an in-between grade is shown as an estimate, like a prose value
-    res['fromProse'] = from_prose
     # "balance point is 310mm", "Head-Heavy Balance (300-315mm)": a number the page states is not an estimate, so it stays out of fromProse
     if not res.get('bp'):
         m = re.search(r'balance(?: point)?[^.\n\d]{0,25}(\d{3}(?:\.\d)?(?:\s*(?:-|–|~|to)\s*\d{3})?\s*mm)', text, re.I)
         rg = m and re.search(r'(\d{3})\s*(?:-|–|~|to)\s*(\d{3})', m.group(1))
         if m and not (rg and abs(int(rg.group(2)) - int(rg.group(1))) > 10): res['bp'] = bp_of(m.group(1))   # a class-wide span is no point
+    if not res['balance'] and res['bp']:
+        bp = res['bp']
+        res['balance'] = 'head-heavy' if bp >= 300 else 'head-light' if bp <= 290 else 'even'
+        from_prose.append('balance')
+    res['fromProse'] = from_prose
     return res

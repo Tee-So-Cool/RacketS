@@ -1,4 +1,4 @@
-// ข้อมูลไม้แบด — แก้ไฟล์นี้ตรง ๆ ได้ หรือแก้ผ่านหน้า "จัดการข้อมูล" แล้วกด Export มาทับไฟล์นี้
+// ข้อมูลไม้แบด — สร้างจาก scripts/build_rackets.py และ data/spec-overrides.json
 // แหล่งข้อมูล: chobbad.com (สเปกรวม) + yonex.com (สเปกทางการ ทับค่า Yonex)
 // style: attack | speed | control | allround, balance: head-light | even | head-heavy
 // flex: flexible | medium | stiff | extra-stiff, level: beginner | intermediate | advanced | pro
@@ -44,7 +44,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "year"
   ]
  },
  {
@@ -86,7 +87,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-assailant-control",
@@ -128,7 +131,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "year"
   ]
  },
  {
@@ -171,7 +175,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "year"
   ]
  },
  {
@@ -223,6 +228,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -266,7 +272,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "year"
   ]
  },
  {
@@ -313,6 +320,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -364,7 +372,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "year"
   ]
  },
  {
@@ -406,7 +415,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-blizzard-pro-zz",
@@ -465,7 +476,9 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "year",
+   "price",
+   "tension"
   ]
  },
  {
@@ -507,7 +520,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-carbo-8000",
@@ -548,7 +563,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-carbo-9000",
@@ -593,7 +610,9 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "year",
+   "weights"
   ]
  },
  {
@@ -635,7 +654,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-cross-court-control",
@@ -680,6 +701,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-control-maroon-silver-4u-badminton-racket.html",
   "note": "",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -726,6 +748,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-power-black-maroon-4u-badminton-racket.html",
   "note": "",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -777,7 +800,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "year"
   ]
  },
  {
@@ -829,6 +853,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -871,7 +896,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-cross-court-speed",
@@ -916,6 +943,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-cross-court-speed-white-4u-badminton-racket.html",
   "note": "",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -963,6 +991,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -1009,6 +1038,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-duplex-power-55-black-badminton-racket.html",
   "note": "",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -1056,6 +1086,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -1102,6 +1133,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energy-groove-power-black-badminton-racket.html",
   "note": "",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -1148,6 +1180,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-energy-groove-speed-white-badminton-racket-df.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -1194,6 +1227,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com.my/apacs-fantala-6-pt-0-control-black-gold-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -1245,6 +1279,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com.my/apacs-fantala-6-pt-0-speed-blue-black-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -1288,7 +1323,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "year"
   ]
  },
  {
@@ -1331,7 +1367,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "year"
   ]
  },
  {
@@ -1374,7 +1411,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "year"
   ]
  },
  {
@@ -1434,6 +1472,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -1489,6 +1528,7 @@ window.RACKETS = [
   "priceSrc": "https://centralsports.co.uk/products/apacs-feather-weight-500-racket-grey-7u1",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -1496,7 +1536,7 @@ window.RACKETS = [
   "id": "apacs-feather-weight-55",
   "brand": "Apacs",
   "name": "Feather Weight 55",
-  "year": 2021,
+  "year": "",
   "yearSrc": "",
   "style": "speed",
   "balance": "head-heavy",
@@ -1546,9 +1586,10 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹3,843.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/apacs-feather-weight-55-badminton-racket",
-  "note": "",
+  "note": "ยังไม่ยืนยันปีเปิดตัว Badminton Bay กล่าวถึงรุ่นนี้แล้วในปี 2018 จึงตัดปี 2021 ออกจากแคตตาล็อก",
   "est": [
-   "price"
+   "price",
+   "tension"
   ]
  },
  {
@@ -1594,6 +1635,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-x-ii-red-gold-badminton-racket.html",
   "note": "",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -1645,6 +1687,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/apacs-finapi-232-reborn-badminton-racket-white",
   "note": "เท็นชั่น 42 lbs มาจากร้าน khelmart.com (\"Up to 42 lbs\", ก้าน 8.5/10 ปานกลาง) สูงกว่ารุ่นอื่นของ Apacs มาก ผู้ผลิตไม่ยืนยันในหน้าที่เราอ่านได้ (ตรวจ 11 พ.ย. 2026) Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -1692,6 +1735,7 @@ window.RACKETS = [
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -1738,6 +1782,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hard-hitter-control-green-4u-badminton-racket.html",
   "note": "",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -1784,6 +1829,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hard-hitter-power-red-4u-badminton-racket.html",
   "note": "",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -1829,7 +1875,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-hard-hitter-pro-6-4",
@@ -1874,6 +1922,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com.my/apacs-hard-hitter-pro-navy-blue-4u-badminton-racket.html",
   "note": "",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -1920,6 +1969,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hard-hitter-speed-white-4u-badminton-racket.html",
   "note": "",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -1980,6 +2030,7 @@ window.RACKETS = [
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -2027,6 +2078,7 @@ window.RACKETS = [
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -2073,6 +2125,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-power-cream-light-peach-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -2119,6 +2172,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-hyper-speed-white-light-peach-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -2175,6 +2229,7 @@ window.RACKETS = [
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -2226,7 +2281,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "year"
   ]
  },
  {
@@ -2273,6 +2329,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -2316,7 +2373,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "year"
   ]
  },
  {
@@ -2359,7 +2417,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "year"
   ]
  },
  {
@@ -2402,7 +2461,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "year"
   ]
  },
  {
@@ -2445,7 +2505,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "year"
   ]
  },
  {
@@ -2487,7 +2548,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-lethal-9",
@@ -2533,6 +2596,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -2580,6 +2644,7 @@ window.RACKETS = [
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -2627,6 +2692,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -2728,6 +2794,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com.my/Badminton-Racket/Apacs-Badminton-Racket/apacs-nano-fusion-speed-722-pro-durapro-cct-white-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -2774,6 +2841,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com.my/apacs-nano-fusion-777-force-black-mint-green-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -2817,7 +2885,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "year"
   ]
  },
  {
@@ -2863,6 +2932,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com.my/apacs-nano-fusion-speed-xr-black-red-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -2906,7 +2976,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "year"
   ]
  },
  {
@@ -2953,6 +3024,7 @@ window.RACKETS = [
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -3000,6 +3072,7 @@ window.RACKETS = [
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -3042,7 +3115,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-razor-800",
@@ -3083,7 +3158,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-resona-speed-66",
@@ -3128,6 +3205,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com.my/apacs-resona-speed-66-silver-5u-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -3174,6 +3252,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com.my/apacs-resona-speed-88-black-5u-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -3217,7 +3296,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "year"
   ]
  },
  {
@@ -3263,6 +3343,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "weight"
   ]
  },
@@ -3299,7 +3380,7 @@ window.RACKETS = [
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-apacs-stardom-pro-iii-169x300.webp",
   "source": "https://chobbad.com/racket/apacs-stardom-pro-iii/",
-  "officialUrl": "",
+  "officialUrl": "https://apacssports.com/product/stardom-pro-iii/",
   "specSrc": "https://www.badmintonbay.com/apacs-stardom-pro-ii-black-blue-badminton-racket.html",
   "shopUrl": "",
   "bayUrl": "",
@@ -3315,6 +3396,7 @@ window.RACKETS = [
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -3362,6 +3444,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -3409,6 +3492,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -3451,7 +3535,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-stern-899",
@@ -3497,6 +3583,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -3543,6 +3630,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/Apacs-Stern-90-Offensive.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -3594,6 +3682,7 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-super-speed-black-4u-badminton-racket.html",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -3636,7 +3725,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-tempesta",
@@ -3682,6 +3773,7 @@ window.RACKETS = [
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -3727,7 +3819,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-thunderdome-pro-6-2",
@@ -3782,6 +3876,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -3829,6 +3924,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -3875,7 +3971,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "year"
   ]
  },
  {
@@ -3917,7 +4014,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-valiant-8000",
@@ -3963,6 +4062,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -4016,6 +4116,7 @@ window.RACKETS = [
   "est": [
    "flex",
    "tension",
+   "year",
    "price"
   ]
  },
@@ -4067,7 +4168,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "style"
+   "style",
+   "year"
   ]
  },
  {
@@ -4119,7 +4221,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "flex",
-   "style"
+   "style",
+   "year"
   ]
  },
  {
@@ -4161,7 +4264,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-woven-gold",
@@ -4215,7 +4320,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "style"
+   "style",
+   "year"
   ]
  },
  {
@@ -4257,7 +4363,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-woven-ruby",
@@ -4303,6 +4411,7 @@ window.RACKETS = [
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -4346,7 +4455,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "year"
   ]
  },
  {
@@ -4388,7 +4498,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-x-tech-power",
@@ -4430,7 +4542,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "year"
   ]
  },
  {
@@ -4480,7 +4593,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-z-power-900-rp-lite",
@@ -4534,7 +4649,9 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/apacs-z-power-900-rp-lite-badminton-racket-maroon-matte",
   "note": "Apacs นับ U ต่างจากยี่ห้ออื่น (5U ราว 81 g, 4U ราว 86 g, 6U ราว 78 g) น้ำหนักกรัมคือค่าที่ Apacs ระบุ",
   "est": [
-   "price"
+   "year",
+   "price",
+   "tension"
   ]
  },
  {
@@ -4581,6 +4698,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -4590,8 +4708,8 @@ window.RACKETS = [
   "name": "Z-Ziggler",
   "year": "",
   "yearSrc": "",
-  "style": "allround",
-  "balance": "even",
+  "style": "attack",
+  "balance": "head-heavy",
   "bp": 290,
   "flex": "medium",
   "level": "",
@@ -4682,7 +4800,9 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "year",
+   "weights"
   ]
  },
  {
@@ -4724,7 +4844,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-z-ziggler-77",
@@ -4765,7 +4887,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "apacs-z-ziggler-lite",
@@ -4773,8 +4897,8 @@ window.RACKETS = [
   "name": "Z-Ziggler Lite",
   "year": 2021,
   "yearSrc": "",
-  "style": "allround",
-  "balance": "even",
+  "style": "speed",
+  "balance": "head-light",
   "bp": 290,
   "flex": "medium",
   "level": "intermediate",
@@ -4815,9 +4939,11 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/apacs-z-ziggler-lite-badminton-racket-6u-white",
   "note": "",
   "est": [
+   "balance",
    "flex",
    "tension",
    "style",
+   "year",
    "price",
    "weight"
   ]
@@ -4865,7 +4991,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "year"
   ]
  },
  {
@@ -4917,6 +5044,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -4969,6 +5097,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -7993,7 +8122,8 @@ window.RACKETS = [
   "est": [
    "flex",
    "style",
-   "price"
+   "price",
+   "tension"
   ]
  },
  {
@@ -8177,7 +8307,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "price",
+   "tension"
   ]
  },
  {
@@ -8310,7 +8441,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/hundred-flareon-700-badminton-racket-4u",
   "note": "",
   "est": [
-   "balance",
    "style",
    "price",
    "weight"
@@ -8377,7 +8507,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "price",
+   "tension"
   ]
  },
  {
@@ -8436,7 +8567,8 @@ window.RACKETS = [
    "level",
    "style",
    "price",
-   "weight"
+   "weight",
+   "tension"
   ]
  },
  {
@@ -8511,7 +8643,6 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/hundred-hyfonic-7-badminton-racket-4u",
   "note": "",
   "est": [
-   "balance",
    "tension",
    "style",
    "price",
@@ -8578,6 +8709,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/hundred-hyfonic-lazer-badminton-racket-5u-white-copper",
   "note": "",
   "est": [
+   "balance",
    "style",
    "price",
    "weight"
@@ -8589,8 +8721,8 @@ window.RACKETS = [
   "name": "Nitrix 10",
   "year": "",
   "yearSrc": "",
-  "style": "attack",
-  "balance": "head-heavy",
+  "style": "",
+  "balance": "",
   "bp": "",
   "flex": "",
   "level": "",
@@ -8635,9 +8767,9 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/hundred-nitrix-10-badminton-racket-5u-light-blue",
   "note": "",
   "est": [
-   "style",
    "price",
-   "weight"
+   "weight",
+   "tension"
   ]
  },
  {
@@ -9042,7 +9174,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price",
-   "weight"
+   "weight",
+   "tension"
   ]
  },
  {
@@ -9288,7 +9421,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "price",
+   "tension"
   ]
  },
  {
@@ -9694,7 +9828,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weights"
   ]
  },
  {
@@ -9740,7 +9875,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weights"
   ]
  },
  {
@@ -9786,7 +9922,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weights"
   ]
  },
  {
@@ -9833,7 +9970,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -9926,7 +10064,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weights"
   ]
  },
  {
@@ -9972,7 +10111,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weights"
   ]
  },
  {
@@ -10065,7 +10205,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -10111,7 +10252,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weights"
   ]
  },
  {
@@ -10157,7 +10299,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weights"
   ]
  },
  {
@@ -10204,7 +10347,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -10250,7 +10394,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weights"
   ]
  },
  {
@@ -10296,7 +10441,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weights"
   ]
  },
  {
@@ -10342,7 +10488,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weights"
   ]
  },
  {
@@ -10388,7 +10535,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weights"
   ]
  },
  {
@@ -10434,7 +10582,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weights"
   ]
  },
  {
@@ -10480,7 +10629,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weights"
   ]
  },
  {
@@ -10526,7 +10676,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weights"
   ]
  },
  {
@@ -10579,7 +10730,8 @@ window.RACKETS = [
   "est": [
    "level",
    "price",
-   "flex"
+   "flex",
+   "weights"
   ]
  },
  {
@@ -10634,7 +10786,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/3d-calibar-009",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -10689,7 +10842,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/3d-calibar-009-boost",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -10744,7 +10898,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/3d-calibar-009-combat",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -10799,7 +10954,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/3d-calibar-200",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -11150,7 +11306,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/3d-calibar-600-boost",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -11207,7 +11364,8 @@ window.RACKETS = [
   "est": [
    "level",
    "price",
-   "flex"
+   "flex",
+   "weights"
   ]
  },
  {
@@ -11508,7 +11666,8 @@ window.RACKETS = [
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
    "price",
-   "flex"
+   "flex",
+   "tension"
   ]
  },
  {
@@ -11694,8 +11853,8 @@ window.RACKETS = [
   "id": "li-ning-aeronaut-4000",
   "brand": "Li-Ning",
   "name": "Aeronaut 4000",
-  "year": "",
-  "yearSrc": "",
+  "year": 2017,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view.php?eid=6787",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 305,
@@ -11742,7 +11901,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-4000",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -11797,7 +11957,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-4000-boost",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -11852,7 +12013,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-4000-combat",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -11907,15 +12069,16 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-5000",
   "note": "Li-Ning (in.lining.studio): \"This racket is tuned for intermediate players\"",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
   "id": "li-ning-aeronaut-6000",
   "brand": "Li-Ning",
   "name": "Aeronaut 6000",
-  "year": "",
-  "yearSrc": "",
+  "year": 2020,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_7711.html",
   "style": "control",
   "balance": "head-light",
   "bp": 290,
@@ -12020,7 +12183,8 @@ window.RACKETS = [
   "est": [
    "level",
    "price",
-   "flex"
+   "flex",
+   "weights"
   ]
  },
  {
@@ -12078,7 +12242,8 @@ window.RACKETS = [
    "tension",
    "level",
    "price",
-   "flex"
+   "flex",
+   "weights"
   ]
  },
  {
@@ -12131,15 +12296,16 @@ window.RACKETS = [
   "est": [
    "level",
    "price",
-   "flex"
+   "flex",
+   "weights"
   ]
  },
  {
   "id": "li-ning-aeronaut-6000c",
   "brand": "Li-Ning",
   "name": "Aeronaut 6000C",
-  "year": "",
-  "yearSrc": "",
+  "year": 2020,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view.php?eid=8388",
   "style": "attack",
   "balance": "even",
   "bp": "",
@@ -12182,8 +12348,8 @@ window.RACKETS = [
   "id": "li-ning-aeronaut-7000",
   "brand": "Li-Ning",
   "name": "Aeronaut 7000",
-  "year": "",
-  "yearSrc": "",
+  "year": 2019,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_6903.html",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 306,
@@ -12607,8 +12773,8 @@ window.RACKETS = [
   "id": "li-ning-aeronaut-9000",
   "brand": "Li-Ning",
   "name": "Aeronaut 9000",
-  "year": "",
-  "yearSrc": "",
+  "year": 2019,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_7069.html",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 305,
@@ -12671,15 +12837,16 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "flex"
+   "flex",
+   "tension"
   ]
  },
  {
   "id": "li-ning-aeronaut-9000-combat",
   "brand": "Li-Ning",
   "name": "Aeronaut 9000 Combat",
-  "year": "",
-  "yearSrc": "",
+  "year": 2019,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_7070.html",
   "style": "attack",
   "balance": "even",
   "bp": 298,
@@ -12742,15 +12909,16 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "flex"
+   "flex",
+   "tension"
   ]
  },
  {
   "id": "li-ning-aeronaut-9000-drive",
   "brand": "Li-Ning",
   "name": "Aeronaut 9000 Drive",
-  "year": "",
-  "yearSrc": "",
+  "year": 2019,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view.php?eid=7071",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 314,
@@ -12797,15 +12965,16 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/aeronaut-9000-drive",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
   "id": "li-ning-aeronaut-9000-instinct",
   "brand": "Li-Ning",
   "name": "Aeronaut 9000 Instinct",
-  "year": "",
-  "yearSrc": "",
+  "year": 2021,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_specs_8621.html",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 327,
@@ -12910,6 +13079,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/air-force-80-g3",
   "note": "",
   "est": [
+   "balance",
    "flex",
    "style",
    "price"
@@ -12968,7 +13138,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "weight",
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -13021,7 +13192,8 @@ window.RACKETS = [
   "est": [
    "level",
    "price",
-   "flex"
+   "flex",
+   "weights"
   ]
  },
  {
@@ -13146,7 +13318,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "tension"
+  ]
  },
  {
   "id": "li-ning-axforce-100",
@@ -13223,7 +13397,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year",
+   "tension"
+  ]
  },
  {
   "id": "li-ning-axforce-100-ii",
@@ -13244,7 +13421,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 31, 4U ≤ 30 lbs",
   "price": 8480,
   "frame": "Ultra High-Elastic Carbon + Damping Matrix",
   "shaft": "",
@@ -13258,7 +13435,7 @@ window.RACKETS = [
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/li-ning-axforce-100-ii-300x300.png",
   "source": "https://chobbad.com/racket/lining-axforce-100-ii/",
-  "officialUrl": "",
+  "officialUrl": "https://www.liningtw.com/products/aypv039-3",
   "specSrc": "https://joybadminton.com/products/li-ning-axforce-100-ii-green-4ug5",
   "shopUrl": "",
   "bayUrl": "",
@@ -13277,8 +13454,66 @@ window.RACKETS = [
   "priceSrc": "https://joybadminton.com/products/li-ning-axforce-100-ii-green-4ug5",
   "note": "",
   "est": [
+   "year",
    "price"
-  ]
+  ],
+  "modelCode": "AYPV039",
+  "tensionByWeight": {
+   "3U": [
+    null,
+    31
+   ],
+   "4U": [
+    null,
+    30
+   ]
+  },
+  "tensionSrc": "https://www.liningtw.com/products/aypv039-3"
+ },
+ {
+  "id": "li-ning-axforce-100-ii-max",
+  "brand": "Li-Ning",
+  "name": "Axforce 100 II Max",
+  "year": 2026,
+  "yearSrc": "https://jp.shopnings.com/li-ning-axforce-100-ii-max-badminton-racket/",
+  "style": "attack",
+  "balance": "head-heavy",
+  "bp": "",
+  "flex": "stiff",
+  "level": "",
+  "levelTo": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   30
+  ],
+  "tensionNote": "",
+  "price": "",
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://order.funport.co.jp/view/item/000000001932?category_page_id=badminton_racket",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "รหัส AYPW047-4 สเปก 4U/G5 ตาม FUNPORT ตัวแทน Li-Ning ญี่ปุ่น",
+  "est": [],
+  "modelCode": "AYPW047-4"
  },
  {
   "id": "li-ning-axforce-100-max",
@@ -13328,6 +13563,7 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/axforce-100-max",
   "note": "",
   "est": [
+   "balance",
    "price",
    "weight"
   ]
@@ -13392,7 +13628,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "flex"
+   "flex",
+   "tension"
   ]
  },
  {
@@ -13450,7 +13687,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "tension"
+  ]
  },
  {
   "id": "li-ning-axforce-30-ex-light",
@@ -13565,15 +13804,16 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "flex"
+   "flex",
+   "tension"
   ]
  },
  {
   "id": "li-ning-axforce-50",
   "brand": "Li-Ning",
   "name": "Axforce 50",
-  "year": "",
-  "yearSrc": "",
+  "year": 2022,
+  "yearSrc": "https://www.badmintoncn.com/eqm.php?a=view&eid=12469",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 304,
@@ -13627,8 +13867,8 @@ window.RACKETS = [
   "id": "li-ning-axforce-60",
   "brand": "Li-Ning",
   "name": "Axforce 60",
-  "year": "",
-  "yearSrc": "",
+  "year": 2023,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_13271.html",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 302,
@@ -13683,15 +13923,16 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "flex"
+   "flex",
+   "tension"
   ]
  },
  {
   "id": "li-ning-axforce-70",
   "brand": "Li-Ning",
   "name": "Axforce 70",
-  "year": "",
-  "yearSrc": "",
+  "year": 2023,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_13272.html",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 302,
@@ -13738,7 +13979,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "flex"
+   "flex",
+   "tension"
   ]
  },
  {
@@ -13813,7 +14055,9 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "flex"
+   "year",
+   "flex",
+   "tension"
   ]
  },
  {
@@ -13868,7 +14112,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/axforce-80-cl",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -13876,21 +14121,21 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Axforce 80 II",
   "year": 2026,
-  "yearSrc": "",
+  "yearSrc": "https://www.racketshop.co.nz/products/li-ning-axforce-80-ii-badminton-racket",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
-  "flex": "",
+  "flex": "stiff",
   "level": "",
   "levelTo": "",
-  "weights": "4U",
+  "weights": "3U, 4U, 5U",
   "weight": 83,
-  "grips": "G6",
+  "grips": "G5, G6",
   "tension": [
    null,
-   30
+   29
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 31, 4U ≤ 30, 5U ≤ 29 lbs",
   "price": 6900,
   "frame": "M46 + T1100 + Ultra High-Elastic Carbon Fibre + Polymer Energy Storage & Shock Absorption Material",
   "shaft": "Ultra High-Elastic Carbon Fibre + High-Density Shock Absorption Material",
@@ -13899,13 +14144,13 @@ window.RACKETS = [
   "head": "",
   "pattern": "",
   "tech": "Head-Heavy Balance: Designed to generate powerful smashes and aggressive attacking shots.",
-  "players": "Launched in August 2026, the Li-Ning Axforce 80 Gen 2 is a new-generation attacking racquet endorsed by Olympic Champion Chen Long. It combines powerful performance with improved stability and control for modern attacking play.",
+  "players": "Chen Long",
   "madeIn": "",
   "recString": "",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/639246337549770000_3.jpg?v=1790333927",
   "source": "",
-  "officialUrl": "",
-  "specSrc": "https://yumo.ca/products/li-ning-axforce-80-ii-unstrung-badminton-racket-electric-purple",
+  "officialUrl": "https://www.liningtw.com/products/aypw049",
+  "specSrc": "https://www.vasports.ca/products/li-ning-axforce-80-ii-unstrung-badminton-racket",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -13921,12 +14166,32 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก CAD 289.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/li-ning-axforce-80-ii-unstrung-badminton-racket-electric-purple",
-  "note": "Axforce 80 II (ร้านบางแห่งเขียน \"Axforce 80 Gen 2\") ออกเดือน ส.ค. 2026 เป็นรุ่นต่อจาก Axforce 80 ของ Chen Long ตามคำบรรยายของ badmintonclick.com.au และ yumo.ca; หน้าทางการของ Li-Ning ยังไม่ลงรุ่นนี้ จึงยังไม่มีระดับ ความแข็งก้าน และราคาไทย (พบเมื่อ 15 พ.ย. 2026)",
+  "note": "Axforce 80 Gen 2 คือ Axforce 80 II รหัส AYPW049 ออกเดือน ส.ค. 2026 น้ำหนัก 83 กรัมเป็นของรุ่น 4U กริป 3U/G5, 4U/G5 หรือ G6, 5U/G6 ตาม Li-Ning Taiwan ส่วน VA SPORTS ระบุก้านกลางค่อนแข็ง (Medium Stiff) จัดเป็นก้านแข็งแบบประเมินในเว็บ",
   "est": [
-   "tension",
+   "flex",
    "style",
    "price"
-  ]
+  ],
+  "aliases": [
+   "Axforce 80 Gen 2",
+   "Axforce 80II"
+  ],
+  "modelCode": "AYPW049",
+  "tensionByWeight": {
+   "3U": [
+    null,
+    31
+   ],
+   "4U": [
+    null,
+    30
+   ],
+   "5U": [
+    null,
+    29
+   ]
+  },
+  "tensionSrc": "https://www.liningtw.com/products/aypw049"
  },
  {
   "id": "li-ning-axforce-80-jr",
@@ -13976,15 +14241,16 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "flex"
+   "flex",
+   "weights"
   ]
  },
  {
   "id": "li-ning-axforce-80-light",
   "brand": "Li-Ning",
   "name": "Axforce 80 Light",
-  "year": "",
-  "yearSrc": "",
+  "year": 2025,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_22261.html",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
@@ -13996,9 +14262,9 @@ window.RACKETS = [
   "grips": "",
   "tension": [
    null,
-   30
+   29
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 4U ≤ 30, 5U ≤ 29 lbs",
   "price": 7770,
   "frame": "Carbon Fibre",
   "shaft": "",
@@ -14028,7 +14294,18 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price"
-  ]
+  ],
+  "tensionByWeight": {
+   "4U": [
+    null,
+    30
+   ],
+   "5U": [
+    null,
+    29
+   ]
+  },
+  "tensionSrc": "https://order.funport.co.jp/view/item/000000001834?category_page_id=all_items"
  },
  {
   "id": "li-ning-axforce-9",
@@ -14149,7 +14426,9 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "flex"
+   "year",
+   "flex",
+   "tension"
   ]
  },
  {
@@ -14212,7 +14491,9 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "flex"
+   "year",
+   "flex",
+   "tension"
   ]
  },
  {
@@ -14278,14 +14559,14 @@ window.RACKETS = [
   "flex": "medium",
   "level": "pro",
   "levelTo": "",
-  "weights": "3U, 4U",
+  "weights": "3U, 4U, 5U",
   "weight": 84,
   "grips": "G4, G5",
   "tension": [
    null,
-   31
+   29
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 31, 4U ≤ 30, 5U ≤ 29 lbs",
   "price": 9160,
   "frame": "Carbon Fibre (Box Wing Frame)",
   "shaft": "",
@@ -14299,7 +14580,7 @@ window.RACKETS = [
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/li-ning-axforce-90-new-300x300.jpg",
   "source": "https://chobbad.com/racket/lining-axforce-90-new/",
-  "officialUrl": "",
+  "officialUrl": "https://www.liningtw.com/products/aypv001",
   "specSrc": "https://joybadminton.com/products/li-ning-axforce-90-new-black",
   "shopUrl": "",
   "bayUrl": "",
@@ -14309,9 +14590,26 @@ window.RACKETS = [
   "priceSrc": "https://joybadminton.com/products/li-ning-axforce-90-new-black",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
+   "year",
    "price",
    "flex"
-  ]
+  ],
+  "modelCode": "AYPV001",
+  "tensionByWeight": {
+   "3U": [
+    null,
+    31
+   ],
+   "4U": [
+    null,
+    30
+   ],
+   "5U": [
+    null,
+    29
+   ]
+  },
+  "tensionSrc": "https://www.liningtw.com/products/aypv001"
  },
  {
   "id": "li-ning-axforce-90-tiger-max",
@@ -14381,7 +14679,9 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "flex"
+   "year",
+   "flex",
+   "tension"
   ]
  },
  {
@@ -14444,7 +14744,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "flex"
+   "flex",
+   "tension"
   ]
  },
  {
@@ -14504,7 +14805,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "weight"
+   "weight",
+   "tension"
   ]
  },
  {
@@ -14575,7 +14877,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "flex"
+   "flex",
+   "tension"
   ]
  },
  {
@@ -14693,7 +14996,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "flex"
+   "flex",
+   "tension"
   ]
  },
  {
@@ -14804,6 +15108,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "weight"
   ]
  },
@@ -14855,7 +15160,9 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/axforce-warrior",
   "note": "",
   "est": [
-   "price"
+   "year",
+   "price",
+   "tension"
   ]
  },
  {
@@ -14906,7 +15213,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/bladex-100-4u",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "tension"
   ]
  },
  {
@@ -14964,7 +15272,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "tension"
+  ]
  },
  {
   "id": "li-ning-bladex-500",
@@ -15026,7 +15336,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "weight"
+   "weight",
+   "tension"
   ]
  },
  {
@@ -15080,7 +15391,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year",
+   "tension"
+  ]
  },
  {
   "id": "li-ning-bladex-700",
@@ -15141,7 +15455,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "tension"
+  ]
  },
  {
   "id": "li-ning-bladex-73-light",
@@ -15160,7 +15476,7 @@ window.RACKETS = [
   "grips": "G6",
   "tension": [
    null,
-   31
+   26
   ],
   "tensionNote": "",
   "price": 4666,
@@ -15189,12 +15505,12 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "ป้ายหัวเบา แต่ yumo.ca วัดได้ 302 mm (เรียกหัวหนัก) แหล่งขัดกัน ยังไม่มีค่าจากผู้ผลิต (ตรวจ 11 พ.ย. 2026) Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
+  "note": "FUNPORT ระบุรุ่น 6U หัวเบาและเพดาน 26 lbs ค่า 302 mm เป็นผลวัดของร้าน Yumo Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "tension",
    "flex",
    "weight"
-  ]
+  ],
+  "tensionSrc": "https://order.funport.co.jp/view/item/000000001038?category_page_id=badminton_racket_lining"
  },
  {
   "id": "li-ning-bladex-800",
@@ -15215,7 +15531,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 31, 4U ≤ 30 lbs",
   "price": 7190,
   "frame": "Carbon Fibre",
   "shaft": "Military Grade Carbon Fiber",
@@ -15263,7 +15579,20 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    31
+   ],
+   "4U": [
+    null,
+    30
+   ]
+  },
+  "tensionSrc": "https://order.funport.co.jp/view/item/000000001039"
  },
  {
   "id": "li-ning-bladex-800-power",
@@ -15451,7 +15780,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/bladex-880-shida",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "tension"
   ]
  },
  {
@@ -15513,7 +15843,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year",
+   "tension"
+  ]
  },
  {
   "id": "li-ning-bladex-900-moon-max",
@@ -15574,7 +15907,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "li-ning-bladex-900-sun-max",
@@ -15629,6 +15964,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "tension",
+   "year",
    "price"
   ]
  },
@@ -15684,7 +16020,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "flex"
+   "flex",
+   "tension"
   ]
  },
  {
@@ -15738,7 +16075,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "tension"
+  ]
  },
  {
   "id": "li-ning-bladex-spiral",
@@ -15796,7 +16135,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "flex"
+   "flex",
+   "tension"
   ]
  },
  {
@@ -15855,7 +16195,8 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-bladex-200r-badminton-racket",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "tension"
   ]
  },
  {
@@ -15892,7 +16233,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/01_5f24937200.jpg?v=1752148073",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://sg.lining.studio/products/bladex-73",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -15912,7 +16253,7 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹8,162.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://thegodofsports.com/products/li-ning-bladex-73-badminton-racket",
-  "note": "ป้ายหัวเบา แต่ yumo.ca วัด BladeX 73 Light ได้ 302 mm (เรียกหัวหนัก) แหล่งขัดกัน ยังไม่มีค่าจากผู้ผลิต (ตรวจ 11 พ.ย. 2026)",
+  "note": "Li-Ning Singapore ระบุหัวเบา จุดสมดุล 302 mm และรหัสสินค้า AYPS059 เช่นเดียวกับใบที่ใช้ชื่อ BladeX 73 Light",
   "est": [
    "price"
   ]
@@ -15965,7 +16306,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/blaze-100-84-grams",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -16020,7 +16362,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/challenger-15-boost",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -16076,7 +16419,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "weight",
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -16131,7 +16475,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-extra-strong-9000",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -16189,7 +16534,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "tension"
+  ]
  },
  {
   "id": "li-ning-g-force-3900-superlite",
@@ -16246,7 +16593,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "tension"
+  ]
  },
  {
   "id": "li-ning-g-force-3900-superlite-ii",
@@ -16314,7 +16663,7 @@ window.RACKETS = [
   "grips": "",
   "tension": [
    null,
-   32
+   30
   ],
   "tensionNote": "",
   "price": 750,
@@ -16347,11 +16696,13 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹2,090.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/g-force-superlite-78-grams",
-  "note": "",
+  "note": "Li-Ning India ระบุ 30 lbs แต่ข้อมูลเดิมจาก Li-Ning Singapore ให้ 32 lbs ใช้ 30 lbs แบบประเมินจนกว่าจะยืนยันรหัสย่อย",
   "est": [
    "tension",
-   "price"
-  ]
+   "price",
+   "weights"
+  ],
+  "tensionSrc": "https://in.lining.studio/products/g-force-superlite-78-grams/"
  },
  {
   "id": "li-ning-g-force-3600-superlite",
@@ -16360,7 +16711,7 @@ window.RACKETS = [
   "year": "",
   "yearSrc": "",
   "style": "allround",
-  "balance": "head-heavy",
+  "balance": "even",
   "bp": 295,
   "flex": "flexible",
   "level": "",
@@ -16409,6 +16760,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-gforce-3600-superlite-badminton-racket-dark-grey-gold",
   "note": "",
   "est": [
+   "balance",
    "tension",
    "price"
   ]
@@ -16420,7 +16772,7 @@ window.RACKETS = [
   "year": "",
   "yearSrc": "",
   "style": "allround",
-  "balance": "head-heavy",
+  "balance": "even",
   "bp": 295,
   "flex": "flexible",
   "level": "",
@@ -16469,6 +16821,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-gforce-3700-superlite-badminton-racket-black-amber",
   "note": "",
   "est": [
+   "balance",
    "tension",
    "price"
   ]
@@ -16573,7 +16926,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-5800-superlite",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -16624,7 +16978,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-5900-superlite",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -16954,7 +17309,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-extra-strong-9500",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -17009,7 +17365,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-lite",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -17060,7 +17417,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/g-force-superlite-ma-10",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -17120,7 +17478,9 @@ window.RACKETS = [
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
    "price",
-   "flex"
+   "flex",
+   "weights",
+   "tension"
   ]
  },
  {
@@ -17176,7 +17536,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "weight",
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -17231,7 +17592,8 @@ window.RACKETS = [
   "priceSrc": "https://sg.lining.studio/products/g-tek-gx",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -17286,7 +17648,8 @@ window.RACKETS = [
   "priceSrc": "https://sg.lining.studio/products/g-tek-ii",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -17350,7 +17713,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "weight"
+   "weight",
+   "tension"
   ]
  },
  {
@@ -17396,7 +17760,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "year"
   ]
  },
  {
@@ -17454,7 +17819,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "Li-Ning จัด 302 mm เป็นสมดุล (Even) เอง ป้ายสมดุลจึงมาจากผู้ผลิตและตัวเลข mm จากหน้าเดียวกัน เส้นแบ่งของแบรนด์นี้ต่างจากแบรนด์อื่น (ตรวจ 11 พ.ย. 2026)",
-  "est": []
+  "est": [
+   "year",
+   "tension"
+  ]
  },
  {
   "id": "li-ning-halbertec-4000",
@@ -17507,7 +17875,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "Li-Ning จัด 302 mm เป็นสมดุล (Even) เอง ป้ายสมดุลจึงมาจากผู้ผลิตและตัวเลข mm จากหน้าเดียวกัน เส้นแบ่งของแบรนด์นี้ต่างจากแบรนด์อื่น (ตรวจ 11 พ.ย. 2026)",
-  "est": []
+  "est": [
+   "year",
+   "tension"
+  ]
  },
  {
   "id": "li-ning-halbertec-5000",
@@ -17560,7 +17931,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year",
+   "tension"
+  ]
  },
  {
   "id": "li-ning-halbertec-6000",
@@ -17625,7 +17999,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year",
+   "tension"
+  ]
  },
  {
   "id": "li-ning-halbertec-7000",
@@ -17690,7 +18067,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ป้ายสมดุล (Even) จาก Li-Ning เอง; yumo.ca วัดได้ 301 mm และเรียกหัวหนัก เส้นแบ่งของแต่ละร้านต่างกัน (ตรวจ 11 พ.ย. 2026)",
-  "est": []
+  "est": [
+   "year",
+   "tension"
+  ]
  },
  {
   "id": "li-ning-halbertec-7000-ii",
@@ -17704,14 +18084,14 @@ window.RACKETS = [
   "flex": "medium",
   "level": "pro",
   "levelTo": "",
-  "weights": "3U, 4U",
+  "weights": "3U, 4U, 5U",
   "weight": 84,
   "grips": "G4, G5, G6",
   "tension": [
    null,
-   30
+   29
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 31, 4U ≤ 30, 5U ≤ 29 lbs",
   "price": 7370,
   "frame": "Carbon Fibre (M46X + ULTRA)",
   "shaft": "ULTRA High-Elastic Carbon + High-Density Shock Absorption",
@@ -17726,7 +18106,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/li-ning-halbertec-7000-ii-300x300.jpg",
   "source": "https://chobbad.com/racket/lining-halbertec-7000-ii/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://yumo.ca/collections/li-ning-clearance/products/li-ning-halbertec-7000-ii-unstrung-badminton-racket",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -17738,10 +18118,27 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก CAD 309.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/li-ning-halbertec-7000-ii-unstrung-badminton-racket",
-  "note": "",
+  "note": "รหัส AYPW015 แคตตาล็อก Li-Ning ระบุ 4U และ 5U ส่วนหน้า Yumo รหัส AYPW015-3 ระบุเพดาน 3U และ 4U",
   "est": [
+   "year",
    "price"
-  ]
+  ],
+  "modelCode": "AYPW015",
+  "tensionByWeight": {
+   "3U": [
+    null,
+    31
+   ],
+   "4U": [
+    null,
+    30
+   ],
+   "5U": [
+    null,
+    29
+   ]
+  },
+  "tensionSrc": "https://www.shopnings.com/pub/media/descriptions/2026ssbadmintongear.pdf"
  },
  {
   "id": "li-ning-halbertec-8000",
@@ -17810,7 +18207,54 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "Li-Ning จัด 302 mm เป็นสมดุล (Even) เอง ป้ายสมดุลจึงมาจากผู้ผลิตและตัวเลข mm จากหน้าเดียวกัน เส้นแบ่งของแบรนด์นี้ต่างจากแบรนด์อื่น (ตรวจ 11 พ.ย. 2026)",
-  "est": []
+  "est": [
+   "year",
+   "tension"
+  ]
+ },
+ {
+  "id": "li-ning-halbertec-900",
+  "brand": "Li-Ning",
+  "name": "Halbertec 900",
+  "year": 2025,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view.php?eid=22737",
+  "style": "control",
+  "balance": "even",
+  "bp": "",
+  "flex": "",
+  "level": "",
+  "levelTo": "",
+  "weights": "",
+  "weight": "",
+  "grips": "",
+  "tension": null,
+  "tensionNote": "",
+  "price": "",
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.badmintoncn.com/cbo_eq/view.php?eid=22737",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "รหัสรุ่น AYPV027",
+  "est": [
+   "balance",
+   "style"
+  ]
  },
  {
   "id": "li-ning-halbertec-9000",
@@ -17879,14 +18323,17 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year",
+   "tension"
+  ]
  },
  {
   "id": "li-ning-halbertec-9000-power",
   "brand": "Li-Ning",
   "name": "Halbertec 9000 Power",
-  "year": "",
-  "yearSrc": "",
+  "year": 2025,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_specs_24653.html",
   "style": "attack",
   "balance": "even",
   "bp": "",
@@ -17900,7 +18347,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 31, 4U ≤ 30 lbs",
   "price": 9371,
   "frame": "Carbon Fibre",
   "shaft": "Ultra High Modulus Carbon Fiber + High-density Dampening Material + Polyimide Fiber",
@@ -17914,7 +18361,7 @@ window.RACKETS = [
   "recString": "BG (คุม), BG Exbolt 65 (พลัง)",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-lining-halbertec-9000-power-169x300.webp",
   "source": "https://chobbad.com/racket/lining-halbertec-9000-power/",
-  "officialUrl": "",
+  "officialUrl": "https://www.liningtw.com/products/aypw001",
   "specSrc": "",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5098",
   "bayUrl": "",
@@ -17948,7 +18395,19 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "AYPW001",
+  "tensionByWeight": {
+   "3U": [
+    null,
+    31
+   ],
+   "4U": [
+    null,
+    30
+   ]
+  },
+  "tensionSrc": "https://www.liningtw.com/products/aypw001"
  },
  {
   "id": "li-ning-halbertec-mage",
@@ -18003,8 +18462,10 @@ window.RACKETS = [
   "note": "",
   "est": [
    "level",
+   "year",
    "price",
-   "weight"
+   "weight",
+   "tension"
   ]
  },
  {
@@ -18070,7 +18531,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year",
+   "tension"
+  ]
  },
  {
   "id": "li-ning-halbertec-motor-pro",
@@ -18128,7 +18592,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
-   "flex"
+   "flex",
+   "tension"
   ]
  },
  {
@@ -18246,7 +18711,8 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-ignite-8-badminton-racket-cool-gray-bull-red",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "tension"
   ]
  },
  {
@@ -18303,7 +18769,9 @@ window.RACKETS = [
   "est": [
    "weight",
    "price",
-   "level"
+   "level",
+   "weights",
+   "tension"
   ]
  },
  {
@@ -18358,7 +18826,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/n-9-ii",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -18415,7 +18884,8 @@ window.RACKETS = [
   "est": [
    "level",
    "price",
-   "flex"
+   "flex",
+   "weights"
   ]
  },
  {
@@ -18470,7 +18940,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/n99-gold-medal",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -18480,7 +18951,7 @@ window.RACKETS = [
   "year": "",
   "yearSrc": "",
   "style": "attack",
-  "balance": "head-heavy",
+  "balance": "even",
   "bp": 292,
   "flex": "medium",
   "level": "",
@@ -18532,7 +19003,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "tension"
+  ]
  },
  {
   "id": "li-ning-smash-xp-pro",
@@ -18637,6 +19110,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-super-series-99-plus-badminton-racket",
   "note": "",
   "est": [
+   "balance",
    "flex",
    "tension",
    "style",
@@ -18696,7 +19170,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/super-series-gold-medal",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -18755,7 +19230,9 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/super-series-ss-900",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights",
+   "tension"
   ]
  },
  {
@@ -18819,7 +19296,8 @@ window.RACKETS = [
   "note": "Li-Ning ระบุก้านว่า Flexible ตามสเกลของ Li-Ning ซึ่งอ่อนกว่ายี่ห้ออื่น เทียบกับ Yonex/Victor ราวก้านกลาง",
   "est": [
    "price",
-   "flex"
+   "flex",
+   "tension"
   ]
  },
  {
@@ -18937,7 +19415,9 @@ window.RACKETS = [
   "priceSrc": "https://sg.lining.studio/products/tectonic-3r-4u",
   "note": "",
   "est": [
-   "price"
+   "year",
+   "price",
+   "tension"
   ]
  },
  {
@@ -19005,8 +19485,8 @@ window.RACKETS = [
   "id": "li-ning-tectonic-7",
   "brand": "Li-Ning",
   "name": "Tectonic 7",
-  "year": "",
-  "yearSrc": "",
+  "year": 2019,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_7548.html",
   "style": "allround",
   "balance": "even",
   "bp": 295,
@@ -19065,8 +19545,8 @@ window.RACKETS = [
   "id": "li-ning-tectonic-7-combat",
   "brand": "Li-Ning",
   "name": "Tectonic 7 Combat",
-  "year": "",
-  "yearSrc": "",
+  "year": 2020,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_8291.html",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 305,
@@ -19119,15 +19599,16 @@ window.RACKETS = [
   "est": [
    "level",
    "price",
-   "flex"
+   "flex",
+   "weights"
   ]
  },
  {
   "id": "li-ning-tectonic-7-drive",
   "brand": "Li-Ning",
   "name": "Tectonic 7 Drive",
-  "year": "",
-  "yearSrc": "",
+  "year": 2019,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_7549.html",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 304,
@@ -19178,15 +19659,16 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-tectonic-7d-badminton-racket",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
   "id": "li-ning-tectonic-7-instinct",
   "brand": "Li-Ning",
   "name": "Tectonic 7 Instinct",
-  "year": "",
-  "yearSrc": "",
+  "year": 2020,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_8290.html",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 312,
@@ -19233,15 +19715,16 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/tectonic-7-instinct",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
   "id": "li-ning-tectonic-9",
   "brand": "Li-Ning",
   "name": "Tectonic 9",
-  "year": "",
-  "yearSrc": "",
+  "year": 2021,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_specs_9216.html",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 305,
@@ -19314,7 +19797,7 @@ window.RACKETS = [
    null,
    25
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 4U ≤ 25, 5U ≤ 25 lbs",
   "price": 1800,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -19329,7 +19812,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0628/0105/1750/files/Template_01_500cce8f8f.jpg?v=1752146994",
   "source": "",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://www.shopnings.com/pub/media/descriptions/liningbadmintoncatalog2022FW.pdf",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -19345,10 +19828,21 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก ₹4,990.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/tectonic-3-4",
-  "note": "",
+  "note": "ชื่อรุ่น Tectonic 3 แคตตาล็อก Li-Ning ระบุ 4U ≤ 26 / 5U ≤ 25 lbs ส่วน Li-Ning India ระบุ 4U ≤ 25 lbs ใช้ 25 lbs สำหรับ 4U เมื่อไม่ทราบตลาดของไม้",
   "est": [
    "price"
-  ]
+  ],
+  "tensionByWeight": {
+   "4U": [
+    null,
+    25
+   ],
+   "5U": [
+    null,
+    25
+   ]
+  },
+  "tensionSrc": "https://in.lining.studio/products/tectonic-3-4"
  },
  {
   "id": "li-ning-turbo-99",
@@ -19406,7 +19900,9 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-99",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights",
+   "tension"
   ]
  },
  {
@@ -19461,7 +19957,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-08",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -19516,7 +20013,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-08-combat",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -19571,7 +20069,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-08-drive",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -19626,7 +20125,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-10",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -19681,7 +20181,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-20",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -19736,7 +20237,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-20-combat",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -19791,7 +20293,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-20-drive",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -19846,7 +20349,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-20-instinct",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -19901,7 +20405,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-40",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -19956,7 +20461,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-50",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -20011,7 +20517,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-50-combat",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -20066,7 +20573,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-50-drive",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -20242,7 +20750,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-70-combat",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -20412,7 +20921,8 @@ window.RACKETS = [
   "priceSrc": "https://sg.lining.studio/products/turbo-charging-75-combat",
   "note": "ความตึงสูงสุด ≤32 lbs จากหน้า Li-Ning SG (maximum racket tension <=32 Pounds); ตัวดึงหน้าเว็บเก่าทิ้งค่านี้เพราะเครื่องหมาย \"<\" ถูกอ่านเป็นแท็ก",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -20587,7 +21097,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-75-instinct",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -20706,7 +21217,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "price",
-   "weight"
+   "weight",
+   "tension"
   ]
  },
  {
@@ -20761,7 +21273,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-88-grams",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -20816,7 +21329,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-z-boost",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -20871,7 +21385,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-z-combat",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -20926,7 +21441,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-charging-z-driveaypr190-4",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -20981,7 +21497,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/turbo-x-iii",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -21032,7 +21549,8 @@ window.RACKETS = [
   "priceSrc": "https://sg.lining.studio/products/turbo-x-ii",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -21087,7 +21605,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/wind-lite-700",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -21142,7 +21661,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/wind-lite-700-ii",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -21198,7 +21718,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -21253,7 +21774,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/wind-lite-800-ii",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -21308,7 +21830,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/wind-lite-900",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -21363,7 +21886,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/wind-lite-900-ii",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -21419,7 +21943,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "weight",
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -21535,7 +22060,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/windstorm-700-iv",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -21594,8 +22120,8 @@ window.RACKETS = [
   "id": "li-ning-windstorm-72",
   "brand": "Li-Ning",
   "name": "Windstorm 72",
-  "year": "",
-  "yearSrc": "",
+  "year": 2017,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_6657.html",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 315,
@@ -21661,8 +22187,8 @@ window.RACKETS = [
   "id": "li-ning-windstorm-72-power",
   "brand": "Li-Ning",
   "name": "Windstorm 72 Power",
-  "year": "",
-  "yearSrc": "",
+  "year": 2024,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_19553.html",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 315,
@@ -21724,8 +22250,8 @@ window.RACKETS = [
   "id": "li-ning-windstorm-72-speed",
   "brand": "Li-Ning",
   "name": "Windstorm 72 Speed",
-  "year": "",
-  "yearSrc": "",
+  "year": 2024,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_19553.html",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 315,
@@ -21787,8 +22313,8 @@ window.RACKETS = [
   "id": "li-ning-windstorm-72s",
   "brand": "Li-Ning",
   "name": "Windstorm 72S",
-  "year": "",
-  "yearSrc": "",
+  "year": 2021,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_9077.html",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 315,
@@ -21855,8 +22381,8 @@ window.RACKETS = [
   "id": "li-ning-windstorm-74",
   "brand": "Li-Ning",
   "name": "Windstorm 74",
-  "year": "",
-  "yearSrc": "",
+  "year": 2019,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_specs_7709.html",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 310,
@@ -21966,7 +22492,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/windstorm-75",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -22022,7 +22549,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "flex",
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -22081,7 +22609,8 @@ window.RACKETS = [
   "priceSrc": "https://yumo.ca/products/li-ning-windstorm-78sl-iv-badminton-racket",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -22140,7 +22669,8 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-windstorm-78-white-badminton-racket",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -22319,7 +22849,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/windstorm-lite",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -22378,7 +22909,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/windstorm-nano-73",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -22492,7 +23024,8 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/windstorm-nano-lite",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -22547,7 +23080,8 @@ window.RACKETS = [
   "priceSrc": "https://sg.lining.studio/products/xp-900",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -22602,7 +23136,8 @@ window.RACKETS = [
   "priceSrc": "https://sg.lining.studio/products/xp-iv",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -22661,7 +23196,8 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/li-ning-xi-phos-x1-badminton-racket-silver",
   "note": "",
   "est": [
-   "price"
+   "price",
+   "weights"
   ]
  },
  {
@@ -22810,6 +23346,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price",
    "weight"
   ]
@@ -23061,7 +23598,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "mizuno-acroforce-600",
@@ -23110,7 +23649,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "mizuno-acrospeed-1-accel",
@@ -23160,6 +23701,7 @@ window.RACKETS = [
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB402/",
   "note": "",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -23212,6 +23754,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "level",
+   "year",
    "price"
   ]
  },
@@ -23263,6 +23806,7 @@ window.RACKETS = [
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB401/",
   "note": "",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -23313,7 +23857,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "mizuno-acrospeed-3",
@@ -23358,6 +23904,7 @@ window.RACKETS = [
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB403/",
   "note": "",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -23404,6 +23951,7 @@ window.RACKETS = [
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB406/",
   "note": "",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -23450,6 +23998,7 @@ window.RACKETS = [
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB407/",
   "note": "",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -23496,6 +24045,7 @@ window.RACKETS = [
   "priceSrc": "https://jpn.mizuno.com/ec/disp/attgrp/73JTB408/",
   "note": "",
   "est": [
+   "year",
    "price"
   ]
  },
@@ -26104,7 +26654,7 @@ window.RACKETS = [
   "year": "",
   "yearSrc": "",
   "style": "control",
-  "balance": "head-heavy",
+  "balance": "even",
   "bp": 295,
   "flex": "medium",
   "level": "",
@@ -26148,7 +26698,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "balance"
+  ]
  },
  {
   "id": "vs-assassin-47",
@@ -26157,7 +26709,7 @@ window.RACKETS = [
   "year": "",
   "yearSrc": "",
   "style": "speed",
-  "balance": "head-heavy",
+  "balance": "even",
   "bp": 295,
   "flex": "medium",
   "level": "",
@@ -26508,7 +27060,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "tension"
+  ]
  },
  {
   "id": "vs-blade-9000",
@@ -26664,6 +27218,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "balance",
    "style"
   ]
  },
@@ -26926,7 +27481,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "tension"
+  ]
  },
  {
   "id": "vs-dragon-subduing-ii",
@@ -27201,8 +27758,8 @@ window.RACKETS = [
   "name": "Flora",
   "year": "",
   "yearSrc": "",
-  "style": "attack",
-  "balance": "head-heavy",
+  "style": "allround",
+  "balance": "even",
   "bp": 295,
   "flex": "flexible",
   "level": "",
@@ -27723,7 +28280,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "tension"
+  ]
  },
  {
   "id": "vs-high-carbon-890",
@@ -27887,7 +28446,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "tension"
   ]
  },
  {
@@ -28105,7 +28665,7 @@ window.RACKETS = [
   "year": "",
   "yearSrc": "",
   "style": "control",
-  "balance": "head-heavy",
+  "balance": "even",
   "bp": 298,
   "flex": "medium",
   "level": "",
@@ -28521,7 +29081,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "tension"
   ]
  },
  {
@@ -29246,6 +29807,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "balance",
    "flex",
    "weight",
    "tension",
@@ -29303,7 +29865,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "balance"
+  ]
  },
  {
   "id": "vs-thor80",
@@ -29357,8 +29921,8 @@ window.RACKETS = [
   "name": "Titan 10",
   "year": "",
   "yearSrc": "",
-  "style": "allround",
-  "balance": "even",
+  "style": "speed",
+  "balance": "head-light",
   "bp": 290,
   "flex": "",
   "level": "",
@@ -29399,6 +29963,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "balance",
    "style",
    "weight"
   ]
@@ -29505,7 +30070,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "tension"
+  ]
  },
  {
   "id": "vs-titan-7",
@@ -29662,8 +30229,8 @@ window.RACKETS = [
   "name": "Turbo 300",
   "year": "",
   "yearSrc": "",
-  "style": "attack",
-  "balance": "head-heavy",
+  "style": "allround",
+  "balance": "even",
   "bp": 295,
   "flex": "medium",
   "level": "",
@@ -29922,7 +30489,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "weights"
   ]
  },
  {
@@ -29932,7 +30500,7 @@ window.RACKETS = [
   "year": "",
   "yearSrc": "",
   "style": "speed",
-  "balance": "head-heavy",
+  "balance": "even",
   "bp": 295,
   "flex": "medium",
   "level": "",
@@ -30079,7 +30647,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "tension"
   ]
  },
  {
@@ -30411,9 +30980,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   24
+   23
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 24, 4U ≤ 23 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 23, ≤ 24 lbs",
   "price": 1130,
   "frame": "Graphite+Resin",
   "shaft": "Graphite+Resin+6.8 SHAFT",
@@ -30451,14 +31020,15 @@ window.RACKETS = [
    "price",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-auraspeed-100x",
   "brand": "Victor",
   "name": "Auraspeed 100X",
-  "year": "",
-  "yearSrc": "",
+  "year": 2020,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_8502.html?from=bbshot",
   "style": "speed",
   "balance": "head-light",
   "bp": 298,
@@ -30529,7 +31099,56 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "tension"
+  ]
+ },
+ {
+  "id": "victor-auraspeed-100x-se",
+  "brand": "Victor",
+  "name": "Auraspeed 100X SE",
+  "year": 2021,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_10693.html",
+  "style": "speed",
+  "balance": "head-light",
+  "bp": "",
+  "flex": "stiff",
+  "level": "",
+  "levelTo": "",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   28
+  ],
+  "tensionNote": "3U ≤ 29 lbs (Victor Australia), 4U ≤ 28 lbs (BadmintonCN)",
+  "price": "",
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "https://shop.au.victorsport.com/products/auraspeed-100x-se-h",
+  "specSrc": "https://www.badmintoncn.com/eqm.php?a=view&eid=10693&mag_hide_progress=1",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "รหัสรุ่น ARS-100X SE รุ่นลายเซ็น Mohammad Ahsan ขนาดกริป G5 อ้างอิงรุ่น 4U",
+  "est": [
+   "balance",
+   "style",
+   "weight"
   ]
  },
  {
@@ -30551,7 +31170,7 @@ window.RACKETS = [
    null,
    27
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 28, 4U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 27, ≤ 28 lbs",
   "price": 2990,
   "frame": "High ResilienceModulus Graphite+Nano Fortify TR＋",
   "shaft": "High ResilienceModulus Graphite+PYROFIL+6.8 SHAFT",
@@ -30588,8 +31207,10 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "level"
-  ]
+   "level",
+   "year"
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-auraspeed-100x-ultra",
@@ -30610,7 +31231,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 31, 4U ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 30, ≤ 31 lbs",
   "price": 5990,
   "frame": "High Resilience Modulus Graphite+Nano Fortify TR＋+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+Metallic Carbon Fiber+PYROFIL+5.8 SHAFT",
@@ -30670,7 +31291,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-auraspeed-1120al",
@@ -30774,6 +31398,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
+   "year",
    "level"
   ]
  },
@@ -30826,6 +31451,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
+   "year",
    "level"
   ]
  },
@@ -30881,6 +31507,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level",
    "weight"
   ]
@@ -30904,7 +31531,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 31, ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 30, ≤ 31 lbs",
   "price": 2190,
   "frame": "Graphite + Nano Resin + Fiber Reinforced System",
   "shaft": "High Resilience Graphite + Nano Resin + 6.6 SHAFT",
@@ -30933,16 +31560,18 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-auraspeed-30h",
   "brand": "Victor",
   "name": "Auraspeed 30H",
-  "year": "",
-  "yearSrc": "",
+  "year": 2019,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_7721.html",
   "style": "speed",
   "balance": "even",
   "bp": "",
@@ -30954,9 +31583,9 @@ window.RACKETS = [
   "grips": "G6",
   "tension": [
    null,
-   32
+   31
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 32, 4U ≤ 31 lbs",
   "price": 1420,
   "frame": "Graphite+Nano Resin+ Fiber Reinforced System(FRS)",
   "shaft": "Graphite+ Nano Resin +6.8 SHAFT",
@@ -30999,7 +31628,17 @@ window.RACKETS = [
   "est": [
    "style",
    "price"
-  ]
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    32
+   ],
+   "4U": [
+    null,
+    31
+   ]
+  }
  },
  {
   "id": "victor-auraspeed-3100",
@@ -31073,7 +31712,7 @@ window.RACKETS = [
    null,
    25
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 27, ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 25, 4U ≤ 25 lbs",
   "price": 1380,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.0 SHAFT",
@@ -31105,7 +31744,19 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    25
+   ],
+   "4U": [
+    null,
+    25
+   ]
+  }
  },
  {
   "id": "victor-auraspeed-3210",
@@ -31156,6 +31807,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
+   "year",
    "level"
   ]
  },
@@ -31178,7 +31830,7 @@ window.RACKETS = [
    null,
    31
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 32, ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 32, 4U ≤ 31 lbs",
   "price": 2690,
   "frame": "High Resilience Graphite + HARD CORED TECHNOLOGY + Nano Resin + Fiber Reinforced System",
   "shaft": "High Resilience Graphite + Nano Resin + 6.8 SHAFT",
@@ -31219,8 +31871,19 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "level"
-  ]
+   "level",
+   "year"
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    32
+   ],
+   "4U": [
+    null,
+    31
+   ]
+  }
  },
  {
   "id": "victor-auraspeed-50",
@@ -31239,9 +31902,9 @@ window.RACKETS = [
   "grips": "G4, G5",
   "tension": [
    null,
-   28
+   27
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 28, 4U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 27, ≤ 28 lbs",
   "price": "",
   "frame": "High Modulus Graphite+ Nano Resin+ HARD CORED TECHNOLOGY",
   "shaft": "High Modulus Graphite+ Nano Resin +6.8 SHAFT",
@@ -31274,7 +31937,8 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-auraspeed-58",
@@ -31293,9 +31957,9 @@ window.RACKETS = [
   "grips": "G4, G5",
   "tension": [
    null,
-   28
+   27
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 28, ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 28, 4U ≤ 27 lbs",
   "price": 3800,
   "frame": "Graphite+Nano Resin+HARD CORED TECHNOLOGY",
   "shaft": "Graphite+Nano Resin+6.8 SHAFT",
@@ -31324,8 +31988,19 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level"
-  ]
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    28
+   ],
+   "4U": [
+    null,
+    27
+   ]
+  }
  },
  {
   "id": "victor-auraspeed-6000",
@@ -31344,9 +32019,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   30
+   29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 5U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 4U ≤ 30, 5U ≤ 29 lbs",
   "price": 1390,
   "frame": "Graphite +Resin",
   "shaft": "Graphite +Resin +7.0 SHAFT",
@@ -31374,7 +32049,19 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "4U": [
+    null,
+    30
+   ],
+   "5U": [
+    null,
+    29
+   ]
+  }
  },
  {
   "id": "victor-auraspeed-7000",
@@ -31393,9 +32080,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   30
+   29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 5U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 4U ≤ 30, 5U ≤ 29 lbs",
   "price": 1390,
   "frame": "Graphite +Resin",
   "shaft": "Graphite +Resin +7.0 SHAFT",
@@ -31423,7 +32110,19 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "4U": [
+    null,
+    30
+   ],
+   "5U": [
+    null,
+    29
+   ]
+  }
  },
  {
   "id": "victor-auraspeed-70f",
@@ -31442,9 +32141,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   30
+   29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 30, 4U ≤ 29 lbs",
   "price": 4190,
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + 6.8 SHAFT",
@@ -31479,14 +32178,24 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    30
+   ],
+   "4U": [
+    null,
+    29
+   ]
+  }
  },
  {
   "id": "victor-auraspeed-70k",
   "brand": "Victor",
   "name": "Auraspeed 70K",
-  "year": "",
-  "yearSrc": "",
+  "year": 2018,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_6925.html",
   "style": "speed",
   "balance": "even",
   "bp": "",
@@ -31579,7 +32288,6 @@ window.RACKETS = [
   "priceSrc": "https://yumo.ca/products/victor-auraspeed-77f-unstrung-badminton-racket",
   "note": "",
   "est": [
-   "balance",
    "style",
    "price",
    "weight"
@@ -31602,9 +32310,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   31
+   29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 5U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 4U ≤ 30, 5U ≤ 29 lbs",
   "price": 1790,
   "frame": "High Resilience Graphite + Nano Resin",
   "shaft": "High Resilience Graphite + Nano Resin + 7.0 SHAFT",
@@ -31640,7 +32348,19 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ระดับ: ร้านขาย: \"Perfect for beginner to intermediate players\" (ผลค้น Google 10 พ.ย. 2026); แหล่งบอกเป็นช่วง จึงเก็บเป็นช่วง",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "4U": [
+    null,
+    30
+   ],
+   "5U": [
+    null,
+    29
+   ]
+  }
  },
  {
   "id": "victor-auraspeed-9",
@@ -31661,7 +32381,7 @@ window.RACKETS = [
    null,
    24
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 26, ≤ 24 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 26, 4U ≤ 24 lbs",
   "price": 1390,
   "frame": "Graphite+ Resin",
   "shaft": "Graphite+ Resin+6.8 SHAFT",
@@ -31701,7 +32421,19 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    26
+   ],
+   "4U": [
+    null,
+    24
+   ]
+  }
  },
  {
   "id": "victor-auraspeed-9000",
@@ -31720,9 +32452,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   30
+   29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 5U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 4U ≤ 30, 5U ≤ 29 lbs",
   "price": 1990,
   "frame": "High Resilience Modulus Graphite + Nano Resin",
   "shaft": "High Resilience Modulus Graphite + Nano Resin + 7.0 SHAFT",
@@ -31754,7 +32486,19 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "4U": [
+    null,
+    30
+   ],
+   "5U": [
+    null,
+    29
+   ]
+  }
  },
  {
   "id": "victor-auraspeed-90f",
@@ -31775,7 +32519,7 @@ window.RACKETS = [
    null,
    27
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 28, 5U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 4U ≤ 28, 5U ≤ 27 lbs",
   "price": 4890,
   "frame": "High Resilience Modulus Graphite+Nano Fortify TR＋",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
@@ -31812,8 +32556,19 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"Player level: Advanced / Competitive\", \"Level: Advance\" (ผลค้น Google 5 พ.ย. 2026)",
   "est": [
-   "balance"
-  ]
+   "balance",
+   "year"
+  ],
+  "tensionByWeight": {
+   "4U": [
+    null,
+    28
+   ],
+   "5U": [
+    null,
+    27
+   ]
+  }
  },
  {
   "id": "victor-auraspeed-90f-td",
@@ -31832,9 +32587,9 @@ window.RACKETS = [
   "grips": "G4, G5, G6",
   "tension": [
    null,
-   28
+   27
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 28, ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 28, 4U ≤ 27 lbs",
   "price": 2983,
   "frame": "High Resilience Graphite+Nano Resin",
   "shaft": "High Resilience Graphite+PYROFIL+6.8 SHAFT",
@@ -31870,14 +32625,26 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    28
+   ],
+   "4U": [
+    null,
+    27
+   ]
+  }
  },
  {
   "id": "victor-auraspeed-90k",
   "brand": "Victor",
   "name": "Auraspeed 90K",
-  "year": "",
-  "yearSrc": "",
+  "year": 2019,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_specs_7325.html",
   "style": "speed",
   "balance": "head-light",
   "bp": "",
@@ -31889,9 +32656,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   30
+   28
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 28, ≤ 29, ≤ 30 lbs",
   "price": 6610,
   "frame": "High Resilience Modulus Graphite+Nano Fortify TR＋+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
@@ -31928,7 +32695,8 @@ window.RACKETS = [
    "price",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-auraspeed-90k-ii",
@@ -31949,7 +32717,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 31, 4U ≤ 30 lbs",
   "price": 4900,
   "frame": "High Resilience Modulus Graphite+Nano Fortify TR＋+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
@@ -31963,7 +32731,7 @@ window.RACKETS = [
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-90k-ii-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-90k-ii/",
-  "officialUrl": "",
+  "officialUrl": "https://ca.victorsport.com/product/auraspeed-90k-ii-b",
   "specSrc": "https://www.nydhi.com/products/victor-auraspeed-90k-ii-victor-badminton-rackets",
   "shopUrl": "",
   "bayUrl": "",
@@ -31997,14 +32765,28 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "modelCode": "ARS-90K II",
+  "tensionByWeight": {
+   "3U": [
+    null,
+    31
+   ],
+   "4U": [
+    null,
+    30
+   ]
+  },
+  "tensionSrc": "https://ca.victorsport.com/product/auraspeed-90k-ii-b"
  },
  {
   "id": "victor-auraspeed-90k-ii-td",
   "brand": "Victor",
   "name": "Auraspeed 90K II TD",
-  "year": "",
-  "yearSrc": "",
+  "year": 2023,
+  "yearSrc": "https://www.badmintoncn.com/eqm.php?a=view&eid=16614",
   "style": "speed",
   "balance": "head-light",
   "bp": "",
@@ -32018,7 +32800,7 @@ window.RACKETS = [
    null,
    27
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 28, 4U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 28, 4U ≤ 27 lbs",
   "price": 2200,
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR + Hard Cored Technology",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
@@ -32057,7 +32839,17 @@ window.RACKETS = [
   "est": [
    "style",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    28
+   ],
+   "4U": [
+    null,
+    27
+   ]
+  }
  },
  {
   "id": "victor-auraspeed-90k-metallic",
@@ -32078,7 +32870,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 31, 4U ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 30, ≤ 31 lbs",
   "price": 5590,
   "frame": "High Resilience Modulus Graphite+Metallic Carbon Fiber+Nano Fortify TR+",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
@@ -32126,14 +32918,17 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-auraspeed-90s",
   "brand": "Victor",
   "name": "Auraspeed 90S",
-  "year": "",
-  "yearSrc": "",
+  "year": 2018,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_6927.html",
   "style": "speed",
   "balance": "head-light",
   "bp": "",
@@ -32145,9 +32940,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   30
+   29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 29, ≤ 30 lbs",
   "price": 6100,
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR＋+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.8 SHAFT",
@@ -32183,14 +32978,15 @@ window.RACKETS = [
    "style",
    "price",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-auraspeed-99",
   "brand": "Victor",
   "name": "Auraspeed 99",
-  "year": "",
-  "yearSrc": "",
+  "year": 2026,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view.php?eid=25967",
   "style": "speed",
   "balance": "even",
   "bp": "",
@@ -32304,6 +33100,7 @@ window.RACKETS = [
    "tension",
    "flex",
    "level",
+   "year",
    "weight"
   ]
  },
@@ -32326,7 +33123,7 @@ window.RACKETS = [
    null,
    28
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 29, ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 28, ≤ 29 lbs",
   "price": 4240,
   "frame": "High Resilience Modulus Graphite + NanoResin",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.8 SHAFT",
@@ -32363,8 +33160,10 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-auraspeed-eta",
@@ -32383,9 +33182,9 @@ window.RACKETS = [
   "grips": "G4, G5, G6",
   "tension": [
    null,
-   28
+   27
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 28, ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 28, 4U ≤ 27 lbs",
   "price": 3915,
   "frame": "High ResilienceGraphite+Nano Fortify SR+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Graphite+PYROFIL+6.8 SHAFT",
@@ -32414,9 +33213,20 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    28
+   ],
+   "4U": [
+    null,
+    27
+   ]
+  }
  },
  {
   "id": "victor-auraspeed-fd",
@@ -32437,7 +33247,7 @@ window.RACKETS = [
    null,
    31
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 32, ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 31, ≤ 32 lbs",
   "price": 2100,
   "frame": "Graphite + Nano Resin + Fiber Reinforced System",
   "shaft": "Graphite + Nano Resin + 6.8 SHAFT",
@@ -32470,8 +33280,10 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-auraspeed-fantome",
@@ -32490,9 +33302,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   32
+   29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 30, 4U ≤ 29 lbs",
   "price": 5390,
   "frame": "High ResilienceModulus Graphite+NANO AEROGEL+PBO High Performance Fiber+HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite+PBO High Performance Fiber+PYROFIL+6.8 SHAFT",
@@ -32557,8 +33369,20 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "ระดับ: ร้านระบุ \"PLAYER LEVEL: Advanced\" และ \"intermediate to advanced\" (ผลค้น Google 8 พ.ย. 2026)",
   "est": [
-   "balance"
-  ]
+   "balance",
+   "year"
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    30
+   ],
+   "4U": [
+    null,
+    29
+   ]
+  },
+  "tensionSrc": "https://www.badmintoncn.com/cbo_eq/view_specs.php?eid=20874"
  },
  {
   "id": "victor-auraspeed-fantome-f",
@@ -32632,7 +33456,9 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "year",
+   "tension"
   ]
  },
  {
@@ -32654,7 +33480,7 @@ window.RACKETS = [
    null,
    28
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 29, 4U ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 29, 4U ≤ 28 lbs",
   "price": 5390,
   "frame": "High Resilience Modulus Graphite+FORMOSA CARBON FIBER",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
@@ -32703,8 +33529,19 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level"
-  ]
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    29
+   ],
+   "4U": [
+    null,
+    28
+   ]
+  }
  },
  {
   "id": "victor-auraspeed-hang",
@@ -32815,7 +33652,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "weight"
+   "weight",
+   "tension"
   ]
  },
  {
@@ -32873,7 +33711,8 @@ window.RACKETS = [
    "flex",
    "style",
    "price",
-   "weight"
+   "weight",
+   "tension"
   ]
  },
  {
@@ -32895,7 +33734,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 31, ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 30, ≤ 31 lbs",
   "price": 3500,
   "frame": "Graphite + Resin + Fiber Reinforced System",
   "shaft": "Graphite + Resin + 6.8 SHAFT",
@@ -32932,8 +33771,10 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-auraspeed-ljh",
@@ -33003,7 +33844,9 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "weight"
+   "year",
+   "weight",
+   "tension"
   ]
  },
  {
@@ -33058,6 +33901,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level"
   ]
  },
@@ -33107,9 +33951,10 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก CAD 109.95 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://tenniszon.com/products/victor-auraspeed-pulse-astral-x-strung-pink",
-  "note": "ARS-PAX (รุ่น Q ขายแบบขึ้นเอ็นมาแล้ว) สเปกตรงกันที่ tenniszon.com, Shopee/Lazada มาเลเซีย, Joy Badminton และ Victor ฟิลิปปินส์/มาเลเซีย ซึ่งเรียกว่ารุ่นปี 2026 สายสปีด; ความตึงสูงสุด 3U ≤32 / 4U ≤31 lbs (เก็บค่าต่ำสุดเป็นเพดาน); จุดสมดุล ความแข็งก้าน น้ำหนักกรัม และระดับยังไม่มีแหล่งที่ระบุ จึงเว้นว่าง; ยังไม่พบร้านไทย จึงไม่มีราคา (พบเมื่อ 15 พ.ย. 2026) ความแข็งก้านประเมินจากซีรีส์ Auraspeed รุ่นปี 2022 ขึ้นไป: 15 จาก 25 รุ่นเป็นก้านแข็ง (ยังไม่พบสเปกของรุ่นนี้)",
+  "note": "ARS-PAX (รุ่น Q ขายแบบขึ้นเอ็นมาแล้ว) สเปกตรงกันที่ tenniszon.com, Shopee/Lazada มาเลเซีย, Joy Badminton และ Victor ฟิลิปปินส์/มาเลเซีย ซึ่งเรียกว่ารุ่นปี 2026 สายสปีด; ความตึงสูงสุด 3U ≤32 / 4U ≤31 lbs (เก็บค่าต่ำสุดเป็นเพดาน); จุดสมดุล ความแข็งก้าน น้ำหนักกรัม และระดับยังไม่มีแหล่งที่ระบุ จึงเว้นว่าง; ยังไม่พบร้านไทย จึงไม่มีราคา (พบเมื่อ 15 พ.ย. 2026) ความแข็งก้านประเมินจากซีรีส์ Auraspeed รุ่นปี 2022 ขึ้นไป: 17 จาก 27 รุ่นเป็นก้านแข็ง (ยังไม่พบสเปกของรุ่นนี้)",
   "est": [
    "balance",
+   "year",
    "price",
    "flex",
    "weight"
@@ -33163,6 +34008,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level"
   ]
  },
@@ -33221,6 +34067,7 @@ window.RACKETS = [
    "flex",
    "balance",
    "style",
+   "year",
    "price",
    "weight"
   ]
@@ -33294,7 +34141,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "weight"
+   "weight",
+   "tension"
   ]
  },
  {
@@ -33357,7 +34205,9 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "ระดับ: รายการร้าน: \"Best suited for intermediate to advanced\" (ผลค้น Google 10 พ.ย. 2026); แหล่งบอกเป็นช่วง จึงเก็บเป็นช่วง",
   "est": [
-   "style"
+   "balance",
+   "style",
+   "tension"
   ]
  },
  {
@@ -33495,9 +34345,9 @@ window.RACKETS = [
   "grips": "G4, G5",
   "tension": [
    null,
-   24
+   23
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 24, 4U ≤ 23 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 23, ≤ 24 lbs",
   "price": "",
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.0 SHAFT",
@@ -33530,7 +34380,8 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-brave-sword-1800d",
@@ -33549,9 +34400,9 @@ window.RACKETS = [
   "grips": "G4, G5",
   "tension": [
    null,
-   24
+   23
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 24, 4U ≤ 23 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 23, ≤ 24 lbs",
   "price": "",
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.0 SHAFT",
@@ -33584,7 +34435,8 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-brave-sword-ltd-pro",
@@ -33664,7 +34516,7 @@ window.RACKETS = [
    null,
    26
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 28, 4U ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 28, 4U ≤ 26 lbs",
   "price": "",
   "frame": "Graphite+ Resin",
   "shaft": "Graphite+ Resin+6.8 SHAFT",
@@ -33696,7 +34548,17 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    28
+   ],
+   "4U": [
+    null,
+    26
+   ]
+  }
  },
  {
   "id": "victor-challenger-9500-pro",
@@ -33717,7 +34579,7 @@ window.RACKETS = [
    null,
    26
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 28, ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 28, 4U ≤ 26 lbs",
   "price": 2370,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 6.8 SHAFT",
@@ -33751,9 +34613,20 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "price",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    28
+   ],
+   "4U": [
+    null,
+    26
+   ]
+  }
  },
  {
   "id": "victor-drivex-09",
@@ -33772,9 +34645,9 @@ window.RACKETS = [
   "grips": "G4, G5",
   "tension": [
    null,
-   26
+   24
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 26, ≤ 24 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 26, 4U ≤ 24 lbs",
   "price": 1100,
   "frame": "Graphite + Resin",
   "shaft": "Graphite +Resin + 6.8 SHAFT",
@@ -33803,8 +34676,19 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
-  ]
+   "balance",
+   "year"
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    26
+   ],
+   "4U": [
+    null,
+    24
+   ]
+  }
  },
  {
   "id": "victor-drivex-1",
@@ -33823,9 +34707,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   27
+   26
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 27, 5U ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 26, ≤ 27 lbs",
   "price": 1500,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 6.8 SHAFT",
@@ -33862,8 +34746,10 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-drivex-10-metallic",
@@ -33884,7 +34770,7 @@ window.RACKETS = [
    null,
    28
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 29, 4U ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 29, 4U ≤ 28 lbs",
   "price": 5290,
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR＋ + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.6 SHAFT METALLIC CARBON SHAFT",
@@ -33948,7 +34834,19 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    29
+   ],
+   "4U": [
+    null,
+    28
+   ]
+  }
  },
  {
   "id": "victor-drivex-12",
@@ -33969,7 +34867,7 @@ window.RACKETS = [
    null,
    32
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 33, 4U ≤ 32 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 32, ≤ 33 lbs",
   "price": 5990,
   "frame": "High Resilience Modulus Graphite+PYROFIL 46T+Nano Fortify TR+NANO AEROGEL+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+Metallic Carbon Fiber+PYROFIL+6.6 SHAFT",
@@ -34036,7 +34934,8 @@ window.RACKETS = [
   "est": [
    "style",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-drivex-3h",
@@ -34057,7 +34956,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 31, ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 31, 4U ≤ 30 lbs",
   "price": 2500,
   "frame": "High Resilience Graphite + Nano Resin",
   "shaft": "High Resilience Graphite + Nano Resin + 6.8 SHAFT",
@@ -34089,7 +34988,19 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    31
+   ],
+   "4U": [
+    null,
+    30
+   ]
+  }
  },
  {
   "id": "victor-drivex-6sp",
@@ -34110,7 +35021,7 @@ window.RACKETS = [
    null,
    26
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 28, ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 28, 4U ≤ 26 lbs",
   "price": 1920,
   "frame": "High Resilience Graphite + Nano Resin",
   "shaft": "High Resilience Modulus Graphite + NANO TUBE+6.8 SHAFT",
@@ -34142,7 +35053,19 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    28
+   ],
+   "4U": [
+    null,
+    26
+   ]
+  }
  },
  {
   "id": "victor-drivex-7sp",
@@ -34163,7 +35086,7 @@ window.RACKETS = [
    null,
    26
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 28, ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 28, 4U ≤ 26 lbs",
   "price": 2000,
   "frame": "High Resilience Graphite + Nano Resin",
   "shaft": "High Resilience Modulus Graphite + NANO TUBE + 6.8 SHAFT",
@@ -34199,7 +35122,19 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    28
+   ],
+   "4U": [
+    null,
+    26
+   ]
+  }
  },
  {
   "id": "victor-drivex-f",
@@ -34218,9 +35153,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   29
+   28
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 29, ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 4U ≤ 29, 5U ≤ 28 lbs",
   "price": 3575,
   "frame": "High Resilience Modulus Graphite+Nano Fortify TR＋+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.6 SHAFT",
@@ -34249,9 +35184,20 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {
+   "4U": [
+    null,
+    29
+   ],
+   "5U": [
+    null,
+    28
+   ]
+  }
  },
  {
   "id": "victor-drivex-kt",
@@ -34295,7 +35241,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "victor-drivex-metallic",
@@ -34316,7 +35264,7 @@ window.RACKETS = [
    null,
    28
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 29, 4U ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 28, ≤ 29 lbs",
   "price": 4390,
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": ":High Resilience Modulus Graphite + Metallic Carbon Fiber + PYROFIL + 6.6 SHAFT",
@@ -34358,8 +35306,10 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
+   "year",
    "level"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-drivex-phecda",
@@ -34380,7 +35330,7 @@ window.RACKETS = [
    null,
    29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 29, ≤ 30 lbs",
   "price": 4600,
   "frame": "High Resilience Graphite + Nano Fortify SR + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Graphite + PYROFIL + 6.6 SHAFT",
@@ -34413,8 +35363,10 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-drivex-12-metallic",
@@ -34491,7 +35443,7 @@ window.RACKETS = [
    null,
    33
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 34, 4U ≤ 33 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 34, 4U ≤ 33 lbs",
   "price": "",
   "frame": "High Resilience Modulus Graphite + PYROFIL + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 7.0 SHAFT",
@@ -34525,7 +35477,17 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    34
+   ],
+   "4U": [
+    null,
+    33
+   ]
+  }
  },
  {
   "id": "victor-drivex-8k",
@@ -34546,7 +35508,7 @@ window.RACKETS = [
    null,
    28
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 29, 4U ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 29, 4U ≤ 28 lbs",
   "price": 4400,
   "frame": "High Resilience Modulus Graphite + NANO FORTIFY TR + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL+7.0 SHAFT",
@@ -34580,7 +35542,17 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    29
+   ],
+   "4U": [
+    null,
+    28
+   ]
+  }
  },
  {
   "id": "victor-drivex-9x",
@@ -34601,7 +35573,7 @@ window.RACKETS = [
    null,
    28
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 29, 4U ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 29, 4U ≤ 28 lbs",
   "price": 2810,
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.6 SHAFT",
@@ -34643,10 +35615,21 @@ window.RACKETS = [
   "note": "",
   "est": [
    "flex",
+   "balance",
    "style",
    "price",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    29
+   ],
+   "4U": [
+    null,
+    28
+   ]
+  }
  },
  {
   "id": "victor-drivex-lf-60",
@@ -34778,9 +35761,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   29
+   28
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 29, 4U ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 28, ≤ 29 lbs",
   "price": "",
   "frame": "High Resilience Modulus Graphite+Nano Resin+Elastic Modulus Fiber+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + Nano Tube + 6.8 SHAFT",
@@ -34812,7 +35795,8 @@ window.RACKETS = [
    "flex",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-hypernano-x-511cl",
@@ -34933,9 +35917,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   31
+   30
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 31, 4U ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 30, ≤ 31 lbs",
   "price": "",
   "frame": "High Resilient Modulus Graphite + NANO FORTIFY TR + HARD CORED TECHNOLOGY",
   "shaft": "High Resilient Modulus Graphite + PYROFIL + 6.8 SHAFT",
@@ -34966,7 +35950,8 @@ window.RACKETS = [
   "est": [
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-hypernano-x-df-08",
@@ -34985,9 +35970,9 @@ window.RACKETS = [
   "grips": "G4, G5",
   "tension": [
    null,
-   24
+   23
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 24, 4U ≤ 23 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 23, ≤ 24 lbs",
   "price": "",
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.0 SHAFT",
@@ -35018,7 +36003,8 @@ window.RACKETS = [
   "est": [
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-hypernano-x-df-09",
@@ -35037,9 +36023,9 @@ window.RACKETS = [
   "grips": "G4, G5",
   "tension": [
    null,
-   24
+   23
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 24, 4U ≤ 23 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 23, ≤ 24 lbs",
   "price": "",
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.0 SHAFT",
@@ -35070,7 +36056,8 @@ window.RACKETS = [
   "est": [
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-jetspeed-s-06jr",
@@ -35089,9 +36076,9 @@ window.RACKETS = [
   "grips": "G6",
   "tension": [
    null,
-   22
+   21
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 22, 5U ≤ 21 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 21, ≤ 22 lbs",
   "price": "",
   "frame": "Graphite+Resin",
   "shaft": "Graphite+Resin+7.0 SHAFT",
@@ -35124,7 +36111,8 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-jetspeed-s-08",
@@ -35143,9 +36131,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   27
+   25
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 27, 5U ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 25, ≤ 26, ≤ 27 lbs",
   "price": "",
   "frame": "High Modulus Graphite +Core Shell Rubber",
   "shaft": "High Modulus Graphite+Nano Resin+6.8 SHAFT",
@@ -35179,7 +36167,8 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-jetspeed-s-09l",
@@ -35240,7 +36229,7 @@ window.RACKETS = [
   "year": "",
   "yearSrc": "",
   "style": "speed",
-  "balance": "even",
+  "balance": "head-light",
   "bp": 290,
   "flex": "stiff",
   "level": "advanced",
@@ -35250,9 +36239,9 @@ window.RACKETS = [
   "grips": "G4, G5",
   "tension": [
    null,
-   28
+   27
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 28, 4U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 28, 4U ≤ 27 lbs",
   "price": 3570,
   "frame": "High Resilient Modulus Graphite +Nano Fortify",
   "shaft": "High Resilient Modulus Graphite＋PYROFIL＋6.8 SHAFT",
@@ -35289,12 +36278,22 @@ window.RACKETS = [
   "priceSrc": "https://yumo.ca/products/jetspeed-s-10-c",
   "note": "",
   "est": [
-   "tension",
+   "balance",
    "style",
    "price",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    28
+   ],
+   "4U": [
+    null,
+    27
+   ]
+  }
  },
  {
   "id": "victor-jetspeed-s-11",
@@ -35313,9 +36312,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   30
+   29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 29, ≤ 30 lbs",
   "price": 3570,
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + 6.8 SHAFT",
@@ -35353,7 +36352,8 @@ window.RACKETS = [
    "price",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-jetspeed-s-1111al",
@@ -35425,9 +36425,9 @@ window.RACKETS = [
   "grips": "G4, G5",
   "tension": [
    null,
-   30
+   29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 29, ≤ 30 lbs",
   "price": 2990,
   "frame": "High Resilient Modulus Graphite +  HARD CORED TECHNOLOGY + TERS",
   "shaft": "High Resilient Modulus Graphite + PYROFIL + TERS + 6.8 SHAFT",
@@ -35461,7 +36461,8 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-jetspeed-s-12-ii",
@@ -35480,9 +36481,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   30
+   29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 30, 4U ≤ 29 lbs",
   "price": 4990,
   "frame": "High Resilience Modulus Graphite ＋Nano Fortify TR＋",
   "shaft": "High Resilience Modulus Graphite +PYROFIL + 6.6 SHAFT",
@@ -35496,7 +36497,7 @@ window.RACKETS = [
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-jetspeed-s-12-ii-169x300.webp",
   "source": "https://chobbad.com/racket/victor-jetspeed-s-12-ii/",
-  "officialUrl": "",
+  "officialUrl": "https://shop.au.victorsport.com/products/jetspeed-s-12-ii",
   "specSrc": "https://www.nydhi.com/collections/all/products/victor-jetspeed-s-12-ii-f-badminton-racket",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4986",
   "bayUrl": "",
@@ -35532,7 +36533,18 @@ window.RACKETS = [
   "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"Player Level: Advanced\", \"designed for professional and advanced players\" (ผลค้น Google 5 พ.ย. 2026)",
   "est": [
    "balance"
-  ]
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    30
+   ],
+   "4U": [
+    null,
+    29
+   ]
+  },
+  "tensionSrc": "https://shop.au.victorsport.com/products/jetspeed-s-12-ii"
  },
  {
   "id": "victor-jetspeed-s-12f",
@@ -35551,9 +36563,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   30
+   29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 29, ≤ 30 lbs",
   "price": 5430,
   "frame": "High Resilience Modulus Graphite +TERS+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite ＋PYROFIL＋TERS+6.8 SHAFT",
@@ -35591,7 +36603,8 @@ window.RACKETS = [
    "style",
    "price",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-jetspeed-s-12ftd",
@@ -35612,7 +36625,7 @@ window.RACKETS = [
    null,
    26
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 27, 4U ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 27, 4U ≤ 26 lbs",
   "price": 3330,
   "frame": "High Resilience Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Graphite + PYROFIL + 6.8 SHAFT",
@@ -35651,7 +36664,17 @@ window.RACKETS = [
    "price",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    27
+   ],
+   "4U": [
+    null,
+    26
+   ]
+  }
  },
  {
   "id": "victor-jetspeed-s-12td",
@@ -35670,9 +36693,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   27
+   26
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 27, ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 27, 4U ≤ 26 lbs",
   "price": 2890,
   "frame": "High Resilience Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Graphite + PYROFIL + 6.8 SHAFT",
@@ -35706,9 +36729,20 @@ window.RACKETS = [
   "note": "",
   "est": [
    "flex",
+   "year",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    27
+   ],
+   "4U": [
+    null,
+    26
+   ]
+  }
  },
  {
   "id": "victor-jetspeed-s-2sp",
@@ -35938,9 +36972,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   30
+   29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 5U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 4U ≤ 30, 5U ≤ 29 lbs",
   "price": "",
   "frame": "Graphite+Resin",
   "shaft": "Graphite+Resin+7.0 SHAFT",
@@ -35973,7 +37007,17 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {
+   "4U": [
+    null,
+    30
+   ],
+   "5U": [
+    null,
+    29
+   ]
+  }
  },
  {
   "id": "victor-jetspeed-s-7000",
@@ -35992,9 +37036,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   30
+   29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 30, 5U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 4U ≤ 30, 5U ≤ 29 lbs",
   "price": 1590,
   "frame": "Graphite+Resin",
   "shaft": "Graphite+Resin+7.0 SHAFT",
@@ -36028,7 +37072,17 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {
+   "4U": [
+    null,
+    30
+   ],
+   "5U": [
+    null,
+    29
+   ]
+  }
  },
  {
   "id": "victor-jetspeed-s-800ht",
@@ -36082,6 +37136,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level"
   ]
  },
@@ -36146,7 +37201,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "flex",
-   "level"
+   "level",
+   "year"
   ]
  },
  {
@@ -36201,7 +37257,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance"
+   "balance",
+   "year"
   ]
  },
  {
@@ -36221,9 +37278,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   31
+   30
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 31, ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 31, 4U ≤ 30 lbs",
   "price": "",
   "frame": "High Resilience Modulus Graphite+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.8 SHAFT",
@@ -36253,8 +37310,19 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
+   "year",
    "level"
-  ]
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    31
+   ],
+   "4U": [
+    null,
+    30
+   ]
+  }
  },
  {
   "id": "victor-mjolnir-metallic",
@@ -36495,9 +37563,9 @@ window.RACKETS = [
   "grips": "G4, G5, G6",
   "tension": [
    null,
-   36
+   35
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 36, ≤ 35 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 36, 4U ≤ 35 lbs",
   "price": 2064,
   "frame": "Graphite+ Resin+Fiber Reinforced System",
   "shaft": "Graphite+ Resin+6.8 SHAFT",
@@ -36529,7 +37597,19 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    36
+   ],
+   "4U": [
+    null,
+    35
+   ]
+  }
  },
  {
   "id": "victor-thruster-66",
@@ -36590,7 +37670,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "น้ำหนัก 66 g ± 2 จากหน้า Victor ไทย ตรงกับขนาด 7U; ร้านบางแห่งพิมพ์ 4U, 5U, 7U รวมกันเพราะขายหลายตัวเลือก (ตรวจ 11 พ.ย. 2026)",
-  "est": []
+  "est": [
+   "year",
+   "tension"
+  ]
  },
  {
   "id": "victor-thruster-8110al",
@@ -36641,6 +37724,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
+   "year",
    "level"
   ]
  },
@@ -36661,9 +37745,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   31
+   30
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 31, 5U ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 30, ≤ 31 lbs",
   "price": "",
   "frame": "High Resilience Modulus Graphite+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite +Nano Resin+6.6 SHAFT",
@@ -36696,7 +37780,8 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-dong",
@@ -36715,9 +37800,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   30
+   29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 29, ≤ 30 lbs",
   "price": "",
   "frame": "High Resilient Modulus Graphite + CSR",
   "shaft": "High Resilient Modulus Graphite + 6.4SHAFT",
@@ -36750,7 +37835,8 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-f-c-ultra",
@@ -36769,9 +37855,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   32
+   30
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31, 5U ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 30, ≤ 31, ≤ 32 lbs",
   "price": 5990,
   "frame": "High Resilience Modulus Graphite, 46T PYROFIL, Nano Fortify TR, Nano Aerogel, Hard Cored Technology",
   "shaft": "High Resilience Modulus Graphite, 46T PYROFIL, Metallic Carbon Fiber, 6.0 Shaft",
@@ -36829,7 +37915,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-f-claw",
@@ -36915,7 +38002,7 @@ window.RACKETS = [
    null,
    31
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 32, 4U ≤ 31 lbs",
   "price": "",
   "frame": "High Resilient Modulus Graphite + PYROFIL + Hard Cored Technology",
   "shaft": "High Resilient Modulus Graphite + PYROFIL + 6.5 SHAFT",
@@ -36951,7 +38038,17 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    32
+   ],
+   "4U": [
+    null,
+    31
+   ]
+  }
  },
  {
   "id": "victor-thruster-f-falcon-ultra-c",
@@ -37068,9 +38165,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   32
+   31
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 31, ≤ 32 lbs",
   "price": 4500,
   "frame": "High Resilient Modulus Graphite + PYROFIL + Hard Cored Technology",
   "shaft": "High Resilient Modulus Graphite + PYROFIL + Metallic Carbon + 5.8  SHAFT",
@@ -37127,10 +38224,10 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/victor-thruster-f-ultra-enhanced-edition-badminton-racket",
   "note": "",
   "est": [
-   "tension",
    "style",
    "price"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-hmr-light",
@@ -37149,9 +38246,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   28
+   27
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 5U ≤ 28, 6U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 5U ≤ 28, 6U ≤ 27 lbs",
   "price": 2190,
   "frame": "Graphite+Resin",
   "shaft": "Graphite+Resin+7.0 SHAFT",
@@ -37203,7 +38300,19 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "5U": [
+    null,
+    28
+   ],
+   "6U": [
+    null,
+    27
+   ]
+  }
  },
  {
   "id": "victor-thruster-hmr-pro",
@@ -37222,9 +38331,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   32
+   31
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 32, ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 31, ≤ 32 lbs",
   "price": 1800,
   "frame": "Graphite + Resin + Fiber Reinforced System(FRS)",
   "shaft": "Graphite + Resin + 6.8 SHAFT",
@@ -37268,7 +38377,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-hammer",
@@ -37287,9 +38399,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   32
+   31
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 32, 5U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 4U ≤ 32, 5U ≤ 31 lbs",
   "price": 1900,
   "frame": "Graphite+Resin+Fiber Reinforced System (FRS)",
   "shaft": "Graphite + Nano Resin + 7.0 SHAFT",
@@ -37326,8 +38438,19 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level"
-  ]
+  ],
+  "tensionByWeight": {
+   "4U": [
+    null,
+    32
+   ],
+   "5U": [
+    null,
+    31
+   ]
+  }
  },
  {
   "id": "victor-thruster-hammer-light-extra",
@@ -37346,9 +38469,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   28
+   27
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 5U ≤ 28, 6U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 27, ≤ 28 lbs",
   "price": 2000,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 6.8 SHAFT",
@@ -37388,7 +38511,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ระดับ: Badminton Warehouse: \"Beginner to Intermediate Players\" (ผลค้น Google 10 พ.ย. 2026); แหล่งบอกเป็นช่วง จึงเก็บเป็นช่วง",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-hawk",
@@ -37407,9 +38533,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   27
+   26
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 27, ≤ 26 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 4U ≤ 27, 5U ≤ 26 lbs",
   "price": 2500,
   "frame": "High Resilience Modulus Graphite +PYROFIL +HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite +PYROFIL +6.6 SHAFT",
@@ -37453,7 +38579,19 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "4U": [
+    null,
+    27
+   ],
+   "5U": [
+    null,
+    26
+   ]
+  }
  },
  {
   "id": "victor-thruster-hawk-pro",
@@ -37472,9 +38610,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   28
+   27
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 29, ≤ 28 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 27, ≤ 28, ≤ 29 lbs",
   "price": 2500,
   "frame": "High ResilienceModulus Graphite + PYROFIL + HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite + PYROFIL + 6.6 SHAFT",
@@ -37511,8 +38649,10 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-k-100",
@@ -37531,9 +38671,9 @@ window.RACKETS = [
   "grips": "G4, G5",
   "tension": [
    null,
-   24
+   23
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 24, 4U ≤ 23 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 23, ≤ 24 lbs",
   "price": "",
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.0 SHAFT",
@@ -37566,7 +38706,8 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-k-100f",
@@ -37585,9 +38726,9 @@ window.RACKETS = [
   "grips": "G4, G5",
   "tension": [
    null,
-   24
+   23
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 24, 4U ≤ 23 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 23, ≤ 24 lbs",
   "price": "",
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.0 SHAFT",
@@ -37620,7 +38761,8 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-k-110",
@@ -37639,9 +38781,9 @@ window.RACKETS = [
   "grips": "G4, G5",
   "tension": [
    null,
-   24
+   23
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 24, 4U ≤ 23 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 23, ≤ 24 lbs",
   "price": 1680,
   "frame": "Graphite + Resin",
   "shaft": "Graphite + Resin + 7.0 SHAFT",
@@ -37675,7 +38817,8 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-k-15l",
@@ -37741,7 +38884,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "tension"
   ]
  },
  {
@@ -37761,9 +38905,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   36
+   35
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 36, 4U ≤ 35 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 35, ≤ 36 lbs",
   "price": 1990,
   "frame": "Graphite+Resin+Fiber Reinforced System(FRS)",
   "shaft": "Graphite+Resin+7.0 SHAFT",
@@ -37797,7 +38941,8 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-k-280-ex",
@@ -37850,7 +38995,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "tension"
+  ]
  },
  {
   "id": "victor-thruster-k-30",
@@ -37869,9 +39016,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   28
+   27
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 28, 4U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 27, ≤ 28 lbs",
   "price": "",
   "frame": "High Modulus Graphite + CSR",
   "shaft": "High Modulus Graphite + 6.6SHAFT",
@@ -37905,7 +39052,8 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-k-330",
@@ -38030,9 +39178,9 @@ window.RACKETS = [
   "grips": "G4, G5",
   "tension": [
    null,
-   33
+   32
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 33, 4U ≤ 32 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 32, ≤ 33 lbs",
   "price": 2890,
   "frame": "High Resilience Modulus Graphite + Nano Resin + Fiber Reinforced System(FRS) + HARD CORED TECHNOLOGY",
   "shaft": "High Modulus Graphite  + Nano Resin + 7.0SHAFT",
@@ -38066,7 +39214,8 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-k-816cl",
@@ -38121,6 +39270,7 @@ window.RACKETS = [
   "note": "ความแข็งก้านประเมินจากซีรีส์ Thruster รุ่นปี 2022 ขึ้นไป: 11 จาก 19 รุ่นเป็นก้านแข็ง (ยังไม่พบสเปกของรุ่นนี้)",
   "est": [
    "balance",
+   "year",
    "level",
    "flex"
   ]
@@ -38174,6 +39324,7 @@ window.RACKETS = [
   "note": "ความแข็งก้านประเมินจากซีรีส์ Thruster รุ่นปี 2022 ขึ้นไป: 11 จาก 19 รุ่นเป็นก้านแข็ง (ยังไม่พบสเปกของรุ่นนี้)",
   "est": [
    "balance",
+   "year",
    "level",
    "flex"
   ]
@@ -38398,7 +39549,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "style"
+   "style",
+   "tension"
   ]
  },
  {
@@ -38418,9 +39570,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   32
+   31
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 32, ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 31, ≤ 32 lbs",
   "price": 2190,
   "frame": "Graphite + Resin + Fiber Reinforced System(FRS)",
   "shaft": "Graphite + Resin + 6.8 SHAFT",
@@ -38455,7 +39607,8 @@ window.RACKETS = [
   "est": [
    "style",
    "level"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-k-onigiri-pro",
@@ -38517,6 +39670,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "balance",
    "style",
    "weight"
   ]
@@ -38540,7 +39694,7 @@ window.RACKETS = [
    null,
    29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 30, 4U ≤ 29, 5U ≤ 30 lbs",
   "price": 4900,
   "frame": "High Resilience Modulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + PYROFIL + 6.6 SHAFT",
@@ -38588,7 +39742,23 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    30
+   ],
+   "4U": [
+    null,
+    29
+   ],
+   "5U": [
+    null,
+    30
+   ]
+  }
  },
  {
   "id": "victor-thruster-korea",
@@ -38607,9 +39777,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   29
+   27
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 29, 5U ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 27, ≤ 29 lbs",
   "price": "",
   "frame": "High Resilient Modulus Graphite  + CSR",
   "shaft": "High Resilient Modulus Graphite  + 6.4 SHAFT",
@@ -38642,7 +39812,8 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-lf-30",
@@ -38722,9 +39893,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   28
+   27
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 28, ≤ 27 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 27, ≤ 28 lbs",
   "price": 4300,
   "frame": "High ResilienceModulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Graphite +PYROFIL + 6.6 SHAFT",
@@ -38758,7 +39929,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "level"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-raptor",
@@ -38779,7 +39951,7 @@ window.RACKETS = [
    null,
    31
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 31, ≤ 32 lbs",
   "price": 3690,
   "frame": "High Resilience Modulus Graphite+PYROFIL+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.5 SHAFT",
@@ -38819,7 +39991,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ระดับ: Badminton Warehouse: \"Advanced or intermediate players\" (ผลค้น Google 10 พ.ย. 2026); แหล่งบอกเป็นช่วง จึงเก็บเป็นช่วง",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-ryuga",
@@ -38898,7 +40073,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "weight"
+   "weight",
+   "tension"
   ]
  },
  {
@@ -38920,7 +40096,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: ≤ 32, ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 32, 4U ≤ 30 lbs",
   "price": 1990,
   "frame": "High Resilience Graphite + NanoResin",
   "shaft": "High Resilience Graphite + NanoResin + 6.8 SHAFT",
@@ -38960,7 +40136,19 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ระดับ: โพสต์ Victor: \"ideal for beginner to intermediate players\" (ผลค้น Google 10 พ.ย. 2026); แหล่งบอกเป็นช่วง จึงเก็บเป็นช่วง",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    32
+   ],
+   "4U": [
+    null,
+    30
+   ]
+  }
  },
  {
   "id": "victor-thruster-ryuga-ii",
@@ -38971,7 +40159,7 @@ window.RACKETS = [
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
-  "flex": "stiff",
+  "flex": "",
   "level": "intermediate",
   "levelTo": "advanced",
   "weights": "4U, 3U",
@@ -38979,9 +40167,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   31
+   30
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 32, 4U ≤ 30 lbs",
   "price": 5590,
   "frame": "High Resilient Modulus Graphite + PYROFIL + Hard Cored Technology",
   "shaft": "High Resilient Modulus Graphite + PYROFIL + 6.6 SHAFT",
@@ -38995,8 +40183,8 @@ window.RACKETS = [
   "recString": "",
   "img": "https://www.badmintonplaza.com/images/TK-RYUGA-II-J-A.jpg",
   "source": "",
-  "officialUrl": "",
-  "specSrc": "MamMoth Sport (Facebook) for Ryuga II TD: Flex Stiff, 4U ≤29 lbs",
+  "officialUrl": "https://ca.victorsport.com/product/thruster-ryuga-ii-j",
+  "specSrc": "https://ca.victorsport.com/product/thruster-ryuga-ii-j",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3448",
   "bayUrl": "",
   "clickUrl": "",
@@ -39020,12 +40208,23 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "ระดับ: รีวิว: \"intermediate to advanced offensive players\" (ผลค้น Google 10 พ.ย. 2026); แหล่งบอกเป็นช่วง จึงเก็บเป็นช่วง",
+  "note": "รุ่น J ระบุ 3U ≤ 32 lbs ทั้งสองแหล่ง Victor Australia ให้ 4U ≤ 30 lbs ส่วน Victor Canada ให้ 4U ≤ 31 lbs จึงใช้ขีดจำกัด 30 lbs เมื่อไม่ทราบตลาดของไม้",
   "est": [
-   "flex",
    "style",
    "weight"
-  ]
+  ],
+  "modelCode": "TK-RYUGA II J",
+  "tensionByWeight": {
+   "3U": [
+    null,
+    32
+   ],
+   "4U": [
+    null,
+    30
+   ]
+  },
+  "tensionSrc": "https://shop.au.victorsport.com/products/thruster-ryuga-ii-j"
  },
  {
   "id": "victor-thruster-ryuga-ii-pro",
@@ -39044,9 +40243,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   32
+   31
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 32, 4U ≤ 31 lbs",
   "price": 5590,
   "frame": "High Resilience Modulus Graphite+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+PYROFIL+6.6 SHAFT",
@@ -39102,7 +40301,19 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    32
+   ],
+   "4U": [
+    null,
+    31
+   ]
+  }
  },
  {
   "id": "victor-thruster-ryuga-ii-td",
@@ -39123,7 +40334,7 @@ window.RACKETS = [
    null,
    29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: 3U ≤ 30, 4U ≤ 29 lbs",
   "price": 2790,
   "frame": "High Resilience Modulus Graphite+HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus GraphiteL+6.8 SHAFT",
@@ -39155,7 +40366,19 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {
+   "3U": [
+    null,
+    30
+   ],
+   "4U": [
+    null,
+    29
+   ]
+  }
  },
  {
   "id": "victor-thruster-ryuga-iii",
@@ -39176,7 +40399,7 @@ window.RACKETS = [
    null,
    31
   ],
-  "tensionNote": "ร้านไทยระบุ 4U ≤ 32, 5U ≤ 31 lbs (Lazada) อีกร้านพิมพ์เป็น 3U ≤ 32 / 4U ≤ 31 แต่รุ่นนี้มีแค่ 4U กับ 5U",
+  "tensionNote": "ตามแหล่งสเปก: 4U ≤ 32, 5U ≤ 31 lbs",
   "price": 5990,
   "frame": "High Resilience Modulus Graphite + Hard Cored Technology + 46T Pyrofil + Nano Fortify TR+ + Metallic Carbon Fiber + Nano Aerogel",
   "shaft": "High Resilience Modulus Graphite + 46T Pyrofil + Metallic Carbon Fiber + 6.5 Shaft",
@@ -39190,8 +40413,8 @@ window.RACKETS = [
   "recString": "Aerobite (คุม), BG80 (พลัง)",
   "img": "https://www.badmintonwarehouse.com/cdn/shop/files/victor-ryuga-iii-cq-racket-full_700x700.webp?v=1791997642",
   "source": "",
-  "officialUrl": "",
-  "specSrc": "https://www.google.com/search?q=%22Ryuga+III%22+victor+lbs",
+  "officialUrl": "https://ca.victorsport.com/product/tk-ryugaiiicq",
+  "specSrc": "https://ca.victorsport.com/product/tk-ryugaiiicq",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5252",
   "bayUrl": "",
   "clickUrl": "https://badmintonclick.com.au/products/new-2027-victor-thruster-ryuga-3-78-grams-badminton-racquet",
@@ -39229,8 +40452,21 @@ window.RACKETS = [
   "priceSrc": "https://www.google.com/search?q=%22Ryuga+III%22+victor+ราคา",
   "note": "ระดับ: ร้านระบุ \"Made for Advanced Attacking Players\" และ \"intermediate to advanced players\" (ผลค้น Google 5 พ.ย. 2026) จึงลดจากโปรเป็นระดับสูง (≈)",
   "est": [
-   "level"
-  ]
+   "level",
+   "year"
+  ],
+  "modelCode": "TK-RYUGA-III-CQ",
+  "tensionByWeight": {
+   "4U": [
+    null,
+    32
+   ],
+   "5U": [
+    null,
+    31
+   ]
+  },
+  "tensionSrc": "https://www.badmintonplaza.com/product_info.php?products_id=5252"
  },
  {
   "id": "victor-thruster-ryuga-jr",
@@ -39284,6 +40520,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level"
   ]
  },
@@ -39306,7 +40543,7 @@ window.RACKETS = [
    null,
    31
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 31, ≤ 32 lbs",
   "price": 5790,
   "frame": "High ResilienceModulus Graphite + HARD CORED TECHNOLOGY + Metallic Carbon Fiber",
   "shaft": "High ResilienceModulus Graphite + PYROFIL + 6.8 SHAFT",
@@ -39374,7 +40611,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-ryuga-muse",
@@ -39451,7 +40691,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year",
+   "tension"
+  ]
  },
  {
   "id": "victor-thruster-ryuga-muse-ii",
@@ -39472,7 +40715,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 4U ≤ 31, 5U ≤ 30 lbs",
   "price": 5590,
   "frame": "High Resilience Modulus Graphite, Hard Cored Technology",
   "shaft": "High Resilience Modulus Graphite, PYROFIL, 6.6 Shaft",
@@ -39486,8 +40729,8 @@ window.RACKETS = [
   "recString": "Aerobite (คุม), BG80 (พลัง)",
   "img": "https://www.badmintonwarehouse.com/cdn/shop/files/victor-ryuga-muse-ii-tj-02-clean_700x700.jpg?v=1790875934",
   "source": "",
-  "officialUrl": "",
-  "specSrc": "https://www.google.com/search?q=%22Ryuga+Muse+II%22+victor+ราคา",
+  "officialUrl": "https://ca.victorsport.com/product/tk-ryugamuseiitj",
+  "specSrc": "https://ca.victorsport.com/product/tk-ryugamuseiitj",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "https://badmintonclick.com.au/products/new-2026-victor-thruster-ryuga-muse-ii-nightshade-purple-78-grams-badminton-racquet",
@@ -39517,8 +40760,21 @@ window.RACKETS = [
   "priceSrc": "http://next5badminton.com",
   "note": "",
   "est": [
-   "style"
-  ]
+   "style",
+   "year"
+  ],
+  "modelCode": "TK-RYUGA MUSE II TJ",
+  "tensionByWeight": {
+   "4U": [
+    null,
+    31
+   ],
+   "5U": [
+    null,
+    30
+   ]
+  },
+  "tensionSrc": "https://www.chianshiangsports.com.tw/en/products/victor-tk-ryuga-muse-ii-tj"
  },
  {
   "id": "victor-thruster-ryuga-td",
@@ -39539,7 +40795,7 @@ window.RACKETS = [
    null,
    29
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 30, 4U ≤ 29 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 29, ≤ 30 lbs",
   "price": 2890,
   "frame": "High ResilienceModulus Graphite + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite + 6.8 SHAFT",
@@ -39583,7 +40839,8 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-ryuga-tm",
@@ -39634,6 +40891,7 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
+   "year",
    "level"
   ]
  },
@@ -39654,9 +40912,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   36
+   34
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 36, 4U ≤ 35, 5U ≤ 34 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 34, ≤ 35, ≤ 36 lbs",
   "price": 4500,
   "frame": "High Resilience Modulus Graphite + Nano Resin",
   "shaft": "High Resilience Modulus Graphite + Nano Resin + 6.8 SHAFT",
@@ -39686,8 +40944,10 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
+   "year",
    "level"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-syn",
@@ -39761,9 +41021,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   32
+   31
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 31, ≤ 32 lbs",
   "price": 2400,
   "frame": "High Resilience Graphite + Nano Resin + HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Graphite + Nano Resin + 6.8 SHAFT",
@@ -39793,8 +41053,10 @@ window.RACKETS = [
   "note": "",
   "est": [
    "balance",
+   "year",
    "level"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-t500",
@@ -39815,7 +41077,7 @@ window.RACKETS = [
    null,
    31
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 3U ≤ 32, 4U ≤ 31 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 31, ≤ 32 lbs",
   "price": 2890,
   "frame": "High Resilience Graphite + NanoResin HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Graphite + PYROFIL + 6.6 SHAFT",
@@ -39857,7 +41119,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "level"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-thruster-tty",
@@ -39928,7 +41191,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style",
-   "weight"
+   "weight",
+   "tension"
   ]
  },
  {
@@ -40049,6 +41313,7 @@ window.RACKETS = [
   "est": [
    "level",
    "style",
+   "year",
    "price",
    "flex",
    "weight"
@@ -40071,9 +41336,9 @@ window.RACKETS = [
   "grips": "G5, G6",
   "tension": [
    null,
-   31
+   30
   ],
-  "tensionNote": "ผู้ผลิตแยกตามน้ำหนัก: 4U ≤ 31, 5U ≤ 30 lbs (ไม้หนักกว่ารับได้ตึงกว่า)",
+  "tensionNote": "ผู้ผลิตระบุ: ≤ 30, ≤ 31 lbs",
   "price": "",
   "frame": "High Resilient Modulus Graphite +Nano Resin+HARD CORED TECHNOLOGY",
   "shaft": "High Resilient Modulus Graphite +Nano Resin + 6.4 SHAFT",
@@ -40106,7 +41371,8 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {}
  },
  {
   "id": "victor-wrist-enhancer-140",
@@ -40165,6 +41431,7 @@ window.RACKETS = [
   "note": "ไม้ซ้อมข้อมือ น้ำหนัก 130–140 g (Victor India และ racket-company.com) ใส่ค่ากลาง (ผลค้น Google 10 พ.ย. 2026)",
   "est": [
    "weight",
+   "year",
    "price",
    "level"
   ]
@@ -40218,6 +41485,7 @@ window.RACKETS = [
   "note": "สมดุลและความรู้สึกตอนตี (打球感) จากตารางสเปกในแคตตาล็อก Yonex 2026 หน้า 52; ความแข็งก้านแปลงจากความรู้สึกตอนตีจึงเป็นค่าประเมิน; ความตึงแนะนำ 17–22 lbs (推奨張力) จากแคตตาล็อกเดียวกัน",
   "est": [
    "style",
+   "year",
    "price"
   ]
  },
@@ -40226,21 +41494,21 @@ window.RACKETS = [
   "brand": "Yonex",
   "name": "Arcsaber 11",
   "year": 2013,
-  "yearSrc": "https://www.yonex.co.jp/company/pr/pdf/220107.pdf",
+  "yearSrc": "https://www.yonex.co.jp/company/pr/pdf/20130118.pdf",
   "style": "allround",
   "balance": "even",
   "bp": "",
   "flex": "stiff",
   "level": "advanced",
   "levelTo": "",
-  "weights": "3U",
-  "weight": 88,
-  "grips": "G4",
+  "weights": "2U, 3U",
+  "weight": 93,
+  "grips": "G4, G5",
   "tension": [
-   19,
-   27
+   20,
+   24
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 2U: 20–25, 3U: 19–24 lbs",
   "price": 3710,
   "frame": "",
   "shaft": "H.M. Graphite, Ultra PEF",
@@ -40255,7 +41523,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/1238/5608/products/ArcSaber_11_Badminton_Racket_Frame.jpg?v=1591208526",
   "source": "",
   "officialUrl": "",
-  "specSrc": "Arcsaber 11 Play listings (badmintonwebshop.com): 19-27 lbs",
+  "specSrc": "https://www.yonex.com/news/new-badminton-racquets-arcsaber-11-and-arcsaber-fb-debut/",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -40273,18 +41541,28 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/yonex-arcsaber-11-badminton-racket",
   "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"Level: Advanced\" (หลายร้าน), \"designed for advanced players\" (ผลค้น Google 5 พ.ย. 2026)",
   "est": [
-   "tension",
    "style",
    "price",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {
+   "2U": [
+    20,
+    25
+   ],
+   "3U": [
+    19,
+    24
+   ]
+  },
+  "tensionSrc": "https://yonexsports.no/wp-content/uploads/2019/09/LORES_YNX_2019BadmintonCatalog_Spreads_181225V3.pdf"
  },
  {
   "id": "yonex-arcsaber-11-play",
   "brand": "Yonex",
   "name": "Arcsaber 11 Play",
-  "year": 2021,
-  "yearSrc": "",
+  "year": 2022,
+  "yearSrc": "https://www.yonex.com/news/badminton/reinvented-arcsaber-series-for-decisive-control/",
   "style": "control",
   "balance": "even",
   "bp": 303,
@@ -40362,14 +41640,15 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ร้านส่วนใหญ่ (5 แห่ง) ระบุสมดุล ส่วน Badminton Bay วัดได้ 303 mm และเรียกหัวหนัก ตัวเลข mm เป็นค่าวัดของร้านเดียว (ตรวจ 11 พ.ย. 2026)",
-  "est": []
+  "est": [],
+  "modelCode": "ARC11-PL"
  },
  {
   "id": "yonex-arcsaber-11-pro",
   "brand": "Yonex",
   "name": "Arcsaber 11 Pro",
-  "year": 2021,
-  "yearSrc": "",
+  "year": 2022,
+  "yearSrc": "https://www.yonex.com/news/badminton/reinvented-arcsaber-series-for-decisive-control/",
   "style": "control",
   "balance": "even",
   "bp": "",
@@ -40380,10 +41659,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   19,
-   28
+   20,
+   27
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 20–28, 4U: 19–27 lbs",
   "price": 9505,
   "frame": "HM Graphite, POCKETING BOOSTER",
   "shaft": "HM Graphite, SUPER HMG,  ULTRA PE FIBER",
@@ -40447,14 +41726,25 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "ARC11-P",
+  "tensionByWeight": {
+   "3U": [
+    20,
+    28
+   ],
+   "4U": [
+    19,
+    27
+   ]
+  }
  },
  {
   "id": "yonex-arcsaber-11-tour",
   "brand": "Yonex",
   "name": "Arcsaber 11 Tour",
-  "year": 2021,
-  "yearSrc": "",
+  "year": 2022,
+  "yearSrc": "https://www.yonex.com/news/badminton/reinvented-arcsaber-series-for-decisive-control/",
   "style": "control",
   "balance": "even",
   "bp": "",
@@ -40465,10 +41755,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   19,
-   28
+   20,
+   27
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 20–28, 4U: 19–27 lbs",
   "price": 5837,
   "frame": "HM Graphite, POCKETING BOOSTER",
   "shaft": "HM Graphite, SUPER HMG",
@@ -40520,7 +41810,18 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "ARC11-T",
+  "tensionByWeight": {
+   "3U": [
+    20,
+    28
+   ],
+   "4U": [
+    19,
+    27
+   ]
+  }
  },
  {
   "id": "yonex-arcsaber-2-ability",
@@ -40578,8 +41879,11 @@ window.RACKETS = [
   "priceSrc": "https://www.nydhi.com/collections/new-products/products/yonex-arcsaber-2-ability-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
+   "style",
+   "level",
    "price"
-  ]
+  ],
+  "modelCode": "ARC2A"
  },
  {
   "id": "yonex-arcsaber-2-clear",
@@ -40640,7 +41944,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "modelCode": "ARC2C"
  },
  {
   "id": "yonex-arcsaber-2-feel",
@@ -40698,9 +42005,12 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonbay.com/yonex-arcsaber-2-feel-black-green-4ug5-badminton-racket.html",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
+   "style",
+   "level",
    "weight",
    "price"
-  ]
+  ],
+  "modelCode": "ARC2F"
  },
  {
   "id": "yonex-arcsaber-3",
@@ -40748,6 +42058,7 @@ window.RACKETS = [
    "flex",
    "level",
    "style",
+   "year",
    "price"
   ]
  },
@@ -40756,7 +42067,7 @@ window.RACKETS = [
   "brand": "Yonex",
   "name": "Arcsaber 7 Play",
   "year": 2022,
-  "yearSrc": "",
+  "yearSrc": "https://www.yonex.com/news/arcsaber-7-hold-for-flight/",
   "style": "control",
   "balance": "even",
   "bp": "",
@@ -40834,14 +42145,15 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "ARC7-PL"
  },
  {
   "id": "yonex-arcsaber-7-pro",
   "brand": "Yonex",
   "name": "Arcsaber 7 Pro",
   "year": 2022,
-  "yearSrc": "",
+  "yearSrc": "https://www.yonex.com/news/arcsaber-7-hold-for-flight/",
   "style": "control",
   "balance": "even",
   "bp": 290,
@@ -40927,14 +42239,15 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "ARC7-P"
  },
  {
   "id": "yonex-arcsaber-7-tour",
   "brand": "Yonex",
   "name": "Arcsaber 7 Tour",
   "year": 2022,
-  "yearSrc": "",
+  "yearSrc": "https://www.yonex.com/news/arcsaber-7-hold-for-flight/",
   "style": "control",
   "balance": "even",
   "bp": "",
@@ -41004,7 +42317,8 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "ARC7-T"
  },
  {
   "id": "yonex-arcsaber-73-light",
@@ -41065,7 +42379,8 @@ window.RACKETS = [
    "balance",
    "weight",
    "style",
-   "price"
+   "price",
+   "tension"
   ]
  },
  {
@@ -41110,7 +42425,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "yonex-arcsaber7-tour-2026",
@@ -41154,7 +42471,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "yonex-astrox-01-ability",
@@ -41167,7 +42486,7 @@ window.RACKETS = [
   "bp": 295,
   "flex": "flexible",
   "level": "beginner",
-  "levelTo": "",
+  "levelTo": "intermediate",
   "weights": "4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -41223,7 +42542,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "style"
+  ],
+  "modelCode": "AX01A"
  },
  {
   "id": "yonex-astrox-01-clear",
@@ -41236,7 +42558,7 @@ window.RACKETS = [
   "bp": "",
   "flex": "flexible",
   "level": "beginner",
-  "levelTo": "",
+  "levelTo": "intermediate",
   "weights": "4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -41288,7 +42610,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "style"
+  ],
+  "modelCode": "AX01C"
  },
  {
   "id": "yonex-astrox-01-feel",
@@ -41353,7 +42678,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "modelCode": "AX01F"
  },
  {
   "id": "yonex-astrox-02-ability",
@@ -41366,7 +42694,7 @@ window.RACKETS = [
   "bp": "",
   "flex": "flexible",
   "level": "beginner",
-  "levelTo": "",
+  "levelTo": "intermediate",
   "weights": "4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -41406,7 +42734,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "style"
+  ],
+  "modelCode": "AX02A"
  },
  {
   "id": "yonex-astrox-02-clear",
@@ -41419,7 +42750,7 @@ window.RACKETS = [
   "bp": "",
   "flex": "flexible",
   "level": "beginner",
-  "levelTo": "",
+  "levelTo": "intermediate",
   "weights": "4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -41459,7 +42790,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "style"
+  ],
+  "modelCode": "AX02C"
  },
  {
   "id": "yonex-astrox-02-feel",
@@ -41472,7 +42806,7 @@ window.RACKETS = [
   "bp": "",
   "flex": "flexible",
   "level": "beginner",
-  "levelTo": "",
+  "levelTo": "intermediate",
   "weights": "4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -41513,8 +42847,10 @@ window.RACKETS = [
   "priceSrc": "https://centralsports.co.uk/products/yonex-astrox-02-feel-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
+   "style",
    "price"
-  ]
+  ],
+  "modelCode": "AX02F"
  },
  {
   "id": "yonex-astrox-1-dg",
@@ -41527,7 +42863,7 @@ window.RACKETS = [
   "bp": 305,
   "flex": "flexible",
   "level": "intermediate",
-  "levelTo": "",
+  "levelTo": "advanced",
   "weights": "4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -41568,8 +42904,11 @@ window.RACKETS = [
   "priceSrc": "https://shop.kibisports.com/collections/yonex-copy?page=2",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
+   "style",
+   "balance",
    "price"
-  ]
+  ],
+  "modelCode": "AX1DG"
  },
  {
   "id": "yonex-astrox-10",
@@ -41623,7 +42962,6 @@ window.RACKETS = [
   "priceSrc": "https://centralsports.co.uk/products/yonex-astrox-10-2026-badminton-racket-1",
   "note": "",
   "est": [
-   "balance",
    "flex",
    "tension",
    "style",
@@ -41646,10 +42984,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   20,
-   29
+   21,
+   28
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
   "price": 5336,
   "frame": "HM Graphite, Nanomesh Neo, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
@@ -41713,7 +43051,18 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "AX100G",
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  }
  },
  {
   "id": "yonex-astrox-100-tour",
@@ -41731,10 +43080,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   20,
-   29
+   21,
+   28
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
   "price": 7338,
   "frame": "HM Graphite, Nanomesh Neo, Tungsten",
   "shaft": "HM Graphite, Namd™",
@@ -41798,7 +43147,18 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "AX100T",
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  }
  },
  {
   "id": "yonex-astrox-100va-game",
@@ -41816,10 +43176,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G3, G4, G5, G6",
   "tension": [
-   20,
-   29
+   21,
+   28
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
   "price": 4040,
   "frame": "HM Graphite, NANOMESH NEO, VOLUME CUT RESIN, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
@@ -41860,8 +43220,20 @@ window.RACKETS = [
   "priceSrc": "https://yumo.ca/products/yonex-x-viktor-axelsen-astrox-100va-game-unstrung-badminton-racket-limited-edition-greyish-beige",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
+   "style",
    "price"
-  ]
+  ],
+  "modelCode": "AX100VAG",
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  }
  },
  {
   "id": "yonex-astrox-100va-tour",
@@ -41879,10 +43251,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   20,
-   29
+   21,
+   28
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
   "price": 7460,
   "frame": "HM Graphite, NANOMESH NEO, VOLUME CUT RESIN, Tungsten",
   "shaft": "HM Graphite, Namd™",
@@ -41923,8 +43295,20 @@ window.RACKETS = [
   "priceSrc": "https://www.badmintonwarehouse.com/collections/frontpage/products/yonex-astrox-100va-tour-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
+   "style",
    "price"
-  ]
+  ],
+  "modelCode": "AX100VAT",
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  }
  },
  {
   "id": "yonex-astrox-100va-zz",
@@ -41942,10 +43326,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   20,
-   29
+   21,
+   28
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
   "price": 10000,
   "frame": "HM Graphite, Namd, Tungsten, Black Micro Core, Nanometric",
   "shaft": "HM Graphite, Namd™",
@@ -41993,7 +43377,18 @@ window.RACKETS = [
    "level",
    "style",
    "price"
-  ]
+  ],
+  "modelCode": "AX100VAZ",
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  }
  },
  {
   "id": "yonex-astrox-100zz",
@@ -42011,10 +43406,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   20,
-   29
+   21,
+   28
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
   "price": 9839,
   "frame": "HM Graphite, Namd, Tungsten, Black Micro Core, Nanometric",
   "shaft": "HM Graphite, Namd™",
@@ -42078,7 +43473,18 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "AX100ZZ",
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  }
  },
  {
   "id": "yonex-astrox-11",
@@ -42126,7 +43532,8 @@ window.RACKETS = [
    "flex",
    "level",
    "price",
-   "style"
+   "style",
+   "year"
   ]
  },
  {
@@ -42200,7 +43607,11 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "style",
+   "level"
+  ],
+  "modelCode": "AX22RX"
  },
  {
   "id": "yonex-astrox-22f",
@@ -42276,8 +43687,8 @@ window.RACKETS = [
   "balance": "head-heavy",
   "bp": "",
   "flex": "flexible",
-  "level": "intermediate",
-  "levelTo": "",
+  "level": "beginner",
+  "levelTo": "advanced",
   "weights": "4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -42318,8 +43729,11 @@ window.RACKETS = [
   "priceSrc": "https://scssports.in/collections/yonex/products/yonex-astrox-3-dg-hf-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
+   "style",
+   "balance",
    "price"
-  ]
+  ],
+  "modelCode": "AX3DG HF"
  },
  {
   "id": "yonex-astrox-3-dg-st",
@@ -42373,8 +43787,11 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/yonex-astrox-3dg-st-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
+   "style",
+   "level",
    "price"
-  ]
+  ],
+  "modelCode": "AX3DG ST"
  },
  {
   "id": "yonex-astrox-33",
@@ -42421,6 +43838,7 @@ window.RACKETS = [
   "est": [
    "flex",
    "style",
+   "year",
    "price"
   ]
  },
@@ -42469,7 +43887,8 @@ window.RACKETS = [
   "est": [
    "flex",
    "price",
-   "style"
+   "style",
+   "year"
   ]
  },
  {
@@ -42520,8 +43939,11 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/yonex-astrox-7-dg-badminton-racket",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
+   "style",
+   "level",
    "price"
-  ]
+  ],
+  "modelCode": "AX7DG"
  },
  {
   "id": "yonex-astrox-70",
@@ -42582,14 +44004,17 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "modelCode": "AX70"
  },
  {
   "id": "yonex-astrox-77-play",
   "brand": "Yonex",
   "name": "Astrox 77 Play",
-  "year": 2023,
-  "yearSrc": "",
+  "year": 2022,
+  "yearSrc": "https://www.yonex.com/news/badminton/new-astrox-77-this-power-is-ours/",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
@@ -42671,14 +44096,15 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "AX77-PL"
  },
  {
   "id": "yonex-astrox-77-pro",
   "brand": "Yonex",
   "name": "Astrox 77 Pro",
-  "year": 2023,
-  "yearSrc": "",
+  "year": 2022,
+  "yearSrc": "https://www.yonex.com/news/badminton/new-astrox-77-this-power-is-ours/",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
@@ -42689,10 +44115,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   19,
-   28
+   20,
+   27
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 20–28, 4U: 19–27 lbs",
   "price": 8672,
   "frame": "HM Graphite, Flex Fuse, Tungsten",
   "shaft": "HM Graphite, Namd™, Ultra PE Fiber",
@@ -42760,14 +44186,25 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "AX77-P",
+  "tensionByWeight": {
+   "3U": [
+    20,
+    28
+   ],
+   "4U": [
+    19,
+    27
+   ]
+  }
  },
  {
   "id": "yonex-astrox-77-tour",
   "brand": "Yonex",
   "name": "Astrox 77 Tour",
-  "year": 2026,
-  "yearSrc": "",
+  "year": 2022,
+  "yearSrc": "https://www.yonex.com/news/badminton/new-astrox-77-this-power-is-ours/",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 297.5,
@@ -42778,10 +44215,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   20,
-   29
+   21,
+   28
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
   "price": 6337,
   "frame": "HM Graphite, LIGHT Feel CARBON NEO, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
@@ -42841,20 +44278,31 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "AX77-T",
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  }
  },
  {
   "id": "yonex-astrox-88-play",
   "brand": "Yonex",
   "name": "Astrox 88 Play",
   "year": 2024,
-  "yearSrc": "https://yonex-fareast.com/astrox-88-s-d-a-new-dawn-for-doubles/",
+  "yearSrc": "https://www.yonex.com/news/astrox-88-sd-a-new-dawn-for-doubles/",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
   "flex": "medium",
   "level": "beginner",
-  "levelTo": "",
+  "levelTo": "intermediate",
   "weights": "4U",
   "weight": 83,
   "grips": "G5",
@@ -42926,14 +44374,18 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "style"
+  ],
+  "modelCode": "3AX88-PL",
+  "generation": 3
  },
  {
   "id": "yonex-astrox-88d-game",
   "brand": "Yonex",
   "name": "Astrox 88D Game",
   "year": 2024,
-  "yearSrc": "",
+  "yearSrc": "https://www.yonex.com/news/astrox-88-sd-a-new-dawn-for-doubles/",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
@@ -43007,14 +44459,16 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "3AX88D-G",
+  "generation": 3
  },
  {
   "id": "yonex-astrox-88d-pro",
   "brand": "Yonex",
   "name": "Astrox 88D Pro",
   "year": 2024,
-  "yearSrc": "",
+  "yearSrc": "https://www.yonex.com/news/astrox-88-sd-a-new-dawn-for-doubles/",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
@@ -43025,10 +44479,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   20,
-   29
+   21,
+   28
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
   "price": 9672,
   "frame": "HM Graphite, CFR, Tungsten",
   "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE, Ultra PE Fiber",
@@ -43092,14 +44546,26 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "3AX88D-P",
+  "generation": 3,
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  }
  },
  {
   "id": "yonex-astrox-88d-tour",
   "brand": "Yonex",
   "name": "Astrox 88D Tour",
   "year": 2024,
-  "yearSrc": "",
+  "yearSrc": "https://www.yonex.com/news/astrox-88-sd-a-new-dawn-for-doubles/",
   "style": "attack",
   "balance": "head-heavy",
   "bp": 305,
@@ -43110,10 +44576,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   20,
-   29
+   21,
+   28
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
   "price": 6670,
   "frame": "HM Graphite, CSR, Tungsten",
   "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE",
@@ -43169,14 +44635,26 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "3AX88D-T",
+  "generation": 3,
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  }
  },
  {
   "id": "yonex-astrox-88s-game",
   "brand": "Yonex",
   "name": "Astrox 88S Game",
   "year": 2024,
-  "yearSrc": "",
+  "yearSrc": "https://www.yonex.com/news/astrox-88-sd-a-new-dawn-for-doubles/",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
@@ -43254,14 +44732,16 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "3AX88S-G",
+  "generation": 3
  },
  {
   "id": "yonex-astrox-88s-pro",
   "brand": "Yonex",
   "name": "Astrox 88S Pro",
   "year": 2024,
-  "yearSrc": "",
+  "yearSrc": "https://www.yonex.com/news/astrox-88-sd-a-new-dawn-for-doubles/",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
@@ -43272,10 +44752,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   20,
-   29
+   21,
+   28
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
   "price": 9672,
   "frame": "HM Graphite, CFR, Tungsten",
   "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE, Ultra PE Fiber",
@@ -43343,14 +44823,26 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "3AX88S-P",
+  "generation": 3,
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  }
  },
  {
   "id": "yonex-astrox-88s-tour",
   "brand": "Yonex",
   "name": "Astrox 88S Tour",
   "year": 2024,
-  "yearSrc": "",
+  "yearSrc": "https://www.yonex.com/news/astrox-88-sd-a-new-dawn-for-doubles/",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
@@ -43361,10 +44853,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   20,
-   29
+   21,
+   28
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
   "price": 6670,
   "frame": "HM Graphite, CSR, Tungsten",
   "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE",
@@ -43424,14 +44916,26 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "3AX88S-T",
+  "generation": 3,
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  }
  },
  {
   "id": "yonex-astrox-99-game",
   "brand": "Yonex",
   "name": "Astrox 99 Game",
-  "year": 2021,
-  "yearSrc": "",
+  "year": 2025,
+  "yearSrc": "https://www.yonex.com/news/badminton/astrox-99-pure-power/",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
@@ -43440,7 +44944,7 @@ window.RACKETS = [
   "levelTo": "",
   "weights": "4U",
   "weight": 83,
-  "grips": "G5",
+  "grips": "",
   "tension": [
    20,
    28
@@ -43466,49 +44970,82 @@ window.RACKETS = [
   "clickUrl": "",
   "shopLinks": [
    {
-    "shop": "badmintonwarehouse.com",
-    "url": "https://badmintonwarehouse.com/products/yonex-astrox-99-game-2025-badminton-racket"
-   },
-   {
     "shop": "nydhi.com",
     "url": "https://nydhi.com/products/yonex-astrox-99-game-black-green-badminton-racket-2025"
-   },
-   {
-    "shop": "sportsshop.asia",
-    "url": "https://sportsshop.asia/products/yonex-astrox-99-game-badminton-racket-black-green-unstrung"
-   },
-   {
-    "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-astrox-99-game-3rd-gen-dark-green-factory-strung-used"
-   },
-   {
-    "shop": "yumo.ca",
-    "url": "https://yumo.ca/products/yonex-astrox-99-game-strung-badminton-racket-black-green"
-   },
-   {
-    "shop": "tenniszon.com",
-    "url": "https://tenniszon.com/products/yonex-astrox-99-game-strung-dark-green"
-   },
-   {
-    "shop": "centralsports.co.uk",
-    "url": "https://centralsports.co.uk/products/yonex-astrox-99-game-strung"
-   },
-   {
-    "shop": "thegodofsports.com",
-    "url": "https://thegodofsports.com/products/yonex-astrox-99-game-badminton-racket-3rd-gen"
    }
   ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "3AX99-G",
+  "generation": 3
+ },
+ {
+  "id": "yonex-astrox-99-game-2021",
+  "brand": "Yonex",
+  "name": "Astrox 99 Game (2021)",
+  "year": 2021,
+  "yearSrc": "https://www.yonex.com/news/new-astrox-99-designs-revealed-in-collaboration-with-kento-momota/",
+  "style": "",
+  "balance": "",
+  "bp": "",
+  "flex": "medium",
+  "level": "intermediate",
+  "levelTo": "",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5, G6",
+  "tension": [
+   21,
+   28
+  ],
+  "tensionNote": "ตามแหล่งสเปก: 3U: 21–29, 4U: 20–28 lbs",
+  "price": "",
+  "frame": "HM Graphite, NANOMESH NEO, VOLUME CUT RESIN, Tungsten",
+  "shaft": "HM Graphite, NANOMESH NEO",
+  "joint": "Built-in T-Joint",
+  "length": "+10 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.yonex.com/media/wysiwyg/Badminton_Catalog_2025_1.pdf",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "เจเนอเรชัน 2 สี White Tiger / Cherry Sunburst น้ำหนัก 83 กรัมเป็นค่าเฉลี่ยของ 4U",
+  "est": [
+   "level"
+  ],
+  "modelCode": "AX99-G",
+  "generation": 2,
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  },
+  "tensionSrc": "https://www.yonex.com/media/wysiwyg/Badminton_Catalog_2025_1.pdf"
  },
  {
   "id": "yonex-astrox-99-play",
   "brand": "Yonex",
   "name": "Astrox 99 Play",
-  "year": 2021,
-  "yearSrc": "",
+  "year": 2025,
+  "yearSrc": "https://www.yonex.com/news/badminton/astrox-99-pure-power/",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
@@ -43526,7 +45063,7 @@ window.RACKETS = [
   "price": 3669,
   "frame": "Graphite",
   "shaft": "Graphite",
-  "joint": "NEW Built-in T-Joint",
+  "joint": "",
   "length": "10 mm longer",
   "head": "",
   "pattern": "22 X 21",
@@ -43538,66 +45075,78 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/yonex-astrox-99-play/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-99-play-3ax99-pl",
   "specSrc": "",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=3229",
+  "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-99-play-black-green-4ug5-badminton-racket.html",
   "clickUrl": "https://badmintonclick.com.au/products/yonex-astrox-99-play-3rd-gen-83-grams-badminton-racquet",
   "shopLinks": [
    {
-    "shop": "badmintonplaza.com",
-    "url": "https://www.badmintonplaza.com/product_info.php?products_id=3229"
-   },
-   {
-    "shop": "joybadminton.com",
-    "url": "https://joybadminton.com/products/yonex-astrox-99-play-white-tiger"
-   },
-   {
-    "shop": "nydhi.com",
-    "url": "https://nydhi.com/products/yonex-astrox-99-play-white-tiger"
-   },
-   {
-    "shop": "sportsshop.asia",
-    "url": "https://sportsshop.asia/products/yonex-astrox-99-play-badminton-racket-black-green-unstrung-3rd-gen"
-   },
-   {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-astrox-99-play-3rd-gen-83-grams-badminton-racquet"
-   },
-   {
-    "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-astrox-99-play-3rd-gen-dark-green-factory-strung"
-   },
-   {
-    "shop": "yumo.ca",
-    "url": "https://yumo.ca/products/yonex-2021-astrox-99-play-strung-badminton-racket-white"
-   },
-   {
-    "shop": "tenniszon.com",
-    "url": "https://tenniszon.com/products/yonex-astrox-99-play-strung-dark-green"
-   },
-   {
-    "shop": "centralsports.co.uk",
-    "url": "https://centralsports.co.uk/products/yonex-astrox-99-play-strung"
-   },
-   {
-    "shop": "thegodofsports.com",
-    "url": "https://thegodofsports.com/products/yonex-astrox-99-play-badminton-racket-3rd-gen"
-   },
-   {
-    "shop": "shop.kibisports.com",
-    "url": "https://shop.kibisports.com/products/yonex-astrox-99-play-badminton-racket-kibi-sports"
    }
   ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "3AX99-PL",
+  "generation": 3
+ },
+ {
+  "id": "yonex-astrox-99-play-2021",
+  "brand": "Yonex",
+  "name": "Astrox 99 Play (2021)",
+  "year": 2021,
+  "yearSrc": "https://www.yonex.com/news/new-astrox-99-designs-revealed-in-collaboration-with-kento-momota/",
+  "style": "",
+  "balance": "",
+  "bp": "",
+  "flex": "medium",
+  "level": "beginner",
+  "levelTo": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   20,
+   28
+  ],
+  "tensionNote": "",
+  "price": 4410,
+  "frame": "Graphite",
+  "shaft": "Graphite",
+  "joint": "",
+  "length": "+10 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://www.badmintonbay.com/image/cache/data/yonex/astrox-99-play-cherry-sunburst/yonex-astrox-99-play-cherry-sunburst-badminton-racket-01-700x800.jpg",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.yonex.com/media/wysiwyg/Badminton_Catalog_2025_1.pdf",
+  "shopUrl": "",
+  "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-99-play-cherry-sunburst-4ug5-badminton-racket.html",
+  "clickUrl": "",
+  "shopLinks": "",
+  "priceNote": "แปลงจาก US$129.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceSrc": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-99-play-cherry-sunburst-4ug5-badminton-racket.html",
+  "note": "เจเนอเรชัน 2 สี White Tiger / Cherry Sunburst",
+  "est": [
+   "price",
+   "level"
+  ],
+  "modelCode": "AX99-PL",
+  "generation": 2,
+  "tensionSrc": "https://www.yonex.com/media/wysiwyg/Badminton_Catalog_2025_1.pdf"
  },
  {
   "id": "yonex-astrox-99-pro",
   "brand": "Yonex",
   "name": "Astrox 99 Pro",
-  "year": 2021,
-  "yearSrc": "",
+  "year": 2025,
+  "yearSrc": "https://www.yonex.com/news/badminton/astrox-99-pure-power/",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
@@ -43606,12 +45155,12 @@ window.RACKETS = [
   "levelTo": "",
   "weights": "4U, 3U",
   "weight": 83,
-  "grips": "G4, G5",
+  "grips": "G5",
   "tension": [
-   20,
+   21,
    28
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
   "price": 9672,
   "frame": "HM Graphite + CFR + Tungsten + 2G-Namd FLEX FORCE",
   "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE, Ultra PE Fiber",
@@ -43627,66 +45176,101 @@ window.RACKETS = [
   "source": "https://chobbad.com/racket/rk-yonex-astrox-99-pro/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/astrox-99-pro-3ax99-p",
   "specSrc": "https://www.badmintonwarehouse.com/collections/best-selling-badminton-rackets/products/yonex-astrox-99-pro-badminton-racket-2025-version",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4819",
+  "shopUrl": "",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/yonex-astrox-99-pro-black-green-4ug5-badminton-racket.html",
   "clickUrl": "https://badmintonclick.com.au/products/yonex-astrox-99-pro-3rd-gen-88-grams-badminton-racquet",
   "shopLinks": [
-   {
-    "shop": "badmintonplaza.com",
-    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4819"
-   },
-   {
-    "shop": "badmintonwarehouse.com",
-    "url": "https://badmintonwarehouse.com/products/yonex-astrox-99-pro-badminton-racket-2025-version"
-   },
    {
     "shop": "nydhi.com",
     "url": "https://nydhi.com/products/yonex-astrox-99-pro-black-green-badminton-racket-2025"
    },
    {
-    "shop": "sportsshop.asia",
-    "url": "https://sportsshop.asia/products/yonex-astrox-99-pro-badminton-racket-cherry-sunburst"
-   },
-   {
     "shop": "badmintonclick.com.au",
     "url": "https://badmintonclick.com.au/products/yonex-astrox-99-pro-3rd-gen-88-grams-badminton-racquet"
-   },
-   {
-    "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-astrox-99-pro-3rd-gen-dark-green-badminton-racquet"
-   },
-   {
-    "shop": "yumo.ca",
-    "url": "https://yumo.ca/products/yonex-astrox-99-pro-unstrung-badminton-racket-black-green"
-   },
-   {
-    "shop": "tenniszon.com",
-    "url": "https://tenniszon.com/products/yonex-astrox-99-pro-unstrung-dark-green"
-   },
-   {
-    "shop": "centralsports.co.uk",
-    "url": "https://centralsports.co.uk/products/yonex-astrox-99-pro-unstrung"
-   },
-   {
-    "shop": "thegodofsports.com",
-    "url": "https://thegodofsports.com/products/yonex-astrox-99-pro-badminton-racket-3rd-gen"
-   },
-   {
-    "shop": "shop.kibisports.com",
-    "url": "https://shop.kibisports.com/products/yonex-astrox-99-pro-badminton-racket-kibi-sports"
    }
   ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "3AX99-P",
+  "generation": 3,
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  }
+ },
+ {
+  "id": "yonex-astrox-99-pro-2021",
+  "brand": "Yonex",
+  "name": "Astrox 99 Pro (2021)",
+  "year": 2021,
+  "yearSrc": "https://www.yonex.com/news/new-astrox-99-designs-revealed-in-collaboration-with-kento-momota/",
+  "style": "",
+  "balance": "",
+  "bp": "",
+  "flex": "stiff",
+  "level": "pro",
+  "levelTo": "",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5, G6",
+  "tension": [
+   21,
+   28
+  ],
+  "tensionNote": "ตามแหล่งสเปก: 3U: 21–29, 4U: 20–28 lbs",
+  "price": "",
+  "frame": "HM Graphite, Namd, VOLUME CUT RESIN, Tungsten",
+  "shaft": "HM Graphite, Namd",
+  "joint": "New Built-in T-Joint",
+  "length": "+10 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "Japan",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.yonex.com/media/wysiwyg/Badminton_Catalog_2025_1.pdf",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "เจเนอเรชัน 2 สี White Tiger / Cherry Sunburst น้ำหนัก 83 กรัมเป็นค่าเฉลี่ยของ 4U",
+  "est": [
+   "level"
+  ],
+  "modelCode": "AX99-P",
+  "generation": 2,
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  },
+  "tensionSrc": "https://www.yonex.com/media/wysiwyg/Badminton_Catalog_2025_1.pdf"
  },
  {
   "id": "yonex-astrox-99-tour",
   "brand": "Yonex",
   "name": "Astrox 99 Tour",
-  "year": 2021,
-  "yearSrc": "",
+  "year": 2025,
+  "yearSrc": "https://www.yonex.com/news/badminton/astrox-99-pure-power/",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
@@ -43697,10 +45281,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   20,
-   29
+   21,
+   28
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
   "price": 6670,
   "frame": "HM Graphite + CSR + Tungsten + 2G-Namd FLEX FORCE",
   "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE",
@@ -43727,40 +45311,83 @@ window.RACKETS = [
    {
     "shop": "nydhi.com",
     "url": "https://nydhi.com/products/yonex-astrox-99-tour-black-green-badminton-racket-2025"
-   },
-   {
-    "shop": "sportsshop.asia",
-    "url": "https://sportsshop.asia/products/yonex-astrox-99-tour-badminton-racket-white-tiger-unstrung"
-   },
-   {
-    "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/yonex-astrox-99-tour-3rd-gen-dark-green-badminton-racquet-demo-rental"
-   },
-   {
-    "shop": "yumo.ca",
-    "url": "https://yumo.ca/products/yonex-astrox-99-tour-unstrung-badminton-racket-black-green"
-   },
-   {
-    "shop": "tenniszon.com",
-    "url": "https://tenniszon.com/products/yonex-astrox-99-tour-unstrung-dark-green"
-   },
-   {
-    "shop": "centralsports.co.uk",
-    "url": "https://centralsports.co.uk/products/yonex-astrox-99-tour-strung"
-   },
-   {
-    "shop": "thegodofsports.com",
-    "url": "https://thegodofsports.com/products/yonex-astrox-99-tour-badminton-racket-3rd-gen"
-   },
-   {
-    "shop": "shop.kibisports.com",
-    "url": "https://shop.kibisports.com/products/yonex-astrox-99-tour-badminton-racket-kibi-sports"
    }
   ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "3AX99-T",
+  "generation": 3,
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  }
+ },
+ {
+  "id": "yonex-astrox-99-tour-2021",
+  "brand": "Yonex",
+  "name": "Astrox 99 Tour (2021)",
+  "year": 2021,
+  "yearSrc": "https://www.yonex.com/news/new-astrox-99-designs-revealed-in-collaboration-with-kento-momota/",
+  "style": "",
+  "balance": "",
+  "bp": "",
+  "flex": "stiff",
+  "level": "advanced",
+  "levelTo": "",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5, G6",
+  "tension": [
+   21,
+   28
+  ],
+  "tensionNote": "ตามแหล่งสเปก: 3U: 21–29, 4U: 20–28 lbs",
+  "price": "",
+  "frame": "HM Graphite, NANOMESH NEO, VOLUME CUT RESIN, Tungsten",
+  "shaft": "HM Graphite, Namd",
+  "joint": "Built-in T-Joint",
+  "length": "+10 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "",
+  "source": "",
+  "officialUrl": "",
+  "specSrc": "https://www.yonex.com/media/wysiwyg/Badminton_Catalog_2025_1.pdf",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "เจเนอเรชัน 2 สี White Tiger / Cherry Sunburst น้ำหนัก 83 กรัมเป็นค่าเฉลี่ยของ 4U",
+  "est": [
+   "level"
+  ],
+  "modelCode": "AX99-T",
+  "generation": 2,
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  },
+  "tensionSrc": "https://www.yonex.com/media/wysiwyg/Badminton_Catalog_2025_1.pdf"
  },
  {
   "id": "yonex-astrox-attack-9",
@@ -43813,7 +45440,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "yonex-astrox-e13",
@@ -43871,6 +45500,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level"
   ]
  },
@@ -44112,8 +45742,8 @@ window.RACKETS = [
   "id": "yonex-astrox-nextage",
   "brand": "Yonex",
   "name": "Astrox Nextage",
-  "year": 2022,
-  "yearSrc": "",
+  "year": 2023,
+  "yearSrc": "https://www.yonex.com/news/badminton/astrox-nextage-addictive-feel/",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
@@ -44195,7 +45825,8 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "AXNT"
  },
  {
   "id": "yonex-b-4000",
@@ -44259,7 +45890,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price"
-  ]
+  ],
+  "modelCode": "B4000"
  },
  {
   "id": "yonex-b7000mdm",
@@ -44316,7 +45948,8 @@ window.RACKETS = [
    "style",
    "level",
    "weight"
-  ]
+  ],
+  "modelCode": "B7000MDM"
  },
  {
   "id": "yonex-duora-z-strike",
@@ -44334,10 +45967,10 @@ window.RACKETS = [
   "weight": 88,
   "grips": "G4, G5",
   "tension": [
-   20,
-   29
+   21,
+   28
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 2U: 21–29, 3U: 20–28 lbs",
   "price": 10673,
   "frame": "HM Graphite, NANOMETRIC DR, Hyper-MG",
   "shaft": "HM Graphite, NANOMETRIC, EX-HMG",
@@ -44373,7 +46006,18 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "DUO-ZS",
+  "tensionByWeight": {
+   "2U": [
+    21,
+    29
+   ],
+   "3U": [
+    20,
+    28
+   ]
+  }
  },
  {
   "id": "yonex-gr-303i",
@@ -44414,7 +46058,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "yonex-gr303",
@@ -44465,6 +46111,7 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "balance",
    "flex",
    "style",
    "level"
@@ -44514,7 +46161,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style"
-  ]
+  ],
+  "modelCode": "ISOL3"
  },
  {
   "id": "yonex-isometric-tr0",
@@ -44582,7 +46230,8 @@ window.RACKETS = [
   "est": [
    "balance",
    "style"
-  ]
+  ],
+  "modelCode": "ISO-TR0"
  },
  {
   "id": "yonex-isometric-tr1",
@@ -44641,7 +46290,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "style"
-  ]
+  ],
+  "modelCode": "ISO-TR1"
  },
  {
   "id": "yonex-muscle-power-1",
@@ -44696,7 +46346,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "weight"
-  ]
+  ],
+  "modelCode": "MP1"
  },
  {
   "id": "yonex-muscle-power-2",
@@ -44751,7 +46402,8 @@ window.RACKETS = [
   "note": "",
   "est": [
    "weight"
-  ]
+  ],
+  "modelCode": "MP2"
  },
  {
   "id": "yonex-muscle-power-2-junior",
@@ -44809,9 +46461,11 @@ window.RACKETS = [
   "priceSrc": "https://tenniszon.com/products/yonex-muscle-power-2-junior-strung-white-lime-yellow",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
+   "level",
    "style",
    "price"
-  ]
+  ],
+  "modelCode": "MP2JR"
  },
  {
   "id": "yonex-muscle-power-5-lt",
@@ -44861,10 +46515,12 @@ window.RACKETS = [
   "priceSrc": "https://yumo.ca/products/yonex-muscle-power-5-lt-badminton-racket-strung-white-turquoise",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
+   "level",
    "balance",
    "style",
    "price"
-  ]
+  ],
+  "modelCode": "MP5LT"
  },
  {
   "id": "yonex-muscle-power-8-lt",
@@ -44913,7 +46569,8 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "MP8LT"
  },
  {
   "id": "yonex-nanoflare-001-ability",
@@ -44982,7 +46639,11 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "style",
+   "level"
+  ],
+  "modelCode": "NF-001A"
  },
  {
   "id": "yonex-nanoflare-001-clear",
@@ -44995,7 +46656,7 @@ window.RACKETS = [
   "bp": "",
   "flex": "flexible",
   "level": "beginner",
-  "levelTo": "",
+  "levelTo": "intermediate",
   "weights": "5U",
   "weight": 78,
   "grips": "G4, G5",
@@ -45059,7 +46720,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "style"
+  ],
+  "modelCode": "NF-001C"
  },
  {
   "id": "yonex-nanoflare-001-feel",
@@ -45128,7 +46792,10 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ],
+  "modelCode": "NF-001F"
  },
  {
   "id": "yonex-nanoflare-002-ability",
@@ -45141,7 +46808,7 @@ window.RACKETS = [
   "bp": "",
   "flex": "flexible",
   "level": "beginner",
-  "levelTo": "",
+  "levelTo": "intermediate",
   "weights": "4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -45185,7 +46852,11 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "style",
+   "balance"
+  ],
+  "modelCode": "NF-002A"
  },
  {
   "id": "yonex-nanoflare-002-clear",
@@ -45198,7 +46869,7 @@ window.RACKETS = [
   "bp": "",
   "flex": "flexible",
   "level": "beginner",
-  "levelTo": "",
+  "levelTo": "intermediate",
   "weights": "4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -45246,7 +46917,11 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "style",
+   "balance"
+  ],
+  "modelCode": "NF-002C"
  },
  {
   "id": "yonex-nanoflare-002-feel",
@@ -45259,7 +46934,7 @@ window.RACKETS = [
   "bp": "",
   "flex": "flexible",
   "level": "beginner",
-  "levelTo": "",
+  "levelTo": "intermediate",
   "weights": "4U",
   "weight": 83,
   "grips": "G4, G5",
@@ -45307,14 +46982,18 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
-  "est": []
+  "est": [
+   "style",
+   "balance"
+  ],
+  "modelCode": "NF-002F"
  },
  {
   "id": "yonex-nanoflare-1000-game",
   "brand": "Yonex",
   "name": "Nanoflare 1000 Game",
-  "year": 2021,
-  "yearSrc": "",
+  "year": 2023,
+  "yearSrc": "https://www.yonex.com/news/lightning-strikes-with-the-new-nanoflare-1000/",
   "style": "speed",
   "balance": "head-light",
   "bp": 300,
@@ -45392,14 +47071,15 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ร้านส่วนใหญ่ (7 จาก 8) ระบุหัวเบาตามที่ Yonex เรียก ส่วน Badminton Bay วัดได้ 300 mm และเรียกหัวหนัก ตัวเลข mm เป็นค่าวัดของร้านเดียว (ตรวจ 11 พ.ย. 2026)",
-  "est": []
+  "est": [],
+  "modelCode": "NF-1000G"
  },
  {
   "id": "yonex-nanoflare-1000-play",
   "brand": "Yonex",
   "name": "Nanoflare 1000 Play",
-  "year": 2021,
-  "yearSrc": "",
+  "year": 2023,
+  "yearSrc": "https://www.yonex.com/news/lightning-strikes-with-the-new-nanoflare-1000/",
   "style": "speed",
   "balance": "head-light",
   "bp": 298,
@@ -45481,14 +47161,15 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "NF-1000P"
  },
  {
   "id": "yonex-nanoflare-1000-tour",
   "brand": "Yonex",
   "name": "Nanoflare 1000 Tour",
-  "year": 2024,
-  "yearSrc": "",
+  "year": 2023,
+  "yearSrc": "https://www.yonex.com/news/lightning-strikes-with-the-new-nanoflare-1000/",
   "style": "speed",
   "balance": "head-light",
   "bp": "",
@@ -45499,10 +47180,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   20,
-   29
+   21,
+   28
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
   "price": 7338,
   "frame": "HM Graphite, Nanocell NEO, EX-HYPER MG",
   "shaft": "HM Graphite",
@@ -45566,14 +47247,25 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "NF-1000T",
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  }
  },
  {
   "id": "yonex-nanoflare-1000z",
   "brand": "Yonex",
   "name": "Nanoflare 1000Z",
-  "year": 2021,
-  "yearSrc": "",
+  "year": 2023,
+  "yearSrc": "https://www.yonex.com/news/lightning-strikes-with-the-new-nanoflare-1000/",
   "style": "speed",
   "balance": "head-light",
   "bp": 295,
@@ -45584,10 +47276,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   20,
-   29
+   21,
+   28
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
   "price": 9505,
   "frame": "HM Graphite, NANOMETRIC DR, M40X, EX-HYPER MG",
   "shaft": "HM Graphite, Ultra PE FIBER",
@@ -45647,7 +47339,18 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "NF-1000Z",
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  }
  },
  {
   "id": "yonex-nanoflare-111",
@@ -45694,7 +47397,8 @@ window.RACKETS = [
   "est": [
    "flex",
    "price",
-   "style"
+   "style",
+   "year"
   ]
  },
  {
@@ -45801,7 +47505,8 @@ window.RACKETS = [
    "flex",
    "level",
    "price",
-   "style"
+   "style",
+   "year"
   ]
  },
  {
@@ -45850,6 +47555,7 @@ window.RACKETS = [
    "flex",
    "level",
    "style",
+   "year",
    "price"
   ]
  },
@@ -45911,7 +47617,8 @@ window.RACKETS = [
   "est": [
    "style",
    "price"
-  ]
+  ],
+  "modelCode": "NF-555"
  },
  {
   "id": "yonex-nanoflare-70",
@@ -45969,15 +47676,18 @@ window.RACKETS = [
   "priceSrc": "https://racquetguys.ca/products/yonex-nanoflare-70-badminton-racquet",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
+   "style",
+   "level",
    "price"
-  ]
+  ],
+  "modelCode": "NF-70"
  },
  {
   "id": "yonex-nanoflare-700",
   "brand": "Yonex",
   "name": "Nanoflare 700",
   "year": 2019,
-  "yearSrc": "https://yonex-fareast.com/unleashing-new-heights-and-velocity-with-the-new-nanoflare-700/",
+  "yearSrc": "https://www.yonex.com/news/unleashing-new-heights-and-velocity-with-the-new-nanoflare-700/",
   "style": "speed",
   "balance": "head-light",
   "bp": "",
@@ -46034,8 +47744,8 @@ window.RACKETS = [
   "id": "yonex-nanoflare-700-game",
   "brand": "Yonex",
   "name": "Nanoflare 700 Game",
-  "year": 2023,
-  "yearSrc": "",
+  "year": 2024,
+  "yearSrc": "https://www.yonex.com/news/unleashing-new-heights-and-velocity-with-the-new-nanoflare-700/",
   "style": "speed",
   "balance": "head-light",
   "bp": 285,
@@ -46113,14 +47823,16 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "2NF-700G",
+  "generation": 2
  },
  {
   "id": "yonex-nanoflare-700-play",
   "brand": "Yonex",
   "name": "Nanoflare 700 Play",
-  "year": 2023,
-  "yearSrc": "",
+  "year": 2024,
+  "yearSrc": "https://www.yonex.com/news/unleashing-new-heights-and-velocity-with-the-new-nanoflare-700/",
   "style": "speed",
   "balance": "head-light",
   "bp": 285,
@@ -46149,7 +47861,7 @@ window.RACKETS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-nanoflare-700-play-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-nanoflare-700-play/",
   "officialUrl": "https://www.yonex.com/badminton/racquets/2nf700pl",
-  "specSrc": "https://badmintonhq.co.uk/products/yonex-nanoflare-700-game-4u-badminton-racket-silver-sky-blue",
+  "specSrc": "https://www.yonex.com/badminton/racquets/2nf700pl",
   "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4976",
   "bayUrl": "https://www.badmintonbay.com/Badminton-Racket/Yonex-Badminton-Racket/Yonex-nanoflare-700-play-midnight-purple-4ug5-badminton-racket.html",
   "clickUrl": "https://badmintonclick.com.au/products/yonex-nanoflare-700-play-silver-sky-blue-83-grams-badminton-racquet",
@@ -46198,14 +47910,16 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "2NF-700PL",
+  "generation": 2
  },
  {
   "id": "yonex-nanoflare-700-pro",
   "brand": "Yonex",
   "name": "Nanoflare 700 Pro",
-  "year": 2023,
-  "yearSrc": "",
+  "year": 2024,
+  "yearSrc": "https://www.yonex.com/news/unleashing-new-heights-and-velocity-with-the-new-nanoflare-700/",
   "style": "speed",
   "balance": "head-light",
   "bp": 290,
@@ -46216,10 +47930,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   19,
-   28
+   20,
+   27
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 4U: 20–28, 5U: 19–27 lbs",
   "price": 9172,
   "frame": "HM Graphite, NANOMETRIC DR, M40X, EX-HYPER MG",
   "shaft": "HM Graphite, SUPER HMG,  ULTRA PE FIBER",
@@ -46283,14 +47997,26 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "2NF-700P",
+  "generation": 2,
+  "tensionByWeight": {
+   "4U": [
+    20,
+    28
+   ],
+   "5U": [
+    19,
+    27
+   ]
+  }
  },
  {
   "id": "yonex-nanoflare-700-tour",
   "brand": "Yonex",
   "name": "Nanoflare 700 Tour",
-  "year": 2023,
-  "yearSrc": "",
+  "year": 2024,
+  "yearSrc": "https://www.yonex.com/news/unleashing-new-heights-and-velocity-with-the-new-nanoflare-700/",
   "style": "speed",
   "balance": "head-light",
   "bp": "",
@@ -46301,10 +48027,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G5",
   "tension": [
-   19,
-   28
+   20,
+   27
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 4U: 20–28, 5U: 19–27 lbs",
   "price": 6170,
   "frame": "HM Graphite, Nanocell NEO, SUPER HMG, SERVO FILTER",
   "shaft": "HM Graphite, SERVO FILTER",
@@ -46368,28 +48094,40 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "2NF-700T",
+  "generation": 2,
+  "tensionByWeight": {
+   "4U": [
+    20,
+    28
+   ],
+   "5U": [
+    19,
+    27
+   ]
+  }
  },
  {
   "id": "yonex-nanoflare-800",
   "brand": "Yonex",
   "name": "Nanoflare 800",
   "year": 2019,
-  "yearSrc": "https://www.nydhi.com/blogs/news/yonex-nanoflare-800-badminton-racket-the-newest-edition",
+  "yearSrc": "https://www.yonex.co.jp/company/pr/pdf/190820.pdf",
   "style": "speed",
   "balance": "head-light",
   "bp": "",
   "flex": "stiff",
   "level": "advanced",
   "levelTo": "",
-  "weights": "5U",
+  "weights": "3U, 4U",
   "weight": 78,
   "grips": "G5",
   "tension": [
-   null,
+   21,
    28
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 3U: 21–29, 4U: 20–28 lbs",
   "price": 5970,
   "frame": "HM Graphite / M40X / EX-HMG / VDM",
   "shaft": "HM Graphite / NANOMETRIC",
@@ -46404,7 +48142,7 @@ window.RACKETS = [
   "img": "https://cdn.shopify.com/s/files/1/0522/5398/2873/products/nf-800lt.png?v=1674014528",
   "source": "",
   "officialUrl": "",
-  "specSrc": "Nanoflare 800 Play listing (prokicksports.com): up to 28 lbs",
+  "specSrc": "https://www.yonex.co.jp/company/pr/pdf/190820.pdf",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -46422,18 +48160,30 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/yonex-nanoflare-800-badminton-racket",
   "note": "",
   "est": [
+   "balance",
    "level",
-   "tension",
    "style",
-   "price"
-  ]
+   "price",
+   "weight"
+  ],
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  },
+  "tensionSrc": "https://fliphtml5.com/tocjo/qrpj/2022_Yonex_Badminton_Catalogue_View_SR/"
  },
  {
   "id": "yonex-nanoflare-800-game",
   "brand": "Yonex",
   "name": "Nanoflare 800 Game",
-  "year": 2022,
-  "yearSrc": "",
+  "year": 2023,
+  "yearSrc": "https://www.yonex.com/news/badminton/new-nanoflare-800-the-counter-drive-theyll-never-see-coming/",
   "style": "speed",
   "balance": "head-light",
   "bp": 300,
@@ -46507,14 +48257,15 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "ร้านส่วนใหญ่ (6 จาก 7) ระบุหัวเบาตามที่ Yonex เรียก ส่วน Badminton Bay วัดได้ 300 mm และเรียกหัวหนัก ตัวเลข mm เป็นค่าวัดของร้านเดียว (ตรวจ 11 พ.ย. 2026)",
-  "est": []
+  "est": [],
+  "modelCode": "NF-800G"
  },
  {
   "id": "yonex-nanoflare-800-play",
   "brand": "Yonex",
   "name": "Nanoflare 800 Play",
-  "year": 2022,
-  "yearSrc": "",
+  "year": 2023,
+  "yearSrc": "https://www.yonex.com/news/badminton/new-nanoflare-800-the-counter-drive-theyll-never-see-coming/",
   "style": "speed",
   "balance": "head-light",
   "bp": 280,
@@ -46588,14 +48339,15 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "NF-800PL"
  },
  {
   "id": "yonex-nanoflare-800-pro",
   "brand": "Yonex",
   "name": "Nanoflare 800 Pro",
-  "year": 2022,
-  "yearSrc": "",
+  "year": 2023,
+  "yearSrc": "https://www.yonex.com/news/badminton/new-nanoflare-800-the-counter-drive-theyll-never-see-coming/",
   "style": "speed",
   "balance": "head-light",
   "bp": 290,
@@ -46606,10 +48358,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   20,
-   29
+   21,
+   28
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
   "price": 9172,
   "frame": "HM Graphite, M40X, SUPER HMG, Copper",
   "shaft": "HM Graphite, SUPER HMG,  ULTRA PE FIBER",
@@ -46677,14 +48429,25 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "NF-800P",
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  }
  },
  {
   "id": "yonex-nanoflare-800-tour",
   "brand": "Yonex",
   "name": "Nanoflare 800 Tour",
-  "year": 2022,
-  "yearSrc": "",
+  "year": 2023,
+  "yearSrc": "https://www.yonex.com/news/badminton/new-nanoflare-800-the-counter-drive-theyll-never-see-coming/",
   "style": "speed",
   "balance": "head-light",
   "bp": "",
@@ -46695,10 +48458,10 @@ window.RACKETS = [
   "weight": 83,
   "grips": "G4, G5, G6",
   "tension": [
-   20,
-   29
+   21,
+   28
   ],
-  "tensionNote": "",
+  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
   "price": 6170,
   "frame": "Graphite, Nanocell NEO, HM Graphite, Copper",
   "shaft": "HM Graphite, SUPER HMG",
@@ -46746,7 +48509,18 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "NF-800T",
+  "tensionByWeight": {
+   "3U": [
+    21,
+    29
+   ],
+   "4U": [
+    20,
+    28
+   ]
+  }
  },
  {
   "id": "yonex-nanoflare-e13",
@@ -46804,8 +48578,10 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
+   "year",
    "level"
-  ]
+  ],
+  "modelCode": "NF-E13"
  },
  {
   "id": "yonex-nanoflare-junior",
@@ -46867,15 +48643,18 @@ window.RACKETS = [
   "priceSrc": "https://www.tennisnuts.com/yonex-nanoflare-junior-graphite-badminton-racket-1458238.html",
   "note": "ข้อมูลจากเว็บ Yonex ทางการ (ระดับ/แนวการเล่นประเมินจากซีรีส์)",
   "est": [
+   "style",
+   "level",
    "price"
-  ]
+  ],
+  "modelCode": "NF-JR"
  },
  {
   "id": "yonex-nanoflare-nextage",
   "brand": "Yonex",
   "name": "Nanoflare Nextage",
-  "year": 2023,
-  "yearSrc": "",
+  "year": 2024,
+  "yearSrc": "https://www.yonex.com/news/nanoflare-nextage-exhilarating-feel/",
   "style": "speed",
   "balance": "head-light",
   "bp": "",
@@ -46957,7 +48736,8 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [],
+  "modelCode": "NF-NT"
  },
  {
   "id": "yonex-nanoflare-speed-7",
@@ -47010,7 +48790,9 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": []
+  "est": [
+   "year"
+  ]
  },
  {
   "id": "yonex-nanoray-70-light",
@@ -47353,6 +49135,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/yonex-voltric-lite-20i-badminton-racket",
   "note": "",
   "est": [
+   "balance",
    "style",
    "price"
   ]
@@ -47459,6 +49242,7 @@ window.RACKETS = [
   "priceSrc": "https://thegodofsports.com/products/yonex-voltric-lite-47i-badminton-racket",
   "note": "",
   "est": [
+   "balance",
    "style",
    "price",
    "weight"

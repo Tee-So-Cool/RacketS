@@ -190,7 +190,7 @@ window.STRINGS = [
   "durability": 9,
   "sound": 8,
   "shock": 6,
-  "tensionMax": "",
+  "tensionMax": 33,
   "price": "",
   "colors": "ขาว เหลือง",
   "madeIn": "",
@@ -198,7 +198,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/apacs-signature-pro-66-300x300.jpg",
   "source": "https://chobbad.com/string/apacs-signature-pro-66/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://apacs.pnxbadminton.com/wp-content/uploads/2023/09/apacs_racket_2024.pdf",
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
@@ -224,7 +224,7 @@ window.STRINGS = [
   "durability": 10,
   "sound": 6,
   "shock": 8,
-  "tensionMax": "",
+  "tensionMax": 38,
   "price": "",
   "colors": "ขาว ดำ",
   "madeIn": "",
@@ -232,7 +232,7 @@ window.STRINGS = [
   "img": "https://chobbad.com/wp-content/uploads/2026/09/apacs-signature-pro-70-300x300.jpg",
   "source": "https://chobbad.com/string/apacs-signature-pro-70/",
   "officialUrl": "",
-  "specSrc": "",
+  "specSrc": "https://apacs.pnxbadminton.com/wp-content/uploads/2023/09/apacs_racket_2024.pdf",
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
@@ -259,7 +259,7 @@ window.STRINGS = [
   "sound": 10,
   "shock": 9,
   "tensionMax": "",
-  "price": 400,
+  "price": 390,
   "colors": "",
   "madeIn": "",
   "note": "",
@@ -277,7 +277,7 @@ window.STRINGS = [
     "url": "https://centralsports.co.uk/products/hundred-jp58-magnite-hbaa-4m009-2"
    }
   ],
-  "priceNote": "แปลงจาก C$16.50 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก C$16.50 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/hundred-jp-58-magnite-badminton-string",
   "feature": "repulsion",
   "feel": "",
@@ -301,7 +301,7 @@ window.STRINGS = [
   "sound": "",
   "shock": "",
   "tensionMax": "",
-  "price": 350,
+  "price": 340,
   "colors": "",
   "madeIn": "",
   "note": "",
@@ -319,7 +319,7 @@ window.STRINGS = [
     "url": "https://centralsports.co.uk/products/hundred-jp70-hunter-hbaa-4m133-2"
    }
   ],
-  "priceNote": "แปลงจาก C$14.50 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก C$14.50 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/hundred-jp-70-hunter-badminton-string",
   "feature": "control",
   "feel": "",
@@ -365,7 +365,7 @@ window.STRINGS = [
     "url": "https://centralsports.co.uk/products/hundred-jp65-magnite-hbaa-4m008-4"
    }
   ],
-  "priceNote": "แปลงจาก US$12.90 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$12.90 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/hundred-jp65-magnite-10m-badminton-string",
   "feature": "repulsion",
   "feel": "",
@@ -434,7 +434,7 @@ window.STRINGS = [
     "url": "https://racquetguys.com/products/kizuna-z63x-badminton-string-cyan"
    }
   ],
-  "priceNote": "แปลงจาก US$16.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$16.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://racquetguys.com/products/kizuna-z63x-badminton-string-cyan",
   "feature": "",
   "feel": "",
@@ -472,7 +472,7 @@ window.STRINGS = [
     "url": "https://racquetguys.com/products/kizuna-z65x-badminton-string-light-green"
    }
   ],
-  "priceNote": "แปลงจาก US$16.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$16.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://racquetguys.com/products/kizuna-z65x-badminton-string-light-green",
   "feature": "",
   "feel": "",
@@ -515,7 +515,7 @@ window.STRINGS = [
     "url": "https://racquetguys.com/products/kizuna-z69t-badminton-string-red"
    }
   ],
-  "priceNote": "แปลงจาก US$13.95 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$13.95 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://racquetguys.com/products/kizuna-z69t-badminton-string-red",
   "feature": "",
   "feel": "",
@@ -562,7 +562,7 @@ window.STRINGS = [
     "url": "https://in.lining.studio/products/ap-6-badminton"
    }
   ],
-  "priceNote": "แปลงจาก S$6.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$6.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/ap-6-badminton",
   "feature": "",
   "feel": "",
@@ -604,7 +604,7 @@ window.STRINGS = [
     "url": "https://in.lining.studio/products/ap66-rainbow"
    }
   ],
-  "priceNote": "แปลงจาก S$9.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$9.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/ap66-rainbow",
   "feature": "repulsion",
   "feel": "",
@@ -690,7 +690,7 @@ window.STRINGS = [
     "url": "https://in.lining.studio/products/ap70-rainbow"
    }
   ],
-  "priceNote": "แปลงจาก ₹299.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹299.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/ap70-rainbow",
   "feature": "durability",
   "feel": "",
@@ -751,7 +751,7 @@ window.STRINGS = [
   "sound": "",
   "shock": "",
   "tensionMax": "",
-  "price": 400,
+  "price": 390,
   "colors": "",
   "madeIn": "",
   "note": "",
@@ -769,7 +769,7 @@ window.STRINGS = [
     "url": "https://in.lining.studio/products/n58"
    }
   ],
-  "priceNote": "แปลงจาก S$15.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$15.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/n58",
   "feature": "repulsion",
   "feel": "medium",
@@ -811,7 +811,7 @@ window.STRINGS = [
     "url": "https://in.lining.studio/products/n61"
    }
   ],
-  "priceNote": "แปลงจาก S$14.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$14.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/n61",
   "feature": "repulsion",
   "feel": "medium",
@@ -853,7 +853,7 @@ window.STRINGS = [
     "url": "https://yumo.ca/products/li-ning-badminton-string-n68-rebound-axjs014-single"
    }
   ],
-  "priceNote": "แปลงจาก ₹625.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹625.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/n68",
   "feature": "",
   "feel": "",
@@ -877,7 +877,7 @@ window.STRINGS = [
   "sound": 7,
   "shock": 7,
   "tensionMax": "",
-  "price": 210,
+  "price": 220,
   "colors": "ขาวหงส์ เหลืองอ่อน แดงสด น้ำเงินแคริบเบียน ชมพูนีออน ส้ม เขียวเทอร์ควอยส์",
   "madeIn": "",
   "note": "ไสํไนลอนความเหนียวสูง ถักโพลิเมอร์ · สมดุลทุกด้าน · ควบคุม 7/10 เสียง 7/10 ซับแรง 7/10",
@@ -891,7 +891,7 @@ window.STRINGS = [
     "url": "https://in.lining.studio/products/n69"
    }
   ],
-  "priceNote": "แปลงจาก ₹599.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹599.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/n69",
   "feature": "",
   "feel": "",
@@ -965,7 +965,7 @@ window.STRINGS = [
     "url": "https://in.lining.studio/products/ns70"
    }
   ],
-  "priceNote": "แปลงจาก ₹749.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹749.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/ns70",
   "feature": "",
   "feel": "",
@@ -1003,7 +1003,7 @@ window.STRINGS = [
     "url": "https://in.lining.studio/products/ns95"
    }
   ],
-  "priceNote": "แปลงจาก ₹749.00 ที่ 1 INR = 0.35503 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก ₹749.00 ที่ 1 INR = 0.35986 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://in.lining.studio/products/ns95",
   "feature": "",
   "feel": "",
@@ -1147,7 +1147,7 @@ window.STRINGS = [
     "url": "https://in.lining.studio/products/no-3"
    }
   ],
-  "priceNote": "แปลงจาก S$19.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$19.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/no-3",
   "feature": "",
   "feel": "",
@@ -1189,7 +1189,7 @@ window.STRINGS = [
     "url": "https://in.lining.studio/products/no-3-boost"
    }
   ],
-  "priceNote": "แปลงจาก S$12.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$12.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/no-3-boost",
   "feature": "repulsion",
   "feel": "",
@@ -1283,7 +1283,7 @@ window.STRINGS = [
     "url": "https://thegodofsports.com/products/li-ning-no-7-rebound-badminton-string-2"
    }
   ],
-  "priceNote": "แปลงจาก S$10.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$10.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/no-7",
   "feature": "",
   "feel": "",
@@ -1329,7 +1329,7 @@ window.STRINGS = [
     "url": "https://thegodofsports.com/products/li-ning-no-7-boost-badminton-string-2"
    }
   ],
-  "priceNote": "แปลงจาก S$12.00 ที่ 1 SGD = 26.359 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก S$12.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/no-7-boost",
   "feature": "durability",
   "feel": "soft",
@@ -1913,7 +1913,7 @@ window.STRINGS = [
     "url": "https://tenniszon.com/products/victor-vbs-58-nano-10m-white"
    }
   ],
-  "priceNote": "แปลงจาก C$18.00 ที่ 1 CAD = 24.082 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก C$18.00 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://tenniszon.com/products/victor-vbs-58-nano-10m-white",
   "feature": "",
   "feel": "medium",
@@ -2158,7 +2158,7 @@ window.STRINGS = [
     "url": "https://yumo.ca/products/victor-vbs-68-badminton-string"
    }
   ],
-  "priceNote": "แปลงจาก US$15.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$15.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://racquetguys.com/products/victor-vbs-68-badminton-string-white",
   "feature": "control",
   "feel": "hard",
@@ -2372,7 +2372,7 @@ window.STRINGS = [
   "sound": "",
   "shock": "",
   "tensionMax": "",
-  "price": 400,
+  "price": 410,
   "colors": "",
   "madeIn": "",
   "note": "",
@@ -2398,7 +2398,7 @@ window.STRINGS = [
     "url": "https://tenniszon.com/products/victor-vbs-70-power-10m-black"
    }
   ],
-  "priceNote": "แปลงจาก US$11.99 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$11.99 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/victor-vbs-70p-badminton-string",
   "feature": "durability",
   "feel": "soft",
@@ -2842,7 +2842,7 @@ window.STRINGS = [
     "url": "https://centralsports.co.uk/products/yonex-bg66-force-10m-set-yellow-accessory"
    }
   ],
-  "priceNote": "แปลงจาก US$13.00 ที่ 1 USD = 33.77 บาท (ECB 2026-10-27) ไม่รวมภาษีนำเข้าและค่าส่ง",
+  "priceNote": "แปลงจาก US$13.00 ที่ 1 USD = 33.915 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://joybadminton.com/products/yonex-bg-66-force-10m-badminton-string-3-colors",
   "feature": "",
   "feel": "",

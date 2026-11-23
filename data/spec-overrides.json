@@ -193,6 +193,8 @@
  },
  "Li-Ning Tectonic 7": {
   "new": true,
+  "year": 2019,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_7548.html",
   "style": "allround",
   "balance": "even",
   "flex": "flexible",
@@ -721,10 +723,13 @@
  "Victor Thruster Ryuga Muse II": {
   "new": true,
   "brand": "Victor",
+  "modelCode": "TK-RYUGA MUSE II TJ",
   "weights": "4U, 5U",
   "weight": 78,
-  "tmax": 30,
-  "src": "https://www.google.com/search?q=%22Ryuga+Muse+II%22+victor+ราคา",
+  "tensionByWeight": {"4U": [null, 31], "5U": [null, 30]},
+  "tensionSrc": "https://www.chianshiangsports.com.tw/en/products/victor-tk-ryuga-muse-ii-tj",
+  "officialUrl": "https://ca.victorsport.com/product/tk-ryugamuseiitj",
+  "src": "https://ca.victorsport.com/product/tk-ryugamuseiitj",
   "img": "https://www.badmintonwarehouse.com/cdn/shop/files/victor-ryuga-muse-ii-tj-02-clean_700x700.jpg?v=1790875934",
   "balance": "head-heavy",
   "priceForeign": 269.0,
@@ -854,13 +859,16 @@
  "Victor Thruster Ryuga III": {
   "new": true,
   "brand": "Victor",
+  "modelCode": "TK-RYUGA-III-CQ",
   "style": "attack",
   "balance": "head-heavy",
   "flex": "stiff",
   "weights": "4U, 5U",
   "weight": 82,
-  "tmax": 31,
-  "src": "https://www.google.com/search?q=%22Ryuga+III%22+victor+lbs",
+  "tensionByWeight": {"4U": [null, 32], "5U": [null, 31]},
+  "tensionSrc": "https://www.badmintonplaza.com/product_info.php?products_id=5252",
+  "officialUrl": "https://ca.victorsport.com/product/tk-ryugaiiicq",
+  "src": "https://ca.victorsport.com/product/tk-ryugaiiicq",
   "img": "https://www.badmintonwarehouse.com/cdn/shop/files/victor-ryuga-iii-cq-racket-full_700x700.webp?v=1791997642",
   "priceForeign": 230.0,
   "currency": "USD",
@@ -868,7 +876,6 @@
   "priceNote": "ราคาร้านไทย TT CAFE Badminton Shop (Facebook) ช่วงเปิดตัว",
   "priceSrc": "https://www.google.com/search?q=%22Ryuga+III%22+victor+ราคา",
   "year": 2026,
-  "tensionNote": "ร้านไทยระบุ 4U ≤ 32, 5U ≤ 31 lbs (Lazada) อีกร้านพิมพ์เป็น 3U ≤ 32 / 4U ≤ 31 แต่รุ่นนี้มีแค่ 4U กับ 5U",
   "level": "advanced",
   "estFields": [
    "level"
@@ -876,6 +883,8 @@
   "note": "ระดับ: ร้านระบุ \"Made for Advanced Attacking Players\" และ \"intermediate to advanced players\" (ผลค้น Google 5 พ.ย. 2026) จึงลดจากโปรเป็นระดับสูง (≈)"
  },
  "Victor Auraspeed 100X": {
+  "year": 2020,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_8502.html?from=bbshot",
   "weights": "4U, 3U",
   "tmax": 28,
   "src": "https://thegodofsports.com/products/victor-auraspeed-100x-badminton-racket",
@@ -1023,6 +1032,8 @@
   "src": "https://www.badmintonbay.com/Badminton-Racket/Apacs-Badminton-Racket/apacs-feather-weight-500-grey-badminton-racket.html"
  },
  "Apacs Feather Weight 55": {
+  "year": null,
+  "note": "ยังไม่ยืนยันปีเปิดตัว Badminton Bay กล่าวถึงรุ่นนี้แล้วในปี 2018 จึงตัดปี 2021 ออกจากแคตตาล็อก",
   "balance": "head-heavy",
   "flex": "flexible",
   "weights": "8U",
@@ -1128,6 +1139,7 @@
   "currency": "MYR"
  },
  "Apacs Stardom Pro III": {
+  "officialUrl": "https://apacssports.com/product/stardom-pro-iii/",
   "balance": "even",
   "flex": "medium",
   "weights": "4U",
@@ -1243,6 +1255,8 @@
   "src": "https://badmintonbites.com/the-complete-guide-to-victor-badminton-rackets-auraspeed-series/"
  },
  "Victor Auraspeed 70K": {
+  "year": 2018,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_6925.html",
   "balance": "even",
   "flex": "stiff",
   "weights": "4U, 3U",
@@ -1271,10 +1285,13 @@
   "src": "https://racquetguys.com/collections/clearance-badminton-racquets/products/victor-auraspeed-33h-badminton-racquet"
  },
  "Victor Auraspeed 90K II": {
+  "modelCode": "ARS-90K II",
   "balance": "head-light",
   "flex": "stiff",
   "weights": "4U, 3U",
-  "tmax": 30,
+  "tensionByWeight": {"3U": [null, 31], "4U": [null, 30]},
+  "tensionSrc": "https://ca.victorsport.com/product/auraspeed-90k-ii-b",
+  "officialUrl": "https://ca.victorsport.com/product/auraspeed-90k-ii-b",
   "src": "https://www.nydhi.com/products/victor-auraspeed-90k-ii-victor-badminton-rackets",
   "level": "advanced",
   "priceForeign": 229.99,
@@ -1826,6 +1843,9 @@
   "currency": "USD"
  },
  "Victor Jetspeed S 12 II": {
+  "tensionByWeight": {"3U": [null, 30], "4U": [null, 29]},
+  "tensionSrc": "https://shop.au.victorsport.com/products/jetspeed-s-12-ii",
+  "officialUrl": "https://shop.au.victorsport.com/products/jetspeed-s-12-ii",
   "flex": "stiff",
   "src": "https://www.nydhi.com/collections/all/products/victor-jetspeed-s-12-ii-f-badminton-racket",
   "level": "advanced",
@@ -2032,23 +2052,50 @@
   "flex": "flexible",
   "weight": 88,
   "priceForeign": 499.0,
-  "currency": "SGD"
+  "currency": "SGD",
+  "year": 2019,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_7070.html"
  },
  "Li-Ning Axforce 100 II": {
-  "tmax": 30,
+  "modelCode": "AYPV039",
+  "tensionByWeight": {"3U": [null, 31], "4U": [null, 30]},
+  "tensionSrc": "https://www.liningtw.com/products/aypv039-3",
+  "officialUrl": "https://www.liningtw.com/products/aypv039-3",
   "src": "https://joybadminton.com/products/li-ning-axforce-100-ii-green-4ug5",
   "priceForeign": 249.99,
   "currency": "USD"
  },
+ "Li-Ning Axforce 100 II Max": {
+  "new": true,
+  "brand": "Li-Ning",
+  "modelCode": "AYPW047-4",
+  "year": 2026,
+  "yearSrc": "https://jp.shopnings.com/li-ning-axforce-100-ii-max-badminton-racket/",
+  "style": "attack",
+  "balance": "head-heavy",
+  "flex": "stiff",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5",
+  "length": "675 mm",
+  "tmax": 30,
+  "src": "https://order.funport.co.jp/view/item/000000001932?category_page_id=badminton_racket",
+  "note": "รหัส AYPW047-4 สเปก 4U/G5 ตาม FUNPORT ตัวแทน Li-Ning ญี่ปุ่น"
+ },
  "Li-Ning Axforce 50": {
   "weight": 79,
   "src": "https://badmintonhq.co.uk/products/li-ning-axforce-50-5u-badminton-racket-dark-purple-blue",
-  "weights": "5U"
+  "weights": "5U",
+  "year": 2022,
+  "yearSrc": "https://www.badmintoncn.com/eqm.php?a=view&eid=12469"
  },
  "Li-Ning Axforce 80 Light": {
+  "year": 2025,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_22261.html",
   "balance": "head-heavy",
   "flex": "stiff",
-  "tmax": 30,
+  "tensionByWeight": {"4U": [null, 30], "5U": [null, 29]},
+  "tensionSrc": "https://order.funport.co.jp/view/item/000000001834?category_page_id=all_items",
   "src": "https://joybadminton.com/products/li-ning-axforce-80-light-white-blue-4ug6",
   "weights": "5U, 4U",
   "priceForeign": 229.0,
@@ -2092,7 +2139,9 @@
  "Li-Ning Windstorm 72": {
   "weight": 72,
   "src": "https://smashuk.co/products/li-ning-windstorm-72-badminton-racket-frame-only",
-  "weights": "6U"
+  "weights": "6U",
+  "year": 2017,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_6657.html"
  },
  "Li-Ning Windstorm 79-H": {
   "weight": 79,
@@ -2169,14 +2218,118 @@
   "currency": "MYR"
  },
  "Yonex Astrox 77 Tour": {
+  "year": 2022,
+  "yearSrc": "https://www.yonex.com/news/badminton/new-astrox-77-this-power-is-ours/",
   "balance": "head-heavy",
   "src": "https://www.tennisnuts.com/yonex-astrox-77-tour-badminton-racket-1621163.html"
  },
+ "Yonex Astrox 77 Pro": {"year": 2022, "yearSrc": "https://www.yonex.com/news/badminton/new-astrox-77-this-power-is-ours/"},
+ "Yonex Astrox 77 Play": {"year": 2022, "yearSrc": "https://www.yonex.com/news/badminton/new-astrox-77-this-power-is-ours/"},
+ "Yonex Astrox Nextage": {"year": 2023, "yearSrc": "https://www.yonex.com/news/badminton/astrox-nextage-addictive-feel/"},
+ "Yonex Nanoflare Nextage": {"year": 2024, "yearSrc": "https://www.yonex.com/news/nanoflare-nextage-exhilarating-feel/"},
+ "Yonex Arcsaber 7 Pro": {"year": 2022, "yearSrc": "https://www.yonex.com/news/arcsaber-7-hold-for-flight/"},
+ "Yonex Arcsaber 7 Tour": {"year": 2022, "yearSrc": "https://www.yonex.com/news/arcsaber-7-hold-for-flight/"},
+ "Yonex Arcsaber 7 Play": {"year": 2022, "yearSrc": "https://www.yonex.com/news/arcsaber-7-hold-for-flight/"},
  "Yonex Astrox 99 Pro": {
+  "year": 2025,
+  "yearSrc": "https://www.yonex.com/news/badminton/astrox-99-pure-power/",
   "weight": 83,
   "tmax": 28,
   "src": "https://www.badmintonwarehouse.com/collections/best-selling-badminton-rackets/products/yonex-astrox-99-pro-badminton-racket-2025-version",
   "weights": "4U, 3U"
+ },
+ "Yonex Astrox 99 Tour": {
+  "year": 2025,
+  "yearSrc": "https://www.yonex.com/news/badminton/astrox-99-pure-power/"
+ },
+ "Yonex Astrox 99 Game": {
+  "year": 2025,
+  "yearSrc": "https://www.yonex.com/news/badminton/astrox-99-pure-power/"
+ },
+ "Yonex Astrox 99 Play": {
+  "year": 2025,
+  "yearSrc": "https://www.yonex.com/news/badminton/astrox-99-pure-power/"
+ },
+ "Yonex Astrox 99 Pro (2021)": {
+  "new": true,
+  "brand": "Yonex",
+  "generation": 2,
+  "modelCode": "AX99-P",
+  "year": 2021,
+  "yearSrc": "https://www.yonex.com/news/new-astrox-99-designs-revealed-in-collaboration-with-kento-momota/",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5, G6",
+  "flex": "stiff",
+  "frame": "HM Graphite, Namd, VOLUME CUT RESIN, Tungsten",
+  "shaft": "HM Graphite, Namd",
+  "joint": "New Built-in T-Joint",
+  "madeIn": "Japan",
+  "length": "+10 mm",
+  "tensionByWeight": {"3U": [21, 29], "4U": [20, 28]},
+  "tensionSrc": "https://www.yonex.com/media/wysiwyg/Badminton_Catalog_2025_1.pdf",
+  "src": "https://www.yonex.com/media/wysiwyg/Badminton_Catalog_2025_1.pdf",
+  "note": "เจเนอเรชัน 2 สี White Tiger / Cherry Sunburst น้ำหนัก 83 กรัมเป็นค่าเฉลี่ยของ 4U"
+ },
+ "Yonex Astrox 99 Tour (2021)": {
+  "new": true,
+  "brand": "Yonex",
+  "generation": 2,
+  "modelCode": "AX99-T",
+  "year": 2021,
+  "yearSrc": "https://www.yonex.com/news/new-astrox-99-designs-revealed-in-collaboration-with-kento-momota/",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5, G6",
+  "flex": "stiff",
+  "frame": "HM Graphite, NANOMESH NEO, VOLUME CUT RESIN, Tungsten",
+  "shaft": "HM Graphite, Namd",
+  "joint": "Built-in T-Joint",
+  "length": "+10 mm",
+  "tensionByWeight": {"3U": [21, 29], "4U": [20, 28]},
+  "tensionSrc": "https://www.yonex.com/media/wysiwyg/Badminton_Catalog_2025_1.pdf",
+  "src": "https://www.yonex.com/media/wysiwyg/Badminton_Catalog_2025_1.pdf",
+  "note": "เจเนอเรชัน 2 สี White Tiger / Cherry Sunburst น้ำหนัก 83 กรัมเป็นค่าเฉลี่ยของ 4U"
+ },
+ "Yonex Astrox 99 Game (2021)": {
+  "new": true,
+  "brand": "Yonex",
+  "generation": 2,
+  "modelCode": "AX99-G",
+  "year": 2021,
+  "yearSrc": "https://www.yonex.com/news/new-astrox-99-designs-revealed-in-collaboration-with-kento-momota/",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G4, G5, G6",
+  "flex": "medium",
+  "frame": "HM Graphite, NANOMESH NEO, VOLUME CUT RESIN, Tungsten",
+  "shaft": "HM Graphite, NANOMESH NEO",
+  "joint": "Built-in T-Joint",
+  "length": "+10 mm",
+  "tensionByWeight": {"3U": [21, 29], "4U": [20, 28]},
+  "tensionSrc": "https://www.yonex.com/media/wysiwyg/Badminton_Catalog_2025_1.pdf",
+  "src": "https://www.yonex.com/media/wysiwyg/Badminton_Catalog_2025_1.pdf",
+  "note": "เจเนอเรชัน 2 สี White Tiger / Cherry Sunburst น้ำหนัก 83 กรัมเป็นค่าเฉลี่ยของ 4U"
+ },
+ "Yonex Astrox 99 Play (2021)": {
+  "new": true,
+  "brand": "Yonex",
+  "generation": 2,
+  "modelCode": "AX99-PL",
+  "year": 2021,
+  "yearSrc": "https://www.yonex.com/news/new-astrox-99-designs-revealed-in-collaboration-with-kento-momota/",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "flex": "medium",
+  "frame": "Graphite",
+  "shaft": "Graphite",
+  "length": "+10 mm",
+  "tmin": 20,
+  "tmax": 28,
+  "tensionSrc": "https://www.yonex.com/media/wysiwyg/Badminton_Catalog_2025_1.pdf",
+  "src": "https://www.yonex.com/media/wysiwyg/Badminton_Catalog_2025_1.pdf",
+  "note": "เจเนอเรชัน 2 สี White Tiger / Cherry Sunburst"
  },
  "Yonex Astrox E13": {
   "flex": "medium",
@@ -2217,10 +2370,14 @@
   "src": "https://www.badmintonplanet.eu/yonex-muscle-power-8-lt"
  },
  "Yonex Nanoflare 700 Pro": {
+  "year": 2024,
+  "yearSrc": "https://www.yonex.com/news/unleashing-new-heights-and-velocity-with-the-new-nanoflare-700/",
   "weight": 83,
   "src": "https://www.badmintonwarehouse.com/collections/badminton-rackets-for-speed/products/yonex-nanoflare-700-pro-badminton-racket",
   "weights": "4U"
  },
+ "Yonex Nanoflare 700 Tour": {"year": 2024, "yearSrc": "https://www.yonex.com/news/unleashing-new-heights-and-velocity-with-the-new-nanoflare-700/"},
+ "Yonex Nanoflare 700 Game": {"year": 2024, "yearSrc": "https://www.yonex.com/news/unleashing-new-heights-and-velocity-with-the-new-nanoflare-700/"},
  "Yonex Nanoflare Speed 7": {
   "weight": 78,
   "src": "https://thegodofsports.com/products/yonex-nanoflare-speed-7-badminton-racket-blue",
@@ -2254,7 +2411,9 @@
   "balance": "head-heavy",
   "flex": "flexible",
   "weight": 83,
-  "tmax": 32
+  "tmax": 32,
+  "year": 2021,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_specs_9216.html"
  },
  "Li-Ning Windstorm 72 Power": {
   "weights": "6U",
@@ -2263,7 +2422,9 @@
   "weight": 72,
   "tmax": 30,
   "priceForeign": 194.9,
-  "currency": "SGD"
+  "currency": "SGD",
+  "year": 2024,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_19553.html"
  },
  "Yonex Astrox 02 Clear": {
   "price": 1299,
@@ -2318,8 +2479,10 @@
   "src": "https://racquetguys.ca/products/yonex-nanoflare-70-badminton-racquet"
  },
  "Yonex Nanoflare 700 Play": {
+  "year": 2024,
+  "yearSrc": "https://www.yonex.com/news/unleashing-new-heights-and-velocity-with-the-new-nanoflare-700/",
   "weights": "4U",
-  "src": "https://badmintonhq.co.uk/products/yonex-nanoflare-700-game-4u-badminton-racket-silver-sky-blue"
+  "src": "https://www.yonex.com/badminton/racquets/2nf700pl"
  },
  "Yonex Nanoflare Junior": {
   "priceForeign": 55.99,
@@ -2340,6 +2503,8 @@
   "flex": "flexible"
  },
  "Victor Auraspeed 90K II TD": {
+  "year": 2023,
+  "yearSrc": "https://www.badmintoncn.com/eqm.php?a=view&eid=16614",
   "balance": "head-light",
   "flex": "stiff",
   "weights": "4U, 3U",
@@ -2411,18 +2576,17 @@
   "src": "https://thegodofsports.com/products/victor-thruster-hmr-pro-badminton-racket-gold"
  },
  "Victor Thruster Ryuga II": {
+  "modelCode": "TK-RYUGA II J",
   "balance": "head-heavy",
   "weights": "4U, 3U",
-  "tmax": 31,
+  "tensionByWeight": {"3U": [null, 32], "4U": [null, 30]},
+  "tensionSrc": "https://shop.au.victorsport.com/products/thruster-ryuga-ii-j",
+  "officialUrl": "https://ca.victorsport.com/product/thruster-ryuga-ii-j",
   "price": 5590,
-  "src": "MamMoth Sport (Facebook) for Ryuga II TD: Flex Stiff, 4U ≤29 lbs",
-  "flex": "stiff",
-  "estFields": [
-   "flex"
-  ],
+  "src": "https://ca.victorsport.com/product/thruster-ryuga-ii-j",
   "level": "intermediate",
   "levelTo": "advanced",
-  "note": "ระดับ: รีวิว: \"intermediate to advanced offensive players\" (ผลค้น Google 10 พ.ย. 2026); แหล่งบอกเป็นช่วง จึงเก็บเป็นช่วง"
+  "note": "รุ่น J ระบุ 3U ≤ 32 lbs ทั้งสองแหล่ง Victor Australia ให้ 4U ≤ 30 lbs ส่วน Victor Canada ให้ 4U ≤ 31 lbs จึงใช้ขีดจำกัด 30 lbs เมื่อไม่ทราบตลาดของไม้"
  },
  "Victor Thruster Ryuga II TD": {
   "balance": "head-heavy",
@@ -2628,7 +2792,9 @@
   "weights": "3U",
   "weight": 87,
   "tmax": 32,
-  "src": "https://sg.lining.studio/products/aeronaut-6000"
+  "src": "https://sg.lining.studio/products/aeronaut-6000",
+  "year": 2020,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_7711.html"
  },
  "Li-Ning Aeronaut 7000 Boost": {
   "balance": "head-heavy",
@@ -2697,6 +2863,10 @@
   "currency": "SGD",
   "src": "https://sg.lining.studio/products/bladex-700-4u"
  },
+ "Li-Ning BladeX 800": {
+  "tensionByWeight": {"3U": [null, 31], "4U": [null, 30]},
+  "tensionSrc": "https://order.funport.co.jp/view/item/000000001039"
+ },
  "Li-Ning G-Force 3800 Superlite": {
   "flex": "flexible",
   "weights": "5U",
@@ -2731,7 +2901,9 @@
   "tmax": 30,
   "priceForeign": 194.9,
   "currency": "SGD",
-  "src": "https://sg.lining.studio/products/windstorm-72-speed"
+  "src": "https://sg.lining.studio/products/windstorm-72-speed",
+  "year": 2024,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_19553.html"
  },
  "Mizuno ACROSPEED 0": {
   "balance": "head-heavy",
@@ -2779,7 +2951,18 @@
   "currency": "EUR",
   "src": "https://www.sakurasport.com/en/1756-badminton-racket-auraspeed-fantome-j-4ug5-victor-4005543023239.html",
   "level": "advanced",
-  "note": "ระดับ: ร้านระบุ \"PLAYER LEVEL: Advanced\" และ \"intermediate to advanced\" (ผลค้น Google 8 พ.ย. 2026)"
+  "note": "ระดับ: ร้านระบุ \"PLAYER LEVEL: Advanced\" และ \"intermediate to advanced\" (ผลค้น Google 8 พ.ย. 2026)",
+  "tensionByWeight": {
+   "3U": [
+    null,
+    30
+   ],
+   "4U": [
+    null,
+    29
+   ]
+  },
+  "tensionSrc": "https://www.badmintoncn.com/cbo_eq/view_specs.php?eid=20874"
  },
  "Victor Auraspeed JU": {
   "flex": "medium",
@@ -3160,6 +3343,8 @@
   ]
  },
  "Li-Ning Aeronaut 6000C": {
+  "year": 2020,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view.php?eid=8388",
   "priceForeign": 749,
   "currency": "MYR",
   "src": "https://shopee.com.my/LI-NING-AERONAUT-6000C"
@@ -3175,6 +3360,11 @@
   "src": "https://www.shopnings.com/li-ning-3d-calibar-600b"
  },
  "Li-Ning Axforce 90 New": {
+  "modelCode": "AYPV001",
+  "weights": "3U, 4U, 5U",
+  "tensionByWeight": {"3U": [null, 31], "4U": [null, 30], "5U": [null, 29]},
+  "tensionSrc": "https://www.liningtw.com/products/aypv001",
+  "officialUrl": "https://www.liningtw.com/products/aypv001",
   "priceForeign": 269.99,
   "currency": "USD",
   "src": "https://joybadminton.com/products/li-ning-axforce-90-new-black"
@@ -3197,24 +3387,26 @@
   "grips": "G7",
   "src": "https://www.yonex.co.jp/assets/pdf/catalog/badminton/2026_badminton_catalog.pdf"
  },
- "Yonex Arcsaber 11": {"year": 2013, "yearSrc": "https://www.yonex.co.jp/company/pr/pdf/220107.pdf", 
-  "tmin": 19,
-  "tmax": 27,
-  "estFields": [
-   "tension"
-  ],
-  "src": "Arcsaber 11 Play listings (badmintonwebshop.com): 19-27 lbs",
+ "Yonex Arcsaber 11": {
+  "year": 2013,
+  "yearSrc": "https://www.yonex.co.jp/company/pr/pdf/20130118.pdf",
+  "weights": "2U, 3U",
+  "grips": "G4, G5",
+  "tensionByWeight": {"2U": [20, 25], "3U": [19, 24]},
+  "tensionSrc": "https://yonexsports.no/wp-content/uploads/2019/09/LORES_YNX_2019BadmintonCatalog_Spreads_181225V3.pdf",
+  "src": "https://www.yonex.com/news/new-badminton-racquets-arcsaber-11-and-arcsaber-fb-debut/",
   "level": "advanced",
   "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"Level: Advanced\" (หลายร้าน), \"designed for advanced players\" (ผลค้น Google 5 พ.ย. 2026)"
  },
- "Yonex Nanoflare 800": {"year": 2019, "yearSrc": "https://www.nydhi.com/blogs/news/yonex-nanoflare-800-badminton-racket-the-newest-edition", 
-  "tmax": 28,
-  "estFields": [
-   "tension"
-  ],
-  "src": "Nanoflare 800 Play listing (prokicksports.com): up to 28 lbs"
+ "Yonex Nanoflare 800": {
+  "year": 2019,
+  "yearSrc": "https://www.yonex.co.jp/company/pr/pdf/190820.pdf",
+  "weights": "3U, 4U",
+  "tensionByWeight": {"3U": [21, 29], "4U": [20, 28]},
+  "tensionSrc": "https://fliphtml5.com/tocjo/qrpj/2022_Yonex_Badminton_Catalogue_View_SR/",
+  "src": "https://www.yonex.co.jp/company/pr/pdf/190820.pdf"
  },
- "Yonex Nanoflare 700": {"year": 2019, "yearSrc": "https://yonex-fareast.com/unleashing-new-heights-and-velocity-with-the-new-nanoflare-700/", 
+ "Yonex Nanoflare 700": {"year": 2019, "yearSrc": "https://www.yonex.com/news/unleashing-new-heights-and-velocity-with-the-new-nanoflare-700/",
   "balance": "head-light",
   "estFields": [
    "balance"
@@ -3267,7 +3459,9 @@
    "level"
   ],
   "note": "Li-Ning (in.lining.studio): \"This racket is tuned for professional players\" — Li-Ning ใช้คำนี้กับไม้หลายระดับ (รวม 3D Calibar 600 Combat) จึงตีความเป็นระดับสูง (≈)",
-  "src": "https://in.lining.studio/products/aeronaut-7000"
+  "src": "https://in.lining.studio/products/aeronaut-7000",
+  "year": 2019,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_6903.html"
  },
  "Li-Ning Aeronaut 7000 Combat": {
   "level": "advanced",
@@ -3325,9 +3519,13 @@
  "Victor Auraspeed 99": {
   "level": "advanced",
   "note": "Badminton Warehouse: Player Level \"Advanced / Competitive\"",
-  "src": "https://www.badmintonwarehouse.com/products/victor-auraspeed-99-badminton-racket"
+  "src": "https://www.badmintonwarehouse.com/products/victor-auraspeed-99-badminton-racket",
+  "year": 2026,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view.php?eid=25967"
  },
  "Victor Auraspeed 90S": {
+  "year": 2018,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_6927.html",
   "level": "advanced",
   "note": "ระดับ: ร้านหลายแห่งระบุตรงกัน \"An All-Round Racket for an Advanced Player\", ตารางเทียบรุ่น Auraspeed: 90S = Advanced (ผลค้น Google 5 พ.ย. 2026)"
  },
@@ -3347,7 +3545,9 @@
   "estFields": [
    "level"
   ],
-  "note": "ระดับ: ร้านพิมพ์ป้าย \"Player Level: Professional\" ของ Li-Ning ซึ่งข้อมูลนี้อ่านเป็นระดับสูง และรีวิวบอก \"NOT BEGINNER FRIENDLY\" (ผลค้น Google 8 พ.ย. 2026) (≈)"
+  "note": "ระดับ: ร้านพิมพ์ป้าย \"Player Level: Professional\" ของ Li-Ning ซึ่งข้อมูลนี้อ่านเป็นระดับสูง และรีวิวบอก \"NOT BEGINNER FRIENDLY\" (ผลค้น Google 8 พ.ย. 2026) (≈)",
+  "year": 2021,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_specs_8621.html"
  },
  "Li-Ning 3D Calibar 900 Combat": {
   "level": "advanced",
@@ -3382,7 +3582,9 @@
   "estFields": [
    "level"
   ],
-  "note": "ระดับ: ร้านระบุ \"Tectonic 7C Combat ... Advanced players' choice\" (ผลค้น Google 8 พ.ย. 2026) (≈)"
+  "note": "ระดับ: ร้านระบุ \"Tectonic 7C Combat ... Advanced players' choice\" (ผลค้น Google 8 พ.ย. 2026) (≈)",
+  "year": 2020,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_8291.html"
  },
  "Felet 3000 Power": {
   "balance": "even",
@@ -4221,19 +4423,37 @@
   "note": "ป้ายสมดุล (Even) จาก Li-Ning เอง; yumo.ca วัดได้ 301 mm และเรียกหัวหนัก เส้นแบ่งของแต่ละร้านต่างกัน (ตรวจ 11 พ.ย. 2026)"
  },
  "Yonex Nanoflare 1000 Game": {
+  "year": 2023,
+  "yearSrc": "https://www.yonex.com/news/lightning-strikes-with-the-new-nanoflare-1000/",
   "note": "ร้านส่วนใหญ่ (7 จาก 8) ระบุหัวเบาตามที่ Yonex เรียก ส่วน Badminton Bay วัดได้ 300 mm และเรียกหัวหนัก ตัวเลข mm เป็นค่าวัดของร้านเดียว (ตรวจ 11 พ.ย. 2026)"
  },
+ "Yonex Nanoflare 1000 Play": {"year": 2023, "yearSrc": "https://www.yonex.com/news/lightning-strikes-with-the-new-nanoflare-1000/"},
+ "Yonex Nanoflare 1000 Tour": {"year": 2023, "yearSrc": "https://www.yonex.com/news/lightning-strikes-with-the-new-nanoflare-1000/"},
+ "Yonex Nanoflare 1000Z": {"year": 2023, "yearSrc": "https://www.yonex.com/news/lightning-strikes-with-the-new-nanoflare-1000/"},
  "Yonex Nanoflare 800 Game": {
+  "year": 2023,
+  "yearSrc": "https://www.yonex.com/news/badminton/new-nanoflare-800-the-counter-drive-theyll-never-see-coming/",
   "note": "ร้านส่วนใหญ่ (6 จาก 7) ระบุหัวเบาตามที่ Yonex เรียก ส่วน Badminton Bay วัดได้ 300 mm และเรียกหัวหนัก ตัวเลข mm เป็นค่าวัดของร้านเดียว (ตรวจ 11 พ.ย. 2026)"
  },
+ "Yonex Nanoflare 800 Play": {"year": 2023, "yearSrc": "https://www.yonex.com/news/badminton/new-nanoflare-800-the-counter-drive-theyll-never-see-coming/"},
+ "Yonex Nanoflare 800 Pro": {"year": 2023, "yearSrc": "https://www.yonex.com/news/badminton/new-nanoflare-800-the-counter-drive-theyll-never-see-coming/"},
+ "Yonex Nanoflare 800 Tour": {"year": 2023, "yearSrc": "https://www.yonex.com/news/badminton/new-nanoflare-800-the-counter-drive-theyll-never-see-coming/"},
  "Yonex Arcsaber 11 Play": {
+  "year": 2022,
+  "yearSrc": "https://www.yonex.com/news/badminton/reinvented-arcsaber-series-for-decisive-control/",
   "note": "ร้านส่วนใหญ่ (5 แห่ง) ระบุสมดุล ส่วน Badminton Bay วัดได้ 303 mm และเรียกหัวหนัก ตัวเลข mm เป็นค่าวัดของร้านเดียว (ตรวจ 11 พ.ย. 2026)"
  },
+ "Yonex Arcsaber 11 Pro": {"year": 2022, "yearSrc": "https://www.yonex.com/news/badminton/reinvented-arcsaber-series-for-decisive-control/"},
+ "Yonex Arcsaber 11 Tour": {"year": 2022, "yearSrc": "https://www.yonex.com/news/badminton/reinvented-arcsaber-series-for-decisive-control/"},
  "Li-Ning BladeX 73": {
-  "note": "ป้ายหัวเบา แต่ yumo.ca วัด BladeX 73 Light ได้ 302 mm (เรียกหัวหนัก) แหล่งขัดกัน ยังไม่มีค่าจากผู้ผลิต (ตรวจ 11 พ.ย. 2026)"
+  "balance": "head-light",
+  "src": "https://sg.lining.studio/products/bladex-73",
+  "note": "Li-Ning Singapore ระบุหัวเบา จุดสมดุล 302 mm และรหัสสินค้า AYPS059 เช่นเดียวกับใบที่ใช้ชื่อ BladeX 73 Light"
  },
  "Li-Ning BladeX 73 Light": {
-  "note": "ป้ายหัวเบา แต่ yumo.ca วัดได้ 302 mm (เรียกหัวหนัก) แหล่งขัดกัน ยังไม่มีค่าจากผู้ผลิต (ตรวจ 11 พ.ย. 2026)"
+  "tmax": 26,
+  "tensionSrc": "https://order.funport.co.jp/view/item/000000001038?category_page_id=badminton_racket_lining",
+  "note": "FUNPORT ระบุรุ่น 6U หัวเบาและเพดาน 26 lbs ค่า 302 mm เป็นผลวัดของร้าน Yumo"
  },
  "Victor Auraspeed VRD-J": {
   "new": true,
@@ -4293,10 +4513,121 @@
   "note": "ARS-PAX (รุ่น Q ขายแบบขึ้นเอ็นมาแล้ว) สเปกตรงกันที่ tenniszon.com, Shopee/Lazada มาเลเซีย, Joy Badminton และ Victor ฟิลิปปินส์/มาเลเซีย ซึ่งเรียกว่ารุ่นปี 2026 สายสปีด; ความตึงสูงสุด 3U ≤32 / 4U ≤31 lbs (เก็บค่าต่ำสุดเป็นเพดาน); จุดสมดุล ความแข็งก้าน น้ำหนักกรัม และระดับยังไม่มีแหล่งที่ระบุ จึงเว้นว่าง; ยังไม่พบร้านไทย จึงไม่มีราคา (พบเมื่อ 15 พ.ย. 2026)"
  },
  "Li-Ning Axforce 80 II": {
+  "aliases": ["Axforce 80 Gen 2", "Axforce 80II"],
+  "modelCode": "AYPW049",
   "year": 2026,
-  "src": "https://yumo.ca/products/li-ning-axforce-80-ii-unstrung-badminton-racket-electric-purple",
-  "note": "Axforce 80 II (ร้านบางแห่งเขียน \"Axforce 80 Gen 2\") ออกเดือน ส.ค. 2026 เป็นรุ่นต่อจาก Axforce 80 ของ Chen Long ตามคำบรรยายของ badmintonclick.com.au และ yumo.ca; หน้าทางการของ Li-Ning ยังไม่ลงรุ่นนี้ จึงยังไม่มีระดับ ความแข็งก้าน และราคาไทย (พบเมื่อ 15 พ.ย. 2026)"
+  "yearSrc": "https://www.racketshop.co.nz/products/li-ning-axforce-80-ii-badminton-racket",
+  "weights": "3U, 4U, 5U",
+  "grips": "G5, G6",
+  "flex": "stiff",
+  "estFields": ["flex"],
+  "players": "Chen Long",
+  "tensionByWeight": {"3U": [null, 31], "4U": [null, 30], "5U": [null, 29]},
+  "tensionSrc": "https://www.liningtw.com/products/aypw049",
+  "officialUrl": "https://www.liningtw.com/products/aypw049",
+  "src": "https://www.vasports.ca/products/li-ning-axforce-80-ii-unstrung-badminton-racket",
+  "note": "Axforce 80 Gen 2 คือ Axforce 80 II รหัส AYPW049 ออกเดือน ส.ค. 2026 น้ำหนัก 83 กรัมเป็นของรุ่น 4U กริป 3U/G5, 4U/G5 หรือ G6, 5U/G6 ตาม Li-Ning Taiwan ส่วน VA SPORTS ระบุก้านกลางค่อนแข็ง (Medium Stiff) จัดเป็นก้านแข็งแบบประเมินในเว็บ"
+ },
+ "Li-Ning G-Force 3500 Superlite": {
+  "tmax": 30,
+  "estFields": ["tension"],
+  "tensionSrc": "https://in.lining.studio/products/g-force-superlite-78-grams/",
+  "note": "Li-Ning India ระบุ 30 lbs แต่ข้อมูลเดิมจาก Li-Ning Singapore ให้ 32 lbs ใช้ 30 lbs แบบประเมินจนกว่าจะยืนยันรหัสย่อย"
  },
  "Yonex Astrox 100ZZ": {"year": 2020, "yearSrc": "https://www.yonex.com/news/astrox-100-the-next-level-of-power-and-versatility/"},
- "Yonex Astrox 88 Play": {"year": 2024, "yearSrc": "https://yonex-fareast.com/astrox-88-s-d-a-new-dawn-for-doubles/"}
+ "Yonex Astrox 88 Play": {"year": 2024, "yearSrc": "https://www.yonex.com/news/astrox-88-sd-a-new-dawn-for-doubles/"},
+ "Yonex Astrox 88D Game": {"year": 2024, "yearSrc": "https://www.yonex.com/news/astrox-88-sd-a-new-dawn-for-doubles/"},
+ "Yonex Astrox 88D Pro": {"year": 2024, "yearSrc": "https://www.yonex.com/news/astrox-88-sd-a-new-dawn-for-doubles/"},
+ "Yonex Astrox 88D Tour": {"year": 2024, "yearSrc": "https://www.yonex.com/news/astrox-88-sd-a-new-dawn-for-doubles/"},
+ "Yonex Astrox 88S Game": {"year": 2024, "yearSrc": "https://www.yonex.com/news/astrox-88-sd-a-new-dawn-for-doubles/"},
+ "Yonex Astrox 88S Pro": {"year": 2024, "yearSrc": "https://www.yonex.com/news/astrox-88-sd-a-new-dawn-for-doubles/"},
+ "Yonex Astrox 88S Tour": {"year": 2024, "yearSrc": "https://www.yonex.com/news/astrox-88-sd-a-new-dawn-for-doubles/"},
+ "Li-Ning Aeronaut 9000": {
+  "year": 2019,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_7069.html"
+ },
+ "Li-Ning Aeronaut 9000 Drive": {
+  "year": 2019,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view.php?eid=7071"
+ },
+ "Li-Ning Axforce 60": {
+  "year": 2023,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_13271.html"
+ },
+ "Li-Ning Axforce 70": {
+  "year": 2023,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_13272.html"
+ },
+ "Li-Ning Halbertec 9000 Power": {
+  "modelCode": "AYPW001",
+  "year": 2025,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_specs_24653.html",
+  "tensionByWeight": {"3U": [null, 31], "4U": [null, 30]},
+  "tensionSrc": "https://www.liningtw.com/products/aypw001",
+  "officialUrl": "https://www.liningtw.com/products/aypw001"
+ },
+ "Li-Ning Halbertec 7000 II": {
+  "modelCode": "AYPW015",
+  "weights": "3U, 4U, 5U",
+  "tensionByWeight": {"3U": [null, 31], "4U": [null, 30], "5U": [null, 29]},
+  "tensionSrc": "https://www.shopnings.com/pub/media/descriptions/2026ssbadmintongear.pdf",
+  "src": "https://yumo.ca/collections/li-ning-clearance/products/li-ning-halbertec-7000-ii-unstrung-badminton-racket",
+  "note": "รหัส AYPW015 แคตตาล็อก Li-Ning ระบุ 4U และ 5U ส่วนหน้า Yumo รหัส AYPW015-3 ระบุเพดาน 3U และ 4U"
+ },
+ "Li-Ning Tectonic III": {
+  "tensionByWeight": {"4U": [null, 25], "5U": [null, 25]},
+  "tensionSrc": "https://in.lining.studio/products/tectonic-3-4",
+  "src": "https://www.shopnings.com/pub/media/descriptions/liningbadmintoncatalog2022FW.pdf",
+  "note": "ชื่อรุ่น Tectonic 3 แคตตาล็อก Li-Ning ระบุ 4U ≤ 26 / 5U ≤ 25 lbs ส่วน Li-Ning India ระบุ 4U ≤ 25 lbs ใช้ 25 lbs สำหรับ 4U เมื่อไม่ทราบตลาดของไม้"
+ },
+ "Li-Ning Tectonic 7 Drive": {
+  "year": 2019,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_7549.html"
+ },
+ "Li-Ning Tectonic 7 Instinct": {
+  "year": 2020,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_8290.html"
+ },
+ "Li-Ning Windstorm 72S": {
+  "year": 2021,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_9077.html"
+ },
+ "Li-Ning Windstorm 74": {
+  "year": 2019,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_specs_7709.html"
+ },
+ "Li-Ning Halbertec 900": {
+  "new": true,
+  "brand": "Li-Ning",
+  "year": 2025,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view.php?eid=22737",
+  "src": "https://www.badmintoncn.com/cbo_eq/view.php?eid=22737",
+  "note": "รหัสรุ่น AYPV027"
+ },
+ "Victor Auraspeed 90K": {
+  "year": 2019,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_specs_7325.html"
+ },
+ "Victor Auraspeed 30H": {
+  "year": 2019,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_7721.html"
+ },
+ "Li-Ning Aeronaut 4000": {
+  "year": 2017,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view.php?eid=6787"
+ },
+ "Victor Auraspeed 100X SE": {
+  "new": true,
+  "brand": "Victor",
+  "year": 2021,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_10693.html",
+  "weights": "3U, 4U",
+  "grips": "G5",
+  "flex": "stiff",
+  "tmax": 28,
+  "tensionNote": "3U ≤ 29 lbs (Victor Australia), 4U ≤ 28 lbs (BadmintonCN)",
+  "src": "https://www.badmintoncn.com/eqm.php?a=view&eid=10693&mag_hide_progress=1",
+  "officialUrl": "https://shop.au.victorsport.com/products/auraspeed-100x-se-h",
+  "note": "รหัสรุ่น ARS-100X SE รุ่นลายเซ็น Mohammad Ahsan ขนาดกริป G5 อ้างอิงรุ่น 4U"
+ }
 }
