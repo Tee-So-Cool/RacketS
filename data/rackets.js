@@ -13503,7 +13503,7 @@ window.RACKETS = [
   "recString": "",
   "img": "",
   "source": "",
-  "officialUrl": "",
+  "officialUrl": "https://www.liningtw.com/products/aypw047-4",
   "specSrc": "https://order.funport.co.jp/view/item/000000001932?category_page_id=badminton_racket",
   "shopUrl": "",
   "bayUrl": "",
@@ -13513,7 +13513,8 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "รหัส AYPW047-4 สเปก 4U/G5 ตาม FUNPORT ตัวแทน Li-Ning ญี่ปุ่น",
   "est": [],
-  "modelCode": "AYPW047-4"
+  "modelCode": "AYPW047-4",
+  "tensionSrc": "https://www.liningtw.com/products/aypw047-4"
  },
  {
   "id": "li-ning-axforce-100-max",
@@ -15071,7 +15072,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 4U ≤ 30, 5U ≤ 30 lbs",
   "price": 1590,
   "frame": "Carbon Fiber",
   "shaft": "Carbon Fiber",
@@ -15106,11 +15107,22 @@ window.RACKETS = [
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "",
+  "note": "Li-Ning India ระบุ 30 lbs ทั้ง AYPW057-4 และ AYPW057-5",
   "est": [
    "year",
    "weight"
-  ]
+  ],
+  "tensionByWeight": {
+   "4U": [
+    null,
+    30
+   ],
+   "5U": [
+    null,
+    30
+   ]
+  },
+  "tensionSrc": "https://in.lining.studio/products/axforce-tiger-5u"
  },
  {
   "id": "li-ning-axforce-warrior",
@@ -15129,9 +15141,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   30
+   29
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 4U ≤ 30, 5U ≤ 29 lbs",
   "price": 2340,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -15161,9 +15173,20 @@ window.RACKETS = [
   "note": "",
   "est": [
    "year",
-   "price",
-   "tension"
-  ]
+   "price"
+  ],
+  "modelCode": "AYPW039",
+  "tensionByWeight": {
+   "4U": [
+    null,
+    30
+   ],
+   "5U": [
+    null,
+    29
+   ]
+  },
+  "tensionSrc": "https://www.lining.my/SalePage/Index/341229?lang=en-US"
  },
  {
   "id": "li-ning-bladex-100",
@@ -15338,14 +15361,77 @@ window.RACKETS = [
   "est": [
    "weight",
    "tension"
-  ]
+  ],
+  "aliases": [
+   "AYPR273"
+  ],
+  "modelCode": "AYPR275"
+ },
+ {
+  "id": "li-ning-bladex-500-new",
+  "brand": "Li-Ning",
+  "name": "BladeX 500 New",
+  "year": 2025,
+  "yearSrc": "https://www.shopnings.com/pub/media/descriptions/2025fallwinter.pdf",
+  "style": "speed",
+  "balance": "head-light",
+  "bp": "",
+  "flex": "",
+  "level": "",
+  "levelTo": "",
+  "weights": "3U, 4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   null,
+   30
+  ],
+  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 31, 4U ≤ 30 lbs",
+  "price": "",
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn-general.cybassets.com/media/W1siZiIsIjEwMTAwL3Byb2R1Y3RzLzY5YzRiZDZkNWJkOWI5OTZiYTY0MWZlM2FmNmE1NDQ2ZTczMTMwOGVjMGIwNTEwNTQwMzA3NGNjZTY5YTQ5MzcuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=f317a113d4282cf2",
+  "source": "",
+  "officialUrl": "https://www.liningtw.com/products/aypv007",
+  "specSrc": "https://www.shopnings.com/pub/media/descriptions/2025fallwinter.pdf",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "weight"
+  ],
+  "modelCode": "AYPV007",
+  "tensionByWeight": {
+   "3U": [
+    null,
+    31
+   ],
+   "4U": [
+    null,
+    30
+   ]
+  },
+  "tensionSrc": "https://www.shopnings.com/pub/media/descriptions/2025fallwinter.pdf"
  },
  {
   "id": "li-ning-bladex-600",
   "brand": "Li-Ning",
   "name": "BladeX 600",
-  "year": 2026,
-  "yearSrc": "",
+  "year": 2023,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_13274.html",
   "style": "control",
   "balance": "head-light",
   "bp": "",
@@ -15392,9 +15478,73 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "year",
    "tension"
-  ]
+  ],
+  "modelCode": "AYPT033"
+ },
+ {
+  "id": "li-ning-bladex-600-ii",
+  "brand": "Li-Ning",
+  "name": "BladeX 600 II",
+  "year": 2025,
+  "yearSrc": "https://www.badmintoncn.com/cbo_eq/view_21454.html",
+  "style": "speed",
+  "balance": "head-light",
+  "bp": "",
+  "flex": "",
+  "level": "",
+  "levelTo": "",
+  "weights": "4U, 5U",
+  "weight": 83,
+  "grips": "G6",
+  "tension": [
+   null,
+   29
+  ],
+  "tensionNote": "ตามแหล่งสเปก: 4U ≤ 30, 5U ≤ 29 lbs",
+  "price": "",
+  "frame": "",
+  "shaft": "",
+  "joint": "",
+  "length": "675 mm",
+  "head": "",
+  "pattern": "",
+  "tech": "",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://cdn-general.cybassets.com/media/W1siZiIsIjEwMTAwL3Byb2R1Y3RzLzhlY2RlYTI1ZjVkNjg2NGZkY2IwZTlmMTU2ZDBmMzk4NmRiOGM2MGJhYjA0NzE3OGVlYWFmZTgyYzgwMTg5NzMuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=776029ffc16676a1",
+  "source": "",
+  "officialUrl": "https://www.liningtw.com/products/aypv015",
+  "specSrc": "https://www.shopnings.com/pub/media/descriptions/2025fallwinter.pdf",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [
+   "balance",
+   "weight"
+  ],
+  "aliases": [
+   "BladeX 600 New",
+   "锋影600Ⅱ"
+  ],
+  "modelCode": "AYPV015",
+  "generation": 2,
+  "tensionByWeight": {
+   "4U": [
+    null,
+    30
+   ],
+   "5U": [
+    null,
+    29
+   ]
+  },
+  "tensionSrc": "https://www.liningtw.com/products/aypv015"
  },
  {
   "id": "li-ning-bladex-700",
@@ -18250,11 +18400,12 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "",
   "priceSrc": "",
-  "note": "รหัสรุ่น AYPV027",
+  "note": "",
   "est": [
    "balance",
    "style"
-  ]
+  ],
+  "modelCode": "AYPV027"
  },
  {
   "id": "li-ning-halbertec-9000",
@@ -18426,9 +18577,9 @@ window.RACKETS = [
   "grips": "G5",
   "tension": [
    null,
-   30
+   29
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 4U ≤ 30, 5U ≤ 29 lbs",
   "price": 2340,
   "frame": "",
   "shaft": "",
@@ -18464,9 +18615,20 @@ window.RACKETS = [
    "level",
    "year",
    "price",
-   "weight",
-   "tension"
-  ]
+   "weight"
+  ],
+  "modelCode": "AYPW041",
+  "tensionByWeight": {
+   "4U": [
+    null,
+    30
+   ],
+   "5U": [
+    null,
+    29
+   ]
+  },
+  "tensionSrc": "https://www.lining.my/SalePage/Index/341241"
  },
  {
   "id": "li-ning-halbertec-motor",
@@ -19367,7 +19529,7 @@ window.RACKETS = [
   "id": "li-ning-tectonic-3r",
   "brand": "Li-Ning",
   "name": "Tectonic 3R",
-  "year": 2026,
+  "year": "",
   "yearSrc": "",
   "style": "attack",
   "balance": "head-heavy",
@@ -19413,11 +19575,10 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก S$109.00 ที่ 1 SGD = 26.33 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://sg.lining.studio/products/tectonic-3r-4u",
-  "note": "",
+  "note": "พบรหัส AYPS197 ในรายการร้าน Prokicks ตั้งแต่ปี 2025 แต่ยังไม่มีหลักฐานปีเปิดตัว ส่วนเพดาน 4U ทาง Li-Ning Indonesia ระบุ 26 lbs และ Li-Ning Singapore ระบุ 30 lbs",
   "est": [
-   "year",
-   "price",
-   "tension"
+   "tension",
+   "price"
   ]
  },
  {
@@ -31156,7 +31317,7 @@ window.RACKETS = [
   "brand": "Victor",
   "name": "Auraspeed 100X TD",
   "year": 2025,
-  "yearSrc": "",
+  "yearSrc": "https://www.victorsport.com/product/ars-100x-td",
   "style": "speed",
   "balance": "even",
   "bp": "",
@@ -31170,7 +31331,7 @@ window.RACKETS = [
    null,
    27
   ],
-  "tensionNote": "ผู้ผลิตระบุ: ≤ 27, ≤ 28 lbs",
+  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 28, 4U ≤ 27 lbs",
   "price": 2990,
   "frame": "High ResilienceModulus Graphite+Nano Fortify TR＋",
   "shaft": "High ResilienceModulus Graphite+PYROFIL+6.8 SHAFT",
@@ -31184,8 +31345,8 @@ window.RACKETS = [
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-100x-td-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-100x-td/",
-  "officialUrl": "",
-  "specSrc": "https://ca.victorsport.com/product/ars-100x-td",
+  "officialUrl": "https://www.victorsport.com/product/ars-100x-td",
+  "specSrc": "https://www.victorsport.com/product/ars-100x-td",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -31207,10 +31368,20 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "level",
-   "year"
+   "level"
   ],
-  "tensionByWeight": {}
+  "modelCode": "ARS-100X TD",
+  "tensionByWeight": {
+   "3U": [
+    null,
+    28
+   ],
+   "4U": [
+    null,
+    27
+   ]
+  },
+  "tensionSrc": "https://www.victorsport.com/product/ars-100x-td"
  },
  {
   "id": "victor-auraspeed-100x-ultra",
@@ -33000,7 +33171,7 @@ window.RACKETS = [
    null,
    31
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 32, 4U ≤ 31 lbs",
   "price": 5950,
   "frame": "High Resilience Modulus Graphite+Metallic Carbon Fiber+NANO AEROGEL+Nano Fortify TR++HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+Metallic Carbon Fiber+PYROFIL+6.8 SHAFT",
@@ -33014,7 +33185,7 @@ window.RACKETS = [
   "recString": "Aerobite Boost (คุม), BG 80 Power (พลัง)",
   "img": "https://cdn.shopify.com/s/files/1/0532/4941/files/auraspeed99BAC-1.webp?v=1773380625",
   "source": "",
-  "officialUrl": "",
+  "officialUrl": "https://ca.victorsport.com/product/auraspeed99",
   "specSrc": "https://www.badmintonwarehouse.com/products/victor-auraspeed-99-badminton-racket",
   "shopUrl": "",
   "bayUrl": "",
@@ -33049,10 +33220,21 @@ window.RACKETS = [
   "priceSrc": "https://yumo.ca/products/victor-auraspeed-99-unstrung-badminton-racket-pink-ars-99",
   "note": "Badminton Warehouse: Player Level \"Advanced / Competitive\"",
   "est": [
-   "tension",
    "style",
    "price"
-  ]
+  ],
+  "modelCode": "ARS-99",
+  "tensionByWeight": {
+   "3U": [
+    null,
+    32
+   ],
+   "4U": [
+    null,
+    31
+   ]
+  },
+  "tensionSrc": "https://ca.victorsport.com/product/auraspeed99"
  },
  {
   "id": "victor-auraspeed-aurora-ultra",
@@ -33102,7 +33284,8 @@ window.RACKETS = [
    "level",
    "year",
    "weight"
-  ]
+  ],
+  "modelCode": "ARS-AURORA ULTRA"
  },
  {
   "id": "victor-auraspeed-cyber",
@@ -33389,7 +33572,7 @@ window.RACKETS = [
   "brand": "Victor",
   "name": "Auraspeed Fantome F",
   "year": 2025,
-  "yearSrc": "",
+  "yearSrc": "https://ca.victorsport.com/product/auraspeed-fantme-f-ac",
   "style": "speed",
   "balance": "head-heavy",
   "bp": "",
@@ -33417,7 +33600,7 @@ window.RACKETS = [
   "recString": "BG Aerobite (คุม), BG 80 (พลัง)",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-fantome-f-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-fantome-f/",
-  "officialUrl": "",
+  "officialUrl": "https://ca.victorsport.com/product/auraspeed-fantme-f-ac",
   "specSrc": "https://www.sakurasport.com/en/2124-badminton-racket-auraspeed-fantome-f-ac-4ug5-victor-4711581155381.html",
   "shopUrl": "",
   "bayUrl": "",
@@ -33456,10 +33639,9 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "",
   "est": [
-   "balance",
-   "year",
-   "tension"
-  ]
+   "balance"
+  ],
+  "tensionSrc": "https://ca.victorsport.com/product/auraspeed-fantme-f-ac"
  },
  {
   "id": "victor-auraspeed-hs-plus",
@@ -33924,7 +34106,7 @@ window.RACKETS = [
    null,
    31
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 32, 4U ≤ 31 lbs",
   "price": 2620,
   "frame": "Graphite + Metallic Carbon Fiber + Nano Resin + Fiber Reinforced System",
   "shaft": "Graphite + Nano Resin + 6.6 shaft",
@@ -33938,7 +34120,7 @@ window.RACKETS = [
   "recString": "",
   "img": "https://cdn.shopify.com/s/files/1/0613/9599/2800/files/ARS-PAX-Q-4Ucopy.webp?v=1787147866",
   "source": "",
-  "officialUrl": "",
+  "officialUrl": "https://ca.victorsport.com/product/auraspeedpulseastralxq",
   "specSrc": "https://tenniszon.com/products/victor-auraspeed-pulse-astral-x-strung-pink",
   "shopUrl": "",
   "bayUrl": "",
@@ -33958,7 +34140,22 @@ window.RACKETS = [
    "price",
    "flex",
    "weight"
-  ]
+  ],
+  "aliases": [
+   "ARS-PAX"
+  ],
+  "modelCode": "ARS-PAX Q",
+  "tensionByWeight": {
+   "3U": [
+    null,
+    32
+   ],
+   "4U": [
+    null,
+    31
+   ]
+  },
+  "tensionSrc": "https://ca.victorsport.com/product/auraspeedpulseastralxq"
  },
  {
   "id": "victor-auraspeed-syn",
@@ -34031,7 +34228,7 @@ window.RACKETS = [
    null,
    29
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 30, 4U ≤ 29 lbs",
   "price": 3570,
   "frame": "High Resilience Graphite + Nano Fortify TR + Hard Cored Technology",
   "shaft": "High Resilience Graphite + PYROFIL + 6.8 shaft",
@@ -34070,7 +34267,19 @@ window.RACKETS = [
    "year",
    "price",
    "weight"
-  ]
+  ],
+  "modelCode": "ARS-VRD J",
+  "tensionByWeight": {
+   "3U": [
+    null,
+    30
+   ],
+   "4U": [
+    null,
+    29
+   ]
+  },
+  "tensionSrc": "https://www.nexchamp.my/product/victor-ars-vrd-j"
  },
  {
   "id": "victor-brave-sword-12",
@@ -41282,7 +41491,7 @@ window.RACKETS = [
    null,
    29
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามแหล่งสเปก: 4U ≤ 30, 5U ≤ 29 lbs",
   "price": 3570,
   "frame": "High Resilience Graphite + PYROFIL + Hard Cored Technology",
   "shaft": "High Resilience Graphite + PYROFIL + 6.6 shaft",
@@ -41296,7 +41505,7 @@ window.RACKETS = [
   "recString": "",
   "img": "https://cdn.shopify.com/s/files/1/0613/9599/2800/files/TK-VRD-C-4UG5copy.webp?v=1789256510",
   "source": "",
-  "officialUrl": "",
+  "officialUrl": "https://www.victorsports.my/product/victor-thruster-k-vrd-badminton-racket-tk-vrd",
   "specSrc": "https://tenniszon.com/products/victor-thruster-vrd-c-unstrung-navy-red",
   "shopUrl": "",
   "bayUrl": "",
@@ -41317,7 +41526,19 @@ window.RACKETS = [
    "price",
    "flex",
    "weight"
-  ]
+  ],
+  "modelCode": "TK-VRD C",
+  "tensionByWeight": {
+   "4U": [
+    null,
+    30
+   ],
+   "5U": [
+    null,
+    29
+   ]
+  },
+  "tensionSrc": "https://www.victorsports.my/product/victor-thruster-k-vrd-badminton-racket-tk-vrd"
  },
  {
   "id": "victor-thruster-yin",
@@ -42149,6 +42370,54 @@ window.RACKETS = [
   "modelCode": "ARC7-PL"
  },
  {
+  "id": "yonex-arcsaber7-play-2026",
+  "brand": "Yonex",
+  "name": "Arcsaber 7 Play (Light Beige)",
+  "year": 2026,
+  "yearSrc": "https://www.yonexmall.com/m2/goods/view.php?category=001001&goodsno=8052",
+  "style": "control",
+  "balance": "even",
+  "bp": "",
+  "flex": "flexible",
+  "level": "beginner",
+  "levelTo": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   19,
+   27
+  ],
+  "tensionNote": "",
+  "price": 2668,
+  "frame": "Graphite",
+  "shaft": "Graphite",
+  "joint": "Built-in T-Joint / T-ANCHOR",
+  "length": "10 mm longer",
+  "head": "",
+  "pattern": "22 X 21",
+  "tech": "ISOMETRIC · Built-in T-Joint · Box Frame",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-arcsaber7-play-2026-169x300.webp",
+  "source": "https://chobbad.com/racket/yonex-arcsaber7-play-2026/",
+  "officialUrl": "",
+  "specSrc": "https://www.yonex.com/arcsaber",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "สี Light Beige เปิดขายในเกาหลีปี 2026 ใช้รหัส ARC7-PL และช่วงขึ้นเอ็นเดียวกับสีเดิม",
+  "est": [],
+  "aliases": [
+   "Arcsaber7 Play 2026"
+  ],
+  "tensionSrc": "https://www.yonexmall.com/m2/goods/view.php?category=001001&goodsno=8052"
+ },
+ {
   "id": "yonex-arcsaber-7-pro",
   "brand": "Yonex",
   "name": "Arcsaber 7 Pro",
@@ -42321,6 +42590,54 @@ window.RACKETS = [
   "modelCode": "ARC7-T"
  },
  {
+  "id": "yonex-arcsaber7-tour-2026",
+  "brand": "Yonex",
+  "name": "Arcsaber 7 Tour (Light Beige)",
+  "year": 2026,
+  "yearSrc": "https://www.yonexmall.com/m2/goods/view.php?category=001&goodsno=8058",
+  "style": "control",
+  "balance": "even",
+  "bp": "",
+  "flex": "medium",
+  "level": "advanced",
+  "levelTo": "",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5, G6",
+  "tension": [
+   19,
+   27
+  ],
+  "tensionNote": "",
+  "price": 4836,
+  "frame": "HM Graphite / POCKETING BOOSTER",
+  "shaft": "HM Graphite",
+  "joint": "NEW Built-in T-Joint / T-ANCHOR",
+  "length": "10 mm longer",
+  "head": "",
+  "pattern": "22 X 21",
+  "tech": "ISOMETRIC · Energy Boost Cap PLUS · Super Slim Shaft · Built-in T-Joint · Pocketing Booster · Box Frame",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
+  "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-arcsaber7-tour-2026-169x300.webp",
+  "source": "https://chobbad.com/racket/yonex-arcsaber7-tour-2026/",
+  "officialUrl": "",
+  "specSrc": "https://www.yonex.com/arcsaber",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": "",
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "สี Light Beige เปิดขายในเกาหลีปี 2026 ใช้รหัส ARC7-T และช่วงขึ้นเอ็นเดียวกับสีเดิม",
+  "est": [],
+  "aliases": [
+   "Arcsaber7 Tour 2026"
+  ],
+  "tensionSrc": "https://www.yonexmall.com/m2/goods/view.php?category=001&goodsno=8058"
+ },
+ {
   "id": "yonex-arcsaber-73-light",
   "brand": "Yonex",
   "name": "Arcsaber 73 Light",
@@ -42381,98 +42698,6 @@ window.RACKETS = [
    "style",
    "price",
    "tension"
-  ]
- },
- {
-  "id": "yonex-arcsaber7-play-2026",
-  "brand": "Yonex",
-  "name": "Arcsaber7 Play (2026)",
-  "year": 2026,
-  "yearSrc": "",
-  "style": "control",
-  "balance": "even",
-  "bp": "",
-  "flex": "flexible",
-  "level": "beginner",
-  "levelTo": "",
-  "weights": "4U",
-  "weight": 83,
-  "grips": "G5, G6",
-  "tension": [
-   19,
-   27
-  ],
-  "tensionNote": "",
-  "price": 2668,
-  "frame": "Graphite",
-  "shaft": "Graphite",
-  "joint": "Built-in T-Joint / T-ANCHOR",
-  "length": "10 mm longer",
-  "head": "",
-  "pattern": "22 X 21",
-  "tech": "ISOMETRIC · Built-in T-Joint · Box Frame",
-  "players": "",
-  "madeIn": "",
-  "recString": "",
-  "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-arcsaber7-play-2026-169x300.webp",
-  "source": "https://chobbad.com/racket/yonex-arcsaber7-play-2026/",
-  "officialUrl": "",
-  "specSrc": "",
-  "shopUrl": "",
-  "bayUrl": "",
-  "clickUrl": "",
-  "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
-  "note": "",
-  "est": [
-   "year"
-  ]
- },
- {
-  "id": "yonex-arcsaber7-tour-2026",
-  "brand": "Yonex",
-  "name": "Arcsaber7 Tour (2026)",
-  "year": 2026,
-  "yearSrc": "",
-  "style": "control",
-  "balance": "even",
-  "bp": "",
-  "flex": "medium",
-  "level": "advanced",
-  "levelTo": "",
-  "weights": "4U",
-  "weight": 83,
-  "grips": "G5, G6",
-  "tension": [
-   19,
-   27
-  ],
-  "tensionNote": "",
-  "price": 4836,
-  "frame": "HM Graphite / POCKETING BOOSTER",
-  "shaft": "HM Graphite",
-  "joint": "NEW Built-in T-Joint / T-ANCHOR",
-  "length": "10 mm longer",
-  "head": "",
-  "pattern": "22 X 21",
-  "tech": "ISOMETRIC · Energy Boost Cap PLUS · Super Slim Shaft · Built-in T-Joint · Pocketing Booster · Box Frame",
-  "players": "",
-  "madeIn": "",
-  "recString": "",
-  "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-arcsaber7-tour-2026-169x300.webp",
-  "source": "https://chobbad.com/racket/yonex-arcsaber7-tour-2026/",
-  "officialUrl": "",
-  "specSrc": "",
-  "shopUrl": "",
-  "bayUrl": "",
-  "clickUrl": "",
-  "shopLinks": "",
-  "priceNote": "",
-  "priceSrc": "",
-  "note": "",
-  "est": [
-   "year"
   ]
  },
  {
@@ -43164,8 +43389,8 @@ window.RACKETS = [
   "id": "yonex-astrox-100va-game",
   "brand": "Yonex",
   "name": "Astrox 100VA Game",
-  "year": "",
-  "yearSrc": "",
+  "year": 2025,
+  "yearSrc": "https://www.yonexmall.com/m2/goods/view.php?category=001001&goodsno=7738",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
@@ -43239,8 +43464,8 @@ window.RACKETS = [
   "id": "yonex-astrox-100va-tour",
   "brand": "Yonex",
   "name": "Astrox 100VA Tour",
-  "year": "",
-  "yearSrc": "",
+  "year": 2025,
+  "yearSrc": "https://www.yonexmall.com/m2/goods/view.php?category=026004&goodsno=7737",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
@@ -46049,8 +46274,8 @@ window.RACKETS = [
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk-yonex-gr-303i-169x300.webp",
   "source": "https://chobbad.com/racket/yonex-gr-303i/",
-  "officialUrl": "",
-  "specSrc": "https://shop.kibisports.com/products/yonex-gr-303-badminton-racquet (Aluminum frame, high-tensile steel shaft)",
+  "officialUrl": "https://us.yonex.com/products/gr-303i",
+  "specSrc": "https://us.yonex.com/products/gr-303i",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
