@@ -80,7 +80,8 @@ def validate_record(record):
         if (field not in FIELDS or status not in STATUSES or not market_code(row.get('market')) or
                 not iso_date(row.get('checkedOn'))):
             raise ValueError(f'{label}: invalid field, status, market or checkedOn date')
-        if field == 'tension' and (not weight_class(row.get('weight')) or row.get('unit') != 'lbs'):
+        unknown_weight = status == 'missing' and row.get('weight') is None
+        if field == 'tension' and not unknown_weight and (not weight_class(row.get('weight')) or row.get('unit') != 'lbs'):
             raise ValueError(f'{label}: tension needs a weight such as 4U and unit lbs')
         if status == 'missing':
             if value is not None:
@@ -94,11 +95,10 @@ def validate_record(record):
                 not isinstance(source_code, str)):
             raise ValueError(f'{label}: provide the source URL, locator and exact sourceCode')
         # A numeric suffix may identify a weight or colour SKU of the catalog model.
-        if (code_key(source_code) != code_key(model_code) and
-                (not re.search(r'[- ]\d+[A-Za-z]*$', source_code) or
-                 code_key(re.sub(r'[- ]\d+[A-Za-z]*$', '', source_code)) != code_key(model_code))):
+        parent_code = re.sub(r'[- /]\d+[A-Za-z]*$', '', source_code)
+        if code_key(source_code) != code_key(model_code) and code_key(parent_code) != code_key(model_code):
             raise ValueError(f'{label}: {source_code} does not match {model_code}')
-        suffix_weight = re.search(r'[- ]([2-8][UF])$', source_code, re.I)
+        suffix_weight = re.search(r'[- /]([2-8][UF])$', source_code, re.I)
         if field == 'tension' and suffix_weight and suffix_weight[1].upper() != row['weight']:
             raise ValueError(f"{label}: {source_code} does not match weight {row['weight']}")
         if not valid_value(field, value, model_code):
@@ -161,7 +161,8 @@ def project(racket, record):
     if tension:
         cap = min(bounds[1] for bounds in tension.values())
         low = max((bounds[0] for bounds in tension.values() if bounds[0] is not None), default=None)
-        patch['tensionByWeight'] = tension
+        single_weight = len(tension) == 1 and patch.get('weights') in tension and 'tension' not in held
+        patch['tensionByWeight'] = {} if single_weight else tension
         patch['tension'] = [low if low is not None and low <= cap else None, cap]
         labels = [f'{weight}: {low}–{high}' if low is not None else f'{weight} ≤ {high}'
                   for weight, (low, high) in tension.items()]

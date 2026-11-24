@@ -72,6 +72,20 @@ class ResearchEvidenceTests(unittest.TestCase):
         self.assertNotIn('tension', patch)
         self.assertNotIn('researchEvidence', patch)
 
+    def test_records_missing_tension_even_when_the_weight_is_unknown(self):
+        unknown = {'field': 'tension', 'market': 'TH', 'status': 'missing', 'checkedOn': '2026-11-24'}
+        ledger, _ = stage({}, self.catalog, [self.record(unknown)])
+        self.assertEqual(ledger[self.racket['id']]['evidence'], [unknown])
+        self.assertNotIn('tension', project(self.racket, ledger[self.racket['id']])[0])
+
+    def test_single_confirmed_weight_keeps_proof_without_triggering_a_weight_choice(self):
+        caps = self.row([20, 28], '4U')
+        weights = self.row(['4U'], field='weights')
+        patch, _ = project(self.racket, self.record(caps, weights))
+        self.assertEqual(patch['tension'], [20, 28])
+        self.assertEqual(patch['tensionByWeight'], {})
+        self.assertEqual(patch['researchEvidence'], [caps, weights])
+
     def test_missing_model_code_requires_its_own_evidence(self):
         racket = {**self.racket, 'modelCode': ''}
         record = self.record(self.row([None, 31]))
