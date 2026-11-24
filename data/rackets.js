@@ -14136,7 +14136,7 @@ window.RACKETS = [
    null,
    29
   ],
-  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 31, 4U ≤ 30, 5U ≤ 29 lbs",
+  "tensionNote": "ตามหลักฐานตลาด TW: 3U ≤ 31, 4U ≤ 30, 5U ≤ 29 lbs",
   "price": 6900,
   "frame": "M46 + T1100 + Ultra High-Elastic Carbon Fibre + Polymer Energy Storage & Shock Absorption Material",
   "shaft": "Ultra High-Elastic Carbon Fibre + High-Density Shock Absorption Material",
@@ -14178,6 +14178,80 @@ window.RACKETS = [
    "Axforce 80II"
   ],
   "modelCode": "AYPW049",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "TW",
+    "value": "AYPW049",
+    "status": "confirmed",
+    "sourceCode": "AYPW049",
+    "source": "https://www.liningtw.com/products/aypw049",
+    "locator": "商品編號",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "tension",
+    "market": "TW",
+    "value": [
+     null,
+     31
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPW049",
+    "source": "https://www.liningtw.com/products/aypw049",
+    "locator": "保磅 → 3U",
+    "checkedOn": "2026-11-24",
+    "weight": "3U",
+    "unit": "lbs",
+    "sourceType": "distributor"
+   },
+   {
+    "field": "tension",
+    "market": "TW",
+    "value": [
+     null,
+     30
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPW049",
+    "source": "https://www.liningtw.com/products/aypw049",
+    "locator": "保磅 → 4U",
+    "checkedOn": "2026-11-24",
+    "weight": "4U",
+    "unit": "lbs",
+    "sourceType": "distributor"
+   },
+   {
+    "field": "tension",
+    "market": "TW",
+    "value": [
+     null,
+     29
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPW049",
+    "source": "https://www.liningtw.com/products/aypw049",
+    "locator": "保磅 → 5U",
+    "checkedOn": "2026-11-24",
+    "weight": "5U",
+    "unit": "lbs",
+    "sourceType": "distributor"
+   },
+   {
+    "field": "weights",
+    "market": "TW",
+    "value": [
+     "3U",
+     "4U",
+     "5U"
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPW049",
+    "source": "https://www.liningtw.com/products/aypw049",
+    "locator": "重量",
+    "checkedOn": "2026-11-24"
+   }
+  ],
   "tensionByWeight": {
    "3U": [
     null,
@@ -15386,7 +15460,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 31, 4U ≤ 30 lbs",
+  "tensionNote": "ตามหลักฐานตลาด CN: 3U ≤ 31, 4U ≤ 30 lbs",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -15414,6 +15488,63 @@ window.RACKETS = [
    "weight"
   ],
   "modelCode": "AYPV007",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "CN",
+    "value": "AYPV007",
+    "status": "confirmed",
+    "sourceCode": "AYPV007",
+    "source": "https://www.shopnings.com/pub/media/descriptions/2025fallwinter.pdf",
+    "locator": "p.034 锋影 500 → 型号",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "tension",
+    "market": "CN",
+    "value": [
+     null,
+     31
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPV007",
+    "source": "https://www.shopnings.com/pub/media/descriptions/2025fallwinter.pdf",
+    "locator": "p.034 锋影 500 → 穿线磅数 → 3U",
+    "checkedOn": "2026-11-24",
+    "weight": "3U",
+    "unit": "lbs",
+    "sourceType": "catalog"
+   },
+   {
+    "field": "tension",
+    "market": "CN",
+    "value": [
+     null,
+     30
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPV007",
+    "source": "https://www.shopnings.com/pub/media/descriptions/2025fallwinter.pdf",
+    "locator": "p.034 锋影 500 → 穿线磅数 → 4U",
+    "checkedOn": "2026-11-24",
+    "weight": "4U",
+    "unit": "lbs",
+    "sourceType": "catalog"
+   },
+   {
+    "field": "weights",
+    "market": "CN",
+    "value": [
+     "3U",
+     "4U"
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPV007",
+    "source": "https://www.shopnings.com/pub/media/descriptions/2025fallwinter.pdf",
+    "locator": "p.034 锋影 500 → 规格",
+    "checkedOn": "2026-11-24"
+   }
+  ],
   "tensionByWeight": {
    "3U": [
     null,
@@ -15501,7 +15632,7 @@ window.RACKETS = [
    null,
    29
   ],
-  "tensionNote": "ตามแหล่งสเปก: 4U ≤ 30, 5U ≤ 29 lbs",
+  "tensionNote": "ตามหลักฐานตลาด TW: 4U ≤ 30, 5U ≤ 29 lbs",
   "price": "",
   "frame": "",
   "shaft": "",
@@ -15534,6 +15665,63 @@ window.RACKETS = [
   ],
   "modelCode": "AYPV015",
   "generation": 2,
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "TW",
+    "value": "AYPV015",
+    "status": "confirmed",
+    "sourceCode": "AYPV015",
+    "source": "https://www.liningtw.com/products/aypv015",
+    "locator": "商品編號",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "tension",
+    "market": "TW",
+    "value": [
+     null,
+     30
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPV015",
+    "source": "https://www.liningtw.com/products/aypv015",
+    "locator": "保磅 → 4U",
+    "checkedOn": "2026-11-24",
+    "weight": "4U",
+    "unit": "lbs",
+    "sourceType": "distributor"
+   },
+   {
+    "field": "tension",
+    "market": "TW",
+    "value": [
+     null,
+     29
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPV015",
+    "source": "https://www.liningtw.com/products/aypv015",
+    "locator": "保磅 → 5U",
+    "checkedOn": "2026-11-24",
+    "weight": "5U",
+    "unit": "lbs",
+    "sourceType": "distributor"
+   },
+   {
+    "field": "weights",
+    "market": "TW",
+    "value": [
+     "4U",
+     "5U"
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPV015",
+    "source": "https://www.liningtw.com/products/aypv015",
+    "locator": "重量",
+    "checkedOn": "2026-11-24"
+   }
+  ],
   "tensionByWeight": {
    "4U": [
     null,
@@ -18374,7 +18562,7 @@ window.RACKETS = [
   "flex": "",
   "level": "",
   "levelTo": "",
-  "weights": "",
+  "weights": "3U",
   "weight": "",
   "grips": "",
   "tension": null,
@@ -18405,7 +18593,22 @@ window.RACKETS = [
    "balance",
    "style"
   ],
-  "modelCode": "AYPV027"
+  "modelCode": "AYPV027",
+  "researchEvidence": [
+   {
+    "field": "weights",
+    "market": "CN",
+    "value": [
+     "3U"
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPV027-3U",
+    "source": "https://www.8491.com.cn/product/detail/id/10672.shtml",
+    "locator": "商品介绍 → Li-Ning 球拍参数 → 球拍重量",
+    "asset": "https://www.8491.com.cn/Public/Upload/Data/20260613/6a2d1c2316ec9.png",
+    "checkedOn": "2026-11-24"
+   }
+  ]
  },
  {
   "id": "li-ning-halbertec-9000",
@@ -18491,14 +18694,14 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "pro",
   "levelTo": "",
-  "weights": "4U",
+  "weights": "3U, 4U",
   "weight": 84,
   "grips": "G5",
   "tension": [
    null,
    30
   ],
-  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 31, 4U ≤ 30 lbs",
+  "tensionNote": "ตามหลักฐานตลาด TH: 3U ≤ 31, 4U ≤ 30 lbs",
   "price": 9371,
   "frame": "Carbon Fibre",
   "shaft": "Ultra High Modulus Carbon Fiber + High-density Dampening Material + Polyimide Fiber",
@@ -18548,6 +18751,64 @@ window.RACKETS = [
   "note": "",
   "est": [],
   "modelCode": "AYPW001",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "TH",
+    "value": "AYPW001",
+    "status": "confirmed",
+    "sourceCode": "AYPW001",
+    "source": "https://www.badmintonplaza.com/product_info.php?language=en&products_id=5098",
+    "locator": "Product title → AYPW001",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "tension",
+    "market": "TH",
+    "value": [
+     null,
+     31
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPW001",
+    "source": "https://www.badmintonplaza.com/product_info.php?language=en&products_id=5098",
+    "locator": "Product Description → Max Tension → 3U",
+    "checkedOn": "2026-11-24",
+    "weight": "3U",
+    "unit": "lbs",
+    "sourceType": "retailer"
+   },
+   {
+    "field": "tension",
+    "market": "TH",
+    "value": [
+     null,
+     30
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPW001",
+    "source": "https://www.badmintonplaza.com/product_info.php?language=en&products_id=5098",
+    "locator": "Product Description → Max Tension → 4U",
+    "checkedOn": "2026-11-24",
+    "weight": "4U",
+    "unit": "lbs",
+    "sourceType": "retailer"
+   },
+   {
+    "field": "weights",
+    "market": "TH",
+    "value": [
+     "3U",
+     "4U"
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPW001",
+    "source": "https://www.badmintonplaza.com/product_info.php?language=en&products_id=5098",
+    "locator": "Product Description → Weight/Grip size",
+    "checkedOn": "2026-11-24",
+    "note": "ตารางสเปกระบุ 3U และ 4U ส่วนตัวเลือกสั่งซื้อของร้าน ณ วันที่ตรวจมี 4U"
+   }
+  ],
   "tensionByWeight": {
    "3U": [
     null,
@@ -18558,7 +18819,7 @@ window.RACKETS = [
     30
    ]
   },
-  "tensionSrc": "https://www.liningtw.com/products/aypw001"
+  "tensionSrc": "https://www.badmintonplaza.com/product_info.php?language=en&products_id=5098"
  },
  {
   "id": "li-ning-halbertec-mage",
@@ -31324,14 +31585,14 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "intermediate",
   "levelTo": "",
-  "weights": "4U, 3U",
+  "weights": "3U, 4U",
   "weight": 88,
   "grips": "G5",
   "tension": [
    null,
    27
   ],
-  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 28, 4U ≤ 27 lbs",
+  "tensionNote": "ตามหลักฐานตลาด MY: 3U ≤ 28, 4U ≤ 27 lbs",
   "price": 2990,
   "frame": "High ResilienceModulus Graphite+Nano Fortify TR＋",
   "shaft": "High ResilienceModulus Graphite+PYROFIL+6.8 SHAFT",
@@ -31371,6 +31632,63 @@ window.RACKETS = [
    "level"
   ],
   "modelCode": "ARS-100X TD",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "MY",
+    "value": "ARS-100X-TD",
+    "status": "confirmed",
+    "sourceCode": "ARS-100X-TD",
+    "source": "https://www.victorsports.my/product/victor-auraspeed-100x-td-badminton-racket-ars-100x-td",
+    "locator": "Product title → ARS-100X-TD",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "tension",
+    "market": "MY",
+    "value": [
+     null,
+     28
+    ],
+    "status": "confirmed",
+    "sourceCode": "ARS-100X-TD",
+    "source": "https://www.victorsports.my/product/victor-auraspeed-100x-td-badminton-racket-ars-100x-td",
+    "locator": "Product Details → String Tension → 3U",
+    "checkedOn": "2026-11-24",
+    "weight": "3U",
+    "unit": "lbs",
+    "sourceType": "distributor"
+   },
+   {
+    "field": "tension",
+    "market": "MY",
+    "value": [
+     null,
+     27
+    ],
+    "status": "confirmed",
+    "sourceCode": "ARS-100X-TD",
+    "source": "https://www.victorsports.my/product/victor-auraspeed-100x-td-badminton-racket-ars-100x-td",
+    "locator": "Product Details → String Tension → 4U",
+    "checkedOn": "2026-11-24",
+    "weight": "4U",
+    "unit": "lbs",
+    "sourceType": "distributor"
+   },
+   {
+    "field": "weights",
+    "market": "MY",
+    "value": [
+     "3U",
+     "4U"
+    ],
+    "status": "confirmed",
+    "sourceCode": "ARS-100X-TD",
+    "source": "https://www.victorsports.my/product/victor-auraspeed-100x-td-badminton-racket-ars-100x-td",
+    "locator": "Product Details → Weight/Grip",
+    "checkedOn": "2026-11-24"
+   }
+  ],
   "tensionByWeight": {
    "3U": [
     null,
@@ -31381,7 +31699,7 @@ window.RACKETS = [
     27
    ]
   },
-  "tensionSrc": "https://www.victorsport.com/product/ars-100x-td"
+  "tensionSrc": "https://www.victorsports.my/product/victor-auraspeed-100x-td-badminton-racket-ars-100x-td"
  },
  {
   "id": "victor-auraspeed-100x-ultra",
@@ -33171,7 +33489,7 @@ window.RACKETS = [
    null,
    31
   ],
-  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 32, 4U ≤ 31 lbs",
+  "tensionNote": "ตามหลักฐานตลาด CA: 3U ≤ 32, 4U ≤ 31 lbs",
   "price": 5950,
   "frame": "High Resilience Modulus Graphite+Metallic Carbon Fiber+NANO AEROGEL+Nano Fortify TR++HARD CORED TECHNOLOGY",
   "shaft": "High Resilience Modulus Graphite+Metallic Carbon Fiber+PYROFIL+6.8 SHAFT",
@@ -33224,6 +33542,63 @@ window.RACKETS = [
    "price"
   ],
   "modelCode": "ARS-99",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "CA",
+    "value": "ARS-99",
+    "status": "confirmed",
+    "sourceCode": "ARS-99",
+    "source": "https://yumo.ca/collections/badminton-rackets/products/victor-auraspeed-99-unstrung-badminton-racket-pink-ars-99",
+    "locator": "Product title → ARS-99",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "tension",
+    "market": "CA",
+    "value": [
+     null,
+     32
+    ],
+    "status": "confirmed",
+    "sourceCode": "ARS-99",
+    "source": "https://yumo.ca/collections/badminton-rackets/products/victor-auraspeed-99-unstrung-badminton-racket-pink-ars-99",
+    "locator": "Description → String tension LBS → 3U",
+    "checkedOn": "2026-11-24",
+    "weight": "3U",
+    "unit": "lbs",
+    "sourceType": "retailer"
+   },
+   {
+    "field": "tension",
+    "market": "CA",
+    "value": [
+     null,
+     31
+    ],
+    "status": "confirmed",
+    "sourceCode": "ARS-99",
+    "source": "https://yumo.ca/collections/badminton-rackets/products/victor-auraspeed-99-unstrung-badminton-racket-pink-ars-99",
+    "locator": "Description → String tension LBS → 4U",
+    "checkedOn": "2026-11-24",
+    "weight": "4U",
+    "unit": "lbs",
+    "sourceType": "retailer"
+   },
+   {
+    "field": "weights",
+    "market": "CA",
+    "value": [
+     "3U",
+     "4U"
+    ],
+    "status": "confirmed",
+    "sourceCode": "ARS-99",
+    "source": "https://yumo.ca/collections/badminton-rackets/products/victor-auraspeed-99-unstrung-badminton-racket-pink-ars-99",
+    "locator": "Description → Weight/Grip Size",
+    "checkedOn": "2026-11-24"
+   }
+  ],
   "tensionByWeight": {
    "3U": [
     null,
@@ -33234,7 +33609,7 @@ window.RACKETS = [
     31
    ]
   },
-  "tensionSrc": "https://ca.victorsport.com/product/auraspeed99"
+  "tensionSrc": "https://yumo.ca/collections/badminton-rackets/products/victor-auraspeed-99-unstrung-badminton-racket-pink-ars-99"
  },
  {
   "id": "victor-auraspeed-aurora-ultra",
@@ -33277,7 +33652,7 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "ราคาร้านไทย (Kenwu Sports, Wattanasarn Badminton) แถมเอ็น กริป ซอง; Shopee ฿3,590",
   "priceSrc": "https://www.google.com/search?q=%22AURORA+ULTRA%22+victor+ราคา",
-  "note": "ARS-AURORA Ultra เปิดตัวในไทย 16 ต.ค. 2026 (VICTOR SPORT THAILAND) ร้านเล่าว่าผสมระหว่าง 100X Ultra กับ HS Plus; ความตึงสูงสุด: Kenwu Sports ระบุ 3U ≤31 / 4U ≤30 lbs อีกร้านระบุ ≤29 lbs; ความแข็งก้าน: Mr.C Sports (15 พ.ย. 2026) เขียน \"ก้านกลางค่อนแข็ง\" และ \"สเปคใกล้ ARS 100X Ultra\" ร้านอื่นเรียกว่าก้านแข็ง จึงทำเครื่องหมาย ≈; จุดสมดุล 290 ±3 มม. (โพสต์ Instagram ของร้านค้า)",
+  "note": "ร้านไทยมีตัวเลือก ARS-AURORA ULTRA เวต 3U และ 4U เพดานเอ็นทั้งสองเวตยังรอหลักฐานตลาดไทย ความแข็งก้านของรุ่นนี้เป็นค่าประมาณจากร้านค้า โดย Mr.C Sports เรียกว่าก้านกลางค่อนแข็ง ส่วนร้านอื่นเรียกว่าก้านแข็ง จุดสมดุล 290 ±3 มม. มาจากโพสต์ Instagram ของร้านค้า",
   "est": [
    "tension",
    "flex",
@@ -33285,7 +33660,34 @@ window.RACKETS = [
    "year",
    "weight"
   ],
-  "modelCode": "ARS-AURORA ULTRA"
+  "modelCode": "ARS-AURORA ULTRA",
+  "researchEvidence": [
+   {
+    "market": "TH",
+    "status": "confirmed",
+    "sourceType": "retailer",
+    "source": "https://shopee.co.th/product/136837903/53369328174",
+    "sourceCode": "ARS-AURORA ULTRA",
+    "checkedOn": "2026-11-24",
+    "field": "modelCode",
+    "value": "ARS-AURORA ULTRA",
+    "locator": "ชื่อสินค้าของ Jimmy Badminton"
+   },
+   {
+    "market": "TH",
+    "status": "confirmed",
+    "sourceType": "retailer",
+    "source": "https://shopee.co.th/product/136837903/53369328174",
+    "sourceCode": "ARS-AURORA ULTRA",
+    "checkedOn": "2026-11-24",
+    "field": "weights",
+    "value": [
+     "3U",
+     "4U"
+    ],
+    "locator": "ตัวเลือกรุ่นน้ำหนักของ Jimmy Badminton → 3U และ 4U"
+   }
+  ]
  },
  {
   "id": "victor-auraspeed-cyber",
@@ -33961,23 +34363,23 @@ window.RACKETS = [
  {
   "id": "victor-auraspeed-ljh",
   "brand": "Victor",
-  "name": "Auraspeed LJH",
+  "name": "Auraspeed LJH E",
   "year": 2025,
-  "yearSrc": "",
+  "yearSrc": "https://th.victorsport.com/product/auraspeed-ljh-e",
   "style": "speed",
-  "balance": "head-heavy",
+  "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "intermediate",
+  "level": "pro",
   "levelTo": "",
-  "weights": "4U",
+  "weights": "5U",
   "weight": 78,
   "grips": "G6",
   "tension": [
    null,
    29
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามหลักฐานตลาด TH: 5U ≤ 29 lbs",
   "price": 5400,
   "frame": "High ResilienceModulus Graphite + Nano Fortify TR＋+HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite + Metallic Carbon Fiber + PYROFIL + 5.8 SHAFT",
@@ -33987,12 +34389,12 @@ window.RACKETS = [
   "pattern": "",
   "tech": "PYROFIL · NANO FORTIFY TR+ · HIGH RESILIENCE MODULUS GRAPHITE",
   "players": "",
-  "madeIn": "China",
+  "madeIn": "",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-ljh-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-ljh/",
-  "officialUrl": "",
-  "specSrc": "https://thegodofsports.com/products/victor-auraspeed-ljh-badminton-racket",
+  "officialUrl": "https://th.victorsport.com/product/auraspeed-ljh-e",
+  "specSrc": "https://th.victorsport.com/product/auraspeed-ljh-e",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -34002,34 +34404,76 @@ window.RACKETS = [
     "url": "https://th.victorsport.com/product/auraspeed-ljh-e"
    },
    {
-    "shop": "badmintonwarehouse.com",
-    "url": "https://badmintonwarehouse.com/products/victor-auraspeed-ljh-badminton-racket"
-   },
-   {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-auraspeed-li-junhui-ars-ljh-e-yellow-badminton-racket-limited-edition-unstrung"
    },
    {
     "shop": "yumo.ca",
     "url": "https://yumo.ca/products/victor-auraspeed-ars-ljh-e-unstrung-badminton-racket-yellow"
-   },
-   {
-    "shop": "thegodofsports.com",
-    "url": "https://thegodofsports.com/products/victor-auraspeed-ljh-badminton-racket"
-   },
-   {
-    "shop": "corkandfeathers.com",
-    "url": "https://corkandfeathers.com/product/victor-auraspeed-ljh-s/"
    }
   ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
   "est": [
-   "year",
-   "weight",
-   "tension"
-  ]
+   "balance"
+  ],
+  "modelCode": "ARS-LJH E",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "TH",
+    "value": "ARS-LJH E",
+    "status": "confirmed",
+    "source": "https://th.victorsport.com/product/auraspeed-ljh-e",
+    "sourceCode": "ARS-LJH E",
+    "locator": "AURASPEED LJH E → product data → sku",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "tension",
+    "market": "TH",
+    "value": [
+     null,
+     29
+    ],
+    "status": "confirmed",
+    "source": "https://th.victorsport.com/product/auraspeed-ljh-e",
+    "sourceCode": "ARS-LJH E",
+    "locator": "SPEC & TECH → String tension LBS",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-24",
+    "weight": "5U",
+    "unit": "lbs"
+   },
+   {
+    "field": "weights",
+    "market": "TH",
+    "value": [
+     "5U"
+    ],
+    "status": "confirmed",
+    "source": "https://th.victorsport.com/product/auraspeed-ljh-e",
+    "sourceCode": "ARS-LJH E",
+    "locator": "SPEC & TECH → Weight / Grip Size → 5U/G6",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "year",
+    "market": "GLOBAL",
+    "value": 2025,
+    "status": "confirmed",
+    "source": "https://th.victorsport.com/product/auraspeed-ljh-e",
+    "sourceCode": "ARS-LJH E",
+    "locator": "AURASPEED LJH E → 2025 NEW",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-24"
+   }
+  ],
+  "tensionByWeight": {},
+  "tensionSrc": "https://th.victorsport.com/product/auraspeed-ljh-e"
  },
  {
   "id": "victor-auraspeed-lyc",
@@ -34228,7 +34672,7 @@ window.RACKETS = [
    null,
    29
   ],
-  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 30, 4U ≤ 29 lbs",
+  "tensionNote": "ตามหลักฐานตลาด MY: 3U ≤ 30, 4U ≤ 29 lbs",
   "price": 3570,
   "frame": "High Resilience Graphite + Nano Fortify TR + Hard Cored Technology",
   "shaft": "High Resilience Graphite + PYROFIL + 6.8 shaft",
@@ -34269,6 +34713,63 @@ window.RACKETS = [
    "weight"
   ],
   "modelCode": "ARS-VRD J",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "MY",
+    "value": "ARS VRD J",
+    "status": "confirmed",
+    "sourceCode": "ARS VRD J",
+    "source": "https://www.nexchamp.my/product/victor-ars-vrd-j",
+    "locator": "Product title → VICTOR ARS VRD J",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "tension",
+    "market": "MY",
+    "value": [
+     null,
+     30
+    ],
+    "status": "confirmed",
+    "sourceCode": "ARS VRD J",
+    "source": "https://www.nexchamp.my/product/victor-ars-vrd-j",
+    "locator": "Product Description → Thread weight → 3U",
+    "checkedOn": "2026-11-24",
+    "weight": "3U",
+    "unit": "lbs",
+    "sourceType": "retailer"
+   },
+   {
+    "field": "tension",
+    "market": "MY",
+    "value": [
+     null,
+     29
+    ],
+    "status": "confirmed",
+    "sourceCode": "ARS VRD J",
+    "source": "https://www.nexchamp.my/product/victor-ars-vrd-j",
+    "locator": "Product Description → Thread weight → 4U",
+    "checkedOn": "2026-11-24",
+    "weight": "4U",
+    "unit": "lbs",
+    "sourceType": "retailer"
+   },
+   {
+    "field": "weights",
+    "market": "MY",
+    "value": [
+     "3U",
+     "4U"
+    ],
+    "status": "confirmed",
+    "sourceCode": "ARS VRD J",
+    "source": "https://www.nexchamp.my/product/victor-ars-vrd-j",
+    "locator": "Product Description → Racket weight / Handle size",
+    "checkedOn": "2026-11-24"
+   }
+  ],
   "tensionByWeight": {
    "3U": [
     null,
@@ -41491,7 +41992,7 @@ window.RACKETS = [
    null,
    29
   ],
-  "tensionNote": "ตามแหล่งสเปก: 4U ≤ 30, 5U ≤ 29 lbs",
+  "tensionNote": "ตามหลักฐานตลาด MY: 4U ≤ 30, 5U ≤ 29 lbs",
   "price": 3570,
   "frame": "High Resilience Graphite + PYROFIL + Hard Cored Technology",
   "shaft": "High Resilience Graphite + PYROFIL + 6.6 shaft",
@@ -41528,6 +42029,95 @@ window.RACKETS = [
    "weight"
   ],
   "modelCode": "TK-VRD C",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "MY",
+    "value": "TK-VRD C",
+    "status": "confirmed",
+    "sourceCode": "TK-VRD C",
+    "source": "https://www.victorsports.my/product/victor-thruster-k-vrd-badminton-racket-tk-vrd",
+    "locator": "Product Details → TK-VRD C",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "tension",
+    "market": "MY",
+    "value": [
+     null,
+     30
+    ],
+    "status": "confirmed",
+    "sourceCode": "TK-VRD C",
+    "source": "https://www.victorsports.my/product/victor-thruster-k-vrd-badminton-racket-tk-vrd",
+    "locator": "Product Details → TK-VRD C → String Tension → 4U",
+    "checkedOn": "2026-11-24",
+    "weight": "4U",
+    "unit": "lbs",
+    "sourceType": "distributor"
+   },
+   {
+    "field": "tension",
+    "market": "MY",
+    "weight": "4U",
+    "unit": "lbs",
+    "value": [
+     null,
+     30
+    ],
+    "status": "confirmed",
+    "sourceCode": "TK VRD C",
+    "source": "https://www.nexchamp.my/product/victor-tk-vrd-c",
+    "locator": "Product Description → Racket weight / Handle size and Thread weight → 4U",
+    "checkedOn": "2026-11-24",
+    "sourceType": "retailer"
+   },
+   {
+    "field": "tension",
+    "market": "MY",
+    "value": [
+     null,
+     29
+    ],
+    "status": "confirmed",
+    "sourceCode": "TK-VRD C",
+    "source": "https://www.victorsports.my/product/victor-thruster-k-vrd-badminton-racket-tk-vrd",
+    "locator": "Product Details → TK-VRD C → String Tension → 5U",
+    "checkedOn": "2026-11-24",
+    "weight": "5U",
+    "unit": "lbs",
+    "sourceType": "distributor"
+   },
+   {
+    "field": "tension",
+    "market": "MY",
+    "weight": "5U",
+    "unit": "lbs",
+    "value": [
+     null,
+     29
+    ],
+    "status": "confirmed",
+    "sourceCode": "TK VRD C",
+    "source": "https://www.nexchamp.my/product/victor-tk-vrd-c",
+    "locator": "Product Description → Racket weight / Handle size and Thread weight → 5U",
+    "checkedOn": "2026-11-24",
+    "sourceType": "retailer"
+   },
+   {
+    "field": "weights",
+    "market": "MY",
+    "value": [
+     "4U",
+     "5U"
+    ],
+    "status": "confirmed",
+    "sourceCode": "TK-VRD C",
+    "source": "https://www.victorsports.my/product/victor-thruster-k-vrd-badminton-racket-tk-vrd",
+    "locator": "Product Details → TK-VRD C → Weight/Grip Size",
+    "checkedOn": "2026-11-24"
+   }
+  ],
   "tensionByWeight": {
    "4U": [
     null,
@@ -43404,7 +43994,7 @@ window.RACKETS = [
    21,
    28
   ],
-  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
+  "tensionNote": "ตามหลักฐานตลาด GLOBAL: 3U: 21–29, 4U: 20–28 lbs",
   "price": 4040,
   "frame": "HM Graphite, NANOMESH NEO, VOLUME CUT RESIN, Tungsten",
   "shaft": "HM Graphite, NANOMESH NEO",
@@ -43449,6 +44039,63 @@ window.RACKETS = [
    "price"
   ],
   "modelCode": "AX100VAG",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "GLOBAL",
+    "value": "AX100VAG",
+    "status": "confirmed",
+    "sourceCode": "AX100VAG",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-100va-game-sports-gear-yonex",
+    "locator": "Specs → Item Code",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "tension",
+    "market": "GLOBAL",
+    "value": [
+     21,
+     29
+    ],
+    "status": "confirmed",
+    "sourceCode": "AX100VAG",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-100va-game-sports-gear-yonex",
+    "locator": "Specs → Stringing Advice → 3U",
+    "checkedOn": "2026-11-24",
+    "weight": "3U",
+    "unit": "lbs",
+    "sourceType": "manufacturer"
+   },
+   {
+    "field": "tension",
+    "market": "GLOBAL",
+    "value": [
+     20,
+     28
+    ],
+    "status": "confirmed",
+    "sourceCode": "AX100VAG",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-100va-game-sports-gear-yonex",
+    "locator": "Specs → Stringing Advice → 4U",
+    "checkedOn": "2026-11-24",
+    "weight": "4U",
+    "unit": "lbs",
+    "sourceType": "manufacturer"
+   },
+   {
+    "field": "weights",
+    "market": "GLOBAL",
+    "value": [
+     "3U",
+     "4U"
+    ],
+    "status": "confirmed",
+    "sourceCode": "AX100VAG",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-100va-game-sports-gear-yonex",
+    "locator": "Specs → Weight / Grip",
+    "checkedOn": "2026-11-24"
+   }
+  ],
   "tensionByWeight": {
    "3U": [
     21,
@@ -43458,7 +44105,8 @@ window.RACKETS = [
     20,
     28
    ]
-  }
+  },
+  "tensionSrc": "https://www.yonex.com/badminton/racquets/astrox-100va-game-sports-gear-yonex"
  },
  {
   "id": "yonex-astrox-100va-tour",
@@ -43479,7 +44127,7 @@ window.RACKETS = [
    21,
    28
   ],
-  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
+  "tensionNote": "ตามหลักฐานตลาด GLOBAL: 3U: 21–29, 4U: 20–28 lbs",
   "price": 7460,
   "frame": "HM Graphite, NANOMESH NEO, VOLUME CUT RESIN, Tungsten",
   "shaft": "HM Graphite, Namd™",
@@ -43524,6 +44172,63 @@ window.RACKETS = [
    "price"
   ],
   "modelCode": "AX100VAT",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "GLOBAL",
+    "value": "AX100VAT",
+    "status": "confirmed",
+    "sourceCode": "AX100VAT",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-100va-tour",
+    "locator": "Specs → Item Code",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "tension",
+    "market": "GLOBAL",
+    "value": [
+     21,
+     29
+    ],
+    "status": "confirmed",
+    "sourceCode": "AX100VAT",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-100va-tour",
+    "locator": "Specs → Stringing Advice → 3U",
+    "checkedOn": "2026-11-24",
+    "weight": "3U",
+    "unit": "lbs",
+    "sourceType": "manufacturer"
+   },
+   {
+    "field": "tension",
+    "market": "GLOBAL",
+    "value": [
+     20,
+     28
+    ],
+    "status": "confirmed",
+    "sourceCode": "AX100VAT",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-100va-tour",
+    "locator": "Specs → Stringing Advice → 4U",
+    "checkedOn": "2026-11-24",
+    "weight": "4U",
+    "unit": "lbs",
+    "sourceType": "manufacturer"
+   },
+   {
+    "field": "weights",
+    "market": "GLOBAL",
+    "value": [
+     "3U",
+     "4U"
+    ],
+    "status": "confirmed",
+    "sourceCode": "AX100VAT",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-100va-tour",
+    "locator": "Specs → Weight / Grip",
+    "checkedOn": "2026-11-24"
+   }
+  ],
   "tensionByWeight": {
    "3U": [
     21,
@@ -43533,7 +44238,8 @@ window.RACKETS = [
     20,
     28
    ]
-  }
+  },
+  "tensionSrc": "https://www.yonex.com/badminton/racquets/astrox-100va-tour"
  },
  {
   "id": "yonex-astrox-100va-zz",
@@ -45174,7 +45880,7 @@ window.RACKETS = [
    20,
    28
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามหลักฐานตลาด GLOBAL: 4U: 20–28 lbs",
   "price": 4836,
   "frame": "HM Graphite + CSR + Tungsten + 2G-NANOMESH NEO",
   "shaft": "HM Graphite, 2G-NANOMESH NEO",
@@ -45204,7 +45910,60 @@ window.RACKETS = [
   "note": "",
   "est": [],
   "modelCode": "3AX99-G",
-  "generation": 3
+  "generation": 3,
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "GLOBAL",
+    "value": "3AX99-G",
+    "status": "confirmed",
+    "sourceCode": "3AX99-G",
+    "source": "https://www.yonex.com/badminton/astrox-99-game-3ax99-g",
+    "locator": "Specs → Item Code",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "tension",
+    "market": "GLOBAL",
+    "value": [
+     20,
+     28
+    ],
+    "status": "confirmed",
+    "sourceCode": "3AX99-G",
+    "source": "https://www.yonex.com/badminton/astrox-99-game-3ax99-g",
+    "locator": "Specs → Stringing Advice → 4U",
+    "checkedOn": "2026-11-24",
+    "weight": "4U",
+    "unit": "lbs",
+    "sourceType": "manufacturer"
+   },
+   {
+    "field": "weights",
+    "market": "GLOBAL",
+    "value": [
+     "4U"
+    ],
+    "status": "confirmed",
+    "sourceCode": "3AX99-G",
+    "source": "https://www.yonex.com/badminton/astrox-99-game-3ax99-g",
+    "locator": "Specs → Weight / Grip",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "year",
+    "market": "GLOBAL",
+    "value": 2025,
+    "status": "confirmed",
+    "sourceCode": "3AX99-G",
+    "source": "https://www.yonex.com/news/badminton/astrox-99-pure-power/",
+    "locator": "Global launch on September 5 → ASTROX 99 GAME",
+    "checkedOn": "2026-11-24",
+    "identitySource": "https://www.yonex.com/badminton/astrox-99-game-3ax99-g"
+   }
+  ],
+  "tensionByWeight": {},
+  "tensionSrc": "https://www.yonex.com/badminton/astrox-99-game-3ax99-g"
  },
  {
   "id": "yonex-astrox-99-game-2021",
@@ -45378,14 +46137,14 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "pro",
   "levelTo": "",
-  "weights": "4U, 3U",
+  "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5",
   "tension": [
    21,
    28
   ],
-  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
+  "tensionNote": "ตามหลักฐานตลาด GLOBAL: 3U: 21–29, 4U: 20–28 lbs",
   "price": 9672,
   "frame": "HM Graphite + CFR + Tungsten + 2G-Namd FLEX FORCE",
   "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE, Ultra PE Fiber",
@@ -45420,6 +46179,74 @@ window.RACKETS = [
   "est": [],
   "modelCode": "3AX99-P",
   "generation": 3,
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "GLOBAL",
+    "value": "3AX99-P",
+    "status": "confirmed",
+    "sourceCode": "3AX99-P",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-99-pro-3ax99-p",
+    "locator": "Specs → Item Code",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "tension",
+    "market": "GLOBAL",
+    "value": [
+     21,
+     29
+    ],
+    "status": "confirmed",
+    "sourceCode": "3AX99-P",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-99-pro-3ax99-p",
+    "locator": "Specs → Stringing Advice → 3U",
+    "checkedOn": "2026-11-24",
+    "weight": "3U",
+    "unit": "lbs",
+    "sourceType": "manufacturer"
+   },
+   {
+    "field": "tension",
+    "market": "GLOBAL",
+    "value": [
+     20,
+     28
+    ],
+    "status": "confirmed",
+    "sourceCode": "3AX99-P",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-99-pro-3ax99-p",
+    "locator": "Specs → Stringing Advice → 4U",
+    "checkedOn": "2026-11-24",
+    "weight": "4U",
+    "unit": "lbs",
+    "sourceType": "manufacturer"
+   },
+   {
+    "field": "weights",
+    "market": "GLOBAL",
+    "value": [
+     "3U",
+     "4U"
+    ],
+    "status": "confirmed",
+    "sourceCode": "3AX99-P",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-99-pro-3ax99-p",
+    "locator": "Specs → Weight / Grip",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "year",
+    "market": "GLOBAL",
+    "value": 2025,
+    "status": "confirmed",
+    "sourceCode": "3AX99-P",
+    "source": "https://www.yonex.com/news/badminton/astrox-99-pure-power/",
+    "locator": "Global launch on September 5 → ASTROX 99 PRO",
+    "checkedOn": "2026-11-24",
+    "identitySource": "https://www.yonex.com/badminton/racquets/astrox-99-pro-3ax99-p"
+   }
+  ],
   "tensionByWeight": {
    "3U": [
     21,
@@ -45429,7 +46256,8 @@ window.RACKETS = [
     20,
     28
    ]
-  }
+  },
+  "tensionSrc": "https://www.yonex.com/badminton/racquets/astrox-99-pro-3ax99-p"
  },
  {
   "id": "yonex-astrox-99-pro-2021",
@@ -45502,14 +46330,14 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "advanced",
   "levelTo": "",
-  "weights": "4U",
+  "weights": "3U, 4U",
   "weight": 83,
   "grips": "G5",
   "tension": [
    21,
    28
   ],
-  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
+  "tensionNote": "ตามหลักฐานตลาด GLOBAL: 3U: 21–29, 4U: 20–28 lbs",
   "price": 6670,
   "frame": "HM Graphite + CSR + Tungsten + 2G-Namd FLEX FORCE",
   "shaft": "HM Graphite, 2G-Namd™ FLEX FORCE",
@@ -45544,6 +46372,74 @@ window.RACKETS = [
   "est": [],
   "modelCode": "3AX99-T",
   "generation": 3,
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "GLOBAL",
+    "value": "3AX99-T",
+    "status": "confirmed",
+    "sourceCode": "3AX99-T",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-99-tour-3ax99-t",
+    "locator": "Specs → Item Code",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "tension",
+    "market": "GLOBAL",
+    "value": [
+     21,
+     29
+    ],
+    "status": "confirmed",
+    "sourceCode": "3AX99-T",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-99-tour-3ax99-t",
+    "locator": "Specs → Stringing Advice → 3U",
+    "checkedOn": "2026-11-24",
+    "weight": "3U",
+    "unit": "lbs",
+    "sourceType": "manufacturer"
+   },
+   {
+    "field": "tension",
+    "market": "GLOBAL",
+    "value": [
+     20,
+     28
+    ],
+    "status": "confirmed",
+    "sourceCode": "3AX99-T",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-99-tour-3ax99-t",
+    "locator": "Specs → Stringing Advice → 4U",
+    "checkedOn": "2026-11-24",
+    "weight": "4U",
+    "unit": "lbs",
+    "sourceType": "manufacturer"
+   },
+   {
+    "field": "weights",
+    "market": "GLOBAL",
+    "value": [
+     "3U",
+     "4U"
+    ],
+    "status": "confirmed",
+    "sourceCode": "3AX99-T",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-99-tour-3ax99-t",
+    "locator": "Specs → Weight / Grip",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "year",
+    "market": "GLOBAL",
+    "value": 2025,
+    "status": "confirmed",
+    "sourceCode": "3AX99-T",
+    "source": "https://www.yonex.com/news/badminton/astrox-99-pure-power/",
+    "locator": "Global launch on September 5 → ASTROX 99 TOUR",
+    "checkedOn": "2026-11-24",
+    "identitySource": "https://www.yonex.com/badminton/racquets/astrox-99-tour-3ax99-t"
+   }
+  ],
   "tensionByWeight": {
    "3U": [
     21,
@@ -45553,7 +46449,8 @@ window.RACKETS = [
     20,
     28
    ]
-  }
+  },
+  "tensionSrc": "https://www.yonex.com/badminton/racquets/astrox-99-tour-3ax99-t"
  },
  {
   "id": "yonex-astrox-99-tour-2021",
@@ -46248,7 +47145,7 @@ window.RACKETS = [
   "id": "yonex-gr-303i",
   "brand": "Yonex",
   "name": "GR-303i",
-  "year": 2026,
+  "year": "",
   "yearSrc": "",
   "style": "",
   "balance": "",
@@ -46256,7 +47153,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "beginner",
   "levelTo": "",
-  "weights": "",
+  "weights": "U",
   "weight": "",
   "grips": "G4",
   "tension": null,
@@ -46283,8 +47180,33 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "year"
+  "est": [],
+  "modelCode": "GR303I",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "US",
+    "value": "GR303I",
+    "status": "confirmed",
+    "source": "https://us.yonex.com/products/gr-303i",
+    "sourceCode": "GR303I",
+    "locator": "Specifications → Model Number",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "weights",
+    "market": "US",
+    "value": [
+     "U"
+    ],
+    "status": "confirmed",
+    "source": "https://us.yonex.com/products/gr-303i",
+    "sourceCode": "GR303I",
+    "locator": "Specifications → Weight & Grip → UG4",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-24"
+   }
   ]
  },
  {

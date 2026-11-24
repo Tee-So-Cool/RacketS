@@ -200,6 +200,7 @@ for full_name, o in overrides.items():
 # ---- Badminton Plaza (Thai shop): fills empty image, THB price and specs; adds models we lack ----
 import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from merge_research import LEDGER_PATH, decode, project
 from plaza_match import match as pmatch, clean as pclean, skip as pskip, match_generation, NEW_NAMES
 PLAZA = os.path.join(SRC, 'plaza.json')
 BASE_PLAZA = 'https://www.badmintonplaza.com/product_info.php?products_id='
@@ -823,20 +824,31 @@ for r in rackets.values():
     if len(ceilings) > 1 and 'tension' not in r['est']:
         r['est'].append('tension')
 
+research_path = os.path.join(ROOT, LEDGER_PATH)
+research = {}
+if os.path.exists(research_path):
+    with open(research_path, encoding='utf-8') as evidence_file:
+        research = decode(evidence_file.read())
+
 order = ['id', 'brand', 'name', 'year', 'yearSrc', 'style', 'balance', 'bp', 'flex', 'level', 'levelTo', 'weights', 'weight', 'grips', 'tension', 'tensionNote', 'price',
          'frame', 'shaft', 'joint', 'length', 'head', 'pattern', 'tech', 'players', 'madeIn', 'recString', 'img', 'source', 'officialUrl', 'specSrc', 'shopUrl', 'bayUrl', 'clickUrl', 'shopLinks', 'priceNote', 'priceSrc', 'note', 'est']
 final, seen = [], set()
 for r in sorted(rackets.values(), key=lambda r: (r['brand'], r['name'])):
     while r['id'] in seen: r['id'] += '-2'
     seen.add(r['id'])
+    if r['id'] in research:
+        patch, _ = project(r, research[r['id']])
+        r.update(patch)
     final.append({k: r.get(k, '') for k in order})
-    for field in ('aliases', 'modelCode', 'generation'):
+    for field in ('aliases', 'modelCode', 'generation', 'researchEvidence'):
         if r.get(field):
             final[-1][field] = r[field]
     if 'tensionByWeight' in r:
         final[-1]['tensionByWeight'] = r['tensionByWeight']
     if r.get('tensionSrc'):
         final[-1]['tensionSrc'] = r['tensionSrc']
+if research.keys() - seen:
+    raise ValueError('Unknown racket IDs in research evidence: ' + ', '.join(sorted(research.keys() - seen)))
 
 head = """// ข้อมูลไม้แบด — สร้างจาก scripts/build_rackets.py และ data/spec-overrides.json
 // แหล่งข้อมูล: chobbad.com (สเปกรวม) + yonex.com (สเปกทางการ ทับค่า Yonex)

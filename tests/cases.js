@@ -185,6 +185,46 @@ const cases = [
       f({ ...r, tension: [null, 28], est: [] }, s) === 'เอ็น' &&
       f({ ...r, tension: [null, 28], est: ['tension'] }, { ...s, tensionMax: 28, est: [] }) === 'ไม้';
   }],
+  ['ที่มาเพดานเอ็น: หน้า Match แสดงหลักฐานตามเวตที่เลือก', () => {
+    const show = RS_TEST.renderTensionEvidence;
+    const tour = R('Yonex Astrox 99 Tour');
+    const three = show(tour, '3U'), four = show(tour, '4U');
+    return !show(tour, '') && three.includes('21–29 lbs') && !three.includes('20–28 lbs') &&
+      four.includes('20–28 lbs') && four.includes('ตลาดสากล') && four.includes('ผู้ผลิต · yonex.com');
+  }],
+  ['ที่มาเพดานเอ็น: แสดงร้านค้า และเวตเดียวดูหลักฐานได้ทันที', () => {
+    const show = RS_TEST.renderTensionEvidence;
+    const thai = show(R('Li-Ning Halbertec 9000 Power'), '4U');
+    const game = show(R('Yonex Astrox 99 Game'), '');
+    return thai.includes('ร้านค้า · badmintonplaza.com') && thai.includes('ตลาดไทย') &&
+      game.includes('ของไม้ 4U') && game.includes('20–28 lbs');
+  }],
+  ['ที่มาเพดานเอ็น: ไม้ที่ยังไม่ยืนยันหรือค่าที่แก้เองไม่ใช้หลักฐานเดิม', () => {
+    const show = RS_TEST.renderTensionEvidence;
+    const tour = R('Yonex Astrox 99 Tour');
+    return !show(R('Li-Ning Halbertec 900'), '') && !show(R('Victor Auraspeed Aurora Ultra'), '4U') &&
+      !show({ ...tour, tensionByWeight: { ...tour.tensionByWeight, '4U': [20, 27] } }, '4U') &&
+      !show({ ...tour, modelCode: 'AX99-T' }, '4U');
+  }],
+  ['ที่มาเพดานเอ็น: ลิงก์เดิมของทั้งรุ่นแสดงเป็นแหล่งอ้างอิงของรุ่น', () => {
+    const proof = RS_TEST.renderTensionEvidence(R('Li-Ning Axforce 80 Light'), '4U');
+    return proof.includes('≤ 30 lbs') && proof.includes('แหล่งอ้างอิงของรุ่น');
+  }],
+  ['Victor LJH E: ใช้รหัสและเพดานเอ็น 5U ของรุ่นปี 2025 จาก Victor ไทย', () => {
+    const item = R('Victor Auraspeed LJH E');
+    const proof = RS_TEST.renderTensionEvidence(item, '');
+    const result = score(item, S('Yonex BG66 Ultimax'), 'advanced', 'speed');
+    return item.id === 'victor-auraspeed-ljh' && item.modelCode === 'ARS-LJH E' && item.year === 2025 &&
+      item.weights === '5U' && !item.est.includes('year') && !item.est.includes('tension') &&
+      RS_TEST.canRecommendTension(result) && proof.includes('ของไม้ 5U') && proof.includes('≤ 29 lbs') &&
+      proof.includes('ผู้ผลิต · th.victorsport.com') && proof.includes('ตลาดไทย');
+  }],
+  ['Yonex GR-303i: ยืนยันรหัสกับเวต U โดยเว้นปีและเพดานที่ยังไม่ยืนยัน', () => {
+    const item = R('Yonex GR-303i');
+    return item.modelCode === 'GR303I' && item.weights === 'U' && !item.year &&
+      !RS_TEST.renderTensionEvidence(item, '') &&
+      !RS_TEST.canRecommendTension(score(item, S('Yonex BG66 Ultimax'), 'beginner', 'control'));
+  }],
   // a racket's level can be a range (level..levelTo)
   ...(() => {
     const { lvText } = window.RS_TEST, base = R('Yonex Arcsaber 11 Pro');   // a racket part that stays clear of the 0-100 limits at every level

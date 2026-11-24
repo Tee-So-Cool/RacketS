@@ -1,25 +1,22 @@
-name: Deploy to GitHub Pages
+name: Check catalog and deploy to GitHub Pages
 
 on:
+  pull_request:
+    branches: [main]
   push:
     branches: [main]
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: pages-${{ github.event.pull_request.number || 'deploy' }}
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -36,6 +33,7 @@ jobs:
           python3 -m unittest discover -s tests
 
       - name: Collect site files
+        if: github.event_name != 'pull_request'
         run: |
           mkdir -p _site
           cp index.html og.png app.js styles.css tokens.css base.css look.css _site/
@@ -43,9 +41,23 @@ jobs:
           sed -i "s/__V__/${GITHUB_SHA::7}/g" _site/index.html
           sed -i -E "s#\./(tokens|base)\.css#./\1.css?v=${GITHUB_SHA::7}#g" _site/styles.css
 
-      - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
         with:
           path: _site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
       - id: deployment
         uses: actions/deploy-pages@v4

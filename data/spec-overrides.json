@@ -9,13 +9,9 @@
   "src": "https://centralsports.co.uk/products/victor-auraspeed-lyc-b-badminton-racket"
  },
  "Victor Auraspeed LJH": {
-  "balance": "head-heavy",
-  "flex": "stiff",
-  "weights": "4U",
-  "src": "https://thegodofsports.com/products/victor-auraspeed-ljh-badminton-racket",
-  "level": "intermediate",
-  "priceForeign": 8443.0,
-  "currency": "INR"
+  "name": "Auraspeed LJH E",
+  "src": "https://th.victorsport.com/product/auraspeed-ljh-e",
+  "officialUrl": "https://th.victorsport.com/product/auraspeed-ljh-e"
  },
  "Victor Auraspeed 25MACH": {
   "balance": "even",
@@ -3128,7 +3124,7 @@
   "price": 2990,
   "frame": "High Resilience Modulus Graphite + Nano Fortify TR+",
   "tech": "5.8 mm shaft",
-  "note": "ARS-AURORA Ultra เปิดตัวในไทย 16 ต.ค. 2026 (VICTOR SPORT THAILAND) ร้านเล่าว่าผสมระหว่าง 100X Ultra กับ HS Plus; ความตึงสูงสุด: Kenwu Sports ระบุ 3U ≤31 / 4U ≤30 lbs อีกร้านระบุ ≤29 lbs; ความแข็งก้าน: Mr.C Sports (15 พ.ย. 2026) เขียน \"ก้านกลางค่อนแข็ง\" และ \"สเปคใกล้ ARS 100X Ultra\" ร้านอื่นเรียกว่าก้านแข็ง จึงทำเครื่องหมาย ≈; จุดสมดุล 290 ±3 มม. (โพสต์ Instagram ของร้านค้า)",
+  "note": "ร้านไทยมีตัวเลือก ARS-AURORA ULTRA เวต 3U และ 4U เพดานเอ็นทั้งสองเวตยังรอหลักฐานตลาดไทย ความแข็งก้านของรุ่นนี้เป็นค่าประมาณจากร้านค้า โดย Mr.C Sports เรียกว่าก้านกลางค่อนแข็ง ส่วนร้านอื่นเรียกว่าก้านแข็ง จุดสมดุล 290 ±3 มม. มาจากโพสต์ Instagram ของร้านค้า",
   "src": "https://www.google.com/search?q=%22AURORA+ULTRA%22+victor+%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%81%E0%B8%82%E0%B9%87%E0%B8%87",
   "proseEst": [
    "tension",
@@ -3327,6 +3323,7 @@
   "src": "https://shop.kibisports.com/products/yonex-gr-303-badminton-racquet (Aluminum frame, high-tensile steel shaft)"
  },
  "Yonex GR-303i": {
+  "year": null,
   "frame": "Aluminium",
   "shaft": "Steel",
   "grips": "G4",
