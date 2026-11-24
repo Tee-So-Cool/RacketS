@@ -71,12 +71,53 @@ class ResearchEvidenceTests(unittest.TestCase):
         self.assertNotIn('tensionByWeight', patch)
         self.assertNotIn('tension', patch)
         self.assertNotIn('researchEvidence', patch)
+        self.assertIn('tension', patch['est'])
+
+    def test_missing_weight_disables_a_legacy_model_wide_rating(self):
+        racket = {**self.racket, 'tensionSrc': 'https://example.com/legacy'}
+        missing = self.row(None, '4U', status='missing')
+        patch, _ = project(racket, self.record(missing))
+        self.assertIn('tension', patch['est'])
+        self.assertEqual(patch['tensionSrc'], '')
+
+        confirmed = self.row([None, 30], '4U', market='MY')
+        patch, _ = project(racket, self.record(confirmed))
+        self.assertNotIn('est', patch)
+        self.assertNotIn('tensionSrc', patch)
+
+    def test_a_held_weight_preserves_an_independent_catalog_rating(self):
+        racket = {**self.racket, 'tensionByWeight': {'3U': [22, 31], '4U': [21, 30]}}
+        patch, _ = project(racket, self.record(self.row(None, '4U', status='missing')))
+        self.assertEqual(patch['tensionByWeight'], {'3U': [22, 31]})
+        self.assertEqual(patch['tension'], [22, 31])
+        self.assertNotIn('tension', patch['est'])
+
+    def test_reprojection_does_not_restore_a_different_markets_ratings(self):
+        old = {**self.record(self.row([None, 31], market='MY'), self.row([None, 30], '4U', market='MY')),
+               'market': 'MY'}
+        patch, _ = project(self.racket, old)
+        projected = {**self.racket, **patch}
+        new = self.record(self.row(None, '4U', status='missing'), *old['evidence'])
+        patch, _ = project(projected, new)
+        self.assertEqual(patch['tensionByWeight'], {})
+        self.assertEqual(patch['researchEvidence'], [])
+        self.assertIn('tension', patch['est'])
 
     def test_records_missing_tension_even_when_the_weight_is_unknown(self):
         unknown = {'field': 'tension', 'market': 'TH', 'status': 'missing', 'checkedOn': '2026-11-24'}
         ledger, _ = stage({}, self.catalog, [self.record(unknown)])
         self.assertEqual(ledger[self.racket['id']]['evidence'], [unknown])
-        self.assertNotIn('tension', project(self.racket, ledger[self.racket['id']])[0])
+        patch, _ = project(self.racket, ledger[self.racket['id']])
+        self.assertNotIn('tension', patch)
+        self.assertIn('tension', patch['est'])
+
+    def test_unknown_weight_can_coexist_with_a_confirmed_weight(self):
+        unknown = self.row(None, None, status='missing')
+        confirmed = self.row([None, 31], '3U')
+        patch, _ = project(self.racket, self.record(unknown, confirmed))
+        self.assertEqual(patch['tensionByWeight'], {'3U': [None, 31]})
+        self.assertEqual(patch['researchEvidence'], [confirmed])
+        self.assertNotIn('tension', patch['est'])
 
     def test_single_confirmed_weight_keeps_proof_without_triggering_a_weight_choice(self):
         caps = self.row([20, 28], '4U')

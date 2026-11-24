@@ -76,7 +76,7 @@ python3 -m unittest discover -s tests
 
 ## Deploy
 
-push เข้า `main` แล้ว GitHub Actions (`.github/workflows/pages.yml`) จะ build ข้อมูลใหม่ รันเทสต์ แล้วขึ้น GitHub Pages ถ้าเทสต์ไม่ผ่านจะไม่ deploy
+เมื่อเปิดหรืออัปเดต PR เข้า `main` GitHub Actions (`.github/workflows/pages.yml`) จะ build ข้อมูลใหม่และรันเทสต์ เมื่อ push เข้า `main` แล้วผ่านทั้งสองขั้นตอนจึงขึ้น GitHub Pages
 
 ## หมายเหตุ
 

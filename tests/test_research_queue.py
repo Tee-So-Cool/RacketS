@@ -71,3 +71,8 @@ class ResearchQueueTests(unittest.TestCase):
         self.assertEqual([(gap['weight'], gap['status']) for gap in item['gaps']],
                          [('3U', 'needs-source'), ('4U', 'needs-source')])
         self.assertFalse(self.report(**legacy, tensionByWeight={'3U': [None, 30], '4U': [None, 29]}))
+
+    def test_explicit_gap_blocks_match_even_with_a_legacy_cap(self):
+        item, = self.report(self.observation('4U'), est=[], tensionSrc='https://maker.example/spec/demo')
+        self.assertTrue(item['blocksMatch'])
+        self.assertTrue(any(gap['weight'] == '4U' and gap['blocksMatch'] for gap in item['gaps']))

@@ -121,6 +121,12 @@ def resolve_observations(rows):
     return 'missing', []
 
 
+def tension_summary(ratings):
+    cap = min(bounds[1] for bounds in ratings.values())
+    low = max((bounds[0] for bounds in ratings.values() if bounds[0] is not None), default=None)
+    return [low if low is not None and low <= cap else None, cap]
+
+
 def project(racket, record):
     """Return catalog fields and review outcomes for the selected market."""
     validate_record(record)
@@ -142,22 +148,24 @@ def project(racket, record):
         field = row['field']
         market = 'GLOBAL' if field == 'year' else record['market']
         if field not in ('availableOn', 'modelCode') and row['market'] == market:
-            groups[(field, row.get('weight', '') if field == 'tension' else '')].append(row)
+            groups[(field, (row.get('weight') or '') if field == 'tension' else '')].append(row)
 
     patch, published, report, tension = {}, list(code_sources), [], {}
     flags = list(racket.get('est', []))
     held = set()
+    held_weights = set()
     if code_sources:
         patch['modelCode'] = model_code
     for (field, weight), rows in sorted(groups.items()):
         title = ' '.join(filter(None, (field, weight)))
         status, confirmed = resolve_observations(rows)
-        if status == 'conflicting':
-            report.append(f'held {title} (conflicting evidence)')
-            held.add(field)
-            continue
         if not confirmed:
-            report.append(f'held {title} (no confirmed evidence)')
+            reason = 'conflicting evidence' if status == 'conflicting' else 'no confirmed evidence'
+            report.append(f'held {title} ({reason})')
+            if field == 'tension':
+                held_weights.add(weight)
+            elif status == 'conflicting':
+                held.add(field)
             continue
         first = confirmed[0]
         value = first['value']
@@ -174,24 +182,35 @@ def project(racket, record):
             flags.remove(field)
 
     if tension:
-        cap = min(bounds[1] for bounds in tension.values())
-        low = max((bounds[0] for bounds in tension.values() if bounds[0] is not None), default=None)
-        single_weight = len(tension) == 1 and patch.get('weights') in tension and 'tension' not in held
+        single_weight = len(tension) == 1 and patch.get('weights') in tension and not (held_weights - {''})
         patch['tensionByWeight'] = {} if single_weight else tension
-        patch['tension'] = [low if low is not None and low <= cap else None, cap]
+        patch['tension'] = tension_summary(tension)
         labels = [f'{weight}: {low}–{high}' if low is not None else f'{weight} ≤ {high}'
                   for weight, (low, high) in tension.items()]
         patch['tensionNote'] = f"ตามหลักฐานตลาด {record['market']}: " + ', '.join(labels) + ' lbs'
-        held.discard('tension')
-    elif 'tension' in held:
-        patch.update(tensionByWeight={}, tensionSrc='', tensionNote='')
+    elif held_weights:
+        remaining = {}
+        projected_tension = any(row['field'] == 'tension' for row in racket.get('researchEvidence', []))
+        # An accepted catalog rating for another weight can survive, but a model-wide range cannot
+        # substitute for a held weight. Reprojection must not reuse a previous market's ratings.
+        if '' not in held_weights and 'tension' not in flags and not projected_tension:
+            remaining = {weight: value for weight, value in (racket.get('tensionByWeight') or {}).items()
+                         if weight not in held_weights}
+        if 'tensionByWeight' in racket:
+            patch['tensionByWeight'] = remaining
+        patch['tensionNote'] = ''
+        if remaining:
+            patch['tension'] = tension_summary(remaining)
+        else:
+            patch['tensionSrc'] = ''
+            held.add('tension')
 
     for field in sorted(held):
         if racket.get(field) and field not in flags:
             flags.append(field)
     if groups:
         patch['est'] = flags
-    if published:
+    if published or 'researchEvidence' in racket:
         patch['researchEvidence'] = published
     other = len(evidence) - len(published)
     if other:
