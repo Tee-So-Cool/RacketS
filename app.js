@@ -925,7 +925,7 @@
       if (r.balance) parts.push(['สมดุลไม้', e('balance') + W_TXT.balance[r.balance]]);
       if (r.flex) parts.push(['ความแข็งก้าน', e('flex') + W_TXT.flex[r.flex]]);
       const cap = r.tension && r.tension[1];
-      if (cap) parts.push(['ความตึงเอ็น', `${e('tension') ? 'ประเมินว่า' : 'ผู้ผลิตประกาศว่า'}รับความตึงเอ็นได้สูงสุดราว ${cap} ปอนด์ ไม่จำเป็นต้องขึ้นเต็มเพดาน เอ็นที่ตึงน้อยกว่าจะส่งลูกได้ไกลกว่าและให้อภัยเวลาตีไม่โดนกลางหน้าไม้ ส่วนเอ็นตึงให้ความแม่นมากกว่าแต่ต้องตีให้โดนกลางหน้าไม้${r.tensionNote ? ' (' + r.tensionNote + ')' : ''}`]);
+      if (cap) parts.push(['ความตึงเอ็น', `${e('tension') ? 'เพดานเอ็นโดยประมาณ' : 'เพดานเอ็นตามสเปก'} ${cap} ปอนด์ เอ็นที่ตึงน้อยกว่าจะส่งลูกได้ไกลกว่าและให้อภัยเวลาตีไม่โดนกลางหน้าไม้ ส่วนเอ็นตึงให้ความแม่นมากกว่าแต่ต้องตีให้โดนกลางหน้าไม้${r.tensionNote ? ' (' + r.tensionNote + ')' : ''}`]);
       const fit = [W_FIT.style[r.style], W_FIT.level[r.level], lvHi(r) > lvLo(r) ? W_FIT.level[r.levelTo] : ''].filter(Boolean);
       const sib = db.r.filter(x => x.id !== r.id && x.brand === r.brand && series(x) === series(r)).slice(0, 6);
       const desc = [r.style && `ในสาย${L.style[r.style]}`, r.flex && `เน้น${{ control: 'การวางลูกแม่นและคุมจังหวะ', attack: 'ลูกตบหนัก', speed: 'ความไวในการสวิงและการแลกลูกเร็ว' }[r.style] || (r.flex === 'flexible' ? 'ตีง่ายและแรงดีด' : r.balance === 'head-heavy' ? 'ลูกตบหนัก' : r.balance === 'head-light' ? 'ความไวในการสวิงและการแลกลูกเร็ว' : 'ความสมดุลระหว่างบุกกับรับ')}`, r.level && `เหมาะกับ${lvText(r)}`].filter(Boolean).join(' ');
@@ -934,7 +934,7 @@
         ${parts.length ? `<h4>อธิบายสเปกแบบเข้าใจง่าย</h4><dl>${parts.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}</dl>` : ''}
         ${fit.length ? `<h4>ไม้รุ่นนี้น่าจะเหมาะกับ</h4><ul>${fit.map(f => `<li>${f}</li>`).join('')}</ul>` : ''}
         ${sib.length ? `<h4>ไม้ซีรีส์เดียวกันที่น่าเทียบ</h4><div class="simrow">${sib.map(x => `<button type="button" class="sim" ${pick}="${esc(x.id)}">${x.img ? `<img src="${esc(x.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<span class="mimg-empty"></span>'}<span class="sim-n">${esc(full(x))}</span><span class="small muted">${[x.style && 'สาย' + L.style[x.style], x.price ? est(x, 'price') + baht(x.price) : ''].filter(Boolean).join(', ')}</span></button>`).join('')}</div>` : ''}
-        <p class="small muted">สรุปจากสเปกที่ผู้ผลิตประกาศ ค่าที่มี ≈ คือค่าประเมิน ความรู้สึกตอนตีจริงขึ้นกับเอ็น ความตึง และสไตล์ของแต่ละคน ควรลองจับไม้จริงก่อนซื้อถ้าทำได้</p>
+        <p class="small muted">สรุปจากสเปกในแคตตาล็อก ค่าที่มี ≈ คือค่าประเมิน ความรู้สึกตอนตีจริงขึ้นกับเอ็น ความตึง และสไตล์ของแต่ละคน ควรลองจับไม้จริงก่อนซื้อถ้าทำได้</p>
       </details>`;
   }
   const whoFor = sel => `<section class="similar">${sel.map((r, i) => whoOne(r, i === 0)).join('')}</section>`;
@@ -1064,12 +1064,55 @@
   const tensionText = ([min, max]) => min && max ? `${min}–${max} lbs` : max ? `≤ ${max} lbs` : min ? `≥ ${min} lbs` : '—';
   const racketTension = (r, weight) => r.tensionByWeight && Object.hasOwn(r.tensionByWeight, weight)
     ? r.tensionByWeight[weight] : r.tension || [null, null];
+  const statedWeights = r => (r.est || []).includes('weights') ? []
+    : [...new Set((r.weights || '').toUpperCase().match(/\b(?:[2-8][UF]|F)\b/g) || [])];
   function matchWeights(r) {
     const rated = Object.keys(r.tensionByWeight || {});
-    const listed = (r.est || []).includes('weights') ? [] : (r.weights || '').toUpperCase().match(/\b(?:[2-8][UF]|F)\b/g) || [];
-    const classes = [...new Set([...listed, ...rated])].sort();
+    const classes = [...new Set([...statedWeights(r), ...rated])].sort();
     return rated.length || classes.length > 1 ? classes : [];
   }
+
+  function racketTensionEvidence(r, selection) {
+    const catalogue = BASE.r.find(row => row.id === r.id);
+    if (!catalogue || !['brand', 'name', 'modelCode'].every(key => sameField(catalogue[key], r[key])) ||
+        est(r, 'tension') || est(catalogue, 'tension')) return null;
+    const choices = matchWeights(r);
+    if (choices.length && !choices.includes(selection)) return null;
+    const stated = statedWeights(r);
+    const weight = choices.length ? selection : stated.length === 1 ? stated[0] : '';
+    const range = racketTension(r, weight);
+    if (!range[1] || !sameField(range, racketTension(catalogue, weight)) ||
+        [r, catalogue].some(row => Object.keys(row.tensionByWeight || {}).length && !Object.hasOwn(row.tensionByWeight, weight))) return null;
+    const entries = (catalogue.researchEvidence || []).filter(row => row.field === 'tension' &&
+      row.status === 'confirmed' && row.weight === weight && sameField(row.value, range) && link(row.source, ''));
+    // Do not promote a model-level link to proof of a particular weight.
+    const source = catalogue.tensionSrc === r.tensionSrc ? catalogue.tensionSrc : '';
+    return entries.length || link(source, '') ? { weight, range, entries, source } : null;
+  }
+
+  const regionNames = typeof Intl.DisplayNames === 'function' ? new Intl.DisplayNames('th', { type: 'region' }) : null;
+  const sourceTypes = { manufacturer: 'ผู้ผลิต', catalog: 'แคตตาล็อกผู้ผลิต', distributor: 'ตัวแทนทางการ', retailer: 'ร้านค้า' };
+  function renderTensionEvidence(r, selection, open) {
+    const proof = racketTensionEvidence(r, selection);
+    if (!proof) return '';
+    const { weight, range, entries, source } = proof;
+    const details = entries.map(row => {
+      const region = row.market === 'GLOBAL' ? 'สากล' : regionNames?.of(row.market) || row.market;
+      const host = new URL(row.source).hostname.replace(/^www\./, '');
+      const type = sourceTypes[row.sourceType];
+      const meta = [region && `ตลาด${region}`, row.checkedOn && `ตรวจ ${row.checkedOn}`,
+        codeKey(row.sourceCode) !== codeKey(r.modelCode) && row.sourceCode && `รหัสในแหล่ง ${row.sourceCode}`].filter(Boolean);
+      return `<li>${link(row.source, esc(type ? `${type} · ${host}` : host))}
+        <span class="muted">${esc(meta.join(' · '))}</span>
+        ${row.locator ? `<span class="muted">${esc(row.locator)}</span>` : ''}</li>`;
+    }).join('');
+    return `<details class="mtension-evidence mfeel" data-racket="${esc(r.id)}"${open ? ' open' : ''}>
+      <summary>ดูที่มาเพดานเอ็นของไม้${entries.length && weight ? ' ' + esc(weight) : ''}</summary>
+      <p>${r.modelCode ? `<span class="muted">${esc(r.modelCode)} · </span>` : ''}${!entries.length && weight ? esc(weight) + ' · ' : ''}<strong>${esc(tensionText(range))}</strong></p>
+      ${details ? `<ul>${details}</ul>` : `<p>${link(source, 'แหล่งอ้างอิงของรุ่น')}</p>`}
+    </details>`;
+  }
+
   const canRecommendTension = ({ limits }) => !limits.needsWeight && !limits.unconfirmed.length && !limits.incompatibleRange;
 
   function score(r, s, level, style, shuttle = 'feather', climate = 'normal', game = 'doubles', arm = 'none', headPick = '', weight = '') {
@@ -1293,7 +1336,8 @@
     return t === res.tension ? res : { ...res, tension: t, steps: [...res.steps, [`ปรับตามบันทึกของคุณ (${mine.n} บันทึก)`, t - res.tension]] };
   }
   window.RS_TEST = { score, byId, calcOffset, mineAdj, profile: racketProfile, balPos, lvText, hotBoards, parseImport, matchLinkOptions,
-    updateSavedTension, catalogDelta, applyCatalogDelta, migrateCatalog, readCatalogBackup, hotSpans, hotCoverage, canRecommendTension, searchList };
+    updateSavedTension, catalogDelta, applyCatalogDelta, migrateCatalog, readCatalogBackup, hotSpans, hotCoverage, canRecommendTension, searchList,
+    renderTensionEvidence };
   const verdict = n => n >= 80 ? ['เข้ากันดีมาก', 'var(--color-accent)'] : n >= 65 ? ['เข้ากันดี', 'var(--color-accent)'] : n >= 50 ? ['พอใช้ได้', 'var(--color-ink)'] : ['ไม่ค่อยเหมาะ', 'var(--color-bad)'];
 
   const MATCH_OPTIONS = [
@@ -1507,6 +1551,8 @@
     const ok = res.reasons.filter(x => x[0] === 'ok'), wn = res.reasons.filter(x => x[0] === 'wn');
     const sign = v => v > 0 ? '+' + v : String(v);
 
+    const previousProof = view.querySelector('.mtension-evidence');
+    const evidence = renderTensionEvidence(r, state.m.variant, previousProof?.dataset.racket === r.id && previousProof.open);
     view.querySelector('#mres').innerHTML = `
       <section class="mhero">
         <div class="mscore">
@@ -1533,6 +1579,7 @@
           ${needsWeight ? '<p class="small note">เลือกเวตที่ระบุบนไม้ในช่องรุ่นน้ำหนักด้านบน</p>' : ''}
           ${unconfirmed.length ? `<p class="small note">เช็กความตึงสูงสุดที่${unconfirmed.join('และ')}รองรับจากสเปกตรงรุ่นก่อนขึ้นเอ็น</p>` : ''}
           ${incompatibleRange && !needsWeight && !unconfirmed.length ? '<p class="small note">ช่วงความตึงของไม้กับเอ็นไม่ทับกัน ลองเลือกเอ็นรุ่นอื่น</p>' : ''}`}
+          ${evidence}
         </div>
       </section>
       <section class="mwhy">

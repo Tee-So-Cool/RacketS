@@ -13,6 +13,7 @@ from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 LEDGER_PATH = Path('data/racket-research.json')
 STATUSES = {'confirmed', 'estimated', 'conflicting', 'missing'}
+SOURCE_TYPES = {'manufacturer', 'catalog', 'distributor', 'retailer'}
 FIELDS = {'modelCode', 'year', 'weights', 'tension', 'availableOn'}
 WEIGHT = re.compile(r'[2-8][UF]')
 
@@ -80,6 +81,8 @@ def validate_record(record):
         if (field not in FIELDS or status not in STATUSES or not market_code(row.get('market')) or
                 not iso_date(row.get('checkedOn'))):
             raise ValueError(f'{label}: invalid field, status, market or checkedOn date')
+        if 'sourceType' in row and (not isinstance(row['sourceType'], str) or row['sourceType'] not in SOURCE_TYPES):
+            raise ValueError(f'{label}: invalid sourceType')
         unknown_weight = status == 'missing' and row.get('weight') is None
         if field == 'tension' and not unknown_weight and (not weight_class(row.get('weight')) or row.get('unit') != 'lbs'):
             raise ValueError(f'{label}: tension needs a weight such as 4U and unit lbs')

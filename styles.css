@@ -476,6 +476,9 @@ body { font-size: var(--text-md); }
 .mfeel summary:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; }
 .mfeel ul { margin: var(--space-2xs) 0 var(--space-xs) var(--space-md); }
 .mfeel .wn-t { color: var(--color-accent-2); }
+.mtension-evidence { border-top: var(--rule-hair) solid var(--line-soft); padding-top: var(--space-xs); font-size: var(--text-sm); }
+.mtension-evidence p, .mtension-evidence li { margin-top: var(--space-2xs); overflow-wrap: anywhere; }
+.mtension-evidence li span { display: block; }
 .mrank { list-style: none; padding: 0; display: grid; gap: var(--space-sm); grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr)); counter-reset: rk; }
 .mrank li { counter-increment: rk; min-width: 0; }
 .mrank li > p { margin-top: var(--space-2xs); }

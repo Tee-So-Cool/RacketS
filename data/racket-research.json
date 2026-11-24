@@ -39,7 +39,8 @@
     "locator": "Specs → Stringing Advice → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "manufacturer"
    },
    {
     "field": "year",
@@ -95,7 +96,8 @@
     "locator": "Specs → Stringing Advice → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "manufacturer"
    },
    {
     "field": "tension",
@@ -110,7 +112,8 @@
     "locator": "Specs → Stringing Advice → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "manufacturer"
    },
    {
     "field": "year",
@@ -166,7 +169,8 @@
     "locator": "Specs → Stringing Advice → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "manufacturer"
    },
    {
     "field": "tension",
@@ -181,7 +185,8 @@
     "locator": "Specs → Stringing Advice → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "manufacturer"
    },
    {
     "field": "year",
@@ -237,7 +242,8 @@
     "locator": "Specs → Stringing Advice → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "manufacturer"
    },
    {
     "field": "tension",
@@ -252,7 +258,8 @@
     "locator": "Specs → Stringing Advice → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "manufacturer"
    },
    {
     "field": "availableOn",
@@ -308,7 +315,8 @@
     "locator": "Specs → Stringing Advice → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "manufacturer"
    },
    {
     "field": "tension",
@@ -323,7 +331,8 @@
     "locator": "Specs → Stringing Advice → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "manufacturer"
    },
    {
     "field": "availableOn",
@@ -379,7 +388,8 @@
     "locator": "Product Details → String Tension → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    },
    {
     "field": "tension",
@@ -394,7 +404,8 @@
     "locator": "Product Details → String Tension → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    }
   ]
  },
@@ -439,7 +450,8 @@
     "locator": "Description → String tension LBS → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "retailer"
    },
    {
     "field": "tension",
@@ -454,7 +466,8 @@
     "locator": "Description → String tension LBS → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "retailer"
    },
    {
     "field": "tension",
@@ -469,7 +482,8 @@
     "locator": "商品規格 → 穿線磅數 → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "retailer"
    },
    {
     "field": "tension",
@@ -484,7 +498,8 @@
     "locator": "商品規格 → 穿線磅數 → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "retailer"
    }
   ]
  },
@@ -572,7 +587,8 @@
     "locator": "Product Description → Thread weight → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "retailer"
    },
    {
     "field": "tension",
@@ -587,7 +603,8 @@
     "locator": "Product Description → Thread weight → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "retailer"
    }
   ]
  },
@@ -632,7 +649,8 @@
     "locator": "Product Details → TK-VRD C → String Tension → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    },
    {
     "field": "tension",
@@ -647,7 +665,8 @@
     "locator": "Product Details → TK-VRD C → String Tension → 5U",
     "checkedOn": "2026-11-24",
     "weight": "5U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    },
    {
     "field": "tension",
@@ -662,7 +681,8 @@
     "sourceCode": "TK VRD C",
     "source": "https://www.nexchamp.my/product/victor-tk-vrd-c",
     "locator": "Product Description → Racket weight / Handle size and Thread weight → 4U",
-    "checkedOn": "2026-11-24"
+    "checkedOn": "2026-11-24",
+    "sourceType": "retailer"
    },
    {
     "field": "tension",
@@ -677,7 +697,8 @@
     "sourceCode": "TK VRD C",
     "source": "https://www.nexchamp.my/product/victor-tk-vrd-c",
     "locator": "Product Description → Racket weight / Handle size and Thread weight → 5U",
-    "checkedOn": "2026-11-24"
+    "checkedOn": "2026-11-24",
+    "sourceType": "retailer"
    }
   ]
  },
@@ -723,7 +744,8 @@
     "locator": "保磅 → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    },
    {
     "field": "tension",
@@ -738,7 +760,8 @@
     "locator": "保磅 → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    },
    {
     "field": "tension",
@@ -753,7 +776,8 @@
     "locator": "保磅 → 5U",
     "checkedOn": "2026-11-24",
     "weight": "5U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    }
   ]
  },
@@ -798,7 +822,8 @@
     "locator": "p.034 锋影 500 → 穿线磅数 → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "catalog"
    },
    {
     "field": "tension",
@@ -813,7 +838,8 @@
     "locator": "p.034 锋影 500 → 穿线磅数 → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "catalog"
    },
    {
     "field": "tension",
@@ -828,7 +854,8 @@
     "locator": "商品編號 AYPV007-4 → 保磅",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    }
   ]
  },
@@ -873,7 +900,8 @@
     "locator": "保磅 → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    },
    {
     "field": "tension",
@@ -888,7 +916,8 @@
     "locator": "保磅 → 5U",
     "checkedOn": "2026-11-24",
     "weight": "5U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    },
    {
     "field": "tension",
@@ -903,7 +932,8 @@
     "locator": "p.034 锋影 600 → 穿线磅数 → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "catalog"
    },
    {
     "field": "tension",
@@ -918,7 +948,8 @@
     "locator": "p.034 锋影 600 → 穿线磅数 → 5U",
     "checkedOn": "2026-11-24",
     "weight": "5U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "catalog"
    }
   ]
  },
@@ -964,7 +995,8 @@
     "locator": "Product Description → Max Tension → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "retailer"
    },
    {
     "field": "tension",
@@ -979,7 +1011,8 @@
     "locator": "Product Description → Max Tension → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "retailer"
    },
    {
     "field": "tension",
@@ -994,7 +1027,8 @@
     "locator": "重量 / 保磅 → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    },
    {
     "field": "tension",
@@ -1009,7 +1043,8 @@
     "locator": "重量 / 保磅 → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    },
    {
     "field": "tension",
@@ -1024,7 +1059,8 @@
     "locator": "p.011 战戟 9000 POWER → 穿线磅数 → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "catalog"
    },
    {
     "field": "tension",
@@ -1039,7 +1075,8 @@
     "locator": "p.011 战戟 9000 POWER → 穿线磅数 → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "catalog"
    }
   ]
  },

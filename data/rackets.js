@@ -14202,7 +14202,8 @@ window.RACKETS = [
     "locator": "保磅 → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    },
    {
     "field": "tension",
@@ -14217,7 +14218,8 @@ window.RACKETS = [
     "locator": "保磅 → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    },
    {
     "field": "tension",
@@ -14232,7 +14234,8 @@ window.RACKETS = [
     "locator": "保磅 → 5U",
     "checkedOn": "2026-11-24",
     "weight": "5U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    },
    {
     "field": "weights",
@@ -15509,7 +15512,8 @@ window.RACKETS = [
     "locator": "p.034 锋影 500 → 穿线磅数 → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "catalog"
    },
    {
     "field": "tension",
@@ -15524,7 +15528,8 @@ window.RACKETS = [
     "locator": "p.034 锋影 500 → 穿线磅数 → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "catalog"
    },
    {
     "field": "weights",
@@ -15684,7 +15689,8 @@ window.RACKETS = [
     "locator": "保磅 → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    },
    {
     "field": "tension",
@@ -15699,7 +15705,8 @@ window.RACKETS = [
     "locator": "保磅 → 5U",
     "checkedOn": "2026-11-24",
     "weight": "5U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    },
    {
     "field": "weights",
@@ -18768,7 +18775,8 @@ window.RACKETS = [
     "locator": "Product Description → Max Tension → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "retailer"
    },
    {
     "field": "tension",
@@ -18783,7 +18791,8 @@ window.RACKETS = [
     "locator": "Product Description → Max Tension → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "retailer"
    },
    {
     "field": "weights",
@@ -31647,7 +31656,8 @@ window.RACKETS = [
     "locator": "Product Details → String Tension → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    },
    {
     "field": "tension",
@@ -31662,7 +31672,8 @@ window.RACKETS = [
     "locator": "Product Details → String Tension → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    },
    {
     "field": "weights",
@@ -33555,7 +33566,8 @@ window.RACKETS = [
     "locator": "Description → String tension LBS → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "retailer"
    },
    {
     "field": "tension",
@@ -33570,7 +33582,8 @@ window.RACKETS = [
     "locator": "Description → String tension LBS → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "retailer"
    },
    {
     "field": "weights",
@@ -34655,7 +34668,8 @@ window.RACKETS = [
     "locator": "Product Description → Thread weight → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "retailer"
    },
    {
     "field": "tension",
@@ -34670,7 +34684,8 @@ window.RACKETS = [
     "locator": "Product Description → Thread weight → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "retailer"
    },
    {
     "field": "weights",
@@ -41969,7 +41984,8 @@ window.RACKETS = [
     "locator": "Product Details → TK-VRD C → String Tension → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    },
    {
     "field": "tension",
@@ -41984,7 +42000,8 @@ window.RACKETS = [
     "sourceCode": "TK VRD C",
     "source": "https://www.nexchamp.my/product/victor-tk-vrd-c",
     "locator": "Product Description → Racket weight / Handle size and Thread weight → 4U",
-    "checkedOn": "2026-11-24"
+    "checkedOn": "2026-11-24",
+    "sourceType": "retailer"
    },
    {
     "field": "tension",
@@ -41999,7 +42016,8 @@ window.RACKETS = [
     "locator": "Product Details → TK-VRD C → String Tension → 5U",
     "checkedOn": "2026-11-24",
     "weight": "5U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "distributor"
    },
    {
     "field": "tension",
@@ -42014,7 +42032,8 @@ window.RACKETS = [
     "sourceCode": "TK VRD C",
     "source": "https://www.nexchamp.my/product/victor-tk-vrd-c",
     "locator": "Product Description → Racket weight / Handle size and Thread weight → 5U",
-    "checkedOn": "2026-11-24"
+    "checkedOn": "2026-11-24",
+    "sourceType": "retailer"
    },
    {
     "field": "weights",
@@ -43975,7 +43994,8 @@ window.RACKETS = [
     "locator": "Specs → Stringing Advice → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "manufacturer"
    },
    {
     "field": "tension",
@@ -43990,7 +44010,8 @@ window.RACKETS = [
     "locator": "Specs → Stringing Advice → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "manufacturer"
    },
    {
     "field": "weights",
@@ -44106,7 +44127,8 @@ window.RACKETS = [
     "locator": "Specs → Stringing Advice → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "manufacturer"
    },
    {
     "field": "tension",
@@ -44121,7 +44143,8 @@ window.RACKETS = [
     "locator": "Specs → Stringing Advice → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "manufacturer"
    },
    {
     "field": "weights",
@@ -45843,7 +45866,8 @@ window.RACKETS = [
     "locator": "Specs → Stringing Advice → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "manufacturer"
    },
    {
     "field": "weights",
@@ -46110,7 +46134,8 @@ window.RACKETS = [
     "locator": "Specs → Stringing Advice → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "manufacturer"
    },
    {
     "field": "tension",
@@ -46125,7 +46150,8 @@ window.RACKETS = [
     "locator": "Specs → Stringing Advice → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "manufacturer"
    },
    {
     "field": "weights",
@@ -46301,7 +46327,8 @@ window.RACKETS = [
     "locator": "Specs → Stringing Advice → 3U",
     "checkedOn": "2026-11-24",
     "weight": "3U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "manufacturer"
    },
    {
     "field": "tension",
@@ -46316,7 +46343,8 @@ window.RACKETS = [
     "locator": "Specs → Stringing Advice → 4U",
     "checkedOn": "2026-11-24",
     "weight": "4U",
-    "unit": "lbs"
+    "unit": "lbs",
+    "sourceType": "manufacturer"
    },
    {
     "field": "weights",
