@@ -159,10 +159,12 @@
   "flex": "flexible",
   "weights": "5U, 4U",
   "src": "https://in.lining.studio/products/axforce-tiger-4u",
-  "tmax": 30,
-  "tensionByWeight": {"4U": [null, 30], "5U": [null, 30]},
-  "tensionSrc": "https://in.lining.studio/products/axforce-tiger-5u",
-  "note": "Li-Ning India ระบุ 30 lbs ทั้ง AYPW057-4 และ AYPW057-5",
+  "listingUrls": [
+   "https://www.badmintonplaza.com/product_info.php?products_id=5117",
+   "https://in.lining.studio/products/axforce-tiger-4u",
+   "https://in.lining.studio/products/axforce-tiger-5u"
+  ],
+  "note": "รายการนี้ใช้รหัส AYPW057 สีขาว/ดำ/ส้ม ร้านไทยมี 4U และ 5U ส่วนเพดานรายเวตมาจาก Li-Ning India สำหรับรหัสย่อย AYPW057-4 และ AYPW057-5",
   "priceForeign": 2490.0,
   "currency": "INR"
  },
@@ -1924,15 +1926,12 @@
   "src": "https://thegodofsports.com/products/victor-thruster-hawk-badminton-racket"
  },
  "Victor Auraspeed Fantome F": {
+  "name": "Auraspeed Fantôme F AC",
   "flex": "stiff",
   "weights": "4U",
   "weight": 83,
-  "src": "https://www.sakurasport.com/en/2124-badminton-racket-auraspeed-fantome-f-ac-4ug5-victor-4711581155381.html",
-  "tmax": 28,
-  "year": 2025,
-  "yearSrc": "https://ca.victorsport.com/product/auraspeed-fantme-f-ac",
-  "officialUrl": "https://ca.victorsport.com/product/auraspeed-fantme-f-ac",
-  "tensionSrc": "https://ca.victorsport.com/product/auraspeed-fantme-f-ac",
+  "src": "https://th.victorsport.com/product/auraspeed-fantme-f-ac",
+  "officialUrl": "https://th.victorsport.com/product/auraspeed-fantme-f-ac",
   "level": "advanced",
   "priceForeign": 186.92,
   "currency": "EUR"
@@ -3007,25 +3006,15 @@
   "src": "https://sakurasport.com/en/1295-auraspeed-eta-c-badminton-racket-victor-4711393259291.html"
  },
  "Victor Auraspeed Fantome": {
+  "name": "Auraspeed Fantôme J",
   "flex": "stiff",
   "weights": "4U, 3U",
-  "tmax": 32,
   "priceForeign": 177.65,
   "currency": "EUR",
-  "src": "https://www.sakurasport.com/en/1756-badminton-racket-auraspeed-fantome-j-4ug5-victor-4005543023239.html",
+  "src": "https://th.victorsport.com/product/auraspeed-fant-me-j",
+  "officialUrl": "https://th.victorsport.com/product/auraspeed-fant-me-j",
   "level": "advanced",
-  "note": "ระดับ: ร้านระบุ \"PLAYER LEVEL: Advanced\" และ \"intermediate to advanced\" (ผลค้น Google 8 พ.ย. 2026)",
-  "tensionByWeight": {
-   "3U": [
-    null,
-    30
-   ],
-   "4U": [
-    null,
-    29
-   ]
-  },
-  "tensionSrc": "https://www.badmintoncn.com/cbo_eq/view_specs.php?eid=20874"
+  "note": "ระดับ: ร้านระบุ \"PLAYER LEVEL: Advanced\" และ \"intermediate to advanced\" (ผลค้น Google 8 พ.ย. 2026)"
  },
  "Victor Auraspeed JU": {
   "flex": "medium",
@@ -4652,11 +4641,8 @@
  },
  "Li-Ning Halbertec 7000 II": {
   "modelCode": "AYPW015",
-  "weights": "3U, 4U, 5U",
-  "tensionByWeight": {"3U": [null, 31], "4U": [null, 30], "5U": [null, 29]},
-  "tensionSrc": "https://www.shopnings.com/pub/media/descriptions/2026ssbadmintongear.pdf",
   "src": "https://yumo.ca/collections/li-ning-clearance/products/li-ning-halbertec-7000-ii-unstrung-badminton-racket",
-  "note": "รหัส AYPW015 แคตตาล็อก Li-Ning ระบุ 4U และ 5U ส่วนหน้า Yumo รหัส AYPW015-3 ระบุเพดาน 3U และ 4U"
+  "note": "แคตตาล็อก Li-Ning ไต้หวัน ฤดูใบไม้ผลิและฤดูร้อน 2026 หน้า 43 ระบุ AYPW015 แบบ 3U/G5 และ 4U/G6"
  },
  "Li-Ning Tectonic III": {
   "tensionByWeight": {"4U": [null, 25], "5U": [null, 25]},

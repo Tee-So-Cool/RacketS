@@ -42,11 +42,19 @@ const cases = [
   ['ทุกไม้: คะแนน 0-100 และความตึงไม่เกินเพดานไม้', () => RACKETS.every(r => { for (const lv of ['beginner', 'pro']) {
       const x = score(r, S('Yonex BG66 Ultimax'), lv, 'attack'); const max = r.tension ? r.tension[1] : 30;
       if (!(x.score >= 0 && x.score <= 100) || x.tension > max) { console.log('bad', r.name, lv, x); return false; } } return true; })],
-  ['Fantome: BadmintonCN ระบุป้าย 3U/4U และค่าตั้งต้นยังอยู่ที่เพดาน 29 lbs', () => {
-    const model = R('Victor Auraspeed Fantome');
-    const match = variant => sc('Victor Auraspeed Fantome', 'VS BG65', 'pro', 'control', { head: 'large', variant });
-    return model.tensionSrc.includes('badmintoncn.com') && match('').tension === 28 &&
+  ['Fantôme J: ใช้เพดาน 3U/4U จาก Victor ไทย', () => {
+    const model = R('Victor Auraspeed Fantôme J');
+    const match = variant => sc('Victor Auraspeed Fantôme J', 'VS BG65', 'pro', 'control', { head: 'large', variant });
+    return model.tensionSrc === 'https://th.victorsport.com/product/auraspeed-fant-me-j' && match('').tension === 28 &&
       match('4U').limits.cap === 29 && match('3U').limits.cap === 30;
+  }],
+  ['Fantôme J และ F AC: ค้นรหัสตรงรุ่นและแยกเพดานกับลิงก์ร้าน', () => {
+    const first = query => RS_TEST.searchList(RACKETS, query)[0]?.id;
+    const j = R('Victor Auraspeed Fantôme J'), ac = R('Victor Auraspeed Fantôme F AC');
+    const urls = item => [item.shopUrl, ...item.shopLinks.map(link => link.url)].filter(Boolean);
+    return first('ARS-FANTOME-J') === j.id && first('ARS-FANTÔME J') === j.id && first('ARS-FANTOME-F-AC') === ac.id &&
+      ac.tension[1] === 28 && ac.weights === '4U' && ac.tensionSrc === 'https://th.victorsport.com/product/auraspeed-fantme-f-ac' &&
+      urls(j).every(url => !/4713|fantome-f-ac|hyq/i.test(url)) && urls(ac).every(url => !/4713|hyq/i.test(url));
   }],
   ['Astrox 77 Pro: เพดานเริ่มต้น 27 lbs และขยับเป็น 28 lbs เมื่อเลือก 3U', () => {
     const tension = variant => sc('Yonex Astrox 77 Pro', 'VS BG65', 'pro', 'control', { variant }).limits.cap;
@@ -122,9 +130,9 @@ const cases = [
       !ready({ ...racket, est: ['tension'] }, string) && !ready(racket, { ...string, tensionMax: null }) &&
       !ready(racket, { ...string, est: ['tensionMax'] }) && !ready(racket, { ...string, tensionMax: 18 });
   }],
-  ['ข้อมูลเดิม: อัปเดตเพดาน Fantome โดยเก็บหมายเหตุของผู้ใช้', () => {
-    const { tensionByWeight, tensionSrc, ...old } = R('Victor Auraspeed Fantome');
-    const [updated] = RS_TEST.updateSavedTension([{ ...old, tension: [null, 32], note: 'หมายเหตุของฉัน' }]);
+  ['ข้อมูลเดิม: อัปเดตเพดาน Fantôme J โดยเก็บหมายเหตุของผู้ใช้', () => {
+    const { tensionByWeight, tensionSrc, ...old } = R('Victor Auraspeed Fantôme J');
+    const [updated] = RS_TEST.updateSavedTension([{ ...old, name: 'Auraspeed Fantome', tension: [null, 32], note: 'หมายเหตุของฉัน' }]);
     const [withLabels] = RS_TEST.updateSavedTension([{ ...old, tensionByWeight: {}, note: 'หมายเหตุของฉัน' }]);
     return updated.tension[1] === 29 && updated.note === 'หมายเหตุของฉัน' && withLabels.tensionByWeight['3U'][1] === 30;
   }],
@@ -207,8 +215,24 @@ const cases = [
       !show({ ...tour, modelCode: 'AX99-T' }, '4U');
   }],
   ['ที่มาเพดานเอ็น: ลิงก์เดิมของทั้งรุ่นแสดงเป็นแหล่งอ้างอิงของรุ่น', () => {
-    const proof = RS_TEST.renderTensionEvidence(R('Li-Ning Axforce 80 Light'), '4U');
-    return proof.includes('≤ 30 lbs') && proof.includes('แหล่งอ้างอิงของรุ่น');
+    const proof = RS_TEST.renderTensionEvidence(R('Li-Ning Tectonic III'), '4U');
+    return proof.includes('≤ 25 lbs') && proof.includes('แหล่งอ้างอิงของรุ่น');
+  }],
+  ['Axforce Tiger: หน้าร้านไทยและหลักฐานปอนด์ตรงกับรหัส AYPW057', () => {
+    const item = R('Li-Ning Axforce Tiger');
+    const proof = RS_TEST.renderTensionEvidence(item, '5U');
+    return item.modelCode === 'AYPW057' && item.shopUrl.endsWith('products_id=5117') &&
+      item.shopLinks.every(link => !link.url.includes('products_id=5122')) &&
+      item.tensionByWeight['4U'][1] === 30 && item.tensionByWeight['5U'][1] === 30 &&
+      proof.includes('ตลาดอินเดีย') && proof.includes('axforce-tiger-5u');
+  }],
+  ['Halbertec 7000 II: แสดงเพดาน 3U และ 4U ของ AYPW015 ตามแคตตาล็อกไต้หวัน', () => {
+    const item = R('Li-Ning Halbertec 7000 II');
+    const show = weight => RS_TEST.renderTensionEvidence(item, weight);
+    return item.modelCode === 'AYPW015' && item.year === 2026 && !item.est.includes('year') &&
+      Object.keys(item.tensionByWeight).sort().join() === '3U,4U' &&
+      show('3U').includes('≤ 31 lbs') && show('4U').includes('≤ 30 lbs') &&
+      show('4U').includes('ตลาดไต้หวัน') && !show('5U');
   }],
   ['Victor LJH E: ใช้รหัสและเพดานเอ็น 5U ของรุ่นปี 2025 จาก Victor ไทย', () => {
     const item = R('Victor Auraspeed LJH E');

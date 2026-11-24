@@ -217,7 +217,7 @@
     return e + (a.length - i) + (b.length - j) <= 1;
   };
   const searchIndex = new WeakMap();
-  const codeKey = value => String(value).normalize('NFKC').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const codeKey = value => String(value).normalize('NFKD').toLowerCase().replace(/[^a-z0-9]/g, '');
   const ROMAN_GENERATION = { II: 2, III: 3, IV: 4 };
   const tokensOf = x => {
     let t = searchIndex.get(x);

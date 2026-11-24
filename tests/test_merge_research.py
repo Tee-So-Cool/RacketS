@@ -156,6 +156,14 @@ class ResearchEvidenceTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'does not match weight'):
             stage({}, self.catalog, [mismatched_weight])
 
+    def test_accented_source_code_matches_unaccented_catalog_code(self):
+        racket = {**self.racket, 'modelCode': 'ARS-FANTOME J'}
+        caps = self.row([None, 30], sourceCode='ARS-FANTÔME J')
+        record = {**self.record(caps), 'modelCode': racket['modelCode']}
+        ledger, _ = stage({}, {racket['id']: racket}, [record])
+        patch, _ = project(racket, ledger[racket['id']])
+        self.assertEqual(patch['researchEvidence'], [caps])
+
     def test_a_later_check_updates_the_same_source_without_duplicates(self):
         first = self.record(self.row([None, 31]))
         second = self.record(self.row([None, 29], checkedOn='2026-11-25'))

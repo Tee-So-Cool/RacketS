@@ -14332,14 +14332,14 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "pro",
   "levelTo": "",
-  "weights": "5U, 4U",
+  "weights": "4U, 5U",
   "weight": 78,
   "grips": "",
   "tension": [
    null,
    29
   ],
-  "tensionNote": "ตามแหล่งสเปก: 4U ≤ 30, 5U ≤ 29 lbs",
+  "tensionNote": "ตามหลักฐานตลาด TW: 4U ≤ 30, 5U ≤ 29 lbs",
   "price": 7770,
   "frame": "Carbon Fibre",
   "shaft": "",
@@ -14370,6 +14370,98 @@ window.RACKETS = [
   "est": [
    "price"
   ],
+  "modelCode": "AYPV035",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "TW",
+    "status": "confirmed",
+    "value": "AYPV035",
+    "sourceCode": "AYPV035-4",
+    "source": "https://www.liningtw.com/products/aypv035",
+    "locator": "商品編號",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25"
+   },
+   {
+    "field": "tension",
+    "market": "TW",
+    "status": "confirmed",
+    "value": [
+     null,
+     30
+    ],
+    "sourceCode": "AYPV035-4",
+    "source": "https://www.liningtw.com/products/aypv035",
+    "locator": "保磅 → 4U",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25",
+    "weight": "4U",
+    "unit": "lbs"
+   },
+   {
+    "status": "confirmed",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25",
+    "field": "tension",
+    "market": "TW",
+    "weight": "4U",
+    "unit": "lbs",
+    "value": [
+     null,
+     30
+    ],
+    "sourceCode": "AYPV035",
+    "source": "https://drive.google.com/file/d/1aKCF__rBevHN2vZTruJ7270Ta2wXa1hj/view#page=19",
+    "locator": "2026 秋冬 → printed p. 20 → 雷霆 80 LIGHT → 4U / 保磅"
+   },
+   {
+    "field": "tension",
+    "market": "TW",
+    "status": "confirmed",
+    "value": [
+     null,
+     29
+    ],
+    "sourceCode": "AYPV035-4",
+    "source": "https://www.liningtw.com/products/aypv035",
+    "locator": "保磅 → 5U",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25",
+    "weight": "5U",
+    "unit": "lbs"
+   },
+   {
+    "status": "confirmed",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25",
+    "field": "tension",
+    "market": "TW",
+    "weight": "5U",
+    "unit": "lbs",
+    "value": [
+     null,
+     29
+    ],
+    "sourceCode": "AYPV035",
+    "source": "https://drive.google.com/file/d/1aKCF__rBevHN2vZTruJ7270Ta2wXa1hj/view#page=19",
+    "locator": "2026 秋冬 → printed p. 20 → 雷霆 80 LIGHT → 5U / 保磅"
+   },
+   {
+    "field": "weights",
+    "market": "TW",
+    "status": "confirmed",
+    "value": [
+     "4U",
+     "5U"
+    ],
+    "sourceCode": "AYPV035-4",
+    "source": "https://www.liningtw.com/products/aypv035",
+    "locator": "重量",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25"
+   }
+  ],
   "tensionByWeight": {
    "4U": [
     null,
@@ -14380,7 +14472,7 @@ window.RACKETS = [
     29
    ]
   },
-  "tensionSrc": "https://order.funport.co.jp/view/item/000000001834?category_page_id=all_items"
+  "tensionSrc": "https://www.liningtw.com/products/aypv035"
  },
  {
   "id": "li-ning-axforce-9",
@@ -15146,7 +15238,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "ตามแหล่งสเปก: 4U ≤ 30, 5U ≤ 30 lbs",
+  "tensionNote": "ตามหลักฐานตลาด IN: 4U ≤ 30, 5U ≤ 30 lbs",
   "price": 1590,
   "frame": "Carbon Fiber",
   "shaft": "Carbon Fiber",
@@ -15158,33 +15250,75 @@ window.RACKETS = [
   "players": "",
   "madeIn": "",
   "recString": "",
-  "img": "https://www.badmintonplaza.com/images/AYPW059-A.jpg",
+  "img": "https://www.badmintonplaza.com/images/AYPW057-A.jpg",
   "source": "",
   "officialUrl": "",
   "specSrc": "https://in.lining.studio/products/axforce-tiger-4u",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5122",
+  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=5117",
   "bayUrl": "",
   "clickUrl": "",
   "shopLinks": [
    {
     "shop": "badmintonplaza.com",
-    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5122"
+    "url": "https://www.badmintonplaza.com/product_info.php?products_id=5117"
    },
    {
     "shop": "in.lining.studio",
-    "url": "https://in.lining.studio/products/axforce-tiger-5u-strung"
-   },
-   {
-    "shop": "thegodofsports.com",
-    "url": "https://thegodofsports.com/products/li-ning-axforce-tiger-badminton-racket-white-lime"
+    "url": "https://in.lining.studio/products/axforce-tiger-5u"
    }
   ],
   "priceNote": "",
   "priceSrc": "",
-  "note": "Li-Ning India ระบุ 30 lbs ทั้ง AYPW057-4 และ AYPW057-5",
+  "note": "รายการนี้ใช้รหัส AYPW057 สีขาว/ดำ/ส้ม ร้านไทยมี 4U และ 5U ส่วนเพดานรายเวตมาจาก Li-Ning India สำหรับรหัสย่อย AYPW057-4 และ AYPW057-5",
   "est": [
    "year",
    "weight"
+  ],
+  "modelCode": "AYPW057",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "TH",
+    "status": "confirmed",
+    "value": "AYPW057",
+    "sourceCode": "AYPW057",
+    "source": "https://www.badmintonplaza.com/product_info.php?products_id=5117",
+    "locator": "Product title → White/Black/Orange (AYPW057)",
+    "sourceType": "retailer",
+    "checkedOn": "2026-11-25"
+   },
+   {
+    "field": "tension",
+    "market": "IN",
+    "status": "confirmed",
+    "value": [
+     null,
+     30
+    ],
+    "sourceCode": "AYPW057-4",
+    "source": "https://in.lining.studio/products/axforce-tiger-4u",
+    "locator": "White/Black/Orange → Details → Product Type and maximum racket tension",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25",
+    "weight": "4U",
+    "unit": "lbs"
+   },
+   {
+    "field": "tension",
+    "market": "IN",
+    "status": "confirmed",
+    "value": [
+     null,
+     30
+    ],
+    "sourceCode": "AYPW057-5",
+    "source": "https://in.lining.studio/products/axforce-tiger-5u",
+    "locator": "White/Black/Orange → Details → Product Type and maximum racket tension",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25",
+    "weight": "5U",
+    "unit": "lbs"
+   }
   ],
   "tensionByWeight": {
    "4U": [
@@ -15196,7 +15330,7 @@ window.RACKETS = [
     30
    ]
   },
-  "tensionSrc": "https://in.lining.studio/products/axforce-tiger-5u"
+  "tensionSrc": "https://in.lining.studio/products/axforce-tiger-4u"
  },
  {
   "id": "li-ning-axforce-warrior",
@@ -15210,14 +15344,14 @@ window.RACKETS = [
   "flex": "flexible",
   "level": "",
   "levelTo": "",
-  "weights": "5U, 4U",
+  "weights": "4U, 5U",
   "weight": 82,
   "grips": "G5",
   "tension": [
    null,
    29
   ],
-  "tensionNote": "ตามแหล่งสเปก: 4U ≤ 30, 5U ≤ 29 lbs",
+  "tensionNote": "ตามหลักฐานตลาด MY: 4U ≤ 30, 5U ≤ 29 lbs",
   "price": 2340,
   "frame": "Carbon Fibre",
   "shaft": "Carbon Fibre",
@@ -15250,6 +15384,65 @@ window.RACKETS = [
    "price"
   ],
   "modelCode": "AYPW039",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "MY",
+    "status": "confirmed",
+    "value": "AYPW039",
+    "sourceCode": "AYPW039",
+    "source": "https://www.lining.my/SalePage/Index/341229?lang=en-US",
+    "locator": "Product title",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25"
+   },
+   {
+    "field": "tension",
+    "market": "MY",
+    "status": "confirmed",
+    "value": [
+     null,
+     30
+    ],
+    "sourceCode": "AYPW039",
+    "source": "https://www.lining.my/SalePage/Index/341229?lang=en-US",
+    "locator": "Product Features → Maximum tension → 4U",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25",
+    "weight": "4U",
+    "unit": "lbs"
+   },
+   {
+    "field": "tension",
+    "market": "MY",
+    "status": "confirmed",
+    "value": [
+     null,
+     29
+    ],
+    "sourceCode": "AYPW039",
+    "source": "https://www.lining.my/SalePage/Index/341229?lang=en-US",
+    "locator": "Product Features → Maximum tension → 5U",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25",
+    "weight": "5U",
+    "unit": "lbs"
+   },
+   {
+    "field": "weights",
+    "market": "MY",
+    "status": "confirmed",
+    "value": [
+     "4U",
+     "5U"
+    ],
+    "sourceCode": "AYPW039",
+    "source": "https://www.lining.my/SalePage/Index/341229?lang=en-US",
+    "locator": "Product Features → Weight / Grip",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25"
+   }
+  ],
   "tensionByWeight": {
    "4U": [
     null,
@@ -18415,21 +18608,21 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Halbertec 7000 II",
   "year": 2026,
-  "yearSrc": "",
+  "yearSrc": "https://drive.google.com/file/d/1Gsgr34dTL8HWYDOyUy1DVLuDA50B295S/view#page=42",
   "style": "control",
   "balance": "even",
   "bp": "",
   "flex": "medium",
   "level": "pro",
   "levelTo": "",
-  "weights": "3U, 4U, 5U",
+  "weights": "3U, 4U",
   "weight": 84,
   "grips": "G4, G5, G6",
   "tension": [
    null,
-   29
+   30
   ],
-  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 31, 4U ≤ 30, 5U ≤ 29 lbs",
+  "tensionNote": "ตามหลักฐานตลาด TW: 3U ≤ 31, 4U ≤ 30 lbs",
   "price": 7370,
   "frame": "Carbon Fibre (M46X + ULTRA)",
   "shaft": "ULTRA High-Elastic Carbon + High-Density Shock Absorption",
@@ -18456,12 +18649,81 @@ window.RACKETS = [
   ],
   "priceNote": "แปลงจาก CAD 309.99 ที่ 1 CAD = 23.787 บาท (ECB 2026-11-13) ไม่รวมภาษีนำเข้าและค่าส่ง",
   "priceSrc": "https://yumo.ca/products/li-ning-halbertec-7000-ii-unstrung-badminton-racket",
-  "note": "รหัส AYPW015 แคตตาล็อก Li-Ning ระบุ 4U และ 5U ส่วนหน้า Yumo รหัส AYPW015-3 ระบุเพดาน 3U และ 4U",
+  "note": "แคตตาล็อก Li-Ning ไต้หวัน ฤดูใบไม้ผลิและฤดูร้อน 2026 หน้า 43 ระบุ AYPW015 แบบ 3U/G5 และ 4U/G6",
   "est": [
-   "year",
    "price"
   ],
   "modelCode": "AYPW015",
+  "researchEvidence": [
+   {
+    "status": "confirmed",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25",
+    "field": "modelCode",
+    "market": "TW",
+    "value": "AYPW015",
+    "sourceCode": "AYPW015",
+    "source": "https://drive.google.com/file/d/1Gsgr34dTL8HWYDOyUy1DVLuDA50B295S/view#page=42",
+    "locator": "2026 春夏 → printed p. 43 → 戰戟 7000 藍紫 → 型號"
+   },
+   {
+    "status": "confirmed",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25",
+    "field": "tension",
+    "market": "TW",
+    "weight": "3U",
+    "unit": "lbs",
+    "value": [
+     null,
+     31
+    ],
+    "sourceCode": "AYPW015",
+    "source": "https://drive.google.com/file/d/1Gsgr34dTL8HWYDOyUy1DVLuDA50B295S/view#page=42",
+    "locator": "2026 春夏 → printed p. 43 → 戰戟 7000 藍紫 → 3U / 保磅"
+   },
+   {
+    "status": "confirmed",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25",
+    "field": "tension",
+    "market": "TW",
+    "weight": "4U",
+    "unit": "lbs",
+    "value": [
+     null,
+     30
+    ],
+    "sourceCode": "AYPW015",
+    "source": "https://drive.google.com/file/d/1Gsgr34dTL8HWYDOyUy1DVLuDA50B295S/view#page=42",
+    "locator": "2026 春夏 → printed p. 43 → 戰戟 7000 藍紫 → 4U / 保磅"
+   },
+   {
+    "status": "confirmed",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25",
+    "field": "weights",
+    "market": "TW",
+    "value": [
+     "3U",
+     "4U"
+    ],
+    "sourceCode": "AYPW015",
+    "source": "https://drive.google.com/file/d/1Gsgr34dTL8HWYDOyUy1DVLuDA50B295S/view#page=42",
+    "locator": "2026 春夏 → printed p. 43 → 戰戟 7000 藍紫 → 重量"
+   },
+   {
+    "status": "confirmed",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25",
+    "field": "year",
+    "market": "GLOBAL",
+    "value": 2026,
+    "sourceCode": "AYPW015",
+    "source": "https://drive.google.com/file/d/1Gsgr34dTL8HWYDOyUy1DVLuDA50B295S/view#page=42",
+    "locator": "2026 春夏 → printed p. 43 → AYPW015 marked NEW"
+   }
+  ],
   "tensionByWeight": {
    "3U": [
     null,
@@ -18470,13 +18732,9 @@ window.RACKETS = [
    "4U": [
     null,
     30
-   ],
-   "5U": [
-    null,
-    29
    ]
   },
-  "tensionSrc": "https://www.shopnings.com/pub/media/descriptions/2026ssbadmintongear.pdf"
+  "tensionSrc": "https://drive.google.com/file/d/1Gsgr34dTL8HWYDOyUy1DVLuDA50B295S/view#page=42"
  },
  {
   "id": "li-ning-halbertec-8000",
@@ -18826,21 +19084,21 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Halbertec Mage",
   "year": 2026,
-  "yearSrc": "",
+  "yearSrc": "https://liningbadminton.vn/products/khung-vot-cau-long-halbertec-mage-4u-unisex-p-aypw041-4v",
   "style": "control",
   "balance": "even",
   "bp": "",
   "flex": "medium",
   "level": "intermediate",
   "levelTo": "",
-  "weights": "5U, 4U",
+  "weights": "4U, 5U",
   "weight": 83,
   "grips": "G5",
   "tension": [
    null,
    29
   ],
-  "tensionNote": "ตามแหล่งสเปก: 4U ≤ 30, 5U ≤ 29 lbs",
+  "tensionNote": "ตามหลักฐานตลาด VN: 4U ≤ 30, 5U ≤ 29 lbs",
   "price": 2340,
   "frame": "",
   "shaft": "",
@@ -18874,11 +19132,80 @@ window.RACKETS = [
   "note": "",
   "est": [
    "level",
-   "year",
    "price",
    "weight"
   ],
   "modelCode": "AYPW041",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "VN",
+    "status": "confirmed",
+    "value": "AYPW041",
+    "sourceCode": "AYPW041",
+    "source": "https://liningbadminton.vn/products/khung-vot-cau-long-halbertec-mage-4u-unisex-p-aypw041-4v",
+    "locator": "Mô tả → Thông số sản phẩm → Mã sản phẩm",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25"
+   },
+   {
+    "field": "tension",
+    "market": "VN",
+    "status": "confirmed",
+    "value": [
+     null,
+     30
+    ],
+    "sourceCode": "AYPW041",
+    "source": "https://liningbadminton.vn/products/khung-vot-cau-long-halbertec-mage-4u-unisex-p-aypw041-4v",
+    "locator": "Thông số sản phẩm → Sức căng tối đa → 4U",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25",
+    "weight": "4U",
+    "unit": "lbs"
+   },
+   {
+    "field": "tension",
+    "market": "VN",
+    "status": "confirmed",
+    "value": [
+     null,
+     29
+    ],
+    "sourceCode": "AYPW041",
+    "source": "https://liningbadminton.vn/products/khung-vot-cau-long-halbertec-mage-4u-unisex-p-aypw041-4v",
+    "locator": "Thông số sản phẩm → Sức căng tối đa → 5U",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25",
+    "weight": "5U",
+    "unit": "lbs"
+   },
+   {
+    "field": "weights",
+    "market": "VN",
+    "status": "confirmed",
+    "value": [
+     "4U",
+     "5U"
+    ],
+    "sourceCode": "AYPW041",
+    "source": "https://liningbadminton.vn/products/khung-vot-cau-long-halbertec-mage-4u-unisex-p-aypw041-4v",
+    "locator": "Thông số sản phẩm → Trọng lượng",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25"
+   },
+   {
+    "field": "year",
+    "market": "GLOBAL",
+    "status": "confirmed",
+    "value": 2026,
+    "sourceCode": "AYPW041",
+    "source": "https://liningbadminton.vn/products/khung-vot-cau-long-halbertec-mage-4u-unisex-p-aypw041-4v",
+    "locator": "Thông số sản phẩm → Năm ra mắt",
+    "sourceType": "distributor",
+    "checkedOn": "2026-11-25"
+   }
+  ],
   "tensionByWeight": {
    "4U": [
     null,
@@ -18889,7 +19216,7 @@ window.RACKETS = [
     29
    ]
   },
-  "tensionSrc": "https://www.lining.my/SalePage/Index/341241"
+  "tensionSrc": "https://liningbadminton.vn/products/khung-vot-cau-long-halbertec-mage-4u-unisex-p-aypw041-4v"
  },
  {
   "id": "li-ning-halbertec-motor",
@@ -33871,75 +34198,168 @@ window.RACKETS = [
   "tensionByWeight": {}
  },
  {
-  "id": "victor-auraspeed-fantome",
+  "id": "victor-auraspeed-fantome-f",
   "brand": "Victor",
-  "name": "Auraspeed Fantome",
+  "name": "Auraspeed Fantôme F AC",
   "year": 2025,
-  "yearSrc": "",
+  "yearSrc": "https://th.victorsport.com/product/auraspeed-fantme-f-ac",
   "style": "speed",
   "balance": "head-heavy",
-  "bp": 303,
+  "bp": "",
   "flex": "stiff",
   "level": "advanced",
   "levelTo": "",
-  "weights": "4U, 3U",
+  "weights": "4U",
+  "weight": 83,
+  "grips": "G5",
+  "tension": [
+   null,
+   28
+  ],
+  "tensionNote": "ตามหลักฐานตลาด TH: 4U ≤ 28 lbs",
+  "price": 5590,
+  "frame": "High ResilienceModulus Graphite + NANO AEROGEL + PBO High Performance Fiber + HARD CORED TECHNOLOGY",
+  "shaft": "High ResilienceModulus Graphite + PBO High Performance Fiber + PYROFIL + 6.6 SHAFT",
+  "joint": "",
+  "length": "",
+  "head": "",
+  "pattern": "Single-pass grommets reduce friction to help",
+  "tech": "PYROFIL",
+  "players": "",
+  "madeIn": "Taiwan",
+  "recString": "",
+  "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-fantome-f-169x300.webp",
+  "source": "https://chobbad.com/racket/victor-auraspeed-fantome-f/",
+  "officialUrl": "https://th.victorsport.com/product/auraspeed-fantme-f-ac",
+  "specSrc": "https://th.victorsport.com/product/auraspeed-fantme-f-ac",
+  "shopUrl": "",
+  "bayUrl": "",
+  "clickUrl": "",
+  "shopLinks": [
+   {
+    "shop": "th.victorsport.com",
+    "url": "https://th.victorsport.com/product/auraspeed-fantme-f-ac"
+   },
+   {
+    "shop": "badmintonwarehouse.com",
+    "url": "https://badmintonwarehouse.com/products/victor-auraspeed-fantome-f-ac-badminton-racket"
+   },
+   {
+    "shop": "yumo.ca",
+    "url": "https://yumo.ca/products/victor-auraspeed-fantome-unstrung-badminton-racket-black-rose-ars-fantome-f-ac"
+   },
+   {
+    "shop": "thegodofsports.com",
+    "url": "https://thegodofsports.com/products/victor-auraspeed-fantome-f-ac-badminton-racket-4u"
+   }
+  ],
+  "priceNote": "",
+  "priceSrc": "",
+  "note": "",
+  "est": [],
+  "modelCode": "ARS-FANTÔME F AC",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "TH",
+    "status": "confirmed",
+    "value": "ARS-FANTÔME F AC",
+    "sourceCode": "ARS-FANTÔME F AC",
+    "source": "https://th.victorsport.com/product/auraspeed-fantme-f-ac",
+    "locator": "Product data → SKU",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25"
+   },
+   {
+    "field": "tension",
+    "market": "TH",
+    "status": "confirmed",
+    "value": [
+     null,
+     28
+    ],
+    "sourceCode": "ARS-FANTÔME F AC",
+    "source": "https://th.victorsport.com/product/auraspeed-fantme-f-ac",
+    "locator": "SPEC & TECH → String tension LBS → 4U",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25",
+    "weight": "4U",
+    "unit": "lbs"
+   },
+   {
+    "field": "weights",
+    "market": "TH",
+    "status": "confirmed",
+    "value": [
+     "4U"
+    ],
+    "sourceCode": "ARS-FANTÔME F AC",
+    "source": "https://th.victorsport.com/product/auraspeed-fantme-f-ac",
+    "locator": "SPEC & TECH → Weight / Grip Size",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25"
+   },
+   {
+    "field": "year",
+    "market": "GLOBAL",
+    "status": "confirmed",
+    "value": 2025,
+    "sourceCode": "ARS-FANTÔME F AC",
+    "source": "https://th.victorsport.com/product/auraspeed-fantme-f-ac",
+    "locator": "Product heading → 2025 NEW",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25"
+   }
+  ],
+  "tensionByWeight": {},
+  "tensionSrc": "https://th.victorsport.com/product/auraspeed-fantme-f-ac"
+ },
+ {
+  "id": "victor-auraspeed-fantome",
+  "brand": "Victor",
+  "name": "Auraspeed Fantôme J",
+  "year": 2025,
+  "yearSrc": "https://th.victorsport.com/product/auraspeed-fant-me-j",
+  "style": "speed",
+  "balance": "head-light",
+  "bp": "",
+  "flex": "stiff",
+  "level": "advanced",
+  "levelTo": "",
+  "weights": "3U, 4U",
   "weight": 88,
   "grips": "G5",
   "tension": [
    null,
    29
   ],
-  "tensionNote": "ตามแหล่งสเปก: 3U ≤ 30, 4U ≤ 29 lbs",
+  "tensionNote": "ตามหลักฐานตลาด TH: 3U ≤ 30, 4U ≤ 29 lbs",
   "price": 5390,
   "frame": "High ResilienceModulus Graphite+NANO AEROGEL+PBO High Performance Fiber+HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite+PBO High Performance Fiber+PYROFIL+6.8 SHAFT",
   "joint": "",
-  "length": "675 mm",
+  "length": "",
   "head": "",
   "pattern": "",
   "tech": "PYROFIL · 6.8 SHAFT",
-  "players": "Shevon Jemie Lai, Huang Ya Qiong",
-  "madeIn": "Taiwan",
-  "recString": "BG Aerobite (คุม), BG 80 (พลัง)",
+  "players": "",
+  "madeIn": "",
+  "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-fantome-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-fantome/",
-  "officialUrl": "",
-  "specSrc": "https://www.sakurasport.com/en/1756-badminton-racket-auraspeed-fantome-j-4ug5-victor-4005543023239.html",
-  "shopUrl": "https://www.badmintonplaza.com/product_info.php?products_id=4713",
+  "officialUrl": "https://th.victorsport.com/product/auraspeed-fant-me-j",
+  "specSrc": "https://th.victorsport.com/product/auraspeed-fant-me-j",
+  "shopUrl": "",
   "bayUrl": "",
-  "clickUrl": "https://badmintonclick.com.au/products/victor-auraspeed-fantome-83-grams-badminton-racquet",
+  "clickUrl": "",
   "shopLinks": [
    {
     "shop": "th.victorsport.com",
     "url": "https://th.victorsport.com/product/auraspeed-fant-me-j"
    },
    {
-    "shop": "badmintonplaza.com",
-    "url": "https://www.badmintonplaza.com/product_info.php?products_id=4713"
-   },
-   {
     "shop": "badmintonwarehouse.com",
     "url": "https://badmintonwarehouse.com/products/victor-auraspeed-fantome-badminton-racket"
-   },
-   {
-    "shop": "nydhi.com",
-    "url": "https://nydhi.com/products/victor-auraspeed-fantome-ars-fantome-f-ac-black-rose-badminton-racket"
-   },
-   {
-    "shop": "sportsshop.asia",
-    "url": "https://sportsshop.asia/products/victor-auraspeed-fantome-badminton-racket-purple-unstrung"
-   },
-   {
-    "shop": "badmintonclick.com.au",
-    "url": "https://badmintonclick.com.au/products/victor-auraspeed-fantome-83-grams-badminton-racquet"
-   },
-   {
-    "shop": "racquetguys.com",
-    "url": "https://racquetguys.com/products/victor-auraspeed-fantome-used"
-   },
-   {
-    "shop": "yumo.ca",
-    "url": "https://yumo.ca/products/victor-auraspeed-fantome-unstrung-badminton-racket-ars-fantome-j"
    },
    {
     "shop": "tenniszon.com",
@@ -33954,8 +34374,78 @@ window.RACKETS = [
   "priceSrc": "",
   "note": "ระดับ: ร้านระบุ \"PLAYER LEVEL: Advanced\" และ \"intermediate to advanced\" (ผลค้น Google 8 พ.ย. 2026)",
   "est": [
-   "balance",
-   "year"
+   "balance"
+  ],
+  "modelCode": "ARS-FANTÔME J",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "TH",
+    "status": "confirmed",
+    "value": "ARS-FANTÔME J",
+    "sourceCode": "ARS-FANTÔME J",
+    "source": "https://th.victorsport.com/product/auraspeed-fant-me-j",
+    "locator": "Product data → SKU",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25"
+   },
+   {
+    "field": "tension",
+    "market": "TH",
+    "status": "confirmed",
+    "value": [
+     null,
+     30
+    ],
+    "sourceCode": "ARS-FANTÔME J",
+    "source": "https://th.victorsport.com/product/auraspeed-fant-me-j",
+    "locator": "SPEC & TECH → String tension LBS → 3U",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25",
+    "weight": "3U",
+    "unit": "lbs"
+   },
+   {
+    "field": "tension",
+    "market": "TH",
+    "status": "confirmed",
+    "value": [
+     null,
+     29
+    ],
+    "sourceCode": "ARS-FANTÔME J",
+    "source": "https://th.victorsport.com/product/auraspeed-fant-me-j",
+    "locator": "SPEC & TECH → String tension LBS → 4U",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25",
+    "weight": "4U",
+    "unit": "lbs"
+   },
+   {
+    "field": "weights",
+    "market": "TH",
+    "status": "confirmed",
+    "value": [
+     "3U",
+     "4U"
+    ],
+    "sourceCode": "ARS-FANTÔME J",
+    "source": "https://th.victorsport.com/product/auraspeed-fant-me-j",
+    "locator": "SPEC & TECH → Weight / Grip Size",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25"
+   },
+   {
+    "field": "year",
+    "market": "GLOBAL",
+    "status": "confirmed",
+    "value": 2025,
+    "sourceCode": "ARS-FANTÔME J",
+    "source": "https://th.victorsport.com/product/auraspeed-fant-me-j",
+    "locator": "Product heading → 2025 NEW",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25"
+   }
   ],
   "tensionByWeight": {
    "3U": [
@@ -33967,83 +34457,7 @@ window.RACKETS = [
     29
    ]
   },
-  "tensionSrc": "https://www.badmintoncn.com/cbo_eq/view_specs.php?eid=20874"
- },
- {
-  "id": "victor-auraspeed-fantome-f",
-  "brand": "Victor",
-  "name": "Auraspeed Fantome F",
-  "year": 2025,
-  "yearSrc": "https://ca.victorsport.com/product/auraspeed-fantme-f-ac",
-  "style": "speed",
-  "balance": "head-heavy",
-  "bp": "",
-  "flex": "stiff",
-  "level": "advanced",
-  "levelTo": "",
-  "weights": "4U",
-  "weight": 83,
-  "grips": "G5",
-  "tension": [
-   null,
-   28
-  ],
-  "tensionNote": "",
-  "price": 5590,
-  "frame": "High ResilienceModulus Graphite + NANO AEROGEL + PBO High Performance Fiber + HARD CORED TECHNOLOGY",
-  "shaft": "High ResilienceModulus Graphite + PBO High Performance Fiber + PYROFIL + 6.6 SHAFT",
-  "joint": "",
-  "length": "675 mm",
-  "head": "",
-  "pattern": "Single-pass grommets reduce friction to help",
-  "tech": "PYROFIL",
-  "players": "",
-  "madeIn": "Taiwan",
-  "recString": "BG Aerobite (คุม), BG 80 (พลัง)",
-  "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-fantome-f-169x300.webp",
-  "source": "https://chobbad.com/racket/victor-auraspeed-fantome-f/",
-  "officialUrl": "https://ca.victorsport.com/product/auraspeed-fantme-f-ac",
-  "specSrc": "https://www.sakurasport.com/en/2124-badminton-racket-auraspeed-fantome-f-ac-4ug5-victor-4711581155381.html",
-  "shopUrl": "",
-  "bayUrl": "",
-  "clickUrl": "https://badmintonclick.com.au/products/victor-auraspeed-fantome-f-huang-yaqiong-2-0-edition-83-grams-badminton-racquet",
-  "shopLinks": [
-   {
-    "shop": "th.victorsport.com",
-    "url": "https://th.victorsport.com/product/auraspeed-fantme-f-ac"
-   },
-   {
-    "shop": "joybadminton.com",
-    "url": "https://joybadminton.com/products/victor-x-hyq-collection-2-0-auraspeed-fantome-f-racket-pearly-white"
-   },
-   {
-    "shop": "badmintonwarehouse.com",
-    "url": "https://badmintonwarehouse.com/products/victor-auraspeed-fantome-f-hyq-m-badminton-racket"
-   },
-   {
-    "shop": "badmintonclick.com.au",
-    "url": "https://badmintonclick.com.au/products/victor-auraspeed-fantome-f-huang-yaqiong-2-0-edition-83-grams-badminton-racquet"
-   },
-   {
-    "shop": "yumo.ca",
-    "url": "https://yumo.ca/products/victor-x-huang-yaqiong-auraspeed-fantome-f-unstrung-badminton-racket-pearly-white-ars-fantome-f-hyq-a"
-   },
-   {
-    "shop": "tenniszon.com",
-    "url": "https://tenniszon.com/products/victor-x-2026-huang-ya-qiong-collection-2-0-auraspeed-fantome-f-hyq-a-unstrung-blue-white"
-   },
-   {
-    "shop": "thegodofsports.com",
-    "url": "https://thegodofsports.com/products/victor-auraspeed-fantome-f-ac-badminton-racket-4u"
-   }
-  ],
-  "priceNote": "",
-  "priceSrc": "",
-  "note": "",
-  "est": [
-   "balance"
-  ],
-  "tensionSrc": "https://ca.victorsport.com/product/auraspeed-fantme-f-ac"
+  "tensionSrc": "https://th.victorsport.com/product/auraspeed-fant-me-j"
  },
  {
   "id": "victor-auraspeed-hs-plus",
@@ -41095,7 +41509,7 @@ window.RACKETS = [
   "brand": "Victor",
   "name": "Thruster Ryuga III",
   "year": 2026,
-  "yearSrc": "",
+  "yearSrc": "https://yumo.ca/products/victor-thruster-ryuga-iii-unstrung-badminton-racket-armor-black-tk-ryuga-iii-cq",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
@@ -41109,7 +41523,7 @@ window.RACKETS = [
    null,
    31
   ],
-  "tensionNote": "ตามแหล่งสเปก: 4U ≤ 32, 5U ≤ 31 lbs",
+  "tensionNote": "ตามหลักฐานตลาด TH: 4U ≤ 32, 5U ≤ 31 lbs",
   "price": 5990,
   "frame": "High Resilience Modulus Graphite + Hard Cored Technology + 46T Pyrofil + Nano Fortify TR+ + Metallic Carbon Fiber + Nano Aerogel",
   "shaft": "High Resilience Modulus Graphite + 46T Pyrofil + Metallic Carbon Fiber + 6.5 Shaft",
@@ -41162,10 +41576,79 @@ window.RACKETS = [
   "priceSrc": "https://www.google.com/search?q=%22Ryuga+III%22+victor+ราคา",
   "note": "ระดับ: ร้านระบุ \"Made for Advanced Attacking Players\" และ \"intermediate to advanced players\" (ผลค้น Google 5 พ.ย. 2026) จึงลดจากโปรเป็นระดับสูง (≈)",
   "est": [
-   "level",
-   "year"
+   "level"
   ],
   "modelCode": "TK-RYUGA-III-CQ",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "TH",
+    "status": "confirmed",
+    "value": "TK-RYUGA-III-CQ",
+    "sourceCode": "TK-RYUGA-III-CQ",
+    "source": "https://www.badmintonplaza.com/product_info.php?products_id=5252",
+    "locator": "Product title",
+    "sourceType": "retailer",
+    "checkedOn": "2026-11-25"
+   },
+   {
+    "field": "tension",
+    "market": "TH",
+    "status": "confirmed",
+    "value": [
+     null,
+     32
+    ],
+    "sourceCode": "TK-RYUGA-III-CQ",
+    "source": "https://www.badmintonplaza.com/product_info.php?products_id=5252",
+    "locator": "Product Description → String tension → 4U",
+    "sourceType": "retailer",
+    "checkedOn": "2026-11-25",
+    "weight": "4U",
+    "unit": "lbs"
+   },
+   {
+    "field": "tension",
+    "market": "TH",
+    "status": "confirmed",
+    "value": [
+     null,
+     31
+    ],
+    "sourceCode": "TK-RYUGA-III-CQ",
+    "source": "https://www.badmintonplaza.com/product_info.php?products_id=5252",
+    "locator": "Product Description → String tension → 5U",
+    "sourceType": "retailer",
+    "checkedOn": "2026-11-25",
+    "weight": "5U",
+    "unit": "lbs"
+   },
+   {
+    "field": "weights",
+    "market": "TH",
+    "status": "confirmed",
+    "value": [
+     "4U",
+     "5U"
+    ],
+    "sourceCode": "TK-RYUGA-III-CQ",
+    "source": "https://www.badmintonplaza.com/product_info.php?products_id=5252",
+    "locator": "Product Description → Weight / Grip Size",
+    "sourceType": "retailer",
+    "checkedOn": "2026-11-25"
+   },
+   {
+    "field": "year",
+    "market": "GLOBAL",
+    "status": "confirmed",
+    "value": 2026,
+    "sourceCode": "TK-RYUGA III CQ",
+    "source": "https://yumo.ca/products/victor-thruster-ryuga-iii-unstrung-badminton-racket-armor-black-tk-ryuga-iii-cq",
+    "locator": "Product Specifications → Launch Date",
+    "sourceType": "retailer",
+    "checkedOn": "2026-11-25"
+   }
+  ],
   "tensionByWeight": {
    "4U": [
     null,
@@ -43005,6 +43488,21 @@ window.RACKETS = [
   "aliases": [
    "Arcsaber7 Play 2026"
   ],
+  "modelCode": "YY1269RB002",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "KR",
+    "status": "confirmed",
+    "value": "YY1269RB002",
+    "sourceCode": "YY1269RB002",
+    "source": "https://www.yonexmall.com/m2/goods/view.php?category=001001&goodsno=8052",
+    "locator": "ARCSABER 7 PLAY (2026) → 상품코드",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25",
+    "note": "รหัสสินค้าของ Yonex Korea สำหรับรายการสี Light Beige"
+   }
+  ],
   "tensionSrc": "https://www.yonexmall.com/m2/goods/view.php?category=001001&goodsno=8052"
  },
  {
@@ -43224,6 +43722,21 @@ window.RACKETS = [
   "est": [],
   "aliases": [
    "Arcsaber7 Tour 2026"
+  ],
+  "modelCode": "YY1269RB006",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "KR",
+    "status": "confirmed",
+    "value": "YY1269RB006",
+    "sourceCode": "YY1269RB006",
+    "source": "https://www.yonexmall.com/m2/goods/view.php?category=001&goodsno=8058",
+    "locator": "ARCSABER 7 TOUR (2026) → 상품코드",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25",
+    "note": "รหัสสินค้าของ Yonex Korea สำหรับรายการสี Light Beige"
+   }
   ],
   "tensionSrc": "https://www.yonexmall.com/m2/goods/view.php?category=001&goodsno=8058"
  },
@@ -44260,7 +44773,7 @@ window.RACKETS = [
    21,
    28
   ],
-  "tensionNote": "ผู้ผลิตระบุ: 3U: 21–29, 4U: 20–28 lbs",
+  "tensionNote": "ตามหลักฐานตลาด GLOBAL: 3U: 21–29, 4U: 20–28 lbs",
   "price": 10000,
   "frame": "HM Graphite, Namd, Tungsten, Black Micro Core, Nanometric",
   "shaft": "HM Graphite, Namd™",
@@ -44310,6 +44823,65 @@ window.RACKETS = [
    "price"
   ],
   "modelCode": "AX100VAZ",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "GLOBAL",
+    "status": "confirmed",
+    "value": "AX100VAZ",
+    "sourceCode": "AX100VAZ",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-100va-zz",
+    "locator": "Specs → Item Code",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25"
+   },
+   {
+    "field": "tension",
+    "market": "GLOBAL",
+    "status": "confirmed",
+    "value": [
+     21,
+     29
+    ],
+    "sourceCode": "AX100VAZ",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-100va-zz",
+    "locator": "Specs → Stringing Advice → 3U",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25",
+    "weight": "3U",
+    "unit": "lbs"
+   },
+   {
+    "field": "tension",
+    "market": "GLOBAL",
+    "status": "confirmed",
+    "value": [
+     20,
+     28
+    ],
+    "sourceCode": "AX100VAZ",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-100va-zz",
+    "locator": "Specs → Stringing Advice → 4U",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25",
+    "weight": "4U",
+    "unit": "lbs"
+   },
+   {
+    "field": "weights",
+    "market": "GLOBAL",
+    "status": "confirmed",
+    "value": [
+     "3U",
+     "4U"
+    ],
+    "sourceCode": "AX100VAZ",
+    "source": "https://www.yonex.com/badminton/racquets/astrox-100va-zz",
+    "locator": "Specs → Weight / Grip",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25"
+   }
+  ],
   "tensionByWeight": {
    "3U": [
     21,
@@ -44319,7 +44891,8 @@ window.RACKETS = [
     20,
     28
    ]
-  }
+  },
+  "tensionSrc": "https://www.yonex.com/badminton/racquets/astrox-100va-zz"
  },
  {
   "id": "yonex-astrox-100zz",
@@ -46043,7 +46616,7 @@ window.RACKETS = [
    20,
    28
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามหลักฐานตลาด GLOBAL: 4U: 20–28 lbs",
   "price": 3669,
   "frame": "Graphite",
   "shaft": "Graphite",
@@ -46073,7 +46646,67 @@ window.RACKETS = [
   "note": "",
   "est": [],
   "modelCode": "3AX99-PL",
-  "generation": 3
+  "generation": 3,
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "GLOBAL",
+    "status": "confirmed",
+    "value": "3AX99-PL",
+    "sourceCode": "3AX99-PL",
+    "source": "https://www.yonex.com/badminton/astrox-99-play-3ax99-pl",
+    "locator": "Specs → Item Code",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25"
+   },
+   {
+    "field": "tension",
+    "market": "GLOBAL",
+    "status": "confirmed",
+    "value": [
+     20,
+     28
+    ],
+    "sourceCode": "3AX99-PL",
+    "source": "https://www.yonex.com/badminton/astrox-99-play-3ax99-pl",
+    "locator": "Specs → Stringing Advice → 4U",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25",
+    "weight": "4U",
+    "unit": "lbs"
+   },
+   {
+    "field": "tension",
+    "market": "GLOBAL",
+    "status": "confirmed",
+    "value": [
+     20,
+     28
+    ],
+    "sourceCode": "3AX99-PL",
+    "weight": "4U",
+    "unit": "lbs",
+    "source": "https://www.yonex.com/media/wysiwyg/Catalog/Yonex_Badminton_2026.pdf#page=9",
+    "locator": "Printed p. 15 → ASTROX 99 PLAY column → STRING ADVICE",
+    "sourceType": "catalog",
+    "checkedOn": "2026-11-25"
+   },
+   {
+    "field": "weights",
+    "market": "GLOBAL",
+    "status": "confirmed",
+    "value": [
+     "4U"
+    ],
+    "sourceCode": "3AX99-PL",
+    "source": "https://www.yonex.com/badminton/astrox-99-play-3ax99-pl",
+    "locator": "Specs → Weight / Grip",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25"
+   }
+  ],
+  "tensionByWeight": {},
+  "tensionSrc": "https://www.yonex.com/badminton/astrox-99-play-3ax99-pl"
  },
  {
   "id": "yonex-astrox-99-play-2021",

@@ -8,6 +8,7 @@ import os
 from pathlib import Path
 import re
 from tempfile import NamedTemporaryFile, gettempdir
+import unicodedata
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -32,7 +33,7 @@ def decode(text):
 
 
 def code_key(value):
-    return re.sub(r'[^a-z0-9]', '', value.lower())
+    return re.sub(r'[^a-z0-9]', '', unicodedata.normalize('NFKD', value).lower())
 
 
 def market_code(value):

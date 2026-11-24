@@ -205,6 +205,14 @@ from plaza_match import match as pmatch, clean as pclean, skip as pskip, match_g
 PLAZA = os.path.join(SRC, 'plaza.json')
 BASE_PLAZA = 'https://www.badmintonplaza.com/product_info.php?products_id='
 plaza = json.load(open(PLAZA, encoding='utf-8')) if os.path.exists(PLAZA) else []
+
+
+def accepts_listing(racket, url):
+    # Some product names cover multiple SKUs. Use the reviewed pages when one SKU is selected.
+    verified = racket.get('listingUrls')
+    return not verified or url in verified
+
+
 plaza_hits = plaza_new = 0
 for pz in plaza:
     pool = {r['name']: r for r in rackets.values() if r['brand'] == pz['brand']}
@@ -212,7 +220,7 @@ for pz in plaza:
     if m:
         m = match_generation(pz['name'], '', m, pool)
         if not m: continue
-        r = pool[m]; plaza_hits += 1
+        r = pool[m]
     elif not pskip(pz['name']) and pclean(pz['name']) in NEW_NAMES:
         nm = NEW_NAMES[pclean(pz['name'])]
         k = key(pz['brand'] + ' ' + nm)
@@ -225,6 +233,11 @@ for pz in plaza:
             plaza_new += 1
     else:
         continue
+    url = BASE_PLAZA + str(pz['id'])
+    if not accepts_listing(r, url):
+        continue
+    if m:
+        plaza_hits += 1
     bal_raw = (pz.get('balance') or '').replace('Headvy', 'Heavy').replace('headvy', 'heavy')
     ws, g = weights(pz.get('weight', ''))
     fill = {'img': pz.get('img', ''), 'price': int(pz['price']) if pz.get('price') else ''}
@@ -236,7 +249,7 @@ for pz in plaza:
                      'frame': pz.get('frame') or pz.get('material', ''), 'shaft': pz.get('shaft', ''), 'length': pz.get('length', '')})
     for f, v in fill.items():
         if v not in ('', None) and r.get(f) in ('', None): r[f] = v
-    if not r.get('shopUrl'): r['shopUrl'] = BASE_PLAZA + str(pz['id'])
+    if not r.get('shopUrl'): r['shopUrl'] = url
 print('plaza matched', plaza_hits, 'added', plaza_new)
 unmatched = []
 for full_name in deferred:
@@ -442,7 +455,7 @@ for bz in bay + click + shops:
     m = match_title(bz['name'], bz['brand'], pool)
     if m:
         m = match_generation(original_title, bz['url'], m, pool)
-    if not m:
+    if not m or not accepts_listing(pool[m], bz['url']):
         AUDIT['unmatched'].append({'brand': bz['brand'], 'name': bz['name'], 'url': bz['url'], 'src': bz.get('src', 'bay')}); continue
     r = pool[m]; bay_hits[bz.get('src', 'bay')] += 1
     if bz['url'] in victor_by_url:
