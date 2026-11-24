@@ -1,90 +1,306 @@
-# Merge a research table (docs/research/<brand>-specs.md) into data/spec-overrides.json.
-# Usage: python3 scripts/merge_research.py <brand> <file.md>
-# Skips CONFLICT cells, and whole rows whose notes say the data is from a sibling model; only fills what the row states.
-import json, os, re, sys
+"""Preview or apply racket research evidence without losing its model, market or weight."""
+import argparse
+from collections import defaultdict
+from datetime import date
+from hashlib import sha256
+import json
+import os
+from pathlib import Path
+import re
+from tempfile import NamedTemporaryFile, gettempdir
+from urllib.parse import urlsplit
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-brand, path = sys.argv[1], sys.argv[2]
-lines = open(path, encoding='utf-8').read().splitlines()
-hdr = next(i for i, l in enumerate(lines) if re.match(r'\|?\s*model\s*\|', l))
-# optional legend "Slugs: V = https://... , M = https://..." turns short source codes into URLs
-SLUG = dict(re.findall(r'\b([A-Z])\s*=\s*(https?://\S+?)\s*(?:,|$)', next((l for l in lines if l.strip().startswith('- Slugs:')), '')))
-cols = [c.strip().lower() for c in lines[hdr].strip().strip('|').split('|')]
-def col(cells, name):
-    return cells[cols.index(name)].strip() if name in cols and cols.index(name) < len(cells) else ''
-p = os.path.join(ROOT, 'data', 'spec-overrides.json'); d = json.load(open(p, encoding='utf-8'))
-# names the site already has (built data plus the models the shop layer adds), so others are created as new
-key = lambda s: re.sub(r'[^a-z0-9]', '', s.lower())
-txt = open(os.path.join(ROOT, 'data', 'rackets.js'), encoding='utf-8').read()
-known = {key(b + ' ' + n) for b, n in re.findall(r'"brand": "([^"]+)",\s*"name": "([^"]+)"', txt)}
-sys.path.insert(0, os.path.join(ROOT, 'scripts'))
-added, skipped = [], []
-for l in lines[hdr + 2:]:
-    if '|' not in l: 
-        if l.strip(): break
-        continue
-    c = [x.strip() for x in l.strip().strip('|').split('|')]
-    model = c[0]; notes = col(c, 'notes').lower()
-    if 'sibling' in notes:
-        skipped.append(model); continue
-    # a conflicting cell is left out; the row's other cells still count
-    c = [('' if 'conflict' in x.lower() else x) for x in c[:-1]] + [c[-1]]
-    src = next((m.group(0) for x in c for m in [re.search(r'https?://[^\s)\]|]+', x)] if m), '')
-    if not src and SLUG:
-        m = re.search(r'\b([A-Z])\s+([\w.-]+)', col(c, 'source url'))
-        if m and m.group(1) in SLUG: src = SLUG[m.group(1)] + m.group(2)
-    if not src: continue
-    name = re.sub(r'\s*\(\d{4}\)\s*$', '', model).strip()
-    # tables covering several brands put the brand in the model cell: keep only this brand's rows
-    if re.match(r'(kawasaki|protech|reach|victor|mizuno|apacs|li-ning|yonex|vs)\b', name, re.I):
-        if not name.lower().startswith(brand.lower()): continue
-        name = name[len(brand):].strip()
-    e = {}
-    b = col(c, 'balance').lower()
-    if 'heavy' in b: e['balance'] = 'head-heavy'
-    elif 'light' in b: e['balance'] = 'head-light'
-    elif 'even' in b: e['balance'] = 'even'
-    f = col(c, 'flex').lower()
-    if 'extra' in f: e['flex'] = 'extra-stiff'
-    elif 'stiff' in f: e['flex'] = 'stiff'
-    elif 'medium' in f: e['flex'] = 'medium'
-    elif 'flex' in f: e['flex'] = 'flexible'
-    ws = re.findall(r'(?<![\d.])([2-9]|10)U(?=\d|\b)', col(c, 'weights') or col(c, 'weight'))
-    if ws: e['weights'] = ', '.join(sorted({w + 'U' for w in ws}, key=lambda u: -int(u[:-1])))
-    g = re.fullmatch(r'(\d{2})(?:\.\d)?(?:\s*\(4U\))?', col(c, 'avg g'))
-    if g: e['weight'] = int(g.group(1))
-    mx = col(c, 'max lbs')
-    if 'n/s' in mx.lower(): mx = ''  # unit not stated: do not assume lbs
-    # "23-28" is a range: its top is the max, not its first number
-    m = re.search(r'(\d{2})\s*\(4U\)', mx) or re.match(r'\d{2}\s*[-–~]\s*(\d{2})\b', mx) or re.match(r'(\d{2})\b', mx)
-    if m: e['tmax'] = int(m.group(1))
-    lv = col(c, 'level').lower()
-    if ' to ' not in lv and 'partial' not in lv:
-        for k in ('pro', 'advanced', 'intermediate', 'beginner'):
-            if re.match(r'\s*' + k, lv): e['level'] = k; break
-    # prices may list several currencies "a / b / c" against "VND / THB / MYR": prefer THB, then the others ECB covers
-    prs = [x.strip() for x in col(c, 'price').split(' / ')]
-    curs = [x.strip().upper() for x in col(c, 'currency').split('/')]
-    # without a currency column each price carries its own code ("2,300 BDT")
-    if 'currency' not in cols: curs = [(re.findall(r'\b([A-Z]{3})\b', x) or [''])[-1] for x in prs]
-    opts = {}
-    for pr, cur in zip(prs, curs):
-        if not re.fullmatch(r'[A-Z]{3}', cur): continue
-        pv = re.search(r'\d[\d,.]*', pr)
-        if not pv: continue
-        s = pv.group(0)
-        # VND writes thousands with dots (2.750.000)
-        s = s.replace('.', '') if cur == 'VND' or re.fullmatch(r'\d{1,3}(\.\d{3})+', s) else s.replace(',', '')
-        opts[cur] = float(s)
-    if 'THB' in opts: e['price'] = int(opts['THB'])
+ROOT = Path(__file__).resolve().parents[1]
+LEDGER_PATH = Path('data/racket-research.json')
+STATUSES = {'confirmed', 'estimated', 'conflicting', 'missing'}
+FIELDS = {'modelCode', 'year', 'weights', 'tension', 'availableOn'}
+WEIGHT = re.compile(r'[2-8][UF]')
+
+
+def unique_keys(pairs):
+    result = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError(f'Duplicate JSON key: {key}')
+        result[key] = value
+    return result
+
+
+def decode(text):
+    return json.loads(text, object_pairs_hook=unique_keys)
+
+
+def code_key(value):
+    return re.sub(r'[^a-z0-9]', '', value.lower())
+
+
+def market_code(value):
+    return isinstance(value, str) and re.fullmatch(r'GLOBAL|[A-Z]{2}', value)
+
+
+def iso_date(value):
+    try:
+        return date.fromisoformat(value).isoformat() == value
+    except (TypeError, ValueError):
+        return False
+
+
+def weight_class(value):
+    return isinstance(value, str) and WEIGHT.fullmatch(value)
+
+
+def valid_value(field, value, model_code):
+    if field == 'modelCode':
+        return isinstance(value, str) and code_key(value) == code_key(model_code)
+    if field == 'year':
+        return type(value) is int and 1900 <= value <= 2100
+    if field == 'availableOn':
+        return iso_date(value)
+    if field == 'weights':
+        return isinstance(value, list) and value and all(map(weight_class, value)) and len(value) == len(set(value))
+    return (isinstance(value, list) and len(value) == 2 and type(value[1]) is int and
+            2 <= value[1] and (value[0] is None or type(value[0]) is int and 2 <= value[0] <= value[1]))
+
+
+def validate_record(record):
+    if not isinstance(record, dict):
+        raise ValueError('Each research record must be an object')
+    model_id = record.get('racketId')
+    model_code = record.get('modelCode')
+    observations = record.get('evidence')
+    if (not isinstance(model_id, str) or not model_id or not isinstance(model_code, str) or
+            not code_key(model_code) or not market_code(record.get('market')) or
+            not isinstance(observations, list) or not observations):
+        raise ValueError('Each record needs racketId, modelCode, market, and a nonempty evidence list')
+    for i, row in enumerate(observations, 1):
+        label = f'{model_id} evidence {i}'
+        if not isinstance(row, dict):
+            raise ValueError(f'{label}: expected an object')
+        field, status, value = row.get('field'), row.get('status'), row.get('value')
+        if (field not in FIELDS or status not in STATUSES or not market_code(row.get('market')) or
+                not iso_date(row.get('checkedOn'))):
+            raise ValueError(f'{label}: invalid field, status, market or checkedOn date')
+        if field == 'tension' and (not weight_class(row.get('weight')) or row.get('unit') != 'lbs'):
+            raise ValueError(f'{label}: tension needs a weight such as 4U and unit lbs')
+        if status == 'missing':
+            if value is not None:
+                raise ValueError(f'{label}: missing evidence cannot have a value')
+            continue
+        source = row.get('source')
+        locator = row.get('locator')
+        source_code = row.get('sourceCode')
+        if (not isinstance(source, str) or urlsplit(source).scheme not in ('http', 'https') or
+                not urlsplit(source).hostname or not isinstance(locator, str) or not locator.strip() or
+                not isinstance(source_code, str)):
+            raise ValueError(f'{label}: provide the source URL, locator and exact sourceCode')
+        # A numeric suffix may identify a weight or colour SKU of the catalog model.
+        if (code_key(source_code) != code_key(model_code) and
+                (not re.search(r'[- ]\d+[A-Za-z]*$', source_code) or
+                 code_key(re.sub(r'[- ]\d+[A-Za-z]*$', '', source_code)) != code_key(model_code))):
+            raise ValueError(f'{label}: {source_code} does not match {model_code}')
+        suffix_weight = re.search(r'[- ]([2-8][UF])$', source_code, re.I)
+        if field == 'tension' and suffix_weight and suffix_weight[1].upper() != row['weight']:
+            raise ValueError(f"{label}: {source_code} does not match weight {row['weight']}")
+        if not valid_value(field, value, model_code):
+            raise ValueError(f'{label}: invalid value for {field}')
+
+
+def project(racket, record):
+    """Return catalog fields and review outcomes for the selected market."""
+    validate_record(record)
+    if racket['id'] != record['racketId']:
+        raise ValueError(f"{racket['id']}: research record names {record['racketId']}")
+    model_code = record['modelCode']
+    current = racket.get('modelCode')
+    if current and code_key(current) != code_key(model_code):
+        raise ValueError(f"{racket['id']}: catalog code {current} does not match {model_code}")
+
+    evidence = record['evidence']
+    code_sources = [row for row in evidence if row['field'] == 'modelCode' and row['status'] == 'confirmed']
+    code_disputed = any(row['field'] == 'modelCode' and row['status'] == 'conflicting' for row in evidence)
+    if code_disputed or (not current and not code_sources):
+        return {}, ['held all values (model code needs confirmation)']
+
+    groups = defaultdict(list)
+    for row in evidence:
+        field = row['field']
+        market = 'GLOBAL' if field == 'year' else record['market']
+        if field not in ('availableOn', 'modelCode') and row['market'] == market:
+            groups[(field, row.get('weight', '') if field == 'tension' else '')].append(row)
+
+    patch, published, report, tension = {}, list(code_sources), [], {}
+    flags = list(racket.get('est', []))
+    held = set()
+    if code_sources:
+        patch['modelCode'] = model_code
+    for (field, weight), rows in sorted(groups.items()):
+        title = ' '.join(filter(None, (field, weight)))
+        confirmed = [row for row in rows if row['status'] == 'confirmed']
+        values = {json.dumps(sorted(row['value']) if field == 'weights' else row['value']) for row in confirmed}
+        if any(row['status'] == 'conflicting' for row in rows) or len(values) > 1:
+            report.append(f'held {title} (conflicting evidence)')
+            held.add(field)
+            continue
+        if not confirmed:
+            report.append(f'held {title} (no confirmed evidence)')
+            continue
+        first = confirmed[0]
+        value = first['value']
+        published.extend(confirmed)
+        report.append(f'accepted {title} = {json.dumps(value, ensure_ascii=False)} — {first["source"]}')
+        if field == 'tension':
+            tension[weight] = value
+            patch.setdefault('tensionSrc', first['source'])
+        elif field == 'year':
+            patch.update(year=value, yearSrc=first['source'])
+        else:
+            patch['weights'] = ', '.join(sorted(value))
+        if field in flags:
+            flags.remove(field)
+
+    if tension:
+        cap = min(bounds[1] for bounds in tension.values())
+        low = max((bounds[0] for bounds in tension.values() if bounds[0] is not None), default=None)
+        patch['tensionByWeight'] = tension
+        patch['tension'] = [low if low is not None and low <= cap else None, cap]
+        labels = [f'{weight}: {low}–{high}' if low is not None else f'{weight} ≤ {high}'
+                  for weight, (low, high) in tension.items()]
+        patch['tensionNote'] = f"ตามหลักฐานตลาด {record['market']}: " + ', '.join(labels) + ' lbs'
+        held.discard('tension')
+    elif 'tension' in held:
+        patch.update(tensionByWeight={}, tensionSrc='', tensionNote='')
+
+    for field in sorted(held):
+        if racket.get(field) and field not in flags:
+            flags.append(field)
+    if groups:
+        patch['est'] = flags
+    if published:
+        patch['researchEvidence'] = published
+    other = len(evidence) - len(published)
+    if other:
+        report.append(f'{other} observation(s) retained in the ledger')
+    return patch, report
+
+
+def observation_key(row):
+    return tuple(row.get(key, '') for key in ('field', 'market', 'weight', 'sourceCode', 'source', 'locator'))
+
+
+def stage(existing, catalog, records):
+    if not isinstance(records, list) or not records:
+        raise ValueError('Expected a nonempty JSON array of research records')
+    ledger = dict(existing)
+    owners = defaultdict(set)
+    for model_id, row in catalog.items():
+        if row.get('modelCode'):
+            owners[code_key(row['modelCode'])].add(model_id)
+    for model_id, row in ledger.items():
+        owners[code_key(row['modelCode'])].add(model_id)
+    seen = set()
+    report = []
+    for record in records:
+        validate_record(record)
+        model_id = record['racketId']
+        if model_id in seen or model_id not in catalog:
+            raise ValueError(f'Repeated or unknown racketId: {model_id}')
+        seen.add(model_id)
+        code = code_key(record['modelCode'])
+        if owners[code] - {model_id}:
+            raise ValueError(f"{model_id}: {record['modelCode']} already belongs to another racket ID")
+        owners[code].add(model_id)
+        previous = ledger.get(model_id, {})
+        if previous and code_key(previous['modelCode']) != code_key(record['modelCode']):
+            raise ValueError(f'{model_id}: modelCode differs from existing research')
+        observations = {observation_key(row): row for row in previous.get('evidence', [])}
+        batch_checks = {}
+        for row in record['evidence']:
+            key = observation_key(row)
+            check = (*key, row['checkedOn'])
+            if check in batch_checks and batch_checks[check] != row:
+                raise ValueError(f'{model_id}: conflicting observations at the same source and date')
+            batch_checks[check] = row
+            old = observations.get(key)
+            if not old or old['checkedOn'] <= row['checkedOn']:
+                observations[key] = row
+        merged = {**record, 'evidence': list(observations.values())}
+        patch, outcomes = project(catalog[model_id], merged)
+        ledger[model_id] = merged
+        changed = ', '.join(key for key, value in patch.items()
+                            if key != 'researchEvidence' and catalog[model_id].get(key) != value)
+        report.append(f'{model_id} ({merged["market"]}) — ' + (f'catalog fields: {changed}' if changed else 'no catalog value changes'))
+        report.extend(f'  {outcome}' for outcome in outcomes)
+    return ledger, report
+
+
+def load_catalog(path):
+    source = path.read_text(encoding='utf-8')
+    _, marker, data = source.partition('window.RACKETS =')
+    if not marker:
+        raise ValueError('Cannot read the generated racket catalog')
+    return {row['id']: row for row in decode(data.strip().removesuffix(';'))}
+
+
+def replace_file(path, content):
+    with NamedTemporaryFile(mode='w', encoding='utf-8', dir=path.parent, delete=False) as output:
+        temporary = Path(output.name)
+        try:
+            output.write(content)
+            output.close()
+            temporary.chmod(path.stat().st_mode & 0o777 if path.exists() else 0o644)
+            os.replace(temporary, path)
+        finally:
+            temporary.unlink(missing_ok=True)
+
+
+def lock_writes(file):
+    if os.name == 'nt':
+        import msvcrt
+
+        file.seek(0)
+        msvcrt.locking(file.fileno(), msvcrt.LK_LOCK, 1)
     else:
-        for cur in ('MYR', 'USD', 'GBP', 'EUR', 'SGD', 'AUD', 'INR', 'JPY', 'VND', 'BDT'):
-            if cur in opts: e['priceForeign'] = opts[cur]; e['currency'] = cur; break
-    if not e: continue
-    e['src'] = src
-    k = f'{brand} {name}'
-    if k not in d and key(k) not in known: e.update({'new': True, 'brand': brand})
-    d[k] = {**d.get(k, {}), **e}
-    added.append(name)
-json.dump(d, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-print('merged', len(added), 'skipped', len(skipped)); print('skipped:', skipped)
+        import fcntl
+
+        fcntl.flock(file, fcntl.LOCK_EX)
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('input', type=Path, help='JSON evidence, or the brand for a legacy Markdown preview')
+    parser.add_argument('legacy_note', nargs='?', type=Path)
+    parser.add_argument('--apply', action='store_true', help=f'save validated evidence to {LEDGER_PATH}')
+    args = parser.parse_args(argv)
+    try:
+        if args.legacy_note or args.input.suffix.lower() == '.md':
+            if args.apply:
+                parser.error('Legacy Markdown is a review source. Convert observations to JSON before applying.')
+            print('Legacy note preview. Convert observations to JSON before applying.')
+            print((args.legacy_note or args.input).read_text(encoding='utf-8'), end='')
+            return
+        records = decode(args.input.read_text(encoding='utf-8'))
+        path = ROOT / LEDGER_PATH
+
+        def review():
+            original = decode(path.read_text(encoding='utf-8')) if path.exists() else {}
+            catalog = load_catalog(ROOT / 'data/rackets.js')
+            updated, report = stage(original, catalog, records)
+            print('\n'.join(report))
+            if args.apply and updated != original:
+                replace_file(path, json.dumps(updated, ensure_ascii=False, indent=1) + '\n')
+
+        if args.apply:
+            digest = sha256(os.fsencode(path.resolve())).hexdigest()
+            with (Path(gettempdir()) / f'rackets-research-{digest}.lock').open('a+b') as lock:
+                lock_writes(lock)
+                review()
+            print('Evidence saved. Rebuild with python3 scripts/build_rackets.py.')
+        else:
+            review()
+            print('Preview only. Use --apply to save the evidence.')
+    except (OSError, ValueError, TypeError) as error:
+        parser.exit(2, f'{error}\n')
+
+
+if __name__ == '__main__':
+    main()

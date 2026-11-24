@@ -9,8 +9,8 @@ Data flow:
 - `scripts/sources/chobbad-rackets.json`: raw chobbad.com compare data (refresh: download https://chobbad.com/compare-rackets/ and run `scripts/extract_chobbad.py`).
 - `scripts/sources/yonex-official.json`: yonex.com specs (refresh: `scripts/fetch_yonex.py`).
 - `data/spec-overrides.json`: specs found by hand, one entry per model, always with `src`.
-- `python3 scripts/build_rackets.py` merges all three into `data/rackets.js`.
-  Order: chobbad, then Yonex official, then overrides, then series estimates for anything still empty (flagged in `est`, shown as "(ประเมิน)").
+- `data/racket-research.json`: evidence linked to an existing racket ID and product code. Keep a source and market for each observation.
+- `python3 scripts/build_rackets.py` builds the catalog and applies confirmed research to the exact IDs.
 
 ## 1. Pick targets
 
@@ -20,7 +20,7 @@ List models with gaps, newest first:
 node -e 'global.window={};require("./data/rackets.js");for(const r of window.RACKETS.filter(r=>r.brand==="Victor").sort((a,b)=>(b.year||0)-(a.year||0))){const m=["balance","flex","level","weight","tension"].filter(f=>r[f]===""||r[f]==null||(r.est||[]).includes(f));if(m.length)console.log(r.year,r.name,"|",m.join(","))}'
 ```
 
-Change the brand as needed. Skip entries already in `data/spec-overrides.json`.
+Change the brand as needed. Read the existing override and evidence for each target before adding observations.
 
 ## 2. Look up each model
 
@@ -31,17 +31,17 @@ Change the brand as needed. Skip entries already in `data/spec-overrides.json`.
 
 ## 3. Record only what the source states
 
-- Use the exact model, not a sibling. "100X" is not "100X TD"; a colour or collab variant is fine.
-- When sources conflict on a field, leave that field out.
+- Match the exact model code, edition and weight. Record colour and market differences when they change the specification.
+- Keep disputed observations with their original sources and market for review.
 - Balance: use the source's label. If only mm: ≥300 head-heavy, ≤290 head-light, else even.
 - Flex: extra-stiff | stiff | medium | flexible. "Medium stiff" maps to stiff.
-- `tmax` = maximum tension in lbs. Prefer the 4U figure.
+- Record tension in lbs for each weight the source specifies. Keep any stated lower limit.
 - `level` only when the source states a grade (beginner | intermediate | advanced | pro).
 
-Entry format, keyed by "Brand Model" exactly as shown on the site:
+For model codes, weight classes, launch years, market availability and tension, use the [research evidence format](../../../docs/research/research-quality-pilot.md#นำเข้าหลักฐาน). Preview the batch with `python3 scripts/merge_research.py <batch.json>`, then pass `--apply` to save it. For other fields, use the manual override keyed by the exact catalog name.
 
 ```json
-"Victor Auraspeed LYC": { "balance": "head-heavy", "flex": "stiff", "weights": "4U", "weight": 83, "tmax": 28, "src": "https://..." }
+"Victor Auraspeed LYC": { "balance": "head-heavy", "flex": "stiff", "weight": 83, "src": "https://..." }
 ```
 
 For a model that is not on the site yet, add `"new": true`, plus `year` and `style` when known.
