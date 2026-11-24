@@ -51,6 +51,8 @@ python3 scripts/build_gear.py      # รองเท้า และถุงเ
 
 งานค้นคว้ารอบใหม่ใช้ [รูปแบบหลักฐานรายค่า](docs/research/research-quality-pilot.md#นำเข้าหลักฐาน) เพื่อเก็บรหัสสินค้า ตลาด เวตและลิงก์ต้นทาง รัน `python3 scripts/merge_research.py <หลักฐาน.json>` เพื่อดูผลก่อนบันทึก แล้วใช้ `--apply` เพื่อบันทึกไฟล์ `data/racket-research.json` ตัว build จะใช้หลักฐานที่ยืนยันได้ตามขอบเขตของแต่ละค่า
 
+รัน `python3 scripts/research_queue.py` เพื่อดู [คิวตรวจสเปกรุ่นใหม่](docs/research/research-quality-pilot.md#คิวตรวจสเปกรุ่นใหม่) และลิงก์สำหรับหาเพดานเอ็นตามเวต รหัสสินค้า เวต และปีที่ยังต้องยืนยัน
+
 ใช้ [แคตตาล็อก Yonex](https://www.yonex.com/badminton-catalog) สำหรับเทียบสเปกตามรหัสสินค้า และใช้ประกาศเปิดตัวสำหรับปีวางขาย สำหรับ Li-Ning ใช้ [แคตตาล็อก FUNPORT](https://funport.co.jp/pdf/funport2026.pdf) และ [หน้าสินค้าของ FUNPORT](https://order.funport.co.jp/view/category/badminton_racket_lining) ตรวจรุ่นน้ำหนักก่อนบันทึกเพดานเอ็น ระบุ `tensionByWeight` และ `tensionSrc` เมื่อแหล่งระบุแต่ละรุ่นน้ำหนักชัดเจน
 
 ใช้ [คลังไม้ BadmintonCN](https://www.badmintoncn.com/cbo_eq/list.php?class=1) ในเบราว์เซอร์ เลือกแบรนด์และซีรีส์ แล้วเปิดหน้ารุ่นจากรายการ ถ้าหน้ารุ่นเปิดไม่ได้ ให้ค้น `site:badmintoncn.com/cbo_eq "ชื่อรุ่น"` ตรวจชื่อและรหัสรุ่นก่อนบันทึกค่าที่ระบุชัดใน `data/spec-overrides.json` พร้อมลิงก์รายรุ่นใน `src` หรือ `yearSrc` แล้วรัน `python3 scripts/build_rackets.py` วันที่ `上市日期` คือวันที่วางขายตามที่ BadmintonCN ระบุและอาจต่างจากตลาดอื่น

@@ -108,6 +108,19 @@ def validate_record(record):
             raise ValueError(f'{label}: invalid value for {field}')
 
 
+def resolve_observations(rows):
+    confirmed = [row for row in rows if row['status'] == 'confirmed']
+    values = {json.dumps(sorted(row['value']) if row['field'] == 'weights' else row['value'])
+              for row in confirmed}
+    if any(row['status'] == 'conflicting' for row in rows) or len(values) > 1:
+        return 'conflicting', []
+    if confirmed:
+        return 'confirmed', confirmed
+    if any(row['status'] == 'estimated' for row in rows):
+        return 'estimated', []
+    return 'missing', []
+
+
 def project(racket, record):
     """Return catalog fields and review outcomes for the selected market."""
     validate_record(record)
@@ -138,9 +151,8 @@ def project(racket, record):
         patch['modelCode'] = model_code
     for (field, weight), rows in sorted(groups.items()):
         title = ' '.join(filter(None, (field, weight)))
-        confirmed = [row for row in rows if row['status'] == 'confirmed']
-        values = {json.dumps(sorted(row['value']) if field == 'weights' else row['value']) for row in confirmed}
-        if any(row['status'] == 'conflicting' for row in rows) or len(values) > 1:
+        status, confirmed = resolve_observations(rows)
+        if status == 'conflicting':
             report.append(f'held {title} (conflicting evidence)')
             held.add(field)
             continue
