@@ -15337,7 +15337,7 @@ window.RACKETS = [
   "brand": "Li-Ning",
   "name": "Axforce Warrior",
   "year": 2026,
-  "yearSrc": "",
+  "yearSrc": "https://www.shopnings.com/li-ning-axforce-warrior-badminton-racket/",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
@@ -15380,7 +15380,6 @@ window.RACKETS = [
   "priceSrc": "https://in.lining.studio/products/axforce-warrior",
   "note": "",
   "est": [
-   "year",
    "price"
   ],
   "modelCode": "AYPW039",
@@ -15440,6 +15439,28 @@ window.RACKETS = [
     "source": "https://www.lining.my/SalePage/Index/341229?lang=en-US",
     "locator": "Product Features → Weight / Grip",
     "sourceType": "distributor",
+    "checkedOn": "2026-11-25"
+   },
+   {
+    "field": "year",
+    "market": "GLOBAL",
+    "value": 2026,
+    "status": "confirmed",
+    "sourceCode": "AYPW039",
+    "source": "https://www.shopnings.com/li-ning-axforce-warrior-badminton-racket/",
+    "locator": "Details → Model No. AYPW039-4 / AYPW039-5 → Launch",
+    "sourceType": "retailer",
+    "checkedOn": "2026-11-25"
+   },
+   {
+    "field": "year",
+    "market": "GLOBAL",
+    "value": 2026,
+    "status": "confirmed",
+    "sourceCode": "AYPW039",
+    "source": "https://www.votcaulongchinhhang.vn/vot-cau-long-lining-axforce-warrior-chinh-hang",
+    "locator": "Thông số sản phẩm → Tên sản phẩm Li-Ning AXFORCE WARRIOR 2026 → Mã sản phẩm AYPW039",
+    "sourceType": "retailer",
     "checkedOn": "2026-11-25"
    }
   ],
@@ -18865,6 +18886,19 @@ window.RACKETS = [
     "locator": "商品介绍 → Li-Ning 球拍参数 → 球拍重量",
     "asset": "https://www.8491.com.cn/Public/Upload/Data/20260613/6a2d1c2316ec9.png",
     "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "weights",
+    "market": "CN",
+    "value": [
+     "3U"
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPV027-2",
+    "source": "https://www.jd.com/jiage/672837ce789e047e8bd6.html?electedExtAttrSet=&extAttrValue=expand_name%2C&sort_type=sort_commentcount_desc",
+    "locator": "京东自营 → 战戟900 → 碳素3U入门单拍 AYPV027-2 珍珠白烟墨灰",
+    "sourceType": "retailer",
+    "checkedOn": "2026-11-25"
    }
   ]
  },
@@ -41894,7 +41928,7 @@ window.RACKETS = [
   "brand": "Victor",
   "name": "Thruster Ryuga Muse II",
   "year": 2026,
-  "yearSrc": "",
+  "yearSrc": "https://www.badmintonmarket.co.kr/shop/shopdetail.html?branduid=10335180",
   "style": "attack",
   "balance": "head-heavy",
   "bp": "",
@@ -41908,7 +41942,7 @@ window.RACKETS = [
    null,
    30
   ],
-  "tensionNote": "ตามแหล่งสเปก: 4U ≤ 31, 5U ≤ 30 lbs",
+  "tensionNote": "ตามหลักฐานตลาด CA: 4U ≤ 31, 5U ≤ 30 lbs",
   "price": 5590,
   "frame": "High Resilience Modulus Graphite, Hard Cored Technology",
   "shaft": "High Resilience Modulus Graphite, PYROFIL, 6.6 Shaft",
@@ -41953,10 +41987,79 @@ window.RACKETS = [
   "priceSrc": "http://next5badminton.com",
   "note": "",
   "est": [
-   "style",
-   "year"
+   "style"
   ],
   "modelCode": "TK-RYUGA MUSE II TJ",
+  "researchEvidence": [
+   {
+    "market": "CA",
+    "status": "confirmed",
+    "sourceCode": "TK-RYUGA MUSEII TJ",
+    "source": "https://ca.victorsport.com/product/tk-ryugamuseiitj",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25",
+    "field": "modelCode",
+    "value": "TK-RYUGA MUSE II TJ",
+    "locator": "Product heading → SKU"
+   },
+   {
+    "market": "CA",
+    "status": "confirmed",
+    "sourceCode": "TK-RYUGA MUSEII TJ",
+    "source": "https://ca.victorsport.com/product/tk-ryugamuseiitj",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25",
+    "field": "tension",
+    "weight": "4U",
+    "unit": "lbs",
+    "value": [
+     null,
+     31
+    ],
+    "locator": "SPEC & TECH → String tension LBS → 4U/G5"
+   },
+   {
+    "market": "CA",
+    "status": "confirmed",
+    "sourceCode": "TK-RYUGA MUSEII TJ",
+    "source": "https://ca.victorsport.com/product/tk-ryugamuseiitj",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25",
+    "field": "tension",
+    "weight": "5U",
+    "unit": "lbs",
+    "value": [
+     null,
+     30
+    ],
+    "locator": "SPEC & TECH → String tension LBS → 5U/G6"
+   },
+   {
+    "market": "CA",
+    "status": "confirmed",
+    "sourceCode": "TK-RYUGA MUSEII TJ",
+    "source": "https://ca.victorsport.com/product/tk-ryugamuseiitj",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-25",
+    "field": "weights",
+    "value": [
+     "4U",
+     "5U"
+    ],
+    "locator": "SPEC & TECH → Weight / Grip Size"
+   },
+   {
+    "field": "year",
+    "market": "GLOBAL",
+    "value": 2026,
+    "status": "confirmed",
+    "sourceCode": "TK-RYUGA MUSE II TJ",
+    "source": "https://www.badmintonmarket.co.kr/shop/shopdetail.html?branduid=10335180",
+    "locator": "상품상세정보 → 류가 뮤즈 2 / Nightshade Purple (TJ) → 동일모델의 출시년월 2026-07",
+    "sourceType": "retailer",
+    "checkedOn": "2026-11-25"
+   }
+  ],
   "tensionByWeight": {
    "4U": [
     null,
@@ -41967,7 +42070,7 @@ window.RACKETS = [
     30
    ]
   },
-  "tensionSrc": "https://www.chianshiangsports.com.tw/en/products/victor-tk-ryuga-muse-ii-tj"
+  "tensionSrc": "https://ca.victorsport.com/product/tk-ryugamuseiitj"
  },
  {
   "id": "victor-thruster-ryuga-td",
