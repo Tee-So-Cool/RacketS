@@ -33652,7 +33652,7 @@ window.RACKETS = [
   "shopLinks": "",
   "priceNote": "ราคาร้านไทย (Kenwu Sports, Wattanasarn Badminton) แถมเอ็น กริป ซอง; Shopee ฿3,590",
   "priceSrc": "https://www.google.com/search?q=%22AURORA+ULTRA%22+victor+ราคา",
-  "note": "ARS-AURORA Ultra เปิดตัวในไทย 16 ต.ค. 2026 (VICTOR SPORT THAILAND) ร้านเล่าว่าผสมระหว่าง 100X Ultra กับ HS Plus; ความตึงสูงสุด: Kenwu Sports ระบุ 3U ≤31 / 4U ≤30 lbs อีกร้านระบุ ≤29 lbs; ความแข็งก้าน: Mr.C Sports (15 พ.ย. 2026) เขียน \"ก้านกลางค่อนแข็ง\" และ \"สเปคใกล้ ARS 100X Ultra\" ร้านอื่นเรียกว่าก้านแข็ง จึงทำเครื่องหมาย ≈; จุดสมดุล 290 ±3 มม. (โพสต์ Instagram ของร้านค้า)",
+  "note": "ร้านไทยมีตัวเลือก ARS-AURORA ULTRA เวต 3U และ 4U เพดานเอ็นทั้งสองเวตยังรอหลักฐานตลาดไทย ความแข็งก้านของรุ่นนี้เป็นค่าประมาณจากร้านค้า โดย Mr.C Sports เรียกว่าก้านกลางค่อนแข็ง ส่วนร้านอื่นเรียกว่าก้านแข็ง จุดสมดุล 290 ±3 มม. มาจากโพสต์ Instagram ของร้านค้า",
   "est": [
    "tension",
    "flex",
@@ -33660,7 +33660,34 @@ window.RACKETS = [
    "year",
    "weight"
   ],
-  "modelCode": "ARS-AURORA ULTRA"
+  "modelCode": "ARS-AURORA ULTRA",
+  "researchEvidence": [
+   {
+    "market": "TH",
+    "status": "confirmed",
+    "sourceType": "retailer",
+    "source": "https://shopee.co.th/product/136837903/53369328174",
+    "sourceCode": "ARS-AURORA ULTRA",
+    "checkedOn": "2026-11-24",
+    "field": "modelCode",
+    "value": "ARS-AURORA ULTRA",
+    "locator": "ชื่อสินค้าของ Jimmy Badminton"
+   },
+   {
+    "market": "TH",
+    "status": "confirmed",
+    "sourceType": "retailer",
+    "source": "https://shopee.co.th/product/136837903/53369328174",
+    "sourceCode": "ARS-AURORA ULTRA",
+    "checkedOn": "2026-11-24",
+    "field": "weights",
+    "value": [
+     "3U",
+     "4U"
+    ],
+    "locator": "ตัวเลือกรุ่นน้ำหนักของ Jimmy Badminton → 3U และ 4U"
+   }
+  ]
  },
  {
   "id": "victor-auraspeed-cyber",
@@ -34336,23 +34363,23 @@ window.RACKETS = [
  {
   "id": "victor-auraspeed-ljh",
   "brand": "Victor",
-  "name": "Auraspeed LJH",
+  "name": "Auraspeed LJH E",
   "year": 2025,
-  "yearSrc": "",
+  "yearSrc": "https://th.victorsport.com/product/auraspeed-ljh-e",
   "style": "speed",
-  "balance": "head-heavy",
+  "balance": "head-light",
   "bp": "",
   "flex": "stiff",
-  "level": "intermediate",
+  "level": "pro",
   "levelTo": "",
-  "weights": "4U",
+  "weights": "5U",
   "weight": 78,
   "grips": "G6",
   "tension": [
    null,
    29
   ],
-  "tensionNote": "",
+  "tensionNote": "ตามหลักฐานตลาด TH: 5U ≤ 29 lbs",
   "price": 5400,
   "frame": "High ResilienceModulus Graphite + Nano Fortify TR＋+HARD CORED TECHNOLOGY",
   "shaft": "High ResilienceModulus Graphite + Metallic Carbon Fiber + PYROFIL + 5.8 SHAFT",
@@ -34362,12 +34389,12 @@ window.RACKETS = [
   "pattern": "",
   "tech": "PYROFIL · NANO FORTIFY TR+ · HIGH RESILIENCE MODULUS GRAPHITE",
   "players": "",
-  "madeIn": "China",
+  "madeIn": "",
   "recString": "",
   "img": "https://chobbad.com/wp-content/uploads/2026/09/cb-rk2-victor-auraspeed-ljh-169x300.webp",
   "source": "https://chobbad.com/racket/victor-auraspeed-ljh/",
-  "officialUrl": "",
-  "specSrc": "https://thegodofsports.com/products/victor-auraspeed-ljh-badminton-racket",
+  "officialUrl": "https://th.victorsport.com/product/auraspeed-ljh-e",
+  "specSrc": "https://th.victorsport.com/product/auraspeed-ljh-e",
   "shopUrl": "",
   "bayUrl": "",
   "clickUrl": "",
@@ -34377,34 +34404,76 @@ window.RACKETS = [
     "url": "https://th.victorsport.com/product/auraspeed-ljh-e"
    },
    {
-    "shop": "badmintonwarehouse.com",
-    "url": "https://badmintonwarehouse.com/products/victor-auraspeed-ljh-badminton-racket"
-   },
-   {
     "shop": "sportsshop.asia",
     "url": "https://sportsshop.asia/products/victor-auraspeed-li-junhui-ars-ljh-e-yellow-badminton-racket-limited-edition-unstrung"
    },
    {
     "shop": "yumo.ca",
     "url": "https://yumo.ca/products/victor-auraspeed-ars-ljh-e-unstrung-badminton-racket-yellow"
-   },
-   {
-    "shop": "thegodofsports.com",
-    "url": "https://thegodofsports.com/products/victor-auraspeed-ljh-badminton-racket"
-   },
-   {
-    "shop": "corkandfeathers.com",
-    "url": "https://corkandfeathers.com/product/victor-auraspeed-ljh-s/"
    }
   ],
   "priceNote": "",
   "priceSrc": "",
   "note": "",
   "est": [
-   "year",
-   "weight",
-   "tension"
-  ]
+   "balance"
+  ],
+  "modelCode": "ARS-LJH E",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "TH",
+    "value": "ARS-LJH E",
+    "status": "confirmed",
+    "source": "https://th.victorsport.com/product/auraspeed-ljh-e",
+    "sourceCode": "ARS-LJH E",
+    "locator": "AURASPEED LJH E → product data → sku",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "tension",
+    "market": "TH",
+    "value": [
+     null,
+     29
+    ],
+    "status": "confirmed",
+    "source": "https://th.victorsport.com/product/auraspeed-ljh-e",
+    "sourceCode": "ARS-LJH E",
+    "locator": "SPEC & TECH → String tension LBS",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-24",
+    "weight": "5U",
+    "unit": "lbs"
+   },
+   {
+    "field": "weights",
+    "market": "TH",
+    "value": [
+     "5U"
+    ],
+    "status": "confirmed",
+    "source": "https://th.victorsport.com/product/auraspeed-ljh-e",
+    "sourceCode": "ARS-LJH E",
+    "locator": "SPEC & TECH → Weight / Grip Size → 5U/G6",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "year",
+    "market": "GLOBAL",
+    "value": 2025,
+    "status": "confirmed",
+    "source": "https://th.victorsport.com/product/auraspeed-ljh-e",
+    "sourceCode": "ARS-LJH E",
+    "locator": "AURASPEED LJH E → 2025 NEW",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-24"
+   }
+  ],
+  "tensionByWeight": {},
+  "tensionSrc": "https://th.victorsport.com/product/auraspeed-ljh-e"
  },
  {
   "id": "victor-auraspeed-lyc",
@@ -47076,7 +47145,7 @@ window.RACKETS = [
   "id": "yonex-gr-303i",
   "brand": "Yonex",
   "name": "GR-303i",
-  "year": 2026,
+  "year": "",
   "yearSrc": "",
   "style": "",
   "balance": "",
@@ -47084,7 +47153,7 @@ window.RACKETS = [
   "flex": "stiff",
   "level": "beginner",
   "levelTo": "",
-  "weights": "",
+  "weights": "U",
   "weight": "",
   "grips": "G4",
   "tension": null,
@@ -47111,8 +47180,33 @@ window.RACKETS = [
   "priceNote": "",
   "priceSrc": "",
   "note": "",
-  "est": [
-   "year"
+  "est": [],
+  "modelCode": "GR303I",
+  "researchEvidence": [
+   {
+    "field": "modelCode",
+    "market": "US",
+    "value": "GR303I",
+    "status": "confirmed",
+    "source": "https://us.yonex.com/products/gr-303i",
+    "sourceCode": "GR303I",
+    "locator": "Specifications → Model Number",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "weights",
+    "market": "US",
+    "value": [
+     "U"
+    ],
+    "status": "confirmed",
+    "source": "https://us.yonex.com/products/gr-303i",
+    "sourceCode": "GR303I",
+    "locator": "Specifications → Weight & Grip → UG4",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-24"
+   }
   ]
  },
  {

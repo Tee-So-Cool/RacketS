@@ -1065,7 +1065,7 @@
   const racketTension = (r, weight) => r.tensionByWeight && Object.hasOwn(r.tensionByWeight, weight)
     ? r.tensionByWeight[weight] : r.tension || [null, null];
   const statedWeights = r => (r.est || []).includes('weights') ? []
-    : [...new Set((r.weights || '').toUpperCase().match(/\b(?:[2-8][UF]|F)\b/g) || [])];
+    : [...new Set((r.weights || '').toUpperCase().match(/\b(?:[2-8][UF]|U|F)\b/g) || [])];
   function matchWeights(r) {
     const rated = Object.keys(r.tensionByWeight || {});
     const classes = [...new Set([...statedWeights(r), ...rated])].sort();
@@ -1908,7 +1908,7 @@
       if (row.tensionByWeight != null) {
         if (!row.tensionByWeight || typeof row.tensionByWeight !== 'object' || Array.isArray(row.tensionByWeight) ||
             Object.entries(row.tensionByWeight).some(([weight, range]) =>
-              !/^[2-8][UF]$/.test(weight) || !range?.[1] || !validTension(range)) ||
+              !/^(?:[2-8][UF]|U)$/.test(weight) || !range?.[1] || !validTension(range)) ||
             (Object.keys(row.tensionByWeight).length && (!row.tension?.[1] ||
               Object.values(row.tensionByWeight).some(range => range[1] < row.tension[1])))) throw invalid();
       }

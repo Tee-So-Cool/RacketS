@@ -15,7 +15,7 @@ LEDGER_PATH = Path('data/racket-research.json')
 STATUSES = {'confirmed', 'estimated', 'conflicting', 'missing'}
 SOURCE_TYPES = {'manufacturer', 'catalog', 'distributor', 'retailer'}
 FIELDS = {'modelCode', 'year', 'weights', 'tension', 'availableOn'}
-WEIGHT = re.compile(r'[2-8][UF]')
+WEIGHT = re.compile(r'[2-8][UF]|U')
 
 
 def unique_keys(pairs):
@@ -97,11 +97,11 @@ def validate_record(record):
                 not urlsplit(source).hostname or not isinstance(locator, str) or not locator.strip() or
                 not isinstance(source_code, str)):
             raise ValueError(f'{label}: provide the source URL, locator and exact sourceCode')
-        # A numeric suffix may identify a weight or colour SKU of the catalog model.
-        parent_code = re.sub(r'[- /]\d+[A-Za-z]*$', '', source_code)
+        # A trailing weight class or numeric suffix may identify a variant SKU.
+        parent_code = re.sub(r'[- /](?:\d+[A-Za-z]*|U)$', '', source_code, flags=re.I)
         if code_key(source_code) != code_key(model_code) and code_key(parent_code) != code_key(model_code):
             raise ValueError(f'{label}: {source_code} does not match {model_code}')
-        suffix_weight = re.search(r'[- /]([2-8][UF])$', source_code, re.I)
+        suffix_weight = re.search(r'[- /]([2-8][UF]|U)$', source_code, re.I)
         if field == 'tension' and suffix_weight and suffix_weight[1].upper() != row['weight']:
             raise ValueError(f"{label}: {source_code} does not match weight {row['weight']}")
         if not valid_value(field, value, model_code):

@@ -210,6 +210,21 @@ const cases = [
     const proof = RS_TEST.renderTensionEvidence(R('Li-Ning Axforce 80 Light'), '4U');
     return proof.includes('≤ 30 lbs') && proof.includes('แหล่งอ้างอิงของรุ่น');
   }],
+  ['Victor LJH E: ใช้รหัสและเพดานเอ็น 5U ของรุ่นปี 2025 จาก Victor ไทย', () => {
+    const item = R('Victor Auraspeed LJH E');
+    const proof = RS_TEST.renderTensionEvidence(item, '');
+    const result = score(item, S('Yonex BG66 Ultimax'), 'advanced', 'speed');
+    return item.id === 'victor-auraspeed-ljh' && item.modelCode === 'ARS-LJH E' && item.year === 2025 &&
+      item.weights === '5U' && !item.est.includes('year') && !item.est.includes('tension') &&
+      RS_TEST.canRecommendTension(result) && proof.includes('ของไม้ 5U') && proof.includes('≤ 29 lbs') &&
+      proof.includes('ผู้ผลิต · th.victorsport.com') && proof.includes('ตลาดไทย');
+  }],
+  ['Yonex GR-303i: ยืนยันรหัสกับเวต U โดยเว้นปีและเพดานที่ยังไม่ยืนยัน', () => {
+    const item = R('Yonex GR-303i');
+    return item.modelCode === 'GR303I' && item.weights === 'U' && !item.year &&
+      !RS_TEST.renderTensionEvidence(item, '') &&
+      !RS_TEST.canRecommendTension(score(item, S('Yonex BG66 Ultimax'), 'beginner', 'control'));
+  }],
   // a racket's level can be a range (level..levelTo)
   ...(() => {
     const { lvText } = window.RS_TEST, base = R('Yonex Arcsaber 11 Pro');   // a racket part that stays clear of the 0-100 limits at every level

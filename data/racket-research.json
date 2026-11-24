@@ -543,6 +543,31 @@
     "locator": "8 November 2026 post → ARS-AURORA ULTRA → String Tension",
     "checkedOn": "2026-11-24",
     "note": "พบในสำเนาโพสต์ของ VICTOR Badminton Myanmar สำหรับ 4U ยังไม่ยืนยันจากหน้าผลิตภัณฑ์โดยตรง"
+   },
+   {
+    "market": "TH",
+    "status": "confirmed",
+    "sourceType": "retailer",
+    "source": "https://shopee.co.th/product/136837903/53369328174",
+    "sourceCode": "ARS-AURORA ULTRA",
+    "checkedOn": "2026-11-24",
+    "field": "modelCode",
+    "value": "ARS-AURORA ULTRA",
+    "locator": "ชื่อสินค้าของ Jimmy Badminton"
+   },
+   {
+    "market": "TH",
+    "status": "confirmed",
+    "sourceType": "retailer",
+    "source": "https://shopee.co.th/product/136837903/53369328174",
+    "sourceCode": "ARS-AURORA ULTRA",
+    "checkedOn": "2026-11-24",
+    "field": "weights",
+    "value": [
+     "3U",
+     "4U"
+    ],
+    "locator": "ตัวเลือกรุ่นน้ำหนักของ Jimmy Badminton → 3U และ 4U"
    }
   ]
  },
@@ -1133,11 +1158,135 @@
      null,
      22
     ],
-    "sourceCode": "AYPV027/2",
+    "sourceCode": "AYPV027-2",
     "source": "https://rozetka.com.ua/600493273/p600493273/",
-    "locator": "Опис → Технічні характеристики → Розмір рукоятки",
+    "locator": "Описание → Характеристики → Максимальное натяжение",
+    "sourceType": "retailer",
     "note": "ข้อมูลจากผู้ขายนำเข้าในยูเครน ยังไม่พบผู้ผลิตหรือตัวแทนที่ยืนยันค่า 22 lbs",
     "checkedOn": "2026-11-24"
+   }
+  ]
+ },
+ "yonex-gr-303i": {
+  "racketId": "yonex-gr-303i",
+  "modelCode": "GR303I",
+  "market": "US",
+  "evidence": [
+   {
+    "field": "modelCode",
+    "market": "US",
+    "value": "GR303I",
+    "status": "confirmed",
+    "source": "https://us.yonex.com/products/gr-303i",
+    "sourceCode": "GR303I",
+    "locator": "Specifications → Model Number",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "weights",
+    "market": "US",
+    "value": [
+     "U"
+    ],
+    "status": "confirmed",
+    "source": "https://us.yonex.com/products/gr-303i",
+    "sourceCode": "GR303I",
+    "locator": "Specifications → Weight & Grip → UG4",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "tension",
+    "market": "US",
+    "status": "missing",
+    "source": "https://us.yonex.com/products/gr-303i",
+    "checkedOn": "2026-11-24",
+    "note": "หน้า Yonex USA ระบุว่าขึ้นเอ็นมาจากโรงงานและระบุแพตเทิร์นเอ็น ช่องเพดานเอ็นยังไม่มี",
+    "weight": "U",
+    "unit": "lbs"
+   },
+   {
+    "field": "year",
+    "market": "GLOBAL",
+    "status": "missing",
+    "source": "https://www.youtube.com/watch?v=r6OgVWw6ThE",
+    "checkedOn": "2026-11-24",
+    "note": "Sporto Sports Products แสดงไม้ตรงรุ่นในรายการวิดีโอเมื่อ 15 สิงหาคม 2024 ปีเปิดตัวจริงยังรอหลักฐาน"
+   }
+  ]
+ },
+ "victor-auraspeed-ljh": {
+  "racketId": "victor-auraspeed-ljh",
+  "modelCode": "ARS-LJH E",
+  "market": "TH",
+  "evidence": [
+   {
+    "field": "modelCode",
+    "market": "TH",
+    "value": "ARS-LJH E",
+    "status": "confirmed",
+    "source": "https://th.victorsport.com/product/auraspeed-ljh-e",
+    "sourceCode": "ARS-LJH E",
+    "locator": "AURASPEED LJH E → product data → sku",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "year",
+    "market": "GLOBAL",
+    "value": 2025,
+    "status": "confirmed",
+    "source": "https://th.victorsport.com/product/auraspeed-ljh-e",
+    "sourceCode": "ARS-LJH E",
+    "locator": "AURASPEED LJH E → 2025 NEW",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "weights",
+    "market": "TH",
+    "value": [
+     "5U"
+    ],
+    "status": "confirmed",
+    "source": "https://th.victorsport.com/product/auraspeed-ljh-e",
+    "sourceCode": "ARS-LJH E",
+    "locator": "SPEC & TECH → Weight / Grip Size → 5U/G6",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-24"
+   },
+   {
+    "field": "tension",
+    "market": "TH",
+    "value": [
+     null,
+     29
+    ],
+    "status": "confirmed",
+    "source": "https://th.victorsport.com/product/auraspeed-ljh-e",
+    "sourceCode": "ARS-LJH E",
+    "locator": "SPEC & TECH → String tension LBS",
+    "sourceType": "manufacturer",
+    "checkedOn": "2026-11-24",
+    "weight": "5U",
+    "unit": "lbs"
+   },
+   {
+    "field": "tension",
+    "market": "CA",
+    "value": [
+     null,
+     29
+    ],
+    "status": "confirmed",
+    "source": "https://yumo.ca/collections/clearance/products/victor-auraspeed-ars-ljh-e-unstrung-badminton-racket-yellow",
+    "sourceCode": "ARS-LJH E",
+    "locator": "Product Specification → Weight / Grip Size and String tension LBS",
+    "sourceType": "retailer",
+    "checkedOn": "2026-11-24",
+    "weight": "5U",
+    "unit": "lbs"
    }
   ]
  }

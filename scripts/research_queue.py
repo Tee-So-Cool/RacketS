@@ -12,7 +12,7 @@ else:
 
 BRANDS = ('Yonex', 'Victor', 'Li-Ning')
 SINCE = 2025
-STATED_WEIGHT = re.compile(r'\b(?:[2-8][UF]|F)\b')
+STATED_WEIGHT = re.compile(r'\b(?:[2-8][UF]|U|F)\b')
 THAI_SHOPS = {'badmintonplaza.com', 'shopee.co.th'}
 
 

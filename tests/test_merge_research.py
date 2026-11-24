@@ -86,6 +86,15 @@ class ResearchEvidenceTests(unittest.TestCase):
         self.assertEqual(patch['tensionByWeight'], {})
         self.assertEqual(patch['researchEvidence'], [caps, weights])
 
+    def test_yonex_u_weight_class_keeps_its_exact_variant_evidence(self):
+        caps = self.row([None, 20], 'U', sourceCode='DEMO-26-U')
+        weights = self.row(['U'], field='weights')
+        patch, _ = project(self.racket, self.record(caps, weights))
+        self.assertEqual(patch['weights'], 'U')
+        self.assertEqual(patch['researchEvidence'], [caps, weights])
+        with self.assertRaisesRegex(ValueError, 'does not match weight'):
+            project(self.racket, self.record({**caps, 'weight': '4U'}))
+
     def test_missing_model_code_requires_its_own_evidence(self):
         racket = {**self.racket, 'modelCode': ''}
         record = self.record(self.row([None, 31]))
