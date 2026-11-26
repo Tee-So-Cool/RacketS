@@ -1,6 +1,5 @@
-/* The one look. A floating glass bar, a light headline beside an opening scene of three real rackets, play-style tiles that carry
-   the counts, product tiles where the photograph multiplies into a tile tinted by play style, key numbers set big in the compare
-   sheet, motion that stops for prefers-reduced-motion. Loads after styles.css and overrides it.
+/* Shared appearance. Product photography and compact comparison tables.
+   Loads after styles.css and overrides it.
    Rules it follows (checked against the design-web skill's anti-pattern list): no glow or blob behind the page, no gradient
    text, one hover signal per element, motion on transform and opacity only, every colour through a token declared below,
    no entrance replayed by a pick or a filter. */
@@ -19,7 +18,6 @@
   --tile-ring-hi: oklch(20% 0.02 50 / 0.55);
   --on-fill: oklch(17% 0.03 48);
   --shadow-lift: 0 26px 40px -24px oklch(6% 0.02 50 / 0.9);
-  --shadow-bar: 0 20px 44px -26px oklch(6% 0.02 50 / 0.9);
   /* the four play-style hues, pulled toward the page's own accent so they agree with the palette */
   --hue-attack: color-mix(in oklab, var(--style-attack) 50%, var(--color-accent));
   --hue-speed: color-mix(in oklab, var(--style-speed) 50%, var(--color-accent));
@@ -42,47 +40,18 @@
   .filters .fl-toggle { display: inline-flex; flex: none; order: 2; }
   .filters::before { content: ""; order: 3; flex-basis: 100%; height: 0; margin-top: calc(-1 * var(--space-xs)); }   /* a line break: the selects start a new row */
   .filters select, .filters #clr { order: 4; }
-  .filters[data-open="false"] select, .filters[data-open="false"] #clr { display: none; }
+  .filters:not(.catalog-filters)[data-open="false"] select, .filters:not(.catalog-filters)[data-open="false"] #clr { display: none; }
   .filters[data-open="true"] select { flex: 1 1 calc(50% - var(--space-xs)); min-width: 0; }
   .filters[data-open="true"] #clr { flex: 1 1 100%; }
-  .top-in { flex-wrap: wrap; align-content: flex-start; min-height: 0; gap: 0 var(--space-md); padding-block: var(--space-2xs) 0; }
-  .logo { padding-block: var(--space-xs); }
-  .tabs { order: 2; }
   /* the tray: picks scroll sideways in one row, the two buttons stay beside them */
   .tray { flex-wrap: nowrap; align-items: center; }
   .picks { flex: 1 1 0; min-width: 0; }
   .pick { max-width: 112px; flex: none; }
   .tray .btn { flex: none; }
-  /* the tab strip fades at its right edge while more tabs hide behind it */
-  .tabs { -webkit-mask-image: linear-gradient(to right, var(--color-ink) calc(100% - 28px), transparent); mask-image: linear-gradient(to right, var(--color-ink) calc(100% - 28px), transparent); }
-  .tabs.at-end { -webkit-mask-image: none; mask-image: none; }
 }
 @media (pointer: coarse) {
   .btn.sm { min-height: 40px; }
   .pick button { width: 36px; height: 36px; }
-  .tabs a { min-height: 44px; }
-}
-
-/* ---------- bar ---------- */
-.top { box-shadow: none; border-bottom: var(--rule-hair) solid var(--line-soft); }
-.top-in { min-height: 56px; gap: var(--space-lg); }
-.logo { font-size: var(--text-md); font-weight: 700; letter-spacing: -0.02em; }
-.tabs { position: relative; gap: var(--space-2xs); }
-.tabs a { position: relative; z-index: 1; padding: var(--space-2xs) var(--space-sm); border-radius: var(--radius-pill); font-size: var(--text-sm); transition: color var(--dur-micro) var(--ease-out), background-color var(--dur-micro) var(--ease-out); }
-.tabs a::before, .tabs a::after { display: none; }
-.tabs a:hover { background: var(--fill-soft); }
-/* the open tab is a filled pill by itself; once app.js has placed the sliding pill behind it, the tab's own fill steps aside */
-.tabs a.on, .tabs a.on:hover { background: var(--color-ink); color: var(--color-paper); }
-.tabs.ready a.on, .tabs.ready a.on:hover { background: transparent; }
-/* the filled pill behind the open tab; its place is two variables set from app.js */
-.tabs::before { content: ""; position: absolute; left: 0; top: 50%; height: 34px; margin-top: -17px; width: var(--iw, 0px); transform: translateX(var(--ix, 0px)); border-radius: var(--radius-pill); background: var(--color-ink); opacity: 0; pointer-events: none; }
-.tabs.ready::before { opacity: 1; }
-@media (min-width: 52rem) {   /* the bar floats as a pill */
-  .top { top: var(--space-sm); width: min(calc(100% - 2 * var(--space-lg)), 1040px); margin: var(--space-sm) auto 0; border: 0; border-radius: var(--radius-pill); box-shadow: var(--glass-hi), var(--shadow-bar); }
-  .top .container { max-width: none; padding-inline: var(--space-lg); }
-  .top-in { min-height: 52px; }
-  .tabs { align-self: center; }
-  .tabs a { min-height: 34px; }
 }
 
 /* ---------- page head ---------- */
@@ -185,6 +154,145 @@ select.has-tiles { display: none; }
 .card-acts { margin-top: var(--space-xs); }
 .panel { border-radius: 28px; }
 
+/* Rackets start at search and keep the controls in the comparison columns. */
+#cmp, #flt, [data-variant] { scroll-margin-block-start: calc(60px + var(--space-sm)); }
+#view.racket-catalog > h1, .match-heading h1 {
+  font-size: clamp(1.85rem, 1.45rem + 2vw, 3.15rem);
+  letter-spacing: -0.025em;
+  line-height: 1.18;
+}
+#view.racket-catalog > h1 + p { max-width: none; margin-top: var(--space-xs); font-size: var(--text-md); }
+#view.racket-catalog > h1 { margin-top: var(--space-lg); }
+.racket-catalog .catalog-filters { display: grid; gap: var(--space-xs); margin-top: var(--space-md); }
+.catalog-filters::before { display: none; }
+.catalog-search { display: flex; gap: var(--space-xs); }
+.catalog-search-field { position: relative; flex: 1; min-width: 0; }
+.catalog-search .s-ic { inset: 24px auto auto var(--space-sm); }
+.racket-catalog .catalog-search input[type=search] { width: 100%; min-height: 48px; padding-inline-start: var(--space-xl); border-radius: var(--radius-inner); }
+.racket-catalog .fl-toggle { display: inline-flex; min-height: 48px; border-radius: var(--radius-inner); }
+.catalog-refine {
+  display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-xs);
+  padding: var(--space-sm); border: var(--rule-hair) solid var(--line-soft); border-radius: var(--radius-inner); background: var(--color-paper-2);
+}
+.catalog-refine[hidden] { display: none; }
+.racket-catalog .filters select { border-radius: var(--radius-inner); }
+.catalog-thai { display: inline-flex; align-items: center; gap: var(--space-xs); min-height: 40px; padding-inline: var(--space-2xs); font-size: var(--text-sm); cursor: pointer; }
+.catalog-thai input { inline-size: 16px; min-height: auto; block-size: 16px; padding: 0; accent-color: var(--color-accent); }
+.catalog-results { display: flex; align-items: center; justify-content: space-between; gap: var(--space-xs); margin-top: var(--space-xs); }
+.catalog-results .count { margin: 0; }
+.catalog-results label { display: inline-flex; align-items: center; gap: var(--space-xs); font-size: var(--text-sm); color: var(--color-muted); }
+.racket-catalog .tiles {
+  display: flex; flex-wrap: wrap; gap: var(--space-xs);
+  padding: 0 0 var(--space-xs); margin: var(--space-sm) 0 0; border-bottom: var(--rule-hair) solid var(--line-soft);
+}
+.racket-catalog .tile {
+  display: inline-flex; align-items: baseline; gap: var(--space-xs); min-height: 36px;
+  padding: var(--space-2xs) var(--space-xs); border-radius: var(--radius-inner); background: transparent; box-shadow: none;
+}
+.racket-catalog .tile:hover { background: var(--fill-soft); }
+.racket-catalog .tile.on { background: var(--color-paper-3); color: var(--color-accent-hi); }
+.racket-catalog .tile-nm {
+  font: inherit; font-size: var(--text-sm); letter-spacing: normal;
+}
+.racket-catalog .tile-nm::before { display: none; }
+.racket-catalog .grid { row-gap: var(--space-md); border-top: 0; }
+.racket-catalog .item {
+  gap: 0; cursor: auto; border: var(--rule-hair) solid var(--line-soft); border-radius: var(--radius-inner); background: var(--color-paper-2);
+}
+.racket-catalog .item.sel, .racket-catalog .item:has(.pickbtn:focus-visible) { border-color: var(--color-accent); }
+.racket-catalog .item::before { display: none; }
+.racket-photo { background: var(--color-well); border-radius: calc(var(--radius-inner) - 1px) calc(var(--radius-inner) - 1px) 0 0; }
+.racket-catalog .item .thumb, .racket-catalog .item:hover .thumb { aspect-ratio: 3 / 2; max-height: 152px; margin: 0; padding: var(--space-sm); border-radius: 0; transform: none; }
+.racket-card-body { display: flex; flex: 1; flex-direction: column; gap: var(--space-2xs); min-width: 0; padding: var(--space-sm); }
+.racket-catalog .item .nm { line-height: 1.35; }
+.racket-code { overflow-wrap: anywhere; color: var(--color-muted); font-size: var(--text-xs); }
+.racket-catalog .price { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--space-2xs) var(--space-xs); }
+.racket-catalog .item .price .fig { font-size: var(--text-lg); }
+.racket-card-actions { display: flex; flex-wrap: wrap; gap: var(--space-2xs); padding-top: var(--space-xs); }
+.racket-card-actions .btn { min-height: 40px; padding-inline: var(--space-xs); border-radius: var(--radius-inner); font-size: var(--text-sm); }
+.racket-card-actions .pickbtn {
+  position: static; display: inline-flex; flex: 1 1 auto; width: auto; height: auto; line-height: inherit; font-weight: 500;
+  color: var(--color-ink); background: var(--color-paper-3); box-shadow: inset 0 0 0 1px var(--line-soft);
+}
+.racket-card-actions .pickbtn:hover, .racket-catalog .item:hover .pickbtn { box-shadow: inset 0 0 0 1px var(--field-edge); }
+.racket-card-actions .pickbtn::after { display: none; }
+.racket-catalog .item.sel .pickbtn { color: var(--color-accent-ink); }
+.racket-tray { background: var(--color-paper-2); border: var(--rule-hair) solid var(--line-soft); border-radius: var(--radius-inner); backdrop-filter: none; }
+.racket-tray .btn { border-radius: var(--radius-inner); }
+
+.racket-compare {
+  padding: var(--space-md); border-radius: var(--radius-inner); background: var(--color-paper-2);
+  box-shadow: none; border: var(--rule-hair) solid var(--line-soft); backdrop-filter: none;
+}
+.racket-compare .sheet-tools { margin: 0 0 var(--space-sm); }
+.racket-compare .sheet-tools h2 { font-size: var(--text-xl); }
+.racket-compare .sheet-tools .btn, .compare-match { border-radius: var(--radius-inner); }
+.racket-compare [data-same][aria-pressed="true"] { color: var(--color-accent-hi); background: var(--color-paper-3); }
+.racket-compare .tbl-wrap { margin-top: 0; }
+.compare-guide { margin: 0 0 var(--space-sm); }
+.racket-compare table.spec { min-width: 460px; }
+.racket-compare table.spec[data-columns="1"] { min-width: 0; }
+.racket-compare table.spec[data-columns="3"] { min-width: 640px; }
+.racket-compare table.spec th[scope="row"], .racket-compare table.spec th:first-child { width: clamp(6rem, 15vw, 10rem); }
+.racket-compare table.spec thead th { background: var(--color-paper-3); }
+.racket-compare table.spec thead th:first-child { border-top: var(--rule-hair) solid var(--line-soft); }
+.racket-compare table.spec tr > :first-child { position: sticky; left: 0; background: var(--color-paper-2); z-index: var(--z-base); }
+.racket-compare table.spec .compare-section th {
+  position: static; border-top-color: var(--color-rule); background: var(--color-paper-3);
+  color: var(--color-ink); font-size: var(--text-sm); font-weight: 600;
+}
+.hide-same .compare-group:not(:has(tr:not(.same, .compare-section))) { display: none; }
+.compare-model { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-2xs); }
+.compare-model strong { min-width: 0; font-weight: 600; overflow-wrap: anywhere; }
+.compare-remove {
+  flex: none; min-width: 28px; min-height: 28px; margin: calc(-1 * var(--space-2xs)) calc(-1 * var(--space-2xs)) 0 0;
+  padding: 0; border: 0; border-radius: var(--radius-inner); background: transparent; color: var(--color-muted);
+  font-size: var(--text-lg); cursor: pointer;
+}
+.compare-remove:hover { color: var(--color-ink); background: var(--fill-soft); }
+.compare-code { margin-top: var(--space-2xs); }
+.compare-variant { display: flex; flex-wrap: wrap; gap: var(--space-2xs) var(--space-xs); align-items: center; margin: var(--space-xs) 0; }
+.compare-variant span { color: var(--color-muted); font-size: var(--text-sm); }
+.compare-variant select {
+  max-width: 100%; min-height: 36px; padding: var(--space-2xs) var(--space-xs);
+  color: var(--color-ink); background: var(--color-paper); border: var(--rule-hair) solid var(--field-edge);
+  font: inherit; font-size: var(--text-sm); border-radius: var(--radius-inner); cursor: pointer;
+}
+.compare-match.btn { min-height: 32px; padding-inline: var(--space-2xs); color: var(--color-accent-hi); }
+.compare-tension-meta, .compare-proof li span { display: block; font-size: var(--text-xs); color: var(--color-muted); }
+.compare-delta { color: var(--color-accent-hi); white-space: nowrap; }
+.compare-proof summary, .compare-charts summary { cursor: pointer; width: fit-content; }
+.compare-proof summary { color: var(--color-accent-hi); margin-top: var(--space-2xs); }
+.compare-proof ul { margin: var(--space-xs) 0 0; padding-inline-start: var(--space-md); }
+.compare-proof li + li { margin-top: var(--space-xs); }
+.compare-market > ul { padding-inline-start: var(--space-sm); }
+.compare-market p { margin-top: var(--space-xs); }
+.compare-charts { margin-top: var(--space-md); padding-block: var(--space-sm); border-block: var(--rule-hair) solid var(--line-soft); }
+.compare-charts .two { margin-top: var(--space-md); }
+.racket-compare :is(.tbl-wrap, select, summary, .compare-remove, a):focus-visible { outline: 2px solid var(--color-focus); outline-offset: -2px; }
+.match-heading { display: flex; align-items: end; justify-content: space-between; gap: var(--space-sm); margin-top: var(--space-xl); }
+.match-heading .btn { border: var(--rule-hair) solid var(--line-soft); border-radius: var(--radius-inner); }
+@media (max-width: 40rem) {
+  .catalog-refine label { flex: 1 1 calc(50% - var(--space-xs)); order: 4; }
+  .catalog-results label > span { display: none; }
+  .racket-catalog .catalog-results select { max-width: 145px; font-size: var(--text-xs); }
+  .racket-card-body { padding: var(--space-xs); }
+  .racket-card-actions .btn { min-height: 44px; }
+  .racket-card-actions .btn.ghost { flex: 1 1 auto; }
+  .racket-tray .btn { padding-inline: var(--space-sm); }
+  .racket-compare { padding: var(--space-xs); }
+  .racket-compare .sheet-tools .btn { flex: none; padding-inline: var(--space-xs); }
+  .racket-compare table.spec :is(th, td) { padding-inline: var(--space-xs); }
+  .racket-compare table.spec[data-columns="2"] { min-width: 340px; }
+  .racket-compare table.spec[data-columns="3"] { min-width: 530px; }
+  .compare-variant select { min-height: 44px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  #view.racket-catalog > :is(h1, p, .filters, .tiles) { animation: none; }
+  .racket-catalog .item.just { animation: none; }
+  .tray.racket-tray:not([hidden]) { animation: none; }
+}
+
 /* ---------- the racket page opens with a scene ---------- */
 .hero-art { display: none; }
 @media (min-width: 40.01rem) {
@@ -261,11 +369,9 @@ select.has-tiles { display: none; }
   @keyframes panelIn { from { opacity: 0; translate: 0 26px; scale: 0.985; } }
   @keyframes grow { from { transform: scaleX(0); } }
   @keyframes radarIn { from { opacity: 0; transform: scale(0.15); } }
-  @keyframes navIn { from { opacity: 0; translate: 0 -22px; } }
   @keyframes fly { from { opacity: 0; translate: 0 90px; scale: 0.88; } }
   @keyframes float { 0%, 100% { translate: 0 0; } 50% { translate: 0 -10px; } }
 
-  .top { animation: navIn 700ms var(--ease-out) both; }
   #view > h1 { animation: fadeUp 800ms var(--ease-out) 60ms both; }
   #view > h1 + p { animation: fadeUp 800ms var(--ease-out) 160ms both; }
   #view > .filters { animation: fadeUp 800ms var(--ease-out) 260ms both; }
@@ -295,6 +401,5 @@ select.has-tiles { display: none; }
   .panel.fresh .radar .rs { transform-box: fill-box; transform-origin: center; animation: radarIn 900ms var(--ease-out) 200ms both; }
   .panel.fresh .radar .rd { animation: fadeIn 500ms ease 800ms both; }
   /* the tab pill slides (it keeps the width of the new tab at once; only its place travels) */
-  .tabs.ready::before { transition: transform 520ms var(--ease-out); }
   .btn { transition: background-color var(--dur-micro) var(--ease-out), box-shadow var(--dur-micro) var(--ease-out), transform var(--dur-short) var(--ease-out); }
 }

@@ -56,6 +56,17 @@ class ResearchEvidenceTests(unittest.TestCase):
         self.assertEqual(patch['year'], 2025)
         self.assertNotIn('availableOn', patch)
         self.assertEqual(patch['researchEvidence'], [thai, global_year])
+        self.assertEqual(patch['otherMarketTension'], [overseas])
+
+    def test_holds_conflicting_and_estimated_overseas_tension(self):
+        thai = self.row([None, 29])
+        overseas = self.row([None, 32], market='TW')
+        conflict = self.row([None, 31], market='TW', source='https://example.org/demo')
+        estimate = self.row([None, 30], '4U', market='TW', status='estimated')
+        other_weight = self.row([None, 30], '4U', market='CA')
+        patch, _ = project(self.racket, self.record(thai, overseas, conflict, estimate, other_weight))
+        self.assertEqual(patch['otherMarketTension'], [other_weight])
+        self.assertEqual(patch['tensionByWeight'], {'3U': [None, 29]})
 
     def test_disputed_weight_is_held_while_the_other_weight_remains_usable(self):
         first = self.record(self.row([None, 31]), self.row([None, 30], '4U'))
@@ -155,6 +166,14 @@ class ResearchEvidenceTests(unittest.TestCase):
         mismatched_weight = self.record(self.row([None, 31], sourceCode='DEMO-26-4U'))
         with self.assertRaisesRegex(ValueError, 'does not match weight'):
             stage({}, self.catalog, [mismatched_weight])
+
+    def test_accented_source_code_matches_unaccented_catalog_code(self):
+        racket = {**self.racket, 'modelCode': 'ARS-FANTOME J'}
+        caps = self.row([None, 30], sourceCode='ARS-FANTÔME J')
+        record = {**self.record(caps), 'modelCode': racket['modelCode']}
+        ledger, _ = stage({}, {racket['id']: racket}, [record])
+        patch, _ = project(racket, ledger[racket['id']])
+        self.assertEqual(patch['researchEvidence'], [caps])
 
     def test_a_later_check_updates_the_same_source_without_duplicates(self):
         first = self.record(self.row([None, 31]))

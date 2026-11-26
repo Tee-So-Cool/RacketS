@@ -8,6 +8,7 @@ import os
 from pathlib import Path
 import re
 from tempfile import NamedTemporaryFile, gettempdir
+import unicodedata
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -32,7 +33,7 @@ def decode(text):
 
 
 def code_key(value):
-    return re.sub(r'[^a-z0-9]', '', value.lower())
+    return re.sub(r'[^a-z0-9]', '', unicodedata.normalize('NFKD', value).lower())
 
 
 def market_code(value):
@@ -144,11 +145,14 @@ def project(racket, record):
         return {}, ['held all values (model code needs confirmation)']
 
     groups = defaultdict(list)
+    other_tension = defaultdict(list)
     for row in evidence:
         field = row['field']
         market = 'GLOBAL' if field == 'year' else record['market']
         if field not in ('availableOn', 'modelCode') and row['market'] == market:
             groups[(field, (row.get('weight') or '') if field == 'tension' else '')].append(row)
+        elif field == 'tension':
+            other_tension[(row['market'], row.get('weight') or '')].append(row)
 
     patch, published, report, tension = {}, list(code_sources), [], {}
     flags = list(racket.get('est', []))
@@ -212,6 +216,9 @@ def project(racket, record):
         patch['est'] = flags
     if published or 'researchEvidence' in racket:
         patch['researchEvidence'] = published
+    other_ratings = [row for _, rows in sorted(other_tension.items()) for row in resolve_observations(rows)[1]]
+    if other_ratings or 'otherMarketTension' in racket:
+        patch['otherMarketTension'] = other_ratings
     other = len(evidence) - len(published)
     if other:
         report.append(f'{other} observation(s) retained in the ledger')
