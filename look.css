@@ -261,14 +261,15 @@ select.has-tiles { display: none; }
 .compare-match.btn { min-height: 32px; padding-inline: var(--space-2xs); color: var(--color-accent-hi); }
 .compare-tension-meta, .compare-proof li span { display: block; font-size: var(--text-xs); color: var(--color-muted); }
 .compare-delta { color: var(--color-accent-hi); white-space: nowrap; }
-.compare-proof summary, .compare-charts summary { cursor: pointer; width: fit-content; }
-.compare-proof summary { color: var(--color-accent-hi); margin-top: var(--space-2xs); }
+.compare-proof summary { cursor: pointer; width: fit-content; color: var(--color-accent-hi); margin-top: var(--space-2xs); }
 .compare-proof ul { margin: var(--space-xs) 0 0; padding-inline-start: var(--space-md); }
 .compare-proof li + li { margin-top: var(--space-xs); }
 .compare-market > ul { padding-inline-start: var(--space-sm); }
 .compare-market p { margin-top: var(--space-xs); }
-.compare-charts { margin-top: var(--space-md); padding-block: var(--space-sm); border-block: var(--rule-hair) solid var(--line-soft); }
-.compare-charts .two { margin-top: var(--space-md); }
+.compare-charts { margin-bottom: var(--space-sm); border: var(--rule-hair) solid var(--line-soft); border-radius: var(--radius-inner); }
+.compare-charts summary { cursor: pointer; padding: var(--space-sm); color: var(--color-accent-hi); font-weight: 500; }
+.compare-charts summary:hover { background: var(--fill-soft); }
+.compare-charts .two { margin: 0; padding: var(--space-md); border-top: var(--rule-hair) solid var(--line-soft); }
 .racket-compare :is(.tbl-wrap, select, summary, .compare-remove, a):focus-visible { outline: 2px solid var(--color-focus); outline-offset: -2px; }
 .match-heading { display: flex; align-items: end; justify-content: space-between; gap: var(--space-sm); margin-top: var(--space-xl); }
 .match-heading .btn { border: var(--rule-hair) solid var(--line-soft); border-radius: var(--radius-inner); }

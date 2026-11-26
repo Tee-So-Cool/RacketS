@@ -1093,8 +1093,8 @@
           <button class="btn sm${rackets ? ' ghost' : ''}" type="button" data-share>${rackets ? 'แชร์' : 'แชร์ลิงก์เทียบ'}</button>
           <button class="btn sm ghost" type="button" data-close>${rackets ? 'ปิดตาราง' : 'ปิดผลเทียบ'}</button></span>
         </div>
-        ${rackets ? `<p class="small muted compare-guide">— ยังไม่มีข้อมูล &nbsp; ≈ ค่าประเมิน${sel.length > 1 ? ' &nbsp; + / − เทียบกับคอลัมน์แรก' : ''}</p>${table}
-          <details class="compare-charts"${chartsOpen ? ' open' : ''}><summary>กราฟภาพรวมของแต่ละรุ่น</summary>${charts}</details>
+        ${rackets ? `<details class="compare-charts"${chartsOpen ? ' open' : ''}><summary>กราฟเปรียบเทียบ</summary>${charts}</details>
+          <p class="small muted compare-guide">— ยังไม่มีข้อมูล &nbsp; ≈ ค่าประเมิน${sel.length > 1 ? ' &nbsp; + / − เทียบกับคอลัมน์แรก' : ''}</p>${table}
           ${similar(sel)}${whoFor(sel)}` : `${charts}<p class="small muted sheet-key">ช่องที่ขึ้น — คือยังไม่มีข้อมูล ช่องที่ไฮไลต์คือค่าที่ต่างกัน ค่าที่มี ≈ คือค่าประเมิน</p>${table}`}
       </section>`;
     if (scrollLeft) box.querySelector('.tbl-wrap').scrollLeft = scrollLeft;
