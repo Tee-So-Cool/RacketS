@@ -157,9 +157,9 @@ h3 { font-size: var(--text-md); font-family: var(--font-body); font-weight: 500;
 .panel > .sheet-key + .tbl-wrap { margin-top: var(--space-xs); }
 table.spec { width: 100%; table-layout: fixed; border-collapse: collapse; font-size: var(--text-sm); min-width: 560px; font-variant-numeric: tabular-nums; }
 table.spec th, table.spec td { text-align: left; padding: var(--space-xs) var(--space-sm); border-top: var(--rule-hair) solid var(--line-soft); vertical-align: top; overflow-wrap: break-word; }
-table.spec th { width: 168px; font-weight: 500; color: var(--color-muted); }
-table.spec thead td { font-weight: 500; font-size: var(--text-md); border-top: 3px solid var(--c); }
-table.spec thead th { border-top: 0; }
+table.spec th[scope="row"], table.spec th:first-child { width: 168px; font-weight: 500; color: var(--color-muted); }
+table.spec thead th { font-weight: 500; font-size: var(--text-md); border-top: 3px solid var(--c); }
+table.spec thead th:first-child { border-top: 0; }
 table.spec td.diff { background: var(--fill-soft); }
 table.spec a { color: var(--color-accent-hi); text-decoration-color: color-mix(in oklab, var(--color-accent) 50%, transparent); }
 table.spec a:hover { text-decoration-color: var(--color-accent-hi); }

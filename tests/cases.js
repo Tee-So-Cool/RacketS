@@ -122,6 +122,24 @@ const cases = [
     const match = weight => score(racket, string, 'intermediate', 'attack', 'feather', 'normal', 'doubles', 'none', '', weight);
     return !RS_TEST.canRecommendTension(match('')) && RS_TEST.canRecommendTension(match('4U'));
   }],
+  ['ตัวอ่านเพดาน: แยกค่ารายเวต ค่ารวม ค่าประเมิน และเวตที่ยังขาดหลักฐาน', () => {
+    const resolve = RS_TEST.resolveRacketTension;
+    const racket = { ...R('Yonex Astrox 77 Pro'), weights: '3U, 4U, 5U' };
+    const three = resolve(racket, '3U');
+    const overall = resolve({ ...racket, tensionByWeight: {} }, '4U');
+    return resolve(racket, '').needsWeight && three.status === 'rated' && three.hasWeightCap && three.range[1] === 28 &&
+      resolve(racket, '5U').status === 'missing' && overall.status === 'rated' && !overall.hasWeightCap && overall.range[1] === 27 &&
+      resolve(R('Victor Auraspeed Aurora Ultra'), '3U').status === 'estimated' &&
+      resolve(R('Yonex Astrox 99 Game'), '').weight === '4U';
+  }],
+  ['ลิงก์เทียบไม้: เวตอยู่กับรุ่นเดิมเมื่อมีรายการผิดหรือซ้ำ', () => {
+    const a = R('Yonex Astrox 77 Pro'), b = R('Victor Thruster Ryuga Muse II');
+    const find = id => [a, b].find(item => item.id === id);
+    const selected = RS_TEST.compareSelection(`${a.id},removed,${b.id}`, ['3U', '4U', '5U'], find);
+    const duplicate = RS_TEST.compareSelection(`${a.id},${a.id},${b.id}`, ['5U', '3U', '4U'], find);
+    return selected.ids.join() === `${a.id},${b.id}` && selected.weights.get(a.id) === '3U' && selected.weights.get(b.id) === '5U' &&
+      duplicate.ids.length === 2 && !duplicate.weights.has(a.id) && duplicate.weights.get(b.id) === '4U';
+  }],
   ['ปอนด์แนะนำ: ทั้งไม้กับเอ็นต้องยืนยันได้ และช่วงความตึงต้องเข้ากัน', () => {
     const racket = { ...R('Yonex Astrox 77 Pro'), weights: '4U', tensionByWeight: null, tension: [20, 27], est: [] };
     const string = { ...S('Yonex BG66 Ultimax'), tensionMax: 28, est: [] };
