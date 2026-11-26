@@ -229,6 +229,7 @@ select.has-tiles { display: none; }
 .racket-compare .sheet-tools .btn, .compare-match { border-radius: var(--radius-inner); }
 .racket-compare [data-same][aria-pressed="true"] { color: var(--color-accent-hi); background: var(--color-paper-3); }
 .racket-compare .tbl-wrap { margin-top: 0; }
+.compare-guide { margin: 0 0 var(--space-sm); }
 .racket-compare table.spec { min-width: 460px; }
 .racket-compare table.spec[data-columns="1"] { min-width: 0; }
 .racket-compare table.spec[data-columns="3"] { min-width: 640px; }
@@ -236,6 +237,11 @@ select.has-tiles { display: none; }
 .racket-compare table.spec thead th { background: var(--color-paper-3); }
 .racket-compare table.spec thead th:first-child { border-top: var(--rule-hair) solid var(--line-soft); }
 .racket-compare table.spec tr > :first-child { position: sticky; left: 0; background: var(--color-paper-2); z-index: var(--z-base); }
+.racket-compare table.spec .compare-section th {
+  position: static; border-top-color: var(--color-rule); background: var(--color-paper-3);
+  color: var(--color-ink); font-size: var(--text-sm); font-weight: 600;
+}
+.hide-same .compare-group:not(:has(tr:not(.same, .compare-section))) { display: none; }
 .compare-model { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-2xs); }
 .compare-model strong { min-width: 0; font-weight: 600; overflow-wrap: anywhere; }
 .compare-remove {
@@ -254,10 +260,13 @@ select.has-tiles { display: none; }
 }
 .compare-match.btn { min-height: 32px; padding-inline: var(--space-2xs); color: var(--color-accent-hi); }
 .compare-tension-meta, .compare-proof li span { display: block; font-size: var(--text-xs); color: var(--color-muted); }
+.compare-delta { color: var(--color-accent-hi); white-space: nowrap; }
 .compare-proof summary, .compare-charts summary { cursor: pointer; width: fit-content; }
 .compare-proof summary { color: var(--color-accent-hi); margin-top: var(--space-2xs); }
 .compare-proof ul { margin: var(--space-xs) 0 0; padding-inline-start: var(--space-md); }
 .compare-proof li + li { margin-top: var(--space-xs); }
+.compare-market > ul { padding-inline-start: var(--space-sm); }
+.compare-market p { margin-top: var(--space-xs); }
 .compare-charts { margin-top: var(--space-md); padding-block: var(--space-sm); border-block: var(--rule-hair) solid var(--line-soft); }
 .compare-charts .two { margin-top: var(--space-md); }
 .racket-compare :is(.tbl-wrap, select, summary, .compare-remove, a):focus-visible { outline: 2px solid var(--color-focus); outline-offset: -2px; }

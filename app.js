@@ -422,13 +422,22 @@
 
   function specTable(rows, sel, rackets = false) {
     const head = `<thead><tr><th scope="col">สเปก</th>${sel.map((x, i) => `<th scope="col" style="--c:${COLORS[i]}">${rackets ? compareRacketHead(x) : esc(full(x))}</th>`).join('')}</tr></thead>`;
-    const body = rows.map(([label, fn]) => {
-      const cells = sel.map(x => fn(x));
-      const diff = sel.length > 1 && new Set(cells).size > 1;
-      return `<tr class="${sel.length > 1 && !diff ? 'same' : ''}"><th scope="row">${esc(label)}</th>${cells.map(c => `<td class="${diff ? 'diff' : ''}">${c}</td>`).join('')}</tr>`;
-    }).join('');
+    const renderRows = list => list.map(([label, fn]) => compareSpecRow(label, sel.map((x, i) => fn(x, sel[0], i)))).join('');
+    const body = rackets ? [
+      racketSpecGroup('ขึ้นเอ็น', compareTensionRow(sel) + compareWeightRows(sel) + compareMarketRow(sel), sel.length),
+      ...rows.map(([label, list]) => racketSpecGroup(label, renderRows(list), sel.length)),
+    ].join('') : `<tbody>${renderRows(rows)}</tbody>`;
     const region = rackets ? ' tabindex="0" role="region" aria-label="ตารางเทียบสเปกไม้แบด"' : '';
-    return `<div class="tbl-wrap"${region}><table class="spec" data-columns="${sel.length}">${head}<tbody>${rackets ? compareTensionRow(sel) : ''}${body}</tbody></table></div>`;
+    return `<div class="tbl-wrap"${region}><table class="spec" data-columns="${sel.length}">${head}${body}</table></div>`;
+  }
+
+  function compareSpecRow(label, cells, values = cells) {
+    const same = cells.length > 1 && new Set(values).size < 2;
+    return `<tr${same ? ' class="same"' : ''}><th scope="row">${esc(label)}</th>${cells.map(cell => `<td${cells.length > 1 && !same ? ' class="diff"' : ''}>${cell}</td>`).join('')}</tr>`;
+  }
+
+  function racketSpecGroup(label, rows, columns) {
+    return `<tbody class="compare-group"><tr class="compare-section"><th scope="rowgroup" colspan="${columns + 1}">${esc(label)}</th></tr>${rows}</tbody>`;
   }
 
   // ---------- kind configs ----------
@@ -456,29 +465,37 @@
         { label: 'ราคา', hint: 'ราคาประมาณ เช็กร้านอีกที', get: r => Number(r.price) || NaN, fmt: (v, r) => estimatedValue(r, 'price', baht(v)) },
       ],
       spec: [
-        ['ราคาประมาณ', priceCell],
-        ['สมดุล', r => lab(r, 'balance') ? lab(r, 'balance') + (Number(r.bp) ? ` (${r.bp} mm)` : '') : (Number(r.bp) ? r.bp + ' mm' : '—')],
-        ['ความแข็งก้าน', r => lab(r, 'flex') || '—'],
-        ['เวตที่มี', r => dash(estimatedValue(r, 'weights'))],
-        ['น้ำหนักอ้างอิง', r => r.weight ? dash(estimatedValue(r, 'weight', r.weight + ' g')) : '—'],
-        ['ขนาดด้ามที่ระบุ', r => dash(r.grips)],
-        ['แนวการเล่น', r => lab(r, 'style') || '—'],
-        ['ระดับผู้เล่น', r => lab(r, 'level') || 'ไม่ระบุ'],
-        ['ปีที่ออก', r => dash(estimatedValue(r, 'year'))],
-        ['แบรนด์', r => esc(r.brand)],
-        ['วัสดุเฟรม', r => dash(r.frame)],
-        ['วัสดุก้าน', r => dash(r.shaft)],
-        ['ข้อต่อเฟรม-ก้าน', r => dash(r.joint)],
-        ['ความยาว', r => dash(r.length)],
-        ['ขนาดหน้าไม้', r => L.head[r.head] || '—'],
-        ['ผังเอ็น', r => dash(r.pattern)],
-        ['เทคโนโลยีช่วยเรื่อง', r => { const t = techTags(r); return t.length ? t.map(([, x]) => esc(x)).join('<br>') + '<div class="small muted">ตามคำอธิบายของผู้ผลิต</div>' : '—'; }],
-        ['เทคโนโลยี', r => dash(r.tech)],
-        ['นักกีฬาที่ใช้', r => dash(r.players)],
-        ['ผลิตที่', r => dash(r.madeIn)],
-        ['เอ็นที่ผู้ผลิตแนะนำ', r => dash(r.recString)],
-        ['หมายเหตุ', r => dash(r.note)],
-        ['แหล่งข้อมูล', r => sources(r)],
+        ['น้ำหนักและฟีลไม้', [
+          ['เวตที่มี', r => dash(estimatedValue(r, 'weights'))],
+          ['น้ำหนักอ้างอิง', r => r.weight ? dash(estimatedValue(r, 'weight', r.weight + ' g')) : '—'],
+          ['สมดุล', r => lab(r, 'balance') || '—'],
+          ['จุดสมดุล', (r, first) => Number(r.bp) ? `${esc(r.bp)} mm${racketNumericDifference(r, first, 'bp', 'mm')}` : '—'],
+          ['ความแข็งก้าน', r => lab(r, 'flex') || '—'],
+          ['ขนาดด้ามที่ระบุ', r => dash(r.grips)],
+          ['แนวการเล่น', r => lab(r, 'style') || '—'],
+          ['ระดับผู้เล่น', r => lab(r, 'level') || 'ไม่ระบุ'],
+        ]],
+        ['โครงสร้างและวัสดุ', [
+          ['วัสดุเฟรม', r => dash(r.frame)],
+          ['วัสดุก้าน', r => dash(r.shaft)],
+          ['ข้อต่อเฟรม-ก้าน', r => dash(r.joint)],
+          ['ความยาว', r => dash(r.length)],
+          ['ขนาดหน้าไม้', r => L.head[r.head] || '—'],
+          ['ผังเอ็น', r => dash(r.pattern)],
+          ['เอ็นที่ผู้ผลิตแนะนำ', r => dash(r.recString)],
+          ['เทคโนโลยีช่วยเรื่อง', r => { const t = techTags(r); return t.length ? t.map(([, x]) => esc(x)).join('<br>') + '<div class="small muted">ตามคำอธิบายของผู้ผลิต</div>' : '—'; }],
+          ['เทคโนโลยี', r => dash(r.tech)],
+        ]],
+        ['ราคาและที่มา', [
+          ['ราคาประมาณ', (r, first) => priceCell(r) + racketNumericDifference(r, first, 'price', 'บาท')],
+          ['หน้าร้านไทย', r => link(thaiRacketListing(r), 'ดูหน้าสินค้า') || '—'],
+          ['ปีที่ออก', r => dash(estimatedValue(r, 'year')) + (r.year && r.yearSrc ? `<div class="small">${link(r.yearSrc, 'ที่มาของปี')}</div>` : '')],
+          ['แบรนด์', r => esc(r.brand)],
+          ['ผลิตที่', r => dash(r.madeIn)],
+          ['นักกีฬาที่ใช้', r => dash(r.players)],
+          ['หมายเหตุ', r => dash(r.note)],
+          ['แหล่งข้อมูล', r => sources(r)],
+        ]],
       ],
     },
     s: {
@@ -948,26 +965,94 @@
       <button class="compare-remove" type="button" data-rm="${esc(racket.id)}" aria-label="เอา ${esc(full(racket))} ออกจากตาราง">×</button>
     </div>
     ${racket.modelCode ? `<p class="compare-code small muted">${esc(racket.modelCode)}</p>` : ''}
+    ${racket.price ? `<p class="compare-code small muted">${esc(estimatedValue(racket, 'price', baht(racket.price)))}</p>` : ''}
     ${weightControl}
     <button class="btn sm ghost compare-match" type="button" data-tomatch="${esc(racket.id)}" aria-label="จับคู่เอ็นกับ ${esc(full(racket))}">จับคู่เอ็น</button>`;
   }
 
+  function racketNumericDifference(racket, first, field, unit) {
+    const a = Number(racket[field]), b = Number(first[field]);
+    if (!(a > 0 && b > 0 && Number.isFinite(a) && Number.isFinite(b)) || a === b) return '';
+    return racketDifference(a - b, unit, est(racket, field) || est(first, field));
+  }
+
+  function racketDifference(delta, unit, estimate = '') {
+    const value = Math.abs(delta).toLocaleString('th-TH', { maximumFractionDigits: 2 });
+    return `<span class="compare-tension-meta compare-delta">${estimate}${delta > 0 ? '+' : '−'}${value} ${unit}</span>`;
+  }
+
+  function renderCompareRating(rating, proof, racket) {
+    const range = `<strong>${tensionText(rating.range)}</strong>`;
+    if (!proof) return `${range}<span class="compare-tension-meta">ยังไม่มีแหล่งยืนยัน</span>`;
+    if (!proof.entries.length) return `${range}<span class="compare-tension-meta">${link(proof.source, 'แหล่งอ้างอิงของรุ่น')}</span>`;
+    const markets = [...new Set(proof.entries.map(row => tensionMarket(row.market)))].join(', ');
+    return `${range}<span class="compare-tension-meta">${esc(markets)}</span>
+      <details class="compare-proof"><summary>หลักฐาน</summary><ul>${tensionSourceLinks(proof.entries, racket)}</ul></details>`;
+  }
+
   function compareTensionRow(rackets) {
-    return `<tr data-compare-tension><th scope="row">เพดานเอ็น</th>${rackets.map(racket => {
-      const selection = state.compareWeights.get(racket.id);
-      const rating = resolveRacketTension(racket, selection);
+    const ratings = rackets.map(racket => resolveRacketTension(racket, state.compareWeights.get(racket.id)));
+    const proofs = rackets.map((racket, index) => racketTensionEvidence(racket, ratings[index]));
+    const first = ratings[0];
+    const marketOf = proof => [...new Set((proof?.entries || []).map(row => row.market))].sort().join(',');
+    const firstMarket = marketOf(proofs[0]);
+    return `<tr data-compare-tension><th scope="row">เพดานเวตที่เลือก</th>${rackets.map((racket, i) => {
+      const rating = ratings[i], proof = proofs[i];
       if (rating.needsWeight) return '<td class="muted">เลือกเวตไม้</td>';
       if (rating.status !== 'rated') return '<td class="muted">ยังไม่ยืนยัน</td>';
-      const proof = racketTensionEvidence(racket, rating);
       const scope = rating.choices.length > 1 && !rating.hasWeightCap && !proof?.entries.length
         ? '<span class="compare-tension-meta">เพดานรวมของรุ่น</span>' : '';
-      const value = `<strong>${tensionText(rating.range)}</strong>${scope}`;
-      if (!proof) return `<td>${value}<span class="compare-tension-meta">ยังไม่มีแหล่งยืนยัน</span></td>`;
-      if (!proof.entries.length) return `<td>${value}<span class="compare-tension-meta">${link(proof.source, 'แหล่งอ้างอิงของรุ่น')}</span></td>`;
-      const markets = [...new Set(proof.entries.map(row => tensionMarket(row.market)))].join(', ');
-      return `<td>${value}<span class="compare-tension-meta">${esc(markets)}</span>
-        <details class="compare-proof"><summary>หลักฐาน</summary><ul>${tensionSourceLinks(proof.entries, racket)}</ul></details></td>`;
+      const delta = rating.range[1] - first.range[1];
+      const difference = delta && rating.weight === first.weight && firstMarket && firstMarket === marketOf(proof)
+        ? racketDifference(delta, 'lbs') : '';
+      return `<td>${renderCompareRating(rating, proof, racket)}${scope}${difference}</td>`;
     }).join('')}</tr>`;
+  }
+
+  function exactWeightRating(racket, weight) {
+    const rating = resolveRacketTension(racket, weight);
+    if (rating.weight !== weight || rating.needsWeight) return { status: 'absent' };
+    if (rating.status !== 'rated') return { status: 'unconfirmed' };
+    const proof = racketTensionEvidence(racket, rating);
+    if (rating.choices.length > 1 && !rating.hasWeightCap && !proof?.entries.length) return { status: 'unconfirmed' };
+    return { status: 'rated', rating, proof };
+  }
+
+  function compareWeightRows(rackets) {
+    const weights = [...new Set(rackets.flatMap(racket => [...statedWeights(racket), ...matchWeights(racket)]))].sort();
+    return weights.map(weight => {
+      const values = rackets.map(racket => exactWeightRating(racket, weight));
+      const cells = values.map(({ status, rating, proof }, i) => {
+        if (status === 'absent') return '<span class="muted">—</span>';
+        if (status === 'unconfirmed') return '<span class="muted">ยังไม่ยืนยัน</span>';
+        return renderCompareRating(rating, proof, rackets[i]);
+      });
+      const keys = values.map(({ status, rating, proof }) => JSON.stringify([status, rating?.range, [...new Set((proof?.entries || []).map(row => row.market))].sort()]));
+      return compareSpecRow(weight, cells, keys);
+    }).join('');
+  }
+
+  function compareMarketRow(rackets) {
+    const sources = rackets.map(racket => {
+      const original = BASE.r.find(row => row.id === racket.id);
+      return original && ['brand', 'name', 'modelCode'].every(key => sameField(original[key], racket[key]))
+        ? (original.otherMarketTension || []) : [];
+    });
+    if (!sources.some(rows => rows.length)) return '';
+    const cells = sources.map((rows, index) => {
+      if (!rows.length) return '—';
+      const groups = new Map();
+      rows.forEach(row => {
+        const key = `${row.market}:${row.weight}`;
+        if (!groups.has(key)) groups.set(key, []);
+        groups.get(key).push(row);
+      });
+      return `<details class="compare-proof compare-market"><summary>ดูหลักฐานต่างตลาด</summary><ul>${[...groups.values()].map(entries => {
+        const { market, weight, value } = entries[0];
+        return `<li><strong>${esc(tensionMarket(market))} ${esc(weight)} ${tensionText(value)}</strong><ul>${tensionSourceLinks(entries, rackets[index])}</ul></li>`;
+      }).join('')}</ul><p class="small muted">ค่าอ้างอิงตามตลาดที่ระบุ</p></details>`;
+    });
+    return compareSpecRow('ตลาดอื่น', cells);
   }
 
   function renderCompare(kind) {
@@ -1008,7 +1093,7 @@
           <button class="btn sm${rackets ? ' ghost' : ''}" type="button" data-share>${rackets ? 'แชร์' : 'แชร์ลิงก์เทียบ'}</button>
           <button class="btn sm ghost" type="button" data-close>${rackets ? 'ปิดตาราง' : 'ปิดผลเทียบ'}</button></span>
         </div>
-        ${rackets ? `${table}<p class="small muted sheet-key">— ยังไม่มีข้อมูล &nbsp; ≈ ค่าประเมิน</p>
+        ${rackets ? `<p class="small muted compare-guide">— ยังไม่มีข้อมูล &nbsp; ≈ ค่าประเมิน${sel.length > 1 ? ' &nbsp; + / − เทียบกับคอลัมน์แรก' : ''}</p>${table}
           <details class="compare-charts"${chartsOpen ? ' open' : ''}><summary>กราฟภาพรวมของแต่ละรุ่น</summary>${charts}</details>
           ${similar(sel)}${whoFor(sel)}` : `${charts}<p class="small muted sheet-key">ช่องที่ขึ้น — คือยังไม่มีข้อมูล ช่องที่ไฮไลต์คือค่าที่ต่างกัน ค่าที่มี ≈ คือค่าประเมิน</p>${table}`}
       </section>`;
@@ -1503,7 +1588,7 @@
   }
   window.RS_TEST = { score, byId, calcOffset, mineAdj, profile: racketProfile, balPos, lvText, hotBoards, parseImport, matchLinkOptions,
     updateSavedTension, catalogDelta, applyCatalogDelta, migrateCatalog, readCatalogBackup, hotSpans, hotCoverage, canRecommendTension, searchList,
-    renderTensionEvidence, resolveRacketTension, compareSelection, thaiRacketListing, racketMatchesFilters };
+    renderTensionEvidence, resolveRacketTension, compareSelection, thaiRacketListing, racketMatchesFilters, exactWeightRating, racketNumericDifference };
   const verdict = n => n >= 80 ? ['เข้ากันดีมาก', 'var(--color-accent)'] : n >= 65 ? ['เข้ากันดี', 'var(--color-accent)'] : n >= 50 ? ['พอใช้ได้', 'var(--color-ink)'] : ['ไม่ค่อยเหมาะ', 'var(--color-bad)'];
 
   const MATCH_OPTIONS = [

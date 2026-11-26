@@ -56,6 +56,17 @@ class ResearchEvidenceTests(unittest.TestCase):
         self.assertEqual(patch['year'], 2025)
         self.assertNotIn('availableOn', patch)
         self.assertEqual(patch['researchEvidence'], [thai, global_year])
+        self.assertEqual(patch['otherMarketTension'], [overseas])
+
+    def test_holds_conflicting_and_estimated_overseas_tension(self):
+        thai = self.row([None, 29])
+        overseas = self.row([None, 32], market='TW')
+        conflict = self.row([None, 31], market='TW', source='https://example.org/demo')
+        estimate = self.row([None, 30], '4U', market='TW', status='estimated')
+        other_weight = self.row([None, 30], '4U', market='CA')
+        patch, _ = project(self.racket, self.record(thai, overseas, conflict, estimate, other_weight))
+        self.assertEqual(patch['otherMarketTension'], [other_weight])
+        self.assertEqual(patch['tensionByWeight'], {'3U': [None, 29]})
 
     def test_disputed_weight_is_held_while_the_other_weight_remains_usable(self):
         first = self.record(self.row([None, 31]), self.row([None, 30], '4U'))

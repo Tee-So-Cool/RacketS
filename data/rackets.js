@@ -15759,6 +15759,24 @@ window.RACKETS = [
     "checkedOn": "2026-11-24"
    }
   ],
+  "otherMarketTension": [
+   {
+    "field": "tension",
+    "market": "TW",
+    "value": [
+     null,
+     30
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPV007-4",
+    "source": "https://www.liningtw.com/products/aypv007",
+    "locator": "商品編號 AYPV007-4 → 保磅",
+    "checkedOn": "2026-11-24",
+    "weight": "4U",
+    "unit": "lbs",
+    "sourceType": "distributor"
+   }
+  ],
   "tensionByWeight": {
    "3U": [
     null,
@@ -15934,6 +15952,40 @@ window.RACKETS = [
     "source": "https://www.liningtw.com/products/aypv015",
     "locator": "重量",
     "checkedOn": "2026-11-24"
+   }
+  ],
+  "otherMarketTension": [
+   {
+    "field": "tension",
+    "market": "CN",
+    "value": [
+     null,
+     30
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPV015",
+    "source": "https://www.shopnings.com/pub/media/descriptions/2025fallwinter.pdf",
+    "locator": "p.034 锋影 600 → 穿线磅数 → 4U",
+    "checkedOn": "2026-11-24",
+    "weight": "4U",
+    "unit": "lbs",
+    "sourceType": "catalog"
+   },
+   {
+    "field": "tension",
+    "market": "CN",
+    "value": [
+     null,
+     29
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPV015",
+    "source": "https://www.shopnings.com/pub/media/descriptions/2025fallwinter.pdf",
+    "locator": "p.034 锋影 600 → 穿线磅数 → 5U",
+    "checkedOn": "2026-11-24",
+    "weight": "5U",
+    "unit": "lbs",
+    "sourceType": "catalog"
    }
   ],
   "tensionByWeight": {
@@ -19099,6 +19151,72 @@ window.RACKETS = [
     "locator": "Product Description → Weight/Grip size",
     "checkedOn": "2026-11-24",
     "note": "ตารางสเปกระบุ 3U และ 4U ส่วนตัวเลือกสั่งซื้อของร้าน ณ วันที่ตรวจมี 4U"
+   }
+  ],
+  "otherMarketTension": [
+   {
+    "field": "tension",
+    "market": "CN",
+    "value": [
+     null,
+     31
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPW001",
+    "source": "https://www.shopnings.com/pub/media/descriptions/2026ssbadmintongear.pdf",
+    "locator": "p.011 战戟 9000 POWER → 穿线磅数 → 3U",
+    "checkedOn": "2026-11-24",
+    "weight": "3U",
+    "unit": "lbs",
+    "sourceType": "catalog"
+   },
+   {
+    "field": "tension",
+    "market": "CN",
+    "value": [
+     null,
+     30
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPW001",
+    "source": "https://www.shopnings.com/pub/media/descriptions/2026ssbadmintongear.pdf",
+    "locator": "p.011 战戟 9000 POWER → 穿线磅数 → 4U",
+    "checkedOn": "2026-11-24",
+    "weight": "4U",
+    "unit": "lbs",
+    "sourceType": "catalog"
+   },
+   {
+    "field": "tension",
+    "market": "TW",
+    "value": [
+     null,
+     31
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPW001",
+    "source": "https://www.liningtw.com/products/aypw001",
+    "locator": "重量 / 保磅 → 3U",
+    "checkedOn": "2026-11-24",
+    "weight": "3U",
+    "unit": "lbs",
+    "sourceType": "distributor"
+   },
+   {
+    "field": "tension",
+    "market": "TW",
+    "value": [
+     null,
+     30
+    ],
+    "status": "confirmed",
+    "sourceCode": "AYPW001",
+    "source": "https://www.liningtw.com/products/aypw001",
+    "locator": "重量 / 保磅 → 4U",
+    "checkedOn": "2026-11-24",
+    "weight": "4U",
+    "unit": "lbs",
+    "sourceType": "distributor"
    }
   ],
   "tensionByWeight": {
@@ -33960,6 +34078,40 @@ window.RACKETS = [
     "checkedOn": "2026-11-24"
    }
   ],
+  "otherMarketTension": [
+   {
+    "field": "tension",
+    "market": "TW",
+    "value": [
+     null,
+     32
+    ],
+    "status": "confirmed",
+    "sourceCode": "ARS-99",
+    "source": "https://www.liyangsports.com/en/products/auraspeed-20260311194050",
+    "locator": "商品規格 → 穿線磅數 → 3U",
+    "checkedOn": "2026-11-24",
+    "weight": "3U",
+    "unit": "lbs",
+    "sourceType": "retailer"
+   },
+   {
+    "field": "tension",
+    "market": "TW",
+    "value": [
+     null,
+     31
+    ],
+    "status": "confirmed",
+    "sourceCode": "ARS-99",
+    "source": "https://www.liyangsports.com/en/products/auraspeed-20260311194050",
+    "locator": "商品規格 → 穿線磅數 → 4U",
+    "checkedOn": "2026-11-24",
+    "weight": "4U",
+    "unit": "lbs",
+    "sourceType": "retailer"
+   }
+  ],
   "tensionByWeight": {
    "3U": [
     null,
@@ -34047,6 +34199,42 @@ window.RACKETS = [
      "4U"
     ],
     "locator": "ตัวเลือกรุ่นน้ำหนักของ Jimmy Badminton → 3U และ 4U"
+   }
+  ],
+  "otherMarketTension": [
+   {
+    "field": "tension",
+    "market": "TW",
+    "value": [
+     null,
+     31
+    ],
+    "status": "confirmed",
+    "sourceCode": "ARS-AURORA ULTRA",
+    "source": "https://mall.iopenmall.tw/105988/index.php?action=product_detail&prod_no=P10598819368021",
+    "locator": "商品資訊 → 顏色 B (深藏青) → 穿線磅數 → 3U/G5",
+    "sourceType": "retailer",
+    "checkedOn": "2026-11-25",
+    "weight": "3U",
+    "unit": "lbs",
+    "asset": "https://mall.iopenmall.tw/website/uploads_product/website_105988/f0a66fb15ed330b9f307b1b687a73e70.png?hash=4160"
+   },
+   {
+    "field": "tension",
+    "market": "TW",
+    "value": [
+     null,
+     30
+    ],
+    "status": "confirmed",
+    "sourceCode": "ARS-AURORA ULTRA",
+    "source": "https://mall.iopenmall.tw/105988/index.php?action=product_detail&prod_no=P10598819368021",
+    "locator": "商品資訊 → 顏色 B (深藏青) → 穿線磅數 → 4U/G5",
+    "sourceType": "retailer",
+    "checkedOn": "2026-11-25",
+    "weight": "4U",
+    "unit": "lbs",
+    "asset": "https://mall.iopenmall.tw/website/uploads_product/website_105988/f0a66fb15ed330b9f307b1b687a73e70.png?hash=4160"
    }
   ]
  },
@@ -34918,6 +35106,24 @@ window.RACKETS = [
     "locator": "AURASPEED LJH E → 2025 NEW",
     "sourceType": "manufacturer",
     "checkedOn": "2026-11-24"
+   }
+  ],
+  "otherMarketTension": [
+   {
+    "field": "tension",
+    "market": "CA",
+    "value": [
+     null,
+     29
+    ],
+    "status": "confirmed",
+    "source": "https://yumo.ca/collections/clearance/products/victor-auraspeed-ars-ljh-e-unstrung-badminton-racket-yellow",
+    "sourceCode": "ARS-LJH E",
+    "locator": "Product Specification → Weight / Grip Size and String tension LBS",
+    "sourceType": "retailer",
+    "checkedOn": "2026-11-24",
+    "weight": "5U",
+    "unit": "lbs"
    }
   ],
   "tensionByWeight": {},

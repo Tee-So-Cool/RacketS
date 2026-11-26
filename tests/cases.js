@@ -149,6 +149,24 @@ const cases = [
       match(tiger, { variant: '5U', thaiShop: '1' }) && !match(tiger, { variant: '3U', thaiShop: '1' }) &&
       !match(away, { thaiShop: '1' }) && !match({ weights: '4U', est: ['weights'] }, { variant: '4U' });
   }],
+  ['ตารางทุกเวต: แสดงเฉพาะค่าของเวตนั้น และเก็บตลาดอื่นนอกผล Match', () => {
+    const lookup = RS_TEST.exactWeightRating;
+    const racket = R('Yonex Astrox 77 Pro');
+    const aurora = R('Victor Auraspeed Aurora Ultra');
+    const onlyOverall = { ...racket, tensionByWeight: {} };
+    const proof = lookup(racket, '3U');
+    return proof.status === 'rated' && proof.rating.range[1] === 28 && lookup(racket, '5U').status === 'absent' &&
+      lookup(onlyOverall, '4U').status === 'unconfirmed' && lookup(aurora, '4U').status === 'unconfirmed' &&
+      aurora.otherMarketTension.some(row => row.market === 'TW' && row.weight === '4U' && row.value[1] === 30) &&
+      !RS_TEST.canRecommendTension(score(aurora, S('Yonex BG66 Ultimax'), 'pro', 'control', 'feather', 'normal', 'doubles', 'none', '', '4U'));
+  }],
+  ['ส่วนต่างในตาราง: เครื่องหมายและค่าประเมินอิงคอลัมน์แรก', () => {
+    const diff = RS_TEST.racketNumericDifference;
+    const first = { price: 2990, bp: 300, est: ['price'] };
+    const second = { price: 2490, bp: 305, est: [] };
+    return diff(second, first, 'price', 'บาท').includes('≈−500 บาท') && diff(second, first, 'bp', 'mm').includes('+5 mm') &&
+      diff({}, first, 'bp', 'mm') === '' && diff(first, first, 'price', 'บาท') === '';
+  }],
   ['ปอนด์แนะนำ: ทั้งไม้กับเอ็นต้องยืนยันได้ และช่วงความตึงต้องเข้ากัน', () => {
     const racket = { ...R('Yonex Astrox 77 Pro'), weights: '4U', tensionByWeight: null, tension: [20, 27], est: [] };
     const string = { ...S('Yonex BG66 Ultimax'), tensionMax: 28, est: [] };

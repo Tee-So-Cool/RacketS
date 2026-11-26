@@ -853,7 +853,7 @@ for r in sorted(rackets.values(), key=lambda r: (r['brand'], r['name'])):
         patch, _ = project(r, research[r['id']])
         r.update(patch)
     final.append({k: r.get(k, '') for k in order})
-    for field in ('aliases', 'modelCode', 'generation', 'researchEvidence'):
+    for field in ('aliases', 'modelCode', 'generation', 'researchEvidence', 'otherMarketTension'):
         if r.get(field):
             final[-1][field] = r[field]
     if 'tensionByWeight' in r:
