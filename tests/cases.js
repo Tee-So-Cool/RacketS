@@ -140,6 +140,15 @@ const cases = [
     return selected.ids.join() === `${a.id},${b.id}` && selected.weights.get(a.id) === '3U' && selected.weights.get(b.id) === '5U' &&
       duplicate.ids.length === 2 && !duplicate.weights.has(a.id) && duplicate.weights.get(b.id) === '4U';
   }],
+  ['ตัวกรองไม้: เวตต้องตรง และหน้าร้านไทยต้องเป็นลิงก์สินค้า', () => {
+    const find = RS_TEST.thaiRacketListing, match = RS_TEST.racketMatchesFilters;
+    const tiger = R('Li-Ning Axforce Tiger');
+    const shopee = 'https://shopee.co.th/ไม้แบด-i.904404648.45869824367';
+    const away = { ...tiger, shopUrl: 'https://shopee.co.th/search?keyword=ไม้แบด', shopLinks: [{ url: 'https://in.lining.studio/products/axforce-tiger-4u' }] };
+    return find(tiger).endsWith('products_id=5117') && find({ shopLinks: [{ url: shopee }] }) === shopee && !find(away) &&
+      match(tiger, { variant: '5U', thaiShop: '1' }) && !match(tiger, { variant: '3U', thaiShop: '1' }) &&
+      !match(away, { thaiShop: '1' }) && !match({ weights: '4U', est: ['weights'] }, { variant: '4U' });
+  }],
   ['ปอนด์แนะนำ: ทั้งไม้กับเอ็นต้องยืนยันได้ และช่วงความตึงต้องเข้ากัน', () => {
     const racket = { ...R('Yonex Astrox 77 Pro'), weights: '4U', tensionByWeight: null, tension: [20, 27], est: [] };
     const string = { ...S('Yonex BG66 Ultimax'), tensionMax: 28, est: [] };
