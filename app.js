@@ -451,17 +451,16 @@
       match: (x, f) => (!f.style || x.style === f.style) && (!f.balance || x.balance === f.balance) && (!f.flex || x.flex === f.flex) && (!f.level || (f.level === 'none' ? lvLo(x) < 0 : lvLo(x) <= ordIdx('level', f.level, -2) && ordIdx('level', f.level, -2) <= lvHi(x))),
       card: (r, pick) => `
         <div class="racket-photo">${r.img ? `<img class="thumb" src="${esc(r.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : noPhoto(r)}</div>
-        <div class="racket-card-body">
-          <div class="meta">${[r.brand, estimatedValue(r, 'year')].filter(Boolean).map(esc).join(' / ')}</div>
-          <h2 class="nm">${esc(r.name)}</h2>
-          ${r.modelCode ? `<div class="racket-code">${esc(r.modelCode)}</div>` : ''}
-          <div class="chips">${[estimatedValue(r, 'weights'), lab(r, 'balance'), lab(r, 'flex')].filter(Boolean).map(v => `<span>${esc(v)}</span>`).join('')}</div>
-          <div class="price">${r.price ? `<b class="fig">${est(r, 'price')}${baht(r.price)}</b>` : '<span class="small muted">ยังไม่มีราคา</span>'}${thaiRacketListing(r) ? '<span class="small muted">มีหน้าร้านไทย</span>' : ''}</div>
-          <div class="racket-card-actions">${pick}<button class="btn sm ghost" type="button" data-who="${esc(r.id)}" aria-label="ดูข้อมูล ${esc(full(r))}">ดูข้อมูล</button></div>
-        </div>`,
+        <div class="racket-model">
+          <h2 class="nm"><button class="racket-model-link" type="button" data-who="${esc(r.id)}" aria-label="ดูข้อมูล ${esc(full(r))}">${esc(r.name)}</button></h2>
+          <p class="meta">${[r.brand, estimatedValue(r, 'year'), r.modelCode].filter(Boolean).map(esc).join(' / ')}</p>
+        </div>
+        <div class="chips racket-specs">${[estimatedValue(r, 'weights'), lab(r, 'balance'), lab(r, 'flex')].filter(Boolean).map(v => `<span>${esc(v)}</span>`).join('')}</div>
+        <div class="price racket-price">${r.price ? `<b class="fig">${est(r, 'price')}${baht(r.price)}</b>` : '<span class="small muted">ยังไม่มีราคา</span>'}${thaiRacketListing(r) ? '<span class="small muted">มีหน้าร้านไทย</span>' : ''}</div>
+        ${pick}`,
       radar: sel => ({ axes: R_AXES, series: sel.map((x, i) => ({ name: full(x), color: COLORS[i], values: racketProfile(x) })), title: 'ภาพรวมบุคลิกไม้', note: 'คำนวณจากสเปก (สมดุล ก้าน น้ำหนัก ระดับ ความตึงสูงสุด และจุดสมดุลเป็น mm เมื่อมี) ไม่ใช่คะแนนจากผู้ผลิต' }),
       bars: [
-        { label: 'น้ำหนัก', hint: 'หนักมีแรงส่ง เบาสวิงไว', get: r => Number(r.weight) || NaN, fmt: (v, r) => estimatedValue(r, 'weight', v + ' g') },
+        { label: 'น้ำหนักอ้างอิง', hint: 'อาจต่างตามเวต', get: r => Number(r.weight) || NaN, fmt: (v, r) => estimatedValue(r, 'weight', v + ' g') },
         { label: 'ราคา', hint: 'ราคาประมาณ เช็กร้านอีกที', get: r => Number(r.price) || NaN, fmt: (v, r) => estimatedValue(r, 'price', baht(v)) },
       ],
       spec: [
@@ -648,6 +647,7 @@
   const state = {
     sel: { r: [], s: [], h: [], o: [], k: [] },
     compareWeights: new Map(),
+    racketCompareTab: 'specs',
     shown: { r: 48, s: 48, h: 48, o: 48, k: 48 },
     rank: { r: null, s: null, h: null, o: null, k: null },
     // the compare sheet opens on request, so picking models never shifts the grid under the pointer
@@ -727,6 +727,18 @@
     const slot = ['attack', 'speed', 'control'];   // the three tiles' tints and places
     return `<div class="hero-art" aria-hidden="true">${cards.map((x, i) => `<span class="hcard ${slot[i]}" style="--i:${i}"><img src="${esc(x.img)}" alt="" referrerpolicy="no-referrer"><span class="hn">${esc(full(x))}</span></span>`).join('')}</div>`;
   }
+  const RACKET_COMPARE_TABS = { specs: 'ตารางสเปก', charts: 'กราฟเปรียบเทียบ', advice: 'คำแนะนำ' };
+
+  function selectRacketCompareTab(box, tab) {
+    state.racketCompareTab = tab.dataset.compareTab;
+    box.querySelectorAll('[data-compare-tab]').forEach(button => {
+      const selected = button === tab;
+      button.setAttribute('aria-selected', selected);
+      button.tabIndex = selected ? 0 : -1;
+      box.querySelector('#' + button.getAttribute('aria-controls')).hidden = !selected;
+    });
+  }
+
   function viewCompare(kind) {
     view.classList.toggle('has-hero', !!HERO[kind]);
     const rackets = kind === 'r';
@@ -738,6 +750,7 @@
       if (rackets) state.compareWeights = weights;
       state.linkSel = null;
       state.open[kind] = true;
+      if (rackets) state.racketCompareTab = 'specs';
     }
     state.sel[kind] = state.sel[kind].filter(id => byId(kind, id));
     const brands = [...new Set(items.map(x => x.brand))].sort();
@@ -819,10 +832,17 @@
       else if (el.dataset.rk === 'close') { state.rank[kind] = null; renderRank(kind); }
       else if (el.dataset.add) toggle(kind, el.dataset.add);
     };
-    view.querySelector('#cmp').addEventListener('click', e => {
+    const focusCatalog = () => {
+      flt.scrollIntoView({ behavior: reduceMotion() ? 'auto' : 'smooth', block: 'start' });
+      flt.querySelector('input[name="q"]').focus({ preventScroll: true });
+    };
+    const comparison = view.querySelector('#cmp');
+    comparison.addEventListener('click', e => {
+      const tab = e.target.closest('[data-compare-tab]');
+      if (tab) { selectRacketCompareTab(comparison, tab); return; }
       const sh = e.target.closest('[data-share]');
       if (sh) {
-        shareLink(sh, 'แชร์ลิงก์เทียบ');
+        shareLink(sh, rackets ? 'แชร์' : 'แชร์ลิงก์เทียบ');
         return;
       }
       const same = e.target.closest('[data-same]');
@@ -841,16 +861,21 @@
       }
       const el = e.target.closest('[data-axis], [data-rk], [data-add]');
       if (el) { rankAction(el); return; }
+      if (e.target.closest('[data-choose-racket]')) { focusCatalog(); return; }
       if (e.target.closest('[data-close]')) {
         state.open[kind] = false;
+        if (rackets) state.racketCompareTab = 'specs';
         renderCompare(kind);
-        flt.scrollIntoView({ behavior: reduceMotion() ? 'auto' : 'smooth', block: 'start' });
-        flt.querySelector('input[name="q"]').focus({ preventScroll: true });
+        focusCatalog();
         return;
       }
-      const x = e.target.closest('[data-rm]'); if (x) toggle(kind, x.dataset.rm);
+      const x = e.target.closest('[data-rm]');
+      if (x) {
+        toggle(kind, x.dataset.rm);
+        if (rackets) (comparison.querySelector('[aria-selected="true"]') || flt.querySelector('input[name="q"]')).focus({ preventScroll: true });
+      }
     });
-    view.querySelector('#cmp').addEventListener('change', e => {
+    comparison.addEventListener('change', e => {
       const id = e.target.dataset.compareWeight;
       if (!id || !rackets) return;
       const weight = e.target.value;
@@ -863,8 +888,18 @@
       live.textContent = cell.querySelector('strong')?.textContent || cell.textContent;
       remember(kind);
     });
-    view.querySelector('#cmp').addEventListener('keydown', e => {
-      const el = e.target.closest('[data-axis], [data-add]');
+    comparison.addEventListener('keydown', e => {
+      const tab = e.target.closest('[data-compare-tab]');
+      if (tab && ['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(e.key)) {
+        const tabs = [...tab.parentElement.querySelectorAll('[data-compare-tab]')];
+        const next = e.key === 'Home' ? 0 : e.key === 'End' ? tabs.length - 1
+          : (tabs.indexOf(tab) + (e.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length;
+        e.preventDefault();
+        selectRacketCompareTab(comparison, tabs[next]);
+        tabs[next].focus();
+        return;
+      }
+      const el = e.target.closest('[data-axis], li[data-add]');
       if (el && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); rankAction(el); }
     });
     // shortcut tiles for the first filter (playing style for rackets); they stand in for that dropdown
@@ -1060,16 +1095,18 @@
     const box = view.querySelector('#cmp');
     const rackets = kind === 'r';
     updateTray(kind);
-    if (!sel.length) state.open[kind] = false;
+    if (!sel.length) {
+      state.open[kind] = false;
+      if (rackets) state.racketCompareTab = 'specs';
+    }
     if (!sel.length || !state.open[kind]) { box.innerHTML = ''; watchSheet(); remember(kind); return; }
     const rd = cfg.radar ? cfg.radar(sel) : null;
     const gap = rd ? rd.series.map(s => { const m = rd.axes.filter((_, i) => s.values[i] == null); return m.length ? `${esc(s.name)} ขาด ${m.map(esc).join(', ')}` : ''; }).filter(Boolean).join('; ') : '';
     const fresh = !box.firstElementChild;
-    const chartsOpen = box.querySelector('.compare-charts')?.open;
     const scrollLeft = box.querySelector('.tbl-wrap')?.scrollLeft || 0;
-    const charts = `<div class="two${rd ? '' : ' solo'}">
-      ${rd ? `<div class="radar"><h3>${rd.title}</h3>${radar(rd.axes, rd.series, 340, true)}${legend(sel)}<p class="small muted">กดที่ชื่อแกนเพื่อดูอันดับ</p><p class="small muted">${rd.note}</p>${gap ? `<p class="small muted">แกนที่สเปกไม่พอจะไม่ถูกวาด: ${gap}</p>` : ''}</div>` : ''}
-      <div class="bars"><h3>กราฟเทียบ</h3>${rd ? '' : legend(sel)}${bars(cfg.bars, sel, db[kind])}</div>
+    const charts = `${rackets ? legend(sel) : ''}<div class="two${rd ? '' : ' solo'}">
+      ${rd ? `<div class="radar"><h3>${rd.title}</h3>${radar(rd.axes, rd.series, 340, true)}${rackets ? '' : legend(sel)}<p class="small muted">กดชื่อแกนเพื่อดูอันดับ</p><p class="small muted">${rd.note}</p>${gap ? `<p class="small muted">แกนที่ขาดข้อมูล: ${gap}</p>` : ''}</div>` : ''}
+      <div class="bars"><h3>${rackets ? 'น้ำหนักและราคา' : 'กราฟเทียบ'}</h3>${rd ? '' : legend(sel)}${bars(cfg.bars, sel, db[kind])}</div>
     </div><div id="rank"></div>`;
     const table = `<div class="${state.hideSame ? 'hide-same' : ''}">${specTable(cfg.spec, sel, rackets)}</div>`;
     const overview = rackets ? '' : `<div class="heads" style="grid-template-columns:repeat(${sel.length},minmax(0,1fr))">
@@ -1083,24 +1120,53 @@
           const v = k.get(x);
           return `<div>${v ? `<div class="kn"><b${v[2] ? ` class="${v[2]}"` : ''}>${esc(v[0])}</b>${v[1] ? `<span>${v[1]}</span>` : ''}</div>` : '<div class="kn"><b class="none">—</b></div>'}<span class="kl">${k.l}</span></div>`;
         }).join('')}</div>`).join('')}</div>` : ''}`;
-    box.innerHTML = `
-      <section class="panel${rackets ? ' racket-compare' : fresh ? ' fresh' : ''}">
-        ${overview}
-        <div class="sheet-tools">
-          ${rackets ? '<h2>ตารางเทียบไม้</h2>' : sel.length < 2 ? '<p class="small muted">เลือกเพิ่มอีกอย่างน้อย 1 รุ่นเพื่อเทียบ</p>' : '<span></span>'}
-          <span class="tools-r">${sel.length > 1 ? `<button class="btn sm ghost" type="button" data-same aria-pressed="${!!state.hideSame}">${rackets ? 'เฉพาะจุดต่าง' : 'ซ่อนแถวที่เหมือนกัน'}</button>` : ''}
-          ${kind === 's' ? `<button class="btn sm ghost" type="button" data-tomatch>ไปจับคู่ไม้ + เอ็น</button>` : ''}
-          <button class="btn sm${rackets ? ' ghost' : ''}" type="button" data-share>${rackets ? 'แชร์' : 'แชร์ลิงก์เทียบ'}</button>
-          <button class="btn sm ghost" type="button" data-close>${rackets ? 'ปิดตาราง' : 'ปิดผลเทียบ'}</button></span>
-        </div>
-        ${rackets ? `<details class="compare-charts"${chartsOpen ? ' open' : ''}><summary>กราฟเปรียบเทียบ</summary>${charts}</details>
-          <p class="small muted compare-guide">— ยังไม่มีข้อมูล &nbsp; ≈ ค่าประเมิน${sel.length > 1 ? ' &nbsp; + / − เทียบกับคอลัมน์แรก' : ''}</p>${table}
-          ${similar(sel)}${whoFor(sel)}` : `${charts}<p class="small muted sheet-key">ช่องที่ขึ้น — คือยังไม่มีข้อมูล ช่องที่ไฮไลต์คือค่าที่ต่างกัน ค่าที่มี ≈ คือค่าประเมิน</p>${table}`}
-      </section>`;
+    if (rackets) {
+      renderRacketCompare(box, sel, table, charts);
+    } else {
+      box.innerHTML = `
+        <section class="panel${fresh ? ' fresh' : ''}">
+          ${overview}
+          <div class="sheet-tools">
+            ${sel.length < 2 ? '<p class="small muted">เลือกเพิ่มอีกอย่างน้อย 1 รุ่นเพื่อเทียบ</p>' : '<span></span>'}
+            <span class="tools-r">${sel.length > 1 ? `<button class="btn sm ghost" type="button" data-same aria-pressed="${!!state.hideSame}">ซ่อนแถวที่เหมือนกัน</button>` : ''}
+            ${kind === 's' ? `<button class="btn sm ghost" type="button" data-tomatch>ไปจับคู่ไม้ + เอ็น</button>` : ''}
+            <button class="btn sm" type="button" data-share>แชร์ลิงก์เทียบ</button>
+            <button class="btn sm ghost" type="button" data-close>ปิดผลเทียบ</button></span>
+          </div>
+          ${charts}<p class="small muted sheet-key">ช่องที่ขึ้น — คือยังไม่มีข้อมูล ช่องที่ไฮไลต์คือค่าที่ต่างกัน ค่าที่มี ≈ คือค่าประเมิน</p>${table}
+        </section>`;
+    }
     if (scrollLeft) box.querySelector('.tbl-wrap').scrollLeft = scrollLeft;
     renderRank(kind);
     watchSheet();
     remember(kind);
+  }
+
+  function renderRacketCompare(box, sel, table, charts) {
+    const active = state.racketCompareTab;
+    const contents = {
+      specs: `<div class="compare-spec-tools">
+          <p class="small muted">— ยังไม่มีข้อมูล / ≈ ค่าประเมิน${sel.length > 1 ? ' / + หรือ − เทียบกับไม้ตัวแรก' : ''}</p>
+          ${sel.length > 1 ? `<button class="btn sm ghost" type="button" data-same aria-pressed="${!!state.hideSame}">เฉพาะจุดต่าง</button>` : ''}
+        </div>
+        <p class="compare-scroll-hint small muted" data-columns="${sel.length}">เลื่อนตารางด้านข้างเพื่อดูไม้ทุกรุ่น</p>${table}`,
+      charts,
+      advice: `${whoFor(sel)}${similar(sel)}`,
+    };
+    box.innerHTML = `<section class="panel racket-compare" aria-labelledby="racket-compare-heading">
+      <header class="compare-heading">
+        <h2 id="racket-compare-heading">เทียบไม้ <span>${sel.length} รุ่น</span></h2>
+        <div class="compare-actions">
+          <button class="btn sm ghost" type="button" data-choose-racket>เลือกรุ่น</button>
+          <button class="btn sm ghost" type="button" data-share>แชร์</button>
+          <button class="compare-remove" type="button" data-close aria-label="ปิดผลเทียบ">×</button>
+        </div>
+      </header>
+      <div class="compare-tabs" role="tablist" aria-label="ผลเปรียบเทียบไม้แบด">${Object.entries(RACKET_COMPARE_TABS).map(([id, label]) =>
+        `<button id="compare-tab-${id}" type="button" role="tab" data-compare-tab="${id}" aria-selected="${id === active}" aria-controls="compare-panel-${id}" tabindex="${id === active ? 0 : -1}">${label}</button>`).join('')}</div>
+      ${Object.entries(contents).map(([id, content]) =>
+        `<div id="compare-panel-${id}" class="compare-panel" role="tabpanel" aria-labelledby="compare-tab-${id}" tabindex="0"${id === active ? '' : ' hidden'}>${content}</div>`).join('')}
+    </section>`;
   }
 
   // ---------- rackets like the ones picked: nearest on the radar profile, then the cheaper of the close ones ----------
@@ -1235,7 +1301,8 @@
     const panel = view.querySelector('#cmp .panel');
     tray.classList.remove('away');
     if (!panel || !('IntersectionObserver' in window)) return;
-    sheetSeen = new IntersectionObserver(([e]) => tray.classList.toggle('away', e.isIntersecting), { threshold: 0.15 });
+    const threshold = panel.classList.contains('racket-compare') ? 0 : 0.15;
+    sheetSeen = new IntersectionObserver(([e]) => tray.classList.toggle('away', e.isIntersecting), { threshold });
     sheetSeen.observe(panel);
   }
   const live = document.getElementById('live');
@@ -1260,7 +1327,7 @@
         state.open[kind] = true;
         renderCompare(kind);
         view.querySelector('#cmp').scrollIntoView({ behavior: reduceMotion() ? 'auto' : 'smooth', block: 'start' });
-        if (kind === 'r') view.querySelector('.racket-compare .tbl-wrap').focus({ preventScroll: true });
+        if (kind === 'r') view.querySelector('.compare-tabs [aria-selected="true"]').focus({ preventScroll: true });
       }
       if (a === 'clear') {
         state.sel[kind] = [];
